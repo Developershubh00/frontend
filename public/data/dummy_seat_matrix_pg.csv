@@ -1,0 +1,21 @@
+State,Institute,Course,Quota,Total_Seats,General,OBC,SC,ST,EWS,PWD
+Delhi,AIIMS New Delhi,MD General Medicine,All India,25,13,7,3,1,1,0
+Delhi,AIIMS New Delhi,MD Pediatrics,All India,20,11,5,2,1,1,0
+Delhi,AIIMS New Delhi,MS General Surgery,All India,18,10,5,2,1,0,0
+Chandigarh,PGIMER Chandigarh,MD Anesthesiology,All India,15,8,4,2,1,0,0
+Chandigarh,PGIMER Chandigarh,MD Radiology,All India,12,7,3,1,1,0,0
+Karnataka,NIMHANS Bangalore,MD Psychiatry,All India,22,12,6,3,1,0,0
+Tamil Nadu,CMC Vellore,MD Pathology,All India,14,8,4,1,1,0,0
+Uttar Pradesh,SGPGIMS Lucknow,MS Orthopedics,All India,16,9,4,2,1,0,0
+Maharashtra,KEM Hospital Mumbai,MD Dermatology,State Quota,10,5,3,1,1,0,0
+Karnataka,Bangalore Medical College,MD Ophthalmology,State Quota,8,4,2,1,1,0,0
+Tamil Nadu,Madras Medical College,MS ENT,State Quota,12,6,3,2,1,0,0
+Gujarat,BJ Medical College,MD Emergency Medicine,State Quota,14,7,4,2,1,0,0
+Rajasthan,SMS Medical College,MD Cardiology,State Quota,6,3,2,1,0,0,0
+Punjab,Government Medical College,MD Neurology,State Quota,8,4,2,1,1,0,0
+Haryana,PGIMS Rohtak,MD Gastroenterology,State Quota,10,5,3,1,1,0,0
+West Bengal,Medical College Kolkata,MS Plastic Surgery,State Quota,5,3,1,1,0,0,0
+Odisha,SCB Medical College,MD Pulmonology,State Quota,7,4,2,1,0,0,0
+Assam,Gauhati Medical College,MD Nephrology,State Quota,6,3,2,1,0,0,0
+Bihar,Patna Medical College,MD Endocrinology,State Quota,4,2,1,1,0,0,0
+Jharkhand,Rajendra Institute,MD Rheumatology,State Quota,3,2,1,0,0,0,0

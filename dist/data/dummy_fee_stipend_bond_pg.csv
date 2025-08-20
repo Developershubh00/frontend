@@ -1,0 +1,21 @@
+State,Institute,Course,Quota,Fee,Stipend_Year_1,Bond_Years,Bond_Penalty,Beds
+Delhi,AIIMS New Delhi,MD General Medicine,All India,₹1628,₹80000,0,₹0,1200
+Delhi,AIIMS New Delhi,MD Pediatrics,All India,₹1628,₹80000,0,₹0,1200
+Delhi,AIIMS New Delhi,MS General Surgery,All India,₹1628,₹80000,0,₹0,1200
+Chandigarh,PGIMER Chandigarh,MD Anesthesiology,All India,₹10000,₹75000,0,₹0,950
+Chandigarh,PGIMER Chandigarh,MD Radiology,All India,₹10000,₹75000,0,₹0,950
+Karnataka,NIMHANS Bangalore,MD Psychiatry,All India,₹20000,₹70000,0,₹0,800
+Tamil Nadu,CMC Vellore,MS General Surgery,All India,₹50000,₹65000,0,₹0,1100
+Uttar Pradesh,SGPGIMS Lucknow,MD Anesthesiology,All India,₹50000,₹68000,0,₹0,750
+Maharashtra,KEM Hospital Mumbai,MD Radiology,State Quota,₹85000,₹95000,2,₹500000,1200
+Karnataka,Bangalore Medical College,MD Pathology,State Quota,₹45000,₹78000,3,₹750000,850
+Tamil Nadu,Madras Medical College,MS Orthopedics,State Quota,₹35000,₹65000,1,₹300000,1500
+Gujarat,BJ Medical College,MD Dermatology,State Quota,₹95000,₹88000,0,₹0,950
+Rajasthan,SMS Medical College,MD Ophthalmology,State Quota,₹125000,₹92000,2,₹600000,1100
+Punjab,Government Medical College,MD Emergency Medicine,State Quota,₹75000,₹85000,3,₹800000,750
+Haryana,PGIMS Rohtak,MS ENT,State Quota,₹65000,₹72000,2,₹450000,900
+West Bengal,Medical College Kolkata,MD Ophthalmology,State Quota,₹115000,₹89000,2,₹550000,1800
+Odisha,SCB Medical College,MD Emergency Medicine,State Quota,₹85000,₹76000,0,₹0,800
+Assam,Gauhati Medical College,MD Pediatrics,State Quota,₹31000,₹68000,1,₹200000,650
+Bihar,Patna Medical College,MD General Medicine,State Quota,₹95000,₹72000,2,₹400000,750
+Jharkhand,Rajendra Institute,MS General Surgery,State Quota,₹105000,₹65000,1,₹350000,600
