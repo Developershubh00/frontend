@@ -368,8 +368,8 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
               <button className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white hover:bg-blue-600 transition-all duration-300 transform hover:scale-110 shadow-lg">
                 <Send className="w-6 h-6" />
               </button>
-            </div>
-          </div> */}
+            </div> */}
+          </div>
           
           {/* Desktop Layout */}
           <div className="hidden xl:block text-center">
