@@ -160,7 +160,7 @@ function Homepage() {
       highlight: "STRATEGIES FOR ROUND 2",
     },
     {
-      title: "Webinars & Video Guides",
+      title: "Webinars & Live Doubt Sessions",
       description:
         "Get expert strategies and answers — tailored for each counselling and round.",
       color: "border-orange-300 bg-orange-50",
@@ -169,7 +169,7 @@ function Homepage() {
       highlight: "Webinars & Video Guides",
     },
     {
-      title: "Choice List builder",
+      title: "Rank College Predictor",
       description: "Fine tune your choice list before facing the D day.",
       color: "border-red-300 bg-red-50",
       textColor: "text-red-800",
@@ -655,11 +655,11 @@ function Homepage() {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-12">
               <div className="flex items-center bg-green-100 text-green-800 px-6 py-3 rounded-full font-semibold">
                 <Phone className="w-5 h-5 mr-2" />
-                <span>Talk to an expert: 080-690-36000</span>
+                <span>Talk to an expert: +91 9211724969</span>
               </div>
               <div className="flex items-center bg-blue-100 text-blue-800 px-6 py-3 rounded-full font-semibold">
                 <Mail className="w-5 h-5 mr-2" />
-                <span>Email us: hello@bdcounsels.com</span>
+                <span>Email us: connect@bdcounsels.com</span>
               </div>
             </div>
 
@@ -874,7 +874,7 @@ function Homepage() {
         </div>
       </section>
 
-      {/* FAQ Section */}
+      {/* FAQ Section
       <section className="py-24 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-20">
@@ -920,7 +920,7 @@ function Homepage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-20">
@@ -934,6 +934,7 @@ function Homepage() {
                 <span className="text-2xl font-bold">BD Counsels</span>
               </div>
               <p className="text-gray-400 mb-8 leading-relaxed">
+                Powered by Believers Destination
                 Your ultimate guide to NEET UG & NEET PG counselling. 100% free
                 access to all resources and expert guidance.
               </p>
@@ -1077,7 +1078,7 @@ function Homepage() {
 
           <div className="border-t border-gray-800 mt-16 pt-8 text-center text-gray-400">
             <p>
-              &copy; 2024 BD Counsels. All rights reserved. | Empowering
+              &copy; 2025 BD Counsels. All rights reserved. | Empowering
               students with free counselling guidance.
             </p>
           </div>

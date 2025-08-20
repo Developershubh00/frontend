@@ -179,7 +179,7 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
         <div className="mb-6">
           <h3 className="text-sm font-bold text-slate-800 mb-3">Timeline</h3>
           <div className="space-y-2">
-            {neetPGUpdates.slice(0, 4).map((update) => (
+            {neetPGUpdates.slice(0, 8).map((update) => (
               <div key={update.id} className="flex items-start space-x-2">
                 <div className={`w-2 h-2 rounded-full mt-2 flex-shrink-0 ${
                   update.status === "completed" ? "bg-green-500" :
