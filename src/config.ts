@@ -2,13 +2,13 @@
 export const config = {
   // Development URLs
   development: {
-    apiUrl: "http://127.0.0.1:8000/",
-    staticUrl: "http://127.0.0.1:8000/static/",
+    apiUrl: "http://bdcounsels.com/",
+    staticUrl: "http://bdcounsels.com/static/",
   },
   // Production URLs (update these with your actual URLs)
   production: {
-    apiUrl: "https://bd-counselling-backend.onrender.com/",
-    staticUrl: "https://bd-counselling-backend.onrender.com/static/",
+    apiUrl: "https://backend-dju9.onrender.com/",
+    staticUrl: "https://backend-dju9.onrender.com/static/",
   },
 };
 
