@@ -10,7 +10,7 @@ const PGResultsModal: React.FC<PGResultsModalProps> = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
 
   const handleCheckResults = () => {
-    window.open('https://examinationservices.nic.in/resultservices/Neet2025/Login', '_blank');
+    window.open('https://natboard.edu.in/natboard-data/pdf/NEETPG2025RESULT/NEET-PG%202025%20Notice%20Board%20Result%20-%2019.08.2025%20-%20DS.pdf', '_blank');
     onClose();
   };
 

@@ -132,7 +132,7 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
               </div>
             </div>
             <button 
-              onClick={() => window.open('https://examinationservices.nic.in/resultservices/Neet2025/Login', '_blank')}
+              onClick={() => window.open('https://natboard.edu.in/natboard-data/pdf/NEETPG2025RESULT/NEET-PG%202025%20Notice%20Board%20Result%20-%2019.08.2025%20-%20DS.pdf', '_blank')}
               className="w-full mt-2 bg-white/20 backdrop-blur-sm px-3 py-2 rounded-lg hover:bg-white/30 transition-all duration-200 text-xs font-medium"
             >
               Check Results Now
@@ -235,7 +235,7 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
               <span className="text-xs font-medium text-slate-800">MCC Counselling Portal</span>
             </a>
             <a 
-              href="https://examinationservices.nic.in/resultservices/Neet2025/Login"
+              href="https://natboard.edu.in/natboard-data/pdf/NEETPG2025RESULT/NEET-PG%202025%20Notice%20Board%20Result%20-%2019.08.2025%20-%20DS.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="block p-2 bg-slate-50 hover:bg-slate-100 rounded-lg transition-colors"

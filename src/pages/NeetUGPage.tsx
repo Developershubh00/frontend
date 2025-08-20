@@ -27,7 +27,7 @@ const NeetUGPage: React.FC = () => {
       action: "Get Result Now",
       onClick: () => {
         window.open(
-          "https://examinationservices.nic.in/resultservices/Neet2025/Login",
+          "https://natboard.edu.in/natboard-data/pdf/NEETPG2025RESULT/NEET-PG%202025%20Notice%20Board%20Result%20-%2019.08.2025%20-%20DS.pdf",
           "_blank"
         );
       },
