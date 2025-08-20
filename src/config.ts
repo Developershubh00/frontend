@@ -2,8 +2,8 @@
 export const config = {
   // Development URLs
   development: {
-    apiUrl: "https://bdcounsels.com/",
-    staticUrl: "https://bdcounsels.com/static/",
+    apiUrl: "https://backend-dju9.onrender.com/",
+    staticUrl: "https://backend-dju9.onrender.com/static/",
   },
   // Production URLs (update these with your actual URLs)
   production: {
