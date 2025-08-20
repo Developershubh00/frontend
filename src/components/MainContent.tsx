@@ -202,28 +202,28 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
   // Timeline steps for Counselling process
   const timelineSteps = dashboardData?.timeline || [
     {
-      date: "SEP 20 2024",
+      date: "SEP 20 2025",
       title: "Round 2 Joining",
       subtitle: "Start Date",
-      status: "completed",
+      status: "Coming Soon",
     },
     {
-      date: "SEP 27 2024",
+      date: "SEP 27 2025",
       title: "Round 2 Joining",
       subtitle: "End Date",
-      status: "completed",
+      status: "Coming Soon",
     },
     {
-      date: "OCT 8 2024",
+      date: "OCT 8 2025",
       title: "Round 3 Registration",
       subtitle: "Start Date",
-      status: "current",
+      status: "Coming Soon",
     },
     {
-      date: "OCT 11 2024",
+      date: "OCT 11 2025",
       title: "Round 3 Registration",
       subtitle: "End Date",
-      status: "pending",
+      status: "pComing Soon",
     },
   ];
 
@@ -361,7 +361,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
               ))}
             </div>
 
-            <div className="flex justify-center space-x-3">
+            {/* <div className="flex justify-center space-x-3">
               <button className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center text-white hover:bg-green-600 transition-all duration-300 transform hover:scale-110 shadow-lg">
                 <MessageCircle className="w-6 h-6" />
               </button>
@@ -369,7 +369,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
                 <Send className="w-6 h-6" />
               </button>
             </div>
-          </div>
+          </div> */}
           
           {/* Desktop Layout */}
           <div className="hidden xl:block text-center">
