@@ -338,7 +338,7 @@ function Homepage() {
               <div className="flex items-center space-x-4">
                 <div className="flex items-center space-x-2 text-sm text-gray-600">
                   <Phone className="w-4 h-4" />
-                  <span>091-9888-99698</span>
+                  <span>091-9211724969</span>
                 </div>
                 <button 
                 onClick={() => navigate("/login")}
