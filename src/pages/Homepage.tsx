@@ -1078,7 +1078,7 @@ function Homepage() {
 
           <div className="border-t border-gray-800 mt-16 pt-8 text-center text-gray-400">
             <p>
-              &copy; 2025 BD Counsels. All rights reserved. | Empowering
+              &copy; 2025 Believers Destination. All rights reserved. | Empowering
               students with free counselling guidance.
             </p>
           </div>
