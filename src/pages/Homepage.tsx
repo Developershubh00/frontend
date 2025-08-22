@@ -86,7 +86,7 @@ function Homepage() {
       description:
         "Last Year's Cutoffs Won't Save You. You need multi-year trends, current seat data, and insights on how others are choosing.",
       image:
-        "https://images.pexels.com/photos/5212345/pexels-photo-5212345.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+        "https://cdn.dribbble.com/userupload/44607895/file/327f24d24f6b108c5f7b38e04073b0eb.png?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
       color: "from-red-100 to-red-200",
     },
     {
@@ -94,7 +94,7 @@ function Homepage() {
       description:
         "Every state/counselling/quota has its own rules, fees, and eligibility, and they change every round.",
       image:
-        "https://images.pexels.com/photos/5427673/pexels-photo-5427673.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+        "https://cdn.dribbble.com/userupload/44607901/file/912abc91dec5f2e032594032bc4477b0.png?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
       color: "from-blue-100 to-blue-200",
     },
     {
@@ -102,7 +102,7 @@ function Homepage() {
       description:
         "All India Quota, State Quota, Deemed, Private, MBBS or BDS? Each path affects your fees, choices and future.",
       image:
-        "https://images.pexels.com/photos/5212703/pexels-photo-5212703.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+        "https://cdn.dribbble.com/userupload/44607896/file/45b1ee4774ed8b506cca29f3ecc6c648.jpg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
       color: "from-purple-100 to-purple-200",
     },
     {
@@ -110,7 +110,7 @@ function Homepage() {
       description:
         "160,000+ seats. 1000+ colleges. You need to find the ones that fit your rank, budget, and goals.",
       image:
-        "https://images.pexels.com/photos/5428833/pexels-photo-5428833.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+        "https://cdn.dribbble.com/userupload/44607898/file/08a4bec8bff2268a7bcfa4c9c73cc279.webp?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
       color: "from-green-100 to-green-200",
     },
     {
@@ -118,7 +118,7 @@ function Homepage() {
       description:
         "From Telegram tips to WhatsApp groups, everyone has unreliable opinions while official data is scattered and hard to decode.",
       image:
-        "https://images.pexels.com/photos/5212317/pexels-photo-5212317.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+        "https://cdn.dribbble.com/userupload/44607902/file/3bd5ff1cc6334594981fb3b082a79125.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
       color: "from-yellow-100 to-yellow-200",
     },
     {
@@ -126,7 +126,7 @@ function Homepage() {
       description:
         "A single mistake in your choice list can set you back. You're expected to make confident decisions on the 1st try.",
       image:
-        "https://images.pexels.com/photos/5427646/pexels-photo-5427646.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+        "https://cdn.dribbble.com/userupload/44607893/file/487dd57b87ebd1b5e137edfea43df826.jpg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
       color: "from-indigo-100 to-indigo-200",
     },
   ];
