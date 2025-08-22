@@ -493,7 +493,7 @@ function Homepage() {
               <div className="absolute inset-0 bg-gradient-to-br from-orange-500/10 to-red-500/10 rounded-[50px]"></div>
               <div className="relative p-8">
                 <img
-                  src="https://images.pexels.com/photos/5212345/pexels-photo-5212345.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop"
+                  src="https://cdn.dribbble.com/userupload/44607602/file/59e8f7cba815e15a4c7a645f26af0bdb.jpg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop"
                   alt="BD Counsels Dashboard Preview"
                   className="w-full h-auto rounded-[30px] shadow-lg"
                   style={{ aspectRatio: "16/10" }}
