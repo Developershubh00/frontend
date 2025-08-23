@@ -22,6 +22,6 @@ export const currentConfig = isDevelopment ? config.development : config.product
 export const ENV = {
   VITE_API_URL: import.meta.env.VITE_API_URL || currentConfig.apiUrl,
   VITE_STATIC_URL: import.meta.env.VITE_STATIC_URL || currentConfig.staticUrl,
-  VITE_APP_NAME: import.meta.env.VITE_APP_NAME || "BD Counsels",
+  VITE_APP_NAME: import.meta.env.VITE_APP_NAME || "Believers Consultancy",
   VITE_APP_VERSION: import.meta.env.VITE_APP_VERSION || "1.0.0",
 };

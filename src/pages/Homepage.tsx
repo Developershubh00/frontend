@@ -195,7 +195,7 @@
 //         "Dr. Uttam Patil Medical College and Hospital Jalgaon, Maharashtra",
 //       rating: 5,
 //       review:
-//         "BD Counsels excels at providing instant notifications about counselling schedules, seat matrix changes, and deadlines. This real-time accuracy reduces stress and keeps users ahead in the fast-paced counselling process.",
+//         "Believers Consultancy excels at providing instant notifications about counselling schedules, seat matrix changes, and deadlines. This real-time accuracy reduces stress and keeps users ahead in the fast-paced counselling process.",
 //       detailedReview:
 //         "Detailed profiles of medical colleges including seat availability, fees, specialties, and cutoff trends empower users to make informed decisions. The inclusion of historical data adds immense value for strategic choices.",
 //       image:
@@ -209,7 +209,7 @@
 //       location: "Government Medical College",
 //       rating: 5,
 //       review:
-//         "BD Counsels is a must have. It makes analysing previous year cut-offs easy and you will find what you are looking for within a few clicks.",
+//         "Believers Consultancy is a must have. It makes analysing previous year cut-offs easy and you will find what you are looking for within a few clicks.",
 //       detailedReview:
 //         "If we had known about this app 2-3 years back, would have definitely got a better seat. I am really surprised how completely contented with the data and work you have put out in the app/website.",
 //       image:
@@ -225,7 +225,7 @@
 //       review:
 //         "My son got admitted at K.S. Hegde Mangalore in Radio Diagnostic in the very first round.",
 //       detailedReview:
-//         "It is a wholesome package suggested for everyone who wants to be clear and precise in their journey of counselling. Thank You BD Counsels.",
+//         "It is a wholesome package suggested for everyone who wants to be clear and precise in their journey of counselling. Thank You Believers Consultancy.",
 //       image:
 //         "https://images.pexels.com/photos/5452274/pexels-photo-5452274.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
 //       verified: true,
@@ -236,9 +236,9 @@
 //       specialty: "NEET Counselling Support",
 //       location: "Mumbai",
 //       rating: 5,
-//       review: "Thank You BD Counsels ❤️",
+//       review: "Thank You Believers Consultancy ❤️",
 //       detailedReview:
-//         "The guidance and support provided throughout the counselling process was exceptional. My daughter secured her dream seat with BD Counsels guidance.",
+//         "The guidance and support provided throughout the counselling process was exceptional. My daughter secured her dream seat with Believers Consultancy guidance.",
 //       image:
 //         "https://images.pexels.com/photos/5452201/pexels-photo-5452201.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
 //       verified: true,
@@ -250,7 +250,7 @@
 //       location: "Government Medical College",
 //       rating: 5,
 //       review:
-//         "BD Counsels made my NEET counselling journey smooth and stress-free.",
+//         "Believers Consultancy made my NEET counselling journey smooth and stress-free.",
 //       detailedReview:
 //         "The comprehensive data analysis and expert guidance helped me make informed decisions. Highly recommend to all NEET aspirants.",
 //       image:
@@ -262,19 +262,19 @@
 //   const faqs = [
 //     {
 //       question:
-//         "Isn't this information already available for free? Why BD Counsels?",
+//         "Isn't this information already available for free? Why Believers Consultancy?",
 //       answer:
-//         "While basic information exists scattered across various sources, BD Counsels consolidates everything into one comprehensive, user-friendly platform. We provide analyzed data, predictions, and personalized guidance that saves you countless hours of research. Everything is completely FREE - just login and access all features!",
+//         "While basic information exists scattered across various sources, Believers Consultancy consolidates everything into one comprehensive, user-friendly platform. We provide analyzed data, predictions, and personalized guidance that saves you countless hours of research. Everything is completely FREE - just login and access all features!",
 //     },
 //     {
-//       question: "How accurate is the data provided on BD Counsels?",
+//       question: "How accurate is the data provided on Believers Consultancy?",
 //       answer:
 //         "Our data is sourced directly from official counselling authorities and updated in real-time. We maintain 99%+ accuracy and cross-verify all information through multiple official channels.",
 //     },
 //     {
 //       question: "Is this completely free? Are there any hidden charges?",
 //       answer:
-//         "Absolutely! BD Counsels is 100% free. Just create an account and access all features, tools, and resources without any payment or subscription required. No hidden charges, no premium plans - everything is FREE!",
+//         "Absolutely! Believers Consultancy is 100% free. Just create an account and access all features, tools, and resources without any payment or subscription required. No hidden charges, no premium plans - everything is FREE!",
 //     },
 //     {
 //       question: "Can I get updates for both NEET UG and NEET PG counselling?",
@@ -283,17 +283,17 @@
 //     },
 //     {
 //       question:
-//         "How is BD Counsels useful if I've already started counselling?",
+//         "How is Believers Consultancy useful if I've already started counselling?",
 //       answer:
 //         "Even mid-counselling, our tools help you make better choices in subsequent rounds, understand upgrade possibilities, calculate financial implications, and avoid common mistakes that could cost you your preferred seat.",
 //     },
 //     {
 //       question: "Is there a mobile app available?",
 //       answer:
-//         "Currently, BD Counsels is optimized for web browsers on all devices. Our responsive design ensures you get the complete experience on mobile, tablet, or desktop.",
+//         "Currently, Believers Consultancy is optimized for web browsers on all devices. Our responsive design ensures you get the complete experience on mobile, tablet, or desktop.",
 //     },
 //     {
-//       question: "What does BD Counsels access include?",
+//       question: "What does Believers Consultancy access include?",
 //       answer:
 //         "Complete FREE access includes: Real-time cut-off data, seat matrix analysis, fee calculators, choice list builders, expert webinars, round-wise strategies, college comparisons, and 24/7 doubt resolution support.",
 //     },
@@ -320,7 +320,7 @@
 //                 <span className="text-white font-bold text-lg">BD</span>
 //               </div>
 //               <span className="text-2xl font-bold text-gray-900">
-//                 BD Counsels
+//                 Believers Consultancy
 //               </span>
 //             </div>
 
@@ -494,7 +494,7 @@
 //               <div className="relative p-8">
 //                 <img
 //                   src="https://cdn.dribbble.com/userupload/44607602/file/59e8f7cba815e15a4c7a645f26af0bdb.jpg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop"
-//                   alt="BD Counsels Dashboard Preview"
+//                   alt="Believers Consultancy Dashboard Preview"
 //                   className="w-full h-auto rounded-[30px] shadow-lg"
 //                   style={{ aspectRatio: "16/10" }}
 //                   loading="eager"
@@ -502,7 +502,7 @@
 //                 <div className="absolute inset-8 bg-gradient-to-t from-black/20 to-transparent rounded-[30px] pointer-events-none"></div>
 //                 <div className="absolute bottom-16 left-16 text-white">
 //                   <h3 className="text-3xl font-bold mb-2">
-//                     BD Counsels Dashboard
+//                     Believers Consultancy Dashboard
 //                   </h3>
 //                   <p className="text-xl opacity-40">
 //                     Your complete NEET counselling companion
@@ -600,7 +600,7 @@
 //             }`}
 //           >
 //             <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-//               Say hello 👋 to BD Counsels
+//               Say hello 👋 to Believers Consultancy
 //             </h2>
 //             <p className="text-xl text-gray-600 leading-relaxed">
 //               The most effective way to choose your best seat.
@@ -816,7 +816,7 @@
 //                             "{review.detailedReview}"
 //                           </p>
 //                           <div className="mt-4 text-orange-200 font-semibold">
-//                             Thank You BD Counsels ❤️
+//                             Thank You Believers Consultancy ❤️
 //                           </div>
 //                         </div>
 //                       </div>
@@ -931,7 +931,7 @@
 //                 <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-red-500 rounded-xl flex items-center justify-center shadow-lg">
 //                   <span className="text-white font-bold text-lg">BD</span>
 //                 </div>
-//                 <span className="text-2xl font-bold">BD Counsels</span>
+//                 <span className="text-2xl font-bold">Believers Consultancy</span>
 //               </div>
 //               <p className="text-gray-400 mb-8 leading-relaxed">
 //                 Powered by Believers Destination
@@ -1298,7 +1298,7 @@ function Homepage() {
         "Dr. Uttam Patil Medical College and Hospital Jalgaon, Maharashtra",
       rating: 5,
       review:
-        "BD Counsels excels at providing instant notifications about counselling schedules, seat matrix changes, and deadlines. This real-time accuracy reduces stress and keeps users ahead in the fast-paced counselling process.",
+        "Believers Consultancy excels at providing instant notifications about counselling schedules, seat matrix changes, and deadlines. This real-time accuracy reduces stress and keeps users ahead in the fast-paced counselling process.",
       detailedReview:
         "Detailed profiles of medical colleges including seat availability, fees, specialties, and cutoff trends empower users to make informed decisions. The inclusion of historical data adds immense value for strategic choices.",
       image:
@@ -1312,7 +1312,7 @@ function Homepage() {
       location: "Government Medical College",
       rating: 5,
       review:
-        "BD Counsels is a must have. It makes analysing previous year cut-offs easy and you will find what you are looking for within a few clicks.",
+        "Believers Consultancy is a must have. It makes analysing previous year cut-offs easy and you will find what you are looking for within a few clicks.",
       detailedReview:
         "If we had known about this app 2-3 years back, would have definitely got a better seat. I am really surprised how completely contented with the data and work you have put out in the app/website.",
       image:
@@ -1328,7 +1328,7 @@ function Homepage() {
       review:
         "My son got admitted at K.S. Hegde Mangalore in Radio Diagnostic in the very first round.",
       detailedReview:
-        "It is a wholesome package suggested for everyone who wants to be clear and precise in their journey of counselling. Thank You BD Counsels.",
+        "It is a wholesome package suggested for everyone who wants to be clear and precise in their journey of counselling. Thank You Believers Consultancy.",
       image:
         "https://images.pexels.com/photos/5452274/pexels-photo-5452274.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
       verified: true,
@@ -1339,9 +1339,9 @@ function Homepage() {
       specialty: "NEET Counselling Support",
       location: "Mumbai",
       rating: 5,
-      review: "Thank You BD Counsels ❤️",
+      review: "Thank You Believers Consultancy ❤️",
       detailedReview:
-        "The guidance and support provided throughout the counselling process was exceptional. My daughter secured her dream seat with BD Counsels guidance.",
+        "The guidance and support provided throughout the counselling process was exceptional. My daughter secured her dream seat with Believers Consultancy guidance.",
       image:
         "https://images.pexels.com/photos/5452201/pexels-photo-5452201.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
       verified: true,
@@ -1353,7 +1353,7 @@ function Homepage() {
       location: "Government Medical College",
       rating: 5,
       review:
-        "BD Counsels made my NEET counselling journey smooth and stress-free.",
+        "Believers Consultancy made my NEET counselling journey smooth and stress-free.",
       detailedReview:
         "The comprehensive data analysis and expert guidance helped me make informed decisions. Highly recommend to all NEET aspirants.",
       image:
@@ -1365,19 +1365,19 @@ function Homepage() {
   const faqs = [
     {
       question:
-        "Isn't this information already available for free? Why BD Counsels?",
+        "Isn't this information already available for free? Why Believers Consultancy?",
       answer:
-        "While basic information exists scattered across various sources, BD Counsels consolidates everything into one comprehensive, user-friendly platform. We provide analyzed data, predictions, and personalized guidance that saves you countless hours of research. Everything is completely FREE - just login and access all features!",
+        "While basic information exists scattered across various sources, Believers Consultancy consolidates everything into one comprehensive, user-friendly platform. We provide analyzed data, predictions, and personalized guidance that saves you countless hours of research. Everything is completely FREE - just login and access all features!",
     },
     {
-      question: "How accurate is the data provided on BD Counsels?",
+      question: "How accurate is the data provided on Believers Consultancy?",
       answer:
         "Our data is sourced directly from official counselling authorities and updated in real-time. We maintain 99%+ accuracy and cross-verify all information through multiple official channels.",
     },
     {
       question: "Is this completely free? Are there any hidden charges?",
       answer:
-        "Absolutely! BD Counsels is 100% free. Just create an account and access all features, tools, and resources without any payment or subscription required. No hidden charges, no premium plans - everything is FREE!",
+        "Absolutely! Believers Consultancy is 100% free. Just create an account and access all features, tools, and resources without any payment or subscription required. No hidden charges, no premium plans - everything is FREE!",
     },
     {
       question: "Can I get updates for both NEET UG and NEET PG counselling?",
@@ -1386,17 +1386,17 @@ function Homepage() {
     },
     {
       question:
-        "How is BD Counsels useful if I've already started counselling?",
+        "How is Believers Consultancy useful if I've already started counselling?",
       answer:
         "Even mid-counselling, our tools help you make better choices in subsequent rounds, understand upgrade possibilities, calculate financial implications, and avoid common mistakes that could cost you your preferred seat.",
     },
     {
       question: "Is there a mobile app available?",
       answer:
-        "Currently, BD Counsels is optimized for web browsers on all devices. Our responsive design ensures you get the complete experience on mobile, tablet, or desktop.",
+        "Currently, Believers Consultancy is optimized for web browsers on all devices. Our responsive design ensures you get the complete experience on mobile, tablet, or desktop.",
     },
     {
-      question: "What does BD Counsels access include?",
+      question: "What does Believers Consultancy access include?",
       answer:
         "Complete FREE access includes: Real-time cut-off data, seat matrix analysis, fee calculators, choice list builders, expert webinars, round-wise strategies, college comparisons, and 24/7 doubt resolution support.",
     },
@@ -1423,7 +1423,7 @@ function Homepage() {
                 <span className="text-white font-bold text-lg">BD</span>
               </div>
               <span className="text-2xl font-bold text-gray-900">
-                BD Counsels
+                Believers Consultancy
               </span>
             </div>
 
@@ -1589,7 +1589,7 @@ function Homepage() {
                 {/* Desktop Image */}
                 <img
                   src="https://cdn.dribbble.com/userupload/44607602/file/59e8f7cba815e15a4c7a645f26af0bdb.jpg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop"
-                  alt="BD Counsels Dashboard Preview"
+                  alt="Believers Consultancy Dashboard Preview"
                   className="w-full h-auto rounded-[30px] shadow-lg hidden md:block"
                   style={{ aspectRatio: "16/10" }}
                   loading="eager"
@@ -1597,7 +1597,7 @@ function Homepage() {
                 {/* Mobile Image */}
                 <img
                   src="https://cdn.dribbble.com/userupload/44607602/file/59e8f7cba815e15a4c7a645f26af0bdb.jpg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
-                  alt="BD Counsels Dashboard Preview"
+                  alt="Believers Consultancy Dashboard Preview"
                   className="w-full h-auto rounded-[30px] shadow-lg md:hidden"
                   style={{ aspectRatio: "3/2" }}
                   loading="eager"
@@ -1605,7 +1605,7 @@ function Homepage() {
                 <div className="absolute inset-6 bg-gradient-to-t from-black/20 to-transparent rounded-[30px] pointer-events-none"></div>
                 <div className="absolute bottom-6 left-6 md:bottom-12 md:left-12 text-white">
                   <h3 className="text-2xl md:text-3xl font-bold mb-2">
-                    BD Counsels Dashboard
+                    Believers Consultancy Dashboard
                   </h3>
                   <p className="text-lg md:text-xl opacity-90">
                     Your complete NEET counselling companion
@@ -1715,7 +1715,7 @@ function Homepage() {
             }`}
           >
             <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-              Say hello 👋 to BD Counsels
+              Say hello 👋 to Believers Consultancy
             </h2>
             <p className="text-xl text-gray-600 leading-relaxed">
               The most effective way to choose your best seat.
@@ -1931,7 +1931,7 @@ function Homepage() {
                             "{review.detailedReview}"
                           </p>
                           <div className="mt-4 text-orange-200 font-semibold">
-                            Thank You BD Counsels ❤️
+                            Thank You Believers Consultancy ❤️
                           </div>
                         </div>
                       </div>
@@ -1979,7 +1979,7 @@ function Homepage() {
                 <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-red-500 rounded-xl flex items-center justify-center shadow-lg">
                   <span className="text-white font-bold text-lg">BD</span>
                 </div>
-                <span className="text-2xl font-bold">BD Counsels</span>
+                <span className="text-2xl font-bold">Believers Consultancy</span>
               </div>
               <p className="text-gray-400 mb-8 leading-relaxed">
                 Powered by Believers Destination
