@@ -425,9 +425,7 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
   const itemsPerPage = 50;
 
   // CSV file location - Multiple fallback paths to try
-  const csvFilePaths = [
-    '/public/data/Seat_Matrix.csv'  // If placed directly in public folder
-  ];
+   const csvFilePath = '/public/data/seat_matrix.csv';
 
   // Fetch and parse CSV data with multiple fallback paths
   useEffect(() => {
