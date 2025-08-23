@@ -1420,7 +1420,7 @@ function Homepage() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-3">
               <div className="w-10 h-10 bg-gradient-to-r from-orange-500 to-red-500 rounded-xl flex items-center justify-center shadow-lg">
-                <span className="text-white font-bold text-lg">BD</span>
+                <span className="text-white font-bold text-lg">BC</span>
               </div>
               <span className="text-2xl font-bold text-gray-900">
                 Believers Consultancy
@@ -1774,7 +1774,7 @@ function Homepage() {
               </div>
               <div className="flex items-center bg-blue-100 text-blue-800 px-6 py-3 rounded-full font-semibold">
                 <Mail className="w-5 h-5 mr-2" />
-                <span>Email us: connect@bdcounsels.com</span>
+                <span>Email us: connect@believersconsultancy.com</span>
               </div>
             </div>
 
