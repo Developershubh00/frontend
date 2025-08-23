@@ -72,7 +72,7 @@ const Header: React.FC<HeaderProps> = ({
               </div>
               <div>
                 <h1 className="text-lg font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                  BD-Counsels
+                  Believers Consultancy
                 </h1>
               </div>
             </button>
@@ -126,7 +126,7 @@ const Header: React.FC<HeaderProps> = ({
               </div>
               <div>
                 <h1 className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                  BD-Counsels
+                  Believers Consultancy
                 </h1>
                 <p className="text-xs text-slate-500">
                   Medical Career Guidance
