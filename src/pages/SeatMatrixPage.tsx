@@ -1099,7 +1099,7 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
       "West Bengal", "Gujarat", "Rajasthan", "Madhya Pradesh", "Punjab"
     ];
 
-    for (let i = 0; i < 150; i++) {
+    for (let i = 0; i < 47147; i++) {
       const seats = Math.floor(Math.random() * 50) + 5;
       const feeStipend = Math.floor(Math.random() * 500000) + 50000;
       const bondYears = Math.floor(Math.random() * 5) + 1;
@@ -1267,11 +1267,11 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
         </div>
 
         {/* Search and Filters */}
-        <div className="bg-white border-b border-gray-200 px-4 py-3">
+        <div className="bg-white border-b text-black border-gray-200 px-4 py-3">
           <div className="flex flex-col md:flex-row gap-3">
             {/* Search */}
             <div className="flex-1 relative">
-              <Search className="w-4 h-4 absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
+              <Search className="w-4 h-4 absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 text-black" />
               <input
                 type="text"
                 placeholder="Search institutes, courses, or states..."
@@ -1285,7 +1285,7 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
             <select
               value={selectedQuota}
               onChange={(e) => setSelectedQuota(e.target.value)}
-              className="px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-sm bg-white"
+              className="px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-sm bg-white text-black"
             >
               {quotas.map((quota) => (
                 <option key={quota} value={quota}>
@@ -1298,7 +1298,7 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
             <select
               value={selectedCategory}
               onChange={(e) => setSelectedCategory(e.target.value)}
-              className="px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-sm bg-white"
+              className="px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-sm bg-white text-black"
             >
               {categories.map((category) => (
                 <option key={category} value={category}>
@@ -1397,9 +1397,9 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
         </div>
 
         {/* Pagination */}
-        <div className="bg-white border-t border-gray-200 px-4 py-3">
+        <div className="bg-white border-t border-gray-200 px-4 py-3 text-black">
           <div className="flex items-center justify-between">
-            <div className="text-xs text-gray-600">
+            <div className="text-xs text-gray-600 text-black">
               Showing {startIndex + 1} to {Math.min(startIndex + itemsPerPage, sortedData.length)} of {sortedData.length} results
             </div>
             
