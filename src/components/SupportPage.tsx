@@ -85,7 +85,7 @@ const SupportPage: React.FC<SupportPageProps> = ({ onBack }) => {
                 <div>
                   <p className="text-lg font-semibold text-slate-800">Email</p>
                   <p className="text-sm text-slate-600">
-                    support@bd-counselling.com
+                    support@BelieversConsultancy.com
                   </p>
                   <p className="text-xs text-blue-600">Response in 2 hours</p>
                 </div>

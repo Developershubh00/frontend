@@ -53,10 +53,10 @@ const LoginPage: React.FC = () => {
           {/* Logo and Header */}
           <div className="text-center mb-8">
             <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg">
-              <span className="text-white font-bold text-2xl">BD</span>
+              <span className="text-white font-bold text-2xl">BC</span>
             </div>
             <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2">
-              BD-Counselling
+              Believers Consultancy
             </h1>
             <p className="text-slate-600">Medical Career Guidance Platform</p>
           </div>

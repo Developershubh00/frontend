@@ -19,7 +19,7 @@ if (rootElement) {
   document.body.innerHTML = `
     <div style="display: flex; justify-content: center; align-items: center; height: 100vh; font-family: Arial, sans-serif;">
       <div style="text-align: center;">
-        <h1>BD-Counselling</h1>
+        <h1>Believers Consultancy</h1>
         <p>Loading application...</p>
         <p>If this message persists, please refresh the page.</p>
       </div>
