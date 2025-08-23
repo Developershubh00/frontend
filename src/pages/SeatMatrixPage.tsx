@@ -356,7 +356,8 @@
 
 import React, { useState, useEffect } from "react";
 import { ArrowLeft, BarChart3, Search, Filter, X, ChevronDown, SortAsc as Sort, Heart, ChevronLeft, ChevronRight } from "lucide-react";
-import Papa from 'papaparse';
+// Import PapaParse - make sure it's installed: npm install papaparse @types/papaparse
+import * as Papa from 'papaparse';
 
 interface SeatMatrixPageProps {
   onBack: () => void;
@@ -423,93 +424,152 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
 
   const itemsPerPage = 50;
 
-  // CSV file location - UPDATE THIS PATH TO YOUR CSV FILE
-  const csvFilePath = '/public/data/seat_matrix.csv';
+  // CSV file location - Multiple fallback paths to try
+  const csvFilePaths = [
+    '/public/data/Seat_Matrix.csv'  // If placed directly in public folder
+  ];
 
-  // Fetch and parse CSV data
+  // Fetch and parse CSV data with multiple fallback paths
   useEffect(() => {
-    const fetchCSVData = async () => {
+    const tryFetchCSV = async (paths: string[], index = 0): Promise<void> => {
+      if (index >= paths.length) {
+        setError('CSV file not found. Please check if the file exists in the public folder.');
+        setLoading(false);
+        return;
+      }
+
+      const currentPath = paths[index];
+      
       try {
         setLoading(true);
         setError(null);
 
+        console.log(`Trying to fetch CSV from: ${currentPath}`);
+        
         // Fetch CSV file from public folder
-        const response = await fetch(csvFilePath);
+        const response = await fetch(currentPath, {
+          method: 'GET',
+          headers: {
+            'Content-Type': 'text/csv',
+          },
+        });
         
         if (!response.ok) {
-          throw new Error(`Failed to fetch CSV: ${response.status} ${response.statusText}`);
+          console.warn(`Failed to fetch from ${currentPath}: ${response.status}`);
+          // Try next path
+          return tryFetchCSV(paths, index + 1);
         }
 
         const csvText = await response.text();
+        
+        if (!csvText || csvText.trim().length === 0) {
+          console.warn(`Empty CSV file at ${currentPath}`);
+          return tryFetchCSV(paths, index + 1);
+        }
+
+        console.log(`Successfully loaded CSV from: ${currentPath}`);
+        console.log(`CSV file size: ${csvText.length} characters`);
 
         // Parse CSV using PapaParse
         Papa.parse(csvText, {
           header: true,
           skipEmptyLines: true,
-          dynamicTyping: true,
+          dynamicTyping: false, // Keep as strings initially for better handling
+          delimiter: ',',
           transformHeader: (header: string) => {
             // Transform headers to match interface (replace spaces with underscores)
-            return header.trim().replace(/\s+/g, '_');
+            return header.trim().replace(/\s+/g, '_').replace(/[^\w]/g, '_');
           },
           complete: (results) => {
+            console.log('CSV parsing completed:', {
+              data: results.data.length,
+              errors: results.errors.length,
+              meta: results.meta
+            });
+
             if (results.errors.length > 0) {
               console.warn('CSV parsing warnings:', results.errors);
             }
 
-            const processedData = results.data.map((row: any) => ({
-              Round: String(row.Round || '').trim(),
-              Quota: String(row.Quota || '').trim(),
-              Category: String(row.Category || '').trim(),
-              State: String(row.State || '').trim(),
-              Institute: String(row.Institute || '').trim(),
-              Course: String(row.Course || '').trim(),
-              Seats: parseInt(row.Seats) || 0,
-              Fee_Stipend_Year_1: String(row.Fee_Stipend_Year_1 || '').trim(),
-              Bond_Years: parseInt(row.Bond_Years) || 0,
-              Bond_Penalty: String(row.Bond_Penalty || '').trim(),
-              Beds: parseInt(row.Beds) || 0,
-              CR_2023_1: parseInt(row.CR_2023_1) || 0,
-              CR_2023_2: parseInt(row.CR_2023_2) || 0,
-              CR_2023_3: parseInt(row.CR_2023_3) || 0,
-              CR_2023_4: parseInt(row.CR_2023_4) || 0,
-              CR_2023_5: parseInt(row.CR_2023_5) || 0,
-              CR_2024_1: parseInt(row.CR_2024_1) || 0,
-              CR_2024_2: parseInt(row.CR_2024_2) || 0,
-              CR_2024_3: parseInt(row.CR_2024_3) || 0,
-              CR_2024_4: parseInt(row.CR_2024_4) || 0,
-              CR_2024_5: parseInt(row.CR_2024_5) || 0,
-            })) as SeatMatrixData[];
+            if (!results.data || results.data.length === 0) {
+              setError('CSV file is empty or could not be parsed.');
+              setLoading(false);
+              return;
+            }
 
-            // Filter out invalid rows
-            const validData = processedData.filter(row => 
-              row.Institute && row.Course && row.State
-            );
+            const processedData = results.data
+              .map((row: any, rowIndex: number) => {
+                try {
+                  return {
+                    Round: String(row.Round || row.ROUND || '').trim(),
+                    Quota: String(row.Quota || row.QUOTA || '').trim(),
+                    Category: String(row.Category || row.CATEGORY || '').trim(),
+                    State: String(row.State || row.STATE || '').trim(),
+                    Institute: String(row.Institute || row.INSTITUTE || '').trim(),
+                    Course: String(row.Course || row.COURSE || '').trim(),
+                    Seats: parseInt(String(row.Seats || row.SEATS || '0').replace(/[^\d]/g, '')) || 0,
+                    Fee_Stipend_Year_1: String(row.Fee_Stipend_Year_1 || row['Fee Stipend Year 1'] || '').trim(),
+                    Bond_Years: parseInt(String(row.Bond_Years || row['Bond Years'] || '0').replace(/[^\d]/g, '')) || 0,
+                    Bond_Penalty: String(row.Bond_Penalty || row['Bond Penalty'] || '').trim(),
+                    Beds: parseInt(String(row.Beds || row.BEDS || '0').replace(/[^\d]/g, '')) || 0,
+                    CR_2023_1: parseInt(String(row.CR_2023_1 || row['CR 2023 1'] || '0').replace(/[^\d]/g, '')) || 0,
+                    CR_2023_2: parseInt(String(row.CR_2023_2 || row['CR 2023 2'] || '0').replace(/[^\d]/g, '')) || 0,
+                    CR_2023_3: parseInt(String(row.CR_2023_3 || row['CR 2023 3'] || '0').replace(/[^\d]/g, '')) || 0,
+                    CR_2023_4: parseInt(String(row.CR_2023_4 || row['CR 2023 4'] || '0').replace(/[^\d]/g, '')) || 0,
+                    CR_2023_5: parseInt(String(row.CR_2023_5 || row['CR 2023 5'] || '0').replace(/[^\d]/g, '')) || 0,
+                    CR_2024_1: parseInt(String(row.CR_2024_1 || row['CR 2024 1'] || '0').replace(/[^\d]/g, '')) || 0,
+                    CR_2024_2: parseInt(String(row.CR_2024_2 || row['CR 2024 2'] || '0').replace(/[^\d]/g, '')) || 0,
+                    CR_2024_3: parseInt(String(row.CR_2024_3 || row['CR 2024 3'] || '0').replace(/[^\d]/g, '')) || 0,
+                    CR_2024_4: parseInt(String(row.CR_2024_4 || row['CR 2024 4'] || '0').replace(/[^\d]/g, '')) || 0,
+                    CR_2024_5: parseInt(String(row.CR_2024_5 || row['CR 2024 5'] || '0').replace(/[^\d]/g, '')) || 0,
+                  };
+                } catch (error) {
+                  console.warn(`Error processing row ${rowIndex}:`, error);
+                  return null;
+                }
+              })
+              .filter((row): row is SeatMatrixData => 
+                row !== null && 
+                row.Institute && 
+                row.Course && 
+                row.State
+              );
 
-            setAllSeatMatrixData(validData);
+            console.log(`Processed ${processedData.length} valid records`);
+
+            if (processedData.length === 0) {
+              setError('No valid data found in CSV file. Please check the file format.');
+              setLoading(false);
+              return;
+            }
+
+            setAllSeatMatrixData(processedData);
             
             // Extract unique values for filter options
             setFilterOptions({
-              states: ['all', ...Array.from(new Set(validData.map(item => item.State).filter(Boolean)))],
-              rounds: ['all', ...Array.from(new Set(validData.map(item => item.Round).filter(Boolean)))],
-              quotas: ['all', ...Array.from(new Set(validData.map(item => item.Quota).filter(Boolean)))],
-              categories: ['all', ...Array.from(new Set(validData.map(item => item.Category).filter(Boolean)))]
+              states: ['all', ...Array.from(new Set(processedData.map(item => item.State).filter(Boolean))).sort()],
+              rounds: ['all', ...Array.from(new Set(processedData.map(item => item.Round).filter(Boolean))).sort()],
+              quotas: ['all', ...Array.from(new Set(processedData.map(item => item.Quota).filter(Boolean))).sort()],
+              categories: ['all', ...Array.from(new Set(processedData.map(item => item.Category).filter(Boolean))).sort()]
             });
+
+            setLoading(false);
           },
           error: (error) => {
             console.error('CSV parsing error:', error);
-            setError(`Failed to parse CSV data: ${error.message}`);
+            // Try next path
+            tryFetchCSV(paths, index + 1);
           }
         });
 
       } catch (error) {
-        console.error("Error fetching CSV data:", error);
-        setError(error instanceof Error ? error.message : 'Unknown error occurred');
-      } finally {
-        setLoading(false);
+        console.error(`Error fetching CSV from ${currentPath}:`, error);
+        // Try next path
+        tryFetchCSV(paths, index + 1);
       }
     };
 
-    fetchCSVData();
+    tryFetchCSV(csvFilePaths);
   }, []);
 
   // Filter and paginate data
@@ -778,70 +838,88 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
           </div>
         </div>
 
-        {/* Table */}
-        <div className="flex-1 overflow-auto">
-          <table className="w-full">
-            <thead className="bg-gradient-to-r from-gray-100 to-gray-200 border-b border-gray-300 sticky top-0">
-              <tr>
-                <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Round</th>
-                <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">State</th>
-                <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Institute</th>
-                <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Course</th>
-                <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Quota</th>
-                <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Category</th>
-                <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Seats</th>
-                <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Fee/Stipend</th>
-                <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Bond Years</th>
-                <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Beds</th>
-                <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">CR 2024-1</th>
-                <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">CR 2024-2</th>
-              </tr>
-            </thead>
-            <tbody className="bg-white divide-y divide-gray-100">
-              {paginatedData.map((item, index) => (
-                <tr key={index} className="hover:bg-purple-50 transition-colors">
-                  <td className="px-2 py-2 text-xs">
-                    <span className="px-2 py-1 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800">
-                      {item.Round}
-                    </span>
-                  </td>
-                  <td className="px-2 py-2 text-xs text-gray-700">{item.State}</td>
-                  <td className="px-2 py-2 text-xs text-purple-600 hover:text-purple-800 cursor-pointer font-medium">
-                    {item.Institute}
-                  </td>
-                  <td className="px-2 py-2 text-xs text-gray-700">{item.Course}</td>
-                  <td className="px-2 py-2 text-xs">
-                    <span className={`px-2 py-1 rounded-full text-xs font-medium ${
-                      item.Quota.includes("All India") ? "bg-green-100 text-green-800" :
-                      item.Quota.includes("State") ? "bg-blue-100 text-blue-800" :
-                      "bg-purple-100 text-purple-800"
-                    }`}>
-                      {item.Quota}
-                    </span>
-                  </td>
-                  <td className="px-2 py-2 text-xs">
-                    <span className={`px-2 py-1 rounded-full text-xs font-medium ${
-                      item.Category === "General" ? "bg-gray-100 text-gray-800" :
-                      item.Category === "OBC" ? "bg-yellow-100 text-yellow-800" :
-                      item.Category === "SC" ? "bg-pink-100 text-pink-800" :
-                      item.Category === "ST" ? "bg-teal-100 text-teal-800" :
-                      "bg-orange-100 text-orange-800"
-                    }`}>
-                      {item.Category}
-                    </span>
-                  </td>
-                  <td className="px-2 py-2 text-xs font-bold text-purple-600">{item.Seats}</td>
-                  <td className="px-2 py-2 text-xs text-gray-700">{item.Fee_Stipend_Year_1}</td>
-                  <td className="px-2 py-2 text-xs text-gray-700">{item.Bond_Years || 0}</td>
-                  <td className="px-2 py-2 text-xs text-gray-700">{item.Beds || 0}</td>
-                  <td className="px-2 py-2 text-xs text-gray-700">{item.CR_2024_1 || '-'}</td>
-                  <td className="px-2 py-2 text-xs text-gray-700">{item.CR_2024_2 || '-'}</td>
+        {/* Table - Fixed width with horizontal scroll */}
+        <div className="flex-1 overflow-x-auto">
+          <div className="min-w-[1400px]"> {/* Minimum width to fit all columns */}
+            <table className="w-full">
+              <thead className="bg-gradient-to-r from-gray-100 to-gray-200 border-b border-gray-300 sticky top-0">
+                <tr>
+                  <th className="px-3 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider min-w-[80px]">Round</th>
+                  <th className="px-3 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider min-w-[100px]">State</th>
+                  <th className="px-3 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider min-w-[200px]">Institute</th>
+                  <th className="px-3 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider min-w-[150px]">Course</th>
+                  <th className="px-3 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider min-w-[120px]">Quota</th>
+                  <th className="px-3 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider min-w-[90px]">Category</th>
+                  <th className="px-3 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider min-w-[60px]">Seats</th>
+                  <th className="px-3 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider min-w-[100px]">Fee/Stipend</th>
+                  <th className="px-3 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider min-w-[80px]">Bond Years</th>
+                  <th className="px-3 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider min-w-[60px]">Beds</th>
+                  <th className="px-3 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider min-w-[80px]">CR 2023-1</th>
+                  <th className="px-3 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider min-w-[80px]">CR 2023-2</th>
+                  <th className="px-3 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider min-w-[80px]">CR 2024-1</th>
+                  <th className="px-3 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider min-w-[80px]">CR 2024-2</th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
+              </thead>
+              <tbody className="bg-white divide-y divide-gray-100">
+                {paginatedData.map((item, index) => (
+                  <tr key={index} className="hover:bg-purple-50 transition-colors">
+                    <td className="px-3 py-2 text-xs">
+                      <span className="px-2 py-1 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800">
+                        {item.Round}
+                      </span>
+                    </td>
+                    <td className="px-3 py-2 text-xs text-gray-700">{item.State}</td>
+                    <td className="px-3 py-2 text-xs text-purple-600 hover:text-purple-800 cursor-pointer font-medium">
+                      <div className="truncate max-w-[180px]" title={item.Institute}>
+                        {item.Institute}
+                      </div>
+                    </td>
+                    <td className="px-3 py-2 text-xs text-gray-700">
+                      <div className="truncate max-w-[130px]" title={item.Course}>
+                        {item.Course}
+                      </div>
+                    </td>
+                    <td className="px-3 py-2 text-xs">
+                      <span className={`px-2 py-1 rounded-full text-xs font-medium ${
+                        item.Quota.includes("All India") ? "bg-green-100 text-green-800" :
+                        item.Quota.includes("State") ? "bg-blue-100 text-blue-800" :
+                        "bg-purple-100 text-purple-800"
+                      }`}>
+                        <div className="truncate max-w-[100px]" title={item.Quota}>
+                          {item.Quota}
+                        </div>
+                      </span>
+                    </td>
+                    <td className="px-3 py-2 text-xs">
+                      <span className={`px-2 py-1 rounded-full text-xs font-medium ${
+                        item.Category === "General" ? "bg-gray-100 text-gray-800" :
+                        item.Category === "OBC" ? "bg-yellow-100 text-yellow-800" :
+                        item.Category === "SC" ? "bg-pink-100 text-pink-800" :
+                        item.Category === "ST" ? "bg-teal-100 text-teal-800" :
+                        "bg-orange-100 text-orange-800"
+                      }`}>
+                        {item.Category}
+                      </span>
+                    </td>
+                    <td className="px-3 py-2 text-xs font-bold text-purple-600">{item.Seats}</td>
+                    <td className="px-3 py-2 text-xs text-gray-700">
+                      <div className="truncate max-w-[80px]" title={item.Fee_Stipend_Year_1}>
+                        {item.Fee_Stipend_Year_1}
+                      </div>
+                    </td>
+                    <td className="px-3 py-2 text-xs text-gray-700">{item.Bond_Years || 0}</td>
+                    <td className="px-3 py-2 text-xs text-gray-700">{item.Beds || 0}</td>
+                    <td className="px-3 py-2 text-xs text-gray-700">{item.CR_2023_1 || '-'}</td>
+                    <td className="px-3 py-2 text-xs text-gray-700">{item.CR_2023_2 || '-'}</td>
+                    <td className="px-3 py-2 text-xs text-gray-700">{item.CR_2024_1 || '-'}</td>
+                    <td className="px-3 py-2 text-xs text-gray-700">{item.CR_2024_2 || '-'}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
 
-          {paginatedData.length === 0 && (
+          {paginatedData.length === 0 && !loading && (
             <div className="text-center py-12">
               <Search className="w-12 h-12 text-gray-300 mx-auto mb-4" />
               <h3 className="text-lg font-medium text-gray-600">No results found</h3>
