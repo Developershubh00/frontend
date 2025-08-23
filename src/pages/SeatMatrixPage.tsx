@@ -357,7 +357,7 @@
 import React, { useState, useEffect } from "react";
 import { ArrowLeft, BarChart3, Search, Filter, X, ChevronDown, SortAsc as Sort, Heart, ChevronLeft, ChevronRight } from "lucide-react";
 // Import PapaParse - make sure it's installed: npm install papaparse @types/papaparse
-import * as Papa from 'papaparse';
+import Papa from 'papaparse';
 
 interface SeatMatrixPageProps {
   onBack: () => void;
@@ -424,14 +424,19 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
 
   const itemsPerPage = 50;
 
-  // CSV file location - Multiple fallback paths to try
-   const csvFilePath = '/public/data/Seat_Matrix.csv';
+  // CSV file location - Updated to your specific path
+  const csvFilePaths = [
+    '/public/data/Seat_Matric.csv',
+    '/data/Seat_Matric.csv',  // Your specified path
+    '/data/Seat_Matrix.csv',  // Common alternative
+    '/Seat_Matric.csv',  // If placed directly in public root
+  ];
 
   // Fetch and parse CSV data with multiple fallback paths
   useEffect(() => {
     const tryFetchCSV = async (paths: string[], index = 0): Promise<void> => {
       if (index >= paths.length) {
-        setError('CSV file not found. Please check if the file exists in the public folder.');
+        setError('CSV file not found at any of the expected locations. Please check if the file exists at: /data/Seat_Matric.csv');
         setLoading(false);
         return;
       }
@@ -453,7 +458,7 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
         });
         
         if (!response.ok) {
-          console.warn(`Failed to fetch from ${currentPath}: ${response.status}`);
+          console.warn(`Failed to fetch from ${currentPath}: ${response.status} ${response.statusText}`);
           // Try next path
           return tryFetchCSV(paths, index + 1);
         }
@@ -506,7 +511,7 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
                     Institute: String(row.Institute || row.INSTITUTE || '').trim(),
                     Course: String(row.Course || row.COURSE || '').trim(),
                     Seats: parseInt(String(row.Seats || row.SEATS || '0').replace(/[^\d]/g, '')) || 0,
-                    Fee_Stipend_Year_1: String(row.Fee_Stipend_Year_1 || row['Fee Stipend Year 1'] || '').trim(),
+                    Fee_Stipend_Year_1: String(row.Fee_Stipend_Year_1 || row['Fee Stipend Year 1'] || row['Fee_Stipend_Year_1'] || '').trim(),
                     Bond_Years: parseInt(String(row.Bond_Years || row['Bond Years'] || '0').replace(/[^\d]/g, '')) || 0,
                     Bond_Penalty: String(row.Bond_Penalty || row['Bond Penalty'] || '').trim(),
                     Beds: parseInt(String(row.Beds || row.BEDS || '0').replace(/[^\d]/g, '')) || 0,
@@ -623,7 +628,7 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
           <h3 className="text-lg font-semibold text-gray-800 mb-2">Error Loading Data</h3>
           <p className="text-sm text-red-600 mb-4">{error}</p>
           <p className="text-xs text-gray-500">
-            Please check if the CSV file exists at: <code className="bg-gray-100 px-2 py-1 rounded">{csvFilePath}</code>
+            Please check if the CSV file exists at: <code className="bg-gray-100 px-2 py-1 rounded">public/data/Seat_Matric.csv</code>
           </p>
           <button 
             onClick={() => window.location.reload()} 
@@ -987,4 +992,4 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
   );
 };
 
-export default SeatMatrixPage;
+export default SeatMatrixPage; 
