@@ -424,70 +424,57 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
 
   const itemsPerPage = 50;
 
-  // CSV file location - Updated to your specific path
-  const csvFilePaths = [
-    '/public/data/Seat_Matric.csv',
-    '/data/Seat_Matric.csv',  // Your specified path
-    '/data/Seat_Matrix.csv',  // Common alternative
-    '/Seat_Matric.csv',  // If placed directly in public root
-  ];
-
-  // Fetch and parse CSV data with multiple fallback paths
+  // Fetch and parse CSV data
   useEffect(() => {
-    const tryFetchCSV = async (paths: string[], index = 0): Promise<void> => {
-      if (index >= paths.length) {
-        setError('CSV file not found at any of the expected locations. Please check if the file exists at: /data/Seat_Matric.csv');
-        setLoading(false);
-        return;
-      }
-
-      const currentPath = paths[index];
-      
+    const fetchCSVData = async () => {
       try {
         setLoading(true);
         setError(null);
 
-        console.log(`Trying to fetch CSV from: ${currentPath}`);
+        // Correct path for Vite - files in public/ are served from root
+        const csvPath = 'public/data/Seat_Matrix.csv';
         
-        // Fetch CSV file from public folder
-        const response = await fetch(currentPath, {
+        console.log(`Fetching CSV from: ${csvPath}`);
+        
+        const response = await fetch(csvPath, {
           method: 'GET',
           headers: {
-            'Content-Type': 'text/csv',
+            'Accept': 'text/csv, text/plain, */*',
           },
         });
         
         if (!response.ok) {
-          console.warn(`Failed to fetch from ${currentPath}: ${response.status} ${response.statusText}`);
-          // Try next path
-          return tryFetchCSV(paths, index + 1);
+          throw new Error(`HTTP error! status: ${response.status} - ${response.statusText}. Make sure the file exists at: public/data/Seat_Matrix.csv`);
         }
 
         const csvText = await response.text();
         
         if (!csvText || csvText.trim().length === 0) {
-          console.warn(`Empty CSV file at ${currentPath}`);
-          return tryFetchCSV(paths, index + 1);
+          throw new Error('CSV file is empty');
         }
 
-        console.log(`Successfully loaded CSV from: ${currentPath}`);
-        console.log(`CSV file size: ${csvText.length} characters`);
+        console.log(`CSV loaded successfully. Size: ${csvText.length} characters`);
+        console.log('First 200 characters:', csvText.substring(0, 200));
 
-        // Parse CSV using PapaParse
+        // Parse CSV with PapaParse
         Papa.parse(csvText, {
           header: true,
           skipEmptyLines: true,
-          dynamicTyping: false, // Keep as strings initially for better handling
+          dynamicTyping: false,
           delimiter: ',',
           transformHeader: (header: string) => {
-            // Transform headers to match interface (replace spaces with underscores)
-            return header.trim().replace(/\s+/g, '_').replace(/[^\w]/g, '_');
+            // Clean and standardize headers
+            return header.trim()
+              .replace(/\s+/g, '_')
+              .replace(/[^\w]/g, '_')
+              .replace(/_+/g, '_')
+              .replace(/^_|_$/g, '');
           },
           complete: (results) => {
             console.log('CSV parsing completed:', {
-              data: results.data.length,
+              totalRows: results.data.length,
               errors: results.errors.length,
-              meta: results.meta
+              firstRow: results.data[0]
             });
 
             if (results.errors.length > 0) {
@@ -495,93 +482,128 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
             }
 
             if (!results.data || results.data.length === 0) {
-              setError('CSV file is empty or could not be parsed.');
+              setError('CSV file contains no data rows');
               setLoading(false);
               return;
             }
+
+            // Log the actual headers from CSV to debug
+            const headers = Object.keys(results.data[0] || {});
+            console.log('Available CSV headers:', headers);
 
             const processedData = results.data
               .map((row: any, rowIndex: number) => {
                 try {
-                  return {
-                    Round: String(row.Round || row.ROUND || '').trim(),
-                    Quota: String(row.Quota || row.QUOTA || '').trim(),
-                    Category: String(row.Category || row.CATEGORY || '').trim(),
-                    State: String(row.State || row.STATE || '').trim(),
-                    Institute: String(row.Institute || row.INSTITUTE || '').trim(),
-                    Course: String(row.Course || row.COURSE || '').trim(),
-                    Seats: parseInt(String(row.Seats || row.SEATS || '0').replace(/[^\d]/g, '')) || 0,
-                    Fee_Stipend_Year_1: String(row.Fee_Stipend_Year_1 || row['Fee Stipend Year 1'] || row['Fee_Stipend_Year_1'] || '').trim(),
-                    Bond_Years: parseInt(String(row.Bond_Years || row['Bond Years'] || '0').replace(/[^\d]/g, '')) || 0,
-                    Bond_Penalty: String(row.Bond_Penalty || row['Bond Penalty'] || '').trim(),
-                    Beds: parseInt(String(row.Beds || row.BEDS || '0').replace(/[^\d]/g, '')) || 0,
-                    CR_2023_1: parseInt(String(row.CR_2023_1 || row['CR 2023 1'] || '0').replace(/[^\d]/g, '')) || 0,
-                    CR_2023_2: parseInt(String(row.CR_2023_2 || row['CR 2023 2'] || '0').replace(/[^\d]/g, '')) || 0,
-                    CR_2023_3: parseInt(String(row.CR_2023_3 || row['CR 2023 3'] || '0').replace(/[^\d]/g, '')) || 0,
-                    CR_2023_4: parseInt(String(row.CR_2023_4 || row['CR 2023 4'] || '0').replace(/[^\d]/g, '')) || 0,
-                    CR_2023_5: parseInt(String(row.CR_2023_5 || row['CR 2023 5'] || '0').replace(/[^\d]/g, '')) || 0,
-                    CR_2024_1: parseInt(String(row.CR_2024_1 || row['CR 2024 1'] || '0').replace(/[^\d]/g, '')) || 0,
-                    CR_2024_2: parseInt(String(row.CR_2024_2 || row['CR 2024 2'] || '0').replace(/[^\d]/g, '')) || 0,
-                    CR_2024_3: parseInt(String(row.CR_2024_3 || row['CR 2024 3'] || '0').replace(/[^\d]/g, '')) || 0,
-                    CR_2024_4: parseInt(String(row.CR_2024_4 || row['CR 2024 4'] || '0').replace(/[^\d]/g, '')) || 0,
-                    CR_2024_5: parseInt(String(row.CR_2024_5 || row['CR 2024 5'] || '0').replace(/[^\d]/g, '')) || 0,
+                  // More flexible field mapping - check multiple possible header variations
+                  const getField = (possibleNames: string[]): string => {
+                    for (const name of possibleNames) {
+                      if (row[name] !== undefined && row[name] !== null && row[name] !== '') {
+                        return String(row[name]).trim();
+                      }
+                    }
+                    return '';
                   };
+
+                  const getNumericField = (possibleNames: string[]): number => {
+                    const value = getField(possibleNames);
+                    if (!value) return 0;
+                    const numericValue = parseInt(value.replace(/[^\d]/g, '')) || 0;
+                    return numericValue;
+                  };
+
+                  const processedRow: SeatMatrixData = {
+                    Round: getField(['Round', 'ROUND', 'round', 'Round_No']),
+                    Quota: getField(['Quota', 'QUOTA', 'quota', 'QuotaType']),
+                    Category: getField(['Category', 'CATEGORY', 'category', 'Cat']),
+                    State: getField(['State', 'STATE', 'state', 'State_Name']),
+                    Institute: getField(['Institute', 'INSTITUTE', 'institute', 'Institution', 'College', 'Institute_Name']),
+                    Course: getField(['Course', 'COURSE', 'course', 'Branch', 'Subject', 'Course_Name']),
+                    Seats: getNumericField(['Seats', 'SEATS', 'seats', 'Total_Seats', 'No_of_Seats']),
+                    Fee_Stipend_Year_1: getField(['Fee_Stipend_Year_1', 'Fee_Stipend', 'Fee', 'Stipend', 'Fee_Year_1', 'Annual_Fee']),
+                    Bond_Years: getNumericField(['Bond_Years', 'Bond', 'bond_years', 'Service_Bond']),
+                    Bond_Penalty: getField(['Bond_Penalty', 'Bond_Amount', 'Penalty', 'Bond_Fee']),
+                    Beds: getNumericField(['Beds', 'BEDS', 'beds', 'Hospital_Beds', 'No_of_Beds']),
+                    CR_2023_1: getNumericField(['CR_2023_1', 'CR_2023_Round_1', '2023_R1', 'Cutoff_2023_1', 'CR2023_1']),
+                    CR_2023_2: getNumericField(['CR_2023_2', 'CR_2023_Round_2', '2023_R2', 'Cutoff_2023_2', 'CR2023_2']),
+                    CR_2023_3: getNumericField(['CR_2023_3', 'CR_2023_Round_3', '2023_R3', 'Cutoff_2023_3', 'CR2023_3']),
+                    CR_2023_4: getNumericField(['CR_2023_4', 'CR_2023_Round_4', '2023_R4', 'Cutoff_2023_4', 'CR2023_4']),
+                    CR_2023_5: getNumericField(['CR_2023_5', 'CR_2023_Round_5', '2023_R5', 'Cutoff_2023_5', 'CR2023_5']),
+                    CR_2024_1: getNumericField(['CR_2024_1', 'CR_2024_Round_1', '2024_R1', 'Cutoff_2024_1', 'CR2024_1']),
+                    CR_2024_2: getNumericField(['CR_2024_2', 'CR_2024_Round_2', '2024_R2', 'Cutoff_2024_2', 'CR2024_2']),
+                    CR_2024_3: getNumericField(['CR_2024_3', 'CR_2024_Round_3', '2024_R3', 'Cutoff_2024_3', 'CR2024_3']),
+                    CR_2024_4: getNumericField(['CR_2024_4', 'CR_2024_Round_4', '2024_R4', 'Cutoff_2024_4', 'CR2024_4']),
+                    CR_2024_5: getNumericField(['CR_2024_5', 'CR_2024_Round_5', '2024_R5', 'Cutoff_2024_5', 'CR2024_5']),
+                  };
+
+                  // Validate required fields - be more lenient with validation
+                  if (!processedRow.Institute && !processedRow.Course && !processedRow.State) {
+                    return null;
+                  }
+
+                  return processedRow;
                 } catch (error) {
-                  console.warn(`Error processing row ${rowIndex}:`, error);
+                  console.warn(`Error processing row ${rowIndex}:`, error, row);
                   return null;
                 }
               })
-              .filter((row): row is SeatMatrixData => 
-                row !== null && 
-                row.Institute && 
-                row.Course && 
-                row.State
-              );
+              .filter((row): row is SeatMatrixData => row !== null);
 
-            console.log(`Processed ${processedData.length} valid records`);
+            console.log(`Successfully processed ${processedData.length} valid records`);
 
             if (processedData.length === 0) {
-              setError('No valid data found in CSV file. Please check the file format.');
+              setError('No valid data found in CSV file. Please check the file format and column headers.');
               setLoading(false);
               return;
             }
 
+            // Show sample of processed data for debugging
+            console.log('Sample processed data:', processedData.slice(0, 3));
+
             setAllSeatMatrixData(processedData);
             
             // Extract unique values for filter options
+            const extractUniqueValues = (field: keyof SeatMatrixData): string[] => {
+              return Array.from(new Set(
+                processedData
+                  .map(item => item[field])
+                  .filter(value => value && String(value).trim() !== '')
+                  .map(value => String(value))
+              )).sort();
+            };
+
             setFilterOptions({
-              states: ['all', ...Array.from(new Set(processedData.map(item => item.State).filter(Boolean))).sort()],
-              rounds: ['all', ...Array.from(new Set(processedData.map(item => item.Round).filter(Boolean))).sort()],
-              quotas: ['all', ...Array.from(new Set(processedData.map(item => item.Quota).filter(Boolean))).sort()],
-              categories: ['all', ...Array.from(new Set(processedData.map(item => item.Category).filter(Boolean))).sort()]
+              states: ['all', ...extractUniqueValues('State')],
+              rounds: ['all', ...extractUniqueValues('Round')],
+              quotas: ['all', ...extractUniqueValues('Quota')],
+              categories: ['all', ...extractUniqueValues('Category')]
             });
 
             setLoading(false);
           },
           error: (error) => {
             console.error('CSV parsing error:', error);
-            // Try next path
-            tryFetchCSV(paths, index + 1);
+            setError(`Failed to parse CSV file: ${error.message}`);
+            setLoading(false);
           }
         });
 
       } catch (error) {
-        console.error(`Error fetching CSV from ${currentPath}:`, error);
-        // Try next path
-        tryFetchCSV(paths, index + 1);
+        console.error('Error fetching CSV:', error);
+        setError(error instanceof Error ? error.message : 'Failed to load CSV file');
+        setLoading(false);
       }
     };
 
-    tryFetchCSV(csvFilePaths);
+    fetchCSVData();
   }, []);
 
   // Filter and paginate data
-  const getFilteredData = () => {
+  const getFilteredData = (): SeatMatrixData[] => {
     return allSeatMatrixData.filter((item) => {
       const matchesSearch = filters.searchTerm === "" || 
-        item.Institute.toLowerCase().includes(filters.searchTerm.toLowerCase()) ||
-        item.Course.toLowerCase().includes(filters.searchTerm.toLowerCase()) ||
-        item.State.toLowerCase().includes(filters.searchTerm.toLowerCase());
+        (item.Institute && item.Institute.toLowerCase().includes(filters.searchTerm.toLowerCase())) ||
+        (item.Course && item.Course.toLowerCase().includes(filters.searchTerm.toLowerCase())) ||
+        (item.State && item.State.toLowerCase().includes(filters.searchTerm.toLowerCase()));
       
       const matchesState = filters.selectedState === "all" || item.State === filters.selectedState;
       const matchesRound = filters.selectedRound === "all" || item.Round === filters.selectedRound;
@@ -602,7 +624,7 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
     setCurrentPage(1);
   }, [filters]);
 
-  const updateFilter = (key: keyof Filters, value: string) => {
+  const updateFilter = (key: keyof Filters, value: string): void => {
     setFilters(prev => ({ ...prev, [key]: value }));
   };
 
@@ -628,7 +650,7 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
           <h3 className="text-lg font-semibold text-gray-800 mb-2">Error Loading Data</h3>
           <p className="text-sm text-red-600 mb-4">{error}</p>
           <p className="text-xs text-gray-500">
-            Please check if the CSV file exists at: <code className="bg-gray-100 px-2 py-1 rounded">public/data/Seat_Matric.csv</code>
+            Please check if the CSV file exists at: <code className="bg-gray-100 px-2 py-1 rounded">public/data/Seat_Matrix.csv</code>
           </p>
           <button 
             onClick={() => window.location.reload()} 
@@ -865,49 +887,49 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
               </thead>
               <tbody className="bg-white divide-y divide-gray-100">
                 {paginatedData.map((item, index) => (
-                  <tr key={index} className="hover:bg-purple-50 transition-colors">
+                  <tr key={`${item.Institute}-${item.Course}-${index}`} className="hover:bg-purple-50 transition-colors">
                     <td className="px-3 py-2 text-xs">
                       <span className="px-2 py-1 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800">
-                        {item.Round}
+                        {item.Round || '-'}
                       </span>
                     </td>
-                    <td className="px-3 py-2 text-xs text-gray-700">{item.State}</td>
+                    <td className="px-3 py-2 text-xs text-gray-700">{item.State || '-'}</td>
                     <td className="px-3 py-2 text-xs text-purple-600 hover:text-purple-800 cursor-pointer font-medium">
                       <div className="truncate max-w-[180px]" title={item.Institute}>
-                        {item.Institute}
+                        {item.Institute || '-'}
                       </div>
                     </td>
                     <td className="px-3 py-2 text-xs text-gray-700">
                       <div className="truncate max-w-[130px]" title={item.Course}>
-                        {item.Course}
+                        {item.Course || '-'}
                       </div>
                     </td>
                     <td className="px-3 py-2 text-xs">
                       <span className={`px-2 py-1 rounded-full text-xs font-medium ${
-                        item.Quota.includes("All India") ? "bg-green-100 text-green-800" :
-                        item.Quota.includes("State") ? "bg-blue-100 text-blue-800" :
+                        (item.Quota || '').toLowerCase().includes("all india") ? "bg-green-100 text-green-800" :
+                        (item.Quota || '').toLowerCase().includes("state") ? "bg-blue-100 text-blue-800" :
                         "bg-purple-100 text-purple-800"
                       }`}>
                         <div className="truncate max-w-[100px]" title={item.Quota}>
-                          {item.Quota}
+                          {item.Quota || '-'}
                         </div>
                       </span>
                     </td>
                     <td className="px-3 py-2 text-xs">
                       <span className={`px-2 py-1 rounded-full text-xs font-medium ${
-                        item.Category === "General" ? "bg-gray-100 text-gray-800" :
-                        item.Category === "OBC" ? "bg-yellow-100 text-yellow-800" :
-                        item.Category === "SC" ? "bg-pink-100 text-pink-800" :
-                        item.Category === "ST" ? "bg-teal-100 text-teal-800" :
+                        (item.Category || '').toLowerCase() === "general" ? "bg-gray-100 text-gray-800" :
+                        (item.Category || '').toLowerCase() === "obc" ? "bg-yellow-100 text-yellow-800" :
+                        (item.Category || '').toLowerCase() === "sc" ? "bg-pink-100 text-pink-800" :
+                        (item.Category || '').toLowerCase() === "st" ? "bg-teal-100 text-teal-800" :
                         "bg-orange-100 text-orange-800"
                       }`}>
-                        {item.Category}
+                        {item.Category || '-'}
                       </span>
                     </td>
-                    <td className="px-3 py-2 text-xs font-bold text-purple-600">{item.Seats}</td>
+                    <td className="px-3 py-2 text-xs font-bold text-purple-600">{item.Seats || 0}</td>
                     <td className="px-3 py-2 text-xs text-gray-700">
                       <div className="truncate max-w-[80px]" title={item.Fee_Stipend_Year_1}>
-                        {item.Fee_Stipend_Year_1}
+                        {item.Fee_Stipend_Year_1 || '-'}
                       </div>
                     </td>
                     <td className="px-3 py-2 text-xs text-gray-700">{item.Bond_Years || 0}</td>
@@ -932,64 +954,66 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
         </div>
 
         {/* Pagination */}
-        <div className="bg-white border-t border-gray-200 px-4 py-3">
-          <div className="flex items-center justify-between">
-            <div className="text-xs text-gray-600">
-              Showing {startIndex + 1} to {Math.min(startIndex + itemsPerPage, filteredData.length)} of {filteredData.length} results
-              {filteredData.length !== allSeatMatrixData.length && (
-                <span className="text-blue-600"> (filtered from {allSeatMatrixData.length} total)</span>
-              )}
-            </div>
-            
-            <div className="flex items-center space-x-1">
-              <button
-                onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
-                disabled={currentPage === 1}
-                className="p-1.5 border border-gray-300 rounded hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
-              >
-                <ChevronLeft className="w-3 h-3" />
-              </button>
-              
-              <div className="flex space-x-1">
-                {Array.from({ length: Math.min(5, totalPages) }, (_, i) => {
-                  let pageNum;
-                  if (totalPages <= 5) {
-                    pageNum = i + 1;
-                  } else {
-                    const start = Math.max(1, currentPage - 2);
-                    pageNum = start + i;
-                    if (pageNum > totalPages) pageNum = totalPages - (4 - i);
-                  }
-                  
-                  return (
-                    <button
-                      key={pageNum}
-                      onClick={() => setCurrentPage(pageNum)}
-                      className={`px-2 py-1 text-xs rounded transition-colors ${
-                        currentPage === pageNum
-                          ? "bg-purple-500 text-white"
-                          : "border border-gray-300 hover:bg-gray-50"
-                      }`}
-                    >
-                      {pageNum}
-                    </button>
-                  );
-                })}
+        {totalPages > 1 && (
+          <div className="bg-white border-t border-gray-200 px-4 py-3">
+            <div className="flex items-center justify-between">
+              <div className="text-xs text-gray-600">
+                Showing {startIndex + 1} to {Math.min(startIndex + itemsPerPage, filteredData.length)} of {filteredData.length} results
+                {filteredData.length !== allSeatMatrixData.length && (
+                  <span className="text-blue-600"> (filtered from {allSeatMatrixData.length} total)</span>
+                )}
               </div>
               
-              <button
-                onClick={() => setCurrentPage(Math.min(totalPages, currentPage + 1))}
-                disabled={currentPage === totalPages}
-                className="p-1.5 border border-gray-300 rounded hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
-              >
-                <ChevronRight className="w-3 h-3" />
-              </button>
+              <div className="flex items-center space-x-1">
+                <button
+                  onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
+                  disabled={currentPage === 1}
+                  className="p-1.5 border border-gray-300 rounded hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                  <ChevronLeft className="w-3 h-3" />
+                </button>
+                
+                <div className="flex space-x-1">
+                  {Array.from({ length: Math.min(5, totalPages) }, (_, i) => {
+                    let pageNum;
+                    if (totalPages <= 5) {
+                      pageNum = i + 1;
+                    } else {
+                      const start = Math.max(1, currentPage - 2);
+                      pageNum = start + i;
+                      if (pageNum > totalPages) pageNum = totalPages - (4 - i);
+                    }
+                    
+                    return (
+                      <button
+                        key={pageNum}
+                        onClick={() => setCurrentPage(pageNum)}
+                        className={`px-2 py-1 text-xs rounded transition-colors ${
+                          currentPage === pageNum
+                            ? "bg-purple-500 text-white"
+                            : "border border-gray-300 hover:bg-gray-50"
+                        }`}
+                      >
+                        {pageNum}
+                      </button>
+                    );
+                  })}
+                </div>
+                
+                <button
+                  onClick={() => setCurrentPage(Math.min(totalPages, currentPage + 1))}
+                  disabled={currentPage === totalPages}
+                  className="p-1.5 border border-gray-300 rounded hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                  <ChevronRight className="w-3 h-3" />
+                </button>
+              </div>
             </div>
           </div>
-        </div>
+        )}
       </div>
     </div>
   );
 };
 
-export default SeatMatrixPage; 
+export default SeatMatrixPage;
