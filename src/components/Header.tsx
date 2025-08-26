@@ -11,7 +11,6 @@ import {
   ChevronLeft,
   ChevronRight,
 } from "lucide-react";
-
 /**
  * Unified Header Component
  * Main navigation header with search, user menu, and mobile navigation
@@ -67,8 +66,12 @@ const Header: React.FC<HeaderProps> = ({
               onClick={() => navigate("/dashboard")}
               className="flex items-center space-x-3"
             >
-              <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center shadow-lg">
-                <span className="text-white font-bold text-lg">BD</span>
+              <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center shadow-lg overflow-hidden">
+                <img
+                  src="/public/media/logo.png"
+                   alt="BD Logo"
+                   className="w-8 h-8 object-contain"
+                  />
               </div>
               <div>
                 <h1 className="text-lg font-bold text-[clamp(14px,2vw,24px)] truncate bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
@@ -121,8 +124,12 @@ const Header: React.FC<HeaderProps> = ({
               onClick={() => navigate("/dashboard")}
               className="flex items-center space-x-3"
             >
-              <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center shadow-lg">
-                <span className="text-white font-bold text-lg">BD</span>
+              <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center shadow-lg overflow-hidden">
+                <img
+                  src="/public/media/logo.png"
+                   alt="BD Logo"
+                   className="w-8 h-8 object-contain"
+                  />
               </div>
               <div>
                 <h1 className="text-xl font-bold text-[clamp(14px,2vw,24px)] truncate bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
