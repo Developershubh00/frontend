@@ -68,14 +68,7 @@ function App() {
               </ProtectedRoute>
             }
           />
-          <Route
-            path="/Statetabs"
-            element={
-              <ProtectedRoute>
-                <StateTabs />
-              </ProtectedRoute>
-            }
-          />
+          
           {/* <Route
           path="/statetabs"
           element={
