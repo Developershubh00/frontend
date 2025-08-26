@@ -1980,9 +1980,13 @@ function Homepage() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
             <div className="col-span-1 md:col-span-1">
               <div className="flex items-center space-x-3 mb-8">
-                <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-red-500 rounded-xl flex items-center justify-center shadow-lg">
-                  <span className="text-white font-bold text-lg">BD</span>
-                </div>
+                <div className="w-10 h-10 bg-white rounded-2xl flex items-center justify-center shadow-lg overflow-hidden">
+                <img
+                src="/media/logo.png"
+                alt="BD Logo"
+                 className="w-10 h-10 object-contain"
+                />
+              </div>
                 <span className="text-2xl font-bold">Believers Consultancy</span>
               </div>
               <p className="text-gray-400 mb-8 leading-relaxed">

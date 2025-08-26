@@ -68,7 +68,7 @@ const Header: React.FC<HeaderProps> = ({
             >
               <div className="w-10 h-10 bg-white rounded-2xl flex items-center justify-center shadow-lg overflow-hidden">
                 <img
-                src="/public/media/logo.png"
+                src="/media/logo.png"
                 alt="BD Logo"
                  className="w-10 h-10 object-contain"
                 />
@@ -126,7 +126,7 @@ const Header: React.FC<HeaderProps> = ({
             >
               <div className="w-10 h-10 bg-white rounded-2xl flex items-center justify-center shadow-lg overflow-hidden">
                 <img
-                src="/public/media/logo.png"
+                src="/media/logo.png"
                 alt="BD Logo"
                  className="w-10 h-10 object-contain"
                 />

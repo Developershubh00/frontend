@@ -91,9 +91,13 @@ const SignupPage: React.FC = () => {
         <div className="bg-white/80 backdrop-blur-xl rounded-3xl shadow-2xl p-8 border border-white/20">
           {/* Logo and Header */}
           <div className="text-center mb-8">
-            <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg">
-              <span className="text-white font-bold text-2xl">BD</span>
-            </div>
+            <div className="w-10 h-10 bg-white rounded-2xl flex items-center justify-center shadow-lg overflow-hidden">
+                <img
+                src="/media/logo.png"
+                alt="BD Logo"
+                 className="w-10 h-10 object-contain"
+                />
+              </div>
             <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2">
               Join BelieversConsultancy
             </h1>
