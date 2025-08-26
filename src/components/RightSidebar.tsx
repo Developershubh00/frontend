@@ -145,7 +145,7 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
           <h3 className="text-sm font-bold text-slate-800 mb-3">Quick Actions</h3>
           <div className="space-y-2">
             <button 
-              onClick={() => window.open('https://mcc.nic.in/pg-medical-counselling/', '_blank')}
+              onClick={() => window.open('https://forms.gle/HE2RyX5CLh7j9FzX9/', '_blank')}
               className="w-full flex items-center space-x-3 p-3 bg-blue-50 hover:bg-blue-100 rounded-lg transition-colors"
             >
               <Calendar className="w-4 h-4 text-blue-600" />
