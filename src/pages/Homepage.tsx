@@ -1457,7 +1457,7 @@ function Homepage() {
 
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className=" p-2"
+              className="md:hidden p-2"
             >
               {isMenuOpen ? (
                 <X className="w-6 h-6" />
