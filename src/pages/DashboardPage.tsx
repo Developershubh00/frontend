@@ -236,14 +236,14 @@ const DashboardPage: React.FC = () => {
             minWidth: '320px'
           }}
         >
-          {/* State Tabs */}
+          {/* State Tabs
           <div className="sticky top-0 z-20 bg-white/80 backdrop-blur-xl border-b border-slate-200/50">
             <StateTabs 
               activeTab={activeStateTab} 
               onTabChange={setActiveStateTab}
             />
           </div>
-          
+           */}
           {/* Main Content */}
           <div className="p-4 lg:p-6">
             <MainContent 
