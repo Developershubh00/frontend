@@ -1470,7 +1470,7 @@ function Homepage() {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden bg-white border-t border-gray-100 shadow-lg">
+          <div className=" bg-white border-t border-gray-100 shadow-lg">
             <div className="px-4 py-4 space-y-3">
               <button 
               onClick={() => navigate("/login")}
