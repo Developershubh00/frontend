@@ -81,18 +81,18 @@ const Header: React.FC<HeaderProps> = ({
             </button>
           </div>
 
-          {/* <div className="flex items-center space-x-2">
+          <div className="flex items-center space-x-2">
             <button className="p-2 text-slate-700 hover:bg-slate-50 rounded-xl transition-colors">
               <ChevronLeft className="w-5 h-5" />
             </button>
             <button className="p-2 text-slate-700 hover:bg-slate-50 rounded-xl transition-colors">
               <ChevronRight className="w-5 h-5" />
-            </button> */}
+            </button>
 
-            {/* <button className="p-2 text-slate-700 hover:bg-slate-50 rounded-xl transition-colors relative">
+            <button className="p-2 text-slate-700 hover:bg-slate-50 rounded-xl transition-colors relative">
               <Bell className="w-5 h-5" />
               <span className="absolute -top-1 -right-1 w-3 h-3 bg-red-400 rounded-full animate-pulse"></span>
-            </button> */}
+            </button>
 
             <button
               onClick={() => navigate("/profile")}
