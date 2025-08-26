@@ -1600,7 +1600,7 @@ function Homepage() {
                 />
                 {/* Mobile Image */}
                 <img
-                  src="https://cdn.dribbble.com/userupload/44607602/file/59e8f7cba815e15a4c7a645f26af0bdb.jpg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
+                  src="https://cdn.dribbble.com/userupload/44656684/file/cec64a8083e87908509e53b8db9b4121.png?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
                   alt="Believers Consultancy Dashboard Preview"
                   className="w-full h-auto rounded-[30px] shadow-lg md:hidden"
                   style={{ aspectRatio: "3/2" }}
