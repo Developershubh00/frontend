@@ -1457,7 +1457,7 @@ function Homepage() {
 
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="md:hidden p-2"
+              className=" p-2"
             >
               {isMenuOpen ? (
                 <X className="w-6 h-6" />
@@ -1470,7 +1470,7 @@ function Homepage() {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className=" bg-black border-t border-gray-100 shadow-lg">
+          <div className=" bg-white border-t border-gray-100 shadow-lg">
             <div className="px-4 py-4 space-y-3">
               <button 
               onClick={() => navigate("/login")}
