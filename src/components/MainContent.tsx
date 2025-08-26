@@ -402,13 +402,13 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
         </div>
       </div>
 
-      {/* State Tabs Section */}
+      {/* State Tabs Section
       <div className="px-4 lg:px-6 py-4">
         <StateTabs 
           activeTab={currentStateTab} 
           onTabChange={handleStateTabChange} 
         />
-      </div>
+      </div> */}
 
       <div className="px-4 lg:px-6 py-6 lg:py-8 max-w-7xl mx-auto">
         {/* Mobile-First Data Cards */}
