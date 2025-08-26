@@ -132,7 +132,7 @@ const Sidebar: React.FC<SidebarProps> = ({
       } bg-white/95 backdrop-blur-md border-r border-slate-200 h-full overflow-y-auto transition-all duration-300 ${className} flex-shrink-0 z-30`}
     >
       <div className="p-4">
-        {/* Collapse Toggle Button - Desktop Only */}
+        {/* Collapse Toggle Button - Desktop Only
         {onToggleCollapse && (
           <div className="flex justify-end mb-4">
             <button
@@ -147,7 +147,7 @@ const Sidebar: React.FC<SidebarProps> = ({
               )}
             </button>
           </div>
-        )}
+        )} */}
 
         <nav className="space-y-2">
           {menuItems.map((item) => (
