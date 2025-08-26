@@ -178,7 +178,7 @@ const Header: React.FC<HeaderProps> = ({
               <div className="relative">
                 <button
                   onClick={() => toggleDropdown("predictor")}
-                  className="flex items-center space-x-2 px-4 py-2 text-green-600 hover:bg-green-50 rounded-xl transition-all duration-200 font-medium"
+                  className="flex items-center space-x-2 px-4 py-2 text-green-600 text-[clamp(14px,2vw,24px)] truncate hover:bg-green-50 rounded-xl transition-all duration-200 font-medium"
                 >
                   <span>Predictors</span>
                   <ChevronDown className="w-4 h-4" />
@@ -207,7 +207,7 @@ const Header: React.FC<HeaderProps> = ({
               </div>
 
               <button
-                className="flex items-center space-x-2 px-4 py-2 text-pink-600 hover:bg-pink-50 rounded-xl transition-all duration-200 font-medium"
+                className="flex items-center space-x-2 px-4 py-2 text-pink-600 text-[clamp(14px,2vw,24px)] truncate  hover:bg-pink-50 rounded-xl transition-all duration-200 font-medium"
                 onClick={() => navigate("/choice-lists")}
               >
                 <Heart className="w-4 h-4" />
