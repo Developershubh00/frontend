@@ -71,7 +71,7 @@ const Header: React.FC<HeaderProps> = ({
                 <span className="text-white font-bold text-lg">BD</span>
               </div>
               <div>
-                <h1 className="text-lg font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                <h1 className="text-lg font-bold text-[clamp(14px,2vw,24px)] truncate bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                   Believers Consultancy
                 </h1>
               </div>
@@ -125,10 +125,10 @@ const Header: React.FC<HeaderProps> = ({
                 <span className="text-white font-bold text-lg">BD</span>
               </div>
               <div>
-                <h1 className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                <h1 className="text-xl font-bold text-[clamp(14px,2vw,24px)] truncate bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                   Believers Consultancy
                 </h1>
-                <p className="text-xs text-slate-500">
+                <p className="text-xs text-[clamp(14px,2vw,24px)] truncate text-slate-500">
                   Medical Career Guidance
                 </p>
               </div>
