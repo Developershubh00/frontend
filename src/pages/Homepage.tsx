@@ -1603,7 +1603,7 @@ function Homepage() {
                   src="https://cdn.dribbble.com/userupload/44656684/file/cec64a8083e87908509e53b8db9b4121.png?auto=compress&cs=tinysrgb&w=600&h=1200&fit=crop"
                   alt="Believers Consultancy Dashboard Preview"
                   className="w-full h-auto rounded-[30px] shadow-lg md:hidden"
-                  style={{ aspectRatio: "16/9" }}
+                  style={{ aspectRatio: "9/16" }}
                   loading="eager"
                 />
                 <div className="absolute inset-6 bg-gradient-to-t from-black/20 to-transparent rounded-[30px] pointer-events-none"></div>
