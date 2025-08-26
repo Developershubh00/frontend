@@ -1592,7 +1592,7 @@ function Homepage() {
               <div className="relative p-6">
                 {/* Desktop Image */}
                 <img
-                  src="https://cdn.dribbble.com/userupload/44607602/file/59e8f7cba815e15a4c7a645f26af0bdb.jpg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop"
+                  src="https://cdn.dribbble.com/userupload/44656393/file/162ff7204b1ff5826ce7fd3e446c5566.png?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop"
                   alt="Believers Consultancy Dashboard Preview"
                   className="w-full h-auto rounded-[30px] shadow-lg hidden md:block"
                   style={{ aspectRatio: "16/10" }}
