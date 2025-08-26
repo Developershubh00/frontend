@@ -911,25 +911,25 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
             <div className="hidden xl:flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0 md:space-x-4">
               {[
                 {
-                  date: "JAN 15 2025",
+                  date: "AUG 19 2025",
                   title: "Results Announced",
                   subtitle: "NEET PG 2025 Results",
                   status: "completed"
                 },
                 {
-                  date: "JAN 20 2025",
+                  date: "SEP 2 2025",
                   title: "Counselling Registration",
                   subtitle: "MCC Portal Opens",
                   status: "current"
                 },
                 {
-                  date: "FEB 5 2025",
+                  date: "SEP 5 2025",
                   title: "Choice Filling",
                   subtitle: "Round 1 Starts",
                   status: "pending"
                 },
                 {
-                  date: "FEB 15 2025",
+                  date: "SEP 15 2025",
                   title: "Seat Allotment",
                   subtitle: "Round 1 Results",
                   status: "pending"
