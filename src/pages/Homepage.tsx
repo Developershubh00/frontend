@@ -1557,7 +1557,7 @@ function Homepage() {
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
+          {/* <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
             {stats.map((stat, index) => (
               <div
                 key={index}
@@ -1577,7 +1577,7 @@ function Homepage() {
                 <div className="text-sm text-gray-500">{stat.sublabel}</div>
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
       </section>
 
