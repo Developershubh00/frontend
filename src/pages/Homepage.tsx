@@ -1449,17 +1449,17 @@ function Homepage() {
 
                 <div className="relative group"></div>
               </div>
-              {/* <div className="flex items-center space-x-4">
-                <div className="flex items-center space-x-2 text-sm text-gray-600">
+              <div className="flex items-center space-x-4">
+                {/* <div className="flex items-center space-x-2 text-sm text-gray-600">
                   <Phone className="w-4 h-4" />
                   <span>091-9211724969</span>
-                </div>
+                </div> */}
                 <button 
                 onClick={() => navigate("/login")}
                 className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2.5 rounded-full font-semibold transition-all duration-300 hover:scale-105 shadow-lg">
                   Login
                 </button>
-              </div> */}
+              </div>
             </div>
 
             <button
