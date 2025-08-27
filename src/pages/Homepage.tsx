@@ -1429,6 +1429,9 @@ function Homepage() {
               <span className="text-2xl font-bold text-gray-900">
                 Believers Consultancy
               </span>
+              <span className="text-sm text-gray-500">
+                Powered by Believers Destination
+              </span>
             </div>
 
             <div className="hidden md:flex items-center space-x-8">
