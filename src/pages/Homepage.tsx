@@ -2251,14 +2251,6 @@ function Homepage() {
                     href="#"
                     className="hover:text-white transition-colors hover:text-orange-400"
                   >
-                    Packages
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="hover:text-white transition-colors hover:text-orange-400"
-                  >
                     Testimonials
                   </a>
                 </li>
