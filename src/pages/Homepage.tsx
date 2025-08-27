@@ -1558,7 +1558,7 @@ function Homepage() {
             </div>
             
             {/* Desktop Menu */}
-            <div className="hidden md:flex items-center space-x-8">
+            <div className="hidden md:flex items-center space-x-8 ">
               <div className="flex items-center space-x-8">
                 <a
                   href="#testimonials"
@@ -1604,7 +1604,7 @@ function Homepage() {
                 </div> */}
                 <button 
                   onClick={() => navigate("/login")}
-                  className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2.5 rounded-full font-semibold transition-all duration-300 hover:scale-105 shadow-lg"
+                  className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2.5 rounded-full font-semibold transition-all duration-300 hover:scale-105 shadow-lg mr-[5px]"
                 >
                   Login
                 </button>
