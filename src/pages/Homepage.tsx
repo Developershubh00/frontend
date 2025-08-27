@@ -1418,22 +1418,26 @@ function Homepage() {
       <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm border-b border-gray-100 z-50 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-white rounded-2xl flex items-center justify-center shadow-lg overflow-hidden">
-                <img
-                src="/media/logo.png"
-                alt="BD Logo"
-                 className="w-10 h-10 object-contain"
-                />
-              </div>
-              <span className="text-2xl font-bold text-gray-900">
-                Believers Consultancy
-              </span>
-              <span className="text-sm text-gray-500">
-                Powered by Believers Destination
-              </span>
-            </div>
-
+      {/* Logo + Text */}
+        <div className="flex items-center space-x-3">
+      {/* Logo */}
+        <div className="w-10 h-10 bg-white rounded-2xl flex items-center justify-center shadow-lg overflow-hidden">
+        <img
+        src="/media/logo.png"
+        alt="BD Logo"
+        className="w-10 h-10 object-contain"
+        />
+       </div>
+    {/* Heading + Tagline */}
+    <div className="flex flex-col">
+      <span className="text-2xl font-bold text-gray-900">
+        Believers Consultancy
+      </span>
+      <span className="text-xs italic text-gray-600">
+        Powered by Believers Destination
+      </span>
+    </div>
+  </div>
             <div className="hidden md:flex items-center space-x-8">
               <div className="flex items-center space-x-6">
                 <div className="relative group"></div>
