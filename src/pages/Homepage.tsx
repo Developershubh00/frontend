@@ -1433,7 +1433,7 @@ function Homepage() {
       <span className="text-2xl font-bold text-gray-900">
         Believers Consultancy
       </span>
-      <span className="text-xs italic text-gray-600">
+      <span className="text-xs italic text-center text-gray-600">
         Powered by Believers Destination
       </span>
     </div>
@@ -1449,7 +1449,7 @@ function Homepage() {
 
                 <div className="relative group"></div>
               </div>
-              <div className="flex items-center space-x-4">
+              {/* <div className="flex items-center space-x-4">
                 <div className="flex items-center space-x-2 text-sm text-gray-600">
                   <Phone className="w-4 h-4" />
                   <span>091-9211724969</span>
@@ -1459,7 +1459,7 @@ function Homepage() {
                 className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2.5 rounded-full font-semibold transition-all duration-300 hover:scale-105 shadow-lg">
                   Login
                 </button>
-              </div>
+              </div> */}
             </div>
 
             <button
