@@ -1110,8 +1110,8 @@ import {
   ChevronLeft,
   ChevronRight,
   Clock,
-  
 } from "lucide-react";
+import TypingCategories from "../components/TypingCategories"
 
 function Homepage() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -1254,13 +1254,13 @@ function Homepage() {
       highlight: "Fee, Stipend & Bond",
     },
     {
-      title: "STRATEGIES FOR ROUND 2",
+      title: "Multi Rank-Predictors ",
       description:
         "Should you upgrade? Will you loose your seat? Is it worth the penalty?",
       color: "border-purple-300 bg-purple-50",
       textColor: "text-purple-800",
       icon: <Award className="w-8 h-8 text-purple-600" />,
-      highlight: "STRATEGIES FOR ROUND 2",
+      highlight: "Multi Rank-Predictors",
     },
     {
       title: "Webinars & Live Doubt Sessions",
@@ -1291,8 +1291,8 @@ function Homepage() {
 
   const reviews = [
     {
-      name: "Dr. Priya Sharma",
-      role: "NEET UG 2023 - AIIMS Delhi",
+      name: "Dr. Priya ",
+      role: "NEET UG 2025 - AIIMS Delhi",
       specialty: "MD Paediatrics Resident",
       location:
         "Dr. Uttam Patil Medical College and Hospital Jalgaon, Maharashtra",
@@ -1306,9 +1306,9 @@ function Homepage() {
       verified: true,
     },
     {
-      name: "Dr. Mandeep Singh",
+      name: "Dr. Mandeep ",
       role: "MD Gynaecology Resident",
-      specialty: "NEET PG 2023",
+      specialty: "NEET PG 2024",
       location: "Government Medical College",
       rating: 5,
       review:
@@ -1320,9 +1320,9 @@ function Homepage() {
       verified: true,
     },
     {
-      name: "Dr. Nivetha Arun Pranaav",
+      name: "Dr. Nivetha ",
       role: "UG Microbiology",
-      specialty: "NEET UG 2023",
+      specialty: "NEET UG 2024",
       location: "Government Medical College",
       rating: 5,
       review:
@@ -1334,8 +1334,8 @@ function Homepage() {
       verified: true,
     },
     {
-      name: "Madhu Kamani",
-      role: "Parent",
+      name: "Madhu ",
+      role: "PG Ophthalmology",
       specialty: "NEET Counselling Support",
       location: "Mumbai",
       rating: 5,
@@ -1343,13 +1343,13 @@ function Homepage() {
       detailedReview:
         "The guidance and support provided throughout the counselling process was exceptional. My daughter secured her dream seat with Believers Consultancy guidance.",
       image:
-        "https://images.pexels.com/photos/5452201/pexels-photo-5452201.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+        "https://cdn.dribbble.com/userupload/44669412/file/db5d084e82ca6d9c9fa70ae37cb9cf63.png?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
       verified: true,
     },
     {
-      name: "Dr. Falit Karim",
+      name: "Dr. Falit ",
       role: "UG Ophthalmology",
-      specialty: "NEET UG 2023",
+      specialty: "NEET UG 2024",
       location: "Government Medical College",
       rating: 5,
       review:
@@ -1357,7 +1357,7 @@ function Homepage() {
       detailedReview:
         "The comprehensive data analysis and expert guidance helped me make informed decisions. Highly recommend to all NEET aspirants.",
       image:
-        "https://images.pexels.com/photos/5384445/pexels-photo-5384445.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+        "https://cdn.dribbble.com/userupload/44669411/file/7a4de58473bddb2b24be4f79965fe29e.png?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
       verified: true,
     },
   ];
@@ -1379,11 +1379,11 @@ function Homepage() {
       answer:
         "Absolutely! Believers Consultancy is 100% free. Just create an account and access all features, tools, and resources without any payment or subscription required. No hidden charges, no premium plans - everything is FREE!",
     },
-    {
-      question: "Can I get updates for both NEET UG and NEET PG counselling?",
-      answer:
-        "Yes! Our platform covers both NEET UG and NEET PG counselling processes. You'll receive updates, notifications, and guidance for whichever exam track you're following.",
-    },
+    // {
+    //   question: "Can I get updates for both NEET UG and NEET PG counselling?",
+    //   answer:
+    //     "Yes! Our platform covers both NEET UG and NEET PG counselling processes. You'll receive updates, notifications, and guidance for whichever exam track you're following.",
+    // },
     {
       question:
         "How is Believers Consultancy useful if I've already started counselling?",
@@ -1393,12 +1393,12 @@ function Homepage() {
     {
       question: "Is there a mobile app available?",
       answer:
-        "Currently, Believers Consultancy is optimized for web browsers on all devices. Our responsive design ensures you get the complete experience on mobile, tablet, or desktop.",
+        "Currently No!, Believers Consultancy is optimized for web browsers on all devices. Our responsive design ensures you get the complete experience on mobile, tablet, or desktop.",
     },
     {
       question: "What does Believers Consultancy access include?",
       answer:
-        "Complete FREE access includes: Real-time cut-off data, seat matrix analysis, fee calculators, choice list builders, expert webinars, round-wise strategies, college comparisons, and 24/7 doubt resolution support.",
+        "Complete FREE access includes: Real-time cut-off data, seat matrix analysis, fee calculators, choice list builders, expert webinars, round-wise strategies, college comparisons, and Daily doubt resolution support.",
     },
   ];
 
@@ -1412,82 +1412,266 @@ function Homepage() {
     );
   };
 
+  // const categories = [
+  //   { text: "NEET PG", comingSoon: false },
+  //   { text: "NEET UG", comingSoon: true },
+  //   { text: "NEET SS", comingSoon: true },
+  //   { text: "INICET", comingSoon: true },
+  // ];
+
+  // const TypingCategories: React.FC = () => {
+  //   const [index, setIndex] = useState(0);
+  //   const [displayedText, setDisplayedText] = useState("");
+  //   const [isDeleting, setIsDeleting] = useState(false);
+
+  //   const typingSpeed = 100;
+  //   const deletingSpeed = 50;
+  //   const pauseTime = 1500;
+
+  //   useEffect(() => {
+  //     const current = categories[index];
+  //     let timer: NodeJS.Timeout;
+
+  //     if (!isDeleting && displayedText.length < current.text.length) {
+  //     // typing
+  //     timer = setTimeout(() => {
+  //       setDisplayedText(current.text.slice(0, displayedText.length + 1));
+  //     }, typingSpeed);
+  //   } else if (isDeleting && displayedText.length > 0) {
+  //     // deleting
+  //     timer = setTimeout(() => {
+  //       setDisplayedText(current.text.slice(0, displayedText.length - 1));
+  //     }, deletingSpeed);
+  //   } else if (!isDeleting && displayedText.length === current.text.length) {
+  //     // pause before deleting
+  //     timer = setTimeout(() => setIsDeleting(true), pauseTime);
+  //   } else if (isDeleting && displayedText.length === 0) {
+  //     // move to next
+  //     setIsDeleting(false);
+  //     setIndex((prev) => (prev + 1) % categories.length);
+  //   }
+
+  //   return () => clearTimeout(timer);
+  // }, [displayedText, isDeleting, index]);
+
+
   return (
-    <div className="min-h-screen bg-white overflow-x-hidden">
-      {/* Navigation */}
+  //   <div className="min-h-screen bg-white overflow-x-hidden">
+  //     {/* Navigation */}
+  //     <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm border-b border-gray-100 z-50 shadow-sm">
+  //       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  //         <div className="flex justify-between items-center h-16">
+  //     {/* Logo + Text */}
+  //       <div className="flex items-center space-x-3">
+  //     {/* Logo */}
+  //       <div className="w-10 h-10 bg-white rounded-2xl flex items-center justify-center shadow-lg overflow-hidden">
+  //       <img
+  //       src="/media/logo.png"
+  //       alt="BD Logo"
+  //       className="w-10 h-10 object-contain"
+  //       />
+  //      </div>
+  //   {/* Heading + Tagline */}
+  //   <div className="flex flex-col">
+  //     <span className="text-2xl font-bold text-gray-900">
+  //       Believers Consultancy
+  //     </span>
+  //     <span className="text-xs italic text-center text-gray-600">
+  //       Powered by Believers Destination
+  //     </span>
+  //   </div>
+  // </div>
+  //           <div className="hidden md:flex items-center space-x-8">
+  //             <div className="flex items-center space-x-6">
+  //               <div className="relative group"></div>
+  //               <div className="relative group"></div>
+  //               <a
+  //                 href="#"
+  //                 className="text-gray-700 hover:text-orange-600 transition-colors"
+  //               ></a>
+
+  //               <div className="relative group"></div>
+  //             </div>
+  //             <div className="flex items-center space-x-4">
+  //               {/* <div className="flex items-center space-x-2 text-sm text-gray-600">
+  //                 <Phone className="w-4 h-4" />
+  //                 <span>091-9211724969</span>
+  //               </div> */}
+  //               <button 
+  //               onClick={() => navigate("/login")}
+  //               className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2.5 rounded-full font-semibold transition-all duration-300 hover:scale-105 shadow-lg">
+  //                 Login
+  //               </button>
+  //             </div>
+  //           </div>
+
+  //           <button
+  //             onClick={() => setIsMenuOpen(!isMenuOpen)}
+  //             className="md:hidden p-2"
+  //           >
+  //             {isMenuOpen ? (
+  //               <X className="w-6 h-6" />
+  //             ) : (
+  //               <Menu className="w-6 h-6" />
+  //             )}
+  //           </button>
+  //         </div>
+  //       </div>
+
+  //       {/* Mobile Menu */}
+  //       {isMenuOpen && (
+  //         <div className=" bg-white border-t border-gray-100 shadow-lg">
+  //           <div className="px-4 py-4 space-y-3">
+  //             <button 
+  //             onClick={() => navigate("/login")}
+  //             className="w-full bg-orange-500 text-white px-4 py-3 rounded-full mt-4 font-semibold">
+  //               Login
+  //             </button>
+  //           </div>
+  //         </div>
+  //       )}
+  //     </nav>
+<div className="min-h-screen bg-white overflow-x-hidden">
+   {/* Navigation */}
       <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm border-b border-gray-100 z-50 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-      {/* Logo + Text */}
-        <div className="flex items-center space-x-3">
-      {/* Logo */}
-        <div className="w-10 h-10 bg-white rounded-2xl flex items-center justify-center shadow-lg overflow-hidden">
-        <img
-        src="/media/logo.png"
-        alt="BD Logo"
-        className="w-10 h-10 object-contain"
-        />
-       </div>
-    {/* Heading + Tagline */}
-    <div className="flex flex-col">
-      <span className="text-2xl font-bold text-gray-900">
-        Believers Consultancy
-      </span>
-      <span className="text-xs italic text-center text-gray-600">
-        Powered by Believers Destination
-      </span>
-    </div>
-  </div>
-            <div className="hidden md:flex items-center space-x-8">
-              <div className="flex items-center space-x-6">
-                <div className="relative group"></div>
-                <div className="relative group"></div>
-                <a
-                  href="#"
-                  className="text-gray-700 hover:text-orange-600 transition-colors"
-                ></a>
-
-                <div className="relative group"></div>
+            {/* Logo + Text */}
+            <div className="flex items-center space-x-3">
+              {/* Logo */}
+              <div className="w-10 h-10 bg-white rounded-2xl flex items-center justify-center shadow-lg overflow-hidden">
+                <img
+                  src="/media/logo.png"
+                  alt="BD Logo"
+                  className="w-10 h-10 object-contain"
+                />
               </div>
+              {/* Heading + Tagline */}
+              <div className="flex flex-col">
+                <span className="text-2xl font-bold text-gray-900">
+                  Believers Consultancy
+                </span>
+                <span className="text-xs italic text-center text-gray-600">
+                  Powered by Believers Destination
+                </span>
+              </div>
+            </div>
+            
+            {/* Desktop Menu */}
+            <div className="hidden md:flex items-center space-x-8">
+              <div className="flex items-center space-x-8">
+                <a
+                  href="#testimonials"
+                  className="text-gray-700 hover:text-orange-600 transition-all duration-300 font-medium relative group"
+                >
+                  Testimonials
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-orange-600 transition-all duration-300 group-hover:w-full"></span>
+                </a>
+                <a
+                  href="#blog"
+                  className="text-gray-700 hover:text-orange-600 transition-all duration-300 font-medium relative group"
+                >
+                  Blog
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-orange-600 transition-all duration-300 group-hover:w-full"></span>
+                </a>
+                <a
+                  href="#news"
+                  className="text-gray-700 hover:text-orange-600 transition-all duration-300 font-medium relative group"
+                >
+                  News
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-orange-600 transition-all duration-300 group-hover:w-full"></span>
+                </a>
+                <a
+                  href="#careers"
+                  className="text-gray-700 hover:text-orange-600 transition-all duration-300 font-medium relative group"
+                >
+                  Careers
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-orange-600 transition-all duration-300 group-hover:w-full"></span>
+                </a>
+                <a
+                  href="#contact"
+                  className="text-gray-700 hover:text-orange-600 transition-all duration-300 font-medium relative group"
+                >
+                  Contact Us
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-orange-600 transition-all duration-300 group-hover:w-full"></span>
+                </a>
+              </div>
+              
               <div className="flex items-center space-x-4">
                 {/* <div className="flex items-center space-x-2 text-sm text-gray-600">
                   <Phone className="w-4 h-4" />
                   <span>091-9211724969</span>
                 </div> */}
                 <button 
-                onClick={() => navigate("/login")}
-                className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2.5 rounded-full font-semibold transition-all duration-300 hover:scale-105 shadow-lg">
+                  onClick={() => navigate("/login")}
+                  className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2.5 rounded-full font-semibold transition-all duration-300 hover:scale-105 shadow-lg"
+                >
                   Login
                 </button>
               </div>
             </div>
-
+            
+            {/* Mobile Menu Button */}
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="md:hidden p-2"
+              className=" p-2"
             >
               {isMenuOpen ? (
-                <X className="w-6 h-6" />
+                <X className="w-6 h-6 text-black" />
               ) : (
                 <Menu className="w-6 h-6" />
               )}
             </button>
           </div>
-        </div>
-
-        {/* Mobile Menu */}
-        {isMenuOpen && (
-          <div className=" bg-white border-t border-gray-100 shadow-lg">
-            <div className="px-4 py-4 space-y-3">
-              <button 
-              onClick={() => navigate("/login")}
-              className="w-full bg-orange-500 text-white px-4 py-3 rounded-full mt-4 font-semibold">
-                Login
-              </button>
+          
+          {/* Mobile Menu */}
+          {isMenuOpen && (
+            <div className="md:hidden border-t border-gray-100 bg-white/95 backdrop-blur-sm">
+              <div className="px-2 pt-2 pb-3 space-y-1">
+                <a
+                  href="#testimonials"
+                  className="block px-3 py-2 text-gray-700 hover:text-orange-600 hover:bg-orange-50 rounded-md transition-all duration-300 font-medium"
+                >
+                  Testimonials
+                </a>
+                <a
+                  href="#blog"
+                  className="block px-3 py-2 text-gray-700 hover:text-orange-600 hover:bg-orange-50 rounded-md transition-all duration-300 font-medium"
+                >
+                  Blog
+                </a>
+                <a
+                  href="#news"
+                  className="block px-3 py-2 text-gray-700 hover:text-orange-600 hover:bg-orange-50 rounded-md transition-all duration-300 font-medium"
+                >
+                  News
+                </a>
+                <a
+                  href="#careers"
+                  className="block px-3 py-2 text-gray-700 hover:text-orange-600 hover:bg-orange-50 rounded-md transition-all duration-300 font-medium"
+                >
+                  Careers
+                </a>
+                <a
+                  href="#contact"
+                  className="block px-3 py-2 text-gray-700 hover:text-orange-600 hover:bg-orange-50 rounded-md transition-all duration-300 font-medium"
+                >
+                  Contact Us
+                </a>
+                <div className="pt-2">
+                  <button 
+                    onClick={() => navigate("/login")}
+                    className="w-full bg-orange-500 hover:bg-orange-600 text-white px-6 py-2.5 rounded-full font-semibold transition-all duration-300 shadow-lg"
+                  >
+                    Login
+                  </button>
+                </div>
+              </div>
             </div>
-          </div>
-        )}
+          )}
+        </div>
       </nav>
+   
 
       {/* Hero Section */}
       <section
@@ -1507,17 +1691,13 @@ function Homepage() {
               Your Ultimate Guide to
             </h1>
             <div
-              className={`text-4xl md:text-6xl font-bold mb-8 transition-all duration-700 delay-100 ${
-                isVisible
-                  ? "opacity-100 translate-y-0"
-                  : "opacity-0 translate-y-10"
-              }`}
-            >
-              <span className="bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent">
-                NEET UG • NEET PG
-              </span>{" "}
-              <span className="text-gray-900">Counselling</span>
-            </div>
+  className={`text-4xl md:text-6xl font-bold mb-8 transition-all duration-700 delay-100 ${
+    isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+  } flex justify-center items-center gap-3`}
+>
+  <TypingCategories />
+  <span className="text-gray-900">Counselling</span>
+</div>
             <p
               className={`text-xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed transition-all duration-700 delay-200 ${
                 isVisible
@@ -1744,9 +1924,9 @@ function Homepage() {
                     ? "opacity-100 translate-y-0"
                     : "opacity-0 translate-y-20"
                 }`}
-                style={{ transitionDelay: `${index * 100}ms` }}
+                style={{ transitionDelay: `${index * 50}ms` }}
               >
-                <div className="mb-6 transform group-hover:scale-110 transition-transform duration-300">
+                <div className="mb-6 transform group-hover:scale-110 transition-transform duration-200">
                   {feature.icon}
                 </div>
                 <h3
@@ -1779,14 +1959,21 @@ function Homepage() {
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-12">
-              <div className="flex items-center bg-green-100 text-green-800 px-6 py-3 rounded-full font-semibold">
+              <div className="flex items-center bg-green-100 text-green-800 px-6 py-3 rounded-full font-semibold transition-all duration-300 hover:text-green-900  hover:scale-110">
                 <Phone className="w-5 h-5 mr-2" />
-                <span>Talk to an expert: +91 9211724969</span>
+                <a
+                  href="https://wa.me/919211724969?text=Hi%20I%20want%20to%20talk%20to%20an%20expert"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold text-green-700 "
+                >
+                Chat with an Expert on WhatsApp
+                </a>
               </div>
-              <div className="flex items-center bg-blue-100 text-blue-800 px-6 py-3 rounded-full font-semibold">
+              {/* <div className="flex items-center bg-blue-100 text-blue-800 px-6 py-3 rounded-full font-semibold">
                 <Mail className="w-5 h-5 mr-2" />
                 <span>Email us: connect@believersconsultancy.com</span>
-              </div>
+              </div> */}
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -1819,10 +2006,10 @@ function Homepage() {
                   <Clock className="w-10 h-10 text-white" />
                 </div>
                 <h3 className="text-xl font-bold text-yellow-800 mb-4">
-                  No limits
+                  We’re Here for You
                 </h3>
                 <p className="text-yellow-700">
-                  Talk as long as you want, as often as you need.
+                  Available daily from 10 AM to 7 PM (Sunday Closed).
                 </p>
               </div>
             </div>
@@ -1854,13 +2041,13 @@ function Homepage() {
                 onClick={prevReview}
                 className="p-3 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors mr-4"
               >
-                <ChevronLeft className="w-6 h-6" />
+                <ChevronLeft className="w-6 h-6 text-black" />
               </button>
               <button
                 onClick={nextReview}
                 className="p-3 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors"
               >
-                <ChevronRight className="w-6 h-6" />
+                <ChevronRight className="w-6 h-6 text-black" />
               </button>
             </div>
 
@@ -1901,7 +2088,7 @@ function Homepage() {
                           <p className="text-sm text-orange-600 font-semibold">
                             {review.specialty}
                           </p>
-                          <p className="text-xs text-gray-500">
+                          <p className="text-xs text-gray-500 blur-sm">
                             {review.location}
                           </p>
                         </div>
@@ -1961,6 +2148,54 @@ function Homepage() {
         </div>
       </section>
 
+     {/* FAQ Section */}
+      <section className="py-24 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-20">
+            <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
+              Frequently Asked Questions
+            </h2>
+            <p className="text-xl text-gray-600">
+              Here are some answers to questions you might be looking for.
+            </p>
+          </div>
+
+          <div className="space-y-4">
+            {faqs.map((faq, index) => (
+              <div
+                key={index}
+                className="border border-gray-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow"
+              >
+                <button
+                  className="w-full px-8 py-6 text-left bg-white hover:bg-gray-50 transition-colors flex justify-between items-center"
+                  onClick={() =>
+                    setActiveFAQ(activeFAQ === index ? null : index)
+                  }
+                >
+                  <span className="font-semibold text-gray-900 text-lg pr-4">
+                    {faq.question}
+                  </span>
+                  <ChevronDown
+                    className={`w-6 h-6 text-gray-500 transition-transform flex-shrink-0 ${
+                      activeFAQ === index ? "rotate-180" : ""
+                    }`}
+                  />
+                </button>
+                <div
+                  className={`px-8 bg-gray-50 transition-all duration-300 overflow-hidden ${
+                    activeFAQ === index
+                      ? "py-6 opacity-100"
+                      : "py-0 opacity-0 max-h-0"
+                  }`}
+                >
+                  <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+       </section> 
+
       {/* Take Control Today */}
       <section className="py-16 bg-gradient-to-br from-blue-500 to-indigo-100 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-orange-50/30 to-red-50/30"></div>
@@ -2002,9 +2237,9 @@ function Homepage() {
                 access to all resources and expert guidance.
               </p>
               <div className="flex space-x-4">
-                <div className="bg-gray-800 rounded-xl p-4 hover:bg-gray-700 transition-colors cursor-pointer">
+                {/* <div className="bg-gray-800 rounded-xl p-4 hover:bg-gray-700 transition-colors cursor-pointer">
                   <span className="text-sm font-semibold">Download App</span>
-                </div>
+                </div> */}
               </div>
             </div>
 
