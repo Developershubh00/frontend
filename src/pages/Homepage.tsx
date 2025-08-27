@@ -1597,7 +1597,7 @@ function Homepage() {
                 </a>
               </div>
               
-              <div className="flex items-center space-x-4">
+              <div className="flex items-left space-x-4">
                 {/* <div className="flex items-center space-x-2 text-sm text-gray-600">
                   <Phone className="w-4 h-4" />
                   <span>091-9211724969</span>
@@ -1617,9 +1617,9 @@ function Homepage() {
               className=" p-2"
             >
               {isMenuOpen ? (
-                <X className="w-6 h-6 text-black" />
+                <X className="md:hidden w-6 h-6 text-black" />
               ) : (
-                <Menu className="w-6 h-6" />
+                <Menu className="md:hidden w-6 h-6 text-black" />
               )}
             </button>
           </div>
