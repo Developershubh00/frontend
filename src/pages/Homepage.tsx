@@ -2233,7 +2233,7 @@ function Homepage() {
               </div>
               <p className="text-gray-400 mb-8 leading-relaxed">
                 Powered by Believers Destination
-                Your ultimate guide to NEET UG & NEET PG counselling. 100% free
+                Your ultimate guide to counselling. 100% free
                 access to all resources and expert guidance.
               </p>
               <div className="flex space-x-4">
@@ -2313,7 +2313,7 @@ function Homepage() {
                     href="#"
                     className="hover:text-white transition-colors hover:text-orange-400"
                   >
-                    INICET
+                    INICET (Coming Soon)
                   </a>
                 </li>
                 <li>
@@ -2321,7 +2321,7 @@ function Homepage() {
                     href="#"
                     className="hover:text-white transition-colors hover:text-orange-400"
                   >
-                    DNB PDCET
+                    DNB PDCET (Coming Soon)
                   </a>
                 </li>
                 <li>
@@ -2329,7 +2329,7 @@ function Homepage() {
                     href="#"
                     className="hover:text-white transition-colors hover:text-orange-400"
                   >
-                    NEET SS
+                    NEET SS (Coming Soon)
                   </a>
                 </li>
               </ul>
