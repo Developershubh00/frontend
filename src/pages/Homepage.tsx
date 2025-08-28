@@ -2297,7 +2297,7 @@ function Homepage() {
                     href="#"
                     className="hover:text-white transition-colors hover:text-orange-400"
                   >
-                    NEET UG
+                    NEET PG
                   </a>
                 </li>
                 <li>
@@ -2305,7 +2305,7 @@ function Homepage() {
                     href="#"
                     className="hover:text-white transition-colors hover:text-orange-400"
                   >
-                    NEET PG
+                    NEET UG (Coming Soon)
                   </a>
                 </li>
                 <li>
