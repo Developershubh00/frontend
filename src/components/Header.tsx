@@ -82,12 +82,12 @@ const Header: React.FC<HeaderProps> = ({
           </div>
 
           <div className="flex items-center space-x-2">
-            <button className="p-2 text-slate-700 hover:bg-slate-50 rounded-xl transition-colors">
+            {/* <button className="p-2 text-slate-700 hover:bg-slate-50 rounded-xl transition-colors">
               <ChevronLeft className="w-5 h-5" />
             </button>
             <button className="p-2 text-slate-700 hover:bg-slate-50 rounded-xl transition-colors">
               <ChevronRight className="w-5 h-5" />
-            </button>
+            </button> */}
 
             <button className="p-2 text-slate-700 hover:bg-slate-50 rounded-xl transition-colors relative">
               <Bell className="w-5 h-5" />
@@ -206,13 +206,13 @@ const Header: React.FC<HeaderProps> = ({
                 )}
               </div>
 
-              <button
+              {/* <button
                 className="flex items-center space-x-2 px-4 py-2 text-pink-600 hover:bg-pink-50 rounded-xl transition-all duration-200 font-medium"
                 onClick={() => navigate("/choice-lists")}
               >
                 <Heart className="w-4 h-4" />
                 <span>My Choice Lists</span>
-              </button>
+              </button> */}
             </div>
           </div>
 
@@ -229,15 +229,15 @@ const Header: React.FC<HeaderProps> = ({
             </div>
 
             <div className="flex items-center space-x-2">
-              <button className="p-2 text-slate-700 hover:bg-slate-50 rounded-xl transition-colors">
+              {/* <button className="p-2 text-slate-700 hover:bg-slate-50 rounded-xl transition-colors">
                 <ChevronLeft className="w-5 h-5" />
               </button>
               <button className="p-2 text-slate-700 hover:bg-slate-50 rounded-xl transition-colors">
                 <ChevronRight className="w-5 h-5" />
-              </button>
+              </button> */}
 
               <div className="relative">
-                <button
+                {/* <button
                   onClick={() => toggleDropdown("institutes")}
                   className="flex items-center space-x-1 px-3 py-2 text-slate-700 hover:bg-slate-50 rounded-xl transition-colors"
                 >
@@ -265,7 +265,7 @@ const Header: React.FC<HeaderProps> = ({
                       Government
                     </button>
                   </div>
-                )}
+                )} */}
               </div>
 
               <button

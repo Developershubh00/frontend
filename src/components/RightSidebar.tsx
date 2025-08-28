@@ -158,25 +158,25 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
               <Target className="w-4 h-4 text-purple-600" />
               <span className="text-sm font-medium text-slate-800">Specialty Predictor</span>
             </button>
-            <button 
+            {/* <button 
               onClick={() => window.location.href = '/allotments'}
               className="w-full flex items-center space-x-3 p-3 bg-orange-50 hover:bg-orange-100 rounded-lg transition-colors"
             >
               <Users className="w-4 h-4 text-orange-600" />
               <span className="text-sm font-medium text-slate-800">View Allotments</span>
-            </button>
-            <button 
+            </button> */}
+            {/* <button 
               onClick={() => window.location.href = '/closing-ranks'}
               className="w-full flex items-center space-x-3 p-3 bg-green-50 hover:bg-green-100 rounded-lg transition-colors"
             >
               <TrendingUp className="w-4 h-4 text-green-600" />
               <span className="text-sm font-medium text-slate-800">Closing Ranks</span>
-            </button>
+            </button> */}
           </div>
         </div>
 
         {/* NEET PG Timeline */}
-        <div className="mb-6">
+        {/* <div className="mb-6">
           <h3 className="text-sm font-bold text-slate-800 mb-3">Timeline</h3>
           <div className="space-y-2">
             {neetPGUpdates.slice(0, 8).map((update) => (
@@ -193,7 +193,7 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* NEET PG Statistics */}
         <div className="mb-6">
@@ -215,7 +215,7 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
         </div>
 
         {/* Important Links */}
-        <div className="mb-6">
+        {/* <div className="mb-6">
           <h3 className="text-sm font-bold text-slate-800 mb-3">Important Links</h3>
           <div className="space-y-2">
             <a 
@@ -243,7 +243,7 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
               <span className="text-xs font-medium text-slate-800">Check Results</span>
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
