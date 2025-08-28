@@ -1089,6 +1089,8 @@
 // }
 
 // export default Homepage;
+
+
 import React, { useState, useEffect, useRef } from "react"
 import { useNavigate } from "react-router-dom";
 import {
@@ -1365,12 +1367,12 @@ function Homepage() {
   const faqs = [
     {
       question:
-        "Isn't this information already available for free? Why Believers Consultancy?",
+        "What is Believers Consultancy?",
       answer:
-        "While basic information exists scattered across various sources, Believers Consultancy consolidates everything into one comprehensive, user-friendly platform. We provide analyzed data, predictions, and personalized guidance that saves you countless hours of research. Everything is completely FREE - just login and access all features!",
+        "Believers Consultancy is a dedicated counselling service provider specializing in free guidance for NEET UG and PG aspirants. Our mission is to help medical entrance exam qualified students navigate the complex counselling process and secure admission in their preferred medical colleges across India. ",
     },
     {
-      question: "How accurate is the data provided on Believers Consultancy?",
+      question: "Why do you provide free counselling services?",
       answer:
         "Our data is sourced directly from official counselling authorities and updated in real-time. We maintain 99%+ accuracy and cross-verify all information through multiple official channels.",
     },
@@ -1379,11 +1381,12 @@ function Homepage() {
       answer:
         "Absolutely! Believers Consultancy is 100% free. Just create an account and access all features, tools, and resources without any payment or subscription required. No hidden charges, no premium plans - everything is FREE!",
     },
-    // {
-    //   question: "Can I get updates for both NEET UG and NEET PG counselling?",
-    //   answer:
-    //     "Yes! Our platform covers both NEET UG and NEET PG counselling processes. You'll receive updates, notifications, and guidance for whichever exam track you're following.",
-    // },
+    {
+      question: "Who conducts NEET UG counselling?",
+      answer:
+        "NEET UG counselling is conducted at two levels: Central Level: Medical Counselling Committee (MCC) conducts counselling for 15% All India Quota (AIQ) seats and 100% seats in deemed/central universities.	State Level: Individual state authorities conduct counselling for 85% state quota seats",
+    },
+
     {
       question:
         "How is Believers Consultancy useful if I've already started counselling?",
@@ -1391,14 +1394,14 @@ function Homepage() {
         "Even mid-counselling, our tools help you make better choices in subsequent rounds, understand upgrade possibilities, calculate financial implications, and avoid common mistakes that could cost you your preferred seat.",
     },
     {
-      question: "Is there a mobile app available?",
+      question: "How many rounds of NEET UG counselling are there?",
       answer:
-        "Currently No!, Believers Consultancy is optimized for web browsers on all devices. Our responsive design ensures you get the complete experience on mobile, tablet, or desktop.",
+        "NEET UG counselling typically consists of (Round 1/Round 2/Round 3/Mop-up Round/Stray Vacancy Round (if required)) ,Each round provides opportunities for seat allotment and upgradation.",
     },
     {
-      question: "What does Believers Consultancy access include?",
+      question: "Can I participate in both AIQ and State Quota counselling??",
       answer:
-        "Complete FREE access includes: Real-time cut-off data, seat matrix analysis, fee calculators, choice list builders, expert webinars, round-wise strategies, college comparisons, and Daily doubt resolution support.",
+        "Yes, eligible candidates can participate in both AIQ and State Quota counselling simultaneously. However, you need to register separately for each counselling process.",
     },
   ];
 
@@ -1412,125 +1415,9 @@ function Homepage() {
     );
   };
 
-  // const categories = [
-  //   { text: "NEET PG", comingSoon: false },
-  //   { text: "NEET UG", comingSoon: true },
-  //   { text: "NEET SS", comingSoon: true },
-  //   { text: "INICET", comingSoon: true },
-  // ];
-
-  // const TypingCategories: React.FC = () => {
-  //   const [index, setIndex] = useState(0);
-  //   const [displayedText, setDisplayedText] = useState("");
-  //   const [isDeleting, setIsDeleting] = useState(false);
-
-  //   const typingSpeed = 100;
-  //   const deletingSpeed = 50;
-  //   const pauseTime = 1500;
-
-  //   useEffect(() => {
-  //     const current = categories[index];
-  //     let timer: NodeJS.Timeout;
-
-  //     if (!isDeleting && displayedText.length < current.text.length) {
-  //     // typing
-  //     timer = setTimeout(() => {
-  //       setDisplayedText(current.text.slice(0, displayedText.length + 1));
-  //     }, typingSpeed);
-  //   } else if (isDeleting && displayedText.length > 0) {
-  //     // deleting
-  //     timer = setTimeout(() => {
-  //       setDisplayedText(current.text.slice(0, displayedText.length - 1));
-  //     }, deletingSpeed);
-  //   } else if (!isDeleting && displayedText.length === current.text.length) {
-  //     // pause before deleting
-  //     timer = setTimeout(() => setIsDeleting(true), pauseTime);
-  //   } else if (isDeleting && displayedText.length === 0) {
-  //     // move to next
-  //     setIsDeleting(false);
-  //     setIndex((prev) => (prev + 1) % categories.length);
-  //   }
-
-  //   return () => clearTimeout(timer);
-  // }, [displayedText, isDeleting, index]);
-
-
+  
   return (
-  //   <div className="min-h-screen bg-white overflow-x-hidden">
-  //     {/* Navigation */}
-  //     <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm border-b border-gray-100 z-50 shadow-sm">
-  //       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-  //         <div className="flex justify-between items-center h-16">
-  //     {/* Logo + Text */}
-  //       <div className="flex items-center space-x-3">
-  //     {/* Logo */}
-  //       <div className="w-10 h-10 bg-white rounded-2xl flex items-center justify-center shadow-lg overflow-hidden">
-  //       <img
-  //       src="/media/logo.png"
-  //       alt="BD Logo"
-  //       className="w-10 h-10 object-contain"
-  //       />
-  //      </div>
-  //   {/* Heading + Tagline */}
-  //   <div className="flex flex-col">
-  //     <span className="text-2xl font-bold text-gray-900">
-  //       Believers Consultancy
-  //     </span>
-  //     <span className="text-xs italic text-center text-gray-600">
-  //       Powered by Believers Destination
-  //     </span>
-  //   </div>
-  // </div>
-  //           <div className="hidden md:flex items-center space-x-8">
-  //             <div className="flex items-center space-x-6">
-  //               <div className="relative group"></div>
-  //               <div className="relative group"></div>
-  //               <a
-  //                 href="#"
-  //                 className="text-gray-700 hover:text-orange-600 transition-colors"
-  //               ></a>
 
-  //               <div className="relative group"></div>
-  //             </div>
-  //             <div className="flex items-center space-x-4">
-  //               {/* <div className="flex items-center space-x-2 text-sm text-gray-600">
-  //                 <Phone className="w-4 h-4" />
-  //                 <span>091-9211724969</span>
-  //               </div> */}
-  //               <button 
-  //               onClick={() => navigate("/login")}
-  //               className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2.5 rounded-full font-semibold transition-all duration-300 hover:scale-105 shadow-lg">
-  //                 Login
-  //               </button>
-  //             </div>
-  //           </div>
-
-  //           <button
-  //             onClick={() => setIsMenuOpen(!isMenuOpen)}
-  //             className="md:hidden p-2"
-  //           >
-  //             {isMenuOpen ? (
-  //               <X className="w-6 h-6" />
-  //             ) : (
-  //               <Menu className="w-6 h-6" />
-  //             )}
-  //           </button>
-  //         </div>
-  //       </div>
-
-  //       {/* Mobile Menu */}
-  //       {isMenuOpen && (
-  //         <div className=" bg-white border-t border-gray-100 shadow-lg">
-  //           <div className="px-4 py-4 space-y-3">
-  //             <button 
-  //             onClick={() => navigate("/login")}
-  //             className="w-full bg-orange-500 text-white px-4 py-3 rounded-full mt-4 font-semibold">
-  //               Login
-  //             </button>
-  //           </div>
-  //         </div>
-  //       )}
-  //     </nav>
 <div className="min-h-screen bg-white overflow-x-hidden">
    {/* Navigation */}
       <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm border-b border-gray-100 z-50 shadow-sm">
@@ -2294,7 +2181,7 @@ function Homepage() {
               <ul className="space-y-3 text-gray-400">
                 <li>
                   <a
-                    href="#"
+                    onClick={() => navigate("/login")}
                     className="hover:text-white transition-colors hover:text-orange-400"
                   >
                     NEET PG
@@ -2302,7 +2189,7 @@ function Homepage() {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    onClick={() => navigate("/login")}
                     className="hover:text-white transition-colors hover:text-orange-400"
                   >
                     NEET UG (Coming Soon)
@@ -2310,7 +2197,7 @@ function Homepage() {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    onClick={() => navigate("/login")}
                     className="hover:text-white transition-colors hover:text-orange-400"
                   >
                     INICET (Coming Soon)
@@ -2318,7 +2205,7 @@ function Homepage() {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    onClick={() => navigate("/login")}
                     className="hover:text-white transition-colors hover:text-orange-400"
                   >
                     DNB PDCET (Coming Soon)
@@ -2326,7 +2213,7 @@ function Homepage() {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    onClick={() => navigate("/login")}
                     className="hover:text-white transition-colors hover:text-orange-400"
                   >
                     NEET SS (Coming Soon)
@@ -2340,23 +2227,23 @@ function Homepage() {
               <ul className="space-y-3 text-gray-400">
                 <li>
                   <a
-                    href="#"
+                    onClick={() => navigate("/privacy")}
                     className="hover:text-white transition-colors hover:text-orange-400"
                   >
                     Privacy Policy
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a
                     href="#"
                     className="hover:text-white transition-colors hover:text-orange-400"
                   >
                     Package Policy
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a
-                    href="#"
+                    onClick={() => navigate("/terms")}
                     className="hover:text-white transition-colors hover:text-orange-400"
                   >
                     Terms & Conditions

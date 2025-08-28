@@ -34,6 +34,8 @@ import DebugPage from "./pages/DebugPage";
 
 // Predictor Pages
 import PGPredictorPage from "./pages/PGPredictorPage";
+import PrivacyPolicy from "./pages/Privacypolicypage";
+import TermsConditions from "./pages/Termsconditions";
 
 /**
  * Main App Component with React Router
@@ -196,6 +198,9 @@ function App() {
           {/* Default Routes */}
           <Route path="/" element={<Homepage />} />     
           <Route path="*" element={<Navigate to="/" replace />} />
+          <Route path="/privacy" element={<PrivacyPolicy />} />
+          <Route path="/terms" element={<TermsConditions />} />
+          <Route path="/" element={<Homepage />} />
           </Routes>
         </div>
       </Router>
