@@ -36,6 +36,7 @@ import DebugPage from "./pages/DebugPage";
 import PGPredictorPage from "./pages/PGPredictorPage";
 import PrivacyPolicy from "./pages/Privacypolicypage";
 import TermsConditions from "./pages/Termsconditions";
+import ChoiceLists from "./components/ChoiceLists";
 
 /**
  * Main App Component with React Router
@@ -200,7 +201,7 @@ function App() {
           <Route path="*" element={<Navigate to="/" replace />} />
           <Route path="/privacy" element={<PrivacyPolicy />} />
           <Route path="/terms" element={<TermsConditions />} />
-          <Route path="/" element={<Homepage />} />
+          <Route path="/choicelists" element={<ChoiceLists />} />
           </Routes>
         </div>
       </Router>

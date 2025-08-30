@@ -1455,7 +1455,7 @@ function Homepage() {
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-orange-600 transition-all duration-300 group-hover:w-full"></span>
                 </a>
                 <a
-                  href="#blog"
+                  onClick={() => navigate("/blog")}
                   className="text-gray-700 hover:text-orange-600 transition-all duration-300 font-medium relative group"
                 >
                   Blog
@@ -1522,7 +1522,7 @@ function Homepage() {
                   Testimonials
                 </a>
                 <a
-                  href="#blog"
+                  onClick={() => navigate("/blog")}
                   className="block px-3 py-2 text-gray-700 hover:text-orange-600 hover:bg-orange-50 rounded-md transition-all duration-300 font-medium"
                 >
                   Blog

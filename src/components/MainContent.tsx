@@ -334,7 +334,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
   return (
     <div className="w-full bg-gradient-to-br from-rose-50 via-blue-50 to-indigo-50">
       {/* Mobile-First Hero Section */}
-      <div className="bg-gradient-to-r from-orange-400 via-orange-500 to-red-500 px-4 lg:px-6 py-6 lg:py-12 relative overflow-hidden rounded-2xl">
+      <div className="bg-[#65b867] px-4 lg:px-6 py-6 lg:py-12 relative overflow-hidden rounded-2xl">
         <div className="absolute inset-0 bg-black/5"></div>
         <div className="relative max-w-7xl mx-auto">
           {/* Mobile Layout */}
