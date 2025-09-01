@@ -331,7 +331,7 @@ function Homepage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             {/* Logo + Text */}
-            <div className="flex items-center space-x-3">
+            <div className="flex items-center ">
               {/* Logo */}
               {/* <div className="w-52 h-16 bg-white rounded-2xl flex items-center justify-center shadow-lg overflow-hidden"> */}
               <div className="flex items-center">
@@ -353,7 +353,7 @@ function Homepage() {
             </div>
             
             {/* Desktop Menu */}
-            <div className="hidden md:flex items-center space-x-8 ">
+            <div className="hidden md:flex items-center space-x-8 ml-auto">
               <div className="flex items-center space-x-8">
                 <a
                   href="#testimonials"
