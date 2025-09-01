@@ -455,7 +455,7 @@ function Homepage() {
                 <div className="pt-2">
                   <button 
                     onClick={() => navigate("/login")}
-                    className="w-full bg-gradient-to-r from-[#00f66a] to-[#a600ff] hover:from-[#00f66a] hover:to-[#a600ff] text-white px-6 py-2.5 rounded-full font-semibold transition-all duration-300 shadow-lg"
+                    className="w-full bg-orange-500 hover:bg-orange-600 text-white px-6 py-2.5 rounded-full font-semibold transition-all duration-300 shadow-lg"
                   >
                     Login
                   </button>
@@ -472,7 +472,7 @@ function Homepage() {
         ref={heroRef}
         className="pt-24 pb-16 bg-gradient-to-b from-gray-50 to-white relative overflow-hidden"
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-[#00f66a] to-[#a600ff] hover:from-[#00f66a] hover:to-[#a600ff]"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-orange-50/30 to-red-50/30"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center mb-12">
             <h1
@@ -519,7 +519,7 @@ function Homepage() {
             </div>
             <button
             onClick={() => navigate("/login")}
-              className={`bg-gradient-to-r from-[#00f66a] to-[#a600ff] hover:from-[#00f66a] hover:to-[#a600ff] text-white px-10 py-4 rounded-full text-xl font-bold inline-flex items-center space-x-3 transition-all duration-300 hover:scale-105 shadow-2xl ${
+              className={`bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white px-10 py-4 rounded-full text-xl font-bold inline-flex items-center space-x-3 transition-all duration-300 hover:scale-105 shadow-2xl ${
                 isVisible
                   ? "opacity-100 translate-y-0"
                   : "opacity-0 translate-y-10"
@@ -569,7 +569,7 @@ function Homepage() {
             }`}
           >
             <div className="bg-white rounded-[40px] shadow-2xl overflow-hidden border border-gray-200 relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-[#00f66a] to-[#a600ff] hover:from-[#00f66a] hover:to-[#a600ff] rounded-[40px]"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-orange-500/10 to-red-500/10 rounded-[40px]"></div>
               <div className="relative p-6">
                 {/* Desktop Image */}
                 <img
@@ -690,7 +690,7 @@ function Homepage() {
         ref={featuresRef}
         className="py-20 bg-white relative overflow-hidden"
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-[#00f66a] to-[#a600ff] hover:from-[#00f66a] hover:to-[#a600ff]"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-orange-50/30 to-red-50/30"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div
             className={`text-center mb-16 transition-all duration-1000 ${
@@ -908,7 +908,7 @@ function Homepage() {
 
                       {/* Hover overlay */}
                       <div
-                        className={`absolute inset-0 bg-gradient-to-r from-[#00f66a] to-[#a600ff] rounded-3xl flex items-center justify-center transition-all duration-500 ${
+                        className={`absolute inset-0 bg-gradient-to-br from-orange-500 to-red-500 rounded-3xl flex items-center justify-center transition-all duration-500 ${
                           activeReview === currentReviewIndex + index
                             ? "opacity-95"
                             : "opacity-0 pointer-events-none"
@@ -1003,7 +1003,7 @@ function Homepage() {
           </p>
           <button 
           onClick={() => navigate("/login")}
-          className="bg-gradient-to-r from-[#00f66a] to-[#a600ff] hover:from-[#00f66a] hover:to-[#a600ff] text-white px-10 py-4 rounded-full text-xl font-bold inline-flex items-center space-x-3 transition-all duration-300 hover:scale-105 shadow-2xl mb-8">
+          className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white px-10 py-4 rounded-full text-xl font-bold inline-flex items-center space-x-3 transition-all duration-300 hover:scale-105 shadow-2xl mb-8">
             <span>Get started - FREE Access</span>
             <ArrowRight className="w-6 h-6" />
           </button>
