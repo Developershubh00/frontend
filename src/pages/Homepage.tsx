@@ -333,18 +333,18 @@ function Homepage() {
             {/* Logo + Text */}
             <div className="flex items-center space-x-3">
               {/* Logo */}
-              <div className="w-10 h-10 bg-white rounded-2xl flex items-center justify-center shadow-lg overflow-hidden">
+              <div className="w-20 h-10 bg-white rounded-2xl flex items-center justify-center shadow-lg overflow-hidden">
                 <img
-                  src="/media/logo.png"
+                  src="/media/logo2.png"
                   alt="BD Logo"
                   className="w-10 h-10 object-contain"
                 />
               </div>
               {/* Heading + Tagline */}
               <div className="flex flex-col">
-                <span className="text-2xl font-bold text-gray-900">
+                {/* <span className="text-2xl font-bold text-gray-900">
                   Believers Consultancy
-                </span>
+                </span> */}
                 <span className="text-xs italic text-center text-gray-600">
                   Powered by Believers Destination
                 </span>
