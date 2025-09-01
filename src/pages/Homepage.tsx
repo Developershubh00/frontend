@@ -333,11 +333,12 @@ function Homepage() {
             {/* Logo + Text */}
             <div className="flex items-center space-x-3">
               {/* Logo */}
-              <div className="w-52 h-16 bg-white rounded-2xl flex items-center justify-center shadow-lg overflow-hidden">
+              {/* <div className="w-52 h-16 bg-white rounded-2xl flex items-center justify-center shadow-lg overflow-hidden"> */}
+              <div className="bg-white rounded-2xl p-2 shadow-lg flex items-center">
                 <img
                   src="/media/logo2.png"
                   alt="BD Logo"
-                  className="w-auto h-full object-contain"
+                  className="h-14 w-auto object-contain"
                 />
               </div>
               {/* Heading + Tagline */}
