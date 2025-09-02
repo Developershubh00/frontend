@@ -948,14 +948,14 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
         */}
 
         {/* NEET PG Counselling Timeline - Mobile Optimized */}
-        <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 border border-white/20 mb-8 lg:mb-12">
+        {/* <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 border border-white/20 mb-8 lg:mb-12">
           <h3 className="text-xl lg:text-2xl font-bold text-slate-800 mb-6 lg:mb-8 text-center">
             NEET PG 2025 Counselling Timeline
           </h3>
 
-          <div className="relative">
+          <div className="relative"> */}
             {/* Mobile Timeline */}
-            <div className="xl:hidden space-y-6">
+            {/* <div className="xl:hidden space-y-6">
               {[
                 {
                   date: "AUG 19 2025",
@@ -1005,10 +1005,10 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
                   </div>
                 </div>
               ))}
-            </div>
+            </div> */}
 
             {/* Desktop Timeline */}
-            <div className="hidden xl:flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0 md:space-x-4">
+            {/* <div className="hidden xl:flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0 md:space-x-4">
               {[
                 {
                   date: "AUG 19 2025",
@@ -1067,7 +1067,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
               <div className="h-full bg-green-400 w-1/4"></div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Data Table Section */}
         <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">

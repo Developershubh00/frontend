@@ -116,7 +116,7 @@ class DataService {
       'Dermatology', 'Psychiatry', 'Radiology', 'Anesthesiology', 'Pathology'
     ];
     
-    return Array.from({ length: 25 }, (_, i) => ({
+    return Array.from({ length: 50 }, (_, i) => ({
       id: `allotment-${i}`,
       college: colleges[i % colleges.length],
       specialty: specialties[i % specialties.length],
@@ -139,7 +139,7 @@ class DataService {
       'Dermatology', 'Psychiatry', 'Radiology', 'Anesthesiology', 'Pathology'
     ];
     
-    return Array.from({ length: 25 }, (_, i) => ({
+    return Array.from({ length: 50 }, (_, i) => ({
       id: `closing-rank-${i}`,
       college: colleges[i % colleges.length],
       specialty: specialties[i % specialties.length],
@@ -162,7 +162,7 @@ class DataService {
       'Dermatology', 'Psychiatry', 'Radiology', 'Anesthesiology', 'Pathology'
     ];
     
-    return Array.from({ length: 25 }, (_, i) => ({
+    return Array.from({ length: 50 }, (_, i) => ({
       id: `seat-matrix-${i}`,
       college: colleges[i % colleges.length],
       specialty: specialties[i % specialties.length],
@@ -185,7 +185,7 @@ class DataService {
       'Dermatology', 'Psychiatry', 'Radiology', 'Anesthesiology', 'Pathology'
     ];
     
-    return Array.from({ length: 25 }, (_, i) => ({
+    return Array.from({ length: 50 }, (_, i) => ({
       id: `fee-stipend-bond-${i}`,
       college: colleges[i % colleges.length],
       specialty: specialties[i % specialties.length],
