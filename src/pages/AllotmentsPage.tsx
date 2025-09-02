@@ -540,7 +540,7 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
   // Sort data in ascending order
   const sortedData = [...filteredData].sort((a, b) => a.State_Rank - b.State_Rank);
 
-  const itemsPerPage = 705; // Reduced for better mobile view
+  const itemsPerPage = 75; // Reduced for better mobile view
   const totalPages = Math.ceil(sortedData.length / itemsPerPage);
   const startIndex = (currentPage - 1) * itemsPerPage;
   const paginatedData = sortedData.slice(startIndex, startIndex + itemsPerPage);
