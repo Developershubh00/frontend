@@ -591,7 +591,7 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
             </div>
           </div>
 
-          <div className="flex-1 overflow-y-auto">
+          <div className="sticky flex-1 overflow-y-auto">
             {counsellingOptions.map((option, index) => (
               <button
                 key={index}
