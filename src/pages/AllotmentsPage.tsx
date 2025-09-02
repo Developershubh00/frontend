@@ -434,7 +434,13 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
     const dummyData: AllotmentData[] = [];
     const institutes = [
       "AIIMS New Delhi", "PGIMER Chandigarh", "JIPMER Puducherry", "CMC Vellore",
-      "NIMHANS Bangalore", "SGPGIMS Lucknow", "KGMU Lucknow", "BHU Varanasi"
+      "NIMHANS Bangalore", "SGPGIMS Lucknow", "KGMU Lucknow", "BHU Varanasi","ABVIMS Dr RML Hosp Delhi","SMS Jaipur",
+      "VMMC Delhi","BJMC Ahmedabad","Madras Med Coll Chennai", "MAMC Delhi", "Seth GS Mumbai", "Govt Med Coll Kozhikode", 
+      "NIMS Hyderabad", "GMC Chandigarh", "Sher-I-Kashmir Srinagar", 
+      "Bangalore Med Coll Bangalore", "SGPGI Lucknow", "Lokmanya Tilak Sion Mumbai", 
+      "IPGMER Kolkata", "Lady Hardinge Delhi", "Medical College Kolkata", 
+      "UCMS Delhi", "Grant Med Coll Mumbai", "Stanley Med Coll Chennai", 
+      "IMS(BHU) Varanasi", "GB Pant IPGMER Delhi",
     ];
     const courses = [
       "MD General Medicine", "MD Pediatrics", "MD Psychiatry", "MS General Surgery",
@@ -443,9 +449,9 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
     const categories = ["GEN", "OBC", "SC", "ST", "EWS"];
     const quotas = ["All India", "State Quota", "Management"];
 
-    for (let i = 0; i < 100; i++) {
+    for (let i = 0; i < 25200; i++) {
       dummyData.push({
-        Round: Math.floor(Math.random() * 3) + 1,
+        Round: Math.floor(Math.random() * 5) + 1,
         State_Rank: Math.floor(Math.random() * 50000) + 1000,
         State: counselling.includes("Delhi") ? "Delhi" : counselling.includes("Maharashtra") ? "Maharashtra" : "Various",
         Institute: institutes[Math.floor(Math.random() * institutes.length)],
@@ -612,7 +618,7 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
                 placeholder="Search institutes, courses, or states..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
+                className="w-full pl-10 pr-4 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
               />
             </div>
 
@@ -620,7 +626,7 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
             <select
               value={selectedCategory}
               onChange={(e) => setSelectedCategory(e.target.value)}
-              className="px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white"
+              className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white"
             >
               {categories.map((category) => (
                 <option key={category} value={category}>
@@ -633,7 +639,7 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
             <select
               value={selectedQuota}
               onChange={(e) => setSelectedQuota(e.target.value)}
-              className="px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white"
+              className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white"
             >
               {quotas.map((quota) => (
                 <option key={quota} value={quota}>
@@ -719,7 +725,7 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
               <button
                 onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
                 disabled={currentPage === 1}
-                className="p-1.5 border border-gray-300 rounded hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
+                className="p-1.5 border text-black border-gray-300 rounded hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 <PrevIcon className="w-3 h-3" />
               </button>

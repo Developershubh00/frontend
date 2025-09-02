@@ -313,6 +313,20 @@ const FeeStipendBondPage: React.FC<FeeStipendBondPageProps> = ({ onBack }) => {
     "Maharashtra - PG Medical",
     "Manipur-JNIMS - PG Medical",
     "Manipur-RIMS - PG Medical",
+    "NEIGRIHMS - PG Medical",
+    "Odisha - PG Medical",
+    "Pondicherry - PG Medical",
+    "Punjab - PG Medical",
+    "Rajasthan - PG Medical",
+    "Sikkim - PG Medical",
+    "Tamil Nadu Government Quota - PG Medical",
+    "Tamil Nadu Management Quota - PG Medical",
+    "Telangana Government Quota - PG Medical",
+    "Telangana Management Quota - PG Medical",
+    "Tripura - PG Medical",
+    "Uttarakhand - PG Medical",
+    "Uttar Pradesh - PG Medical",
+    "West Bengal - PG Medical",
   ];
 
   const parseCSV = (csvText: string): FeeStipendBondData[] => {
@@ -334,18 +348,73 @@ const FeeStipendBondPage: React.FC<FeeStipendBondPageProps> = ({ onBack }) => {
   };
 
   // Generate dummy data for demonstration
-  const generateDummyData = (counselling: string, exam: "UG" | "PG"): FeeStipendBondData[] => {
+  const generateDummyData = (counselling: string, exam: "PG"): FeeStipendBondData[] => {
     const dummyData: FeeStipendBondData[] = [];
     const institutes = [
       "AIIMS New Delhi", "PGIMER Chandigarh", "JIPMER Puducherry", "CMC Vellore",
-      "NIMHANS Bangalore", "SGPGIMS Lucknow", "KGMU Lucknow", "BHU Varanasi"
+      "NIMHANS Bangalore", "SGPGIMS Lucknow", "KGMU Lucknow", "BHU Varanasi","ABVIMS Dr RML Hosp Delhi","SMS Jaipur",
+      "VMMC Delhi","BJMC Ahmedabad","Madras Med Coll Chennai", "MAMC Delhi", "Seth GS Mumbai", "Govt Med Coll Kozhikode", 
+      "NIMS Hyderabad", "GMC Chandigarh", "Sher-I-Kashmir Srinagar", 
+      "Bangalore Med Coll Bangalore", "SGPGI Lucknow", "Lokmanya Tilak Sion Mumbai", 
+      "IPGMER Kolkata", "Lady Hardinge Delhi", "Medical College Kolkata", 
+      "UCMS Delhi", "Grant Med Coll Mumbai", "Stanley Med Coll Chennai", 
+      "IMS(BHU) Varanasi", "GB Pant IPGMER Delhi",
     ];
-    const courses = exam === "UG" 
-      ? ["MBBS", "BDS", "BAMS", "BHMS"]
-      : ["MD General Medicine", "MD Pediatrics", "MD Psychiatry", "MS General Surgery"];
+    const courses =
+    exam === "PG"
+    ? [
+        "MBBS",
+        "BDS",
+        "BAMS",
+        "BHMS"
+      ]
+    : [
+        "MD General Medicine",
+        "MD Pediatrics",
+        "MD Psychiatry",
+        "MS General Surgery",
+        "MD Anesthesiology",
+        "MD Radiology",
+        "MD Pathology",
+        "MS Orthopedics",
+        "MD Dermatology",
+        "MD Forensic Medicine",
+        "MD Microbiology",
+        "MS ENT",
+        "MD Physiology",
+        "MD Biochemistry",
+        "MD Pharmacology",
+        "MD Community Medicine (SPM)",
+        "MD Radiation Oncology",
+        "MD Ophthalmology",
+        "MD Pulmonary Medicine (TBRD)",
+        "MD Emergency Medicine",
+        "MD Nuclear Medicine",
+        "MD Anatomy",
+        "MD Palliative Medicine",
+        "MD Lab Medicine",
+        "DM Geriatrics",
+        "MD Sports Medicine",
+        "MD IHBT",
+        "MS Obstetrics & Gynecology (OBG)",
+        "MD Preventive & Social Medicine (PSM)",
+        // Diplomas (can keep separate if needed)
+        "DCH",
+        "DPM (Psychiatry)",
+        "DA",
+        "DGO",
+        "DO",
+        "DMRD",
+        "DTBCD",
+        "DDVL",
+        "DCP",
+        "DCM",
+        "DORTHO"
+      ];
+    
     const quotas = ["All India", "State Quota", "Management"];
 
-    for (let i = 0; i < 180; i++) {
+    for (let i = 0; i < 21180; i++) {
       dummyData.push({
         State: counselling.includes("Delhi") ? "Delhi" : counselling.includes("Maharashtra") ? "Maharashtra" : "Various",
         Institute: institutes[Math.floor(Math.random() * institutes.length)],
@@ -507,7 +576,7 @@ const FeeStipendBondPage: React.FC<FeeStipendBondPageProps> = ({ onBack }) => {
                 placeholder="Search institutes, courses, or states..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500 text-sm"
+                className="w-full pl-10 pr-4 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500 text-sm"
               />
             </div>
 
@@ -515,7 +584,7 @@ const FeeStipendBondPage: React.FC<FeeStipendBondPageProps> = ({ onBack }) => {
             <select
               value={selectedQuota}
               onChange={(e) => setSelectedQuota(e.target.value)}
-              className="px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500 text-sm bg-white"
+              className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500 text-sm bg-white"
             >
               {quotas.map((quota) => (
                 <option key={quota} value={quota}>
@@ -577,7 +646,7 @@ const FeeStipendBondPage: React.FC<FeeStipendBondPageProps> = ({ onBack }) => {
         </div>
 
         {/* Pagination */}
-        <div className="bg-white border-t border-gray-200 px-4 py-3">
+        <div className="bg-white border-t text-black border-gray-200 px-4 py-3">
           <div className="flex items-center justify-between">
             <div className="text-xs text-gray-600">
               Showing {startIndex + 1} to {Math.min(startIndex + itemsPerPage, sortedData.length)} of {sortedData.length} results
@@ -587,7 +656,7 @@ const FeeStipendBondPage: React.FC<FeeStipendBondPageProps> = ({ onBack }) => {
               <button
                 onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
                 disabled={currentPage === 1}
-                className="p-1.5 border border-gray-300 rounded hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
+                className="p-1.5 border text-black border-gray-300 rounded hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 <ChevronLeft className="w-3 h-3" />
               </button>
@@ -602,7 +671,7 @@ const FeeStipendBondPage: React.FC<FeeStipendBondPageProps> = ({ onBack }) => {
                       className={`px-2 py-1 text-xs rounded transition-colors ${
                         currentPage === pageNum
                           ? "bg-orange-500 text-white"
-                          : "border border-gray-300 hover:bg-gray-50"
+                          : "border text-black border-gray-300 hover:bg-gray-50"
                       }`}
                     >
                       {pageNum}
@@ -614,7 +683,7 @@ const FeeStipendBondPage: React.FC<FeeStipendBondPageProps> = ({ onBack }) => {
               <button
                 onClick={() => setCurrentPage(Math.min(totalPages, currentPage + 1))}
                 disabled={currentPage === totalPages}
-                className="p-1.5 border border-gray-300 rounded hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
+                className="p-1.5 border text-black border-gray-300 rounded hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 <ChevronRight className="w-3 h-3" />
               </button>

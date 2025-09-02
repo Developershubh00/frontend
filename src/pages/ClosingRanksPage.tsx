@@ -57,22 +57,90 @@ const ClosingRanksPage: React.FC<ClosingRanksPageProps> = ({ onBack }) => {
     "Maharashtra - PG Medical",
     "Manipur-JNIMS - PG Medical",
     "Manipur-RIMS - PG Medical",
+    "NEIGRIHMS - PG Medical",
+    "Odisha - PG Medical",
+    "Pondicherry - PG Medical",
+    "Punjab - PG Medical",
+    "Rajasthan - PG Medical",
+    "Sikkim - PG Medical",
+    "Tamil Nadu Government Quota - PG Medical",
+    "Tamil Nadu Management Quota - PG Medical",
+    "Telangana Government Quota - PG Medical",
+    "Telangana Management Quota - PG Medical",
+    "Tripura - PG Medical",
+    "Uttarakhand - PG Medical",
+    "Uttar Pradesh - PG Medical",
+    "West Bengal - PG Medical",
   ];
 
   // Generate dummy data for demonstration
-  const generateDummyData = (counselling: string, exam: "UG" | "PG"): ClosingRankData[] => {
+  const generateDummyData = (counselling: string, exam: "PG"): ClosingRankData[] => {
     const dummyData: ClosingRankData[] = [];
     const institutes = [
       "AIIMS New Delhi", "PGIMER Chandigarh", "JIPMER Puducherry", "CMC Vellore",
-      "NIMHANS Bangalore", "SGPGIMS Lucknow", "KGMU Lucknow", "BHU Varanasi"
+      "NIMHANS Bangalore", "SGPGIMS Lucknow", "KGMU Lucknow", "BHU Varanasi","ABVIMS Dr RML Hosp Delhi","SMS Jaipur",
+      "VMMC Delhi","BJMC Ahmedabad","Madras Med Coll Chennai", "MAMC Delhi", "Seth GS Mumbai", "Govt Med Coll Kozhikode", 
+      "NIMS Hyderabad", "GMC Chandigarh", "Sher-I-Kashmir Srinagar", 
+      "Bangalore Med Coll Bangalore", "SGPGI Lucknow", "Lokmanya Tilak Sion Mumbai", 
+      "IPGMER Kolkata", "Lady Hardinge Delhi", "Medical College Kolkata", 
+      "UCMS Delhi", "Grant Med Coll Mumbai", "Stanley Med Coll Chennai", 
+      "IMS(BHU) Varanasi", "GB Pant IPGMER Delhi",
     ];
-    const courses = exam === "UG" 
-      ? ["MBBS", "BDS", "BAMS", "BHMS"]
-      : ["MD General Medicine", "MD Pediatrics", "MD Psychiatry", "MS General Surgery"];
+    const courses =
+    exam === "PG"
+    ? [
+        "MBBS",
+        "BDS",
+        "BAMS",
+        "BHMS"
+      ]
+    : [
+        "MD General Medicine",
+        "MD Pediatrics",
+        "MD Psychiatry",
+        "MS General Surgery",
+        "MD Anesthesiology",
+        "MD Radiology",
+        "MD Pathology",
+        "MS Orthopedics",
+        "MD Dermatology",
+        "MD Forensic Medicine",
+        "MD Microbiology",
+        "MS ENT",
+        "MD Physiology",
+        "MD Biochemistry",
+        "MD Pharmacology",
+        "MD Community Medicine (SPM)",
+        "MD Radiation Oncology",
+        "MD Ophthalmology",
+        "MD Pulmonary Medicine (TBRD)",
+        "MD Emergency Medicine",
+        "MD Nuclear Medicine",
+        "MD Anatomy",
+        "MD Palliative Medicine",
+        "MD Lab Medicine",
+        "DM Geriatrics",
+        "MD Sports Medicine",
+        "MD IHBT",
+        "MS Obstetrics & Gynecology (OBG)",
+        "MD Preventive & Social Medicine (PSM)",
+        // Diplomas (can keep separate if needed)
+        "DCH",
+        "DPM (Psychiatry)",
+        "DA",
+        "DGO",
+        "DO",
+        "DMRD",
+        "DTBCD",
+        "DDVL",
+        "DCP",
+        "DCM",
+        "DORTHO"
+      ];
     const categories = ["GEN", "OBC", "SC", "ST", "EWS"];
     const quotas = ["All India", "State Quota", "Management"];
 
-    for (let i = 0; i < 150; i++) {
+    for (let i = 0; i < 21150; i++) {
       dummyData.push({
         Quota: quotas[Math.floor(Math.random() * quotas.length)],
         Category: categories[Math.floor(Math.random() * categories.length)],
@@ -132,7 +200,7 @@ const ClosingRanksPage: React.FC<ClosingRanksPageProps> = ({ onBack }) => {
   // Sort data in ascending order by CR 2024 1
   const sortedData = [...filteredData].sort((a, b) => a.CR_2024_1 - b.CR_2024_1);
 
-  const itemsPerPage = 25; // Reduced for better mobile view
+  const itemsPerPage = 75; // Reduced for better mobile view
   const totalPages = Math.ceil(sortedData.length / itemsPerPage);
   const startIndex = (currentPage - 1) * itemsPerPage;
   const paginatedData = sortedData.slice(startIndex, startIndex + itemsPerPage);
@@ -243,7 +311,7 @@ const ClosingRanksPage: React.FC<ClosingRanksPageProps> = ({ onBack }) => {
                 placeholder="Search institutes, courses, or states..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-sm"
+                className="w-full pl-10 pr-4 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-sm"
               />
             </div>
 
@@ -251,7 +319,7 @@ const ClosingRanksPage: React.FC<ClosingRanksPageProps> = ({ onBack }) => {
             <select
               value={selectedCategory}
               onChange={(e) => setSelectedCategory(e.target.value)}
-              className="px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-sm bg-white"
+              className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-sm bg-white"
             >
               {categories.map((category) => (
                 <option key={category} value={category}>
@@ -264,7 +332,7 @@ const ClosingRanksPage: React.FC<ClosingRanksPageProps> = ({ onBack }) => {
             <select
               value={selectedQuota}
               onChange={(e) => setSelectedQuota(e.target.value)}
-              className="px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-sm bg-white"
+              className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-sm bg-white"
             >
               {quotas.map((quota) => (
                 <option key={quota} value={quota}>
@@ -352,7 +420,7 @@ const ClosingRanksPage: React.FC<ClosingRanksPageProps> = ({ onBack }) => {
               <button
                 onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
                 disabled={currentPage === 1}
-                className="p-1.5 border border-gray-300 rounded hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
+                className="p-1.5 border Text-black border-gray-300 rounded hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 <ChevronLeft className="w-3 h-3" />
               </button>
@@ -367,7 +435,7 @@ const ClosingRanksPage: React.FC<ClosingRanksPageProps> = ({ onBack }) => {
                       className={`px-2 py-1 text-xs rounded transition-colors ${
                         currentPage === pageNum
                           ? "bg-green-500 text-white"
-                          : "border border-gray-300 hover:bg-gray-50"
+                          : "border Text-black border-gray-300 hover:bg-gray-50"
                       }`}
                     >
                       {pageNum}
@@ -379,7 +447,7 @@ const ClosingRanksPage: React.FC<ClosingRanksPageProps> = ({ onBack }) => {
               <button
                 onClick={() => setCurrentPage(Math.min(totalPages, currentPage + 1))}
                 disabled={currentPage === totalPages}
-                className="p-1.5 border border-gray-300 rounded hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
+                className="p-1.5 border Text-black border-gray-300 rounded hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 <ChevronRight className="w-3 h-3" />
               </button>
