@@ -108,6 +108,13 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
   return (
     <div className="h-full w-80 bg-white/95 backdrop-blur-xl border-l border-slate-200/50 z-30 overflow-y-auto">
       <div className="p-4 pt-4">
+        {/* 📢 Announcement Bar */}
+        <div>
+          <h3 className="text-sm font-bold text-slate-800 mb-3">Announcements</h3>
+          <AnnouncementSidebar 
+            onAnnouncementClick={(id) => console.log("Clicked announcement:", id)} 
+          />
+        </div>
         {/* Header */}
         <div className="flex items-center justify-between mb-6">
           <h2 className="text-lg font-bold text-slate-800">NEET PG 2025</h2>
