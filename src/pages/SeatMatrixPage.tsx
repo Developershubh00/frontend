@@ -1179,7 +1179,7 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
         State: states[Math.floor(Math.random() * states.length)],
         Institute: institutes[Math.floor(Math.random() * institutes.length)],
         Course: courses[Math.floor(Math.random() * courses.length)],
-        Seats: seats,
+        Seats: Math.floor(Math.random() * 101) + 50,
         Fee_Stipend_Year_1: feeStipend,
         Bond_Years: bondYears,
         Bond_Penalty: bondPenalty,
