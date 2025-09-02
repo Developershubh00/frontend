@@ -37,6 +37,7 @@ import PGPredictorPage from "./pages/PGPredictorPage";
 import PrivacyPolicy from "./pages/Privacypolicypage";
 import TermsConditions from "./pages/Termsconditions";
 import ChoiceLists from "./components/ChoiceLists";
+import AnnouncementPage from "./pages/AnnouncementPage";
 
 /**
  * Main App Component with React Router
@@ -202,6 +203,7 @@ function App() {
           <Route path="/privacy" element={<PrivacyPolicy />} />
           <Route path="/terms" element={<TermsConditions />} />
           <Route path="/choicelists" element={<ChoiceLists />} />
+          <Route path="/announcements" element={<AnnouncementPage />} />
           </Routes>
         </div>
       </Router>
