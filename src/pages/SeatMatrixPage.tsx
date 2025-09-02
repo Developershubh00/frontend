@@ -1166,7 +1166,7 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
     ];
 
     for (let i = 0; i < 47147; i++) {
-      const seats = Math.floor(Math.random() * 250) + 1;
+      const seats = Math.floor(Math.random() * (150 - 50 + 1)) + 50;
       const feeStipend = Math.floor(Math.random() * 500000) + 50000;
       const bondYears = Math.floor(Math.random() * 5) + 1;
       const bondPenalty = Math.floor(Math.random() * 2000000) + 500000;
