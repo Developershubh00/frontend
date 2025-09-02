@@ -106,7 +106,7 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
   ];
 
   return (
-    <div className="h-full w-80 bg-white/95 backdrop-blur-xl border-l border-slate-200/50 z-30 overflow-y-auto">
+    <div className="h-full w-80 bg-white/95 backdrop-blur-xl border-l border-slate-200/50 z-30 overflow-y-auto mb-6">
       <div className="p-4 pt-4">
         {/* 📢 Announcement Bar */}
         <div>
