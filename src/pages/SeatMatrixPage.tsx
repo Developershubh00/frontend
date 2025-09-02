@@ -1232,6 +1232,7 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
 
   // Sort data in ascending order by Seats
   // const sortedData = [...filteredData].sort((a, b) => a.Seats - b.Seats);
+  const sortedData = filteredData;
 
   const itemsPerPage = 70;
   const totalPages = Math.ceil(sortedData.length / itemsPerPage);
