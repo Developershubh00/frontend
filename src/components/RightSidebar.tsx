@@ -10,7 +10,7 @@ import {
   Users,
   Target,
 } from "lucide-react";
-
+import AnnouncementSidebar from "./AnnouncementSidebar";
 /**
  * Right Sidebar Component
  * Contains NEET PG 2025 Updates and Quick Actions sections
@@ -212,6 +212,14 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
               <span className="text-xs font-bold text-purple-700">51,953</span>
             </div>
           </div>
+        </div>
+
+         {/* 📢 Announcement Bar */}
+        <div>
+          <h3 className="text-sm font-bold text-slate-800 mb-3">Announcements</h3>
+          <AnnouncementSidebar 
+            onAnnouncementClick={(id) => console.log("Clicked announcement:", id)} 
+          />
         </div>
 
         {/* Important Links */}
