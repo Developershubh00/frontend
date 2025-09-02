@@ -414,7 +414,7 @@ const FeeStipendBondPage: React.FC<FeeStipendBondPageProps> = ({ onBack }) => {
     
     const quotas = ["All India", "State Quota", "Management"];
 
-    for (let i = 0; i < 21180; i++) {
+    for (let i = 0; i < 72180; i++) {
       dummyData.push({
         State: counselling.includes("Delhi") ? "Delhi" : counselling.includes("Maharashtra") ? "Maharashtra" : "Various",
         Institute: institutes[Math.floor(Math.random() * institutes.length)],

@@ -1078,19 +1078,85 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
     "Maharashtra - PG Medical",
     "Manipur-JNIMS - PG Medical",
     "Manipur-RIMS - PG Medical",
+    "NEIGRIHMS - PG Medical",
+    "Odisha - PG Medical",
+    "Pondicherry - PG Medical",
+    "Punjab - PG Medical",
+    "Rajasthan - PG Medical",
+    "Sikkim - PG Medical",
+    "Tamil Nadu Government Quota - PG Medical",
+    "Tamil Nadu Management Quota - PG Medical",
+    "Telangana Government Quota - PG Medical",
+    "Telangana Management Quota - PG Medical",
+    "Tripura - PG Medical",
+    "Uttarakhand - PG Medical",
+    "Uttar Pradesh - PG Medical",
+    "West Bengal - PG Medical",
   ];
 
   // Generate dummy data for demonstration
-  const generateDummyData = (counselling: string, exam: "UG" | "PG"): SeatMatrixData[] => {
+  const generateDummyData = (counselling: string, exam: "PG"): SeatMatrixData[] => {
     const dummyData: SeatMatrixData[] = [];
     const institutes = [
       "AIIMS New Delhi", "PGIMER Chandigarh", "JIPMER Puducherry", "CMC Vellore",
-      "NIMHANS Bangalore", "SGPGIMS Lucknow", "KGMU Lucknow", "BHU Varanasi",
-      "MAMC Delhi", "LHMC Delhi", "UCMS Delhi", "VMMC Delhi"
+      "NIMHANS Bangalore", "SGPGIMS Lucknow", "KGMU Lucknow", "BHU Varanasi","ABVIMS Dr RML Hosp Delhi","SMS Jaipur",
+      "VMMC Delhi","BJMC Ahmedabad","Madras Med Coll Chennai", "MAMC Delhi", "Seth GS Mumbai", "Govt Med Coll Kozhikode", 
+      "NIMS Hyderabad", "GMC Chandigarh", "Sher-I-Kashmir Srinagar", 
+      "Bangalore Med Coll Bangalore", "SGPGI Lucknow", "Lokmanya Tilak Sion Mumbai", 
+      "IPGMER Kolkata", "Lady Hardinge Delhi", "Medical College Kolkata", 
+      "UCMS Delhi", "Grant Med Coll Mumbai", "Stanley Med Coll Chennai", 
+      "IMS(BHU) Varanasi", "GB Pant IPGMER Delhi",
     ];
-    const courses = exam === "UG" 
-      ? ["MBBS", "BDS", "BAMS", "BHMS"]
-      : ["MD General Medicine", "MD Pediatrics", "MD Psychiatry", "MS General Surgery", "MD Anesthesiology", "MD Radiology", "MS Orthopedics", "MD Dermatology"];
+    const courses = exam === "PG" 
+      ? [
+        "MBBS",
+        "BDS",
+        "BAMS",
+        "BHMS"
+      ]
+    : [
+        "MD General Medicine",
+        "MD Pediatrics",
+        "MD Psychiatry",
+        "MS General Surgery",
+        "MD Anesthesiology",
+        "MD Radiology",
+        "MD Pathology",
+        "MS Orthopedics",
+        "MD Dermatology",
+        "MD Forensic Medicine",
+        "MD Microbiology",
+        "MS ENT",
+        "MD Physiology",
+        "MD Biochemistry",
+        "MD Pharmacology",
+        "MD Community Medicine (SPM)",
+        "MD Radiation Oncology",
+        "MD Ophthalmology",
+        "MD Pulmonary Medicine (TBRD)",
+        "MD Emergency Medicine",
+        "MD Nuclear Medicine",
+        "MD Anatomy",
+        "MD Palliative Medicine",
+        "MD Lab Medicine",
+        "DM Geriatrics",
+        "MD Sports Medicine",
+        "MD IHBT",
+        "MS Obstetrics & Gynecology (OBG)",
+        "MD Preventive & Social Medicine (PSM)",
+        // Diplomas (can keep separate if needed)
+        "DCH",
+        "DPM (Psychiatry)",
+        "DA",
+        "DGO",
+        "DO",
+        "DMRD",
+        "DTBCD",
+        "DDVL",
+        "DCP",
+        "DCM",
+        "DORTHO"
+      ];
     const quotas = ["All India", "State Quota", "Management", "NRI", "Deemed"];
     const categories = ["General", "OBC", "SC", "ST", "EWS", "PWD"];
     const rounds = ["Round 1", "Round 2", "Round 3", "Mop Up", "Stray Vacancy"];
@@ -1100,7 +1166,7 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
     ];
 
     for (let i = 0; i < 47147; i++) {
-      const seats = Math.floor(Math.random() * 50) + 5;
+      const seats = Math.floor(Math.random() * 70) + 9;
       const feeStipend = Math.floor(Math.random() * 500000) + 50000;
       const bondYears = Math.floor(Math.random() * 5) + 1;
       const bondPenalty = Math.floor(Math.random() * 2000000) + 500000;
@@ -1166,7 +1232,7 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
   // Sort data in ascending order by Seats
   const sortedData = [...filteredData].sort((a, b) => a.Seats - b.Seats);
 
-  const itemsPerPage = 20;
+  const itemsPerPage = 70;
   const totalPages = Math.ceil(sortedData.length / itemsPerPage);
   const startIndex = (currentPage - 1) * itemsPerPage;
   const paginatedData = sortedData.slice(startIndex, startIndex + itemsPerPage);

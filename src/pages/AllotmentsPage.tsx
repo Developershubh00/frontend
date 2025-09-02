@@ -443,13 +443,52 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
       "IMS(BHU) Varanasi", "GB Pant IPGMER Delhi",
     ];
     const courses = [
-      "MD General Medicine", "MD Pediatrics", "MD Psychiatry", "MS General Surgery",
-      "MD Anesthesiology", "MD Radiology", "MD Pathology", "MS Orthopedics"
+      "MD General Medicine",
+        "MD Pediatrics",
+        "MD Psychiatry",
+        "MS General Surgery",
+        "MD Anesthesiology",
+        "MD Radiology",
+        "MD Pathology",
+        "MS Orthopedics",
+        "MD Dermatology",
+        "MD Forensic Medicine",
+        "MD Microbiology",
+        "MS ENT",
+        "MD Physiology",
+        "MD Biochemistry",
+        "MD Pharmacology",
+        "MD Community Medicine (SPM)",
+        "MD Radiation Oncology",
+        "MD Ophthalmology",
+        "MD Pulmonary Medicine (TBRD)",
+        "MD Emergency Medicine",
+        "MD Nuclear Medicine",
+        "MD Anatomy",
+        "MD Palliative Medicine",
+        "MD Lab Medicine",
+        "DM Geriatrics",
+        "MD Sports Medicine",
+        "MD IHBT",
+        "MS Obstetrics & Gynecology (OBG)",
+        "MD Preventive & Social Medicine (PSM)",
+        // Diplomas (can keep separate if needed)
+        "DCH",
+        "DPM (Psychiatry)",
+        "DA",
+        "DGO",
+        "DO",
+        "DMRD",
+        "DTBCD",
+        "DDVL",
+        "DCP",
+        "DCM",
+        "DORTHO"
     ];
     const categories = ["GEN", "OBC", "SC", "ST", "EWS"];
     const quotas = ["All India", "State Quota", "Management"];
 
-    for (let i = 0; i < 25200; i++) {
+    for (let i = 0; i < 955200; i++) {
       dummyData.push({
         Round: Math.floor(Math.random() * 5) + 1,
         State_Rank: Math.floor(Math.random() * 50000) + 1000,
@@ -501,7 +540,7 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
   // Sort data in ascending order
   const sortedData = [...filteredData].sort((a, b) => a.State_Rank - b.State_Rank);
 
-  const itemsPerPage = 25; // Reduced for better mobile view
+  const itemsPerPage = 705; // Reduced for better mobile view
   const totalPages = Math.ceil(sortedData.length / itemsPerPage);
   const startIndex = (currentPage - 1) * itemsPerPage;
   const paginatedData = sortedData.slice(startIndex, startIndex + itemsPerPage);
