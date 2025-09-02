@@ -1074,7 +1074,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-6">
             <div>
               <h2 className="text-2xl lg:text-3xl font-bold text-slate-800 mb-2">
-                NEET PG 2025 Data
+                TOP NEET PG 2025 Data
               </h2>
               <p className="text-slate-600 text-sm lg:text-base">
                 View detailed information for {currentStateTab.replace('-', ' ').toUpperCase()}
