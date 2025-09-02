@@ -38,6 +38,7 @@ import PrivacyPolicy from "./pages/Privacypolicypage";
 import TermsConditions from "./pages/Termsconditions";
 import ChoiceLists from "./components/ChoiceLists";
 import AnnouncementPage from "./pages/AnnouncementPage";
+import VerificationPage from "./pages/VerificationPage";
 
 /**
  * Main App Component with React Router
@@ -204,6 +205,7 @@ function App() {
           <Route path="/terms" element={<TermsConditions />} />
           <Route path="/choicelists" element={<ChoiceLists />} />
           <Route path="/announcements" element={<AnnouncementPage />} />
+          <Route path="/Verify" element={<VerificationPage />} />
           </Routes>
         </div>
       </Router>
