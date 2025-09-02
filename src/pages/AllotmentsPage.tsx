@@ -569,7 +569,7 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
 
       {/* Sidebar */}
       {showSidebar && (
-        <div className="fixed w-80 bg-white shadow-lg border-r border-gray-200 flex flex-col fixed inset-y-0 left-0 z-50 md:relative md:z-auto">
+        <div className=" w-80 bg-white shadow-lg border-r border-gray-200 flex flex-col fixed inset-y-0 left-0 z-50 md:relative md:z-auto">
           <div className="p-4 border-b border-gray-200">
             <div className="flex items-center justify-between mb-4">
               <h2 className="text-lg font-semibold text-gray-800">NEET PG Allotments</h2>
@@ -591,7 +591,7 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
             </div>
           </div>
 
-          <div className="sticky flex-1 overflow-y-auto">
+          <div className=" flex-1 overflow-y-auto">
             {counsellingOptions.map((option, index) => (
               <button
                 key={index}
