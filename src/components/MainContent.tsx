@@ -56,8 +56,8 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
       id: "website",
       label: "Website",
       icon: FileText,
-      bgColor: "bg-orange-100",
-      textColor: "text-orange-600",
+      bgColor: "bg-blue-100",
+      textColor: "text-blue-600",
       onClick: () => {
         window.open(
           "https://mcc.nic.in/pg-medical-counselling/",
@@ -69,8 +69,8 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
       id: "quotas",
       label: "Quotas",
       icon: FileText,
-      bgColor: "bg-orange-100",
-      textColor: "text-orange-600",
+      bgColor: "bg-blue-100",
+      textColor: "text-blue-600",
       onClick: () => {
         setShowQuotaModal(true); // Show the popup modal
       },
@@ -79,8 +79,8 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
       id: "registration",
       label: "Registration",
       icon: BarChart3,
-      bgColor: "bg-orange-100",
-      textColor: "text-orange-600",
+      bgColor: "bg-blue-100",
+      textColor: "text-blue-600",
       onClick: () => {
         window.open(
           "https://mcc.admissions.nic.in/applicant/Root/Home.aspx?enc=yVQCIiq12npg+pcvNJRdczPF17I15Ol0NS9nSxDhDdGLAjT1f7ob/W1d83JxT5Jc",
@@ -92,8 +92,8 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
       id: "prospectus",
       label: "Prospectus",
       icon: FileText,
-      bgColor: "bg-orange-100",
-      textColor: "text-orange-600",
+      bgColor: "bg-blue-100",
+      textColor: "text-blue-600",
       onClick: () => {
         window.open(
           "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2024/11/2024110615.pdf",
@@ -334,7 +334,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
   return (
     <div className="w-full bg-gradient-to-br from-rose-50 via-blue-50 to-indigo-50">
       {/* Mobile-First Hero Section */}
-      <div className="bg-[#65b867] px-4 lg:px-6 py-6 lg:py-12 relative overflow-hidden rounded-2xl">
+      <div className="bg-gradient-to-r from-blue-300 to-blue-700 px-4 lg:px-6 py-6 lg:py-12 relative overflow-hidden rounded-2xl">
         <div className="absolute inset-0 bg-black/5"></div>
         <div className="relative max-w-7xl mx-auto">
           {/* Mobile Layout */}
@@ -346,7 +346,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
             <h1 className="text-xl font-bold text-white mb-2">
               NEET PG 2025 Results Announced!
             </h1>
-            <p className="text-orange-100 mb-6 text-sm">Check Your Results & Start Counselling</p>
+            <p className="text-blue-100 mb-6 text-sm">Check Your Results & Start Counselling</p>
 
             <div className="grid grid-cols-2 gap-3 mb-6">
               {actionButtons.map((button) => (
@@ -382,7 +382,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
               </div>
             </div>
 
-            <p className="text-orange-100 mb-8 text-lg">
+            <p className="text-blue-100 mb-8 text-lg">
               Check Your Results & Start Your Counselling Journey Today!
             </p>
 
@@ -510,11 +510,11 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 bg-orange-500 rounded-full mx-auto mb-4 flex items-center justify-center">
+              <div className="w-16 h-16 bg-blue-500 rounded-full mx-auto mb-4 flex items-center justify-center">
                 <Users className="w-8 h-8 text-white" />
               </div>
-              <div className="bg-orange-50 rounded-xl p-4">
-                <div className="text-sm text-orange-600 font-medium mb-1">Joining</div>
+              <div className="bg-blue-50 rounded-xl p-4">
+                <div className="text-sm text-blue-600 font-medium mb-1">Joining</div>
                 <div className="text-lg font-bold text-slate-800 mb-1">Round 1</div>
                 <div className="text-sm text-slate-600">Documentation</div>
               </div>
@@ -751,7 +751,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
                 <div className="flex justify-between items-center">
                   <span className={`px-2 py-1 rounded-full text-xs font-medium ${
                     specialty.demand === "Very High" ? "bg-red-100 text-red-700" :
-                    specialty.demand === "High" ? "bg-orange-100 text-orange-700" :
+                    specialty.demand === "High" ? "bg-blue-100 text-blue-700" :
                     "bg-green-100 text-green-700"
                   }`}>
                     {specialty.demand} Demand
