@@ -1575,7 +1575,7 @@ function Homepage() {
                 </div> */}
                 <button 
                   onClick={() => navigate("/login")}
-                  className="bg-gradient-to-r from-blue-300 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-6 py-2.5 rounded-full font-semibold transition-all duration-300 hover:scale-105 shadow-lg mr-[5px]"
+                  className="bg-gradient-to-r from-blue-300 to-blue-700 hover:from-blue-300 hover:to-blue-800 text-white px-6 py-2.5 rounded-full font-semibold transition-all duration-300 hover:scale-105 shadow-lg mr-[5px]"
                 >
                   Login
                 </button>

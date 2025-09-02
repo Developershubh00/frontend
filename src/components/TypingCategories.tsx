@@ -134,7 +134,7 @@ const TypingCategories: React.FC = () => {
   return (
     <div className="text-center mt-4">
       <h2 className="text-2xl md:text-6xl font-bold">
-        <span className="bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent">
+        <span className="bg-gradient-to-r from-blue-300 to-blue-700 bg-clip-text text-transparent">
           {displayedText}
         </span>
         <span className="text-black animate-pulse">|</span>
@@ -143,7 +143,7 @@ const TypingCategories: React.FC = () => {
       {/* Show "COMING SOON" with typing animation */}
       {categories[index].comingSoon && comingSoonText && (
         <p className="mt-2 font-medium text-xs md:text-sm">
-          <span className="bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-blue-300 to-blue-700 bg-clip-text text-transparent">
             {comingSoonText}
           </span>
           {comingSoonText.length > 0 && (
