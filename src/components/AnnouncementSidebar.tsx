@@ -72,6 +72,9 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
           <span className="bg-red-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center font-bold">
             {announcements.length}
           </span>
+          
+          
+
         )}
       </div>
 
@@ -96,7 +99,25 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
           <p className="text-gray-500 text-sm">No announcements today</p>
         </div>
       )}
-
+      <div className="mb-6">
+          <div className="bg-gradient-to-r from-green-500 to-emerald-600 rounded-xl p-4 text-white">
+            <div className="flex items-center space-x-3 mb-2">
+              <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center">
+                <Award className="w-4 h-4" />
+              </div>
+              <div>
+                <h3 className="font-bold text-sm">Results Announced!</h3>
+                <p className="text-xs text-green-100">Check your NEET PG 2025 results</p>
+              </div>
+            </div>
+            <button 
+              onClick={() => window.open('https://natboard.edu.in/natboard-data/pdf/NEETPG2025RESULT/NEET-PG%202025%20Notice%20Board%20Result%20-%2019.08.2025%20-%20DS.pdf', '_blank')}
+              className="w-full mt-2 bg-white/20 backdrop-blur-sm px-3 py-2 rounded-lg hover:bg-white/30 transition-all duration-200 text-xs font-medium"
+            >
+              Check Results Now
+            </button>
+          </div>
+        </div>
       {/* Announcements List */}
       {!loading && announcements.length > 0 && (
         <div className="space-y-4">

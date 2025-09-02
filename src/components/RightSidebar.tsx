@@ -221,14 +221,7 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
           </div>
         </div>
 
-         {/* 📢 Announcement Bar */}
-        <div>
-          <h3 className="text-sm font-bold text-slate-800 mb-3">Announcements</h3>
-          <AnnouncementSidebar 
-            onAnnouncementClick={(id) => console.log("Clicked announcement:", id)} 
-          />
-        </div>
-
+         
         {/* Important Links */}
         {/* <div className="mb-6">
           <h3 className="text-sm font-bold text-slate-800 mb-3">Important Links</h3>
