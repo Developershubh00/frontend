@@ -1632,7 +1632,7 @@ function Homepage() {
                 <div className="pt-2">
                   <button 
                     onClick={() => navigate("/login")}
-                    className="w-full bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-6 py-2.5 rounded-full font-semibold transition-all duration-300 shadow-lg"
+                    className="w-full bg-gradient-to-r from-blue-300 to-blue-700 hover:from-blue-300 hover:to-blue-800 text-white px-6 py-2.5 rounded-full font-semibold transition-all duration-300 shadow-lg"
                   >
                     Login
                   </button>
@@ -1696,7 +1696,7 @@ function Homepage() {
             </div>
             <button
             onClick={() => navigate("/login")}
-              className={`bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white px-10 py-4 rounded-full text-xl font-bold inline-flex items-center space-x-3 transition-all duration-300 hover:scale-105 shadow-2xl ${
+              className={`bg-gradient-to-r from-blue-300 to-indigo-600 hover:from-blue-300 hover:to-indigo-700 text-white px-10 py-4 rounded-full text-xl font-bold inline-flex items-center space-x-3 transition-all duration-300 hover:scale-105 shadow-2xl ${
                 isVisible
                   ? "opacity-100 translate-y-0"
                   : "opacity-0 translate-y-10"
@@ -1967,7 +1967,7 @@ function Homepage() {
                 <h3 className="text-xl font-bold text-blue-800 mb-4">
                   No AI. No bots.
                 </h3>
-                <p className="text-blue-700">
+                <p className="text-blue-300">
                   Real humans, real conversations.
                 </p>
               </div>
@@ -2110,7 +2110,7 @@ function Homepage() {
             </div>
 
             <div className="text-center mt-12">
-              <button className="inline-flex items-center text-blue-600 hover:text-blue-700 font-semibold text-lg transition-colors">
+              <button className="inline-flex items-center text-blue-300 hover:text-blue-700 font-semibold text-lg transition-colors">
                 <span>View all testimonials</span>
                 <ArrowRight className="w-5 h-5 ml-2" />
               </button>
@@ -2180,7 +2180,7 @@ function Homepage() {
           </p>
           <button 
           onClick={() => navigate("/login")}
-          className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white px-10 py-4 rounded-full text-xl font-bold inline-flex items-center space-x-3 transition-all duration-300 hover:scale-105 shadow-2xl mb-8">
+          className="bg-gradient-to-r from-blue-300 to-indigo-600 hover:from-blue-300 hover:to-indigo-800 text-white px-10 py-4 rounded-full text-xl font-bold inline-flex items-center space-x-3 transition-all duration-300 hover:scale-105 shadow-2xl mb-8">
             <span>Get started - FREE Access</span>
             <ArrowRight className="w-6 h-6" />
           </button>
