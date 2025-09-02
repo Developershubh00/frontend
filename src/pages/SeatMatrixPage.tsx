@@ -1166,11 +1166,14 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
     ];
 
     for (let i = 0; i < 47147; i++) {
-      const seats = Math.floor(Math.random() * (150 - 50 + 1)) + 50;
+      
       const feeStipend = Math.floor(Math.random() * 500000) + 50000;
       const bondYears = Math.floor(Math.random() * 5) + 1;
       const bondPenalty = Math.floor(Math.random() * 2000000) + 500000;
       const beds = Math.floor(Math.random() * 500) + 100;
+    
+    for (let i = 0; i < 47147; i++) {
+      const seats = Math.floor(Math.random() * 250) + 50; // 50–150
 
       dummyData.push({
         Round: rounds[Math.floor(Math.random() * rounds.length)],
@@ -1179,7 +1182,7 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
         State: states[Math.floor(Math.random() * states.length)],
         Institute: institutes[Math.floor(Math.random() * institutes.length)],
         Course: courses[Math.floor(Math.random() * courses.length)],
-        Seats: Math.floor(Math.random() * 101) + 50,
+        Seats: seats,
         Fee_Stipend_Year_1: feeStipend,
         Bond_Years: bondYears,
         Bond_Penalty: bondPenalty,
