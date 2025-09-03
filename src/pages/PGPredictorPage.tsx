@@ -451,7 +451,7 @@ const PGPredictorPage: React.FC = () => {
             <div className="grid grid-cols-2 gap-2 max-h-60 overflow-y-auto">
               {states.map((state) => (
                 <label key={state} className="flex items-center space-x-2 cursor-pointer hover:bg-slate-100 p-2 rounded-lg">
-                  <input
+                  <input 
                     type="checkbox"
                     checked={formData.preferredStates.includes(state)}
                     onChange={(e) => {
@@ -464,7 +464,7 @@ const PGPredictorPage: React.FC = () => {
                         );
                       }
                     }}
-                    className="accent-green-500"
+                    className="text-black accent-green-500"
                   />
                   <span className="text-sm">{state}</span>
                 </label>
@@ -489,7 +489,7 @@ const PGPredictorPage: React.FC = () => {
                     value={type.toLowerCase()}
                     checked={formData.collegeType === type.toLowerCase()}
                     onChange={() => handleChange("collegeType", type.toLowerCase())}
-                    className="accent-green-500"
+                    className="text-black accent-green-500"
                   />
                   <span>{type}</span>
                 </label>
@@ -549,7 +549,7 @@ const PGPredictorPage: React.FC = () => {
       case 6:
         return (
           <div>
-            <h3 className="text-2xl font-bold text-slate-800 mb-4">Review Your Preferences</h3>
+            <h3 className="text-2xl font-bold text-black text-slate-800 mb-4">Review Your Preferences</h3>
             <div className="bg-slate-50 p-4 rounded-xl space-y-3 text-sm">
               <p><strong>Rank:</strong> {formData.rank || "Not set"}</p>
               <p><strong>States:</strong> {formData.preferredStates.length ? formData.preferredStates.join(", ") : "All"}</p>
@@ -557,7 +557,7 @@ const PGPredictorPage: React.FC = () => {
               <p><strong>Fee Range:</strong> ₹{parseInt(formData.minFees).toLocaleString()} – ₹{parseInt(formData.maxFees).toLocaleString()}/year</p>
               <p><strong>Specialization:</strong> {formData.specialization || "Any"}</p>
             </div>
-            <p className="text-slate-600 mt-4">Ready to see your college matches?</p>
+            <p className="text-slate-600 text-black mt-4">Ready to see your college matches?</p>
           </div>
         );
 
