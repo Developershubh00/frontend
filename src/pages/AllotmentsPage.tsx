@@ -890,7 +890,7 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
       (selectedFeeRange === "Above ₹10L" && feeValue > 1000000);
     
     return matchesSearch && matchesCategory && matchesQuota && matchesRound && 
-           matchesState && matchesInstitute && matchesCourse && matchesRankRange && matchesFeeRange;
+           matchesState && matchesInstitute && matchesCourse && matchesFeeRange;
   });
 
   // Sort data in ascending order
@@ -910,7 +910,7 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
     setSelectedState("all");
     setSelectedInstitute("all");
     setSelectedCourse("all");
-    setRankRange({min: "", max: ""});
+    // setRankRange({min: "", max: ""});
     setSelectedFeeRange("all");
     setCurrentPage(1);
   };
