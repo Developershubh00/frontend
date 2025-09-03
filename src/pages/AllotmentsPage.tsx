@@ -810,7 +810,7 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
       "Haryana", "Madhya Pradesh", "Bihar", "Odisha", "Jharkhand"
     ];
 
-    for (let i = 0; i < 2500; i++) {
+    for (let i = 0; i < 955200; i++) {
       dummyData.push({
         Round: Math.floor(Math.random() * 5) + 1,
         State_Rank: Math.floor(Math.random() * 50000) + 1000,
