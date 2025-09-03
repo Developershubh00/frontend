@@ -450,7 +450,7 @@ const PGPredictorPage: React.FC = () => {
             <h3 className="text-xl font-bold text-slate-800 mb-4">Preferred States (Select up to 3)</h3>
             <div className="grid grid-cols-2 gap-2 max-h-60 overflow-y-auto">
               {states.map((state) => (
-                <label key={state} className="flex items-center space-x-2 cursor-pointer hover:bg-slate-100 p-2 rounded-lg">
+                <label key={state} className="flex items-center text-black space-x-2 cursor-pointer hover:bg-slate-100 p-2 rounded-lg">
                   <input 
                     type="checkbox"
                     checked={formData.preferredStates.includes(state)}
@@ -466,11 +466,11 @@ const PGPredictorPage: React.FC = () => {
                     }}
                     className="text-black accent-green-500"
                   />
-                  <span className="text-sm">{state}</span>
+                  <span className="text-sm text-black">{state}</span>
                 </label>
               ))}
             </div>
-            <p className="text-xs text-slate-500 mt-2">
+            <p className="text-xs text-black text-slate-500 mt-2">
               {formData.preferredStates.length}/3 states selected
             </p>
           </div>
