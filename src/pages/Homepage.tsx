@@ -1292,7 +1292,7 @@ function Homepage() {
       description:
         "160,000+ seats. 1000+ colleges. You need to find the ones that fit your rank, budget, and goals.",
       desktopImage:
-        "https://cdn.dribble.com/userupload/44607898/file/08a4bec8bff2268a7bcfa4c9c73cc279.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+        "https://cdn.dribbble.com/userupload/44607898/file/08a4bec8bff2268a7bcfa4c9c73cc279.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
       mobileImage:
         "https://cdn.dribbble.com/userupload/44607898/file/08a4bec8bff2268a7bcfa4c9c73cc279.webp?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
       color: "from-green-100 to-green-200",
