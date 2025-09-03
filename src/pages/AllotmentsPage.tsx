@@ -1149,8 +1149,8 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
                 </div>
 
                 {/* Rank Range and Actions */}
-                {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
-                  <div className="flex gap-2">
+                 <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+                  {/* <div className="flex gap-2">
                     <input
                       type="number"
                       placeholder="Min Rank"
