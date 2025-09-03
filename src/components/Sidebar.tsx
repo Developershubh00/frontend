@@ -96,7 +96,7 @@ const Sidebar: React.FC<SidebarProps> = ({
       label: "PG Predictor",
       hasSubmenu: false,
       color: "text-indigo-600",
-      onClick: () => navigate("/PGPredictorPage"),
+      onClick: () => navigate("/predictor/pg"),
     },
     {
       id: "explore",
