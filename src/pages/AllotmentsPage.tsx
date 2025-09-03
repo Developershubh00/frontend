@@ -877,8 +877,8 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
     const matchesCourse = selectedCourse === "all" || item.Course === selectedCourse;
     
     // Rank range filter
-    const matchesRankRange = (!rankRange.min || item.State_Rank >= parseInt(rankRange.min)) &&
-                            (!rankRange.max || item.State_Rank <= parseInt(rankRange.max));
+    // const matchesRankRange = (!rankRange.min || item.State_Rank >= parseInt(rankRange.min)) &&
+    //                         (!rankRange.max || item.State_Rank <= parseInt(rankRange.max));
     
     // Fee range filter
     const feeValue = parseInt(item.Fee.replace(/[₹,]/g, ''));
@@ -1149,7 +1149,7 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
                 </div>
 
                 {/* Rank Range and Actions */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+                {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
                   <div className="flex gap-2">
                     <input
                       type="number"
@@ -1165,7 +1165,7 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
                       onChange={(e) => setRankRange({...rankRange, max: e.target.value})}
                       className="w-full px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
                     />
-                  </div>
+                  </div> */}
 
                   {/* Clear Filters Button */}
                   <button
