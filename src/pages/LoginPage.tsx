@@ -62,7 +62,7 @@ const LoginPage: React.FC = () => {
             <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2">
               Believers Consultancy
             </h1>
-            <p className="text-slate-600">Medical Career Guidance Platform</p>
+            <p className="text-slate-600">Powered by Believers Destination</p>
           </div>
 
           {/* Error Message */}

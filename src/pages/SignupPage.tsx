@@ -101,7 +101,7 @@ const SignupPage: React.FC = () => {
             <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2">
               Join BelieversConsultancy
             </h1>
-            <p className="text-slate-600">Start your medical career journey</p>
+            <p className="text-slate-600">Powered by Believers Destination</p>
           </div>
 
           {/* Error Message */}
@@ -321,7 +321,7 @@ const SignupPage: React.FC = () => {
                 to="/login"
                 className="text-blue-600 hover:text-blue-700 font-medium"
               >
-                Sign in here
+                Login here
               </Link>
             </p>
           </div>
