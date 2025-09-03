@@ -732,7 +732,7 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
   const [selectedState, setSelectedState] = useState("all");
   const [selectedInstitute, setSelectedInstitute] = useState("all");
   const [selectedCourse, setSelectedCourse] = useState("all");
-  const [rankRange, setRankRange] = useState({ min: "", max: "" });
+  // const [rankRange, setRankRange] = useState({ min: "", max: "" });
   const [selectedFeeRange, setSelectedFeeRange] = useState("all");
   const [showAdvancedFilters, setShowAdvancedFilters] = useState(false);
 
