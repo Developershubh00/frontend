@@ -148,7 +148,7 @@ const ResultrankingPage: React.FC<ResultrankingPageProps> = ({ onBack }) => {
 
       <div className="max-w-7xl mx-auto p-6">
         {/* Hero Section */}
-        <div className="bg-gradient-to-r from-amber-500 to-orange-600 rounded-3xl p-8 text-white mb-8 shadow-xl">
+        <div className="bg-gradient-to-r from-amber-500 to-blue-600 rounded-3xl p-8 text-white mb-8 shadow-xl">
           <div className="text-center">
             <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
               <Trophy className="w-8 h-8" />
@@ -229,7 +229,7 @@ const ResultrankingPage: React.FC<ResultrankingPageProps> = ({ onBack }) => {
                         <div
                           className={`w-8 h-8 rounded-full flex items-center justify-center text-white font-bold text-sm ${
                             college.NIRF_Rank_2024 <= 3
-                              ? "bg-gradient-to-r from-yellow-400 to-orange-500"
+                              ? "bg-gradient-to-r from-yellow-400 to-blue-500"
                               : college.NIRF_Rank_2024 <= 10
                               ? "bg-gradient-to-r from-blue-400 to-blue-600"
                               : "bg-gradient-to-r from-slate-400 to-slate-600"
@@ -358,7 +358,7 @@ const ResultrankingPage: React.FC<ResultrankingPageProps> = ({ onBack }) => {
           </div>
 
           <div className="bg-white/80 backdrop-blur-xl rounded-2xl p-6 border border-white/20 shadow-lg text-center">
-            <div className="w-12 h-12 bg-gradient-to-r from-orange-400 to-orange-600 rounded-full flex items-center justify-center mx-auto mb-4">
+            <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
               <Trophy className="w-6 h-6 text-white" />
             </div>
             <div className="text-2xl font-bold text-slate-800 mb-2">

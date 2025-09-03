@@ -210,9 +210,9 @@
 //           </div>
 
 //           <div className="mt-4">
-//             <div className="flex items-center space-x-2 px-4 py-2 bg-orange-50 border border-orange-200 rounded-lg">
-//               <span className="text-sm font-medium text-orange-700">{selectedCounselling}</span>
-//               <ChevronDown className="w-4 h-4 text-orange-600" />
+//             <div className="flex items-center space-x-2 px-4 py-2 bg-blue-50 border border-blue-200 rounded-lg">
+//               <span className="text-sm font-medium text-blue-700">{selectedCounselling}</span>
+//               <ChevronDown className="w-4 h-4 text-blue-600" />
 //             </div>
 //           </div>
 //         </div>
@@ -541,7 +541,7 @@ const FeeStipendBondPage: React.FC<FeeStipendBondPageProps> = ({ onBack }) => {
       {/* Main Content */}
       <div className="flex-1 flex flex-col">
                 {/* Header */}
-        <div className="bg-gradient-to-r from-orange-600 to-red-600 text-white px-4 py-3">
+        <div className="bg-gradient-to-r from-blue-600 to-red-600 text-white px-4 py-3">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <button
@@ -552,7 +552,7 @@ const FeeStipendBondPage: React.FC<FeeStipendBondPageProps> = ({ onBack }) => {
               </button>
               <div>
                 <h1 className="text-lg font-semibold">NEET PG Fee, Stipend & Bond</h1>
-                <p className="text-xs text-orange-100">2024 Session Data</p>
+                <p className="text-xs text-blue-100">2024 Session Data</p>
               </div>
             </div>
             
@@ -576,7 +576,7 @@ const FeeStipendBondPage: React.FC<FeeStipendBondPageProps> = ({ onBack }) => {
                 placeholder="Search institutes, courses, or states..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full pl-10 pr-4 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500 text-sm"
+                className="w-full pl-10 pr-4 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
               />
             </div>
 
@@ -584,7 +584,7 @@ const FeeStipendBondPage: React.FC<FeeStipendBondPageProps> = ({ onBack }) => {
             <select
               value={selectedQuota}
               onChange={(e) => setSelectedQuota(e.target.value)}
-              className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500 text-sm bg-white"
+              className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white"
             >
               {quotas.map((quota) => (
                 <option key={quota} value={quota}>
@@ -614,9 +614,9 @@ const FeeStipendBondPage: React.FC<FeeStipendBondPageProps> = ({ onBack }) => {
             </thead>
             <tbody className="bg-white divide-y divide-gray-100">
               {paginatedData.map((item, index) => (
-                <tr key={index} className="hover:bg-orange-50 transition-colors">
+                <tr key={index} className="hover:bg-blue-50 transition-colors">
                   <td className="px-2 py-2 text-xs text-gray-700">{item.State}</td>
-                  <td className="px-2 py-2 text-xs text-orange-600 hover:text-orange-800 cursor-pointer font-medium">
+                  <td className="px-2 py-2 text-xs text-blue-600 hover:text-blue-800 cursor-pointer font-medium">
                     {item.Institute}
                   </td>
                   <td className="px-2 py-2 text-xs text-gray-700">{item.Course}</td>
@@ -629,7 +629,7 @@ const FeeStipendBondPage: React.FC<FeeStipendBondPageProps> = ({ onBack }) => {
                       {item.Quota}
                     </span>
                   </td>
-                  <td className="px-2 py-2 text-xs font-bold text-orange-600">{item.Fee}</td>
+                  <td className="px-2 py-2 text-xs font-bold text-blue-600">{item.Fee}</td>
                   <td className="px-2 py-2 text-xs text-gray-700">{item.Stipend_Year_1}</td>
                   <td className="px-2 py-2 text-xs text-gray-700">{item.Bond_Years} yrs</td>
                   <td className="px-2 py-2 text-xs text-gray-700">{item.Bond_Penalty}</td>
@@ -670,7 +670,7 @@ const FeeStipendBondPage: React.FC<FeeStipendBondPageProps> = ({ onBack }) => {
                       onClick={() => setCurrentPage(pageNum)}
                       className={`px-2 py-1 text-xs rounded transition-colors ${
                         currentPage === pageNum
-                          ? "bg-orange-500 text-white"
+                          ? "bg-blue-500 text-white"
                           : "border text-black border-gray-300 hover:bg-gray-50"
                       }`}
                     >

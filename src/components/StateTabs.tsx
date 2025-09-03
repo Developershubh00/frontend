@@ -93,7 +93,7 @@ const StateTabs: React.FC<StateTabsProps> = ({ activeTab, onTabChange }) => {
       label: "Haryana - PG Medical",
       shortLabel: "Haryana - PG",
       icon: "👨‍⚕️",
-      color: "from-yellow-500 to-orange-600",
+      color: "from-yellow-500 to-blue-600",
       category: "state-pg"
     },
     {
@@ -125,7 +125,7 @@ const StateTabs: React.FC<StateTabsProps> = ({ activeTab, onTabChange }) => {
       label: "Uttar Pradesh - PG Medical",
       shortLabel: "UP - PG",
       icon: "👨‍⚕️",
-      color: "from-orange-500 to-red-600",
+      color: "from-blue-500 to-red-600",
       category: "state-pg"
     },
     {
@@ -263,7 +263,7 @@ const StateTabs: React.FC<StateTabsProps> = ({ activeTab, onTabChange }) => {
       label: "Andhra Pradesh Management Quota - PG Medical",
       shortLabel: "Andhra Mgmt - PG",
       icon: "💰",
-      color: "from-yellow-500 to-orange-600",
+      color: "from-yellow-500 to-blue-600",
       category: "management"
     },
     {
@@ -271,7 +271,7 @@ const StateTabs: React.FC<StateTabsProps> = ({ activeTab, onTabChange }) => {
       label: "Karnataka Management Quota - PG Medical",
       shortLabel: "Karnataka Mgmt - PG",
       icon: "💰",
-      color: "from-yellow-500 to-orange-600",
+      color: "from-yellow-500 to-blue-600",
       category: "management"
     },
     {
@@ -279,7 +279,7 @@ const StateTabs: React.FC<StateTabsProps> = ({ activeTab, onTabChange }) => {
       label: "Tamil Nadu Management Quota - PG Medical",
       shortLabel: "TN Mgmt - PG",
       icon: "💰",
-      color: "from-yellow-500 to-orange-600",
+      color: "from-yellow-500 to-blue-600",
       category: "management"
     },
     {
@@ -287,7 +287,7 @@ const StateTabs: React.FC<StateTabsProps> = ({ activeTab, onTabChange }) => {
       label: "Telangana Management Quota - PG Medical",
       shortLabel: "Telangana Mgmt - PG",
       icon: "💰",
-      color: "from-yellow-500 to-orange-600",
+      color: "from-yellow-500 to-blue-600",
       category: "management"
     },
     {
@@ -295,7 +295,7 @@ const StateTabs: React.FC<StateTabsProps> = ({ activeTab, onTabChange }) => {
       label: "Maharashtra Management Quota - PG Medical",
       shortLabel: "Maharashtra Mgmt - PG",
       icon: "💰",
-      color: "from-yellow-500 to-orange-600",
+      color: "from-yellow-500 to-blue-600",
       category: "management"
     },
     {
@@ -303,7 +303,7 @@ const StateTabs: React.FC<StateTabsProps> = ({ activeTab, onTabChange }) => {
       label: "Gujarat Management Quota - PG Medical",
       shortLabel: "Gujarat Mgmt - PG",
       icon: "💰",
-      color: "from-yellow-500 to-orange-600",
+      color: "from-yellow-500 to-blue-600",
       category: "management"
     },
     {
@@ -311,7 +311,7 @@ const StateTabs: React.FC<StateTabsProps> = ({ activeTab, onTabChange }) => {
       label: "Kerala Management Quota - PG Medical",
       shortLabel: "Kerala Mgmt - PG",
       icon: "💰",
-      color: "from-yellow-500 to-orange-600",
+      color: "from-yellow-500 to-blue-600",
       category: "management"
     },
     

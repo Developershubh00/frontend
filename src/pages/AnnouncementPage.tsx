@@ -40,7 +40,7 @@ const AnnouncementPage: React.FC = () => {
   const getPriorityColor = (priority: string) => {
     switch (priority) {
       case 'high': return 'border-red-200 bg-red-50 text-red-800';
-      case 'medium': return 'border-orange-200 bg-orange-50 text-orange-800';
+      case 'medium': return 'border-blue-200 bg-blue-50 text-blue-800';
       default: return 'border-blue-200 bg-blue-50 text-blue-800';
     }
   };
@@ -73,7 +73,7 @@ const AnnouncementPage: React.FC = () => {
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="bg-white rounded-2xl shadow-xl mb-8 overflow-hidden">
-          <div className="bg-gradient-to-r from-orange-400 via-red-400 to-pink-400 p-8 text-white">
+          <div className="bg-gradient-to-r from-blue-400 via-red-400 to-pink-400 p-8 text-white">
             <div className="flex items-center justify-between">
               <div className="flex items-center space-x-4">
                 <div className="bg-white/20 backdrop-blur-sm rounded-full p-3">
@@ -81,7 +81,7 @@ const AnnouncementPage: React.FC = () => {
                 </div>
                 <div>
                   <h1 className="text-4xl font-bold">📢 Announcements</h1>
-                  <p className="text-orange-100 mt-2">Stay updated with the latest information</p>
+                  <p className="text-blue-100 mt-2">Stay updated with the latest information</p>
                 </div>
               </div>
               <button

@@ -167,9 +167,9 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
             </button>
             {/* <button 
               onClick={() => window.location.href = '/allotments'}
-              className="w-full flex items-center space-x-3 p-3 bg-orange-50 hover:bg-orange-100 rounded-lg transition-colors"
+              className="w-full flex items-center space-x-3 p-3 bg-blue-50 hover:bg-blue-100 rounded-lg transition-colors"
             >
-              <Users className="w-4 h-4 text-orange-600" />
+              <Users className="w-4 h-4 text-blue-600" />
               <span className="text-sm font-medium text-slate-800">View Allotments</span>
             </button> */}
             {/* <button 

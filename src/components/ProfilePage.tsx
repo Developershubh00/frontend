@@ -203,7 +203,7 @@ const ProfilePage: React.FC<ProfilePageProps> = ({ onBack, onLogout }) => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <StatCard icon={<Award className="w-8 h-8 text-white" />} color="from-blue-400 to-purple-500" value="12,345" label="NEET Rank" />
           <StatCard icon={<User className="w-8 h-8 text-white" />} color="from-green-400 to-emerald-500" value="28" label="Choice Lists" />
-          <StatCard icon={<MapPin className="w-8 h-8 text-white" />} color="from-orange-400 to-red-500" value="5" label="States Applied" />
+          <StatCard icon={<MapPin className="w-8 h-8 text-white" />} color="from-blue-400 to-red-500" value="5" label="States Applied" />
         </div>
       </div>
     </div>

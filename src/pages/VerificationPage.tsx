@@ -335,9 +335,9 @@ const VerificationPage: React.FC<VerificationPageProps> = ({
 
             {/* Block Warning */}
             {isBlocked && (
-              <div className="mb-4 sm:mb-6 p-3 sm:p-4 bg-orange-50 border border-orange-200 rounded-xl flex items-start space-x-2">
-                <Shield className="w-5 h-5 text-orange-500 flex-shrink-0 mt-0.5" />
-                <div className="text-orange-700 text-sm">
+              <div className="mb-4 sm:mb-6 p-3 sm:p-4 bg-blue-50 border border-blue-200 rounded-xl flex items-start space-x-2">
+                <Shield className="w-5 h-5 text-blue-500 flex-shrink-0 mt-0.5" />
+                <div className="text-blue-700 text-sm">
                   <p className="font-medium mb-1">Account Temporarily Blocked</p>
                   <p>Time remaining: {formatTime(blockTimeLeft)}</p>
                 </div>

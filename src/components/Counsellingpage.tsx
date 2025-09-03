@@ -190,7 +190,7 @@ const CounselingPage: React.FC<CounselingPageProps> = ({ onBack }) => {
       case "General":
         return "bg-blue-100 text-blue-800";
       case "OBC":
-        return "bg-orange-100 text-orange-800";
+        return "bg-blue-100 text-blue-800";
       case "SC":
         return "bg-green-100 text-green-800";
       case "ST":
@@ -327,7 +327,7 @@ const CounselingPage: React.FC<CounselingPageProps> = ({ onBack }) => {
           </div>
 
           <div className="bg-white/80 backdrop-blur-xl rounded-2xl p-6 border border-white/20 shadow-lg text-center">
-            <div className="w-12 h-12 bg-gradient-to-r from-orange-400 to-orange-600 rounded-full flex items-center justify-center mx-auto mb-4">
+            <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
               <Filter className="w-6 h-6 text-white" />
             </div>
             <div className="text-2xl font-bold text-slate-800 mb-2">

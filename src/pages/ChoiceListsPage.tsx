@@ -140,7 +140,7 @@ const ChoiceListsPage: React.FC<ChoiceListsPageProps> = ({ onBack }) => {
 
             <button
               onClick={() => setShowCreateModal(true)}
-              className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-medium transition-colors flex items-center space-x-2 mx-auto"
+              className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-lg font-medium transition-colors flex items-center space-x-2 mx-auto"
             >
               <Plus className="w-5 h-5" />
               <span>Create Choice List</span>
@@ -209,7 +209,7 @@ const ChoiceListsPage: React.FC<ChoiceListsPageProps> = ({ onBack }) => {
                 <button
                   onClick={handleCreateChoiceList}
                   disabled={!selectedCounselling}
-                  className="flex-1 px-4 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center space-x-2"
+                  className="flex-1 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center space-x-2"
                 >
                   <Plus className="w-4 h-4" />
                   <span>Create List</span>

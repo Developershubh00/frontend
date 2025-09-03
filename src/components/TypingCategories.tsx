@@ -45,7 +45,7 @@
 //   return (
 //     <div className="text-center mt-4">
 //       <h2 className="text-2xl md:text-6xl font-bold">
-//         <span className="bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent">
+//         <span className="bg-gradient-to-r from-blue-500 to-red-500 bg-clip-text text-transparent">
 //           {displayedText}
 //         </span>
 //         <span className="text-black animate-pulse">|</span>

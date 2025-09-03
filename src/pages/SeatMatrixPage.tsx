@@ -850,11 +850,11 @@
 //               </span>
 //             )}
 //             {filters.selectedCategory !== "all" && (
-//               <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-orange-100 text-orange-800">
+//               <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
 //                 Category: {filters.selectedCategory}
 //                 <button 
 //                   onClick={() => updateFilter('selectedCategory', 'all')}
-//                   className="ml-2 hover:text-orange-600"
+//                   className="ml-2 hover:text-blue-600"
 //                 >
 //                   <X className="w-3 h-3" />
 //                 </button>
@@ -921,7 +921,7 @@
 //                         (item.Category || '').toLowerCase() === "obc" ? "bg-yellow-100 text-yellow-800" :
 //                         (item.Category || '').toLowerCase() === "sc" ? "bg-pink-100 text-pink-800" :
 //                         (item.Category || '').toLowerCase() === "st" ? "bg-teal-100 text-teal-800" :
-//                         "bg-orange-100 text-orange-800"
+//                         "bg-blue-100 text-blue-800"
 //                       }`}>
 //                         {item.Category || '-'}
 //                       </span>
@@ -1415,7 +1415,7 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
                       item.Quota === "All India" ? "bg-green-100 text-green-800" :
                       item.Quota === "State Quota" ? "bg-blue-100 text-blue-800" :
                       item.Quota === "Management" ? "bg-purple-100 text-purple-800" :
-                      item.Quota === "NRI" ? "bg-orange-100 text-orange-800" :
+                      item.Quota === "NRI" ? "bg-blue-100 text-blue-800" :
                       "bg-gray-100 text-gray-800"
                     }`}>
                       {item.Quota}

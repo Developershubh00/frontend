@@ -103,7 +103,7 @@ const Sidebar: React.FC<SidebarProps> = ({
       icon: Compass,
       label: "Explore",
       hasSubmenu: true,
-      color: "text-orange-600",
+      color: "text-blue-600",
       submenu: [
         {
           label: "Allotments",

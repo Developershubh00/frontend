@@ -380,7 +380,7 @@ const ClosingRanksPage: React.FC<ClosingRanksPageProps> = ({ onBack }) => {
                       item.Category === "GEN" ? "bg-gray-100 text-gray-800" :
                       item.Category === "OBC" ? "bg-yellow-100 text-yellow-800" :
                       item.Category === "SC" ? "bg-red-100 text-red-800" :
-                      item.Category === "ST" ? "bg-orange-100 text-orange-800" :
+                      item.Category === "ST" ? "bg-blue-100 text-blue-800" :
                       "bg-green-100 text-green-800"
                     }`}>
                       {item.Category}

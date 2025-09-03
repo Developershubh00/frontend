@@ -164,7 +164,7 @@ const LoginPage: React.FC = () => {
               <p className="text-xs text-slate-600">Medical Counselling</p>
             </div>
             <div className="text-center">
-              <div className="w-12 h-12 bg-gradient-to-r from-orange-400 to-yellow-500 rounded-xl flex items-center justify-center mx-auto mb-2">
+              <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-yellow-500 rounded-xl flex items-center justify-center mx-auto mb-2">
                 <BookOpen className="w-6 h-6 text-white" />
               </div>
               <p className="text-xs text-slate-600">Study Material</p>
@@ -358,7 +358,7 @@ export default LoginPage;
 //               <p className="text-xs text-slate-600">Medical Counselling</p>
 //             </div>
 //             <div className="text-center">
-//               <div className="w-12 h-12 bg-gradient-to-r from-orange-400 to-yellow-500 rounded-xl flex items-center justify-center mx-auto mb-2">
+//               <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-yellow-500 rounded-xl flex items-center justify-center mx-auto mb-2">
 //                 <BookOpen className="w-6 h-6 text-white" />
 //               </div>
 //               <p className="text-xs text-slate-600">Study Material</p>

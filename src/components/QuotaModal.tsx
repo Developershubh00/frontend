@@ -26,13 +26,13 @@ const QuotaModal: React.FC<QuotaModalProps> = ({ isOpen, onClose }) => {
 
         <div className="flex justify-center mb-4 space-x-4">
           <button
-            className={`px-4 py-2 rounded-lg font-medium ${tab === "UG" ? "bg-orange-500 text-white" : "bg-gray-200 text-gray-800"}`}
+            className={`px-4 py-2 rounded-lg font-medium ${tab === "UG" ? "bg-blue-500 text-white" : "bg-gray-200 text-gray-800"}`}
             onClick={() => setTab("UG")}
           >
             UG
           </button>
           <button
-            className={`px-4 py-2 rounded-lg font-medium ${tab === "PG" ? "bg-orange-500 text-white" : "bg-gray-200 text-gray-800"}`}
+            className={`px-4 py-2 rounded-lg font-medium ${tab === "PG" ? "bg-blue-500 text-white" : "bg-gray-200 text-gray-800"}`}
             onClick={() => setTab("PG")}
           >
             PG

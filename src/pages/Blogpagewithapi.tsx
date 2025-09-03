@@ -169,7 +169,7 @@
 //       { id: 2, name: 'NEET UG', slug: 'neet-ug', color_class: 'bg-red-100 text-red-800' },
 //       { id: 3, name: 'Counselling', slug: 'counselling', color_class: 'bg-purple-100 text-purple-800' },
 //       { id: 4, name: 'Finance', slug: 'finance', color_class: 'bg-green-100 text-green-800' },
-//       { id: 5, name: 'Analysis', slug: 'analysis', color_class: 'bg-orange-100 text-orange-800' }
+//       { id: 5, name: 'Analysis', slug: 'analysis', color_class: 'bg-blue-100 text-blue-800' }
 //     ];
 
 //     const dummyPosts: BlogPost[] = [
@@ -371,7 +371,7 @@
 //     return (
 //       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
 //         <div className="text-center">
-//           <div className="w-16 h-16 bg-gradient-to-r from-orange-500 to-red-500 rounded-full animate-pulse mx-auto mb-4 flex items-center justify-center">
+//           <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-red-500 rounded-full animate-pulse mx-auto mb-4 flex items-center justify-center">
 //             <RefreshCw className="w-8 h-8 text-white animate-spin" />
 //           </div>
 //           <p className="text-gray-600 text-lg">Loading blog posts...</p>
@@ -393,7 +393,7 @@
 //           <p className="text-gray-600 mb-6">{error}</p>
 //           <button
 //             onClick={handleRetry}
-//             className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-6 py-3 rounded-full font-semibold hover:scale-105 transition-transform duration-200 inline-flex items-center"
+//             className="bg-gradient-to-r from-blue-500 to-red-500 text-white px-6 py-3 rounded-full font-semibold hover:scale-105 transition-transform duration-200 inline-flex items-center"
 //           >
 //             <RefreshCw className="w-4 h-4 mr-2" />
 //             Try Again
@@ -411,7 +411,7 @@
 //           <div className="text-center">
 //             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4">
 //               Believers Consultancy
-//               <span className="bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent"> Blog</span>
+//               <span className="bg-gradient-to-r from-blue-500 to-red-500 bg-clip-text text-transparent"> Blog</span>
 //             </h1>
 //             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
 //               Expert insights, latest updates, and comprehensive guides for your medical education journey
@@ -439,7 +439,7 @@
 //                     className="w-full h-full object-cover"
 //                   />
 //                   <div className="absolute top-6 left-6">
-//                     <span className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-4 py-2 rounded-full text-sm font-semibold">
+//                     <span className="bg-gradient-to-r from-blue-500 to-red-500 text-white px-4 py-2 rounded-full text-sm font-semibold">
 //                       Featured Post
 //                     </span>
 //                   </div>
@@ -472,7 +472,7 @@
 //                         <p className="text-sm text-gray-500">{featuredPost.read_time} min read</p>
 //                       </div>
 //                     </div>
-//                     <button className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-6 py-3 rounded-full font-semibold hover:scale-105 transition-transform duration-200 inline-flex items-center">
+//                     <button className="bg-gradient-to-r from-blue-500 to-red-500 text-white px-6 py-3 rounded-full font-semibold hover:scale-105 transition-transform duration-200 inline-flex items-center">
 //                       Read More
 //                       <ArrowRight className="w-4 h-4 ml-2" />
 //                     </button>
@@ -493,7 +493,7 @@
 //                 <input
 //                   type="text"
 //                   placeholder="Search blog posts..."
-//                   className="w-full pl-12 pr-4 py-3 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
+//                   className="w-full pl-12 pr-4 py-3 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
 //                   value={searchTerm}
 //                   onChange={(e) => setSearchTerm(e.target.value)}
 //                 />
@@ -507,7 +507,7 @@
 //                     onClick={() => setSelectedCategory(category.slug)}
 //                     className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
 //                       selectedCategory === category.slug
-//                         ? 'bg-gradient-to-r from-orange-500 to-red-500 text-white scale-105'
+//                         ? 'bg-gradient-to-r from-blue-500 to-red-500 text-white scale-105'
 //                         : `${category.color_class} hover:scale-105`
 //                     }`}
 //                   >
@@ -592,7 +592,7 @@
 //                     </div>
 //                   </div>
                   
-//                   <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-orange-600 transition-colors">
+//                   <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
 //                     {post.title}
 //                   </h3>
 //                   <p className="text-gray-600 mb-4 line-clamp-3">
@@ -655,7 +655,7 @@
 //                   setSearchTerm('');
 //                   setSelectedCategory('all');
 //                 }}
-//                 className="mt-4 text-orange-600 hover:text-orange-700 font-medium"
+//                 className="mt-4 text-blue-600 hover:text-blue-700 font-medium"
 //               >
 //                 Clear filters
 //               </button>
@@ -679,7 +679,7 @@
 //                     key={page}
 //                     className={`px-4 py-2 rounded-full font-medium transition-colors ${
 //                       currentPage === page
-//                         ? 'bg-gradient-to-r from-orange-500 to-red-500 text-white'
+//                         ? 'bg-gradient-to-r from-blue-500 to-red-500 text-white'
 //                         : 'bg-white text-gray-600 hover:bg-gray-50'
 //                     }`}
 //                     onClick={() => setCurrentPage(page)}
@@ -909,7 +909,7 @@ const BlogPageWithAPI: React.FC = () => {
       category: {
         name: "Analysis",
         slug: "analysis",
-        color: "bg-orange-100 text-orange-800"
+        color: "bg-blue-100 text-blue-800"
       },
       tags: ["Government Colleges", "Cutoff", "Analysis", "Rankings"],
       published_date: "2024-12-05",
@@ -943,7 +943,7 @@ const BlogPageWithAPI: React.FC = () => {
     { name: 'NEET UG', slug: 'neet-ug', color: 'bg-red-100 text-red-800' },
     { name: 'Counselling', slug: 'counselling', color: 'bg-purple-100 text-purple-800' },
     { name: 'Finance', slug: 'finance', color: 'bg-green-100 text-green-800' },
-    { name: 'Analysis', slug: 'analysis', color: 'bg-orange-100 text-orange-800' }
+    { name: 'Analysis', slug: 'analysis', color: 'bg-blue-100 text-blue-800' }
   ];
 
   const filteredPosts = posts.filter(post => {
@@ -992,7 +992,7 @@ const BlogPageWithAPI: React.FC = () => {
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
         <div className="text-center">
-          <div className="w-16 h-16 bg-gradient-to-r from-orange-500 to-red-500 rounded-full animate-pulse mx-auto mb-4"></div>
+          <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-red-500 rounded-full animate-pulse mx-auto mb-4"></div>
           <p className="text-gray-600">Loading blog posts...</p>
         </div>
       </div>
@@ -1007,7 +1007,7 @@ const BlogPageWithAPI: React.FC = () => {
           <div className="text-center">
             <h1 className="text-5xl md:text-4xl font-bold text-gray-900 mb-4">
               Believers Consultancy's
-              <span className="bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent"> Blog</span>
+              <span className="bg-gradient-to-r from-blue-500 to-red-500 bg-clip-text text-transparent"> Blog</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Expert insights, latest updates, and comprehensive guides for your medical education journey
@@ -1029,7 +1029,7 @@ const BlogPageWithAPI: React.FC = () => {
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute top-6 left-6">
-                    <span className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-4 py-2 rounded-full text-sm font-semibold">
+                    <span className="bg-gradient-to-r from-blue-500 to-red-500 text-white px-4 py-2 rounded-full text-sm font-semibold">
                       Featured Post
                     </span>
                   </div>
@@ -1062,7 +1062,7 @@ const BlogPageWithAPI: React.FC = () => {
                         <p className="text-sm text-gray-500">{featuredPost.read_time} min read</p>
                       </div>
                     </div>
-                    <button className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-6 py-3 rounded-full font-semibold hover:scale-105 transition-transform duration-200 inline-flex items-center">
+                    <button className="bg-gradient-to-r from-blue-500 to-red-500 text-white px-6 py-3 rounded-full font-semibold hover:scale-105 transition-transform duration-200 inline-flex items-center">
                       Read More
                       <ArrowRight className="w-4 h-4 ml-2" />
                     </button>
@@ -1083,7 +1083,7 @@ const BlogPageWithAPI: React.FC = () => {
                 <input
                   type="text"
                   placeholder="Search blog posts..."
-                  className="w-full pl-12 pr-4 py-3 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
+                  className="w-full pl-12 pr-4 py-3 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
                 />
@@ -1097,7 +1097,7 @@ const BlogPageWithAPI: React.FC = () => {
                     onClick={() => setSelectedCategory(category.slug)}
                     className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
                       selectedCategory === category.slug
-                        ? 'bg-gradient-to-r from-orange-500 to-red-500 text-white scale-105'
+                        ? 'bg-gradient-to-r from-blue-500 to-red-500 text-white scale-105'
                         : `${category.color} hover:scale-105`
                     }`}
                   >
@@ -1182,7 +1182,7 @@ const BlogPageWithAPI: React.FC = () => {
                     </div>
                   </div>
                   
-                  <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-orange-600 transition-colors">
+                  <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
                     {post.title}
                   </h3>
                   <p className="text-gray-600 mb-4 line-clamp-3">
@@ -1257,7 +1257,7 @@ const BlogPageWithAPI: React.FC = () => {
                     key={page}
                     className={`px-4 py-2 rounded-full font-medium transition-colors ${
                       currentPage === page
-                        ? 'bg-gradient-to-r from-orange-500 to-red-500 text-white'
+                        ? 'bg-gradient-to-r from-blue-500 to-red-500 text-white'
                         : 'bg-white text-gray-600 hover:bg-gray-50'
                     }`}
                   >

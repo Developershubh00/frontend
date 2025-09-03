@@ -44,7 +44,7 @@ const NeetPGPage: React.FC = () => {
       title: "Specialty Predictor",
       subtitle: "Predict your specialty options",
       icon: Building2,
-      bgGradient: "from-orange-400 to-red-600",
+      bgGradient: "from-blue-400 to-red-600",
       action: "Predict Now",
       onClick: () => {
         console.log("Specialty Predictor clicked");
@@ -245,7 +245,7 @@ const NeetPGPage: React.FC = () => {
             href="https://forms.gle/HE2RyX5CLh7j9FzX9"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-gradient-to-r from-orange-400 to-red-400 px-6 py-3 lg:px-8 lg:py-4 rounded-xl text-white font-bold text-base lg:text-lg hover:from-orange-500 hover:to-red-500 transition-all duration-300 transform hover:scale-105 shadow-xl inline-block"
+            className="bg-gradient-to-r from-blue-400 to-red-400 px-6 py-3 lg:px-8 lg:py-4 rounded-xl text-white font-bold text-base lg:text-lg hover:from-blue-500 hover:to-red-500 transition-all duration-300 transform hover:scale-105 shadow-xl inline-block"
           >
             Get Specialty Guidance
           </a>

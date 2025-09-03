@@ -67,10 +67,10 @@ function TermsConditions() {
       ]
     },
     {
-      icon: <Info className="w-8 h-8 text-orange-600" />,
+      icon: <Info className="w-8 h-8 text-blue-600" />,
       title: "Information Accuracy",
-      color: "border-orange-300 bg-orange-50",
-      textColor: "text-orange-800",
+      color: "border-blue-300 bg-blue-50",
+      textColor: "text-blue-800",
       content: [
         "We strive to provide accurate and up-to-date counselling information",
         "All data is sourced from official authorities and verified through multiple channels",
@@ -157,14 +157,14 @@ function TermsConditions() {
             <div className="hidden md:flex items-center space-x-8">
               <button
                 onClick={() => handleNavigation("/")}
-                className="flex items-center text-gray-700 hover:text-orange-600 transition-all duration-300 font-medium"
+                className="flex items-center text-gray-700 hover:text-blue-600 transition-all duration-300 font-medium"
               >
                 <ArrowLeft className="w-4 h-4 mr-2" />
                 Back to Home
               </button>
               <button 
                 onClick={() => handleNavigation("/login")}
-                className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2.5 rounded-full font-semibold transition-all duration-300 hover:scale-105 shadow-lg"
+                className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2.5 rounded-full font-semibold transition-all duration-300 hover:scale-105 shadow-lg"
               >
                 Login
               </button>
@@ -189,7 +189,7 @@ function TermsConditions() {
               <div className="px-2 pt-2 pb-3 space-y-1">
                 <button
                   onClick={() => handleNavigation("/")}
-                  className="flex items-center w-full text-left px-3 py-2 text-gray-700 hover:text-orange-600 hover:bg-orange-50 rounded-md transition-all duration-300 font-medium"
+                  className="flex items-center w-full text-left px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-md transition-all duration-300 font-medium"
                 >
                   <ArrowLeft className="w-4 h-4 mr-2" />
                   Back to Home
@@ -197,7 +197,7 @@ function TermsConditions() {
                 <div className="pt-2">
                   <button 
                     onClick={() => handleNavigation("/login")}
-                    className="w-full bg-orange-500 hover:bg-orange-600 text-white px-6 py-2.5 rounded-full font-semibold transition-all duration-300 shadow-lg"
+                    className="w-full bg-blue-500 hover:bg-blue-600 text-white px-6 py-2.5 rounded-full font-semibold transition-all duration-300 shadow-lg"
                   >
                     Login
                   </button>
@@ -210,7 +210,7 @@ function TermsConditions() {
 
       {/* Hero Section */}
       <section className="pt-24 pb-12 bg-gradient-to-b from-gray-50 to-white relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-orange-50/30 to-red-50/30"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-50/30 to-red-50/30"></div>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div
             className={`text-center transition-all duration-700 ${
@@ -219,7 +219,7 @@ function TermsConditions() {
                 : "opacity-0 translate-y-10"
             }`}
           >
-            <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-orange-500 to-red-500 rounded-3xl mb-8">
+            <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-blue-500 to-red-500 rounded-3xl mb-8">
               <FileText className="w-12 h-12 text-white" />
             </div>
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
@@ -260,11 +260,11 @@ function TermsConditions() {
       </section>
 
       {/* Important Notice */}
-      <section className="py-12 bg-gradient-to-r from-orange-50 to-red-50">
+      <section className="py-12 bg-gradient-to-r from-blue-50 to-red-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-white rounded-3xl p-8 border-2 border-orange-200 shadow-lg">
+          <div className="bg-white rounded-3xl p-8 border-2 border-blue-200 shadow-lg">
             <div className="flex items-start space-x-4">
-              <AlertTriangle className="w-12 h-12 text-orange-600 flex-shrink-0 mt-1" />
+              <AlertTriangle className="w-12 h-12 text-blue-600 flex-shrink-0 mt-1" />
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">
                   Important: Please Read Carefully
@@ -315,8 +315,8 @@ function TermsConditions() {
       {/* Contact Section */}
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center bg-gradient-to-br from-orange-50 to-red-50 rounded-3xl p-12">
-            <Info className="w-16 h-16 text-orange-600 mx-auto mb-6" />
+          <div className="text-center bg-gradient-to-br from-blue-50 to-red-50 rounded-3xl p-12">
+            <Info className="w-16 h-16 text-blue-600 mx-auto mb-6" />
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Questions About These Terms?
             </h2>
@@ -363,19 +363,19 @@ function TermsConditions() {
           <div className="flex justify-center space-x-8 text-sm">
             <button
               onClick={() => handleNavigation("/")}
-              className="text-gray-400 hover:text-orange-400 transition-colors"
+              className="text-gray-400 hover:text-blue-400 transition-colors"
             >
               Home
             </button>
             <button
               onClick={() => handleNavigation("/privacy")}
-              className="text-gray-400 hover:text-orange-400 transition-colors"
+              className="text-gray-400 hover:text-blue-400 transition-colors"
             >
               Privacy Policy
             </button>
             <a
               href="#"
-              className="text-gray-400 hover:text-orange-400 transition-colors"
+              className="text-gray-400 hover:text-blue-400 transition-colors"
             >
               Contact Us
             </a>

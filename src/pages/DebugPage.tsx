@@ -51,11 +51,11 @@
 //               </p>
 //             </div>
 
-//             <div className="p-4 bg-orange-50 border border-orange-200 rounded-xl">
-//               <h3 className="font-semibold text-orange-800 mb-2">🧪 Test Functions</h3>
+//             <div className="p-4 bg-blue-50 border border-blue-200 rounded-xl">
+//               <h3 className="font-semibold text-blue-800 mb-2">🧪 Test Functions</h3>
 //               <button 
 //                 onClick={() => alert("JavaScript is working!")}
-//                 className="px-4 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors mr-2"
+//                 className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors mr-2"
 //               >
 //                 Test Alert
 //               </button>
@@ -65,7 +65,7 @@
 //                   localStorage.setItem("debugTest", JSON.stringify(testData));
 //                   alert("LocalStorage test completed!");
 //                 }}
-//                 className="px-4 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors"
+//                 className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors"
 //               >
 //                 Test LocalStorage
 //               </button>
@@ -172,11 +172,11 @@ const DebugPage: React.FC = () => {
             </div>
 
             {/* 🧪 Test Functions */}
-            <div className="p-4 bg-orange-50 border border-orange-200 rounded-xl">
-              <h3 className="font-semibold text-orange-800 mb-2">🧪 Test Functions</h3>
+            <div className="p-4 bg-blue-50 border border-blue-200 rounded-xl">
+              <h3 className="font-semibold text-blue-800 mb-2">🧪 Test Functions</h3>
               <button 
                 onClick={() => alert("JavaScript is working!")}
-                className="px-4 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors mr-2"
+                className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors mr-2"
               >
                 Test Alert
               </button>
@@ -186,7 +186,7 @@ const DebugPage: React.FC = () => {
                   localStorage.setItem("debugTest", JSON.stringify(testData));
                   alert("LocalStorage test completed!");
                 }}
-                className="px-4 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors mr-2"
+                className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors mr-2"
               >
                 Test LocalStorage
               </button>

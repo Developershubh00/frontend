@@ -175,9 +175,9 @@
 //       title: "Webinars & Live Doubt Sessions",
 //       description:
 //         "Get expert strategies and answers — tailored for each counselling and round.",
-//       color: "border-orange-300 bg-orange-50",
-//       textColor: "text-orange-800",
-//       icon: <BookOpen className="w-8 h-8 text-orange-600" />,
+//       color: "border-blue-300 bg-blue-50",
+//       textColor: "text-blue-800",
+//       icon: <BookOpen className="w-8 h-8 text-blue-600" />,
 //       highlight: "Webinars & Video Guides",
 //     },
 //     {
@@ -357,38 +357,38 @@
 //               <div className="flex items-center space-x-8">
 //                 <a
 //                   href="#testimonials"
-//                   className="text-gray-700 hover:text-orange-600 transition-all duration-300 font-medium relative group"
+//                   className="text-gray-700 hover:text-blue-600 transition-all duration-300 font-medium relative group"
 //                 >
 //                   Testimonials
-//                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-orange-600 transition-all duration-300 group-hover:w-full"></span>
+//                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
 //                 </a>
 //                 <a
 //                   onClick={() => navigate("/blog")}
-//                   className="text-gray-700 hover:text-orange-600 transition-all duration-300 font-medium relative group"
+//                   className="text-gray-700 hover:text-blue-600 transition-all duration-300 font-medium relative group"
 //                 >
 //                   Blog
-//                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-orange-600 transition-all duration-300 group-hover:w-full"></span>
+//                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
 //                 </a>
 //                 <a
 //                   href="#news"
-//                   className="text-gray-700 hover:text-orange-600 transition-all duration-300 font-medium relative group"
+//                   className="text-gray-700 hover:text-blue-600 transition-all duration-300 font-medium relative group"
 //                 >
 //                   News
-//                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-orange-600 transition-all duration-300 group-hover:w-full"></span>
+//                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
 //                 </a>
 //                 <a
 //                   href="#careers"
-//                   className="text-gray-700 hover:text-orange-600 transition-all duration-300 font-medium relative group"
+//                   className="text-gray-700 hover:text-blue-600 transition-all duration-300 font-medium relative group"
 //                 >
 //                   Careers
-//                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-orange-600 transition-all duration-300 group-hover:w-full"></span>
+//                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
 //                 </a>
 //                 <a
 //                   href="#contact"
-//                   className="text-gray-700 hover:text-orange-600 transition-all duration-300 font-medium relative group"
+//                   className="text-gray-700 hover:text-blue-600 transition-all duration-300 font-medium relative group"
 //                 >
 //                   Contact Us
-//                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-orange-600 transition-all duration-300 group-hover:w-full"></span>
+//                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
 //                 </a>
 //               </div>
               
@@ -399,7 +399,7 @@
 //                 </div> */}
 //                 <button 
 //                   onClick={() => navigate("/login")}
-//                   className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2.5 rounded-full font-semibold transition-all duration-300 hover:scale-105 shadow-lg mr-[5px]"
+//                   className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2.5 rounded-full font-semibold transition-all duration-300 hover:scale-105 shadow-lg mr-[5px]"
 //                 >
 //                   Login
 //                 </button>
@@ -425,38 +425,38 @@
 //               <div className="px-2 pt-2 pb-3 space-y-1">
 //                 <a
 //                   href="#testimonials"
-//                   className="block px-3 py-2 text-gray-700 hover:text-orange-600 hover:bg-orange-50 rounded-md transition-all duration-300 font-medium"
+//                   className="block px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-md transition-all duration-300 font-medium"
 //                 >
 //                   Testimonials
 //                 </a>
 //                 <a
 //                   onClick={() => navigate("/blog")}
-//                   className="block px-3 py-2 text-gray-700 hover:text-orange-600 hover:bg-orange-50 rounded-md transition-all duration-300 font-medium"
+//                   className="block px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-md transition-all duration-300 font-medium"
 //                 >
 //                   Blog
 //                 </a>
 //                 <a
 //                   href="#news"
-//                   className="block px-3 py-2 text-gray-700 hover:text-orange-600 hover:bg-orange-50 rounded-md transition-all duration-300 font-medium"
+//                   className="block px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-md transition-all duration-300 font-medium"
 //                 >
 //                   News
 //                 </a>
 //                 <a
 //                   href="#careers"
-//                   className="block px-3 py-2 text-gray-700 hover:text-orange-600 hover:bg-orange-50 rounded-md transition-all duration-300 font-medium"
+//                   className="block px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-md transition-all duration-300 font-medium"
 //                 >
 //                   Careers
 //                 </a>
 //                 <a
 //                   href="#contact"
-//                   className="block px-3 py-2 text-gray-700 hover:text-orange-600 hover:bg-orange-50 rounded-md transition-all duration-300 font-medium"
+//                   className="block px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-md transition-all duration-300 font-medium"
 //                 >
 //                   Contact Us
 //                 </a>
 //                 <div className="pt-2">
 //                   <button 
 //                     onClick={() => navigate("/login")}
-//                     className="w-full bg-orange-500 hover:bg-orange-600 text-white px-6 py-2.5 rounded-full font-semibold transition-all duration-300 shadow-lg"
+//                     className="w-full bg-blue-500 hover:bg-blue-600 text-white px-6 py-2.5 rounded-full font-semibold transition-all duration-300 shadow-lg"
 //                   >
 //                     Login
 //                   </button>
@@ -473,7 +473,7 @@
 //         ref={heroRef}
 //         className="pt-24 pb-16 bg-gradient-to-b from-gray-50 to-white relative overflow-hidden"
 //       >
-//         <div className="absolute inset-0 bg-gradient-to-r from-orange-50/30 to-red-50/30"></div>
+//         <div className="absolute inset-0 bg-gradient-to-r from-blue-50/30 to-red-50/30"></div>
 //         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
 //           <div className="text-center mb-12">
 //             <h1
@@ -520,7 +520,7 @@
 //             </div>
 //             <button
 //             onClick={() => navigate("/login")}
-//               className={`bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white px-10 py-4 rounded-full text-xl font-bold inline-flex items-center space-x-3 transition-all duration-300 hover:scale-105 shadow-2xl ${
+//               className={`bg-gradient-to-r from-blue-500 to-red-500 hover:from-blue-600 hover:to-red-600 text-white px-10 py-4 rounded-full text-xl font-bold inline-flex items-center space-x-3 transition-all duration-300 hover:scale-105 shadow-2xl ${
 //                 isVisible
 //                   ? "opacity-100 translate-y-0"
 //                   : "opacity-0 translate-y-10"
@@ -570,7 +570,7 @@
 //             }`}
 //           >
 //             <div className="bg-white rounded-[40px] shadow-2xl overflow-hidden border border-gray-200 relative">
-//               <div className="absolute inset-0 bg-gradient-to-br from-orange-500/10 to-red-500/10 rounded-[40px]"></div>
+//               <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-red-500/10 rounded-[40px]"></div>
 //               <div className="relative p-6">
 //                 {/* Desktop Image */}
 //                 <img
@@ -691,7 +691,7 @@
 //         ref={featuresRef}
 //         className="py-20 bg-white relative overflow-hidden"
 //       >
-//         <div className="absolute inset-0 bg-gradient-to-r from-orange-50/30 to-red-50/30"></div>
+//         <div className="absolute inset-0 bg-gradient-to-r from-blue-50/30 to-red-50/30"></div>
 //         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
 //           <div
 //             className={`text-center mb-16 transition-all duration-1000 ${
@@ -880,7 +880,7 @@
 //                           <h4 className="font-bold text-gray-900 text-lg">
 //                             {review.name}
 //                           </h4>
-//                           <p className="text-sm text-orange-600 font-semibold">
+//                           <p className="text-sm text-blue-600 font-semibold">
 //                             {review.specialty}
 //                           </p>
 //                           <p className="text-xs text-gray-500 blur-sm">
@@ -909,7 +909,7 @@
 
 //                       {/* Hover overlay */}
 //                       <div
-//                         className={`absolute inset-0 bg-gradient-to-br from-orange-500 to-red-500 rounded-3xl flex items-center justify-center transition-all duration-500 ${
+//                         className={`absolute inset-0 bg-gradient-to-br from-blue-500 to-red-500 rounded-3xl flex items-center justify-center transition-all duration-500 ${
 //                           activeReview === currentReviewIndex + index
 //                             ? "opacity-95"
 //                             : "opacity-0 pointer-events-none"
@@ -920,10 +920,10 @@
 //                           <p className="font-bold text-xl mb-2">
 //                             Success Story
 //                           </p>
-//                           <p className="text-orange-100 leading-relaxed">
+//                           <p className="text-blue-100 leading-relaxed">
 //                             "{review.detailedReview}"
 //                           </p>
-//                           <div className="mt-4 text-orange-200 font-semibold">
+//                           <div className="mt-4 text-blue-200 font-semibold">
 //                             Thank You Believers Consultancy ❤️
 //                           </div>
 //                         </div>
@@ -934,7 +934,7 @@
 //             </div>
 
 //             <div className="text-center mt-12">
-//               <button className="inline-flex items-center text-orange-600 hover:text-orange-700 font-semibold text-lg transition-colors">
+//               <button className="inline-flex items-center text-blue-600 hover:text-blue-700 font-semibold text-lg transition-colors">
 //                 <span>View all testimonials</span>
 //                 <ArrowRight className="w-5 h-5 ml-2" />
 //               </button>
@@ -993,7 +993,7 @@
 
 //       {/* Take Control Today */}
 //       <section className="py-16 bg-gradient-to-br from-blue-500 to-indigo-100 relative overflow-hidden">
-//         <div className="absolute inset-0 bg-gradient-to-r from-orange-50/30 to-red-50/30"></div>
+//         <div className="absolute inset-0 bg-gradient-to-r from-blue-50/30 to-red-50/30"></div>
 //         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative">
 //           <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
 //             Take Control Today
@@ -1004,7 +1004,7 @@
 //           </p>
 //           <button 
 //           onClick={() => navigate("/login")}
-//           className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white px-10 py-4 rounded-full text-xl font-bold inline-flex items-center space-x-3 transition-all duration-300 hover:scale-105 shadow-2xl mb-8">
+//           className="bg-gradient-to-r from-blue-500 to-red-500 hover:from-blue-600 hover:to-red-600 text-white px-10 py-4 rounded-full text-xl font-bold inline-flex items-center space-x-3 transition-all duration-300 hover:scale-105 shadow-2xl mb-8">
 //             <span>Get started - FREE Access</span>
 //             <ArrowRight className="w-6 h-6" />
 //           </button>
@@ -1044,7 +1044,7 @@
 //                 <li>
 //                   <a
 //                     href="#"
-//                     className="hover:text-white transition-colors hover:text-orange-400"
+//                     className="hover:text-white transition-colors hover:text-blue-400"
 //                   >
 //                     Testimonials
 //                   </a>
@@ -1052,7 +1052,7 @@
 //                 <li>
 //                   <a
 //                     href="#"
-//                     className="hover:text-white transition-colors hover:text-orange-400"
+//                     className="hover:text-white transition-colors hover:text-blue-400"
 //                   >
 //                     Blog
 //                   </a>
@@ -1060,7 +1060,7 @@
 //                 <li>
 //                   <a
 //                     href="#"
-//                     className="hover:text-white transition-colors hover:text-orange-400"
+//                     className="hover:text-white transition-colors hover:text-blue-400"
 //                   >
 //                     News
 //                   </a>
@@ -1068,7 +1068,7 @@
 //                 <li>
 //                   <a
 //                     href="#"
-//                     className="hover:text-white transition-colors hover:text-orange-400"
+//                     className="hover:text-white transition-colors hover:text-blue-400"
 //                   >
 //                     Careers
 //                   </a>
@@ -1076,7 +1076,7 @@
 //                 <li>
 //                   <a
 //                     href="#"
-//                     className="hover:text-white transition-colors hover:text-orange-400"
+//                     className="hover:text-white transition-colors hover:text-blue-400"
 //                   >
 //                     Contact us
 //                   </a>
@@ -1090,7 +1090,7 @@
 //                 <li>
 //                   <a
 //                     onClick={() => navigate("/login")}
-//                     className="hover:text-white transition-colors hover:text-orange-400"
+//                     className="hover:text-white transition-colors hover:text-blue-400"
 //                   >
 //                     NEET PG
 //                   </a>
@@ -1098,7 +1098,7 @@
 //                 <li>
 //                   <a
 //                     onClick={() => navigate("/login")}
-//                     className="hover:text-white transition-colors hover:text-orange-400"
+//                     className="hover:text-white transition-colors hover:text-blue-400"
 //                   >
 //                     NEET UG (Coming Soon)
 //                   </a>
@@ -1106,7 +1106,7 @@
 //                 <li>
 //                   <a
 //                     onClick={() => navigate("/login")}
-//                     className="hover:text-white transition-colors hover:text-orange-400"
+//                     className="hover:text-white transition-colors hover:text-blue-400"
 //                   >
 //                     INICET (Coming Soon)
 //                   </a>
@@ -1114,7 +1114,7 @@
 //                 <li>
 //                   <a
 //                     onClick={() => navigate("/login")}
-//                     className="hover:text-white transition-colors hover:text-orange-400"
+//                     className="hover:text-white transition-colors hover:text-blue-400"
 //                   >
 //                     DNB PDCET (Coming Soon)
 //                   </a>
@@ -1122,7 +1122,7 @@
 //                 <li>
 //                   <a
 //                     onClick={() => navigate("/login")}
-//                     className="hover:text-white transition-colors hover:text-orange-400"
+//                     className="hover:text-white transition-colors hover:text-blue-400"
 //                   >
 //                     NEET SS (Coming Soon)
 //                   </a>
@@ -1136,7 +1136,7 @@
 //                 <li>
 //                   <a
 //                     onClick={() => navigate("/privacy")}
-//                     className="hover:text-white transition-colors hover:text-orange-400"
+//                     className="hover:text-white transition-colors hover:text-blue-400"
 //                   >
 //                     Privacy Policy
 //                   </a>
@@ -1144,7 +1144,7 @@
 //                 {/* <li>
 //                   <a
 //                     href="#"
-//                     className="hover:text-white transition-colors hover:text-orange-400"
+//                     className="hover:text-white transition-colors hover:text-blue-400"
 //                   >
 //                     Package Policy
 //                   </a>
@@ -1152,7 +1152,7 @@
 //                 <li>
 //                   <a
 //                     onClick={() => navigate("/terms")}
-//                     className="hover:text-white transition-colors hover:text-orange-400"
+//                     className="hover:text-white transition-colors hover:text-blue-400"
 //                   >
 //                     Terms & Conditions
 //                   </a>
@@ -2320,7 +2320,7 @@ function Homepage() {
                 {/* <li>
                   <a
                     href="#"
-                    className="hover:text-white transition-colors hover:text-orange-400"
+                    className="hover:text-white transition-colors hover:text-blue-400"
                   >
                     Package Policy
                   </a>

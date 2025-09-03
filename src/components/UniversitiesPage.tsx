@@ -1891,7 +1891,7 @@ const UniversitiesPage: React.FC<UniversitiesPageProps> = ({ onBack }) => {
                 <div className="space-y-4">
                   <div className="bg-slate-50 rounded-xl p-4">
                     <div className="flex items-center mb-2">
-                      <Award className="w-5 h-5 text-orange-600 mr-2" />
+                      <Award className="w-5 h-5 text-blue-600 mr-2" />
                       <span className="font-semibold text-slate-800">
                         Affiliation
                       </span>
