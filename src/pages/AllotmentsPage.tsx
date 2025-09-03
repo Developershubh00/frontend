@@ -350,6 +350,345 @@
 
 // export default AllotmentsPage;
 
+// import React, { useState, useEffect } from "react";
+// import { ArrowLeft, Users, Search, X, ChevronDown, Heart, ChevronLeft as PrevIcon, ChevronRight as NextIcon, Filter } from "lucide-react";
+// import { getStaticFileUrl } from "../services/api";
+
+// interface AllotmentsPageProps {
+//   onBack: () => void;
+// }
+
+// interface AllotmentData {
+//   Round: number;
+//   State_Rank: number;
+//   State: string;
+//   Institute: string;
+//   Course: string;
+//   Quota: string;
+//   Category: string;
+//   Fee: string;
+//   Stipend_Year_1: string;
+//   Bond_Years: number;
+//   Bond_Penalty: string;
+//   Beds: number;
+// }
+
+// /**
+//  * Enhanced Allotments Page Component
+//  * Features sidebar navigation and comprehensive allotment data
+//  * Focused on NEET PG Medical counselling
+//  */
+// const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
+//   const [allotmentData, setAllotmentData] = useState<AllotmentData[]>([]);
+//   const [loading, setLoading] = useState(true);
+//   const [showSidebar, setShowSidebar] = useState(true);
+//   const [selectedCounselling, setSelectedCounselling] = useState("All India Counselling - PG Medical");
+//   const [currentPage, setCurrentPage] = useState(1);
+//   const [searchTerm, setSearchTerm] = useState("");
+//   const [selectedCategory, setSelectedCategory] = useState("all");
+//   const [selectedQuota, setSelectedQuota] = useState("all");
+
+//   // NEET PG Counselling categories
+//   const counsellingOptions = [
+//     "All India Counselling - PG Medical",
+//     "Armed Forces Medical Services - AFMS (through MCC) - PG Medical",
+//     "Open States (Private Institute seats available for all candidates)",
+//     "Andhra Pradesh Government Quota - PG Medical",
+//     "Andhra Pradesh Management Quota - PG Medical",
+//     "Assam - PG Medical",
+//     "Bihar - PG Medical",
+//     "Chandigarh - PG Medical",
+//     "Chhattisgarh - PG Medical",
+//     "Delhi - PG Medical",
+//     "DNB Sponsored - PG Medical (Govt or PSU Inservice Candidates)",
+//     "Goa - PG Medical",
+//     "Gujarat - PG Medical",
+//     "Haryana - PG Medical",
+//     "Himachal Pradesh - PG Medical",
+//     "Jammu and Kashmir - PG Medical",
+//     "Jharkhand - PG Medical",
+//     "Karnataka - PG Medical",
+//     "Kerala - PG Medical",
+//     "Madhya Pradesh - PG Medical",
+//     "Maharashtra - PG Medical",
+//     "Manipur-JNIMS - PG Medical",
+//     "Manipur-RIMS - PG Medical",
+//     "NEIGRIHMS - PG Medical",
+//     "Odisha - PG Medical",
+//     "Pondicherry - PG Medical",
+//     "Punjab - PG Medical",
+//     "Rajasthan - PG Medical",
+//     "Sikkim - PG Medical",
+//     "Tamil Nadu Government Quota - PG Medical",
+//     "Tamil Nadu Management Quota - PG Medical",
+//     "Telangana Government Quota - PG Medical",
+//     "Telangana Management Quota - PG Medical",
+//     "Tripura - PG Medical",
+//     "Uttarakhand - PG Medical",
+//     "Uttar Pradesh - PG Medical",
+//     "West Bengal - PG Medical",
+//   ];
+
+//   // Generate dummy data for demonstration
+//   const generateDummyData = (counselling: string): AllotmentData[] => {
+//     const dummyData: AllotmentData[] = [];
+//     const institutes = [
+//       "AIIMS New Delhi", "PGIMER Chandigarh", "JIPMER Puducherry", "CMC Vellore",
+//       "NIMHANS Bangalore", "SGPGIMS Lucknow", "KGMU Lucknow", "BHU Varanasi","ABVIMS Dr RML Hosp Delhi","SMS Jaipur",
+//       "VMMC Delhi","BJMC Ahmedabad","Madras Med Coll Chennai", "MAMC Delhi", "Seth GS Mumbai", "Govt Med Coll Kozhikode", 
+//       "NIMS Hyderabad", "GMC Chandigarh", "Sher-I-Kashmir Srinagar", 
+//       "Bangalore Med Coll Bangalore", "SGPGI Lucknow", "Lokmanya Tilak Sion Mumbai", 
+//       "IPGMER Kolkata", "Lady Hardinge Delhi", "Medical College Kolkata", 
+//       "UCMS Delhi", "Grant Med Coll Mumbai", "Stanley Med Coll Chennai", 
+//       "IMS(BHU) Varanasi", "GB Pant IPGMER Delhi",
+//     ];
+//     const courses = [
+//       "MD General Medicine",
+//         "MD Pediatrics",
+//         "MD Psychiatry",
+//         "MS General Surgery",
+//         "MD Anesthesiology",
+//         "MD Radiology",
+//         "MD Pathology",
+//         "MS Orthopedics",
+//         "MD Dermatology",
+//         "MD Forensic Medicine",
+//         "MD Microbiology",
+//         "MS ENT",
+//         "MD Physiology",
+//         "MD Biochemistry",
+//         "MD Pharmacology",
+//         "MD Community Medicine (SPM)",
+//         "MD Radiation Oncology",
+//         "MD Ophthalmology",
+//         "MD Pulmonary Medicine (TBRD)",
+//         "MD Emergency Medicine",
+//         "MD Nuclear Medicine",
+//         "MD Anatomy",
+//         "MD Palliative Medicine",
+//         "MD Lab Medicine",
+//         "DM Geriatrics",
+//         "MD Sports Medicine",
+//         "MD IHBT",
+//         "MS Obstetrics & Gynecology (OBG)",
+//         "MD Preventive & Social Medicine (PSM)",
+//         // Diplomas (can keep separate if needed)
+//         "DCH",
+//         "DPM (Psychiatry)",
+//         "DA",
+//         "DGO",
+//         "DO",
+//         "DMRD",
+//         "DTBCD",
+//         "DDVL",
+//         "DCP",
+//         "DCM",
+//         "DORTHO"
+//     ];
+//     const categories = ["GEN", "OBC", "SC", "ST", "EWS"];
+//     const quotas = ["All India", "State Quota", "Management"];
+
+//     for (let i = 0; i < 955200; i++) {
+//       dummyData.push({
+//         Round: Math.floor(Math.random() * 5) + 1,
+//         State_Rank: Math.floor(Math.random() * 50000) + 1000,
+//         State: counselling.includes("Delhi") ? "Delhi" : counselling.includes("Maharashtra") ? "Maharashtra" : "Various",
+//         Institute: institutes[Math.floor(Math.random() * institutes.length)],
+//         Course: courses[Math.floor(Math.random() * courses.length)],
+//         Quota: quotas[Math.floor(Math.random() * quotas.length)],
+//         Category: categories[Math.floor(Math.random() * categories.length)],
+//         Fee: `₹${Math.floor(Math.random() * 500000) + 50000}`,
+//         Stipend_Year_1: `₹${Math.floor(Math.random() * 100000) + 50000}`,
+//         Bond_Years: Math.floor(Math.random() * 5),
+//         Bond_Penalty: `₹${Math.floor(Math.random() * 1000000) + 500000}`,
+//         Beds: Math.floor(Math.random() * 1000) + 100,
+//       });
+//     }
+//     return dummyData;
+//   };
+
+//   useEffect(() => {
+//     const fetchData = async () => {
+//       try {
+//         // Simulate API call with dummy data
+//         const dummyData = generateDummyData(selectedCounselling);
+//         setAllotmentData(dummyData);
+//       } catch (error) {
+//         console.error("Error fetching allotment data:", error);
+//         setAllotmentData([]);
+//       } finally {
+//         setLoading(false);
+//       }
+//     };
+
+//     fetchData();
+//   }, [selectedCounselling]);
+
+//   // Filter data based on search and filters
+//   const filteredData = allotmentData.filter((item) => {
+//     const matchesSearch = searchTerm === "" || 
+//       item.Institute.toLowerCase().includes(searchTerm.toLowerCase()) ||
+//       item.Course.toLowerCase().includes(searchTerm.toLowerCase()) ||
+//       item.State.toLowerCase().includes(searchTerm.toLowerCase());
+    
+//     const matchesCategory = selectedCategory === "all" || item.Category === selectedCategory;
+//     const matchesQuota = selectedQuota === "all" || item.Quota === selectedQuota;
+    
+//     return matchesSearch && matchesCategory && matchesQuota;
+//   });
+
+//   // Sort data in ascending order
+//   const sortedData = [...filteredData].sort((a, b) => a.State_Rank - b.State_Rank);
+
+//   const itemsPerPage = 75; // Reduced for better mobile view
+//   const totalPages = Math.ceil(sortedData.length / itemsPerPage);
+//   const startIndex = (currentPage - 1) * itemsPerPage;
+//   const paginatedData = sortedData.slice(startIndex, startIndex + itemsPerPage);
+
+//   // Get unique values for filters
+//   const categories = ["all", ...Array.from(new Set(allotmentData.map(item => item.Category)))];
+//   const quotas = ["all", ...Array.from(new Set(allotmentData.map(item => item.Quota)))];
+
+//   if (loading) {
+//     return (
+//       <div className="flex-1 bg-gradient-to-br from-rose-50 via-blue-50 to-indigo-50 min-h-screen flex items-center justify-center">
+//         <div className="text-center">
+//           <div className="w-16 h-16 border-4 border-blue-500 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
+//           <p className="text-slate-600">Loading NEET PG Allotment Data...</p>
+//         </div>
+//       </div>
+//     );
+//   }
+
+//   return (
+//     <div className="flex min-h-screen bg-gray-50">
+//       {/* Mobile Overlay */}
+//       {showSidebar && (
+//         <div className="fixed inset-0 bg-black bg-opacity-50 z-40 md:hidden" onClick={() => setShowSidebar(false)}></div>
+//       )}
+
+//       {/* Sidebar */}
+//       {showSidebar && (
+//         <div className=" w-80 bg-white shadow-lg border-r border-gray-200 flex flex-col fixed inset-y-0 left-0 z-50 md:relative md:z-auto">
+//           <div className="p-4 border-b border-gray-200">
+//             <div className="flex items-center justify-between mb-4">
+//               <h2 className="text-lg font-semibold text-gray-800">NEET PG Allotments</h2>
+//               <button
+//                 onClick={() => setShowSidebar(false)}
+//                 className="p-1 hover:bg-gray-100 rounded"
+//               >
+//                 <X className="w-5 h-5 text-gray-500" />
+//               </button>
+//             </div>
+
+//             <div className="relative">
+//               <Search className="w-4 h-4 absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
+//               <input
+//                 type="text"
+//                 placeholder="Search Counselling"
+//                 className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
+//               />
+//             </div>
+//           </div>
+
+//           <div className=" flex-1 overflow-y-auto">
+//             {counsellingOptions.map((option, index) => (
+//               <button
+//                 key={index}
+//                 onClick={() => setSelectedCounselling(option)}
+//                 className={`w-full text-left px-4 py-3 border-b border-gray-100 hover:bg-gray-50 transition-colors flex items-center justify-between ${
+//                   selectedCounselling === option ? "bg-blue-50 border-l-4 border-l-blue-500" : ""
+//                 }`}
+//               >
+//                 <div className="flex items-center space-x-3">
+//                   <div className="w-6 h-6 bg-gray-200 rounded-full flex items-center justify-center">
+//                     <span className="text-xs">🏥</span>
+//                   </div>
+//                   <span className="text-sm text-gray-700">{option}</span>
+//                 </div>
+//                 <ChevronDown className="w-4 h-4 text-gray-400" />
+//               </button>
+//             ))}
+//           </div>
+//         </div>
+//       )}
+
+//       {/* Main Content */}
+//       <div className="flex-1 flex flex-col">
+//                 {/* Header */}
+//         <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-3">
+//           <div className="flex items-center justify-between">
+//             <div className="flex items-center space-x-3">
+//               <button
+//                 onClick={onBack}
+//                 className="p-1.5 hover:bg-white/20 rounded-lg transition-colors"
+//               >
+//                 <ArrowLeft className="w-4 h-4" />
+//               </button>
+//               <div>
+//                 <h1 className="text-lg font-semibold">NEET PG Allotments</h1>
+//                 <p className="text-xs text-blue-100">2024 Session Data</p>
+//               </div>
+//             </div>
+            
+//             <div className="hidden md:flex items-center space-x-2">
+//               <span className="text-xs text-blue-100">
+//                 {startIndex + 1} - {Math.min(startIndex + itemsPerPage, sortedData.length)} of {sortedData.length} Records
+//               </span>
+//             </div>
+
+//             <button
+//               onClick={() => setShowSidebar(!showSidebar)}
+//               className="md:hidden p-1.5 hover:bg-white/20 rounded-lg transition-colors"
+//             >
+//               <Filter className="w-4 h-4" />
+//             </button>
+//           </div>
+//         </div>
+
+//         {/* Search and Filters */}
+//         <div className="bg-white border-b border-gray-200 px-4 py-3">
+//           <div className="flex flex-col md:flex-row gap-3">
+//             {/* Search */}
+//             <div className="flex-1 relative">
+//               <Search className="w-4 h-4 absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
+//               <input
+//                 type="text"
+//                 placeholder="Search institutes, courses, or states..."
+//                 value={searchTerm}
+//                 onChange={(e) => setSearchTerm(e.target.value)}
+//                 className="w-full pl-10 pr-4 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
+//               />
+//             </div>
+
+//             {/* Category Filter */}
+//             <select
+//               value={selectedCategory}
+//               onChange={(e) => setSelectedCategory(e.target.value)}
+//               className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white"
+//             >
+//               {categories.map((category) => (
+//                 <option key={category} value={category}>
+//                   {category === "all" ? "All Categories" : category}
+//                 </option>
+//               ))}
+//             </select>
+
+//             {/* Quota Filter */}
+//             <select
+//               value={selectedQuota}
+//               onChange={(e) => setSelectedQuota(e.target.value)}
+//               className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white"
+//             >
+//               {quotas.map((quota) => (
+//                 <option key={quota} value={quota}>
+//                   {quota === "all" ? "All Quotas" : quota}
+//                 </option>
+//               ))}
+//             </select>
+//           </div>
+//         </div>
+
 import React, { useState, useEffect } from "react";
 import { ArrowLeft, Users, Search, X, ChevronDown, Heart, ChevronLeft as PrevIcon, ChevronRight as NextIcon, Filter } from "lucide-react";
 import { getStaticFileUrl } from "../services/api";
@@ -376,7 +715,7 @@ interface AllotmentData {
 /**
  * Enhanced Allotments Page Component
  * Features sidebar navigation and comprehensive allotment data
- * Focused on NEET PG Medical counselling
+ * Focused on NEET PG Medical counselling with advanced filters
  */
 const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
   const [allotmentData, setAllotmentData] = useState<AllotmentData[]>([]);
@@ -384,9 +723,18 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
   const [showSidebar, setShowSidebar] = useState(true);
   const [selectedCounselling, setSelectedCounselling] = useState("All India Counselling - PG Medical");
   const [currentPage, setCurrentPage] = useState(1);
+  
+  // Enhanced search and filter states
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [selectedQuota, setSelectedQuota] = useState("all");
+  const [selectedRound, setSelectedRound] = useState("all");
+  const [selectedState, setSelectedState] = useState("all");
+  const [selectedInstitute, setSelectedInstitute] = useState("all");
+  const [selectedCourse, setSelectedCourse] = useState("all");
+  const [rankRange, setRankRange] = useState({ min: "", max: "" });
+  const [selectedFeeRange, setSelectedFeeRange] = useState("all");
+  const [showAdvancedFilters, setShowAdvancedFilters] = useState(false);
 
   // NEET PG Counselling categories
   const counsellingOptions = [
@@ -443,61 +791,35 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
       "IMS(BHU) Varanasi", "GB Pant IPGMER Delhi",
     ];
     const courses = [
-      "MD General Medicine",
-        "MD Pediatrics",
-        "MD Psychiatry",
-        "MS General Surgery",
-        "MD Anesthesiology",
-        "MD Radiology",
-        "MD Pathology",
-        "MS Orthopedics",
-        "MD Dermatology",
-        "MD Forensic Medicine",
-        "MD Microbiology",
-        "MS ENT",
-        "MD Physiology",
-        "MD Biochemistry",
-        "MD Pharmacology",
-        "MD Community Medicine (SPM)",
-        "MD Radiation Oncology",
-        "MD Ophthalmology",
-        "MD Pulmonary Medicine (TBRD)",
-        "MD Emergency Medicine",
-        "MD Nuclear Medicine",
-        "MD Anatomy",
-        "MD Palliative Medicine",
-        "MD Lab Medicine",
-        "DM Geriatrics",
-        "MD Sports Medicine",
-        "MD IHBT",
-        "MS Obstetrics & Gynecology (OBG)",
-        "MD Preventive & Social Medicine (PSM)",
-        // Diplomas (can keep separate if needed)
-        "DCH",
-        "DPM (Psychiatry)",
-        "DA",
-        "DGO",
-        "DO",
-        "DMRD",
-        "DTBCD",
-        "DDVL",
-        "DCP",
-        "DCM",
-        "DORTHO"
+      "MD General Medicine", "MD Pediatrics", "MD Psychiatry", "MS General Surgery",
+      "MD Anesthesiology", "MD Radiology", "MD Pathology", "MS Orthopedics",
+      "MD Dermatology", "MD Forensic Medicine", "MD Microbiology", "MS ENT",
+      "MD Physiology", "MD Biochemistry", "MD Pharmacology", "MD Community Medicine (SPM)",
+      "MD Radiation Oncology", "MD Ophthalmology", "MD Pulmonary Medicine (TBRD)",
+      "MD Emergency Medicine", "MD Nuclear Medicine", "MD Anatomy",
+      "MD Palliative Medicine", "MD Lab Medicine", "DM Geriatrics",
+      "MD Sports Medicine", "MD IHBT", "MS Obstetrics & Gynecology (OBG)",
+      "MD Preventive & Social Medicine (PSM)", "DCH", "DPM (Psychiatry)",
+      "DA", "DGO", "DO", "DMRD", "DTBCD", "DDVL", "DCP", "DCM", "DORTHO"
     ];
     const categories = ["GEN", "OBC", "SC", "ST", "EWS"];
     const quotas = ["All India", "State Quota", "Management"];
+    const states = [
+      "Delhi", "Maharashtra", "Karnataka", "Tamil Nadu", "West Bengal",
+      "Uttar Pradesh", "Rajasthan", "Gujarat", "Kerala", "Punjab",
+      "Haryana", "Madhya Pradesh", "Bihar", "Odisha", "Jharkhand"
+    ];
 
-    for (let i = 0; i < 955200; i++) {
+    for (let i = 0; i < 2500; i++) {
       dummyData.push({
         Round: Math.floor(Math.random() * 5) + 1,
         State_Rank: Math.floor(Math.random() * 50000) + 1000,
-        State: counselling.includes("Delhi") ? "Delhi" : counselling.includes("Maharashtra") ? "Maharashtra" : "Various",
+        State: states[Math.floor(Math.random() * states.length)],
         Institute: institutes[Math.floor(Math.random() * institutes.length)],
         Course: courses[Math.floor(Math.random() * courses.length)],
         Quota: quotas[Math.floor(Math.random() * quotas.length)],
         Category: categories[Math.floor(Math.random() * categories.length)],
-        Fee: `₹${Math.floor(Math.random() * 500000) + 50000}`,
+        Fee: `₹${Math.floor(Math.random() * 1500000) + 50000}`,
         Stipend_Year_1: `₹${Math.floor(Math.random() * 100000) + 50000}`,
         Bond_Years: Math.floor(Math.random() * 5),
         Bond_Penalty: `₹${Math.floor(Math.random() * 1000000) + 500000}`,
@@ -524,7 +846,23 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
     fetchData();
   }, [selectedCounselling]);
 
-  // Filter data based on search and filters
+  // Get unique values for filters
+  const categories = ["all", ...Array.from(new Set(allotmentData.map(item => item.Category)))];
+  const quotas = ["all", ...Array.from(new Set(allotmentData.map(item => item.Quota)))];
+  const rounds = ["all", ...Array.from(new Set(allotmentData.map(item => item.Round.toString())))];
+  const states = ["all", ...Array.from(new Set(allotmentData.map(item => item.State)))];
+  const institutes = ["all", ...Array.from(new Set(allotmentData.map(item => item.Institute)))];
+  const courses = ["all", ...Array.from(new Set(allotmentData.map(item => item.Course)))];
+  const feeRanges = [
+    "all",
+    "Under ₹1L",
+    "₹1L - ₹2L", 
+    "₹2L - ₹5L",
+    "₹5L - ₹10L",
+    "Above ₹10L"
+  ];
+
+  // Enhanced filter logic
   const filteredData = allotmentData.filter((item) => {
     const matchesSearch = searchTerm === "" || 
       item.Institute.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -533,21 +871,49 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
     
     const matchesCategory = selectedCategory === "all" || item.Category === selectedCategory;
     const matchesQuota = selectedQuota === "all" || item.Quota === selectedQuota;
+    const matchesRound = selectedRound === "all" || item.Round.toString() === selectedRound;
+    const matchesState = selectedState === "all" || item.State === selectedState;
+    const matchesInstitute = selectedInstitute === "all" || item.Institute === selectedInstitute;
+    const matchesCourse = selectedCourse === "all" || item.Course === selectedCourse;
     
-    return matchesSearch && matchesCategory && matchesQuota;
+    // Rank range filter
+    const matchesRankRange = (!rankRange.min || item.State_Rank >= parseInt(rankRange.min)) &&
+                            (!rankRange.max || item.State_Rank <= parseInt(rankRange.max));
+    
+    // Fee range filter
+    const feeValue = parseInt(item.Fee.replace(/[₹,]/g, ''));
+    const matchesFeeRange = selectedFeeRange === "all" || 
+      (selectedFeeRange === "Under ₹1L" && feeValue < 100000) ||
+      (selectedFeeRange === "₹1L - ₹2L" && feeValue >= 100000 && feeValue <= 200000) ||
+      (selectedFeeRange === "₹2L - ₹5L" && feeValue >= 200000 && feeValue <= 500000) ||
+      (selectedFeeRange === "₹5L - ₹10L" && feeValue >= 500000 && feeValue <= 1000000) ||
+      (selectedFeeRange === "Above ₹10L" && feeValue > 1000000);
+    
+    return matchesSearch && matchesCategory && matchesQuota && matchesRound && 
+           matchesState && matchesInstitute && matchesCourse && matchesRankRange && matchesFeeRange;
   });
 
   // Sort data in ascending order
   const sortedData = [...filteredData].sort((a, b) => a.State_Rank - b.State_Rank);
 
-  const itemsPerPage = 75; // Reduced for better mobile view
+  const itemsPerPage = 75;
   const totalPages = Math.ceil(sortedData.length / itemsPerPage);
   const startIndex = (currentPage - 1) * itemsPerPage;
   const paginatedData = sortedData.slice(startIndex, startIndex + itemsPerPage);
 
-  // Get unique values for filters
-  const categories = ["all", ...Array.from(new Set(allotmentData.map(item => item.Category)))];
-  const quotas = ["all", ...Array.from(new Set(allotmentData.map(item => item.Quota)))];
+  // Clear all filters function
+  const clearAllFilters = () => {
+    setSearchTerm("");
+    setSelectedCategory("all");
+    setSelectedQuota("all");
+    setSelectedRound("all");
+    setSelectedState("all");
+    setSelectedInstitute("all");
+    setSelectedCourse("all");
+    setRankRange({min: "", max: ""});
+    setSelectedFeeRange("all");
+    setCurrentPage(1);
+  };
 
   if (loading) {
     return (
@@ -569,7 +935,7 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
 
       {/* Sidebar */}
       {showSidebar && (
-        <div className=" w-80 bg-white shadow-lg border-r border-gray-200 flex flex-col fixed inset-y-0 left-0 z-50 md:relative md:z-auto">
+        <div className="w-80 bg-white shadow-lg border-r border-gray-200 flex flex-col fixed inset-y-0 left-0 z-50 md:relative md:z-auto">
           <div className="p-4 border-b border-gray-200">
             <div className="flex items-center justify-between mb-4">
               <h2 className="text-lg font-semibold text-gray-800">NEET PG Allotments</h2>
@@ -591,7 +957,7 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
             </div>
           </div>
 
-          <div className=" flex-1 overflow-y-auto">
+          <div className="flex-1 overflow-y-auto">
             {counsellingOptions.map((option, index) => (
               <button
                 key={index}
@@ -615,7 +981,7 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
 
       {/* Main Content */}
       <div className="flex-1 flex flex-col">
-                {/* Header */}
+        {/* Header */}
         <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-3">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
@@ -646,49 +1012,175 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
           </div>
         </div>
 
-        {/* Search and Filters */}
-        <div className="bg-white border-b border-gray-200 px-4 py-3">
-          <div className="flex flex-col md:flex-row gap-3">
-            {/* Search */}
-            <div className="flex-1 relative">
-              <Search className="w-4 h-4 absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
-              <input
-                type="text"
-                placeholder="Search institutes, courses, or states..."
-                value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full pl-10 pr-4 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
-              />
+        {/* Enhanced Search and Filters */}
+        <div className="bg-white border-b border-gray-200 px-4 py-4">
+          <div className="space-y-4">
+            {/* Primary Search Row */}
+            <div className="flex flex-col md:flex-row gap-3">
+              {/* Search */}
+              <div className="flex-1 relative">
+                <Search className="w-4 h-4 absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
+                <input
+                  type="text"
+                  placeholder="Search institutes, courses, or states..."
+                  value={searchTerm}
+                  onChange={(e) => setSearchTerm(e.target.value)}
+                  className="w-full pl-10 pr-4 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
+                />
+              </div>
+
+              {/* Quick Filters */}
+              <div className="flex gap-2 flex-wrap">
+                <select
+                  value={selectedCategory}
+                  onChange={(e) => setSelectedCategory(e.target.value)}
+                  className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white min-w-[120px]"
+                >
+                  {categories.map((category) => (
+                    <option key={category} value={category}>
+                      {category === "all" ? "All Categories" : category}
+                    </option>
+                  ))}
+                </select>
+
+                <select
+                  value={selectedQuota}
+                  onChange={(e) => setSelectedQuota(e.target.value)}
+                  className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white min-w-[120px]"
+                >
+                  {quotas.map((quota) => (
+                    <option key={quota} value={quota}>
+                      {quota === "all" ? "All Quotas" : quota}
+                    </option>
+                  ))}
+                </select>
+
+                {/* Advanced Filter Toggle */}
+                <button
+                  onClick={() => setShowAdvancedFilters(!showAdvancedFilters)}
+                  className="flex items-center gap-2 px-3 py-2 text-sm text-blue-600 hover:bg-blue-50 rounded-lg transition-colors border border-blue-200"
+                >
+                  <Filter className="w-4 h-4" />
+                  {showAdvancedFilters ? "Hide" : "Show"} Filters
+                  <ChevronDown className={`w-4 h-4 transition-transform ${showAdvancedFilters ? "rotate-180" : ""}`} />
+                </button>
+              </div>
             </div>
 
-            {/* Category Filter */}
-            <select
-              value={selectedCategory}
-              onChange={(e) => setSelectedCategory(e.target.value)}
-              className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white"
-            >
-              {categories.map((category) => (
-                <option key={category} value={category}>
-                  {category === "all" ? "All Categories" : category}
-                </option>
-              ))}
-            </select>
+            {/* Advanced Filters */}
+            {showAdvancedFilters && (
+              <div className="space-y-3 border-t pt-3">
+                {/* Filter Row 1 */}
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                  {/* Round Filter */}
+                  <select
+                    value={selectedRound}
+                    onChange={(e) => setSelectedRound(e.target.value)}
+                    className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white"
+                  >
+                    <option value="all">All Rounds</option>
+                    {rounds.filter(r => r !== "all").map((round) => (
+                      <option key={round} value={round}>
+                        Round {round}
+                      </option>
+                    ))}
+                  </select>
 
-            {/* Quota Filter */}
-            <select
-              value={selectedQuota}
-              onChange={(e) => setSelectedQuota(e.target.value)}
-              className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white"
-            >
-              {quotas.map((quota) => (
-                <option key={quota} value={quota}>
-                  {quota === "all" ? "All Quotas" : quota}
-                </option>
-              ))}
-            </select>
+                  {/* State Filter */}
+                  <select
+                    value={selectedState}
+                    onChange={(e) => setSelectedState(e.target.value)}
+                    className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white"
+                  >
+                    {states.map((state) => (
+                      <option key={state} value={state}>
+                        {state === "all" ? "All States" : state}
+                      </option>
+                    ))}
+                  </select>
+
+                  {/* Fee Range */}
+                  <select
+                    value={selectedFeeRange}
+                    onChange={(e) => setSelectedFeeRange(e.target.value)}
+                    className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white"
+                  >
+                    {feeRanges.map((range) => (
+                      <option key={range} value={range}>
+                        {range === "all" ? "All Fees" : range}
+                      </option>
+                    ))}
+                  </select>
+
+                  {/* Results Count */}
+                  <div className="flex items-center justify-center text-sm text-gray-600 bg-gray-50 rounded-lg px-3 py-2">
+                    <span className="font-medium text-blue-600">{sortedData.length}</span>
+                    <span className="ml-1">results</span>
+                  </div>
+                </div>
+
+                {/* Filter Row 2 */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                  {/* Institute Filter */}
+                  <select
+                    value={selectedInstitute}
+                    onChange={(e) => setSelectedInstitute(e.target.value)}
+                    className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white"
+                  >
+                    {institutes.map((institute) => (
+                      <option key={institute} value={institute}>
+                        {institute === "all" ? "All Institutes" : institute}
+                      </option>
+                    ))}
+                  </select>
+
+                  {/* Course Filter */}
+                  <select
+                    value={selectedCourse}
+                    onChange={(e) => setSelectedCourse(e.target.value)}
+                    className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white"
+                  >
+                    {courses.map((course) => (
+                      <option key={course} value={course}>
+                        {course === "all" ? "All Courses" : course}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+
+                {/* Rank Range and Actions */}
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+                  <div className="flex gap-2">
+                    <input
+                      type="number"
+                      placeholder="Min Rank"
+                      value={rankRange.min}
+                      onChange={(e) => setRankRange({...rankRange, min: e.target.value})}
+                      className="w-full px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
+                    />
+                    <input
+                      type="number"
+                      placeholder="Max Rank"
+                      value={rankRange.max}
+                      onChange={(e) => setRankRange({...rankRange, max: e.target.value})}
+                      className="w-full px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
+                    />
+                  </div>
+
+                  {/* Clear Filters Button */}
+                  <button
+                    onClick={clearAllFilters}
+                    className="px-4 py-2 border border-gray-300 text-gray-600 rounded-lg hover:bg-gray-50 transition-colors text-sm"
+                  >
+                    Clear All Filters
+                  </button>
+
+                  <div></div> {/* Empty div for grid alignment */}
+                </div>
+              </div>
+            )}
           </div>
         </div>
-
         {/* Table */}
         <div className="flex-1 overflow-auto">
           <table className="w-full">
