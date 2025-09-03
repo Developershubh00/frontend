@@ -90,14 +90,14 @@ const Sidebar: React.FC<SidebarProps> = ({
       color: "text-emerald-600",
       onClick: () => navigate("/rankings"),
     },
-    // {
-    //   id: "medical-colleges",
-    //   icon: GraduationCap,
-    //   label: "Medical Colleges",
-    //   hasSubmenu: false,
-    //   color: "text-indigo-600",
-    //   onClick: () => navigate("/medical-colleges"),
-    // },
+    {
+      id: "PG Predictor",
+      icon: GraduationCap,
+      label: "PG Predictor",
+      hasSubmenu: false,
+      color: "text-indigo-600",
+      onClick: () => navigate("/PGPredictorPage"),
+    },
     {
       id: "explore",
       icon: Compass,
