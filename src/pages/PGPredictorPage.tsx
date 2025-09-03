@@ -491,7 +491,7 @@ const PGPredictorPage: React.FC = () => {
                     onChange={() => handleChange("collegeType", type.toLowerCase())}
                     className="text-black accent-green-500"
                   />
-                  <span>{type}</span>
+                  <span className="text-sm text-black">{type}</span>
                 </label>
               ))}
             </div>
