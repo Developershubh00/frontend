@@ -136,7 +136,7 @@ const Header: React.FC<HeaderProps> = ({
                   Believers Consultancy
                 </h1>
                 <p className="text-xs text-[clamp(14px,2vw,24px)] truncate text-slate-500">
-                  Medical Career Guidance
+                  Powered By Believers Destination
                 </p>
               </div>
             </button>
