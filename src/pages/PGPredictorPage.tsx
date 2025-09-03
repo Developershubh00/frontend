@@ -550,7 +550,7 @@ const PGPredictorPage: React.FC = () => {
         return (
           <div>
             <h3 className="text-2xl font-bold text-black text-slate-800 mb-4">Review Your Preferences</h3>
-            <div className="bg-slate-50 p-4 rounded-xl space-y-3 text-sm">
+            <div className="bg-slate-50 text-black p-4 rounded-xl space-y-3 text-sm">
               <p><strong>Rank:</strong> {formData.rank || "Not set"}</p>
               <p><strong>States:</strong> {formData.preferredStates.length ? formData.preferredStates.join(", ") : "All"}</p>
               <p><strong>College Type:</strong> {formData.collegeType || "Not selected"}</p>
