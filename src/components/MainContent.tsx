@@ -1147,7 +1147,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
       <QuotaModal isOpen={showQuotaModal} onClose={() => setShowQuotaModal(false)} />
       
       {/* PG Results Modal */}
-      <PGResultsModal isOpen={showPGResultsModal} onClose={() => setShowPGResultsModal(false)} />
+      {/* <PGResultsModal isOpen={showPGResultsModal} onClose={() => setShowPGResultsModal(false)} /> */}
     </div>
   );
 };
