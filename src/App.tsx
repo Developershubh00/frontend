@@ -41,6 +41,7 @@ import AnnouncementPage from "./pages/AnnouncementPage";
 import VerificationPage from "./pages/VerificationPage";
 import BlogPageWithAPI from "./pages/Blogpagewithapi";
 import BlogDetail from "./pages/Blogdetail";
+import MultiCriteriaPredictor from "./MultiCriteriaPredictor";
 
 /**
  * Main App Component with React Router
@@ -210,6 +211,7 @@ function App() {
           <Route path="/Verify" element={<VerificationPage />} />
           <Route path="/blog" element={<BlogPageWithAPI />} />
           <Route path="/blogdetail" element={<BlogDetail />} />
+          <Route path="/multicriteria" element={<MultiCriteriaPredictor />} />
 
           </Routes>
         </div>
