@@ -19,7 +19,7 @@ import {
 import NeetComparison from "./NeetComparison";
 import QuotaModal from "./QuotaModal";
 import StateTabs from "./StateTabs";
-import PGResultsModal from "./PGResultsModal";
+// import PGResultsModal from "./PGResultsModal";
 import DataTable from "./DataTable";
 import { dataService } from "../services/dataService";
 
@@ -44,7 +44,7 @@ interface MainContentProps {
  */
 const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) => {
   const [showQuotaModal, setShowQuotaModal] = useState(false);
-  const [showPGResultsModal, setShowPGResultsModal] = useState(true); // Show PG results modal by default
+  // const [showPGResultsModal, setShowPGResultsModal] = useState(true); // Show PG results modal by default
   const [currentStateTab, setCurrentStateTab] = useState("all-india-pg"); // Default to PG
   const [tableData, setTableData] = useState<any[]>([]);
   const [tableType, setTableType] = useState<string>("allotments");
