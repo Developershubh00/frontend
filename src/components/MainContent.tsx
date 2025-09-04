@@ -463,6 +463,104 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
             </div>
           ))}
         </div> */}
+        <div className="text-center mb-6 lg:mb-8">
+    <h2 className="text-2xl lg:text-3xl font-bold text-slate-800 mb-2">
+      🎉 NEET PG 2025 Results Announced!
+    </h2>
+    <p className="text-slate-600 text-sm lg:text-base">
+      NEET PG 2025 results have been declared! Check your scorecard and start your counselling registration. 
+      The cutoff scores for different categories and rank-wise admission prospects are updated below.
+    </p>
+  </div>
+
+  {/* Cutoff Scores */}
+  <div className="text-center mb-6 lg:mb-8">
+    <h3 className="text-xl lg:text-2xl font-bold text-slate-800 mb-2">
+      📊 NEET PG 2025 Cutoff Scores
+    </h3>
+    <div className="overflow-x-auto">
+      <table className="w-full text-left border-collapse min-w-full">
+        <thead>
+          <tr className="bg-slate-50">
+            <th className="border-b border-slate-200 py-2 px-3 text-slate-600 text-sm lg:text-base">Category</th>
+            <th className="border-b border-slate-200 py-2 px-3 text-slate-600 text-sm lg:text-base">Qualifying Percentile</th>
+            <th className="border-b border-slate-200 py-2 px-3 text-slate-600 text-sm lg:text-base">Score Range (Out of 800)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td className="border-b border-slate-200 py-2 px-3 text-slate-800">Unreserved (UR) / EWS</td>
+            <td className="border-b border-slate-200 py-2 px-3 text-slate-800">50th percentile</td>
+            <td className="border-b border-slate-200 py-2 px-3 text-slate-800">275–320 marks</td>
+          </tr>
+          <tr>
+            <td className="border-b border-slate-200 py-2 px-3 text-slate-800">SC / ST / OBC</td>
+            <td className="border-b border-slate-200 py-2 px-3 text-slate-800">40th percentile</td>
+            <td className="border-b border-slate-200 py-2 px-3 text-slate-800">245–275 marks</td>
+          </tr>
+          <tr>
+            <td className="border-b border-slate-200 py-2 px-3 text-slate-800">UR-PwD</td>
+            <td className="border-b border-slate-200 py-2 px-3 text-slate-800">45th percentile</td>
+            <td className="border-b border-slate-200 py-2 px-3 text-slate-800">260–290 marks</td>
+          </tr>
+          <tr>
+            <td className="border-b border-slate-200 py-2 px-3 text-slate-800">SC/ST/OBC-PwD</td>
+            <td className="border-b border-slate-200 py-2 px-3 text-slate-800">40th percentile</td>
+            <td className="border-b border-slate-200 py-2 px-3 text-slate-800">245–275 marks</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  {/* Marks vs Rank */}
+  <div className="text-center">
+    <h3 className="text-xl lg:text-2xl font-bold text-slate-800 mb-2">
+      🏆 NEET PG 2025 Marks vs Rank Analysis
+    </h3>
+    <p className="text-slate-600 text-sm lg:text-base mb-4">
+      Here’s how your marks may correspond to your All India Rank and admission prospects:
+    </p>
+    <div className="overflow-x-auto max-h-[450px] rounded-xl border border-slate-200 shadow-sm">
+      <table className="w-full text-left border-collapse min-w-full">
+        <thead className="bg-slate-50 sticky top-0 z-10">
+          <tr>
+            <th className="border-b border-slate-200 py-2 px-3 text-slate-600 text-sm lg:text-base">Score Range</th>
+            <th className="border-b border-slate-200 py-2 px-3 text-slate-600 text-sm lg:text-base">All India Rank</th>
+            <th className="border-b border-slate-200 py-2 px-3 text-slate-600 text-sm lg:text-base">Admission Prospects</th>
+          </tr>
+        </thead>
+        <tbody>
+          {[
+            { score: "707", rank: "1", prospect: "Top AIIMS/PGI" },
+            { score: "705", rank: "2–3", prospect: "Top AIIMS/PGI" },
+            { score: "701", rank: "4", prospect: "Top Institutions" },
+            { score: "695", rank: "5–6", prospect: "Premium Colleges" },
+            { score: "690–678", rank: "12–28", prospect: "Excellent Options" },
+            { score: "677–663", rank: "29–113", prospect: "Very Good Colleges" },
+            { score: "638", rank: "551", prospect: "Good Government" },
+            { score: "627", rank: "974", prospect: "Good Options" },
+            { score: "620", rank: "1356", prospect: "Decent Choices" },
+            { score: "600", rank: "3049", prospect: "Moderate Options" },
+            { score: "591", rank: "4100", prospect: "Limited Government" },
+            { score: "576", rank: "6278", prospect: "Private Options" },
+            { score: "563", rank: "8628", prospect: "Competitive Private" },
+            { score: "555–499", rank: "10,001–25,000", prospect: "Challenging" },
+            { score: "499–427", rank: "25,001–50,000", prospect: "Very Challenging" },
+            { score: "427–363", rank: "50,001–75,000", prospect: "Extremely Difficult" },
+          ].map((row, idx) => (
+            <tr key={idx} className="hover:bg-slate-50 transition">
+              <td className="border-b border-slate-200 py-2 px-3 text-slate-800">{row.score}</td>
+              <td className="border-b border-slate-200 py-2 px-3 text-slate-800">{row.rank}</td>
+              <td className="border-b border-slate-200 py-2 px-3 text-slate-800">{row.prospect}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+        
         
         {/* NEET PG 2025 Counselling Timeline */}
         <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
@@ -574,7 +672,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
         </div> */}
         <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
   {/* Heading */}
-  <div className="text-center mb-6 lg:mb-8">
+  {/* <div className="text-center mb-6 lg:mb-8">
     <h2 className="text-2xl lg:text-3xl font-bold text-slate-800 mb-2">
       🎉 NEET PG 2025 Results Announced!
     </h2>
@@ -582,10 +680,10 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
       NEET PG 2025 results have been declared! Check your scorecard and start your counselling registration. 
       The cutoff scores for different categories and rank-wise admission prospects are updated below.
     </p>
-  </div>
+  </div> */}
 
   {/* Cutoff Scores */}
-  <div className="text-center mb-6 lg:mb-8">
+  {/* <div className="text-center mb-6 lg:mb-8">
     <h3 className="text-xl lg:text-2xl font-bold text-slate-800 mb-2">
       📊 NEET PG 2025 Cutoff Scores
     </h3>
@@ -622,10 +720,10 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
         </tbody>
       </table>
     </div>
-  </div>
+  </div> */}
 
   {/* Marks vs Rank */}
-  <div className="text-center">
+  {/* <div className="text-center">
     <h3 className="text-xl lg:text-2xl font-bold text-slate-800 mb-2">
       🏆 NEET PG 2025 Marks vs Rank Analysis
     </h3>
@@ -670,7 +768,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
       </table>
     </div>
   </div>
-</div>
+</div> */}
         
 
         {/* NEET PG 2025 Important Information */}

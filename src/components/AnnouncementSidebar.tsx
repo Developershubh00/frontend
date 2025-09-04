@@ -395,7 +395,7 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
               <div
                 key={announcement.id}
                 onClick={() => handleAnnouncementClick(announcement)}
-                className="group cursor-pointer border border-gray-100 rounded-xl p-4 hover:border-blue-200 hover:bg-blue-50/50 transition-all duration-200"
+                className="group cursor-pointer border border-gray-100 rounded-xl p-4 text-sm hover:border-blue-200 hover:bg-blue-50/50 transition-all duration-200"
               >
                 <div className="flex items-start space-x-2">
                   <div className={`w-1.5 h-1.5 rounded-full mt-1.5 flex-shrink-0 ${getPriorityDot(announcement.priority)}`}></div>
