@@ -147,47 +147,47 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
   ];
 
   // Quick action cards for main dashboard features - PG Centric
-  const quickActionCards = [
-    {
-      title: "NEET PG Results 2025",
-      subtitle: "Results Announced - Check Now!",
-      icon: Target,
-      bgGradient: "from-green-400 to-emerald-600",
-      textColor: "text-white",
-      action: "Check Results",
-      onClick: () => {
-        window.open(
-          "https://natboard.edu.in/natboard-data/pdf/NEETPG2025RESULT/NEET-PG%202025%20Notice%20Board%20Result%20-%2019.08.2025%20-%20DS.pdf",
-          "_blank"
-        );
-      },
-    },
-    {
-      title: "PG Counselling Registration",
-      subtitle: "Start your counselling journey",
-      icon: GraduationCap,
-      bgGradient: "from-blue-400 to-indigo-600",
-      textColor: "text-white",
-      action: "Start Now",
-      onClick: () => {
-        window.open(
-          "https://mcc.nic.in/pg-medical-counselling/",
-          "_blank"
-        );
-      },
-    },
-    {
-      title: "Specialty Predictor",
-      subtitle: "Predict your specialty options",
-      icon: HelpCircle,
-      bgGradient: "from-purple-400 to-violet-600",
-      textColor: "text-white",
-      action: "Predict Now",
-      onClick: () => {
-        window.location.href = "/pg-predictor";
-      },
-    },
-  ];
+  // const quickActionCards = [
+  //   {
+  //     title: "NEET PG Results 2025",
+  //     subtitle: "Results Announced - Check Now!",
+  //     icon: Target,
+  //     bgGradient: "from-green-400 to-emerald-600",
+  //     textColor: "text-white",
+  //     action: "Check Results",
+  //     onClick: () => {
+  //       window.open(
+  //         "https://natboard.edu.in/natboard-data/pdf/NEETPG2025RESULT/NEET-PG%202025%20Notice%20Board%20Result%20-%2019.08.2025%20-%20DS.pdf",
+  //         "_blank"
+  //       );
+  //     },
+  //   },
+  //   {
+  //     title: "PG Counselling Registration",
+  //     subtitle: "Start your counselling journey",
+  //     icon: GraduationCap,
+  //     bgGradient: "from-blue-400 to-indigo-600",
+  //     textColor: "text-white",
+  //     action: "Start Now",
+  //     onClick: () => {
+  //       window.open(
+  //         "https://mcc.nic.in/pg-medical-counselling/",
+  //         "_blank"
+  //       );
+  //     },
+  //   },
+  //   {
+  //     title: "Specialty Predictor",
+  //     subtitle: "Predict your specialty options",
+  //     icon: HelpCircle,
+  //     bgGradient: "from-purple-400 to-violet-600",
+  //     textColor: "text-white",
+  //     action: "Predict Now",
+  //     onClick: () => {
+  //       window.location.href = "/pg-predictor";
+  //     },
+  //   },
+  // ];
 
   // NEET statistics data for comparison display
   const neetStats = dashboardData?.neetStats || [
@@ -436,7 +436,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
         </div>
 
         {/* Mobile-First Quick Action Cards */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-6 mb-8 lg:mb-12">
+        {/* <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-6 mb-8 lg:mb-12">
           {quickActionCards.map((card, index) => (
             <div
               key={index}
@@ -462,7 +462,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
               </button>
             </div>
           ))}
-        </div>
+        </div> */}
         
         {/* NEET PG 2025 Counselling Timeline */}
         <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
