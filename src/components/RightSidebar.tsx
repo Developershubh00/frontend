@@ -159,7 +159,7 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
               <span className="text-sm font-medium text-slate-800">Start Counselling</span>
             </button>
             <button 
-              onClick={() => window.location.href = '/pg-predictor'}
+              onClick={() => window.location.href = '/predictor/pg'}
               className="w-full flex items-center space-x-3 p-3 bg-purple-50 hover:bg-purple-100 rounded-lg transition-colors"
             >
               <Target className="w-4 h-4 text-purple-600" />

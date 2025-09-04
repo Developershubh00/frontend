@@ -142,8 +142,8 @@ import MainContent from "../components/MainContent";
 import RightSidebar from "../components/RightSidebar";
 import MobileBottomNav from "../components/MobileBottomNav";
 import AIAssistant from "../components/AIAssistant";
-import WhatsAppSupport from "../components/WhatsAppSupport";
-import StateTabs from "../components/StateTabs";
+// import WhatsAppSupport from "../components/WhatsAppSupport";
+// import StateTabs from "../components/StateTabs";
 import { neetAPI, counsellingAPI } from "../services/api";
 
 /**
@@ -290,7 +290,7 @@ const DashboardPage: React.FC = () => {
       <AIAssistant />
 
       {/* WhatsApp Support Widget */}
-      <WhatsAppSupport />
+      {/* <WhatsAppSupport /> */}
     </div>
   );
 };
