@@ -1989,7 +1989,7 @@ function Homepage() {
       </section>
 
       {/* Reviews Section */}
-      <section ref={reviewsRef} className="py-24 bg-white">
+      <section ref={reviewsRef} className="py-14 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div
             className={`text-center mb-16 transition-all duration-1000 ${
@@ -2120,7 +2120,7 @@ function Homepage() {
       </section>
 
      {/* FAQ Section */}
-      <section className="py-24 bg-white">
+      <section className="py-14 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-20">
             <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
@@ -2168,7 +2168,7 @@ function Homepage() {
        </section> 
 
       {/* Take Control Today */}
-      <section className="py-16 bg-gradient-to-br from-blue-500 to-indigo-100 relative overflow-hidden">
+      <section className="py-12 bg-gradient-to-br from-blue-500 to-indigo-100 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-50/30 to-indigo-50/30"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative">
           <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
