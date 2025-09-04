@@ -62,6 +62,7 @@ const LoginPage: React.FC = () => {
             <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2">
               Believers Consultancy
             </h1>
+            <p className="text-slate-600">Platform for Career Counselling</p>
             <p className="text-slate-600">Powered by Believers Destination</p>
           </div>
 
@@ -128,10 +129,10 @@ const LoginPage: React.FC = () => {
               {isLoading ? (
                 <div className="flex items-center justify-center space-x-2">
                   <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin"></div>
-                  <span>Signing In...</span>
+                  <span>Loging In...</span>
                 </div>
               ) : (
-                "Sign In"
+                "Log In"
               )}
             </button>
           </form>
@@ -150,7 +151,7 @@ const LoginPage: React.FC = () => {
           </div>
 
           {/* Features */}
-          <div className="mt-8 grid grid-cols-3 gap-4">
+          {/* <div className="mt-8 grid grid-cols-3 gap-4">
             <div className="text-center">
               <div className="w-12 h-12 bg-gradient-to-r from-green-400 to-emerald-500 rounded-xl flex items-center justify-center mx-auto mb-2">
                 <GraduationCap className="w-6 h-6 text-white" />
@@ -169,7 +170,7 @@ const LoginPage: React.FC = () => {
               </div>
               <p className="text-xs text-slate-600">Study Material</p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
