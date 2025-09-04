@@ -1865,7 +1865,7 @@ function Homepage() {
       {/* Say Hello Section */}
       <section
         ref={featuresRef}
-        className="py-20 bg-white relative overflow-hidden"
+        className="py-10 bg-white relative overflow-hidden"
       >
         <div className="absolute inset-0 bg-gradient-to-r from-blue-50/30 to-indigo-50/30"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
@@ -1915,7 +1915,7 @@ function Homepage() {
       </section>
 
       {/* Contact Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-10 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
