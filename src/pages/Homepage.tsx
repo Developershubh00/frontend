@@ -1648,7 +1648,7 @@ function Homepage() {
       <section
         ref={heroRef}
         // className="pt-24 pb-5 bg-gradient-to-b from-gray-50 to-white relative overflow-hidden"
-        className="mr-2 bg-gradient-to-b from-gray-50 to-white relative overflow-hidden"
+        className="pt-24 mr-2 bg-gradient-to-b from-gray-50 to-white relative overflow-hidden"
       >
         <div className="absolute inset-0 bg-gradient-to-r from-blue-50/30 to-cyan-50/30"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
