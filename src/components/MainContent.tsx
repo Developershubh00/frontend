@@ -597,7 +597,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
     <p className="text-slate-600 text-sm lg:text-base mb-4">
       Here’s how your marks may correspond to your All India Rank and admission prospects:
     </p>
-    <div className="overflow-x-auto rounded-xl border border-slate-200 shadow-sm">
+    <div className="overflow-x-auto max-h-[450px] rounded-xl border border-slate-200 shadow-sm">
       <table className="w-full text-left border-collapse min-w-full">
         <thead className="bg-slate-50 sticky top-0 z-10">
           <tr>
