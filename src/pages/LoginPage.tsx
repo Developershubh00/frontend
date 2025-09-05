@@ -320,7 +320,7 @@ const LoginPage: React.FC = () => {
             <button
               type="submit"
               disabled={isLoading}
-              className="w-full bg-gradient-to-r from-blue-300 via-Blue-600 to-blue-600 text-white py-4 rounded-2xl font-semibold hover:from-blue-600 hover:via-purple-700 hover:to-blue-700 transition-all duration-300 transform hover:scale-[1.02] shadow-xl hover:shadow-2xl disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
+              className="w-full bg-gradient-to-r from-blue-300 via-Blue-600 to-blue-600 text-white py-4 rounded-2xl font-semibold hover:from-blue-600 hover:via-blue-700 hover:to-blue-900 transition-all duration-300 transform hover:scale-[1.02] shadow-xl hover:shadow-2xl disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
             >
               {isLoading ? (
                 <div className="flex items-center justify-center space-x-2">
