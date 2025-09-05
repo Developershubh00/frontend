@@ -62,7 +62,7 @@ const LoginPage: React.FC = () => {
             <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2">
               Believers Consultancy
             </h1>
-            <p className="text-sm text-slate-600">Powered by Believers Destination</p>
+            <p className="text-sm text-slate-600 pt-[-10]">Powered by Believers Destination</p>
             <p className="text-slate-600">Platform for Career Counselling</p>
             
           </div>
