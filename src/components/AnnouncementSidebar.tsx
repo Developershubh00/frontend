@@ -253,35 +253,35 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       category: 'NEET PG',
       link: ''
     },
-    {
-      id: 2,
-      title: "Medical Entrance Exam Updates",
-      date: "2025-09-03T08:30:00Z",
-      priority: 'medium',
-      category: 'Updates',
-      link: ''
-    },
-    {
-      id: 3,
-      title: "Important Guidelines for Students",
-      date: "2025-09-02T14:20:00Z",
-      priority: 'low',
-      category: 'Guidelines'
-    },
-    {
-      id: 4,
-      title: "New Course Registration Open",
-      date: "2025-09-01T10:15:00Z",
-      priority: 'medium',
-      category: 'Registration'
-    },
-    {
-      id: 5,
-      title: "Scholarship Application Deadline",
-      date: "2025-08-31T16:45:00Z",
-      priority: 'high',
-      category: 'Scholarship'
-    }
+    // {
+    //   id: 2,
+    //   title: "Medical Entrance Exam Updates",
+    //   date: "2025-09-03T08:30:00Z",
+    //   priority: 'medium',
+    //   category: 'Updates',
+    //   link: ''
+    // },
+    // {
+    //   id: 3,
+    //   title: "Important Guidelines for Students",
+    //   date: "2025-09-02T14:20:00Z",
+    //   priority: 'low',
+    //   category: 'Guidelines'
+    // },
+    // {
+    //   id: 4,
+    //   title: "New Course Registration Open",
+    //   date: "2025-09-01T10:15:00Z",
+    //   priority: 'medium',
+    //   category: 'Registration'
+    // },
+    // {
+    //   id: 5,
+    //   title: "Scholarship Application Deadline",
+    //   date: "2025-08-31T16:45:00Z",
+    //   priority: 'high',
+    //   category: 'Scholarship'
+    // }
   ];
 
   const fetchRecentAnnouncements = async () => {
