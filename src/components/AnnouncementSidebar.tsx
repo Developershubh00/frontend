@@ -354,9 +354,9 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       <div className="flex items-center justify-between mb-6">
         <div className="flex items-center space-x-3">
           <div className="bg-gradient-to-r from-blue-400 to-pink-400 rounded-full p-2">
-            <Bell className="w-5 h-5 text-white" />
+            <Bell className="w-2 h-2 text-white" />
           </div>
-          <h3 className="text-lg font-bold text-gray-800">Recent Updates</h3>
+          <h3 className="text-sm font-bold text-gray-800">Recent Updates</h3>
         </div>
         {announcements.length > 0 && (
           <span className="bg-red-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center font-bold">
