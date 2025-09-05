@@ -390,7 +390,7 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       {/* Announcements List with Scroll */}
       {!loading && announcements.length > 0 && (
         <>
-          <div className="space-y-4 flex-1 overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100">
+          <div className="space-y-2 flex-1 overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100">
             {announcements.map((announcement) => (
               <div
                 key={announcement.id}
@@ -398,7 +398,7 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
                 className="group cursor-pointer border border-gray-100 rounded-xl p-4 text-sm hover:border-blue-200 hover:bg-blue-50/50 transition-all duration-200"
               >
                 <div className="flex items-start space-x-2">
-                  <div className={`w-1.5 h-1.5 rounded-full mt-1.5 flex-shrink-0 ${getPriorityDot(announcement.priority)}`}></div>
+                  <div className={`w-1 h-1 rounded-full mt-1 flex-shrink-0 ${getPriorityDot(announcement.priority)}`}></div>
                   <div className="flex-1 min-w-0">
                     <div className="flex items-start justify-between mb-2">
                       <h4 className="font-semibold text-gray-800 text-xs leading-5 group-hover:text-blue-800 transition-colors">
