@@ -405,7 +405,7 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
                         {announcement.title}
                       </h4>
                       {announcement.link && (
-                        <ExternalLink className="w-3 h-3 text-gray-400 group-hover:text-blue-600 transition-colors ml-2 flex-shrink-0" />
+                        <ExternalLink className="w-2 h-2 text-gray-400 group-hover:text-blue-600 transition-colors ml-1 flex-shrink-0" />
                       )}
                     </div>
                     
