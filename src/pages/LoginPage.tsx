@@ -1,3 +1,184 @@
+// import React, { useState } from "react";
+// import { Link, useNavigate } from "react-router-dom";
+// import {
+//   Mail,
+//   Lock,
+//   Eye,
+//   EyeOff,
+//   GraduationCap,
+//   Stethoscope,
+//   BookOpen,
+//   AlertCircle,
+// } from "lucide-react";
+// import { useAuth } from "../contexts/AuthContext";
+
+// /**
+//  * Login Page Component
+//  * Handles user authentication with email and password
+//  * Integrates with Django backend API via AuthContext
+//  */
+// const LoginPage: React.FC = () => {
+//   const [email, setEmail] = useState("");
+//   const [password, setPassword] = useState("");
+//   const [showPassword, setShowPassword] = useState(false);
+//   const [isLoading, setIsLoading] = useState(false);
+//   const [error, setError] = useState("");
+
+//   const { login } = useAuth();
+//   const navigate = useNavigate();
+
+//   /**
+//    * Handle form submission
+//    * API Integration: POST /api/auth/login/
+//    */
+//   const handleLogin = async (e: React.FormEvent) => {
+//     e.preventDefault();
+//     setIsLoading(true);
+//     setError("");
+
+//     try {
+//       await login(email, password);
+//       navigate("/dashboard");
+//     } catch (error: any) {
+//       setError(error.message);
+//     } finally {
+//       setIsLoading(false);
+//     }
+//   };
+
+//   return (
+//     <div className="min-h-screen bg-gradient-to-br from-rose-50 via-blue-50 to-indigo-50 flex items-center justify-center p-4">
+//       <div className="max-w-md w-full">
+//         <div className="bg-white/80 backdrop-blur-xl rounded-3xl shadow-2xl p-8 border border-white/20">
+//           {/* Logo and Header */}
+//           <div className="text-center mb-8">
+//             <div className="w-10 h-10 bg-white rounded-2xl flex items-center justify-center shadow-lg overflow-hidden mx-auto mb-4">
+//                 <img
+//                 src="/media/logo.png"
+//                 alt="BD Logo"
+//                  className="w-10 h-10 object-contain"
+//                 />
+//               </div>
+//             <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2">
+//               Believers Consultancy
+//             </h1>
+//             <p className="text-xs text-slate-600 -mt-4">Powered by Believers Destination</p>
+//             <p className="text-slate-600">Platform for Career Counselling</p>
+            
+//           </div>
+
+//           {/* Error Message */}
+//           {error && (
+//             <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-xl flex items-center space-x-2">
+//               <AlertCircle className="w-5 h-5 text-red-500" />
+//               <span className="text-red-700 text-sm">{error}</span>
+//             </div>
+//           )}
+
+//           {/* Login Form */}
+//           <form onSubmit={handleLogin} className="space-y-6">
+//             <div>
+//               <label className="block text-sm font-medium text-slate-700 mb-2">
+//                 Email Address
+//               </label>
+//               <div className="relative">
+//                 <Mail className="w-5 h-5 absolute left-3 top-1/2 transform -translate-y-1/2 text-slate-400 text-black" />
+//                 <input
+//                   type="email"
+//                   value={email}
+//                   onChange={(e) => setEmail(e.target.value)}
+//                   className="w-full pl-10 pr-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-slate-50/50 transition-all duration-200 text-black"
+//                   placeholder="Enter your email"
+//                   required
+//                 />
+//               </div>
+//             </div>
+
+//             <div>
+//               <label className="block text-sm font-medium text-slate-700 mb-2">
+//                 Password
+//               </label>
+//               <div className="relative">
+//                 <Lock className="w-5 h-5 absolute left-3 top-1/2 transform -translate-y-1/2 text-slate-400" />
+//                 <input
+//                   type={showPassword ? "text" : "password"}
+//                   value={password}
+//                   onChange={(e) => setPassword(e.target.value)}
+//                   className="w-full pl-10 pr-12 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-slate-50/50 transition-all duration-200 text-black"
+//                   placeholder="Enter your password"
+//                   required
+//                 />
+//                 <button
+//                   type="button"
+//                   onClick={() => setShowPassword(!showPassword)}
+//                   className="absolute right-3 top-1/2 transform -translate-y-1/2 text-slate-400 hover:text-slate-600"
+//                 >
+//                   {showPassword ? (
+//                     <EyeOff className="w-5 h-5" />
+//                   ) : (
+//                     <Eye className="w-5 h-5" />
+//                   )}
+//                 </button>
+//               </div>
+//             </div>
+
+//             <button
+//               type="submit"
+//               disabled={isLoading}
+//               className="w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white py-3 rounded-xl font-medium hover:from-blue-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg disabled:opacity-50 disabled:cursor-not-allowed"
+//             >
+//               {isLoading ? (
+//                 <div className="flex items-center justify-center space-x-2">
+//                   <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin"></div>
+//                   <span>Loging In...</span>
+//                 </div>
+//               ) : (
+//                 "Log In"
+//               )}
+//             </button>
+//           </form>
+
+//           {/* Sign Up Link */}
+//           <div className="mt-6 text-center">
+//             <p className="text-slate-600">
+//               Don't have an account?{" "}
+//               <Link
+//                 to="/signup"
+//                 className="text-blue-600 hover:text-blue-700 font-medium"
+//               >
+//                 Sign up here
+//               </Link>
+//             </p>
+//           </div>
+
+//           {/* Features */}
+//           {/* <div className="mt-8 grid grid-cols-3 gap-4">
+//             <div className="text-center">
+//               <div className="w-12 h-12 bg-gradient-to-r from-green-400 to-emerald-500 rounded-xl flex items-center justify-center mx-auto mb-2">
+//                 <GraduationCap className="w-6 h-6 text-white" />
+//               </div>
+//               <p className="text-xs text-slate-600">Career Guidance</p>
+//             </div>
+//             <div className="text-center">
+//               <div className="w-12 h-12 bg-gradient-to-r from-pink-400 to-red-500 rounded-xl flex items-center justify-center mx-auto mb-2">
+//                 <Stethoscope className="w-6 h-6 text-white" />
+//               </div>
+//               <p className="text-xs text-slate-600">Medical Counselling</p>
+//             </div>
+//             <div className="text-center">
+//               <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-yellow-500 rounded-xl flex items-center justify-center mx-auto mb-2">
+//                 <BookOpen className="w-6 h-6 text-white" />
+//               </div>
+//               <p className="text-xs text-slate-600">Study Material</p>
+//             </div>
+//           </div> */}
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default LoginPage;
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import {
@@ -49,22 +230,36 @@ const LoginPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-rose-50 via-blue-50 to-indigo-50 flex items-center justify-center p-4">
       <div className="max-w-md w-full">
-        <div className="bg-white/80 backdrop-blur-xl rounded-3xl shadow-2xl p-8 border border-white/20">
+        <div className="bg-white/90 backdrop-blur-xl rounded-3xl shadow-2xl p-8 border border-white/30">
           {/* Logo and Header */}
           <div className="text-center mb-8">
-            <div className="w-10 h-10 bg-white rounded-2xl flex items-center justify-center shadow-lg overflow-hidden mx-auto mb-4">
-                <img
+            <div className="w-16 h-16 bg-white rounded-3xl flex items-center justify-center shadow-xl mx-auto mb-6 ring-2 ring-blue-100">
+              <img
                 src="/media/logo.png"
                 alt="BD Logo"
-                 className="w-10 h-10 object-contain"
-                />
-              </div>
-            <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2">
-              Believers Consultancy
-            </h1>
-            <p className="text-xs text-slate-600 -mt-4">Powered by Believers Destination</p>
-            <p className="text-slate-600">Platform for Career Counselling</p>
+                className="w-12 h-12 object-contain"
+              />
+            </div>
             
+            <h1 className="text-3xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent mb-3 leading-tight">
+              Believers
+              <br />
+              Consultancy
+            </h1>
+            
+            <div className="space-y-2 mb-4">
+              <p className="text-slate-600 font-medium">
+                Platform for Career Counselling
+              </p>
+              
+              <div className="flex items-center justify-center space-x-2">
+                <div className="w-1 h-1 bg-slate-400 rounded-full"></div>
+                <p className="text-xs text-slate-500 font-medium tracking-wide">
+                  Powered by Believers Destination
+                </p>
+                <div className="w-1 h-1 bg-slate-400 rounded-full"></div>
+              </div>
+            </div>
           </div>
 
           {/* Error Message */}
@@ -78,16 +273,16 @@ const LoginPage: React.FC = () => {
           {/* Login Form */}
           <form onSubmit={handleLogin} className="space-y-6">
             <div>
-              <label className="block text-sm font-medium text-slate-700 mb-2">
+              <label className="block text-sm font-semibold text-slate-700 mb-3">
                 Email Address
               </label>
               <div className="relative">
-                <Mail className="w-5 h-5 absolute left-3 top-1/2 transform -translate-y-1/2 text-slate-400 text-black" />
+                <Mail className="w-5 h-5 absolute left-4 top-1/2 transform -translate-y-1/2 text-slate-400" />
                 <input
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="w-full pl-10 pr-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-slate-50/50 transition-all duration-200 text-black"
+                  className="w-full pl-12 pr-4 py-4 border border-slate-200 rounded-2xl focus:outline-none focus:ring-3 focus:ring-blue-500/20 focus:border-blue-500 bg-slate-50/50 transition-all duration-200 text-black placeholder-slate-400"
                   placeholder="Enter your email"
                   required
                 />
@@ -95,23 +290,23 @@ const LoginPage: React.FC = () => {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-slate-700 mb-2">
+              <label className="block text-sm font-semibold text-slate-700 mb-3">
                 Password
               </label>
               <div className="relative">
-                <Lock className="w-5 h-5 absolute left-3 top-1/2 transform -translate-y-1/2 text-slate-400" />
+                <Lock className="w-5 h-5 absolute left-4 top-1/2 transform -translate-y-1/2 text-slate-400" />
                 <input
                   type={showPassword ? "text" : "password"}
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
-                  className="w-full pl-10 pr-12 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-slate-50/50 transition-all duration-200 text-black"
+                  className="w-full pl-12 pr-14 py-4 border border-slate-200 rounded-2xl focus:outline-none focus:ring-3 focus:ring-blue-500/20 focus:border-blue-500 bg-slate-50/50 transition-all duration-200 text-black placeholder-slate-400"
                   placeholder="Enter your password"
                   required
                 />
                 <button
                   type="button"
                   onClick={() => setShowPassword(!showPassword)}
-                  className="absolute right-3 top-1/2 transform -translate-y-1/2 text-slate-400 hover:text-slate-600"
+                  className="absolute right-4 top-1/2 transform -translate-y-1/2 text-slate-400 hover:text-slate-600 transition-colors duration-200"
                 >
                   {showPassword ? (
                     <EyeOff className="w-5 h-5" />
@@ -125,12 +320,12 @@ const LoginPage: React.FC = () => {
             <button
               type="submit"
               disabled={isLoading}
-              className="w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white py-3 rounded-xl font-medium hover:from-blue-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-full bg-gradient-to-r from-blue-500 via-purple-600 to-blue-600 text-white py-4 rounded-2xl font-semibold hover:from-blue-600 hover:via-purple-700 hover:to-blue-700 transition-all duration-300 transform hover:scale-[1.02] shadow-xl hover:shadow-2xl disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
             >
               {isLoading ? (
                 <div className="flex items-center justify-center space-x-2">
                   <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin"></div>
-                  <span>Loging In...</span>
+                  <span>Logging In...</span>
                 </div>
               ) : (
                 "Log In"
@@ -139,39 +334,22 @@ const LoginPage: React.FC = () => {
           </form>
 
           {/* Sign Up Link */}
-          <div className="mt-6 text-center">
+          <div className="mt-8 text-center">
             <p className="text-slate-600">
               Don't have an account?{" "}
               <Link
                 to="/signup"
-                className="text-blue-600 hover:text-blue-700 font-medium"
+                className="text-blue-600 hover:text-blue-700 font-semibold transition-colors duration-200"
               >
                 Sign up here
               </Link>
             </p>
           </div>
 
-          {/* Features */}
-          {/* <div className="mt-8 grid grid-cols-3 gap-4">
-            <div className="text-center">
-              <div className="w-12 h-12 bg-gradient-to-r from-green-400 to-emerald-500 rounded-xl flex items-center justify-center mx-auto mb-2">
-                <GraduationCap className="w-6 h-6 text-white" />
-              </div>
-              <p className="text-xs text-slate-600">Career Guidance</p>
-            </div>
-            <div className="text-center">
-              <div className="w-12 h-12 bg-gradient-to-r from-pink-400 to-red-500 rounded-xl flex items-center justify-center mx-auto mb-2">
-                <Stethoscope className="w-6 h-6 text-white" />
-              </div>
-              <p className="text-xs text-slate-600">Medical Counselling</p>
-            </div>
-            <div className="text-center">
-              <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-yellow-500 rounded-xl flex items-center justify-center mx-auto mb-2">
-                <BookOpen className="w-6 h-6 text-white" />
-              </div>
-              <p className="text-xs text-slate-600">Study Material</p>
-            </div>
-          </div> */}
+          {/* Optional: Decorative elements */}
+          <div className="mt-6 flex justify-center">
+            <div className="w-16 h-1 bg-gradient-to-r from-transparent via-slate-300 to-transparent rounded-full"></div>
+          </div>
         </div>
       </div>
     </div>
