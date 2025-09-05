@@ -253,14 +253,14 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       category: 'NEET PG',
       link: ''
     },
-    // {
-    //   id: 2,
-    //   title: "Medical Entrance Exam Updates",
-    //   date: "2025-09-03T08:30:00Z",
-    //   priority: 'medium',
-    //   category: 'Updates',
-    //   link: ''
-    // },
+    {
+      id: 2,
+      title: "NEET PG 2025 scorecards are now live on the NBEMS portal; candidates may log in to view and download their scorecard/response sheet.",
+      date: "Aug 29,2025",
+      priority: 'medium',
+      category: 'NEET PG',
+      link: 'https://www.ndtv.com/education/neet-pg-2025-scorecard-answer-key-released-download-directly-here-9181634'
+    },
     // {
     //   id: 3,
     //   title: "Important Guidelines for Students",
