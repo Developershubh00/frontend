@@ -555,7 +555,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
       📊 NEET PG 2025 Cutoff Scores
     </h3>
     <div className="overflow-x-auto">
-      <table className="w-full text-left border-collapse min-w-full">
+      <table className="w-full text-left table-fixed border-collapse min-w-full">
         <thead>
           <tr className="bg-slate-50">
             <th className="border-b border-slate-200 py-2 px-3 text-slate-600 text-sm lg:text-base">Category</th>
@@ -598,7 +598,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
       Here’s how your marks may correspond to your All India Rank and admission prospects:
     </p>
     <div className="overflow-x-auto max-h-[450px] rounded-xl border border-slate-200 shadow-sm">
-      <table className="w-full text-left border-collapse min-w-full">
+      <table className="w-full text-left table-fixed border-collapse min-w-full">
         <thead className="bg-slate-50 ">
           <tr>
             <th className="border-b border-slate-200 py-2 px-3 text-slate-600 text-sm lg:text-base">Score Range</th>
