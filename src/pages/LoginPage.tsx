@@ -348,7 +348,7 @@ const LoginPage: React.FC = () => {
           <div className="mt-6 flex items-center justify-center space-x-2">
               <div className="w-1 h-1 bg-slate-400 rounded-full"></div>
                 <p className="text-xs text-slate-500 font-medium tracking-wide">
-                  Powered by 
+                  Powered by <br />
                 </p>
                 <p className="text-sm text-slate-800 font-medium tracking-wide">
                    Believers Destination
