@@ -247,6 +247,14 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
   const mockAnnouncements: AnnouncementSummary[] = [
     {
       id: 1,
+      title: "Gujarat NEET PG counselling 2025 opens for registration/PIN; tie‑breaking used for 211 applicants.",
+      date: "Sep 4, 2025",
+      priority: 'high',
+      category: 'Guidelines',
+      link: ' https://www.medadmgujarat.org/pg/home.aspx'
+    },
+    {
+      id: 2,
       title: "NEET PG 2025 Counselling Dates & Schedule Soon; SC to Hear 'Transparency' Plea Today",
       date: "2025-09-04T00:00:00Z",
       priority: 'high',
@@ -254,20 +262,13 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: ''
     },
     {
-      id: 2,
+      id: 3,
       title: "NEET PG 2025 scorecards are now live on the NBEMS portal; candidates may log in to view and download their scorecard/response sheet.",
       date: "Aug 29,2025",
       priority: 'medium',
       category: 'NEET PG',
       link: 'https://www.ndtv.com/education/neet-pg-2025-scorecard-answer-key-released-download-directly-here-9181634'
     },
-    // {
-    //   id: 3,
-    //   title: "Important Guidelines for Students",
-    //   date: "2025-09-02T14:20:00Z",
-    //   priority: 'low',
-    //   category: 'Guidelines'
-    // },
     // {
     //   id: 4,
     //   title: "New Course Registration Open",
@@ -349,7 +350,7 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
   };
 
   return (
-    <div className="bg-white rounded-2xl shadow-xl p-6 h-fit max-h-[600px] flex flex-col">
+    <div className="bg-white rounded-2xl shadow-xl p-6 h-fit max-h-[400px] flex flex-col">
       {/* Header */}
       <div className="flex items-center justify-between mb-6">
         <div className="flex items-center space-x-3">
