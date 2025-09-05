@@ -498,6 +498,24 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
             </div>
           </div>
         </div>
+
+        {/* Seat Availability Notice - Compact Section */}
+        <div className="text-center mb-6 lg:mb-8">
+          <p className="text-slate-600 text-sm lg:text-base mb-2">
+            Number of Seats Available as on 31.03.2025 in PG Medical Course (Broad/Super Speciality) 
+          </p>
+          <p className="text-slate-600 text-sm lg:text-base mb-2">
+            in various Medical Colleges/Institution for the A.Y. 2024-25
+          </p>
+          <a
+            href="/data/Seats_PG.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:text-blue-800 underline font-medium text-sm lg:text-base transition-colors duration-200"
+          >
+            View Official PDF Document
+          </a>
+        </div>
         {/* Mobile-First Quick Action Cards */}
         {/* <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-6 mb-8 lg:mb-12">
           {quickActionCards.map((card, index) => (
