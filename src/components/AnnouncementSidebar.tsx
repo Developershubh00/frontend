@@ -248,15 +248,15 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
     {
       id: 1,
       title: "Gujarat NEET PG counselling 2025 opens for registration/PIN; tie‑breaking used for 211 applicants.",
-      date: "Sep 4, 2025",
+      date: "Sep 5, 2025",
       priority: 'high',
-      category: 'Guidelines',
+      category: 'NEET PG',
       link: ' https://www.medadmgujarat.org/pg/home.aspx'
     },
     {
       id: 2,
       title: "NEET PG 2025 Counselling Dates & Schedule Soon; SC to Hear 'Transparency' Plea Today",
-      date: "2025-09-04T00:00:00Z",
+      date: "Sep 4, 2025",
       priority: 'high',
       category: 'NEET PG',
       link: ''
