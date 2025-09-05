@@ -410,21 +410,21 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
                     </div>
                     
                     <div className="flex items-center justify-between">
-                      <span className="text-xs text-gray-500 bg-gray-100 px-1 py-1 rounded-full">
+                      <span className="text-[10px] text-gray-500 bg-gray-100 px-1 py-1 rounded-full">
                         {announcement.category}
                       </span>
-                      <div className="flex flex-col items-end text-xs text-gray-400">
+                      <div className="flex flex-col items-end text-[10px] text-gray-400">
                         <div className="flex items-center">
-                          <Clock className="w-1 h-1 mr-1 text-xs" />
+                          <Clock className="w-1 h-1 mr-1 text-[10px]" />
                           {formatRelativeTime(announcement.date)}
                         </div>
-                        <div className="text-10px text-gray-300 mt-1">
+                        <div className="text-[10px] text-gray-300 mt-1">
                           {formatDate(announcement.date)}
                         </div>
                       </div>
                     </div>
                   </div>
-                  <ChevronRight className="w-2 h-2 text-gray-400 group-hover:text-blue-600 transition-colors flex-shrink-0" />
+                  <ChevronRight className="w-2 h-2 text-[10px] text-gray-400 group-hover:text-blue-600 transition-colors flex-shrink-0" />
                 </div>
               </div>
             ))}
@@ -434,7 +434,7 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
           <div className="pt-4 border-t border-gray-100 mt-4">
             <button
               onClick={() => window.location.href = '/announcements'}
-              className="w-full text-blue-600 hover:text-blue-800 font-medium text-xs flex items-center justify-center space-x-2 py-2 hover:bg-blue-50 rounded-lg transition-all duration-200"
+              className="w-full text-blue-600 hover:text-blue-800 font-medium text-[10px] flex items-center justify-center space-x-2 py-2 hover:bg-blue-50 rounded-lg transition-all duration-200"
             >
               <span>View All Announcements</span>
               <ChevronRight className="w-4 h-4" />
