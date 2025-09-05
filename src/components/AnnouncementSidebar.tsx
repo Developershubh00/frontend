@@ -401,7 +401,7 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
                   <div className={`w-1.5 h-1.5 rounded-full mt-1.5 flex-shrink-0 ${getPriorityDot(announcement.priority)}`}></div>
                   <div className="flex-1 min-w-0">
                     <div className="flex items-start justify-between mb-2">
-                      <h4 className="font-semibold text-gray-800 text-sm leading-5 group-hover:text-blue-800 transition-colors">
+                      <h4 className="font-semibold text-gray-800 text-xs leading-5 group-hover:text-blue-800 transition-colors">
                         {announcement.title}
                       </h4>
                       {announcement.link && (
