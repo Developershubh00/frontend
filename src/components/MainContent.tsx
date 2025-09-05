@@ -434,7 +434,70 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
             </div>
           ))}
         </div>
+        
+         {/* Mobile-First Quick Action Cards */}
+        {/* <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-6 mb-8 lg:mb-12">
+          {quickActionCards.map((card, index) => (
+            <div
+              key={index}
+              className={`bg-gradient-to-r ${card.bgGradient} rounded-2xl lg:rounded-3xl p-6 lg:p-8 text-white shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105`}
+            >
+              <div className="flex items-center justify-between mb-4">
+                <div className="w-12 h-12 lg:w-16 lg:h-16 bg-white/20 rounded-2xl flex items-center justify-center backdrop-blur-sm">
+                  <card.icon className="w-6 h-6 lg:w-8 lg:h-8" />
+                </div>
+                <ExternalLink className="w-5 h-5 opacity-70" />
+              </div>
+              <h3 className="text-lg lg:text-xl font-bold mb-2">
+                {card.title}
+              </h3>
+              <p className="text-white/80 mb-4 text-sm lg:text-base">
+                {card.subtitle}
+              </p>
+              <button
+                className="bg-white/20 backdrop-blur-sm px-4 py-2 lg:px-6 lg:py-3 rounded-lg lg:rounded-xl hover:bg-white/30 transition-all duration-200 font-medium text-sm lg:text-base"
+                onClick={card.onClick}
+              >
+                {card.action}
+              </button>
+            </div>
+          ))}
+        </div> */}
 
+        {/* Seat Availability Notice - Highlighted Section */}
+        <div className="bg-gradient-to-r from-amber-50 to-orange-50 border-l-4 border-amber-400 rounded-xl p-6 lg:p-8 mb-8 lg:mb-12 shadow-lg">
+          <div className="flex items-start space-x-4">
+            <div className="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center flex-shrink-0">
+              <FileText className="w-6 h-6 text-amber-600" />
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <span className="bg-amber-100 text-amber-800 px-2 py-1 rounded-full text-xs font-medium">
+                  📢 IMPORTANT NOTICE
+                </span>
+                <span className="bg-green-100 text-green-800 px-2 py-1 rounded-full text-xs font-medium">
+                  NEW UPDATE
+                </span>
+              </div>
+              <h3 className="text-lg lg:text-xl font-bold text-slate-800 mb-3">
+                Number of Seats Available as on 31.03.2025 in PG Medical Course (Broad/Super Speciality) in various Medical Colleges/Institution for the A.Y. 2024-25
+              </h3>
+              <p className="text-slate-600 text-sm lg:text-base mb-4">
+                Official document detailing the complete seat matrix for PG Medical courses across all categories and institutions for Academic Year 2024-25.
+              </p>
+              <a
+                href="/data/Seats_PG.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-500 to-indigo-600 text-white px-4 py-2 lg:px-6 lg:py-3 rounded-lg hover:from-blue-600 hover:to-indigo-700 transition-all duration-300 transform hover:scale-105 shadow-lg font-medium text-sm lg:text-base"
+              >
+                <FileText className="w-4 h-4 lg:w-5 lg:h-5" />
+                {/* <span>Download PDF Document</span> */}
+                <ExternalLink className="w-4 h-4 lg:w-5 lg:h-5" />
+              </a>
+            </div>
+          </div>
+        </div>
         {/* Mobile-First Quick Action Cards */}
         {/* <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-6 mb-8 lg:mb-12">
           {quickActionCards.map((card, index) => (
