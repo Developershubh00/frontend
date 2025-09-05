@@ -228,7 +228,7 @@ const LoginPage: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-300 to-Blue-800 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-gradient-to-br from-rose-50 via-blue-50 to-indigo-50 flex items-center justify-center p-4">
       <div className="max-w-md w-full">
         <div className="bg-white/90 backdrop-blur-xl rounded-3xl shadow-2xl p-8 border border-white/30">
           {/* Logo and Header */}
@@ -241,7 +241,7 @@ const LoginPage: React.FC = () => {
               />
             </div>
             
-            <h1 className="text-3xl font-bold bg-gradient-to-r from-blue-300 to Blue-800 bg-clip-text text-transparent mb-3 leading-tight">
+            <h1 className="text-3xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent mb-3 leading-tight">
               Believers
               <br />
               Consultancy
@@ -320,7 +320,7 @@ const LoginPage: React.FC = () => {
             <button
               type="submit"
               disabled={isLoading}
-              className="w-full bg-gradient-to-r from-blue-300 to-Blue-800 text-white py-4 rounded-2xl font-semibold hover:from-blue-600  hover:to-blue-700 transition-all duration-300 transform hover:scale-[1.02] shadow-xl hover:shadow-2xl disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
+              className="w-full bg-gradient-to-r from-blue-300 via-Blue-600 to-blue-600 text-white py-4 rounded-2xl font-semibold hover:from-blue-600 hover:via-purple-700 hover:to-blue-700 transition-all duration-300 transform hover:scale-[1.02] shadow-xl hover:shadow-2xl disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
             >
               {isLoading ? (
                 <div className="flex items-center justify-center space-x-2">
@@ -339,7 +339,7 @@ const LoginPage: React.FC = () => {
               Don't have an account?{" "}
               <Link
                 to="/signup"
-                className="text-blue-300 hover:text-blue-700 font-semibold transition-colors duration-200"
+                className="text-blue-600 hover:text-blue-700 font-semibold transition-colors duration-200"
               >
                 Sign up here
               </Link>
