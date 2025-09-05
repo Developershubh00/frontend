@@ -132,10 +132,10 @@ const Header: React.FC<HeaderProps> = ({
                 />
               </div>
               <div>
-                <h1 className="text-xl font-bold text-[clamp(10px,2vw,10px)] truncate bg-gradient-to-r from-blue-500 to-blue-900 bg-clip-text text-transparent">
+                <h1 className="text-xl font-bold text-[clamp(8px,2vw,8px)] truncate bg-gradient-to-r from-blue-500 to-blue-900 bg-clip-text text-transparent">
                   Believers Consultancy
                 </h1>
-                <p className="text-xs text-[clamp(14px,2vw,24px)] truncate text-slate-500">
+                <p className="text-xs text-[clamp(7px,1vw,7px)] truncate text-slate-500">
                   Powered By Believers Destination
                 </p>
               </div>
