@@ -247,14 +247,22 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
   const mockAnnouncements: AnnouncementSummary[] = [
     {
       id: 1,
+      title: "NEET PG merit list for 50% AIQ seats out; counselling schedule to follow",
+      date: "Sep 5, 2025T16:45:00Z",
+      priority: 'medium',
+      category: 'NEET PG',
+      link: 'https://www.jagranjosh.com/news/neet-pg-2025-live-nbems-release-today-scorecard-for-50-percent-aiq-seats-at-natboard-edu-in-direct-link-here-lb-106148'
+    },
+    {
+      id: 2,
       title: "Gujarat NEET PG counselling 2025 opens for registration/PIN; tie‑breaking used for 211 applicants.",
-      date: "Sep 5, 2025",
+      date: "Sep 5, 2025T09:45:00Z",
       priority: 'high',
       category: 'NEET PG',
       link: ' https://www.medadmgujarat.org/pg/home.aspx'
     },
     {
-      id: 2,
+      id: 3,
       title: "NEET PG 2025 Counselling Dates & Schedule Soon; SC to Hear 'Transparency' Plea Today",
       date: "Sep 4, 2025",
       priority: 'high',
@@ -262,20 +270,21 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: ''
     },
     {
-      id: 3,
+      id: 4,
       title: "NEET PG 2025 scorecards are now live on the NBEMS portal; candidates may log in to view and download their scorecard/response sheet.",
       date: "Aug 29,2025",
       priority: 'medium',
       category: 'NEET PG',
       link: 'https://www.ndtv.com/education/neet-pg-2025-scorecard-answer-key-released-download-directly-here-9181634'
     },
-    // {
-    //   id: 4,
-    //   title: "New Course Registration Open",
-    //   date: "2025-09-01T10:15:00Z",
-    //   priority: 'medium',
-    //   category: 'Registration'
-    // },
+    {
+      id: 5,
+      title: "NEET PG merit list for 50% AIQ seats out; counselling schedule to follow",
+      date: "Sep 5, 2025",
+      priority: 'medium',
+      category: 'NEET PG',
+      link: 'https://www.jagranjosh.com/news/neet-pg-2025-live-nbems-release-today-scorecard-for-50-percent-aiq-seats-at-natboard-edu-in-direct-link-here-lb-106148'
+    },
     // {
     //   id: 5,
     //   title: "Scholarship Application Deadline",
