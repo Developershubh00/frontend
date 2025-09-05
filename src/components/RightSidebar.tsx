@@ -110,7 +110,7 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
       <div className="p-4 pt-4">
         {/* 📢 Announcement Bar */}
         <div>
-          <h3 className="text-sm font-bold text-slate-800 mb-3">Announcements</h3>
+          <h3 className="text-sm font-bold text-slate-800 mb-1">Announcements</h3>
           <AnnouncementSidebar 
             onAnnouncementClick={(id) => console.log("Clicked announcement:", id)} 
           />
