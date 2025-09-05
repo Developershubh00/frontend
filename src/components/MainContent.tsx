@@ -465,7 +465,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
         </div> */}
 
         {/* Seat Availability Notice - Highlighted Section */}
-        <div className="bg-gradient-to-r from-amber-50 to-orange-50 border-l-4 border-amber-400 rounded-xl p-6 lg:p-8 mb-8 lg:mb-12 shadow-lg">
+        {/* <div className="bg-gradient-to-r from-amber-50 to-orange-50 border-l-4 border-amber-400 rounded-xl p-6 lg:p-8 mb-8 lg:mb-12 shadow-lg">
           <div className="flex items-start space-x-4">
             <div className="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center flex-shrink-0">
               <FileText className="w-6 h-6 text-amber-600" />
@@ -492,20 +492,17 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
                 className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-500 to-indigo-600 text-white px-4 py-2 lg:px-6 lg:py-3 rounded-lg hover:from-blue-600 hover:to-indigo-700 transition-all duration-300 transform hover:scale-105 shadow-lg font-medium text-sm lg:text-base"
               >
                 <FileText className="w-4 h-4 lg:w-5 lg:h-5" />
-                {/* <span>Download PDF Document</span> */}
+                <span>Download PDF Document</span>
                 <ExternalLink className="w-4 h-4 lg:w-5 lg:h-5" />
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Seat Availability Notice - Compact Section */}
         <div className="text-center mb-6 lg:mb-8">
           <p className="text-slate-600 text-sm lg:text-base mb-2">
-            Number of Seats Available as on 31.03.2025 in PG Medical Course (Broad/Super Speciality) 
-          </p>
-          <p className="text-slate-600 text-sm lg:text-base mb-2">
-            in various Medical Colleges/Institution for the A.Y. 2024-25
+            Number of Seats Available as on 31.03.2025 in PG Medical Course (Broad/Super Speciality) in various Medical Colleges/Institution for the A.Y. 2024-25
           </p>
           <a
             href="/data/Seats_PG.pdf"
