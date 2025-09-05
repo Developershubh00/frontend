@@ -940,7 +940,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
         </div>
 
         {/* NEET PG 2025 Counselling Tips */}
-        <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
+        {/* <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
           <div className="flex items-start space-x-3 lg:space-x-4 mb-4 lg:mb-6">
             <div className="w-10 h-10 lg:w-12 lg:h-12 bg-blue-100 rounded-xl flex items-center justify-center flex-shrink-0">
               <HelpCircle className="w-5 h-5 lg:w-6 lg:h-6 text-blue-600" />
@@ -1010,7 +1010,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* NEET PG Counselling Process */}
         <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
