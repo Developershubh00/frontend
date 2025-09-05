@@ -590,7 +590,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
   </div>
 
   {/* Marks vs Rank */}
-  <div className="text-center">
+  <div className="text-center mb-6 lg:mb-8">
     <h3 className="text-xl lg:text-2xl font-bold text-slate-800 mb-2">
       🏆 NEET PG 2025 Marks vs Rank Analysis
     </h3>
