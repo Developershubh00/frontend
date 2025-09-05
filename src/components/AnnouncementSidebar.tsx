@@ -395,17 +395,17 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
               <div
                 key={announcement.id}
                 onClick={() => handleAnnouncementClick(announcement)}
-                className="group cursor-pointer border border-gray-100 rounded-xl p-4 text-sm hover:border-blue-200 hover:bg-blue-50/50 transition-all duration-200"
+                className="group cursor-pointer border border-gray-100 rounded-xl p-2 text-xs hover:border-blue-200 hover:bg-blue-50/50 transition-all duration-200"
               >
                 <div className="flex items-start space-x-2">
                   <div className={`w-1 h-1 rounded-full mt-1 flex-shrink-0 ${getPriorityDot(announcement.priority)}`}></div>
                   <div className="flex-1 min-w-0">
-                    <div className="flex items-start justify-between mb-2">
+                    <div className="flex items-start justify-between mb-1">
                       <h4 className="font-semibold text-gray-800 text-[10px] leading-5 group-hover:text-blue-800 transition-colors">
                         {announcement.title}
                       </h4>
                       {announcement.link && (
-                        <ExternalLink className="w-2 h-2 text-gray-400 group-hover:text-blue-600 transition-colors ml-1 flex-shrink-0" />
+                        <ExternalLink className="w-1 h-1 text-gray-400 group-hover:text-blue-600 transition-colors ml-1 flex-shrink-0" />
                       )}
                     </div>
                     
@@ -415,7 +415,7 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
                       </span>
                       <div className="flex flex-col items-end text-xs text-gray-400">
                         <div className="flex items-center">
-                          <Clock className="w-3 h-3 mr-1" />
+                          <Clock className="w-1 h-1 mr-1" />
                           {formatRelativeTime(announcement.date)}
                         </div>
                         <div className="text-xs text-gray-300 mt-1">
@@ -424,7 +424,7 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
                       </div>
                     </div>
                   </div>
-                  <ChevronRight className="w-4 h-4 text-gray-400 group-hover:text-blue-600 transition-colors flex-shrink-0" />
+                  <ChevronRight className="w-2 h-2 text-gray-400 group-hover:text-blue-600 transition-colors flex-shrink-0" />
                 </div>
               </div>
             ))}
