@@ -345,6 +345,13 @@ const LoginPage: React.FC = () => {
               </Link>
             </p>
           </div>
+          <div className="flex items-center justify-center space-x-2">
+              <div className="w-1 h-1 bg-slate-400 rounded-full"></div>
+                <p className="text-xs text-slate-500 font-medium tracking-wide">
+                  Powered by Believers Destination
+                </p>
+                <div className="w-1 h-1 bg-slate-400 rounded-full"></div>
+          </div>
 
           {/* Optional: Decorative elements */}
           <div className="mt-6 flex justify-center">
