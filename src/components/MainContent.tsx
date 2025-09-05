@@ -501,7 +501,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
 
         {/* Seat Availability Notice - Compact Section */}
         <div className="text-center mb-6 lg:mb-8">
-          <p className="text-slate-600 text-sm lg:text-base mb-2">
+          <p className="text-slate-900 text-sm lg:text-base mb-2">
             Number of Seats Available as on 31.03.2025 in PG Medical Course (Broad/Super Speciality) in various Medical Colleges/Institution for the A.Y. 2024-25
           </p>
           <a
