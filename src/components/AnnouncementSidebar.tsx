@@ -277,14 +277,14 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       category: 'NEET PG',
       link: 'https://www.ndtv.com/education/neet-pg-2025-scorecard-answer-key-released-download-directly-here-9181634'
     },
-    {
-      id: 5,
-      title: "NEET PG merit list for 50% AIQ seats out; counselling schedule to follow",
-      date: "Sep 5, 2025",
-      priority: 'medium',
-      category: 'NEET PG',
-      link: 'https://www.jagranjosh.com/news/neet-pg-2025-live-nbems-release-today-scorecard-for-50-percent-aiq-seats-at-natboard-edu-in-direct-link-here-lb-106148'
-    },
+    // {
+    //   id: 5,
+    //   title: "NEET PG merit list for 50% AIQ seats out; counselling schedule to follow",
+    //   date: "Sep 5, 2025",
+    //   priority: 'medium',
+    //   category: 'NEET PG',
+    //   link: 'https://www.jagranjosh.com/news/neet-pg-2025-live-nbems-release-today-scorecard-for-50-percent-aiq-seats-at-natboard-edu-in-direct-link-here-lb-106148'
+    // },
     // {
     //   id: 5,
     //   title: "Scholarship Application Deadline",
