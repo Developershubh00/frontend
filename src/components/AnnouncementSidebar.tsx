@@ -248,7 +248,7 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
     {
       id: 1,
       title: "NEET PG merit list for 50% AIQ seats out; counselling schedule to follow",
-      date: "Sep 5, 2025T16:45:00Z",
+      date: "Sep 5, 2025",
       priority: 'medium',
       category: 'NEET PG',
       link: 'https://www.jagranjosh.com/news/neet-pg-2025-live-nbems-release-today-scorecard-for-50-percent-aiq-seats-at-natboard-edu-in-direct-link-here-lb-106148'
@@ -256,7 +256,7 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
     {
       id: 2,
       title: "Gujarat NEET PG counselling 2025 opens for registration/PIN; tie‑breaking used for 211 applicants.",
-      date: "Sep 5, 2025T09:45:00Z",
+      date: "Sep 5, 2025",
       priority: 'high',
       category: 'NEET PG',
       link: ' https://www.medadmgujarat.org/pg/home.aspx'
