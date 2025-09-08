@@ -116,15 +116,15 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
           />
         </div>
         {/* Header */}
-        {/* <div className="flex items-center justify-between mb-6 pt-4">
-          <h2 className="text-lg font-bold text-slate-800">NEET PG 2025</h2>
+        <div className="flex items-center justify-between mb-6 pt-4">
+          {/* <h2 className="text-lg font-bold text-slate-800">NEET PG 2025</h2>
           <button
             onClick={onToggle}
             className="p-2 hover:bg-slate-100 rounded-xl transition-colors xl:hidden"
           >
             <X className="w-5 h-5 text-slate-600" />
-          </button>
-        </div> */}
+          </button> */}
+        </div>
 
         {/* NEET PG Results Announcement */}
         <div className="mb-6 ">
