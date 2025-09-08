@@ -134,7 +134,7 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
                 <Award className="w-4 h-4" />
               </div>
               <div>
-                <h2 className="text-lg font-bold text-slate-800">NEET PG 2025</h2>
+                <h2 className="text-lg font-bold text-white-800">NEET PG 2025</h2>
                 <h3 className="font-bold text-sm">Results Announced!</h3>
                 <p className="text-xs text-green-100">Check your NEET PG 2025 results</p>
               </div>
