@@ -143,7 +143,7 @@ const Header: React.FC<HeaderProps> = ({
 
             <div className="flex items-center space-x-6">
               {/* NEET Dropdown */}
-              <div className="relative">
+              {/* <div className="relative">
                 <button
                   onClick={() => toggleDropdown("neet")}
                   className="flex items-center space-x-2 px-4 py-2 text-blue-600 hover:bg-blue-50 rounded-xl transition-all duration-200 font-medium"
@@ -172,7 +172,7 @@ const Header: React.FC<HeaderProps> = ({
                     ))}
                   </div>
                 )}
-              </div>
+              </div> */}
 
               {/* Predictor Dropdown */}
               <div className="relative">
