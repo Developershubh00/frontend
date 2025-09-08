@@ -116,7 +116,7 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
           />
         </div>
         {/* Header */}
-        <div className="flex items-center justify-between mb-6 pt-4">
+        <div className="flex items-center justify-between mb-6 pt-2">
           {/* <h2 className="text-lg font-bold text-slate-800">NEET PG 2025</h2>
           <button
             onClick={onToggle}
