@@ -189,6 +189,17 @@ const AnnouncementPage: React.FC = () => {
   const staticAnnouncements: Announcement[] = [
     {
       id: 1,
+      title: "NEET PG 2025:",
+      content: " Supreme Court declines to pause counselling; transparency plea listed for hearing next week",
+      date: "2025-09-06T00:00:00Z",
+      priority: 'medium',
+      category: 'NEET PG',
+      link: 'https://indianexpress.com/article/education/neet-pg-2025-final-answer-key-supreme-court-plea-response-sheets-natboard-edu-in-nbems-10218766/',
+      is_active: true,
+      created_at: "2025-09-05T00:00:00Z"
+    },
+    {
+      id: 2,
       title: "NEET PG merit list for 50% AIQ seats out; counselling schedule to follow",
       content: "The National Board of Examinations in Medical Sciences (NBEMS) has released the merit list for 50% All India Quota (AIQ) seats for NEET PG 2025. Candidates can check their merit list status and await further counselling schedule announcements.",
       date: "2025-09-05T16:45:00Z",
@@ -199,7 +210,7 @@ const AnnouncementPage: React.FC = () => {
       created_at: "2025-09-05T16:45:00Z"
     },
     {
-      id: 2,
+      id: 3,
       title: "Gujarat NEET PG counselling 2025 opens for registration/PIN; tie‑breaking used for 211 applicants",
       content: "Gujarat NEET PG counselling 2025 registration has commenced. Candidates can register and obtain their PIN. Tie-breaking procedures have been implemented for 211 applicants with similar scores.",
       date: "2025-09-05T09:45:00Z",
@@ -210,7 +221,7 @@ const AnnouncementPage: React.FC = () => {
       created_at: "2025-09-05T09:45:00Z"
     },
     {
-      id: 3,
+      id: 4,
       title: "NEET PG 2025 Counselling Dates & Schedule Soon; SC to Hear 'Transparency' Plea Today",
       content: "NEET PG 2025 counselling dates and schedule are expected to be announced soon. The Supreme Court is scheduled to hear a transparency plea related to the counselling process today.",
       date: "2025-09-04T00:00:00Z",
@@ -221,7 +232,7 @@ const AnnouncementPage: React.FC = () => {
       created_at: "2025-09-04T00:00:00Z"
     },
     {
-      id: 4,
+      id: 5,
       title: "NEET PG 2025 scorecards are now live on the NBEMS portal; candidates may log in to view and download their scorecard/response sheet",
       content: "NEET PG 2025 scorecards and response sheets are now available on the NBEMS portal. Candidates can log in using their credentials to view and download their scorecard and response sheet.",
       date: "2025-08-29T00:00:00Z",
@@ -232,13 +243,24 @@ const AnnouncementPage: React.FC = () => {
       created_at: "2025-08-29T00:00:00Z"
     },
     {
-      id: 5,
+      id: 6,
       title: "NEET PG merit list for 50% AIQ seats released - Direct access link",
       content: "The merit list for 50% All India Quota seats has been officially released by NBEMS. Candidates can access the merit list directly through the provided link and check their ranking status.",
       date: "2025-09-05T00:00:00Z",
       priority: 'medium',
       category: 'NEET PG',
       link: 'https://www.jagranjosh.com/news/neet-pg-2025-live-nbems-release-today-scorecard-for-50-percent-aiq-seats-at-natboard-edu-in-direct-link-here-lb-106148',
+      is_active: true,
+      created_at: "2025-09-05T00:00:00Z"
+    },
+    {
+      id: 7,
+      title: "NEET PG 2025:",
+      content: " Supreme Court declines to pause counselling; transparency plea listed for hearing next week",
+      date: "2025-09-06T00:00:00Z",
+      priority: 'medium',
+      category: 'NEET PG',
+      link: 'https://indianexpress.com/article/education/neet-pg-2025-final-answer-key-supreme-court-plea-response-sheets-natboard-edu-in-nbems-10218766/',
       is_active: true,
       created_at: "2025-09-05T00:00:00Z"
     }
