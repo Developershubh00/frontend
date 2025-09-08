@@ -253,17 +253,7 @@ const AnnouncementPage: React.FC = () => {
       is_active: true,
       created_at: "2025-09-05T00:00:00Z"
     },
-    {
-      id: 7,
-      title: "NEET PG 2025:",
-      content: " Supreme Court declines to pause counselling; transparency plea listed for hearing next week",
-      date: "2025-09-06T00:00:00Z",
-      priority: 'medium',
-      category: 'NEET PG',
-      link: 'https://indianexpress.com/article/education/neet-pg-2025-final-answer-key-supreme-court-plea-response-sheets-natboard-edu-in-nbems-10218766/',
-      is_active: true,
-      created_at: "2025-09-05T00:00:00Z"
-    }
+    
   ];
 
   const fetchAnnouncements = async () => {
