@@ -116,7 +116,7 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
           />
         </div>
         {/* Header */}
-        <div className="flex items-center justify-between mb-6">
+        <div className="flex items-center justify-between mb-6 pt-4">
           <h2 className="text-lg font-bold text-slate-800">NEET PG 2025</h2>
           <button
             onClick={onToggle}
@@ -127,7 +127,7 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
         </div>
 
         {/* NEET PG Results Announcement */}
-        <div className="mb-6">
+        <div className="mb-6 ">
           <div className="bg-gradient-to-r from-green-500 to-emerald-600 rounded-xl p-4 text-white">
             <div className="flex items-center space-x-3 mb-2">
               <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center">
