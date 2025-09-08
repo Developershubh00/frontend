@@ -803,7 +803,7 @@ const BlogPageWithAPI: React.FC = () => {
       `,
       featured_image: "https://cdn.dribbble.com/userupload/44607895/file/327f24d24f6b108c5f7b38e04073b0eb.png?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
       author: {
-        name: "Dr. Priya Sharma",
+        name: "Dr. Priya ",
         avatar: "https://images.pexels.com/photos/5452201/pexels-photo-5452201.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
         bio: "Medical Education Consultant with 10+ years of experience in NEET counselling guidance."
       },
@@ -837,7 +837,7 @@ const BlogPageWithAPI: React.FC = () => {
       `,
       featured_image: "https://cdn.dribbble.com/userupload/44607896/file/45b1ee4774ed8b506cca29f3ecc6c648.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
       author: {
-        name: "Dr. Rajesh Kumar",
+        name: "Dr. Rajesh ",
         avatar: "https://images.pexels.com/photos/5384445/pexels-photo-5384445.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
         bio: "Financial advisor specializing in medical education planning."
       },
