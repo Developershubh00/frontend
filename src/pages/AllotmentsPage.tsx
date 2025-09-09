@@ -1223,18 +1223,18 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
           <table className="w-full">
             <thead className="bg-gradient-to-r from-gray-100 to-gray-200 border-b border-gray-300 sticky top-0">
               <tr>
-                <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Round</th>
-                <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Rank</th>
-                <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">State</th>
-                <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Institute</th>
-                <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Course</th>
-                <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Quota</th>
-                <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Category</th>
-                <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Fee</th>
-                <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Stipend</th>
-                <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Bond</th>
-                <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Beds</th>
-                <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider"></th>
+                <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">Round</th>
+                <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">Rank</th>
+                <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">State</th>
+                <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">Institute</th>
+                <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">Course</th>
+                <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">Quota</th>
+                <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">Category</th>
+                <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">Fee</th>
+                <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">Stipend</th>
+                <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">Bond</th>
+                <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">Beds</th>
+                <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider"></th>
               </tr>
             </thead>
             <tbody className="bg-white divide-y divide-gray-100">
