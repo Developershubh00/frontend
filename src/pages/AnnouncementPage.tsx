@@ -196,7 +196,7 @@ const AnnouncementPage: React.FC = () => {
       category: 'NEET PG',
       link: 'https://indianexpress.com/article/education/neet-pg-2025-final-answer-key-supreme-court-plea-response-sheets-natboard-edu-in-nbems-10218766/',
       is_active: true,
-      created_at: "2025-09-05T00:00:00Z"
+      created_at: "2025-09-06T00:00:00Z"
     },
     {
       id: 2,
@@ -252,6 +252,17 @@ const AnnouncementPage: React.FC = () => {
       link: 'https://www.jagranjosh.com/news/neet-pg-2025-live-nbems-release-today-scorecard-for-50-percent-aiq-seats-at-natboard-edu-in-direct-link-here-lb-106148',
       is_active: true,
       created_at: "2025-09-05T00:00:00Z"
+    },
+    {
+      id: 7,
+      title: "NEET PG 2025:",
+      content: "Counselling dates to be announced; 50% AIQ merit list released, with answer key and cutoff updates.",
+      date: "2025-09-09T00:00:00Z",
+      priority: 'medium',
+      category: 'NEET PG',
+      link: 'https://timesofindia.indiatimes.com/education/news/neet-pg-2025-mcc-to-announce-50-aiq-counselling-schedule-soon-sc-hearing-awaited-check-details-here/articleshow/123765991.cms',
+      is_active: true,
+      created_at: "2025-09-09T00:00:00Z"
     },
     
   ];

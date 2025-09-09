@@ -285,14 +285,14 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       category: 'NEET PG',
       link: 'https://www.ndtv.com/education/neet-pg-2025-scorecard-answer-key-released-download-directly-here-9181634'
     },
-    // {
-    //   id: 5,
-    //   title: "NEET PG merit list for 50% AIQ seats out; counselling schedule to follow",
-    //   date: "Sep 5, 2025",
-    //   priority: 'medium',
-    //   category: 'NEET PG',
-    //   link: 'https://www.jagranjosh.com/news/neet-pg-2025-live-nbems-release-today-scorecard-for-50-percent-aiq-seats-at-natboard-edu-in-direct-link-here-lb-106148'
-    // },
+    {
+      id: 5,
+      title: "NEET PG 2025: Counselling dates to be announced; 50% AIQ merit list released, with answer key and cutoff updates.",
+      date: "Sep 9, 2025",
+      priority: 'medium',
+      category: 'NEET PG',
+      link: 'https://timesofindia.indiatimes.com/education/news/neet-pg-2025-mcc-to-announce-50-aiq-counselling-schedule-soon-sc-hearing-awaited-check-details-here/articleshow/123765991.cms'
+    },
     // {
     //   id: 5,
     //   title: "Scholarship Application Deadline",
