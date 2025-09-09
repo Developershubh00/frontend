@@ -241,7 +241,7 @@ const LoginPage: React.FC = () => {
               />
             </div>
             
-            <h1 className="text-3xl font-bold bg-gradient-to-r from-blue-400 to-blue-800 bg-clip-text text-transparent mb-3 leading-tight">
+            <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-400 to-blue-800 bg-clip-text text-transparent mb-3 leading-tight">
               Believers
              
             </h1>
