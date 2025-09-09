@@ -1012,6 +1012,43 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
           </div>
         </div>
 
+        <div className="bg-white border-b border-gray-200 px-4 py-3">
+  <div className="flex items-center gap-2 overflow-x-auto">
+    {["1", "2", "3", "4", "5"].map((round) => (
+      <button
+        key={round}
+        onClick={() => {
+          setSelectedRound(round);
+          setCurrentPage(1); // reset pagination on round change
+        }}
+        className={`px-4 py-2 text-sm font-medium rounded-full transition-colors ${
+          selectedRound === round
+            ? "bg-blue-600 text-white"
+            : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+        }`}
+      >
+        Round {round}
+      </button>
+    ))}
+
+    {/* All rounds button */}
+    <button
+      onClick={() => {
+        setSelectedRound("all");
+        setCurrentPage(1);
+      }}
+      className={`px-4 py-2 text-sm font-medium rounded-full transition-colors ${
+        selectedRound === "all"
+          ? "bg-purple-600 text-white"
+          : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+      }`}
+    >
+      All Rounds
+    </button>
+  </div>
+</div>
+
+
         {/* Enhanced Search and Filters */}
         <div className="bg-white border-b border-gray-200 px-4 py-4">
           <div className="space-y-4">
