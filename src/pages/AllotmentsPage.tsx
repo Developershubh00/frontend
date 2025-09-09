@@ -1159,7 +1159,7 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
                 {/* Filter Row 2 */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                   {/* Institute Filter */}
-                  <select
+                  {/* <select
                     value={selectedInstitute}
                     onChange={(e) => setSelectedInstitute(e.target.value)}
                     className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white"
@@ -1169,7 +1169,7 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
                         {institute === "all" ? "All Institutes" : institute}
                       </option>
                     ))}
-                  </select>
+                  </select> */}
 
                   {/* Course Filter */}
                   <select
@@ -1232,7 +1232,7 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
                 <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">Category</th>
                 <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">Fee</th>
                 <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">Stipend</th>
-                <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">Bond</th>
+                <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">Bond years</th>
                 <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">Beds</th>
                 <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider"></th>
               </tr>
