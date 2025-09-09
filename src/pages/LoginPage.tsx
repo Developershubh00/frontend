@@ -233,11 +233,11 @@ const LoginPage: React.FC = () => {
         <div className="bg-white/90 backdrop-blur-xl rounded-3xl shadow-2xl p-8 border border-white/30">
           {/* Logo and Header */}
           <div className="text-center mb-8">
-            <div className="w-100 h-30 bg-white rounded-3xl flex items-center justify-center shadow-xl mx-auto mb-6 ring-2 ring-blue-100">
+            <div className="w-36 h-24 bg-white rounded-3xl flex items-center justify-center shadow-xl mx-auto mb-6 ring-2 ring-blue-100">
               <img
                 src="/media/logo3.png"
                 alt="BD Logo"
-                className="w-100 h-30 object-contain"
+                className="w-36 h-24 object-contain"
               />
             </div>
             
