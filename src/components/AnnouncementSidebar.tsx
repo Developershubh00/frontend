@@ -286,7 +286,7 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: 'https://www.ndtv.com/education/neet-pg-2025-scorecard-answer-key-released-download-directly-here-9181634'
     },
     {
-      id: 5,
+      id: 6,
       title: "NEET PG 2025: Counselling dates to be announced; 50% AIQ merit list released, with answer key and cutoff updates.",
       date: "2025-09-9T6:45:00Z",
       priority: 'medium',
