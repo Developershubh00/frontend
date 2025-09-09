@@ -264,7 +264,17 @@ const AnnouncementPage: React.FC = () => {
       is_active: true,
       created_at: "2025-09-09T00:00:00Z"
     },
-    
+    {
+      id: 8,
+      title: "NEET PG Counselling 2025 LIVE:",
+      content: "MCC to announce AIQ schedule amid Supreme Court case.",
+      date: "2025-09-09T10:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://timesofindia.indiatimes.com/education/news/neet-pg-2025-mcc-to-announce-50-aiq-counselling-schedule-soon-sc-hearing-awaited-check-details-here/articleshow/123765991.cms',
+      is_active: true,
+      created_at: "2025-09-09T10:00:00Z"
+    },
   ];
 
   const fetchAnnouncements = async () => {
