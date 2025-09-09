@@ -233,6 +233,27 @@ const LoginPage: React.FC = () => {
         <div className="bg-white/90 backdrop-blur-xl rounded-3xl shadow-2xl p-8 border border-white/30">
           {/* Logo and Header */}
           <div className="text-center mb-8">
+            <div className="relative w-full h-full flex items-center justify-center mb-6">
+              {/* Background blur/glass effect box */}
+            <div className="absolute inset-0 rounded-3xl bg-white/20 backdrop-blur-xl shadow-2xl ring-2 ring-blue-200"></div>
+    
+              {/* Logo */}
+               <img
+              src="/media/logo3.png"
+                alt="BD Logo"
+              className="relative w-40 h-28 object-contain drop-shadow-lg transition-transform duration-300 hover:scale-105"
+               />
+            </div>
+
+            <div className="space-y-2 mb-4">
+              <p className="text-slate-600 font-medium">
+            Consultancy for Career Counselling
+            </p>
+           </div>
+          </div>
+
+
+          {/* <div className="text-center mb-8">
             <div className="w-full h-full bg-white rounded-3xl flex items-center justify-center shadow-xl mx-auto mb-6 ring-2 ring-blue-100">
               <img
                 src="/media/logo3.png"
@@ -259,7 +280,7 @@ const LoginPage: React.FC = () => {
                 <div className="w-1 h-1 bg-slate-400 rounded-full"></div>
               </div> */}
             </div>
-          </div>
+          </div> */}
 
           {/* Error Message */}
           {error && (
