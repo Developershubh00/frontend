@@ -235,17 +235,17 @@ const LoginPage: React.FC = () => {
           <div className="text-center mb-8">
             <div className="w-16 h-16 bg-white rounded-3xl flex items-center justify-center shadow-xl mx-auto mb-6 ring-2 ring-blue-100">
               <img
-                src="/media/logo.png"
+                src="/media/logo3.png"
                 alt="BD Logo"
-                className="w-12 h-12 object-contain"
+                className="w-36 h-24 object-contain"
               />
             </div>
             
-            <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-400 to-blue-800 bg-clip-text text-transparent mb-3 leading-tight">
+            {/* <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-400 to-blue-800 bg-clip-text text-transparent mb-3 leading-tight">
               Believers
              
             </h1>
-            
+             */}
             <div className="space-y-2 mb-4">
               <p className="text-slate-600 font-medium">
                 Consultancy for Career Counselling
