@@ -241,7 +241,7 @@ const LoginPage: React.FC = () => {
                <img
               src="/media/logo3.png"
                 alt="BD Logo"
-              className="relative w-40 h-28 object-contain drop-shadow-lg transition-transform duration-300 hover:scale-105"
+              className="relative w-140 h-28 object-contain drop-shadow-lg transition-transform duration-300 hover:scale-105"
                />
             </div>
 
