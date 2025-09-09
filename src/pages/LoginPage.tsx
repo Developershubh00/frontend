@@ -237,7 +237,7 @@ const LoginPage: React.FC = () => {
               <img
                 src="/media/logo3.png"
                 alt="BD Logo"
-                className="w-full h-full object-contain"
+                className="w-100 h-30 object-contain"
               />
             </div>
             
