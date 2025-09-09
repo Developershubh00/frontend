@@ -286,20 +286,21 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: 'https://www.ndtv.com/education/neet-pg-2025-scorecard-answer-key-released-download-directly-here-9181634'
     },
     {
-      id: 6,
+      id: 1,
       title: "NEET PG 2025: Counselling dates to be announced; 50% AIQ merit list released, with answer key and cutoff updates.",
-      date: "2025-09-9T6:45:00Z",
+      date: "Sep 9,2025",
       priority: 'medium',
       category: 'NEET PG',
       link: 'https://timesofindia.indiatimes.com/education/news/neet-pg-2025-mcc-to-announce-50-aiq-counselling-schedule-soon-sc-hearing-awaited-check-details-here/articleshow/123765991.cms'
     },
-    // {
-    //   id: 5,
-    //   title: "Scholarship Application Deadline",
-    //   date: "2025-08-31T16:45:00Z",
-    //   priority: 'high',
-    //   category: 'Scholarship'
-    // }
+    {
+      id: 2,
+      title: "NEET PG Counselling 2025 LIVE: MCC to announce AIQ schedule amid Supreme Court case",
+      date: "Sep 9,2025",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://news.careers360.com/neet-pg-2025-counselling-live-mcc-nic-in-nbems-registration-choice-filling-aiq-seat-allotment-cutoff-supreme-court-hearing-updates'
+    },
   ];
 
   const fetchRecentAnnouncements = async () => {
