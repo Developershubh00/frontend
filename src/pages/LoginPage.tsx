@@ -243,13 +243,12 @@ const LoginPage: React.FC = () => {
             
             <h1 className="text-3xl font-bold bg-gradient-to-r from-blue-400 to-blue-800 bg-clip-text text-transparent mb-3 leading-tight">
               Believers
-              <br />
-              Consultancy
+             
             </h1>
             
             <div className="space-y-2 mb-4">
               <p className="text-slate-600 font-medium">
-                Platform for Career Counselling
+                Consultancy for Career Counselling
               </p>
               
               {/* <div className="flex items-center justify-center space-x-2">
