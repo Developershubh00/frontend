@@ -9,7 +9,8 @@ interface QuotaModalProps {
 }
 
 const QuotaModal: React.FC<QuotaModalProps> = ({ isOpen, onClose }) => {
-  const [tab, setTab] = useState<"UG" | "PG">("UG");
+  // const [tab, setTab] = useState<"UG" | "PG">("UG");
+  const [tab, setTab] = useState("PG");
 
   if (!isOpen) return null;
 
@@ -25,12 +26,12 @@ const QuotaModal: React.FC<QuotaModalProps> = ({ isOpen, onClose }) => {
         <h2 className="text-xl font-semibold mb-4 text-center text-black">Quota Information</h2>
 
         <div className="flex justify-center mb-4 space-x-4">
-          <button
+          {/* <button
             className={`px-4 py-2 rounded-lg font-medium ${tab === "UG" ? "bg-blue-500 text-white" : "bg-gray-200 text-gray-800"}`}
             onClick={() => setTab("UG")}
           >
             UG
-          </button>
+          </button> */}
           <button
             className={`px-4 py-2 rounded-lg font-medium ${tab === "PG" ? "bg-blue-500 text-white" : "bg-gray-200 text-gray-800"}`}
             onClick={() => setTab("PG")}
@@ -40,7 +41,8 @@ const QuotaModal: React.FC<QuotaModalProps> = ({ isOpen, onClose }) => {
         </div>
 
         <div className="overflow-y-auto max-h-[400px]">
-          {tab === "UG" ? <QuotaUG /> : <QuotaPG />}
+          {/* {tab === "UG" ? <QuotaUG /> : <QuotaPG />} */}
+          {tab === "PG" ? <QuotaPG /> : null}
         </div>
       </div>
     </div>
