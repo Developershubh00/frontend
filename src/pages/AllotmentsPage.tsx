@@ -1108,7 +1108,7 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
             {showAdvancedFilters && (
               <div className="space-y-3 border-t pt-3">
                 {/* Filter Row 1 */}
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
                   {/* Round Filter */}
                   {/* <select
                     value={selectedRound}
@@ -1174,6 +1174,13 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
                       </option>
                     ))}
                   </select>
+                  {/* Clear Filters Button */}
+                  <button
+                    onClick={clearAllFilters}
+                    className="px-4 py-2 border border-gray-300 text-gray-600 rounded-lg hover:bg-gray-50 transition-colors text-sm"
+                  >
+                    Clear All Filters
+                  </button>
 
                   {/* Results Count */}
                   <div className="flex items-center justify-center text-sm text-gray-600 bg-gray-50 rounded-lg px-3 py-2">
