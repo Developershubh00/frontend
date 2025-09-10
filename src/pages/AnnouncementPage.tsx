@@ -297,6 +297,17 @@ const AnnouncementPage: React.FC = () => {
       is_active: true,
       created_at: "2025-09-10T06:00:00Z"
     },
+    {
+      id: 11,
+      title: "Registration for Tamil Nadu NEET PG 2025",
+      content: "Registration for Tamil Nadu NEET PG 2025 has begun deadline to apply is September 16 on the official site.",
+      date: "2025-09-10T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://tnmedicalselection.net',
+      is_active: true,
+      created_at: "2025-09-10T08:00:00Z"
+    },
   ];
 
   const fetchAnnouncements = async () => {
