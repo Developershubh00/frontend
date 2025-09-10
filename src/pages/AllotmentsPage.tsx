@@ -1110,7 +1110,7 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
                 {/* Filter Row 1 */}
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                   {/* Round Filter */}
-                  <select
+                  {/* <select
                     value={selectedRound}
                     onChange={(e) => setSelectedRound(e.target.value)}
                     className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white"
@@ -1121,7 +1121,7 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
                         Round {round}
                       </option>
                     ))}
-                  </select>
+                  </select> */}
 
                   {/* State Filter */}
                   <select
@@ -1132,6 +1132,19 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
                     {states.map((state) => (
                       <option key={state} value={state}>
                         {state === "all" ? "All States" : state}
+                      </option>
+                    ))}
+                  </select>
+                  {/* Round Filter */}
+                  <select
+                    value={selectedRound}
+                    onChange={(e) => setSelectedRound(e.target.value)}
+                    className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white"
+                  >
+                    <option value="all">All Rounds</option>
+                    {rounds.filter(r => r !== "all").map((round) => (
+                      <option key={round} value={round}>
+                        Round {round}
                       </option>
                     ))}
                   </select>
