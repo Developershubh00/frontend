@@ -2200,9 +2200,9 @@ function Homepage() {
                 alt="BD Logo"
                  className="w-1auto h-16 object-contain"
                 />
-              {/* </div>
-                <span className="text-2xl font-bold">Believers Consultancy</span>
-              </div> */}
+              </div>
+                {/* <span className="text-2xl font-bold">Believers Consultancy</span> */}
+              </div>
               <p className="text-gray-400 mb-8 leading-relaxed">
                 Your ultimate guide to counselling. 100% free
                 access to all resources and expert guidance.
