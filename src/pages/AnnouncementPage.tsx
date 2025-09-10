@@ -284,7 +284,7 @@ const AnnouncementPage: React.FC = () => {
       category: 'NEET PG',
       link: 'https://news.careers360.com/neet-pg-2025-counselling-live-mcc-nic-in-nbems-registration-choice-filling-aiq-seat-allotment-cutoff-supreme-court-hearing-updates',
       is_active: true,
-      created_at: "2025-09-10T10:00:00Z"
+      created_at: "2025-09-10T06:00:00Z"
     },
     {
       id: 10,
@@ -295,7 +295,7 @@ const AnnouncementPage: React.FC = () => {
       category: 'NEET PG',
       link: 'https://www.jagranjosh.com/news/nbems-to-release-neet-pg-counselling-2025-soon-check-expected-release-date-updates-here-181133',
       is_active: true,
-      created_at: "2025-09-10T10:00:00Z"
+      created_at: "2025-09-10T06:00:00Z"
     },
   ];
 
