@@ -2191,14 +2191,14 @@ function Homepage() {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="col-span-1 md:col-span-1">
-              <div className="flex items-center space-x-3 mb-8">
+              <div className="flex items-center space-x-3 mb-4">
                 <div className="w-auto h-16 bg-white rounded-2xl flex items-center justify-center shadow-lg overflow-hidden">
                 <img
                 src="/media/logo4.png"
                 alt="BD Logo"
-                 className="w-1auto h-16 object-contain"
+                 className="w-auto h-16 object-contain"
                 />
               </div>
                 {/* <span className="text-2xl font-bold">Believers Consultancy</span> */}
