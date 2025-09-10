@@ -1161,6 +1161,19 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
                       </option>
                     ))}
                   </select>
+                  
+                  {/* Course Filter */}
+                  <select
+                    value={selectedCourse}
+                    onChange={(e) => setSelectedCourse(e.target.value)}
+                    className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white"
+                  >
+                    {courses.map((course) => (
+                      <option key={course} value={course}>
+                        {course === "all" ? "All Courses" : course}
+                      </option>
+                    ))}
+                  </select>
 
                   {/* Results Count */}
                   <div className="flex items-center justify-center text-sm text-gray-600 bg-gray-50 rounded-lg px-3 py-2">
@@ -1185,7 +1198,7 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
                   </select> */}
 
                   {/* Course Filter */}
-                  <select
+                  {/* <select
                     value={selectedCourse}
                     onChange={(e) => setSelectedCourse(e.target.value)}
                     className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white"
@@ -1195,7 +1208,7 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
                         {course === "all" ? "All Courses" : course}
                       </option>
                     ))}
-                  </select>
+                  </select> */}
                 </div>
 
                 {/* Rank Range and Actions */}
