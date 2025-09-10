@@ -2203,7 +2203,7 @@ function Homepage() {
               </div>
                 {/* <span className="text-2xl font-bold">Believers Consultancy</span> */}
               </div>
-              <p className="text-gray-400 mb-8 leading-relaxed">
+              <p className="text-gray-400 mb-2 leading-relaxed">
                 Your ultimate guide to counselling. 100% free
                 access to all resources and expert guidance.
               </p>
