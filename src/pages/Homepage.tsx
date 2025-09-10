@@ -1531,13 +1531,13 @@ function Homepage() {
             {/* Desktop Menu */}
             <div className="hidden md:flex items-center space-x-8 ml-auto">
               <div className="flex items-center space-x-8">
-                <a
+                {/* <a
                   href="#testimonials"
                   className="text-gray-700 hover:text-blue-600 transition-all duration-300 font-medium relative group"
                 >
                   Testimonials
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
-                </a>
+                </a> */}
                 <a
                   onClick={() => navigate("/blog")}
                   className="text-gray-700 hover:text-blue-600 transition-all duration-300 font-medium relative group"
@@ -2219,20 +2219,20 @@ function Homepage() {
               <h3 className="font-bold text-xl mb-6">QUICK LINKS</h3>
               <ul className="space-y-3 text-gray-400">
                 <li>
-                  <a
+                  {/* <a
                     href="#"
                     className="hover:text-white transition-colors hover:text-blue-400"
                   >
                     Testimonials
-                  </a>
+                  </a> */}
                 </li>
                 <li>
-                  <a
+                  {/* <a
                     href="#"
                     className="hover:text-white transition-colors hover:text-blue-400"
                   >
                     Blog
-                  </a>
+                  </a> */}
                 </li>
                 <li>
                   <a
