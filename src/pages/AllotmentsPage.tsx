@@ -1188,66 +1188,7 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
                     <span className="ml-1">results</span>
                   </div>
                 </div>
-
-                {/* Filter Row 2 */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                  {/* Institute Filter */}
-                  {/* <select
-                    value={selectedInstitute}
-                    onChange={(e) => setSelectedInstitute(e.target.value)}
-                    className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white"
-                  >
-                    {institutes.map((institute) => (
-                      <option key={institute} value={institute}>
-                        {institute === "all" ? "All Institutes" : institute}
-                      </option>
-                    ))}
-                  </select> */}
-
-                  {/* Course Filter */}
-                  {/* <select
-                    value={selectedCourse}
-                    onChange={(e) => setSelectedCourse(e.target.value)}
-                    className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white"
-                  >
-                    {courses.map((course) => (
-                      <option key={course} value={course}>
-                        {course === "all" ? "All Courses" : course}
-                      </option>
-                    ))}
-                  </select> */}
                 </div>
-
-                {/* Rank Range and Actions */}
-                 <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
-                  {/* <div className="flex gap-2">
-                    <input
-                      type="number"
-                      placeholder="Min Rank"
-                      value={rankRange.min}
-                      onChange={(e) => setRankRange({...rankRange, min: e.target.value})}
-                      className="w-full px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
-                    />
-                    <input
-                      type="number"
-                      placeholder="Max Rank"
-                      value={rankRange.max}
-                      onChange={(e) => setRankRange({...rankRange, max: e.target.value})}
-                      className="w-full px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
-                    />
-                  </div> */}
-
-                  {/* Clear Filters Button */}
-                  <button
-                    onClick={clearAllFilters}
-                    className="px-4 py-2 border border-gray-300 text-gray-600 rounded-lg hover:bg-gray-50 transition-colors text-sm"
-                  >
-                    Clear All Filters
-                  </button>
-
-                  <div></div> {/* Empty div for grid alignment */}
-                </div>
-              </div>
             )}
           </div>
         </div>
