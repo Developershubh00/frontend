@@ -2194,17 +2194,16 @@ function Homepage() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
             <div className="col-span-1 md:col-span-1">
               <div className="flex items-center space-x-3 mb-8">
-                <div className="w-10 h-10 bg-white rounded-2xl flex items-center justify-center shadow-lg overflow-hidden">
+                <div className="w-auto h-16 bg-white rounded-2xl flex items-center justify-center shadow-lg overflow-hidden">
                 <img
-                src="/media/logo.png"
+                src="/media/log4.png"
                 alt="BD Logo"
-                 className="w-10 h-10 object-contain"
+                 className="w-1auto h-16 object-contain"
                 />
-              </div>
+              {/* </div>
                 <span className="text-2xl font-bold">Believers Consultancy</span>
-              </div>
+              </div> */}
               <p className="text-gray-400 mb-8 leading-relaxed">
-                Powered by Believers Destination
                 Your ultimate guide to counselling. 100% free
                 access to all resources and expert guidance.
               </p>
