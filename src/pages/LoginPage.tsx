@@ -248,7 +248,7 @@ const LoginPage: React.FC = () => {
              */}
             <div className="space-y-2 mb-4">
               <p className="text-slate-600 font-medium tracking-wide">
-                Consultancy for Career Counselling
+                Consultancy for Career Excellence
               </p>
               
               {/* <div className="flex items-center justify-center space-x-2">
