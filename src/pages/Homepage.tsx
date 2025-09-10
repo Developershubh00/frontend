@@ -2196,7 +2196,7 @@ function Homepage() {
               <div className="flex items-center space-x-3 mb-8">
                 <div className="w-auto h-16 bg-white rounded-2xl flex items-center justify-center shadow-lg overflow-hidden">
                 <img
-                src="/media/log4.png"
+                src="/media/logo4.png"
                 alt="BD Logo"
                  className="w-1auto h-16 object-contain"
                 />
