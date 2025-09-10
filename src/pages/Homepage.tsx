@@ -1512,7 +1512,7 @@ function Homepage() {
               {/* <div className="w-52 h-16 bg-white rounded-2xl flex items-center justify-center shadow-lg overflow-hidden"> */}
               <div className="flex items-center">
                 <img
-                  src="/media/logo2.png"
+                  src="/media/logo3.png"
                   alt="BD Logo"
                   className="h-14 w-auto object-contain"
                 />
