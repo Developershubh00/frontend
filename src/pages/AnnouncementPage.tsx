@@ -209,28 +209,28 @@ const AnnouncementPage: React.FC = () => {
       is_active: true,
       created_at: "2025-09-05T16:45:00Z"
     },
-    {
-      id: 3,
-      title: "Gujarat NEET PG counselling 2025 opens for registration/PIN; tie‑breaking used for 211 applicants",
-      content: "Gujarat NEET PG counselling 2025 registration has commenced. Candidates can register and obtain their PIN. Tie-breaking procedures have been implemented for 211 applicants with similar scores.",
-      date: "2025-09-05T09:45:00Z",
-      priority: 'high',
-      category: 'NEET PG',
-      link: 'https://www.medadmgujarat.org/pg/home.aspx',
-      is_active: true,
-      created_at: "2025-09-05T09:45:00Z"
-    },
-    {
-      id: 4,
-      title: "NEET PG 2025 Counselling Dates & Schedule Soon; SC to Hear 'Transparency' Plea Today",
-      content: "NEET PG 2025 counselling dates and schedule are expected to be announced soon. The Supreme Court is scheduled to hear a transparency plea related to the counselling process today.",
-      date: "2025-09-04T00:00:00Z",
-      priority: 'high',
-      category: 'NEET PG',
-      link: '',
-      is_active: true,
-      created_at: "2025-09-04T00:00:00Z"
-    },
+    // {
+    //   id: 3,
+    //   title: "Gujarat NEET PG counselling 2025 opens for registration/PIN; tie‑breaking used for 211 applicants",
+    //   content: "Gujarat NEET PG counselling 2025 registration has commenced. Candidates can register and obtain their PIN. Tie-breaking procedures have been implemented for 211 applicants with similar scores.",
+    //   date: "2025-09-05T09:45:00Z",
+    //   priority: 'high',
+    //   category: 'NEET PG',
+    //   link: 'https://www.medadmgujarat.org/pg/home.aspx',
+    //   is_active: true,
+    //   created_at: "2025-09-05T09:45:00Z"
+    // },
+    // {
+    //   id: 4,
+    //   title: "NEET PG 2025 Counselling Dates & Schedule Soon; SC to Hear 'Transparency' Plea Today",
+    //   content: "NEET PG 2025 counselling dates and schedule are expected to be announced soon. The Supreme Court is scheduled to hear a transparency plea related to the counselling process today.",
+    //   date: "2025-09-04T00:00:00Z",
+    //   priority: 'high',
+    //   category: 'NEET PG',
+    //   link: '',
+    //   is_active: true,
+    //   created_at: "2025-09-04T00:00:00Z"
+    // },
     {
       id: 5,
       title: "NEET PG 2025 scorecards are now live on the NBEMS portal; candidates may log in to view and download their scorecard/response sheet",
@@ -275,17 +275,17 @@ const AnnouncementPage: React.FC = () => {
       is_active: true,
       created_at: "2025-09-09T10:00:00Z"
     },
-    {
-      id: 9,
-      title: "NEET PG 2025 Counselling Updates:",
-      content: "Supreme Court to review transparency petition on Sept 12; MCC Round 1 schedule awaited.",
-      date: "2025-09-10T04:00:00Z",
-      priority: 'high',
-      category: 'NEET PG',
-      link: 'https://news.careers360.com/neet-pg-2025-counselling-live-mcc-nic-in-nbems-registration-choice-filling-aiq-seat-allotment-cutoff-supreme-court-hearing-updates',
-      is_active: true,
-      created_at: "2025-09-10T06:00:00Z"
-    },
+    // {
+    //   id: 9,
+    //   title: "NEET PG 2025 Counselling Updates:",
+    //   content: "Supreme Court to review transparency petition on Sept 12; MCC Round 1 schedule awaited.",
+    //   date: "2025-09-10T04:00:00Z",
+    //   priority: 'high',
+    //   category: 'NEET PG',
+    //   link: 'https://news.careers360.com/neet-pg-2025-counselling-live-mcc-nic-in-nbems-registration-choice-filling-aiq-seat-allotment-cutoff-supreme-court-hearing-updates',
+    //   is_active: true,
+    //   created_at: "2025-09-10T06:00:00Z"
+    // },
     {
       id: 10,
       title: "NBEMS:",
