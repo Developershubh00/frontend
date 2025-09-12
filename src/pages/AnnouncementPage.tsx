@@ -332,6 +332,18 @@ const AnnouncementPage: React.FC = () => {
       source: 'TN MEDICAL',
       created_at: "2025-09-10T08:00:00Z"
     },
+    {
+      id: 13,
+      title: "CEE Kerala ",
+      content: "CEE Kerala begins NEET PG 2025 counselling registration for 50% state‑quota MD/MS seats.",
+      date: "2025-09-12T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://timesofindia.indiatimes.com/education/news/kerala-neet-pg-2025-counselling-registration-opens-for-50-state-quota-seats-apply-here/articleshow/123848766.cms',
+      is_active: true,
+      source: 'Times Of India',
+      created_at: "2025-09-12T08:00:00Z"
+    },
   ];
 
   const fetchAnnouncements = async () => {
