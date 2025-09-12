@@ -196,7 +196,7 @@ const AnnouncementPage: React.FC = () => {
       priority: 'medium',
       category: 'NEET PG',
       link: 'https://indianexpress.com/article/education/neet-pg-2025-final-answer-key-supreme-court-plea-response-sheets-natboard-edu-in-nbems-10218766/',
-      source: 'Jagran Josh',  // <-- here
+      source: 'Indian Express',  // <-- here
       is_active: true,
       created_at: "2025-09-06T00:00:00Z"
     },
@@ -209,6 +209,7 @@ const AnnouncementPage: React.FC = () => {
       category: 'NEET PG',
       link: 'https://www.jagranjosh.com/news/neet-pg-2025-live-nbems-release-today-scorecard-for-50-percent-aiq-seats-at-natboard-edu-in-direct-link-here-lb-106148',
       is_active: true,
+      source: 'Jagran Josh',
       created_at: "2025-09-05T16:45:00Z"
     },
     // {
@@ -242,6 +243,7 @@ const AnnouncementPage: React.FC = () => {
       category: 'NEET PG',
       link: 'https://www.ndtv.com/education/neet-pg-2025-scorecard-answer-key-released-download-directly-here-9181634',
       is_active: true,
+      source: 'NDTV',
       created_at: "2025-08-29T00:00:00Z"
     },
     {
@@ -253,6 +255,7 @@ const AnnouncementPage: React.FC = () => {
       category: 'NEET PG',
       link: 'https://www.jagranjosh.com/news/neet-pg-2025-live-nbems-release-today-scorecard-for-50-percent-aiq-seats-at-natboard-edu-in-direct-link-here-lb-106148',
       is_active: true,
+      source: 'Jagran Josh',
       created_at: "2025-09-05T00:00:00Z"
     },
     {
@@ -264,6 +267,7 @@ const AnnouncementPage: React.FC = () => {
       category: 'NEET PG',
       link: 'https://timesofindia.indiatimes.com/education/news/neet-pg-2025-mcc-to-announce-50-aiq-counselling-schedule-soon-sc-hearing-awaited-check-details-here/articleshow/123765991.cms',
       is_active: true,
+      source: 'Times Of India',
       created_at: "2025-09-09T00:00:00Z"
     },
     {
@@ -275,6 +279,7 @@ const AnnouncementPage: React.FC = () => {
       category: 'NEET PG',
       link: 'https://timesofindia.indiatimes.com/education/news/neet-pg-2025-mcc-to-announce-50-aiq-counselling-schedule-soon-sc-hearing-awaited-check-details-here/articleshow/123765991.cms',
       is_active: true,
+      source: 'Times Of India',
       created_at: "2025-09-09T10:00:00Z"
     },
     // {
@@ -297,6 +302,7 @@ const AnnouncementPage: React.FC = () => {
       category: 'NEET PG',
       link: 'https://www.jagranjosh.com/news/nbems-to-release-neet-pg-counselling-2025-soon-check-expected-release-date-updates-here-181133',
       is_active: true,
+      source: 'Jagran Josh',
       created_at: "2025-09-10T06:00:00Z"
     },
     {
@@ -308,6 +314,7 @@ const AnnouncementPage: React.FC = () => {
       category: 'NEET PG',
       link: 'https://tnmedicalselection.net',
       is_active: true,
+      source: 'TN MEDICAL',
       created_at: "2025-09-10T08:00:00Z"
     },
   ];
@@ -458,7 +465,7 @@ const AnnouncementPage: React.FC = () => {
                     <span className="text-xs text-gray-400">
                       Posted on {formatDate(announcement.created_at || announcement.date)}
                     </span>
-
+                  <div className="flex items-center space-x-3">
                     {announcement.source && (
                      <span className="text-xs text-gray-500 italic">
                       Source: {announcement.source}
@@ -476,6 +483,7 @@ const AnnouncementPage: React.FC = () => {
                     {/* <span className="text-xs text-gray-400">
                       Posted on {formatDate(announcement.created_at || announcement.date)}
                     </span> */}
+                  </div>
                   </div>
                 </div>
               </div>
