@@ -459,7 +459,7 @@ const AnnouncementPage: React.FC = () => {
                       Posted on {formatDate(announcement.created_at || announcement.date)}
                     </span>
 
-                     {announcement.source && (
+                    {announcement.source && (
                      <span className="text-xs text-gray-500 italic">
                       Source: {announcement.source}
                       </span>
