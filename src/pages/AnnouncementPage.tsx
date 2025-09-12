@@ -453,9 +453,9 @@ const AnnouncementPage: React.FC = () => {
                   </div>
                   
                   <div className="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between">
-                    <span className="text-xs text-gray-400">
+                    {/* <span className="text-xs text-gray-400">
                       Posted on {formatDate(announcement.created_at || announcement.date)}
-                    </span>
+                    </span> */}
                     {announcement.link && (
                       <button 
                         onClick={() => handleLinkClick(announcement.link!)}
@@ -465,6 +465,9 @@ const AnnouncementPage: React.FC = () => {
                         <ExternalLink className="w-4 h-4" />
                       </button>
                     )}
+                    <span className="text-xs text-gray-400">
+                      Posted on {formatDate(announcement.created_at || announcement.date)}
+                    </span>
                   </div>
                 </div>
               </div>
