@@ -178,6 +178,7 @@ interface Announcement {
   is_active?: boolean;
   created_at?: string;
   link?: string;
+  source?: string;
 }
 
 const AnnouncementPage: React.FC = () => {
@@ -195,6 +196,7 @@ const AnnouncementPage: React.FC = () => {
       priority: 'medium',
       category: 'NEET PG',
       link: 'https://indianexpress.com/article/education/neet-pg-2025-final-answer-key-supreme-court-plea-response-sheets-natboard-edu-in-nbems-10218766/',
+      source: 'Jagran Josh',  // <-- here
       is_active: true,
       created_at: "2025-09-06T00:00:00Z"
     },
@@ -456,6 +458,12 @@ const AnnouncementPage: React.FC = () => {
                     <span className="text-xs text-gray-400">
                       Posted on {formatDate(announcement.created_at || announcement.date)}
                     </span>
+
+                     {announcement.source && (
+                     <span className="text-xs text-gray-500 italic">
+                      Source: {announcement.source}
+                      </span>
+                      )}
                     {announcement.link && (
                       <button 
                         onClick={() => handleLinkClick(announcement.link!)}
