@@ -233,6 +233,7 @@ interface AnnouncementSummary {
   priority: 'low' | 'medium' | 'high';
   category: string;
   link?: string;
+  source?: string;
 }
 
 interface AnnouncementSidebarProps {
@@ -245,84 +246,121 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
 
   // Mock data with your NEET PG announcement
   const mockAnnouncements: AnnouncementSummary[] = [
-    {
+     {
       id: 1,
+      title: "NEET PG Counselling 2025: How and where to find the counselling timetable once it’s announced.",
+      date: "Sep 11,2025",
+      priority: 'medium',
+      category: 'NEET PG',
+      source: 'hindustan Times',
+      link: 'https://www.hindustantimes.com/education/admissions/neet-pg-counselling-2025-news-live-mcc-counselling-schedule-round-1-direct-link-seat-allotment-how-to-apply-mcc-nic-in-101757478660284.html'
+    },
+    {
+      id: 2,
+      title: "NEET PG 2025 counselling dates coming soon; Supreme Court hears ‘transparency’ plea today.",
+      date: "Sep 11,2025",
+      priority: 'medium',
+      category: 'NEET PG',
+      source: 'Times OF India',
+      link: 'https://timesofindia.indiatimes.com/education/news/neet-pg-2025-supreme-court-to-hear-transparency-plea-tomorrow-mcc-counselling-schedule-for-50-aiq-seats-expected-soon/articleshow/123821856.cms'
+    },
+     {
+      id: 3,
+      title: "Supreme Court to take up NEET PG 2025 transparency case tomorrow as MCC readies 50% AIQ counselling timeline.",
+      date: "Sep 10,2025",
+      priority: 'medium',
+      category: 'NEET PG',
+      source: 'Times of India',
+      link: 'https://www.news18.com/education-career/supreme-court-to-hear-neet-pg-2025-exam-transparency-pleas-on-sept-12-9563884.html'
+    },
+    {
+      id: 4,
       title: "Registration for Tamil Nadu NEET PG 2025 has begun; deadline to apply is September 16 on the official site.",
       date: "Sep 10,2025",
       priority: 'medium',
       category: 'NEET PG',
+      source: 'TN Medical',
       link: 'https://tnmedicalselection.net'
     },
     {
-      id: 2,
+      id: 5,
       title: "NBEMS to Release NEET PG Counselling 2025 Soon, Check Expected Release Date, Updates here",
       date: "Sep 10,2025",
       priority: 'medium',
       category: 'NEET PG',
+      source: 'Jagran Josh',
       link: 'https://www.jagranjosh.com/news/nbems-to-release-neet-pg-counselling-2025-soon-check-expected-release-date-updates-here-181133'
     },
+    // {
+    //   id: 3,
+    //   title: "NEET PG 2025 Counselling Updates: Supreme Court to review transparency petition on Sept 12; MCC Round 1 schedule awaited",
+    //   date: "Sep 10,2025",
+    //   priority: 'medium',
+    //   category: 'NEET PG',
+    //   source: 'Times Of India',
+    //   link: 'https://news.careers360.com/neet-pg-2025-counselling-live-mcc-nic-in-nbems-registration-choice-filling-aiq-seat-allotment-cutoff-supreme-court-hearing-updates'
+    // },
     {
-      id: 3,
-      title: "NEET PG 2025 Counselling Updates: Supreme Court to review transparency petition on Sept 12; MCC Round 1 schedule awaited",
-      date: "Sep 10,2025",
-      priority: 'medium',
-      category: 'NEET PG',
-      link: 'https://news.careers360.com/neet-pg-2025-counselling-live-mcc-nic-in-nbems-registration-choice-filling-aiq-seat-allotment-cutoff-supreme-court-hearing-updates'
-    },
-    {
-      id: 4,
+      id: 6,
       title: "NEET PG 2025: Counselling dates to be announced; 50% AIQ merit list released, with answer key and cutoff updates.",
       date: "Sep 9,2025",
       priority: 'medium',
       category: 'NEET PG',
+      source: 'Times Of India',
       link: 'https://timesofindia.indiatimes.com/education/news/neet-pg-2025-mcc-to-announce-50-aiq-counselling-schedule-soon-sc-hearing-awaited-check-details-here/articleshow/123765991.cms'
     },
+    // {
+    //   id: 5,
+    //   title: "NEET PG Counselling 2025 LIVE: MCC to announce AIQ schedule amid Supreme Court case",
+    //   date: "Sep 9,2025",
+    //   priority: 'high',
+    //   category: 'NEET PG',
+    //   source: 'Times Of India',
+    //   link: 'https://news.careers360.com/neet-pg-2025-counselling-live-mcc-nic-in-nbems-registration-choice-filling-aiq-seat-allotment-cutoff-supreme-court-hearing-updates'
+    // },
     {
-      id: 5,
-      title: "NEET PG Counselling 2025 LIVE: MCC to announce AIQ schedule amid Supreme Court case",
-      date: "Sep 9,2025",
-      priority: 'high',
-      category: 'NEET PG',
-      link: 'https://news.careers360.com/neet-pg-2025-counselling-live-mcc-nic-in-nbems-registration-choice-filling-aiq-seat-allotment-cutoff-supreme-court-hearing-updates'
-    },
-    {
-      id: 6,
+      id: 7,
       title: "NEET PG 2025: Supreme Court declines to pause counselling; transparency plea listed for hearing next week.",
       date: "Sep 6, 2025",
       priority: 'medium',
       category: 'NEET PG',
+      source: 'Indian Express',
       link: 'https://indianexpress.com/article/education/neet-pg-2025-final-answer-key-supreme-court-plea-response-sheets-natboard-edu-in-nbems-10218766/'
     },
     {
-      id: 7,
+      id: 8,
       title: "NEET PG merit list for 50% AIQ seats out; counselling schedule to follow",
       date: "Sep 5, 2025",
       priority: 'medium',
       category: 'NEET PG',
+      source: 'Jagran Josh',
       link: 'https://www.jagranjosh.com/news/neet-pg-2025-live-nbems-release-today-scorecard-for-50-percent-aiq-seats-at-natboard-edu-in-direct-link-here-lb-106148'
     },
     {
-      id: 8,
+      id: 9,
       title: "Gujarat NEET PG counselling 2025 opens for registration/PIN; tie‑breaking used for 211 applicants.",
       date: "Sep 5, 2025",
       priority: 'high',
       category: 'NEET PG',
+      source: 'Medad Gujarat',
       link: ' https://www.medadmgujarat.org/pg/home.aspx'
     },
     {
-      id: 9,
+      id: 10,
       title: "NEET PG 2025 Counselling Dates & Schedule Soon; SC to Hear 'Transparency' Plea Today",
       date: "Sep 4, 2025",
       priority: 'high',
       category: 'NEET PG',
+      source: 'Times Of India',
       link: ''
     },
     {
-      id: 10,
+      id: 11,
       title: "NEET PG 2025 scorecards are now live on the NBEMS portal; candidates may log in to view and download their scorecard/response sheet.",
       date: "Aug 29,2025",
       priority: 'medium',
       category: 'NEET PG',
+      source: 'NDTV',
       link: 'https://www.ndtv.com/education/neet-pg-2025-scorecard-answer-key-released-download-directly-here-9181634'
     },
     // {
@@ -480,6 +518,13 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
                         <div className="text-[10px] text-gray-300 mt-1">
                           {formatDate(announcement.date)}
                         </div>
+                        <div className="flex items-center space-x-3">
+                          {announcement.source && (
+                          <span className="text-xs text-gray-500 italic">
+                           Source: {announcement.source}
+                          </span>
+                          )}
+                      </div>
                       </div>
                     </div>
                   </div>
