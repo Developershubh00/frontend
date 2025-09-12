@@ -520,7 +520,7 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
                         </div>
                         <div className="flex items-center space-x-3">
                           {announcement.source && (
-                          <span className="text-xs text-gray-500 italic">
+                          <span className="text-[10px] text-gray-500 italic">
                            Source: {announcement.source}
                           </span>
                           )}
