@@ -344,6 +344,18 @@ const AnnouncementPage: React.FC = () => {
       source: 'Times Of India',
       created_at: "2025-09-12T08:00:00Z"
     },
+    {
+      id: 14,
+      title: "NEET PG  ",
+      content: "NEET PG Supreme Court hearing deferred by two weeks: when to expect the next date.",
+      date: "2025-09-13T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://timesofindia.indiatimes.com/education/news/kerala-neet-pg-2025-counselling-registration-opens-for-50-state-quota-seats-apply-here/articleshow/123848766.cms',
+      is_active: true,
+      source: 'Times Of India',
+      created_at: "2025-09-13T08:00:00Z"
+    },
   ];
 
   const fetchAnnouncements = async () => {
