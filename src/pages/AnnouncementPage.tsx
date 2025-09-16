@@ -356,6 +356,18 @@ const AnnouncementPage: React.FC = () => {
       source: 'Times Of India',
       created_at: "2025-09-13T08:00:00Z"
     },
+    {
+      id: 15,
+      title: "MCC Yet to Announce NEET PG 2025 Counselling Schedule- Here's How to Check  ",
+      content: "The official NEET PG 2025 AIQ counselling schedule from MCC is still awaited. Candidates must monitor mcc.nic.in for the official PDF and dates.",
+      date: "2025-09-16T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.hindustantimes.com/education/admissions/neet-pg-counselling-schedule-2025-live-update-check-and-download-mcc-nic-in-neet-counselling-schedule-pdf-direct-link-101757917204348.html',
+      is_active: true,
+      source: 'hindustan times',
+      created_at: "2025-09-16T08:00:00Z"
+    },
   ];
 
   const fetchAnnouncements = async () => {
