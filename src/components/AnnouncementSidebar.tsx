@@ -409,7 +409,12 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       
       // Using mock data for now
       setTimeout(() => {
-        setAnnouncements(mockAnnouncements);
+        // Sort before setting state (newest first)
+      const sorted = [...mockAnnouncements].sort(
+        (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+      );
+
+        setAnnouncements(sorted);
         setLoading(false);
       }, 1000);
       
@@ -462,6 +467,8 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       onAnnouncementClick(announcement.id);
     }
   };
+
+  
 
   return (
     <div className="bg-white rounded-2xl shadow-xl p-6 h-fit max-h-[400px] flex flex-col">
