@@ -650,7 +650,7 @@ const ChoiceLists: React.FC = () => {
   const fetchColleges = async () => {
     try {
       setLoading(true);
-      const response = await fetch('/api/colleges/');
+      const response = await fetch('/api/choice-list/');
       if (!response.ok) throw new Error('Failed to fetch colleges');
       const data = await response.json();
       setColleges(data.results || []);
