@@ -1680,7 +1680,7 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
 
             <button
               onClick={() => {
-                setSelectedRound("all");
+                setSelectedRound("1");
                 setCurrentPage(1);
               }}
               className={`px-4 py-2 text-sm font-medium rounded-full transition-colors ${
