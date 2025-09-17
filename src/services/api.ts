@@ -130,6 +130,13 @@ export const authAPI = {
     return api.put("/auth/profile/", mappedData);
   },
 };
+// Allotments API (separate instance if needed)
+const API_BASE = "http://localhost:8000/"; // update if different
+
+export const getAllotments = async (params: any = {}) => {
+  const response = await axios.get(`${API_BASE}/get-allotments/`, { params });
+  return response.data;
+};
 
 // Medical Colleges API
 export const collegesAPI = {
@@ -166,69 +173,69 @@ export const neetAPI = {
     course?: string;
     category?: string;
     year?: number;
-  }) => api.get("/neet/closing-ranks/", { params }),
+  }) => api.get("/get-closingranks/", { params }),
 
   getSeatMatrix: (params?: { state?: string; quota?: string; year?: number }) =>
-    api.get("/neet/seat-matrix/", { params }),
+    api.get("/get-seat-matrix/", { params }),
 
   getFeeStructure: (params?: {
     college?: string;
     state?: string;
     type?: string;
-  }) => api.get("/neet/fee-structure/", { params }),
+  }) => api.get("/get-fee-structure/", { params }),
 };
 
 // Allotments APIs
-export const allotmentsAPI = {
-  getUGAllotments: (filters: any = {}) => {
-    const params = new URLSearchParams(filters);
-    return api.get(`/allotments/ug/?${params}`);
-  },
+// export const allotmentsAPI = {
+//   getUGAllotments: (filters: any = {}) => {
+//     const params = new URLSearchParams(filters);
+//     return api.get(`/allotments/ug/?${params}`);
+//   },
   
-  getPGAllotments: (filters: any = {}) => {
-    const params = new URLSearchParams(filters);
-    return api.get(`/allotments/pg/?${params}`);
-  },
-};
+//   getPGAllotments: (filters: any = {}) => {
+//     const params = new URLSearchParams(filters);
+//     return api.get(`/allotments/pg/?${params}`);
+//   },
+// };
 
-// Closing Ranks APIs
-export const closingRanksAPI = {
-  getUGClosingRanks: (filters: any = {}) => {
-    const params = new URLSearchParams(filters);
-    return api.get(`/closing-ranks/ug/?${params}`);
-  },
+// // Closing Ranks APIs
+// export const closingRanksAPI = {
+//   getUGClosingRanks: (filters: any = {}) => {
+//     const params = new URLSearchParams(filters);
+//     return api.get(`/closing-ranks/ug/?${params}`);
+//   },
   
-  getPGClosingRanks: (filters: any = {}) => {
-    const params = new URLSearchParams(filters);
-    return api.get(`/closing-ranks/pg/?${params}`);
-  },
-};
+//   getPGClosingRanks: (filters: any = {}) => {
+//     const params = new URLSearchParams(filters);
+//     return api.get(`/closing-ranks/pg/?${params}`);
+//   },
+// };
 
-// Seat Matrix APIs
-export const seatMatrixAPI = {
-  getUGSeatMatrix: (filters: any = {}) => {
-    const params = new URLSearchParams(filters);
-    return api.get(`/seat-matrix/ug/?${params}`);
-  },
+// // Seat Matrix APIs
+// export const seatMatrixAPI = {
+//   getUGSeatMatrix: (filters: any = {}) => {
+//     const params = new URLSearchParams(filters);
+//     return api.get(`/seat-matrix/ug/?${params}`);
+//   },
   
-  getPGSeatMatrix: (filters: any = {}) => {
-    const params = new URLSearchParams(filters);
-    return api.get(`/seat-matrix/pg/?${params}`);
-  },
-};
+//   getPGSeatMatrix: (filters: any = {}) => {
+//     const params = new URLSearchParams(filters);
+//     return api.get(`/seat-matrix/pg/?${params}`);
+//   },
+// };
 
-// Fee, Stipend & Bond APIs
-export const feeStipendBondAPI = {
-  getUGFeeData: (filters: any = {}) => {
-    const params = new URLSearchParams(filters);
-    return api.get(`/fee-stipend-bond/ug/?${params}`);
-  },
+// // Fee, Stipend & Bond APIs
+// export const feeStipendBondAPI = {
+//   getUGFeeData: (filters: any = {}) => {
+//     const params = new URLSearchParams(filters);
+//     return api.get(`/fee-stipend-bond/ug/?${params}`);
+//   },
   
-  getPGFeeData: (filters: any = {}) => {
-    const params = new URLSearchParams(filters);
-    return api.get(`/fee-stipend-bond/pg/?${params}`);
-  },
-};
+//   getPGFeeData: (filters: any = {}) => {
+//     const params = new URLSearchParams(filters);
+//     return api.get(`/fee-stipend-bond/pg/?${params}`);
+//   },
+// };
 
 // // Colleges APIs
 // export const collegesAPI = {
@@ -296,12 +303,12 @@ export const counsellingAPI = {
 
 // Predictor API
 export const predictorAPI = {
-  predictUG: (data: {
-    rank: number;
-    category: string;
-    state: string;
-    quota: string;
-  }) => api.post("/predictor/ug/", data),
+  // predictUG: (data: {
+  //   rank: number;
+  //   category: string;
+  //   state: string;
+  //   quota: string;
+  // }) => api.post("/predictor/ug/", data),
 
   predictPG: (data: {
     rank: number;
