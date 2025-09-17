@@ -1462,7 +1462,7 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
   
     try {
       console.log('Making API request with params:', queryParams.toString());
-      const response = await fetch(`http://127.0.0.1:8000/get-allotments/?${queryParams.toString()}`);
+      const response = await fetch(`https://backend-dju9.onrender.com/get-allotments/?${queryParams.toString()}`);
       
       if (!response.ok) {
         console.error(`API returned status ${response.status}`);
