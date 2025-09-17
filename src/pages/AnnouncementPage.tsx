@@ -368,6 +368,30 @@ const AnnouncementPage: React.FC = () => {
       source: 'hindustan times',
       created_at: "2025-09-16T08:00:00Z"
     },
+    {
+      id: 16,
+      title: "Deadline Today: Tamil Nadu NEET PG 2025 Counselling Applications Close at 5 PM",
+      content: "Deadline Today: Tamil Nadu NEET PG 2025 Counselling Applications Close at 5 PMTN NEET PG 2025: Final Call for State Counselling Registration",
+      date: "2025-09-16T10:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://timesofindia.indiatimes.com/education/news/tamil-nadu-neet-pg-2025-counselling-registration-closes-at-5-pm-today-at-tnmedicalselection-net/articleshow/123913827.cms',
+      is_active: true,
+      source: 'Times Of India',
+      created_at: "2025-09-16T10:00:00Z"
+    },
+    // {
+    //   id: 15,
+    //   title: "MCC Yet to Announce NEET PG 2025 Counselling Schedule- Here's How to Check  ",
+    //   content: "The official NEET PG 2025 AIQ counselling schedule from MCC is still awaited. Candidates must monitor mcc.nic.in for the official PDF and dates.",
+    //   date: "2025-09-16T08:00:00Z",
+    //   priority: 'high',
+    //   category: 'NEET PG',
+    //   link: 'https://www.hindustantimes.com/education/admissions/neet-pg-counselling-schedule-2025-live-update-check-and-download-mcc-nic-in-neet-counselling-schedule-pdf-direct-link-101757917204348.html',
+    //   is_active: true,
+    //   source: 'hindustan times',
+    //   created_at: "2025-09-16T08:00:00Z"
+    // },
   ];
 
   const fetchAnnouncements = async () => {
