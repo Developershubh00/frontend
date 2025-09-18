@@ -1515,3 +1515,810 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
 };
 
 export default SeatMatrixPage;
+
+// import React, { useState, useEffect } from "react";
+// import { ArrowLeft, BarChart3, Search, Filter, X, ChevronDown, SortAsc as Sort, Heart, ChevronLeft, ChevronRight } from "lucide-react";
+
+// interface SeatMatrixPageProps {
+//   onBack: () => void;
+// }
+
+// interface SeatMatrixData {
+//   Round: string;
+//   Quota: string;
+//   Category: string;
+//   State: string;
+//   Institute: string;
+//   Course: string;
+//   Seats: number;
+//   Fee_Stipend_Year_1: number;
+//   Bond_Years: number;
+//   Bond_Penalty: number;
+//   Beds: number;
+//   CR_2023_1: number;
+//   CR_2023_2: number;
+//   CR_2023_3: number;
+//   CR_2023_4: number;
+//   CR_2023_5: number;
+//   CR_2024_1: number;
+//   CR_2024_2: number;
+//   CR_2024_3: number;
+//   CR_2024_4: number;
+//   CR_2024_5: number;
+// }
+
+// /**
+//  * Enhanced Seat Matrix Page Component
+//  * Features sidebar navigation and comprehensive seat matrix data
+//  */
+// const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
+//   const [seatMatrixData, setSeatMatrixData] = useState<SeatMatrixData[]>([]);
+//   const [loading, setLoading] = useState(true);
+//   const [error, setError] = useState<string | null>(null);
+//   const [showSidebar, setShowSidebar] = useState(true);
+//   const [selectedCounselling, setSelectedCounselling] = useState("DNB Sponsored - PG Medical (Govt or PSU Inservice Candidates)");
+//   const [currentPage, setCurrentPage] = useState(1);
+//   const [searchTerm, setSearchTerm] = useState("");
+//   const [selectedQuota, setSelectedQuota] = useState("all");
+//   const [selectedCategory, setSelectedCategory] = useState("all");
+//   const [selectedState, setSelectedState] = useState("all");
+//   const [selectedRound, setSelectedRound] = useState("all");
+//   const [selectedInstituteType, setSelectedInstituteType] = useState("all");
+//   const [showColumnToggle, setShowColumnToggle] = useState(false);
+  
+//   // Column visibility state
+//   const [columnVisibility, setColumnVisibility] = useState({
+//     Round: true,
+//     Quota: true,
+//     Category: true,
+//     State: true,
+//     Institute: true,
+//     Course: true,
+//     Seats: true,
+//     Fee_Stipend_Year_1: true,
+//     Bond_Years: true,
+//     Bond_Penalty: true,
+//     Beds: true,
+//     CR_2023_1: true,
+//     CR_2023_2: true,
+//     CR_2023_3: true,
+//     CR_2023_4: true,
+//     CR_2023_5: true,
+//     CR_2024_1: true,
+//     CR_2024_2: true,
+//     CR_2024_3: true,
+//     CR_2024_4: true,
+//     CR_2024_5: true,
+//   });
+
+//   const counsellingOptions = [
+//     "DNB Sponsored - PG Medical (Govt or PSU Inservice Candidates)",
+//     "Goa - PG Medical",
+//     "Gujarat - PG Medical", 
+//     "Haryana - PG Medical",
+//     "Himachal Pradesh - PG Medical",
+//     "Jammu and Kashmir - PG Medical",
+//     "Jharkhand - PG Medical",
+//     "Karnataka - PG Medical",
+//     "Kerala - PG Medical",
+//     "Madhya Pradesh - PG Medical",
+//     "Maharashtra - PG Medical",
+//     "Manipur-JNIMS - PG Medical",
+//     "Manipur-RIMS - PG Medical",
+//     "NEIGRIHMS - PG Medical",
+//     "Odisha - PG Medical",
+//     "Pondicherry - PG Medical",
+//     "Punjab - PG Medical",
+//     "Rajasthan - PG Medical",
+//     "Sikkim - PG Medical",
+//     "Tamil Nadu Government Quota - PG Medical",
+//     "Tamil Nadu Management Quota - PG Medical",
+//     "Telangana Government Quota - PG Medical",
+//     "Telangana Management Quota - PG Medical",
+//     "Tripura - PG Medical",
+//     "Uttarakhand - PG Medical",
+//     "Uttar Pradesh - PG Medical",
+//     "West Bengal - PG Medical",
+//   ];
+
+//   // Extract state name from counselling option
+//   const getStateFromCounselling = (counsellingOption: string): string | null => {
+//     const mappings: { [key: string]: string } = {
+//       "DNB Sponsored - PG Medical (Govt or PSU Inservice Candidates)": "Delhi",
+//       "Goa - PG Medical": "Goa",
+//       "Gujarat - PG Medical": "Gujarat",
+//       "Haryana - PG Medical": "Haryana",
+//       "Himachal Pradesh - PG Medical": "Himachal Pradesh",
+//       "Jammu and Kashmir - PG Medical": "Jammu and Kashmir",
+//       "Jharkhand - PG Medical": "Jharkhand",
+//       "Karnataka - PG Medical": "Karnataka",
+//       "Kerala - PG Medical": "Kerala",
+//       "Madhya Pradesh - PG Medical": "Madhya Pradesh",
+//       "Maharashtra - PG Medical": "Maharashtra",
+//       "Manipur-JNIMS - PG Medical": "Manipur",
+//       "Manipur-RIMS - PG Medical": "Manipur",
+//       "NEIGRIHMS - PG Medical": "Delhi",
+//       "Odisha - PG Medical": "Odisha",
+//       "Pondicherry - PG Medical": "Pondicherry",
+//       "Punjab - PG Medical": "Punjab",
+//       "Rajasthan - PG Medical": "Rajasthan",
+//       "Sikkim - PG Medical": "Sikkim",
+//       "Tamil Nadu Government Quota - PG Medical": "Tamil Nadu",
+//       "Tamil Nadu Management Quota - PG Medical": "Tamil Nadu",
+//       "Telangana Government Quota - PG Medical": "Telangana",
+//       "Telangana Management Quota - PG Medical": "Telangana",
+//       "Tripura - PG Medical": "Tripura",
+//       "Uttarakhand - PG Medical": "Uttarakhand",
+//       "Uttar Pradesh - PG Medical": "Uttar Pradesh",
+//       "West Bengal - PG Medical": "West Bengal"
+//     };
+    
+//     return mappings[counsellingOption] || null;
+//   };
+
+//   // Determine institute type (Government/Private)
+//   const getInstituteType = (instituteName: string): string => {
+//     if (!instituteName) return 'Private';
+    
+//     const govKeywords = [
+//       'government', 'govt', 'medical college', 'aiims', 'pgimer', 'jipmer', 
+//       'state', 'national', 'central', 'university', 'kgmu', 'bhu', 'sgpgi',
+//       'nims', 'sms', 'vmmc', 'mamc', 'ucms', 'ipgmer', 'lady hardinge',
+//       'stanley', 'grant', 'gb pant', 'seth gs', 'gmch', 'gmc'
+//     ];
+    
+//     const name = instituteName.toLowerCase();
+//     const isGovt = govKeywords.some(keyword => name.includes(keyword));
+//     return isGovt ? 'Government' : 'Private';
+//   };
+
+//   // Fetch data from API
+//   const fetchSeatMatrixData = async () => {
+//     try {
+//       setLoading(true);
+//       setError(null);
+      
+//       const response = await fetch('https://backend-dju9.onrender.com/get-seatmatrix/');
+      
+//       if (!response.ok) {
+//         throw new Error(`HTTP error! status: ${response.status}`);
+//       }
+      
+//       const data = await response.json();
+      
+//       // Ensure the data is an array
+//       if (Array.isArray(data)) {
+//         setSeatMatrixData(data);
+//       } else if (data && Array.isArray(data.data)) {
+//         // If the API returns data wrapped in an object
+//         setSeatMatrixData(data.data);
+//       } else {
+//         console.error('Unexpected data format:', data);
+//         setSeatMatrixData([]);
+//       }
+//     } catch (error) {
+//       console.error("Error fetching seat matrix data:", error);
+//       setError(error instanceof Error ? error.message : 'Failed to fetch data');
+//       setSeatMatrixData([]);
+//     } finally {
+//       setLoading(false);
+//     }
+//   };
+
+//   useEffect(() => {
+//     fetchSeatMatrixData();
+//   }, []);
+
+//   // Filter data based on search and filters
+//   const filteredData = seatMatrixData.filter((item) => {
+//     // First filter by counselling selection (state-based filtering)
+//     const counsellingState = getStateFromCounselling(selectedCounselling);
+//     const matchesCounselling = counsellingState === null || 
+//       item.State?.toLowerCase() === counsellingState.toLowerCase() ||
+//       item.State?.toLowerCase().includes(counsellingState.toLowerCase());
+
+//     // Institute type filtering
+//     const instituteType = getInstituteType(item.Institute || '');
+//     const matchesInstituteType = selectedInstituteType === "all" || 
+//       selectedInstituteType === "both" ||
+//       instituteType === selectedInstituteType;
+
+//     const matchesSearch = searchTerm === "" || 
+//       item.Institute?.toLowerCase().includes(searchTerm.toLowerCase()) ||
+//       item.Course?.toLowerCase().includes(searchTerm.toLowerCase()) ||
+//       item.State?.toLowerCase().includes(searchTerm.toLowerCase());
+    
+//     const matchesQuota = selectedQuota === "all" || item.Quota === selectedQuota;
+//     const matchesCategory = selectedCategory === "all" || item.Category === selectedCategory;
+//     const matchesStateFilter = selectedState === "all" || item.State === selectedState;
+//     const matchesRound = selectedRound === "all" || item.Round === selectedRound;
+    
+//     return matchesCounselling && matchesInstituteType && matchesSearch && matchesQuota && matchesCategory && matchesStateFilter && matchesRound;
+//   });
+
+//   const sortedData = filteredData;
+
+//   const itemsPerPage = 50;
+//   const totalPages = Math.ceil(sortedData.length / itemsPerPage);
+//   const startIndex = (currentPage - 1) * itemsPerPage;
+//   const paginatedData = sortedData.slice(startIndex, startIndex + itemsPerPage);
+
+//   // Get unique values for filters from the actual data
+//   const quotas = ["all", ...Array.from(new Set(seatMatrixData.map(item => item.Quota).filter(Boolean)))];
+//   const categories = ["all", ...Array.from(new Set(seatMatrixData.map(item => item.Category).filter(Boolean)))];
+//   const states = ["all", ...Array.from(new Set(seatMatrixData.map(item => item.State).filter(Boolean)))];
+//   const rounds = ["all", ...Array.from(new Set(seatMatrixData.map(item => item.Round).filter(Boolean)))];
+
+//   // Reset filters when counselling changes
+//   useEffect(() => {
+//     setCurrentPage(1);
+//     setSearchTerm("");
+//     setSelectedQuota("all");
+//     setSelectedCategory("all");
+//     setSelectedState("all");
+//     setSelectedRound("all");
+//     setSelectedInstituteType("all");
+//   }, [selectedCounselling]);
+
+//   // Reset pagination when filters change
+//   useEffect(() => {
+//     setCurrentPage(1);
+//   }, [searchTerm, selectedQuota, selectedCategory, selectedState, selectedRound, selectedInstituteType]);
+
+//   if (loading) {
+//     return (
+//       <div className="flex-1 bg-gradient-to-br from-rose-50 via-blue-50 to-indigo-50 min-h-screen flex items-center justify-center">
+//         <div className="text-center">
+//           <div className="w-16 h-16 border-4 border-blue-500 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
+//           <p className="text-slate-600">Loading Seat Matrix Data...</p>
+//         </div>
+//       </div>
+//     );
+//   }
+
+//   if (error) {
+//     return (
+//       <div className="flex-1 bg-gradient-to-br from-rose-50 via-blue-50 to-indigo-50 min-h-screen flex items-center justify-center">
+//         <div className="text-center">
+//           <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+//             <X className="w-8 h-8 text-red-500" />
+//           </div>
+//           <p className="text-red-600 mb-4">Error loading data: {error}</p>
+//           <button 
+//             onClick={fetchSeatMatrixData}
+//             className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors"
+//           >
+//             Retry
+//           </button>
+//         </div>
+//       </div>
+//     );
+//   }
+
+//   const visibleColumnsCount = Object.values(columnVisibility).filter(Boolean).length;
+
+//   return (
+//     <div className="flex min-h-screen bg-gray-50">
+//       {/* Mobile Overlay */}
+//       {showSidebar && (
+//         <div className="fixed inset-0 bg-black bg-opacity-50 z-40 md:hidden" onClick={() => setShowSidebar(false)}></div>
+//       )}
+
+//       {/* Sidebar */}
+//       {showSidebar && (
+//         <div className="w-80 bg-white shadow-lg border-r border-gray-200 flex flex-col fixed inset-y-0 left-0 z-50 md:relative md:z-auto">
+//           <div className="p-4 border-b border-gray-200">
+//             <div className="flex items-center justify-between mb-4">
+//               <h2 className="text-lg font-semibold text-gray-800">NEET PG Seat Matrix</h2>
+//               <button
+//                 onClick={() => setShowSidebar(false)}
+//                 className="p-1 hover:bg-gray-100 rounded"
+//               >
+//                 <X className="w-5 h-5 text-gray-500" />
+//               </button>
+//             </div>
+
+//             <div className="relative">
+//               <Search className="w-4 h-4 absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
+//               <input
+//                 type="text"
+//                 placeholder="Search Counselling"
+//                 className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
+//               />
+//             </div>
+//           </div>
+
+//           <div className="flex-1 overflow-y-auto">
+//             {counsellingOptions.map((option, index) => (
+//               <button
+//                 key={index}
+//                 onClick={() => setSelectedCounselling(option)}
+//                 className={`w-full text-left px-4 py-3 border-b border-gray-100 hover:bg-gray-50 transition-colors flex items-center justify-between ${
+//                   selectedCounselling === option ? "bg-blue-50 border-l-4 border-l-blue-500" : ""
+//                 }`}
+//               >
+//                 <div className="flex items-center space-x-3">
+//                   <div className="w-6 h-6 bg-gray-200 rounded-full flex items-center justify-center">
+//                     <span className="text-xs">📊</span>
+//                   </div>
+//                   <span className="text-sm text-gray-700">{option}</span>
+//                 </div>
+//                 <ChevronDown className="w-4 h-4 text-gray-400" />
+//               </button>
+//             ))}
+//           </div>
+//         </div>
+//       )}
+
+//       {/* Main Content */}
+//       <div className="flex-1 flex flex-col">
+//         {/* Header */}
+//         <div className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-4 py-3">
+//           <div className="flex items-center justify-between">
+//             <div className="flex items-center space-x-3">
+//               <button
+//                 onClick={onBack}
+//                 className="p-1.5 hover:bg-white/20 rounded-lg transition-colors"
+//               >
+//                 <ArrowLeft className="w-4 h-4" />
+//               </button>
+//               <div>
+//                 <h1 className="text-lg font-semibold">NEET PG Seat Matrix</h1>
+//                 <p className="text-xs text-purple-100">
+//                   {getStateFromCounselling(selectedCounselling) 
+//                     ? `${getStateFromCounselling(selectedCounselling)} - 2024 Session Data` 
+//                     : "All India - 2024 Session Data"} - {seatMatrixData.length} total records
+//                 </p>
+//               </div>
+//             </div>
+            
+//             <div className="flex items-center space-x-2">
+//               <button
+//                 onClick={() => setShowColumnToggle(true)}
+//                 className="p-1.5 hover:bg-white/20 rounded-lg transition-colors"
+//                 title="View/Hide Columns"
+//               >
+//                 <BarChart3 className="w-4 h-4" />
+//               </button>
+//               <button
+//                 onClick={() => setShowSidebar(!showSidebar)}
+//                 className="p-1.5 hover:bg-white/20 rounded-lg transition-colors"
+//               >
+//                 <Filter className="w-4 h-4" />
+//               </button>
+//             </div>
+//           </div>
+//         </div>
+
+//         {/* Search and Filters */}
+//         <div className="bg-white border-b text-black border-gray-200 px-4 py-3">
+//           <div className="flex flex-col md:flex-row gap-3 mb-3">
+//             {/* Search */}
+//             <div className="flex-1 relative">
+//               <Search className="w-4 h-4 absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
+//               <input
+//                 type="text"
+//                 placeholder="Search institutes, courses, or states..."
+//                 value={searchTerm}
+//                 onChange={(e) => setSearchTerm(e.target.value)}
+//                 className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-sm"
+//               />
+//             </div>
+//           </div>
+
+//           <div className="flex flex-col md:flex-row gap-3">
+//             {/* Round Filter */}
+//             <select
+//               value={selectedRound}
+//               onChange={(e) => setSelectedRound(e.target.value)}
+//               className="px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-sm bg-white text-black"
+//             >
+//               {rounds.map((round) => (
+//                 <option key={round} value={round}>
+//                   {round === "all" ? "All Rounds" : round}
+//                 </option>
+//               ))}
+//             </select>
+
+//             {/* Institute Type Filter */}
+//             <select
+//               value={selectedInstituteType}
+//               onChange={(e) => setSelectedInstituteType(e.target.value)}
+//               className="px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-sm bg-white text-black"
+//             >
+//               <option value="all">All Types</option>
+//               <option value="Government">Government</option>
+//               <option value="Private">Private</option>
+//               <option value="both">Both</option>
+//             </select>
+
+//             {/* Quota Filter */}
+//             <select
+//               value={selectedQuota}
+//               onChange={(e) => setSelectedQuota(e.target.value)}
+//               className="px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-sm bg-white text-black"
+//             >
+//               {quotas.map((quota) => (
+//                 <option key={quota} value={quota}>
+//                   {quota === "all" ? "All Quotas" : quota}
+//                 </option>
+//               ))}
+//             </select>
+
+//             {/* Category Filter */}
+//             <select
+//               value={selectedCategory}
+//               onChange={(e) => setSelectedCategory(e.target.value)}
+//               className="px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-sm bg-white text-black"
+//             >
+//               {categories.map((category) => (
+//                 <option key={category} value={category}>
+//                   {category === "all" ? "All Categories" : category}
+//                 </option>
+//               ))}
+//             </select>
+
+//             {/* State Filter */}
+//             <select
+//               value={selectedState}
+//               onChange={(e) => setSelectedState(e.target.value)}
+//               className="px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-sm bg-white text-black"
+//             >
+//               {states.map((state) => (
+//                 <option key={state} value={state}>
+//                   {state === "all" ? "All States" : state}
+//                 </option>
+//               ))}
+//             </select>
+//           </div>
+//         </div>
+
+//         {/* Results Summary */}
+//         <div className="bg-gray-100 px-4 py-2">
+//           <p className="text-sm text-gray-600">
+//             Showing {filteredData.length} results for {selectedCounselling}
+//             {searchTerm && ` matching "${searchTerm}"`}
+//           </p>
+//         </div>
+
+//         {/* Table */}
+//         <div className="flex-1 overflow-auto">
+//           <table className="w-full">
+//             <thead className="bg-gradient-to-r from-gray-100 to-gray-200 border-b border-gray-300 sticky top-0">
+//               <tr>
+//                 {columnVisibility.Round && (
+//                   <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Round</th>
+//                 )}
+//                 {columnVisibility.Quota && (
+//                   <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Quota</th>
+//                 )}
+//                 {columnVisibility.Category && (
+//                   <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Category</th>
+//                 )}
+//                 {columnVisibility.State && (
+//                   <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">State</th>
+//                 )}
+//                 {columnVisibility.Institute && (
+//                   <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Institute</th>
+//                 )}
+//                 {columnVisibility.Course && (
+//                   <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Course</th>
+//                 )}
+//                 {columnVisibility.Seats && (
+//                   <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Seats</th>
+//                 )}
+//                 {columnVisibility.Fee_Stipend_Year_1 && (
+//                   <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Fee/Stipend Year 1</th>
+//                 )}
+//                 {columnVisibility.Bond_Years && (
+//                   <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Bond Years</th>
+//                 )}
+//                 {columnVisibility.Bond_Penalty && (
+//                   <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Bond Penalty</th>
+//                 )}
+//                 {columnVisibility.Beds && (
+//                   <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Beds</th>
+//                 )}
+//                 {columnVisibility.CR_2023_1 && (
+//                   <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">CR 2023-1</th>
+//                 )}
+//                 {columnVisibility.CR_2023_2 && (
+//                   <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">CR 2023-2</th>
+//                 )}
+//                 {columnVisibility.CR_2023_3 && (
+//                   <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">CR 2023-3</th>
+//                 )}
+//                 {columnVisibility.CR_2023_4 && (
+//                   <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">CR 2023-4</th>
+//                 )}
+//                 {columnVisibility.CR_2023_5 && (
+//                   <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">CR 2023-5</th>
+//                 )}
+//                 {columnVisibility.CR_2024_1 && (
+//                   <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">CR 2024-1</th>
+//                 )}
+//                 {columnVisibility.CR_2024_2 && (
+//                   <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">CR 2024-2</th>
+//                 )}
+//                 {columnVisibility.CR_2024_3 && (
+//                   <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">CR 2024-3</th>
+//                 )}
+//                 {columnVisibility.CR_2024_4 && (
+//                   <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">CR 2024-4</th>
+//                 )}
+//                 {columnVisibility.CR_2024_5 && (
+//                   <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">CR 2024-5</th>
+//                 )}
+//                 <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Actions</th>
+//               </tr>
+//             </thead>
+//             <tbody className="bg-white divide-y divide-gray-100">
+//               {paginatedData.length === 0 ? (
+//                 <tr>
+//                   <td colSpan={visibleColumnsCount + 1} className="px-4 py-8 text-center text-gray-500">
+//                     No data found matching your criteria
+//                   </td>
+//                 </tr>
+//               ) : (
+//                 paginatedData.map((item, index) => (
+//                   <tr key={index} className="hover:bg-purple-50 transition-colors">
+//                     {columnVisibility.Round && (
+//                       <td className="px-2 py-2 text-xs text-gray-700">{item.Round || 'N/A'}</td>
+//                     )}
+//                     {columnVisibility.Quota && (
+//                       <td className="px-2 py-2 text-xs">
+//                         <span className={`px-2 py-1 rounded-full text-xs font-medium ${
+//                           item.Quota === "All India" ? "bg-green-100 text-green-800" :
+//                           item.Quota === "State Quota" ? "bg-blue-100 text-blue-800" :
+//                           item.Quota === "Management" ? "bg-purple-100 text-purple-800" :
+//                           item.Quota === "NRI" ? "bg-blue-100 text-blue-800" :
+//                           "bg-gray-100 text-gray-800"
+//                         }`}>
+//                           {item.Quota || 'N/A'}
+//                         </span>
+//                       </td>
+//                     )}
+//                     {columnVisibility.Category && (
+//                       <td className="px-2 py-2 text-xs">
+//                         <span className={`px-2 py-1 rounded-full text-xs font-medium ${
+//                           item.Category === "General" ? "bg-blue-100 text-blue-800" :
+//                           item.Category === "OBC" ? "bg-yellow-100 text-yellow-800" :
+//                           item.Category === "SC" ? "bg-red-100 text-red-800" :
+//                           item.Category === "ST" ? "bg-green-100 text-green-800" :
+//                           item.Category === "EWS" ? "bg-indigo-100 text-indigo-800" :
+//                           "bg-pink-100 text-pink-800"
+//                         }`}>
+//                           {item.Category || 'N/A'}
+//                         </span>
+//                       </td>
+//                     )}
+//                     {columnVisibility.State && (
+//                       <td className="px-2 py-2 text-xs text-gray-700">{item.State || 'N/A'}</td>
+//                     )}
+//                     {columnVisibility.Institute && (
+//                       <td className="px-2 py-2 text-xs">
+//                         <div className="flex flex-col space-y-1">
+//                           <span className="text-purple-600 hover:text-purple-800 cursor-pointer font-medium">
+//                             {item.Institute || 'N/A'}
+//                           </span>
+//                           <span className={`px-1 py-0.5 rounded text-xs font-medium self-start ${
+//                             getInstituteType(item.Institute || '') === 'Government' 
+//                               ? "bg-green-100 text-green-700" 
+//                               : "bg-orange-100 text-orange-700"
+//                           }`}>
+//                             {getInstituteType(item.Institute || '')}
+//                           </span>
+//                         </div>
+//                       </td>
+//                     )}
+//                     {columnVisibility.Course && (
+//                       <td className="px-2 py-2 text-xs text-gray-700">{item.Course || 'N/A'}</td>
+//                     )}
+//                     {columnVisibility.Seats && (
+//                       <td className="px-2 py-2 text-xs font-bold text-purple-600">{item.Seats || 0}</td>
+//                     )}
+//                     {columnVisibility.Fee_Stipend_Year_1 && (
+//                       <td className="px-2 py-2 text-xs text-gray-700">
+//                         {item.Fee_Stipend_Year_1 ? `₹${item.Fee_Stipend_Year_1.toLocaleString()}` : 'N/A'}
+//                       </td>
+//                     )}
+//                     {columnVisibility.Bond_Years && (
+//                       <td className="px-2 py-2 text-xs text-gray-700">{item.Bond_Years || 'N/A'}</td>
+//                     )}
+//                     {columnVisibility.Bond_Penalty && (
+//                       <td className="px-2 py-2 text-xs text-gray-700">
+//                         {item.Bond_Penalty ? `₹${item.Bond_Penalty.toLocaleString()}` : 'N/A'}
+//                       </td>
+//                     )}
+//                     {columnVisibility.Beds && (
+//                       <td className="px-2 py-2 text-xs text-gray-700">{item.Beds || 'N/A'}</td>
+//                     )}
+//                     {columnVisibility.CR_2023_1 && (
+//                       <td className="px-2 py-2 text-xs text-gray-700">{item.CR_2023_1 || 'N/A'}</td>
+//                     )}
+//                     {columnVisibility.CR_2023_2 && (
+//                       <td className="px-2 py-2 text-xs text-gray-700">{item.CR_2023_2 || 'N/A'}</td>
+//                     )}
+//                     {columnVisibility.CR_2023_3 && (
+//                       <td className="px-2 py-2 text-xs text-gray-700">{item.CR_2023_3 || 'N/A'}</td>
+//                     )}
+//                     {columnVisibility.CR_2023_4 && (
+//                       <td className="px-2 py-2 text-xs text-gray-700">{item.CR_2023_4 || 'N/A'}</td>
+//                     )}
+//                     {columnVisibility.CR_2023_5 && (
+//                       <td className="px-2 py-2 text-xs text-gray-700">{item.CR_2023_5 || 'N/A'}</td>
+//                     )}
+//                     {columnVisibility.CR_2024_1 && (
+//                       <td className="px-2 py-2 text-xs text-gray-700">{item.CR_2024_1 || 'N/A'}</td>
+//                     )}
+//                     {columnVisibility.CR_2024_2 && (
+//                       <td className="px-2 py-2 text-xs text-gray-700">{item.CR_2024_2 || 'N/A'}</td>
+//                     )}
+//                     {columnVisibility.CR_2024_3 && (
+//                       <td className="px-2 py-2 text-xs text-gray-700">{item.CR_2024_3 || 'N/A'}</td>
+//                     )}
+//                     {columnVisibility.CR_2024_4 && (
+//                       <td className="px-2 py-2 text-xs text-gray-700">{item.CR_2024_4 || 'N/A'}</td>
+//                     )}
+//                     {columnVisibility.CR_2024_5 && (
+//                       <td className="px-2 py-2 text-xs text-gray-700">{item.CR_2024_5 || 'N/A'}</td>
+//                     )}
+//                     <td className="px-2 py-2">
+//                       <button className="p-1 hover:bg-red-100 rounded transition-colors">
+//                         <Heart className="w-3 h-3 text-gray-400 hover:text-red-500" />
+//                       </button>
+//                     </td>
+//                   </tr>
+//                 ))
+//               )}
+//             </tbody>
+//           </table>
+//         </div>
+
+//         {/* Pagination */}
+//         {totalPages > 1 && (
+//           <div className="bg-white border-t border-gray-200 px-4 py-3 text-black">
+//             <div className="flex items-center justify-between">
+//               <div className="text-xs text-gray-600">
+//                 Showing {startIndex + 1} to {Math.min(startIndex + itemsPerPage, sortedData.length)} of {sortedData.length} results
+//               </div>
+              
+//               <div className="flex items-center space-x-1">
+//                 <button
+//                   onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
+//                   disabled={currentPage === 1}
+//                   className="p-1.5 border border-gray-300 rounded hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
+//                 >
+//                   <ChevronLeft className="w-3 h-3" />
+//                 </button>
+                
+//                 <div className="flex space-x-1">
+//                   {Array.from({ length: Math.min(5, totalPages) }, (_, i) => {
+//                     let pageNum;
+//                     if (totalPages <= 5) {
+//                       pageNum = i + 1;
+//                     } else if (currentPage <= 3) {
+//                       pageNum = i + 1;
+//                     } else if (currentPage >= totalPages - 2) {
+//                       pageNum = totalPages - 4 + i;
+//                     } else {
+//                       pageNum = currentPage - 2 + i;
+//                     }
+                    
+//                     return (
+//                       <button
+//                         key={pageNum}
+//                         onClick={() => setCurrentPage(pageNum)}
+//                         className={`px-2 py-1 text-xs rounded transition-colors ${
+//                           currentPage === pageNum
+//                             ? "bg-purple-500 text-white"
+//                             : "border border-gray-300 hover:bg-gray-50"
+//                         }`}
+//                       >
+//                         {pageNum}
+//                       </button>
+//                     );
+//                   })}
+//                 </div>
+                
+//                 <button
+//                   onClick={() => setCurrentPage(Math.min(totalPages, currentPage + 1))}
+//                   disabled={currentPage === totalPages}
+//                   className="p-1.5 border border-gray-300 rounded hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
+//                 >
+//                   <ChevronRight className="w-3 h-3" />
+//                 </button>
+//               </div>
+//             </div>
+//           </div>
+//         )}
+//       </div>
+
+//       {/* Column Visibility Toggle Modal */}
+//       {showColumnToggle && (
+//         <>
+//           <div className="fixed inset-0 bg-black bg-opacity-50 z-50" onClick={() => setShowColumnToggle(false)}></div>
+//           <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-lg shadow-2xl z-50 w-96 max-h-[80vh] overflow-hidden">
+//             <div className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-4 py-3 flex items-center justify-between">
+//               <h3 className="text-lg font-semibold">View/Hide Columns</h3>
+//               <button
+//                 onClick={() => setShowColumnToggle(false)}
+//                 className="p-1 hover:bg-white/20 rounded"
+//               >
+//                 <X className="w-5 h-5" />
+//               </button>
+//             </div>
+            
+//             <div className="p-4 max-h-96 overflow-y-auto">
+//               <div className="space-y-3">
+//                 {Object.entries(columnVisibility).map(([column, isVisible]) => (
+//                   <div key={column} className="flex items-center justify-between py-2">
+//                     <span className="text-sm text-gray-700 font-medium">
+//                       {column.replace(/_/g, ' ').replace(/CR (\d+)-(\d+)/, 'CR $1-$2')}
+//                     </span>
+//                     <label className="relative inline-flex items-center cursor-pointer">
+//                       <input
+//                         type="checkbox"
+//                         checked={isVisible}
+//                         onChange={(e) => setColumnVisibility(prev => ({
+//                           ...prev,
+//                           [column]: e.target.checked
+//                         }))}
+//                         className="sr-only peer"
+//                       />
+//                       <div className="relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-purple-300 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-purple-600"></div>
+//                     </label>
+//                   </div>
+//                 ))}
+//               </div>
+//             </div>
+            
+//             <div className="bg-gray-50 px-4 py-3 flex justify-end space-x-2">
+//               <button
+//                 onClick={() => {
+//                   // Show all columns
+//                   const allVisible = Object.keys(columnVisibility).reduce((acc, key) => ({
+//                     ...acc,
+//                     [key]: true
+//                   }), {});
+//                   setColumnVisibility(allVisible);
+//                 }}
+//                 className="px-3 py-1.5 text-sm bg-gray-200 hover:bg-gray-300 rounded-lg transition-colors"
+//               >
+//                 Show All
+//               </button>
+//               <button
+//                 onClick={() => {
+//                   // Hide all except essential columns
+//                   const essentialColumns = {
+//                     ...Object.keys(columnVisibility).reduce((acc, key) => ({
+//                       ...acc,
+//                       [key]: false
+//                     }), {}),
+//                     Institute: true,
+//                     Course: true,
+//                     Seats: true,
+//                     State: true,
+//                     Category: true
+//                   };
+//                   setColumnVisibility(essentialColumns);
+//                 }}
+//                 className="px-3 py-1.5 text-sm bg-gray-200 hover:bg-gray-300 rounded-lg transition-colors"
+//               >
+//                 Essential Only
+//               </button>
+//               <button
+//                 onClick={() => setShowColumnToggle(false)}
+//                 className="px-3 py-1.5 text-sm bg-purple-600 hover:bg-purple-700 text-white rounded-lg transition-colors"
+//               >
+//                 Close
+//               </button>
+//             </div>
+//           </div>
+//         </>
+//       )}
+//     </div>
+//   );
+// };
+
+// export default SeatMatrixPage;

@@ -389,14 +389,14 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       source: 'Hindustan Times',
       link: 'https://www.hindustantimes.com/education/admissions/neet-pg-counselling-schedule-2025-live-update-check-and-download-mcc-nic-in-neet-counselling-schedule-pdf-direct-link-101757917204348.html'
     },
-    // {
-    //   id: 2,
-    //   title: "NEET PG Counselling 2025 LIVE: MCC to announce AIQ schedule amid Supreme Court case",
-    //   date: "Sep 9,2025",
-    //   priority: 'high',
-    //   category: 'NEET PG',
-    //   link: 'https://news.careers360.com/neet-pg-2025-counselling-live-mcc-nic-in-nbems-registration-choice-filling-aiq-seat-allotment-cutoff-supreme-court-hearing-updates'
-    // },
+    {
+      id: 15,
+      title: "Deadline Today: Tamil Nadu NEET PG 2025 Counselling Applications Close at 5 PMTN NEET PG 2025: Final Call for State Counselling Registration",
+      date: "2025-09-16T12:30:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://timesofindia.indiatimes.com/education/news/tamil-nadu-neet-pg-2025-counselling-registration-closes-at-5-pm-today-at-tnmedicalselection-net/articleshow/123913827.cms'
+    },
   ];
 
   const fetchRecentAnnouncements = async () => {
