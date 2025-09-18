@@ -395,7 +395,17 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       date: "2025-09-16T12:30:00Z",
       priority: 'high',
       category: 'NEET PG',
+      source: 'Hindustan Times',
       link: 'https://timesofindia.indiatimes.com/education/news/tamil-nadu-neet-pg-2025-counselling-registration-closes-at-5-pm-today-at-tnmedicalselection-net/articleshow/123913827.cms'
+    },
+    {
+      id: 16,
+      title: "Tamil Nadu NEET PG 2025 Registration Extended to September 18",
+      date: "2025-09-17T12:30:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      source: 'jagranjosh',
+      link: 'https://www.jagranjosh.com/news/tn-neet-pg-counselling-2025-schedule-extended-check-revised-dates-here-181226'
     },
   ];
 

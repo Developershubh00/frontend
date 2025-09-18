@@ -380,6 +380,18 @@ const AnnouncementPage: React.FC = () => {
       source: 'Times Of India',
       created_at: "2025-09-16T10:00:00Z"
     },
+    {
+      id: 17,
+      title: "Tamil Nadu NEET PG",
+      content: "Tamil Nadu NEET PG 2025 Registration Extended to September 18",
+      date: "2025-09-17T10:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.jagranjosh.com/news/tn-neet-pg-counselling-2025-schedule-extended-check-revised-dates-here-181226',
+      is_active: true,
+      source: 'Jagran josh',
+      created_at: "2025-09-17T10:00:00Z"
+    },
     // {
     //   id: 15,
     //   title: "MCC Yet to Announce NEET PG 2025 Counselling Schedule- Here's How to Check  ",
