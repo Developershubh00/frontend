@@ -3789,7 +3789,7 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
         </div>
 
         {/* Round Filter Pills with Show/Hide Button */}
-        <div className="bg-white border-b border-gray-200 px-4 py-3">
+         <div className="bg-white border-b border-gray-200 px-4 py-3">
           <div className="flex items-center gap-2 overflow-x-auto">
             {["Round 1", "Round 2", "Round 3", "Round 4", "Round 5"].map((round) => (
               <button
