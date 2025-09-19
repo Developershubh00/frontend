@@ -407,6 +407,15 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       source: 'jagranjosh',
       link: 'https://www.jagranjosh.com/news/tn-neet-pg-counselling-2025-schedule-extended-check-revised-dates-here-181226'
     },
+    {
+      id: 17,
+      title: "Supreme Court to Hear NEET PG 2025 Answer Key Transparency Case Tomorrow",
+      date: "2025-09-19T12:30:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      source: 'news18',
+      link: 'https://www.news18.com/education-career/neet-pg-2025-sc-to-hear-petition-on-transparency-of-answer-key-tomorrow-9581587.html'
+    },
   ];
 
   const fetchRecentAnnouncements = async () => {
