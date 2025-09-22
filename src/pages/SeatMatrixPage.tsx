@@ -4457,7 +4457,15 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
       queryParams.append('state', counsellingState);
     }
   
-    if (params.round && params.round !== "all") queryParams.append('round', params.round);
+    
+// Handle Round Filter: Transform "Round X" to "X" for the API
+  // The backend expects a number (e.g., "1", "2"), not "Round 1", "Round 2"
+  if (params.round && params.round !== "all") {
+    // Extract the number after "Round " (e.g., "Round 1" becomes "1")
+    const roundNumber = params.round.replace("Round ", "");
+    queryParams.append('round', roundNumber);
+  }
+    // if (params.round && params.round !== "all") queryParams.append('round', params.round);
     if (params.category && params.category !== "all") queryParams.append('category', params.category);
     if (params.quota && params.quota !== "all") queryParams.append('quota', params.quota);
     if (params.state && params.state !== "all" && !counsellingState) queryParams.append('state', params.state);
