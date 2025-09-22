@@ -1974,7 +1974,7 @@ const ClosingRanksPage: React.FC<ClosingRanksPageProps> = ({ onBack }) => {
   // Fetch filter options
   const fetchFilterOptions = async (categoryType: string) => {
     try {
-      const response = await fetch(`https://backend-dju9.onrender.com/get-closing-ranks/?category_type=${categoryType}&page_size=1000`);
+      const response = await fetch(`https://backend-dju9.onrender.com/get-closingranks/?category_type=${categoryType}&page_size=1000`);
       if (response.ok) {
         const data = await response.json();
         const results = data.results || [];
