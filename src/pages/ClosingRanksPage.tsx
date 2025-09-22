@@ -1951,7 +1951,7 @@ const ClosingRanksPage: React.FC<ClosingRanksPageProps> = ({ onBack }) => {
   
     try {
       console.log('Making API request with params:', queryParams.toString());
-      const response = await fetch(`https://backend-dju9.onrender.com/get-closing-ranks/?${queryParams.toString()}`);
+      const response = await fetch(`https://backend-dju9.onrender.com/get-closingranks/?${queryParams.toString()}`);
       
       if (!response.ok) {
         console.error(`API returned status ${response.status}`);
