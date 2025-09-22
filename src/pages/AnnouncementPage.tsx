@@ -404,6 +404,44 @@ const AnnouncementPage: React.FC = () => {
       source: 'News 18',
       created_at: "2025-09-19T08:00:00Z"
     },
+    {
+      id: 18,
+      title: "NEET PG 2025:",
+      content: "NEET PG 2025: Supreme Court to hear answer key transparency plea on September 23NEET PG Counselling 2025: SC Reschedules Hearing On Answer Key Transparency To September ",
+      date: "2025-09-20T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.news18.com/education-career/neet-pg-2025-sc-to-hear-petition-on-transparency-of-answer-key-tomorrow-9581587.html',
+      is_active: true,
+      source: 'News 18',
+      created_at: "2025-09-20T08:00:00Z"
+    },
+    {
+      id: 18,
+      title: "NEET PG 2025:",
+      content: "NEET PG 2025: Supreme Court to hear plea on score discrepancies today",
+      date: "2025-09-21T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.hindustantimes.com/cities/mumbai-news/irregular-neet-pg-scores-take-medical-students-to-sc-s-door-petition-to-be-heard-today-101758222662559.html',
+      is_active: true,
+      source: 'hindustantimes',
+      created_at: "2025-09-21T08:00:00Z"
+    },
+    {
+      id: 18,
+      title: "Supreme Court",
+      content: "NEET PG 2025: Supreme Court lists transparency plea for hearing on September 23",
+      date: "2025-09-21T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://indianexpress.com/article/education/neet-pg-2025-supreme-court-transparency-plea-rationalisation-answer-key-counselling-10258787/',
+      is_active: true,
+      source: 'indianexpress',
+      created_at: "2025-09-21T08:00:00Z"
+    },
+    
+    
   ];
 
   const fetchAnnouncements = async () => {
