@@ -405,7 +405,7 @@ const AnnouncementPage: React.FC = () => {
       created_at: "2025-09-19T08:00:00Z"
     },
     {
-      id: 18,
+      id: 19,
       title: "NEET PG 2025:",
       content: "NEET PG 2025: Supreme Court to hear answer key transparency plea on September 23NEET PG Counselling 2025: SC Reschedules Hearing On Answer Key Transparency To September ",
       date: "2025-09-20T08:00:00Z",
@@ -417,7 +417,7 @@ const AnnouncementPage: React.FC = () => {
       created_at: "2025-09-20T08:00:00Z"
     },
     {
-      id: 18,
+      id: 20,
       title: "NEET PG 2025:",
       content: "NEET PG 2025: Supreme Court to hear plea on score discrepancies today",
       date: "2025-09-21T08:00:00Z",
@@ -429,7 +429,7 @@ const AnnouncementPage: React.FC = () => {
       created_at: "2025-09-21T08:00:00Z"
     },
     {
-      id: 18,
+      id: 21,
       title: "Supreme Court",
       content: "NEET PG 2025: Supreme Court lists transparency plea for hearing on September 23",
       date: "2025-09-21T08:00:00Z",
@@ -440,7 +440,42 @@ const AnnouncementPage: React.FC = () => {
       source: 'indianexpress',
       created_at: "2025-09-21T08:00:00Z"
     },
-    
+    {
+      id: 22,
+      title: "MCC NEET PG 2025 Schedule: Where and How to Check When Released",
+      content: "The Medical Counselling Committee (MCC) is yet to release the NEET PG 2025 counselling schedule, but candidates can find it on the official MCC website, mcc.nic.in, once it is published. The schedule will be available as a PDF under the PG Medical section, likely in the News & Eventsor Schedule tabs.",
+      date: "2025-09-22T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.hindustantimes.com/education/admissions/neet-pg-counselling-2025-live-news-mcc-neet-pg-counselling-2025-schedule-admission-process-seat-matrix-mcc-nic-in-101758440968818.html',
+      is_active: true,
+      source: 'Hindustan Times',
+      created_at: "2025-09-21T08:00:00Z"
+    },
+    {
+      id: 23,
+      title: "Supreme Court to Hear NEET PG 2025 Transparency Appeals; Counselling Schedule Expected Soon",
+      content: "The Supreme Court will hear petitions seeking greater transparency in NEET PG 2025, following claims of incomplete answer key disclosures. The Medical Counselling Committee (MCC) is expected to announce the counselling schedule soon after the court’s decision.",
+      date: "2025-09-23T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.news18.com/education-career/supreme-court-to-hear-neet-pg-2025-transparency-plea-today-counselling-schedule-soon-9590272.html',
+      is_active: true,
+      source: 'news18',
+      created_at: "2025-09-21T08:00:00Z"
+    },
+    {
+      id: 23,
+      title: "Supreme Court",
+      content: "Telangana HC Permits NEET PG Registration Under NRI Quota for OCI  ",
+      date: "2025-09-23T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://timesofindia.indiatimes.com/city/hyderabad/court-allows-oci-to-register-for-neet-pg/articleshow/124056177.cms',
+      is_active: true,
+      source: 'Times of India',
+      created_at: "2025-09-23T08:00:00Z"
+    },
     
   ];
 
