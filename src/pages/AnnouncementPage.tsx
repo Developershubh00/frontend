@@ -476,6 +476,42 @@ const AnnouncementPage: React.FC = () => {
       source: 'Times of India',
       created_at: "2025-09-23T08:00:00Z"
     },
+    {
+      id: 24,
+      title: "NEET PG 2025 Transparency Hearing Before Supreme Court Today",
+      content: "The Supreme Court is hearing a critical plea from NEET PG 2025 candidates who are demanding complete transparency in the scoring process. Aspirants are seeking the full disclosure of question papers and scores to ensure fairness and allow for proper verification of their results.  ",
+      date: "2025-09-23T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://indianexpress.com/article/education/supreme-court-neet-pg-2025-transparency-hearing-candidate-response-sheet-answer-key-link-fairness-raw-scores-10264206/',
+      is_active: true,
+      source: 'indianexpress',
+      created_at: "2025-09-23T08:00:00Z"
+    },
+    {
+      id: 25,
+      title: "Supreme Court Hearing Today for NEET PG 2025 Answer Key Transparency",
+      content: "The Supreme Court is set to hear a crucial plea today regarding transparency in the NEET PG 2025 answer key, as aspirants seek fair and verifiable results. A decision in this hearing could pave the way for the long-awaited MCC counselling schedule, which remains on hold.",
+      date: "2025-09-23T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.jagranjosh.com/news/net-pg-2025-supreme-court-hearing-on-answer-key-transparency-check-latest-updates-here-181301',
+      is_active: true,
+      source: 'jagranjosh',
+      created_at: "2025-09-23T08:00:00Z"
+    },
+    {
+      id: 26,
+      title: "UP NEET PG 2025: ",
+      content:" 148 Candidates Barred for Seat Blocking; DGME Releases List",
+      date: "2025-09-24T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://timesofindia.indiatimes.com/education/news/up-neet-pg-counselling-2025-148-candidates-debarred-for-seat-withdrawal-dgme-issues-list/articleshow/124071018.cms',
+      is_active: true,
+      source: 'Times of India',
+      created_at: "2025-09-24T08:00:00Z"
+    },
     
   ];
 

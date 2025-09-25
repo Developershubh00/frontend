@@ -443,6 +443,71 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       source: 'indianexpress',
       link: 'https://indianexpress.com/article/education/neet-pg-2025-supreme-court-transparency-plea-rationalisation-answer-key-counselling-10258787/'
     },
+    {
+      id: 22,
+      title: "MCC NEET PG 2025 Schedule: Where and How to Check When Released The Medical Counselling Committee (MCC) is yet to release the NEET PG 2025 counselling schedule, but candidates can find it on the official MCC website, mcc.nic.in, once it is published. The schedule will be available as a PDF under the PG Medical section, likely in the News & Eventsor Schedule tabs.",
+      date: "2025-09-22T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.hindustantimes.com/education/admissions/neet-pg-counselling-2025-live-news-mcc-neet-pg-counselling-2025-schedule-admission-process-seat-matrix-mcc-nic-in-101758440968818.html',
+      source: 'Hindustan Times',
+  
+    },
+    {
+      id: 23,
+      title: "Supreme Court to Hear NEET PG 2025 Transparency Appeals; Counselling Schedule Expected SoonThe Supreme Court will hear petitions seeking greater transparency in NEET PG 2025, following claims of incomplete answer key disclosures. The Medical Counselling Committee (MCC) is expected to announce the counselling schedule soon after the court’s decision.",
+      date: "2025-09-23T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.news18.com/education-career/supreme-court-to-hear-neet-pg-2025-transparency-plea-today-counselling-schedule-soon-9590272.html',
+      source: 'news18',
+      
+    },
+    {
+      id: 23,
+      title: "Supreme Court Telangana HC Permits NEET PG Registration Under NRI Quota for OCI  ",
+      date: "2025-09-23T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://timesofindia.indiatimes.com/city/hyderabad/court-allows-oci-to-register-for-neet-pg/articleshow/124056177.cms',
+      
+      source: 'Times of India',
+      
+    },
+    {
+      id: 24,
+      title: "NEET PG 2025 Transparency Hearing Before Supreme Court Today The Supreme Court is hearing a critical plea from NEET PG 2025 candidates who are demanding complete transparency in the scoring process. Aspirants are seeking the full disclosure of question papers and scores to ensure fairness and allow for proper verification of their results.  ",
+      date: "2025-09-23T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://indianexpress.com/article/education/supreme-court-neet-pg-2025-transparency-hearing-candidate-response-sheet-answer-key-link-fairness-raw-scores-10264206/',
+      
+      source: 'indianexpress',
+      
+    },
+    {
+      id: 25,
+      title: "Supreme Court Hearing Today for NEET PG 2025 Answer Key Transparency The Supreme Court is set to hear a crucial plea today regarding transparency in the NEET PG 2025 answer key, as aspirants seek fair and verifiable results. A decision in this hearing could pave the way for the long-awaited MCC counselling schedule, which remains on hold.",
+      date: "2025-09-23T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.jagranjosh.com/news/net-pg-2025-supreme-court-hearing-on-answer-key-transparency-check-latest-updates-here-181301',
+      
+      source: 'jagranjosh',
+      
+    },
+    {
+      id: 26,
+      title: "UP NEET PG 2025: 148 Candidates Barred for Seat Blocking; DGME Releases List",
+      
+      date: "2025-09-24T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://timesofindia.indiatimes.com/city/hyderabad/court-allows-oci-to-register-for-neet-pg/articleshow/124056177.cms',
+      
+      source: 'Times of India',
+      
+    },
   ];
 
   const fetchRecentAnnouncements = async () => {
