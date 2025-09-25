@@ -4892,7 +4892,7 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
                 </select>
 
                 {/* Institute Type Filter */}
-                <select
+                {/* <select
                   value={selectedInstituteType}
                   onChange={(e) => {
                     setSelectedInstituteType(e.target.value);
@@ -4905,7 +4905,7 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
                       {type === "all" ? "Government + Private" : type}
                     </option>
                   ))}
-                </select>
+                </select> */}
 
                 {/* Advanced Filter Toggle */}
                 <button
