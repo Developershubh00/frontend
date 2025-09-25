@@ -42,6 +42,7 @@ import VerificationPage from "./pages/VerificationPage";
 import BlogPageWithAPI from "./pages/Blogpagewithapi";
 import BlogDetail from "./pages/Blogdetail";
 import MultiCriteriaPredictor from "./MultiCriteriaPredictor";
+import CoursesPage from "./components/CoursesPage";
 
 /**
  * Main App Component with React Router
@@ -212,6 +213,7 @@ function App() {
           <Route path="/blog" element={<BlogPageWithAPI />} />
           <Route path="/blogdetail" element={<BlogDetail />} />
           <Route path="/multicriteria" element={<MultiCriteriaPredictor />} />
+          <Route path="/courses" element={<CoursesPage onBack={() => window.history.back()} />} />
 
           </Routes>
         </div>
