@@ -515,6 +515,15 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: 'https://timesofindia.indiatimes.com/education/news/up-neet-pg-counselling-2025-148-candidates-debarred-for-seat-withdrawal-dgme-issues-list/articleshow/124071018.cms',
       source: 'Times of India',
       },
+    {
+      id: 28,
+      title: "NEET PG 2025 Counselling Start Date Expected Soon; Complete Process Guide Here: ",
+      date: "2025-09-26T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.ndtv.com/education/neet-pg-2025-counselling-expected-start-date-process-details-here-9347182',
+      source: ' NDTV',
+    },
 
   ];
 

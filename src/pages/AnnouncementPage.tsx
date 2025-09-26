@@ -524,6 +524,18 @@ const AnnouncementPage: React.FC = () => {
       source: 'Times of India',
       created_at: "2025-09-25T08:00:00Z"
     },
+    {
+      id: 28,
+      title: "NEET PG 2025 Counselling Start Date Expected Soon; Complete Process Guide Here: ",
+      content:"The Medical Counselling Committee (MCC) will release the NEET PG 2025 counselling schedule soon on mcc.nic.in, with registration expected to begin shortly. The online process includes registration, choice filling for up to three institutes, seat allotment, and document verification at allocated colleges.",
+      date: "2025-09-26T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.ndtv.com/education/neet-pg-2025-counselling-expected-start-date-process-details-here-9347182',
+      is_active: true,
+      source: ' NDTV',
+      created_at: "2025-09-26T08:00:00Z"
+    },
   ];
 
   const fetchAnnouncements = async () => {
