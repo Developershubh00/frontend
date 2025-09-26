@@ -499,15 +499,23 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
     {
       id: 26,
       title: "UP NEET PG 2025: 148 Candidates Barred for Seat Blocking; DGME Releases List",
-      
       date: "2025-09-24T08:00:00Z",
       priority: 'high',
       category: 'NEET PG',
       link: 'https://timesofindia.indiatimes.com/city/hyderabad/court-allows-oci-to-register-for-neet-pg/articleshow/124056177.cms',
-      
       source: 'Times of India',
       
     },
+    {
+      id: 27,
+      title: "Government Approves Phase 3 of Medical College Upgradation to Add 10,000+ MBBS and PG Seats ",
+      date: "2025-09-25T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://timesofindia.indiatimes.com/education/news/up-neet-pg-counselling-2025-148-candidates-debarred-for-seat-withdrawal-dgme-issues-list/articleshow/124071018.cms',
+      source: 'Times of India',
+      },
+
   ];
 
   const fetchRecentAnnouncements = async () => {

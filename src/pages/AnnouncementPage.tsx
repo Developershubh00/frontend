@@ -512,7 +512,18 @@ const AnnouncementPage: React.FC = () => {
       source: 'Times of India',
       created_at: "2025-09-24T08:00:00Z"
     },
-    
+     {
+      id: 27,
+      title: "Government Approves Phase 3 of Medical College Upgradation to Add 10,000+ MBBS and PG Seats ",
+      content:" The Union Cabinet has approved the third phase of the centrally sponsored medical college upgradation scheme, aiming to add over 10,000 MBBS and postgraduate medical seats across India. This initiative supports the government's plan to increase medical seats to meet rising demand from NEET aspirants.",
+      date: "2025-09-25T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://timesofindia.indiatimes.com/education/news/up-neet-pg-counselling-2025-148-candidates-debarred-for-seat-withdrawal-dgme-issues-list/articleshow/124071018.cms',
+      is_active: true,
+      source: 'Times of India',
+      created_at: "2025-09-25T08:00:00Z"
+    },
   ];
 
   const fetchAnnouncements = async () => {
