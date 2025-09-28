@@ -536,6 +536,18 @@ const AnnouncementPage: React.FC = () => {
       source: ' NDTV',
       created_at: "2025-09-26T08:00:00Z"
     },
+    {
+      id: 29,
+      title: "Supreme Court Gives NBEMS Two Weeks to Respond on NEET PG 2025 Transparency Plea:   ",
+      content:"NEET PG 2025 counselling faces further delay as Supreme Court grants NBEMS two-week extension to address transparency concerns raised by medical aspirants regarding answer key disclosure methods.",
+      date: "2025-09-27T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.jagranjosh.com/news/neet-pg-2025-hearing-supreme-court-orders-board-to-submit-response-on-transparency-issues-within-two-weeks-181350',
+      is_active: true,
+      source: ' jagranjosh',
+      created_at: "2025-09-27T08:00:00Z"
+    },
   ];
 
   const fetchAnnouncements = async () => {

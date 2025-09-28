@@ -524,6 +524,15 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: 'https://www.ndtv.com/education/neet-pg-2025-counselling-expected-start-date-process-details-here-9347182',
       source: ' NDTV',
     },
+    {
+      id: 29,
+      title: "Supreme Court Gives NBEMS Two Weeks to Respond on NEET PG 2025 Transparency Plea:   ",
+      date: "2025-09-27T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.jagranjosh.com/news/neet-pg-2025-hearing-supreme-court-orders-board-to-submit-response-on-transparency-issues-within-two-weeks-181350',
+      source: ' jagranjosh',
+    },
 
   ];
 
