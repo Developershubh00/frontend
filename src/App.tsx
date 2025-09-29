@@ -168,14 +168,14 @@ function App() {
               </ProtectedRoute>
             }
           />
-          <Route
+          {/* <Route
             path="/universities"
             element={
               <ProtectedRoute>
                 <UniversitiesPage onBack={() => window.history.back()} />
               </ProtectedRoute>
             }
-          />
+          /> */}
           <Route
             path="/medical-colleges"
             element={
