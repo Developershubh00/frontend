@@ -44,6 +44,7 @@ import BlogDetail from "./pages/Blogdetail";
 import MultiCriteriaPredictor from "./MultiCriteriaPredictor";
 import CoursesPage from "./components/CoursesPage";
 import ClinicalDataPage from "./components/ClinicalDataPage";
+import InstitutesPage from "./components/InstitutesPage";
 
 /**
  * Main App Component with React Router
@@ -216,7 +217,8 @@ function App() {
           <Route path="/multicriteria" element={<MultiCriteriaPredictor />} />
           <Route path="/Clinicaldata" element={<ClinicalDataPage onBack={() => window.history.back()}  />} />
           <Route path="/courses" element={<CoursesPage onBack={() => window.history.back()} />} />
-
+          <Route path="/Institutes" element={<InstitutesPage onBack={() => window.history.back()} />} />
+            
           </Routes>
         </div>
       </Router>

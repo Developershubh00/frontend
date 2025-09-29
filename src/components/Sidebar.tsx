@@ -124,6 +124,15 @@ const Sidebar: React.FC<SidebarProps> = ({
       onClick: () => navigate("/Clinicaldata"),
     },
     {
+      id: "Institutes",
+      icon: GraduationCap,
+      label: "Institutes",
+      hasSubmenu: false,
+      color: "text-indigo-600",
+      onClick: () => navigate("/Institutes"),
+    },
+    
+    {
       id: "explore",
       icon: Compass,
       label: "Explore",
