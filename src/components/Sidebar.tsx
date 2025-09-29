@@ -6,7 +6,7 @@ import {
   UserCheck,
   ChevronDown,
   Award,
-  Heart
+  Heart,
   PanelLeftClose,
   PanelLeftOpen,
 } from "lucide-react";
