@@ -113,7 +113,7 @@ const Sidebar: React.FC<SidebarProps> = ({
       label: "MyChoicelist",
       hasSubmenu: false,
       color: "text-indigo-600",
-      onClick: () => navigate("/choice-lists"),
+      onClick: () => navigate("/choicelists"),
     },
     {
       id: "Clinical Data",
