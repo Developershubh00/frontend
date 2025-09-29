@@ -26,7 +26,7 @@ import StateTabs from "./components/StateTabs";
 // Component Pages
 import FAQPage from "./components/FAQPage";
 import SupportPage from "./components/SupportPage";
-import UniversitiesPage from "./components/UniversitiesPage";
+// import UniversitiesPage from "./components/UniversitiesPage";
 import MedicalCollegesPage from "./components/MedicalCollegesPage";
 import ResultrankingPage from "./components/Resultrankingpage";
 import CounsellingPage from "./components/Counsellingpage";
