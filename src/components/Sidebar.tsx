@@ -67,14 +67,14 @@ const Sidebar: React.FC<SidebarProps> = ({
       color: "text-blue-600",
       onClick: () => navigate("/dashboard"),
     },
-    {
-      id: "universities",
-      icon: GraduationCap,
-      label: "Universities",
-      hasSubmenu: false,
-      color: "text-cyan-600",
-      onClick: () => navigate("/universities"),
-    },
+    // {
+    //   id: "universities",
+    //   icon: GraduationCap,
+    //   label: "Universities",
+    //   hasSubmenu: false,
+    //   color: "text-cyan-600",
+    //   onClick: () => navigate("/universities"),
+    // },
     {
       id: "counselling",
       icon: UserCheck,
