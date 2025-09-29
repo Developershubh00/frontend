@@ -6,6 +6,7 @@ import {
   UserCheck,
   ChevronDown,
   Award,
+  Heart
   PanelLeftClose,
   PanelLeftOpen,
 } from "lucide-react";
@@ -107,6 +108,14 @@ const Sidebar: React.FC<SidebarProps> = ({
     //   onClick: () => navigate("/predictor/pg"),
     // },
     {
+      id: "MyChoicelist",
+      icon: Heart,
+      label: "MyChoicelist",
+      hasSubmenu: false,
+      color: "text-indigo-600",
+      onClick: () => navigate("/choice-lists"),
+    },
+    {
       id: "Clinical Data",
       icon: GraduationCap,
       label: "Clinical Data",
@@ -141,6 +150,14 @@ const Sidebar: React.FC<SidebarProps> = ({
     },
   ];
 
+  
+              {/* <button
+                className="flex items-center space-x-2 px-4 py-2 text-pink-600 hover:bg-pink-50 rounded-xl transition-all duration-200 font-medium"
+                onClick={() => navigate("/choice-lists")}
+              >
+                <Heart className="w-4 h-4" />
+                <span>My Choice Lists</span>
+              </button> */}
   return (
     <div
       className={`${
