@@ -533,6 +533,24 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: 'https://www.jagranjosh.com/news/neet-pg-2025-hearing-supreme-court-orders-board-to-submit-response-on-transparency-issues-within-two-weeks-181350',
       source: ' jagranjosh',
     },
+    {
+      id: 30,
+      title: "How to Check NEET PG 2025 Counselling Schedule: Step-by-Step Guide :Medical Counselling Committee has not released NEET PG 2025 counselling schedule yet; candidates can check updates on mcc.nic.in when announced",
+      date: "2025-09-29T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.hindustantimes.com/education/admissions/neet-pg-counselling-2025-live-news-supreme-court-hearing-check-mcc-neet-pg-counselling-2025-schedule-latest-update-101758951217299.html',
+      source: ' Hindustan Times',
+    },
+    {
+      id: 31,
+      title: "SC Notice ",
+      date: "2025-09-27T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://economictimes.indiatimes.com/news/india/neet-pg-2025-sc-issues-notice-on-petitions-seeking-publication-of-answer-keys/articleshow/124165012.cms',
+      source: '  The Economic Times',
+    },
 
   ];
 

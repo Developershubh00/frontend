@@ -548,6 +548,30 @@ const AnnouncementPage: React.FC = () => {
       source: ' jagranjosh',
       created_at: "2025-09-27T08:00:00Z"
     },
+    {
+      id: 30,
+      title: "NEET PG 2025 ",
+      content:"How to Check NEET PG 2025 Counselling Schedule: Step-by-Step Guide :Medical Counselling Committee has not released NEET PG 2025 counselling schedule yet; candidates can check updates on mcc.nic.in when announced",
+      date: "2025-09-29T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.hindustantimes.com/education/admissions/neet-pg-counselling-2025-live-news-supreme-court-hearing-check-mcc-neet-pg-counselling-2025-schedule-latest-update-101758951217299.html',
+      is_active: true,
+      source: ' Hindustan Times',
+      created_at: "2025-09-27T08:00:00Z"
+    },
+    {
+      id: 31,
+      title: "SC Notice ",
+      content:"SC Notice to Centre and NBEMS on NEET PG Answer Key Publication Demand ",
+      date: "2025-09-27T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://economictimes.indiatimes.com/news/india/neet-pg-2025-sc-issues-notice-on-petitions-seeking-publication-of-answer-keys/articleshow/124165012.cms',
+      is_active: true,
+      source: '  The Economic Times',
+      created_at: "2025-09-27T08:00:00Z"
+    },
   ];
 
   const fetchAnnouncements = async () => {
