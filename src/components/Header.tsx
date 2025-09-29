@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useAuth } from "../context/AuthContext";
 import { useNavigate } from "react-router-dom";
 import {
   Search,
@@ -32,6 +33,7 @@ const Header: React.FC<HeaderProps> = ({
   onSectionChange,
 }) => {
   const navigate = useNavigate();
+  const { logout } = useAuth();
   const [searchValue, setSearchValue] = useState("");
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
 
@@ -324,6 +326,8 @@ const Header: React.FC<HeaderProps> = ({
                   <hr className="my-2 border-slate-200" />
                   <button
                     onClick={() => {
+                      logout();                // clear tokens / session
+                      navigate("/");           // redirect to main page
                       // Handle logout
                       setActiveDropdown(null);
                     }}
