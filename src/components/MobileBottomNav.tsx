@@ -222,10 +222,10 @@ const MobileBottomNav: React.FC<MobileBottomNavProps> = ({
       path: "/dashboard"
     },
     { 
-      id: "universities", 
+      id: "Inst.", 
       icon: GraduationCap, 
-      label: "Universities",
-      path: "/universities"
+      label: "Inst.",
+      path: "/Institutes"
     },
     { 
       id: "results", 
