@@ -327,7 +327,7 @@ const Header: React.FC<HeaderProps> = ({
                   <button
                     onClick={() => {
                       logout();                // clear tokens / session
-                      navigate("*");           // redirect to main page
+                      navigate("*");          // redirect to main page
                       // Handle logout
                       setActiveDropdown(null);
                     }}
