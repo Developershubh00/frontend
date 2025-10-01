@@ -2088,6 +2088,7 @@ import {
   Stethoscope,
   Bed,
 } from "lucide-react";
+import CustomSelect from '../components/CustomSelect';
 
 interface ClinicalDataPageProps {
   onBack: () => void;
@@ -2595,7 +2596,7 @@ const ClinicalDataPage: React.FC<ClinicalDataPageProps> = ({ onBack }) => {
 
               {/* Quick Filters */}
               <div className="flex gap-2 flex-wrap">
-                <select
+                {/* <select
                   value={selectedState}
                   onChange={(e) => {
                     setSelectedState(e.target.value);
@@ -2608,7 +2609,14 @@ const ClinicalDataPage: React.FC<ClinicalDataPageProps> = ({ onBack }) => {
                       {state === "all" ? "All States" : state}
                     </option>
                   ))}
-                </select>
+                </select> */}
+                <CustomSelect
+                value={selectedState}
+                onChange={setSelectedState}
+                options={states}
+                placeholder="Select State"
+                allLabel="All States"
+                />
 
                 {/* Advanced Filter Toggle */}
                 <button
