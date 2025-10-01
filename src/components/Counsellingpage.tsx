@@ -8,6 +8,7 @@ import {
   Search,
 } from "lucide-react";
 import { getStaticFileUrl } from "../services/api";
+import CustomSelect from '../components/CustomSelect';
 
 interface CounselingPageProps {
   onBack: () => void;
@@ -267,7 +268,7 @@ const CounselingPage: React.FC<CounselingPageProps> = ({ onBack }) => {
 
             {/* Filters */}
             <div className="flex gap-4">
-              <select
+              {/* <select
                 value={selectedRound}
                 onChange={(e) => setSelectedRound(e.target.value)}
                 className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-800"
@@ -277,9 +278,16 @@ const CounselingPage: React.FC<CounselingPageProps> = ({ onBack }) => {
                     {round === "all" ? "All Rounds" : `Round ${round}`}
                   </option>
                 ))}
-              </select>
+              </select> */}
+              <CustomSelect
+              value={selectedRound}
+              onChange={setSelectedRound}
+              options={rounds}
+               placeholder="Select Round"
+               allLabel="All Rounds"
+              />
 
-              <select
+              {/* <select
                 value={selectedCategory}
                 onChange={(e) => setSelectedCategory(e.target.value)}
                 className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-800"
@@ -289,7 +297,15 @@ const CounselingPage: React.FC<CounselingPageProps> = ({ onBack }) => {
                     {category === "all" ? "All Categories" : category}
                   </option>
                 ))}
-              </select>
+              </select> */}
+
+              <CustomSelect
+              value={selectedCategory}
+              onChange={setSelectedCategory}
+              options={categories}
+              placeholder="Select Category"
+              allLabel="All Categories"
+              />
             </div>
           </div>
         </div>
