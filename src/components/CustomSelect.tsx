@@ -26,7 +26,7 @@ const customStyles = {
   menuList: (provided: any) => ({
     ...provided,
     borderRadius: '20px',
-    padding: '8px',
+    padding: '4px',
   }),
   control: (provided: any) => ({
     ...provided,
