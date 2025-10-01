@@ -2635,7 +2635,7 @@ const ClinicalDataPage: React.FC<ClinicalDataPageProps> = ({ onBack }) => {
               <div className="space-y-3 border-t pt-3">
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                   {/* Department Filter */}
-                  <select
+                  {/* <select
                     value={selectedDept}
                     onChange={(e) => {
                       setSelectedDept(e.target.value);
@@ -2648,7 +2648,17 @@ const ClinicalDataPage: React.FC<ClinicalDataPageProps> = ({ onBack }) => {
                         {dept === "all" ? "All Departments" : dept}
                       </option>
                     ))}
-                  </select>
+                  </select> */}
+                  <CustomSelect
+                    value={selectedDept}
+                    onChange={(value) => {
+                    setSelectedDept(value);
+                    setCurrentPage(1);
+                        }}
+                    options={departments}
+                    placeholder="Select Department"
+                    allLabel="All Departments"
+                    />
 
                   {/* Clear Filters Button */}
                   <button
