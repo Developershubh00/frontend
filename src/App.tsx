@@ -46,6 +46,7 @@ import CoursesPage from "./components/CoursesPage";
 import ClinicalDataPage from "./components/ClinicalDataPage";
 import InstitutesPage from "./components/InstitutesPage";
 import AdmittedStudentsPage from "./components/AdmittedStudentsPage";
+import FeesStipendBondPage from "./pages/FeesStipendBondPage";
 
 /**
  * Main App Component with React Router
@@ -220,6 +221,7 @@ function App() {
           <Route path="/courses" element={<CoursesPage onBack={() => window.history.back()} />} />
           <Route path="/Institutes" element={<InstitutesPage onBack={() => window.history.back()} />} />
           <Route path="/Admitted_Students" element={<AdmittedStudentsPage onBack={() => window.history.back()} />} />
+          <Route path="/Feesstipendbonds" element={<FeesStipendBondPage onBack={() => window.history.back()} />} />
             
           </Routes>
         </div>

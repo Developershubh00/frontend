@@ -588,7 +588,7 @@ const AnnouncementPage: React.FC = () => {
       id: 33,
       title: "Karnataka HC ",
       content:"Karnataka HC Dismisses NEET PG 2025 Plea for Category Change After Results Declaration ",
-      date: "2025-09-27T08:00:00Z",
+      date: "2025-09-29T08:00:00Z",
       priority: 'high',
       category: 'NEET PG',
       link: ' https://timesofindia.indiatimes.com/city/raipur/hc-dismisses-plea-challenging-change-in-category-in-neet/articleshow/123571100.cms',
@@ -624,13 +624,13 @@ const AnnouncementPage: React.FC = () => {
       id: 36,
       title: "NEET PG 2025",
       content:"NEET PG 2025 Counselling Expected to Begin Mid-October: Complete Details",
-      date: "2025-10-02T08:00:00Z",
+      date: "2025-10-01T08:00:00Z",
       priority: 'high',
       category: 'NEET PG',
       link: 'https://www.news18.com/education-career/neet-pg-2025-counselling-likely-to-start-by-mid-october-details-here-9608658.html',
       is_active: true,
       source: ' News18 ',
-      created_at: "2025-10-02T08:00:00Z"
+      created_at: "2025-10-01T08:00:00Z"
     },
     
   ];
