@@ -142,10 +142,10 @@ const Sidebar: React.FC<SidebarProps> = ({
     {
       id: "Feesstipendbond",
       icon: GraduationCap,
-      label: "Feesstipendbond",
+      label: "FeesStipend&bond",
       hasSubmenu: false,
       color: "text-cyan-600",
-      onClick: () => navigate("/Feesstipendbond"),
+      onClick: () => navigate("/Feesstipendbonds"),
     },
     
     {
