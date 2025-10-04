@@ -567,11 +567,72 @@ const AnnouncementPage: React.FC = () => {
       date: "2025-09-27T08:00:00Z",
       priority: 'high',
       category: 'NEET PG',
-      link: 'https://economictimes.indiatimes.com/news/india/neet-pg-2025-sc-issues-notice-on-petitions-seeking-publication-of-answer-keys/articleshow/124165012.cms',
+      link: 'https://www.thehindu.com/news/national/supreme-court-issues-notice-on-pleas-seeking-transparency-in-neet-pg-exam-evaluation-process/article70098286.ece',
       is_active: true,
-      source: '  The Economic Times',
+      source: '  the hindu',
       created_at: "2025-09-27T08:00:00Z"
     },
+    {
+      id: 32,
+      title: "NEET PG 2025  ",
+      content:"Counselling Expected to Start in October: Complete Process Guide",
+      date: "2025-09-29T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.ndtv.com/education/neet-pg-2025-counselling-check-expected-start-date-allotment-process-details-here-9364881',
+      is_active: true,
+      source: '  NDTV',
+      created_at: "2025-09-29T08:00:00Z"
+    },
+    {
+      id: 33,
+      title: "Karnataka HC ",
+      content:"Karnataka HC Dismisses NEET PG 2025 Plea for Category Change After Results Declaration ",
+      date: "2025-09-27T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: ' https://timesofindia.indiatimes.com/city/raipur/hc-dismisses-plea-challenging-change-in-category-in-neet/articleshow/123571100.cms',
+      is_active: true,
+      source: '  Times of India',
+      created_at: "2025-09-29T08:00:00Z"
+    },
+    {
+      id: 34,
+      title: "NEET PG 2025 Counselling: ",
+      content:" Expected Mid-October Start Date, Complete Allotment : Medical Counselling Committee expected to release NEET PG 2025 counselling schedule by mid-October 2025 on mcc.nic.in following FAIMA's communication with health ministry. ",
+      date: "2025-10-03T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.ndtv.com/education/neet-pg-counselling-2025-check-expected-start-date-allotment-process-top-medical-colleges-9387163',
+      is_active: true,
+      source: ' NDTV',
+      created_at: "2025-10-03T08:00:00Z"
+    },
+    {
+      id: 35,
+      title: "MCC Yet to Announce ",
+      content:" NEET PG 2025 Counselling Schedule; Medical Aspirants Await Dates : Medical Counselling Committee has not released NEET PG 2025 counselling schedule yet as Supreme Court seeks NBEMS response on transparency issues.",
+      date: "2025-10-02T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.etnownews.com/exams-results/neet-pg-counselling-schedule-2025-mcc-yet-to-release-dates-sc-seeks-nbems-reply-on-transparency-plea-article-152931347',
+      is_active: true,
+      source: '   ET Now News',
+      created_at: "2025-10-02T08:00:00Z"
+    },
+    {
+      id: 36,
+      title: "NEET PG 2025",
+      content:"NEET PG 2025 Counselling Expected to Begin Mid-October: Complete Details",
+      date: "2025-10-02T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.news18.com/education-career/neet-pg-2025-counselling-likely-to-start-by-mid-october-details-here-9608658.html',
+      is_active: true,
+      source: ' News18 ',
+      created_at: "2025-10-02T08:00:00Z"
+    },
+    
   ];
 
   const fetchAnnouncements = async () => {
