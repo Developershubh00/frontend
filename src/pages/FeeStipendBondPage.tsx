@@ -984,7 +984,7 @@ const FeeStipendBondPage: React.FC<FeeStipendBondPageProps> = ({ onBack }) => {
               </button>
               <div>
                 <h1 className="text-lg font-semibold">NEET PG Fee, Stipend & Bond</h1>
-                <p className="text-xs text-blue-100">2024 Session Data</p>
+                <p className="text-xs text-blue-100">2025 Session Data</p>
               </div>
             </div>
             
