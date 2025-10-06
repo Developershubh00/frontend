@@ -47,6 +47,7 @@ import ClinicalDataPage from "./components/ClinicalDataPage";
 import InstitutesPage from "./components/InstitutesPage";
 import AdmittedStudentsPage from "./components/AdmittedStudentsPage";
 import FeesStipendBondPage from "./pages/FeesStipendBondPage";
+import { WhatsAppSender } from "./components/WhatsAppSender";
 
 /**
  * Main App Component with React Router
@@ -78,6 +79,14 @@ function App() {
             element={
               <ProtectedRoute>
                 <DashboardProfilePage />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/Aisensy"
+            element={
+              <ProtectedRoute>
+                <WhatsAppSender />
               </ProtectedRoute>
             }
           />
