@@ -82,14 +82,14 @@ function App() {
               </ProtectedRoute>
             }
           />
-          <Route
+          {/* <Route
             path="/Aisensy"
             element={
               <ProtectedRoute>
                 <WhatsAppSender />
               </ProtectedRoute>
             }
-          />
+          /> */}
           
           {/* <Route
           path="/statetabs"

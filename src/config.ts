@@ -24,7 +24,7 @@ export const ENV = {
   VITE_STATIC_URL: import.meta.env.VITE_STATIC_URL || currentConfig.staticUrl,
   VITE_APP_NAME: import.meta.env.VITE_APP_NAME || "Believers Consultancy",
   VITE_APP_VERSION: import.meta.env.VITE_APP_VERSION || "1.0.0",
-  VITE_AISENSY_API_KEY=your_actual_api_key_here
-  VITE_AISENSY_BASE_URL=https://backend.aisensy.com/campaign/t1/api/v2
-  VITE_AISENSY_PARTNER_ID=your_partner_id_if_you_have_one
+  // VITE_AISENSY_API_KEY=your_actual_api_key_here
+  // VITE_AISENSY_BASE_URL=https://backend.aisensy.com/campaign/t1/api/v2
+  // VITE_AISENSY_PARTNER_ID=your_partner_id_if_you_have_one
 };
