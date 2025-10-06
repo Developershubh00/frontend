@@ -632,6 +632,42 @@ const AnnouncementPage: React.FC = () => {
       source: ' News18 ',
       created_at: "2025-10-01T08:00:00Z"
     },
+     {
+      id: 36,
+      title: "Karnataka NEET PG 2025 ",
+      content:"Round 1 Registration Begins Today at cetonline.karnataka.gov.in :Karnataka Examination Authority begins NEET PG 2025 counselling round 1 registration today October 4 at 11 AM on cetonline.karnataka.gov.in portal.",
+      date: "2025-10-04T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.jagranjosh.com/news/karnataka-neet-pg-counselling-2025-round-1-registration-at-cetonline-karnataka-gov-in-get-direct-link-here-181412',
+      is_active: true,
+      source: ' Jagran Josh ',
+      created_at: "2025-10-04T08:00:00Z"
+    },
+     {
+      id: 36,
+      title: "NEET PG 2025 Counselling Schedule",
+      content:"How to Check MCC Updates at mcc.nic.in :Medical Counselling Committee has not released NEET PG 2025 counselling schedule yet; candidates can check mcc.nic.in when dates become available.",
+      date: "2025-10-06T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.hindustantimes.com/education/admissions/neet-pg-counselling-2025-live-news-check-mcc-allotment-process-neet-pg-counselling-2025-schedule-date-latest-news-101759639482477.html',
+      is_active: true,
+      source: ' Hindustan Times',
+      created_at: "2025-10-06T08:00:00Z"
+    },
+     {
+      id: 36,
+      title: "NEET PG 2025",
+      content:" Counselling Expected to Begin by Mid-October: ",
+      date: "2025-10-01T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.ndtv.com/education/neet-pg-2025-counelling-expected-to-start-in-third-week-of-october-details-here-9399606',
+      is_active: true,
+      source: ' NDTV',
+      created_at: "2025-10-01T08:00:00Z"
+    },
     
   ];
 
