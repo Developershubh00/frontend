@@ -36,7 +36,7 @@ const WhatsAppSupport: React.FC = () => {
         <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4">
           <div className="bg-white rounded-2xl shadow-2xl p-6 sm:p-8 max-w-xs sm:max-w-sm w-full animate-in fade-in zoom-in duration-300">
             <div className="flex flex-col items-center text-center">
-              <div className="w-16 h-16 sm:w-20 sm:h-20 bg-green-500 rounded-full flex items-center justify-center mb-4 ">
+              <div className="w-16 h-16 sm:w-20 sm:h-20 bg-green-100 rounded-full flex items-center justify-center mb-4 ">
                 <img
                  src="/media/whatsapp.png"
                   alt="WhatsApp"
@@ -62,13 +62,17 @@ const WhatsAppSupport: React.FC = () => {
       {/* Floating WhatsApp Button */}
       <button
         onClick={handleWhatsAppClick}
-        className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 w-12 h-12 sm:w-14 sm:h-14 bg-green-500 hover:bg-green-600 rounded-full shadow-lg hover:shadow-xl flex items-center justify-center transition-all duration-300 transform hover:scale-110 z-40 group"
+        className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 w-12 h-12 sm:w-14 sm:h-14 bg-green-200 hover:bg-green-400 rounded-full shadow-lg hover:shadow-xl flex items-center justify-center transition-all duration-300 transform hover:scale-110 z-40 group"
         aria-label="Contact us on WhatsApp"
       >
-        <MessageCircle className="w-6 h-6 sm:w-7 sm:h-7 text-white group-hover:rotate-12 transition-transform duration-300" />
         
+        <img
+                 src="/media/whatsapp.png"
+                  alt="WhatsApp"
+                className="w-6 h-6 sm:w-7 sm:h-7 text-white group-hover:rotate-12 transition-transform duration-300"
+                />
         {/* Pulse rings */}
-        <span className="absolute inset-0 rounded-full bg-green-400 animate-ping opacity-75"></span>
+        
       </button>
     </>
   );
