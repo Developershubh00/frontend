@@ -660,25 +660,25 @@ const AnnouncementPage: React.FC = () => {
       id: 39,
       title: "NEET PG 2025",
       content:" Counselling Expected to Begin by Mid-October: ",
-      date: "2025-10-01T08:00:00Z",
+      date: "2025-10-06T08:00:00Z",
       priority: 'high',
       category: 'NEET PG',
       link: 'https://www.ndtv.com/education/neet-pg-2025-counelling-expected-to-start-in-third-week-of-october-details-here-9399606',
       is_active: true,
       source: ' NDTV',
-      created_at: "2025-10-01T08:00:00Z"
+      created_at: "2025-10-06T08:00:00Z"
     },
     {
       id: 40,
       title: "NEET PG 2025",
       content:"  Data Breach Alert: NBEMS Officials Respond to Leak Allegations ",
-      date: "2025-10-01T08:00:00Z",
+      date: "2025-10-07T08:00:00Z",
       priority: 'high',
       category: 'NEET PG',
       link: 'https://indianexpress.com/article/education/neet-pg-2025-candidates-data-leaked-heres-what-nbe-said-10290545/',
       is_active: true,
       source: '  Indian Express',
-      created_at: "2025-10-01T08:00:00Z"
+      created_at: "2025-10-07T08:00:00Z"
     },
     // {
     //   id: 41,
