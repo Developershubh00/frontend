@@ -145,6 +145,7 @@ import AIAssistant from "../components/AIAssistant";
 // import WhatsAppSupport from "../components/WhatsAppSupport";
 // import StateTabs from "../components/StateTabs";
 import { neetAPI, counsellingAPI } from "../services/api";
+import WhatsAppSupport from "../components/WhatsAppSupport";
 
 /**
  * Enhanced Dashboard Page Component for NEET PG Platform
@@ -287,10 +288,10 @@ const DashboardPage: React.FC = () => {
       />
 
       {/* AI Assistant Widget */}
-      <AIAssistant />
+      {/* <AIAssistant /> */}
 
       {/* WhatsApp Support Widget */}
-      {/* <WhatsAppSupport /> */}
+      <WhatsAppSupport />
     </div>
   );
 };

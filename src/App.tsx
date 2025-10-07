@@ -48,6 +48,7 @@ import InstitutesPage from "./components/InstitutesPage";
 import AdmittedStudentsPage from "./components/AdmittedStudentsPage";
 import FeesStipendBondPage from "./pages/FeesStipendBondPage";
 import { WhatsAppSender } from "./components/WhatsAppSender";
+import ClossingRanksPage from "./components/ClossingRanksPage";
 
 /**
  * Main App Component with React Router
@@ -231,6 +232,8 @@ function App() {
           <Route path="/Institutes" element={<InstitutesPage onBack={() => window.history.back()} />} />
           <Route path="/Admitted_Students" element={<AdmittedStudentsPage onBack={() => window.history.back()} />} />
           <Route path="/Feesstipendbonds" element={<FeesStipendBondPage onBack={() => window.history.back()} />} />
+          <Route path="/Closingranks" element={<ClossingRanksPage onBack={() => window.history.back()} />} />
+          
             
           </Routes>
         </div>

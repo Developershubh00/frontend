@@ -142,10 +142,18 @@ const Sidebar: React.FC<SidebarProps> = ({
     {
       id: "Feesstipendbond",
       icon: GraduationCap,
-      label: "FeesStipend&bond",
+      label: "Fees Stipend & bond",
       hasSubmenu: false,
       color: "text-cyan-600",
       onClick: () => navigate("/Feesstipendbonds"),
+    },
+    {
+      id: "closingranks",
+      icon: UserCheck,
+      label: "Closing Ranks ",
+      hasSubmenu: false,
+      color: "text-cyan-600",
+      onClick: () => navigate("/Closingranks"),
     },
     
     {
