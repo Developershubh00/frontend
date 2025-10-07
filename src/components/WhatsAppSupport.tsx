@@ -62,7 +62,7 @@ const WhatsAppSupport: React.FC = () => {
       {/* Floating WhatsApp Button */}
       <button
         onClick={handleWhatsAppClick}
-        className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 w-12 h-12 sm:w-14 sm:h-14 bg-green-200 hover:bg-green-400 rounded-full shadow-lg hover:shadow-xl flex items-center justify-center transition-all duration-300 transform hover:scale-110 z-40 group"
+        className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 w-12 h-12 sm:w-14 sm:h-14 bg-green-200 hover:blue-200 rounded-full shadow-lg hover:shadow-xl flex items-center justify-center transition-all duration-300 transform hover:scale-110 z-40 group"
         aria-label="Contact us on WhatsApp"
       >
         
