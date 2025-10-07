@@ -17,7 +17,7 @@ const WhatsAppSupport: React.FC = () => {
     
     // Redirect to WhatsApp after brief delay
     setTimeout(() => {
-      const phoneNumber = "919876543210"; // Replace with actual WhatsApp number
+      const phoneNumber = "919211724969"; // Replace with actual WhatsApp number
       const message = encodeURIComponent(
         "Hi! I need help with medical Counselling guidance."
       );
