@@ -22,19 +22,19 @@ interface RanksData {
   College: string;
   Course: string;
   "Course Fee": number;
-  "2024 R1": number;
-  "2024 R2": number;
-  "2024 R3": number;
-  "2024 R4": number;
-  "2024 R5": number;
-  "2023 R1": number;
-  "2023 R2": number;
-  "2023 R3": number;
-  "2023 R4": number;
-  "2022 R1": number;
-  "2022 R2": number;
-  "2022 R3": number;
-  "2022 R4": number;
+  "2024 R1": string;  // Change from number to string
+  "2024 R2": string;  // Change from number to string
+  "2024 R3": string;  // Change from number to string
+  "2024 R4": string;  // Change from number to string
+  "2024 R5": string;  // Change from number to string
+  "2023 R1": string;  // Change from number to string
+  "2023 R2": string;  // Change from number to string
+  "2023 R3": string;  // Change from number to string
+  "2023 R4": string;  // Change from number to string
+  "2022 R1": string;  // Change from number to string
+  "2022 R2": string;  // Change from number to string
+  "2022 R3": string;  // Change from number to string
+  "2022 R4": string;  // Change from number to string
 }
 
 interface ColumnVisibility {
@@ -302,26 +302,26 @@ const ClossingRanksPage: React.FC<ClossingRanksPageProps> = ({ onBack }) => {
         
         const fallbackData: RanksData[] = [
           {
-            "Alloted Quota": "All India",
-            "Alloted Category": "General",
-            State: "Delhi",
-            College: "ABVIMS & Dr. RML Hospital",
-            Course: "MD - Anaesthesiology",
-            "Course Fee": 50000,
-            "2024 R1": 1234,
-            "2024 R2": 1456,
-            "2024 R3": 1567,
-            "2024 R4": 1678,
-            "2024 R5": 1789,
-            "2023 R1": 1345,
-            "2023 R2": 1567,
-            "2023 R3": 1678,
-            "2023 R4": 1789,
-            "2022 R1": 1456,
-            "2022 R2": 1678,
-            "2022 R3": 1789,
-            "2022 R4": 1890,
-          },
+  "Alloted Quota": "All India",
+  "Alloted Category": "General",
+  State: "Delhi",
+  College: "ABVIMS & Dr. RML Hospital",
+  Course: "MD - Anaesthesiology",
+  "Course Fee": 50000,
+  "2024 R1": "1234 (1)",
+  "2024 R2": "1456 (2)",
+  "2024 R3": "1567 (3)",
+  "2024 R4": "1678 (4)",
+  "2024 R5": "1789 (5)",
+  "2023 R1": "1345 (1)",
+  "2023 R2": "1567 (2)",
+  "2023 R3": "1678 (3)",
+  "2023 R4": "1789 (4)",
+  "2022 R1": "1456 (1)",
+  "2022 R2": "1678 (2)",
+  "2022 R3": "1789 (3)",
+  "2022 R4": "1890 (4)",
+}
         ];
         
         setRanksData(fallbackData);
@@ -351,17 +351,20 @@ const ClossingRanksPage: React.FC<ClossingRanksPageProps> = ({ onBack }) => {
       (!maxFee || item["Course Fee"] <= parseFloat(maxFee));
     
     const allRanks = [
-      item["2024 R1"], item["2024 R2"], item["2024 R3"], item["2024 R4"], item["2024 R5"],
-      item["2023 R1"], item["2023 R2"], item["2023 R3"], item["2023 R4"],
-      item["2022 R1"], item["2022 R2"], item["2022 R3"], item["2022 R4"]
-    ].filter(r => r > 0);
-    
+    item["2024 R1"], item["2024 R2"], item["2024 R3"], item["2024 R4"], item["2024 R5"],
+    item["2023 R1"], item["2023 R2"], item["2023 R3"], item["2023 R4"],
+    item["2022 R1"], item["2022 R2"], item["2022 R3"], item["2022 R4"]
+    ].map(r => {
+  const match = r.match(/\d+/);  // Extract number from string like "103 (4)"
+  return match ? parseInt(match[0]) : 0;
+    }).filter(r => r > 0);
+
     const minRankValue = allRanks.length > 0 ? Math.min(...allRanks) : 0;
     const maxRankValue = allRanks.length > 0 ? Math.max(...allRanks) : 0;
-    
-    const matchesRankRange = 
-      (!minRank || maxRankValue >= parseFloat(minRank)) &&
-      (!maxRank || minRankValue <= parseFloat(maxRank));
+
+  const matchesRankRange = 
+    (!minRank || maxRankValue >= parseFloat(minRank)) &&
+    (!maxRank || minRankValue <= parseFloat(maxRank));
     
     return matchesSearch && matchesState && matchesQuota && matchesCategory && matchesCourse && matchesFeeRange && matchesRankRange;
   });
@@ -397,10 +400,10 @@ const ClossingRanksPage: React.FC<ClossingRanksPageProps> = ({ onBack }) => {
     return '₹' + num.toLocaleString();
   };
 
-  const formatRank = (num: number): string => {
-    if (num === 0) return '-';
-    return num.toLocaleString();
-  };
+  const formatRank = (value: string): string => {
+  if (!value || value === '-' || value === '') return '-';
+  return value;  // Return as-is to preserve brackets
+};
 
   if (loading) {
     return (
