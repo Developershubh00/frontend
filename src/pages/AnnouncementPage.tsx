@@ -633,7 +633,7 @@ const AnnouncementPage: React.FC = () => {
       created_at: "2025-10-01T08:00:00Z"
     },
      {
-      id: 36,
+      id: 37,
       title: "Karnataka NEET PG 2025 ",
       content:"Round 1 Registration Begins Today at cetonline.karnataka.gov.in :Karnataka Examination Authority begins NEET PG 2025 counselling round 1 registration today October 4 at 11 AM on cetonline.karnataka.gov.in portal.",
       date: "2025-10-04T08:00:00Z",
@@ -645,7 +645,7 @@ const AnnouncementPage: React.FC = () => {
       created_at: "2025-10-04T08:00:00Z"
     },
      {
-      id: 36,
+      id: 38,
       title: "NEET PG 2025 Counselling Schedule",
       content:"How to Check MCC Updates at mcc.nic.in :Medical Counselling Committee has not released NEET PG 2025 counselling schedule yet; candidates can check mcc.nic.in when dates become available.",
       date: "2025-10-06T08:00:00Z",
@@ -657,7 +657,43 @@ const AnnouncementPage: React.FC = () => {
       created_at: "2025-10-06T08:00:00Z"
     },
      {
-      id: 36,
+      id: 39,
+      title: "NEET PG 2025",
+      content:" Counselling Expected to Begin by Mid-October: ",
+      date: "2025-10-01T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.ndtv.com/education/neet-pg-2025-counelling-expected-to-start-in-third-week-of-october-details-here-9399606',
+      is_active: true,
+      source: ' NDTV',
+      created_at: "2025-10-01T08:00:00Z"
+    },
+    {
+      id: 40,
+      title: "NEET PG 2025",
+      content:" Counselling Expected to Begin by Mid-October: ",
+      date: "2025-10-01T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.ndtv.com/education/neet-pg-2025-counelling-expected-to-start-in-third-week-of-october-details-here-9399606',
+      is_active: true,
+      source: ' NDTV',
+      created_at: "2025-10-01T08:00:00Z"
+    },
+    {
+      id: 41,
+      title: "NEET PG 2025",
+      content:" Counselling Expected to Begin by Mid-October: ",
+      date: "2025-10-01T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.ndtv.com/education/neet-pg-2025-counelling-expected-to-start-in-third-week-of-october-details-here-9399606',
+      is_active: true,
+      source: ' NDTV',
+      created_at: "2025-10-01T08:00:00Z"
+    },
+    {
+      id: 42,
       title: "NEET PG 2025",
       content:" Counselling Expected to Begin by Mid-October: ",
       date: "2025-10-01T08:00:00Z",
