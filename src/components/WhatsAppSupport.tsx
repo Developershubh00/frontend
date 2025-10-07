@@ -36,7 +36,7 @@ const WhatsAppSupport: React.FC = () => {
         <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4">
           <div className="bg-white rounded-2xl shadow-2xl p-6 sm:p-8 max-w-xs sm:max-w-sm w-full animate-in fade-in zoom-in duration-300">
             <div className="flex flex-col items-center text-center">
-              <div className="w-16 h-16 sm:w-20 sm:h-20 bg-green-500 rounded-full flex items-center justify-center mb-4 animate-pulse">
+              <div className="w-16 h-16 sm:w-20 sm:h-20 bg-green-500 rounded-full flex items-center justify-center mb-4 ">
                 <MessageCircle className="w-8 h-8 sm:w-10 sm:h-10 text-white" />
               </div>
               <h3 className="text-lg sm:text-xl font-bold text-slate-800 mb-2">
