@@ -1,82 +1,72 @@
 import React, { useState } from "react";
-import { MessageCircle, X, Phone } from "lucide-react";
+import { MessageCircle } from "lucide-react";
 
 /**
  * WhatsAppSupport Component
- * Floating WhatsApp support widget for instant customer support
- * Provides direct link to WhatsApp chat with pre-filled message
+ * Compact floating WhatsApp button with connection popup
  */
 const WhatsAppSupport: React.FC = () => {
-  // State for widget expansion
-  const [isExpanded, setIsExpanded] = useState(false);
-  const [isVisible, setIsVisible] = useState(true);
+  const [showPopup, setShowPopup] = useState(false);
 
   /**
    * Handle WhatsApp button click
-   * Opens WhatsApp with pre-filled message
+   * Shows connecting popup then redirects to WhatsApp
    */
   const handleWhatsAppClick = () => {
-    const phoneNumber = "919876543210"; // Replace with actual WhatsApp number
-    const message = encodeURIComponent(
-      "Hi! I need help with medical Counselling guidance."
-    );
-    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
-    window.open(whatsappUrl, "_blank");
+    setShowPopup(true);
+    
+    // Redirect to WhatsApp after brief delay
+    setTimeout(() => {
+      const phoneNumber = "919876543210"; // Replace with actual WhatsApp number
+      const message = encodeURIComponent(
+        "Hi! I need help with medical Counselling guidance."
+      );
+      const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
+      window.open(whatsappUrl, "_blank");
+      
+      // Hide popup after redirect
+      setTimeout(() => setShowPopup(false), 1000);
+    }, 800);
   };
 
-  if (!isVisible) return null;
-
   return (
-    <div className="fixed bottom-6 right-6 z-50">
-      {/* Expanded Card */}
-      {isExpanded && (
-        <div className="bg-white/95 backdrop-blur-xl rounded-2xl shadow-2xl border border-white/20 p-4 max-w-sm mb-4 animate-in fade-in slide-in-from-bottom-5 duration-300">
-          <div className="flex items-start justify-between mb-3">
-            <div className="flex items-center space-x-3">
-              <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center">
-                <MessageCircle className="w-6 h-6 text-white" />
+    <>
+      {/* Connecting Popup */}
+      {showPopup && (
+        <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4">
+          <div className="bg-white rounded-2xl shadow-2xl p-6 sm:p-8 max-w-xs sm:max-w-sm w-full animate-in fade-in zoom-in duration-300">
+            <div className="flex flex-col items-center text-center">
+              <div className="w-16 h-16 sm:w-20 sm:h-20 bg-green-500 rounded-full flex items-center justify-center mb-4 animate-pulse">
+                <MessageCircle className="w-8 h-8 sm:w-10 sm:h-10 text-white" />
               </div>
-              <div>
-                <h3 className="font-bold text-slate-800">WhatsApp Support</h3>
-                <p className="text-sm text-slate-600">We're online now!</p>
+              <h3 className="text-lg sm:text-xl font-bold text-slate-800 mb-2">
+                Connecting...
+              </h3>
+              <p className="text-sm sm:text-base text-slate-600">
+                Redirecting you to our executive on WhatsApp
+              </p>
+              <div className="flex space-x-2 mt-4">
+                <div className="w-2 h-2 bg-green-500 rounded-full animate-bounce"></div>
+                <div className="w-2 h-2 bg-green-500 rounded-full animate-bounce" style={{ animationDelay: '0.1s' }}></div>
+                <div className="w-2 h-2 bg-green-500 rounded-full animate-bounce" style={{ animationDelay: '0.2s' }}></div>
               </div>
             </div>
-            <button
-              onClick={() => setIsExpanded(false)}
-              className="p-1 hover:bg-slate-100 rounded-lg transition-colors"
-            >
-              <X className="w-4 h-4 text-slate-600" />
-            </button>
           </div>
-
-          <p className="text-sm text-slate-700 mb-4">
-            Need instant help? Chat with our Counselling experts on WhatsApp for
-            immediate assistance.
-          </p>
-
-          <button
-            onClick={handleWhatsAppClick}
-            className="w-full bg-green-500 hover:bg-green-600 text-white py-3 rounded-xl font-medium transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center justify-center space-x-2"
-          >
-            <MessageCircle className="w-5 h-5" />
-            <span>Start WhatsApp Chat</span>
-          </button>
-
-          <p className="text-xs text-slate-500 mt-2 text-center">
-            Available 24/7 for urgent queries
-          </p>
         </div>
       )}
 
-      {/* Floating Phone Icon */}
+      {/* Floating WhatsApp Button */}
       <button
-        onClick={() => setIsExpanded(!isExpanded)}
-        className="w-16 h-16 bg-green-500 hover:bg-green-600 rounded-full shadow-2xl flex items-center justify-center transition-all duration-300 transform hover:scale-110 group relative"
+        onClick={handleWhatsAppClick}
+        className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 w-12 h-12 sm:w-14 sm:h-14 bg-green-500 hover:bg-green-600 rounded-full shadow-lg hover:shadow-xl flex items-center justify-center transition-all duration-300 transform hover:scale-110 z-40 group"
+        aria-label="Contact us on WhatsApp"
       >
-        <div className="absolute -top-1 -right-1 w-4 h-4 bg-red-500 rounded-full animate-pulse"></div>
-        <Phone className="w-7 h-7 text-white group-hover:rotate-12 transition-transform duration-300" />
+        <MessageCircle className="w-6 h-6 sm:w-7 sm:h-7 text-white group-hover:rotate-12 transition-transform duration-300" />
+        
+        {/* Pulse rings */}
+        <span className="absolute inset-0 rounded-full bg-green-400 animate-ping opacity-75"></span>
       </button>
-    </div>
+    </>
   );
 };
 
