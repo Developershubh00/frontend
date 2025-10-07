@@ -69,7 +69,7 @@ const WhatsAppSupport: React.FC = () => {
         <img
                  src="/media/whatsapp.png"
                   alt="WhatsApp"
-                className="w-6 h-6 sm:w-7 sm:h-7 text-white group-hover:rotate-12 transition-transform duration-300"
+                className="w-14 h-14 sm:w-12 sm:h-12 text-white group-hover:rotate-12 transition-transform duration-300"
                 />
         {/* Pulse rings */}
         
