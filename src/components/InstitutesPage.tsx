@@ -14,6 +14,7 @@ import {
   Bed,
   Calendar,
 } from "lucide-react";
+import CustomSelect from "./CustomSelect";
 
 interface InstitutesPageProps {
   onBack: () => void;
@@ -455,7 +456,7 @@ const InstitutesPage: React.FC<InstitutesPageProps> = ({ onBack }) => {
 
               {/* Quick Filters */}
               <div className="flex gap-2 flex-wrap">
-                <select
+                {/* <select
                   value={selectedState}
                   onChange={(e) => {
                     setSelectedState(e.target.value);
@@ -468,7 +469,19 @@ const InstitutesPage: React.FC<InstitutesPageProps> = ({ onBack }) => {
                       {state === "all" ? "All States" : state}
                     </option>
                   ))}
-                </select>
+                </select> */}
+                <CustomSelect
+  value={selectedState}
+  onChange={(value) => {
+    setSelectedState(value);
+    setCurrentPage(1);
+  }}
+  options={states}
+  placeholder="Select State"
+  allLabel="All States"
+  menuPlacement="auto"
+  className="min-w-[120px]"
+/>
 
                 {/* Advanced Filter Toggle */}
                 <button
@@ -487,7 +500,7 @@ const InstitutesPage: React.FC<InstitutesPageProps> = ({ onBack }) => {
               <div className="space-y-3 border-t pt-3">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
                   {/* University Filter */}
-                  <select
+                  {/* <select
                     value={selectedUniversity}
                     onChange={(e) => {
                       setSelectedUniversity(e.target.value);
@@ -500,7 +513,18 @@ const InstitutesPage: React.FC<InstitutesPageProps> = ({ onBack }) => {
                         {uni === "all" ? "All Universities" : uni}
                       </option>
                     ))}
-                  </select>
+                  </select> */}
+                  <CustomSelect
+  value={selectedUniversity}
+  onChange={(value) => {
+    setSelectedUniversity(value);
+    setCurrentPage(1);
+  }}
+  options={universities}
+  placeholder="Select University"
+  allLabel="All Universities"
+  menuPlacement="auto"
+/>
 
                   {/* Year Range */}
                   <div className="flex items-center gap-2">
