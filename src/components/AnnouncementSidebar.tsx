@@ -597,7 +597,7 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
      source: ' News18 ',
     },
     {
-      id: 36,
+      id: 37,
       title: "Karnataka NEET PG 2025 Round 1 Registration Begins Today at cetonline.karnataka.gov.in :Karnataka Examination Authority begins NEET PG 2025 counselling round 1 registration today October 4 at 11 AM on cetonline.karnataka.gov.in portal.",
       date: "2025-10-04T08:00:00Z",
       priority: 'high',
@@ -606,7 +606,7 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       source: ' Jagran Josh ',
     },
      {
-      id: 36,
+      id: 38,
       title: "NEET PG 2025 Counselling Schedule How to Check MCC Updates at mcc.nic.in :Medical Counselling Committee has not released NEET PG 2025 counselling schedule yet; candidates can check mcc.nic.in when dates become available.",
       date: "2025-10-06T08:00:00Z",
       priority: 'high',
@@ -615,7 +615,7 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       source: ' Hindustan Times',
     },
      {
-      id: 36,
+      id: 39,
       title: "NEET PG 2025 Counselling Expected to Begin by Mid-October: ",
       date: "2025-10-01T08:00:00Z",
       priority: 'high',
@@ -624,7 +624,7 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       source: ' NDTV',
     },
     {
-      id: 41,
+      id: 40,
       title: "NEET PG 2025 Privacy Breach: Student Information Allegedly Sold for Rs 15,000 Online ",
       date: "2025-10-08T08:00:00Z",
       priority: 'high',
