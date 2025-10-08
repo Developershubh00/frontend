@@ -1902,6 +1902,7 @@ import {
   Building2,
 } from "lucide-react";
 import { getStaticFileUrl } from "../services/api";
+import CustomSelect from "./CustomSelect";
 
 interface CoursesPageProps {
   onBack: () => void;
@@ -2324,7 +2325,7 @@ const CoursesPage: React.FC<CoursesPageProps> = ({ onBack }) => {
 
             {/* Filters Grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-              <select
+              {/* <select
                 value={selectedDuration}
                 onChange={(e) => setSelectedDuration(e.target.value)}
                 className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent bg-white text-slate-800"
@@ -2334,9 +2335,17 @@ const CoursesPage: React.FC<CoursesPageProps> = ({ onBack }) => {
                     {duration === "all" ? "All Durations" : duration}
                   </option>
                 ))}
-              </select>
+              </select> */}
 
-              <select
+              <CustomSelect
+              value={selectedDuration}
+              onChange={setSelectedDuration}
+              options={durations}
+              placeholder="Select Duration"
+              allLabel="All Durations"
+              />
+
+              {/* <select
                 value={selectedClinicalType}
                 onChange={(e) => setSelectedClinicalType(e.target.value)}
                 className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent bg-white text-slate-800"
@@ -2346,9 +2355,17 @@ const CoursesPage: React.FC<CoursesPageProps> = ({ onBack }) => {
                     {type === "all" ? "All Clinical Types" : type}
                   </option>
                 ))}
-              </select>
+              </select> */}
 
-              <select
+              <CustomSelect
+  value={selectedClinicalType}
+  onChange={setSelectedClinicalType}
+  options={clinicalTypes}
+  placeholder="Select Clinical Type"
+  allLabel="All Clinical Types"
+/>
+
+              {/* <select
                 value={selectedDegreeType}
                 onChange={(e) => setSelectedDegreeType(e.target.value)}
                 className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent bg-white text-slate-800"
@@ -2358,9 +2375,17 @@ const CoursesPage: React.FC<CoursesPageProps> = ({ onBack }) => {
                     {type === "all" ? "All Degree Types" : type}
                   </option>
                 ))}
-              </select>
+              </select> */}
 
-              <select
+              <CustomSelect
+  value={selectedDegreeType}
+  onChange={setSelectedDegreeType}
+  options={degreeTypes}
+  placeholder="Select Degree Type"
+  allLabel="All Degree Types"
+/>
+
+              {/* <select
                 value={selectedCourseType}
                 onChange={(e) => setSelectedCourseType(e.target.value)}
                 className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent bg-white text-slate-800"
@@ -2370,7 +2395,14 @@ const CoursesPage: React.FC<CoursesPageProps> = ({ onBack }) => {
                     {type === "all" ? "All Course Types" : type}
                   </option>
                 ))}
-              </select>
+              </select> */}
+              <CustomSelect
+  value={selectedCourseType}
+  onChange={setSelectedCourseType}
+  options={courseTypes}
+  placeholder="Select Course Type"
+  allLabel="All Course Types"
+/>
             </div>
           </div>
         </div>
