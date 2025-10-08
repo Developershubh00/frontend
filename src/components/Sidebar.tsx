@@ -39,7 +39,7 @@ const Sidebar: React.FC<SidebarProps> = ({
   const [expandedSections, setExpandedSections] = useState<string[]>([
     "repo",
     "tools",
-    "explore",
+    // "explore",
   ]);
   const navigate = useNavigate();
 
