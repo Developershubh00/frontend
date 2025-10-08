@@ -230,7 +230,7 @@ const CounselingPage: React.FC<CounselingPageProps> = ({ onBack }) => {
             <ArrowLeft className="w-5 h-5 text-slate-600" />
           </button>
           <h1 className="text-xl font-bold text-slate-800">
-            INICET PG Counseling Data
+            PG Counseling Data
           </h1>
         </div>
       </div>
@@ -243,10 +243,10 @@ const CounselingPage: React.FC<CounselingPageProps> = ({ onBack }) => {
               <Users className="w-8 h-8" />
             </div>
             <h2 className="text-3xl font-bold mb-4">
-              INICET PG Allotment Data
+              PG Counseling Data
             </h2>
             <p className="text-indigo-100 text-lg">
-              Round-wise seat allotment data for postgraduate medical courses
+              Round-wise PG Counseling Data for postgraduate medical courses
             </p>
           </div>
         </div>
@@ -285,6 +285,7 @@ const CounselingPage: React.FC<CounselingPageProps> = ({ onBack }) => {
               options={rounds}
                placeholder="Select Round"
                allLabel="All Rounds"
+               menuPlacement="auto"
               />
 
               {/* <select
@@ -305,6 +306,7 @@ const CounselingPage: React.FC<CounselingPageProps> = ({ onBack }) => {
               options={categories}
               placeholder="Select Category"
               allLabel="All Categories"
+              menuPlacement="auto"
               />
             </div>
           </div>
