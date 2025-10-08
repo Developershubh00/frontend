@@ -119,7 +119,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
       subtitle: "2024",
       icon: TrendingUp,
       color: "bg-blue-500",
-      navLink: "/closing-ranks",
+      navLink: "/Closingranks",
       onClick: () => {
         window.location.href = "/";
       },
@@ -139,7 +139,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
       subtitle: "2024",
       icon: Award,
       color: "bg-purple-600",
-      navLink: "/fee-stipend-bond",
+      navLink: "/feesstipendbonds",
       onClick: () => {
         window.location.href = "/";
       },
