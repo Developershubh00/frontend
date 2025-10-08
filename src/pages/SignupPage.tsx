@@ -86,6 +86,8 @@ const SignupPage: React.FC = () => {
     "Uttarakhand", "West Bengal"
   ];
 
+  
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-rose-50 via-blue-50 to-indigo-50 flex items-center justify-center p-4">
       <div className="max-w-2xl w-full">
@@ -124,14 +126,14 @@ const SignupPage: React.FC = () => {
                 <div className="relative">
                   <User className="w-5 h-5 absolute left-3 top-1/2 transform -translate-y-1/2 text-slate-400" />
                   <input
-                    type="text"
-                    name="name"
-                    value={formData.name}
-                    onChange={handleChange}
-                    className="w-full pl-10 pr-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-slate-50/50 transition-all duration-200 text-black"
-                    placeholder="Enter your full name"
-                    required
-                  />
+  type="text"
+  name="name"
+  value={formData.name}
+  onChange={handleChange}
+  className="w-full pl-10 pr-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-800 transition-all duration-200"
+  placeholder="Enter your full name"
+  required
+/>
                 </div>
               </div>
 
@@ -143,15 +145,14 @@ const SignupPage: React.FC = () => {
                 <div className="relative">
                   <Mail className="w-5 h-5 absolute left-3 top-1/2 transform -translate-y-1/2 text-slate-400" />
                   <input
-                    type="email"
-                    name="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    className="w-full pl-10 pr-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-slate-50/50 transition-all duration-200 text-black"
-                    placeholder="Enter your email"
-                    required
-                  />
-                </div>
+  type="email"
+  name="email"
+  value={formData.email}
+  onChange={handleChange}
+  className="w-full pl-10 pr-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-800 transition-all duration-200"
+  placeholder="Enter your email"
+  required
+/>
               </div>
 
               {/* Phone */}
@@ -162,15 +163,14 @@ const SignupPage: React.FC = () => {
                 <div className="relative">
                   <Phone className="w-5 h-5 absolute left-3 top-1/2 transform -translate-y-1/2 text-slate-400" />
                   <input
-                    type="tel"
-                    name="phone"
-                    value={formData.phone}
-                    onChange={handleChange}
-                    className="w-full pl-10 pr-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-slate-50/50 transition-all duration-200 text-black"
-                    placeholder="Enter your phone number"
-                    required
-                  />
-                </div>
+  type="tel"
+  name="phone"
+  value={formData.phone}
+  onChange={handleChange}
+  className="w-full pl-10 pr-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-800 transition-all duration-200"
+  placeholder="Enter your phone number"
+  required
+/>
               </div>
 
               {/* NEET Rank */}
@@ -181,13 +181,13 @@ const SignupPage: React.FC = () => {
                 <div className="relative">
                   <Award className="w-5 h-5 absolute left-3 top-1/2 transform -translate-y-1/2 text-slate-400" />
                   <input
-                    type="text"
-                    name="neetRank"
-                    value={formData.neetRank}
-                    onChange={handleChange}
-                    className="w-full pl-10 pr-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-slate-50/50 transition-all duration-200 text-black"
-                    placeholder="Enter your NEET rank"
-                  />
+  type="text"
+  name="neetRank"
+  value={formData.neetRank}
+  onChange={handleChange}
+  className="w-full pl-10 pr-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-800 transition-all duration-200"
+  placeholder="Enter your NEET rank"
+/>
                 </div>
               </div>
 
@@ -261,14 +261,14 @@ const SignupPage: React.FC = () => {
                 <div className="relative">
                   <Lock className="w-5 h-5 absolute left-3 top-1/2 transform -translate-y-1/2 text-slate-400" />
                   <input
-                    type={showPassword ? "text" : "password"}
-                    name="password"
-                    value={formData.password}
-                    onChange={handleChange}
-                    className="w-full pl-10 pr-12 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-slate-50/50 transition-all duration-200 text-black"
-                    placeholder="Create password"
-                    required
-                  />
+  type={showPassword ? "text" : "password"}
+  name="password"
+  value={formData.password}
+  onChange={handleChange}
+  className="w-full pl-10 pr-12 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-800 transition-all duration-200"
+  placeholder="Create password"
+  required
+/>
                   <button
                     type="button"
                     onClick={() => setShowPassword(!showPassword)}
@@ -290,14 +290,14 @@ const SignupPage: React.FC = () => {
                 <div className="relative">
                   <Lock className="w-5 h-5 absolute left-3 top-1/2 transform -translate-y-1/2 text-slate-400" />
                   <input
-                    type={showConfirmPassword ? "text" : "password"}
-                    name="confirmPassword"
-                    value={formData.confirmPassword}
-                    onChange={handleChange}
-                    className="w-full pl-10 pr-12 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-slate-50/50 transition-all duration-200 text-black"
-                    placeholder="Confirm password"
-                    required
-                  />
+  type={showConfirmPassword ? "text" : "password"}
+  name="confirmPassword"
+  value={formData.confirmPassword}
+  onChange={handleChange}
+  className="w-full pl-10 pr-12 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-800 transition-all duration-200"
+  placeholder="Confirm password"
+  required
+/>
                   <button
                     type="button"
                     onClick={() => setShowConfirmPassword(!showConfirmPassword)}
