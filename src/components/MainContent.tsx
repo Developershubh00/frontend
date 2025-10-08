@@ -244,13 +244,13 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
         case "allotments":
           data = await dataService.getCategoryAllotments(category);
           break;
-        case "closing-ranks":
+        case "closingranks":
           data = await dataService.getCategoryClosingRanks(category);
           break;
         case "seat-matrix":
           data = await dataService.getCategorySeatMatrix(category);
           break;
-        case "fee-stipend-bond":
+        case "feesstipendbond":
           data = await dataService.getCategoryFeeStipendBond(category);
           break;
         default:
