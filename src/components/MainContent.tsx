@@ -121,8 +121,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
       color: "bg-blue-500",
       navLink: "/closing-ranks",
       onClick: () => {
-      
-        window.location.href = "/Closingranks";
+        window.location.href = "/closing-ranks";
       },
     },
     {
@@ -142,8 +141,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
       color: "bg-purple-600",
       navLink: "/fee-stipend-bond",
       onClick: () => {
-        
-        window.location.href = "/feesstipendbond";
+        window.location.href = "/fee-stipend-bond";
       },
     },
   ];
@@ -244,13 +242,13 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
         case "allotments":
           data = await dataService.getCategoryAllotments(category);
           break;
-        case "closingranks":
+        case "closing-ranks":
           data = await dataService.getCategoryClosingRanks(category);
           break;
         case "seat-matrix":
           data = await dataService.getCategorySeatMatrix(category);
           break;
-        case "feesstipendbond":
+        case "fee-stipend-bond":
           data = await dataService.getCategoryFeeStipendBond(category);
           break;
         default:
@@ -297,7 +295,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
           { key: "round", label: "Round", sortable: true },
           { key: "rank", label: "Closing Rank", sortable: true },
         ];
-      case "Closingranks":
+      case "closing-ranks":
         return [
           { key: "college", label: "College Name", sortable: true },
           { key: "specialty", label: "Specialty", sortable: true },
@@ -315,7 +313,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
           { key: "state_seats", label: "State Seats", sortable: true },
           { key: "management_seats", label: "Management Seats", sortable: true },
         ];
-      case "feesstipendbond":
+      case "fee-stipend-bond":
         return [
           { key: "college", label: "College Name", sortable: true },
           { key: "specialty", label: "Specialty", sortable: true },
