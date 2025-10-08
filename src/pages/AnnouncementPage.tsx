@@ -680,18 +680,18 @@ const AnnouncementPage: React.FC = () => {
       source: '  Indian Express',
       created_at: "2025-10-07T08:00:00Z"
     },
-    // {
-    //   id: 41,
-    //   title: "NEET PG 2025",
-    //   content:" Counselling Expected to Begin by Mid-October: ",
-    //   date: "2025-10-01T08:00:00Z",
-    //   priority: 'high',
-    //   category: 'NEET PG',
-    //   link: 'https://www.ndtv.com/education/neet-pg-2025-counelling-expected-to-start-in-third-week-of-october-details-here-9399606',
-    //   is_active: true,
-    //   source: ' NDTV',
-    //   created_at: "2025-10-01T08:00:00Z"
-    // },
+    {
+      id: 41,
+      title: "NEET PG 2025",
+      content:" NEET PG 2025 Privacy Breach: Student Information Allegedly Sold for Rs 15,000 Online ",
+      date: "2025-10-08T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.timesnownews.com/education/neet-pg-2025-data-leak-students-claim-personal-details-sold-online-for-rs-15000-article-152955394',
+      is_active: true,
+      source: ' Times Now News',
+      created_at: "2025-10-08T08:00:00Z"
+    },
     // {
     //   id: 42,
     //   title: "NEET PG 2025",

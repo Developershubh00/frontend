@@ -623,6 +623,15 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: 'https://www.ndtv.com/education/neet-pg-2025-counelling-expected-to-start-in-third-week-of-october-details-here-9399606',
       source: ' NDTV',
     },
+    {
+      id: 41,
+      title: "NEET PG 2025 Privacy Breach: Student Information Allegedly Sold for Rs 15,000 Online ",
+      date: "2025-10-08T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.timesnownews.com/education/neet-pg-2025-data-leak-students-claim-personal-details-sold-online-for-rs-15000-article-152955394',
+      source: ' Times Now News',
+      },
 
   ];
 
