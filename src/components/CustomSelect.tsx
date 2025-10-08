@@ -13,6 +13,7 @@ interface CustomSelectProps {
   placeholder?: string;
   allLabel?: string;
   className?: string;
+  menuPlacement?: 'auto' | 'top' | 'bottom'; // Add this prop
 }
 
 const customStyles = {
@@ -22,6 +23,7 @@ const customStyles = {
     overflow: 'hidden',
     boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)',
     border: '1px solid #e2e8f0',
+    zIndex: 9999, // Ensure menu appears above other elements
   }),
   menuList: (provided: any) => ({
     ...provided,
@@ -56,6 +58,7 @@ const CustomSelect: React.FC<CustomSelectProps> = ({
   placeholder = 'Select...',
   allLabel = 'All',
   className = '',
+  menuPlacement = 'auto', // Default to 'auto' for smart positioning
 }) => {
   const selectOptions: Option[] = options.map((opt) => ({
     value: opt,
@@ -72,6 +75,8 @@ const CustomSelect: React.FC<CustomSelectProps> = ({
       styles={customStyles}
       placeholder={placeholder}
       className={className}
+      menuPlacement={menuPlacement} // Add this prop
+      menuPosition="absolute" // Ensure proper positioning
     />
   );
 };

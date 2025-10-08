@@ -2337,14 +2337,6 @@ const CoursesPage: React.FC<CoursesPageProps> = ({ onBack }) => {
                 ))}
               </select> */}
 
-              <CustomSelect
-              value={selectedDuration}
-              onChange={setSelectedDuration}
-              options={durations}
-              placeholder="Select Duration"
-              allLabel="All Durations"
-              />
-
               {/* <select
                 value={selectedClinicalType}
                 onChange={(e) => setSelectedClinicalType(e.target.value)}
@@ -2356,14 +2348,6 @@ const CoursesPage: React.FC<CoursesPageProps> = ({ onBack }) => {
                   </option>
                 ))}
               </select> */}
-
-              <CustomSelect
-  value={selectedClinicalType}
-  onChange={setSelectedClinicalType}
-  options={clinicalTypes}
-  placeholder="Select Clinical Type"
-  allLabel="All Clinical Types"
-/>
 
               {/* <select
                 value={selectedDegreeType}
@@ -2377,14 +2361,6 @@ const CoursesPage: React.FC<CoursesPageProps> = ({ onBack }) => {
                 ))}
               </select> */}
 
-              <CustomSelect
-  value={selectedDegreeType}
-  onChange={setSelectedDegreeType}
-  options={degreeTypes}
-  placeholder="Select Degree Type"
-  allLabel="All Degree Types"
-/>
-
               {/* <select
                 value={selectedCourseType}
                 onChange={(e) => setSelectedCourseType(e.target.value)}
@@ -2397,11 +2373,39 @@ const CoursesPage: React.FC<CoursesPageProps> = ({ onBack }) => {
                 ))}
               </select> */}
               <CustomSelect
+  value={selectedDuration}
+  onChange={setSelectedDuration}
+  options={durations}
+  placeholder="Select Duration"
+  allLabel="All Durations"
+  menuPlacement="top"
+/>
+
+<CustomSelect
+  value={selectedClinicalType}
+  onChange={setSelectedClinicalType}
+  options={clinicalTypes}
+  placeholder="Select Clinical Type"
+  allLabel="All Clinical Types"
+  menuPlacement="top"
+/>
+
+<CustomSelect
+  value={selectedDegreeType}
+  onChange={setSelectedDegreeType}
+  options={degreeTypes}
+  placeholder="Select Degree Type"
+  allLabel="All Degree Types"
+  menuPlacement="top"
+/>
+
+<CustomSelect
   value={selectedCourseType}
   onChange={setSelectedCourseType}
   options={courseTypes}
   placeholder="Select Course Type"
   allLabel="All Course Types"
+  menuPlacement="top"
 />
             </div>
           </div>
