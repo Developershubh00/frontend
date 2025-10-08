@@ -13,6 +13,7 @@ import {
   CheckCircle,
 } from "lucide-react";
 import { useAuth } from "../contexts/AuthContext";
+import CustomSelect from "../components/CustomSelect";
 
 /**
  * Signup Page Component
@@ -195,7 +196,7 @@ const SignupPage: React.FC = () => {
                 <label className="block text-sm font-medium text-slate-700 mb-2">
                   Category
                 </label>
-                <select
+                {/* <select
                   name="category"
                   value={formData.category}
                   onChange={handleChange}
@@ -208,7 +209,15 @@ const SignupPage: React.FC = () => {
                       {category}
                     </option>
                   ))}
-                </select>
+                </select> */}
+                <CustomSelect
+  value={formData.category}
+  onChange={(value) => setFormData({ ...formData, category: value })}
+  options={["", ...categories]}
+  placeholder="Select Category"
+  allLabel="Select Category"
+  menuPlacement="auto"
+/>
               </div>
 
               {/* State */}
@@ -218,7 +227,7 @@ const SignupPage: React.FC = () => {
                 </label>
                 <div className="relative">
                   <MapPin className="w-5 h-5 absolute left-3 top-1/2 transform -translate-y-1/2 text-slate-400" />
-                  <select
+                  {/* <select
                     name="state"
                     value={formData.state}
                     onChange={handleChange}
@@ -231,7 +240,14 @@ const SignupPage: React.FC = () => {
                         {state}
                       </option>
                     ))}
-                  </select>
+                  </select> */}
+                  <CustomSelect
+  value={formData.state}
+  onChange={(value) => setFormData({ ...formData, state: value })}
+  options={states}
+  placeholder="Select State"
+  menuPlacement="auto"
+/>
                 </div>
               </div>
             </div>
