@@ -358,7 +358,7 @@ const AdmittedStudentsPage: React.FC<AdmittedStudentsPageProps> = ({ onBack }) =
         </div>
 
         {/* Quick Filters with Show/Hide Button */}
-        <div className="bg-white border-b border-gray-200 px-4 py-3">
+        {/* <div className="bg-white border-b border-gray-200 px-4 py-3">
           <div className="flex items-center gap-2 overflow-x-auto">
             {years.filter(y => y !== "all").slice(0, 5).map((year) => (
               <button
@@ -375,9 +375,9 @@ const AdmittedStudentsPage: React.FC<AdmittedStudentsPageProps> = ({ onBack }) =
               >
                 {year}
               </button>
-            ))}
+            ))} */}
 
-            <button
+            {/* <button
               onClick={() => {
                 setSelectedYear("all");
                 setCurrentPage(1);
@@ -389,10 +389,10 @@ const AdmittedStudentsPage: React.FC<AdmittedStudentsPageProps> = ({ onBack }) =
               }`}
             >
               All Years
-            </button>
+            </button> */}
 
             {/* Show/Hide Button */}
-            <button
+            {/* <button
               onClick={() => setShowColumnVisibility(true)}
               className="flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-full bg-orange-100 text-orange-700 hover:bg-orange-200 transition-colors ml-2 whitespace-nowrap"
             >
@@ -400,7 +400,7 @@ const AdmittedStudentsPage: React.FC<AdmittedStudentsPageProps> = ({ onBack }) =
               Show/Hide
             </button>
           </div>
-        </div>
+        </div> */}
 
         {/* Search and Filters */}
         <div className="bg-white border-b border-gray-200 px-4 py-4">
@@ -447,6 +447,14 @@ const AdmittedStudentsPage: React.FC<AdmittedStudentsPageProps> = ({ onBack }) =
   menuPlacement="auto"
   className="min-w-[120px]"
 />
+
+              <button
+              onClick={() => setShowColumnVisibility(true)}
+              className="flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-full bg-orange-100 text-orange-700 hover:bg-orange-200 transition-colors ml-2 whitespace-nowrap"
+            >
+              <Eye className="w-4 h-4" />
+              Show/Hide
+            </button>
 
                 {/* Advanced Filter Toggle */}
                 <button
