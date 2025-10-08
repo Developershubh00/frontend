@@ -153,6 +153,7 @@ const SignupPage: React.FC = () => {
   placeholder="Enter your email"
   required
 />
+ </div>
               </div>
 
               {/* Phone */}
@@ -171,6 +172,7 @@ const SignupPage: React.FC = () => {
   placeholder="Enter your phone number"
   required
 />
+ </div>
               </div>
 
               {/* NEET Rank */}
