@@ -121,8 +121,8 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
       color: "bg-blue-500",
       navLink: "/closing-ranks",
       onClick: () => {
-        // window.location.href = "/closing-ranks";
-        window.location.href = "/closingranks";
+      
+        window.location.href = "/Closingranks";
       },
     },
     {
@@ -142,7 +142,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
       color: "bg-purple-600",
       navLink: "/fee-stipend-bond",
       onClick: () => {
-        // window.location.href = "/fee-stipend-bond";
+        
         window.location.href = "/feesstipendbond";
       },
     },
@@ -297,7 +297,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
           { key: "round", label: "Round", sortable: true },
           { key: "rank", label: "Closing Rank", sortable: true },
         ];
-      case "closing-ranks":
+      case "Closingranks":
         return [
           { key: "college", label: "College Name", sortable: true },
           { key: "specialty", label: "Specialty", sortable: true },
@@ -315,7 +315,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
           { key: "state_seats", label: "State Seats", sortable: true },
           { key: "management_seats", label: "Management Seats", sortable: true },
         ];
-      case "fee-stipend-bond":
+      case "feesstipendbond":
         return [
           { key: "college", label: "College Name", sortable: true },
           { key: "specialty", label: "Specialty", sortable: true },
