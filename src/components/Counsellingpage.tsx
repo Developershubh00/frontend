@@ -285,7 +285,7 @@ const CounselingPage: React.FC<CounselingPageProps> = ({ onBack }) => {
               options={rounds}
                placeholder="Select Round"
                allLabel="All Rounds"
-               menuPlacement="auto"
+               menuPlacement="top"
               />
 
               {/* <select
@@ -306,7 +306,7 @@ const CounselingPage: React.FC<CounselingPageProps> = ({ onBack }) => {
               options={categories}
               placeholder="Select Category"
               allLabel="All Categories"
-              menuPlacement="auto"
+              menuPlacement="top"
               />
             </div>
           </div>

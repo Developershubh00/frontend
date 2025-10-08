@@ -86,7 +86,7 @@ const SignupPage: React.FC = () => {
     "Uttarakhand", "West Bengal"
   ];
 
-  
+
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-rose-50 via-blue-50 to-indigo-50 flex items-center justify-center p-4">
@@ -95,12 +95,12 @@ const SignupPage: React.FC = () => {
           {/* Logo and Header */}
           <div className="text-center mb-8">
             <div className="w-10 h-10 bg-white rounded-2xl flex items-center justify-center shadow-lg overflow-hidden">
-                <img
+              <img
                 src="/media/logo.png"
                 alt="BD Logo"
-                 className="w-10 h-10 object-contain"
-                />
-              </div>
+                className="w-10 h-10 object-contain"
+              />
+            </div>
             <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2">
               Join BelieversConsultancy
             </h1>
@@ -126,14 +126,14 @@ const SignupPage: React.FC = () => {
                 <div className="relative">
                   <User className="w-5 h-5 absolute left-3 top-1/2 transform -translate-y-1/2 text-slate-400" />
                   <input
-  type="text"
-  name="name"
-  value={formData.name}
-  onChange={handleChange}
-  className="w-full pl-10 pr-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-800 transition-all duration-200"
-  placeholder="Enter your full name"
-  required
-/>
+                    type="text"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleChange}
+                    className="w-full pl-10 pr-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-800 transition-all duration-200"
+                    placeholder="Enter your full name"
+                    required
+                  />
                 </div>
               </div>
 
@@ -145,15 +145,15 @@ const SignupPage: React.FC = () => {
                 <div className="relative">
                   <Mail className="w-5 h-5 absolute left-3 top-1/2 transform -translate-y-1/2 text-slate-400" />
                   <input
-  type="email"
-  name="email"
-  value={formData.email}
-  onChange={handleChange}
-  className="w-full pl-10 pr-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-800 transition-all duration-200"
-  placeholder="Enter your email"
-  required
-  />
- </div>
+                    type="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    className="w-full pl-10 pr-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-800 transition-all duration-200"
+                    placeholder="Enter your email"
+                    required
+                  />
+                </div>
               </div>
 
               {/* Phone */}
@@ -164,15 +164,15 @@ const SignupPage: React.FC = () => {
                 <div className="relative">
                   <Phone className="w-5 h-5 absolute left-3 top-1/2 transform -translate-y-1/2 text-slate-400" />
                   <input
-  type="tel"
-  name="phone"
-  value={formData.phone}
-  onChange={handleChange}
-  className="w-full pl-10 pr-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-800 transition-all duration-200"
-  placeholder="Enter your phone number"
-  required
-/>
- </div>
+                    type="tel"
+                    name="phone"
+                    value={formData.phone}
+                    onChange={handleChange}
+                    className="w-full pl-10 pr-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-800 transition-all duration-200"
+                    placeholder="Enter your phone number"
+                    required
+                  />
+                </div>
               </div>
 
               {/* NEET Rank */}
@@ -183,13 +183,13 @@ const SignupPage: React.FC = () => {
                 <div className="relative">
                   <Award className="w-5 h-5 absolute left-3 top-1/2 transform -translate-y-1/2 text-slate-400" />
                   <input
-  type="text"
-  name="neetRank"
-  value={formData.neetRank}
-  onChange={handleChange}
-  className="w-full pl-10 pr-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-800 transition-all duration-200"
-  placeholder="Enter your NEET rank"
-/>
+                    type="text"
+                    name="neetRank"
+                    value={formData.neetRank}
+                    onChange={handleChange}
+                    className="w-full pl-10 pr-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-800 transition-all duration-200"
+                    placeholder="Enter your NEET rank"
+                  />
                 </div>
               </div>
 
@@ -213,13 +213,13 @@ const SignupPage: React.FC = () => {
                   ))}
                 </select> */}
                 <CustomSelect
-  value={formData.category}
-  onChange={(value) => setFormData({ ...formData, category: value })}
-  options={["", ...categories]}
-  placeholder="Select Category"
-  allLabel="Select Category"
-  menuPlacement="auto"
-/>
+                  value={formData.category}
+                  onChange={(value) => setFormData({ ...formData, category: value })}
+                  options={["", ...categories]}
+                  placeholder="Select Category"
+                  allLabel="Select Category"
+                  menuPlacement="auto"
+                />
               </div>
 
               {/* State */}
@@ -244,12 +244,12 @@ const SignupPage: React.FC = () => {
                     ))}
                   </select> */}
                   <CustomSelect
-  value={formData.state}
-  onChange={(value) => setFormData({ ...formData, state: value })}
-  options={states}
-  placeholder="Select State"
-  menuPlacement="auto"
-/>
+                    value={formData.state}
+                    onChange={(value) => setFormData({ ...formData, state: value })}
+                    options={states}
+                    placeholder="Select State"
+                    menuPlacement="auto"
+                  />
                 </div>
               </div>
             </div>
@@ -263,14 +263,14 @@ const SignupPage: React.FC = () => {
                 <div className="relative">
                   <Lock className="w-5 h-5 absolute left-3 top-1/2 transform -translate-y-1/2 text-slate-400" />
                   <input
-  type={showPassword ? "text" : "password"}
-  name="password"
-  value={formData.password}
-  onChange={handleChange}
-  className="w-full pl-10 pr-12 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-800 transition-all duration-200"
-  placeholder="Create password"
-  required
-/>
+                    type={showPassword ? "text" : "password"}
+                    name="password"
+                    value={formData.password}
+                    onChange={handleChange}
+                    className="w-full pl-10 pr-12 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-800 transition-all duration-200"
+                    placeholder="Create password"
+                    required
+                  />
                   <button
                     type="button"
                     onClick={() => setShowPassword(!showPassword)}
@@ -292,14 +292,14 @@ const SignupPage: React.FC = () => {
                 <div className="relative">
                   <Lock className="w-5 h-5 absolute left-3 top-1/2 transform -translate-y-1/2 text-slate-400" />
                   <input
-  type={showConfirmPassword ? "text" : "password"}
-  name="confirmPassword"
-  value={formData.confirmPassword}
-  onChange={handleChange}
-  className="w-full pl-10 pr-12 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-800 transition-all duration-200"
-  placeholder="Confirm password"
-  required
-/>
+                    type={showConfirmPassword ? "text" : "password"}
+                    name="confirmPassword"
+                    value={formData.confirmPassword}
+                    onChange={handleChange}
+                    className="w-full pl-10 pr-12 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-800 transition-all duration-200"
+                    placeholder="Confirm password"
+                    required
+                  />
                   <button
                     type="button"
                     onClick={() => setShowConfirmPassword(!showConfirmPassword)}
