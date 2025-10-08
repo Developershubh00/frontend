@@ -446,12 +446,12 @@ const InstitutesPage: React.FC<InstitutesPageProps> = ({ onBack }) => {
               <div className="flex-1 relative">
                 <Search className="w-4 h-4 absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
                 <input
-                  type="text"
-                  placeholder="Search institutes, states, universities..."
-                  value={searchTerm}
-                  onChange={(e) => setSearchTerm(e.target.value)}
-                  className="w-full pl-10 pr-4 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
-                />
+  type="text"
+  placeholder="Search institutes, states, universities..."
+  value={searchTerm}
+  onChange={(e) => setSearchTerm(e.target.value)}
+  className="w-full pl-10 pr-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent bg-white text-slate-800 text-sm"
+/>
               </div>
 
               {/* Quick Filters */}
@@ -528,25 +528,25 @@ const InstitutesPage: React.FC<InstitutesPageProps> = ({ onBack }) => {
 
                   {/* Year Range */}
                   <div className="flex items-center gap-2">
-                    <input
-                      type="number"
-                      min="1900"
-                      max="2025"
-                      value={yearRange[0]}
-                      onChange={(e) => setYearRange([parseInt(e.target.value) || 1900, yearRange[1]])}
-                      placeholder="Year From"
-                      className="w-1/2 px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
-                    />
-                    <input
-                      type="number"
-                      min={yearRange[0]}
-                      max="2025"
-                      value={yearRange[1]}
-                      onChange={(e) => setYearRange([yearRange[0], parseInt(e.target.value) || 2025])}
-                      placeholder="Year To"
-                      className="w-1/2 px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
-                    />
-                  </div>
+  <input
+    type="number"
+    min="1900"
+    max="2025"
+    value={yearRange[0]}
+    onChange={(e) => setYearRange([parseInt(e.target.value) || 1900, yearRange[1]])}
+    placeholder="Year From"
+    className="w-1/2 px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent bg-white text-slate-800 text-sm"
+  />
+  <input
+    type="number"
+    min={yearRange[0]}
+    max="2025"
+    value={yearRange[1]}
+    onChange={(e) => setYearRange([yearRange[0], parseInt(e.target.value) || 2025])}
+    placeholder="Year To"
+    className="w-1/2 px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent bg-white text-slate-800 text-sm"
+  />
+</div>
 
                   {/* Clear Filters Button */}
                   <button
@@ -564,21 +564,23 @@ const InstitutesPage: React.FC<InstitutesPageProps> = ({ onBack }) => {
                       PG Seats Range ({seatsRange[0]} - {seatsRange[1]})
                     </label>
                     <div className="flex gap-2">
-                      <input
-                        type="number"
-                        min="0"
-                        value={seatsRange[0]}
-                        onChange={(e) => setSeatsRange([parseInt(e.target.value) || 0, seatsRange[1]])}
-                        className="w-1/2 px-2 py-1 border text-black border-gray-200 rounded text-xs"
-                      />
-                      <input
-                        type="number"
-                        min={seatsRange[0]}
-                        value={seatsRange[1]}
-                        onChange={(e) => setSeatsRange([seatsRange[0], parseInt(e.target.value) || 0])}
-                        className="w-1/2 px-2 py-1 border text-black border-gray-200 rounded text-xs"
-                      />
-                    </div>
+  <input
+    type="number"
+    min="0"
+    value={seatsRange[0]}
+    onChange={(e) => setSeatsRange([parseInt(e.target.value) || 0, seatsRange[1]])}
+    placeholder="Min"
+    className="w-1/2 px-3 py-2 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent bg-white text-slate-800 text-xs"
+  />
+  <input
+    type="number"
+    min={seatsRange[0]}
+    value={seatsRange[1]}
+    onChange={(e) => setSeatsRange([seatsRange[0], parseInt(e.target.value) || 0])}
+    placeholder="Max"
+    className="w-1/2 px-3 py-2 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent bg-white text-slate-800 text-xs"
+  />
+</div>
                   </div>
                   
                   <div>
@@ -586,21 +588,23 @@ const InstitutesPage: React.FC<InstitutesPageProps> = ({ onBack }) => {
                       Hospital Beds Range ({bedsRange[0]} - {bedsRange[1]})
                     </label>
                     <div className="flex gap-2">
-                      <input
-                        type="number"
-                        min="0"
-                        value={bedsRange[0]}
-                        onChange={(e) => setBedsRange([parseInt(e.target.value) || 0, bedsRange[1]])}
-                        className="w-1/2 px-2 py-1 border text-black border-gray-200 rounded text-xs"
-                      />
-                      <input
-                        type="number"
-                        min={bedsRange[0]}
-                        value={bedsRange[1]}
-                        onChange={(e) => setBedsRange([bedsRange[0], parseInt(e.target.value) || 0])}
-                        className="w-1/2 px-2 py-1 border text-black border-gray-200 rounded text-xs"
-                      />
-                    </div>
+  <input
+    type="number"
+    min="0"
+    value={bedsRange[0]}
+    onChange={(e) => setBedsRange([parseInt(e.target.value) || 0, bedsRange[1]])}
+    placeholder="Min"
+    className="w-1/2 px-3 py-2 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent bg-white text-slate-800 text-xs"
+  />
+  <input
+    type="number"
+    min={bedsRange[0]}
+    value={bedsRange[1]}
+    onChange={(e) => setBedsRange([bedsRange[0], parseInt(e.target.value) || 0])}
+    placeholder="Max"
+    className="w-1/2 px-3 py-2 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent bg-white text-slate-800 text-xs"
+  />
+</div>
                   </div>
                 </div>
 
