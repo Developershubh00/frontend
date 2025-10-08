@@ -121,7 +121,8 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
       color: "bg-blue-500",
       navLink: "/closing-ranks",
       onClick: () => {
-        window.location.href = "/closing-ranks";
+        // window.location.href = "/closing-ranks";
+        window.location.href = "/closingranks";
       },
     },
     {
@@ -141,7 +142,8 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
       color: "bg-purple-600",
       navLink: "/fee-stipend-bond",
       onClick: () => {
-        window.location.href = "/fee-stipend-bond";
+        // window.location.href = "/fee-stipend-bond";
+        window.location.href = "/feesstipendbond";
       },
     },
   ];
