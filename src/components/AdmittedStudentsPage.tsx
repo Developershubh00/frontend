@@ -14,6 +14,7 @@ import {
   Building2,
   Calendar,
 } from "lucide-react";
+import CustomSelect from "./CustomSelect";
 
 interface AdmittedStudentsPageProps {
   onBack: () => void;
@@ -420,7 +421,7 @@ const AdmittedStudentsPage: React.FC<AdmittedStudentsPageProps> = ({ onBack }) =
 
               {/* Quick Filters */}
               <div className="flex gap-2 flex-wrap">
-                <select
+                {/* <select
                   value={selectedState}
                   onChange={(e) => {
                     setSelectedState(e.target.value);
@@ -433,7 +434,19 @@ const AdmittedStudentsPage: React.FC<AdmittedStudentsPageProps> = ({ onBack }) =
                       {state === "all" ? "All States" : state}
                     </option>
                   ))}
-                </select>
+                </select> */}
+                <CustomSelect
+  value={selectedState}
+  onChange={(value) => {
+    setSelectedState(value);
+    setCurrentPage(1);
+  }}
+  options={states}
+  placeholder="Select State"
+  allLabel="All States"
+  menuPlacement="auto"
+  className="min-w-[120px]"
+/>
 
                 {/* Advanced Filter Toggle */}
                 <button
@@ -452,7 +465,7 @@ const AdmittedStudentsPage: React.FC<AdmittedStudentsPageProps> = ({ onBack }) =
               <div className="space-y-3 border-t pt-3">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
                   {/* Course Filter */}
-                  <select
+                  {/* <select
                     value={selectedCourse}
                     onChange={(e) => {
                       setSelectedCourse(e.target.value);
@@ -465,10 +478,21 @@ const AdmittedStudentsPage: React.FC<AdmittedStudentsPageProps> = ({ onBack }) =
                         {course === "all" ? "All Courses" : course}
                       </option>
                     ))}
-                  </select>
+                  </select> */}
+                  <CustomSelect
+  value={selectedCourse}
+  onChange={(value) => {
+    setSelectedCourse(value);
+    setCurrentPage(1);
+  }}
+  options={courses}
+  placeholder="Select Course"
+  allLabel="All Courses"
+  menuPlacement="auto"
+/>
 
                   {/* Admitted Through Filter */}
-                  <select
+                  {/* <select
                     value={selectedAdmittedThrough}
                     onChange={(e) => {
                       setSelectedAdmittedThrough(e.target.value);
@@ -481,7 +505,19 @@ const AdmittedStudentsPage: React.FC<AdmittedStudentsPageProps> = ({ onBack }) =
                         {option === "all" ? "All Admission Types" : option}
                       </option>
                     ))}
-                  </select>
+                  </select> */}
+
+                  <CustomSelect
+  value={selectedAdmittedThrough}
+  onChange={(value) => {
+    setSelectedAdmittedThrough(value);
+    setCurrentPage(1);
+  }}
+  options={admittedThroughOptions}
+  placeholder="Select Admission Type"
+  allLabel="All Admission Types"
+  menuPlacement="auto"
+/>
 
                   {/* Clear Filters Button */}
                   <button
