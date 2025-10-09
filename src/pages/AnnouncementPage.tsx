@@ -1426,13 +1426,13 @@ const AnnouncementPage: React.FC = () => {
       id: 42,
       title: "NEET PG 2025",
       content:" NEET PG 2025 Admission Process Stalled by Regulatory Delays and Supreme Court Cases ",
-      date: "2025-10-01T08:00:00Z",
+      date: "2025-10-09T08:00:00Z",
       priority: 'high',
       category: 'NEET PG',
       link: 'https://timesofindia.indiatimes.com/city/chennai/regulatory-delays-court-battles-stall-neet-pg-admission/articleshow/124398972.cms',
       is_active: true,
       source: 'Times of India',
-      created_at: "2025-10-01T08:00:00Z"
+      created_at: "2025-10-09T08:00:00Z"
     },
     
   ];
