@@ -692,18 +692,18 @@ const AnnouncementPage: React.FC = () => {
       source: ' Times Now News',
       created_at: "2025-10-08T08:00:00Z"
     },
-    // {
-    //   id: 42,
-    //   title: "NEET PG 2025",
-    //   content:" Counselling Expected to Begin by Mid-October: ",
-    //   date: "2025-10-01T08:00:00Z",
-    //   priority: 'high',
-    //   category: 'NEET PG',
-    //   link: 'https://www.ndtv.com/education/neet-pg-2025-counelling-expected-to-start-in-third-week-of-october-details-here-9399606',
-    //   is_active: true,
-    //   source: ' NDTV',
-    //   created_at: "2025-10-01T08:00:00Z"
-    // },
+    {
+      id: 42,
+      title: "NEET PG 2025",
+      content:" NEET PG 2025 Admission Process Stalled by Regulatory Delays and Supreme Court Cases ",
+      date: "2025-10-01T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://timesofindia.indiatimes.com/city/chennai/regulatory-delays-court-battles-stall-neet-pg-admission/articleshow/124398972.cms',
+      is_active: true,
+      source: 'Times of India',
+      created_at: "2025-10-01T08:00:00Z"
+    },
     
   ];
 

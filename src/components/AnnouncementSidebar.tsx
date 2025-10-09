@@ -632,6 +632,15 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: 'https://www.timesnownews.com/education/neet-pg-2025-data-leak-students-claim-personal-details-sold-online-for-rs-15000-article-152955394',
       source: ' Times Now News',
       },
+      {
+      id: 42,
+      title: "NEET PG 2025 Admission Process Stalled by Regulatory Delays and Supreme Court Cases ",
+      date: "2025-10-01T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://timesofindia.indiatimes.com/city/chennai/regulatory-delays-court-battles-stall-neet-pg-admission/articleshow/124398972.cms',
+      source: 'Times of India',
+     },
 
   ];
 
