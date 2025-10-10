@@ -1434,6 +1434,18 @@ const AnnouncementPage: React.FC = () => {
       source: 'Times of India',
       created_at: "2025-10-09T08:00:00Z"
     },
+    {
+      id: 43,
+      title: "NEET PG 2025",
+      content:" NBEMS Disqualifies 22 NEET PG Candidates for Exam Malpractice Over Five Years ",
+      date: "2025-10-10T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://timesofindia.indiatimes.com/education/news/neet-pg-result-cancelled-22-aspirants-disqualified-by-nbems-for-malpractice-in-exams-from-2021-2025/articleshow/124442605.cms ',
+      is_active: true,
+      source: 'Times of India',
+      created_at: "2025-10-10T08:00:00Z"
+    },
     
   ];
 

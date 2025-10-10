@@ -633,7 +633,7 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       source: ' Times Now News',
       },
       {
-      id: 42,
+      id: 41,
       title: "NEET PG 2025 Admission Process Stalled by Regulatory Delays and Supreme Court Cases ",
       date: "2025-10-01T08:00:00Z",
       priority: 'high',
@@ -641,6 +641,15 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: 'https://timesofindia.indiatimes.com/city/chennai/regulatory-delays-court-battles-stall-neet-pg-admission/articleshow/124398972.cms',
       source: 'Times of India',
      },
+      {
+      id: 42,
+      title: " NBEMS Disqualifies 22 NEET PG Candidates for Exam Malpractice Over Five Years ",
+      date: "2025-10-09T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://timesofindia.indiatimes.com/education/news/neet-pg-result-cancelled-22-aspirants-disqualified-by-nbems-for-malpractice-in-exams-from-2021-2025/articleshow/124442605.cms ',
+      source: 'Times of India',
+      },
 
   ];
 
