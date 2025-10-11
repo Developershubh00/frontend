@@ -650,6 +650,24 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: 'https://timesofindia.indiatimes.com/education/news/neet-pg-result-cancelled-22-aspirants-disqualified-by-nbems-for-malpractice-in-exams-from-2021-2025/articleshow/124442605.cms ',
       source: 'Times of India',
       },
+      {
+      id: 43,
+      title: " NEET PG 2025 Counselling Start Date: Expected Timeline and Complete Process Guide ",
+      date: "2025-10-11T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://timesofindia.indiatimes.com/education/news/when-will-neet-pg-counselling-2025-begin-check-expected-dates-and-details-for-eligible-candidates/articleshow/124413386.cms ',
+     source: 'Times of India',
+     },
+    {
+      id: 44,
+      title: "NBEMS Disqualifies 33 Medical Candidates: NEET PG and FMGE Results Cancelled for Malpractice",
+      date: "2025-10-11T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.timesnownews.com/education/33-medical-aspirants-dreams-shattered-nbems-neet-pg-result-2025-cancellation-fmge-results-scrapped-between-2021-and-2025-unfair-means-use-article-152981611 ',
+      source: 'Times Now News',
+     },
 
   ];
 

@@ -1446,7 +1446,30 @@ const AnnouncementPage: React.FC = () => {
       source: 'Times of India',
       created_at: "2025-10-10T08:00:00Z"
     },
-    
+    {
+      id: 44,
+      title: "NEET PG 2025",
+      content:" NEET PG 2025 Counselling Start Date: Expected Timeline and Complete Process Guide ",
+      date: "2025-10-11T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://timesofindia.indiatimes.com/education/news/when-will-neet-pg-counselling-2025-begin-check-expected-dates-and-details-for-eligible-candidates/articleshow/124413386.cms ',
+      is_active: true,
+      source: 'Times of India',
+      created_at: "2025-10-11T08:00:00Z"
+    },
+    {
+      id: 45,
+      title: "NEET PG 2025",
+      content:" NBEMS Disqualifies 33 Medical Candidates: NEET PG and FMGE Results Cancelled for Malpractice",
+      date: "2025-10-11T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.timesnownews.com/education/33-medical-aspirants-dreams-shattered-nbems-neet-pg-result-2025-cancellation-fmge-results-scrapped-between-2021-and-2025-unfair-means-use-article-152981611 ',
+      is_active: true,
+      source: 'Times Now News',
+      created_at: "2025-10-11T08:00:00Z"
+    },
   ];
 
   const fetchAnnouncements = async () => {
