@@ -50,6 +50,7 @@ import FeesStipendBondPage from "./pages/FeesStipendBondPage";
 import { WhatsAppSender } from "./components/WhatsAppSender";
 import ClossingRanksPage from "./components/ClossingRanksPage";
 import AiSensyWidget from "./components/AiSensyWidget";
+import NEETPGPredictor from "./pages/NEETPGPredictor";
 
 /**
  * Main App Component with React Router
@@ -242,7 +243,7 @@ function App() {
           <Route path="/Admitted_Students" element={<AdmittedStudentsPage onBack={() => window.history.back()} />} />
           <Route path="/Feesstipendbonds" element={<FeesStipendBondPage onBack={() => window.history.back()} />} />
           <Route path="/Closingranks" element={<ClossingRanksPage onBack={() => window.history.back()} />} />
-          
+          <Route path="/NEETPGPredictor" element={<NEETPGPredictor onBack={() => window.history.back()} />} />
             
           </Routes>
         </div>

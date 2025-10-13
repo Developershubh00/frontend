@@ -116,6 +116,14 @@ const Sidebar: React.FC<SidebarProps> = ({
     //   onClick: () => navigate("/predictor/pg"),
     // },
     {
+      id: "PG Predictor",
+      icon: GraduationCap,
+      label: "Magic PG Predictor",
+      hasSubmenu: false,
+      color: "text-indigo-600",
+      onClick: () => navigate("/NEETPGPredictor"),
+    },
+    {
       id: "MyChoicelist",
       icon: Heart,
       label: "MyChoicelist",
