@@ -292,7 +292,7 @@ const DashboardPage: React.FC = () => {
       {/* <AIAssistant /> */}
 
       {/* WhatsApp Support Widget */}
-      <AiSensyWidget widgetId="aaa56b" /> />
+      <AiSensyWidget widgetId="aaa56b" />
     </div>
   );
 };
