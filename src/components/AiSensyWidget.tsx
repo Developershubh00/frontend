@@ -1,12 +1,12 @@
 import { useEffect } from 'react';
 
 interface AiSensyWidgetProps {
-  widgetId: string;
+  widgetId?: string;
   scriptSrc?: string;
 }
 
 const AiSensyWidget: React.FC<AiSensyWidgetProps> = ({ 
-  widgetId, 
+  widgetId = 'aaa5qq', 
   scriptSrc = 'https://d3mkw6s8thqya7.cloudfront.net/integration-plugin.js' 
 }) => {
   useEffect(() => {
@@ -43,7 +43,7 @@ export default AiSensyWidget;
 // function App() {
 //   return (
 //     <div>
-//       <AiSensyWidget widgetId="aaa56b" />
+//       <AiSensyWidget />
 //       {/* Your other components */}
 //     </div>
 //   );
