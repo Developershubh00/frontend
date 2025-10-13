@@ -668,6 +668,15 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: 'https://www.timesnownews.com/education/33-medical-aspirants-dreams-shattered-nbems-neet-pg-result-2025-cancellation-fmge-results-scrapped-between-2021-and-2025-unfair-means-use-article-152981611 ',
       source: 'Times Now News',
      },
+     {
+      id: 45,
+      title: " NBEMS Cancels NEET PG Results of 22 Candidates Over Examination Malpractice Allegations",
+      date: "2025-10-12T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://indianexpress.com/article/education/neet-pg-result-cancelled-nbems-annuls-results-of-22-candidates-for-malpractice-10298319/ ',
+      source: 'Indian Express',
+     },
 
   ];
 

@@ -1470,6 +1470,30 @@ const AnnouncementPage: React.FC = () => {
       source: 'Times Now News',
       created_at: "2025-10-11T08:00:00Z"
     },
+    {
+      id: 46,
+      title: "NEET PG 2025",
+      content:" NBEMS Cancels NEET PG Results of 22 Candidates Over Examination Malpractice Allegations",
+      date: "2025-10-12T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://indianexpress.com/article/education/neet-pg-result-cancelled-nbems-annuls-results-of-22-candidates-for-malpractice-10298319/ ',
+      is_active: true,
+      source: 'Indian Express',
+      created_at: "2025-10-12T08:00:00Z"
+    },
+    // {
+    //   id: 47,
+    //   title: "NEET PG 2025",
+    //   content:" NBEMS Disqualifies 33 Medical Candidates: NEET PG and FMGE Results Cancelled for Malpractice",
+    //   date: "2025-10-11T08:00:00Z",
+    //   priority: 'high',
+    //   category: 'NEET PG',
+    //   link: 'https://www.timesnownews.com/education/33-medical-aspirants-dreams-shattered-nbems-neet-pg-result-2025-cancellation-fmge-results-scrapped-between-2021-and-2025-unfair-means-use-article-152981611 ',
+    //   is_active: true,
+    //   source: 'Times Now News',
+    //   created_at: "2025-10-11T08:00:00Z"
+    // },
   ];
 
   const fetchAnnouncements = async () => {
