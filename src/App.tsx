@@ -49,6 +49,7 @@ import AdmittedStudentsPage from "./components/AdmittedStudentsPage";
 import FeesStipendBondPage from "./pages/FeesStipendBondPage";
 import { WhatsAppSender } from "./components/WhatsAppSender";
 import ClossingRanksPage from "./components/ClossingRanksPage";
+import AiSensyWidget from "./components/AiSensyWidget";
 
 /**
  * Main App Component with React Router
@@ -177,6 +178,14 @@ function App() {
             element={
               <ProtectedRoute>
                 <SupportPage onBack={() => window.history.back()} />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/AiSensyWidget"
+            element={
+              <ProtectedRoute>
+                <AiSensyWidget widgetId="aaa56b" />
               </ProtectedRoute>
             }
           />
