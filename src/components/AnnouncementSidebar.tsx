@@ -677,6 +677,15 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: 'https://indianexpress.com/article/education/neet-pg-result-cancelled-nbems-annuls-results-of-22-candidates-for-malpractice-10298319/ ',
       source: 'Indian Express',
      },
+     {
+      id: 47,
+      title: "NEET PG Counselling 2025: MCC Schedule Expected Soon – Registration Process and Key Dates",
+      date: "2025-10-13T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://timesofindia.indiatimes.com/education/news/mcc-neet-pg-counselling-2025-expected-to-release-soon-check-details-here/articleshow/124527012.cms',
+      source: 'Times of India',
+    },
 
   ];
 

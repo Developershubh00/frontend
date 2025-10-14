@@ -1482,18 +1482,18 @@ const AnnouncementPage: React.FC = () => {
       source: 'Indian Express',
       created_at: "2025-10-12T08:00:00Z"
     },
-    // {
-    //   id: 47,
-    //   title: "NEET PG 2025",
-    //   content:" NBEMS Disqualifies 33 Medical Candidates: NEET PG and FMGE Results Cancelled for Malpractice",
-    //   date: "2025-10-11T08:00:00Z",
-    //   priority: 'high',
-    //   category: 'NEET PG',
-    //   link: 'https://www.timesnownews.com/education/33-medical-aspirants-dreams-shattered-nbems-neet-pg-result-2025-cancellation-fmge-results-scrapped-between-2021-and-2025-unfair-means-use-article-152981611 ',
-    //   is_active: true,
-    //   source: 'Times Now News',
-    //   created_at: "2025-10-11T08:00:00Z"
-    // },
+    {
+      id: 47,
+      title: "NEET PG Counselling 2025:",
+      content:" MCC Schedule Expected Soon – Registration Process and Key Dates: The Medical Counselling Committee (MCC) is anticipated to announce the NEET PG 2025 counselling schedule shortly on mcc.nic.in. Candidates should prepare for registration, choice-filling, and seat allotment across four rounds including a stray vacancy round.",
+      date: "2025-10-13T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://timesofindia.indiatimes.com/education/news/mcc-neet-pg-counselling-2025-expected-to-release-soon-check-details-here/articleshow/124527012.cms',
+      is_active: true,
+      source: 'Times of India',
+      created_at: "2025-10-13T08:00:00Z"
+    },
   ];
 
   const fetchAnnouncements = async () => {
