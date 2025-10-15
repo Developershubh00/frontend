@@ -117,11 +117,19 @@ function App() {
               </ProtectedRoute>
             }
           />
-          <Route
+          {/* <Route
             path="/inicet"
             element={
               <ProtectedRoute>
                 <INICETPage />
+              </ProtectedRoute>
+            }
+          /> */}
+          <Route
+            path="/inicet"
+            element={
+              <ProtectedRoute>
+                <InicetMainContent />
               </ProtectedRoute>
             }
           />
