@@ -12,6 +12,7 @@ import {
   ChevronLeft,
   ChevronRight,
 } from "lucide-react";
+import InicetMainContent from "../INICET/InicetMainContent";
 /**
  * Unified Header Component
  * Main navigation header with search, user menu, and mobile navigation
@@ -50,7 +51,7 @@ const Header: React.FC<HeaderProps> = ({
   // NEET PG dropdown options with navigation
   const neetOptions = [
     { id: "neet-pg", label: "NEET PG 2025", description: "Postgraduate Medical", path: "/dashboard" },
-    { id: "inicet", label: "INICET 2025", description: "Institute of National Importance", path: "/InicetMainContent" },
+    { id: "InicetMainContent", label: "INICET 2025", description: "Institute of National Importance", path: "/InicetMainContent" },
   ];
 
   // Predictor dropdown options
