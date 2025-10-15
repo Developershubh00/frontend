@@ -49,8 +49,8 @@ const Header: React.FC<HeaderProps> = ({
 
   // NEET PG dropdown options with navigation
   const neetOptions = [
-    { id: "neet-pg", label: "NEET PG 2025", description: "Postgraduate Medical", path: "/neet-pg" },
-    { id: "inicet", label: "INICET 2025", description: "Institute of National Importance", path: "/inicet" },
+    { id: "neet-pg", label: "NEET PG 2025", description: "Postgraduate Medical", path: "/dashboard" },
+    { id: "inicet", label: "INICET 2025", description: "Institute of National Importance", path: "/InicetMainContent" },
   ];
 
   // Predictor dropdown options
@@ -145,7 +145,7 @@ const Header: React.FC<HeaderProps> = ({
 
             <div className="flex items-center space-x-6">
               {/* NEET Dropdown */}
-              {/* <div className="relative">
+              <div className="relative">
                 <button
                   onClick={() => toggleDropdown("neet")}
                   className="flex items-center space-x-2 px-4 py-2 text-blue-600 hover:bg-blue-50 rounded-xl transition-all duration-200 font-medium"
@@ -174,7 +174,7 @@ const Header: React.FC<HeaderProps> = ({
                     ))}
                   </div>
                 )}
-              </div> */}
+              </div>
 
               {/* Predictor Dropdown */}
               <div className="relative">

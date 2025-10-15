@@ -51,6 +51,7 @@ import { WhatsAppSender } from "./components/WhatsAppSender";
 import ClossingRanksPage from "./components/ClossingRanksPage";
 import AiSensyWidget from "./components/AiSensyWidget";
 import NEETPGPredictor from "./pages/NEETPGPredictor";
+import InicetMainContent from "./INICET/InicetMainContent";
 
 /**
  * Main App Component with React Router
@@ -244,6 +245,7 @@ function App() {
           <Route path="/Feesstipendbonds" element={<FeesStipendBondPage onBack={() => window.history.back()} />} />
           <Route path="/Closingranks" element={<ClossingRanksPage onBack={() => window.history.back()} />} />
           <Route path="/NEETPGPredictor" element={<NEETPGPredictor onBack={() => window.history.back()} />} />
+          <Route path="/NEETPGPredictor" element={<InicetMainContent onBack={() => window.history.back()} />} />
             
           </Routes>
         </div>
