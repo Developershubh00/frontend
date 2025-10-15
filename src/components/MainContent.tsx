@@ -106,7 +106,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
   const dataCards = [
     {
       title: "Allotments",
-      subtitle: "2024",
+      subtitle: "",
       icon: Users,
       color: "bg-purple-500",
       navLink: "/allotments",
@@ -116,7 +116,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
     },
     {
       title: "Closing Ranks",
-      subtitle: "2024",
+      subtitle: "",
       icon: TrendingUp,
       color: "bg-blue-500",
       navLink: "/Closingranks",
@@ -126,7 +126,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
     },
     {
       title: "Seat Matrix",
-      subtitle: "2024",
+      subtitle: "",
       icon: BarChart3,
       color: "bg-indigo-500",
       navLink: "/seat-matrix",
@@ -136,7 +136,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
     },
     {
       title: "Fee, Stipend & Bond",
-      subtitle: "2024",
+      subtitle: "",
       icon: Award,
       color: "bg-purple-600",
       navLink: "/feesstipendbonds",
