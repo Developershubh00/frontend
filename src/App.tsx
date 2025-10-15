@@ -245,7 +245,7 @@ function App() {
           <Route path="/Feesstipendbonds" element={<FeesStipendBondPage onBack={() => window.history.back()} />} />
           <Route path="/Closingranks" element={<ClossingRanksPage onBack={() => window.history.back()} />} />
           <Route path="/NEETPGPredictor" element={<NEETPGPredictor onBack={() => window.history.back()} />} />
-          <Route path="/NEETPGPredictor" element={<InicetMainContent onBack={() => window.history.back()} />} />
+          <Route path="/InicetMainContent" element={<InicetMainContent onBack={() => window.history.back()} />} />
             
           </Routes>
         </div>
