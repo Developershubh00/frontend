@@ -535,7 +535,13 @@ const ClossingRanksPage: React.FC<ClossingRanksPageProps> = ({ onBack }) => {
                 Apply Changes
               </button>
               
-              <div className="flex items-center gap-2 ml-2 border-l pl-2">
+          
+
+
+
+            </div>
+
+            <div className="flex items-center gap-2 ml-2 border-l pl-2">
   <button
     onClick={() => filterColumnsByYear('2024')}
     className={`px-4 py-2 text-sm font-medium rounded-full transition-colors whitespace-nowrap ${
@@ -577,10 +583,6 @@ const ClossingRanksPage: React.FC<ClossingRanksPageProps> = ({ onBack }) => {
     All Years
   </button>
 </div>
-
-
-
-            </div>
           </div>
         </div>
       )}
