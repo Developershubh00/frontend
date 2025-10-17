@@ -541,48 +541,7 @@ const ClossingRanksPage: React.FC<ClossingRanksPageProps> = ({ onBack }) => {
 
             </div>
 
-            <div className="flex items-center gap-2 ml-2 border-l pl-2">
-  <button
-    onClick={() => filterColumnsByYear('2024')}
-    className={`px-4 py-2 text-sm font-medium rounded-full transition-colors whitespace-nowrap ${
-      selectedYear === '2024'
-        ? "bg-blue-600 text-white"
-        : "bg-blue-100 text-blue-700 hover:bg-blue-200"
-    }`}
-  >
-    2024
-  </button>
-  <button
-    onClick={() => filterColumnsByYear('2023')}
-    className={`px-4 py-2 text-sm font-medium rounded-full transition-colors whitespace-nowrap ${
-      selectedYear === '2023'
-        ? "bg-green-600 text-white"
-        : "bg-green-100 text-green-700 hover:bg-green-200"
-    }`}
-  >
-    2023
-  </button>
-  <button
-    onClick={() => filterColumnsByYear('2022')}
-    className={`px-4 py-2 text-sm font-medium rounded-full transition-colors whitespace-nowrap ${
-      selectedYear === '2022'
-        ? "bg-purple-600 text-white"
-        : "bg-purple-100 text-purple-700 hover:bg-purple-200"
-    }`}
-  >
-    2022
-  </button>
-  <button
-    onClick={() => filterColumnsByYear('all')}
-    className={`px-4 py-2 text-sm font-medium rounded-full transition-colors whitespace-nowrap ${
-      selectedYear === 'all'
-        ? "bg-gray-700 text-white"
-        : "bg-gray-100 text-gray-700 hover:bg-gray-200"
-    }`}
-  >
-    All Years
-  </button>
-</div>
+            
           </div>
         </div>
       )}
@@ -651,6 +610,49 @@ const ClossingRanksPage: React.FC<ClossingRanksPageProps> = ({ onBack }) => {
               <Eye className="w-4 h-4" />
               Show/Hide
             </button>
+
+            <div className="flex items-center gap-2 ml-2 border-l pl-2">
+  <button
+    onClick={() => filterColumnsByYear('2024')}
+    className={`px-4 py-2 text-sm font-medium rounded-full transition-colors whitespace-nowrap ${
+      selectedYear === '2024'
+        ? "bg-blue-600 text-white"
+        : "bg-blue-100 text-blue-700 hover:bg-blue-200"
+    }`}
+  >
+    2024
+  </button>
+  <button
+    onClick={() => filterColumnsByYear('2023')}
+    className={`px-4 py-2 text-sm font-medium rounded-full transition-colors whitespace-nowrap ${
+      selectedYear === '2023'
+        ? "bg-green-600 text-white"
+        : "bg-green-100 text-green-700 hover:bg-green-200"
+    }`}
+  >
+    2023
+  </button>
+  <button
+    onClick={() => filterColumnsByYear('2022')}
+    className={`px-4 py-2 text-sm font-medium rounded-full transition-colors whitespace-nowrap ${
+      selectedYear === '2022'
+        ? "bg-purple-600 text-white"
+        : "bg-purple-100 text-purple-700 hover:bg-purple-200"
+    }`}
+  >
+    2022
+  </button>
+  <button
+    onClick={() => filterColumnsByYear('all')}
+    className={`px-4 py-2 text-sm font-medium rounded-full transition-colors whitespace-nowrap ${
+      selectedYear === 'all'
+        ? "bg-gray-700 text-white"
+        : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+    }`}
+  >
+    All Years
+  </button>
+</div>
           </div>
         </div>
 
