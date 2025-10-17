@@ -163,7 +163,7 @@ const Header: React.FC<HeaderProps> = ({
                           navigate(option.path);
                           setActiveDropdown(null);
                         }}
-                        className="w-full text-left px-4 py-3 hover:bg-slate-50 transition-colors"
+                        className="w-full text-left px-3 py-1.5 hover:bg-slate-50 transition-colors"
                       >
                         <div className="font-medium text-slate-800">
                           {option.label}
