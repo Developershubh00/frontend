@@ -85,7 +85,7 @@ const SupportPage: React.FC<SupportPageProps> = ({ onBack }) => {
                 <div>
                   <p className="text-lg font-semibold text-slate-800">Email</p>
                   <p className="text-sm text-slate-600">
-                    support@BelieversConsultancy.com
+                    contact@believersconsultancy.com
                   </p>
                   <p className="text-xs text-blue-600">Response in 2 hours</p>
                 </div>
@@ -132,7 +132,7 @@ const SupportPage: React.FC<SupportPageProps> = ({ onBack }) => {
         </div>
 
         {/* WhatsApp Quick Support */}
-        <div className="mt-8 bg-gradient-to-r from-green-500 to-emerald-600 rounded-2xl md:rounded-3xl p-6 md:p-8 text-white text-center shadow-2xl">
+        {/* <div className="mt-8 bg-gradient-to-r from-green-500 to-emerald-600 rounded-2xl md:rounded-3xl p-6 md:p-8 text-white text-center shadow-2xl">
           <div className="flex items-center justify-center mb-4">
             <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm">
               <MessageCircle className="w-8 h-8" />
@@ -158,7 +158,7 @@ const SupportPage: React.FC<SupportPageProps> = ({ onBack }) => {
           <p className="text-xs md:text-sm text-green-200 mt-4">
             Available 24/7 for urgent queries • Response within 5 minutes
           </p>
-        </div>
+        </div> */}
 
         {/* Additional Support Info */}
         <div className="mt-8 grid gap-4 md:grid-cols-3">
@@ -190,7 +190,7 @@ const SupportPage: React.FC<SupportPageProps> = ({ onBack }) => {
             <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-3">
               <Phone className="w-5 h-5 text-purple-600" />
             </div>
-            <h4 className="font-semibold text-slate-800 mb-1">24/7 Support</h4>
+            <h4 className="font-semibold text-slate-800 mb-1">9am-7pm Support</h4>
             <p className="text-sm text-slate-600">Round the clock assistance</p>
           </div>
         </div>
