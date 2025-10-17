@@ -495,7 +495,7 @@ const ClossingRanksPage: React.FC<ClossingRanksPageProps> = ({ onBack }) => {
               </button>
               <div>
                 <h1 className="text-lg font-semibold">Closing Ranks</h1>
-                <p className="text-xs text-purple-100">NEET PG 2022-2024 Cutoff Ranks</p>
+                
               </div>
             </div>
             

@@ -5672,7 +5672,7 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
               </button>
               <div>
                 <h1 className="text-lg font-semibold">NEET PG Seat Matrix</h1>
-                <p className="text-xs text-purple-100">2023-2024 Session Data</p>
+                
               </div>
             </div>
             

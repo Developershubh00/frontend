@@ -2345,7 +2345,7 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
               </button>
               <div>
                 <h1 className="text-lg font-semibold">NEET PG Allotments</h1>
-                <p className="text-xs text-blue-100">2024 Session Data</p>
+                {/* <p className="text-xs text-blue-100">2024 Session Data</p> */}
               </div>
             </div>
             
