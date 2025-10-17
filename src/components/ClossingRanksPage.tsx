@@ -142,7 +142,7 @@ const ClossingRanksPage: React.FC<ClossingRanksPageProps> = ({ onBack }) => {
   const [maxFee, setMaxFee] = useState("");
   const [minRank, setMinRank] = useState("");
   const [maxRank, setMaxRank] = useState("");
-
+  const [selectedYear, setSelectedYear] = useState<string>("all"); // ← ADD THIS LINE
   const [columnVisibility, setColumnVisibility] = useState<ColumnVisibility>({
     "Alloted Quota": true,
     "Alloted Category": true,
@@ -193,6 +193,46 @@ const ClossingRanksPage: React.FC<ClossingRanksPageProps> = ({ onBack }) => {
       [columnKey]: !prev[columnKey]
     }));
   };
+
+  const filterColumnsByYear = (year: string) => {
+  setSelectedYear(year);
+  const newVisibility = { ...columnVisibility };
+  
+  // Reset all year columns to false first
+  Object.keys(newVisibility).forEach(key => {
+    if (key.includes('2024') || key.includes('2023') || key.includes('2022')) {
+      newVisibility[key as keyof ColumnVisibility] = false;
+    }
+  });
+  
+  // Show only selected year columns
+  if (year === '2024') {
+    newVisibility['2024 R1'] = true;
+    newVisibility['2024 R2'] = true;
+    newVisibility['2024 R3'] = true;
+    newVisibility['2024 R4'] = true;
+    newVisibility['2024 R5'] = true;
+  } else if (year === '2023') {
+    newVisibility['2023 R1'] = true;
+    newVisibility['2023 R2'] = true;
+    newVisibility['2023 R3'] = true;
+    newVisibility['2023 R4'] = true;
+  } else if (year === '2022') {
+    newVisibility['2022 R1'] = true;
+    newVisibility['2022 R2'] = true;
+    newVisibility['2022 R3'] = true;
+    newVisibility['2022 R4'] = true;
+  } else if (year === 'all') {
+    // Show all year columns
+    Object.keys(newVisibility).forEach(key => {
+      if (key.includes('2024') || key.includes('2023') || key.includes('2022')) {
+        newVisibility[key as keyof ColumnVisibility] = true;
+      }
+    });
+  }
+  
+  setColumnVisibility(newVisibility);
+};
 
   const showAllColumns = () => {
     const allVisible = Object.keys(columnVisibility).reduce((acc, key) => {
@@ -379,18 +419,34 @@ const ClossingRanksPage: React.FC<ClossingRanksPageProps> = ({ onBack }) => {
   const categories = ["all", ...Array.from(new Set(ranksData.map((item) => item["Alloted Category"])))];
   const courses = ["all", ...Array.from(new Set(ranksData.map((item) => item.Course)))];
 
+  // const clearAllFilters = () => {
+  //   setSearchTerm("");
+  //   setSelectedState("all");
+  //   setSelectedQuota("all");
+  //   setSelectedCategory("all");
+  //   setSelectedCourse("all");
+  //   setMinFee("");
+  //   setMaxFee("");
+  //   setMinRank("");
+  //   setMaxRank("");
+  //   setCurrentPage(1);
+  // };
   const clearAllFilters = () => {
-    setSearchTerm("");
-    setSelectedState("all");
-    setSelectedQuota("all");
-    setSelectedCategory("all");
-    setSelectedCourse("all");
-    setMinFee("");
-    setMaxFee("");
-    setMinRank("");
-    setMaxRank("");
-    setCurrentPage(1);
-  };
+  setSearchTerm("");
+  setSelectedState("all");
+  setSelectedQuota("all");
+  setSelectedCategory("all");
+  setSelectedCourse("all");
+  setMinFee("");
+  setMaxFee("");
+  setMinRank("");
+  setMaxRank("");
+  setSelectedYear("all"); // ← ADD THIS LINE
+  setCurrentPage(1);
+  
+  // Reset column visibility to show all
+  showAllColumns(); // ← ADD THIS LINE
+};
 
   const formatCurrency = (num: number): string => {
     if (num === 0) return 'N/A';
@@ -478,6 +534,52 @@ const ClossingRanksPage: React.FC<ClossingRanksPageProps> = ({ onBack }) => {
               >
                 Apply Changes
               </button>
+              
+              <div className="flex items-center gap-2 ml-2 border-l pl-2">
+  <button
+    onClick={() => filterColumnsByYear('2024')}
+    className={`px-4 py-2 text-sm font-medium rounded-full transition-colors whitespace-nowrap ${
+      selectedYear === '2024'
+        ? "bg-blue-600 text-white"
+        : "bg-blue-100 text-blue-700 hover:bg-blue-200"
+    }`}
+  >
+    2024
+  </button>
+  <button
+    onClick={() => filterColumnsByYear('2023')}
+    className={`px-4 py-2 text-sm font-medium rounded-full transition-colors whitespace-nowrap ${
+      selectedYear === '2023'
+        ? "bg-green-600 text-white"
+        : "bg-green-100 text-green-700 hover:bg-green-200"
+    }`}
+  >
+    2023
+  </button>
+  <button
+    onClick={() => filterColumnsByYear('2022')}
+    className={`px-4 py-2 text-sm font-medium rounded-full transition-colors whitespace-nowrap ${
+      selectedYear === '2022'
+        ? "bg-purple-600 text-white"
+        : "bg-purple-100 text-purple-700 hover:bg-purple-200"
+    }`}
+  >
+    2022
+  </button>
+  <button
+    onClick={() => filterColumnsByYear('all')}
+    className={`px-4 py-2 text-sm font-medium rounded-full transition-colors whitespace-nowrap ${
+      selectedYear === 'all'
+        ? "bg-gray-700 text-white"
+        : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+    }`}
+  >
+    All Years
+  </button>
+</div>
+
+
+
             </div>
           </div>
         </div>
