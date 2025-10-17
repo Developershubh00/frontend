@@ -50,8 +50,8 @@ const Header: React.FC<HeaderProps> = ({
 
   // NEET PG dropdown options with navigation
   const neetOptions = [
-    { id: "neet-pg", label: "NEET PG 2025", description: "Postgraduate Medical", path: "/dashboard" },
-    { id: "InicetMainContent", label: "INICET 2025", description: "Institute of National Importance", path: "/InicetMainContent" },
+    { id: "neet-pg", label: "NEET PG ", description: "Postgraduate Medical", path: "/dashboard" },
+    { id: "InicetMainContent", label: "INICET ", description: "Institute of National Importance", path: "/InicetMainContent" },
   ];
 
   // Predictor dropdown options

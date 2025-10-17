@@ -1197,6 +1197,7 @@ import {
   Clock,
 } from "lucide-react";
 import TypingCategories from "../components/TypingCategories"
+import AiSensyWidget from "../components/AiSensyWidget";
 
 function Homepage() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -2185,6 +2186,10 @@ function Homepage() {
             <span>Get started - FREE Access</span>
             <ArrowRight className="w-6 h-6" />
           </button>
+
+          {/* WhatsApp Support Widget */}
+      <AiSensyWidget widgetId="aaa5qq" />
+
         </div>
       </section>
 
