@@ -1506,6 +1506,18 @@ const AnnouncementPage: React.FC = () => {
       source: 'Jagran Josh',
       created_at: "2025-10-15T08:00:00Z"
     },
+    {
+      id: 49,
+      title: "NEET PG Counselling 2025:",
+      content:" MCC NEET PG Counselling 2025 Round 1 Registration Started at mcc.nic.in: Direct Link, Complete Schedule, Login Process for AIQ Seats",
+      date: "2025-10-17T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.jagranjosh.com/news/neet-pg-2025-counselling-round-1-registration-begin-at-mcc-nic-in-get-direct-link-here-181509',
+      is_active: true,
+      source: 'Jagran Josh',
+      created_at: "2025-10-17T08:00:00Z"
+    },
   ];
 
   const fetchAnnouncements = async () => {
