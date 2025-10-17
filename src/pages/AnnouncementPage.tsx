@@ -1494,6 +1494,18 @@ const AnnouncementPage: React.FC = () => {
       source: 'Times of India',
       created_at: "2025-10-13T08:00:00Z"
     },
+    {
+      id: 48,
+      title: "NEET PG Counselling 2025:",
+      content:" MCC NEET PG Counselling 2025 Schedule Release Expected: Registration, Seat Allotment Dates at mcc.nic.in, Admission Process Details",
+      date: "2025-10-15T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.jagranjosh.com/news/neet-pg-counselling-2025-schedule-to-release-soon-check-details-here-181494',
+      is_active: true,
+      source: 'Jagran Josh',
+      created_at: "2025-10-15T08:00:00Z"
+    },
   ];
 
   const fetchAnnouncements = async () => {

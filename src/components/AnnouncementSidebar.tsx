@@ -686,6 +686,15 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: 'https://timesofindia.indiatimes.com/education/news/mcc-neet-pg-counselling-2025-expected-to-release-soon-check-details-here/articleshow/124527012.cms',
       source: 'Times of India',
     },
+    {
+      id: 48,
+      title: "content: MCC NEET PG Counselling 2025 Schedule Release Expected: Registration, Seat Allotment Dates at mcc.nic.in, Admission Process Details",
+      date: "2025-10-15T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.jagranjosh.com/news/neet-pg-counselling-2025-schedule-to-release-soon-check-details-here-181494',
+      source: 'Jagran Josh',
+      },
 
   ];
 
