@@ -152,7 +152,7 @@ const Header: React.FC<HeaderProps> = ({
                   className="flex items-center space-x-2 px-4 py-2 text-blue-600 hover:bg-blue-50 rounded-xl transition-all duration-200 font-medium"
                 >
                   <span>NEET</span>
-                  <ChevronDown className="w-4 h-4" />
+                  <ChevronDown className="w-2 h-2" />
                 </button>
                 {activeDropdown === "neet" && (
                   <div className="absolute top-full left-0 mt-2 w-64 bg-white/95 backdrop-blur-xl rounded-xl shadow-xl border border-slate-200/50 py-2 z-50 animate-in slide-in-from-top-2">
