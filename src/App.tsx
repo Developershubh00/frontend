@@ -267,17 +267,14 @@ function App() {
           <Route path="/inicet/allotments" element={<InicetAllotmentsPage />} />
           <Route path="/inicet/closing-ranks" element={<InicetClosingRanksPage />} />
           <Route path="/inicet/seat-matrix" element={<InicetSeatMatrixPage />} />
-<<<<<<< HEAD
           <Route path="/inicet/fee-stipend" element={<InicetFeeStipendPage />} /> 
-
+          
            {/* Blog Routes */}
           <Route path="/blog" element={<BlogList />} />
           <Route path="/blog/:slug" element={<BlogDetail />} />
 
-=======
-          <Route path="/inicet/fee-stipend" element={<InicetFeeStipendPage />} />  
-          <Route path="/blog1" element={<NEETPGCategoryChangeBlog />} />  
->>>>>>> f8be5f5ff3ce923e3a50ae5a241efed19a1a14fd
+          
+          {/* <Route path="/blog1" element={<NEETPGCategoryChangeBlog />} />   */}
           </Routes>
         </div>
       </Router>
