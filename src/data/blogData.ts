@@ -1231,7 +1231,303 @@ export const blogPosts: BlogPost[] = [
         content: "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours."
       }
     ]
+  },
+ {
+  id: 4,
+    title: "Decoding NEET PG 2025: All India 50% Quota Seats Counselling Explained",
+    slug: "decoding-neet-pg-2025-all-india-50-quota-seats-counselling",
+    excerpt: "NEET PG 2025 results have been released officially, along with the All India 50% Quota (AIQ) seat counselling merit list. Learn everything about AIQ counselling, ranks, and how to make informed decisions.",
+    featured_image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&h=600&fit=crop",
+    author: {
+      name: "Believers Team",
+      avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+    },
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800"
+    },
+    tags: ["NEET PG 2025", "AIQ Counselling", "Merit List", "MCC", "Category Rank"],
+    published_date: "2024-12-10",
+    read_time: 5,
+    meta_description: "Complete guide to NEET PG 2025 All India 50% Quota counselling. Understand AIQ merit list, rank types, eligibility criteria, and counselling strategies.",
+    sections: [
+      {
+        id: "intro",
+        type: "paragraph",
+        content: "NEET PG 2025 results have been released officially, along with the All India 50% Quota (AIQ) seat counselling merit list has also been made available online.\n\nNaturally, a lot of questions are raised in candidates' minds, like: What exactly does this merit list act for? How is it different from your overall NEET PG rank? What is the significance of category rank? And most importantly, how should you use this information to make counselling decisions?\n\nThis blog explains the overall process in a very clear and step-by-step way so that your doubts are cleared and you can make better decisions for your next steps."
+      },
+      {
+        id: "understanding-aiq",
+        type: "heading",
+        title: "Understanding the All-India 50% Quota Merit List",
+        level: 2
+      },
+      {
+        id: "understanding-aiq-content",
+        type: "paragraph",
+        content: "The AIQ merit list is simply for All India Counselling and includes:\n\n• AIQ seats\n• DNB seats\n• NBE diploma seats\n• Deemed university seats\n\nEvery student needs to know that if their roll number is not on this merit list, they will not be eligible for All India Counselling. Along with that, you cannot register/participate in MCC AIQ counselling if not in the AIQ merit list. However, this list does not influence your eligibility for state counselling, as it is managed separately by individual states."
+      },
+      {
+        id: "eligibility-criteria",
+        type: "heading",
+        title: "Eligibility Criteria for AIQ 2025",
+        level: 2
+      },
+      {
+        id: "eligibility-table",
+        type: "paragraph",
+        content: "To be included in the AIQ merit list, candidates must meet these score-based cutoffs:\n\nGeneral/EWS: 50th Percentile - 276 marks\nOBC/SC/ST/PWD: 40th Percentile - 235 marks\nGeneral-PWD/EWS-PWD: 45th Percentile - 255 marks\n\nCandidates who are scoring below these cutoffs are excluded from the AIQ merit list, but they can still apply for state counselling (if they are eligible as per state rules)."
+      },
+      {
+        id: "rank-types",
+        type: "heading",
+        title: "NEET PG Rank vs. AIQ Rank vs. Category Rank",
+        level: 2
+      },
+      {
+        id: "rank-types-intro",
+        type: "paragraph",
+        content: "The counselling rank list can be confusing for you because it includes multiple types of ranks. Here's what they mean:"
+      },
+      {
+        id: "neet-pg-rank",
+        type: "heading",
+        title: "NEET PG Rank",
+        level: 3
+      },
+      {
+        id: "neet-pg-rank-content",
+        type: "list",
+        items: [
+          "This is your overall rank among all candidates who appeared for the exam.",
+          "It remains your primary reference for most admissions processes."
+        ]
+      },
+      {
+        id: "aiq-rank",
+        type: "heading",
+        title: "All India Quota (AIQ) Rank",
+        level: 3
+      },
+      {
+        id: "aiq-rank-content",
+        type: "list",
+        items: [
+          "Prepared by filtering only those candidates who meet the AIQ cutoffs.",
+          "Your NEET PG rank may match your AIQ rank initially, but as filtering happens (especially for General/EWS candidates below the cutoff), the AIQ rank adjusts."
+        ]
+      },
+      {
+        id: "category-rank",
+        type: "heading",
+        title: "Category Rank",
+        level: 3
+      },
+      {
+        id: "category-rank-content",
+        type: "list",
+        items: [
+          "It specifically indicates your standing within your specific reservation category.",
+          "Example: If you're an OBC candidate ranked 72,757 overall but 25,526 in the OBC category, then your primary competition for OBC seats is among those 25,525 candidates above you."
+        ]
+      },
+      {
+        id: "aiq-preparation",
+        type: "heading",
+        title: "How the AIQ List is Prepared",
+        level: 2
+      },
+      {
+        id: "aiq-preparation-content",
+        type: "paragraph",
+        content: "Here's a simplified snapshot of how the AIQ list is generated:"
+      },
+      {
+        id: "aiq-preparation-list",
+        type: "list",
+        items: [
+          "All the candidates who have scored 276 marks (General/EWS), 235 marks (OBC/SC/ST/PWD), and 255 marks (General-PWD/EWS-PWD) have been shortlisted.",
+          "These candidates are allocated AIQ ranks based on their NEET PG scores.",
+          "Ranks that do not appear in the AIQ list represent candidates who did not meet the cut‑off criteria for their category.",
+          "Category-wise filtering ensures that the reserved seats are distributed fairly."
+        ]
+      },
+      {
+        id: "missing-ranks",
+        type: "heading",
+        title: "Why Some Ranks Are Missing",
+        level: 2
+      },
+      {
+        id: "missing-ranks-content",
+        type: "paragraph",
+        content: "If your NEET PG rank appears in the main results, but if it's not in the AIQ merit list, it means:"
+      },
+      {
+        id: "missing-ranks-list",
+        type: "list",
+        items: [
+          "You're below the qualifying cutoff for your category.",
+          "You will not be eligible to participate in All India Counselling, but remain eligible for state-level processes (if it's applicable)."
+        ]
+      },
+      {
+        id: "category-rank-role",
+        type: "heading",
+        title: "The Role of Category Ranks",
+        level: 2
+      },
+      {
+        id: "category-rank-role-content",
+        type: "paragraph",
+        content: "Category ranks are crucial because they help to evaluate competition within your category. For example:\n\nA candidate ranked 28,456 overall but 1,519 in the SC category knows that 1,518 SC candidates are ahead.\n\nThis information helps gauge realistic seat allotments, especially for reserved categories.\n\nFor SC/ST candidates, category rank analysis is critical because very few opt for General seats, making category rank a more reliable predictor. For OBC candidates, AIQ rank often suffices because half of them secure General seats, reducing direct category competition."
+      },
+      {
+        id: "allotment-process",
+        type: "heading",
+        title: "Allotment Process: Rank-Based, Not Category-Based",
+        level: 2
+      },
+      {
+        id: "allotment-process-content",
+        type: "paragraph",
+        content: "Counselling does not allot seats category-wise in isolation. Instead, it works rank-by-rank:"
+      },
+      {
+        id: "allotment-process-list",
+        type: "list",
+        items: [
+          "The system reviews the candidate's top choice and checks seat availability in both the General and reserved categories.",
+          "A reserved-category candidate (OBC/SC/ST/EWS) can take a General seat if available.",
+          "Once all General seats are filled, reserved seats are allocated to candidates eligible under those categories.",
+          "For example, if a General seat in MAMC Pediatrics is available, even an OBC candidate may be allotted that seat."
+        ]
+      },
+      {
+        id: "key-dates",
+        type: "heading",
+        title: "Key Dates to Remember",
+        level: 2
+      },
+      {
+        id: "key-dates-list",
+        type: "list",
+        items: [
+          "Aug 19, 2025: Results published (with NEET PG rank).",
+          "Aug 27, 2025: AIQ 50% quota merit list released.",
+          "Aug 29, 2025: NEET PG scorecards available.",
+          "Sept 5, 2025: AIQ rank cards released."
+        ]
+      },
+      {
+        id: "key-dates-note",
+        type: "info-box",
+        boxType: "info",
+        content: "Always carry your Aug 29 scorecard for counselling purposes. AIQ rank cards are useful for reference, but not mandatory."
+      },
+      {
+        id: "state-counselling",
+        type: "heading",
+        title: "Why State Counselling Is Different",
+        level: 2
+      },
+      {
+        id: "state-counselling-content",
+        type: "paragraph",
+        content: "State counselling has its own eligibility and category rules. For instance:\n\n• A candidate listed as General in NEET PG might qualify as OBC or BCA in a state.\n• Similarly, missing a category in the NBE application does not affect your state-level eligibility if you have the correct certificates."
+      },
+      {
+        id: "using-aiq-data",
+        type: "heading",
+        title: "How to Use the AIQ Data",
+        level: 2
+      },
+      {
+        id: "using-aiq-data-content",
+        type: "paragraph",
+        content: "This data is valuable for:"
+      },
+      {
+        id: "using-aiq-data-list",
+        type: "list",
+        items: [
+          "Predicting seat availability: Compare this year's category ranks with last year's.",
+          "Identifying trends: E.g., if OBC candidates increased by 10% in the top 5,000 ranks, plan backup options.",
+          "Strategizing seat preferences: Know where competition is rising and adjust your choices accordingly.",
+          "For SC/ST candidates, category rank-based comparisons provide better accuracy."
+        ]
+      },
+      {
+        id: "pro-tips",
+        type: "heading",
+        title: "Pro Tips for Counselling",
+        level: 2
+      },
+      {
+        id: "pro-tips-list",
+        type: "list",
+        items: [
+          "Start building your preference list with a ±20% buffer based on your rank.",
+          "Add backup options beyond your ideal choices to avoid missing seats.",
+          "Follow MCC updates closely; no category changes are allowed in AIQ counselling.",
+          "Join Telegram or MCC resources to access sorted PDFs and rank analysis."
+        ]
+      },
+      {
+        id: "conclusion",
+        type: "heading",
+        title: "Conclusion",
+        level: 2
+      },
+      {
+        id: "conclusion-content",
+        type: "paragraph",
+        content: "The NEET PG 2025 All India 50% Quota merit list is not just a rank sheet; it's a key guide for AIQ counselling. Understanding how AIQ rank, NEET PG rank, and category rank interact will help you navigate the process confidently.\n\nWhile rank analysis can give insights, counselling success depends on careful planning, backup choices, and staying updated with MCC notifications. State counselling remains independent, so being missing from this merit list doesn't end your chances.\n\nFor real-time guidance, detailed PDFs, and counselling support, join dedicated Telegram groups or explore MCC resources. Knowledge is your biggest tool in securing your dream seat."
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "Q1. Who is eligible for AIQ counselling?",
+            answer: "Candidates meeting NEET PG cutoffs: General/EWS – 50th percentile, OBC/SC/ST/PwD 40th percentile, General-PwD/EWS-PwD – 45th percentile. Eligible candidates can participate in MCC AIQ rounds, Deemed/Central Universities, ESIC/AFMS, and DNB counselling. State counselling is separate."
+          },
+          {
+            question: "Q2. Difference between NEET PG Rank, AIQ Rank, and Category Rank?",
+            answer: "NEET PG Rank: Overall rank among all candidates. AIQ Rank: Rank after filtering only AIQ-eligible candidates; may differ from NEET PG Rank. Category Rank: Position within your reserved category; shows intra-category competition."
+          },
+          {
+            question: "Q3. Why is my AIQ rank missing? Can I join state counselling?",
+            answer: "Missing AIQ rank = cutoff not met for AIQ; you cannot participate in MCC AIQ rounds. Yes, you can join state counselling, as it follows separate merit lists and rules."
+          },
+          {
+            question: "Q4. How should I use AIQ ranks for counselling?",
+            answer: "Use AIQ and Category ranks to benchmark, make a choice list with backups, and follow MCC rules for seat allotment."
+          }
+        ]
+      },
+      {
+        id: "contact-form",
+        type: "contact-form",
+        title: "Submit queries to BelieversConsultancy",
+        content: "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      },
+      {
+        id: "about",
+        type: "paragraph",
+        content: "Believers Consultancy has distilled the original notice into a clear, easy-to-read summary, highlighting every key point so candidates, state authorities, and institutions can quickly understand everything without any inconvenience."
+      }
+    ]
   }
+  
 ];
 
 // Helper function to get blog by slug
