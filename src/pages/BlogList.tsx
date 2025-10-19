@@ -341,8 +341,8 @@ const BlogList: React.FC = () => {
           )}
         </section>
 
-         {/* ADD NEWSLETTER HERE */}
-        <Newsletter />
+         {/* ADD NEWSLETTER HERE
+        <Newsletter /> */}
       </div>
     </div>
   );
