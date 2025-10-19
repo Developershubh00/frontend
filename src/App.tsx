@@ -253,8 +253,8 @@ function App() {
           <Route path="/choicelists" element={<ChoiceLists />} />
           <Route path="/announcements" element={<AnnouncementPage />} />
           <Route path="/Verify" element={<VerificationPage />} />
-          <Route path="/blog" element={<BlogPageWithAPI />} />
-          <Route path="/blogdetail" element={<BlogDetail />} />
+          {/* <Route path="/blog" element={<BlogPageWithAPI />} />
+          <Route path="/blogdetail" element={<BlogDetail />} /> */}
           <Route path="/multicriteria" element={<MultiCriteriaPredictor />} />
           <Route path="/Clinicaldata" element={<ClinicalDataPage onBack={() => window.history.back()}  />} />
           <Route path="/courses" element={<CoursesPage onBack={() => window.history.back()} />} />
