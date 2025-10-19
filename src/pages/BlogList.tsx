@@ -177,8 +177,7 @@ const BlogList: React.FC = () => {
           </section>
         )}
 
-        {/* ADD NEWSLETTER HERE */}
-        <Newsletter />
+        
 
         {/* Search and Filters */}
         <section className="mb-12">
