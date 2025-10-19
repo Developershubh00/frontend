@@ -1527,8 +1527,7 @@ export const blogPosts: BlogPost[] = [
       }
     ]
   },
-
-  {
+    {
     id: 5,
     title: "NEET PG 2025: Understanding PG Diploma vs NBE Diploma",
     slug: "neet-pg-2025-understanding-pg-diploma-vs-nbe-diploma",
@@ -1601,8 +1600,19 @@ export const blogPosts: BlogPost[] = [
       },
       {
         id: "comparison-table",
-        type: "paragraph",
-        content: "Feature | PG Diploma | NBE Diploma\n------|------------|-------------\nDuration | 2 years | 2 years\nOffered At | Medical colleges | Hospitals (Govt./Private)\nAccrediting Body | National Medical Commission (NMC) | National Board of Examinations (NBE)\nRecognition | First Schedule, NMC Act | First Schedule, NMC Act\nSeats | 300 | 3,500\nExams Conducted By | University | NBEMS\nSpecialties | Broader range | Limited (9 specialties)\nFee Structure | Varies by institute | ₹1.25 lakh/year (fixed, no mgmt quota)\nBond | As per state/institute policy | None in private hospitals"
+        type: "table",
+        headers: ["Feature", "PG Diploma", "NBE Diploma"],
+        rows: [
+          ["Duration", "2 years", "2 years"],
+          ["Offered At", "Medical colleges", "Hospitals (Govt./Private)"],
+          ["Accrediting Body", "National Medical Commission (NMC)", "National Board of Examinations (NBE)"],
+          ["Recognition", "First Schedule, NMC Act", "First Schedule, NMC Act"],
+          ["Seats", "300", "3,500"],
+          ["Exams Conducted By", "University", "NBEMS"],
+          ["Specialties", "Broader range", "Limited (9 specialties)"],
+          ["Fee Structure", "Varies by institute", "₹1.25 lakh/year (fixed, no mgmt quota)"],
+          ["Bond", "As per state/institute policy", "None in private hospitals"]
+        ]
       },
       {
         id: "why-choose-diplomas",
