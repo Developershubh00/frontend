@@ -340,6 +340,9 @@ const BlogList: React.FC = () => {
             </div>
           )}
         </section>
+
+         {/* ADD NEWSLETTER HERE */}
+        <Newsletter />
       </div>
     </div>
   );
