@@ -1,14 +1,11 @@
-// src/components/Newsletter.tsx
 import React, { useState } from "react";
-
 
 type ApiResponse = {
   status: "success" | "error";
   message?: string;
 };
 
-const EMAIL_REGEX =
-  /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 export default function Newsletter(): JSX.Element {
   const [email, setEmail] = useState("");
@@ -20,85 +17,95 @@ export default function Newsletter(): JSX.Element {
   const handleSubscribe = async () => {
     setMessage(null);
 
+    // Validation
     if (!email || !EMAIL_REGEX.test(email)) {
-      setMessage("Please enter a valid email address.");
+      setMessage("⚠️ Please enter a valid email address.");
       return;
     }
 
     if (!webAppUrl) {
-      setMessage("Subscription service not configured. Contact admin.");
+      setMessage("⚠️ Subscription service not configured. Contact admin.");
+      console.error("VITE_SHEET_WEBAPP_URL is not defined in environment variables");
       return;
     }
 
     setLoading(true);
+    
     try {
       const res = await fetch(webAppUrl, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        mode: "no-cors", // Important for Google Apps Script
+        headers: { 
+          "Content-Type": "application/json"
+        },
         body: JSON.stringify({ email: email.trim() }),
       });
 
-      // Apps Script returns JSON with status/message
-      const json: ApiResponse = await res.json();
-
-      if (json.status === "success") {
-        setMessage("✅ Thank you for subscribing!");
-        setEmail("");
-      } else {
-        setMessage(json.message ?? "Something went wrong. Please try again.");
-      }
+      // With no-cors mode, we can't read the response
+      // But if fetch succeeds without throwing, we can assume success
+      setMessage("✅ Thank you for subscribing! Check your inbox soon.");
+      setEmail("");
+      
     } catch (err) {
       console.error("Subscribe error:", err);
-      setMessage("⚠️ Network or server error. Try again later.");
+      setMessage("⚠️ Network error. Please try again later.");
     } finally {
       setLoading(false);
     }
   };
 
   const onEnter = (e: React.KeyboardEvent<HTMLInputElement>) => {
-    if (e.key === "Enter") handleSubscribe();
+    if (e.key === "Enter" && !loading) {
+      handleSubscribe();
+    }
   };
 
   return (
     <section className="bg-gradient-to-r from-blue-600 to-purple-600 py-12 md:py-16">
-  <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-    <h2 className="text-2xl md:text-3xl font-bold text-white mb-3 md:mb-4">
-      Stay Updated with Latest NEET Guidelines
-    </h2>
-    <p className="text-base md:text-lg text-blue-100 mb-6 md:mb-8">
-      Get the latest updates on NEET counselling, admission guidelines,
-      and expert insights delivered to your inbox.
-    </p>
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 className="text-2xl md:text-3xl font-bold text-white mb-3 md:mb-4">
+          Stay Updated with Latest NEET Guidelines
+        </h2>
+        <p className="text-base md:text-lg text-blue-100 mb-6 md:mb-8">
+          Get the latest updates on NEET counselling, admission guidelines,
+          and expert insights delivered to your inbox.
+        </p>
 
-    <div className="flex flex-col sm:flex-row gap-3 md:gap-4 max-w-md mx-auto">
-      <input
-        type="email"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-        onKeyDown={onEnter}
-        placeholder="Enter your email"
-        className="flex-1 px-4 md:px-6 py-2.5 md:py-3 text-sm md:text-base rounded-full text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-white"
-        aria-label="Email address"
-      />
-      <button
-        onClick={handleSubscribe}
-        disabled={loading}
-        className="bg-white text-blue-600 px-6 md:px-8 py-2.5 md:py-3 text-sm md:text-base rounded-full font-semibold hover:bg-gray-100 transition-colors whitespace-nowrap disabled:opacity-60"
-      >
-        {loading ? "Submitting..." : "Subscribe Now"}
-      </button>
-    </div>
+        <div className="flex flex-col sm:flex-row gap-3 md:gap-4 max-w-md mx-auto">
+          <input
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            onKeyDown={onEnter}
+            placeholder="Enter your email"
+            disabled={loading}
+            className="flex-1 px-4 md:px-6 py-2.5 md:py-3 text-sm md:text-base rounded-full text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-white disabled:opacity-60 disabled:cursor-not-allowed"
+            aria-label="Email address"
+          />
+          <button
+            onClick={handleSubscribe}
+            disabled={loading || !email}
+            className="bg-white text-blue-600 px-6 md:px-8 py-2.5 md:py-3 text-sm md:text-base rounded-full font-semibold hover:bg-gray-100 transition-colors whitespace-nowrap disabled:opacity-60 disabled:cursor-not-allowed"
+          >
+            {loading ? "Submitting..." : "Subscribe Now"}
+          </button>
+        </div>
 
-    {message && (
-      <p className="text-blue-100 text-xs md:text-sm mt-3 md:mt-4" role="status">
-        {message}
-      </p>
-    )}
+        {message && (
+          <div 
+            className={`mt-3 md:mt-4 text-sm md:text-base ${
+              message.includes("✅") ? "text-white font-semibold" : "text-yellow-100"
+            }`}
+            role="status"
+          >
+            {message}
+          </div>
+        )}
 
-    <p className="text-blue-100 text-xs md:text-sm mt-2">
-      No spam, unsubscribe at any time. We respect your privacy.
-    </p>
-  </div>
-</section>
+        <p className="text-blue-100 text-xs md:text-sm mt-2">
+          No spam, unsubscribe at any time. We respect your privacy.
+        </p>
+      </div>
+    </section>
   );
 }
