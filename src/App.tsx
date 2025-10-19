@@ -39,8 +39,8 @@ import TermsConditions from "./pages/Termsconditions";
 import ChoiceLists from "./components/ChoiceLists";
 import AnnouncementPage from "./pages/AnnouncementPage";
 import VerificationPage from "./pages/VerificationPage";
-import BlogPageWithAPI from "./pages/Blogpagewithapi";
-import BlogDetail from "./pages/Blogdetail";
+// import BlogPageWithAPI from "./pages/Blogpagewithapi";
+// import BlogDetail from "./pages/Blogdetail";
 import MultiCriteriaPredictor from "./MultiCriteriaPredictor";
 import CoursesPage from "./components/CoursesPage";
 import ClinicalDataPage from "./components/ClinicalDataPage";
@@ -56,12 +56,9 @@ import InicetAllotmentsPage from "./INICET/InicetAllotmentsPage";
 import InicetClosingRanksPage from "./INICET/InicetClosingRanksPage";
 import InicetSeatMatrixPage from "./INICET/InicetSeatMatrixPage";
 import InicetFeeStipendPage from "./INICET/InicetFeeStipendPage";
-<<<<<<< HEAD
 import BlogList from "./pages/BlogList";
-import BlogDetailPage from "./pages/Blogdetail";
-=======
-import NEETPGCategoryChangeBlog from "./Blogs/NEETPGCategoryChangeBlog";
->>>>>>> f8be5f5ff3ce923e3a50ae5a241efed19a1a14fd
+import BlogDetail from "./pages/BlogDetail";
+// import NEETPGCategoryChangeBlog from "./Blogs/NEETPGCategoryChangeBlog";
 
 /**
  * Main App Component with React Router
