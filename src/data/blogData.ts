@@ -351,7 +351,7 @@ export const blogPosts: BlogPost[] = [
       color: "bg-blue-100 text-blue-800"
     },
     tags: ["NEET PG 2025", "NRI Quota", "MEA Guidelines", "Medical Admissions"],
-    published_date: "2024-12-15",
+    published_date: "2025-11-05",
     read_time: 5,
     meta_description: "Complete guide to NRI category seats in NEET PG 2025 with new MEA guidelines, eligibility criteria, and documentation requirements.",
     sections: [
@@ -644,7 +644,7 @@ export const blogPosts: BlogPost[] = [
       color: "bg-blue-100 text-blue-800"
     },
     tags: ["NEET PG 2025", "Category Change", "Counselling", "MCC"],
-    published_date: "2024-12-10",
+    published_date: "2025-11-07",
     read_time: 5,
     meta_description: "Complete guide on category changes in NEET PG 2025 All India Counselling. Learn which changes are possible and which aren't.",
     sections: [
@@ -866,7 +866,7 @@ export const blogPosts: BlogPost[] = [
       color: "bg-blue-100 text-blue-800"
     },
     tags: ["NEET PG Counselling", "All India Quota", "State Counselling", "Medical Career"],
-    published_date: "2024-12-18",
+    published_date: "2025-11-09",
     read_time: 5,
     meta_description: "Complete strategic guide to NEET-PG counselling covering All India Quota and State rounds, choice filling strategies, and expert tips for success.",
     sections: [
@@ -1249,7 +1249,7 @@ export const blogPosts: BlogPost[] = [
       color: "bg-blue-100 text-blue-800"
     },
     tags: ["NEET PG 2025", "AIQ Counselling", "Merit List", "MCC", "Category Rank"],
-    published_date: "2024-12-10",
+    published_date: "2025-11-11",
     read_time: 5,
     meta_description: "Complete guide to NEET PG 2025 All India 50% Quota counselling. Understand AIQ merit list, rank types, eligibility criteria, and counselling strategies.",
     sections: [
@@ -1544,7 +1544,7 @@ export const blogPosts: BlogPost[] = [
       color: "bg-blue-100 text-blue-800"
     },
     tags: ["NEET PG 2025", "PG Diploma", "NBE Diploma", "Medical Education", "Career Pathways"],
-    published_date: "2024-12-10",
+    published_date: "2025-11-13",
     read_time: 5,
     meta_description: "Complete comparison of PG Diploma vs NBE Diploma for NEET PG 2025. Understand structure, fees, career pathways, and how to choose the right option.",
     sections: [
