@@ -60,45 +60,45 @@ export default function Newsletter(): JSX.Element {
   };
 
   return (
-    <section className="bg-gradient-to-r from-blue-600 to-purple-600 py-16">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 className="text-3xl font-bold text-white mb-4">
-          Stay Updated with Latest NEET Guidelines
-        </h2>
-        <p className="text-xl text-blue-100 mb-8">
-          Get the latest updates on NEET counselling, admission guidelines,
-          and expert insights delivered to your inbox.
-        </p>
+    <section className="bg-gradient-to-r from-blue-600 to-purple-600 py-12 md:py-16">
+  <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h2 className="text-2xl md:text-3xl font-bold text-white mb-3 md:mb-4">
+      Stay Updated with Latest NEET Guidelines
+    </h2>
+    <p className="text-base md:text-lg text-blue-100 mb-6 md:mb-8">
+      Get the latest updates on NEET counselling, admission guidelines,
+      and expert insights delivered to your inbox.
+    </p>
 
-        <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-          <input
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            onKeyDown={onEnter}
-            placeholder="Enter your email"
-            className="flex-1 px-6 py-3 rounded-full text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-white"
-            aria-label="Email address"
-          />
-          <button
-            onClick={handleSubscribe}
-            disabled={loading}
-            className="bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors whitespace-nowrap disabled:opacity-60"
-          >
-            {loading ? "Submitting..." : "Subscribe Now"}
-          </button>
-        </div>
+    <div className="flex flex-col sm:flex-row gap-3 md:gap-4 max-w-md mx-auto">
+      <input
+        type="email"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+        onKeyDown={onEnter}
+        placeholder="Enter your email"
+        className="flex-1 px-4 md:px-6 py-2.5 md:py-3 text-sm md:text-base rounded-full text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-white"
+        aria-label="Email address"
+      />
+      <button
+        onClick={handleSubscribe}
+        disabled={loading}
+        className="bg-white text-blue-600 px-6 md:px-8 py-2.5 md:py-3 text-sm md:text-base rounded-full font-semibold hover:bg-gray-100 transition-colors whitespace-nowrap disabled:opacity-60"
+      >
+        {loading ? "Submitting..." : "Subscribe Now"}
+      </button>
+    </div>
 
-        {message && (
-          <p className="text-blue-100 text-sm mt-4" role="status">
-            {message}
-          </p>
-        )}
+    {message && (
+      <p className="text-blue-100 text-xs md:text-sm mt-3 md:mt-4" role="status">
+        {message}
+      </p>
+    )}
 
-        <p className="text-blue-100 text-sm mt-2">
-          No spam, unsubscribe at any time. We respect your privacy.
-        </p>
-      </div>
-    </section>
+    <p className="text-blue-100 text-xs md:text-sm mt-2">
+      No spam, unsubscribe at any time. We respect your privacy.
+    </p>
+  </div>
+</section>
   );
 }

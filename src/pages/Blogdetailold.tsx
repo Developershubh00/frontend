@@ -281,7 +281,7 @@ const BlogDetailPage = () => {
       <p>This blog explains the updated details, eligibility, and other documentation challenges so that candidates can be clear about how these rules impact All India Counselling and State Counselling.</p>
     `,
     author: {
-      name: "Dr. Believers Team",
+      name: "Believers Team",
       avatar:
         "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
       bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",

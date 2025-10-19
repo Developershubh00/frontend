@@ -19,6 +19,7 @@ import {
   Tag as TagIcon
 } from "lucide-react";
 import { getBlogBySlug, getRelatedBlogs, BlogPost, Section } from "../data/blogData";
+import Newsletter from "../components/Newsletter";
 
 const BlogDetail: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -134,25 +135,25 @@ const BlogDetail: React.FC = () => {
   const renderSection = (section: Section) => {
     switch (section.type) {
       case 'heading':
-        const HeadingTag = `h${section.level}` as keyof JSX.IntrinsicElements;
-        const headingClass = section.level === 2 
-          ? "text-2xl font-bold text-gray-900 mb-4 mt-8"
-          : section.level === 3
-          ? "text-xl font-semibold text-gray-900 mb-3 mt-6"
-          : "text-lg font-semibold text-gray-900 mb-2 mt-4";
-        
-        return (
-          <HeadingTag id={section.id} className={headingClass}>
-            {section.title}
-          </HeadingTag>
-        );
+  const HeadingTag = `h${section.level}` as keyof JSX.IntrinsicElements;
+  const headingClass = section.level === 2 
+    ? "text-xl md:text-2xl font-bold text-gray-900 mb-4 mt-8"
+    : section.level === 3
+    ? "text-lg md:text-xl font-semibold text-gray-900 mb-3 mt-6"
+    : "text-base md:text-lg font-semibold text-gray-900 mb-2 mt-4";
+  
+  return (
+    <HeadingTag id={section.id} className={headingClass}>
+      {section.title}
+    </HeadingTag>
+  );
 
       case 'paragraph':
-        return (
-          <div className="text-gray-700 leading-relaxed mb-6 whitespace-pre-line">
-            {section.content}
-          </div>
-        );
+  return (
+    <div className="text-gray-700 text-sm md:text-base leading-relaxed mb-6 whitespace-pre-line">
+      {section.content}
+    </div>
+  );
 
       case 'list':
         return (
@@ -262,32 +263,32 @@ const BlogDetail: React.FC = () => {
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
       <header className="bg-white shadow-sm border-b border-gray-200 sticky top-0 z-40">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <div className="flex items-center justify-between">
-            <Link
-              to="/blog"
-              className="flex items-center text-gray-600 hover:text-blue-600 transition-colors"
-            >
-              <ArrowLeft className="w-5 h-5 mr-2" />
-              <span className="hidden sm:inline">Back to Blog</span>
-            </Link>
-            <div className="text-center">
-              <h1 className="text-lg font-bold text-gray-900">
-                Believers Consultancy's
-                <span className="bg-gradient-to-r from-blue-500 to-red-500 bg-clip-text text-transparent">
-                  {" "}Blog
-                </span>
-              </h1>
-            </div>
-            <button
-              onClick={() => setTocOpen(!tocOpen)}
-              className="lg:hidden p-2 text-gray-600 hover:text-blue-600 transition-colors"
-            >
-              {tocOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
-            </button>
-          </div>
-        </div>
-      </header>
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+    <div className="flex items-center justify-between">
+      <Link
+        to="/blog"
+        className="flex items-center text-gray-600 hover:text-blue-600 transition-colors text-sm"
+      >
+        <ArrowLeft className="w-4 h-4 mr-2" />
+        <span className="hidden sm:inline">Back to Blog</span>
+      </Link>
+      <div className="text-center">
+        <h1 className="text-base md:text-lg font-bold text-gray-900">
+          Believers Consultancy's
+          <span className="bg-gradient-to-r from-blue-500 to-red-500 bg-clip-text text-transparent">
+            {" "}Blog
+          </span>
+        </h1>
+      </div>
+      <button
+        onClick={() => setTocOpen(!tocOpen)}
+        className="lg:hidden p-2 text-gray-600 hover:text-blue-600 transition-colors"
+      >
+        {tocOpen ? <X className="w-4 h-4" /> : <Menu className="w-4 h-4" />}
+      </button>
+    </div>
+  </div>
+</header>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
@@ -356,12 +357,12 @@ const BlogDetail: React.FC = () => {
               </div>
 
               <div className="p-6 lg:p-8">
-                <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-                  {post.title}
-                </h1>
-                <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                  {post.excerpt}
-                </p>
+                <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 leading-tight">
+  {post.title}
+</h1>
+                <p className="text-base text-gray-600 mb-6 leading-relaxed">
+  {post.excerpt}
+</p>
 
                 {/* Author and Actions */}
                 <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 pt-6 border-t border-gray-100">
@@ -470,12 +471,15 @@ const BlogDetail: React.FC = () => {
               </div>
             </div>
 
+            {/* ADD NEWSLETTER HERE */}
+            <Newsletter />
+
             {/* Related Posts */}
             {relatedPosts.length > 0 && (
               <div className="bg-white rounded-3xl shadow-lg p-6 lg:p-8 mb-8">
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">
-                  Related Articles
-                </h3>
+                <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">
+  Related Articles
+</h3>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                   {relatedPosts.map((relatedPost) => (
                     <Link
@@ -494,8 +498,8 @@ const BlogDetail: React.FC = () => {
                             {relatedPost.category.name}
                           </span>
                           <h4 className="text-sm font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-2 mb-2">
-                            {relatedPost.title}
-                          </h4>
+  {relatedPost.title}
+</h4>
                           <div className="flex items-center text-xs text-gray-500">
                             <Clock className="w-3 h-3 mr-1" />
                             {relatedPost.read_time} min read

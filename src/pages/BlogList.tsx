@@ -18,6 +18,7 @@ import {
   ArrowRight
 } from 'lucide-react';
 import { blogPosts, BlogPost } from '../data/blogData';
+import Newsletter from '../components/Newsletter';
 
 const BlogList: React.FC = () => {
   const [posts, setPosts] = useState<BlogPost[]>([]);
@@ -103,18 +104,18 @@ const BlogList: React.FC = () => {
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
       <header className="bg-white shadow-sm border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className="text-center">
-            <h1 className="text-5xl md:text-4xl font-bold text-gray-900 mb-4">
-              Believers Consultancy's
-              <span className="bg-gradient-to-r from-blue-500 to-red-500 bg-clip-text text-transparent"> Blog</span>
-            </h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Expert insights, latest updates, and comprehensive guides for your medical education journey
-            </p>
-          </div>
-        </div>
-      </header>
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+    <div className="text-center">
+      <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
+        Believers Consultancy's
+        <span className="bg-gradient-to-r from-blue-500 to-red-500 bg-clip-text text-transparent"> Blog</span>
+      </h1>
+      <p className="text-base md:text-lg text-gray-600 max-w-3xl mx-auto">
+        Expert insights, latest updates, and comprehensive guides for your medical education journey
+      </p>
+    </div>
+  </div>
+</header>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Featured Post */}
@@ -144,12 +145,12 @@ const BlogList: React.FC = () => {
                       {formatDate(featuredPost.published_date)}
                     </div>
                   </div>
-                  <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+                  <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
                     {featuredPost.title}
-                  </h2>
-                  <p className="text-gray-600 text-lg mb-6 leading-relaxed">
-                    {featuredPost.excerpt}
-                  </p>
+                    </h2>
+                  <p className="text-gray-600 text-base mb-6 leading-relaxed">
+                     {featuredPost.excerpt}
+                    </p>
                   <div className="flex items-center justify-between">
                     <div className="flex items-center">
                       <img
@@ -175,6 +176,9 @@ const BlogList: React.FC = () => {
             </div>
           </section>
         )}
+
+        {/* ADD NEWSLETTER HERE */}
+        <Newsletter />
 
         {/* Search and Filters */}
         <section className="mb-12">
@@ -283,12 +287,12 @@ const BlogList: React.FC = () => {
                     </div>
                   </div>
                   
-                  <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
+                  <h3 className="text-lg font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
                     {post.title}
-                  </h3>
-                  <p className="text-gray-600 mb-4 line-clamp-3">
+                </h3>
+                  <p className="text-gray-600 text-sm mb-4 line-clamp-3">
                     {post.excerpt}
-                  </p>
+                </p>
                   
                   <div className="flex flex-wrap gap-2 mb-4">
                     {post.tags.slice(0, 3).map((tag, index) => (

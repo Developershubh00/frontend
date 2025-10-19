@@ -49,7 +49,7 @@ export const blogPosts: BlogPost[] = [
 //     excerpt: "The NRI quota has always been the most important gateway for candidates aiming to secure a postgraduate medical seat in India. However, recent MEA notifications have created significant changes.",
 //     featured_image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=1200&h=600&fit=crop",
 //     author: {
-//       name: "Dr. Believers Team",
+//       name: "Believers Team",
 //       avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
 //       bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
 //     },
@@ -341,7 +341,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "The NRI quota has always been the most important gateway for candidates aiming to secure a postgraduate medical seat in India. However, recent MEA notifications have created significant changes.",
     featured_image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=1200&h=600&fit=crop",
     author: {
-      name: "Dr. Believers Team",
+      name: "Believers Team",
       avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
       bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
     },
@@ -634,7 +634,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "This happens with almost every NEET PG candidate; the same doubt keeps popping up: 'Can I change my category during counseling?' Let's clear all your doubts.",
     featured_image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&h=600&fit=crop",
     author: {
-      name: "Dr. Believers Team",
+      name: "Believers Team",
       avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
       bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
     },
