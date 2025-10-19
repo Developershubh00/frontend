@@ -471,8 +471,8 @@ const BlogDetail: React.FC = () => {
               </div>
             </div>
 
-            {/* ADD NEWSLETTER HERE */}
-            <Newsletter />
+            {/* ADD NEWSLETTER HERE
+            <Newsletter /> */}
 
             {/* Related Posts */}
             {relatedPosts.length > 0 && (
