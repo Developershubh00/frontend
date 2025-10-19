@@ -56,6 +56,7 @@ import InicetAllotmentsPage from "./INICET/InicetAllotmentsPage";
 import InicetClosingRanksPage from "./INICET/InicetClosingRanksPage";
 import InicetSeatMatrixPage from "./INICET/InicetSeatMatrixPage";
 import InicetFeeStipendPage from "./INICET/InicetFeeStipendPage";
+import NEETPGCategoryChangeBlog from "./Blogs/NEETPGCategoryChangeBlog";
 
 /**
  * Main App Component with React Router
@@ -262,6 +263,7 @@ function App() {
           <Route path="/inicet/closing-ranks" element={<InicetClosingRanksPage />} />
           <Route path="/inicet/seat-matrix" element={<InicetSeatMatrixPage />} />
           <Route path="/inicet/fee-stipend" element={<InicetFeeStipendPage />} />  
+          <Route path="/blog1" element={<NEETPGCategoryChangeBlog />} />  
           </Routes>
         </div>
       </Router>
