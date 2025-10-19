@@ -122,6 +122,7 @@ const BlogList: React.FC = () => {
         {featuredPost && (
           <section className="mb-16">
             <div className="bg-white rounded-3xl shadow-xl overflow-hidden">
+                <Link to={`/blog/${featuredPost.slug}`} className="block"></Link>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
                 <div className="relative h-64 lg:h-full">
                   <img
@@ -170,9 +171,13 @@ const BlogList: React.FC = () => {
                       Read More
                       <ArrowRight className="w-4 h-4 ml-2" />
                     </Link>
+                    
                   </div>
+                  
                 </div>
+                
               </div>
+              
             </div>
           </section>
         )}
