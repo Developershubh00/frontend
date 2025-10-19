@@ -339,7 +339,7 @@ export const blogPosts: BlogPost[] = [
     title: "NRI Category Seats in NEET PG 2025: Understanding the New MEA Guidelines",
     slug: "nri-category-seats-neet-pg-2025-mea-guidelines",
     excerpt: "The NRI quota has always been the most important gateway for candidates aiming to secure a postgraduate medical seat in India. However, recent MEA notifications have created significant changes.",
-    featured_image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=1200&h=600&fit=crop",
+    featured_image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&h=600&fit=crop",
     author: {
       name: "Believers Team",
       avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
@@ -1527,7 +1527,7 @@ export const blogPosts: BlogPost[] = [
       }
     ]
   }
-  
+
 ];
 
 // Helper function to get blog by slug
