@@ -218,6 +218,8 @@ const BlogList: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredPosts.map((post) => (
               <article key={post.id} className="bg-white rounded-3xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:scale-105 group">
+                <Link to={`/blog/${post.slug}`} className="block">
+
                 <div className="relative">
                   <img
                     src={post.featured_image}
@@ -325,6 +327,7 @@ const BlogList: React.FC = () => {
                     </Link>
                   </div>
                 </div>
+                </Link>
               </article>
             ))}
           </div>
