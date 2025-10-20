@@ -930,9 +930,9 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
                   }`}>
                     {specialty.demand} Demand
                   </span>
-                  <button className="text-purple-600 hover:text-purple-700 text-sm font-medium">
+                  {/* <button className="text-purple-600 hover:text-purple-700 text-sm font-medium">
                     View Details →
-                  </button>
+                  </button> */}
                 </div>
               </div>
             ))}
@@ -1244,7 +1244,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
         </div> */}
 
         {/* Data Table Section */}
-        <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
+        {/* <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-6">
             <div>
               <h2 className="text-2xl lg:text-3xl font-bold text-slate-800 mb-2">
@@ -1253,10 +1253,10 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
               <p className="text-slate-600 text-sm lg:text-base">
                 View detailed information for {currentStateTab.replace('-', ' ').toUpperCase()}
               </p>
-            </div>
+            </div> */}
             
             {/* Table Type Selector */}
-            <div className="flex flex-wrap gap-2 mt-4 lg:mt-0">
+            {/* <div className="flex flex-wrap gap-2 mt-4 lg:mt-0">
               {[
                 { id: "allotments", label: "Allotments", icon: "📊" },
                 { id: "closing-ranks", label: "Closing Ranks", icon: "📈" },
@@ -1277,10 +1277,10 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
                 </button>
               ))}
             </div>
-          </div>
+          </div> */}
 
           {/* Data Table */}
-          <DataTable
+          {/* <DataTable
             data={tableData}
             columns={getTableColumns(tableType)}
             title={`${tableType.replace('-', ' ').toUpperCase()} - ${currentStateTab.replace('-', ' ').toUpperCase()}`}
@@ -1288,7 +1288,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
             searchPlaceholder={`Search ${tableType.replace('-', ' ')}...`}
             loading={loading}
           />
-        </div>
+        </div> */}
 
         {/* NEET PG Career Guidance CTA - Mobile Optimized */}
         <div className="bg-gradient-to-r from-green-600 to-emerald-600 rounded-2xl lg:rounded-3xl p-6 lg:p-8 text-center text-white shadow-2xl">
