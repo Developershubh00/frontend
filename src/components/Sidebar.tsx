@@ -123,14 +123,14 @@ const Sidebar: React.FC<SidebarProps> = ({
       color: "text-indigo-600",
       onClick: () => navigate("/NEETPGPredictor"),
     },
-    {
-      id: "MyChoicelist",
-      icon: Heart,
-      label: "MyChoicelist",
-      hasSubmenu: false,
-      color: "text-indigo-600",
-      onClick: () => navigate("/choicelists"),
-    },
+    // {
+    //   id: "MyChoicelist",
+    //   icon: Heart,
+    //   label: "MyChoicelist",
+    //   hasSubmenu: false,
+    //   color: "text-indigo-600",
+    //   onClick: () => navigate("/choicelists"),
+    // },
     {
       id: "Clinical Data",
       icon: GraduationCap,
@@ -163,30 +163,38 @@ const Sidebar: React.FC<SidebarProps> = ({
       color: "text-cyan-600",
       onClick: () => navigate("/Closingranks"),
     },
-    
     {
-      id: "explore",
-      icon: Compass,
-      label: "Explore",
-      hasSubmenu: true,
-      color: "text-blue-600",
-      submenu: [
-        {
-          label: "Allotments",
-          onClick: () => navigate("/allotments"),
-        },
-        {
-          label: "Closing Ranks",
-          onClick: () => navigate("/closing-ranks"),
-        },
-        {
-          label: "Seat Matrix",
-          onClick: () => navigate("/seat-matrix"),
-        },
-        {
-          label: "Fee, Stiphend & Bond",
-          onClick: () => navigate("/fee-stipend-bond"),
-        },
+      id: "MyChoicelist",
+      icon: Heart,
+      label: "MyChoicelist",
+      hasSubmenu: false,
+      color: "text-indigo-600",
+      onClick: () => navigate("/choicelists"),
+    },
+    
+    // {
+    //   id: "explore",
+    //   icon: Compass,
+    //   label: "Explore",
+    //   hasSubmenu: true,
+    //   color: "text-blue-600",
+    //   submenu: [
+    //     {
+    //       label: "Allotments",
+    //       onClick: () => navigate("/allotments"),
+    //     },
+    //     {
+    //       label: "Closing Ranks",
+    //       onClick: () => navigate("/closing-ranks"),
+    //     },
+    //     {
+    //       label: "Seat Matrix",
+    //       onClick: () => navigate("/seat-matrix"),
+    //     },
+    //     {
+    //       label: "Fee, Stiphend & Bond",
+    //       onClick: () => navigate("/fee-stipend-bond"),
+    //     },
       ],
     },
   ];
