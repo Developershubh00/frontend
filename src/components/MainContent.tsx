@@ -1307,12 +1307,12 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
             >
               Get Specialty Guidance
             </a>
-            <a
+            {/* <a
               href="/pg-predictor"
               className="bg-gradient-to-r from-purple-400 to-violet-400 px-6 py-3 lg:px-8 lg:py-4 rounded-xl text-white font-bold text-base lg:text-lg hover:from-purple-500 hover:to-violet-500 transition-all duration-300 transform hover:scale-105 shadow-xl inline-block"
             >
               Try Specialty Predictor
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
