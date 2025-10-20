@@ -1033,6 +1033,7 @@ const NEETPGPredictor = () => {
   const [showResults, setShowResults] = useState(false);
   const [resultsData, setResultsData] = useState(null);
   const [currentStep, setCurrentStep] = useState(1);
+  const [showComingSoon, setShowComingSoon] = useState(true); // Add this new state
   
   // CSV Data States
   const [closingRanks, setClosingRanks] = useState([]);
@@ -1567,7 +1568,78 @@ const NEETPGPredictor = () => {
     const bondColleges = resultsData.filter(r => r.bondYears > 0).length;
 
     return (
+    <>
+    {/* Coming Soon Overlay */}
+    {showComingSoon && (
+      <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-30 backdrop-blur-md">
+        <div className="relative bg-white rounded-3xl shadow-2xl p-12 max-w-2xl mx-4 text-center transform animate-pulse">
+          {/* Close button (optional) */}
+          <button
+            onClick={() => setShowComingSoon(false)}
+            className="absolute top-4 right-4 text-gray-400 hover:text-gray-600 transition"
+            title="Preview Mode"
+          >
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+
+          {/* Icon */}
+          <div className="inline-block p-6 bg-gradient-to-br from-blue-100 to-indigo-100 rounded-full mb-6">
+            <svg className="w-16 h-16 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+
+          {/* Heading */}
+          <h2 className="text-5xl font-extrabold bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent mb-4">
+            Coming Soon!
+          </h2>
+
+          {/* Description */}
+          <p className="text-xl text-gray-600 mb-6">
+            We're working hard to bring you the most accurate NEET PG College Predictor
+          </p>
+
+          <div className="space-y-3 mb-8">
+            <div className="flex items-center justify-center gap-3 text-gray-700">
+              <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+              </svg>
+              <span>Real-time College Predictions</span>
+            </div>
+            <div className="flex items-center justify-center gap-3 text-gray-700">
+              <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+              </svg>
+              <span>Advanced Filtering Options</span>
+            </div>
+            <div className="flex items-center justify-center gap-3 text-gray-700">
+              <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+              </svg>
+              <span>Comprehensive Analytics</span>
+            </div>
+          </div>
+
+          {/* Launch Date */}
+          <div className="inline-block px-6 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-full font-semibold text-lg shadow-lg">
+            Launching Soon
+          </div>
+
+          {/* Preview hint */}
+          <p className="text-sm text-gray-400 mt-6">
+            Click the × button above to preview the interface
+          </p>
+        </div>
+      </div>
+    )}
+
+    {/* Original content with blur effect */}
+    <div className={showComingSoon ? "blur-sm pointer-events-none" : ""}>
       <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 p-6">
+        
+      {/* <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 p-6"> */}
         <div className="max-w-7xl mx-auto">
           <div className="bg-white rounded-2xl shadow-2xl overflow-hidden">
             <div className="bg-gradient-to-r from-blue-600 to-indigo-600 p-6">
@@ -1992,6 +2064,8 @@ const NEETPGPredictor = () => {
         </div>
       </div>
     </div>
+    </div>
+  </>
   );
 };
 
