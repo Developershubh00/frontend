@@ -1834,327 +1834,311 @@ export const blogPosts: BlogPost[] = [
     ]
   },
   {
-  id: 6,
-  title: "NEET PG 2025: A Complete Guide to the OBC-NCL Certificate",
-  slug: "neet-pg-2025-complete-guide-obc-ncl-certificate",
-  excerpt: "The OBC-NCL certificate is mandatory for medical graduates seeking admission under the 27% OBC quota in All India Quota seats for NEET PG 2025. Learn about eligibility, validity, and the application process.",
-  featured_image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&h=600&fit=crop",
-  author: {
-    name: "Believers Team",
-    avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
-    bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  "id": 6,
+  "title": "NEET PG 2025 Counselling: A Guide to Category Change Rules",
+  "slug": "neet-pg-2025-category-change-rules-counselling",
+  "excerpt": "Comprehensive guide to category modification rules during NEET PG 2025 All India Counselling. Learn what changes are permitted, eligibility criteria, and how category selection impacts your seat allotment.",
+  "featured_image": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
-  category: {
-    name: "NEET PG",
-    slug: "neet-pg",
-    color: "bg-blue-100 text-blue-800"
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-blue-100 text-blue-800"
   },
-  tags: ["NEET PG 2025", "OBC-NCL Certificate", "All India Quota", "Medical Admissions", "Reservation"],
-  published_date: "2025-10-24",
-  read_time: 8,
-  meta_description: "Complete guide to OBC-NCL certificate for NEET PG 2025. Understand eligibility criteria, application process, validity requirements, and common mistakes to avoid for AIQ admissions.",
-  sections: [
+  "tags": ["NEET PG 2025", "Counselling", "Category Changes", "Medical Admissions", "Reservation"],
+  "published_date": "2025-10-24",
+  "read_time": 10,
+  "meta_description": "Complete guide to category change rules for NEET PG 2025 counselling. Understand which category modifications are allowed, seat eligibility, and reservation policies for All India Quota admissions.",
+  "sections": [
     {
-      id: "intro",
-      type: "paragraph",
-      content: "The OBC-NCL (Other Backward Class – Non-Creamy Layer) certificate is very important for NEET PG 2025 aspirants applying through All India Quota (AIQ). This guide explains eligibility, benefits, the application process, and common queries."
+      "id": "intro",
+      "type": "paragraph",
+      "content": "The NEET PG 2025 counselling process is an essential step in shaping the postgraduate careers of medical graduates across India. There are various queries that candidates raise during this high-stakes process; one of the most pressing concerns is the possibility of modifying their reservation category once counselling begins.\n\nThis guide clarifies the official rules regarding category modifications during the All India Counselling process, outlining what is permissible and what is not. It clarifies the concepts of what is permitted and what is not, and explains how these rules can significantly impact your seat allotment and overall admission process."
     },
     {
-      id: "why-need-certificate",
-      type: "heading",
-      title: "Why You Need an OBC-NCL Certificate",
-      level: 2
+      "id": "source-category",
+      "type": "heading",
+      "title": "Source of Category Information",
+      "level": 2
     },
     {
-      id: "why-need-certificate-list",
-      type: "list",
-      items: [
-        "For AIQ under MCC, the OBC certificate must certify Non-Creamy Layer status as per the Central OBC List and be in the prescribed format issued by a competent authority; state-list-only OBC status is not accepted for AIQ.",
-        "State-issued OBC certificates are not valid for AIQ admissions.",
-        "MCC applies 27% OBC-NCL reservation in AIQ; open AIQ includes 50% AIQ of government seats and 100% DNB under AIQ, as per the counselling scheme.",
-        "OBC-NCL candidates qualify at the 40th percentile; UR/EWS require the 50th percentile; UR-PwBD is 45th percentile."
+      "id": "source-category-content",
+      "type": "paragraph",
+      "content": "During the NEET PG application process on the National Board of Examinations (NBE) portal, candidates were required to select their respective category either it's (General, OBC, SC, ST, or EWS) and specify their Persons with Disabilities (PWD) status (Yes/No).\n\nThis information is:"
+    },
+    {
+      "id": "source-category-list",
+      "type": "list",
+      "items": [
+        "Reflected in the NEET PG scorecard",
+        "Shared directly with the Medical Counselling Committee (MCC) for All India Counselling",
+        "Used to determine reservation eligibility for 50% All India Quota (AIQ) Government Seats and DNB and NB Diploma seats in both private and government institutions"
       ]
     },
     {
-      id: "central-vs-state",
-      type: "heading",
-      title: "Central vs. State Certificates",
-      level: 2
+      "id": "source-category-note",
+      "type": "paragraph",
+      "content": "Once submitted, these details form the foundation of the candidate's entire All India Counselling journey."
     },
     {
-      id: "central-vs-state-list",
-      type: "list",
-      items: [
-        "Certificates must be issued by a competent authority (e.g., Tehsildar/SDM/DM); for AIQ, the caste must be in the NCBC Central List and the certificate must follow MCC's proforma.",
-        "State OBC/Backward Class Certificate - For state counselling only.",
-        "Always verify your caste in the NCBC (National Commission for Backward Classes) central list to ensure eligibility."
+      "id": "category-changes",
+      "type": "heading",
+      "title": "Category Changes: What Is Possible and What Is Not",
+      "level": 2
+    },
+    {
+      "id": "category-changes-table",
+      "type": "table",
+      "headers": ["Scenario", "Change Allowed?", "Notes"],
+      "rows": [
+        ["General → OBC/SC/ST/EWS", "No", "Not permitted, even in genuine cases. Legal direction would be required for exceptions."],
+        ["OBC/SC/ST/EWS → General", "Yes", "Candidates can voluntarily surrender their reservation benefits during MCC registration."],
+        ["PWD Yes → No", "Yes", "Allowed if a valid disability certificate cannot be provided."],
+        ["PWD No → Yes", "No", "Not permitted under MCC rules; legal intervention is required in genuine cases."]
       ]
     },
     {
-      id: "what-is-certificate",
-      type: "heading",
-      title: "What Is the OBC-NCL Certificate?",
-      level: 2
+      "id": "state-counselling",
+      "type": "heading",
+      "title": "State Counselling Rules",
+      "level": 2
     },
     {
-      id: "what-is-certificate-content",
-      type: "paragraph",
-      content: "The OBC-NCL certificate verifies two things:"
+      "id": "state-counselling-content",
+      "type": "paragraph",
+      "content": "It is important to note that state counselling is independent of your NEET PG application category. In the state counselling, candidates can apply under different reservation categories during their state counselling registration processes.\n\nThe only state exception is Bihar, where PWD status changes may not be allowed. Whereas other states typically allow changes if candidates have valid documentation."
     },
     {
-      id: "what-is-certificate-list",
-      type: "list",
-      items: [
-        "OBC Status: The candidate belongs to a caste or community listed in the Central OBC list, notified by the National Commission for Backward Classes (NCBC).",
-        "Non-Creamy Layer (NCL) Status: The candidate's family falls under the non-creamy layer category, determined mainly by parents' income and occupation, making them eligible for reservation benefits.",
-        "This is different from a state OBC certificate. A state OBC certificate is valid only for state quota seats, whereas a central OBC-NCL certificate is mandatory for all seats allotted through All India Counselling by the Medical Counselling Committee (MCC)."
+      "id": "categories-eligibility",
+      "type": "heading",
+      "title": "Categories and Seat Eligibility in NEET PG 2025",
+      "level": 2
+    },
+    {
+      "id": "categories-eligibility-content",
+      "type": "paragraph",
+      "content": "MCC categorizes candidates according to established reservation policies, with category assignment determining seat eligibility across different quotas.\n\nCategories:"
+    },
+    {
+      "id": "categories-list",
+      "type": "list",
+      "items": [
+        "General",
+        "OBC",
+        "SC",
+        "ST",
+        "EWS",
+        "PWD (horizontal reservation of 5%)"
       ]
     },
     {
-      id: "eligibility-rules",
-      type: "heading",
-      title: "Key Eligibility Rules",
-      level: 2
+      "id": "important-notes",
+      "type": "heading",
+      "title": "Important Notes",
+      "level": 3
     },
     {
-      id: "eligibility-rules-content",
-      type: "paragraph",
-      content: "To qualify for an OBC-NCL certificate, you must meet the following conditions:"
-    },
-    {
-      id: "caste-central-list",
-      type: "heading",
-      title: "Caste in Central List:",
-      level: 3
-    },
-    {
-      id: "caste-central-list-content",
-      type: "paragraph",
-      content: "Verify that your caste/community is listed in the NCBC Central OBC List. State OBC status alone makes you eligible for AIQ reservation."
-    },
-    {
-      id: "income-criteria",
-      type: "heading",
-      title: "Income Criteria:",
-      level: 3
-    },
-    {
-      id: "income-criteria-list",
-      type: "list",
-      items: [
-        "Parents' combined annual income (excluding salary and agricultural income) must be below ₹8 lakh for the last three financial years.",
-        "For NEET PG 2025, income is assessed for the years 2022–2023, 2023–2024, and 2024–2025."
+      "id": "important-notes-list",
+      "type": "list",
+      "items": [
+        "Category information is transferred from NBE to MCC without modification capabilities. Candidates requiring category corrections must address these through NBE before data transmission for counselling.",
+        "Candidates eligible for reserved categories maintain concurrent eligibility for unreserved seats based on merit ranking, with no additional registration required for general category consideration.",
+        "State counselling is separate and follows different rules."
       ]
     },
     {
-      id: "exclusions",
-      type: "heading",
-      title: "Exclusions:",
-      level: 3
+      "id": "seat-eligibility-glance",
+      "type": "heading",
+      "title": "Seat Eligibility at a Glance",
+      "level": 2
     },
     {
-      id: "exclusions-content",
-      type: "paragraph",
-      content: "Children of specified constitutional/functionary categories and Group-A/Group-B officers fall under creamy-layer exclusions as per DoPT OMs, irrespective of income."
-    },
-    {
-      id: "validity",
-      type: "heading",
-      title: "Validity of the Certificate",
-      level: 2
-    },
-    {
-      id: "validity-list",
-      type: "list",
-      items: [
-        "It must be issued on or after April 1, 2025, for it to be valid for NEET PG 2025 counselling.",
-        "Certificates issued before April 1, 2025, are not accepted, even if they mention validity.",
-        "Ensure your certificate is digitally recorded in government databases for hassle-free verification."
+      "id": "seat-eligibility-table",
+      "type": "table",
+      "headers": ["Candidate Category", "Eligible for Seats in"],
+      "rows": [
+        ["General", "General seats only"],
+        ["OBC", "OBC + General seats"],
+        ["SC", "SC + General seats"],
+        ["ST", "ST + General seats"],
+        ["EWS", "EWS + General seats"],
+        ["PWD", "PWD in their category + General PWD + General seats"]
       ]
     },
     {
-      id: "how-to-apply",
-      type: "heading",
-      title: "How to Apply for an OBC-NCL Certificate",
-      level: 2
+      "id": "seat-reservation",
+      "type": "heading",
+      "title": "Seat Reservation Structure",
+      "level": 2
     },
     {
-      id: "how-to-apply-content",
-      type: "paragraph",
-      content: "You can apply online or offline, depending on your state's process:"
+      "id": "seat-reservation-content",
+      "type": "paragraph",
+      "content": "Here's how seats are reserved under All India Counselling:"
     },
     {
-      id: "online-application",
-      type: "heading",
-      title: "Online Application",
-      level: 3
-    },
-    {
-      id: "online-application-content",
-      type: "paragraph",
-      content: "Visit your state's e-Seva or caste certificate portal. Fill out the application, upload the required documents, and obtain a digitally signed certificate with a QR code."
-    },
-    {
-      id: "offline-application",
-      type: "heading",
-      title: "Offline Application",
-      level: 3
-    },
-    {
-      id: "offline-application-content",
-      type: "paragraph",
-      content: "Visit the Tehsildar, Sub-Divisional Officer (SDO), or District Magistrate's office. Submit documents and request a certificate. Ensure the certificate is properly recorded in government records to avoid counselling issues."
-    },
-    {
-      id: "documents-required",
-      type: "heading",
-      title: "Documents Required",
-      level: 2
-    },
-    {
-      id: "documents-required-list",
-      type: "list",
-      items: [
-        "Proof of identity (Aadhaar, PAN, Voter ID)",
-        "Caste proof (OBC caste certificate of the candidate or parents)",
-        "Parents' income certificates or IT returns for the past three years",
-        "Proof of residence (domicile certificate, ration card, etc.)",
-        "Passport-sized photographs"
+      "id": "seat-reservation-list",
+      "type": "list",
+      "items": [
+        "General: 40.5%",
+        "OBC: 27%",
+        "SC: 15%",
+        "ST: 7.5%",
+        "EWS: 10%",
+        "PWD: 5% (horizontal, across all categories)"
       ]
     },
     {
-      id: "quick-checklist",
-      type: "heading",
-      title: "Quick Checklist for Your Certificate",
-      level: 2
+      "id": "seat-reservation-note",
+      "type": "paragraph",
+      "content": "Candidates should review both category-specific and general seat options to maximize placement opportunities within their eligibility range."
     },
     {
-      id: "quick-checklist-content",
-      type: "paragraph",
-      content: "Before submitting your certificate during counselling, check:"
+      "id": "key-takeaways",
+      "type": "heading",
+      "title": "Key Takeaways",
+      "level": 2
     },
     {
-      id: "quick-checklist-list",
-      type: "list",
-      items: [
-        "Issued after April 1, 2025",
-        "Clearly states Non-Creamy Layer",
-        "Signed by a Tehsildar or higher authority",
-        "Includes a reference to Central Educational Institutions",
-        "Proper resolution/order number mentioned"
+      "id": "key-takeaways-list",
+      "type": "list",
+      "items": [
+        "Always check both your category and General category seats to avoid missing opportunities.",
+        "Reserved-category candidates often secure General seats first, so filtering wisely is crucial.",
+        "Seat distribution follows a multi-point reservation roster that cycles across years; PWD is a 5% horizontal reservation applied within each category, not a separate vertical rotation.",
+        "Use your All India Rank and Category Rank together for a clear picture of your chances.",
+        "Remember that state counselling is separate and follows different eligibility criteria."
       ]
     },
     {
-      id: "common-mistakes",
-      type: "heading",
-      title: "Common Mistakes to Avoid",
-      level: 2
+      "id": "why-matters",
+      "type": "heading",
+      "title": "Why This Matters",
+      "level": 2
     },
     {
-      id: "common-mistakes-list",
-      type: "list",
-      items: [
-        "Submitting only the state-only OBC certificate for All India Counselling.",
-        "Using an outdated certificate issued before April 2025.",
-        "Not verifying whether your caste is on the Central OBC list.",
-        "Skipping the official registration of your certificate in government databases."
+      "id": "why-matters-content",
+      "type": "paragraph",
+      "content": "A comprehensive understanding of MCC procedures and reservation policies is essential for optimal seat allocation outcomes."
+    },
+    {
+      "id": "category-selection",
+      "type": "heading",
+      "title": "Suggestions for Category Selection",
+      "level": 2
+    },
+    {
+      "id": "category-selection-content",
+      "type": "paragraph",
+      "content": "Your preferred category affects:"
+    },
+    {
+      "id": "category-selection-list",
+      "type": "list",
+      "items": [
+        "Eligibility for reserved and general category seats",
+        "The requirement to present valid reservation certificates at the time of admission",
+        "Your ability to claim or opt out of reservation benefits"
       ]
     },
     {
-      id: "key-benefits",
-      type: "heading",
-      title: "Key Benefits of OBC-NCL Status",
-      level: 2
+      "id": "incorrect-category",
+      "type": "heading",
+      "title": "Incorrect or Mismatched Category Details Can Lead To",
+      "level": 3
     },
     {
-      id: "key-benefits-list",
-      type: "list",
-      items: [
-        "Reservation: 27% AIQ seats in government colleges, DNB institutes, and NBE diploma courses.",
-        "Lower Cut-Off: OBC-NCL candidates are eligible from the 40th percentile (compared to the 50th percentile for the General category).",
-        "High-merit OBC candidates are considered in UR merit and may also be allotted OBC-reserved seats per AIQ reservation rules."
+      "id": "incorrect-category-list",
+      "type": "list",
+      "items": [
+        "Cancellation of allotted seats at the reporting institute",
+        "Loss of opportunities for both general and reserved category seats"
       ]
     },
     {
-      id: "important-rules",
-      type: "heading",
-      title: "Important Rules & Clarifications",
-      level: 2
+      "id": "key-recommendations",
+      "type": "heading",
+      "title": "Key Recommendations for NEET PG 2025 Candidates",
+      "level": 2
     },
     {
-      id: "important-rules-list",
-      type: "list",
-      items: [
-        "A state OBC certificate cannot be used for AIQ seats.",
-        "If you applied under the General category in NEET PG, you cannot later switch to OBC-NCL.",
-        "UR→reserved switches are not permitted in AIQ; in prior cycles, MCC enabled one-way conversion from reserved to UR during registration when the certificate was unavailable.",
-        "For married candidates, only parents' income is considered, not the spouse's.",
-        "Certificates not properly issued or verified in government records may be rejected."
+      "id": "key-recommendations-list",
+      "type": "list",
+      "items": [
+        "Review your category information in your NEET PG application",
+        "Remember that downgrades (e.g., OBC to General) are straightforward, while upgrades (General to OBC/SC/ST/EWS) are not permitted",
+        "PWD candidates must secure valid disability certificates to avoid losing allotted seats",
+        "Stay updated with official MCC notifications for any changes to the counselling process"
       ]
     },
     {
-      id: "final-takeaway",
-      type: "heading",
-      title: "Final Takeaway",
-      level: 2
+      "id": "conclusion",
+      "type": "heading",
+      "title": "Conclusion",
+      "level": 2
     },
     {
-      id: "final-takeaway-content",
-      type: "paragraph",
-      content: "The OBC-NCL certificate is essential for claiming OBC reservation in NEET PG 2025. Start the process early, confirm your caste in the Central OBC List, and ensure your certificate is accurate and valid. Being proactive will help you secure your reservation benefits and avoid last-minute hurdles during counselling."
+      "id": "conclusion-content",
+      "type": "paragraph",
+      "content": "Category selection in the NEET PG application plays a pivotal role in regulating the seat allotment and admission eligibility. While the system allows candidates to surrender reservation benefits, candidates are not allowed to upgrade to reserved categories after initial application submission. Understanding these rules, preparing valid documentation, and staying informed about both All India and state-level counselling procedures are beneficial in reducing the risk of elimination or missed opportunities.\n\nBy planning ahead and adhering to MCC guidelines, candidates can ensure a smooth and transparent counselling experience for NEET PG 2025."
     },
     {
-      id: "faqs",
-      type: "heading",
-      title: "Frequently Asked Questions (FAQs)",
-      level: 2
+      "id": "faqs",
+      "type": "heading",
+      "title": "FAQs on NEET PG 2025 Category Changes",
+      "level": 2
     },
     {
-      id: "faqs-list",
-      type: "faq",
-      faqs: [
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
         {
-          question: "Q1. I am not from Gujarat, but I did my MBBS there. Can I apply for a Government Quota seat?",
-          answer: "Yes. If you have completed your MBBS from a recognized university in Gujarat, you are eligible to apply for both Government Quota (GQ) and Management Quota (MQ) seats, but you will be considered under the Unreserved (UR) category."
+          "question": "Can I change my category from General to OBC/SC/ST/EWS during counselling?",
+          "answer": "No. Upgrading to a reserved category after application submission is not allowed under MCC rules."
         },
         {
-          question: "Q2. What is the process for purchasing the PIN for registration?",
-          answer: "You must purchase a 14-digit PIN online through the official website, medadmgujarat.org, by paying the non-refundable application fee. This PIN is essential to access the registration form."
+          "question": "Can I switch from OBC/SC/ST/EWS to General?",
+          "answer": "Yes. Candidates can voluntarily give up their reservation benefits at the time of counselling registration."
         },
         {
-          question: "Q3. Is there a separate counselling for government and private colleges in Gujarat?",
-          answer: "No, Gujarat conducts a single, combined counselling process through ACPPGMEC for all Government Quota and Management Quota seats in both government and private medical colleges across the state."
+          "question": "Can I change my PWD status?",
+          "answer": "Yes to No: Allowed if a valid disability certificate isn't available. No to Yes: Not permitted without legal intervention."
         },
         {
-          question: "Q4. Are the fees paid during registration refundable?",
-          answer: "The online PIN purchase fee (application fee) is non-refundable. However, the security deposit paid during the counselling rounds is refundable if you are not allotted a seat or if you join your allotted seat."
+          "question": "Are state counselling category rules the same as All India Counselling?",
+          "answer": "No. State counselling has separate processes, often allowing changes if valid proof is provided. Bihar may have stricter rules for PWD status."
         },
         {
-          question: "Q5. Is a state OBC certificate valid for All India Quota (AIQ)?",
-          answer: "No. AIQ requires a Central OBC-NCL certificate aligned with the NCBC central list; state OBC/SEBC certificates are valid only for state counselling."
+          "question": "Can I change my category during All India Counselling?",
+          "answer": "No. Candidates cannot upgrade from General to OBC/SC/ST/EWS or change their category once registered on the NBE portal. However, candidates who applied under OBC, SC, ST, or EWS can opt to participate as General during MCC registration."
         },
         {
-          question: "Q6. What income and validity rules apply for OBC-NCL?",
-          answer: "Parents' combined non-salary, non-agricultural income must be below ₹8 lakh per year per current norms, and the certificate should be issued after April 1, 2025 for NEET PG 2025."
+          "question": "Does my All India category selection affect State Counselling?",
+          "answer": "No. State counselling is entirely separate and follows its own reservation structure. Candidates can register under a different category in state counselling based on valid certificates and state-specific norms."
         },
         {
-          question: "Q7. Can category be changed from General to OBC-NCL in MCC counselling?",
-          answer: "No. A General-to-reserved switch is not permitted in All India counselling; if listed as OBC-NCL but a certificate cannot be produced, opt to participate as General during MCC registration."
+          "question": "How do PWD reservations work in NEET PG 2025?",
+          "answer": "PWD candidates receive 5% horizontal reservation across all categories. If a PWD candidate qualifies for a General seat, they may claim it, and additional PWD category seats remain open for others."
         },
         {
-          question: "Q8. Which documents are typically required for a Central OBC-NCL certificate?",
-          answer: "Candidate/parents' caste proofs, parents' income tax returns or income statements for the last three financial years, and government-issued ID/address proofs; obtain a digitally signed or Tehsildar/DM-issued certificate."
+          "question": "Why do top-ranked reserved-category candidates often take General seats?",
+          "answer": "All seats are allotted strictly based on merit. Reserved-category candidates with top ranks can take General seats first, allowing other reserved candidates to claim category-specific seats."
         }
       ]
     },
     {
-      id: "contact-form",
-      type: "contact-form",
-      title: "Submit queries to BelieversConsultancy",
-      content: "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
     }
   ]
 },
+  
 {
   id: 7,
   title: "NEET PG 2025: A Complete Guide to the OBC-NCL Certificate",
