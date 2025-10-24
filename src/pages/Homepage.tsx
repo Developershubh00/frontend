@@ -2240,7 +2240,7 @@ function Homepage() {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    onClick={() => navigate("/announcements")}
                     className="hover:text-white transition-colors hover:text-blue-400"
                   >
                     News
@@ -2248,7 +2248,7 @@ function Homepage() {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    onClick={() => navigate("/")}
                     className="hover:text-white transition-colors hover:text-blue-400"
                   >
                     Careers
@@ -2256,7 +2256,7 @@ function Homepage() {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    onClick={() => navigate("/contactus")}
                     className="hover:text-white transition-colors hover:text-blue-400"
                   >
                     Contact us
