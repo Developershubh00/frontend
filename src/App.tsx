@@ -193,9 +193,9 @@ function App() {
           <Route
             path="/support"
             element={
-              <ProtectedRoute>
+              
                 <SupportPage onBack={() => window.history.back()} />
-              </ProtectedRoute>
+              
             }
           />
           <Route

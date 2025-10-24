@@ -2256,7 +2256,7 @@ function Homepage() {
                 </li>
                 <li>
                   <a
-                    onClick={() => navigate("/contactus")}
+                    onClick={() => navigate("/support")}
                     className="hover:text-white transition-colors hover:text-blue-400"
                   >
                     Contact us
