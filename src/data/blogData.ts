@@ -1852,7 +1852,7 @@ export const blogPosts: BlogPost[] = [
   "tags": ["NEET PG 2025", "Counselling", "Category Changes", "Medical Admissions", "Reservation"],
   "published_date": "2025-10-24",
   "read_time": 10,
-  "meta_description": "Complete guide to category change rules for NEET PG 2025 counselling. Understand which category modifications are allowed, seat eligibility, and reservation policies for All India Quota admissions.",
+  "meta_description": "Know the NEET PG 2025 Counselling category change rules and process to make informed decisions and secure your rightful seat with clarity and confidence.",
   "sections": [
     {
       "id": "intro",
@@ -2158,7 +2158,7 @@ export const blogPosts: BlogPost[] = [
   tags: ["NEET PG 2025", "OBC-NCL Certificate", "All India Quota", "Medical Admissions", "Reservation"],
   published_date: "2025-10-24",
   read_time: 8,
-  meta_description: "Complete guide to OBC-NCL certificate for NEET PG 2025. Understand eligibility criteria, application process, validity requirements, and common mistakes to avoid for AIQ admissions.",
+  meta_description: " Learn everything about the OBC NCL certificate for NEET PG 2025 including eligibility documents and how to ensure a smooth counselling process.",
   sections: [
     {
       id: "intro",
@@ -3001,6 +3001,821 @@ export const blogPosts: BlogPost[] = [
       type: "contact-form",
       title: "Submit queries to BelieversConsultancy",
       content: "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    }
+  ]
+},
+{
+  "id": 9,
+  "title": "NEET PG 2025 Counselling: A Practical, 5‑Minute Walkthrough for Postgraduate Aspirants",
+  "slug": "neet-pg-2025-counselling-practical-walkthrough",
+  "excerpt": "Get a quick 5-minute walkthrough of NEET PG 2025 Counselling from registration to seat allotment and make smarter choices for your medical future.",
+  "featured_image": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-blue-100 text-blue-800"
+  },
+  "tags": ["NEET PG 2025", "Counselling Guide", "Medical Admissions", "Postgraduate", "Career Planning"],
+  "published_date": "2025-10-24",
+  "read_time": 5,
+  "meta_description": " NEET PG 2025 Counselling: A Practical, 5‑Minute Walkthrough for Postgraduate Aspirants Get a quick 5-minute walkthrough of NEET PG 2025 Counselling from registration to seat allotment and make smarter choices for your medical future",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "NEET PG 2025 counselling is a crucial milestone in every doctor's journey toward further specialization. After months of careful and serious preparation and at last clearing the exam, counselling becomes the bridge between your hard work and securing a postgraduate medical seat.\n\nThis guide will provide you with a clear and structured overview of the entire process, which covers course options, types of institutes, counseling devices, major documentation requirements, and successful strategies to help you make informed decisions."
+    },
+    {
+      "id": "timeline",
+      "type": "heading",
+      "title": "Timeline and Expectations",
+      "level": 2
+    },
+    {
+      "id": "timeline-content",
+      "type": "list",
+      "items": [
+        "Results: it would be expected within 10 days (based on past trends)",
+        "Counselling Start Date: likely from mid-September (provisional)",
+        "Preparation Window: 1–1.5 months to get fully ready"
+      ]
+    },
+    {
+      "id": "timeline-note",
+      "type": "paragraph",
+      "content": "After your tests, take a short rest, but start looking into counselling early to get ahead in this competitive procedure."
+    },
+    {
+      "id": "building-blocks",
+      "type": "heading",
+      "title": "Five Building Blocks of Counselling Decisions",
+      "level": 2
+    },
+    {
+      "id": "building-blocks-intro",
+      "type": "paragraph",
+      "content": "The NEET PG counselling process can be simplified into five essential components:"
+    },
+    {
+      "id": "building-blocks-list",
+      "type": "list",
+      "items": [
+        "Courses, Institutes, and Counsellings: Understand your postgraduate options, the institutions offering them, along with the relevant counselling authorities.",
+        "Eligibility judgement: Check which types of counselling you qualify for, based on domicile, MBBS state, and category rules.",
+        "Possibility investigation: Use past cut-offs and rank trends to create realistic expectations.",
+        "Process and Documentation: Learn registration steps and keep all documents ready in advance.",
+        "Seat Evaluation and Choice Filling: Prioritize preferences strategically to maximize opportunities."
+      ]
+    },
+    {
+      "id": "counselling-process",
+      "type": "heading",
+      "title": "Understanding the Counselling Process",
+      "level": 2
+    },
+    {
+      "id": "registration",
+      "type": "heading",
+      "title": "Registration & Notifications",
+      "level": 3
+    },
+    {
+      "id": "registration-content",
+      "type": "paragraph",
+      "content": "MCC initiates the counselling process following official result declaration by NBEMS, typically within a specified timeline outlined in official notifications."
+    },
+    {
+      "id": "registration-points",
+      "type": "list",
+      "items": [
+        "Candidates must register online within the notified timeline.",
+        "Regularly monitor official portals for updates on seat matrix, eligibility criteria, and deadlines."
+      ]
+    },
+    {
+      "id": "seat-types",
+      "type": "heading",
+      "title": "Types of Seats",
+      "level": 3
+    },
+    {
+      "id": "seat-types-list",
+      "type": "list",
+      "items": [
+        "All India Quota (AIQ) – 50% seats from government medical colleges across India.",
+        "State Quota – Seats reserved for domicile candidates in respective states.",
+        "Deemed Universities – Renowned private institutions like Kasturba, Amrita, JSS Mysore, KIMS, IMS, etc. These offer quality education but often come with higher fees.",
+        "Private Colleges & Management Quota – Institutes like CMC Vellore may have government-linked seats as well as open management quota seats.",
+        "DNB Courses – Available in government and private hospitals, especially in departments where MD/MS is not offered."
+      ]
+    },
+    {
+      "id": "course-options",
+      "type": "heading",
+      "title": "Postgraduate Course Options After MBBS",
+      "level": 2
+    },
+    {
+      "id": "md-ms",
+      "type": "heading",
+      "title": "MD/MS (3 Years):",
+      "level": 3
+    },
+    {
+      "id": "md-ms-content",
+      "type": "paragraph",
+      "content": "These are the most popular postgraduate degrees."
+    },
+    {
+      "id": "md-ms-list",
+      "type": "list",
+      "items": [
+        "MD focuses on medical fields like Pediatrics, Dermatology, and Psychiatry.",
+        "MS is for surgical specialties like General Surgery, Orthopedics, and ENT.",
+        "Offers great career growth, faculty positions, private practice opportunities, and eligibility for super-specialty training."
+      ]
+    },
+    {
+      "id": "pg-diploma",
+      "type": "heading",
+      "title": "PG Diploma (2 Years):",
+      "level": 3
+    },
+    {
+      "id": "pg-diploma-list",
+      "type": "list",
+      "items": [
+        "A shorter course that allows quicker entry into clinical practice.",
+        "Fewer academic opportunities compared to MD/MS.",
+        "Can be upgraded to a degree via the DNB-PDCET exam."
+      ]
+    },
+    {
+      "id": "direct-dm-mch",
+      "type": "heading",
+      "title": "Direct DM/MCh (6 Years):",
+      "level": 3
+    },
+    {
+      "id": "direct-dm-mch-list",
+      "type": "list",
+      "items": [
+        "A fast-track option for those certain about a super-specialty career.",
+        "Available only in select top institutes."
+      ]
+    },
+    {
+      "id": "dnb-fnb",
+      "type": "heading",
+      "title": "DNB/FNB (NBEMS):",
+      "level": 3
+    },
+    {
+      "id": "dnb-fnb-list",
+      "type": "list",
+      "items": [
+        "DNB (Diplomate of National Board) is equivalent to MD/MS, offered in leading hospitals.",
+        "FNB (Fellow of National Board) offers 2-year super-specialty fellows"
+      ]
+    },
+    {
+      "id": "institute-types",
+      "type": "heading",
+      "title": "Types of Medical Institutes",
+      "level": 2
+    },
+    {
+      "id": "institute-types-list",
+      "type": "list",
+      "items": [
+        "State Govt. Medical Colleges: 50% of all India (MCC) + 50% State Quota; affordable fees, strong academics, and national-level competition.",
+        "Central Universities/Institutes: MAMC, UCMS, LHMC, BHU, AMU; some offer internal graduate quotas.",
+        "AFMS: MCC counselling has very limited seats for civilians.",
+        "Deemed Universities: 85% Management + 15% quota; modern infrastructure, higher fees. Karnataka deemed colleges also participate in state counselling.",
+        "Private Medical Colleges: State counselling; eligibility varies by open states, which allow all-India candidates.",
+        "DNB Programs: All Private hospitals like Apollo, Max, Fortis; Govt. hospitals split 50% All India + 50% in-service quota."
+      ]
+    },
+    {
+      "id": "counselling-types",
+      "type": "heading",
+      "title": "Understanding Counselling Types",
+      "level": 2
+    },
+    {
+      "id": "all-india-counselling",
+      "type": "heading",
+      "title": "All India Counselling (MCC)",
+      "level": 3
+    },
+    {
+      "id": "all-india-counselling-content",
+      "type": "paragraph",
+      "content": "Covers:"
+    },
+    {
+      "id": "all-india-counselling-list",
+      "type": "list",
+      "items": [
+        "50% AIQ seats in government medical colleges",
+        "Deemed university seats",
+        "AFMS and NBEMS quotas"
+      ]
+    },
+    {
+      "id": "state-counselling",
+      "type": "heading",
+      "title": "State Counselling",
+      "level": 3
+    },
+    {
+      "id": "state-counselling-list",
+      "type": "list",
+      "items": [
+        "For state quotas and all private college seats",
+        "Eligibility depends on domicile, MBBS location, schooling, or property ownership"
+      ]
+    },
+    {
+      "id": "specialized-counselling",
+      "type": "heading",
+      "title": "Specialized Counselling",
+      "level": 3
+    },
+    {
+      "id": "specialized-counselling-list",
+      "type": "list",
+      "items": [
+        "DNB Sponsored Seats: For in-service candidates",
+        "CPS Diploma seats are state-specific and conducted by designated state authorities; availability and schedules vary by state, year to year"
+      ]
+    },
+    {
+      "id": "key-considerations",
+      "type": "heading",
+      "title": "Key Considerations",
+      "level": 2
+    },
+    {
+      "id": "financial-planning",
+      "type": "heading",
+      "title": "Financial Planning",
+      "level": 3
+    },
+    {
+      "id": "financial-planning-list",
+      "type": "list",
+      "items": [
+        "Complete total expense, which includes tuition, accommodation, and living costs",
+        "Access, if you need a loan, also go through with the interest rate, repayment terms, etc. Explore education loan requirements"
+      ]
+    },
+    {
+      "id": "geographic-factors",
+      "type": "heading",
+      "title": "Geographic Factors",
+      "level": 3
+    },
+    {
+      "id": "geographic-factors-content",
+      "type": "paragraph",
+      "content": "Know about all the local languages, climate, and future practice opportunities."
+    },
+    {
+      "id": "career-growth",
+      "type": "heading",
+      "title": "Career Growth",
+      "level": 3
+    },
+    {
+      "id": "career-growth-content",
+      "type": "paragraph",
+      "content": "Look at the institute's reputation, research faculty, mentorships quality and super-specialty pathways"
+    },
+    {
+      "id": "common-pitfalls",
+      "type": "heading",
+      "title": "Common Pitfalls to Avoid",
+      "level": 2
+    },
+    {
+      "id": "common-pitfalls-list",
+      "type": "list",
+      "items": [
+        "Give your command on top-tier DNB programs",
+        "Focusing especially on government vs. private tags",
+        "Do not delay preparation and overall documentation",
+        "Inflexible preference lists with no flexibility"
+      ]
+    },
+    {
+      "id": "conclusion",
+      "type": "heading",
+      "title": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "conclusion-content",
+      "type": "paragraph",
+      "content": "NEET PG 2025 counselling is a decisive step toward your medical specialization.\n\nA systematic approach, early preparation, meticulous research, and strategic choice filling can help you secure a seat aligned with your aspirations.\n\nYour counselling strategy will shape your medical career. Approach it with the same dedication and focus that brought you success in NEET PG."
+    }
+  ]
+},
+{
+  "id": 2,
+  "title": "Kerala State PG Counselling 2025: Step-by-Step Guide for Applicants and Service Candidates",
+  "slug": "kerala-state-pg-counselling-2025-step-by-step-guide",
+  "excerpt": "Complete guide to Kerala NEET PG 2025 state quota counselling covering eligibility, registration process, documentation, reservations, and fees for both general and service candidates.",
+  "featured_image": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-blue-100 text-blue-800"
+  },
+  "tags": ["NEET PG 2025", "Kerala", "State Counselling", "Service Quota", "Medical Admissions"],
+  "published_date": "2025-10-24",
+  "read_time": 12,
+  "meta_description": "Kerala State PG Counselling 2025: Step-by-Step Guide for Applicants and Service Candidates Complete guide to Kerala NEET PG 2025 state quota counselling. Learn about eligibility, registration, documentation, reservations, fees, bonds, and application process for general and service candidates.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "The Commissioner for Entrance Examinations (CEE) Kerala administers NEET PG 2025 counselling for 50% state quota seats in government and private self-financing medical institutions. This guide covers eligibility, application requirements, documents, reservations, quotas, fees, and important rules for joining, upgrading, and exit policies.\n\nThe Commissioner for Entrance Examinations (CEE) Kerala has initiated the registration process for NEET PG 2025 state quota counselling. The registration window opened on September 10, 2025, and remains active until September 22, 2025, at 4:00 PM.\n\nCandidates must either have an MBBS degree from Kerala or be of Kerala origin. Candidates from other states are not eligible, even for NRI seats.\n\nKerala maintains eligibility restrictions requiring candidates to demonstrate Kerala origin or completion of MBBS from Kerala institutions. Candidates without a Kerala domicile or educational credentials from Kerala institutions are ineligible for state quota participation.\n\nThis overview covers the registration procedures, eligibility requirements, documentation specifications, and critical timelines for Kerala NEET PG 2025 counselling."
+    },
+    {
+      "id": "seats-covered",
+      "type": "heading",
+      "title": "Seats Under Kerala State Counselling",
+      "level": 2
+    },
+    {
+      "id": "seats-covered-list",
+      "type": "list",
+      "items": [
+        "Government Colleges: 50% of seats come under state counselling.",
+        "Private Minority Colleges: All seats, including Christian and Muslim minority institutions, fall under the state counselling.",
+        "Self-Financing Institutes: Most private colleges in Kerala are categorized as self-financing.",
+        "Deemed University: the sole deemed university in Kerala, conducts admissions exclusively through MCC All India Quota counselling."
+      ]
+    },
+    {
+      "id": "eligibility-criteria",
+      "type": "heading",
+      "title": "Eligibility Criteria",
+      "level": 2
+    },
+    {
+      "id": "eligibility-intro",
+      "type": "paragraph",
+      "content": "Eligibility is divided into two categories:"
+    },
+    {
+      "id": "kerala-origin",
+      "type": "heading",
+      "title": "1. Kerala Origin Candidates",
+      "level": 3
+    },
+    {
+      "id": "kerala-origin-list",
+      "type": "list",
+      "items": [
+        "Indian citizens with Kerala origin who hold an MBBS degree recognized by the NMC.",
+        "Origin Definition: Born in Kerala or have parents born in Kerala.",
+        "Acceptable proof of Kerala origin includes Secondary School Leaving Certificate, Indian passport, birth certificate, or village officer-issued nativity certificate."
+      ]
+    },
+    {
+      "id": "non-keralite",
+      "type": "heading",
+      "title": "2. Non-Keralite Candidates",
+      "level": 3
+    },
+    {
+      "id": "non-keralite-content",
+      "type": "paragraph",
+      "content": "Candidates who are not of Kerala origin but completed MBBS from Kerala institutions are eligible for general merit category participation, though ineligible for communal or special reservations."
+    },
+    {
+      "id": "non-keralite-list",
+      "type": "list",
+      "items": [
+        "Eligible under the general merit category (state merit seats) and service quota if applicable."
+      ]
+    },
+    {
+      "id": "pg-percentile",
+      "type": "heading",
+      "title": "PG Percentile Requirement",
+      "level": 3
+    },
+    {
+      "id": "pg-percentile-list",
+      "type": "list",
+      "items": [
+        "General/EWS: 50 percentile",
+        "SC/ST/STBC/PWD: 40 percentile",
+        "EWS PWD/General PWD: 45 percentile"
+      ]
+    },
+    {
+      "id": "pg-percentile-note",
+      "type": "paragraph",
+      "content": "Note: Kerala has its own criteria for EWS certification, different from the central government certificate."
+    },
+    {
+      "id": "registration-process",
+      "type": "heading",
+      "title": "Registration Process",
+      "level": 2
+    },
+    {
+      "id": "registration-intro",
+      "type": "paragraph",
+      "content": "The process starts with basic registration, followed by uploading certificates, payment, and final submission. Here's a breakdown of the key steps:"
+    },
+    {
+      "id": "step-1",
+      "type": "heading",
+      "title": "Step 1: Registration",
+      "level": 3
+    },
+    {
+      "id": "step-1-content",
+      "type": "paragraph",
+      "content": "The system generates a reference ID and OTP for authentication following initial data submission."
+    },
+    {
+      "id": "step-1-list",
+      "type": "list",
+      "items": [
+        "Confirm your details and enter a valid email ID and mobile number, which will be used for OTP verification.",
+        "The system generates a reference ID and OTP for authentication following initial data submission."
+      ]
+    },
+    {
+      "id": "step-2",
+      "type": "heading",
+      "title": "Step 2: Application Form",
+      "level": 3
+    },
+    {
+      "id": "step-2-intro",
+      "type": "paragraph",
+      "content": "The application form is divided into multiple sections:"
+    },
+    {
+      "id": "step-2-list",
+      "type": "list",
+      "items": [
+        "Quota Selection: Choose General or Service quota based on your eligibility.",
+        "Basic Details: Gender, nationality (Indian, OCI/PIO), and Kerala origin status.",
+        "Guardian and Parents Information: Enter names and native districts.",
+        "Communication and Permanent Address: Ensure these are correct, though all communication will be via email or OTP.",
+        "Academic Details: Include total MBBS marks, month and year of passing, university, internship completion date, and medical council registration number."
+      ]
+    },
+    {
+      "id": "step-3",
+      "type": "heading",
+      "title": "Step 3: Communal Reservation",
+      "level": 3
+    },
+    {
+      "id": "step-3-list",
+      "type": "list",
+      "items": [
+        "Only Keralite candidates can select a community for reservation purposes.",
+        "For inter-caste or mixed-category backgrounds, the candidate can choose which community to apply under."
+      ]
+    },
+    {
+      "id": "step-4",
+      "type": "heading",
+      "title": "Step 4: Special Reservations and Minority Quotas",
+      "level": 3
+    },
+    {
+      "id": "step-4-list",
+      "type": "list",
+      "items": [
+        "Ex-servicemen and dependents: Specific seats available.",
+        "Children of fishermen or inmates of certain institutions may claim concessions.",
+        "PWD, Muslim, and Christian minority candidates are eligible to claim reserved seats."
+      ]
+    },
+    {
+      "id": "step-5",
+      "type": "heading",
+      "title": "Step 5: NRI Quota",
+      "level": 3
+    },
+    {
+      "id": "step-5-list",
+      "type": "list",
+      "items": [
+        "Both Indian and OCI/PIO candidates can be considered for NRI seats.",
+        "NRI sponsorship documentation will be required during the application process."
+      ]
+    },
+    {
+      "id": "reservation-policy",
+      "type": "heading",
+      "title": "Reservation Policy",
+      "level": 2
+    },
+    {
+      "id": "reservation-policy-list",
+      "type": "list",
+      "items": [
+        "EWS: 10%",
+        "STBC (Socially and Economically Backward Classes, Non-Creamy Layer): 27%",
+        "ST & SC: 8% and 2% respectively",
+        "Ex-Servicemen & Dependent of Jawan killed in action: 1 seat each, rotation applied yearly",
+        "PWD (Horizontal): 5%"
+      ]
+    },
+    {
+      "id": "reservation-note",
+      "type": "paragraph",
+      "content": "Reservation benefits under communal and special categories are available exclusively to candidates meeting Kerala origin requirements.\n\nCandidates claiming reservation benefits must submit certificates issued by designated revenue authorities as specified in the CEE guidelines"
+    },
+    {
+      "id": "minority-quotas",
+      "type": "heading",
+      "title": "Minority Quotas",
+      "level": 2
+    },
+    {
+      "id": "minority-quotas-list",
+      "type": "list",
+      "items": [
+        "Christian Minority, Muslim Minority, NRI Christian, and NRI Muslim seats are available in specific self-financing institutes.",
+        "Minority category eligibility requires valid minority community certificates, with Non-Creamy Layer certification not being mandatory for such seats."
+      ]
+    },
+    {
+      "id": "service-quota",
+      "type": "heading",
+      "title": "Service Quota",
+      "level": 2
+    },
+    {
+      "id": "service-quota-list",
+      "type": "list",
+      "items": [
+        "10% of total seats reserved for Kerala in-service candidates.",
+        "Minimum of 10 years of service required.",
+        "Service quota candidates receive incentive marks up to 30 based on service duration and location, as detailed in the official prospectus.",
+        "Service candidates can apply for both general and service quotas."
+      ]
+    },
+    {
+      "id": "nri-quota",
+      "type": "heading",
+      "title": "NRI Quota Eligibility",
+      "level": 2
+    },
+    {
+      "id": "nri-quota-intro",
+      "type": "paragraph",
+      "content": "NRI sponsorship is applicable if the sponsor is:"
+    },
+    {
+      "id": "nri-quota-list",
+      "type": "list",
+      "items": [
+        "Father, mother, and siblings of the candidate",
+        "Father/mother's brothers or sisters and their children (first cousins of parents)",
+        "Husband or wife",
+        "Adopted parents or half-siblings"
+      ]
+    },
+    {
+      "id": "nri-documents",
+      "type": "heading",
+      "title": "Required documents:",
+      "level": 3
+    },
+    {
+      "id": "nri-documents-list",
+      "type": "list",
+      "items": [
+        "Passport, visa, green card, or OCI/PIO card of the sponsor",
+        "Employment certificate attested by the embassy/consulate",
+        "Relationship certificate issued by the revenue authorities",
+        "Affidavit on ₹200 stamp paper for sponsorship"
+      ]
+    },
+    {
+      "id": "nri-note",
+      "type": "paragraph",
+      "content": "NRI category fee payment is accepted from both resident Indian and NRI bank accounts as per CEE financial regulations."
+    },
+    {
+      "id": "application-process",
+      "type": "heading",
+      "title": "Application Process",
+      "level": 2
+    },
+    {
+      "id": "application-process-list",
+      "type": "list",
+      "items": [
+        "Registration: The registration process requires candidates to provide valid email addresses and mobile numbers for OTP-based authentication and official communication.",
+        "Basic Details: Fill in personal and academic information.",
+        "Certificates Upload: Signature and required documents in PDF format.",
+        "Printouts: Take the application printout and the fee payment receipt.",
+        "In-Service Candidates: Forward printouts and enclosures to the Head of Department."
+      ]
+    },
+    {
+      "id": "application-note",
+      "type": "paragraph",
+      "content": "General category candidates complete the application process entirely online without physical document submission requirements."
+    },
+    {
+      "id": "required-documents",
+      "type": "heading",
+      "title": "Required Documents",
+      "level": 2
+    },
+    {
+      "id": "required-documents-list",
+      "type": "list",
+      "items": [
+        "Keralite Candidates: SSLC, birth certificate, passport, or nativity certificate",
+        "Non-Keralites: MBBS completion certificate from the Kerala Institute",
+        "Category Certificates: SC/ST/SCBC/OEC/EWS certificates",
+        "PWD: Competent authority certificate (state medical board evaluation later)",
+        "Minority Certificates: If applicable",
+        "Special Fee Concessions: Children of fishermen, juvenile homes, Nirbhaya homes, etc."
+      ]
+    },
+    {
+      "id": "additional-documents",
+      "type": "heading",
+      "title": "Additional documents required during admission:",
+      "level": 3
+    },
+    {
+      "id": "additional-documents-list",
+      "type": "list",
+      "items": [
+        "MBBS degree or provisional certificate",
+        "CRRI completion certificate",
+        "PG admit card and scorecard",
+        "Permanent medical registration",
+        "Transfer certificate (if MBBS not from KUHS, an eligibility certificate is needed)"
+      ]
+    },
+    {
+      "id": "fees-deposit",
+      "type": "heading",
+      "title": "Fees and Security Deposit",
+      "level": 2
+    },
+    {
+      "id": "fees-deposit-list",
+      "type": "list",
+      "items": [
+        "Application Fee: ₹1000 (SC/ST candidates: ₹500)",
+        "Service Quota Candidates: Additional ₹1000 if applying for the general quota"
+      ]
+    },
+    {
+      "id": "security-deposit",
+      "type": "paragraph",
+      "content": "Candidates must remit security deposits during choice filling: ₹10,000 for the general category and ₹5,000 for SC/ST candidates, which are subsequently adjusted against first-year tuition fees"
+    },
+    {
+      "id": "tuition-fees",
+      "type": "heading",
+      "title": "Tuition Fees",
+      "level": 2
+    },
+    {
+      "id": "tuition-fees-list",
+      "type": "list",
+      "items": [
+        "Government Colleges: ₹57,890 + caution deposit ₹23,160",
+        "Private Colleges: Varies (approx. ₹3 lakhs for RCC Trivandrum, 2024)",
+        "NRI Quota: Approx. ₹38 lakhs",
+        "Clinical Fees: ₹17–19 lakhs"
+      ]
+    },
+    {
+      "id": "tuition-note",
+      "type": "paragraph",
+      "content": "Fees paid are adjusted if candidates shift institutes; a penalty applies for course discontinuation."
+    },
+    {
+      "id": "bonds-penalties",
+      "type": "heading",
+      "title": "Bonds and Penalties",
+      "level": 2
+    },
+    {
+      "id": "bonds-penalties-list",
+      "type": "list",
+      "items": [
+        "Non-Service Candidates: One-year bond of ₹50 lakhs with two sureties (parents/guardians).",
+        "In-Service Candidates: Minimum 10-year bond; posted initially in remote/difficult areas."
+      ]
+    },
+    {
+      "id": "penalties-note",
+      "type": "paragraph",
+      "content": "Candidates failing to report to allotted institutions are subject to penalties, including financial charges and debarment from future counselling cycles as per CEE regulations"
+    },
+    {
+      "id": "uploading-certificates",
+      "type": "heading",
+      "title": "Uploading Images and Certificates",
+      "level": 2
+    },
+    {
+      "id": "uploading-intro",
+      "type": "paragraph",
+      "content": "After completing registration and payment, you must upload:"
+    },
+    {
+      "id": "uploading-list",
+      "type": "list",
+      "items": [
+        "Photograph and signature in specified formats.",
+        "Certificates required depending on your eligibility category, including: Nationality proof (passport, birth certificate, voter ID), Kerala origin certificates, MBBS degree and mark sheets, Special reservation certificates (if applicable), Minority or NRI sponsorship certificates"
+      ]
+    },
+    {
+      "id": "conclusion",
+      "type": "heading",
+      "title": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "conclusion-content",
+      "type": "paragraph",
+      "content": "Kerala PG Counselling 2025 comes with clear rules, strict eligibility, and detailed reservation policies. With proper documents, timely registration, and awareness of fee structures and bonds, candidates can secure their seats without confusion. Staying updated with official notifications is the key to a smooth counselling journey."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "Frequently Asked Questions (FAQs)",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1: Who is eligible for Kerala NEET PG state quota counselling 2025?",
+          "answer": "Eligibility includes two main categories: (1) Indian citizens of Kerala origin, demonstrated through birth in Kerala or parental birth in Kerala, verified via SSLC, birth certificate, passport, or nativity certificate; and (2) Non-Keralite candidates who completed MBBS from any medical institution in Kerala, eligible for general merit seats but not communal reservations. Additionally, in-service candidates with minimum 10 years of government service in Kerala qualify for service quota."
+        },
+        {
+          "question": "Q2: What is the service quota in Kerala NEET PG counselling and how does it work?",
+          "answer": "The service quota reserves 10% of total state quota seats for in-service government doctors in Kerala. Eligible candidates must have completed a minimum of 10 years of government medical service and receive incentive marks up to 30 based on service duration and location. Service candidates can apply for both service quota and general merit seats by paying separate application fees. The upper age limit for medical education service candidates is 49 years as of December 31, 2025."
+        },
+        {
+          "question": "Q3: What is the bond requirement and penalty for Kerala NEET PG 2025 admissions?",
+          "answer": "Non-service candidates must execute a one-year service bond with a penalty amount of ₹50 lakhs, requiring two sureties (typically parents or guardians) on ₹200 stamp paper. In-service candidates are bound to serve a minimum of 10 years with initial postings in remote or difficult areas. Candidates who fail to report to allotted institutions face financial penalties and may be debarred from future counselling cycles. The bond becomes enforceable upon seat acceptance."
+        },
+        {
+          "question": "Q4: What are the tuition fees for different categories under Kerala NEET PG counselling?",
+          "answer": "Government medical college fees are ₹57,890 per year plus a caution deposit of ₹23,160. Private self-financing colleges charge approximately ₹3 lakhs per year (varies by institution), while NRI quota seats cost approximately ₹38 lakhs. Clinical specialty courses in private institutions range from ₹17-19 lakhs. Security deposits of ₹10,000 (general category) or ₹5,000 (SC/ST) are collected during choice filling and adjusted against first-year tuition fees."
+        },
+        {
+          "question": "Q5: Who is eligible to apply for Kerala NEET PG state quota counselling 2025?",
+          "answer": "Eligibility is limited to two categories: (1) Indian citizens of Kerala origin, which includes candidates born in Kerala or whose parents were born in Kerala, verified through SSLC, birth certificate, passport, or village officer-issued nativity certificate; and (2) Non-Keralite candidates who completed MBBS from any medical institution in Kerala, regardless of their place of origin. OCI/PIO cardholders with Kerala connections may also be eligible."
+        },
+        {
+          "question": "Q6: What is the application fee for Kerala NEET PG 2025 counselling?",
+          "answer": "The application fee is ₹1,000 for general category candidates and ₹500 for SC/ST candidates. Service quota candidates pay ₹1,000, with an additional ₹1,000 required if applying for both general and service quota categories. All fees are non-refundable and must be paid online through credit card, debit card, or net banking."
+        },
+        {
+          "question": "Q7: When is the registration deadline for Kerala NEET PG 2025 state counselling?",
+          "answer": "Registration opened on September 10, 2025. The deadline was initially September 22, 2025, at 4:00 PM but has been extended to September 30, 2025, at 5:00 PM. Merit list publication is expected in the first week of October 2025, followed by choice filling in the second week."
+        },
+        {
+          "question": "Q8: Can I edit my application after final submission in Kerala NEET PG counselling?",
+          "answer": "No, the CEE Kerala system does not permit any modifications once candidates select 'Save and Finalise' and complete the payment process. Candidates must carefully verify all entered information, uploaded documents, and selections before final submission. However, if deficiencies are identified during verification, CEE may issue notifications requesting corrected documents, which candidates should monitor regularly through the official portal."
+        }
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
     }
   ]
 }
