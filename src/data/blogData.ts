@@ -1832,7 +1832,1194 @@ export const blogPosts: BlogPost[] = [
         content: "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
       }
     ]
-  }
+  },
+  {
+  id: 6,
+  title: "NEET PG 2025: A Complete Guide to the OBC-NCL Certificate",
+  slug: "neet-pg-2025-complete-guide-obc-ncl-certificate",
+  excerpt: "The OBC-NCL certificate is mandatory for medical graduates seeking admission under the 27% OBC quota in All India Quota seats for NEET PG 2025. Learn about eligibility, validity, and the application process.",
+  featured_image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&h=600&fit=crop",
+  author: {
+    name: "Believers Team",
+    avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  category: {
+    name: "NEET PG",
+    slug: "neet-pg",
+    color: "bg-blue-100 text-blue-800"
+  },
+  tags: ["NEET PG 2025", "OBC-NCL Certificate", "All India Quota", "Medical Admissions", "Reservation"],
+  published_date: "2025-10-24",
+  read_time: 8,
+  meta_description: "Complete guide to OBC-NCL certificate for NEET PG 2025. Understand eligibility criteria, application process, validity requirements, and common mistakes to avoid for AIQ admissions.",
+  sections: [
+    {
+      id: "intro",
+      type: "paragraph",
+      content: "The OBC-NCL (Other Backward Class – Non-Creamy Layer) certificate is very important for NEET PG 2025 aspirants applying through All India Quota (AIQ). This guide explains eligibility, benefits, the application process, and common queries."
+    },
+    {
+      id: "why-need-certificate",
+      type: "heading",
+      title: "Why You Need an OBC-NCL Certificate",
+      level: 2
+    },
+    {
+      id: "why-need-certificate-list",
+      type: "list",
+      items: [
+        "For AIQ under MCC, the OBC certificate must certify Non-Creamy Layer status as per the Central OBC List and be in the prescribed format issued by a competent authority; state-list-only OBC status is not accepted for AIQ.",
+        "State-issued OBC certificates are not valid for AIQ admissions.",
+        "MCC applies 27% OBC-NCL reservation in AIQ; open AIQ includes 50% AIQ of government seats and 100% DNB under AIQ, as per the counselling scheme.",
+        "OBC-NCL candidates qualify at the 40th percentile; UR/EWS require the 50th percentile; UR-PwBD is 45th percentile."
+      ]
+    },
+    {
+      id: "central-vs-state",
+      type: "heading",
+      title: "Central vs. State Certificates",
+      level: 2
+    },
+    {
+      id: "central-vs-state-list",
+      type: "list",
+      items: [
+        "Certificates must be issued by a competent authority (e.g., Tehsildar/SDM/DM); for AIQ, the caste must be in the NCBC Central List and the certificate must follow MCC's proforma.",
+        "State OBC/Backward Class Certificate - For state counselling only.",
+        "Always verify your caste in the NCBC (National Commission for Backward Classes) central list to ensure eligibility."
+      ]
+    },
+    {
+      id: "what-is-certificate",
+      type: "heading",
+      title: "What Is the OBC-NCL Certificate?",
+      level: 2
+    },
+    {
+      id: "what-is-certificate-content",
+      type: "paragraph",
+      content: "The OBC-NCL certificate verifies two things:"
+    },
+    {
+      id: "what-is-certificate-list",
+      type: "list",
+      items: [
+        "OBC Status: The candidate belongs to a caste or community listed in the Central OBC list, notified by the National Commission for Backward Classes (NCBC).",
+        "Non-Creamy Layer (NCL) Status: The candidate's family falls under the non-creamy layer category, determined mainly by parents' income and occupation, making them eligible for reservation benefits.",
+        "This is different from a state OBC certificate. A state OBC certificate is valid only for state quota seats, whereas a central OBC-NCL certificate is mandatory for all seats allotted through All India Counselling by the Medical Counselling Committee (MCC)."
+      ]
+    },
+    {
+      id: "eligibility-rules",
+      type: "heading",
+      title: "Key Eligibility Rules",
+      level: 2
+    },
+    {
+      id: "eligibility-rules-content",
+      type: "paragraph",
+      content: "To qualify for an OBC-NCL certificate, you must meet the following conditions:"
+    },
+    {
+      id: "caste-central-list",
+      type: "heading",
+      title: "Caste in Central List:",
+      level: 3
+    },
+    {
+      id: "caste-central-list-content",
+      type: "paragraph",
+      content: "Verify that your caste/community is listed in the NCBC Central OBC List. State OBC status alone makes you eligible for AIQ reservation."
+    },
+    {
+      id: "income-criteria",
+      type: "heading",
+      title: "Income Criteria:",
+      level: 3
+    },
+    {
+      id: "income-criteria-list",
+      type: "list",
+      items: [
+        "Parents' combined annual income (excluding salary and agricultural income) must be below ₹8 lakh for the last three financial years.",
+        "For NEET PG 2025, income is assessed for the years 2022–2023, 2023–2024, and 2024–2025."
+      ]
+    },
+    {
+      id: "exclusions",
+      type: "heading",
+      title: "Exclusions:",
+      level: 3
+    },
+    {
+      id: "exclusions-content",
+      type: "paragraph",
+      content: "Children of specified constitutional/functionary categories and Group-A/Group-B officers fall under creamy-layer exclusions as per DoPT OMs, irrespective of income."
+    },
+    {
+      id: "validity",
+      type: "heading",
+      title: "Validity of the Certificate",
+      level: 2
+    },
+    {
+      id: "validity-list",
+      type: "list",
+      items: [
+        "It must be issued on or after April 1, 2025, for it to be valid for NEET PG 2025 counselling.",
+        "Certificates issued before April 1, 2025, are not accepted, even if they mention validity.",
+        "Ensure your certificate is digitally recorded in government databases for hassle-free verification."
+      ]
+    },
+    {
+      id: "how-to-apply",
+      type: "heading",
+      title: "How to Apply for an OBC-NCL Certificate",
+      level: 2
+    },
+    {
+      id: "how-to-apply-content",
+      type: "paragraph",
+      content: "You can apply online or offline, depending on your state's process:"
+    },
+    {
+      id: "online-application",
+      type: "heading",
+      title: "Online Application",
+      level: 3
+    },
+    {
+      id: "online-application-content",
+      type: "paragraph",
+      content: "Visit your state's e-Seva or caste certificate portal. Fill out the application, upload the required documents, and obtain a digitally signed certificate with a QR code."
+    },
+    {
+      id: "offline-application",
+      type: "heading",
+      title: "Offline Application",
+      level: 3
+    },
+    {
+      id: "offline-application-content",
+      type: "paragraph",
+      content: "Visit the Tehsildar, Sub-Divisional Officer (SDO), or District Magistrate's office. Submit documents and request a certificate. Ensure the certificate is properly recorded in government records to avoid counselling issues."
+    },
+    {
+      id: "documents-required",
+      type: "heading",
+      title: "Documents Required",
+      level: 2
+    },
+    {
+      id: "documents-required-list",
+      type: "list",
+      items: [
+        "Proof of identity (Aadhaar, PAN, Voter ID)",
+        "Caste proof (OBC caste certificate of the candidate or parents)",
+        "Parents' income certificates or IT returns for the past three years",
+        "Proof of residence (domicile certificate, ration card, etc.)",
+        "Passport-sized photographs"
+      ]
+    },
+    {
+      id: "quick-checklist",
+      type: "heading",
+      title: "Quick Checklist for Your Certificate",
+      level: 2
+    },
+    {
+      id: "quick-checklist-content",
+      type: "paragraph",
+      content: "Before submitting your certificate during counselling, check:"
+    },
+    {
+      id: "quick-checklist-list",
+      type: "list",
+      items: [
+        "Issued after April 1, 2025",
+        "Clearly states Non-Creamy Layer",
+        "Signed by a Tehsildar or higher authority",
+        "Includes a reference to Central Educational Institutions",
+        "Proper resolution/order number mentioned"
+      ]
+    },
+    {
+      id: "common-mistakes",
+      type: "heading",
+      title: "Common Mistakes to Avoid",
+      level: 2
+    },
+    {
+      id: "common-mistakes-list",
+      type: "list",
+      items: [
+        "Submitting only the state-only OBC certificate for All India Counselling.",
+        "Using an outdated certificate issued before April 2025.",
+        "Not verifying whether your caste is on the Central OBC list.",
+        "Skipping the official registration of your certificate in government databases."
+      ]
+    },
+    {
+      id: "key-benefits",
+      type: "heading",
+      title: "Key Benefits of OBC-NCL Status",
+      level: 2
+    },
+    {
+      id: "key-benefits-list",
+      type: "list",
+      items: [
+        "Reservation: 27% AIQ seats in government colleges, DNB institutes, and NBE diploma courses.",
+        "Lower Cut-Off: OBC-NCL candidates are eligible from the 40th percentile (compared to the 50th percentile for the General category).",
+        "High-merit OBC candidates are considered in UR merit and may also be allotted OBC-reserved seats per AIQ reservation rules."
+      ]
+    },
+    {
+      id: "important-rules",
+      type: "heading",
+      title: "Important Rules & Clarifications",
+      level: 2
+    },
+    {
+      id: "important-rules-list",
+      type: "list",
+      items: [
+        "A state OBC certificate cannot be used for AIQ seats.",
+        "If you applied under the General category in NEET PG, you cannot later switch to OBC-NCL.",
+        "UR→reserved switches are not permitted in AIQ; in prior cycles, MCC enabled one-way conversion from reserved to UR during registration when the certificate was unavailable.",
+        "For married candidates, only parents' income is considered, not the spouse's.",
+        "Certificates not properly issued or verified in government records may be rejected."
+      ]
+    },
+    {
+      id: "final-takeaway",
+      type: "heading",
+      title: "Final Takeaway",
+      level: 2
+    },
+    {
+      id: "final-takeaway-content",
+      type: "paragraph",
+      content: "The OBC-NCL certificate is essential for claiming OBC reservation in NEET PG 2025. Start the process early, confirm your caste in the Central OBC List, and ensure your certificate is accurate and valid. Being proactive will help you secure your reservation benefits and avoid last-minute hurdles during counselling."
+    },
+    {
+      id: "faqs",
+      type: "heading",
+      title: "Frequently Asked Questions (FAQs)",
+      level: 2
+    },
+    {
+      id: "faqs-list",
+      type: "faq",
+      faqs: [
+        {
+          question: "Q1. I am not from Gujarat, but I did my MBBS there. Can I apply for a Government Quota seat?",
+          answer: "Yes. If you have completed your MBBS from a recognized university in Gujarat, you are eligible to apply for both Government Quota (GQ) and Management Quota (MQ) seats, but you will be considered under the Unreserved (UR) category."
+        },
+        {
+          question: "Q2. What is the process for purchasing the PIN for registration?",
+          answer: "You must purchase a 14-digit PIN online through the official website, medadmgujarat.org, by paying the non-refundable application fee. This PIN is essential to access the registration form."
+        },
+        {
+          question: "Q3. Is there a separate counselling for government and private colleges in Gujarat?",
+          answer: "No, Gujarat conducts a single, combined counselling process through ACPPGMEC for all Government Quota and Management Quota seats in both government and private medical colleges across the state."
+        },
+        {
+          question: "Q4. Are the fees paid during registration refundable?",
+          answer: "The online PIN purchase fee (application fee) is non-refundable. However, the security deposit paid during the counselling rounds is refundable if you are not allotted a seat or if you join your allotted seat."
+        },
+        {
+          question: "Q5. Is a state OBC certificate valid for All India Quota (AIQ)?",
+          answer: "No. AIQ requires a Central OBC-NCL certificate aligned with the NCBC central list; state OBC/SEBC certificates are valid only for state counselling."
+        },
+        {
+          question: "Q6. What income and validity rules apply for OBC-NCL?",
+          answer: "Parents' combined non-salary, non-agricultural income must be below ₹8 lakh per year per current norms, and the certificate should be issued after April 1, 2025 for NEET PG 2025."
+        },
+        {
+          question: "Q7. Can category be changed from General to OBC-NCL in MCC counselling?",
+          answer: "No. A General-to-reserved switch is not permitted in All India counselling; if listed as OBC-NCL but a certificate cannot be produced, opt to participate as General during MCC registration."
+        },
+        {
+          question: "Q8. Which documents are typically required for a Central OBC-NCL certificate?",
+          answer: "Candidate/parents' caste proofs, parents' income tax returns or income statements for the last three financial years, and government-issued ID/address proofs; obtain a digitally signed or Tehsildar/DM-issued certificate."
+        }
+      ]
+    },
+    {
+      id: "contact-form",
+      type: "contact-form",
+      title: "Submit queries to BelieversConsultancy",
+      content: "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    }
+  ]
+},
+{
+  id: 7,
+  title: "NEET PG 2025: A Complete Guide to the OBC-NCL Certificate",
+  slug: "neet-pg-2025-complete-guide-obc-ncl-certificate",
+  excerpt: "The OBC-NCL certificate is mandatory for medical graduates seeking admission under the 27% OBC quota in All India Quota seats for NEET PG 2025. This explainer clarifies purpose, eligibility, validity, and the application pathway for claiming OBC-NCL under AIQ.",
+  featured_image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&h=600&fit=crop",
+  author: {
+    name: "Believers Team",
+    avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  category: {
+    name: "NEET PG",
+    slug: "neet-pg",
+    color: "bg-blue-100 text-blue-800"
+  },
+  tags: ["NEET PG 2025", "OBC-NCL Certificate", "All India Quota", "Medical Admissions", "Reservation"],
+  published_date: "2025-10-24",
+  read_time: 8,
+  meta_description: "Complete guide to OBC-NCL certificate for NEET PG 2025. Understand eligibility criteria, application process, validity requirements, and common mistakes to avoid for AIQ admissions.",
+  sections: [
+    {
+      id: "intro",
+      type: "paragraph",
+      content: "The OBC-NCL (Other Backward Class – Non-Creamy Layer) certificate is very important for NEET PG 2025 aspirants applying through All India Quota (AIQ). This guide explains eligibility, benefits, the application process, and common queries.\n\nHere is the detailed explanation:"
+    },
+    {
+      id: "why-need-certificate",
+      type: "heading",
+      title: "Why You Need an OBC-NCL Certificate",
+      level: 2
+    },
+    {
+      id: "why-need-certificate-list",
+      type: "list",
+      items: [
+        "For AIQ under MCC, the OBC certificate must certify Non-Creamy Layer status as per the Central OBC List and be in the prescribed format issued by a competent authority; state-list-only OBC status is not accepted for AIQ.",
+        "State-issued OBC certificates are not valid for AIQ admissions.",
+        "MCC applies 27% OBC-NCL reservation in AIQ; open AIQ includes 50% AIQ of government seats and 100% DNB under AIQ, as per the counselling scheme.",
+        "OBC-NCL candidates qualify at the 40th percentile; UR/EWS require the 50th percentile; UR-PwBD is 45th percentile"
+      ]
+    },
+    {
+      id: "central-vs-state",
+      type: "heading",
+      title: "Central vs. State Certificates",
+      level: 2
+    },
+    {
+      id: "central-vs-state-list",
+      type: "list",
+      items: [
+        "Certificates must be issued by a competent authority (e.g., Tehsildar/SDM/DM); for AIQ, the caste must be in the NCBC Central List and the certificate must follow MCC's proforma.",
+        "State OBC/Backward Class Certificate - For state counselling only.",
+        "Always verify your caste in the NCBC (National Commission for Backward Classes) central list to ensure eligibility."
+      ]
+    },
+    {
+      id: "what-is-certificate",
+      type: "heading",
+      title: "What Is the OBC-NCL Certificate?",
+      level: 2
+    },
+    {
+      id: "what-is-certificate-content",
+      type: "paragraph",
+      content: "The OBC-NCL certificate verifies two things:"
+    },
+    {
+      id: "what-is-certificate-list",
+      type: "list",
+      items: [
+        "OBC Status: The candidate belongs to a caste or community listed in the Central OBC list, notified by the National Commission for Backward Classes (NCBC).",
+        "Non-Creamy Layer (NCL) Status: The candidate's family falls under the non-creamy layer category, determined mainly by parents' income and occupation, making them eligible for reservation benefits.",
+        "This is different from a state OBC certificate. A state OBC certificate is valid only for state quota seats, whereas a central OBC-NCL certificate is mandatory for all seats allotted through All India Counselling by the Medical Counselling Committee (MCC)."
+      ]
+    },
+    {
+      id: "eligibility-rules",
+      type: "heading",
+      title: "Key Eligibility Rules",
+      level: 2
+    },
+    {
+      id: "eligibility-rules-content",
+      type: "paragraph",
+      content: "To qualify for an OBC-NCL certificate, you must meet the following conditions:"
+    },
+    {
+      id: "caste-central-list",
+      type: "heading",
+      title: "Caste in Central List:",
+      level: 3
+    },
+    {
+      id: "caste-central-list-list",
+      type: "list",
+      items: [
+        "Verify that your caste/community is listed in the NCBC Central OBC List.",
+        "State OBC status alone makes you eligible for AIQ reservation."
+      ]
+    },
+    {
+      id: "income-criteria",
+      type: "heading",
+      title: "Income Criteria:",
+      level: 3
+    },
+    {
+      id: "income-criteria-list",
+      type: "list",
+      items: [
+        "Parents' combined annual income (excluding salary and agricultural income) must be below ₹8 lakh for the last three financial years.",
+        "For NEET PG 2025, income is assessed for the years 2022–2023, 2023–2024, and 2024–2025."
+      ]
+    },
+    {
+      id: "exclusions",
+      type: "heading",
+      title: "Exclusions:",
+      level: 3
+    },
+    {
+      id: "exclusions-content",
+      type: "paragraph",
+      content: "Children of specified constitutional/functionary categories and Group-A/Group-B officers fall under creamy-layer exclusions as per DoPT OMs, irrespective of income."
+    },
+    {
+      id: "validity",
+      type: "heading",
+      title: "Validity of the Certificate",
+      level: 2
+    },
+    {
+      id: "validity-list",
+      type: "list",
+      items: [
+        "It must be issued on or after April 1, 2025, for it to be valid for NEET PG 2025 counselling.",
+        "Certificates issued before April 1, 2025, are not accepted, even if they mention validity.",
+        "Ensure your certificate is digitally recorded in government databases for hassle-free verification."
+      ]
+    },
+    {
+      id: "how-to-apply",
+      type: "heading",
+      title: "How to Apply for an OBC-NCL Certificate",
+      level: 2
+    },
+    {
+      id: "how-to-apply-content",
+      type: "paragraph",
+      content: "You can apply online or offline, depending on your state's process:"
+    },
+    {
+      id: "online-application",
+      type: "heading",
+      title: "Online Application",
+      level: 3
+    },
+    {
+      id: "online-application-list",
+      type: "list",
+      items: [
+        "Visit your state's e-Seva or caste certificate portal.",
+        "Fill out the application, upload the required documents, and obtain a digitally signed certificate with a QR code."
+      ]
+    },
+    {
+      id: "offline-application",
+      type: "heading",
+      title: "Offline Application",
+      level: 3
+    },
+    {
+      id: "offline-application-content",
+      type: "paragraph",
+      content: "Visit the Tehsildar, Sub-Divisional Officer (SDO), or District Magistrate's office. Submit documents and request a certificate. Ensure the certificate is properly recorded in government records to avoid counselling issues."
+    },
+    {
+      id: "documents-required",
+      type: "heading",
+      title: "Documents Required",
+      level: 2
+    },
+    {
+      id: "documents-required-list",
+      type: "list",
+      items: [
+        "Proof of identity (Aadhaar, PAN, Voter ID)",
+        "Caste proof (OBC caste certificate of the candidate or parents)",
+        "Parents' income certificates or IT returns for the past three years",
+        "Proof of residence (domicile certificate, ration card, etc.)",
+        "Passport-sized photographs"
+      ]
+    },
+    {
+      id: "quick-checklist",
+      type: "heading",
+      title: "Quick Checklist for Your Certificate",
+      level: 2
+    },
+    {
+      id: "quick-checklist-content",
+      type: "paragraph",
+      content: "Before submitting your certificate during counselling, check:"
+    },
+    {
+      id: "quick-checklist-list",
+      type: "list",
+      items: [
+        "Issued after April 1, 2025",
+        "Clearly states Non-Creamy Layer",
+        "Signed by a Tehsildar or higher authority",
+        "Includes a reference to Central Educational Institutions",
+        "Proper resolution/order number mentioned"
+      ]
+    },
+    {
+      id: "common-mistakes",
+      type: "heading",
+      title: "Common Mistakes to Avoid",
+      level: 2
+    },
+    {
+      id: "common-mistakes-list",
+      type: "list",
+      items: [
+        "Submitting only the state-only OBC certificate for All India Counselling.",
+        "Using an outdated certificate issued before April 2025.",
+        "Not verifying whether your caste is on the Central OBC list.",
+        "Skipping the official registration of your certificate in government databases."
+      ]
+    },
+    {
+      id: "key-benefits",
+      type: "heading",
+      title: "Key Benefits of OBC-NCL Status",
+      level: 2
+    },
+    {
+      id: "key-benefits-list",
+      type: "list",
+      items: [
+        "Reservation: 27% AIQ seats in government colleges, DNB institutes, and NBE diploma courses.",
+        "Lower Cut-Off: OBC-NCL candidates are eligible from the 40th percentile (compared to the 50th percentile for the General category).",
+        "High-merit OBC candidates are considered in UR merit and may also be allotted OBC-reserved seats per AIQ reservation rules."
+      ]
+    },
+    {
+      id: "important-rules",
+      type: "heading",
+      title: "Important Rules & Clarifications",
+      level: 2
+    },
+    {
+      id: "important-rules-list",
+      type: "list",
+      items: [
+        "A state OBC certificate cannot be used for AIQ seats.",
+        "If you applied under the General category in NEET PG, you cannot later switch to OBC-NCL.",
+        "UR→reserved switches are not permitted in AIQ; in prior cycles, MCC enabled one-way conversion from reserved to UR during registration when the certificate was unavailable.",
+        "For married candidates, only parents' income is considered, not the spouse's.",
+        "Certificates not properly issued or verified in government records may be rejected."
+      ]
+    },
+    {
+      id: "final-takeaway",
+      type: "heading",
+      title: "Final Takeaway",
+      level: 2
+    },
+    {
+      id: "final-takeaway-content",
+      type: "paragraph",
+      content: "The OBC-NCL certificate is essential for claiming OBC reservation in NEET PG 2025. Start the process early, confirm your caste in the Central OBC List, and ensure your certificate is accurate and valid. Being proactive will help you secure your reservation benefits and avoid last-minute hurdles during counselling."
+    },
+    {
+      id: "faqs",
+      type: "heading",
+      title: "Frequently Asked Questions (FAQs)",
+      level: 2
+    },
+    {
+      id: "faqs-list",
+      type: "faq",
+      faqs: [
+        {
+          question: "Q1. I am not from Gujarat, but I did my MBBS there. Can I apply for a Government Quota seat?",
+          answer: "Yes. If you have completed your MBBS from a recognized university in Gujarat, you are eligible to apply for both Government Quota (GQ) and Management Quota (MQ) seats, but you will be considered under the Unreserved (UR) category."
+        },
+        {
+          question: "Q2. What is the process for purchasing the PIN for registration?",
+          answer: "You must purchase a 14-digit PIN online through the official website, medadmgujarat.org, by paying the non-refundable application fee. This PIN is essential to access the registration form."
+        },
+        {
+          question: "Q3. Is there a separate counselling for government and private colleges in Gujarat?",
+          answer: "No, Gujarat conducts a single, combined counselling process through ACPPGMEC for all Government Quota and Management Quota seats in both government and private medical colleges across the state."
+        },
+        {
+          question: "Q4. Are the fees paid during registration refundable?",
+          answer: "The online PIN purchase fee (application fee) is non-refundable. However, the security deposit paid during the counselling rounds is refundable if you are not allotted a seat or if you join your allotted seat."
+        },
+        {
+          question: "Q5. Is a state OBC certificate valid for All India Quota (AIQ)?",
+          answer: "No. AIQ requires a Central OBC-NCL certificate aligned with the NCBC central list; state OBC/SEBC certificates are valid only for state counselling."
+        },
+        {
+          question: "Q6. What income and validity rules apply for OBC-NCL?",
+          answer: "Parents' combined non-salary, non-agricultural income must be below ₹8 lakh per year per current norms, and the certificate should be issued after April 1, 2025 for NEET PG 2025."
+        },
+        {
+          question: "Q7. Can category be changed from General to OBC-NCL in MCC counselling?",
+          answer: "No. A General-to-reserved switch is not permitted in All India counselling; if listed as OBC-NCL but a certificate cannot be produced, opt to participate as General during MCC registration."
+        },
+        {
+          question: "Q8. Which documents are typically required for a Central OBC-NCL certificate?",
+          answer: "Candidate/parents' caste proofs, parents' income tax returns or income statements for the last three financial years, and government-issued ID/address proofs; obtain a digitally signed or Tehsildar/DM-issued certificate."
+        }
+      ]
+    },
+    {
+      id: "contact-form",
+      type: "contact-form",
+      title: "Submit queries to BelieversConsultancy",
+      content: "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    }
+  ]
+},
+{
+  id: 8,
+  title: "Andhra Pradesh NEET PG 2025: Competent Authority Quota (State Government Quota) – Complete Guide",
+  slug: "andhra-pradesh-neet-pg-2025-competent-authority-quota-complete-guide",
+  excerpt: "This overview addresses key aspects of Andhra Pradesh NEET PG 2025 Competent Authority Quota (CQ) counselling, including eligibility, seat distribution, and application procedures for both local and non-local candidates.",
+  featured_image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&h=600&fit=crop",
+  author: {
+    name: "Believers Team",
+    avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  category: {
+    name: "NEET PG",
+    slug: "neet-pg",
+    color: "bg-blue-100 text-blue-800"
+  },
+  tags: ["NEET PG 2025", "Andhra Pradesh", "Competent Authority Quota", "State Counselling", "Medical Admissions"],
+  published_date: "2025-10-24",
+  read_time: 10,
+  meta_description: "Complete guide to Andhra Pradesh NEET PG 2025 Competent Authority Quota counselling. Learn about eligibility, local vs non-local status, seat distribution, fees, bonds, and application process.",
+  sections: [
+    {
+      id: "intro",
+      type: "paragraph",
+      content: "This overview addresses key aspects of Andhra Pradesh NEET PG 2025 Competent Authority Quota (CQ) counselling, including eligibility, seat distribution, and application procedures. The CQ counselling process applies to both candidates who completed MBBS in Andhra Pradesh and eligible non-local applicants meeting specific criteria.\n\nKey topics covered:\n• Eligibility criteria\n• Seat distribution\n• Local vs non-local status\n• Reservation rules\n• Application process\n• Fees, penalties, and bond requirements"
+    },
+    {
+      id: "what-is-cq",
+      type: "heading",
+      title: "What is the Competent Authority Quota (CQ)?",
+      level: 2
+    },
+    {
+      id: "what-is-cq-content",
+      type: "paragraph",
+      content: "Andhra Pradesh conducts two major PG medical counseling rounds:"
+    },
+    {
+      id: "cq-counseling",
+      type: "heading",
+      title: "Competent Authority Quota (CQ) Counseling",
+      level: 3
+    },
+    {
+      id: "cq-counseling-content",
+      type: "paragraph",
+      content: "Conducted by Dr. YSR University of Health Sciences (YSRUHS) for:"
+    },
+    {
+      id: "cq-counseling-list",
+      type: "list",
+      items: [
+        "50% of the Government college seats",
+        "50% of Private college Category A seats",
+        "50% seats in SVIMS Tirupati",
+        "50% seats in Siddhartha Medical College"
+      ]
+    },
+    {
+      id: "management-quota",
+      type: "paragraph",
+      content: "Management Quota Counseling (for Category B, C, and NRI seats) – To be conducted separately.\n\nThe CQ counselling is conducted for candidates classified as local or those non-local candidates meeting specified residency or employment criteria, distinct from All India Quota eligibility."
+    },
+    {
+      id: "seats-covered",
+      type: "heading",
+      title: "Seats Covered Under CQ",
+      level: 2
+    },
+    {
+      id: "seats-covered-list",
+      type: "list",
+      items: [
+        "50% of seats in Government Medical Colleges (rest go to All India Quota)",
+        "50% of Private Medical College (Category A) seats",
+        "50% seats in SVIMS Tirupati",
+        "50% seats in Siddhartha Medical College, Vijayawada (exclusive to AP)"
+      ]
+    },
+    {
+      id: "seats-covered-note",
+      type: "paragraph",
+      content: "Fee for Category A seats: Category A seat fees are regulated at ₹4.96 lakhs per year as per current guidelines, subject to judicial proceedings. SVIMS Tirupati follows distinct fee structures and stipend policies as outlined in institutional notifications."
+    },
+    {
+      id: "eligibility-criteria",
+      type: "heading",
+      title: "Eligibility Criteria",
+      level: 2
+    },
+    {
+      id: "eligibility-criteria-content",
+      type: "paragraph",
+      content: "To be eligible for AP CQ counseling, candidates must:"
+    },
+    {
+      id: "qualify-neet-pg",
+      type: "heading",
+      title: "Qualify NEET PG 2025:",
+      level: 3
+    },
+    {
+      id: "qualify-neet-pg-list",
+      type: "list",
+      items: [
+        "UR/EWS: 50th percentile",
+        "UR-PwD: 45th percentile",
+        "SC/ST/OBC (BCA–BCE): 40th percentile"
+      ]
+    },
+    {
+      id: "eligibility-note",
+      type: "paragraph",
+      content: "Eligibility for reservation benefits under CQ counselling is determined by Andhra Pradesh-issued caste certificates rather than NEET PG category classification."
+    },
+    {
+      id: "local-vs-nonlocal",
+      type: "heading",
+      title: "Local vs Non-Local Status",
+      level: 2
+    },
+    {
+      id: "local-candidates",
+      type: "heading",
+      title: "Local Candidates:",
+      level: 3
+    },
+    {
+      id: "local-candidates-content",
+      type: "paragraph",
+      content: "You're considered local if you:"
+    },
+    {
+      id: "local-candidates-list",
+      type: "list",
+      items: [
+        "Did MBBS from the AU region (Andhra University) or the SVU region (Sri Venkateshwara University)",
+        "Studied in Siddhartha Medical College (status based on MBBS admission region)"
+      ]
+    },
+    {
+      id: "local-status-note",
+      type: "paragraph",
+      content: "Local status is conferred based on the regional classification of the MBBS institution (AU or SVU), independent of state domicile."
+    },
+    {
+      id: "nonlocal-candidates",
+      type: "heading",
+      title: "Non-Local Candidates:",
+      level: 3
+    },
+    {
+      id: "nonlocal-candidates-content",
+      type: "paragraph",
+      content: "Eligible for 15% unreserved seats in each region if you:"
+    },
+    {
+      id: "nonlocal-candidates-list",
+      type: "list",
+      items: [
+        "Lived in AP for 10 years (excluding education)",
+        "Parent/spouse is employed in the AP government/PSU",
+        "Employed in AP government/quasi-government institutions",
+        "Your spouse is a local candidate"
+      ]
+    },
+    {
+      id: "seat-distribution",
+      type: "heading",
+      title: "Seat Distribution in AP Colleges",
+      level: 2
+    },
+    {
+      id: "au-svu-region",
+      type: "heading",
+      title: "AU and SVU Region Colleges:",
+      level: 3
+    },
+    {
+      id: "au-svu-region-list",
+      type: "list",
+      items: [
+        "85% reserved for local candidates",
+        "15% unreserved (open to both local & eligible non-local)"
+      ]
+    },
+    {
+      id: "siddhartha-medical",
+      type: "heading",
+      title: "Siddhartha Medical College:",
+      level: 3
+    },
+    {
+      id: "siddhartha-medical-list",
+      type: "list",
+      items: [
+        "65.62% for AU local candidates",
+        "34.38% for SVU locals",
+        "15% unreserved"
+      ]
+    },
+    {
+      id: "community-reservation",
+      type: "heading",
+      title: "Community-Based Reservation (2025)",
+      level: 2
+    },
+    {
+      id: "sc-subcategories",
+      type: "heading",
+      title: "SC Subcategories:",
+      level: 3
+    },
+    {
+      id: "sc-subcategories-list",
+      type: "list",
+      items: [
+        "SC1 – 6.5%",
+        "SC2 – 7.5%",
+        "SC3 – 1%"
+      ]
+    },
+    {
+      id: "other-categories",
+      type: "list",
+      items: [
+        "ST: As per existing norms",
+        "BC (BCA–BCE): Category-wise as before",
+        "Women: 33.3% across all categories",
+        "PwD: 5% horizontal reservation",
+        "EWS: Not applicable unless approved officially"
+      ]
+    },
+    {
+      id: "inservice-reservation",
+      type: "heading",
+      title: "In-Service Candidate Reservation",
+      level: 2
+    },
+    {
+      id: "reservation-quota",
+      type: "heading",
+      title: "Reservation Quota:",
+      level: 3
+    },
+    {
+      id: "reservation-quota-list",
+      type: "list",
+      items: [
+        "Clinical specialties: 15% reserved",
+        "Non-clinical specialties: 30% reserved"
+      ]
+    },
+    {
+      id: "reservation-note",
+      type: "paragraph",
+      content: "The in-service reservation percentage for clinical specialties is currently set at 15% as per updated state guidelines."
+    },
+    {
+      id: "eligibility-conditions",
+      type: "heading",
+      title: "Eligibility Conditions:",
+      level: 3
+    },
+    {
+      id: "eligibility-conditions-list",
+      type: "list",
+      items: [
+        "2 years in a tribal/rural area OR",
+        "6 years in services like Health Services, IAB, PVP, AP Insurance, University of Health Sciences",
+        "Minimum 10 years of service remaining",
+        "Should not hold an existing PG degree (diploma holders can apply in the same specialty if prior in-service)"
+      ]
+    },
+    {
+      id: "inservice-important",
+      type: "heading",
+      title: "Important:",
+      level: 3
+    },
+    {
+      id: "inservice-important-content",
+      type: "paragraph",
+      content: "No incentive marks are given. Must join service after PG; otherwise:"
+    },
+    {
+      id: "inservice-important-list",
+      type: "list",
+      items: [
+        "Refund tuition + stipend",
+        "₹10 lakh penalty"
+      ]
+    },
+    {
+      id: "application-process",
+      type: "heading",
+      title: "Application Process (on Dr. NTRUHS Portal)",
+      level: 2
+    },
+    {
+      id: "registration-steps",
+      type: "heading",
+      title: "Registration Steps:",
+      level: 3
+    },
+    {
+      id: "registration-steps-list",
+      type: "list",
+      items: [
+        "Visit the NTRUHS portal",
+        "Register with: NEET PG Roll Number, Caste & PWD status, OTP verification",
+        "Login, pay fee, upload: Personal & academic info, Signature & photo, Required documents in PDF",
+        "Save and print the application"
+      ]
+    },
+    {
+      id: "essential-documents",
+      type: "heading",
+      title: "Essential Documents",
+      level: 2
+    },
+    {
+      id: "mandatory-all",
+      type: "heading",
+      title: "Mandatory for All:",
+      level: 3
+    },
+    {
+      id: "mandatory-all-list",
+      type: "list",
+      items: [
+        "NEET PG scorecard (remove password)",
+        "Date of birth proof (10th mark sheet)",
+        "Govt. ID proof",
+        "CRRI certificate",
+        "MBBS degree or provisional",
+        "MBBS study certificates (year-wise)",
+        "Passport-size photo & signature",
+        "Migration/Transfer certificate (or affidavit)",
+        "6th–12th class certificates (for local status)",
+        "Caste certificate (latest, integrated)",
+        "PWD certificate (if applicable)"
+      ]
+    },
+    {
+      id: "nonlocal-documents",
+      type: "heading",
+      title: "For Non-Local Candidates (anyone):",
+      level: 3
+    },
+    {
+      id: "nonlocal-documents-list",
+      type: "list",
+      items: [
+        "10-year AP residency certificate",
+        "MRO-issued residency certificate",
+        "Parent/spouse employment proof in AP govt."
+      ]
+    },
+    {
+      id: "inservice-documents",
+      type: "heading",
+      title: "For In-Service Candidates:",
+      level: 3
+    },
+    {
+      id: "inservice-documents-list",
+      type: "list",
+      items: [
+        "Annexure 4A & 4B",
+        "Local status certificate",
+        "Migrated candidates: Digitally signed local status from AP"
+      ]
+    },
+    {
+      id: "application-fees",
+      type: "heading",
+      title: "Application Fees",
+      level: 2
+    },
+    {
+      id: "application-fees-list",
+      type: "list",
+      items: [
+        "OC/BC (Andhra Pradesh locals): ₹7,080",
+        "SC/ST (Andhra Pradesh locals): ₹5,900",
+        "Non-local MBBS candidates: ₹3,540",
+        "FMGs (Foreign Medical Graduates): ₹8,260"
+      ]
+    },
+    {
+      id: "tuition-fee-structure",
+      type: "heading",
+      title: "Tuition Fee Structure",
+      level: 2
+    },
+    {
+      id: "tuition-fee-structure-list",
+      type: "list",
+      items: [
+        "Government Colleges (Govt. Quota): ₹30,000 per year",
+        "SVIMS Tirupati: ₹1,75,000 per year",
+        "Private Colleges (Category A – Clinical): ₹4.96 lakhs per year",
+        "Pre/Para-clinical in Private Colleges: Fee varies (typically lesser than clinical branches)"
+      ]
+    },
+    {
+      id: "tuition-fee-note",
+      type: "paragraph",
+      content: "SVIMS has a higher stipend (~₹96,000/month). Court-reduced fees in private colleges (to ₹3.85 lakhs) are still under litigation."
+    },
+    {
+      id: "penalty-resignation",
+      type: "heading",
+      title: "Penalty for Resignation",
+      level: 2
+    },
+    {
+      id: "penalty-table",
+      type: "table",
+      headers: ["Action", "Penalty"],
+      rows: [
+        ["After Round 3 Resignation", "₹3.54 lakhs + stipend + 18% GST"],
+        ["SVIMS Resignation", "₹5 lakhs + stipend"],
+        ["Debarment", "3 years"]
+      ]
+    },
+    {
+      id: "service-bond",
+      type: "heading",
+      title: "Service Bond Requirements",
+      level: 2
+    },
+    {
+      id: "bond-details",
+      type: "heading",
+      title: "Bond Details",
+      level: 3
+    },
+    {
+      id: "ap-govt-quota",
+      type: "paragraph",
+      content: "AP Government Quota (Non-Service) Candidates: Bond duration is 1 year, with a penalty of ₹40 lakhs + GST for non-compliance."
+    },
+    {
+      id: "svims-bond",
+      type: "paragraph",
+      content: "SVIMS (All Candidates): Bond duration is 1 year, with a penalty of ₹40 lakhs + GST."
+    },
+    {
+      id: "inservice-bond",
+      type: "paragraph",
+      content: "In-Service Candidates: Required to serve for 10 years, failing which they must pay a penalty of ₹50 lakhs, along with stipend refund."
+    },
+    {
+      id: "aiq-bond",
+      type: "paragraph",
+      content: "All India Quota Candidates: No bond obligation applicable."
+    },
+    {
+      id: "stipend-overview",
+      type: "heading",
+      title: "Stipend Overview",
+      level: 2
+    },
+    {
+      id: "stipend-list",
+      type: "list",
+      items: [
+        "Government Institutes: Monthly stipend ranges between ₹60,800 to ₹64,000.",
+        "SVIMS, Tirupati: The monthly stipend is approximately ₹96,000.",
+        "Private Colleges: Stipend varies by institution; candidates should confirm directly with the respective college."
+      ]
+    },
+    {
+      id: "stipend-note",
+      type: "paragraph",
+      content: "Prospective candidates may evaluate net educational costs by considering tuition fees relative to stipend amounts offered by different institutions."
+    },
+    {
+      id: "final-takeaways",
+      type: "heading",
+      title: "Final Takeaways",
+      level: 2
+    },
+    {
+      id: "final-takeaways-list",
+      type: "list",
+      items: [
+        "Local or non-local classification is determined by the regional affiliation of the candidate's MBBS institution.",
+        "Check category-wise eligibility based on AP caste certificates",
+        "Apply on time and upload complete, correct documents",
+        "In-service candidates must follow strict eligibility and bond rules",
+        "Financial planning for postgraduate education should account for both tuition obligations and stipend income across different institutional categories."
+      ]
+    },
+    {
+      id: "official-updates",
+      type: "paragraph",
+      content: "Official updates regarding counselling procedures are published on the Dr. NTRUHS portal at drntr.uhsap.in."
+    },
+    {
+      id: "faqs",
+      type: "heading",
+      title: "Frequently Asked Questions (FAQs)",
+      level: 2
+    },
+    {
+      id: "faqs-list",
+      type: "faq",
+      faqs: [
+        {
+          question: "Q1: What is the difference between local and non-local candidates in AP NEET PG CQ counselling?",
+          answer: "Local status is determined by the regional classification of the MBBS institution—candidates who completed MBBS from colleges under Andhra University (AU) or Sri Venkateswara University (SVU) regions are considered local, regardless of their domicile. Non-local candidates can qualify for 15% unreserved seats if they meet specific criteria such as 10 years of residency in AP (excluding education period), having a parent/spouse employed in AP government/PSU, or being married to a local candidate."
+        },
+        {
+          question: "Q2: What are the application fees for AP NEET PG CQ counselling 2025?",
+          answer: "Application fees vary based on category and MBBS completion location: ₹7,080 for OC/BC candidates who completed MBBS in Andhra Pradesh; ₹5,900 for SC/ST candidates from AP; ₹3,540 for non-local MBBS candidates; and ₹8,260 for Foreign Medical Graduates (FMGs)."
+        },
+        {
+          question: "Q3: What is the service bond requirement for candidates admitted through CQ counselling?",
+          answer: "Non-service candidates admitted through government quota must complete 1 year of compulsory service with a penalty of ₹40 lakhs plus GST for non-compliance. SVIMS candidates have similar 1-year bond requirements. In-service candidates must serve for 10 years or pay a penalty of ₹50 lakhs along with stipend refund. Candidates who resign after Round 3 face a penalty of ₹3.54 lakhs plus stipend plus 18% GST, and may be debarred for 3 years."
+        },
+        {
+          question: "Q4: How many candidates have been barred from AP NEET PG 2025 counselling and why?",
+          answer: "A total of 191 candidates have been disqualified from participating in AP NEET PG 2025 counselling. This includes 22 candidates who failed to report to their allotted institutions after seat allocation in the previous year, and 169 candidates who discontinued their courses between June 2022 and the present date. The state has implemented strict measures to prevent seat blocking and ensure compliance with counselling regulations."
+        }
+      ]
+    },
+    {
+      id: "contact-form",
+      type: "contact-form",
+      title: "Submit queries to BelieversConsultancy",
+      content: "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    }
+  ]
+}
 
 ];
 
