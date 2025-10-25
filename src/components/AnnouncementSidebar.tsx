@@ -704,6 +704,24 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: 'https://www.jagranjosh.com/news/neet-pg-2025-counselling-round-1-registration-begin-at-mcc-nic-in-get-direct-link-here-181509',
       source: 'Jagran Josh',
     },
+    {
+      id: 49,
+      title: "MCC Online NEET PG Seats  Allotment Process 2025: 50% All India Quota Counselling for MD MS and Dental Seats at mcc.nic.in :MCC conducts online counselling for 50% All India Quota NEET PG seats in medical and dental programs at mcc.nic.in following Supreme Court directives for transparent seat allotment",
+      date: "2025-10-18T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://mcc.nic.in/pg-medical-counselling/',
+      source: 'MCC',
+    },
+    {
+      id: 49,
+      title: "NEET PG Counselling 2025 MCC NEET PG 2025 Counselling Registration Process Ongoing at mcc.nic.in: Complete Round-Wise Schedule to be Released Soon for MD MS Admission",
+      date: "2025-10-24T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: ' https://www.jagranjosh.com/news/neet-pg-2025-counselling-registration-underway-complete-schedule-at-mcc.nic.in-181549',
+      source: 'Jagran Josh',
+     },
 
   ];
 
