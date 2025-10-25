@@ -198,12 +198,21 @@ function App() {
               
             }
           />
-          <Route
+          {/* <Route
             path="/AiSensyWidget"
             element={
               <ProtectedRoute>
                 <AiSensyWidget widgetId="aaa5qq" />
               </ProtectedRoute>
+            }
+          /> */}
+
+          <Route
+            path="/AiSensyWidget"
+            element={
+              
+                <WhatsAppSupport />
+              
             }
           />
           {/* <Route
