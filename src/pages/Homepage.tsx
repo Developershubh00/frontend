@@ -2188,7 +2188,7 @@ function Homepage() {
           </button>
 
           {/* WhatsApp Support Widget */}
-      <AiSensyWidget widgetId="aaa5qq" />
+      <WhatsAppSupport />
 
         </div>
       </section>
