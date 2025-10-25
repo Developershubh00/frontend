@@ -511,12 +511,18 @@ const BlogList: React.FC = () => {
             <div className="bg-white rounded-3xl shadow-xl overflow-hidden">
               <Link to={`/blog/${featuredPost.slug}`} className="block">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
-                  <div className="relative h-64 lg:h-96">
+                  {/* <div className="relative h-64 lg:h-96">
                   <img
                   src={featuredPost.featured_image}
                   alt={featuredPost.title}
                   className="w-full h-full object-contain bg-gradient-to-br from-blue-50 to-red-50"
-                  />
+                  /> */}
+                  <div className="relative aspect-video lg:aspect-auto lg:h-full">
+  <img
+    src={featuredPost.featured_image}
+    alt={featuredPost.title}
+    className="w-full h-full object-contain bg-gradient-to-br from-blue-50 to-red-50"
+  />
                     <div className="absolute top-6 left-6">
                       <span className="bg-gradient-to-r from-blue-500 to-red-500 text-white px-4 py-2 rounded-full text-sm font-semibold">
                         Featured Post
@@ -603,12 +609,18 @@ const BlogList: React.FC = () => {
             {displayedPosts.map((post) => (
               <article key={post.id} className="bg-white rounded-3xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:scale-105 group">
                 <Link to={`/blog/${post.slug}`} className="block">
-                  <div className="relative h-48 bg-gradient-to-br from-blue-50 to-red-50">
+                  {/* <div className="relative h-48 bg-gradient-to-br from-blue-50 to-red-50">
                   <img
                   src={post.featured_image}
                     alt={post.title}
                   className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
-                  />
+                  /> */}
+                  <div className="relative aspect-video bg-gradient-to-br from-blue-50 to-red-50">
+  <img
+    src={post.featured_image}
+    alt={post.title}
+    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
+  />
                     <div className="absolute top-4 left-4">
                       <span className={`px-3 py-1 rounded-full text-xs font-medium ${post.category.color}`}>
                         {post.category.name}
