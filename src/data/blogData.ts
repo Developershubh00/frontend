@@ -353,7 +353,7 @@ export const blogPosts: BlogPost[] = [
     tags: ["NEET PG 2025", "NRI Quota", "MEA Guidelines", "Medical Admissions"],
     published_date: "2025-10-05",
     read_time: 5,
-    meta_description: "Complete guide to NRI category seats in NEET PG 2025 with new MEA guidelines, eligibility criteria, and documentation requirements.",
+    meta_description: " Explore NRI category seat eligibility, documentation, and MEA’s latest guidelines for NEET PG 2025 Counselling to secure your dream postgraduate seat.",
     sections: [
       {
         id: "intro",
@@ -646,7 +646,7 @@ export const blogPosts: BlogPost[] = [
     tags: ["NEET PG 2025", "Category Change", "Counselling", "MCC"],
     published_date: "2025-10-07",
     read_time: 5,
-    meta_description: "Complete guide on category changes in NEET PG 2025 All India Counselling. Learn which changes are possible and which aren't.",
+    meta_description: "Find out if you can change your category during NEET PG 2025 All India Counselling. Know rules, process, and key updates for hassle-free seat allocation..",
     sections: [
       {
         id: "intro",
@@ -868,7 +868,7 @@ export const blogPosts: BlogPost[] = [
     tags: ["NEET PG Counselling", "All India Quota", "State Counselling", "Medical Career"],
     published_date: "2025-10-09",
     read_time: 5,
-    meta_description: "Complete strategic guide to NEET-PG counselling covering All India Quota and State rounds, choice filling strategies, and expert tips for success.",
+    meta_description: "Master your NEET-PG Counselling with smart strategies for All India and State rounds. Learn seat choice tactics, category rules, and top ranker insights..",
     sections: [
       {
         id: "intro",
@@ -1251,7 +1251,7 @@ export const blogPosts: BlogPost[] = [
     tags: ["NEET PG 2025", "AIQ Counselling", "Merit List", "MCC", "Category Rank"],
     published_date: "2025-10-11",
     read_time: 5,
-    meta_description: "Complete guide to NEET PG 2025 All India 50% Quota counselling. Understand AIQ merit list, rank types, eligibility criteria, and counselling strategies.",
+    meta_description: "Understand the NEET PG 2025 All India 50% Quota Counselling process, eligibility, and seat allotment steps to secure your desired postgraduate seat.",
     sections: [
       {
         id: "intro",
@@ -1546,7 +1546,7 @@ export const blogPosts: BlogPost[] = [
     tags: ["NEET PG 2025", "PG Diploma", "NBE Diploma", "Medical Education", "Career Pathways"],
     published_date: "2025-10-13",
     read_time: 5,
-    meta_description: "Complete comparison of PG Diploma vs NBE Diploma for NEET PG 2025. Understand structure, fees, career pathways, and how to choose the right option.",
+    meta_description: "Compare PG Diploma and NBE Diploma under NEET PG 2025. Understand course structure, recognition, and career scope to make the right postgraduate choice.",
     sections: [
       {
         id: "intro",
@@ -1835,7 +1835,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
   "id": 6,
-  "title": "NEET PG 2025 Counselling: A Guide to Category Change Rules",
+  "title": "NEET PG 2025 Counselling: A Guide to Category Change Rules Counselling",
   "slug": "neet-pg-2025-category-change-rules-counselling",
   "excerpt": "Comprehensive guide to category modification rules during NEET PG 2025 All India Counselling. Learn what changes are permitted, eligibility criteria, and how category selection impacts your seat allotment.",
   "featured_image": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&h=600&fit=crop",
@@ -2486,7 +2486,7 @@ export const blogPosts: BlogPost[] = [
   tags: ["NEET PG 2025", "Andhra Pradesh", "Competent Authority Quota", "State Counselling", "Medical Admissions"],
   published_date: "2025-10-24",
   read_time: 10,
-  meta_description: "Complete guide to Andhra Pradesh NEET PG 2025 Competent Authority Quota counselling. Learn about eligibility, local vs non-local status, seat distribution, fees, bonds, and application process.",
+  meta_description: " Explore Andhra Pradesh NEET PG 2025 Counselling under the Competent Authority Quota. Learn eligibility, registration steps, and seat allotment details.",
   sections: [
     {
       id: "intro",
@@ -3345,7 +3345,7 @@ export const blogPosts: BlogPost[] = [
   "tags": ["NEET PG 2025", "Kerala", "State Counselling", "Service Quota", "Medical Admissions"],
   "published_date": "2025-10-24",
   "read_time": 12,
-  "meta_description": "Kerala State PG Counselling 2025: Step-by-Step Guide for Applicants and Service Candidates Complete guide to Kerala NEET PG 2025 state quota counselling. Learn about eligibility, registration, documentation, reservations, fees, bonds, and application process for general and service candidates.",
+  "meta_description": " Get a complete guide to Kerala NEET PG Counselling 2025 for applicants and service candidates. Learn registration, eligibility, and seat allotment process.",
   "sections": [
     {
       "id": "intro",
