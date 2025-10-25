@@ -5170,8 +5170,7 @@ export const blogPosts: BlogPost[] = [
   ]
 },
 {
-  id: 15half cutting 
-  ,
+  id: "15half cutting",
   title: "Understanding the Supreme Court Ruling on Domicile-Based Reservation",
   slug: "supreme-court-ruling-domicile-based-reservation-neet-pg",
   excerpt: "The Supreme Court ruling on domicile-based reservation in NEET PG admissions has sparked widespread debate. An objective review of the Court's decisions and their impact on PG medical admissions.",
