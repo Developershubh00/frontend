@@ -3009,7 +3009,7 @@ export const blogPosts: BlogPost[] = [
   "title": "NEET PG 2025 Counselling: A Practical, 5‑Minute Walkthrough for Postgraduate Aspirants",
   "slug": "neet-pg-2025-counselling-practical-walkthrough",
   "excerpt": "Get a quick 5-minute walkthrough of NEET PG 2025 Counselling from registration to seat allotment and make smarter choices for your medical future.",
-  "featured_image": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/45442254/file/3d063a3b6331239048d45b0f06c97aef.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
     "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
@@ -3331,7 +3331,7 @@ export const blogPosts: BlogPost[] = [
   "title": "Kerala State PG Counselling 2025: Step-by-Step Guide for Applicants and Service Candidates",
   "slug": "kerala-state-pg-counselling-2025-step-by-step-guide",
   "excerpt": "Complete guide to Kerala NEET PG 2025 state quota counselling covering eligibility, registration process, documentation, reservations, and fees for both general and service candidates.",
-  "featured_image": "https://cdn.dribbble.com/userupload/45442251/file/a6696a8c732ebd86e65dfa3004daf32e.jpeg?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/45442252/file/2c0b92727c04261c5752acdffd46e931.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
     "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
@@ -3824,7 +3824,7 @@ export const blogPosts: BlogPost[] = [
   title: "Gujarat NEET PG 2025 Counselling: Complete Guide",
   slug: "gujarat-neet-pg-2025-counselling-complete-guide",
   excerpt: "Gujarat NEET PG 2025 counselling is now open. This comprehensive guide covers eligibility, seat types, reservation policies, fees, and essential documents to help you secure your postgraduate medical seat.",
-  featured_image: "https://cdn.dribbble.com/userupload/45442253/file/9ebb4e15e40c6628ad591e2bcfefa16a.png?w=1200&h=600&fit=crop",
+  featured_image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&h=600&fit=crop",
   author: {
     name: "Believers Team",
     avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
@@ -4218,7 +4218,7 @@ export const blogPosts: BlogPost[] = [
   title: "Tamil Nadu NEET PG 2025: Smart Counselling Guide for Government Quota Aspirants",
   slug: "tamil-nadu-neet-pg-2025-counselling-guide",
   excerpt: "Tamil Nadu offers extensive postgraduate medical education opportunities through its Government Quota counselling system. A comprehensive guide covering eligibility, registration, fees, and reservation policies.",
-  featured_image: "https://cdn.dribbble.com/userupload/45442253/file/9ebb4e15e40c6628ad591e2bcfefa16a.png?w=1200&h=600&fit=crop",
+  featured_image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&h=600&fit=crop",
   author: {
     name: "Believers Team",
     avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
@@ -4578,7 +4578,7 @@ export const blogPosts: BlogPost[] = [
   title: "NEET PG 2025 Counselling: Understanding Course Options, Institute Types, and Seat Allocation",
   slug: "neet-pg-2025-counselling-complete-guide",
   excerpt: "After months of preparation and completing NEET PG 2025, aspirants now enter the critical stage of counselling. This comprehensive guide covers courses, institutes, quotas, ranks, and seat allocation strategies.",
-  featured_image: "https://cdn.dribbble.com/userupload/45442253/file/9ebb4e15e40c6628ad591e2bcfefa16a.png?w=1200&h=600&fit=crop",
+  featured_image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&h=600&fit=crop",
   author: {
     name: "Believers Team",
     avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
@@ -4884,7 +4884,7 @@ export const blogPosts: BlogPost[] = [
   title: "NEET PG 2025 Application Process: Official Timeline and Requirements",
   slug: "neet-pg-2025-application-process-timeline",
   excerpt: "NBEMS released the NEET PG 2025 notification on April 16, 2025. Complete step-by-step guide covering registration, documentation, payment, and exam day requirements for NEET PG 2025.",
-  featured_image: "https://cdn.dribbble.com/userupload/45442253/file/9ebb4e15e40c6628ad591e2bcfefa16a.png?w=1200&h=600&fit=crop",
+  featured_image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&h=600&fit=crop",
   author: {
     name: "Believers Team",
     avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
@@ -5170,7 +5170,7 @@ export const blogPosts: BlogPost[] = [
   ]
 },
 {
-  id: "15half cutting",
+  id: 15,
   title: "Understanding the Supreme Court Ruling on Domicile-Based Reservation",
   slug: "supreme-court-ruling-domicile-based-reservation-neet-pg",
   excerpt: "The Supreme Court ruling on domicile-based reservation in NEET PG admissions has sparked widespread debate. An objective review of the Court's decisions and their impact on PG medical admissions.",
