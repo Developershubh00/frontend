@@ -1198,6 +1198,7 @@ import {
 } from "lucide-react";
 import TypingCategories from "../components/TypingCategories"
 import AiSensyWidget from "../components/AiSensyWidget";
+import WhatsAppSupport from "../components/WhatsAppSupport";
 
 function Homepage() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
