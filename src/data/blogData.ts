@@ -3818,6 +3818,1356 @@ export const blogPosts: BlogPost[] = [
       "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
     }
   ]
+},
+{
+  id: 11,
+  title: "Gujarat NEET PG 2025 Counselling: Complete Guide",
+  slug: "gujarat-neet-pg-2025-counselling-complete-guide",
+  excerpt: "Gujarat NEET PG 2025 counselling is now open. This comprehensive guide covers eligibility, seat types, reservation policies, fees, and essential documents to help you secure your postgraduate medical seat.",
+  featured_image: "https://cdn.dribbble.com/userupload/45442253/file/9ebb4e15e40c6628ad591e2bcfefa16a.png?w=1200&h=600&fit=crop",
+  author: {
+    name: "Believers Team",
+    avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  category: {
+    name: "NEET PG",
+    slug: "neet-pg",
+    color: "bg-blue-100 text-blue-800"
+  },
+  tags: ["NEET PG 2025", "Gujarat Counselling", "Medical Admissions", "State Counselling"],
+  published_date: "2025-10-25",
+  read_time: 8,
+  meta_description: "Complete guide to Gujarat NEET PG 2025 counselling including eligibility, seat types, reservation policies, fees, and registration process for postgraduate medical admissions.",
+  sections: [
+    {
+      id: "intro",
+      type: "paragraph",
+      content: "Gujarat NEET PG 2025 counselling is now open, and this guide provides everything you need to know — including eligibility, seat types, reservation policies, fees, and essential documents. If you're planning to participate, read carefully to avoid mistakes. A thorough understanding of these guidelines is critical to a successful NEET PG counselling application."
+    },
+    {
+      id: "why-wait",
+      type: "heading",
+      title: "Why Wait Before Registering?",
+      level: 2
+    },
+    {
+      id: "why-wait-content",
+      type: "paragraph",
+      content: "Although registration is open, there's no benefit to rushing. You'll have seven to eight days to register, so waiting until the second or third day is a smart choice. Early registration does not guarantee a better seat, as allotments are based solely on your NEET PG rank or state merit list."
+    },
+    {
+      id: "registration-process",
+      type: "heading",
+      title: "Registration Process",
+      level: 2
+    },
+    {
+      id: "pin-purchase",
+      type: "heading",
+      title: "1. PIN Purchase",
+      level: 3
+    },
+    {
+      id: "pin-purchase-content",
+      type: "paragraph",
+      content: "Access the official ACPPGMEC portal and provide your NEET PG credentials, including roll number and verified contact details. Data accuracy is critical — verify that all information corresponds exactly to your NEET PG documentation to prevent processing issues. Pay via UPI, debit/credit card, or internet banking. Secure your login credentials (User ID and PIN) — essential for the Gujarat NEET PG counselling 2025 process."
+    },
+    {
+      id: "candidate-registration",
+      type: "heading",
+      title: "2. Candidate Registration",
+      level: 3
+    },
+    {
+      id: "candidate-registration-content",
+      type: "paragraph",
+      content: "Log in with your User ID and PIN, complete personal details, category selection, and academic details. Upload a recent photograph and set a password for your account."
+    },
+    {
+      id: "eligibility-checks",
+      type: "heading",
+      title: "3. Eligibility Checks",
+      level: 3
+    },
+    {
+      id: "eligibility-checks-content",
+      type: "paragraph",
+      content: "The system automatically verifies eligibility for the Government, Management, or NRI quota through your academic credentials and domicile status. Candidates with foreign MBBS degrees must upload FMGE clearance."
+    },
+    {
+      id: "document-upload",
+      type: "heading",
+      title: "4. Document Upload",
+      level: 3
+    },
+    {
+      id: "document-upload-content",
+      type: "paragraph",
+      content: "Upload the following in PDF format:"
+    },
+    {
+      id: "document-list",
+      type: "list",
+      items: [
+        "NEET PG scorecard",
+        "All-year MBBS mark sheets",
+        "Internship completion certificate (before 31st July 2025)",
+        "State Medical Council registration",
+        "Proof of citizenship (birth certificate or passport)",
+        "Caste certificates (if applicable)",
+        "NOC for in-service candidates",
+        "NRI documents such as notarized passport copies and embassy certificates"
+      ]
+    },
+    {
+      id: "appointment-booking",
+      type: "heading",
+      title: "5. Appointment Booking",
+      level: 3
+    },
+    {
+      id: "appointment-booking-content",
+      type: "paragraph",
+      content: "Book a verification slot at a preferred center. NRI candidates must visit GMERS Gandhinagar for verification."
+    },
+    {
+      id: "final-review",
+      type: "heading",
+      title: "6. Final Review and Submission",
+      level: 3
+    },
+    {
+      id: "final-review-content",
+      type: "paragraph",
+      content: "Review your application thoroughly before confirmation — once submitted, edits are not allowed. Save and print the final application form to use during NEET PG allotment and admission."
+    },
+    {
+      id: "key-facts",
+      type: "heading",
+      title: "Key Facts About Gujarat NEET PG Counselling",
+      level: 2
+    },
+    {
+      id: "single-unified",
+      type: "heading",
+      title: "Single Unified Process",
+      level: 3
+    },
+    {
+      id: "single-unified-content",
+      type: "paragraph",
+      content: "Gujarat NEET PG counselling conducts a single round for:"
+    },
+    {
+      id: "unified-list",
+      type: "list",
+      items: [
+        "50% Government Quota seats (after AIQ surrender)",
+        "100% Private College seats across Gujarat",
+        "Deemed universities like SBKS (Sumandeep Vidyapeeth) fall under MCC NEET PG counselling instead."
+      ]
+    },
+    {
+      id: "not-open-state",
+      type: "heading",
+      title: "Not an Open State",
+      level: 3
+    },
+    {
+      id: "not-open-state-content",
+      type: "paragraph",
+      content: "Gujarat is not an open state for PG counselling. Only candidates with a Gujarat domicile or education history can apply for Gujarat medical PG counselling seats (except NRI quota)."
+    },
+    {
+      id: "seat-categories",
+      type: "heading",
+      title: "Seat Categories in Gujarat NEET PG 2025",
+      level: 2
+    },
+    {
+      id: "seat-categories-table",
+      type: "table",
+      headers: ["Seat Type", "Description", "Eligibility"],
+      rows: [
+        ["GQ – Gujarat Quota", "75% of seats in government & private colleges", "All Gujarat-eligible candidates"],
+        ["UQ – University Quota", "Reserved for same-university students", "Same university only"],
+        ["MQ – Management Quota", "25% of private seats (higher fee)", "Gujarat-eligible candidates"],
+        ["NRI Quota", "Max 15% of private seats", "All India candidates meeting NRI rules"]
+      ]
+    },
+    {
+      id: "nri-quota",
+      type: "heading",
+      title: "NRI Quota Rules",
+      level: 2
+    },
+    {
+      id: "nri-eligibility",
+      type: "heading",
+      title: "Eligibility:",
+      level: 3
+    },
+    {
+      id: "nri-eligibility-content",
+      type: "paragraph",
+      content: "Candidate or parent must be an NRI. If the father is deceased, a legal guardian who is an NRI may sponsor the candidate. PIOs and OCIs are also eligible."
+    },
+    {
+      id: "nri-documents",
+      type: "heading",
+      title: "Required Documents:",
+      level: 3
+    },
+    {
+      id: "nri-documents-content",
+      type: "paragraph",
+      content: "Passport, Visa, OCI/PIO card, Embassy-issued NRI certificate, Indian & foreign address proofs, and a fee payment undertaking."
+    },
+    {
+      id: "reservation-policy",
+      type: "heading",
+      title: "Reservation Policy in Gujarat PG Medical Counselling",
+      level: 2
+    },
+    {
+      id: "reservation-table",
+      type: "table",
+      headers: ["Category", "Reservation %"],
+      rows: [
+        ["SCBC", "27%"],
+        ["SC", "7%"],
+        ["ST", "15%"],
+        ["EWS", "10%"],
+        ["PWD (Horizontal)", "5%"]
+      ]
+    },
+    {
+      id: "reservation-note",
+      type: "paragraph",
+      content: "Candidates from other states applying under the Gujarat NEET PG counselling process are only eligible for NRI seats and will be treated as Unreserved."
+    },
+    {
+      id: "percentile-criteria",
+      type: "heading",
+      title: "NEET PG Percentile Criteria for Gujarat",
+      level: 2
+    },
+    {
+      id: "percentile-table",
+      type: "table",
+      headers: ["Category", "Cutoff Percentile"],
+      rows: [
+        ["SCBC, SC, ST, UR-PWD, EWS-PWD", "≥ 40 percentile"],
+        ["EWS, UR", "≥ 50 percentile"]
+      ]
+    },
+    {
+      id: "percentile-note",
+      type: "paragraph",
+      content: "SCBC rules differ from OBC rules used in All India NEET PG counselling."
+    },
+    {
+      id: "eligibility-criteria",
+      type: "heading",
+      title: "Eligibility Criteria",
+      level: 2
+    },
+    {
+      id: "eligibility-list",
+      type: "list",
+      items: [
+        "MBBS in Gujarat: Candidates who completed MBBS from a recognized Gujarat university (except AIIMS Rajkot) are eligible.",
+        "MBBS Anywhere + Gujarat 12th: Candidates who studied MBBS outside Gujarat but completed Class 12th in Gujarat or were born in Gujarat.",
+        "Gujarat Domicile: Candidates born in Gujarat with domicile proof can apply."
+      ]
+    },
+    {
+      id: "application-overview",
+      type: "heading",
+      title: "Application Process Overview",
+      level: 2
+    },
+    {
+      id: "application-list",
+      type: "list",
+      items: [
+        "PIN Generation: Purchase a unique PIN online (essential to apply for NEET PG counselling registration).",
+        "Registration: Fill in personal details, upload documents, and pay fees.",
+        "Document Verification: Select a verification center; NRIs must verify at Gandhinagar.",
+        "Merit List & Choice Filling: Follow the official NEET PG counselling schedule for choice filling and locking.",
+        "Allotment: Seat allocation is based on NEET PG rank and preferences.",
+        "Admission: Submit originals, pay tuition fees, and complete joining formalities."
+      ]
+    },
+    {
+      id: "fee-structure",
+      type: "heading",
+      title: "Fee Structure (Per Year)",
+      level: 2
+    },
+    {
+      id: "fee-table",
+      type: "table",
+      headers: ["Seat Type", "Fee Range"],
+      rows: [
+        ["Govt Quota", "₹30k–₹46L"],
+        ["Private MQ", "₹12L–₹59L"],
+        ["NRI Quota", "$23k–$65k"],
+        ["Pre-Clinical", "₹1k–₹12.5L"],
+        ["Para-Clinical", "₹1k–₹32.5L"]
+      ]
+    },
+    {
+      id: "fee-note",
+      type: "paragraph",
+      content: "Some pre-clinical courses are priced as low as ₹1,000/year due to low demand. No bank guarantee required for future fees."
+    },
+    {
+      id: "bond-penalty",
+      type: "heading",
+      title: "Bond and Penalty Details",
+      level: 2
+    },
+    {
+      id: "bond-table",
+      type: "table",
+      headers: ["Type", "Description"],
+      rows: [
+        ["Service Bond", "1-year compulsory bond, ₹40L penalty"],
+        ["Bank Guarantee", "₹10L (for out-of-state candidates)"],
+        ["Discontinuation Penalty", "50% of bond + ₹5L (clinical), ₹2L (clinical diploma), ₹1L (non-clinical)"]
+      ]
+    },
+    {
+      id: "final-tips",
+      type: "heading",
+      title: "Final Tips for NEET PG Career Counselling",
+      level: 2
+    },
+    {
+      id: "tips-list",
+      type: "list",
+      items: [
+        "Don't rush registration; early applications don't improve your rank advantage.",
+        "Keep all documents scanned and verified before uploading.",
+        "Review the Gujarat NEET PG counselling schedule regularly to avoid missing deadlines.",
+        "Understand your NEET PG rank's impact on seat availability before choice filling.",
+        "Consider career counselling for NEET PG if unsure about specializations or college preferences."
+      ]
+    },
+    {
+      id: "conclusion",
+      type: "paragraph",
+      content: "A smooth Gujarat state NEET PG counselling experience comes from preparation and attention to detail. Follow these structured steps and make informed choices to secure your desired postgraduate medical seat."
+    },
+    {
+      id: "faqs",
+      type: "heading",
+      title: "Frequently Asked Questions (FAQs)",
+      level: 2
+    },
+    {
+      id: "faqs-list",
+      type: "faq",
+      faqs: [
+        {
+          question: "Q1. I'm not from Gujarat but did my MBBS there. Can I apply?",
+          answer: "Yes. If you completed MBBS in Gujarat, you're eligible for Government and Management Quota under Gujarat PG medical counselling."
+        },
+        {
+          question: "Q2. How to purchase the PIN?",
+          answer: "Purchase a 14-digit PIN online at medadmgujarat.org to begin NEET PG counselling registration."
+        },
+        {
+          question: "Q3. Is there separate counselling for government and private colleges?",
+          answer: "No. Gujarat runs a unified process under ACPPGMEC covering both government and private institutions."
+        },
+        {
+          question: "Q4. Are fees refundable?",
+          answer: "Application (PIN) fees are non-refundable. However, the security deposit is refundable under specific conditions."
+        },
+        {
+          question: "Q5. Can non-Gujarat candidates apply?",
+          answer: "Only for NRI quota seats, if they meet the official eligibility under Gujarat NEET PG 2025 counselling."
+        },
+        {
+          question: "Q6. What if there's an error during registration?",
+          answer: "Once submitted, edits aren't allowed. Always verify data before payment."
+        },
+        {
+          question: "Q7. When should I register?",
+          answer: "Wait until the second or third day after registration opens to avoid server issues."
+        },
+        {
+          question: "Q8. What documents are required for NRI applications?",
+          answer: "Notarized passport copies, embassy certificate, sponsorship affidavit, and NRI certificate."
+        }
+      ]
+    },
+    {
+      id: "contact-form",
+      type: "contact-form",
+      title: "Submit queries to BelieversConsultancy",
+      content: "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    }
+  ]
+},
+{
+  id: 12,
+  title: "Tamil Nadu NEET PG 2025: Smart Counselling Guide for Government Quota Aspirants",
+  slug: "tamil-nadu-neet-pg-2025-counselling-guide",
+  excerpt: "Tamil Nadu offers extensive postgraduate medical education opportunities through its Government Quota counselling system. A comprehensive guide covering eligibility, registration, fees, and reservation policies.",
+  featured_image: "https://cdn.dribbble.com/userupload/45442253/file/9ebb4e15e40c6628ad591e2bcfefa16a.png?w=1200&h=600&fit=crop",
+  author: {
+    name: "Believers Team",
+    avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  category: {
+    name: "NEET PG",
+    slug: "neet-pg",
+    color: "bg-blue-100 text-blue-800"
+  },
+  tags: ["NEET PG 2025", "Tamil Nadu Counselling", "Government Quota", "Medical Admissions"],
+  published_date: "2025-10-25",
+  read_time: 7,
+  meta_description: "Complete guide to Tamil Nadu NEET PG 2025 Government Quota counselling including eligibility criteria, registration process, fee structure, and reservation policies.",
+  sections: [
+    {
+      id: "intro",
+      type: "paragraph",
+      content: "Tamil Nadu offers extensive postgraduate medical education opportunities through its Government Quota counselling system. Every year, thousands of aspirants register for Tamil Nadu NEET PG counselling to secure seats in both government and private medical colleges at affordable fee structures.\n\nThis blog will provide a detailed guide to Tamil Nadu NEET PG 2025 counselling, covering eligibility criteria, the NEET PG counselling registration process, required documents, reservation policies, fee details, service bonds, and essential rules under Tamil Nadu PG medical counselling."
+    },
+    {
+      id: "registration-timeline",
+      type: "heading",
+      title: "Registration Timeline",
+      level: 2
+    },
+    {
+      id: "timeline-list",
+      type: "list",
+      items: [
+        "Application Start: Already open",
+        "Deadline: 16th September 2025, 5 PM"
+      ]
+    },
+    {
+      id: "timeline-note",
+      type: "paragraph",
+      content: "Applications must be submitted online via the official Tamil Nadu Medical Selection portal.\n\nRound-wise rules for NEET PG allotment, including choice filling, upgrades, and exits, will be announced later as part of the official NEET PG counselling schedule."
+    },
+    {
+      id: "counselling-streams",
+      type: "heading",
+      title: "Separate Counselling Streams in Tamil Nadu",
+      level: 2
+    },
+    {
+      id: "streams-content",
+      type: "paragraph",
+      content: "Tamil Nadu state NEET PG counselling is conducted through two distinct processes:"
+    },
+    {
+      id: "streams-list",
+      type: "list",
+      items: [
+        "Government Quota Counselling – For Tamil Nadu natives and eligible MBBS graduates.",
+        "Management Quota Counselling – For open category seats and non-natives."
+      ]
+    },
+    {
+      id: "streams-note",
+      type: "paragraph",
+      content: "Non-resident candidates who completed MBBS outside Tamil Nadu can apply under the Management Quota through Tamil Nadu medical PG counselling."
+    },
+    {
+      id: "seats-govt-quota",
+      type: "heading",
+      title: "Seats Under Tamil Nadu Government Quota",
+      level: 2
+    },
+    {
+      id: "seats-content",
+      type: "paragraph",
+      content: "Half of the seats in government medical colleges are reserved under the Government Quota for eligible candidates. Additionally, 50% of PG seats in private medical colleges such as PSG, Vellamal, Tagore, Karpagam, and Vinayaka are available under this system.\n\nTuition fees for Government Quota seats are significantly lower compared to Management Quota, making PG counselling in Tamil Nadu one of the most affordable across India."
+    },
+    {
+      id: "eligibility-criteria",
+      type: "heading",
+      title: "Eligibility Criteria",
+      level: 2
+    },
+    {
+      id: "percentile-cutoff",
+      type: "heading",
+      title: "Percentile Cut-off (as per NEET PG 2025)",
+      level: 3
+    },
+    {
+      id: "percentile-list",
+      type: "list",
+      items: [
+        "OC (Open Category): 50th percentile",
+        "PWD (OC): 45th percentile",
+        "BC, MBC, SC, SCA, ST: 40th percentile"
+      ]
+    },
+    {
+      id: "who-eligible",
+      type: "heading",
+      title: "Who is Eligible?",
+      level: 3
+    },
+    {
+      id: "eligible-list",
+      type: "list",
+      items: [
+        "Natives of Tamil Nadu: Even if MBBS was done in another state or abroad (FMGs), you are eligible with a valid Nativity Certificate issued by the Tahsildar.",
+        "MBBS Graduates from Tamil Nadu: Eligible regardless of nativity.",
+        "Natives + MBBS from Tamil Nadu: Eligible under both categories."
+      ]
+    },
+    {
+      id: "not-eligible",
+      type: "heading",
+      title: "Not Eligible:",
+      level: 3
+    },
+    {
+      id: "not-eligible-list",
+      type: "list",
+      items: [
+        "Non-Tamil Nadu natives who studied MBBS in other states.",
+        "Candidates already pursuing or who have completed MD/MS/DNB courses."
+      ]
+    },
+    {
+      id: "reservation",
+      type: "heading",
+      title: "Reservation Breakdown for Government Quota",
+      level: 2
+    },
+    {
+      id: "reservation-list",
+      type: "list",
+      items: [
+        "Backward Class (BC) – 30%",
+        "Most Backward Class (MBC) – 20%",
+        "Scheduled Caste (SC) – 18%",
+        "Within SC, SC(A) – 16% of SC seats (~3% overall)",
+        "Backward Class Muslim (BCM) – 3.5%",
+        "Scheduled Tribe (ST) – 1%"
+      ]
+    },
+    {
+      id: "reservation-note",
+      type: "info-box",
+      boxType: "info",
+      content: "No EWS Reservation under Tamil Nadu State Quota."
+    },
+    {
+      id: "in-service",
+      type: "heading",
+      title: "In-Service Quota",
+      level: 2
+    },
+    {
+      id: "in-service-content",
+      type: "paragraph",
+      content: "Half of the Government Quota seats are reserved for in-service medical professionals as per state rules. In-service candidates receive up to 30% bonus marks based on rural/primary health service.\n\nHowever, recent MRB batches may not qualify in 2025, potentially opening more seats for non-service applicants."
+    },
+    {
+      id: "application-process",
+      type: "heading",
+      title: "Application Process",
+      level: 2
+    },
+    {
+      id: "application-list",
+      type: "list",
+      items: [
+        "Visit tnmedicalselection.net.",
+        "Complete NEET PG counselling registration online.",
+        "Upload self-attested scanned documents, including your NEET PG scorecard.",
+        "Pay ₹3000 application fee (exempted for SC/ST/SCA categories).",
+        "You can apply for NEET PG counselling through the same portal, following the official timeline."
+      ]
+    },
+    {
+      id: "fee-structure",
+      type: "heading",
+      title: "Fee Structure",
+      level: 2
+    },
+    {
+      id: "fee-application",
+      type: "heading",
+      title: "At the Time of Application",
+      level: 3
+    },
+    {
+      id: "fee-application-content",
+      type: "paragraph",
+      content: "Application Fee: ₹3000 (waived for SC/ST/SCA)"
+    },
+    {
+      id: "fee-counselling",
+      type: "heading",
+      title: "During Counselling (Choice Filling Stage)",
+      level: 3
+    },
+    {
+      id: "fee-counselling-list",
+      type: "list",
+      items: [
+        "Registration Fee: ₹1000",
+        "Security Deposit:",
+        "  • Government Colleges – ₹30,000",
+        "  • Private Colleges – ₹1,00,000",
+        "  • Both – ₹1,30,000",
+        "(Refundable within 3 months if not forfeited)"
+      ]
+    },
+    {
+      id: "fee-tuition",
+      type: "heading",
+      title: "Tuition Fees (After Allotment)",
+      level: 3
+    },
+    {
+      id: "fee-tuition-list",
+      type: "list",
+      items: [
+        "Government Colleges – ₹50,000/year",
+        "Private Colleges – ₹3.5 lakh/year (excluding additional charges)"
+      ]
+    },
+    {
+      id: "fee-note",
+      type: "paragraph",
+      content: "These amounts may vary slightly during the NEET PG counselling schedule release."
+    },
+    {
+      id: "penalties-bonds",
+      type: "heading",
+      title: "Penalties & Bonds",
+      level: 2
+    },
+    {
+      id: "discontinuation",
+      type: "heading",
+      title: "Course Discontinuation",
+      level: 3
+    },
+    {
+      id: "discontinuation-content",
+      type: "paragraph",
+      content: "₹15 lakh penalty applies if you discontinue after Round 2. Additional penalties may apply from respective institutes."
+    },
+    {
+      id: "bond-non-service",
+      type: "heading",
+      title: "Service Bond (Non-Service Candidates)",
+      level: 3
+    },
+    {
+      id: "bond-non-service-list",
+      type: "list",
+      items: [
+        "2 years of compulsory service or ₹40 lakh penalty (MD/MS)",
+        "Diploma Courses: 2 years or ₹20 lakh penalty"
+      ]
+    },
+    {
+      id: "bond-in-service",
+      type: "heading",
+      title: "Service Bond (In-Service Candidates)",
+      level: 3
+    },
+    {
+      id: "bond-in-service-list",
+      type: "list",
+      items: [
+        "Service until superannuation or ₹40 lakh penalty",
+        "Proportionate penalty if service is incomplete"
+      ]
+    },
+    {
+      id: "stipend",
+      type: "heading",
+      title: "Stipend for Residents",
+      level: 3
+    },
+    {
+      id: "stipend-list",
+      type: "list",
+      items: [
+        "Year 1: ₹52,451/month",
+        "Expected increment to ₹54,000+ with annual 3% raise"
+      ]
+    },
+    {
+      id: "key-takeaways",
+      type: "heading",
+      title: "Key Takeaways",
+      level: 2
+    },
+    {
+      id: "takeaways-list",
+      type: "list",
+      items: [
+        "Tamil Nadu NEET PG counselling offers affordable seats under the Government Quota compared to the Management Quota.",
+        "Nativity or MBBS from Tamil Nadu are the two main eligibility routes.",
+        "Reservation benefits apply only to TN natives.",
+        "In-service quota influences seat distribution heavily.",
+        "Strict fee and bond regulations; discontinuation can result in major penalties.",
+        "For aspirants, seeking NEET PG counselling guidance or NEET PG career counselling can help navigate seat preferences, eligibility, and college selection."
+      ]
+    },
+    {
+      id: "final-word",
+      type: "heading",
+      title: "Final Word",
+      level: 2
+    },
+    {
+      id: "final-word-content",
+      type: "paragraph",
+      content: "Tamil Nadu NEET PG counselling 2025 is structured yet competitive. Ensure that your documents are ready, your registration is complete before 16th September 2025, and you've understood your NEET PG rank implications for seat selection.\n\nPlan finances for security deposits, tuition fees, and stay updated with the official notifications under the Tamil Nadu state NEET PG counselling."
+    },
+    {
+      id: "faqs",
+      type: "heading",
+      title: "FAQ Section",
+      level: 2
+    },
+    {
+      id: "faqs-list",
+      type: "faq",
+      faqs: [
+        {
+          question: "Q1: Who is eligible for Tamil Nadu Government Quota Counselling?",
+          answer: "Tamil Nadu natives (irrespective of MBBS location) and candidates who completed MBBS from Tamil Nadu are eligible under Tamil Nadu medical pg counselling, subject to NEET PG qualification."
+        },
+        {
+          question: "Q2: What is the application deadline?",
+          answer: "Based on official updates, the deadline for Tamil Nadu NEET PG counselling 2025 registration is 18th September 2025, 5 PM."
+        },
+        {
+          question: "Q3: What documents are required?",
+          answer: "Essential documents include the NEET PG scorecard, the MBBS degree, internship completion certificate, nativity certificate (if applicable), and category certificates."
+        },
+        {
+          question: "Q4: How many rounds of counselling are conducted?",
+          answer: "The DMER typically conducts multiple rounds under the MCC NEET PG counselling framework — including stray vacancy rounds."
+        }
+      ]
+    },
+    {
+      id: "contact-form",
+      type: "contact-form",
+      title: "Submit queries to BelieversConsultancy",
+      content: "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    }
+  ]
+},
+{
+  id: 13,
+  title: "NEET PG 2025 Counselling: Understanding Course Options, Institute Types, and Seat Allocation",
+  slug: "neet-pg-2025-counselling-complete-guide",
+  excerpt: "After months of preparation and completing NEET PG 2025, aspirants now enter the critical stage of counselling. This comprehensive guide covers courses, institutes, quotas, ranks, and seat allocation strategies.",
+  featured_image: "https://cdn.dribbble.com/userupload/45442253/file/9ebb4e15e40c6628ad591e2bcfefa16a.png?w=1200&h=600&fit=crop",
+  author: {
+    name: "Believers Team",
+    avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  category: {
+    name: "NEET PG",
+    slug: "neet-pg",
+    color: "bg-blue-100 text-blue-800"
+  },
+  tags: ["NEET PG 2025", "Counselling Guide", "Course Options", "Seat Allocation", "Medical Admissions"],
+  published_date: "2025-10-25",
+  read_time: 8,
+  meta_description: "Comprehensive guide to NEET PG 2025 counselling covering course options, institute types, seat allocation, quotas, and strategic choice filling for postgraduate medical admissions.",
+  sections: [
+    {
+      id: "intro",
+      type: "paragraph",
+      content: "After months of preparation and completing NEET PG 2025, aspirants now enter the critical stage of NEET PG counselling. Unlike the exam, which tests knowledge, medical pg counselling evaluates strategy, clarity, and decision-making. Making the right choices requires a clear understanding of courses, institutes, quotas, ranks, and seat allocation. This guide covers key aspects of the NEET PG 2025 counselling framework administered by various authorities."
+    },
+    {
+      id: "timeline",
+      type: "heading",
+      title: "Timeline and Expected Schedule",
+      level: 2
+    },
+    {
+      id: "timeline-list",
+      type: "list",
+      items: [
+        "Results: Expected within 10 days of exam completion.",
+        "Counselling Start: Likely by mid-September.",
+        "Preparation Time: About a month after results to organize documentation, review the counselling procedure for NEET PG, and finalize seat preferences."
+      ]
+    },
+    {
+      id: "timeline-note",
+      type: "paragraph",
+      content: "During this period, candidates should prepare documents, review the state counselling for NEET PG notifications, and understand the seat matrix for NEET PG for informed decision-making."
+    },
+    {
+      id: "courses",
+      type: "heading",
+      title: "Courses Available After NEET PG",
+      level: 2
+    },
+    {
+      id: "courses-intro",
+      type: "paragraph",
+      content: "Candidates can choose from multiple postgraduate pathways:"
+    },
+    {
+      id: "courses-list",
+      type: "list",
+      items: [
+        "MD/MS (3 years) – Traditional postgraduate medical degrees.",
+        "PG Diploma (2 years) – Shorter programs; eligible for DNB upgrades via post-diploma CET.",
+        "DNB (3 years) – Hospital-based programs recognized as equivalent to MD/MS.",
+        "NBEMS Diploma (2 years) – Offered in private and government hospitals.",
+        "Direct 6-Year Super-specialty Programs – e.g., Neurosurgery, Pediatric Surgery.",
+        "CPS Programs – Available in Maharashtra and Gujarat with variable recognition."
+      ]
+    },
+    {
+      id: "courses-note",
+      type: "paragraph",
+      content: "These courses influence your NEET PG rank and potential seat allocation under the state quota NEET PG and MCC seat matrix NEET PG."
+    },
+    {
+      id: "institutes",
+      type: "heading",
+      title: "Types of Institutes Offering PG Seats",
+      level: 2
+    },
+    {
+      id: "institutes-list",
+      type: "list",
+      items: [
+        "State Government Medical Colleges – Largest pool; 50% AIQ, 50% state counselling for NEET PG quota.",
+        "Central Universities / Institutes – Managed under the Ministry of Health & Family Welfare.",
+        "Deemed Universities – Autonomous with variable fee structures; some reserve seats for state candidates.",
+        "Private Medical Colleges – Controlled by state quotas; some allow all-India candidates.",
+        "AFMS Institutes – Armed Forces Medical Services; additional medical fitness required.",
+        "NBE-Accredited Hospitals – Offer DNB and NBEMS diploma seats.",
+        "PG-Teaching Institutes – Only postgraduate courses."
+      ]
+    },
+    {
+      id: "authorities",
+      type: "heading",
+      title: "Counselling Authorities",
+      level: 2
+    },
+    {
+      id: "authorities-list",
+      type: "list",
+      items: [
+        "All India Quota (AIQ) – Conducted via MCC NEET PG, open to all eligible candidates.",
+        "State Counselling – Managed by individual states under state counselling for NEET PG, based on domicile or MBBS education.",
+        "AFMS Counselling – Requires medical fitness and priority-based allocation.",
+        "DNB Counselling (NBE) – For hospital-based DNB seats, including in-service candidates."
+      ]
+    },
+    {
+      id: "authorities-note",
+      type: "paragraph",
+      content: "Each seat is a combination of a course and an institute, with eligibility determined by NEET PG rank."
+    },
+    {
+      id: "seat-allocation",
+      type: "heading",
+      title: "Seat Allocation & Rank Analysis",
+      level: 2
+    },
+    {
+      id: "closing-ranks",
+      type: "heading",
+      title: "Understanding Closing Ranks:",
+      level: 3
+    },
+    {
+      id: "closing-ranks-content",
+      type: "paragraph",
+      content: "Historical data provides reference points for NEET PG allotment patterns across categories and institutions. Choice filling in NEET PG must consider both AIQ and state quotas."
+    },
+    {
+      id: "factors",
+      type: "heading",
+      title: "Factors Influencing Seat Availability:",
+      level: 3
+    },
+    {
+      id: "factors-list",
+      type: "list",
+      items: [
+        "Category Rotations – Single-seat shifts across categories.",
+        "Seat Changes – Minimal year-on-year adjustments.",
+        "Counselling Policy Changes – Rules vary by state and round.",
+        "Fees, Stipends, Bonds – Check tuition, hostel charges, stipend reliability, and service bonds."
+      ]
+    },
+    {
+      id: "choice-strategy",
+      type: "heading",
+      title: "Choice List Strategy",
+      level: 2
+    },
+    {
+      id: "choice-list",
+      type: "list",
+      items: [
+        "Shortlist realistic seats within your NEET PG rank range.",
+        "Include backup options for lower-ranked seats.",
+        "Prioritize personal factors: location, stipend, and career goals."
+      ]
+    },
+    {
+      id: "choice-note",
+      type: "paragraph",
+      content: "Choice lists require a careful approach to maximize success during NEET PG counselling mop-up and subsequent rounds."
+    },
+    {
+      id: "special-institutes",
+      type: "heading",
+      title: "Special Institutes & Quotas",
+      level: 2
+    },
+    {
+      id: "deemed-universities",
+      type: "heading",
+      title: "Deemed Universities:",
+      level: 3
+    },
+    {
+      id: "deemed-list",
+      type: "list",
+      items: [
+        "Most seats under AIQ; some reserved for state candidates.",
+        "State quota fees are often lower than AIQ fees."
+      ]
+    },
+    {
+      id: "private-hospitals",
+      type: "heading",
+      title: "Private Hospitals & NBEMS Quota:",
+      level: 3
+    },
+    {
+      id: "private-list",
+      type: "list",
+      items: [
+        "Examples: Sir Ganga Ram, Apollo, Max Hospitals.",
+        "Offer DNB and NBEMS diploma seats under AIQ.",
+        "Sponsored in-service DNB seats are separate."
+      ]
+    },
+    {
+      id: "afms",
+      type: "heading",
+      title: "AFMS Institutes:",
+      level: 3
+    },
+    {
+      id: "afms-list",
+      type: "list",
+      items: [
+        "Registration via AIQ; additional medical fitness required.",
+        "Priority allocation: serving AFMS officers → civilian candidates."
+      ]
+    },
+    {
+      id: "state-private",
+      type: "heading",
+      title: "State Private Institutes:",
+      level: 3
+    },
+    {
+      id: "state-private-list",
+      type: "list",
+      items: [
+        "Follow the state counselling for NEET PG rules.",
+        "Check eligibility, quotas, and round-specific NEET PG choice filling allotment policies."
+      ]
+    },
+    {
+      id: "fmg",
+      type: "heading",
+      title: "FMG Eligibility:",
+      level: 3
+    },
+    {
+      id: "fmg-list",
+      type: "list",
+      items: [
+        "FMGs must check state-specific rules.",
+        "Some states restrict seats to domicile MBBS candidates."
+      ]
+    },
+    {
+      id: "query-support",
+      type: "heading",
+      title: "Query Support & Documentation",
+      level: 2
+    },
+    {
+      id: "support-list",
+      type: "list",
+      items: [
+        "Query Clarification: Dedicated support, updates, and expert assistance.",
+        "Documents: NEET PG scorecard, MBBS degree, internship certificate, medical registration, and category proofs.",
+        "Timeline Awareness: Counselling results are usually released within 10 days after notifications."
+      ]
+    },
+    {
+      id: "conclusion",
+      type: "heading",
+      title: "Conclusion",
+      level: 2
+    },
+    {
+      id: "conclusion-content",
+      type: "paragraph",
+      content: "Neet pg counselling 2025 requires careful planning, understanding courses, institutes, quotas, and smart use of NEET PG rank and seat data. Preparing documents early, analyzing past trends, and building a strategic choice, filling in the NEET PG plan maximizes chances for securing desired seats.\n\nStay informed on NEET PG counselling schedule, registration for NEET PG, and MCC seat matrix neet pg for the best results. Utilizing career counselling, NEET PG can help aspirants navigate the complex counselling procedure for NEET PG."
+    },
+    {
+      id: "faqs",
+      type: "heading",
+      title: "FAQ Section",
+      level: 2
+    },
+    {
+      id: "faqs-list",
+      type: "faq",
+      faqs: [
+        {
+          question: "Q1: When does NEET PG 2025 counselling begin?",
+          answer: "Typically, within 4-6 weeks after the result declaration. AIQ via MCC NEET PG and state counselling rounds are notified officially."
+        },
+        {
+          question: "Q2: What documents are required for NEET PG counselling registration?",
+          answer: "Essential documents include NEET PG scorecard, MBBS degree/provisional certificate, internship completion certificate, medical registration, and category certificates."
+        },
+        {
+          question: "Q3: How to determine seat eligibility with my rank?",
+          answer: "Depends on NEET PG rank, category, state domicile, MBBS completion location, and official seat matrix for NEET PG."
+        },
+        {
+          question: "Q4: Can FMGs participate in all state counselling?",
+          answer: "Eligibility varies. Some states allow FMGs with specific schooling criteria; others restrict seats to domiciled candidates."
+        }
+      ]
+    },
+    {
+      id: "contact-form",
+      type: "contact-form",
+      title: "Submit queries to BelieversConsultancy",
+      content: "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    }
+  ]
+},
+{
+  id: 14,
+  title: "NEET PG 2025 Application Process: Official Timeline and Requirements",
+  slug: "neet-pg-2025-application-process-timeline",
+  excerpt: "NBEMS released the NEET PG 2025 notification on April 16, 2025. Complete step-by-step guide covering registration, documentation, payment, and exam day requirements for NEET PG 2025.",
+  featured_image: "https://cdn.dribbble.com/userupload/45442253/file/9ebb4e15e40c6628ad591e2bcfefa16a.png?w=1200&h=600&fit=crop",
+  author: {
+    name: "Believers Team",
+    avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  category: {
+    name: "NEET PG",
+    slug: "neet-pg",
+    color: "bg-blue-100 text-blue-800"
+  },
+  tags: ["NEET PG 2025", "Application Process", "Registration", "Exam Requirements"],
+  published_date: "2025-10-25",
+  read_time: 7,
+  meta_description: "Complete guide to NEET PG 2025 application process including registration timeline, step-by-step instructions, document requirements, payment process, and exam day guidelines.",
+  sections: [
+    {
+      id: "intro",
+      type: "paragraph",
+      content: "NBEMS released the NEET PG 2025 notification on April 16, 2025, initiating the NEET PG 2025 application process for eligible candidates. Registrations started on April 17 at 3 p.m. and will close on May 7, 2025 (11:55 p.m.). The NBEMS notification officially marked the beginning of the NEET PG 2025 registration process, allowing candidates to complete their NEET PG registration process online through the official portal."
+    },
+    {
+      id: "registration-process",
+      type: "heading",
+      title: "Step-by-Step Registration Process",
+      level: 2
+    },
+    {
+      id: "step-1",
+      type: "heading",
+      title: "1. Create Login ID",
+      level: 3
+    },
+    {
+      id: "step-1-list",
+      type: "list",
+      items: [
+        "Enter personal details (name, DOB, gender, nationality, mobile, email).",
+        "Validate with OTP received on both mobile & email.",
+        "The system generates a unique Application ID (10-digit, prefixed with PG) and password for account access. This marks the start of your NEET PG exam registration journey."
+      ]
+    },
+    {
+      id: "step-2",
+      type: "heading",
+      title: "2. Declaration & Verification",
+      level: 3
+    },
+    {
+      id: "step-2-list",
+      type: "list",
+      items: [
+        "Tick the declaration box.",
+        "Carefully recheck name, email, and mobile number (non-editable later).",
+        "Submit to confirm your Application ID."
+      ]
+    },
+    {
+      id: "step-3",
+      type: "heading",
+      title: "3. Complete the Application Form",
+      level: 3
+    },
+    {
+      id: "step-3-content",
+      type: "paragraph",
+      content: "Fill details in these sections:"
+    },
+    {
+      id: "step-3-list",
+      type: "list",
+      items: [
+        "Personal details",
+        "Identification details (Voter ID, PAN, DL, Passport, Aadhaar allowed on exam day)",
+        "Communication details (both permanent & correspondence address)",
+        "Qualification details (10th, 12th, MBBS, internship completion)",
+        "Test city preference",
+        "Parent details (mother's name required for counselling verification)"
+      ]
+    },
+    {
+      id: "academic-internship",
+      type: "heading",
+      title: "Academic & Internship Details",
+      level: 2
+    },
+    {
+      id: "academic-content",
+      type: "paragraph",
+      content: "Enter MBBS college/university details. Candidates with foreign medical qualifications must enter institution details manually in the designated fields. Text input fields do not accept special characters, including punctuation marks and symbols. Year of passing can be exam date, result date, or certificate date."
+    },
+    {
+      id: "internship-heading",
+      type: "heading",
+      title: "Internship:",
+      level: 3
+    },
+    {
+      id: "internship-list",
+      type: "list",
+      items: [
+        "Incomplete - enter start + likely completion (before July 31, 2025).",
+        "Completed - enter start + end dates. Minor variations are fine."
+      ]
+    },
+    {
+      id: "medical-council",
+      type: "heading",
+      title: "Medical Council Registration",
+      level: 2
+    },
+    {
+      id: "medical-council-list",
+      type: "list",
+      items: [
+        "Enter either provisional or permanent medical council registration number (even if expired).",
+        "Upload PDF (1 MB, multiple pages allowed, not password-protected).",
+        "Update later in the edit window if needed."
+      ]
+    },
+    {
+      id: "medical-council-note",
+      type: "paragraph",
+      content: "This step ensures compliance with official medical counselling registration norms and validates your eligibility for the NEET PG admission process and later the Indian medical counselling PG rounds."
+    },
+    {
+      id: "mbbs-marks",
+      type: "heading",
+      title: "MBBS Marks & Percentage",
+      level: 2
+    },
+    {
+      id: "mbbs-marks-list",
+      type: "list",
+      items: [
+        "Calculate using the total marks obtained by total maximum marks (not yearly averages).",
+        "Enter a percentage up to two decimals.",
+        "Marks are used only in tie-breaking."
+      ]
+    },
+    {
+      id: "category-reservation",
+      type: "heading",
+      title: "Category & Reservation Rules",
+      level: 2
+    },
+    {
+      id: "category-list",
+      type: "list",
+      items: [
+        "General, EWS, OBC, SC, ST categories apply for All India Counselling (50% AIQ + DNB).",
+        "State-specific categories apply only in state counselling.",
+        "OBC - must be on the central list + Non-Creamy Layer (income ₹8 lakh).",
+        "You can shift from OBC/EWS → General later, but not the reverse.",
+        "PWD candidates: select Yes; upload not required now, but a certificate is needed for counselling.",
+        "AFMS option: select Yes for flexibility; you may skip later if uninterested."
+      ]
+    },
+    {
+      id: "city-selection",
+      type: "heading",
+      title: "City Selection",
+      level: 2
+    },
+    {
+      id: "city-list",
+      type: "list",
+      items: [
+        "179 test cities available this year.",
+        "High-demand test centers typically reach capacity quickly during the initial NEET PG registration process period.",
+        "If selecting \"Others\", allotment may be in or near your correspondence city.",
+        "Candidates should consider their location on the examination date when selecting test centers."
+      ]
+    },
+    {
+      id: "document-upload",
+      type: "heading",
+      title: "Document Upload Guidelines",
+      level: 2
+    },
+    {
+      id: "document-list",
+      type: "list",
+      items: [
+        "Photo: 50–80 KB, JPG, 200 DPI, white background, 70–80% face visible, no spectacles.",
+        "Signature: Max 80 KB, scanned at 200 DPI.",
+        "Thumb Impression: Left thumb, clear scan.",
+        "Medical Council Registration: PDF 1 MB."
+      ]
+    },
+    {
+      id: "document-note",
+      type: "paragraph",
+      content: "Mistakes can be corrected in pre-final and final edit windows."
+    },
+    {
+      id: "payment",
+      type: "heading",
+      title: "Payment Process",
+      level: 2
+    },
+    {
+      id: "payment-list",
+      type: "list",
+      items: [
+        "Fee: ₹3,500 (General), ₹2,500 (Reserved).",
+        "Modes: UPI, debit/credit card, net banking.",
+        "Payment failures should be addressed promptly as test center availability may change during processing delays.",
+        "If deducted but pending - wait 2–3 days OR repay to secure a city slot. Refunds are processed later."
+      ]
+    },
+    {
+      id: "payment-note",
+      type: "paragraph",
+      content: "This payment marks the final confirmation of your NEET PG 2025 registration and completion of the NEET PG application process."
+    },
+    {
+      id: "exam-day",
+      type: "heading",
+      title: "Exam Day Instructions",
+      level: 2
+    },
+    {
+      id: "exam-day-carry",
+      type: "heading",
+      title: "Carry:",
+      level: 3
+    },
+    {
+      id: "exam-day-list",
+      type: "list",
+      items: [
+        "Admit card (A4, single-side print)",
+        "Government-issued photo ID",
+        "Registration certificate (print copy acceptable)"
+      ]
+    },
+    {
+      id: "exam-day-note",
+      type: "paragraph",
+      content: "Arrive early for biometric and face verification. PWD candidates using a scribe must have disability documents ready."
+    },
+    {
+      id: "final-word",
+      type: "heading",
+      title: "Final Word",
+      level: 2
+    },
+    {
+      id: "final-word-content",
+      type: "paragraph",
+      content: "From notification to payment, every stage of the NEET PG 2025 registration process has been broken down step by step. Successful completion of the NEET PG registration process ensures eligibility for the upcoming NEET PG admission process, including all India counselling, all India counselling NEET PG, and state counselling rounds conducted by MCC NEET PG counselling registration authorities.\n\nCandidates must also stay updated about MCC NEET PG registration, all all-India counselling process, and all-India medical PG counselling schedules, which form the backbone of seat allotment under the medical counselling registration framework. Systematic attention to detail and timely submission before the official deadline is key to securing your dream postgraduate seat."
+    },
+    {
+      id: "faqs",
+      type: "heading",
+      title: "Frequently Asked Questions (FAQs)",
+      level: 2
+    },
+    {
+      id: "faqs-list",
+      type: "faq",
+      faqs: [
+        {
+          question: "Q1: Can I edit my application after submitting and paying the fees?",
+          answer: "NBE provides limited editing windows for specific fields only. Critical information like name, email, and mobile number cannot be modified after initial submission. The edit window (May 9–13) allows changes to select fields such as test city preferences and some academic details."
+        },
+        {
+          question: "Q2: What should I do if my payment is deducted but the application shows as incomplete?",
+          answer: "If payment is deducted but status remains pending, wait 2–3 days for system processing. If the issue persists, you may need to make an alternate payment to secure your NEET PG exam registration, with the duplicate amount being refunded later by NBE."
+        },
+        {
+          question: "Q3: Is it mandatory to complete an internship before the NEET PG 2025 exam?",
+          answer: "Yes, the internship must be completed on or before July 31, 2025. Candidates with incomplete internships can apply by providing expected completion dates, but must ensure actual completion by the stipulated deadline to remain eligible for MCC NEET PG counselling registration and all India counselling NEET PG."
+        }
+      ]
+    },
+    {
+      id: "contact-form",
+      type: "contact-form",
+      title: "Submit queries to BelieversConsultancy",
+      content: "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    }
+  ]
 }
 
 ];
