@@ -5168,6 +5168,218 @@ export const blogPosts: BlogPost[] = [
       content: "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
     }
   ]
+},
+{
+  id: 15half cutting 
+  ,
+  title: "Understanding the Supreme Court Ruling on Domicile-Based Reservation",
+  slug: "supreme-court-ruling-domicile-based-reservation-neet-pg",
+  excerpt: "The Supreme Court ruling on domicile-based reservation in NEET PG admissions has sparked widespread debate. An objective review of the Court's decisions and their impact on PG medical admissions.",
+  featured_image: "https://cdn.dribbble.com/userupload/45442253/file/9ebb4e15e40c6628ad591e2bcfefa16a.png?w=1200&h=600&fit=crop",
+  author: {
+    name: "Believers Team",
+    avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  category: {
+    name: "NEET PG",
+    slug: "neet-pg",
+    color: "bg-blue-100 text-blue-800"
+  },
+  tags: ["NEET PG", "Supreme Court", "Domicile Reservation", "Legal Update", "Medical Admissions"],
+  published_date: "2025-10-25",
+  read_time: 9,
+  meta_description: "Comprehensive analysis of the Supreme Court ruling on domicile-based reservation in NEET PG admissions, its legal implications, and impact on future PG medical seat allocation.",
+  sections: [
+    {
+      id: "intro",
+      type: "paragraph",
+      content: "Understanding the Supreme Court ruling on domicile-based reservation in NEET PG admissions has sparked widespread debate over its legal and practical impact. This post provides an objective review of the Supreme Court decisions and their immediate effect on PG medical admissions under the state quota, based exclusively on the Court's findings and official sources. We present a chronological account of the case, tracing key developments from the original litigation to the Supreme Court's decision.\n\nAt the end of this guide, you'll find a concise timeline of events and a summary of the most salient points, along with a clarification of myths about the judgment."
+    },
+    {
+      id: "origin",
+      type: "heading",
+      title: "The Origin: The Chandigarh Case",
+      level: 2
+    },
+    {
+      id: "origin-content",
+      type: "paragraph",
+      content: "In its January 29, 2025 ruling on pg medical admissions at GMC Chandigarh, the Supreme Court specifically addressed the legality of the reservation criteria applied to the state quota (not the AIQ). The litigation, initiated by an MBBS graduate from Punjab, contested the local preference system that favored Chandigarh medical graduates, raising constitutional questions about equal opportunity in PG admission medical courses."
+    },
+    {
+      id: "key-judgments",
+      type: "heading",
+      title: "Key Judgments and Legal Precedent",
+      level: 2
+    },
+    {
+      id: "key-judgments-intro",
+      type: "paragraph",
+      content: "The Supreme Court grounded its reasoning in several important Supreme Court decisions, citing established legal precedents that have shaped medical admission policies in India:"
+    },
+    {
+      id: "precedents-list",
+      type: "list",
+      items: [
+        "Dr. Pradeep Jain vs. Union of India (1984): Established that a reservation based on residence or domicile-based reservation is impermissible under Article 14 (right to equality).",
+        "Jagdish Saran & Others vs. Union of India (1980): Suggested that postgraduate courses should admit candidates primarily on an all-India basis through merit, ensuring excellence, but allowed limited institutional preference.",
+        "Dr. Saurabh Choudhury vs. Union of India (2003): Reinforced that institutional preference should not exceed 50% of PG medical seats and that domicile-based reservation is unconstitutional."
+      ]
+    },
+    {
+      id: "high-court",
+      type: "paragraph",
+      content: "The High Court of Chandigarh, relying on these precedents, ruled that residency and property-based clauses for the UT pool were unsustainable. It directed that these seats be filled strictly based on merit from the NEET examination."
+    },
+    {
+      id: "supreme-court-ruling",
+      type: "heading",
+      title: "The Supreme Court's Final Ruling (January 29, 2025)",
+      level: 2
+    },
+    {
+      id: "ruling-intro",
+      type: "paragraph",
+      content: "The High Court's ruling was appealed and ultimately reached the Supreme Court, where a three-judge bench analyzed the constitutionality of domicile-based reservation in pg medical admissions. The bench addressed three core questions:"
+    },
+    {
+      id: "core-questions",
+      type: "list",
+      items: [
+        "Is domicile or residence-based reservation in PG admission medical courses within the state quota constitutionally valid?",
+        "If valid, what should be the extent and method of such reservation?",
+        "If invalid, how should the state quota pg medical seats be filled?"
+      ]
+    },
+    {
+      id: "courts-answers",
+      type: "heading",
+      title: "The Court's Answers",
+      level: 3
+    },
+    {
+      id: "answers-intro",
+      type: "paragraph",
+      content: "The Supreme Court ruling delivered a decisive interpretation:"
+    },
+    {
+      id: "answers-list",
+      type: "list",
+      items: [
+        "Issue 1: On the constitutionality of domicile-based reservation for pg medical seats, the Court declared such policies unconstitutional and impermissible under the Indian Constitution.",
+        "Issue 2: Since domicile-based criteria were invalid, the question of extent became irrelevant.",
+        "Issue 3: The Court upheld the High Court's decision that all state quota pg medical seats must be filled solely by NEET exam merit, with no domicile or residence-based preference."
+      ]
+    },
+    {
+      id: "ruling-summary",
+      type: "paragraph",
+      content: "Thus, the Supreme Court decisions collectively render void any domicile-based reservation tied to residence, years of schooling, or property ownership. However, the Court upheld institutional preference, allowing states to allocate a certain number of PG medical seats to graduates of their own medical colleges.\n\nThe exact percentage of seats for institutional preference was left open for state-level interpretation in future cases."
+    },
+    {
+      id: "impact",
+      type: "heading",
+      title: "Impact on Candidates and Admissions",
+      level: 2
+    },
+    {
+      id: "impact-content",
+      type: "paragraph",
+      content: "Importantly, the ruling does not disturb existing NEET PG admissions. Candidates already admitted under prior domicile-based reservation criteria will continue their programs without any disruption. Their academic progress and degree validity remain secure.\n\nThis clarity ensures that the judgment will affect future pg admission medical cycles, starting from NEET PG 2025 onward, rather than retroactively altering earlier PG medical admissions."
+    },
+    {
+      id: "clarifications",
+      type: "heading",
+      title: "Key Clarifications and Misconceptions",
+      level: 2
+    },
+    {
+      id: "misconception-1",
+      type: "info-box",
+      boxType: "error",
+      content: "Misconception 1: The judgment abolishes the state quota entirely.\n\nFact: The state quota remains intact. The judgment only invalidates residence-based criteria. Institutional preference for students who completed MBBS within the same state is still valid."
+    },
+    {
+      id: "misconception-2",
+      type: "info-box",
+      boxType: "error",
+      content: "Misconception 2: All NEET PG admissions will now occur through a single national counselling.\n\nFact: Incorrect. The standard 50% All India Quota and 50% state quota split continues. The ruling only affects how pg medical seats within the state quota are filled."
+    },
+    {
+      id: "misconception-3",
+      type: "info-box",
+      boxType: "error",
+      content: "Misconception 3: All domicile reservations across India have been scrapped.\n\nFact: The Supreme Court ruling applies specifically to PG medical admissions. It does not automatically extend to undergraduate NEET examination or other professional programs."
+    },
+    {
+      id: "constitutional-implications",
+      type: "heading",
+      title: "Constitutional and Practical Implications",
+      level: 2
+    },
+    {
+      id: "constitutional-content",
+      type: "paragraph",
+      content: "This judgment reinforces the constitutional balance between equality and institutional autonomy. While it limits domicile-based reservation, it allows states to preserve opportunities for their own medical graduates under institutional preference.\n\nFrom a practical perspective, the verdict may increase competition for PG medical seats in states that previously prioritized local candidates. It could also encourage more uniform admission processes across India through centralized merit lists under NEET PG.\n\nAdditionally, candidates applying for admission in NEET PG must now focus primarily on achieving higher ranks in the NEET exam, as domicile will no longer provide an edge."
+    },
+    {
+      id: "future-scope",
+      type: "heading",
+      title: "Future Scope",
+      level: 2
+    },
+    {
+      id: "future-content",
+      type: "paragraph",
+      content: "Given that the Supreme Court's decision leaves the exact limit of institutional preference undefined, further clarification may come through policy reforms or new Supreme Court decisions in response to future disputes.\n\nLegal experts also suggest that states might explore other constitutionally valid frameworks to support regional representation without directly invoking domicile clauses."
+    },
+    {
+      id: "conclusion",
+      type: "heading",
+      title: "Conclusion",
+      level: 2
+    },
+    {
+      id: "conclusion-content",
+      type: "paragraph",
+      content: "In essence, the Supreme Court ruling has categorically struck down domicile-based reservation in NEET PG admissions, reaffirming that all PG medical admissions must prioritize merit from the NEET examination.\n\nHowever, the Court continues to allow limited institutional preference to ensure fairness for students who pursued MBBS from within-state institutions. The \"reasonable extent\" of such preference remains a subject of administrative interpretation.\n\nThis ruling marks a significant shift in India's PG admission medical landscape, underscoring the need for transparency and equality in PG medical seats distribution."
+    },
+    {
+      id: "faqs",
+      type: "heading",
+      title: "FAQs",
+      level: 2
+    },
+    {
+      id: "faqs-list",
+      type: "faq",
+      faqs: [
+        {
+          question: "Q1. What is the main takeaway from the Supreme Court verdict on domicile-based reservation?",
+          answer: "The Court ruled that domicile or residence-based reservation in pg medical admissions is unconstitutional. Admissions must be based strictly on the NEET exam merit."
+        },
+        {
+          question: "Q2. Does this ruling remove the state quota for NEET PG?",
+          answer: "No. The state quota continues as before. The ruling affects only domicile-related policies within that quota."
+        },
+        {
+          question: "Q3. What about candidates already admitted through older domicile policies?",
+          answer: "Their NEET PG admissions remain valid. The decision applies prospectively."
+        },
+        {
+          question: "Q4. What does this mean for future aspirants?",
+          answer: "Aspirants must now focus entirely on performance in the NEET examination to secure admission in NEET PG and PG medical seats, as domicile will no longer be a selection factor."
+        }
+      ]
+    },
+    {
+      id: "contact-form",
+      type: "contact-form",
+      title: "Submit queries to BelieversConsultancy",
+      content: "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    }
+  ]
 }
 
 ];
