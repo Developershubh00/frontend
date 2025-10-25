@@ -3331,7 +3331,7 @@ export const blogPosts: BlogPost[] = [
   "title": "Kerala State PG Counselling 2025: Step-by-Step Guide for Applicants and Service Candidates",
   "slug": "kerala-state-pg-counselling-2025-step-by-step-guide",
   "excerpt": "Complete guide to Kerala NEET PG 2025 state quota counselling covering eligibility, registration process, documentation, reservations, and fees for both general and service candidates.",
-  "featured_image": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/45442251/file/a6696a8c732ebd86e65dfa3004daf32e.jpeg?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
     "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
