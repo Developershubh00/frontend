@@ -56,6 +56,7 @@ import InicetAllotmentsPage from "./INICET/InicetAllotmentsPage";
 import InicetClosingRanksPage from "./INICET/InicetClosingRanksPage";
 import InicetSeatMatrixPage from "./INICET/InicetSeatMatrixPage";
 import InicetFeeStipendPage from "./INICET/InicetFeeStipendPage";
+import WhatsAppSupport from "./components/WhatsAppSupport";
 import BlogList from "./pages/BlogList";
 import BlogDetail from "./pages/BlogDetail";
 // import NEETPGCategoryChangeBlog from "./Blogs/NEETPGCategoryChangeBlog";
