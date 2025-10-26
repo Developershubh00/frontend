@@ -42,298 +42,6 @@ export interface Section {
 }
 
 export const blogPosts: BlogPost[] = [
-//   {
-//     id: 1,
-//     title: "NRI Category Seats in NEET PG 2025: Understanding the New MEA Guidelines",
-//     slug: "nri-category-seats-neet-pg-2025-mea-guidelines",
-//     excerpt: "The NRI quota has always been the most important gateway for candidates aiming to secure a postgraduate medical seat in India. However, recent MEA notifications have created significant changes.",
-//     featured_image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=1200&h=600&fit=crop",
-//     author: {
-//       name: "Believers Team",
-//       avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
-//       bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
-//     },
-//     category: {
-//       name: "NEET PG",
-//       slug: "neet-pg",
-//       color: "bg-blue-100 text-blue-800"
-//     },
-//     tags: ["NEET PG 2025", "NRI Quota", "MEA Guidelines", "Medical Admissions"],
-//     published_date: "2024-12-15",
-//     read_time: 5,
-//     meta_description: "Complete guide to NRI category seats in NEET PG 2025 with new MEA guidelines, eligibility criteria, and documentation requirements.",
-//     sections: [
-//       {
-//         id: "intro",
-//         type: "paragraph",
-//         content: "The NRI (Non-Resident Indian) quota has always been the most important gateway for all the candidates who are aiming to secure a postgraduate medical seat in India. However, with the recent Ministry of External Affairs (MEA) notifications, the process of acquiring an NRI certificate from Indian embassies abroad has seen remarkable changes. These changes have created some confusion for many NEET PG 2025 aspirants.\n\nThis blog explains the updated details, eligibility, and other documentation challenges so that candidates can be clear about how these rules impact All India Counselling and State Counselling."
-//       },
-//       {
-//         id: "why-change",
-//         type: "heading",
-//         title: "Why This Change Matters",
-//         level: 2
-//       },
-//       {
-//         id: "why-change-content",
-//         type: "paragraph",
-//         content: "Commonly, NRI eligibility and documentation varied across states and institutions. While many states depend on an embassy-issued NRI certificate, there is no systematic format. To make the process smooth, the MEA has issued fresh guidelines in 2024 (first for NEET UG) and now it has been extended for NEET PG 2025, which regulates who can be issued an NRI certificate for their educational purposes."
-//       },
-//       {
-//         id: "why-change-alert",
-//         type: "info-box",
-//         boxType: "warning",
-//         content: "As a result, many PG aspirants are struggling to secure the valid embassy certificates, especially for those who depend upon their relatives for NRI sponsorship."
-//       },
-//       {
-//         id: "eligibility",
-//         type: "heading",
-//         title: "Who Is Eligible for NRI Seats?",
-//         level: 2
-//       },
-//       {
-//         id: "eligibility-intro",
-//         type: "paragraph",
-//         content: "Eligibility for NRI quota seats is not uniform. It depends on whether you are applying through All India Counselling (MCC) or State Counselling."
-//       },
-//       {
-//         id: "eligibility-cards",
-//         type: "cards",
-//         cards: [
-//           {
-//             id: "direct-nri",
-//             title: "Direct NRI Candidates",
-//             color: "green",
-//             items: [
-//               "If you are an NRI yourself, you are eligible.",
-//               "Proof: Residence abroad for more than 180 days and an embassy-issued NRI certificate."
-//             ]
-//           },
-//           {
-//             id: "children-nri",
-//             title: "Children of NRI Parents",
-//             color: "blue",
-//             items: [
-//               "If either parent is an NRI, you qualify for the NRI quota in most states.",
-//               "An embassy certificate of the parent is required."
-//             ]
-//           },
-//           {
-//             id: "sponsored",
-//             title: "Sponsored Candidates ⚠️",
-//             color: "red",
-//             items: [
-//               "Previously allowed sponsorship by relatives",
-//               "Now restricted to minor wards only",
-//               "Adult candidates (22+) are effectively blocked"
-//             ]
-//           }
-//         ]
-//       },
-//       {
-//         id: "mea-guidelines",
-//         type: "heading",
-//         title: "MEA Guidelines: What Changed?",
-//         level: 2
-//       },
-//       {
-//         id: "mea-content",
-//         type: "paragraph",
-//         content: "The new MEA notification has been circulated to all the Indian embassies and commissions abroad, specifying:"
-//       },
-//       {
-//         id: "mea-eligible",
-//         type: "info-box",
-//         boxType: "success",
-//         content: "✅ Eligibility for NRI Certificate (Educational Purposes):\n• NRI candidates themselves\n• Children of NRIs\n• Wards only if minors under genuine guardianship"
-//       },
-//       {
-//         id: "mea-excluded",
-//         type: "info-box",
-//         boxType: "error",
-//         content: "❌ Exclusions:\nAdult wards or relatives (e.g., cousins, uncles, aunts) cannot be issued sponsorship-based NRI certificates. This is why many PG aspirants are being denied certificates at embassies, especially in the US and UAE."
-//       },
-//       {
-//         id: "impact-counselling",
-//         type: "heading",
-//         title: "Impact on NEET PG 2025 Counselling",
-//         level: 2
-//       },
-//       {
-//         id: "impact-cards",
-//         type: "cards",
-//         cards: [
-//           {
-//             id: "all-india",
-//             title: "All India Counselling (Deemed Universities)",
-//             color: "blue",
-//             items: [
-//               "Only deemed universities have NRI seats under MCC",
-//               "15% of deemed university seats are reserved for NRIs",
-//               "Till 2024, sponsorship by first-degree relatives was valid",
-//               "From 2025, only NRIs themselves or children of NRIs will likely be recognized under Priority 1"
-//             ]
-//           },
-//           {
-//             id: "state-counselling",
-//             title: "State Counselling",
-//             color: "purple",
-//             items: [
-//               "Many states reserve 15% of private medical seats under NRI quota",
-//               "Some states give priority to their own NRI candidates first",
-//               "If embassy certificates cannot be issued to adult wards, sponsorship eligibility may collapse"
-//             ]
-//           }
-//         ]
-//       },
-//       {
-//         id: "priority-system",
-//         type: "info-box",
-//         boxType: "info",
-//         content: "Priority System Introduced:\n\nPriority 1: NRI candidates and children of NRIs\nPriority 2: First- or second-degree relatives sponsoring wards (practically blocked due to 'minor only' rule)\n\nThis means direct NRI candidates and children of NRIs will have a clear advantage, while relatives-based sponsorship faces uncertainty."
-//       },
-//       {
-//         id: "documentation",
-//         type: "heading",
-//         title: "Documentation Requirements",
-//         level: 2
-//       },
-//       {
-//         id: "documentation-intro",
-//         type: "paragraph",
-//         content: "If you are applying under the NRI category, keep these documents ready:"
-//       },
-//       {
-//         id: "documentation-list",
-//         type: "list",
-//         items: [
-//           "Embassy-issued NRI Certificate (valid for only 1 year)",
-//           "Passport & Visa copies (of NRI candidate/parent)",
-//           "Relationship proof (Birth certificate, family tree affidavit)",
-//           "Affidavit (for financial sponsorship, if applicable)",
-//           "NEET PG Scorecard",
-//           "Self-declaration by the candidate"
-//         ]
-//       },
-//       {
-//         id: "documentation-note",
-//         type: "info-box",
-//         boxType: "error",
-//         content: "📌 Note: Old NRI certificates issued last year are not valid for NEET PG 2025."
-//       },
-//       {
-//         id: "challenges",
-//         type: "heading",
-//         title: "The Challenge for PG Aspirants",
-//         level: 2
-//       },
-//       {
-//         id: "challenges-cards",
-//         type: "cards",
-//         cards: [
-//           {
-//             id: "ug-candidates",
-//             title: "✅ For UG Candidates",
-//             color: "green",
-//             items: [
-//               "Relatives can still sponsor undergraduate (UG) candidates who are minors."
-//             ]
-//           },
-//           {
-//             id: "pg-candidates",
-//             title: "❌ For PG Candidates",
-//             color: "red",
-//             items: [
-//               "Postgraduate (PG) candidates (adults) cannot obtain sponsorship certificates from embassies if they are not children of an NRI."
-//             ]
-//           }
-//         ]
-//       },
-//       {
-//         id: "challenge-key",
-//         type: "info-box",
-//         boxType: "warning",
-//         content: "Key Issue: Many embassies are now outright refusing to issue sponsorship-based NRI certificates for PG candidates. This creates significant problems for candidates who depend on uncles, aunts, or grandparents for eligibility."
-//       },
-//       {
-//         id: "practical-implications",
-//         type: "heading",
-//         title: "Practical Implications for Candidates",
-//         level: 2
-//       },
-//       {
-//         id: "practical-aspirants",
-//         type: "heading",
-//         title: "For Current NEET PG Aspirants",
-//         level: 3
-//       },
-//       {
-//         id: "practical-list",
-//         type: "list",
-//         items: [
-//           "If you are an NRI yourself or child of an NRI, the process is still straightforward, but documentation requirements are more stringent",
-//           "Sponsorship by extended family (uncle, aunt, grandmother) is no longer possible for adult candidates",
-//           "OCI/PIO status holders may benefit from reduced competition due to fewer eligible sponsored candidates"
-//         ]
-//       },
-//       {
-//         id: "financial",
-//         type: "heading",
-//         title: "💰 Financial Considerations",
-//         level: 3
-//       },
-//       {
-//         id: "financial-list",
-//         type: "list",
-//         items: [
-//           "NRI quota seats cost 3-5 times higher than general seats",
-//           "With concentrated demand among eligible candidates, remaining NRI seats may become even more expensive",
-//           "Limited eligibility may lead to increased competition and higher fees"
-//         ]
-//       },
-//       {
-//         id: "final-word",
-//         type: "info-box",
-//         boxType: "info",
-//         content: "Final Word\n\nNRI eligibility for NEET PG 2025 has been restricted by the new MEA guidelines. This has simplified the process for direct NRIs and their children, but created challenges for candidates dependent on extended family sponsorship.\n\nIf you are a candidate, please confirm your eligibility and required documents thoroughly before counselling starts.\n\nThe path remains open for genuine NRI candidates, but the biggest challenge for sponsored candidates this year will be obtaining embassy certificates."
-//       },
-//       {
-//         id: "faqs",
-//         type: "heading",
-//         title: "Frequently Asked Questions",
-//         level: 2
-//       },
-//       {
-//         id: "faqs-list",
-//         type: "faq",
-//         faqs: [
-//           {
-//             question: "Q1. Who can get an educational NRI certificate from an Indian Mission/Post?",
-//             answer: "Issued only to NRIs, their children, or minors under guardianship. Adult-ward sponsorships aren't allowed. Valid for one year."
-//           },
-//           {
-//             question: "Q2. Will MCC PG follow UG's NRI priority system?",
-//             answer: "Likely similar, but wait for the latest MCC PG notice before assuming allotment priority."
-//           },
-//           {
-//             question: "Q3. Can extended relatives sponsor a PG candidate for an NRI certificate?",
-//             answer: "No. 'Ward' means a minor; adult candidates cannot use extended-relative sponsorship. Use parent NRI proof or apply under NRI/OCI/PIO rules."
-//           },
-//           {
-//             question: "Q4. What documents are needed for NRI admission?",
-//             answer: "Valid NRI certificate, NRI parent/candidate passport & visa, relationship proof, NEET PG scorecard, and state forms. Originals verified at reporting."
-//           }
-//         ]
-//       },
-//       {
-//         id: "contact-form",
-//         type: "contact-form",
-//         title: "Submit queries to Believers Consultancy",
-//         content: "Have a question beyond these FAQs? Submit the Google Form and our team will respond during 9 AM–7 PM support hours."
-//       }
-//     ]
-//   },
-
     {
     id: 1,
     title: "NRI Category Seats in NEET PG 2025: Understanding the New MEA Guidelines",
@@ -5377,6 +5085,538 @@ export const blogPosts: BlogPost[] = [
       type: "contact-form",
       title: "Submit queries to BelieversConsultancy",
       content: "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    }
+  ]
+},
+{
+  "id": 16,
+  "title": "Understanding Deemed and Private Colleges for NEET PG Admissions",
+  "slug": "deemed-private-colleges-neet-pg-admissions",
+  "excerpt": "A comprehensive guide to understanding the key differences between deemed universities and private medical colleges for NEET PG 2025 aspirants, including counselling processes, fee structures, and admission strategies.",
+  "featured_image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-purple-100 text-purple-800"
+  },
+  "tags": ["NEET PG", "Deemed Universities", "Private Colleges", "Medical Admissions", "Counselling Strategy"],
+  "published_date": "2025-10-26",
+  "read_time": 6,
+  "meta_description": "Complete guide to deemed and private medical colleges for NEET PG admissions. Learn about counselling processes, fee structures, quota systems, and admission strategies.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "As a medical aspirant, choosing the right college for your postgraduate education can feel overwhelming, especially with terms like deemed universities, private medical colleges, management quota, and state counselling thrown around. For NEET PG 2025 aspirants, clearly understanding these differences is crucial for planning counselling strategies, fees, and seat preferences.\n\nThis guide breaks down the difference between deemed and private medical colleges in India and explains their implications for students."
+    },
+    {
+      "id": "deemed-universities",
+      "type": "heading",
+      "title": "Understanding Deemed Universities",
+      "level": 2
+    },
+    {
+      "id": "deemed-intro",
+      "type": "paragraph",
+      "content": "There are roughly 45 deemed-to-be universities that offer MD/MS seats, and their PG seats are handled under the central counselling framework. These institutes are conferred 'deemed-to-be-university' status by the UGC, which grants academic autonomy under central oversight.\n\nAutonomy typically includes conducting examinations, designing curricula within NMC norms, and independently managing academic processes.\n\nSome public institutions also have deemed status, but the focus here is on private deemed institutes that offer MD/MS seats."
+    },
+    {
+      "id": "deemed-key-points",
+      "type": "heading",
+      "title": "Key Points About Deemed Universities:",
+      "level": 3
+    },
+    {
+      "id": "deemed-points",
+      "type": "list",
+      "items": [
+        "Counselling: 100% of seats are filled through All India Counselling conducted by the MCC.",
+        "Deemed universities commonly earmark around 15% of PG seats for NRI category under MCC.",
+        "Although the NMC Act, 2019 contemplates regulating a portion of seats at near-government fee levels, implementation for deemed PG fees has faced legal challenges; currently, institutes continue to set their own fee schedules.",
+        "Within a given deemed institute, a specialty typically has one Management fee and one NRI fee, rather than multiple state-style sub-quotas."
+      ]
+    },
+    {
+      "id": "private-colleges",
+      "type": "heading",
+      "title": "Understanding Private Medical Colleges",
+      "level": 2
+    },
+    {
+      "id": "private-intro",
+      "type": "paragraph",
+      "content": "Hundreds of private PG-offering colleges operate under state frameworks, either affiliated to state health/science universities or created via state private-university acts, with state oversight of admissions and fees."
+    },
+    {
+      "id": "private-key-points",
+      "type": "heading",
+      "title": "Key Points About Private Medical Colleges:",
+      "level": 3
+    },
+    {
+      "id": "private-points",
+      "type": "list",
+      "items": [
+        "Several states create internal categories, such as government-quota, open or management, and minority quotas, with fee differences by category.",
+        "Quota Variations: Many states have different seat categories like government quota seats (with lower fees), open quota seats, and minority quota seats (religious or semantic).",
+        "Fee Regulation: States constitute fee regulatory bodies (often judicially led) to review institutional submissions and notify fees, though practices and 'extras' vary by state.",
+        "Examples include established private institutions in Tamil Nadu, Karnataka, and Rajasthan that participate in state counselling."
+      ]
+    },
+    {
+      "id": "minority-quotas",
+      "type": "heading",
+      "title": "Minority and Linguistic Quotas",
+      "level": 2
+    },
+    {
+      "id": "minority-content",
+      "type": "paragraph",
+      "content": "Minority policies vary: some deemed and private institutions have notified religious or linguistic minority categories under their respective counselling authorities.\n\nReligious Minorities include: Jain, Muslim, Christian, Sikh, Buddhist\n\nLinguistic Minorities include: Tamil, Telugu, Malayalam, and others, depending on the state\n\nThese quotas give community candidates access to seats at specific colleges even if they're from other states."
+    },
+    {
+      "id": "karnataka-special",
+      "type": "heading",
+      "title": "Special Case: Karnataka's Low-Fee Seats in Deemed Universities",
+      "level": 2
+    },
+    {
+      "id": "karnataka-content",
+      "type": "info-box",
+      "boxType": "info",
+      "content": "While deemed universities generally offer seats only through All India Counselling, five Karnataka-based deemed universities (JSS, K.S. Hegde, Kasturba Manipal, Kasturba Mangalore, Yenepoya) also allocate a small percentage of seats through Karnataka's state quota at significantly lower fees (as low as ₹1.5–7 lakh per year compared to ₹26 lakh).\n\nIf you are eligible under Karnataka's domicile or reserved categories, these seats are worth exploring."
+    },
+    {
+      "id": "identification",
+      "type": "heading",
+      "title": "How to Identify a College's Category",
+      "level": 2
+    },
+    {
+      "id": "identification-content",
+      "type": "paragraph",
+      "content": "Confirm on official portals: deemed institutes appear under MCC's All India counselling, while private colleges list under state portals; institute pages indicate the applicable counselling channel."
+    },
+    {
+      "id": "recap",
+      "type": "heading",
+      "title": "Quick Recap: Key Takeaways",
+      "level": 2
+    },
+    {
+      "id": "recap-list",
+      "type": "list",
+      "items": [
+        "Deemed: centrally handled counselling, institute-set fees, and broad academic autonomy.",
+        "Private: state counselling with category structures and notified fees subject to state regulation.",
+        "Eligibility varies: some states are open to all NEET-qualified candidates; others restrict to domicile/institutional criteria.",
+        "Fees: deemed PG fees remain institute-determined pending any enforceable regulation; state-regulated fees for private colleges can still vary in practice."
+      ]
+    },
+    {
+      "id": "final-thoughts",
+      "type": "heading",
+      "title": "Final Thoughts",
+      "level": 2
+    },
+    {
+      "id": "final-content",
+      "type": "paragraph",
+      "content": "The choice between a deemed and private medical college depends on your eligibility, financial planning, and counselling strategy. While deemed universities offer centralised admissions and uniform policies, private colleges often come with quota advantages and potentially lower fees. Given ongoing judicial directions around fee oversight and transparency, rely on official counselling portals for the latest notices before choice filling. Staying updated through official counselling portals and reliable sources can help you make informed decisions and secure the right seat for your NEET PG journey."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1. What is the main difference between deemed universities and private medical colleges for NEET PG?",
+          "answer": "Deemed universities participate in MCC's All India Counselling with institute-set fees and uniform specialty-wise pricing; private colleges participate in state counselling with varied quotas (government/open/minority) and state-regulated fees that can still vary in practice."
+        },
+        {
+          "question": "Q2. Are fees generally higher in deemed universities than in private colleges?",
+          "answer": "Yes, deemed universities typically have higher, institution-decided fees, while private colleges have fees overseen by state Fee Regulatory Authorities; however, private colleges may include additional charges and variation across states."
+        },
+        {
+          "question": "Q3. Can non-domicile candidates apply to private colleges in other states?",
+          "answer": "It depends on the state policy. Some states allow all-India candidates for private seats, while others restrict certain categories to domiciles; always check the respective state counselling brochure before choice filling."
+        },
+        {
+          "question": "Q4. Is it true that some deemed university seats in Karnataka are available at lower fees through state counselling?",
+          "answer": "Yes. A limited portion of seats in select Karnataka deemed universities are routed via KEA state counselling at significantly lower fees than typical deemed management categories; eligibility and availability should be verified against the latest KEA notifications."
+        }
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    }
+  ]
+},
+{
+  "id": 17,
+  "title": "Odisha NEET PG 2025 Counselling: Complete Guide for Candidates",
+  "slug": "odisha-neet-pg-2025-counselling-guide",
+  "excerpt": "Comprehensive guide to Odisha NEET PG counselling 2025 covering eligibility, registration process, reservation policy, service bonds, fee structure, and document requirements for state medical admissions.",
+  "featured_image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-purple-100 text-purple-800"
+  },
+  "tags": ["NEET PG", "Odisha Counselling", "State Quota", "Medical Admissions", "Service Bond"],
+  "published_date": "2025-10-26",
+  "read_time": 8,
+  "meta_description": "Complete guide to Odisha NEET PG 2025 counselling with detailed information on eligibility, closed-state policy, reservation, service bonds, fee structure, and application process.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "Odisha NEET PG counselling 2025 has been officially announced, marking the beginning of the admission process for postgraduate medical seats across the state. As a closed-state counselling system, Odisha conducts a single centralized counselling for both government and private medical colleges.\n\nIf you're planning to apply for Odisha PG medical counselling, understanding the eligibility, registration process, reservation rules, service bond conditions, and fee structure is crucial. This comprehensive guide offers detailed NEET PG counselling guidance to help you navigate every step of the NEET PG counselling process confidently."
+    },
+    {
+      "id": "key-features",
+      "type": "heading",
+      "title": "Key Features of Odisha NEET PG Counselling",
+      "level": 2
+    },
+    {
+      "id": "key-features-list",
+      "type": "list",
+      "items": [
+        "Centralized Process: A single authority conducts Odisha state NEET PG counselling for all government and private medical colleges.",
+        "Closed-State Policy: Only permanent residents of Odisha or those who completed MBBS from a government medical college in Odisha via the All India Quota (AIQ) are eligible.",
+        "No NRI Quota: Odisha does not have an NRI quota in its Odisha medical PG counselling.",
+        "Seat Distribution: 50% seats for Direct (non-service) candidates and 50% for In-service candidates.",
+        "Hybrid Model: Rounds 1 and 2 are online, while Round 3 and Mop-up rounds are conducted offline."
+      ]
+    },
+    {
+      "id": "key-features-note",
+      "type": "paragraph",
+      "content": "These features make Odisha NEET PG counselling unique compared to other states and highlight why candidates must plan carefully before applying for NEET PG counselling."
+    },
+    {
+      "id": "application-process",
+      "type": "heading",
+      "title": "Application Process for Odisha NEET PG Counselling 2025",
+      "level": 2
+    },
+    {
+      "id": "application-intro",
+      "type": "paragraph",
+      "content": "Here's a complete breakdown of the NEET PG counselling registration and application process:"
+    },
+    {
+      "id": "application-steps",
+      "type": "heading",
+      "title": "Step-by-Step Application Guide",
+      "level": 3
+    },
+    {
+      "id": "application-steps-list",
+      "type": "list",
+      "items": [
+        "Fee Payment: Begin by paying the non-refundable registration fee of ₹2,500 through the SBI Collect portal.",
+        "Online Registration: Complete the online registration form with accurate personal and academic details, and create a secure password for future logins.",
+        "Document Upload: Upload scanned copies of your photograph and signature as per the official format.",
+        "Physical Verification: After completing online registration, candidates must report to a designated center for document verification with all original certificates."
+      ]
+    },
+    {
+      "id": "application-note",
+      "type": "paragraph",
+      "content": "This NEET PG counselling process ensures fair selection based on merit and eligibility."
+    },
+    {
+      "id": "seat-distribution",
+      "type": "heading",
+      "title": "Seat Distribution in Odisha NEET PG Counselling",
+      "level": 2
+    },
+    {
+      "id": "seat-distribution-content",
+      "type": "paragraph",
+      "content": "In Odisha PG medical counselling, seats are divided equally:\n\n50% Direct Category (Open Merit)\n\n50% In-Service Category\n\nThese categories are mutually exclusive, meaning a Direct candidate cannot claim an In-service seat and vice versa.\n\nThis even distribution ensures both practicing doctors and fresh graduates have equal opportunities during NEET PG allotment."
+    },
+    {
+      "id": "eligibility",
+      "type": "heading",
+      "title": "Eligibility Criteria for Odisha NEET PG Counselling 2025",
+      "level": 2
+    },
+    {
+      "id": "eligibility-intro",
+      "type": "paragraph",
+      "content": "Candidates must qualify in NEET PG 2025 to participate in Odisha NEET PG counselling 2025."
+    },
+    {
+      "id": "eligibility-cutoff",
+      "type": "heading",
+      "title": "Cutoff Percentiles:",
+      "level": 3
+    },
+    {
+      "id": "eligibility-cutoff-list",
+      "type": "list",
+      "items": [
+        "General/EWS: Minimum 50th percentile",
+        "SC/ST/OBC: Minimum 40th percentile",
+        "UR-PwD: Minimum 45th percentile"
+      ]
+    },
+    {
+      "id": "eligibility-note",
+      "type": "paragraph",
+      "content": "Note: OBC candidates have no separate reservation in Odisha but can apply if they meet the percentile criteria."
+    },
+    {
+      "id": "who-can-apply",
+      "type": "heading",
+      "title": "Who Can Apply for Odisha NEET PG Counselling?",
+      "level": 3
+    },
+    {
+      "id": "who-can-apply-content",
+      "type": "paragraph",
+      "content": "Eligibility extends to:"
+    },
+    {
+      "id": "who-can-apply-list",
+      "type": "list",
+      "items": [
+        "Permanent Residents: Candidates with a valid Odisha Resident Certificate (with a QR code).",
+        "AIQ Graduates from Odisha: Non-domiciled candidates who completed their MBBS from a government medical college in Odisha through the All India Quota (AIQ)."
+      ]
+    },
+    {
+      "id": "who-can-apply-note",
+      "type": "paragraph",
+      "content": "This restricted eligibility is what makes Odisha a closed-state counselling system."
+    },
+    {
+      "id": "reservation",
+      "type": "heading",
+      "title": "Reservation Policy in Odisha Medical PG Counselling",
+      "level": 2
+    },
+    {
+      "id": "reservation-intro",
+      "type": "paragraph",
+      "content": "Odisha follows its own state norms for reservation."
+    },
+    {
+      "id": "reservation-list",
+      "type": "list",
+      "items": [
+        "SC/ST: As per Odisha government norms",
+        "Green Card Holders: 5% reservation",
+        "Ex-Servicemen: 3% reservation",
+        "PwD Candidates: Reserved seats, not horizontally across all categories",
+        "Management quota seats in private medical colleges are open only to UR candidates."
+      ]
+    },
+    {
+      "id": "in-service-incentives",
+      "type": "heading",
+      "title": "Incentives for In-Service Candidates",
+      "level": 2
+    },
+    {
+      "id": "in-service-content",
+      "type": "paragraph",
+      "content": "In-service doctors applying through Odisha NEET PG counselling 2025 receive several benefits:"
+    },
+    {
+      "id": "in-service-list",
+      "type": "list",
+      "items": [
+        "50% of total seats reserved for In-service candidates",
+        "Additional weightage marks based on years and place of service",
+        "Bonus marks: 2.5%, 5%, 7.5%, or 10% based on the category of healthcare center (V1–V4)",
+        "Maternity leave counts toward service duration for weightage",
+        "Diploma holders are not eligible for incentives",
+        "Weightage affects only the service merit list and not the direct merit list."
+      ]
+    },
+    {
+      "id": "documents",
+      "type": "heading",
+      "title": "Documents Required for Odisha State NEET PG Counselling",
+      "level": 2
+    },
+    {
+      "id": "documents-intro",
+      "type": "paragraph",
+      "content": "Candidates must present original and scanned copies of the following during physical verification:"
+    },
+    {
+      "id": "documents-list",
+      "type": "list",
+      "items": [
+        "NEET PG 2025 Admit Card",
+        "NEET PG Scorecard",
+        "HSC and MBBS Marksheets",
+        "Internship Completion Certificate",
+        "Medical Registration Certificate (State/NMC)",
+        "Transfer/College Leaving Certificate",
+        "Resident Certificate (with QR code)",
+        "Category/Service Certificate (if applicable)",
+        "Service Bond Document"
+      ]
+    },
+    {
+      "id": "documents-note",
+      "type": "paragraph",
+      "content": "Having these documents organized beforehand ensures a smooth Odisha PG medical counselling experience."
+    },
+    {
+      "id": "fee-structure",
+      "type": "heading",
+      "title": "Fee Structure, Bonds, and Stipend",
+      "level": 2
+    },
+    {
+      "id": "tuition-fees",
+      "type": "heading",
+      "title": "1. Tuition Fees",
+      "level": 3
+    },
+    {
+      "id": "tuition-fees-list",
+      "type": "list",
+      "items": [
+        "Government Medical Colleges: Around ₹35,000 annually",
+        "Private Colleges: Full first-year tuition fee payable at admission",
+        "Stay updated on private college fees (e.g., Hi-Tech Medical College) as they are under periodic review."
+      ]
+    },
+    {
+      "id": "payment-mode",
+      "type": "heading",
+      "title": "2. Payment Mode",
+      "level": 3
+    },
+    {
+      "id": "payment-mode-list",
+      "type": "list",
+      "items": [
+        "Rounds 1 & 2: Online via SBI Collect",
+        "Rounds 3 & Mop-up: Offline payment (usually via Demand Draft)",
+        "Carrying a DD is advised to avoid online transaction delays during NEET PG counselling schedule deadlines."
+      ]
+    },
+    {
+      "id": "penalties-bond",
+      "type": "heading",
+      "title": "3. Penalties & Bond",
+      "level": 3
+    },
+    {
+      "id": "penalties-bond-list",
+      "type": "list",
+      "items": [
+        "Resignation after Mop-up/Stray Vacancy: ₹10 lakh + stipend refund",
+        "Service Bond: Mandatory 2-year service",
+        "Non-service penalty: Around ₹66 lakh (approximately double the stipend)"
+      ]
+    },
+    {
+      "id": "stipend-structure",
+      "type": "heading",
+      "title": "4. Stipend Structure",
+      "level": 3
+    },
+    {
+      "id": "stipend-table",
+      "type": "table",
+      "headers": ["Year", "Monthly Stipend"],
+      "rows": [
+        ["1st Year", "₹70,000"],
+        ["2nd Year", "₹74,000"],
+        ["3rd Year", "₹77,000"]
+      ]
+    },
+    {
+      "id": "stipend-note",
+      "type": "paragraph",
+      "content": "Pre-clinical and para-clinical residents may receive an additional ₹18,000 monthly.\n\nThis transparent financial system makes Odisha medical PG counselling predictable and fair for all candidates."
+    },
+    {
+      "id": "final-word",
+      "type": "heading",
+      "title": "Final Word",
+      "level": 2
+    },
+    {
+      "id": "final-content",
+      "type": "paragraph",
+      "content": "The Odisha NEET PG counselling 2025 process is systematic and straightforward but demands attention to detail. Since Odisha is a closed-state counselling system, only eligible candidates can apply.\n\nBefore applying for NEET PG counselling, ensure:"
+    },
+    {
+      "id": "final-checklist",
+      "type": "list",
+      "items": [
+        "All documents are in order",
+        "You understand the seat distribution and bond clauses",
+        "You are familiar with both online and offline counselling rounds"
+      ]
+    },
+    {
+      "id": "final-conclusion",
+      "type": "paragraph",
+      "content": "With proper NEET PG counselling guidance, accurate registration, and awareness of the NEET PG counselling schedule, aspirants can easily navigate the Odisha state NEET PG counselling system. Whether you are looking for career counselling NEET PG advice or clarity on NEET PG allotment, this guide equips you with everything you need for a confident and successful admission journey."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "Frequently Asked Questions (FAQs)",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1. I am not from Odisha, but I did my MBBS from a private medical college there. Am I eligible for state counselling?",
+          "answer": "No. To be eligible as a non-domiciled candidate, you must have completed your MBBS from a government medical college in Odisha through the 15% All India Quota. Graduates from private colleges in Odisha are not eligible unless they are permanent residents of the state."
+        },
+        {
+          "question": "Q2. Is there any reservation for OBC candidates in Odisha NEET PG counselling?",
+          "answer": "No, Odisha does not have a specific reservation quota for OBC candidates in its state counselling. OBC candidates who meet the percentile criteria are eligible to apply but will be considered under the Unreserved (UR) category."
+        },
+        {
+          "question": "Q3. Are the third and final rounds of counselling online or offline?",
+          "answer": "Rounds 1 and 2 of Odisha NEET PG counselling are conducted online. However, Round 3 and any subsequent mop-up or stray vacancy rounds are conducted offline. This requires candidates to be physically present at the counselling venue with all original documents and the required fee payment (usually as a Demand Draft)."
+        },
+        {
+          "question": "Q4. What is the penalty for not completing the mandatory service bond in Odisha?",
+          "answer": "Candidates who are allotted a seat in Odisha must complete a two-year service bond after their PG course. The penalty for defaulting on this bond is twice the total stipend received during the three-year PG course, which currently amounts to approximately ₹66 lakhs."
+        }
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
     }
   ]
 }
