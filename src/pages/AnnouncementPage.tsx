@@ -1519,7 +1519,7 @@ const AnnouncementPage: React.FC = () => {
       created_at: "2025-10-17T08:00:00Z"
     },
     {
-      id: 49,
+      id: 50,
       title: "MCC Online NEET PG Seats",
       content:"  Allotment Process 2025: 50% All India Quota Counselling for MD MS and Dental Seats at mcc.nic.in :MCC conducts online counselling for 50% All India Quota NEET PG seats in medical and dental programs at mcc.nic.in following Supreme Court directives for transparent seat allotment",
       date: "2025-10-18T08:00:00Z",
@@ -1531,7 +1531,7 @@ const AnnouncementPage: React.FC = () => {
       created_at: "2025-10-18T08:00:00Z"
     },
     {
-      id: 49,
+      id: 51,
       title: "NEET PG Counselling 2025:",
       content:" MCC NEET PG 2025 Counselling Registration Process Ongoing at mcc.nic.in: Complete Round-Wise Schedule to be Released Soon for MD MS Admission",
       date: "2025-10-24T08:00:00Z",
@@ -1541,6 +1541,18 @@ const AnnouncementPage: React.FC = () => {
       is_active: true,
       source: 'Jagran Josh',
       created_at: "2025-10-24T08:00:00Z"
+    },
+    {
+      id: 52,
+      title: "NEET PG Counselling 2025:",
+      content:" MCC NEET PG 2025 Round 1 RESET Registration Option Active at mcc.nic.in: Deadline November 5 for Corrections, NRI Documents Due October 28",
+      date: "2025-10-26T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: ' https://www.jagranjosh.com/news/neet-pg-2025-counselling-registration-underway-complete-schedule-at-mcc.nic.in-181549',
+      is_active: true,
+      source: 'Jagran Josh',
+      created_at: "2025-10-26T08:00:00Z"
     },
 
   ];
