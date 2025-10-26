@@ -2319,7 +2319,7 @@ export const blogPosts: BlogPost[] = [
   "Non Creamy Layer",
   "Non Creamy Layer Certificate Apply Online",
   "Non Creamy Layer Certificate for OBC",
-  "Non Creamy Layer in OBC"
+  "Non Creamy Layer in OBC"]
 },
     {
       id: "contact-form",
