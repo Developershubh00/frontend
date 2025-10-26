@@ -19,11 +19,12 @@ export interface BlogPost {
   read_time: number;
   meta_description: string;
   sections: Section[];
+
 }
 
 export interface Section {
   id: string;
-  type: 'heading' | 'paragraph' | 'list' | 'info-box' | 'cards' | 'table' | 'faq' | 'contact-form';
+  type: 'heading' | 'paragraph' | 'list' | 'info-box' | 'cards' | 'table' | 'faq' | 'keywords' | 'contact-form';
   title?: string;
   content?: string;
   items?: string[];
@@ -39,6 +40,7 @@ export interface Section {
   }>;
   boxType?: 'warning' | 'info' | 'success' | 'error';
   level?: 2 | 3 | 4;
+  keywords?: string[]; 
 }
 
 export const blogPosts: BlogPost[] = [
@@ -326,6 +328,32 @@ export const blogPosts: BlogPost[] = [
         ]
       },
       {
+  "id": "keywords",
+  "type": "keywords",
+  "title": "Related Keywords",
+  "keywords": [
+   "NEET PG 2025",
+  "All India Counselling",
+  "NEET PG 2025 Counselling",
+  "NEET PG Counselling",
+  "NEET Counselling",
+  "NEET UG Counselling MCC",
+  "MCC NEET UG Counselling",
+  "NEET Counselling Process",
+  "NEET PG Counselling Schedule",
+  "MCC NEET PG Counselling",
+  "AIQ Medical Counselling",
+  "AIQ NEET Counselling",
+  "All India Counseling NEET",
+  "All India Counseling Schedule",
+  "All India Counselling for NEET",
+  "All India Quota in NEET PG",
+  "Counseling Process of NEET",
+  "MCC Counselling NEET UG",
+  "MCC Counselling Process"
+]
+},
+      {
         id: "contact-form",
         type: "contact-form",
         title: "Submit queries to Believers Consultancy",
@@ -548,6 +576,24 @@ export const blogPosts: BlogPost[] = [
           }
         ]
       },
+      {
+  "id": "keywords",
+  "type": "keywords",
+  "title": "Related Keywords",
+  "keywords": [
+  "NEET PG Counselling",
+  "All India Counselling",
+  "MCC NEET PG",
+  "All India Medical Counselling",
+  "NEET PG Counselling Schedule",
+  "MCC NEET PG Counselling",
+  "All India Counselling Process",
+  "All India Counselling Registration",
+  "All India Counselling Schedule",
+  "All India Medical Counselling Website",
+  "NEET PG Mock Counselling"
+]
+},
       {
         id: "contact-form",
         type: "contact-form",
@@ -933,6 +979,27 @@ export const blogPosts: BlogPost[] = [
         ]
       },
       {
+  "id": "keywords",
+  "type": "keywords",
+  "title": "Related Keywords",
+  "keywords": [
+   "NEET PG Counselling",
+  "All India Quota Counselling",
+  "PG Counselling",
+  "NEET PG Counselling Schedule",
+  "NEET PG Counselling Guidance",
+  "MCC NEET PG Counselling",
+  "Apply for NEET PG Counselling",
+  "Choice Filling in NEET PG",
+  "Counseling NEET PG",
+  "Counselling for NEET PG",
+  "MCC NEET PG Counselling Schedule",
+  "All India Quota Counselling Procedure",
+  "All India Quota Seats in NEET PG",
+  "NEET PG Counselling Round"
+]
+},
+      {
         id: "contact-form",
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
@@ -1222,6 +1289,31 @@ export const blogPosts: BlogPost[] = [
           }
         ]
       },
+      {
+  "id": "keywords",
+  "type": "keywords",
+  "title": "Related Keywords",
+  "keywords": [
+  "NEET PG 2025",
+  "NEET PG Rank",
+  "AIQ Counselling",
+  "NEET PG Scores",
+  "All India Counselling",
+  "NEET PG Results",
+  "All India Medical Counselling",
+  "AIQ NEET PG Counselling",
+  "All India Counselling Process",
+  "Category Rank in NEET PG",
+  "Cut Off Rank for NEET PG",
+  "MCC All India Counselling",
+  "MCC All India PG Counselling",
+  "MCC Seat Matrix NEET PG",
+  "NEET PG State Rank",
+  "NEET PG Category Rank",
+  "NEET PG Cut Off Rank",
+  "State Rank NEET PG"
+]
+},
       {
         id: "contact-form",
         type: "contact-form",
@@ -1534,6 +1626,25 @@ export const blogPosts: BlogPost[] = [
         ]
       },
       {
+  "id": "keywords",
+  "type": "keywords",
+  "title": "Related Keywords",
+  "keywords": [
+  "NEET PG 2025",
+  "PG Diploma Courses",
+  "NBE Diploma Courses",
+  "NEET PG",
+  "PG Diploma",
+  "NBE Diploma",
+  "Diploma Courses",
+  "Postgraduate Medical Programs",
+  "Diploma in Emergency Medicine",
+  "Medical Entrance Exam",
+  "Education Course",
+  "All India Counseling"
+]
+},
+      {
         id: "contact-form",
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
@@ -1838,6 +1949,25 @@ export const blogPosts: BlogPost[] = [
         }
       ]
     },
+    {
+  "id": "keywords",
+  "type": "keywords",
+  "title": "Related Keywords",
+  "keywords": [
+  "NEET PG 2025",
+  "PG Diploma Courses",
+  "NBE Diploma Courses",
+  "NEET PG",
+  "PG Diploma",
+  "NBE Diploma",
+  "Diploma Courses",
+  "Postgraduate Medical Programs",
+  "Diploma in Emergency Medicine",
+  "Medical Entrance Exam",
+  "Education Course",
+  "All India Counseling"
+]
+},
     {
       "id": "contact-form",
       "type": "contact-form",
@@ -2167,6 +2297,30 @@ export const blogPosts: BlogPost[] = [
         }
       ]
     },
+    {
+  "id": "keywords",
+  "type": "keywords",
+  "title": "Related Keywords",
+  "keywords": [
+  "NEET PG 2025",
+  "OBC NCL Certificate",
+  "All India Counselling",
+  "MCC Counselling",
+  "OBC Certificate",
+  "NCL Certificate",
+  "MCC NEET PG Counselling",
+  "Creamy Layer Certificate",
+  "NCL Certificate Online",
+  "NCL for OBC",
+  "NCL OBC",
+  "NCL Certificate Online Apply",
+  "NCL Certificate Apply Online",
+  "Non Creamy Layer Certificate",
+  "Non Creamy Layer",
+  "Non Creamy Layer Certificate Apply Online",
+  "Non Creamy Layer Certificate for OBC",
+  "Non Creamy Layer in OBC"
+},
     {
       id: "contact-form",
       type: "contact-form",
@@ -2705,6 +2859,27 @@ export const blogPosts: BlogPost[] = [
       ]
     },
     {
+  "id": "keywords",
+  "type": "keywords",
+  "title": "Related Keywords",
+  "keywords": [
+   "Andhra Pradesh NEET PG Counselling",
+  "Andhra Pradesh NEET PG Counselling 2025",
+  "Andhra Pradesh Counselling",
+  "NEET PG Counselling Guidance",
+  "NEET PG Counselling Schedule",
+  "MCC NEET PG Counselling",
+  "NEET PG Counselling Registration",
+  "Apply for NEET PG Counselling",
+  "Career Counselling NEET PG",
+  "Andhra Pradesh State NEET PG Counselling",
+  "Andhra Pradesh PG Medical Counselling",
+  "Andhra Pradesh Medical PG Counselling",
+  "NEET PG Allotment",
+  "NEET PG Career Counselling"
+]
+},
+    {
       id: "contact-form",
       type: "contact-form",
       title: "Submit queries to BelieversConsultancy",
@@ -3022,6 +3197,26 @@ export const blogPosts: BlogPost[] = [
       ]
     },
     {
+  "id": "keywords",
+  "type": "keywords",
+  "title": "Related Keywords",
+  "keywords": [
+  "NEET PG Exam",
+  "PG Medical Course",
+  "NEET PG Counselling",
+  "Tamil Nadu State Counselling",
+  "PG Counselling",
+  "CMC Vellore Online Registration",
+  "CMC Vellore PG Registration",
+  "CMC Vellore Entrance Exam 2025",
+  "CMC Vellore Application Form 2025",
+  "CMC Vellore Application Form",
+  "CMC Vellore Application",
+  "CMC Vellore Entrance Exam",
+  "CMC Vellore Admission Process"
+]
+},
+    {
       "id": "conclusion",
       "type": "heading",
       "title": "Conclusion",
@@ -3035,7 +3230,7 @@ export const blogPosts: BlogPost[] = [
   ]
 },
 {
-  "id": 2,
+  "id": 10,
   "title": "Kerala State PG Counselling 2025: Step-by-Step Guide for Applicants and Service Candidates",
   "slug": "kerala-state-pg-counselling-2025-step-by-step-guide",
   "excerpt": "Complete guide to Kerala NEET PG 2025 state quota counselling covering eligibility, registration process, documentation, reservations, and fees for both general and service candidates.",
@@ -3520,6 +3715,27 @@ export const blogPosts: BlogPost[] = [
       ]
     },
     {
+  "id": "keywords",
+  "type": "keywords",
+  "title": "Related Keywords",
+  "keywords": [
+   "Kerala NEET PG Counselling",
+  "Kerala NEET PG 2025 Counselling",
+  "Kerala NEET PG Counselling 2025",
+  "NEET PG Counselling Guidance",
+  "NEET PG Counselling Schedule",
+  "MCC NEET PG Counselling",
+  "NEET PG Counselling Registration",
+  "Apply for NEET PG Counselling",
+  "Career Counselling NEET PG",
+  "NEET PG Allotment",
+  "NEET PG Career Counselling",
+  "Kerala Medical PG Counselling",
+  "Kerala PG Medical Counselling",
+  "Kerala State NEET PG Counselling"
+]
+},
+    {
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
@@ -3914,6 +4130,30 @@ export const blogPosts: BlogPost[] = [
       ]
     },
     {
+  "id": "keywords",
+  "type": "keywords",
+  "title": "Related Keywords",
+  "keywords": [
+  "Gujarat NEET PG Counselling",
+  "NEET PG Counselling",
+  "NEET PG Rank",
+  "Gujarat NEET PG 2025 Counselling",
+  "PG Counselling",
+  "Gujarat NEET PG Counselling 2025",
+  "NEET PG Counselling Guidance",
+  "NEET PG Counselling Schedule",
+  "MCC NEET PG Counselling",
+  "NEET PG Counselling Registration",
+  "Apply for NEET PG Counselling",
+  "Career Counselling NEET PG",
+  "Gujarat Medical PG Counselling",
+  "Gujarat PG Medical Counselling",
+  "Gujarat State NEET PG Counselling",
+  "NEET PG Allotment",
+  "NEET PG Career Counselling"
+]
+},
+    {
       id: "contact-form",
       type: "contact-form",
       title: "Submit queries to BelieversConsultancy",
@@ -4274,6 +4514,33 @@ export const blogPosts: BlogPost[] = [
       ]
     },
     {
+  "id": "keywords",
+  "type": "keywords",
+  "title": "Related Keywords",
+  "keywords": [
+  "Tamil Nadu NEET PG Counselling",
+  "NEET PG Counselling",
+  "NEET PG Rank",
+  "PG Counselling",
+  "Tamil Nadu NEET PG 2025 Counselling",
+  "Tamil Nadu NEET PG Counselling 2025",
+  "MCC NEET PG Counselling",
+  "NEET PG Counselling Registration",
+  "NEET PG Scorecard",
+  "NEET PG Counselling Guidance",
+  "NEET PG Counselling Schedule",
+  "Apply for NEET PG Counselling",
+  "Career Counselling NEET PG",
+  "NEET PG Allotment",
+  "NEET PG Career Counselling",
+  "Tamil Nadu PG Medical Counselling",
+  "Tamil Nadu Medical PG Counselling",
+  "Tamil Nadu State NEET PG Counselling",
+  "NEET PG State Counselling",
+  "NEET PG State Quota"
+]
+},
+    {
       id: "contact-form",
       type: "contact-form",
       title: "Submit queries to BelieversConsultancy",
@@ -4580,6 +4847,36 @@ export const blogPosts: BlogPost[] = [
       ]
     },
     {
+  "id": "keywords",
+  "type": "keywords",
+  "title": "Related Keywords",
+  "keywords": [
+  "NEET PG Counselling",
+  "NEET PG Counselling 2025",
+  "NEET PG 2025 Counselling",
+  "NEET PG Counselling Registration",
+  "MCC NEET PG",
+  "NEET PG Counselling Schedule",
+  "NEET PG Counselling Mop Up",
+  "MCC NEET PG Counselling",
+  "Apply for NEET PG Counselling",
+  "Career Counselling NEET PG",
+  "Choice Filling in NEET PG",
+  "Counselling Procedure for NEET PG",
+  "NEET PG Rank",
+  "MCC Seat Matrix NEET PG",
+  "Medical Counselling PG",
+  "Medical PG Counselling",
+  "NEET PG Allotment",
+  "NEET PG Choice Filling",
+  "NEET PG Counseling Procedure",
+  "Registration for NEET PG",
+  "Seat Matrix for NEET PG",
+  "State Counselling for NEET PG",
+  "State Quota NEET PG"
+]
+},
+    {
       id: "contact-form",
       type: "contact-form",
       title: "Submit queries to BelieversConsultancy",
@@ -4870,6 +5167,31 @@ export const blogPosts: BlogPost[] = [
       ]
     },
     {
+  "id": "keywords",
+  "type": "keywords",
+  "title": "Related Keywords",
+  "keywords": [
+  "NEET PG Exam",
+  "NEET PG Registration Process",
+  "NEET PG 2025 Application Process",
+  "NEET PG 2025 Registration Process",
+  "Medical Council Registration",
+  "NEET PG Application Process",
+  "NEET PG 2025 Registration",
+  "NEET PG Counselling Registration",
+  "MCC NEET PG Counselling Registration",
+  "MCC NEET PG Registration",
+  "Medical Counselling Registration",
+  "NEET PG Admission Process",
+  "NEET PG Exam Registration",
+  "All India Counselling",
+  "All India Counselling NEET PG",
+  "All India Counselling Process",
+  "All India Medical Counselling PG",
+  "All India Medical PG Counselling"
+]
+},
+    {
       id: "contact-form",
       type: "contact-form",
       title: "Submit queries to BelieversConsultancy",
@@ -5081,6 +5403,24 @@ export const blogPosts: BlogPost[] = [
       ]
     },
     {
+  "id": "keywords",
+  "type": "keywords",
+  "title": "Related Keywords",
+  "keywords": [
+  "NEET Examination",
+  "PG Medical Seats",
+  "NEET PG Admissions",
+  "NEET PG",
+  "Domicile Based Reservation",
+  "Supreme Court Ruling",
+  "Supreme Court Decisions",
+  "NEET Exam",
+  "PG Medical Admissions",
+  "Admission in NEET PG",
+  "PG Admission Medical"
+]
+},
+    {
       id: "contact-form",
       type: "contact-form",
       title: "Submit queries to BelieversConsultancy",
@@ -5257,6 +5597,21 @@ export const blogPosts: BlogPost[] = [
         }
       ]
     },
+    {
+  "id": "keywords",
+  "type": "keywords",
+  "title": "Related Keywords",
+  "keywords": [
+   "NEET PG Admissions",
+  "NEET PG 2025",
+  "All India Counselling",
+  "PG Admissions",
+  "NEET PG Counselling All India",
+  "State Counselling for NEET PG",
+  "State Quota NEET PG",
+  "MCC Counselling"
+]
+},
     {
       "id": "contact-form",
       "type": "contact-form",
@@ -5613,6 +5968,27 @@ export const blogPosts: BlogPost[] = [
       ]
     },
     {
+  "id": "keywords",
+  "type": "keywords",
+  "title": "Related Keywords",
+  "keywords": [
+  "Odisha NEET PG Counselling",
+  "Odisha NEET PG Counselling 2025",
+  "NEET PG Counselling Guidance",
+  "NEET PG Counselling Schedule",
+  "MCC NEET PG Counselling",
+  "NEET PG Counselling Registration",
+  "Apply for NEET PG Counselling",
+  "Career Counselling NEET PG",
+  "Odisha State NEET PG Counselling",
+  "Odisha PG Medical Counselling",
+  "Odisha Medical PG Counselling",
+  "NEET PG Allotment",
+  "NEET PG Career Counselling",
+  "NEET PG Counselling Process"
+]
+},
+    {
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
@@ -5904,6 +6280,33 @@ export const blogPosts: BlogPost[] = [
         }
       ]
     },
+    {
+  "id": "keywords",
+  "type": "keywords",
+  "title": "Related Keywords",
+  "keywords": [
+  "Tamil Nadu NEET PG Counselling",
+  "NEET PG Counselling",
+  "NEET PG Rank",
+  "PG Counselling",
+  "Tamil Nadu NEET PG 2025 Counselling",
+  "Tamil Nadu NEET PG Counselling 2025",
+  "MCC NEET PG Counselling",
+  "NEET PG Counselling Registration",
+  "NEET PG Scorecard",
+  "NEET PG Counselling Guidance",
+  "NEET PG Counselling Schedule",
+  "Apply for NEET PG Counselling",
+  "Career Counselling NEET PG",
+  "NEET PG Allotment",
+  "NEET PG Career Counselling",
+  "Tamil Nadu PG Medical Counselling",
+  "Tamil Nadu Medical PG Counselling",
+  "Tamil Nadu State NEET PG Counselling",
+  "NEET PG State Counselling",
+  "NEET PG State Quota"
+]
+},
     {
       "id": "contact-form",
       "type": "contact-form",
@@ -6236,6 +6639,26 @@ export const blogPosts: BlogPost[] = [
         }
       ]
     },
+    {
+  "id": "keywords",
+  "type": "keywords",
+  "title": "Related Keywords",
+  "keywords": [
+   "NEET PG Exam",
+  "PG Medical Course",
+  "NEET PG Counselling",
+  "Tamil Nadu State Counselling",
+  "PG Counselling",
+  "CMC Vellore Online Registration",
+  "CMC Vellore PG Registration",
+  "CMC Vellore Entrance Exam 2025",
+  "CMC Vellore Application Form 2025",
+  "CMC Vellore Application Form",
+  "CMC Vellore Application",
+  "CMC Vellore Entrance Exam",
+  "CMC Vellore Admission Process"
+]
+},
     {
       "id": "contact-form",
       "type": "contact-form",

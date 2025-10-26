@@ -868,6 +868,26 @@ const BlogDetail: React.FC = () => {
           </div>
         );
 
+        case 'keywords':
+      return (
+    <div className="bg-gradient-to-r from-purple-50 to-pink-50 border border-purple-200 rounded-lg p-6 mb-8">
+      <h3 className="text-lg md:text-xl font-semibold text-gray-900 mb-4 flex items-center">
+        <TagIcon className="w-5 h-5 mr-2 text-purple-600" />
+        {section.title || 'Related Keywords'}
+      </h3>
+      <div className="flex flex-wrap gap-2">
+        {section.keywords?.map((keyword, idx) => (
+          <span
+            key={idx}
+            className="inline-flex items-center px-4 py-2 text-sm font-medium text-purple-700 bg-white border border-purple-200 rounded-full hover:bg-purple-100 transition-colors shadow-sm"
+          >
+            {keyword}
+          </span>
+        ))}
+      </div>
+    </div>
+  );
+
       case 'contact-form':
         return (
           <div className="bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-lg p-6 mb-8">
