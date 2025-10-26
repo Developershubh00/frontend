@@ -5107,7 +5107,7 @@ export const blogPosts: BlogPost[] = [
   "tags": ["NEET PG", "Deemed Universities", "Private Colleges", "Medical Admissions", "Counselling Strategy"],
   "published_date": "2025-10-26",
   "read_time": 6,
-  "meta_description": "Complete guide to deemed and private medical colleges for NEET PG admissions. Learn about counselling processes, fee structures, quota systems, and admission strategies.",
+  "meta_description": "Learn the key differences between deemed and private colleges for NEET PG admissions to make informed choices for your medical postgraduate journey.",
   "sections": [
     {
       "id": "intro",
@@ -5284,7 +5284,7 @@ export const blogPosts: BlogPost[] = [
   "tags": ["NEET PG", "Odisha Counselling", "State Quota", "Medical Admissions", "Service Bond"],
   "published_date": "2025-10-26",
   "read_time": 8,
-  "meta_description": "Complete guide to Odisha NEET PG 2025 counselling with detailed information on eligibility, closed-state policy, reservation, service bonds, fee structure, and application process.",
+  "meta_description": "Get the complete guide to Odisha NEET PG 2025 counselling eligibility, registration, seat matrix, and tips to secure your desired medical PG seat.",
   "sections": [
     {
       "id": "intro",
@@ -5609,6 +5609,630 @@ export const blogPosts: BlogPost[] = [
         {
           "question": "Q4. What is the penalty for not completing the mandatory service bond in Odisha?",
           "answer": "Candidates who are allotted a seat in Odisha must complete a two-year service bond after their PG course. The penalty for defaulting on this bond is twice the total stipend received during the three-year PG course, which currently amounts to approximately ₹66 lakhs."
+        }
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    }
+  ]
+},
+{
+  "id": 18,
+  "title": "Tamil Nadu NEET PG 2025 Applications Now Open: A Complete Guide",
+  "slug": "tamil-nadu-neet-pg-2025-complete-guide",
+  "excerpt": "Complete guide to Tamil Nadu NEET PG 2025 counselling covering government and management quota applications, eligibility criteria, registration process, important dates, and document requirements for state medical admissions.",
+  "featured_image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-purple-100 text-purple-800"
+  },
+  "tags": ["NEET PG", "Tamil Nadu Counselling", "State Quota", "Medical Admissions", "Management Quota"],
+  "published_date": "2025-10-26",
+  "read_time": 10,
+  "meta_description": "Get the complete guide to Tamil Nadu NEET PG 2025 counselling including eligibility, government quota, management quota, registration process, and important deadlines.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "heading",
+      "title": "Tamil Nadu NEET PG 2025 Government & Management Quota Applications Live",
+      "level": 2
+    },
+    {
+      "id": "intro-content",
+      "type": "paragraph",
+      "content": "The Directorate of Medical Education (DME), Tamil Nadu, has commenced the online application process for admission to PG Degree/Diploma courses for the 2025-2026 session under Tamil Nadu NEET PG counselling. This is part of the NEET PG 2025 State Quota counselling and covers both Government Quota and Management Quota seats, with separate application processes. All prospective applicants are strongly encouraged to review the official prospectus on the TN Medical Selection website before proceeding and to complete their applications within the prescribed timeline.\n\nHere's a clear, step-by-step guide to everything you need to know—from eligibility to NEET PG counselling registration—to ensure your application process is smooth and error-free."
+    },
+    {
+      "id": "important-dates",
+      "type": "heading",
+      "title": "Important Dates and Deadlines",
+      "level": 2
+    },
+    {
+      "id": "important-dates-content",
+      "type": "paragraph",
+      "content": "The application portal opened today at 12 PM and will remain active until September 16th, 5 PM. Avoid waiting until the last day to apply; completing the process earlier will help avoid last-minute technical issues. Counselling dates will be announced later. Remember: Tamil Nadu conducts two rounds of counselling, a practice that has held for years. So, if you want a seat in Tamil Nadu PG medical counselling, apply now to secure your place in the merit list."
+    },
+    {
+      "id": "government-quota",
+      "type": "heading",
+      "title": "Government Quota: What's Included",
+      "level": 2
+    },
+    {
+      "id": "government-quota-intro",
+      "type": "paragraph",
+      "content": "Seat Matrix under Government Quota:"
+    },
+    {
+      "id": "government-quota-list",
+      "type": "list",
+      "items": [
+        "50% of seats in state government medical colleges (the rest are allotted through AIQ).",
+        "30% of seats at CMC Vellore, open to all eligible candidates.",
+        "50% of seats in self-financing (private) medical colleges under a lower fee structure.",
+        "Christian minority candidates from Tamil Nadu also have access to 20% reserved seats at CMC Vellore."
+      ]
+    },
+    {
+      "id": "eligibility",
+      "type": "heading",
+      "title": "Eligibility Criteria for Tamil Nadu NEET PG Counselling",
+      "level": 2
+    },
+    {
+      "id": "eligibility-intro",
+      "type": "paragraph",
+      "content": "You are eligible for Tamil Nadu Government Quota seats if you meet any one of these criteria:"
+    },
+    {
+      "id": "eligibility-list",
+      "type": "list",
+      "items": [
+        "You are a native of Tamil Nadu with a valid nativity certificate (usually by birth).",
+        "You completed your MBBS degree in Tamil Nadu, regardless of your native state.",
+        "You are a Tamil Nadu native who studied MBBS in another state or abroad (FMG).",
+        "Candidates from other states who studied MBBS in Tamil Nadu will only be considered for open category seats."
+      ]
+    },
+    {
+      "id": "fees",
+      "type": "heading",
+      "title": "Application and Registration Fees",
+      "level": 2
+    },
+    {
+      "id": "fees-list",
+      "type": "list",
+      "items": [
+        "Application Fee: ₹3,000 (no fee for SC, SCA, or ST candidates)",
+        "Registration Fee for Counselling: ₹1,000 (to be paid later during NEET PG counselling registration)",
+        "Security Deposit: Collected during counselling if you register"
+      ]
+    },
+    {
+      "id": "two-phase-process",
+      "type": "heading",
+      "title": "Understanding the Two-Phase Process",
+      "level": 2
+    },
+    {
+      "id": "two-phase-intro",
+      "type": "paragraph",
+      "content": "Tamil Nadu uses a two-step system:"
+    },
+    {
+      "id": "phase-1",
+      "type": "heading",
+      "title": "1. Application Stage:",
+      "level": 3
+    },
+    {
+      "id": "phase-1-content",
+      "type": "paragraph",
+      "content": "Fill in personal details, educational qualifications, and upload certificates.\n\nThis step ensures inclusion in the merit list after verification by the Selection Committee."
+    },
+    {
+      "id": "phase-2",
+      "type": "heading",
+      "title": "2. Counselling Registration Stage:",
+      "level": 3
+    },
+    {
+      "id": "phase-2-content",
+      "type": "paragraph",
+      "content": "Once the merit list is released, candidates register for counselling and participate in choice filling for PG counselling."
+    },
+    {
+      "id": "how-to-apply",
+      "type": "heading",
+      "title": "How to Apply for Tamil Nadu NEET PG Counselling 2025",
+      "level": 2
+    },
+    {
+      "id": "how-to-apply-intro",
+      "type": "paragraph",
+      "content": "To initiate your application, visit the official Tamil Nadu Health and Family Welfare Department portal. Navigate to the \"Postgraduate Courses\" section and select the appropriate application link."
+    },
+    {
+      "id": "new-registration",
+      "type": "heading",
+      "title": "New Registration:",
+      "level": 3
+    },
+    {
+      "id": "new-registration-list",
+      "type": "list",
+      "items": [
+        "Enter your name (as in your NEET PG 2025 scorecard), mobile number, email, and create a password.",
+        "Provide your NEET PG roll number and marks.",
+        "Verify your account using the OTP sent to your registered mobile."
+      ]
+    },
+    {
+      "id": "personal-information",
+      "type": "heading",
+      "title": "Personal Information:",
+      "level": 3
+    },
+    {
+      "id": "personal-information-list",
+      "type": "list",
+      "items": [
+        "Fill in details like nativity, community, religion, place of birth, parent/guardian info, and Aadhaar number.",
+        "Upload valid community certificates if applicable.",
+        "Tamil Nadu Christian minority candidates should select this option for CMC seats."
+      ]
+    },
+    {
+      "id": "educational-details",
+      "type": "heading",
+      "title": "Educational Details:",
+      "level": 3
+    },
+    {
+      "id": "educational-details-list",
+      "type": "list",
+      "items": [
+        "Enter MBBS registration number, year of completion, and number of attempts.",
+        "Specify your college, university, and quota (State, Management, or AIQ).",
+        "Candidates from universities outside the Tamil Nadu Dr. M.G.R. Medical University must submit an Eligibility Certificate or self-declaration."
+      ]
+    },
+    {
+      "id": "service-details",
+      "type": "heading",
+      "title": "Service Details (if applicable):",
+      "level": 3
+    },
+    {
+      "id": "service-details-content",
+      "type": "paragraph",
+      "content": "Service candidates must upload all required approvals and documents."
+    },
+    {
+      "id": "document-upload",
+      "type": "heading",
+      "title": "Document Upload:",
+      "level": 3
+    },
+    {
+      "id": "document-upload-list",
+      "type": "list",
+      "items": [
+        "Upload passport-size photo, signature, and left thumb impression in JPG format.",
+        "Upload all certificates in PDF format (under 3 MB each)."
+      ]
+    },
+    {
+      "id": "payment",
+      "type": "heading",
+      "title": "Payment:",
+      "level": 3
+    },
+    {
+      "id": "payment-content",
+      "type": "paragraph",
+      "content": "Pay ₹3,000 online (or ₹0 if SC/SCA/ST)."
+    },
+    {
+      "id": "key-considerations",
+      "type": "heading",
+      "title": "Key Considerations for a Smooth Application",
+      "level": 2
+    },
+    {
+      "id": "key-considerations-list",
+      "type": "list",
+      "items": [
+        "Incorrect Roll Number: Cannot be corrected later; double-check before submitting.",
+        "Late Submissions: Server issues peak near deadlines; apply early.",
+        "Eligibility Certificates: If you studied outside Tamil Nadu, start the process now."
+      ]
+    },
+    {
+      "id": "disclaimer",
+      "type": "paragraph",
+      "content": "This guide is for informational purposes only. All candidates must refer to the official NEET PG 2025 prospectus on tnmedicalselection.net for the latest updates and regulations. The DME's guidelines are final."
+    },
+    {
+      "id": "final-thoughts",
+      "type": "heading",
+      "title": "Final Thoughts",
+      "level": 2
+    },
+    {
+      "id": "final-thoughts-content",
+      "type": "paragraph",
+      "content": "The Tamil Nadu NEET PG 2025 counselling process may seem lengthy, but each step ensures transparency and fairness in admissions. Start gathering your documents, verify your certificates, and submit your application well before September 16th.\n\nWhether you aim for a Tamil Nadu state NEET PG counselling seat or management quota, this is your chance to enter the NEET PG state quota counselling confidently, avoid last-minute hurdles, and secure your future in PG medical education."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "Frequently Asked Questions (FAQs)",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1. Can I apply for both Government and Management Quota seats?",
+          "answer": "Yes, but you must fill out two separate application forms and pay the application fee for each quota individually. The process for each is distinct."
+        },
+        {
+          "question": "Q2. What if I don't have my permanent medical registration certificate yet?",
+          "answer": "You can use your provisional registration certificate to apply. However, it is advisable to apply for your permanent registration as soon as possible, as it will be required during the admission process."
+        },
+        {
+          "question": "Q3. Is it mandatory to have a nativity certificate if I completed my MBBS in Tamil Nadu?",
+          "answer": "While your MBBS in Tamil Nadu makes you eligible, having a nativity certificate is essential if you wish to claim any reservation benefits (e.g., BC, MBC, SC, ST), which are reserved exclusively for natives of the state."
+        },
+        {
+          "question": "Q4. I made a mistake in my application after submission. Can I correct it?",
+          "answer": "The DME generally does not provide an edit window after the final submission. It is critical to review your application form thoroughly before making the final payment. For major errors, you may need to contact the DME's helpdesk directly, but correction is not guaranteed."
+        }
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    }
+  ]
+},
+{
+  "id": 19,
+  "title": "CMC Vellore PG Registration 2025: A Step-by-Step Guide",
+  "slug": "cmc-vellore-pg-registration-2025-guide",
+  "excerpt": "Complete guide to CMC Vellore PG Registration 2025 covering MD/MS, Diploma, and MCh programs with detailed steps, important dates, document requirements, and category-specific guidelines for NEET PG qualified candidates.",
+  "featured_image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-purple-100 text-purple-800"
+  },
+  "tags": ["NEET PG", "CMC Vellore", "PG Registration", "Medical Admissions", "Tamil Nadu Counselling"],
+  "published_date": "2025-10-26",
+  "read_time": 12,
+  "meta_description": "Complete step-by-step guide to CMC Vellore PG Registration 2025 for MD/MS, Diploma, and MCh courses including eligibility, deadlines, fee details, and document requirements.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "CMC Vellore has released its official notification for Postgraduate programs (MD/MS, Diploma in Clinical Pathology, and MCh courses) for 2025. This walkthrough explains key dates, CMC Vellore online registration, application requirements, and the CMC Vellore admission process in simple steps so candidates can complete their forms without confusion.\n\nThis is especially important for aspirants of PG medical courses who have qualified in the NEET PG exam and are looking for a seamless PG counselling experience, including those participating in Tamil Nadu state counselling."
+    },
+    {
+      "id": "quick-snapshot",
+      "type": "heading",
+      "title": "Quick Snapshot of Registration Highlights",
+      "level": 2
+    },
+    {
+      "id": "quick-snapshot-list",
+      "type": "list",
+      "items": [
+        "Application Portal: Click on the official portal link for CMC Vellore PG registration",
+        "Application Fee: ₹1,500",
+        "Last Date to Apply: June 5, 2025",
+        "Last Date to Send Documents:\n  - General Merit candidates: June 7, 2025\n  - Minority/Service category candidates: June 17, 2025",
+        "Timings: 8:00 AM – 4:00 PM"
+      ]
+    },
+    {
+      "id": "document-submission",
+      "type": "heading",
+      "title": "Who Needs to Submit Supporting Documents",
+      "level": 2
+    },
+    {
+      "id": "minority-service",
+      "type": "heading",
+      "title": "Minority or Service Category Applicants:",
+      "level": 3
+    },
+    {
+      "id": "minority-service-content",
+      "type": "paragraph",
+      "content": "Self-attested copies of supporting documents must be sent to the CMC Registrar."
+    },
+    {
+      "id": "general-merit",
+      "type": "heading",
+      "title": "General Merit Applicants:",
+      "level": 3
+    },
+    {
+      "id": "general-merit-content",
+      "type": "paragraph",
+      "content": "No additional documents are required."
+    },
+    {
+      "id": "registration-process",
+      "type": "heading",
+      "title": "Step-by-Step CMC Vellore PG Registration Process",
+      "level": 2
+    },
+    {
+      "id": "accessing-portal",
+      "type": "heading",
+      "title": "1. Accessing the Portal",
+      "level": 3
+    },
+    {
+      "id": "step-1",
+      "type": "heading",
+      "title": "Step 1: Registration Profile",
+      "level": 4
+    },
+    {
+      "id": "step-1-content",
+      "type": "paragraph",
+      "content": "Create a candidate profile on the official CMC Vellore application form 2025 page. Use an active email address and Indian mobile number for notifications."
+    },
+    {
+      "id": "step-2",
+      "type": "heading",
+      "title": "Step 2: Personal Details",
+      "level": 4
+    },
+    {
+      "id": "step-2-content",
+      "type": "paragraph",
+      "content": "Enter identity and contact details exactly as per official ID documents. Post-submission edits may be restricted."
+    },
+    {
+      "id": "step-3",
+      "type": "heading",
+      "title": "Step 3: Academics and Internship",
+      "level": 4
+    },
+    {
+      "id": "step-3-content",
+      "type": "paragraph",
+      "content": "Provide MBBS institution, internship status/dates, and relevant work experience. Accuracy is critical to avoid verification issues."
+    },
+    {
+      "id": "step-4",
+      "type": "heading",
+      "title": "Step 4: Course and Category Selection",
+      "level": 4
+    },
+    {
+      "id": "step-4-content",
+      "type": "paragraph",
+      "content": "Select the intended PG medical course and category (General Merit / Minority Network / Service). Eligibility and documents differ by category."
+    },
+    {
+      "id": "step-5",
+      "type": "heading",
+      "title": "Step 5: Uploads",
+      "level": 4
+    },
+    {
+      "id": "step-5-content",
+      "type": "paragraph",
+      "content": "Upload a recent photograph (max 80 KB) and signature (max 50 KB) in the specified format."
+    },
+    {
+      "id": "step-6",
+      "type": "heading",
+      "title": "Step 6: Fee Payment",
+      "level": 4
+    },
+    {
+      "id": "step-6-content",
+      "type": "paragraph",
+      "content": "Pay ₹1,500 online via card/net-banking or by bank challan, if enabled. For challan, include the prescribed code exactly as instructed."
+    },
+    {
+      "id": "step-7",
+      "type": "heading",
+      "title": "Step 7: Acknowledgements",
+      "level": 4
+    },
+    {
+      "id": "step-7-content",
+      "type": "paragraph",
+      "content": "Save the submitted form, payment proof, and auto-generated acknowledgements. Track application status via candidate login."
+    },
+    {
+      "id": "candidate-registration",
+      "type": "heading",
+      "title": "2. Candidate Registration",
+      "level": 3
+    },
+    {
+      "id": "candidate-registration-list",
+      "type": "list",
+      "items": [
+        "Enter your personal details (name, gender, DOB, email, mobile number).",
+        "Complete OTP verification on your Indian mobile number.",
+        "A temporary registration ID will be generated—save it for subsequent login."
+      ]
+    },
+    {
+      "id": "personal-details",
+      "type": "heading",
+      "title": "3. Personal Details",
+      "level": 3
+    },
+    {
+      "id": "personal-details-list",
+      "type": "list",
+      "items": [
+        "Fill in parent names, address, religion, nationality, mother tongue, and state of domicile.",
+        "Double-check before proceeding; edits aren't allowed after submission."
+      ]
+    },
+    {
+      "id": "academic-work",
+      "type": "heading",
+      "title": "4. Academic and Work Experience",
+      "level": 3
+    },
+    {
+      "id": "academic-work-list",
+      "type": "list",
+      "items": [
+        "Select your MBBS institution and provide internship details.",
+        "Add any relevant work experience, including designation and institution details.",
+        "Verify all entries before saving."
+      ]
+    },
+    {
+      "id": "course-selection",
+      "type": "heading",
+      "title": "5. Course Selection",
+      "level": 3
+    },
+    {
+      "id": "course-selection-content",
+      "type": "paragraph",
+      "content": "Choose your PG medical course and one of three categories:"
+    },
+    {
+      "id": "course-selection-list",
+      "type": "list",
+      "items": [
+        "Minority Network: Requires baptism, confirmation, and church membership certificates.",
+        "Service Category: Requires proof of two years' service in underserved areas, salary statements, and other attestations.",
+        "General Merit: No documents required."
+      ]
+    },
+    {
+      "id": "upload-photo",
+      "type": "heading",
+      "title": "6. Upload Photo and Signature",
+      "level": 3
+    },
+    {
+      "id": "upload-photo-list",
+      "type": "list",
+      "items": [
+        "Photo size: 80 KB",
+        "Signature size: 50 KB",
+        "Upload both before proceeding to payment."
+      ]
+    },
+    {
+      "id": "payment-section",
+      "type": "heading",
+      "title": "7. Payment",
+      "level": 3
+    },
+    {
+      "id": "payment-section-list",
+      "type": "list",
+      "items": [
+        "Options: Debit/Credit card, Net banking, or Challan payment via ICICI Bank.",
+        "For challan payments, include the code FCCMCV and submit the original challan with your documents.",
+        "Download and save the CMC Vellore application form for future reference."
+      ]
+    },
+    {
+      "id": "document-checklist",
+      "type": "heading",
+      "title": "Document Checklist",
+      "level": 2
+    },
+    {
+      "id": "document-table",
+      "type": "table",
+      "table": {
+        "headers": ["Category", "Documents Required"],
+        "rows": [
+          ["Minority Network", "Baptism, confirmation, church membership certificates; Form 16A & 16B; bank statements; attested salary certificate"],
+          ["Service Category", "All above plus proof of two years' full-time service in underserved areas"],
+          ["General Merit", "No additional documents required"]
+        ]
+      }
+    },
+    {
+      "id": "tips",
+      "type": "heading",
+      "title": "Tips for Applicants",
+      "level": 2
+    },
+    {
+      "id": "tips-list",
+      "type": "list",
+      "items": [
+        "Use an Indian mobile number for OTP verification.",
+        "Review entries carefully, as most fields are locked after submission.",
+        "Submit all relevant documents before the deadline to avoid rejection.",
+        "Keep a copy of your payment challan and application form for reference.",
+        "Contact the CMC Registrar's office if in doubt."
+      ]
+    },
+    {
+      "id": "conclusion",
+      "type": "heading",
+      "title": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "conclusion-content",
+      "type": "paragraph",
+      "content": "The CMC Vellore PG registration 2025 process is straightforward if candidates plan ahead, track deadlines, and prepare category-specific documents in advance. Bookmark the official portal, refer to the admissions bulletin, and stay in touch with support staff for any queries. With proper planning, securing a PG medical course seat through CMC Vellore entrance exam 2025 becomes much easier.\n\nBy following this guide, aspirants can ensure a smooth CMC Vellore application, participate confidently in PG counselling, and navigate Tamil Nadu state counselling or other registration processes without last-minute hurdles."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1. Who needs to submit supporting documents, and by when?",
+          "answer": "Only Minority Network and Service Category applicants must send self-attested documents to the CMC Registrar. Deadlines vary by category, so check the official portal. General Merit applicants typically don't need to submit extra documents."
+        },
+        {
+          "question": "Q2. How do the application categories differ?",
+          "answer": "Minority Network: Requires church-related certificates (baptism, confirmation, membership).\nService Category: Requires proof of two years of service in underserved areas.\nGeneral Merit: No category-specific documents needed."
+        },
+        {
+          "question": "Q3. What are the photo/signature specs and payment options?",
+          "answer": "Upload a photo (max 80 KB) and signature (max 50 KB). Pay via debit/credit card, net banking, or bank challan (include code FCCMCV; keep challan for records)."
         }
       ]
     },
