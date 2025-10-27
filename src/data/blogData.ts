@@ -368,7 +368,7 @@ export const blogPosts: BlogPost[] = [
     title: "NEET PG 2025: Can You Change Your Category in All India Counselling?",
     slug: "neet-pg-2025-change-category-all-india-counselling",
     excerpt: "This happens with almost every NEET PG candidate; the same doubt keeps popping up: 'Can I change my category during counseling?' Let's clear all your doubts.",
-    featured_image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&h=600&fit=crop",
+    featured_image: "https://cdn.dribbble.com/userupload/45457551/file/5faa1af932b1aced04ceb1903b6dc994.png?w=1200&h=600&fit=crop",
     author: {
       name: "Believers Team",
       avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
@@ -608,7 +608,7 @@ export const blogPosts: BlogPost[] = [
     title: "The Ultimate NEET-PG Counselling Strategy: Your Complete Guide to All India and State Rounds",
     slug: "neet-pg-counselling-strategy-complete-guide",
     excerpt: "Managing NEET-PG counselling is a pivotal step in your medical career. You are supposed to navigate multiple rounds, tight timelines, and critical decisions at every stage.",
-    featured_image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&h=600&fit=crop",
+    featured_image: "https://cdn.dribbble.com/userupload/45457555/file/430d6ae3872c04098553f0e4e6dc9e6f.png?w=1200&h=600&fit=crop",
     author: {
       name: "Believers Team",
       avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
@@ -1012,7 +1012,7 @@ export const blogPosts: BlogPost[] = [
     title: "Decoding NEET PG 2025: All India 50% Quota Seats Counselling Explained",
     slug: "decoding-neet-pg-2025-all-india-50-quota-seats-counselling",
     excerpt: "NEET PG 2025 results have been released officially, along with the All India 50% Quota (AIQ) seat counselling merit list. Learn everything about AIQ counselling, ranks, and how to make informed decisions.",
-    featured_image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&h=600&fit=crop",
+    featured_image: "https://cdn.dribbble.com/userupload/45457557/file/6dbbda7598dd585eb1853a02577bdd03.png?w=1200&h=600&fit=crop",
     author: {
       name: "Believers Team",
       avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
@@ -1332,7 +1332,7 @@ export const blogPosts: BlogPost[] = [
     title: "NEET PG 2025: Understanding PG Diploma vs NBE Diploma",
     slug: "neet-pg-2025-understanding-pg-diploma-vs-nbe-diploma",
     excerpt: "Many NEET PG 2025 aspirants are considering options beyond MD/MS. Learn about PG Diploma and NBE Diploma courses, their differences, and which pathway suits your career goals.",
-    featured_image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&h=600&fit=crop",
+    featured_image: "https://cdn.dribbble.com/userupload/45457556/file/ce1e168ccf74d0863e997ca3331db737.png?w=1200&h=600&fit=crop",
     author: {
       name: "Believers Team",
       avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
@@ -1657,7 +1657,7 @@ export const blogPosts: BlogPost[] = [
   "title": "NEET PG 2025 Counselling: A Guide to Category Change Rules Counselling",
   "slug": "neet-pg-2025-category-change-rules-counselling",
   "excerpt": "Comprehensive guide to category modification rules during NEET PG 2025 All India Counselling. Learn what changes are permitted, eligibility criteria, and how category selection impacts your seat allotment.",
-  "featured_image": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/45457553/file/af06182d4c847f7bf1d03f905c51b7d7.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
     "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
@@ -2334,7 +2334,7 @@ export const blogPosts: BlogPost[] = [
   title: "Andhra Pradesh NEET PG 2025: Competent Authority Quota (State Government Quota) – Complete Guide",
   slug: "andhra-pradesh-neet-pg-2025-competent-authority-quota-complete-guide",
   excerpt: "This overview addresses key aspects of Andhra Pradesh NEET PG 2025 Competent Authority Quota (CQ) counselling, including eligibility, seat distribution, and application procedures for both local and non-local candidates.",
-  featured_image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&h=600&fit=crop",
+  featured_image: "https://cdn.dribbble.com/userupload/45457554/file/b3238e9b0c65d455fa93f6db59badd23.png?w=1200&h=600&fit=crop",
   author: {
     name: "Believers Team",
     avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
@@ -5204,7 +5204,7 @@ export const blogPosts: BlogPost[] = [
   title: "Understanding the Supreme Court Ruling on Domicile-Based Reservation",
   slug: "supreme-court-ruling-domicile-based-reservation-neet-pg",
   excerpt: "The Supreme Court ruling on domicile-based reservation in NEET PG admissions has sparked widespread debate. An objective review of the Court's decisions and their impact on PG medical admissions.",
-  featured_image: "https://cdn.dribbble.com/userupload/45442253/file/9ebb4e15e40c6628ad591e2bcfefa16a.png?w=1200&h=600&fit=crop",
+  featured_image: "https://cdn.dribbble.com/userupload/45457552/file/2e3bf31fd825aacc018338e549ba5e3f.png?w=1200&h=600&fit=crop",
   author: {
     name: "Believers Team",
     avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
