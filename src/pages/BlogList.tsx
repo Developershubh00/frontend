@@ -422,7 +422,7 @@ const BlogList: React.FC = () => {
     { name: 'NEET PG', slug: 'neet-pg', color: 'bg-blue-100 text-blue-800' },
     { name: 'NEET UG', slug: 'neet-ug', color: 'bg-red-100 text-red-800' },
     { name: 'Counselling', slug: 'counselling', color: 'bg-purple-100 text-purple-800' },
-    { name: 'Finance', slug: 'finance', color: 'bg-green-100 text-green-800' }
+    { name: 'NEET SS', slug: 'neet-ss', color: 'bg-green-100 text-green-800' }
   ];
 
   const filteredPosts = posts.filter(post => {
