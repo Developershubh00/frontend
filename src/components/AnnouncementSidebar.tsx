@@ -731,6 +731,15 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: ' https://www.jagranjosh.com/news/neet-pg-2025-counselling-registration-underway-complete-schedule-at-mcc.nic.in-181549',
       source: 'Jagran Josh',
     },
+    {
+      id: 53,
+      title: "NEET PG Counselling 2025: NEET PG 2025 Round 1: MCC Activates RESET Registration Until November 5 and Releases NRI Admission Guidelines with October 28 Document Deadline at mcc.nic.in ",
+      date: "2025-10-27T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: ' https://timesofindia.indiatimes.com/education/news/neet-pg-2025-round-1-mcc-opens-reset-registration-releases-nri-admission-guidelines-counselling-soon/articleshow/124827600.cms',
+      source: 'Times of india',
+     },
 
   ];
 
