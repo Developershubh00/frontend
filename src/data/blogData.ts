@@ -7249,6 +7249,333 @@ export const blogPosts: BlogPost[] = [
       "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
     }
   ]
+},
+{
+  "id": 21,
+  "title": "Karnataka NEET PG 2025 Counselling: Navigating Quotas, Fees, and Regulations",
+  "slug": "karnataka-neet-pg-2025-counselling-guide",
+  "excerpt": "Complete guide to Karnataka NEET PG 2025 counselling covering eligibility, seat categories, fee structure, documentation, and admission procedures across government, private, and NRI quotas.",
+  "featured_image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-purple-100 text-purple-800"
+  },
+  "tags": ["NEET PG", "Karnataka", "KEA Counselling", "Medical Admissions", "PG Counselling"],
+  "published_date": "2025-10-27",
+  "read_time": 15,
+  "meta_description": "Complete guide to Karnataka NEET PG 2025 counselling including eligibility, seat categories, fee structure, and admission procedures managed by KEA.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "Karnataka's postgraduate medical admission process is one of the most structured and transparent systems in India. Known for its layered admission structure, stringent eligibility norms, and diverse seat allotment categories, Karnataka NEET PG counselling plays a crucial role in shaping the postgraduate medical careers of thousands of aspirants every year.\n\nThe Karnataka Examination Authority (KEA) conducts the Karnataka NEET PG 2025 counselling, managing admissions for MD, MS, and PG Diploma courses across government, private, and minority medical colleges. Understanding the Karnataka state medical PG counselling process, its eligibility, documentation, seat categories, and fee structure is essential for every candidate aiming to secure a seat."
+    },
+    {
+      "id": "eligibility",
+      "type": "heading",
+      "title": "Eligibility Criteria for Karnataka NEET PG Counselling",
+      "level": 2
+    },
+    {
+      "id": "eligibility-content",
+      "type": "paragraph",
+      "content": "Eligibility for Karnataka NEET PG counselling 2025 depends on academic merit, domicile status, and category reservation."
+    },
+    {
+      "id": "eligibility-list",
+      "type": "list",
+      "items": [
+        "General candidates must score at least the 50th percentile in the NEET PG exam.",
+        "Reserved category candidates (2A, 2B, 3A, 3B) require a 40th percentile, while PwD candidates need a 45th percentile, as per KEA norms.",
+        "Non-Karnataka applicants are also eligible but must score 50th percentile or above.",
+        "Karnataka does not offer an EWS quota.",
+        "Candidates already holding a clinical PG degree are not eligible to apply."
+      ]
+    },
+    {
+      "id": "eligibility-note",
+      "type": "paragraph",
+      "content": "This ensures that the Karnataka PG medical counselling process remains competitive and merit-driven."
+    },
+    {
+      "id": "seat-categories",
+      "type": "heading",
+      "title": "Seat Categories in Karnataka NEET PG Counselling",
+      "level": 2
+    },
+    {
+      "id": "seat-categories-intro",
+      "type": "paragraph",
+      "content": "Seat allotment under the Karnataka counselling NEET PG process operates through multiple categories, each with specific eligibility and fee rules."
+    },
+    {
+      "id": "government-seats",
+      "type": "heading",
+      "title": "Government Seats (State Quota / G-Seats)",
+      "level": 3
+    },
+    {
+      "id": "government-seats-list",
+      "type": "list",
+      "items": [
+        "Offered in government colleges and some private colleges under the Karnataka state NEET PG counselling quota.",
+        "Reserved for candidates with Karnataka domicile or 10 years of schooling in Karnataka.",
+        "Includes General Merit (GM), SC/ST/OBC, and Hyderabad-Karnataka regional categories.",
+        "Fees are highly subsidized."
+      ]
+    },
+    {
+      "id": "private-management",
+      "type": "heading",
+      "title": "Private / Management Quota",
+      "level": 3
+    },
+    {
+      "id": "private-management-list",
+      "type": "list",
+      "items": [
+        "Available in private medical colleges for Karnataka and non-Karnataka candidates.",
+        "Includes minority quota, open seats, and management quota options.",
+        "Fees vary by institution, often ranging from ₹10–15 lakh per year."
+      ]
+    },
+    {
+      "id": "deemed-universities",
+      "type": "heading",
+      "title": "Deemed Universities",
+      "level": 3
+    },
+    {
+      "id": "deemed-universities-list",
+      "type": "list",
+      "items": [
+        "Participate through MCC NEET PG counselling at the national level.",
+        "Some deemed universities in Karnataka also offer seats via the state counselling system."
+      ]
+    },
+    {
+      "id": "nri-quota",
+      "type": "heading",
+      "title": "NRI Quota",
+      "level": 3
+    },
+    {
+      "id": "nri-quota-list",
+      "type": "list",
+      "items": [
+        "Reserved for NRI, OCI, PIO, and foreign nationals.",
+        "Requires valid documents such as a passport, a visa, a sponsorship affidavit, and an embassy certificate.",
+        "Fee structure is the highest among all categories."
+      ]
+    },
+    {
+      "id": "reservation-system",
+      "type": "heading",
+      "title": "Reservation System in Karnataka State Medical PG Counselling",
+      "level": 2
+    },
+    {
+      "id": "reservation-intro",
+      "type": "paragraph",
+      "content": "The Karnataka state medical PG counselling includes reservations for:"
+    },
+    {
+      "id": "reservation-list",
+      "type": "list",
+      "items": [
+        "SC, ST, and OBC categories (2A, 2B, 3A, 3B)",
+        "Regional reservation (Hyderabad-Karnataka)",
+        "In-service government doctors (with minimum 3 years of service, below 48 years)"
+      ]
+    },
+    {
+      "id": "reservation-note",
+      "type": "paragraph",
+      "content": "Reservation benefits apply only to candidates holding valid Karnataka domicile and category certificates issued within the state."
+    },
+    {
+      "id": "documents",
+      "type": "heading",
+      "title": "Required Documents for Karnataka NEET PG 2025 Counselling",
+      "level": 2
+    },
+    {
+      "id": "documents-intro",
+      "type": "paragraph",
+      "content": "To complete Karnataka NEET PG counselling registration, candidates must prepare the following documents:"
+    },
+    {
+      "id": "documents-list",
+      "type": "list",
+      "items": [
+        "NEET PG Admit Card & Rank Card",
+        "MBBS degree and internship completion certificate",
+        "Karnataka domicile or schooling proof",
+        "Caste/Reservation certificate (if applicable)",
+        "Identity proof (Aadhaar/PAN/Passport)",
+        "NRI or sponsorship documents (for NRI quota applicants)",
+        "Multiple self-attested photocopies of all documents"
+      ]
+    },
+    {
+      "id": "documents-note",
+      "type": "paragraph",
+      "content": "Accurate document submission ensures a smooth counselling procedure for NEET PG and prevents disqualification during verification."
+    },
+    {
+      "id": "fee-structure",
+      "type": "heading",
+      "title": "Fee Structure and Deposits",
+      "level": 2
+    },
+    {
+      "id": "fee-structure-intro",
+      "type": "paragraph",
+      "content": "The Karnataka PG medical counselling process involves application fees, security deposits, and tuition fees that differ across quotas."
+    },
+    {
+      "id": "fee-structure-list",
+      "type": "list",
+      "items": [
+        "Application Fee (KEA): ₹1,000 (General/OBC), ₹500 (SC/ST/PwD)",
+        "Security Deposit: ₹25,000 (General), ₹10,000 (SC/ST) – refundable upon joining",
+        "Tuition Fees:\n  - Government quota: ₹75,000–₹1.25 lakh per year\n  - Private quota: ₹10–15 lakh per year\n  - NRI/Management seats: ₹30–45 lakh per year"
+      ]
+    },
+    {
+      "id": "fee-structure-note",
+      "type": "paragraph",
+      "content": "Candidates must adhere to fee payment deadlines, as late reporting or withdrawal after the mop-up round can lead to fee forfeiture as per KEA and MCC NEET PG counselling schedule."
+    },
+    {
+      "id": "service-bond",
+      "type": "heading",
+      "title": "Service Bond and Penalties",
+      "level": 2
+    },
+    {
+      "id": "service-bond-content",
+      "type": "paragraph",
+      "content": "Before confirming a seat, candidates must review the service bond policy applicable to their institution. Violation of bond terms, delayed resignations, or withdrawal after the final round may attract penalties or debarment from future NEET PG counselling cycles."
+    },
+    {
+      "id": "choice-filling",
+      "type": "heading",
+      "title": "Choice Filling and Seat Allotment",
+      "level": 2
+    },
+    {
+      "id": "choice-filling-intro",
+      "type": "paragraph",
+      "content": "The choice filling in NEET PG phase is a crucial step during Karnataka NEET PG counselling registration. Aspirants must carefully list preferences for colleges and specialties. The Karnataka Examination Authority (KEA) then releases seat allotments based on:"
+    },
+    {
+      "id": "choice-filling-list",
+      "type": "list",
+      "items": [
+        "NEET PG rank",
+        "Category",
+        "Reservation eligibility",
+        "Availability of seats"
+      ]
+    },
+    {
+      "id": "choice-filling-note",
+      "type": "paragraph",
+      "content": "Candidates can apply for NEET PG counselling through the official KEA portal. They must also stay updated on the NEET PG counselling schedule and MCC counselling NEET PG announcements for deemed and central universities."
+    },
+    {
+      "id": "key-highlights",
+      "type": "heading",
+      "title": "Key Highlights for NEET PG Aspirants",
+      "level": 2
+    },
+    {
+      "id": "key-highlights-list",
+      "type": "list",
+      "items": [
+        "Karnataka state NEET PG counselling is among the most organized processes in India.",
+        "Separate rounds are held for government, private, and NRI seats.",
+        "Candidates can participate in both KEA and MCC NEET PG counselling (for deemed universities).",
+        "Career counselling, NEET PG sessions and official KEA notifications provide timely updates for applicants.",
+        "The NEET PG counselling application form and choice filling portal are available online on the KEA website."
+      ]
+    },
+    {
+      "id": "conclusion",
+      "type": "heading",
+      "title": "Final Takeaway",
+      "level": 2
+    },
+    {
+      "id": "conclusion-content",
+      "type": "paragraph",
+      "content": "KEA's counselling framework distinguishes itself through its multi-tiered seat allocation, rigorous documentation, and a spectrum of fee levels. Aspirants are advised to approach the process methodically, matching their eligibility to the appropriate quota and preparing all necessary attestations in advance. Along with this, candidates should carefully identify which kind of seat categories. Regular consultation of KEA notifications and a nuanced grasp of the seat distribution framework are essential for informed decision-making throughout the counselling cycle."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q: What makes Karnataka NEET PG counselling unique compared to other states?",
+          "answer": "A: Karnataka's counselling is distinguished by its multiple quota categories (government, private, minority, NRI, institutional), strict domicile and certificate requirements, and a wide range of fee structures. Understanding these distinctions is critical for successful participation."
+        },
+        {
+          "question": "Q: Who is eligible for government quota seats in Karnataka?",
+          "answer": "A: Government quota seats are available to candidates who completed their MBBS in Karnataka or have 10 years of documented schooling in the state, including 10th and 12th standards. Proof of local domicile and relevant caste or category certificates are mandatory."
+        },
+        {
+          "question": "Q: Can non-Karnataka candidates apply for any seats in the state counselling?",
+          "answer": "A: Non-Karnataka candidates can apply for Open (OPN) seats in private colleges, private university seats, and institutional/NRI quota seats, but are ineligible for government or private GMP seats."
+        },
+        {
+          "question": "Q: What should candidates know about service bonds and penalties in Karnataka?",
+          "answer": "A: Karnataka enforces strict service bond and penalty clauses. Candidates are strongly advised to review the official terms regarding duration, resignation timelines, and monetary penalties before accepting a seat to avoid unforeseen consequences."
+        }
+      ]
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "NEET PG Postponed",
+  "NEET PG 2025",
+  "NEET PG Exam",
+  "Single Shift Exam",
+  "NEET PG Postponement Case",
+  "NEET PG Postponement 2025",
+  "NEET PG Exam Single Shift",
+  "NEET PG 2025 Exam Single Shift",
+  "Supreme Court Order",
+  "NEET PG Aspirants",
+  "NEET PG Single Shift Hearing",
+  "NEET PG Single Shift Plea Hearing",
+  "NEET PG Supreme Court",
+  "NBEMS NEET PG",
+  "NEET PG Exam Preparation",
+  "NEET PG Exam 2025"
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    }
+  ]
 }
 
 ];
