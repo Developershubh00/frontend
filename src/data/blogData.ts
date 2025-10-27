@@ -5625,7 +5625,7 @@ export const blogPosts: BlogPost[] = [
   "title": "Odisha NEET PG 2025 Counselling: Complete Guide for Candidates",
   "slug": "odisha-neet-pg-2025-counselling-guide",
   "excerpt": "Comprehensive guide to Odisha NEET PG counselling 2025 covering eligibility, registration process, reservation policy, service bonds, fee structure, and document requirements for state medical admissions.",
-  "featured_image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/45461741/file/01572a302b461307ebfe19407ec558a1.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
     "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
@@ -6001,7 +6001,7 @@ export const blogPosts: BlogPost[] = [
   "title": "Tamil Nadu NEET PG 2025 Applications Now Open: A Complete Guide",
   "slug": "tamil-nadu-neet-pg-2025-complete-guide",
   "excerpt": "Complete guide to Tamil Nadu NEET PG 2025 counselling covering government and management quota applications, eligibility criteria, registration process, important dates, and document requirements for state medical admissions.",
-  "featured_image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/45461743/file/450d6e2e514aa5dcd8988eb3c201f27e.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
     "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
@@ -6320,7 +6320,7 @@ export const blogPosts: BlogPost[] = [
   "title": "CMC Vellore PG Registration 2025: A Step-by-Step Guide",
   "slug": "cmc-vellore-pg-registration-2025-guide",
   "excerpt": "Complete guide to CMC Vellore PG Registration 2025 covering MD/MS, Diploma, and MCh programs with detailed steps, important dates, document requirements, and category-specific guidelines for NEET PG qualified candidates.",
-  "featured_image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/45461742/file/aff195c18c4c2c24b94b83a59d145a79.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
     "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
