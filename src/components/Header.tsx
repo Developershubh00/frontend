@@ -593,13 +593,13 @@ const Header: React.FC<HeaderProps> = ({
 
             <div className="flex items-center space-x-2">
               {/* Counselling Form CTA - Urgency Button */}
-              <button
+              {/* <button
                 onClick={handleCounsellingFormClick}
                 className="flex items-center space-x-2 px-4 py-2 bg-gradient-to-r from-orange-500 to-red-500 text-white rounded-xl hover:from-orange-600 hover:to-red-600 transition-all duration-200 transform hover:scale-105 shadow-lg animate-pulse"
               >
                 <FileText className="w-4 h-4" />
                 <span className="font-semibold">Fill Counselling Form</span>
-              </button>
+              </button> */}
 
               <button
                 onClick={() => navigate("/faq")}
