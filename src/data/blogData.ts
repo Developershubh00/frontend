@@ -6857,19 +6857,22 @@ export const blogPosts: BlogPost[] = [
   "type": "keywords",
   "title": "Related Keywords",
   "keywords": [
-  //  "NEET PG Exam",
-  // "PG Medical Course",
-  // "NEET PG Counselling",
-  // "Tamil Nadu State Counselling",
-  // "PG Counselling",
-  // "CMC Vellore Online Registration",
-  // "CMC Vellore PG Registration",
-  // "CMC Vellore Entrance Exam 2025",
-  // "CMC Vellore Application Form 2025",
-  // "CMC Vellore Application Form",
-  // "CMC Vellore Application",
-  // "CMC Vellore Entrance Exam",
-  // "CMC Vellore Admission Process"
+  "NEET PG Postponed",
+  "NEET PG 2025",
+  "NEET PG Exam",
+  "Single Shift Exam",
+  "NEET PG Postponement Case",
+  "NEET PG Postponement 2025",
+  "NEET PG Exam Single Shift",
+  "NEET PG 2025 Exam Single Shift",
+  "Supreme Court Order",
+  "NEET PG Aspirants",
+  "NEET PG Single Shift Hearing",
+  "NEET PG Single Shift Plea Hearing",
+  "NEET PG Supreme Court",
+  "NBEMS NEET PG",
+  "NEET PG Exam Preparation",
+  "NEET PG Exam 2025"
 ]
 },
     {
@@ -6888,6 +6891,362 @@ export const blogPosts: BlogPost[] = [
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
       "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    }
+  ]
+},
+{
+  "id": 21,
+  "title": "Tamil Nadu Management Quota 2025: Complete Information Guide",
+  "slug": "tamil-nadu-management-quota-2025-guide",
+  "excerpt": "Complete guide to Tamil Nadu Management Quota 2025 covering eligibility, fees, counselling process, documentation, and admission procedures for PG medical seats in private institutions.",
+  "featured_image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-purple-100 text-purple-800"
+  },
+  "tags": ["NEET PG", "Tamil Nadu", "Management Quota", "Medical Admissions", "PG Counselling"],
+  "published_date": "2025-10-27",
+  "read_time": 15,
+  "meta_description": "Get complete details on Tamil Nadu Management Quota 2025 including eligibility, fees, counselling process, and top medical colleges for PG admissions.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "The Directorate of Medical Education (DME) Tamil Nadu administers Tamil Nadu Management Quota counselling for 50% of postgraduate medical seats in private institutions for the 2025–26 academic session. This guide explains eligibility, documentation, Tamil Nadu management quota registration, Tamil Nadu management quota fees, and step-by-step procedures for Tamil Nadu PG Management Quota counselling."
+    },
+    {
+      "id": "overview",
+      "type": "heading",
+      "title": "1. Overview of Tamil Nadu Management Quota",
+      "level": 2
+    },
+    {
+      "id": "overview-content",
+      "type": "paragraph",
+      "content": "DME Tamil Nadu conducts two parallel counselling processes — one for the Government Quota (50% of government college seats) and another for the Tamil Nadu Management Quota (50% of private college seats). Candidates who wish to participate in both must register separately.\n\nThe management quota admission process covers seats in private medical colleges across Tamil Nadu, including a part of the quota at Christian Medical College (CMC), Vellore.\n\nAll candidates from India can apply under Tamil Nadu medical counselling management quota, which also includes subcategories like NRI, minority, and institutional preference seats."
+    },
+    {
+      "id": "key-dates",
+      "type": "heading",
+      "title": "2. Key Dates",
+      "level": 2
+    },
+    {
+      "id": "key-dates-list",
+      "type": "list",
+      "items": [
+        "Notification Release: 9th September 2025",
+        "Last Date to Apply: 16th September 2025, 5:00 PM"
+      ]
+    },
+    {
+      "id": "key-dates-note",
+      "type": "paragraph",
+      "content": "DME Tamil Nadu rarely extends registration dates, so applicants must complete the Tamil Nadu medical counselling registration 2025 within the official timeline."
+    },
+    {
+      "id": "seat-distribution",
+      "type": "heading",
+      "title": "3. Seat Distribution",
+      "level": 2
+    },
+    {
+      "id": "seat-distribution-content",
+      "type": "paragraph",
+      "content": "Under the Tamil Nadu Management Quota seats:"
+    },
+    {
+      "id": "seat-distribution-list",
+      "type": "list",
+      "items": [
+        "50% of private medical college seats are reserved for management quota admissions.",
+        "At CMC Vellore, the distribution is:\n  - 50% Management Quota\n  - 30% Government Quota\n  - 20% for Tamil Nadu native Christian minority candidates"
+      ]
+    },
+    {
+      "id": "seat-distribution-note",
+      "type": "paragraph",
+      "content": "It's important to note that CMC Vellore handles its own management quota admission independently, outside the DME counselling framework."
+    },
+    {
+      "id": "eligibility",
+      "type": "heading",
+      "title": "4. Eligibility Criteria",
+      "level": 2
+    },
+    {
+      "id": "percentile-requirements",
+      "type": "heading",
+      "title": "Percentile Requirements:",
+      "level": 3
+    },
+    {
+      "id": "percentile-list",
+      "type": "list",
+      "items": [
+        "OC and PWD candidates: 45th percentile",
+        "Other state candidates: 50th percentile",
+        "Reserved category domicile candidates (as per Tamil Nadu prospectus): 40th percentile"
+      ]
+    },
+    {
+      "id": "eligibility-note",
+      "type": "paragraph",
+      "content": "There's no internal reservation within the Tamil Nadu Management Quota, but category certificates are considered for eligibility verification."
+    },
+    {
+      "id": "additional-conditions",
+      "type": "heading",
+      "title": "Additional Conditions:",
+      "level": 3
+    },
+    {
+      "id": "additional-conditions-list",
+      "type": "list",
+      "items": [
+        "Candidates already pursuing or having completed MD/MS/DNB are not eligible.",
+        "Those who have resigned after joining such courses must check eligibility as per the prospectus."
+      ]
+    },
+    {
+      "id": "nri-quota",
+      "type": "heading",
+      "title": "5. NRI Quota Details",
+      "level": 2
+    },
+    {
+      "id": "nri-quota-content",
+      "type": "paragraph",
+      "content": "Around 15% of seats in private medical colleges fall under the NRI quota. Eligibility includes candidates who are NRIs, children or dependents of NRIs, or those sponsored by an eligible NRI relative as per official norms."
+    },
+    {
+      "id": "nri-documents",
+      "type": "heading",
+      "title": "Documents Required:",
+      "level": 3
+    },
+    {
+      "id": "nri-documents-list",
+      "type": "list",
+      "items": [
+        "Embassy certificate confirming NRI status",
+        "Relationship certificate issued by the Tahsildar",
+        "Passport/OCI card of the sponsor",
+        "NRI bank account proof or foreign bank statement",
+        "Declaration of sponsorship (Annexure)"
+      ]
+    },
+    {
+      "id": "nri-documents-note",
+      "type": "paragraph",
+      "content": "These documents validate the NRI-candidate relationship under Tamil Nadu PG Management Quota counselling guidelines."
+    },
+    {
+      "id": "application-process",
+      "type": "heading",
+      "title": "6. Application Process",
+      "level": 2
+    },
+    {
+      "id": "application-intro",
+      "type": "paragraph",
+      "content": "Candidates must apply online via the official DME portal — tnmedicalselection.net — for TN Management Quota counselling."
+    },
+    {
+      "id": "application-steps",
+      "type": "heading",
+      "title": "Steps to Apply:",
+      "level": 3
+    },
+    {
+      "id": "application-steps-list",
+      "type": "list",
+      "items": [
+        "Register on the DME portal.",
+        "Fill the online application form and upload documents.",
+        "Upload passport-size and postcard-size photos, signature, and thumb impression.",
+        "Pay the registration fee online.",
+        "Submit the form and retain the confirmation page."
+      ]
+    },
+    {
+      "id": "application-fees",
+      "type": "heading",
+      "title": "Application Fees:",
+      "level": 3
+    },
+    {
+      "id": "application-fees-list",
+      "type": "list",
+      "items": [
+        "Application Fee: ₹5,000",
+        "Choice Filling: ₹1,000",
+        "Security Deposit: ₹2,00,000 (refundable post-counselling, except in cases of discontinuation)"
+      ]
+    },
+    {
+      "id": "application-note",
+      "type": "paragraph",
+      "content": "Candidates will participate in Tamil Nadu Management Quota choice filling after successful Tamil Nadu management quota registration."
+    },
+    {
+      "id": "certificates",
+      "type": "heading",
+      "title": "7. Certificates Required",
+      "level": 2
+    },
+    {
+      "id": "certificates-list",
+      "type": "list",
+      "items": [
+        "NEET PG Admit Card & Score Card",
+        "Internship (CRRI) Completion Certificate",
+        "Medical Registration Certificate (MCI/State)",
+        "Identity Proof (Aadhar, PAN, or Voter ID)",
+        "Nativity Certificate (if applicable)",
+        "Community Certificate (for eligibility)",
+        "Eligibility Certificate (for non-TN universities)",
+        "Minority or NRI documents (if applicable)"
+      ]
+    },
+    {
+      "id": "certificates-note",
+      "type": "paragraph",
+      "content": "All documents should be self-attested and later verified during physical admission."
+    },
+    {
+      "id": "fee-structure",
+      "type": "heading",
+      "title": "8. Fee Structure for Tamil Nadu Management Quota Seats",
+      "level": 2
+    },
+    {
+      "id": "fee-table",
+      "type": "table",
+      "table": {
+        "headers": ["Category", "Course Type", "Annual Fee"],
+        "rows": [
+          ["Management Quota", "Clinical Courses", "₹16,00,000"],
+          ["Management Quota", "Non-Clinical / PG Diploma", "₹5,00,000"],
+          ["NRI Quota", "Clinical Courses", "₹29,00,000"],
+          ["NRI Quota", "Non-Clinical Courses", "₹19,00,000"],
+          ["CMC Vellore", "All Courses (3 years total)", "₹2,46,000"]
+        ]
+      }
+    },
+    {
+      "id": "fee-notes",
+      "type": "heading",
+      "title": "Notes:",
+      "level": 3
+    },
+    {
+      "id": "fee-notes-list",
+      "type": "list",
+      "items": [
+        "Fees are payable to DME through secure online payment modes.",
+        "Hostel and mess charges are additional.",
+        "Variations may occur across colleges beyond DME's standard notification."
+      ]
+    },
+    {
+      "id": "refunds",
+      "type": "heading",
+      "title": "9. Refunds and Penalties",
+      "level": 2
+    },
+    {
+      "id": "refunds-content",
+      "type": "paragraph",
+      "content": "Refunds for the Tamil Nadu management quota counselling security deposit follow DME timelines after counselling concludes.\n\nStudents who discontinue after the permitted period forfeit their Tamil Nadu management quota fees, registration fee, and deposit.\n\nLate resignations attract penalties as per the bond agreement signed during Tamil Nadu medical counselling management quota admission."
+    },
+    {
+      "id": "stipend",
+      "type": "heading",
+      "title": "10. Stipend and Service Bond",
+      "level": 2
+    },
+    {
+      "id": "stipend-content",
+      "type": "paragraph",
+      "content": "Private colleges under the Tamil Nadu Management Quota typically do not require a service bond.\n\nStipends, if applicable, vary by institution and depend on compliance with TN Medical Counselling 2025 regulations."
+    },
+    {
+      "id": "conclusion",
+      "type": "heading",
+      "title": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "conclusion-content",
+      "type": "paragraph",
+      "content": "The Tamil Nadu Management Quota admission process offers opportunities for both Tamil Nadu natives and candidates from across India. Complete procedural information is available through the official DME Tamil Nadu portal at tnmedicalselection.net."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "Frequently Asked Questions (FAQs)",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1: Who can apply for Tamil Nadu Management Quota?",
+          "answer": "All NEET PG-qualified candidates across India can apply. Tamil Nadu natives from reserved categories need to score 40th percentile (235+ marks), while others require a 50th percentile score. Candidates pursuing or having completed PG courses are ineligible."
+        },
+        {
+          "question": "Q2: What are the fees for the application and security deposit?",
+          "answer": "Application fee: ₹5,000. For choice filling: ₹1,000 registration fee + ₹2,00,000 security deposit. The deposit is refundable after counselling if withdrawn within the permitted period."
+        },
+        {
+          "question": "Q3: What are the tuition fees for the Management/NRI quota?",
+          "answer": "Management Quota: ₹16 lakh/year (clinical), ₹5 lakh/year (non-clinical). NRI Quota: ₹29 lakh/year (clinical), ₹19 lakh/year (non-clinical). CMC Vellore: ₹2.46 lakh total for 3 years. Fees paid to DME online."
+        },
+        {
+          "question": "Q4: What documents are needed for the NRI category?",
+          "answer": "Embassy certificate, Tahsildar-issued relationship certificate, sponsor's passport/OCI, NRI bank passbook, sponsorship declaration (Annexure), and court order if the sponsor is the legal guardian. Eligible sponsors include immediate and extended family members."
+        },
+        {
+          "question": "Q5: Are there service bonds or penalties for leaving?",
+          "answer": "No service bond in private colleges. Penalty for course discontinuation: ₹15 lakh (MD/MS) or ₹10 lakh (Diploma) after admission. Security deposit and tuition fees are forfeited if withdrawn after the deadline."
+        }
+      ]
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "tamil nadu management quota counselling",
+        "tamil nadu management quota",
+        "management quota admission",
+        "management quota",
+        "tamil nadu neet pg counselling",
+        "tamil nadu state neet pg counselling",
+        "tamil nadu pg management quota counselling",
+        "tamil nadu medical counselling management quota",
+        "tamil nadu management quota registration",
+        "tamil nadu management quota fees",
+        "tamil nadu management quota seats",
+        "tamil nadu management quota choice filling",
+        "tn management quota counselling",
+        "tn medical counselling 2025",
+        "tamil nadu medical counselling registration 2025"
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
     }
   ]
 }
