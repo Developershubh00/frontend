@@ -1,5 +1,5 @@
-import React from "react";
-import { ArrowLeft, Phone, Mail, Clock, MessageCircle } from "lucide-react";
+/import React from "react";
+import { ArrowLeft, Phone, Mail, Clock, MessageCircle, Youtube, Instagram } from "lucide-react";
 
 interface SupportPageProps {
   onBack: () => void;
@@ -9,6 +9,7 @@ interface SupportPageProps {
  * Support Page Component
  * UPDATED: Simplified design with Contact Us and Office Hours in center
  * Added WhatsApp integration for quick support
+ * Added Social Media links
  * Improved mobile responsiveness
  */
 const SupportPage: React.FC<SupportPageProps> = ({ onBack }) => {
@@ -17,7 +18,7 @@ const SupportPage: React.FC<SupportPageProps> = ({ onBack }) => {
    * Opens WhatsApp with pre-filled message
    */
   const handleWhatsAppClick = () => {
-    const phoneNumber = "919876543210"; // Replace with actual WhatsApp number
+    const phoneNumber = "919211724969"; // Updated WhatsApp number
     const message = encodeURIComponent(
       "Hi! I need help with medical Counselling guidance."
     );
@@ -66,29 +67,61 @@ const SupportPage: React.FC<SupportPageProps> = ({ onBack }) => {
 
             <div className="space-y-6">
               {/* Phone */}
-              <div className="flex items-center gap-4 p-4 bg-green-50 hover:bg-green-100 rounded-2xl border border-green-200 transition">
+              <a 
+                href="tel:+919211724969"
+                className="flex items-center gap-4 p-4 bg-green-50 hover:bg-green-100 rounded-2xl border border-green-200 transition cursor-pointer"
+              >
                 <div className="w-12 h-12 md:w-14 md:h-14 bg-green-500 rounded-full flex items-center justify-center shadow-md">
                   <Phone className="w-5 h-5 md:w-6 md:h-6 text-white" />
                 </div>
                 <div>
                   <p className="text-lg font-semibold text-slate-800">Phone</p>
-                  <p className="text-sm text-slate-600">+91 9876543210</p>
-                  <p className="text-xs text-green-600">Available 24/7</p>
+                  <p className="text-sm text-slate-600">+91 9211724969</p>
+                  <p className="text-xs text-green-600">Mon-Sat: 10 AM - 7 PM</p>
                 </div>
-              </div>
+              </a>
 
               {/* Email */}
-              <div className="flex items-center gap-4 p-4 bg-blue-50 hover:bg-blue-100 rounded-2xl border border-blue-200 transition">
+              <a 
+                href="mailto:contact@believersconsultancy.com"
+                className="flex items-center gap-4 p-4 bg-blue-50 hover:bg-blue-100 rounded-2xl border border-blue-200 transition cursor-pointer"
+              >
                 <div className="w-12 h-12 md:w-14 md:h-14 bg-blue-500 rounded-full flex items-center justify-center shadow-md">
                   <Mail className="w-5 h-5 md:w-6 md:h-6 text-white" />
                 </div>
                 <div>
                   <p className="text-lg font-semibold text-slate-800">Email</p>
-                  <p className="text-sm text-slate-600">
+                  <p className="text-sm text-slate-600 break-all">
                     contact@believersconsultancy.com
                   </p>
-                  <p className="text-xs text-blue-600">Response in 2 hours</p>
+                  <p className="text-xs text-blue-600">Response in 24 hours</p>
                 </div>
+              </a>
+
+              {/* Social Media */}
+              <div className="p-4 bg-gradient-to-r from-purple-50 to-pink-50 hover:from-purple-100 hover:to-pink-100 rounded-2xl border border-purple-200 transition">
+                <p className="text-lg font-semibold text-slate-800 mb-3 text-center">Follow Us</p>
+                <div className="flex items-center justify-center gap-4">
+                  <a
+                    href="https://www.youtube.com/@BelieversConsultancy"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-12 h-12 md:w-14 md:h-14 bg-red-500 hover:bg-red-600 rounded-full flex items-center justify-center shadow-md transition-all duration-300 hover:scale-110 group"
+                    aria-label="Visit our YouTube channel"
+                  >
+                    <Youtube className="w-5 h-5 md:w-6 md:h-6 text-white" />
+                  </a>
+                  <a
+                    href="https://www.instagram.com/believers.medcounselling"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-12 h-12 md:w-14 md:h-14 bg-gradient-to-br from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 rounded-full flex items-center justify-center shadow-md transition-all duration-300 hover:scale-110 group"
+                    aria-label="Visit our Instagram page"
+                  >
+                    <Instagram className="w-5 h-5 md:w-6 md:h-6 text-white" />
+                  </a>
+                </div>
+                <p className="text-xs text-slate-600 text-center mt-3">Connect with us on social media</p>
               </div>
             </div>
           </div>
@@ -123,8 +156,7 @@ const SupportPage: React.FC<SupportPageProps> = ({ onBack }) => {
 
               <div className="mt-6 p-4 bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl border border-green-200/50">
                 <p className="text-sm text-green-700 text-center">
-                  <strong>Emergency Support:</strong> Available 24/7 via
-                  WhatsApp
+                  <strong>Quick Support:</strong> Available via WhatsApp during office hours
                 </p>
               </div>
             </div>
@@ -132,7 +164,7 @@ const SupportPage: React.FC<SupportPageProps> = ({ onBack }) => {
         </div>
 
         {/* WhatsApp Quick Support */}
-        {/* <div className="mt-8 bg-gradient-to-r from-green-500 to-emerald-600 rounded-2xl md:rounded-3xl p-6 md:p-8 text-white text-center shadow-2xl">
+        <div className="mt-8 bg-gradient-to-r from-green-500 to-emerald-600 rounded-2xl md:rounded-3xl p-6 md:p-8 text-white text-center shadow-2xl">
           <div className="flex items-center justify-center mb-4">
             <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm">
               <MessageCircle className="w-8 h-8" />
@@ -156,9 +188,9 @@ const SupportPage: React.FC<SupportPageProps> = ({ onBack }) => {
           </button>
 
           <p className="text-xs md:text-sm text-green-200 mt-4">
-            Available 24/7 for urgent queries • Response within 5 minutes
+            Available Mon-Sat: 10 AM - 7 PM • Quick response guaranteed
           </p>
-        </div> */}
+        </div>
 
         {/* Additional Support Info */}
         <div className="mt-8 grid gap-4 md:grid-cols-3">
@@ -170,7 +202,7 @@ const SupportPage: React.FC<SupportPageProps> = ({ onBack }) => {
               Quick Response
             </h4>
             <p className="text-sm text-slate-600">
-              Average response time: 2 hours
+              Average response time: 24 hours
             </p>
           </div>
 
@@ -190,8 +222,8 @@ const SupportPage: React.FC<SupportPageProps> = ({ onBack }) => {
             <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-3">
               <Phone className="w-5 h-5 text-purple-600" />
             </div>
-            <h4 className="font-semibold text-slate-800 mb-1">9am-7pm Support</h4>
-            <p className="text-sm text-slate-600">Round the clock assistance</p>
+            <h4 className="font-semibold text-slate-800 mb-1">Office Support</h4>
+            <p className="text-sm text-slate-600">Mon-Sat: 10 AM - 7 PM</p>
           </div>
         </div>
       </div>
