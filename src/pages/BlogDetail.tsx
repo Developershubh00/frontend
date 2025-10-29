@@ -610,6 +610,12 @@ import {
   AlertCircle,
   Tag as TagIcon
 } from "lucide-react";
+
+// ✅ ADD THESE 3 IMPORTS HERE
+import { SEOHead } from '../components/SEO/SEOHead';
+import { Breadcrumb } from '../components/SEO/Breadcrumb';
+import { JsonLd } from '../components/SEO/JsonLd';
+
 import { getBlogBySlug, getRelatedBlogs, BlogPost, Section } from "../data/blogData";
 import Newsletter from "../components/Newsletter";
 
@@ -653,6 +659,70 @@ const BlogDetail: React.FC = () => {
       }
     }
   }, [slug, navigate]);
+
+  // ✅ NEW: Generate structured data
+  const articleSchema = post ? {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": post.title,
+    "description": post.excerpt,
+    "image": post.featured_image,
+    "author": {
+      "@type": "Person",
+      "name": post.author.name,
+      "description": post.author.bio,
+      "image": post.author.avatar
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Believers Consultancy",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://cdn.dribbble.com/userupload/45206464/file/c3151a13076f702ddb0d22c361a63bd.png"
+      }
+    },
+    "datePublished": post.published_date,
+    "dateModified": post.published_date,
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `https://believersconsultancy.com/blog/${post.slug}`
+    },
+    "keywords": post.tags.join(', '),
+    "articleSection": post.category.name,
+    "wordCount": post.sections.reduce((acc, section) => {
+      const text = section.content || section.title || '';
+      return acc + text.split(' ').length;
+    }, 0),
+    "timeRequired": `PT${calculateReadTime()}M`,
+    "inLanguage": "en-IN"
+  } : null;
+
+  // ✅ NEW: Generate FAQ schema if post has FAQs
+  const faqSections = post?.sections.filter(s => s.type === 'faq') || [];
+  const hasFAQs = faqSections.length > 0 && faqSections.some(s => s.faqs && s.faqs.length > 0);
+  
+  const faqSchema = hasFAQs ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqSections.flatMap(section => 
+      section.faqs?.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      })) || []
+    )
+  } : null;
+
+  // ✅ NEW: Custom breadcrumb items
+  const breadcrumbItems = post ? [
+    { label: 'Home', path: '/' },
+    { label: 'Blog', path: '/blog' },
+    { label: post.category.name, path: `/blog?category=${post.category.slug}` },
+    { label: post.title, path: `/blog/${post.slug}` }
+  ] : [];
 
   if (!post) {
     return (
@@ -913,6 +983,21 @@ const BlogDetail: React.FC = () => {
   };
 
   return (
+     <>
+      {/* ✅ NEW: Add SEO Components at the very top */}
+      <SEOHead
+        title={`${post.title} | Believers Consultancy Blog`}
+        description={post.excerpt}
+        keywords={post.tags.join(', ')}
+        canonical={`https://believersconsultancy.com/blog/${post.slug}`}
+        ogImage={post.featured_image}
+        type="article"
+        author={post.author.name}
+        publishedTime={post.published_date}
+      />
+      {articleSchema && <JsonLd data={articleSchema} id={`article-${post.slug}`} />}
+      {faqSchema && <JsonLd data={faqSchema} id={`faq-${post.slug}`} />}
+
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
       <header className="bg-white shadow-sm border-b border-gray-200 sticky top-0 z-40">
@@ -944,6 +1029,8 @@ const BlogDetail: React.FC = () => {
       </header>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      {/* ✅ NEW: Add Breadcrumb here */}
+          <Breadcrumb items={breadcrumbItems} className="mb-6" />
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
           {/* Mobile TOC */}
           {tocOpen && (
@@ -1235,6 +1322,7 @@ const BlogDetail: React.FC = () => {
         </div>
       </div>
     </div>
+  </>
   );
 };
 

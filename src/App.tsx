@@ -61,6 +61,8 @@ import BlogList from "./pages/BlogList";
 import BlogDetail from "./pages/BlogDetail";
 // import NEETPGCategoryChangeBlog from "./Blogs/NEETPGCategoryChangeBlog";
 
+import { NotFound } from "./components/ErrorPages/NotFound";
+
 /**
  * Main App Component with React Router
  * Restructured with proper authentication flow and navigation
@@ -249,12 +251,15 @@ function App() {
             }
           />
 
+         
           {/* Debug Route */}
           <Route path="/debug" element={<DebugPage />} />
 
           {/* Default Routes */}
-          <Route path="/" element={<Homepage />} />     
-          <Route path="*" element={<Navigate to="/" replace />} />
+          <Route path="/" element={<Homepage />} /> 
+          {/* 404 Route - MUST BE LAST */}
+          <Route path="*" element={<NotFound />} />    
+          
           <Route path="/privacy" element={<PrivacyPolicy />} />
           <Route path="/terms" element={<TermsConditions />} />
           <Route path="/choicelists" element={<ChoiceLists />} />
