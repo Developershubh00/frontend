@@ -1195,6 +1195,8 @@ import {
   ChevronLeft,
   ChevronRight,
   Clock,
+  Youtube,      // Add this
+  Instagram,    // Add this
 } from "lucide-react";
 import TypingCategories from "../components/TypingCategories"
 import AiSensyWidget from "../components/AiSensyWidget";
@@ -1598,45 +1600,54 @@ function Homepage() {
           </div>
           
           {/* Mobile Menu */}
+          {/* Mobile Menu */}
           {isMenuOpen && (
             <div className="md:hidden border-t border-gray-100 bg-white/95 backdrop-blur-sm">
               <div className="px-2 pt-2 pb-3 space-y-1">
                 <a
-                  href="#testimonials"
-                  className="block px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-md transition-all duration-300 font-medium"
-                >
-                  Testimonials
-                </a>
-                <a
-                  onClick={() => navigate("/blog")}
-                  className="block px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-md transition-all duration-300 font-medium"
+                  onClick={() => {
+                    navigate("/blog");
+                    setIsMenuOpen(false);
+                  }}
+                  className="block px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-md transition-all duration-300 font-medium cursor-pointer"
                 >
                   Blog
                 </a>
                 <a
-                  href="#news"
-                  className="block px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-md transition-all duration-300 font-medium"
+                  onClick={() => {
+                    navigate("/announcements");
+                    setIsMenuOpen(false);
+                  }}
+                  className="block px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-md transition-all duration-300 font-medium cursor-pointer"
                 >
                   News
                 </a>
                 <a
-                  href="#careers"
-                  className="block px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-md transition-all duration-300 font-medium"
+                  onClick={() => {
+                    setIsMenuOpen(false);
+                  }}
+                  className="block px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-md transition-all duration-300 font-medium cursor-pointer"
                 >
                   Careers
                 </a>
                 <a
-                  href="#contact"
-                  className="block px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-md transition-all duration-300 font-medium"
+                  onClick={() => {
+                    navigate("/support");
+                    setIsMenuOpen(false);
+                  }}
+                  className="block px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-md transition-all duration-300 font-medium cursor-pointer"
                 >
                   Contact Us
                 </a>
                 <div className="pt-2">
                   <button 
-                    onClick={() => navigate("/login")}
+                    onClick={() => {
+                      navigate("/login");
+                      setIsMenuOpen(false);
+                    }}
                     className="w-full bg-gradient-to-r from-blue-300 to-blue-700 hover:from-blue-300 hover:to-blue-800 text-white px-6 py-2.5 rounded-full font-semibold transition-all duration-300 shadow-lg"
                   >
-                    Login
+                    Log-In | Sign-Up
                   </button>
                 </div>
               </div>
@@ -2195,28 +2206,48 @@ function Homepage() {
       </section>
 
       {/* Footer */}
+      {/* Footer */}
       <footer className="bg-gray-900 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="col-span-1 md:col-span-1">
               <div className="flex items-center space-x-3 mb-4">
                 <div className="w-auto h-16 bg-white rounded-2xl flex items-center justify-center shadow-lg overflow-hidden">
-                <img
-                src="/media/logo4.png"
-                alt="BD Logo"
-                 className="w-auto h-16 object-contain"
-                />
+                  <img
+                    src="/media/logo4.png"
+                    alt="BD Logo"
+                    className="w-auto h-16 object-contain"
+                  />
+                </div>
               </div>
-                {/* <span className="text-2xl font-bold">Believers Consultancy</span> */}
-              </div>
-              <p className="text-gray-400 mb-2 leading-relaxed">
+              <p className="text-gray-400 mb-4 leading-relaxed">
                 Your ultimate guide to counselling. 100% free
                 access to all resources and expert guidance.
               </p>
-              <div className="flex space-x-4">
-                {/* <div className="bg-gray-800 rounded-xl p-4 hover:bg-gray-700 transition-colors cursor-pointer">
-                  <span className="text-sm font-semibold">Download App</span>
-                </div> */}
+              
+              {/* Social Media Links */}
+              <div className="mb-4">
+                <h4 className="font-semibold text-white mb-3">Follow Us</h4>
+                <div className="flex space-x-3">
+                  <a
+                    href="https://www.youtube.com/@BelieversConsultancy"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-gray-800 hover:bg-red-600 rounded-lg p-3 transition-all duration-300 hover:scale-110 group"
+                    aria-label="Visit our YouTube channel"
+                  >
+                    <Youtube className="w-5 h-5 text-gray-400 group-hover:text-white" />
+                  </a>
+                  <a
+                    href="https://www.instagram.com/believers.medcounselling"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-gray-800 hover:bg-gradient-to-br hover:from-purple-600 hover:to-pink-600 rounded-lg p-3 transition-all duration-300 hover:scale-110 group"
+                    aria-label="Visit our Instagram page"
+                  >
+                    <Instagram className="w-5 h-5 text-gray-400 group-hover:text-white" />
+                  </a>
+                </div>
               </div>
             </div>
 
@@ -2224,25 +2255,9 @@ function Homepage() {
               <h3 className="font-bold text-xl mb-6">QUICK LINKS</h3>
               <ul className="space-y-3 text-gray-400">
                 <li>
-                  {/* <a
-                    href="#"
-                    className="hover:text-white transition-colors hover:text-blue-400"
-                  >
-                    Testimonials
-                  </a> */}
-                </li>
-                <li>
-                  {/* <a
-                    href="#"
-                    className="hover:text-white transition-colors hover:text-blue-400"
-                  >
-                    Blog
-                  </a> */}
-                </li>
-                <li>
                   <a
                     onClick={() => navigate("/announcements")}
-                    className="hover:text-white transition-colors hover:text-blue-400"
+                    className="hover:text-white transition-colors hover:text-blue-400 cursor-pointer"
                   >
                     News
                   </a>
@@ -2250,7 +2265,7 @@ function Homepage() {
                 <li>
                   <a
                     onClick={() => navigate("/")}
-                    className="hover:text-white transition-colors hover:text-blue-400"
+                    className="hover:text-white transition-colors hover:text-blue-400 cursor-pointer"
                   >
                     Careers
                   </a>
@@ -2258,7 +2273,7 @@ function Homepage() {
                 <li>
                   <a
                     onClick={() => navigate("/support")}
-                    className="hover:text-white transition-colors hover:text-blue-400"
+                    className="hover:text-white transition-colors hover:text-blue-400 cursor-pointer"
                   >
                     Contact us
                   </a>
@@ -2272,7 +2287,7 @@ function Homepage() {
                 <li>
                   <a
                     onClick={() => navigate("/login")}
-                    className="hover:text-white transition-colors hover:text-blue-400"
+                    className="hover:text-white transition-colors hover:text-blue-400 cursor-pointer"
                   >
                     NEET PG
                   </a>
@@ -2280,7 +2295,7 @@ function Homepage() {
                 <li>
                   <a
                     onClick={() => navigate("/login")}
-                    className="hover:text-white transition-colors hover:text-blue-400"
+                    className="hover:text-white transition-colors hover:text-blue-400 cursor-pointer"
                   >
                     NEET UG (Coming Soon)
                   </a>
@@ -2288,7 +2303,7 @@ function Homepage() {
                 <li>
                   <a
                     onClick={() => navigate("/login")}
-                    className="hover:text-white transition-colors hover:text-blue-400"
+                    className="hover:text-white transition-colors hover:text-blue-400 cursor-pointer"
                   >
                     INICET (Coming Soon)
                   </a>
@@ -2296,7 +2311,7 @@ function Homepage() {
                 <li>
                   <a
                     onClick={() => navigate("/login")}
-                    className="hover:text-white transition-colors hover:text-blue-400"
+                    className="hover:text-white transition-colors hover:text-blue-400 cursor-pointer"
                   >
                     DNB PDCET (Coming Soon)
                   </a>
@@ -2304,7 +2319,7 @@ function Homepage() {
                 <li>
                   <a
                     onClick={() => navigate("/login")}
-                    className="hover:text-white transition-colors hover:text-blue-400"
+                    className="hover:text-white transition-colors hover:text-blue-400 cursor-pointer"
                   >
                     NEET SS (Coming Soon)
                   </a>
@@ -2318,23 +2333,15 @@ function Homepage() {
                 <li>
                   <a
                     onClick={() => navigate("/privacy")}
-                    className="hover:text-white transition-colors hover:text-blue-400"
+                    className="hover:text-white transition-colors hover:text-blue-400 cursor-pointer"
                   >
                     Privacy Policy
                   </a>
                 </li>
-                {/* <li>
-                  <a
-                    href="#"
-                    className="hover:text-white transition-colors hover:text-blue-400"
-                  >
-                    Package Policy
-                  </a>
-                </li> */}
                 <li>
                   <a
                     onClick={() => navigate("/terms")}
-                    className="hover:text-white transition-colors hover:text-blue-400"
+                    className="hover:text-white transition-colors hover:text-blue-400 cursor-pointer"
                   >
                     Terms & Conditions
                   </a>
