@@ -612,9 +612,9 @@ import {
 } from "lucide-react";
 
 // ✅ ADD THESE 3 IMPORTS HERE
-import { SEOHead } from '../components/SEO/SEOHead';
-import { Breadcrumb } from '../components/SEO/Breadcrumb';
-import { JsonLd } from '../components/SEO/JsonLd';
+import { SEOHead } from '../SEO/SEOHead';
+import { Breadcrumb } from '../SEO/Breadcrumb';
+import { JsonLd } from '../SEO/JsonLd';
 
 import { getBlogBySlug, getRelatedBlogs, BlogPost, Section } from "../data/blogData";
 import Newsletter from "../components/Newsletter";
