@@ -7733,7 +7733,7 @@ export const blogPosts: BlogPost[] = [
         "Medical Specialty Selection",
         "NEET Counselling Advice",
         "Medical Career Planning",
-        "Branch Selection Tips"
+        
       ]
     },
     {
