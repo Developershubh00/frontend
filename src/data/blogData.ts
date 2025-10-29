@@ -1982,7 +1982,7 @@ export const blogPosts: BlogPost[] = [
   title: "NEET PG 2025: A Complete Guide to the OBC-NCL Certificate",
   slug: "neet-pg-2025-complete-guide-obc-ncl-certificate",
   excerpt: "The OBC-NCL certificate is mandatory for medical graduates seeking admission under the 27% OBC quota in All India Quota seats for NEET PG 2025. This explainer clarifies purpose, eligibility, validity, and the application pathway for claiming OBC-NCL under AIQ.",
-  featured_image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&h=600&fit=crop",
+  featured_image: "https://cdn.dribbble.com/userupload/45488653/file/3d61def9920690366538b13113f9935d.png?w=1200&h=600&fit=crop",
   author: {
     name: "Believers Team",
     avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
@@ -5433,7 +5433,7 @@ export const blogPosts: BlogPost[] = [
   "title": "Understanding Deemed and Private Colleges for NEET PG Admissions",
   "slug": "deemed-private-colleges-neet-pg-admissions",
   "excerpt": "A comprehensive guide to understanding the key differences between deemed universities and private medical colleges for NEET PG 2025 aspirants, including counselling processes, fee structures, and admission strategies.",
-  "featured_image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/45488651/file/1fafc6270b69e17a28c30565ad685441.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
     "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
@@ -5625,7 +5625,7 @@ export const blogPosts: BlogPost[] = [
   "title": "Odisha NEET PG 2025 Counselling: Complete Guide for Candidates",
   "slug": "odisha-neet-pg-2025-counselling-guide",
   "excerpt": "Comprehensive guide to Odisha NEET PG counselling 2025 covering eligibility, registration process, reservation policy, service bonds, fee structure, and document requirements for state medical admissions.",
-  "featured_image": "https://cdn.dribbble.com/userupload/45461741/file/01572a302b461307ebfe19407ec558a1.png?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/45488649/file/71905524302787f188cce7ef0ece376d.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
     "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
@@ -6672,7 +6672,7 @@ export const blogPosts: BlogPost[] = [
   "title": "NEET PG 2025 Single-Shift Exam: Supreme Court Ensures Fairness and Transparency",
   "slug": "neet-pg-2025-single-shift-exam-supreme-court",
   "excerpt": "Supreme Court upholds single-shift NEET PG 2025 exam to ensure fairness, equal opportunity, and transparency for all medical aspirants.",
-  "featured_image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/45488648/file/c2c0665c87a7b1dbfa4ffa1792f7db22.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
     "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
@@ -7255,7 +7255,7 @@ export const blogPosts: BlogPost[] = [
   "title": "Karnataka NEET PG 2025 Counselling: Navigating Quotas, Fees, and Regulations",
   "slug": "karnataka-neet-pg-2025-counselling-guide",
   "excerpt": "Complete guide to Karnataka NEET PG 2025 counselling covering eligibility, seat categories, fee structure, documentation, and admission procedures across government, private, and NRI quotas.",
-  "featured_image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/45488650/file/146716247281f820a9e2e42458fa66b1.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
     "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
