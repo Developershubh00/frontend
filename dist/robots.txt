@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Disallow admin/dashboard pages
+Disallow: /dashboard
+Disallow: /profile
+Disallow: /login
+Disallow: /signup
+
+# Sitemap
+Sitemap: https://believersconsultancy.com/sitemap.xml
