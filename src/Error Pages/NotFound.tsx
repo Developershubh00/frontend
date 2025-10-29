@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { SEOHead } from '../SEO/SEOHead';
+import { SEOHead } from '../components/SEO/SEOHead';
 import { Home, Instagram, Youtube, Mail, Phone } from 'lucide-react';
 
 export const NotFound: React.FC = () => {
