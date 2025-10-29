@@ -8074,7 +8074,7 @@ export const blogPosts: BlogPost[] = [
 {
   "id": 25,
   "title": "Everything You Need to Know About Kerala NEET PG 2025 Counselling",
-  "slug": "kerala-neet-pg-2025-counselling-complete-guide",
+  "slug": "kerala-neet-counselling-complete-guide",
   "excerpt": "Complete guide to CEE Kerala NEET PG 2025 counselling for MD/MS/Diploma admissions. Comprehensive information on eligibility, NRI quota, documentation, fees, and bond requirements.",
   "featured_image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&h=600&fit=crop",
   "author": {
@@ -8442,13 +8442,39 @@ export const blogPosts: BlogPost[] = [
 ];
 
 // Helper function to get blog by slug
+// Normalize a slug for tolerant matching (decode, trim, lowercase)
+const normalizeSlug = (s: string) => {
+  try {
+    return decodeURIComponent(String(s).trim()).toLowerCase();
+  } catch {
+    return String(s).trim().toLowerCase();
+  }
+};
+
+// Get blog by slug with tolerant matching to handle minor slug formatting differences
 export const getBlogBySlug = (slug: string): BlogPost | undefined => {
-  return blogPosts.find(post => post.slug === slug);
+  if (!slug) return undefined;
+  // exact match first
+  const exact = blogPosts.find((post) => post.slug === slug);
+  if (exact) return exact;
+
+  const normalized = normalizeSlug(slug);
+  // try normalized match
+  const byNormalized = blogPosts.find((post) => normalizeSlug(post.slug) === normalized);
+  if (byNormalized) return byNormalized;
+
+  // try replacing spaces/underscores with hyphens
+  const alt = normalized.replace(/[_\s]+/g, '-');
+  return blogPosts.find((post) => normalizeSlug(post.slug).replace(/[_\s]+/g, '-') === alt);
 };
 
 // Helper function to get related blogs
 export const getRelatedBlogs = (currentSlug: string, limit: number = 3): BlogPost[] => {
+  const current = getBlogBySlug(currentSlug);
   return blogPosts
-    .filter(post => post.slug !== currentSlug)
+    .filter((post) => post.slug !== (current?.slug || currentSlug))
     .slice(0, limit);
 };
+
+// Debug helper: return all slugs (useful for runtime inspection)
+export const listAllBlogSlugs = (): string[] => blogPosts.map((p) => p.slug);
