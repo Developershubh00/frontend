@@ -1,9 +1,6 @@
-/import React from "react";
+import React from "react";
 import { ArrowLeft, Phone, Mail, Clock, MessageCircle, Youtube, Instagram } from "lucide-react";
-
-interface SupportPageProps {
-  onBack: () => void;
-}
+import { useNavigate } from "react-router-dom";
 
 /**
  * Support Page Component
@@ -12,18 +9,20 @@ interface SupportPageProps {
  * Added Social Media links
  * Improved mobile responsiveness
  */
-const SupportPage: React.FC<SupportPageProps> = ({ onBack }) => {
+const SupportPage = () => {
+  const navigate = useNavigate();
+
   /**
    * Handle WhatsApp button click
    * Opens WhatsApp with pre-filled message
    */
   const handleWhatsAppClick = () => {
-    const phoneNumber = "919211724969"; // Updated WhatsApp number
+    const phoneNumber = "919211724969";
     const message = encodeURIComponent(
       "Hi! I need help with medical Counselling guidance."
     );
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
-    window.open(whatsappUrl, "_blank");
+    window.open(whatsappUrl, "_blank", "noopener,noreferrer");
   };
 
   return (
@@ -32,7 +31,7 @@ const SupportPage: React.FC<SupportPageProps> = ({ onBack }) => {
       <div className="bg-white/80 backdrop-blur-xl border-b border-white/20 px-4 lg:px-6 py-4">
         <div className="flex items-center space-x-4">
           <button
-            onClick={onBack}
+            onClick={() => navigate("/")}
             className="p-2 hover:bg-slate-100 rounded-xl transition-colors"
           >
             <ArrowLeft className="w-5 h-5 text-slate-600" />
@@ -71,10 +70,10 @@ const SupportPage: React.FC<SupportPageProps> = ({ onBack }) => {
                 href="tel:+919211724969"
                 className="flex items-center gap-4 p-4 bg-green-50 hover:bg-green-100 rounded-2xl border border-green-200 transition cursor-pointer"
               >
-                <div className="w-12 h-12 md:w-14 md:h-14 bg-green-500 rounded-full flex items-center justify-center shadow-md">
+                <div className="w-12 h-12 md:w-14 md:h-14 bg-green-500 rounded-full flex items-center justify-center shadow-md flex-shrink-0">
                   <Phone className="w-5 h-5 md:w-6 md:h-6 text-white" />
                 </div>
-                <div>
+                <div className="flex-1 min-w-0">
                   <p className="text-lg font-semibold text-slate-800">Phone</p>
                   <p className="text-sm text-slate-600">+91 9211724969</p>
                   <p className="text-xs text-green-600">Mon-Sat: 10 AM - 7 PM</p>
@@ -86,12 +85,12 @@ const SupportPage: React.FC<SupportPageProps> = ({ onBack }) => {
                 href="mailto:contact@believersconsultancy.com"
                 className="flex items-center gap-4 p-4 bg-blue-50 hover:bg-blue-100 rounded-2xl border border-blue-200 transition cursor-pointer"
               >
-                <div className="w-12 h-12 md:w-14 md:h-14 bg-blue-500 rounded-full flex items-center justify-center shadow-md">
+                <div className="w-12 h-12 md:w-14 md:h-14 bg-blue-500 rounded-full flex items-center justify-center shadow-md flex-shrink-0">
                   <Mail className="w-5 h-5 md:w-6 md:h-6 text-white" />
                 </div>
-                <div>
+                <div className="flex-1 min-w-0">
                   <p className="text-lg font-semibold text-slate-800">Email</p>
-                  <p className="text-sm text-slate-600 break-all">
+                  <p className="text-sm text-slate-600 break-words">
                     contact@believersconsultancy.com
                   </p>
                   <p className="text-xs text-blue-600">Response in 24 hours</p>
@@ -106,7 +105,7 @@ const SupportPage: React.FC<SupportPageProps> = ({ onBack }) => {
                     href="https://www.youtube.com/@BelieversConsultancy"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-12 h-12 md:w-14 md:h-14 bg-red-500 hover:bg-red-600 rounded-full flex items-center justify-center shadow-md transition-all duration-300 hover:scale-110 group"
+                    className="w-12 h-12 md:w-14 md:h-14 bg-red-500 hover:bg-red-600 rounded-full flex items-center justify-center shadow-md transition-all duration-300 hover:scale-110"
                     aria-label="Visit our YouTube channel"
                   >
                     <Youtube className="w-5 h-5 md:w-6 md:h-6 text-white" />
@@ -115,7 +114,7 @@ const SupportPage: React.FC<SupportPageProps> = ({ onBack }) => {
                     href="https://www.instagram.com/believers.medcounselling"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-12 h-12 md:w-14 md:h-14 bg-gradient-to-br from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 rounded-full flex items-center justify-center shadow-md transition-all duration-300 hover:scale-110 group"
+                    className="w-12 h-12 md:w-14 md:h-14 bg-gradient-to-br from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 rounded-full flex items-center justify-center shadow-md transition-all duration-300 hover:scale-110"
                     aria-label="Visit our Instagram page"
                   >
                     <Instagram className="w-5 h-5 md:w-6 md:h-6 text-white" />
@@ -136,11 +135,11 @@ const SupportPage: React.FC<SupportPageProps> = ({ onBack }) => {
 
               <div className="space-y-4">
                 <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl p-4 border border-blue-200/50">
-                  <div className="flex justify-between items-center">
+                  <div className="flex justify-between items-center gap-2">
                     <span className="font-semibold text-slate-800">
                       Monday - Saturday
                     </span>
-                    <span className="font-bold text-blue-600">
+                    <span className="font-bold text-blue-600 text-sm md:text-base">
                       10:00 AM - 7:00 PM
                     </span>
                   </div>
