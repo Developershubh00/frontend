@@ -61,29 +61,47 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
 
   useEffect(() => {
     const initAuth = async () => {
+      console.log("[Auth] Starting auth initialization...");
       try {
-        const token = localStorage.getItem("authToken");
-        if (token) {
+        // First try to get cached user data to show immediately
+        const cachedUser = localStorage.getItem("user");
+        if (cachedUser) {
           try {
-            // Add timeout to prevent hanging
-            const profilePromise = authAPI.getProfile();
-            const timeoutPromise = new Promise((_, reject) => 
-              setTimeout(() => reject(new Error('Request timeout')), 5000)
-            );
-            
-            const profile = await Promise.race([profilePromise, timeoutPromise]);
-            setUser(profile.data);
-            localStorage.setItem("user", JSON.stringify(profile.data));
-          } catch (error) {
-            console.error("Token validation failed:", error);
-            localStorage.removeItem("authToken");
-            localStorage.removeItem("refreshToken");
+            const userData = JSON.parse(cachedUser);
+            console.log("[Auth] Using cached user data:", userData);
+            setUser(userData);
+          } catch (e) {
+            console.error("[Auth] Error parsing cached user:", e);
             localStorage.removeItem("user");
           }
         }
+
+        const token = localStorage.getItem("authToken");
+        console.log("[Auth] Token exists:", !!token);
+        
+        if (token) {
+          try {
+            console.log("[Auth] Fetching profile...");
+            const profile = await authAPI.getProfile();
+            console.log("[Auth] Profile fetched successfully:", profile.data);
+            setUser(profile.data);
+            localStorage.setItem("user", JSON.stringify(profile.data));
+          } catch (error) {
+            console.error("[Auth] Token validation failed:", error);
+            localStorage.removeItem("authToken");
+            localStorage.removeItem("refreshToken");
+            localStorage.removeItem("user");
+            setUser(null);
+          }
+        } else {
+          console.log("[Auth] No token found, user needs to login");
+          setUser(null);
+        }
       } catch (error) {
-        console.error("Auth initialization error:", error);
+        console.error("[Auth] Auth initialization error:", error);
+        setUser(null);
       } finally {
+        console.log("[Auth] Finishing auth init, setting isLoading=false");
         setIsLoading(false);
       }
     };

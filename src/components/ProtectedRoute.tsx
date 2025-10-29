@@ -14,18 +14,23 @@ const ProtectedRoute: React.FC<ProtectedRouteProps> = ({ children }) => {
   const { isAuthenticated, isLoading } = useAuth();
   const location = useLocation();
 
+  console.log("[ProtectedRoute] State:", { isLoading, isAuthenticated, location: location.pathname });
+
   if (isLoading) {
+    console.log("[ProtectedRoute] Still loading auth state...");
     return (
       <div className="min-h-screen bg-gradient-to-br from-rose-50 via-blue-50 to-indigo-50 flex items-center justify-center">
         <div className="text-center">
           <div className="w-16 h-16 border-4 border-blue-500 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
-          <p className="text-slate-600">Loading...</p>
+          <p className="text-slate-600">Loading authentication state...</p>
+          <p className="text-sm text-slate-400 mt-2">If this persists, try clearing your browser cache and localStorage</p>
         </div>
       </div>
     );
   }
 
   if (!isAuthenticated) {
+    console.log("[ProtectedRoute] Not authenticated, redirecting to login...");
     return <Navigate to="/login" state={{ from: location }} replace />;
   }
 

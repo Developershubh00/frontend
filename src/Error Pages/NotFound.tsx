@@ -72,11 +72,11 @@ export const NotFound: React.FC = () => {
                 className="flex items-center justify-center gap-3 bg-green-50 text-green-700 px-6 py-4 rounded-lg hover:bg-green-100 transition-colors border border-green-200"
               >
                 <Phone className="w-5 h-5" />
-                <span className="font-semibold">Call: 8447540715</span>
+                <span className="font-semibold">Call: +91 9211724969</span>
               </a>
               
               <a 
-                href="mailto:info@believersconsultancy.com"
+                href="mailto:contact@believersconsultancy.com"
                 className="flex items-center justify-center gap-3 bg-blue-50 text-blue-700 px-6 py-4 rounded-lg hover:bg-blue-100 transition-colors border border-blue-200"
               >
                 <Mail className="w-5 h-5" />
@@ -111,8 +111,8 @@ export const NotFound: React.FC = () => {
           {/* Footer Note */}
           <p className="text-gray-500 text-sm mt-8">
             Looking for something specific? Try our{' '}
-            <Link to="/medical-colleges" className="text-blue-600 hover:underline font-semibold">
-              Medical Colleges
+            <Link to="/dashboard" className="text-blue-600 hover:underline font-semibold">
+              Dashboard 
             </Link>
             {' '}or{' '}
             <Link to="/predictor/pg" className="text-blue-600 hover:underline font-semibold">
