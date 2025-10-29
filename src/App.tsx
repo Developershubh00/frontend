@@ -61,7 +61,7 @@ import BlogList from "./pages/BlogList";
 import BlogDetail from "./pages/BlogDetail";
 // import NEETPGCategoryChangeBlog from "./Blogs/NEETPGCategoryChangeBlog";
 
-import { NotFound } from "./components/ErrorPages/NotFound";
+import { NotFound } from "./Error Pages/NotFound";
 
 /**
  * Main App Component with React Router
