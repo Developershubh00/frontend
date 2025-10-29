@@ -1566,6 +1566,18 @@ const AnnouncementPage: React.FC = () => {
       source: 'Times of india',
       created_at: "2025-10-27T08:00:00Z"
     },
+    {
+      id: 54,
+      title: "NEET PG Counselling 2025:",
+      content:" MCC Releases NEET PG 2025 Counselling Schedule at mcc.nic.in: Round 1 Choice Filling Begins October 28, Seat Allotment Result on November 8 for AIQ and State Quota Seats ",
+      date: "2025-10-29T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: ' https://indianexpress.com/article/education/neet-pg-counselling-2025-schedule-released-mcc-nic-in-aiq-seats-state-quota-seats-10331493/',
+      is_active: true,
+      source: 'Indian Express',
+      created_at: "2025-10-29T08:00:00Z"
+    },
 
   ];
 

@@ -740,6 +740,15 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: ' https://timesofindia.indiatimes.com/education/news/neet-pg-2025-round-1-mcc-opens-reset-registration-releases-nri-admission-guidelines-counselling-soon/articleshow/124827600.cms',
       source: 'Times of india',
      },
+     {
+      id: 54,
+      title: "NEET PG Counselling 2025: MCC Releases NEET PG 2025 Counselling Schedule at mcc.nic.in: Round 1 Choice Filling Begins October 28, Seat Allotment Result on November 8 for AIQ and State Quota Seats ",
+      date: "2025-10-29T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: ' https://indianexpress.com/article/education/neet-pg-counselling-2025-schedule-released-mcc-nic-in-aiq-seats-state-quota-seats-10331493/',
+      source: 'Indian Express',
+     },
 
   ];
 
