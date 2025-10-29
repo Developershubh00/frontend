@@ -7251,7 +7251,7 @@ export const blogPosts: BlogPost[] = [
   ]
 },
 {
-  "id": 21,
+  "id": 22,
   "title": "Karnataka NEET PG 2025 Counselling: Navigating Quotas, Fees, and Regulations",
   "slug": "karnataka-neet-pg-2025-counselling-guide",
   "excerpt": "Complete guide to Karnataka NEET PG 2025 counselling covering eligibility, seat categories, fee structure, documentation, and admission procedures across government, private, and NRI quotas.",
@@ -7567,6 +7567,867 @@ export const blogPosts: BlogPost[] = [
   "NBEMS NEET PG",
   "NEET PG Exam Preparation",
   "NEET PG Exam 2025"
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    }
+  ]
+},
+{
+  "id": 23,
+  "title": "No Branch Is Flawless: Finding Your Path in Medicine",
+  "slug": "no-branch-is-flawless-finding-your-path-in-medicine",
+  "excerpt": "Every medical specialty has its challenges and rewards. Discover why there's no perfect branch and how to find success and fulfillment at any rank in your medical journey.",
+  "featured_image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "Career Guidance",
+    "slug": "career-guidance",
+    "color": "bg-blue-100 text-blue-800"
+  },
+  "tags": ["Medical Career", "Branch Selection", "NEET Counselling", "Medical Students", "Career Advice"],
+  "published_date": "2025-10-29",
+  "read_time": 8,
+  "meta_description": "No medical branch is perfect. Learn why every specialty has challenges and how to find success and fulfillment regardless of your rank or chosen branch.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "It is a competitive medical education world where students feel immense pressure to secure a rank and choose the 'right' branch. There's a common belief that AIR 1 gets a perfect branch with limitless opportunities, work-life balance, and financial stability—the dream of all aspirants. But the truth is, no branch is perfect.\n\nEven when you are a high-ranked player, no role is without its difficulties. No niche remains untouched by overcrowding, no specialty offers guaranteed safety, and no route is without sacrifice. Every field of medicine has its own demands, concessions, and challenges to test your patience, your commitment, and your resilience.\n\nBut that's what makes the journey worthwhile."
+    },
+    {
+      "id": "myth-perfect-branch",
+      "type": "heading",
+      "title": "The Myth of the Perfect Branch",
+      "level": 2
+    },
+    {
+      "id": "myth-content",
+      "type": "paragraph",
+      "content": "Many students spend years joining coaching academies in order to prepare for entrance exams to get their desired 'dream' branch. But reality tends to intrude swiftly. The truth is:"
+    },
+    {
+      "id": "myth-list",
+      "type": "list",
+      "items": [
+        "There's no part of medicine immune from crowding. Each industry faces evolution, competition, and needs to continually learn to remain relevant.",
+        "No branch promises instant balance. Regardless of whether it's surgery, pediatrics, radiology, or dermatology, no specialty has work-life balance until you're dedicated to the practice.",
+        "No branch guarantees financial success. Yes, rewards are there, except that those rewards are generally proportional to accumulated years of tireless service and experience."
+      ]
+    },
+    {
+      "id": "myth-conclusion",
+      "type": "paragraph",
+      "content": "Rather than chasing perfection, it's wise to understand that medicine isn't just a career—it's a lifelong commitment to learn, grow, and serve."
+    },
+    {
+      "id": "redefining-success",
+      "type": "heading",
+      "title": "Redefining Success: A Branch at Every Rank",
+      "level": 2
+    },
+    {
+      "id": "redefining-intro",
+      "type": "paragraph",
+      "content": "Here's the good news: entrance ranks don't define your entire future. Even if you don't get your 'dream branch,' you can still find success and fulfillment. The truth is:"
+    },
+    {
+      "id": "redefining-list",
+      "type": "list",
+      "items": [
+        "No chain is safe from overcrowding. All specializations change with the times, must compete in a market, and require new learning to stay top of mind.",
+        "No branch promises instant balance. From surgery to pediatrics, radiology to dermatology, in every specialty, you start with time, and more time before you reach a work-life balance (if there is such a thing).",
+        "No money tree: No branch delivers assured economic fortune. There are rewards, but they typically come with years of steady effort and expertise."
+      ]
+    },
+    {
+      "id": "redefining-conclusion",
+      "type": "paragraph",
+      "content": "Instead of pursuing perfection, it's best to be in the know that medicine is not something that is practiced, but rather a lifelong commitment to learning, growing and giving to others."
+    },
+    {
+      "id": "shaping-journey",
+      "type": "heading",
+      "title": "Shaping Your Journey",
+      "level": 2
+    },
+    {
+      "id": "shaping-intro",
+      "type": "paragraph",
+      "content": "Your profound expertise isn't just a title—it's a platform to make an impact. You have the power to shape your own journey:"
+    },
+    {
+      "id": "shaping-list",
+      "type": "list",
+      "items": [
+        "Identify your power: Your branch can help you find out the skills you didn't know you had.",
+        "Create opportunities: Medicine is a field where revolution and dedication can change lives.",
+        "Be a mentor: Your valuable journey today will inspire and guide upcoming generations of medical students."
+      ]
+    },
+    {
+      "id": "shaping-conclusion",
+      "type": "paragraph",
+      "content": "Ultimately, your expertise becomes a reflection of your growth, perseverance, and passion."
+    },
+    {
+      "id": "call-to-action",
+      "type": "heading",
+      "title": "The Call to Action",
+      "level": 2
+    },
+    {
+      "id": "call-content",
+      "type": "paragraph",
+      "content": "There's no shortcut to success in medicine. There's no perfect branch waiting for you to simply claim it. But if you dive in, give your best, and commit to excellence, you will find purpose, growth, and fulfillment wherever you go.\n\nNo branch is flawless. Every specialty has its challenges, its demands, and its trade-offs. At every rank, there is a branch where you can grow, evolve, and shine. Your branch doesn't just shape your journey; you shape it. Give it your all, and you'll find your way to excellence."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1. Is there a 'best' specialty?",
+          "answer": "No. Fit depends on interests, lifestyle, income goals, and training context—there's no single 'best' branch."
+        },
+        {
+          "question": "Q2. Is work-life balance realistic in medicine?",
+          "answer": "Yes, but it varies by specialty and career stage. Support systems and smart planning help reduce burnout."
+        },
+        {
+          "question": "Q3. How important is mentorship?",
+          "answer": "Crucial. Strong mentors improve skills, satisfaction, and career growth—start seeking guidance early."
+        },
+        {
+          "question": "Q4. What to ask before choosing a branch?",
+          "answer": "Assess patient mix, procedures vs cognitive work, call load, schedule, research interests, and job market."
+        }
+      ]
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "Medical Branch Selection",
+        "NEET PG Branch Choice",
+        "Medical Career Guidance",
+        "Choosing Medical Specialty",
+        "Medical Branch Counselling",
+        "NEET PG Career Path",
+        "Medical Student Success",
+        "Work-Life Balance Medicine",
+        "Medical Specialty Selection",
+        "NEET Counselling Advice",
+        "Medical Career Planning",
+        "Branch Selection Tips"
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    }
+  ]
+},
+{
+  "id": 24,
+  "title": "Jammu & Kashmir NEET PG 2025 Counselling Registration: Complete Step-by-Step Guide",
+  "slug": "jammu-kashmir-neet-pg-2025-counselling-registration-guide",
+  "excerpt": "Complete guide to JKBOPEE NEET PG 2025 counselling for MD/MS/Diploma admissions in Jammu & Kashmir and Ladakh. Step-by-step registration process, eligibility criteria, and documentation requirements.",
+  "featured_image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET Counselling",
+    "slug": "neet-counselling",
+    "color": "bg-green-100 text-green-800"
+  },
+  "tags": ["JKBOPEE", "NEET PG 2025", "J&K Counselling", "Medical Admissions", "Registration Guide", "Ladakh"],
+  "published_date": "2025-10-29",
+  "read_time": 12,
+  "meta_description": "Complete step-by-step guide for Jammu & Kashmir NEET PG 2025 counselling registration. Learn about eligibility, documentation, and the application process for MD/MS/Diploma seats.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "The Jammu and Kashmir Board of Professional Entrance Examinations (JKBOPEE) administers NEET PG 2025 counselling for MD/MS/Diploma admissions across government and private medical colleges in the UT of Jammu & Kashmir and Ladakh. Registration will remain open until September 27, 2025 (midnight). This marks the start of the much-awaited postgraduate medical admission process for candidates belonging to the Union Territory of Jammu & Kashmir and Ladakh. This overview addresses the registration process, eligibility requirements, and documentation specifications for JKBOPEE counselling 2025."
+    },
+    {
+      "id": "counselling-overview",
+      "type": "heading",
+      "title": "Counselling Overview",
+      "level": 2
+    },
+    {
+      "id": "overview-content",
+      "type": "paragraph",
+      "content": "The Jammu and Kashmir counselling process for NEET PG 2025 is divided into two main parts:"
+    },
+    {
+      "id": "overview-parts",
+      "type": "list",
+      "items": [
+        "Part 1: Registration and filling out the online form",
+        "Part 2: Uploading required certificates and documents"
+      ]
+    },
+    {
+      "id": "overview-portal",
+      "type": "paragraph",
+      "content": "All official notifications and application links are available on the official counselling website, where candidates can also find updates, prospectuses, and notices related to the admission process. The JKBOPEE counselling portal at jkbopee.gov.in provides access to official notifications, application forms, and procedural instructions."
+    },
+    {
+      "id": "eligibility-criteria",
+      "type": "heading",
+      "title": "Eligibility Criteria",
+      "level": 2
+    },
+    {
+      "id": "eligibility-intro",
+      "type": "paragraph",
+      "content": "Eligibility for JKBOPEE counselling requires permanent domicile of Jammu & Kashmir or UT of Ladakh, with MBBS qualification from recognized institutions."
+    },
+    {
+      "id": "eligibility-requirements",
+      "type": "list",
+      "items": [
+        "The candidate must be a resident of Jammu & Kashmir or UT of Ladakh",
+        "MBBS graduates from any recognized state are eligible, while MBBS graduates with medical council registration from any state are eligible. JKBOPEE recommends verification of registration requirements through official channels",
+        "Foreign Medical Graduates (FMGs) who are residents of Jammu & Kashmir or Ladakh are also eligible to apply"
+      ]
+    },
+    {
+      "id": "eligibility-note",
+      "type": "paragraph",
+      "content": "It is recommended to verify any doubts regarding state medical registration directly with JKBOPEE, the official counselling authority."
+    },
+    {
+      "id": "accessing-portal",
+      "type": "heading",
+      "title": "Accessing the Registration Portal",
+      "level": 2
+    },
+    {
+      "id": "portal-access",
+      "type": "paragraph",
+      "content": "Candidates must visit the official counselling portal and click on the 'Apply Online' link under the NEET PG 2025 section. On this page, all relevant advertisements, instructions, and links for login or registration are clearly provided."
+    },
+    {
+      "id": "portal-note",
+      "type": "paragraph",
+      "content": "Important Note: Before starting the process, candidates must disable pop-up blockers, as some windows such as notifications or OTP verifications, may open as pop-ups."
+    },
+    {
+      "id": "registration-process",
+      "type": "heading",
+      "title": "Registration Process",
+      "level": 2
+    },
+    {
+      "id": "registration-intro",
+      "type": "paragraph",
+      "content": "Once on the application page, follow these steps carefully:"
+    },
+    {
+      "id": "registration-steps",
+      "type": "list",
+      "items": [
+        "Click on 'Apply' to start the registration process",
+        "Required NEET PG details include roll number (11-digit format beginning with 25), All India Rank, score, and date of birth as per the official scorecard",
+        "Enter date of completion of MBBS, total marks obtained, and maximum marks (sum of all MBBS examinations)",
+        "Select residence type — either Jammu & Kashmir or UT of Ladakh",
+        "Enter domicile certificate details, such as the date of issue",
+        "Choose category (Open Merit, SC, ST, OBC, RBA, ALC/IB, EWS)"
+      ]
+    },
+    {
+      "id": "category-note",
+      "type": "paragraph",
+      "content": "Category certificates must be valid as per JKBOPEE specifications, with issue dates preceding the application deadline and validity extending beyond the submission period."
+    },
+    {
+      "id": "subcategory-selection",
+      "type": "heading",
+      "title": "Subcategory Selection",
+      "level": 2
+    },
+    {
+      "id": "subcategory-content",
+      "type": "paragraph",
+      "content": "If applicable, candidates can select subcategories under horizontal reservation such as:"
+    },
+    {
+      "id": "subcategory-list",
+      "type": "list",
+      "items": [
+        "Children of Defence Personnel",
+        "Outstanding Sports Candidates",
+        "Children of Police or Paramilitary Forces"
+      ]
+    },
+    {
+      "id": "subcategory-note",
+      "type": "paragraph",
+      "content": "Each subcategory requires valid certification from competent authorities, and priorities are outlined in the counselling prospectus."
+    },
+    {
+      "id": "personal-contact-details",
+      "type": "heading",
+      "title": "Personal and Contact Details",
+      "level": 2
+    },
+    {
+      "id": "contact-intro",
+      "type": "paragraph",
+      "content": "Next, candidates must enter their email ID and mobile number. Email addresses and mobile numbers serve as primary communication channels for OTP delivery, allotment notifications, and official correspondence from JKBOPEE."
+    },
+    {
+      "id": "contact-additional",
+      "type": "list",
+      "items": [
+        "Internship completion date (before 31st July 2025)",
+        "Category certificate validity",
+        "Details regarding prior debarment (if applicable)",
+        "Alternate contact number"
+      ]
+    },
+    {
+      "id": "service-nri-quota",
+      "type": "heading",
+      "title": "Service and NRI Quota Details",
+      "level": 2
+    },
+    {
+      "id": "service-content",
+      "type": "paragraph",
+      "content": "Candidates serving in government or rural health missions must declare their service status, nature of service (regular, ad hoc, NRHM, etc.), and upload a No Objection Certificate (NOC). Those applying under the NRI or Hindu Minority Quota must produce relevant eligibility certificates as per the official norms."
+    },
+    {
+      "id": "final-verification",
+      "type": "heading",
+      "title": "Final Verification and Submission",
+      "level": 2
+    },
+    {
+      "id": "verification-intro",
+      "type": "paragraph",
+      "content": "Before submission:"
+    },
+    {
+      "id": "verification-steps",
+      "type": "list",
+      "items": [
+        "Recheck every field carefully",
+        "Take a printout of the filled form for personal reference",
+        "Once submitted, edits are not allowed, so ensure accuracy before finalizing"
+      ]
+    },
+    {
+      "id": "verification-confirmation",
+      "type": "paragraph",
+      "content": "After successful submission, a confirmation page will appear stating that your account has been registered. A username (usually the NEET PG roll number) and activation email will be sent to the registered email ID."
+    },
+    {
+      "id": "account-activation",
+      "type": "heading",
+      "title": "Account Activation and Password Creation",
+      "level": 2
+    },
+    {
+      "id": "activation-intro",
+      "type": "paragraph",
+      "content": "Upon receiving the activation mail:"
+    },
+    {
+      "id": "activation-steps",
+      "type": "list",
+      "items": [
+        "Click on the provided activation link",
+        "Enter the OTP received via email",
+        "Create and confirm your new password"
+      ]
+    },
+    {
+      "id": "activation-conclusion",
+      "type": "paragraph",
+      "content": "Once done, your account will be successfully activated and ready for the next step, document uploading."
+    },
+    {
+      "id": "uploading-certificates",
+      "type": "heading",
+      "title": "Uploading Certificates",
+      "level": 2
+    },
+    {
+      "id": "upload-intro",
+      "type": "paragraph",
+      "content": "After logging in, proceed to 'Upload Documents' by entering your application number and date of birth. The following documents are generally required (in PDF format, 100–200 KB each):"
+    },
+    {
+      "id": "upload-documents",
+      "type": "list",
+      "items": [
+        "MBBS Degree Certificate",
+        "NEET PG 2025 Scorecard",
+        "Registration Certificate (State/NMC)",
+        "Internship Completion Certificate",
+        "Domicile Certificate (or ST certificate for Ladakh residents)",
+        "Category Certificate (if applicable)",
+        "EWS or Difficult Area Certificate (if applicable)",
+        "NOC for In-service Candidates",
+        "FMG Clearance Certificate (for foreign graduates only)"
+      ]
+    },
+    {
+      "id": "upload-tip",
+      "type": "paragraph",
+      "content": "Tip: Minor display issues with uploaded photographs or signatures do not prevent form submission; document verification occurs during subsequent stages of the counselling process."
+    },
+    {
+      "id": "conclusion",
+      "type": "heading",
+      "title": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "conclusion-content",
+      "type": "paragraph",
+      "content": "The Jammu and Kashmir NEET PG 2025 counselling process has been made smoother and more accessible this year, with a clearer registration interface and well-defined eligibility structure. Candidates are advised to complete the process before the deadline, verify their documents carefully, and stay alert for upcoming notifications and the detailed counselling rules that are expected to be released soon.\n\nThis marks an important milestone for medical graduates from Jammu & Kashmir and Ladakh to secure their postgraduate seats through a transparent and structured online process."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "Frequently Asked Questions (FAQs)",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1: Who is eligible for J&K NEET PG 2025 counselling?",
+          "answer": "Permanent residents (domicile holders) of Jammu & Kashmir or UT of Ladakh who qualified NEET PG 2025. MBBS from any state accepted; JKMC registration recommended. Foreign Medical Graduates with J&K/Ladakh domicile also eligible."
+        },
+        {
+          "question": "Q2: What documents are required for registration?",
+          "answer": "NEET PG scorecard, MBBS degree, internship certificate (before July 31, 2025), domicile certificate (ST certificate for Ladakh), JKMC registration, category certificates (if applicable). All documents in PDF format, 100-200 KB. FMGs need NMC clearance."
+        },
+        {
+          "question": "Q3: What reservation categories are available?",
+          "answer": "Open Merit, SC, ST1/ST2, RBA (Resident of Backward Area), ALC (Actual Line of Control), IB (International Border), OBC, EWS. Horizontal reservations: Children of Defense/Police personnel, Sports Category. For Ladakh: STL/ST categories with separate merit list."
+        },
+        {
+          "question": "Q4: Can I edit my application after submission?",
+          "answer": "No. Form finalization locks all information; modifications not permitted. Candidates should verify all details including category selection, contact information, and document uploads before final submission."
+        },
+        {
+          "question": "Q5: How many PG medical seats are available?",
+          "answer": "Total 536 postgraduate seats: 307 MD, 215 MS, 14 PG Diploma across government and private colleges in J&K and Ladakh. Allocation based on NEET PG rank, domicile, category, and choice preferences."
+        }
+      ]
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "JKBOPEE NEET PG 2025",
+        "J&K NEET Counselling",
+        "Jammu Kashmir Medical Admissions",
+        "NEET PG Registration",
+        "Ladakh Medical Counselling",
+        "JKBOPEE Registration",
+        "MD MS Diploma Admissions",
+        "J&K Medical Seats",
+        "NEET PG Counselling Guide",
+        "JKBOPEE Eligibility",
+        "J&K Domicile NEET",
+        "Medical College Admissions J&K"
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    }
+  ]
+},
+{
+  "id": 25,
+  "title": "Everything You Need to Know About Kerala NEET PG 2025 Counselling",
+  "slug": "kerala-neet-pg-2025-counselling-complete-guide",
+  "excerpt": "Complete guide to CEE Kerala NEET PG 2025 counselling for MD/MS/Diploma admissions. Comprehensive information on eligibility, NRI quota, documentation, fees, and bond requirements.",
+  "featured_image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET Counselling",
+    "slug": "neet-counselling",
+    "color": "bg-green-100 text-green-800"
+  },
+  "tags": ["CEE Kerala", "NEET PG 2025", "Kerala Counselling", "Medical Admissions", "NRI Quota", "State Quota"],
+  "published_date": "2025-10-29",
+  "read_time": 15,
+  "meta_description": "Complete guide to Kerala NEET PG 2025 counselling by CEE Kerala. Learn about eligibility criteria, NRI quota rules, documentation requirements, fees, and bond conditions for MD/MS/Diploma admissions.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "The Commissioner for Entrance Examinations (CEE) Kerala administers NEET PG 2025 counselling for MD/MS/Diploma admissions under the 50% state quota across government, private, and minority medical institutions. The counselling is conducted by the Commissioner for Entrance Examinations (CEE), Kerala, and includes seats in government, private, and minority medical colleges across the state. This overview addresses eligibility requirements, documentation specifications, reservation policies, and procedural guidelines for Kerala NEET PG 2025 counselling, including document requirements, reservation rules, NRI quota guidelines, fees, and bond conditions for all eligible candidates."
+    },
+    {
+      "id": "counselling-overview",
+      "type": "heading",
+      "title": "Overview: Understanding Kerala State PG Counselling",
+      "level": 2
+    },
+    {
+      "id": "overview-content",
+      "type": "paragraph",
+      "content": "The Kerala State NEET PG Counselling is conducted by the Commissioner for Entrance Examinations (CEE), Kerala, for admission to government, private, and minority medical colleges in the state. Kerala follows a combined counselling system, which means one single counselling covers both Government and Private (Self-financing) medical colleges under the state quota."
+    },
+    {
+      "id": "overview-restrictions",
+      "type": "paragraph",
+      "content": "CEE Kerala operates under domicile-restricted admissions requiring candidates to demonstrate Kerala origin or completion of MBBS from Kerala institutions as per state regulations. Candidates without Kerala domicile or educational credentials from Kerala institutions are ineligible for participation, including under NRI and minority categories."
+    },
+    {
+      "id": "eligibility-criteria",
+      "type": "heading",
+      "title": "Eligibility Criteria",
+      "level": 2
+    },
+    {
+      "id": "eligibility-intro",
+      "type": "paragraph",
+      "content": "To participate in Kerala NEET PG 2025 Counselling, you must fall into one of the two categories:"
+    },
+    {
+      "id": "category-1",
+      "type": "heading",
+      "title": "Category 1: Keralite Candidates",
+      "level": 3
+    },
+    {
+      "id": "category-1-content",
+      "type": "paragraph",
+      "content": "Indian citizens of Kerala origin holding an MBBS degree recognized by the NMC (formerly MCI). Kerala origin eligibility requires documentation demonstrating either the candidate's birth in Kerala or parental birth in Kerala, verified through birth certificates, SSLC, or passport records. Birth certificate, passport, or SSLC certificate showing Kerala as the place of birth is mandatory."
+    },
+    {
+      "id": "category-2",
+      "type": "heading",
+      "title": "Category 2: Non-Keralite Candidates",
+      "level": 3
+    },
+    {
+      "id": "category-2-content",
+      "type": "paragraph",
+      "content": "Candidates who have completed MBBS from any medical college in Kerala, regardless of their origin. Non-Kerala origin candidates who completed MBBS in Kerala qualify exclusively for State Merit category seats without access to communal, special, or EWS reservations."
+    },
+    {
+      "id": "fmg-eligibility",
+      "type": "heading",
+      "title": "Foreign Medical Graduates (FMG)",
+      "level": 3
+    },
+    {
+      "id": "fmg-content",
+      "type": "paragraph",
+      "content": "FMGs who meet Kerala's origin criteria are eligible to apply after qualifying for NEET PG."
+    },
+    {
+      "id": "percentile-requirements",
+      "type": "heading",
+      "title": "NEET PG Qualification Percentiles",
+      "level": 2
+    },
+    {
+      "id": "percentile-table",
+      "type": "table",
+      "headers": ["Category", "Minimum Qualifying Percentile"],
+      "rows": [
+        ["General / EWS", "50th percentile"],
+        ["General PWD / EWS PWD", "45th percentile"],
+        ["SC / ST / SEBC / PWD", "40th percentile"]
+      ]
+    },
+    {
+      "id": "percentile-note",
+      "type": "paragraph",
+      "content": "Note: Reservation benefits require certificates issued by Kerala state revenue authorities; certificates issued for All India Counselling under central guidelines are not accepted for state quota admissions."
+    },
+    {
+      "id": "minority-nri",
+      "type": "heading",
+      "title": "Minority and NRI Seats",
+      "level": 2
+    },
+    {
+      "id": "minority-intro",
+      "type": "paragraph",
+      "content": "Kerala has Christian minority and Muslim minority medical colleges, all falling under self-financing institutes."
+    },
+    {
+      "id": "seat-categories",
+      "type": "heading",
+      "title": "Seat Categories:",
+      "level": 3
+    },
+    {
+      "id": "seat-list",
+      "type": "list",
+      "items": [
+        "Christian Minority / NRI Christian Minority",
+        "Muslim Minority / NRI Muslim Minority"
+      ]
+    },
+    {
+      "id": "minority-note",
+      "type": "paragraph",
+      "content": "Minority and NRI category seats are accessible exclusively to candidates meeting Kerala origin requirements as specified in CEE regulations."
+    },
+    {
+      "id": "nri-sponsorship",
+      "type": "heading",
+      "title": "NRI Sponsorship Rules:",
+      "level": 3
+    },
+    {
+      "id": "nri-sponsor-intro",
+      "type": "paragraph",
+      "content": "The NRI sponsor can be:"
+    },
+    {
+      "id": "nri-sponsor-list",
+      "type": "list",
+      "items": [
+        "The candidate themselves (if working abroad)",
+        "Parents, siblings, or their children (first-degree relatives)",
+        "Husband or wife",
+        "Uncles or aunts (brother/sister of father or mother)",
+        "First cousins of the father/mother",
+        "Adopted parents"
+      ]
+    },
+    {
+      "id": "nri-exclusion",
+      "type": "paragraph",
+      "content": "NRI sponsorship eligibility differs from All India Counselling provisions, specifically excluding grandparents as permissible sponsors under Kerala regulations."
+    },
+    {
+      "id": "nri-documents",
+      "type": "heading",
+      "title": "Documents Required for NRI Category:",
+      "level": 3
+    },
+    {
+      "id": "nri-doc-list",
+      "type": "list",
+      "items": [
+        "Passport/Visa attested by the Indian Embassy",
+        "Employment certificate of sponsor (attested)",
+        "Relationship certificate from the revenue authorities",
+        "Sponsorship affidavit on ₹200 stamp paper",
+        "Proof of Indian citizenship / OCI / PIO card",
+        "Valid visa until the admission closing date"
+      ]
+    },
+    {
+      "id": "nri-payment",
+      "type": "paragraph",
+      "content": "All NRI-related payments can be made from either NRI or Indian accounts."
+    },
+    {
+      "id": "application-process",
+      "type": "heading",
+      "title": "Application Process Step-by-Step",
+      "level": 2
+    },
+    {
+      "id": "app-intro",
+      "type": "paragraph",
+      "content": "The registration process requires candidates to create an account on the CEE Kerala portal using a valid email address and mobile number for OTP-based authentication."
+    },
+    {
+      "id": "app-steps",
+      "type": "list",
+      "items": [
+        "Pay the application fee online",
+        "Upload your photo, signature, and documents (PDF format)",
+        "Print your application form and payment receipt",
+        "For in-service candidates: Forward your application with enclosures to your HOD"
+      ]
+    },
+    {
+      "id": "application-fee",
+      "type": "heading",
+      "title": "Application Fee:",
+      "level": 3
+    },
+    {
+      "id": "fee-list",
+      "type": "list",
+      "items": [
+        "General / OBC / EWS: ₹1000",
+        "SC / ST: ₹500",
+        "In-service candidates applying under both quotas: ₹2000"
+      ]
+    },
+    {
+      "id": "fee-structure",
+      "type": "heading",
+      "title": "Fee Structure",
+      "level": 2
+    },
+    {
+      "id": "fee-table",
+      "type": "table",
+      "headers": ["Category", "Course Type", "Annual Fee (Approx.)"],
+      "rows": [
+        ["Government Colleges", "All Courses", "₹57,890 + ₹23,160 (caution & annual fee)"],
+        ["RCC Trivandrum", "Clinical Courses", "₹3,00,000"],
+        ["Private Self-Financing", "Clinical Courses", "₹17–19 lakh"],
+        ["NRI Quota", "Clinical Courses", "₹38 lakh"]
+      ]
+    },
+    {
+      "id": "documents-required",
+      "type": "heading",
+      "title": "Important Documents to Upload",
+      "level": 2
+    },
+    {
+      "id": "documents-table",
+      "type": "table",
+      "headers": ["Document", "Purpose"],
+      "rows": [
+        ["SSLC / Birth Certificate / Passport", "Proof of Kerala origin"],
+        ["MBBS Degree & CRRI Certificate", "Educational qualification"],
+        ["NEET PG Admit Card & Scorecard", "Eligibility verification"],
+        ["Permanent Medical Registration", "From any State Council (Kerala registration can be done later)"],
+        ["Community / Caste Certificate", "Reservation claim"],
+        ["Non-Creamy Layer Certificate", "For SEBC candidates"],
+        ["EWS Certificate (State)", "For the EWS category"],
+        ["Minority Certificate", "For minority quota applicants"],
+        ["Service Certificate", "For the in-service quota"],
+        ["Relationship & Sponsorship Documents", "For the NRI quota"],
+        ["Transfer Certificate", "From the MBBS college (can be submitted later)"]
+      ]
+    },
+    {
+      "id": "document-note",
+      "type": "paragraph",
+      "content": "Documentation should be uploaded in PDF format during online registration, with original certificates required for verification at the time of admission."
+    },
+    {
+      "id": "bonds-penalties",
+      "type": "heading",
+      "title": "Bonds, Penalties, and Service Rules",
+      "level": 2
+    },
+    {
+      "id": "bond-list",
+      "type": "list",
+      "items": [
+        "Discontinuation Penalty: ₹50 lakh plus stipend recovery if the candidate withdraws after the prescribed deadline",
+        "Service Bond (Non-Service Candidates): One-year compulsory service or ₹50 lakh penalty. Two sureties required",
+        "In-Service Candidates: Minimum 10-year bond or till superannuation; initial two years in remote postings",
+        "Non-Joining Penalty: Candidates who fail to join the allotted seats during the final round may be debarred for up to two years"
+      ]
+    },
+    {
+      "id": "stipend-notes",
+      "type": "heading",
+      "title": "Stipend and Additional Notes",
+      "level": 2
+    },
+    {
+      "id": "stipend-content",
+      "type": "paragraph",
+      "content": "Postgraduate medical residents receive monthly stipends as per Kerala government norms, with periodic revisions based on state pay commission recommendations. Certificates such as Transfer Certificate, Eligibility Certificate (for non-KUHS graduates), and Kerala Medical Council Registration may be submitted after admission if not already available."
+    },
+    {
+      "id": "conclusion",
+      "type": "heading",
+      "title": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "conclusion-content",
+      "type": "paragraph",
+      "content": "The Kerala NEET PG 2025 State Counselling ensures a transparent, merit-based, and well-regulated admission process for postgraduate medical aspirants. Complete procedural information, eligibility criteria, and admission schedules are published through the official CEE Kerala portal at cee.kerala.gov.in as per the official schedule published by the Commissioner for Entrance Examinations (CEE), Kerala. All applicants should stay updated with official notices for registration dates, allotment lists, and fee payment instructions to ensure a smooth admission process."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "Frequently Asked Questions (FAQs)",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1: Who can apply for Kerala NEET PG 2025 counselling?",
+          "answer": "Keralites (born in Kerala or parents born in Kerala) with MBBS from anywhere, or candidates with MBBS from Kerala colleges (eligible for State Merit seats only). In-service candidates in Kerala also qualify."
+        },
+        {
+          "question": "Q2: What are the percentile requirements?",
+          "answer": "General/EWS: 50th percentile; PwD in these: 45th; SC/ST/SEBC/PwD: 40th. Only Kerala state certificates are valid; central OBC/EWS certificates are not accepted."
+        },
+        {
+          "question": "Q3: What is the application fee?",
+          "answer": "₹1,000 (General/SEBC), ₹500 (SC/ST), additional ₹1,000 for service quota. Payment online during registration."
+        },
+        {
+          "question": "Q4: What documents are needed for the NRI quota?",
+          "answer": "Sponsor's valid passport/visa, embassy-attested employment certificate, relationship certificate from the revenue authority, sponsorship affidavit (₹200 stamp paper), and proof of Indian citizenship. Sponsors include parents, siblings, spouse, uncles/aunts, and first cousins."
+        },
+        {
+          "question": "Q5: What are the bond and penalty rules?",
+          "answer": "Non-service: 1-year bond or penalty. In-service: 10-year bond with 2 years in remote areas. Discontinuation attracts deposit forfeiture and stipend recovery. Non-participation in the final round may result in a 2-year debarment."
+        }
+      ]
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "CEE Kerala NEET PG 2025",
+        "Kerala NEET Counselling",
+        "Kerala Medical Admissions",
+        "NEET PG Kerala Registration",
+        "Kerala NRI Quota",
+        "CEE Registration",
+        "MD MS Diploma Kerala",
+        "Kerala Medical Seats",
+        "NEET PG State Quota",
+        "Kerala Domicile NEET",
+        "Medical College Admissions Kerala",
+        "Kerala Bond Rules"
       ]
     },
     {
