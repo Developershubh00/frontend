@@ -7590,7 +7590,7 @@ export const blogPosts: BlogPost[] = [
   },
   "category": {
     "name": "Career Guidance",
-    "slug": "career-guidance",
+    "slug": "counselling",
     "color": "bg-blue-100 text-blue-800"
   },
   "tags": ["Medical Career", "Branch Selection", "NEET Counselling", "Medical Students", "Career Advice"],
@@ -7757,7 +7757,7 @@ export const blogPosts: BlogPost[] = [
   },
   "category": {
     "name": "NEET Counselling",
-    "slug": "neet-counselling",
+    "slug": "counselling",
     "color": "bg-green-100 text-green-800"
   },
   "tags": ["JKBOPEE", "NEET PG 2025", "J&K Counselling", "Medical Admissions", "Registration Guide", "Ladakh"],
