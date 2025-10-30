@@ -739,7 +739,6 @@
 // };
 
 // export default BlogDetail;
-
 import React, { useState, useEffect } from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
 import {
@@ -1332,20 +1331,20 @@ const BlogDetail: React.FC = () => {
                         to={`/blog/${relatedPost.slug}`}
                         className="group"
                       >
-                        <div className="bg-gray-50 rounded-xl overflow-hidden hover:shadow-lg transition-all duration-300">
-                          {/* ✅ FIXED: Using aspect ratio for consistent image display */}
-                          <div className="w-full aspect-[16/9] overflow-hidden bg-gray-200">
+                        <div className="bg-white rounded-xl overflow-hidden hover:shadow-xl transition-all duration-300 border border-gray-200">
+                          {/* ✅ FIXED: Using proper aspect ratio and object-fit to show full images */}
+                          <div className="w-full aspect-[4/3] overflow-hidden bg-gray-100">
                             <img
                               src={relatedPost.featured_image}
                               alt={relatedPost.title}
-                              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                              className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
                             />
                           </div>
-                          <div className="p-4">
+                          <div className="p-4 bg-white">
                             <span className={`inline-block px-2 py-1 rounded-full text-xs font-medium ${relatedPost.category.color} mb-2`}>
                               {relatedPost.category.name}
                             </span>
-                            <h4 className="text-sm font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-2 mb-2">
+                            <h4 className="text-sm font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-2 mb-2 min-h-[2.5rem]">
                               {relatedPost.title}
                             </h4>
                             <div className="flex items-center text-xs text-gray-500">
@@ -1411,12 +1410,12 @@ const BlogDetail: React.FC = () => {
                           className="flex items-start space-x-3 group"
                         >
                           {/* ✅ FIXED: Using aspect ratio container for sidebar images */}
-                          <div className="w-20 flex-shrink-0">
-                            <div className="w-full aspect-[4/3] rounded-lg overflow-hidden bg-gray-200">
+                          <div className="w-24 flex-shrink-0">
+                            <div className="w-full aspect-[4/3] rounded-lg overflow-hidden bg-gray-100 border border-gray-200">
                               <img
                                 src={relatedPost.featured_image}
                                 alt={relatedPost.title}
-                                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                                className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
                               />
                             </div>
                           </div>
