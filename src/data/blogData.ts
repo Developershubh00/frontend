@@ -7582,7 +7582,7 @@ export const blogPosts: BlogPost[] = [
   "title": "No Branch Is Flawless: Finding Your Path in Medicine",
   "slug": "no-branch-is-flawless-finding-your-path-in-medicine",
   "excerpt": "Every medical specialty has its challenges and rewards. Discover why there's no perfect branch and how to find success and fulfillment at any rank in your medical journey.",
-  "featured_image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/45502937/file/5531d6df816c001af771f889c209ff80.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
     "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
@@ -7749,7 +7749,7 @@ export const blogPosts: BlogPost[] = [
   "title": "Jammu & Kashmir NEET PG 2025 Counselling Registration: Complete Step-by-Step Guide",
   "slug": "jammu-kashmir-neet-pg-2025-counselling-registration-guide",
   "excerpt": "Complete guide to JKBOPEE NEET PG 2025 counselling for MD/MS/Diploma admissions in Jammu & Kashmir and Ladakh. Step-by-step registration process, eligibility criteria, and documentation requirements.",
-  "featured_image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/45502936/file/469a490d21749afb0ac31589d51f7480.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
     "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
@@ -8076,7 +8076,7 @@ export const blogPosts: BlogPost[] = [
   "title": "Everything You Need to Know About Kerala NEET PG 2025 Counselling",
   "slug": "kerala-neet-counselling-complete-guide",
   "excerpt": "Complete guide to CEE Kerala NEET PG 2025 counselling for MD/MS/Diploma admissions. Comprehensive information on eligibility, NRI quota, documentation, fees, and bond requirements.",
-  "featured_image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/45502935/file/c85716b269e8599f92fd9e54cc60a99f.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
     "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
