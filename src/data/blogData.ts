@@ -6899,7 +6899,7 @@ export const blogPosts: BlogPost[] = [
   "title": "Tamil Nadu Management Quota 2025: Complete Information Guide",
   "slug": "tamil-nadu-management-quota-2025-guide",
   "excerpt": "Complete guide to Tamil Nadu Management Quota 2025 covering eligibility, fees, counselling process, documentation, and admission procedures for PG medical seats in private institutions.",
-  "featured_image": "https://cdn.dribbble.com/userupload/45488654/file/98027e9768f050cd497e75b45637291a.png?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/45512390/file/fc8b0ee28ceb8e8a356dbb375c50cb49.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
     "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
@@ -8765,7 +8765,7 @@ export const blogPosts: BlogPost[] = [
   "title": "Tamil Nadu NEET PG 2025: Step-by-Step Guide for State Quota (Government & Management Seats)",
   "slug": "tamil-nadu-neet-pg-2025-state-quota-government-management-seats",
   "excerpt": "Complete guide to Tamil Nadu NEET PG 2025 counselling administered by DME, covering eligibility criteria, seat distribution, application process, documentation, and fee structure for MD/MS/Diploma admissions under Government and Management Quotas.",
-  "featured_image": "https://cdn.dribbble.com/userupload/45488650/file/146716247281f820a9e2e42458fa66b1.png?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/45512392/file/b5a560144502a0c8236fd430c9a716bb.jpeg?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
     "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
@@ -9157,7 +9157,7 @@ export const blogPosts: BlogPost[] = [
   "title": "Gujarat NEET PG 2025 Counselling: Official Guide for State Quota, Private, and NRI Seats",
   "slug": "gujarat-neet-pg-2025-counselling-state-quota-private-nri-seats",
   "excerpt": "Complete guide to Gujarat NEET PG 2025 counselling administered by ACPUGMEC, covering eligibility criteria, seat classification, document verification, fee structure, and registration process for MD/MS/Diploma admissions.",
-  "featured_image": "https://cdn.dribbble.com/userupload/45488650/file/146716247281f820a9e2e42458fa66b1.png?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/45512391/file/cf6ff1237cdc4c9905fda7c3ecc40696.jpeg?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
     "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
