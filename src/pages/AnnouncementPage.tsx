@@ -1578,6 +1578,19 @@ const AnnouncementPage: React.FC = () => {
       source: 'Indian Express',
       created_at: "2025-10-29T08:00:00Z"
     },
+    {
+      id: 55,
+      title: "NEET PG Counselling 2025:",
+      content:" Bihar NEET PG 2025 State Counselling Registration Announced at bceceboard.bihar.gov.in: BCECE Issues Advertisement for MD/MS/Diploma Admissions Based on NEET PG 2025 Scores  ",
+      date: "2025-10-30T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: ' https://bceceboard.bihar.gov.in/',
+      is_active: true,
+      source: 'Bceceboard Bihar Gov.in',
+      created_at: "2025-10-30T08:00:00Z"
+    },
+
 
   ];
 

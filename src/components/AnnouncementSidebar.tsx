@@ -749,6 +749,15 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: ' https://indianexpress.com/article/education/neet-pg-counselling-2025-schedule-released-mcc-nic-in-aiq-seats-state-quota-seats-10331493/',
       source: 'Indian Express',
      },
+     {
+      id: 55,
+      title: "Bihar NEET PG 2025 State Counselling Registration Announced at bceceboard.bihar.gov.in: BCECE Issues Advertisement for MD/MS/Diploma Admissions Based on NEET PG 2025 Scores  ",
+      date: "2025-10-30T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: ' https://bceceboard.bihar.gov.in/',
+     source: 'Bceceboard Bihar Gov.in',
+     },
 
   ];
 
