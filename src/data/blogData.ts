@@ -8438,330 +8438,330 @@ export const blogPosts: BlogPost[] = [
     }
   ]
 },
+// {
+//   "id": 26,
+//   "title": "Jammu & Kashmir NEET PG 2025 Counselling Registration: Complete Step-by-Step Guide",
+//   "slug": "jammu-kashmir-neet-pg-2025-counselling-registration",
+//   "excerpt": "Complete guide to J&K NEET PG 2025 counselling covering registration process, eligibility criteria, required documents, and step-by-step instructions for aspirants from Jammu & Kashmir and Ladakh.",
+//   "featured_image": "https://cdn.dribbble.com/userupload/45488650/file/146716247281f820a9e2e42458fa66b1.png?w=1200&h=600&fit=crop",
+//   "author": {
+//     "name": "Believers Team",
+//     "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+//     "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+//   },
+//   "category": {
+//     "name": "NEET PG",
+//     "slug": "neet-pg",
+//     "color": "bg-purple-100 text-purple-800"
+//   },
+//   "tags": ["NEET PG", "Jammu Kashmir", "JKBOPEE", "Medical Admissions", "PG Counselling", "Ladakh"],
+//   "published_date": "2025-10-30",
+//   "read_time": 12,
+//   "meta_description": "Learn the step-by-step process for Jammu & Kashmir NEET PG 2025 Counselling registration, eligibility, document verification, and seat allotment details.",
+//   "sections": [
+//     {
+//       "id": "intro",
+//       "type": "paragraph",
+//       "content": "The Jammu and Kashmir Board of Professional Entrance Examinations (JKBOPEE) has opened NEET PG 2025 counselling registration for the Union Territories of Jammu & Kashmir and Ladakh, 2025. This announcement officially initiates the much-anticipated admission process for postgraduate medical courses for aspirants from the Union Territories of Jammu & Kashmir and Ladakh.\n\nThis guide outlines the application process, eligibility requirements, and documentation specifications for J&K NEET PG 2025 counselling, including key details on eligibility criteria, required documents, and submission guidelines to help you navigate the process with ease."
+//     },
+//     {
+//       "id": "overview",
+//       "type": "heading",
+//       "title": "Overview of the Registration Process",
+//       "level": 2
+//     },
+//     {
+//       "id": "overview-content",
+//       "type": "paragraph",
+//       "content": "The Jammu & Kashmir Board of Professional Entrance Examinations (JKBOPEE) conducts the NEET PG counselling and admission process for MD/MS/PG Diploma courses across government and private medical colleges within the Union Territory.\n\nThe registration process involves completing the online application with academic and personal details, followed by the submission of supporting documents in PDF format.\n\nThe official JKBOPEE website hosts all relevant notifications, links, and updates related to NEET PG counselling. Candidates must visit the official site regularly for any announcements or schedule revisions."
+//     },
+//     {
+//       "id": "step1-eligibility",
+//       "type": "heading",
+//       "title": "Step 1: Eligibility Criteria",
+//       "level": 2
+//     },
+//     {
+//       "id": "step1-content",
+//       "type": "paragraph",
+//       "content": "The eligibility criteria for Jammu & Kashmir NEET PG 2025 are straightforward."
+//     },
+//     {
+//       "id": "step1-requirements",
+//       "type": "list",
+//       "title": "Candidates must:",
+//       "items": [
+//         "Be domiciled residents of Jammu & Kashmir or the Union Territory of Ladakh.",
+//         "Hold an MBBS degree from a recognized institution (from any Indian state or UT).",
+//         "Possess a valid registration certificate from the Jammu and Kashmir Medical Council (JKMC)."
+//       ]
+//     },
+//     {
+//       "id": "step1-note",
+//       "type": "paragraph",
+//       "content": "Note: It is advisable to confirm the validity of registrations from other state medical councils if not registered with JKMC.\n\nForeign Medical Graduates who are permanent residents of Jammu & Kashmir or Ladakh are also eligible to apply."
+//     },
+//     {
+//       "id": "step2-access",
+//       "type": "heading",
+//       "title": "Step 2: Accessing the Application Link",
+//       "level": 2
+//     },
+//     {
+//       "id": "step2-content",
+//       "type": "list",
+//       "title": "To apply, candidates should:",
+//       "items": [
+//         "Visit the official JKBOPEE website.",
+//         "Navigate to the NEET PG section and click on the Apply Online link.",
+//         "Ensure pop-up blockers are disabled in the browser, as some forms or notifications may open in pop-up windows."
+//       ]
+//     },
+//     {
+//       "id": "step2-note",
+//       "type": "paragraph",
+//       "content": "Clicking the \"Apply Online\" link navigates applicants to the registration portal where the form can be accessed."
+//     },
+//     {
+//       "id": "step3-filling",
+//       "type": "heading",
+//       "title": "Step 3: Filling the Registration Form",
+//       "level": 2
+//     },
+//     {
+//       "id": "step3-content",
+//       "type": "paragraph",
+//       "content": "The registration form requires accurate details as per the NEET PG 2025 scorecard and MBBS documents."
+//     },
+//     {
+//       "id": "step3-fields",
+//       "type": "list",
+//       "title": "Key fields include:",
+//       "items": [
+//         "The registration form requires candidate details, including NEET PG roll number (11-digit, beginning with 25), All India Rank, score, and date of birth as per the official scorecard.",
+//         "Applicants are required to declare their residential status as Jammu & Kashmir or the UT of Ladakh and provide the respective domicile documentation."
+//       ]
+//     },
+//     {
+//       "id": "step4-category",
+//       "type": "heading",
+//       "title": "Step 4: Selecting Category and Subcategory",
+//       "level": 2
+//     },
+//     {
+//       "id": "step4-content",
+//       "type": "list",
+//       "title": "Candidates can choose their applicable reservation category from the list provided:",
+//       "items": [
+//         "Open Merit (OM)",
+//         "Scheduled Caste (SC)",
+//         "Scheduled Tribe (ST1 / ST2)",
+//         "Resident of Backward Area (RBA)",
+//         "Actual Line of Control (ALC)",
+//         "International Border (IB)",
+//         "Other Backward Classes (OBC)",
+//         "Economically Weaker Section (EWS)"
+//       ]
+//     },
+//     {
+//       "id": "step4-note",
+//       "type": "paragraph",
+//       "content": "For each category, the issue date and validity of the certificate must be clearly mentioned. The issue date must not be after the last date of application submission (i.e., 27th September 2025)."
+//     },
+//     {
+//       "id": "step4-subcategories",
+//       "type": "list",
+//       "title": "Candidates may also select horizontal subcategories, if applicable, such as:",
+//       "items": [
+//         "Children of Defense Personnel",
+//         "Children of Police/Paramilitary Forces",
+//         "Sports Category (approved by J&K Sports Council)",
+//         "Children of JKPM"
+//       ]
+//     },
+//     {
+//       "id": "step4-certificates",
+//       "type": "paragraph",
+//       "content": "Certificates must be duly issued by competent authorities such as Circle Officers or District Magistrates."
+//     },
+//     {
+//       "id": "step5-personal",
+//       "type": "heading",
+//       "title": "Step 5: Personal and Contact Details",
+//       "level": 2
+//     },
+//     {
+//       "id": "step5-content",
+//       "type": "paragraph",
+//       "content": "Applicants must provide a valid email ID and mobile number, as all OTPs and communication from JKBOPEE will be sent to these credentials.\n\nEnsure the same contact details remain active until the counselling process concludes."
+//     },
+//     {
+//       "id": "step5-fields",
+//       "type": "list",
+//       "title": "Other fields include:",
+//       "items": [
+//         "Internship completion status (must be before 31st July 2025).",
+//         "Confirmation regarding previous debarment by JKBOPEE (if applicable).",
+//         "Service category details (for in-service doctors claiming difficult area marks or submitting No Objection Certificates (NOC))."
+//       ]
+//     },
+//     {
+//       "id": "step6-activation",
+//       "type": "heading",
+//       "title": "Step 6: Account Activation and Password Setup",
+//       "level": 2
+//     },
+//     {
+//       "id": "step6-content",
+//       "type": "paragraph",
+//       "content": "Following successful form submission, JKBOPEE transmits a confirmation message to the candidate's registered email address."
+//     },
+//     {
+//       "id": "step6-steps",
+//       "type": "list",
+//       "title": "Steps to activate the account:",
+//       "items": [
+//         "Click the activation link sent via email.",
+//         "Create a new password and confirm it.",
+//         "Enter the OTP received on the same email to verify the account.",
+//         "Once completed, the system will confirm — \"Account Activated Successfully.\""
+//       ]
+//     },
+//     {
+//       "id": "step6-note",
+//       "type": "paragraph",
+//       "content": "Account activation enables portal access using the NEET PG roll number and self-generated password for subsequent document submission."
+//     },
+//     {
+//       "id": "step7-documents",
+//       "type": "heading",
+//       "title": "Step 7: Uploading Documents",
+//       "level": 2
+//     },
+//     {
+//       "id": "step7-content",
+//       "type": "list",
+//       "title": "The following documents must be uploaded in PDF format (100–200 KB) each:",
+//       "items": [
+//         "NEET PG 2025 Scorecard",
+//         "MBBS Degree Certificate",
+//         "Internship Completion Certificate",
+//         "Jammu & Kashmir or Ladakh Domicile Certificate",
+//         "Category/Subcategory Certificates (if applicable)",
+//         "EWS Certificate (if applicable)",
+//         "JKMC Registration Certificate",
+//         "Difficult Area Certificate (for service candidates)",
+//         "NOC for in-service candidates",
+//         "NMC Clearance Certificate (for Foreign Medical Graduates)"
+//       ]
+//     },
+//     {
+//       "id": "step7-note",
+//       "type": "paragraph",
+//       "content": "For UT of Ladakh residents, Scheduled Tribe certificates serve as valid domicile documentation per current guidelines.\n\nAfter uploading all documents, candidates should review the form and take a printout of the final submission page for reference."
+//     },
+//     {
+//       "id": "step8-confirmation",
+//       "type": "heading",
+//       "title": "Step 8: Confirmation and Submission",
+//       "level": 2
+//     },
+//     {
+//       "id": "step8-content",
+//       "type": "paragraph",
+//       "content": "Before final submission, candidates must review all details carefully.\n\nOnce submitted, no edits or corrections can be made to the form.\n\nA registration number will be generated (usually matching the NEET PG roll number). Candidates will receive a confirmation message:\n\n\"Thank you for registering. Please check your email for account activation.\"\n\nIt is strongly recommended to verify all uploaded documents by logging in again after submission."
+//     },
+//     {
+//       "id": "important-notes",
+//       "type": "heading",
+//       "title": "Important Notes",
+//       "level": 2
+//     },
+//     {
+//       "id": "important-notes-list",
+//       "type": "list",
+//       "items": [
+//         "Ensure that your category certificates are valid and up-to-date. Expired certificates will not be accepted.",
+//         "Foreign Medical Graduates are required to submit their Medical Council of India (MCI)/National Medical Commission (NMC) eligibility clearance certificates as part of the application.",
+//         "In-service candidates must include valid No Objection Certificates (NOC) and Difficult Area Certificates in their document submission.",
+//         "In case of technical issues or clarification, candidates may contact JKBOPEE directly through the official helpline numbers mentioned on their website."
+//       ]
+//     },
+//     {
+//       "id": "conclusion",
+//       "type": "heading",
+//       "title": "Conclusion",
+//       "level": 2
+//     },
+//     {
+//       "id": "conclusion-content",
+//       "type": "paragraph",
+//       "content": "The Jammu and Kashmir NEET PG 2025 counselling registration is now live and open for all eligible candidates from J&K and Ladakh. Applicants are advised to complete their registration well before the deadline to avoid last-minute technical issues.\n\nThe detailed information brochure and counselling regulations are published by JKBOPEE and are available on the official website.\n\nComplete procedural information for Jammu and Kashmir NEET PG 2025 counselling is available through the official JKBOPEE portal at jkbopee.gov.in."
+//     },
+//     {
+//       "id": "faqs",
+//       "type": "heading",
+//       "title": "Frequently Asked Questions (FAQs)",
+//       "level": 2
+//     },
+//     {
+//       "id": "faqs-list",
+//       "type": "faq",
+//       "faqs": [
+//         {
+//           "question": "Q1: Who can apply for J&K NEET PG 2025 counselling?",
+//           "answer": "A: Only permanent residents of Jammu & Kashmir or UT of Ladakh with qualified NEET PG 2025 scores. MBBS from any state is accepted; JKMC registration recommended. FMGs with J&K/Ladakh domicile also eligible."
+//         },
+//         {
+//           "question": "Q2: What is the registration deadline?",
+//           "answer": "A: Registration opened September 23, 2025, and closed October 23, 2025. No edits allowed after final submission. Complete the application early to avoid technical issues."
+//         },
+//         {
+//           "question": "Q3: What documents are needed?",
+//           "answer": "A: NEET PG scorecard, MBBS degree, internship certificate (before July 31, 2025), domicile certificate, JKMC registration, category certificates (if applicable). All PDFs, 100-200 KB. FMGs need NMC clearance."
+//         },
+//         {
+//           "question": "Q4: What reservation categories are available?",
+//           "answer": "A: Open Merit, SC, ST1/ST2, RBA, ALC, IB, OBC, EWS. Horizontal: Children of Defense/Police personnel, Sports Category. UT Ladakh residents use ST certificate as domicile proof."
+//         },
+//         {
+//           "question": "Q5: How many seats are available?",
+//           "answer": "A: Total 536 PG medical seats: 307 MD, 215 MS, 14 PG Diploma across government and private colleges in J&K and Ladakh."
+//         }
+//       ]
+//     },
+//      {
+//       "id": "keywords",
+//       "type": "keywords",
+//       "title": "Related Keywords",
+//       "keywords": [
+//         "NEET PG Counselling",
+//   "Jammu & Kashmir NEET PG 2025 Counselling",
+//   "Jammu & Kashmir NEET PG Counselling",
+//   "Jammu & Kashmir NEET PG Counselling 2025",
+//   "NEET PG Counselling Registration",
+//   "NEET PG Counselling Schedule",
+//   "MCC NEET PG Counselling",
+//   "Apply for NEET PG Counselling",
+//   "Career Counselling NEET PG",
+//   "Choice Filling in NEET PG",
+//   "MCC NEET PG Counselling Schedule",
+//   "MCC NEET PG Counselling Registration",
+//   "MCC PG Medical Counselling",
+//   "J&K NEET PG Counselling",
+//   "Counselling Procedure for NEET PG"
+//       ]
+//     },
+//     {
+//       "id": "contact-form",
+//       "type": "contact-form",
+//       "title": "Submit queries to BelieversConsultancy",
+//       "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+//     }
+//   ]
+// },
 {
   "id": 26,
-  "title": "Jammu & Kashmir NEET PG 2025 Counselling Registration: Complete Step-by-Step Guide",
-  "slug": "jammu-kashmir-neet-pg-2025-counselling-registration",
-  "excerpt": "Complete guide to J&K NEET PG 2025 counselling covering registration process, eligibility criteria, required documents, and step-by-step instructions for aspirants from Jammu & Kashmir and Ladakh.",
-  "featured_image": "https://cdn.dribbble.com/userupload/45488650/file/146716247281f820a9e2e42458fa66b1.png?w=1200&h=600&fit=crop",
-  "author": {
-    "name": "Believers Team",
-    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
-    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
-  },
-  "category": {
-    "name": "NEET PG",
-    "slug": "neet-pg",
-    "color": "bg-purple-100 text-purple-800"
-  },
-  "tags": ["NEET PG", "Jammu Kashmir", "JKBOPEE", "Medical Admissions", "PG Counselling", "Ladakh"],
-  "published_date": "2025-10-30",
-  "read_time": 12,
-  "meta_description": "Learn the step-by-step process for Jammu & Kashmir NEET PG 2025 Counselling registration, eligibility, document verification, and seat allotment details.",
-  "sections": [
-    {
-      "id": "intro",
-      "type": "paragraph",
-      "content": "The Jammu and Kashmir Board of Professional Entrance Examinations (JKBOPEE) has opened NEET PG 2025 counselling registration for the Union Territories of Jammu & Kashmir and Ladakh, 2025. This announcement officially initiates the much-anticipated admission process for postgraduate medical courses for aspirants from the Union Territories of Jammu & Kashmir and Ladakh.\n\nThis guide outlines the application process, eligibility requirements, and documentation specifications for J&K NEET PG 2025 counselling, including key details on eligibility criteria, required documents, and submission guidelines to help you navigate the process with ease."
-    },
-    {
-      "id": "overview",
-      "type": "heading",
-      "title": "Overview of the Registration Process",
-      "level": 2
-    },
-    {
-      "id": "overview-content",
-      "type": "paragraph",
-      "content": "The Jammu & Kashmir Board of Professional Entrance Examinations (JKBOPEE) conducts the NEET PG counselling and admission process for MD/MS/PG Diploma courses across government and private medical colleges within the Union Territory.\n\nThe registration process involves completing the online application with academic and personal details, followed by the submission of supporting documents in PDF format.\n\nThe official JKBOPEE website hosts all relevant notifications, links, and updates related to NEET PG counselling. Candidates must visit the official site regularly for any announcements or schedule revisions."
-    },
-    {
-      "id": "step1-eligibility",
-      "type": "heading",
-      "title": "Step 1: Eligibility Criteria",
-      "level": 2
-    },
-    {
-      "id": "step1-content",
-      "type": "paragraph",
-      "content": "The eligibility criteria for Jammu & Kashmir NEET PG 2025 are straightforward."
-    },
-    {
-      "id": "step1-requirements",
-      "type": "list",
-      "title": "Candidates must:",
-      "items": [
-        "Be domiciled residents of Jammu & Kashmir or the Union Territory of Ladakh.",
-        "Hold an MBBS degree from a recognized institution (from any Indian state or UT).",
-        "Possess a valid registration certificate from the Jammu and Kashmir Medical Council (JKMC)."
-      ]
-    },
-    {
-      "id": "step1-note",
-      "type": "paragraph",
-      "content": "Note: It is advisable to confirm the validity of registrations from other state medical councils if not registered with JKMC.\n\nForeign Medical Graduates who are permanent residents of Jammu & Kashmir or Ladakh are also eligible to apply."
-    },
-    {
-      "id": "step2-access",
-      "type": "heading",
-      "title": "Step 2: Accessing the Application Link",
-      "level": 2
-    },
-    {
-      "id": "step2-content",
-      "type": "list",
-      "title": "To apply, candidates should:",
-      "items": [
-        "Visit the official JKBOPEE website.",
-        "Navigate to the NEET PG section and click on the Apply Online link.",
-        "Ensure pop-up blockers are disabled in the browser, as some forms or notifications may open in pop-up windows."
-      ]
-    },
-    {
-      "id": "step2-note",
-      "type": "paragraph",
-      "content": "Clicking the \"Apply Online\" link navigates applicants to the registration portal where the form can be accessed."
-    },
-    {
-      "id": "step3-filling",
-      "type": "heading",
-      "title": "Step 3: Filling the Registration Form",
-      "level": 2
-    },
-    {
-      "id": "step3-content",
-      "type": "paragraph",
-      "content": "The registration form requires accurate details as per the NEET PG 2025 scorecard and MBBS documents."
-    },
-    {
-      "id": "step3-fields",
-      "type": "list",
-      "title": "Key fields include:",
-      "items": [
-        "The registration form requires candidate details, including NEET PG roll number (11-digit, beginning with 25), All India Rank, score, and date of birth as per the official scorecard.",
-        "Applicants are required to declare their residential status as Jammu & Kashmir or the UT of Ladakh and provide the respective domicile documentation."
-      ]
-    },
-    {
-      "id": "step4-category",
-      "type": "heading",
-      "title": "Step 4: Selecting Category and Subcategory",
-      "level": 2
-    },
-    {
-      "id": "step4-content",
-      "type": "list",
-      "title": "Candidates can choose their applicable reservation category from the list provided:",
-      "items": [
-        "Open Merit (OM)",
-        "Scheduled Caste (SC)",
-        "Scheduled Tribe (ST1 / ST2)",
-        "Resident of Backward Area (RBA)",
-        "Actual Line of Control (ALC)",
-        "International Border (IB)",
-        "Other Backward Classes (OBC)",
-        "Economically Weaker Section (EWS)"
-      ]
-    },
-    {
-      "id": "step4-note",
-      "type": "paragraph",
-      "content": "For each category, the issue date and validity of the certificate must be clearly mentioned. The issue date must not be after the last date of application submission (i.e., 27th September 2025)."
-    },
-    {
-      "id": "step4-subcategories",
-      "type": "list",
-      "title": "Candidates may also select horizontal subcategories, if applicable, such as:",
-      "items": [
-        "Children of Defense Personnel",
-        "Children of Police/Paramilitary Forces",
-        "Sports Category (approved by J&K Sports Council)",
-        "Children of JKPM"
-      ]
-    },
-    {
-      "id": "step4-certificates",
-      "type": "paragraph",
-      "content": "Certificates must be duly issued by competent authorities such as Circle Officers or District Magistrates."
-    },
-    {
-      "id": "step5-personal",
-      "type": "heading",
-      "title": "Step 5: Personal and Contact Details",
-      "level": 2
-    },
-    {
-      "id": "step5-content",
-      "type": "paragraph",
-      "content": "Applicants must provide a valid email ID and mobile number, as all OTPs and communication from JKBOPEE will be sent to these credentials.\n\nEnsure the same contact details remain active until the counselling process concludes."
-    },
-    {
-      "id": "step5-fields",
-      "type": "list",
-      "title": "Other fields include:",
-      "items": [
-        "Internship completion status (must be before 31st July 2025).",
-        "Confirmation regarding previous debarment by JKBOPEE (if applicable).",
-        "Service category details (for in-service doctors claiming difficult area marks or submitting No Objection Certificates (NOC))."
-      ]
-    },
-    {
-      "id": "step6-activation",
-      "type": "heading",
-      "title": "Step 6: Account Activation and Password Setup",
-      "level": 2
-    },
-    {
-      "id": "step6-content",
-      "type": "paragraph",
-      "content": "Following successful form submission, JKBOPEE transmits a confirmation message to the candidate's registered email address."
-    },
-    {
-      "id": "step6-steps",
-      "type": "list",
-      "title": "Steps to activate the account:",
-      "items": [
-        "Click the activation link sent via email.",
-        "Create a new password and confirm it.",
-        "Enter the OTP received on the same email to verify the account.",
-        "Once completed, the system will confirm — \"Account Activated Successfully.\""
-      ]
-    },
-    {
-      "id": "step6-note",
-      "type": "paragraph",
-      "content": "Account activation enables portal access using the NEET PG roll number and self-generated password for subsequent document submission."
-    },
-    {
-      "id": "step7-documents",
-      "type": "heading",
-      "title": "Step 7: Uploading Documents",
-      "level": 2
-    },
-    {
-      "id": "step7-content",
-      "type": "list",
-      "title": "The following documents must be uploaded in PDF format (100–200 KB) each:",
-      "items": [
-        "NEET PG 2025 Scorecard",
-        "MBBS Degree Certificate",
-        "Internship Completion Certificate",
-        "Jammu & Kashmir or Ladakh Domicile Certificate",
-        "Category/Subcategory Certificates (if applicable)",
-        "EWS Certificate (if applicable)",
-        "JKMC Registration Certificate",
-        "Difficult Area Certificate (for service candidates)",
-        "NOC for in-service candidates",
-        "NMC Clearance Certificate (for Foreign Medical Graduates)"
-      ]
-    },
-    {
-      "id": "step7-note",
-      "type": "paragraph",
-      "content": "For UT of Ladakh residents, Scheduled Tribe certificates serve as valid domicile documentation per current guidelines.\n\nAfter uploading all documents, candidates should review the form and take a printout of the final submission page for reference."
-    },
-    {
-      "id": "step8-confirmation",
-      "type": "heading",
-      "title": "Step 8: Confirmation and Submission",
-      "level": 2
-    },
-    {
-      "id": "step8-content",
-      "type": "paragraph",
-      "content": "Before final submission, candidates must review all details carefully.\n\nOnce submitted, no edits or corrections can be made to the form.\n\nA registration number will be generated (usually matching the NEET PG roll number). Candidates will receive a confirmation message:\n\n\"Thank you for registering. Please check your email for account activation.\"\n\nIt is strongly recommended to verify all uploaded documents by logging in again after submission."
-    },
-    {
-      "id": "important-notes",
-      "type": "heading",
-      "title": "Important Notes",
-      "level": 2
-    },
-    {
-      "id": "important-notes-list",
-      "type": "list",
-      "items": [
-        "Ensure that your category certificates are valid and up-to-date. Expired certificates will not be accepted.",
-        "Foreign Medical Graduates are required to submit their Medical Council of India (MCI)/National Medical Commission (NMC) eligibility clearance certificates as part of the application.",
-        "In-service candidates must include valid No Objection Certificates (NOC) and Difficult Area Certificates in their document submission.",
-        "In case of technical issues or clarification, candidates may contact JKBOPEE directly through the official helpline numbers mentioned on their website."
-      ]
-    },
-    {
-      "id": "conclusion",
-      "type": "heading",
-      "title": "Conclusion",
-      "level": 2
-    },
-    {
-      "id": "conclusion-content",
-      "type": "paragraph",
-      "content": "The Jammu and Kashmir NEET PG 2025 counselling registration is now live and open for all eligible candidates from J&K and Ladakh. Applicants are advised to complete their registration well before the deadline to avoid last-minute technical issues.\n\nThe detailed information brochure and counselling regulations are published by JKBOPEE and are available on the official website.\n\nComplete procedural information for Jammu and Kashmir NEET PG 2025 counselling is available through the official JKBOPEE portal at jkbopee.gov.in."
-    },
-    {
-      "id": "faqs",
-      "type": "heading",
-      "title": "Frequently Asked Questions (FAQs)",
-      "level": 2
-    },
-    {
-      "id": "faqs-list",
-      "type": "faq",
-      "faqs": [
-        {
-          "question": "Q1: Who can apply for J&K NEET PG 2025 counselling?",
-          "answer": "A: Only permanent residents of Jammu & Kashmir or UT of Ladakh with qualified NEET PG 2025 scores. MBBS from any state is accepted; JKMC registration recommended. FMGs with J&K/Ladakh domicile also eligible."
-        },
-        {
-          "question": "Q2: What is the registration deadline?",
-          "answer": "A: Registration opened September 23, 2025, and closed October 23, 2025. No edits allowed after final submission. Complete the application early to avoid technical issues."
-        },
-        {
-          "question": "Q3: What documents are needed?",
-          "answer": "A: NEET PG scorecard, MBBS degree, internship certificate (before July 31, 2025), domicile certificate, JKMC registration, category certificates (if applicable). All PDFs, 100-200 KB. FMGs need NMC clearance."
-        },
-        {
-          "question": "Q4: What reservation categories are available?",
-          "answer": "A: Open Merit, SC, ST1/ST2, RBA, ALC, IB, OBC, EWS. Horizontal: Children of Defense/Police personnel, Sports Category. UT Ladakh residents use ST certificate as domicile proof."
-        },
-        {
-          "question": "Q5: How many seats are available?",
-          "answer": "A: Total 536 PG medical seats: 307 MD, 215 MS, 14 PG Diploma across government and private colleges in J&K and Ladakh."
-        }
-      ]
-    },
-     {
-      "id": "keywords",
-      "type": "keywords",
-      "title": "Related Keywords",
-      "keywords": [
-        "NEET PG Counselling",
-  "Jammu & Kashmir NEET PG 2025 Counselling",
-  "Jammu & Kashmir NEET PG Counselling",
-  "Jammu & Kashmir NEET PG Counselling 2025",
-  "NEET PG Counselling Registration",
-  "NEET PG Counselling Schedule",
-  "MCC NEET PG Counselling",
-  "Apply for NEET PG Counselling",
-  "Career Counselling NEET PG",
-  "Choice Filling in NEET PG",
-  "MCC NEET PG Counselling Schedule",
-  "MCC NEET PG Counselling Registration",
-  "MCC PG Medical Counselling",
-  "J&K NEET PG Counselling",
-  "Counselling Procedure for NEET PG"
-      ]
-    },
-    {
-      "id": "contact-form",
-      "type": "contact-form",
-      "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
-    }
-  ]
-},
-{
-  "id": 25,
   "title": "Tamil Nadu NEET PG 2025: Step-by-Step Guide for State Quota (Government & Management Seats)",
   "slug": "tamil-nadu-neet-pg-2025-state-quota-government-management-seats",
   "excerpt": "Complete guide to Tamil Nadu NEET PG 2025 counselling administered by DME, covering eligibility criteria, seat distribution, application process, documentation, and fee structure for MD/MS/Diploma admissions under Government and Management Quotas.",
@@ -9153,7 +9153,7 @@ export const blogPosts: BlogPost[] = [
   ]
 },
 {
-  "id": 28,
+  "id": 27,
   "title": "Gujarat NEET PG 2025 Counselling: Official Guide for State Quota, Private, and NRI Seats",
   "slug": "gujarat-neet-pg-2025-counselling-state-quota-private-nri-seats",
   "excerpt": "Complete guide to Gujarat NEET PG 2025 counselling administered by ACPUGMEC, covering eligibility criteria, seat classification, document verification, fee structure, and registration process for MD/MS/Diploma admissions.",
