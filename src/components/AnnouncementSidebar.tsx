@@ -758,6 +758,15 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: ' https://bceceboard.bihar.gov.in/',
      source: 'Bceceboard Bihar Gov.in',
      },
+     {
+      id: 56,
+      title: "NEET PG Counselling 2025: UP NEET PG 2025 Counselling Schedule Released at upneet.gov.in: Round-Wise Dates Announced for Uttar Pradesh State Quota MD/MS/Diploma Admissions ",
+      date: "2025-10-31T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: ' https://upneet.gov.in/',
+      source: 'Bceceboard Bihar Gov.in',
+     },
 
   ];
 
