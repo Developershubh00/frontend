@@ -134,10 +134,10 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
       ) {
         throw new Error(
           (error.response as { data: { detail?: string } }).data.detail ||
-            "Login Failed!! If you are a new user. Please signup first"
+            "Login Failed!! If you are a new user. Please Sign-up first  & Try Again"
         );
       }
-      throw new Error("Login Failed!! If you are a new user. Please signup first");
+      throw new Error("Login Failed!! If you are a new user. Please Sign-up first  & Try Again");
     }
   };
 
