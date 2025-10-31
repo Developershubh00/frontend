@@ -9509,6 +9509,281 @@ export const blogPosts: BlogPost[] = [
       "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
     }
   ]
+},
+{
+  "id": 28,
+  "title": "Telangana NEET PG 2025 Management Quota – Complete Application Guide",
+  "slug": "telangana-neet-pg-2025-management-quota-complete-application-guide",
+  "excerpt": "Complete guide to Telangana NEET PG 2025 Management Quota counselling covering seat categories (MQ1, MQ2, MQ3), eligibility criteria, application timeline, fee structure, step-by-step process, and FAQs for MD/MS/Diploma admissions in private medical colleges.",
+  "featured_image": "https://cdn.dribbble.com/userupload/45518790/file/4383306a547dec7f5bdee8a4cd4bb934.png?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-purple-100 text-purple-800"
+  },
+  "tags": ["NEET PG", "Telangana", "KNRUHS", "Management Quota", "Medical Admissions", "PG Counselling", "MQ1", "MQ2", "MQ3"],
+  "published_date": "2025-10-30",
+  "read_time": 18,
+  "meta_description": "Learn how to apply for Telangana NEET PG 2025 Management Quota with stepwise details on eligibility, fees, and counselling process.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "Management Quota seat distribution comprises Category B (MQ1), NRI Quota (MQ2), and Institutional Quota (MQ3) with distinct eligibility criteria as specified by KNRUHS across the state. These seats are designated under the Management Quota, and candidates from across India are eligible to apply, provided they meet the criteria set by the concerned institutions.\n\nUnderstanding the structure of these seats, eligibility, and the application process is essential for aspirants looking to pursue postgraduate medical courses in Telangana."
+    },
+    {
+      "id": "seat-structure",
+      "type": "heading",
+      "title": "Seat Structure and Categories",
+      "level": 2
+    },
+    {
+      "id": "seat-structure-content",
+      "type": "paragraph",
+      "content": "Private medical college seats in Telangana are divided into three categories – Cat A, Cat B, and Cat C. Cat A seats fall under the Telangana Government Quota, also known as the Competent Authority Quota, with an approximate fee of 7.5 lakh per annum. Management Quota encompasses Cat B and Cat C seats."
+    },
+    {
+      "id": "cat-b",
+      "type": "paragraph",
+      "content": "Cat B (MQ1): These seats are open to all candidates from India. No specific domicile or state-based restriction applies, making this category accessible to candidates nationwide."
+    },
+    {
+      "id": "cat-c",
+      "type": "paragraph",
+      "content": "Cat C: These seats are further split into NRI Quota (MQ2) and Institutional Quota (MQ3). MQ2 seats are reserved for NRI or NRI-sponsored candidates, while MQ3 seats are for candidates who are connected to the institution either through MBBS completion at the same institute or as children of employees. Institutional Quota (MQ3) eligibility requires sponsorship certification from the concerned medical college verifying the candidate's connection through MBBS completion or parental employment."
+    },
+    {
+      "id": "understanding-categories",
+      "type": "heading",
+      "title": "Understanding the Seat Categories",
+      "level": 2
+    },
+    {
+      "id": "categories-content",
+      "type": "paragraph",
+      "content": "In Telangana’s private medical colleges, seats are divided into three categories: Category A, B, and C.\nCategory A (Government Quota/Competent Authority Quota) is administered separately by KNRUHS; Management Quota comprises Categories B and C exclusively.\nManagement Quota encompasses 50% of total private college seats: Category B (MQ1—all India eligible) and Category C (MQ2 NRI seats, MQ3 institutional seats).\nCategory B (MQ1) seats are open to candidates from across India, while Category C is split into:"
+    },
+    {
+      "id": "categories-list",
+      "type": "list",
+      "items": [
+        "MQ2 – NRI seats (open to NRI/OCI and NRI-sponsored candidates)",
+        "MQ3 – Institutional Quota, available to students or employees associated with a particular institution."
+      ]
+    },
+    {
+      "id": "mq3-eligibility",
+      "type": "paragraph",
+      "content": "Applicants eligible under the institutional quota (MQ3) include those who have completed MBBS from the same institute, employees of the institution, or children of employees with valid sponsorship certification."
+    },
+    {
+      "id": "important-dates-fees",
+      "type": "heading",
+      "title": "Important Dates and Fee Structure",
+      "level": 2
+    },
+    {
+      "id": "dates-list",
+      "type": "list",
+      "items": [
+        "Application Start Date: 4th October 2025",
+        "Last Date to Apply: 11th October 2025 (until 6:00 PM)"
+      ]
+    },
+    {
+      "id": "portal-note",
+      "type": "paragraph",
+      "content": "The application portal operates from October 4-11, 2025 (6:00 PM) through pvttspgmed.tsche.in."
+    },
+    {
+      "id": "fees-table",
+      "type": "table",
+      "headers": ["Fee Type", "Amount (₹)"],
+      "rows": [
+        ["Registration Fee", "15,000"],
+        ["Equivalency Fee (MBBS from other Indian states)", "8,000"],
+        ["Equivalency Fee (MBBS from abroad)", "10,000"]
+      ]
+    },
+    {
+      "id": "timeline-fees-content",
+      "type": "paragraph",
+      "content": "The application window for Telangana Management Quota begins on 4th October 2025 and closes on 11th October 2025 at 6 PM. Candidates are advised to submit their applications well before the deadline to avoid last-minute technical issues.\n\nThe registration fee is ₹15,000, with an additional equivalency fee for candidates from other states or foreign institutions. Equivalency verification fee of ₹8,000 applies to candidates with MBBS from other states; ₹10,000 for foreign medical graduates, in addition to the ₹15,000 registration fee depending on the circumstances."
+    },
+    {
+      "id": "application-process",
+      "type": "heading",
+      "title": "Step-by-Step Application Process",
+      "level": 2
+    },
+    {
+      "id": "process-overview",
+      "type": "paragraph",
+      "content": "The registration process requires five sequential steps: mobile/email verification, candidate registration, fee payment, data entry, and certificate upload through the KNRUHS portal."
+    },
+    {
+      "id": "step-registration",
+      "type": "paragraph",
+      "content": "Candidate Registration: Registration fee payment of ₹15,000 (plus equivalency fee if applicable) must be completed through debit/credit card or net banking, with transaction reference preserved for verification."
+    },
+    {
+      "id": "step-payment",
+      "type": "paragraph",
+      "content": "Payment of Registration Fees: Pay via card, net banking, or wallet; save the transaction reference number."
+    },
+    {
+      "id": "step-data-update",
+      "type": "paragraph",
+      "content": "Data Updation: Enter NEET roll and registration number; upload photograph, signature, and later certificates in PDF format."
+    },
+    {
+      "id": "step-details",
+      "type": "paragraph",
+      "content": "Candidate Details Entry: Provide full personal, MBBS, internship, and medical council registration details; pay additional equivalency fees if applicable."
+    },
+    {
+      "id": "step-nri-mq3",
+      "type": "paragraph",
+      "content": "NRI & Institutional Quota Claim: Upload valid sponsorship letters for NRI (MQ2) or Institutional Quota (MQ3) candidates."
+    },
+    {
+      "id": "step-certificates",
+      "type": "paragraph",
+      "content": "Certificate Upload: Submit all required certificates (MBBS degree, study certificate, CRRI, registration, NRI/institutional documents) in proper PDF format."
+    },
+    {
+      "id": "step-final",
+      "type": "paragraph",
+      "content": "Final Submission: Verify all information and submit the application; no edits are allowed after final submission."
+    },
+    {
+      "id": "important-notes",
+      "type": "heading",
+      "title": "Important Notes",
+      "level": 2
+    },
+    {
+      "id": "notes-content",
+      "type": "paragraph",
+      "content": "Candidates should regularly check their emails and the application portal for any requests for document verification or updates.\n\nTelangana Management Quota does not offer reservation benefits based on caste or category for most candidates. Only those in the 40th–50th percentile range with specific social status may have advantages.\n\nAny changes or grievances will be addressed after the merit list is published, although the timeframe is often short."
+    },
+    {
+      "id": "nri-institutional-key-points",
+      "type": "heading",
+      "title": "Key Points for NRI and Institutional Quotas",
+      "level": 2
+    },
+    {
+      "id": "nri-point",
+      "type": "paragraph",
+      "content": "NRI Quota (MQ2): Immediate family members of the candidate must be NRIs. Candidates should verify sponsor eligibility based on the guidelines."
+    },
+    {
+      "id": "institutional-point",
+      "type": "paragraph",
+      "content": "Institutional Quota (MQ3): The candidate or their parent must have a valid association with the institution. Proper sponsorship letters are mandatory."
+    },
+    {
+      "id": "conclusion",
+      "type": "heading",
+      "title": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "conclusion-content",
+      "type": "paragraph",
+      "content": "The Telangana Management Quota application process for NEET PG 2025 is detailed and requires careful attention to all steps, including registration, fee payment, personal details entry, and certificate uploads. Candidates must ensure all information is accurate and complete to avoid complications during counselling and seat allotment. Complete procedural information, eligibility criteria, and counselling schedules are published through the official KNRUHS portal at knruhs.telangana.gov.in and pvttspgmed.tsche.in."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "Frequently Asked Questions (FAQs)",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1: What are the Management Quota seat categories and eligibility?",
+          "answer": "A: MQ1 (Cat B): Open to all India candidates. MQ2 (NRI Quota): For NRI/OCI candidates or NRI-sponsored (immediate family). MQ3 (Institutional): For candidates with MBBS from the same institution or children of institutional employees with sponsorship. Application: Oct 4-11, 2025."
+        },
+        {
+          "question": "Q2: What are the registration fees?",
+          "answer": "A: Registration: ₹15,000 (non-refundable). Equivalency fee: ₹8,000 (other state MBBS), ₹10,000 (foreign MBBS). Total: ₹15,000-₹25,000 depending on qualification. Payment via debit/credit card or net banking only."
+        },
+        {
+          "question": "Q3: What documents are required for the application?",
+          "answer": "A: NEET PG 2025 scorecard, MBBS degree/provisional certificate, study certificate, CRRI completion, permanent/provisional medical council registration (TSMC preferred but any state accepted), passport-size photo, signature. For NRI: Sponsorship letter, NRI bank account, passport. For Institutional: Sponsorship certificate from the institution."
+        },
+        {
+          "question": "Q4: Is there any reservation in the Management Quota?",
+          "answer": "A: No reservation or fee concessions based on caste/category. Category certificates only determine eligibility for candidates scoring 235-276 marks (40th-50th percentile). All candidates compete on the NEET PG merit."
+        },
+        {
+          "question": "Q5: What are the penalties and bonds?",
+          "answer": "A: Seat abandonment after Round 2: ₹50 lakh penalty + 3-year debarment from Telangana counselling. Course discontinuation: ₹50 lakh penalty (PG degree), ₹10 lakh (diploma) as per ₹100 stamp paper bond. Candidates must complete the internship by July 31, 2025, for eligibility."
+        },
+        {
+          "question": "Q6: What are the Management Quota categories and who is eligible?",
+          "answer": "A: MQ1 (Cat B): All India candidates, no restrictions. MQ2 (NRI): NRI/OCI candidates or immediate family sponsorship (parents, siblings, uncles, aunts). MQ3 (Institutional): MBBS from same institution or children of institutional employees with sponsorship letter. Application: Oct 4-11, 2025 (6 PM deadline)."
+        },
+        {
+          "question": "Q7: What are the registration fees?",
+          "answer": "A: Registration: ₹15,000. Equivalency fee: ₹8,000 (other state MBBS), ₹10,000 (foreign MBBS). Total: ₹15,000-₹25,000 depending on MBBS origin. Payment via debit/credit card or net banking only; UPI unavailable."
+        },
+        {
+          "question": "Q8: What documents are required?",
+          "answer": "A: NEET 2025 scorecard (password-free PDF), MBBS degree/provisional certificate, MBBS study certificate, CRRI completion, permanent/provisional medical council registration (any state accepted). For NRI: Sponsorship letter, relationship proof, passport, and NRI bank account. For Institutional: Sponsorship letter from the college. For minorities: Minority certificate. All documents as single PDF files."
+        },
+        {
+          "question": "Q9: Is there a reservation in the Management Quota?",
+          "answer": "A: No reservation or fee concessions by category. Category declaration determines eligibility only for candidates scoring 235-276 marks (40th-50th percentile)—such candidates qualify for general admission but receive no preference. All candidates compete on NEET merit."
+        },
+        {
+          "question": "Q10: What happens after submission?",
+          "answer": "A: Merit list published post-deadline. Grievance window (typically 1-2 days) for corrections. Candidates must monitor email and the portal daily for document verification requests or re-upload notices. No edits allowed after final submission. Fee payment at KNRUHS after allotment."
+        }
+      ]
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+         "Telangana NEET PG Counselling",
+  "NEET PG Counselling",
+  "Telangana NEET PG 2025 Counselling",
+  "Telangana NEET PG Counselling 2025",
+  "NEET PG Counselling Schedule",
+  "MCC NEET PG Counselling",
+  "Telangana Management Quota Counselling",
+  "NEET PG Counselling Registration",
+  "Career Counselling NEET PG",
+  "Choice Filling in NEET PG",
+  "Counselling Procedure for NEET PG",
+  "MCC Counselling NEET PG",
+  "MCC PG Medical Counselling",
+  "MCC Registration NEET PG",
+  "NEET PG Career Counselling",
+  "NEET PG Counseling Procedure",
+  "NEET PG Management Quota Counselling",
+  "Telangana State NEET PG Counselling",
+  "Telangana State Counselling NEET PG"
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    }
+  ]
 }
 
 ];
