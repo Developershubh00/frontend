@@ -767,6 +767,15 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: ' https://upneet.gov.in/',
       source: 'Bceceboard Bihar Gov.in',
      },
+     {
+      id: 57,
+      title: " Maharashtra CET Cell Launches CAP 2025-26 Centralised Admission Process Portal for Engineering, MBA, Medical, and Other Postgraduate and Undergraduate Courses Registration ",
+      date: "2025-10-31T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: ' https://cetcell.mahacet.org/cap-_2025-26/',
+      source: 'cetcell.mahacet.org',
+     },
 
   ];
 

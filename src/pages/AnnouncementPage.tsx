@@ -1599,7 +1599,19 @@ const AnnouncementPage: React.FC = () => {
       category: 'NEET PG',
       link: ' https://upneet.gov.in/',
       is_active: true,
-      source: 'Bceceboard Bihar Gov.in',
+      source: 'upneet.gov.in',
+      created_at: "2025-10-31T08:00:00Z"
+    },
+    {
+      id: 57,
+      title: "NEET PG Counselling 2025:",
+      content:" Maharashtra CET Cell Launches CAP 2025-26 Centralised Admission Process Portal for Engineering, MBA, Medical, and Other Postgraduate and Undergraduate Courses Registration ",
+      date: "2025-10-31T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: ' https://cetcell.mahacet.org/cap-_2025-26/',
+      is_active: true,
+      source: 'cetcell.mahacet.org',
       created_at: "2025-10-31T08:00:00Z"
     },
 
