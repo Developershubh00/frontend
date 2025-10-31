@@ -9527,7 +9527,7 @@ export const blogPosts: BlogPost[] = [
     "color": "bg-purple-100 text-purple-800"
   },
   "tags": ["NEET PG", "Telangana", "KNRUHS", "Management Quota", "Medical Admissions", "PG Counselling", "MQ1", "MQ2", "MQ3"],
-  "published_date": "2025-10-30",
+  "published_date": "2025-10-31",
   "read_time": 18,
   "meta_description": "Learn how to apply for Telangana NEET PG 2025 Management Quota with stepwise details on eligibility, fees, and counselling process.",
   "sections": [
