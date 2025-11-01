@@ -511,6 +511,28 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
              Number of Seats Available as on 31.03.2025 in PG Medical Course (Broad/Super Speciality) in various Medical Colleges/Institution for the A.Y. 2024-25
           </a>
         </div>
+
+        <div className="text-center mb-6 lg:mb-8">
+  <a
+    href="https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/10/202510282088194740.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-600 font-semibold hover:text-blue-900 underline text-sm lg:text-base transition-colors duration-200"
+  >
+    DEEMED UNIVERSITY SEATS MATRIX PG 2025 COUNSELLING
+  </a>
+</div>
+
+<div className="text-center mb-6 lg:mb-8">
+  <a
+    href="https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/10/20251028847832917.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-600 font-semibold hover:text-blue-900 underline text-sm lg:text-base transition-colors duration-200"
+  >
+    CENTRAL INTERNAL QUOTA SEATS MATRIX PG 2025 COUNSELLING
+  </a>
+</div>
         {/* Mobile-First Quick Action Cards */}
         {/* <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-6 mb-8 lg:mb-12">
           {quickActionCards.map((card, index) => (
