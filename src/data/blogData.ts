@@ -6899,7 +6899,7 @@ export const blogPosts: BlogPost[] = [
   "title": "Tamil Nadu Management Quota 2025: Complete Information Guide",
   "slug": "tamil-nadu-management-quota-2025-guide",
   "excerpt": "Complete guide to Tamil Nadu Management Quota 2025 covering eligibility, fees, counselling process, documentation, and admission procedures for PG medical seats in private institutions.",
-  "featured_image": "https://cdn.dribbble.com/userupload/45512390/file/fc8b0ee28ceb8e8a356dbb375c50cb49.png?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/45529484/file/6f295f56a68052e51838f8f184c718b8.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
     "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
