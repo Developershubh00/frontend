@@ -10511,7 +10511,7 @@ export const blogPosts: BlogPost[] = [
   "title": "NEET PG 2025 Counselling Begins: Detailed Guide to All India and State Schedules",
   "slug": "neet-pg-2025-counselling-guide-all-india-state-schedules",
   "excerpt": "Complete guide to NEET PG 2025 counselling schedule covering All India Quota and State Quota rounds, registration timelines, choice filling deadlines, and admission procedures for postgraduate medical aspirants.",
-  "featured_image": "https://cdn.dribbble.com/userupload/45518790/file/4383306a547dec7f5bdee8a4cd4bb934.png?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/45529435/file/6d1fcd2db08709ad3eb0e1023c698eb3.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
     "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
@@ -10532,7 +10532,7 @@ export const blogPosts: BlogPost[] = [
     "Counselling Schedule",
     "Choice Filling"
   ],
-  "published_date": "2025-10-31",
+  "published_date": "2025-11-01",
   "read_time": 12,
   "meta_description": "Comprehensive guide to NEET PG 2025 counselling schedule with All India and State Quota timelines, registration deadlines, choice filling process, and admission procedures.",
   "sections": [
