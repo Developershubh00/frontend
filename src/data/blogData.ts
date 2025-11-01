@@ -10139,6 +10139,313 @@ export const blogPosts: BlogPost[] = [
       "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
     }
   ]
+},
+{
+  "id": 30,
+  "title": "Understanding NEET PG 2025 All India Counselling: Eligibility Explained, Categories, and Seat Allotment",
+  "slug": "understanding-neet-pg-2025-all-india-counselling-eligibility-categories-seat-allotment",
+  "excerpt": "Complete guide to NEET PG 2025 All India Quota counselling covering reservation categories, eligibility criteria, PWD horizontal reservation, and merit-based seat allotment process conducted by Medical Counselling Committee (MCC).",
+  "featured_image": "https://cdn.dribbble.com/userupload/45526999/file/57441b130bac9bd708efe5c33cfb10ab.png?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-purple-100 text-purple-800"
+  },
+  "tags": [
+    "NEET PG",
+    "All India Counselling",
+    "MCC Counselling",
+    "AIQ Counselling",
+    "Reservation Categories",
+    "Seat Allotment",
+    "PWD Reservation",
+    "Choice Filling"
+  ],
+  "published_date": "2025-11-01",
+  "read_time": 18,
+  "meta_description": "Learn about NEET PG 2025 All India Counselling process including reservation categories (GEN, OBC, SC, ST, EWS, PWD), eligibility criteria, and merit-based seat allotment methodology by MCC.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "The Medical Counselling Committee (MCC) conducts the All India Quota (AIQ) NEET PG counselling for 50% of seats in government medical colleges across India. The NEET PG 2025 counselling process involves category-based reservation, eligibility verification, and a systematic seat allotment procedure based on merit and preferences.\n\nThis detailed overview explains the reservation categories, eligibility criteria, and seat allotment methodology used by MCC for NEET PG 2025 All India Counselling, ensuring that aspirants understand how to approach the process strategically."
+    },
+    {
+      "id": "reservation-categories",
+      "type": "heading",
+      "title": "Reservation Categories in NEET PG 2025 All India Counselling",
+      "level": 2
+    },
+    {
+      "id": "reservation-categories-content",
+      "type": "paragraph",
+      "content": "The categories considered under NEET PG All India Counselling include:"
+    },
+    {
+      "id": "reservation-categories-list",
+      "type": "list",
+      "items": [
+        "General (GEN)",
+        "Other Backward Classes (OBC)",
+        "Scheduled Caste (SC)",
+        "Scheduled Tribe (ST)",
+        "Economically Weaker Section (EWS)",
+        "Persons with Disability (PWD)"
+      ]
+    },
+    {
+      "id": "category-selection-note",
+      "type": "paragraph",
+      "content": "During NEET PG examination registration, candidates must select their category carefully, as it determines their AIQ NEET PG counselling eligibility. Modifications can only be made during MCC NEET PG counselling registration, not after the exam."
+    },
+    {
+      "id": "category-eligibility",
+      "type": "heading",
+      "title": "Category-Based Eligibility for NEET PG Counselling",
+      "level": 2
+    },
+    {
+      "id": "category-eligibility-content",
+      "type": "paragraph",
+      "content": "Understanding category eligibility is crucial while applying through the MCC All India PG Counselling system:"
+    },
+    {
+      "id": "category-eligibility-list",
+      "type": "list",
+      "items": [
+        "General candidates: Eligible for General category seats only.",
+        "OBC candidates: Eligible for both OBC and General seats.",
+        "SC candidates: Eligible for SC and General seats.",
+        "ST candidates: Eligible for ST and General seats.",
+        "EWS candidates: Eligible for EWS and General seats.",
+        "PWD candidates: Eligible for 5% horizontal reservation within their respective categories as well as General seats."
+      ]
+    },
+    {
+      "id": "pwd-reservation",
+      "type": "heading",
+      "title": "PWD Reservation and Rules",
+      "level": 2
+    },
+    {
+      "id": "pwd-reservation-content",
+      "type": "paragraph",
+      "content": "In MCC NEET PG counselling, 5% of seats in each category are horizontally reserved for PWD candidates. For instance, if a college has 100 General seats, 5 of them are reserved for General-PWD candidates. The same applies for OBC-PWD, SC-PWD, ST-PWD, and EWS-PWD seats.\n\nPWD status can be updated from 'Yes' to 'No' (or vice versa) during MCC counselling registration, provided it was initially selected during the NEET PG examination registration."
+    },
+    {
+      "id": "reservation-percentages",
+      "type": "heading",
+      "title": "Reservation Percentages in All India Counselling",
+      "level": 2
+    },
+    {
+      "id": "reservation-percentages-content",
+      "type": "paragraph",
+      "content": "The seat matrix for NEET PG AIQ counselling follows this category-wise distribution:"
+    },
+    {
+      "id": "reservation-table",
+      "type": "table",
+      "headers": ["Category", "Reservation Percentage"],
+      "rows": [
+        ["General", "40.5%"],
+        ["EWS", "10%"],
+        ["OBC", "27%"],
+        ["SC", "15%"],
+        ["ST", "7.5%"]
+      ]
+    },
+    {
+      "id": "reservation-note",
+      "type": "paragraph",
+      "content": "These percentages apply to All India Counselling conducted by MCC. State-specific quotas may differ under state quota counselling, and candidates should verify the respective state reservation rules."
+    },
+    {
+      "id": "seat-allotment-process",
+      "type": "heading",
+      "title": "Seat Allotment Process in NEET PG Counselling",
+      "level": 2
+    },
+    {
+      "id": "seat-allotment-intro",
+      "type": "paragraph",
+      "content": "The seat allotment during MCC All India PG Counselling is merit-based and determined primarily by the candidate's All India Rank (AIR). The category rank only serves as a reference within the respective reservation group."
+    },
+    {
+      "id": "allotment-example",
+      "type": "heading",
+      "title": "Example of Allotment Order:",
+      "level": 3
+    },
+    {
+      "id": "allotment-example-list",
+      "type": "list",
+      "items": [
+        "OBC candidate (AIR 1)",
+        "SC candidate (AIR 2)",
+        "General candidate (AIR 3)",
+        "General candidate (AIR 4)",
+        "OBC candidate (AIR 5)"
+      ]
+    },
+    {
+      "id": "step-by-step",
+      "type": "heading",
+      "title": "Step-by-step allotment process:",
+      "level": 3
+    },
+    {
+      "id": "step-by-step-list",
+      "type": "list",
+      "items": [
+        "Candidate 1 (OBC): Eligible for OBC and General seats. The system prioritizes available General seats before moving to reserved ones.",
+        "Candidate 2 (SC): Eligible for SC and General. A General seat is allotted first.",
+        "Candidate 3 (General): Allotted next available seat as per preference and rank.",
+        "Candidate 4 (General): Allotted based on availability after higher ranks.",
+        "Candidate 5 (OBC): Allotted under OBC category if General seats are filled."
+      ]
+    },
+    {
+      "id": "allotment-conclusion",
+      "type": "paragraph",
+      "content": "This ensures that seat utilization is optimized during MCC NEET PG counselling, maintaining fairness and transparency in the counselling procedure for NEET PG."
+    },
+    {
+      "id": "important-points",
+      "type": "heading",
+      "title": "Important Points About NEET PG Counselling Process",
+      "level": 2
+    },
+    {
+      "id": "important-points-list",
+      "type": "list",
+      "items": [
+        "Category flexibility: Candidates from reserved categories can compete for General seats as well.",
+        "Horizontal reservation: PWD candidates receive 5% reservation across all categories.",
+        "Merit-based allotment: All India Rank dictates the allotment order.",
+        "State vs All India counselling: State quota counselling follows separate reservation policies.",
+        "Seat matrix and choice filling: Candidates must carefully review the NEET PG AIQ seat matrix before proceeding with choice filling in NEET PG rounds.",
+        "MCC registration: All eligible candidates must complete All India NEET PG counselling registration via the MCC official website within the specified NEET PG counselling schedule."
+      ]
+    },
+    {
+      "id": "choice-filling",
+      "type": "heading",
+      "title": "Choice Filling in NEET PG Counselling",
+      "level": 2
+    },
+    {
+      "id": "choice-filling-content",
+      "type": "paragraph",
+      "content": "During the MCC NEET PG counselling process, choice filling is one of the most critical stages. Candidates should:"
+    },
+    {
+      "id": "choice-filling-list",
+      "type": "list",
+      "items": [
+        "Prioritize colleges based on rank, category, and location.",
+        "Cross-check seat availability using the AIQ NEET PG seat matrix.",
+        "Fill and lock choices before the deadline as per the schedule of NEET PG counselling.",
+        "Be strategic — include both aspirational and safe options."
+      ]
+    },
+    {
+      "id": "choice-filling-note",
+      "type": "paragraph",
+      "content": "A well-planned choice filling strategy for NEET PG can significantly impact final seat allotment outcomes."
+    },
+    {
+      "id": "counselling-schedule",
+      "type": "heading",
+      "title": "MCC NEET PG Counselling Schedule and Rounds",
+      "level": 2
+    },
+    {
+      "id": "counselling-schedule-content",
+      "type": "paragraph",
+      "content": "The MCC NEET PG counselling schedule usually comprises multiple rounds:"
+    },
+    {
+      "id": "counselling-schedule-list",
+      "type": "list",
+      "items": [
+        "Round 1: Initial registration, fee payment, and choice filling.",
+        "Round 2: Fresh registration (if applicable) and new choice submission.",
+        "Mop-up Round: Conducted for vacant seats after Round 2.",
+        "Stray Vacancy Round: Final round for unfilled AIQ seats."
+      ]
+    },
+    {
+      "id": "counselling-schedule-note",
+      "type": "paragraph",
+      "content": "Each stage follows a strict NEET PG counselling schedule published by MCC. Candidates must regularly check the official MCC portal for updates."
+    },
+    {
+      "id": "career-counselling",
+      "type": "heading",
+      "title": "Career Counselling and Guidance for NEET PG Aspirants",
+      "level": 2
+    },
+    {
+      "id": "career-counselling-content",
+      "type": "paragraph",
+      "content": "Understanding the counselling procedure for NEET PG is only one part of the process. Equally important is career counselling for NEET PG aspirants to make informed specialty choices aligned with long-term goals.\n\nProfessional NEET PG career counselling services can guide students in choosing suitable branches, comparing programs, and analyzing past allotment trends."
+    },
+    {
+      "id": "conclusion",
+      "type": "heading",
+      "title": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "conclusion-content",
+      "type": "paragraph",
+      "content": "The NEET PG 2025 All India Counselling process, organized by MCC, ensures a structured, merit-based, and transparent allocation of postgraduate medical seats across India. Candidates should carefully follow the MCC NEET PG counselling schedule, understand their category-based eligibility, and plan choice filling strategically.\n\nBy staying informed about the seat matrix, allotment process, and variations in state quota counselling, aspirants can confidently apply for NEET PG counselling and maximize their chances of securing their desired seat.\n\nSuccess in All India NEET PG counselling depends on preparation, precision, and smart decision-making, the foundation of a promising medical career."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "Frequently Asked Questions (FAQs)",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1: What categories are eligible in NEET PG 2025 AIQ counselling?",
+          "answer": "A: General (40.5%), OBC (27%), SC (15%), ST (7.5%), EWS (10%), PWD (5% horizontal across all categories). The category selected during exam registration determines eligibility; changes permitted only during MCC counselling for those registered under reserved categories."
+        },
+        {
+          "question": "Q2: Can reserved category candidates apply for General seats?",
+          "answer": "A: Yes. OBC/SC/ST/EWS candidates are eligible for both their category seats and General seats. General seats are allotted first per MCC protocol if the candidate qualifies for both. PWD candidates get 5% horizontal reservation within each category."
+        },
+        {
+          "question": "Q3: How does seat allotment work in AIQ?",
+          "answer": "A: Allotment follows All India Rank order sequentially. Category rank is a reference only. Candidate is allotted seat from first available option in order: General (if eligible) → category seats (if eligible) → next preference. All India Rank determines allotment sequence, not category rank."
+        },
+        {
+          "question": "Q4: What happens if a General seat is unavailable?",
+          "answer": "A: System checks the candidate's eligibility for reserved category seats per preferences filled. If no seats are available for that choice, the system moves to next preference choice in filing order. Candidates must fill diverse specialty choices across categories."
+        },
+        {
+          "question": "Q5: Should I filter only my category or include the General category?",
+          "answer": "A: Filter both your category AND the General category during choice filling. Many reserved category candidates secure General seats due to a better rank. Filtering only the category may cause you to miss qualified options within the General category seats."
+        }
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    }
+  ]
 }
 
 ];
