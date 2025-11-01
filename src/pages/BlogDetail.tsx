@@ -1507,16 +1507,16 @@ const highlightKeywords = (text: string, keywords: string[]): React.ReactNode =>
         );
         
         if (isKeyword) {
-          return (
-            <mark
-              key={index}
-              className="bg-yellow-200 text-gray-900 px-1 rounded font-medium transition-colors hover:bg-yellow-300"
-              title="Highlighted keyword"
-            >
-              {part}
-            </mark>
-          );
-        }
+  return (
+    <span
+      key={index}
+      className="font-bold text-gray-900"
+      title="Highlighted keyword"
+    >
+      {part}
+    </span>
+  );
+}
         
         return <React.Fragment key={index}>{part}</React.Fragment>;
       })}
