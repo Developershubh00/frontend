@@ -10133,6 +10133,36 @@ export const blogPosts: BlogPost[] = [
       ]
     },
     {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "NEET PG Counselling",
+  "NEET PG 2025 All India Counselling",
+  "NEET PG All India Counselling",
+  "NEET PG Counselling Schedule",
+  "MCC NEET PG Counselling",
+  "AIQ NEET PG Counselling",
+  "All India NEET PG Counselling",
+  "All India NEET PG Counselling Registration",
+  "All India NEET PG Counselling Schedule",
+  "Apply for NEET PG Counselling",
+  "Career Counselling NEET PG",
+  "Choice Filling in NEET PG",
+  "Choice Filling NEET PG",
+  "Counselling for NEET PG",
+  "Counselling Procedure for NEET PG",
+  "MCC Counselling NEET PG",
+  "MCC All India PG Counselling",
+  "MCC NEET PG Counselling",
+  "State Quota Counselling",
+  "NEET PG AIQ Seat Matrix",
+  "NEET PG Allotment",
+  "NEET PG Career Counselling",
+  "Schedule of NEET PG Counselling"
+      ]
+    },
+    {
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
@@ -10437,6 +10467,342 @@ export const blogPosts: BlogPost[] = [
           "question": "Q5: Should I filter only my category or include the General category?",
           "answer": "A: Filter both your category AND the General category during choice filling. Many reserved category candidates secure General seats due to a better rank. Filtering only the category may cause you to miss qualified options within the General category seats."
         }
+      ]
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "NEET PG Counselling",
+  "NEET PG 2025 All India Counselling",
+  "NEET PG All India Counselling",
+  "NEET PG Counselling Schedule",
+  "MCC NEET PG Counselling",
+  "AIQ NEET PG Counselling",
+  "All India NEET PG Counselling",
+  "All India NEET PG Counselling Registration",
+  "All India NEET PG Counselling Schedule",
+  "Apply for NEET PG Counselling",
+  "Career Counselling NEET PG",
+  "Choice Filling in NEET PG",
+  "Choice Filling NEET PG",
+  "Counselling for NEET PG",
+  "Counselling Procedure for NEET PG",
+  "MCC Counselling NEET PG",
+  "MCC All India PG Counselling",
+  "State Quota Counselling",
+  "NEET PG AIQ Seat Matrix",
+  "NEET PG Allotment",
+  "NEET PG Career Counselling",
+  "Schedule of NEET PG Counselling"
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    }
+  ]
+},
+{
+  "id": 31,
+  "title": "NEET PG 2025 Counselling Begins: Detailed Guide to All India and State Schedules",
+  "slug": "neet-pg-2025-counselling-guide-all-india-state-schedules",
+  "excerpt": "Complete guide to NEET PG 2025 counselling schedule covering All India Quota and State Quota rounds, registration timelines, choice filling deadlines, and admission procedures for postgraduate medical aspirants.",
+  "featured_image": "https://cdn.dribbble.com/userupload/45518790/file/4383306a547dec7f5bdee8a4cd4bb934.png?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-purple-100 text-purple-800"
+  },
+  "tags": [
+    "NEET PG",
+    "NEET PG Counselling",
+    "All India Quota",
+    "State Quota",
+    "MCC Counselling",
+    "NEET PG 2025",
+    "Counselling Schedule",
+    "Choice Filling"
+  ],
+  "published_date": "2025-10-31",
+  "read_time": 12,
+  "meta_description": "Comprehensive guide to NEET PG 2025 counselling schedule with All India and State Quota timelines, registration deadlines, choice filling process, and admission procedures.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "The counselling phase encompasses multiple coordinated rounds combining All India Quota and State Quota admissions across government and private medical institutions. With NEET PG counselling registration now open, and the official choice-filling in the NEET PG schedule released. This marks the start of one of the most crucial stages for postgraduate medical aspirants across India, the NEET PG counselling allotment phase.\n\nUnderstanding the NEET PG counselling procedure, timelines, and differences between All India (AIQ NEET PG counselling) and State Quota rounds is essential to make informed decisions and avoid last-minute confusion.\n\nThis blog provides a simplified yet detailed guide on the NEET PG counselling schedule, the counselling procedure for NEET PG, and important deadlines for every round, helping you plan smartly and secure your dream postgraduate seat."
+    },
+    {
+      "id": "breaking-down",
+      "type": "heading",
+      "title": "Breaking Down the All-India and State Counselling Process",
+      "level": 2
+    },
+    {
+      "id": "understanding-schedule",
+      "type": "heading",
+      "title": "1. Understanding the All India vs State Counselling Schedule",
+      "level": 3
+    },
+    {
+      "id": "understanding-schedule-content",
+      "type": "paragraph",
+      "content": "The All India vs State Counselling Schedule, often referred to as the NMC NEET PG counselling timeline, ensures smooth coordination between All India Quota (AIQ) and NEET PG state counselling processes.\n\nThis structure allows candidates to move freely between AIQ NEET PG counselling and NEET PG counselling state quota rounds without losing eligibility.\n\nBasic Flow of the Counselling Process:"
+    },
+    {
+      "id": "counselling-flow",
+      "type": "list",
+      "items": [
+        "All India Round 1",
+        "State Round 1",
+        "All India Round 2",
+        "State Round 2",
+        "All India Round 3",
+        "State Round 3"
+      ]
+    },
+    {
+      "id": "counselling-flow-note",
+      "type": "paragraph",
+      "content": "These rounds run in parallel; MCC counselling NEET PG results are declared first, followed by the corresponding state counselling rounds. This synchronized pattern helps candidates compare their NEET PG counselling allotment results before the next phase begins."
+    },
+    {
+      "id": "key-dates-round1",
+      "type": "heading",
+      "title": "2. Key Dates for All India (AIQ) NEET PG Counselling Round 1",
+      "level": 3
+    },
+    {
+      "id": "key-dates-list",
+      "type": "list",
+      "items": [
+        "Registration Start Date: 17th October 2025",
+        "Last Date to Register: 5th November 2025 (till 12 noon)",
+        "Fee Payment Deadline: 5th November 2025 (till 3 PM)"
+      ]
+    },
+    {
+      "id": "registration-advice",
+      "type": "paragraph",
+      "content": "Candidates should apply for NEET PG counselling early to avoid last-minute technical issues.\n\nChoice Filling and Locking Timeline:"
+    },
+    {
+      "id": "choice-filling-timeline",
+      "type": "list",
+      "items": [
+        "Choice filling remains open until 11:55 PM on 5th November",
+        "Choice locking starts at 4 PM on 5th November",
+        "System auto-locks choices post-deadline if not manually submitted"
+      ]
+    },
+    {
+      "id": "pro-tip",
+      "type": "paragraph",
+      "content": "Pro tip: Lock your NEET PG counselling choice filling before 11 PM to prevent system errors.\n\nResult Publication:"
+    },
+    {
+      "id": "result-publication",
+      "type": "list",
+      "items": [
+        "6th–7th November: Processing of NEET PG counselling allotment",
+        "7th or 8th November: Provisional result publication",
+        "8th November: Final result declaration after corrections"
+      ]
+    },
+    {
+      "id": "admission-reporting",
+      "type": "heading",
+      "title": "3. Admission and Reporting Process",
+      "level": 3
+    },
+    {
+      "id": "admission-reporting-content",
+      "type": "paragraph",
+      "content": "Once the Round 1 allotment is released, candidates must report to their allotted institute between 9th–15th November 2025.\n\nThe NEET PG counselling procedure for reporting includes:"
+    },
+    {
+      "id": "reporting-steps",
+      "type": "list",
+      "items": [
+        "Submitting original certificates and documents",
+        "Paying the institute's admission fee (via NEFT/RTGS/online)",
+        "Receiving the official admission letter post-verification"
+      ]
+    },
+    {
+      "id": "reporting-advice",
+      "type": "paragraph",
+      "content": "It's recommended to report 1–2 days before the deadline to avoid last-minute issues. Institutions will then verify data with the MCC PG medical counselling portal to confirm admissions."
+    },
+    {
+      "id": "course-commencement",
+      "type": "heading",
+      "title": "4. Course Commencement Timeline",
+      "level": 3
+    },
+    {
+      "id": "course-commencement-content",
+      "type": "paragraph",
+      "content": "Course commencement is scheduled for December 8, 2025, following completion of All India Round 2 allotments, regardless of Round 1 reporting date.\n\nNo student can be forced to join before this date. The NEET PG counselling schedule ensures academic sessions begin uniformly across the country."
+    },
+    {
+      "id": "interlinking",
+      "type": "heading",
+      "title": "5. Interlinking of All India and State Counsellings",
+      "level": 3
+    },
+    {
+      "id": "interlinking-content",
+      "type": "paragraph",
+      "content": "Both All India and State counselling rounds are closely interlinked, allowing flexibility for candidates to switch between AIQ NEET PG counselling and NEET PG counselling state quota seats.\n\nExample Timeline:"
+    },
+    {
+      "id": "interlinking-timeline",
+      "type": "list",
+      "items": [
+        "All India Round 1 results on 8th November → Reporting till 15th November",
+        "State Round 1 choice filling between 6th–10th November → Results around 14th–15th November"
+      ]
+    },
+    {
+      "id": "interlinking-note",
+      "type": "paragraph",
+      "content": "Candidates may resign from All India Round 1 allocations through November 18 to transition to State Quota seats allocated by November 15, subject to MCC-specified procedures."
+    },
+    {
+      "id": "expected-timeline",
+      "type": "heading",
+      "title": "6. Expected Timeline for All Counselling Rounds",
+      "level": 3
+    },
+    {
+      "id": "timeline-table",
+      "type": "table",
+      "headers": ["Round", "Event", "Tentative Dates"],
+      "rows": [
+        ["All India Round 1", "Registration & Choice Filling", "17 Oct – 5 Nov 2025"],
+        ["", "Result Publication", "8 Nov 2025"],
+        ["", "Reporting", "9 – 15 Nov 2025"],
+        ["State Round 1", "Registration & Choice Filling", "6 – 10 Nov 2025"],
+        ["", "Result Publication", "14 – 15 Nov 2025"],
+        ["", "Reporting", "Till 20 Nov 2025"],
+        ["All India Round 2", "Choice Filling Begins", "19 Nov 2025"],
+        ["", "Course Commencement", "8 Dec 2025"],
+        ["State Round 2", "", "December 2025"],
+        ["Round 3 & Stray Vacancies", "", "Till Mid-January 2026"]
+      ]
+    },
+    {
+      "id": "timeline-conclusion",
+      "type": "paragraph",
+      "content": "By January 2026, the entire NEET PG counselling 2025 process, including stray rounds, will be complete."
+    },
+    {
+      "id": "dnb-counselling",
+      "type": "heading",
+      "title": "7. DNB and NBE Diploma Counselling",
+      "level": 3
+    },
+    {
+      "id": "dnb-counselling-content",
+      "type": "paragraph",
+      "content": "The MCC counselling PG process also covers DNB and NBE Diploma seats.\n\nWhile the schedule aligns with AIQ NEET PG counselling, DNB courses often begin slightly later, once the NEET PG 3rd round counselling and stray vacancy processes conclude.\n\nAll admissions are managed through the official online reporting and OPJR system under the MCC PG medical counselling portal."
+    },
+    {
+      "id": "final-advice",
+      "type": "heading",
+      "title": "8. Final Advice for NEET PG Aspirants",
+      "level": 3
+    },
+    {
+      "id": "final-advice-list",
+      "type": "list",
+      "items": [
+        "Register early: Begin your NEET PG counselling application as soon as the portal opens.",
+        "Plan: Don't wait for the last minute for choice filling in NEET PG.",
+        "Keep documents ready: Ensure originals and photocopies are verified beforehand.",
+        "Stay informed: Check the MCC counselling NEET PG and state websites for updates.",
+        "Manage time: Maintain a 1–2 day buffer for every round of NEET PG 2025 counselling.",
+        "Monitor transitions: Keep track of both AIQ and State timelines for smooth switching between rounds."
+      ]
+    },
+    {
+      "id": "conclusion",
+      "type": "heading",
+      "title": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "conclusion-content",
+      "type": "paragraph",
+      "content": "The NEET PG 2025 counselling schedule, from AIQ NEET PG counselling to State Quota rounds, has been strategically designed by the NMC to allow transparent and efficient seat allocation.\n\nBy understanding the NEET PG counselling procedure, completing NEET PG counselling registration on time, and planning each choice filling phase carefully, you can confidently navigate through Round 1, Round 2, and even the NEET PG 3rd round counselling.\n\nThis is the final step toward your postgraduate medical dream — stay organized, stay informed, and make every decision strategically to secure your ideal seat in PG medical counselling 2025."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "Frequently Asked Questions (FAQs)",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1: When does NEET PG 2025 counselling registration start and end?",
+          "answer": "A: All India Round 1 registration: October 17 - November 5, 2025 (12 noon). Fee payment: by 3 PM on Nov 5. Choice filling: until 11:55 PM Nov 5 (auto-locks post-deadline). Results: November 8, 2025."
+        },
+        {
+          "question": "Q2: What is the reporting timeline for Round 1?",
+          "answer": "A: Reporting to allotted institute: November 9-15, 2025. Submit originals, pay fee through NEFT/RTGS/online banking. No candidate can join before December 8, 2025, when course commencement begins."
+        },
+        {
+          "question": "Q3: Can I move between All India and State counselling?",
+          "answer": "A: Yes. All India Round 1 results (Nov 8) → State Round 1 results (Nov 14-15). If you get a better State seat by Nov 15, you can resign All India seat before Round 2 begins Nov 19. State typically joins by Nov 20."
+        },
+        {
+          "question": "Q4: When do courses actually start?",
+          "answer": "A: December 8, 2025, is the official course commencement date (after Round 2 completion). All institutions must follow this date; no student can join earlier. Round 1 reporting is administrative joining only."
+        },
+        {
+          "question": "Q5: What is the complete counselling timeline?",
+          "answer": "A: Round 1: Nov 8 results. Round 2: Begins Nov 19 (Dec 8 course start). Round 3: Till late December. Stray: Till mid-January 2026. Entire process concludes by January 2026."
+        }
+      ]
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+          "NEET PG Counselling Registration",
+  "NEET PG Counselling",
+  "NEET PG Counselling Procedure",
+  "AIQ NEET PG Counselling",
+  "NEET PG Counselling Schedule",
+  "Counselling Procedure for NEET PG",
+  "NEET PG State Counselling",
+  "NEET PG Counselling State Quota",
+  "MCC Counselling NEET PG",
+  "NEET PG Counselling Allotment",
+  "Apply for NEET PG Counselling",
+  "NEET PG Counselling Choice Filling",
+  "MCC PG Medical Counselling",
+  "MCC Counselling PG",
+  "NEET PG 3rd Round Counselling",
+  "NEET PG Counselling Application",
+  "Choice Filling in NEET PG",
+  "NEET PG 2025 Counselling",
+  "PG Medical Counselling 2025",
+  "NEET PG Counselling 2025"
       ]
     },
     {
