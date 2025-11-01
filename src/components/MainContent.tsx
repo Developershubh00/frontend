@@ -512,7 +512,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
           </a>
         </div>
 
-        <div className="text-center mb-6 lg:mb-8">
+        <div className="text-center mb-4 lg:mb-6">
   <a
     href="https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/10/202510282088194740.pdf"
     target="_blank"
@@ -523,7 +523,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
   </a>
 </div>
 
-<div className="text-center mb-6 lg:mb-8">
+<div className="text-center mb-4 lg:mb-6">
   <a
     href="https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/10/20251028847832917.pdf"
     target="_blank"
