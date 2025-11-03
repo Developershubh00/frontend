@@ -10812,6 +10812,292 @@ export const blogPosts: BlogPost[] = [
       "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
     }
   ]
+},
+{
+  "id": 32,
+  "title": "NEET PG 2025: Updated Rules and Certification Process for PWD Candidates",
+  "slug": "neet-pg-2025-updated-rules-certification-process-pwd-candidates",
+  "excerpt": "Get the latest updates on NEET PG 2025 rules and certification process for PWD candidates including eligibility, documents, and official verification guidelines.",
+  "featured_image": "https://cdn.dribbble.com/userupload/45552955/file/2a073a0e87cb4be4181a8bd8c885f2d9.png?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-purple-100 text-purple-800"
+  },
+  "tags": ["NEET PG", "PWD Candidates", "Disability Certification", "MCC Guidelines", "UDID Card", "Medical Counselling", "All India Quota", "State Quota", "Supreme Court Directive"],
+  "published_date": "2025-11-03",
+  "read_time": 12,
+  "meta_description": "Get the latest updates on NEET PG 2025 rules and certification process for PWD candidates including eligibility, documents, and official verification guidelines.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "MCC issued interim guidelines on October 17, 2025, for PwBD candidate assessment in postgraduate admissions pursuant to the Supreme Court directive (Om Rathod v. Union of India, October 25, 2024) and NMC guidelines. Revised procedures standardize disability evaluation across designated MCC disability centers using UDID card verification and functional competency assessment per NMC interim guidelines.\n\nThis overview addresses MCC-administered PwBD certification procedures, mandatory documentation, and disability center evaluation protocols for NEET PG 2025 All India Quota admissions."
+    },
+    {
+      "id": "understanding-basis",
+      "type": "heading",
+      "title": "Understanding the Basis of the New PWD Guidelines",
+      "level": 2
+    },
+    {
+      "id": "background",
+      "type": "heading",
+      "title": "1. Background: Why the Change Was Needed",
+      "level": 3
+    },
+    {
+      "id": "background-content",
+      "type": "paragraph",
+      "content": "Supreme Court judgment dated October 25, 2024, in Om Rathod and connected matters directed the National Medical Commission to implement a uniform disability assessment methodology. This ruling addressed long-standing inconsistencies in disability assessments during medical PG counselling and All India medical counselling.\n\nPreviously, disability was evaluated differently at various centers, leading to confusion and lack of standardization. The Supreme Court directed the National Medical Commission (NMC) to implement a uniform assessment system to ensure fairness during both All India Quota (AIQ) NEET PG counselling and State Quota counselling.\n\nWhile the detailed specialty-wise guidelines are being finalized, interim rules are currently applicable for NEET PG 2025 counselling."
+    },
+    {
+      "id": "overview-process",
+      "type": "heading",
+      "title": "2. Overview of the Current PWD Process",
+      "level": 3
+    },
+    {
+      "id": "overview-process-content",
+      "type": "paragraph",
+      "content": "As per the latest MCC NEET PG notification, all PWD candidates must hold a valid UDID (Unique Disability ID) card issued by the Department of Empowerment of Persons with Disabilities. This UDID card now serves as the primary proof of disability for both All India counselling and State Quota counselling.\n\nCandidates no longer need to undergo separate disability assessments at medical colleges, as in previous years. However, verification at an authorized disability center remains mandatory for certificate generation under the MCC NEET PG counselling process."
+    },
+    {
+      "id": "steps-obtain",
+      "type": "heading",
+      "title": "3. Steps to Obtain the PWD Certificate for NEET PG 2025",
+      "level": 3
+    },
+    {
+      "id": "step-1",
+      "type": "heading",
+      "title": "Step 1: Locate and Schedule an Appointment",
+      "level": 4
+    },
+    {
+      "id": "step-1-content",
+      "type": "paragraph",
+      "content": "There are 33 recognized disability centers across India for the All India medical counselling PG process. Candidates should locate their nearest center through the MCC NEET PG portal, schedule an appointment, and confirm by phone.\n\nSince evaluation may take 2–3 days, depending on the type of disability, plan your visit well before the NEET PG counselling schedule begins."
+    },
+    {
+      "id": "step-2",
+      "type": "heading",
+      "title": "Step 2: Carry the Required Documents",
+      "level": 4
+    },
+    {
+      "id": "step-2-content",
+      "type": "paragraph",
+      "content": "Bring the following documents to the disability center:"
+    },
+    {
+      "id": "step-2-list",
+      "type": "list",
+      "items": [
+        "NEET PG 2025 result card (proof of qualification)",
+        "Valid UDID card",
+        "Self-Certification Form (Appendix A)",
+        "Disability-specific affidavit (Appendix B–F as applicable)",
+        "Supporting disability assessment reports (optional but helpful)"
+      ]
+    },
+    {
+      "id": "step-2-verification",
+      "type": "paragraph",
+      "content": "The center will verify these and generate your PWD certificate online via the MCC NEET PG portal."
+    },
+    {
+      "id": "step-3",
+      "type": "heading",
+      "title": "Step 3: Complete Self-Certification and Affidavits",
+      "level": 4
+    },
+    {
+      "id": "step-3-content",
+      "type": "paragraph",
+      "content": "Two key documents are mandatory:"
+    },
+    {
+      "id": "step-3-list",
+      "type": "list",
+      "items": [
+        "Self-Certification Form (Appendix A) — declaring your disability type, UDID number, and functional abilities (communication, mobility, etc.).",
+        "Disability-Specific Affidavit (Appendix B–F) — depending on whether you have hearing, locomotor, visual, cognitive, or multiple disabilities."
+      ]
+    },
+    {
+      "id": "step-3-notarization",
+      "type": "paragraph",
+      "content": "Self-certification and disability-specific affidavits require notarization on stamp paper per MCC specifications."
+    },
+    {
+      "id": "disability-center",
+      "type": "heading",
+      "title": "4. What Happens at the Disability Center",
+      "level": 3
+    },
+    {
+      "id": "disability-center-content",
+      "type": "paragraph",
+      "content": "Disability centers access MCC portal to log candidate details, conduct functional competency verification, generate online certificates, and issue printed documentation."
+    },
+    {
+      "id": "disability-center-list",
+      "type": "list",
+      "items": [
+        "After verification, your PWD certificate will be generated online and provided as a printed copy.",
+        "The disability percentage from your UDID will be used unless incomplete or inconsistent.",
+        "Functional competency assessment evaluates candidate's capacity to perform essential postgraduate medical course requirements per NMC interim guidelines."
+      ]
+    },
+    {
+      "id": "disability-center-note",
+      "type": "paragraph",
+      "content": "This ensures transparency and consistency in the counselling process of NEET PG for PWD candidates."
+    },
+    {
+      "id": "applicability",
+      "type": "heading",
+      "title": "5. Applicability: All India and State Counselling",
+      "level": 3
+    },
+    {
+      "id": "applicability-content",
+      "type": "paragraph",
+      "content": "This process applies to candidates participating in:"
+    },
+    {
+      "id": "applicability-list",
+      "type": "list",
+      "items": [
+        "All India Quota (AIQ NEET PG counselling)",
+        "DNB/MD/MS diploma counselling under the PWD category"
+      ]
+    },
+    {
+      "id": "applicability-state",
+      "type": "paragraph",
+      "content": "State Quota admissions may accept MCC-issued certificates or require additional state-level medical board evaluation per respective state regulations, as per local rules. Always verify through your state counselling authority before proceeding."
+    },
+    {
+      "id": "important-tips",
+      "type": "heading",
+      "title": "6. Important Tips for PWD Candidates",
+      "level": 3
+    },
+    {
+      "id": "important-tips-content",
+      "type": "paragraph",
+      "content": "To ensure a smooth NEET PG counselling experience:"
+    },
+    {
+      "id": "important-tips-list",
+      "type": "list",
+      "items": [
+        "Early appointment scheduling at designated disability centers and submission of complete original and duplicate documentation prevent processing delays.",
+        "Ensure your UDID card is valid and up to date.",
+        "Notarize all affidavits correctly.",
+        "Keep digital and physical copies of your issued certificate for both All India counselling medical and State counselling rounds."
+      ]
+    },
+    {
+      "id": "important-tips-note",
+      "type": "paragraph",
+      "content": "Following these steps helps avoid last-minute complications in the counselling procedure for NEET PG."
+    },
+    {
+      "id": "larger-impact",
+      "type": "heading",
+      "title": "7. The Larger Impact of the Supreme Court Judgment",
+      "level": 3
+    },
+    {
+      "id": "larger-impact-content",
+      "type": "paragraph",
+      "content": "The Supreme Court judgment ensures that PWD candidates receive equitable treatment during medical PG counselling. It reinforces that disability is not a limitation but an attribute that requires fair accommodation through structured evaluation.\n\nThis uniform process, backed by MCC NEET PG and All India medical counselling PG protocols, upholds the principles of inclusivity and equal opportunity — vital pillars of medical education reform in India."
+    },
+    {
+      "id": "conclusion",
+      "type": "heading",
+      "title": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "conclusion-content",
+      "type": "paragraph",
+      "content": "The revised PWD certification process for NEET PG 2025 represents a major step toward fairness and inclusivity in postgraduate medical education. With the UDID card serving as the core identity proof and a clearly defined All India counselling process, PWD candidates can now proceed confidently through both All India and State counselling systems.\n\nAs the NEET PG counselling schedule unfolds, candidates are encouraged to complete their certification early and understand each step of the career counselling NEET PG process to ensure seamless participation in the upcoming admission rounds."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "Frequently Asked Questions (FAQs)",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1: What is the new PWD process for NEET PG 2025?",
+          "answer": "A: MCC issued interim guidelines (Oct 17, 2025) per Supreme Court directive requiring UDID card + self-certification affidavits submitted at 33 designated disability centers. Only candidates with MCC-issued disability certificates see PwBD choices in counselling."
+        },
+        {
+          "question": "Q2: What documents are mandatory for disability center submission?",
+          "answer": "A: NEET PG 2025 result card, valid UDID card, Self-Certification Form (Appendix A), disability-specific affidavit (Appendix B-F per disability type). All affidavits must be notarized on stamp paper."
+        },
+        {
+          "question": "Q3: How long does disability center evaluation take?",
+          "answer": "A: 2-3 days, depending on disability type. Schedule an appointment early at the nearest center from 33 designated MCC centers. Center will verify documents, assess functional competencies, and generate an online certificate through the MCC portal."
+        },
+        {
+          "question": "Q4: Is the disability certificate valid for state counselling?",
+          "answer": "A: For All India Quota: Yes, MCC-issued certificate mandatory. For State Quota: Some states accept it; others require a separate state medical board evaluation. Check with your state counselling authority directly."
+        },
+        {
+          "question": "Q5: What if I have multiple disabilities?",
+          "answer": "A: Submit general self-certification (Appendix A) + affidavits for each disability category (Appendix B-F). The board assesses all disabilities together during the functional competency evaluation. Certificate covers all documented disabilities."
+        }
+      ]
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "NEET PG counselling registration",
+        "NEET PG counselling",
+        "NEET PG counselling procedure",
+        "AIQ NEET PG counselling",
+        "NEET PG counselling schedule",
+        "counselling procedure for NEET PG",
+        "NEET PG state counselling",
+        "NEET PG counselling state quota",
+        "MCC counselling NEET PG",
+        "NEET PG counselling allotment",
+        "apply for NEET PG counselling",
+        "NEET PG counselling choice filling",
+        "MCC PG medical counselling",
+        "MCC counselling PG",
+        "NEET PG 3rd round counselling",
+        "NEET PG counselling application",
+        "choice filling in NEET PG",
+        "NEET PG 2025 counselling",
+        "PG medical counselling 2025",
+        "neet pg counselling 2025"
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    }
+  ]
 }
 
 ];
