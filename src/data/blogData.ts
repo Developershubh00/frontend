@@ -52,7 +52,7 @@ export const blogPosts: BlogPost[] = [
     featured_image: "https://cdn.dribbble.com/userupload/45458725/file/444c433cbdc94b76a1601922220e34f0.png?w=1200&h=600&fit=crop",
     author: {
       name: "Believers Team",
-      avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+      avatar: "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
       bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
     },
     category: {
@@ -371,7 +371,7 @@ export const blogPosts: BlogPost[] = [
     featured_image: "https://cdn.dribbble.com/userupload/45458729/file/44c8520b073e4a610810b0ce4e330e30.png?w=1200&h=600&fit=crop",
     author: {
       name: "Believers Team",
-      avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+      avatar: "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
       bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
     },
     category: {
@@ -611,7 +611,7 @@ export const blogPosts: BlogPost[] = [
     featured_image: "https://cdn.dribbble.com/userupload/45458731/file/6df69d40f8518ecf354089d98b68c71d.png?w=1200&h=600&fit=crop",
     author: {
       name: "Believers Team",
-      avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+      avatar: "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
       bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
     },
     category: {
@@ -1015,7 +1015,7 @@ export const blogPosts: BlogPost[] = [
     featured_image: "https://cdn.dribbble.com/userupload/45458728/file/7403166cb1208efded4f41800d64000e.png?w=1200&h=600&fit=crop",
     author: {
       name: "Believers Team",
-      avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+      avatar: "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
       bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
     },
     category: {
@@ -1335,7 +1335,7 @@ export const blogPosts: BlogPost[] = [
     featured_image: "https://cdn.dribbble.com/userupload/45458726/file/fa3c0c0277890dca9ae8d638e6f79899.png?w=1200&h=600&fit=crop",
     author: {
       name: "Believers Team",
-      avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+      avatar: "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
       bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
     },
     category: {
@@ -1660,7 +1660,7 @@ export const blogPosts: BlogPost[] = [
   "featured_image": "https://cdn.dribbble.com/userupload/45457553/file/af06182d4c847f7bf1d03f905c51b7d7.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
-    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
     "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
   "category": {
@@ -1985,7 +1985,7 @@ export const blogPosts: BlogPost[] = [
   featured_image: "https://cdn.dribbble.com/userupload/45488653/file/3d61def9920690366538b13113f9935d.png?w=1200&h=600&fit=crop",
   author: {
     name: "Believers Team",
-    avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    avatar: "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
     bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
   category: {
@@ -2337,7 +2337,7 @@ export const blogPosts: BlogPost[] = [
   featured_image: "https://cdn.dribbble.com/userupload/45458724/file/7df04b898a96cdc00338e79ec106d470.png?w=1200&h=600&fit=crop",
   author: {
     name: "Believers Team",
-    avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    avatar: "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
     bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
   category: {
@@ -2895,7 +2895,7 @@ export const blogPosts: BlogPost[] = [
   "featured_image": "https://cdn.dribbble.com/userupload/45442254/file/3d063a3b6331239048d45b0f06c97aef.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
-    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
     "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
   "category": {
@@ -3237,7 +3237,7 @@ export const blogPosts: BlogPost[] = [
   "featured_image": "https://cdn.dribbble.com/userupload/45442252/file/2c0b92727c04261c5752acdffd46e931.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
-    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
     "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
   "category": {
@@ -3751,7 +3751,7 @@ export const blogPosts: BlogPost[] = [
   featured_image: "https://cdn.dribbble.com/userupload/45458723/file/c0b5e1696149ff2c94140514ecff897a.png?w=1200&h=600&fit=crop",
   author: {
     name: "Believers Team",
-    avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    avatar: "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
     bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
   category: {
@@ -4169,7 +4169,7 @@ export const blogPosts: BlogPost[] = [
   featured_image: "https://cdn.dribbble.com/userupload/45458730/file/80ae22ee4b8b214ffc1f071ce2b0837f.png?w=1200&h=600&fit=crop",
   author: {
     name: "Believers Team",
-    avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    avatar: "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
     bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
   category: {
@@ -4556,7 +4556,7 @@ export const blogPosts: BlogPost[] = [
   featured_image: "https://cdn.dribbble.com/userupload/45458722/file/c211e2f578e8b15c1b35fa34eca53ef0.png?w=1200&h=600&fit=crop",
   author: {
     name: "Believers Team",
-    avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    avatar: "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
     bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
   category: {
@@ -4892,7 +4892,7 @@ export const blogPosts: BlogPost[] = [
   featured_image: "https://cdn.dribbble.com/userupload/45458727/file/528c6965ec8baf6f969f4d1ed12f67ea.png?w=1200&h=600&fit=crop",
   author: {
     name: "Believers Team",
-    avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    avatar: "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
     bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
   category: {
@@ -5207,7 +5207,7 @@ export const blogPosts: BlogPost[] = [
   featured_image: "https://cdn.dribbble.com/userupload/45458733/file/ac8d0c63a75d6bacdce3bd4eaea0c9e2.png?w=1200&h=600&fit=crop",
   author: {
     name: "Believers Team",
-    avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    avatar: "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
     bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
   category: {
@@ -5436,7 +5436,7 @@ export const blogPosts: BlogPost[] = [
   "featured_image": "https://cdn.dribbble.com/userupload/45488651/file/1fafc6270b69e17a28c30565ad685441.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
-    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
     "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
   "category": {
@@ -5628,7 +5628,7 @@ export const blogPosts: BlogPost[] = [
   "featured_image": "https://cdn.dribbble.com/userupload/45488649/file/71905524302787f188cce7ef0ece376d.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
-    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
     "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
   "category": {
@@ -6323,7 +6323,7 @@ export const blogPosts: BlogPost[] = [
   "featured_image": "https://cdn.dribbble.com/userupload/45461742/file/aff195c18c4c2c24b94b83a59d145a79.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
-    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
     "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
   "category": {
@@ -6675,7 +6675,7 @@ export const blogPosts: BlogPost[] = [
   "featured_image": "https://cdn.dribbble.com/userupload/45488648/file/c2c0665c87a7b1dbfa4ffa1792f7db22.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
-    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
     "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
   "category": {
@@ -6902,7 +6902,7 @@ export const blogPosts: BlogPost[] = [
   "featured_image": "https://cdn.dribbble.com/userupload/45529484/file/6f295f56a68052e51838f8f184c718b8.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
-    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
     "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
   "category": {
@@ -7258,7 +7258,7 @@ export const blogPosts: BlogPost[] = [
   "featured_image": "https://cdn.dribbble.com/userupload/45488650/file/146716247281f820a9e2e42458fa66b1.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
-    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
     "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
   "category": {
@@ -7585,7 +7585,7 @@ export const blogPosts: BlogPost[] = [
   "featured_image": "https://cdn.dribbble.com/userupload/45502937/file/5531d6df816c001af771f889c209ff80.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
-    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
     "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
   "category": {
@@ -7752,7 +7752,7 @@ export const blogPosts: BlogPost[] = [
   "featured_image": "https://cdn.dribbble.com/userupload/45502936/file/469a490d21749afb0ac31589d51f7480.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
-    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
     "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
   "category": {
@@ -8079,7 +8079,7 @@ export const blogPosts: BlogPost[] = [
   "featured_image": "https://cdn.dribbble.com/userupload/45502935/file/c85716b269e8599f92fd9e54cc60a99f.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
-    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
     "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
   "category": {
@@ -8446,7 +8446,7 @@ export const blogPosts: BlogPost[] = [
 //   "featured_image": "https://cdn.dribbble.com/userupload/45488650/file/146716247281f820a9e2e42458fa66b1.png?w=1200&h=600&fit=crop",
 //   "author": {
 //     "name": "Believers Team",
-//     "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+//     "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
 //     "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
 //   },
 //   "category": {
@@ -8768,7 +8768,7 @@ export const blogPosts: BlogPost[] = [
   "featured_image": "https://cdn.dribbble.com/userupload/45512392/file/b5a560144502a0c8236fd430c9a716bb.jpeg?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
-    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
     "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
   "category": {
@@ -9160,7 +9160,7 @@ export const blogPosts: BlogPost[] = [
   "featured_image": "https://cdn.dribbble.com/userupload/45512391/file/cf6ff1237cdc4c9905fda7c3ecc40696.jpeg?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
-    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
     "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
   "category": {
@@ -9518,7 +9518,7 @@ export const blogPosts: BlogPost[] = [
   "featured_image": "https://cdn.dribbble.com/userupload/45518790/file/4383306a547dec7f5bdee8a4cd4bb934.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
-    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
     "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
   "category": {
@@ -9793,7 +9793,7 @@ export const blogPosts: BlogPost[] = [
   "featured_image": "https://cdn.dribbble.com/userupload/45519891/file/97319e9992b19c1086510bdf33ace46d.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
-    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
     "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
   "category": {
@@ -10178,7 +10178,7 @@ export const blogPosts: BlogPost[] = [
   "featured_image": "https://cdn.dribbble.com/userupload/45526999/file/57441b130bac9bd708efe5c33cfb10ab.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
-    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
     "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
   "category": {
@@ -10514,7 +10514,7 @@ export const blogPosts: BlogPost[] = [
   "featured_image": "https://cdn.dribbble.com/userupload/45529435/file/6d1fcd2db08709ad3eb0e1023c698eb3.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
-    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
     "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
   "category": {
@@ -10821,7 +10821,7 @@ export const blogPosts: BlogPost[] = [
   "featured_image": "https://cdn.dribbble.com/userupload/45552955/file/2a073a0e87cb4be4181a8bd8c885f2d9.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
-    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
     "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
   "category": {
