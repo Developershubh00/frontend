@@ -1614,6 +1614,18 @@ const AnnouncementPage: React.FC = () => {
       source: 'cetcell.mahacet.org',
       created_at: "2025-10-31T08:00:00Z"
     },
+     {
+      id: 58,
+      title: "NEET PG Counselling 2025:",
+      content:"National Medical Commission Approves 62 New PG Medical Seats in Six Odisha Government Colleges for 2025-26 Academic Year NEET PG Counselling",
+      date: "2025-11-01T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: ' https://www.hindustantimes.com/education/centre-approved-62-more-pg-seats-in-6-medical-colleges-of-odisha-cm-101761976390832.html',
+      is_active: true,
+      source: 'hindustan times',
+      created_at: "2025-11-01T08:00:00Z"
+    },
 
 
   ];
