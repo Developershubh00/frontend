@@ -11098,6 +11098,488 @@ export const blogPosts: BlogPost[] = [
       "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
     }
   ]
+},
+{
+  "id": 32,
+  "title": "Karnataka NEET PG Counselling 2025: Clause-Wise Eligibility and Documents Required",
+  "slug": "karnataka-neet-pg-counselling-2025-clause-wise-eligibility-documents",
+  "excerpt": "Complete guide to Karnataka NEET PG 2025 counselling covering clause-wise eligibility from Clause A to Z, required documents, and KEA registration procedures for MD/MS/MDS admissions.",
+  "featured_image": "https://cdn.dribbble.com/userupload/45567786/file/b898da686ff84f6ff71e37d6de06b21d.png?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-purple-100 text-purple-800"
+  },
+  "tags": [
+    "NEET PG",
+    "Karnataka NEET PG",
+    "KEA Counselling",
+    "State Quota",
+    "Clause Eligibility",
+    "Karnataka PG Medical",
+    "NEET PG 2025",
+    "Document Requirements"
+  ],
+  "published_date": "2025-11-04",
+  "read_time": 15,
+  "meta_description": "Comprehensive guide to Karnataka NEET PG 2025 counselling covering clause-wise eligibility from Clause A to Z, required documents, and KEA registration procedures.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "The Karnataka Examinations Authority (KEA) administers postgraduate medical (MD/MS) and dental (MDS) admissions for NEET PG 2025 through state quota counselling processes. Candidates qualifying for NEET PG 2025 with 50th percentile must satisfy clause-specific criteria for KEA counselling participation. (Clause A to Clause Z).\n\nEach clause specifies distinct eligibility conditions based on domicile, study history, parents' service status, and NRI or foreign national background. To ensure smooth participation in the counselling procedure for NEET PG, candidates must upload valid supporting documents during KEA NEET PG registration as per their applicable clause.\n\nThis overview addresses clause-based eligibility criteria and corresponding documentation requirements, clause-wise eligibility, and the required documents for Karnataka NEET PG counselling 2025, helping aspirants identify their category and prepare the necessary documentation for verification."
+    },
+    {
+      "id": "clause-a",
+      "type": "heading",
+      "title": "Clause A: Candidates Who Studied MBBS/BDS in Karnataka",
+      "level": 2
+    },
+    {
+      "id": "clause-a-eligibility",
+      "type": "heading",
+      "title": "Eligibility:",
+      "level": 3
+    },
+    {
+      "id": "clause-a-eligibility-content",
+      "type": "paragraph",
+      "content": "Candidates who completed MBBS/BDS from any institution located in Karnataka state (excluding deemed universities under All India Quota)."
+    },
+    {
+      "id": "clause-a-documents",
+      "type": "heading",
+      "title": "Documents Required:",
+      "level": 3
+    },
+    {
+      "id": "clause-a-documents-list",
+      "type": "list",
+      "items": [
+        "Qualifying Degree Certificate – MBBS/BDS from a Karnataka institution",
+        "For 2025 graduates, Provisional Degree Certificate (PDC), Pass Certificate, or Completion Certificate",
+        "Caste/Caste Income Certificate (if applicable): SC/ST: Form D, Category-1: Form E, Categories 2A, 2B, 3A, 3B: Form F",
+        "Married female candidates must submit caste certificates reflecting both maiden (father's) and marital (husband's) details as per Form D/E/F specifications.",
+        "If claiming NRI Ward: Ward Certificate (Annexure 17), Embassy Certificate of Sponsor (issued within 6 months)"
+      ]
+    },
+    {
+      "id": "clause-a-note",
+      "type": "paragraph",
+      "content": "This clause is the most common route for candidates participating in Karnataka NEET PG counselling 2025 and is a key part of the Karnataka state medical PG counselling system."
+    },
+    {
+      "id": "clause-b",
+      "type": "heading",
+      "title": "Clause B: Candidates with 10 Years of Schooling and MBBS/BDS in Karnataka",
+      "level": 2
+    },
+    {
+      "id": "clause-b-eligibility",
+      "type": "heading",
+      "title": "Eligibility:",
+      "level": 3
+    },
+    {
+      "id": "clause-b-eligibility-content",
+      "type": "paragraph",
+      "content": "Candidates with 10 consecutive years of schooling (Classes 1-12) in Karnataka institutions recognized by the state."
+    },
+    {
+      "id": "clause-b-documents",
+      "type": "heading",
+      "title": "Documents Required:",
+      "level": 3
+    },
+    {
+      "id": "clause-b-documents-list",
+      "type": "list",
+      "items": [
+        "Study Certificate (Annexure 11) – countersigned by BEO/DDPI",
+        "SSLC/PUC Marks Card – proof of study in Karnataka",
+        "MBBS/BDS Degree Certificate",
+        "Caste/Caste Income Certificate (Form D/E/F)",
+        "For NRI Ward: Annexure 17 + Embassy Certificate"
+      ]
+    },
+    {
+      "id": "clause-b-note",
+      "type": "paragraph",
+      "content": "This category benefits students who completed both schooling and higher medical education within Karnataka and seek admission through Karnataka NEET PG 2025 counselling under state quota counselling."
+    },
+    {
+      "id": "clause-c",
+      "type": "heading",
+      "title": "Clause C: Candidates Who Studied 10 Years in Karnataka (Schooling Only)",
+      "level": 2
+    },
+    {
+      "id": "clause-c-eligibility",
+      "type": "heading",
+      "title": "Eligibility:",
+      "level": 3
+    },
+    {
+      "id": "clause-c-eligibility-content",
+      "type": "paragraph",
+      "content": "Candidates who studied in Karnataka for 10 years (1st–12th standard, including 10th or 12th) but completed MBBS/BDS outside Karnataka."
+    },
+    {
+      "id": "clause-c-documents",
+      "type": "heading",
+      "title": "Documents Required:",
+      "level": 3
+    },
+    {
+      "id": "clause-c-documents-list",
+      "type": "list",
+      "items": [
+        "Study Certificate (Annexure 11)",
+        "SSLC or 2nd PUC Marks Card",
+        "Caste/Caste Income Certificate (Form D/E/F)",
+        "NRI Ward Certificate and Embassy Certificate (if applicable)"
+      ]
+    },
+    {
+      "id": "clause-c-note",
+      "type": "paragraph",
+      "content": "These candidates can participate in Karnataka NEET PG counselling provided they meet domicile and documentation criteria."
+    },
+    {
+      "id": "clause-d",
+      "type": "heading",
+      "title": "Clause D: Candidates Whose Parents Are Karnataka Cadre Government Employees",
+      "level": 2
+    },
+    {
+      "id": "clause-d-eligibility",
+      "type": "heading",
+      "title": "Eligibility:",
+      "level": 3
+    },
+    {
+      "id": "clause-d-eligibility-content",
+      "type": "paragraph",
+      "content": "Applicable for candidates whose parents are All India Service (AIS) Karnataka Cadre or State Government employees serving outside Karnataka."
+    },
+    {
+      "id": "clause-d-documents",
+      "type": "heading",
+      "title": "Documents Required:",
+      "level": 3
+    },
+    {
+      "id": "clause-d-documents-list",
+      "type": "list",
+      "items": [
+        "10-Year Study Certificate (1st–12th)",
+        "Certificate from DPAR/Head of Department",
+        "Caste/Caste Income Certificate (Form D/E/F)",
+        "NRI Ward documents (Annexure 17 + Embassy Certificate)"
+      ]
+    },
+    {
+      "id": "clause-d-note",
+      "type": "paragraph",
+      "content": "This clause helps children of Karnataka-origin government employees apply for Karnataka PG NEET counselling through Karnataka NEET PG 2025 counselling."
+    },
+    {
+      "id": "clause-e",
+      "type": "heading",
+      "title": "Clause E: Candidates Whose Parent Is a Karnataka-Origin Employee Serving Elsewhere in India",
+      "level": 2
+    },
+    {
+      "id": "clause-e-eligibility",
+      "type": "heading",
+      "title": "Eligibility:",
+      "level": 3
+    },
+    {
+      "id": "clause-e-eligibility-content",
+      "type": "paragraph",
+      "content": "Parents must have studied for at least 10 years in Karnataka and hold a transferable government post anywhere in India."
+    },
+    {
+      "id": "clause-e-documents",
+      "type": "heading",
+      "title": "Documents Required:",
+      "level": 3
+    },
+    {
+      "id": "clause-e-documents-list",
+      "type": "list",
+      "items": [
+        "Parents' Study Certificate (Annexure 11)",
+        "Home Town Declaration Certificate",
+        "Caste/Caste Income Certificate (Form D/E/F)",
+        "NRI Ward and Embassy Certificates (if applicable)"
+      ]
+    },
+    {
+      "id": "clause-e-note",
+      "type": "paragraph",
+      "content": "Clause E applies to candidates whose parents have studied for at least 10 years in Karnataka and hold a transferable government post."
+    },
+    {
+      "id": "clause-f",
+      "type": "heading",
+      "title": "Clause F: Candidates Whose Parent Is/Was a Member of Parliament from Karnataka",
+      "level": 2
+    },
+    {
+      "id": "clause-f-eligibility",
+      "type": "heading",
+      "title": "Eligibility:",
+      "level": 3
+    },
+    {
+      "id": "clause-f-eligibility-content",
+      "type": "paragraph",
+      "content": "Children of current or former Members of Parliament (MPs) elected from Karnataka can apply under this clause."
+    },
+    {
+      "id": "clause-f-documents",
+      "type": "heading",
+      "title": "Documents Required:",
+      "level": 3
+    },
+    {
+      "id": "clause-f-documents-list",
+      "type": "list",
+      "items": [
+        "Certificate from Parliament Secretariat",
+        "10-Year Study Certificate",
+        "Caste/Caste Income Certificate",
+        "NRI Ward and Embassy Certificate (if applicable)"
+      ]
+    },
+    {
+      "id": "clause-g",
+      "type": "heading",
+      "title": "Clause G: Children of Serving or Ex-Servicemen with Karnataka Origin",
+      "level": 2
+    },
+    {
+      "id": "clause-g-eligibility",
+      "type": "heading",
+      "title": "Eligibility:",
+      "level": 3
+    },
+    {
+      "id": "clause-g-eligibility-content",
+      "type": "paragraph",
+      "content": "Children of serving defense personnel or ex-servicemen who declared Karnataka as their home state at the time of joining service."
+    },
+    {
+      "id": "clause-g-documents",
+      "type": "heading",
+      "title": "Documents Required:",
+      "level": 3
+    },
+    {
+      "id": "clause-g-documents-list",
+      "type": "list",
+      "items": [
+        "Home Town Declaration Certificate",
+        "Certificate from the Record Office or Sainik Welfare Department",
+        "Caste/Caste Income Certificate (Form D/E/F)",
+        "NRI Ward and Embassy Certificate"
+      ]
+    },
+    {
+      "id": "clause-g-note",
+      "type": "paragraph",
+      "content": "Such candidates are also eligible to participate in Karnataka NEET PG counselling 2025 for state quota counselling."
+    },
+    {
+      "id": "clause-y",
+      "type": "heading",
+      "title": "Clause Y: Candidates Who Studied MBBS/BDS Outside Karnataka",
+      "level": 2
+    },
+    {
+      "id": "clause-y-eligibility",
+      "type": "heading",
+      "title": "Eligibility:",
+      "level": 3
+    },
+    {
+      "id": "clause-y-eligibility-content",
+      "type": "paragraph",
+      "content": "Students who pursued MBBS/BDS from medical colleges located outside Karnataka."
+    },
+    {
+      "id": "clause-y-documents",
+      "type": "heading",
+      "title": "Documents Required:",
+      "level": 3
+    },
+    {
+      "id": "clause-y-documents-list",
+      "type": "list",
+      "items": [
+        "Qualifying Degree Certificate (PDC/Pass/Completion)",
+        "NRI Ward Certificate and Embassy Certificate (if applicable)"
+      ]
+    },
+    {
+      "id": "clause-y-note",
+      "type": "paragraph",
+      "content": "Candidates falling under this category should regularly check the Karnataka NEET PG counselling schedule for document verification and seat allotment NEET PG updates."
+    },
+    {
+      "id": "clause-z",
+      "type": "heading",
+      "title": "Clause Z: NRI, OCI, PIO, and Foreign Nationals",
+      "level": 2
+    },
+    {
+      "id": "clause-z-eligibility",
+      "type": "heading",
+      "title": "Eligibility:",
+      "level": 3
+    },
+    {
+      "id": "clause-z-eligibility-content",
+      "type": "paragraph",
+      "content": "Applicable for NRI, OCI, PIO, and foreign national candidates under the Karnataka NEET PG state counselling."
+    },
+    {
+      "id": "clause-z-documents",
+      "type": "heading",
+      "title": "Documents Required:",
+      "level": 3
+    },
+    {
+      "id": "clause-z-documents-list",
+      "type": "list",
+      "items": [
+        "Parents' Resident Certificate (from Embassy)",
+        "Candidate's Passport, VISA, and Citizenship Proof",
+        "Income Tax Documents (as per Indian law)",
+        "Screening Test Certificate (for FMGs)",
+        "Study Certificates (if applicable)",
+        "Embassy Certificate of Sponsor",
+        "Qualification Registration Certificate from a foreign medical authority",
+        "Temporary Registration from NMC/DCI"
+      ]
+    },
+    {
+      "id": "clause-z-note",
+      "type": "paragraph",
+      "content": "These candidates can apply under Clause Z through the KEA NEET PG registration portal using valid international documentation."
+    },
+    {
+      "id": "key-points",
+      "type": "heading",
+      "title": "Key Points for Karnataka NEET PG Counselling 2025",
+      "level": 2
+    },
+    {
+      "id": "key-points-list",
+      "type": "list",
+      "items": [
+        "All certificates must be valid and signed as per KEA guidelines.",
+        "Annexures (11, 17, etc.) should follow KEA formats.",
+        "Married female candidates must ensure that caste certificates reflect both maiden and marital details.",
+        "NRI certificates should be reissued within 6 months for NEET PG counselling registration.",
+        "Reserved category candidates must submit Form D/E/F as applicable.",
+        "The Karnataka NEET PG seat matrix will be released before each round of counselling, helping aspirants during choice filling in NEET PG.",
+        "Candidates must monitor the Karnataka NEET PG counselling schedule and seat matrix for NEET PG through official sources."
+      ]
+    },
+    {
+      "id": "conclusion",
+      "type": "heading",
+      "title": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "conclusion-content",
+      "type": "paragraph",
+      "content": "The Karnataka NEET PG 2025 State Counselling ensures fair admission to postgraduate medical and dental programs through clause-wise eligibility from Clause A to Clause Z. Understanding your eligibility clause, keeping documents ready, and completing KEA NEET PG registration on time are crucial for a smooth Karnataka PG medical counselling experience.\n\nCandidates are encouraged to follow the counselling procedure for NEET PG, use verified career counselling NEET PG services if needed, and stay updated on seat allotment NEET PG and Karnataka NEET PG seat matrix details.\n\nFor accurate updates, regularly check the official KEA and MCC NEET PG counselling portals. A well-prepared application increases the likelihood of successful admission through KEA state quota counselling."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "Frequently Asked Questions (FAQs)",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1: Which clause applies to candidates who completed MBBS in Karnataka?",
+          "answer": "A: Clause A: MBBS/BDS completed in Karnataka (any schooling background). Clause B: MBBS/BDS in Karnataka + 10 years schooling in Karnataka. Clause Y: MBBS/BDS outside Karnataka. Clause A is the most common."
+        },
+        {
+          "question": "Q2: What documents are mandatory for all clause categories?",
+          "answer": "A: NEET PG 2025 scorecard, MBBS/BDS degree (provisional/pass/completion certificate), all year mark sheets, internship completion certificate, and medical council registration. Additional caste/domicile documents per the specific clause."
+        },
+        {
+          "question": "Q3: Do Clause Y (non-Karnataka MBBS) candidates require document verification?",
+          "answer": "A: Yes. Clause Y candidates must submit online document verification through the KEA portal with a qualifying degree certificate. Physical attendance NOT required for Clause Y only."
+        },
+        {
+          "question": "Q4: What documents are needed for NRI/OCI candidates under Clause Z?",
+          "answer": "A: Passport, visa/work permit, citizenship proof, parents' embassy resident certificate, income tax documents, NMC/DCI temporary registration, FMG screening test (if applicable), and embassy certificate of sponsor reissued within 6 months."
+        },
+        {
+          "question": "Q5: Is document verification mandatory for all clause categories?",
+          "answer": "A: Physical verification at the KEA office is required for Clauses A-O and Z. Exception: Clause Y only requires online verification; no in-person attendance is needed. Missing the deadline results in disqualification."
+        }
+      ]
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "Karnataka NEET PG Counselling",
+  "NEET PG Counselling",
+  "Karnataka NEET PG Counselling 2025",
+  "Karnataka NEET PG 2025 Counselling",
+  "NEET PG Counselling Schedule",
+  "MCC NEET PG Counselling",
+  "NEET PG Counselling Registration",
+  "AIQ NEET PG Counselling",
+  "State Quota Counselling",
+  "Choice Filling in NEET PG",
+  "Counselling for NEET PG",
+  "Counselling Procedure for NEET PG",
+  "Karnataka State NEET PG Counselling",
+  "Karnataka NEET PG Seat Matrix",
+  "Karnataka NEET PG State Counselling",
+  "Karnataka PG Medical Counselling",
+  "Karnataka PG NEET Counselling",
+  "Karnataka State Counselling NEET PG",
+  "Karnataka State Medical PG Counselling",
+  "KEA NEET PG Registration",
+  "MCC Counselling NEET PG",
+  "NEET PG Counselling Choice Filling",
+  "NEET PG Counselling Application Form",
+  "NEET PG Counselling Seat Matrix",
+  "NEET PG Counselling Services",
+  "NEET PG Counselling State Quota",
+  "Seat Allotment NEET PG",
+  "Seat Matrix for NEET PG",
+  "State Counselling NEET PG"
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    }
+  ]
 }
 
 ];
