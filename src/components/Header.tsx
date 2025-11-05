@@ -579,11 +579,11 @@ const Header: React.FC<HeaderProps> = ({
               </div>
               <div className="relative">
                 <button
-                  onClick={() => navigate("/blogs")}
+                  onClick={() => navigate("/blog")}
                   className="flex items-center space-x-2 px-4 py-2 text-green-600 hover:bg-green-50 rounded-xl transition-all duration-200 font-medium"
                 >
                   <span>Blogs</span>
-                  <ChevronDown className="w-4 h-4" />
+                  
                 </button>
               </div>
             </div>
