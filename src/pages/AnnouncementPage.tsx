@@ -1626,6 +1626,18 @@ const AnnouncementPage: React.FC = () => {
       source: 'hindustan times',
       created_at: "2025-11-01T08:00:00Z"
     },
+    {
+      id: 59,
+      title: "NEET PG Counselling 2025:",
+      content:"NEET PG 2025 Round 1 Registration and Choice Filling Ends Tomorrow  November 5 - Final Hours to Register",
+      date: "2025-11-04T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: ' https://mcc.nic.in/pg-medical-counselling/',
+      is_active: true,
+      source: 'hindustan times',
+      created_at: "2025-11-04T08:00:00Z"
+    },
 
 
   ];

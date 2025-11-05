@@ -785,6 +785,16 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: ' https://www.hindustantimes.com/education/centre-approved-62-more-pg-seats-in-6-medical-colleges-of-odisha-cm-101761976390832.html',
       source: 'hindustan times',
      },
+     {
+      id: 59,
+      title: "NEET PG 2025 Round 1 Registration and Choice Filling Ends Tomorrow  November 5 - Final Hours to Register",
+      date: "2025-11-04T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: ' https://mcc.nic.in/pg-medical-counselling/',
+      source: 'hindustan times',
+    },
+
 
 
   ];
