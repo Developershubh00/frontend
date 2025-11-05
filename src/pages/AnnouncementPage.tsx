@@ -1635,9 +1635,22 @@ const AnnouncementPage: React.FC = () => {
       category: 'NEET PG',
       link: ' https://mcc.nic.in/pg-medical-counselling/',
       is_active: true,
-      source: 'hindustan times',
+      source: 'mcc.nic.in',
       created_at: "2025-11-04T08:00:00Z"
     },
+    {
+      id: 60,
+      title: "NEET PG Counselling 2025:",
+      content:"NEET PG 2025 Round 1 Choice Filling Extended - New Deadline Update for Candidates",
+      date: "2025-11-05T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: ' https://mcc.nic.in/pg-medical-counselling/',
+      is_active: true,
+      source: 'mcc.nic.in',
+      created_at: "2025-11-05T08:00:00Z"
+    },
+
 
 
   ];

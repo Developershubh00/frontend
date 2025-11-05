@@ -794,6 +794,15 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: ' https://mcc.nic.in/pg-medical-counselling/',
       source: 'hindustan times',
     },
+    {
+      id: 60,
+      title: "NEET PG 2025 Round 1 Choice Filling Extended - New Deadline Update for Candidates",
+      date: "2025-11-05T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: ' https://mcc.nic.in/pg-medical-counselling/',
+      source: 'mcc.nic.in',
+    },
 
 
 
