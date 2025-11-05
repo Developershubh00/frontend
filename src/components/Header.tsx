@@ -575,6 +575,13 @@ const Header: React.FC<HeaderProps> = ({
                     ))}
                   </div>
                 )}
+                <button
+                  onClick={() => toggleDropdown("Blog")}
+                  className="flex items-center space-x-2 px-4 py-2 text-green-600 hover:bg-green-50 rounded-xl transition-all duration-200 font-medium"
+                >
+                  <span>Blogs</span>
+                  <ChevronDown className="w-4 h-4" />
+                </button>
               </div>
             </div>
           </div>
@@ -676,24 +683,24 @@ const Header: React.FC<HeaderProps> = ({
       {/* Mobile Search Bar */}
       <div className="xl:hidden mt-3">
         <div className="relative">
-          <Search className="w-4 h-4 absolute left-3 top-1/2 transform -translate-y-1/2 text-slate-400" />
+          {/* <Search className="w-4 h-4 absolute left-3 top-1/2 transform -translate-y-1/2 text-slate-400" />
           <input
             type="text"
             placeholder="Search courses, colleges..."
             value={searchValue}
             onChange={handleSearch}
             className="w-full pl-10 pr-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-slate-50/50 transition-all duration-200"
-          />
+          /> */}
         </div>
         
         {/* Mobile Counselling Form CTA */}
-        <button
+        {/* <button
           onClick={handleCounsellingFormClick}
           className="w-full mt-3 flex items-center justify-center space-x-2 px-4 py-3 bg-gradient-to-r from-orange-500 to-red-500 text-white rounded-xl hover:from-orange-600 hover:to-red-600 transition-all duration-200 transform hover:scale-105 shadow-lg animate-pulse"
         >
           <FileText className="w-5 h-5" />
           <span className="font-semibold">Fill Counselling Form</span>
-        </button>
+        </button> */}
       </div>
     </header>
   );
