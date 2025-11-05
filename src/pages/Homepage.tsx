@@ -1709,7 +1709,7 @@ function Homepage() {
               </div>
             </div>
             <button
-            onClick={() => navigate("/login")}
+            onClick={() => navigate("/signup")}
               className={`bg-gradient-to-r from-blue-300 to-indigo-600 hover:from-blue-300 hover:to-indigo-700 text-white px-10 py-4 rounded-full text-xl font-bold inline-flex items-center space-x-3 transition-all duration-300 hover:scale-105 shadow-2xl ${
                 isVisible
                   ? "opacity-100 translate-y-0"
