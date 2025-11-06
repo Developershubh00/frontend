@@ -1650,6 +1650,18 @@ const AnnouncementPage: React.FC = () => {
       source: 'mcc.nic.in',
       created_at: "2025-11-05T08:00:00Z"
     },
+    {
+      id: 61,
+      title: "NEET PG Counselling 2025:",
+      content:"PwD Certificate Generation Portal Open for NEET PG 2025 Round 1 - Deadline November 8 at 5 PM",
+      date: "2025-11-06T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: ' https://mcc.nic.in/pg-medical-counselling/',
+      is_active: true,
+      source: 'mcc.nic.in',
+      created_at: "2025-11-06T08:00:00Z"
+    },
 
 
 
