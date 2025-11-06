@@ -62,6 +62,8 @@ import BlogDetail from "./pages/BlogDetail";
 // import NEETPGCategoryChangeBlog from "./Blogs/NEETPGCategoryChangeBlog";
 
 import { NotFound } from "./Error Pages/NotFound";
+import ForgotPasswordPage from './pages/ForgotPasswordPage';
+import ResetPasswordPage from './pages/ResetPasswordPage';
 
 /**
  * Main App Component with React Router
@@ -285,6 +287,9 @@ function App() {
           <Route path="/blog" element={<BlogList />} />
           <Route path="/blog/:slug" element={<BlogDetail />} />
 
+            // In your routes:
+<Route path="/forgot-password" element={<ForgotPasswordPage />} />
+<Route path="/reset-password" element={<ResetPasswordPage />} />
           
           {/* <Route path="/blog1" element={<NEETPGCategoryChangeBlog />} />   */}
           </Routes>

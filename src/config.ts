@@ -2,13 +2,15 @@
 export const config = {
   // Development URLs
   development: {
-    apiUrl: "https://backend-dju9.onrender.com/",
-    staticUrl: "https://backend-dju9.onrender.com/static/",
+    apiUrl: "http://127.0.0.1:8000/",
+    staticUrl: "http://127.0.0.1:8000/static/",
   },
   // Production URLs (update these with your actual URLs)
   production: {
-    apiUrl: "https://backend-dju9.onrender.com/",
-    staticUrl: "https://backend-dju9.onrender.com/static/",
+    apiUrl: "http://127.0.0.1:8000/",
+    staticUrl: "http://127.0.0.1:8000/static/",
+    // apiUrl: "https://backend-dju9.onrender.com/",
+    // staticUrl: "https://backend-dju9.onrender.com/static/",
   },
 };
 

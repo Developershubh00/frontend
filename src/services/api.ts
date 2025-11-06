@@ -129,7 +129,20 @@ export const authAPI = {
     };
     return api.put("/auth/profile/", mappedData);
   },
+
+  // ✅ NEW: Forgot Password - Send reset email
+  forgotPassword: (email: string) =>
+    api.post("/auth/forgot-password/", { email }),
+
+  // ✅ NEW: Reset Password - Reset with token
+  resetPassword: (data: {
+    token: string;
+    uid: string;
+    password: string;
+    confirm_password: string;
+  }) => api.post("/auth/reset-password/", data),
 };
+
 // Allotments API (separate instance if needed)
 const API_BASE = "https://backend-dju9.onrender.com/"; // update if different
 
@@ -185,74 +198,6 @@ export const neetAPI = {
   }) => api.get("/get-fee-structure/", { params }),
 };
 
-// Allotments APIs
-// export const allotmentsAPI = {
-//   getUGAllotments: (filters: any = {}) => {
-//     const params = new URLSearchParams(filters);
-//     return api.get(`/allotments/ug/?${params}`);
-//   },
-  
-//   getPGAllotments: (filters: any = {}) => {
-//     const params = new URLSearchParams(filters);
-//     return api.get(`/allotments/pg/?${params}`);
-//   },
-// };
-
-// // Closing Ranks APIs
-// export const closingRanksAPI = {
-//   getUGClosingRanks: (filters: any = {}) => {
-//     const params = new URLSearchParams(filters);
-//     return api.get(`/closing-ranks/ug/?${params}`);
-//   },
-  
-//   getPGClosingRanks: (filters: any = {}) => {
-//     const params = new URLSearchParams(filters);
-//     return api.get(`/closing-ranks/pg/?${params}`);
-//   },
-// };
-
-// // Seat Matrix APIs
-// export const seatMatrixAPI = {
-//   getUGSeatMatrix: (filters: any = {}) => {
-//     const params = new URLSearchParams(filters);
-//     return api.get(`/seat-matrix/ug/?${params}`);
-//   },
-  
-//   getPGSeatMatrix: (filters: any = {}) => {
-//     const params = new URLSearchParams(filters);
-//     return api.get(`/seat-matrix/pg/?${params}`);
-//   },
-// };
-
-// // Fee, Stipend & Bond APIs
-// export const feeStipendBondAPI = {
-//   getUGFeeData: (filters: any = {}) => {
-//     const params = new URLSearchParams(filters);
-//     return api.get(`/fee-stipend-bond/ug/?${params}`);
-//   },
-  
-//   getPGFeeData: (filters: any = {}) => {
-//     const params = new URLSearchParams(filters);
-//     return api.get(`/fee-stipend-bond/pg/?${params}`);
-//   },
-// };
-
-// // Colleges APIs
-// export const collegesAPI = {
-//   getAllColleges: (filters: any = {}) => {
-//     const params = new URLSearchParams(filters);
-//     return api.get(`/colleges/?${params}`);
-//   },
-  
-//   getCollegeDetails: (id: string) =>
-//     api.get(`/colleges/${id}/`),
-  
-//   searchColleges: (searchParams: any) => {
-//     const params = new URLSearchParams(searchParams);
-//     return api.get(`/colleges/search/?${params}`);
-//   },
-// };
-
 // Choice Lists APIs
 export const choiceListsAPI = {
   getUserChoiceLists: () =>
@@ -273,8 +218,6 @@ export const choiceListsAPI = {
   removeFromChoiceList: (listId: string, collegeId: string) =>
     api.delete(`/choice-lists/${listId}/colleges/${collegeId}/`),
 };
-
-
 
 // Counselling API
 export const counsellingAPI = {
@@ -303,13 +246,6 @@ export const counsellingAPI = {
 
 // Predictor API
 export const predictorAPI = {
-  // predictUG: (data: {
-  //   rank: number;
-  //   category: string;
-  //   state: string;
-  //   quota: string;
-  // }) => api.post("/predictor/ug/", data),
-
   predictPG: (data: {
     rank: number;
     category: string;

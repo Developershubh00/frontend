@@ -262,12 +262,27 @@ const LoginPage: React.FC = () => {
           </div>
 
           {/* Error Message */}
-          {error && (
-            <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-xl flex items-center space-x-2">
-              <AlertCircle className="w-5 h-5 text-red-500" />
-              <span className="text-red-700 text-sm">{error}</span>
-            </div>
-          )}
+          {/* Update your error display (around line 100) */}
+{error && (
+  <div className="mb-6">
+    <div className="p-4 bg-red-50 border border-red-200 rounded-xl flex items-center space-x-2">
+      <AlertCircle className="w-5 h-5 text-red-500" />
+      <span className="text-red-700 text-sm">{error}</span>
+    </div>
+    {/* Add this helpful link */}
+    {error.toLowerCase().includes('invalid') || error.toLowerCase().includes('credentials') ? (
+      <div className="mt-3 text-center">
+        <Link
+          to="/forgot-password"
+          className="text-sm text-blue-600 hover:text-blue-700 font-semibold inline-flex items-center"
+        >
+          <Mail className="w-4 h-4 mr-1" />
+          Forgot your password? Reset it here
+        </Link>
+      </div>
+    ) : null}
+  </div>
+)}
 
           {/* Login Form */}
           <form onSubmit={handleLogin} className="space-y-6">
@@ -315,6 +330,14 @@ const LoginPage: React.FC = () => {
                 </button>
               </div>
             </div>
+            <div className="flex justify-end">
+  <Link
+    to="/forgot-password"
+    className="text-sm text-blue-600 hover:text-blue-700 font-medium transition-colors duration-200"
+  >
+    Forgot Password?
+  </Link>
+</div>
 
             <button
               type="submit"
