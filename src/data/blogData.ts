@@ -11580,6 +11580,388 @@ export const blogPosts: BlogPost[] = [
       "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
     }
   ]
+},
+{
+  "id": 33,
+  "title": "NEET PG Choice Filling & Seat Allotment Explained: A Step-by-Step Guide for 2025 Counselling",
+  "slug": "neet-pg-choice-filling-seat-allotment-guide-2025",
+  "excerpt": "Complete guide to NEET PG 2025 counselling covering MCC and state quota processes, choice filling strategies, seat allotment mechanisms, reporting requirements, and documentation specifications for MD/MS/DNB admissions.",
+  "featured_image": "https://cdn.dribbble.com/userupload/45592607/file/e116810dbd2b82caed5c673877402e0e.png?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-purple-100 text-purple-800"
+  },
+  "tags": [
+    "NEET PG",
+    "NEET PG 2025",
+    "MCC NEET PG",
+    "Choice Filling",
+    "Seat Allotment",
+    "All India Counselling",
+    "State Quota Counselling",
+    "NEET PG Counselling",
+    "Document Requirements"
+  ],
+  "published_date": "2025-11-06",
+  "read_time": 18,
+  "meta_description": "NEET PG counselling 2025 choice filling and seat allotment explained clearly to help aspirants make smart course selections and secure their desired medical seats.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "The MCC-administered NEET PG 2025 counselling process determines seat allocation through sequential choice filling and merit-based allotment across All India Quota and State Quota rounds. The NEET PG 2025 counselling process conducted by the Medical Counselling Committee (MCC) and respective state authorities is a crucial phase where you secure your MD/MS/DNB seat.\n\nThis overview addresses NEET PG 2025 choice filling procedures, seat allotment mechanisms, reporting requirements, and documentation specifications."
+    },
+    {
+      "id": "understanding-counselling",
+      "type": "heading",
+      "title": "1. Understanding NEET PG 2025 Counselling",
+      "level": 2
+    },
+    {
+      "id": "understanding-counselling-content",
+      "type": "paragraph",
+      "content": "The NEET PG counselling is the official process through which qualified candidates are allotted postgraduate medical seats across India. The process is supervised by:\n\n• MCC (Medical Counselling Committee) – for All India Quota (AIQ) 50% seats, Central Universities, AFMS, and Deemed Universities.\n\n• State Counselling Authorities – for the remaining 50% state quota seats in government and private colleges within the state.\n\nKey Keywords: NEET PG 2025, MCC NEET PG, all India counselling, state quota counselling, NEET PG seat allotment."
+    },
+    {
+      "id": "two-authorities",
+      "type": "heading",
+      "title": "2. The Two Major Counselling Authorities",
+      "level": 2
+    },
+    {
+      "id": "aiq-counselling",
+      "type": "heading",
+      "title": "A. All India Quota (AIQ) Counselling by MCC",
+      "level": 3
+    },
+    {
+      "id": "aiq-counselling-content",
+      "type": "paragraph",
+      "content": "• Covers 50% of government college seats across India.\n\n• Also includes 100% seats in Deemed/Central Universities, ESIC, and AFMS institutions.\n\n• Conducted on mcc.nic.in.\n\n• Eligible for all candidates (except those who opted out or belong to the J&K state quota)."
+    },
+    {
+      "id": "state-quota-counselling",
+      "type": "heading",
+      "title": "B. State Quota Counselling",
+      "level": 3
+    },
+    {
+      "id": "state-quota-counselling-content",
+      "type": "paragraph",
+      "content": "• Conducted by each State Medical Counselling Authority (e.g., KEA for Karnataka, TN Medical for Tamil Nadu, etc.).\n\n• Includes 50% of state government seats and 100% of private medical college seats within that state.\n\n• Only candidates with state domicile or eligibility can participate.\n\n• Candidates may participate in both AIQ and State Quota counselling sequentially per specified resignation deadlines and MCC protocols"
+    },
+    {
+      "id": "step-by-step-process",
+      "type": "heading",
+      "title": "3. Step-by-Step NEET PG 2025 Counselling Process",
+      "level": 2
+    },
+    {
+      "id": "step-1",
+      "type": "heading",
+      "title": "Step 1: Registration and Fee Payment",
+      "level": 3
+    },
+    {
+      "id": "step-1-content",
+      "type": "paragraph",
+      "content": "AIQ counselling registration occurs through MCC.nic.in; State Quota registration is conducted through the respective state counselling authority portals.\n\nRegistration requires the provision of NEET PG credentials and payment of a non-refundable registration fee plus a refundable security deposit as specified in the MCC prospectus.\n\nPay the non-refundable registration fee and refundable security deposit.\n\nExample: For Deemed Universities, the security deposit is ₹2,00,000; for AIQ, it's ₹25,000."
+    },
+    {
+      "id": "step-2",
+      "type": "heading",
+      "title": "Step 2: Choice Filling and Locking",
+      "level": 3
+    },
+    {
+      "id": "step-2-content",
+      "type": "paragraph",
+      "content": "Choice filling determines the final seat allocation outcome through candidate preference prioritization across available colleges and specialties.\n\nCandidates may prioritize available colleges and specialties through the choice-filling interface; the system processes preferences sequentially per seat availability.\n\nChoices can be rearranged and modified before the deadline.\n\nChoice locking is mandatory for participation; system processes only finalized, locked preferences during allotment"
+    },
+    {
+      "id": "choice-filling-tips",
+      "type": "heading",
+      "title": "Tips for Smart Choice Filling",
+      "level": 3
+    },
+    {
+      "id": "choice-filling-tips-list",
+      "type": "list",
+      "items": [
+        "Always arrange colleges in the order of your preference, not rank.",
+        "Use the previous year's cutoff data and seat matrix to make realistic choices.",
+        "Include a mix of dream, moderate, and safe options.",
+        "Never copy someone else's list; personalize based on your rank, category, and preferences.",
+        "Once locked, choices cannot be changed, so double-check before submission."
+      ]
+    },
+    {
+      "id": "step-3",
+      "type": "heading",
+      "title": "Step 3: Seat Allotment Result",
+      "level": 3
+    },
+    {
+      "id": "step-3-content",
+      "type": "paragraph",
+      "content": "Following the choice filling deadline, MCC processes allotments sequentially based on NEET PG rank, category eligibility, filled preferences, and institutional seat availability.\n\nYou can check your seat allotment result by logging in to the portal. The provisional and final allotment letters are released separately.\n\nAfter seat allotment, candidates must report to the assigned institutions or resign from participation in subsequent counselling rounds."
+    },
+    {
+      "id": "step-4",
+      "type": "heading",
+      "title": "Step 4: Reporting and Document Verification",
+      "level": 3
+    },
+    {
+      "id": "step-4-content",
+      "type": "paragraph",
+      "content": "Reporting requires downloading the allotment letter and submission of original documents to the assigned institution within specified timelines.\n\nRequired documentation for reporting includes NEET PG scorecard, MBBS degree/provisional certificate, internship completion certificate, medical council registration, identity proof, and category certificates (if applicable).\n\nAfter verification, your admission gets confirmed, and you can join the academic session."
+    },
+    {
+      "id": "counselling-rounds",
+      "type": "heading",
+      "title": "4. NEET PG 2025 Counselling Rounds",
+      "level": 2
+    },
+    {
+      "id": "counselling-rounds-intro",
+      "type": "paragraph",
+      "content": "There are multiple rounds in both AIQ and state counselling:"
+    },
+    {
+      "id": "counselling-rounds-table",
+      "type": "table",
+      "table": {
+        "headers": ["Round", "Description"],
+        "rows": [
+          ["Round 1", "Initial seat allotment based on registered candidates."],
+          ["Round 2", "Fresh registration allowed; candidates who didn't get seats earlier can apply."],
+          ["Mop-Up Round", "For vacant seats after Round 2, commonly for Deemed/Private colleges."],
+          ["Stray Vacancy Round", "Final round: allotted directly by colleges from the leftover list."]
+        ]
+      }
+    },
+    {
+      "id": "counselling-rounds-note",
+      "type": "paragraph",
+      "content": "Note: If you don't join the seat after allotment, you may lose your security deposit and eligibility for further rounds, depending on the rules."
+    },
+    {
+      "id": "aiq-vs-state",
+      "type": "heading",
+      "title": "5. AIQ vs State Quota: What's the Difference?",
+      "level": 2
+    },
+    {
+      "id": "aiq-vs-state-table",
+      "type": "table",
+      "table": {
+        "headers": ["Criteria", "All India Quota (AIQ)", "State Quota"],
+        "rows": [
+          ["Conducted by", "MCC", "State counselling authorities"],
+          ["Seat Coverage", "50% of govt. colleges + 100% of deemed & central universities", "50% of govt. colleges + 100% of private colleges"],
+          ["Eligibility", "All India candidates", "State domicile/eligibility only"],
+          ["Portal", "mcc.nic.in", "State-specific websites"],
+          ["Rounds", "4 (including mop-up & stray)", "Varies by state"],
+          ["Examples", "AIIMS, GMCs under AIQ", "KEA (Karnataka), TN Medical (Tamil Nadu), etc."]
+        ]
+      }
+    },
+    {
+      "id": "nri-quota",
+      "type": "heading",
+      "title": "6. NRI Quota and Deemed University Seats",
+      "level": 2
+    },
+    {
+      "id": "nri-quota-content",
+      "type": "paragraph",
+      "content": "If you are applying under the NRI quota, you must:\n\n• Produce an NRI certificate from the Indian Embassy.\n\n• Provide valid proof of relationship (parent/sibling/guardian).\n\n• Submit passport copies, visa details, and sponsor declaration.\n\nDeemed universities reserve 15%–20% seats for NRI candidates. The MCC NEET PG counselling handles the NRI quota for these colleges, so make sure all documents are uploaded before the verification deadline."
+    },
+    {
+      "id": "common-mistakes",
+      "type": "heading",
+      "title": "7. Common Mistakes to Avoid During Choice Filling",
+      "level": 2
+    },
+    {
+      "id": "common-mistakes-list",
+      "type": "list",
+      "items": [
+        "Filling choices in random order without checking previous cutoffs.",
+        "Not locking choices before the deadline.",
+        "Ignoring college bond details and stipend structure.",
+        "Forgetting to check seat matrix updates.",
+        "Missing deadlines for reporting or document upload."
+      ]
+    },
+    {
+      "id": "common-mistakes-tip",
+      "type": "paragraph",
+      "content": "Tip: Always take screenshots and save PDFs of every step (registration, choice filling, payment, confirmation) for safety."
+    },
+    {
+      "id": "key-documents",
+      "type": "heading",
+      "title": "8. Key Documents Required for NEET PG 2025 Counselling",
+      "level": 2
+    },
+    {
+      "id": "key-documents-table",
+      "type": "table",
+      "table": {
+        "headers": ["Document Name", "Purpose"],
+        "rows": [
+          ["NEET PG Admit Card & Scorecard", "Identity & eligibility proof"],
+          ["MBBS Marksheets & Degree", "Academic qualification"],
+          ["Internship Completion Certificate", "Eligibility for registration"],
+          ["Medical Council Registration", "Proof of license"],
+          ["Identity Proof (Aadhaar/PAN/Passport)", "Personal verification"],
+          ["Caste/Category Certificate", "Reservation verification"],
+          ["NRI Certificate (if applicable)", "NRI quota eligibility"]
+        ]
+      }
+    },
+    {
+      "id": "key-documents-note",
+      "type": "paragraph",
+      "content": "Keep both originals and photocopies ready before reporting to avoid last-minute delays."
+    },
+    {
+      "id": "seat-matrix-cutoff",
+      "type": "heading",
+      "title": "9. Seat Matrix and Cutoff Insights",
+      "level": 2
+    },
+    {
+      "id": "seat-matrix-cutoff-content",
+      "type": "paragraph",
+      "content": "Every year, MCC and state authorities publish a seat matrix showing the number of available seats by college, branch, and category. This helps candidates plan their choice-filling strategy effectively.\n\nFor NEET PG 2025:\n\n• AIQ seat matrix → MCC official site.\n\n• State seat matrix → respective state counselling sites.\n\nPrevious year's cutoff trends show:\n\n• Top clinical branches (like Radiology, Dermatology, Medicine) close early in AIQ Round 1.\n\n• Moderate branches (like Anesthesia, Pediatrics) are often available till Round 2 or Mop-Up. Analyzing these trends ensures informed decision-making."
+    },
+    {
+      "id": "after-allotment",
+      "type": "heading",
+      "title": "10. What Happens After Seat Allotment?",
+      "level": 2
+    },
+    {
+      "id": "after-allotment-content",
+      "type": "paragraph",
+      "content": "Once you confirm your seat:\n\n• You'll receive a joining letter from the allotted college.\n\n• Report before the last date with all required documents.\n\n• Pay the tuition and security fees.\n\n• Begin your residency program as per the NMC schedule.\n\nIf you wish to upgrade to a better seat in the next round:\n\n• Choose \"Willing to Upgrade\" during reporting.\n\n• Participate again without re-registering."
+    },
+    {
+      "id": "choice-filling-importance",
+      "type": "heading",
+      "title": "11. Why the Choice Filling Step Matters Most",
+      "level": 2
+    },
+    {
+      "id": "choice-filling-importance-content",
+      "type": "paragraph",
+      "content": "The choice of filling in NEET PG counselling decides your specialty, college, and often your long-term career path. It's more than a formality; it's your strategic moment.\n\nRemember:\n\n• Don't rush; analyze, compare, and prioritize.\n\n• Refer to college cutoffs, stipend structure, and bond clauses.\n\n• Consider location, patient load, and faculty quality while ranking options.\n\nRight strategy = Dream branch + Great college."
+    },
+    {
+      "id": "conclusion",
+      "type": "heading",
+      "title": "Conclusion: Your Roadmap to a Successful NEET PG Counselling 2025",
+      "level": 2
+    },
+    {
+      "id": "conclusion-content",
+      "type": "paragraph",
+      "content": "The NEET PG 2025 counselling process can feel overwhelming, but with proper planning and understanding of choice filling, seat allotment, and reporting, you can confidently navigate your way toward your desired postgraduate seat.\n\nSuccessful counselling participation requires timely registration, comprehensive choice prioritization, deadline adherence, seat matrix monitoring, and complete documentation preparation.\n\nWhether it's MCC NEET PG All India Quota or state quota counselling, every step counts. The key to success lies in being informed, strategic, and proactive.\n\nComplete procedural information, seat matrices, and official timelines are published through the MCC portal (mcc.nic.in) and state counselling authority websites."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "5 Concise FAQs",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1: When is choice filling and what is the deadline?",
+          "answer": "A: Choice filling occurs after registration closes. November 5, 2025, 11:55 PM is the choice filling deadline for AIQ Round 1. State deadlines vary per state counselling authority."
+        },
+        {
+          "question": "Q2: Can I change my choices after locking?",
+          "answer": "A: No. Once choices are locked, they cannot be modified. All changes must occur prior to locking deadline. Choice locking is irreversible."
+        },
+        {
+          "question": "Q3: What is the difference between AIQ and State Quota counselling?",
+          "answer": "A: AIQ: 50% govt seats nationwide + 100% deemed/central universities. State Quota: 50% govt + 100% private seats within state. AIQ eligibility is all-India; State Quota requires domicile."
+        },
+        {
+          "question": "Q4: What happens if I don't report after seat allotment?",
+          "answer": "A: Forfeiture of refundable security deposit and ineligibility for subsequent counselling rounds. Non-reporting constitutes automatic resignation."
+        },
+        {
+          "question": "Q5: Where can I find seat matrices and previous year cutoffs?",
+          "answer": "A: MCC official portal (mcc.nic.in) publishes AIQ seat matrices. State counselling authorities (KEA, TN Medical, etc.) publish state-specific matrices before each round."
+        }
+      ]
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+         "NEET PG Counselling",
+  "NEET PG 2025 Counselling",
+  "NEET PG Counselling 2025",
+  "MCC NEET PG",
+  "NEET PG Counselling Schedule",
+  "MCC NEET PG Counselling",
+  "NEET PG Counselling Registration",
+  "AIQ NEET PG Counselling",
+  "Apply for NEET PG Counselling",
+  "Career Counselling NEET PG",
+  "Choice Filling in NEET PG",
+  "Counselling for NEET PG",
+  "Counselling Procedure for NEET PG",
+  "MCC PG Medical Counselling",
+  "NEET PG Seat Allotment",
+  "NEET PG Choice Filling",
+  "NEET PG Seat Matrix",
+  "NEET PG Career Counselling",
+  "NEET PG 2nd Round Counselling",
+  "NEET PG 3rd Round Counselling",
+  "NEET PG Counselling Round 1",
+  "NEET PG Counselling Application Form",
+  "NEET PG Counselling Result",
+  "NEET PG Counselling Round 2",
+  "NEET PG Counselling Round 3",
+  "NEET PG Counselling Seat Allotment",
+  "NEET PG Counselling Seat Matrix",
+  "NEET PG Mop Up Counselling",
+  "NEET PG Mop Up Registration",
+  "NEET PG Mop Up Result",
+  "NEET PG State Counselling",
+  "NEET PG Stray Round",
+  "NEET PG State Quota",
+  "NEET PG Vacant Seats",
+  "State Quota Counselling",
+  "PG Medical Counselling",
+  "PG Medical Counselling Schedule",
+  "Seat Matrix NEET PG",
+  "State Counselling for NEET PG"
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    }
+  ]
 }
 
 ];
