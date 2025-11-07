@@ -39,22 +39,40 @@ const ForgotPasswordPage = () => {
       } else {
         setError(response.data.error || "Failed to send reset email. Please try again.");
       }
-    } catch (error: any) {
-      console.error("Forgot password error:", error);
+  //   } catch (error: any) {
+  //     console.error("Forgot password error:", error);
       
-      if (error.response?.data?.error) {
-        setError(error.response.data.error);
-      } else if (error.response?.data?.detail) {
-        setError(error.response.data.detail);
-      } else if (error.message) {
-        setError(error.message);
-      } else {
-        setError("Network error. Please check your connection and try again.");
-      }
-    } finally {
-      setIsLoading(false);
-    }
-  };
+  //     if (error.response?.data?.error) {
+  //       setError(error.response.data.error);
+  //     } else if (error.response?.data?.detail) {
+  //       setError(error.response.data.detail);
+  //     } else if (error.message) {
+  //       setError(error.message);
+  //     } else {
+  //       setError("Network error. Please check your connection and try again.");
+  //     }
+  //   } finally {
+  //     setIsLoading(false);
+  //   }
+  // };
+     } catch (error: any) {
+  console.error("Forgot password error:", error);
+  
+  // ✅ ADD THIS - Check if it's a timeout error
+  if (error.code === 'ECONNABORTED' || error.message.includes('timeout')) {
+    setError("Please wait a few seconds and try again.");
+  } else if (error.response?.data?.error) {
+    setError(error.response.data.error);
+  } else if (error.response?.data?.detail) {
+    setError(error.response.data.detail);
+  } else if (error.message) {
+    setError(error.message);
+  } else {
+    setError("Network error. Please check your connection and try again.");
+  }
+} finally {
+  setIsLoading(false);
+}
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 flex items-center justify-center p-4">

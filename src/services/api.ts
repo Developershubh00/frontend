@@ -8,7 +8,7 @@ const STATIC_URL = currentConfig.staticUrl;
 // Create axios instance with default configuration
 const api = axios.create({
   baseURL: BASE_URL,
-  timeout: 10000,
+  timeout: 120000,
   headers: {
     "Content-Type": "application/json",
   },
