@@ -12168,6 +12168,446 @@ export const blogPosts: BlogPost[] = [
       "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
     }
   ]
+},
+{
+  "id": 35,
+  "title": "UP NEET PG 2025 Counselling: Step-by-Step Guide for MD/MS/MDS Admissions in Uttar Pradesh",
+  "slug": "up-neet-pg-2025-counselling-guide-md-ms-mds-admissions",
+  "excerpt": "Complete guide to UP NEET PG 2025 counselling covering eligibility criteria, registration process, choice filling, seat allotment, bond rules, and refund policies for MD/MS/MDS admissions in Uttar Pradesh.",
+  "featured_image": "https://cdn.dribbble.com/userupload/45612479/file/c2c052da3cab250240a623e8c2020f45.png?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-purple-100 text-purple-800"
+  },
+  "tags": [
+    "NEET PG",
+    "UP NEET PG",
+    "UP State Counselling",
+    "NEET PG 2025",
+    "MD MS Admissions",
+    "MDS Admissions",
+    "UP Medical Counselling",
+    "State Quota"
+  ],
+  "published_date": "2025-11-05",
+  "read_time": 14,
+  "meta_description": "UP NEET PG 2025 Counselling simplified! Know eligibility, registration, choice filling, and seat allotment for MD, MS, and MDS admissions in Uttar Pradesh.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "The Uttar Pradesh (UP) NEET PG counselling, you know what, is one of the most important steps for postgraduate medical aspirants who are desperately aiming for MD, MS, Diploma, or MDS courses in state and private medical colleges, respectively. This has been conducted via the official portal https://upneet.gov.in. This has been determined that the admissions are based on NEET PG/MDS results, eligibility, home status, and the candidate's personal preferences.\n\nThis complete guide perfectly explains everything about the UP NEET PG 2025 counselling, which starts from the candidate's eligibility criteria and their registration steps to bond rules, refund policies, and the entire counselling procedure."
+    },
+    {
+      "id": "eligibility-criteria",
+      "type": "heading",
+      "title": "Eligibility Criteria for UP NEET PG Counselling",
+      "level": 2
+    },
+    {
+      "id": "eligibility-intro",
+      "type": "paragraph",
+      "content": "If you want to participate in UP NEET PG counselling 2025 for both government and private quota seats, candidates must satisfy their following conditions:"
+    },
+    {
+      "id": "qualification-exam",
+      "type": "heading",
+      "title": "A. Qualification of the Entrance Exam",
+      "level": 3
+    },
+    {
+      "id": "qualification-exam-content",
+      "type": "paragraph",
+      "content": "Candidates must be qualified for the NEET PG (for MD/MS/Diploma) or NEET MDS (for Dental PG), and the rank of these must be officially declared by NBEMS/NBE within the specified timeframe, especially to apply for NEET PG counselling registration."
+    },
+    {
+      "id": "percentile-criteria",
+      "type": "heading",
+      "title": "B. NEET PG Percentile Criteria for UP",
+      "level": 3
+    },
+    {
+      "id": "percentile-table",
+      "type": "table",
+      "headers": ["Category", "Minimum Percentile Cutoff"],
+      "rows": [
+        ["SC, BC, SC, ST, UR-PWD, EWS-PWD", "40 percentile"],
+        ["UR, EWS", "50 percentile"]
+      ]
+    },
+    {
+      "id": "percentile-note",
+      "type": "paragraph",
+      "content": "Candidates who have 40–50 percentiles are eligible only for reserved category seats."
+    },
+    {
+      "id": "educational-qualification",
+      "type": "heading",
+      "title": "C. Educational Qualification & Internship",
+      "level": 3
+    },
+    {
+      "id": "educational-qualification-content",
+      "type": "paragraph",
+      "content": "This is relevant for candidates who must hold an MBBS or BDS degree from a recognized institution, and they must have completed the one-year compulsory rotating internship by the authorized cut-off date (e.g., August 15, 2025).\n\nForeign Medical Graduates (FMGs) must have:"
+    },
+    {
+      "id": "fmg-requirements",
+      "type": "list",
+      "items": [
+        "For those who have cleared the FMGE (Foreign Medical Graduate Examination).",
+        "They should have a valid registration with the National or State Medical Council."
+      ]
+    },
+    {
+      "id": "domicile-conditions",
+      "type": "heading",
+      "title": "D. Domicile & State Quota Conditions",
+      "level": 3
+    },
+    {
+      "id": "domicile-conditions-content",
+      "type": "paragraph",
+      "content": "For state quota NEET PG counselling in UP, candidates must:"
+    },
+    {
+      "id": "domicile-conditions-list",
+      "type": "list",
+      "items": [
+        "It should be lodged in Uttar Pradesh.",
+        "Applicants must have completed their MBBS from a recognized UP medical college."
+      ]
+    },
+    {
+      "id": "domicile-example",
+      "type": "paragraph",
+      "content": "Example: Only candidates who have done their MBBS in Uttar Pradesh are highly eligible for government or private seats of the college under the state quota. But those who are done with Non-UP MBBS graduates can apply only for private seats; for them, there are no government quota seats."
+    },
+    {
+      "id": "general-criteria",
+      "type": "heading",
+      "title": "E. Other General Criteria",
+      "level": 3
+    },
+    {
+      "id": "general-criteria-list",
+      "type": "list",
+      "items": [
+        "Must be an Indian citizen (or eligible as per the NEET PG brochure).",
+        "Must hold a valid registration with the National or State Medical Council.",
+        "Should not be enrolled in another PG course unless formally resigned."
+      ]
+    },
+    {
+      "id": "counselling-procedure",
+      "type": "heading",
+      "title": "UP NEET PG Counselling Procedure: Step-by-Step",
+      "level": 2
+    },
+    {
+      "id": "counselling-procedure-intro",
+      "type": "paragraph",
+      "content": "You know that the overall NEET PG counselling procedure for Uttar Pradesh has been conducted online. Below is a simplified breakdown of the process:"
+    },
+    {
+      "id": "step-1",
+      "type": "heading",
+      "title": "Step 1: Notification / Brochure Release",
+      "level": 3
+    },
+    {
+      "id": "step-1-content",
+      "type": "paragraph",
+      "content": "Candidates must know that the Directorate of Medical Education releases a brochure that has the complete NEET PG counselling schedule, along with all eligibility norms, seat matrix, and fee details. They just have to read it thoroughly before doing the registration."
+    },
+    {
+      "id": "step-2",
+      "type": "heading",
+      "title": "Step 2: Registration / Candidate Login",
+      "level": 3
+    },
+    {
+      "id": "step-2-content",
+      "type": "paragraph",
+      "content": "Candidates have to visit upneet.gov.in and register using:"
+    },
+    {
+      "id": "step-2-list",
+      "type": "list",
+      "items": [
+        "The candidate's NEET PG Roll Number",
+        "Their respective rank and Category",
+        "Their personal and academic details"
+      ]
+    },
+    {
+      "id": "step-2-note",
+      "type": "paragraph",
+      "content": "Then it will be a complete registration just by paying the non-refundable registration fee, which is ₹3000, to proceed with the NEET PG counselling application form."
+    },
+    {
+      "id": "step-3",
+      "type": "heading",
+      "title": "Step 3: Security Deposit Payment",
+      "level": 3
+    },
+    {
+      "id": "step-3-content",
+      "type": "paragraph",
+      "content": "Simply, the refundable security deposits fluctuate by seat type: ₹30,000 for the government seats. On the other hand, the ₹2,00,000 private seats, per 2025 brochure."
+    },
+    {
+      "id": "step-4",
+      "type": "heading",
+      "title": "Step 4: Document Upload & Verification",
+      "level": 3
+    },
+    {
+      "id": "step-4-content",
+      "type": "paragraph",
+      "content": "Upload all required documents:"
+    },
+    {
+      "id": "step-4-list",
+      "type": "list",
+      "items": [
+        "NEET PG 2025 Scorecard",
+        "MBBS/BDS Degree and Mark Sheets",
+        "Internship Completion Certificate",
+        "State Medical Council Registration",
+        "Domicile and Category Certificates",
+        "NRI Documents (if applicable)"
+      ]
+    },
+    {
+      "id": "step-4-note",
+      "type": "paragraph",
+      "content": "Verification is conducted by nodal centers. Only verified candidates are eligible for choice filling."
+    },
+    {
+      "id": "step-5",
+      "type": "heading",
+      "title": "Step 5: Choice Filling & Locking",
+      "level": 3
+    },
+    {
+      "id": "step-5-content",
+      "type": "paragraph",
+      "content": "This is the most crucial part of the choice filling in the NEET PG process. Candidates must carefully select and prioritize their desired courses and colleges that are based on the available NEET PG counselling seat matrix.\n\nOverall, once candidates' choices have been finalized, they just lock them before the deadline coming up. Although it is just a reminder that locked choices cannot be modified later, so do it earlier."
+    },
+    {
+      "id": "step-6",
+      "type": "heading",
+      "title": "Step 6: Seat Allotment / Result",
+      "level": 3
+    },
+    {
+      "id": "step-6-content",
+      "type": "paragraph",
+      "content": "The NEET PG counselling result is released online based on:"
+    },
+    {
+      "id": "step-6-list",
+      "type": "list",
+      "items": [
+        "Their NEET PG Rank, their Category, the Reservation norms, the candidate's Seat availability, and the Candidate's personal preferences."
+      ]
+    },
+    {
+      "id": "step-6-note",
+      "type": "paragraph",
+      "content": "They can easily download their seat allotment letter from the official portal."
+    },
+    {
+      "id": "step-7",
+      "type": "heading",
+      "title": "Step 7: Reporting & Joining",
+      "level": 3
+    },
+    {
+      "id": "step-7-content",
+      "type": "paragraph",
+      "content": "Report physically to the allotted college with the candidate's original document, the allotment letter, and the final fee payment proof."
+    },
+    {
+      "id": "step-8",
+      "type": "heading",
+      "title": "Step 8: Subsequent Rounds / Mop-up / Stray Vacancy",
+      "level": 3
+    },
+    {
+      "id": "step-8-content",
+      "type": "paragraph",
+      "content": "After Round 1 and Round 2 happened, if the candidate's seats remain empty, a mop-up round NEET PG and stray counselling NEET PG are conducted.\n\nThe registered candidates who have already paid the security deposit can participate again as well. The mop-up NEET PG result, cutoff, and seat matrix are updated on the official portal; they just have to check properly."
+    },
+    {
+      "id": "refund-policy",
+      "type": "heading",
+      "title": "Refund Policy Explained",
+      "level": 2
+    },
+    {
+      "id": "refund-policy-intro",
+      "type": "paragraph",
+      "content": "The refund policy primarily concerns the security deposit made during registration."
+    },
+    {
+      "id": "refund-table",
+      "type": "table",
+      "headers": ["Situation", "Refund Eligibility"],
+      "rows": [
+        ["Registered but not allotted any seat", "Full refund"],
+        ["Allotted a seat but did not report/join", "Deposit forfeited"],
+        ["Participated in later rounds but not allotted", "Refund eligible"],
+        ["Failed to meet verification/joining criteria", "No refund"]
+      ]
+    },
+    {
+      "id": "refund-notes",
+      "type": "list",
+      "items": [
+        "Registration fees are non-refundable.",
+        "Refunds are processed via the same bank account used during registration.",
+        "Refund status can be tracked through upneet.gov.in → Refund Status."
+      ]
+    },
+    {
+      "id": "bond-obligation",
+      "type": "heading",
+      "title": "Bond and Service Obligation in UP",
+      "level": 2
+    },
+    {
+      "id": "bond-obligation-intro",
+      "type": "paragraph",
+      "content": "For UP NEET PG counselling under the state quota, specific service obligations apply in government institutes."
+    },
+    {
+      "id": "bond-table",
+      "type": "table",
+      "headers": ["Course Type", "Service Bond Period", "Penalty for Non-Completion"],
+      "rows": [
+        ["MD/MS/DNB (Govt Institute)", "2 Years", "₹40 lakh"],
+        ["Diploma (Govt Institute)", "2 Years", "₹20 lakh"],
+        ["IMS BHU, AMU (Selective)", "No Bond", "—"]
+      ]
+    },
+    {
+      "id": "bond-content",
+      "type": "paragraph",
+      "content": "The bond usually involves dynamic serving in state-run hospitals, CHCs, or district hospitals after candidate have completed their PG course.\n\nFailure to serve or termination in their mid-course may lead to:"
+    },
+    {
+      "id": "bond-consequences",
+      "type": "list",
+      "items": [
+        "There is an imposition of the bond penalty.",
+        "Security deposit surrender.",
+        "They will be disqualified from future NEET PG state counselling or AIQ NEET PG counselling rounds."
+      ]
+    },
+    {
+      "id": "final-thoughts",
+      "type": "heading",
+      "title": "Final Thoughts",
+      "level": 2
+    },
+    {
+      "id": "final-thoughts-content",
+      "type": "paragraph",
+      "content": "The UP NEET PG counselling process is more than just a registration form — it's a structured pathway to your postgraduate dream seat. From mop-up round seat allotment to stray round vacancy filling, every phase matters.\n\nWhether you're exploring UP state NEET PG counselling or participating in MCC PG medical counselling, stay updated, make informed decisions, and fill your choices wisely. Your journey to specialization begins here."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "Frequently Asked Questions (FAQs)",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1. I did my MBBS outside Uttar Pradesh and don't have UP domicile. Can I still apply?",
+          "answer": "Ans: Yes. You can apply for private PG seats in Uttar Pradesh under the UP NEET PG counselling, but not for government state-quota seats."
+        },
+        {
+          "question": "Q2. My internship ends after the cut-off date. Am I eligible?",
+          "answer": "Ans: No. The internship must be completed before the cut-off date (e.g., 15 August 2025). Candidates completing later are not eligible for that year's counselling."
+        },
+        {
+          "question": "Q3. What are the registration fee and security deposit amounts?",
+          "answer": "Ans: As per recent years: Registration Fee: ₹3,000 for Rounds 1 & 2, ₹2,000 for mop-up rounds. Security Deposit: Varies by seat type (government/private). Always verify the latest brochure for updated figures."
+        },
+        {
+          "question": "Q4. What if I register but don't get a seat?",
+          "answer": "Ans: The security deposit is refundable, provided you meet all refund process conditions."
+        },
+        {
+          "question": "Q5. I got an allotment but couldn't report on time. Will I get a refund?",
+          "answer": "Ans: Usually, no. Failure to report or complete admission formalities results in forfeiture of the deposit."
+        }
+      ]
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "up neet pg counselling",
+        "neet pg counselling",
+        "up neet pg 2025 counselling",
+        "up neet pg counselling 2025",
+        "neet pg counselling mop up",
+        "neet pg counselling schedule",
+        "mcc neet pg counselling",
+        "neet pg counselling registration",
+        "aiq neet pg counselling",
+        "apply for neet pg counselling",
+        "career counselling neet pg",
+        "choice filling in neet pg",
+        "counselling procedure for neet pg",
+        "mcc pg medical counselling",
+        "mop up counselling neet pg",
+        "mop up neet pg result",
+        "mop up round neet pg",
+        "mop up round neet pg cut off",
+        "mop up round neet pg seat matrix",
+        "neet pg counselling procedure",
+        "neet pg counselling result",
+        "neet pg counselling round 1",
+        "neet pg counselling round 2",
+        "neet pg counselling seat matrix",
+        "neet pg career counselling",
+        "neet pg choice filling",
+        "neet pg counselling application form",
+        "neet pg counselling seat allotment",
+        "neet pg counselling seat matrix",
+        "neet pg special round",
+        "neet pg state counselling",
+        "neet pg stray round",
+        "neet pg vacant seats",
+        "procedure for neet pg counselling",
+        "state neet pg counselling",
+        "stray counselling neet pg",
+        "up neet pg mop up round",
+        "up neet pg seat matrix",
+        "up state neet pg counselling"
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    }
+  ]
 }
 
 ];
