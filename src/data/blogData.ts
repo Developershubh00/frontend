@@ -12174,7 +12174,7 @@ export const blogPosts: BlogPost[] = [
   "title": "UP NEET PG 2025 Counselling: Step-by-Step Guide for MD/MS/MDS Admissions in Uttar Pradesh",
   "slug": "up-neet-pg-2025-counselling-step-by-step-guide-md-ms-mds-admissions-uttar-pradesh",
   "excerpt": "UP NEET PG 2025 Counselling simplified! Know eligibility, registration, choice filling, and seat allotment for MD, MS, and MDS admissions in Uttar Pradesh.",
-  "featured_image": "https://cdn.dribbble.com/userupload/45612479/file/c2c052da3cab250240a623e8c2020f45.png",
+  "featured_image": "https://cdn.dribbble.com/userupload/45612479/file/c2c052da3cab250240a623e8c2020f45.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
     "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
@@ -12234,7 +12234,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "percentile-table",
       "type": "table",
-      "content": {
+      "table": {
         "headers": ["Category", "Minimum Percentile Cutoff"],
         "rows": [
           ["SCBC, SC, ST, UR-PWD, EWS-PWD", "40 percentile"],
@@ -12256,7 +12256,15 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "educational-qualification-content",
       "type": "paragraph",
-      "content": "This is relevant for candidates who must hold an MBBS or BDS degree from a recognized institution, and they must have completed the one-year compulsory rotating internship by the authorized cut-off date (e.g., August 15, 2025).\n\nForeign Medical Graduates (FMGs) must have:\n\n• For those who have cleared the FMGE (Foreign Medical Graduate Examination).\n\n• They should have a valid registration with the National or State Medical Council."
+      "content": "This is relevant for candidates who must hold an MBBS or BDS degree from a recognized institution, and they must have completed the one-year compulsory rotating internship by the authorized cut-off date (e.g., August 15, 2025).\n\nForeign Medical Graduates (FMGs) must have:"
+    },
+    {
+      "id": "fmg-requirements",
+      "type": "list",
+      "items": [
+        "For those who have cleared the FMGE (Foreign Medical Graduate Examination).",
+        "They should have a valid registration with the National or State Medical Council."
+      ]
     },
     {
       "id": "domicile-state-quota",
@@ -12267,7 +12275,20 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "domicile-state-quota-content",
       "type": "paragraph",
-      "content": "For state quota NEET PG counselling in UP, candidates must:\n\n• It should be lodged in Uttar Pradesh.\n\n• Applicants must have completed their MBBS from a recognized UP medical college.\n\nExample: Only candidates who have done their MBBS in Uttar Pradesh are highly eligible for government or private seats of the college under the state quota. But those who are done with Non-UP MBBS graduates can apply only for private seats; for them, there are no government quota seats."
+      "content": "For state quota NEET PG counselling in UP, candidates must:"
+    },
+    {
+      "id": "domicile-requirements",
+      "type": "list",
+      "items": [
+        "It should be lodged in Uttar Pradesh.",
+        "Applicants must have completed their MBBS from a recognized UP medical college."
+      ]
+    },
+    {
+      "id": "domicile-example",
+      "type": "paragraph",
+      "content": "Example: Only candidates who have done their MBBS in Uttar Pradesh are highly eligible for government or private seats of the college under the state quota. But those who are done with Non-UP MBBS graduates can apply only for private seats; for them, there are no government quota seats."
     },
     {
       "id": "other-general-criteria",
@@ -12276,9 +12297,13 @@ export const blogPosts: BlogPost[] = [
       "level": 3
     },
     {
-      "id": "other-general-criteria-content",
-      "type": "paragraph",
-      "content": "• Must be an Indian citizen (or eligible as per the NEET PG brochure).\n\n• Must hold a valid registration with the National or State Medical Council.\n\n• Should not be enrolled in another PG course unless formally resigned."
+      "id": "other-general-criteria-list",
+      "type": "list",
+      "items": [
+        "Must be an Indian citizen (or eligible as per the NEET PG brochure).",
+        "Must hold a valid registration with the National or State Medical Council.",
+        "Should not be enrolled in another PG course unless formally resigned."
+      ]
     },
     {
       "id": "counselling-procedure",
@@ -12311,7 +12336,21 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "step-2-content",
       "type": "paragraph",
-      "content": "Candidates have to visit upneet.gov.in and register using:\n\n• The candidate's NEET PG Roll Number\n\n• Their respective rank and Category\n\n• Their personal and academic details\n\nThen it will be a complete registration just by paying the non-refundable registration fee, which is ₹3000, to proceed with the NEET PG counselling application form."
+      "content": "Candidates have to visit upneet.gov.in and register using:"
+    },
+    {
+      "id": "step-2-requirements",
+      "type": "list",
+      "items": [
+        "The candidate's NEET PG Roll Number",
+        "Their respective rank and Category",
+        "Their personal and academic details"
+      ]
+    },
+    {
+      "id": "step-2-fee",
+      "type": "paragraph",
+      "content": "Then it will be a complete registration just by paying the non-refundable registration fee, which is ₹3000, to proceed with the NEET PG counselling application form."
     },
     {
       "id": "step-3",
@@ -12333,7 +12372,24 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "step-4-content",
       "type": "paragraph",
-      "content": "Upload all required documents:\n\n• NEET PG 2025 Scorecard\n\n• MBBS/BDS Degree and Mark Sheets\n\n• Internship Completion Certificate\n\n• State Medical Council Registration\n\n• Domicile and Category Certificates\n\n• NRI Documents (if applicable)\n\nVerification is conducted by nodal centers. Only verified candidates are eligible for choice filling."
+      "content": "Upload all required documents:"
+    },
+    {
+      "id": "step-4-documents",
+      "type": "list",
+      "items": [
+        "NEET PG 2025 Scorecard",
+        "MBBS/BDS Degree and Mark Sheets",
+        "Internship Completion Certificate",
+        "State Medical Council Registration",
+        "Domicile and Category Certificates",
+        "NRI Documents (if applicable)"
+      ]
+    },
+    {
+      "id": "step-4-verification",
+      "type": "paragraph",
+      "content": "Verification is conducted by nodal centers. Only verified candidates are eligible for choice filling."
     },
     {
       "id": "step-5",
@@ -12355,7 +12411,23 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "step-6-content",
       "type": "paragraph",
-      "content": "The NEET PG counselling result is released online based on:\n\n• Their NEET PG Rank\n\n• Their Category\n\n• The Reservation norms\n\n• The candidate's Seat availability\n\n• The Candidate's personal preferences\n\nThey can easily download their seat allotment letter from the official portal."
+      "content": "The NEET PG counselling result is released online based on:"
+    },
+    {
+      "id": "step-6-factors",
+      "type": "list",
+      "items": [
+        "Their NEET PG Rank",
+        "Their Category",
+        "The Reservation norms",
+        "The candidate's Seat availability",
+        "The Candidate's personal preferences"
+      ]
+    },
+    {
+      "id": "step-6-allotment",
+      "type": "paragraph",
+      "content": "They can easily download their seat allotment letter from the official portal."
     },
     {
       "id": "step-7",
@@ -12393,7 +12465,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "refund-table",
       "type": "table",
-      "content": {
+      "table": {
         "headers": ["Situation", "Refund Eligibility"],
         "rows": [
           ["Registered but not allotted any seat", "Full refund"],
@@ -12405,8 +12477,12 @@ export const blogPosts: BlogPost[] = [
     },
     {
       "id": "refund-notes",
-      "type": "paragraph",
-      "content": "• Registration fees are non-refundable.\n\n• Refunds are processed via the same bank account used during registration.\n\n• Refund status can be tracked through upneet.gov.in → Refund Status."
+      "type": "list",
+      "items": [
+        "Registration fees are non-refundable.",
+        "Refunds are processed via the same bank account used during registration.",
+        "Refund status can be tracked through upneet.gov.in → Refund Status."
+      ]
     },
     {
       "id": "bond-service",
@@ -12422,7 +12498,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "bond-table",
       "type": "table",
-      "content": {
+      "table": {
         "headers": ["Course Type", "Service Bond Period", "Penalty for Non-Completion"],
         "rows": [
           ["MD/MS/DNB (Govt Institute)", "2 Years", "₹40 lakh"],
@@ -12434,7 +12510,16 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "bond-details",
       "type": "paragraph",
-      "content": "The bond usually involves dynamic serving in state-run hospitals, CHCs, or district hospitals after candidate have completed their PG course.\n\nFailure to serve or termination in their mid-course may lead to:\n\n• There is an imposition of the bond penalty.\n\n• Security deposit surrender.\n\n• They will be disqualified from future NEET PG state counselling or AIQ NEET PG counselling rounds."
+      "content": "The bond usually involves dynamic serving in state-run hospitals, CHCs, or district hospitals after candidate have completed their PG course.\n\nFailure to serve or termination in their mid-course may lead to:"
+    },
+    {
+      "id": "bond-consequences",
+      "type": "list",
+      "items": [
+        "There is an imposition of the bond penalty.",
+        "Security deposit surrender.",
+        "They will be disqualified from future NEET PG state counselling or AIQ NEET PG counselling rounds."
+      ]
     },
     {
       "id": "final-thoughts",
