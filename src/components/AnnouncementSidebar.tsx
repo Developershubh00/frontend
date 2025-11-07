@@ -812,6 +812,15 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: ' https://mcc.nic.in/pg-medical-counselling/',
       source: 'mcc.nic.in',
     },
+     {
+      id: 62,
+      title: "NEET PG 2025 Round 1 Choice Filling Extended Indefinitely - MCC Revises Seat Matrix After 169 DNB Seats Withdrawn",
+      date: "2025-11-06T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: ' https://mcc.nic.in/pg-medical-counselling/',
+      source: 'mcc.nic.in',
+    },
 
 
 
