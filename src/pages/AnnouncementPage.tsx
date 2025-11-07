@@ -1674,6 +1674,18 @@ const AnnouncementPage: React.FC = () => {
       source: 'mcc.nic.in',
       created_at: "2025-11-06T08:00:00Z"
     },
+    {
+      id: 63,
+      title: "NEET PG Counselling 2025:",
+      content:"Rajasthan NEET PG Counselling 2025 Round 1 Schedule Released - Registration Opens November 7",
+      date: "2025-11-07T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: ' https://raj.nic.in/',
+      is_active: true,
+      source: 'raj.nic.in',
+      created_at: "2025-11-07T08:00:00Z"
+    },
 
 
 
