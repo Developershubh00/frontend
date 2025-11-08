@@ -609,7 +609,7 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
      },
      {
       id: 64,
-      title: "Supreme Court Orders NBE Answer Key Disclosure as NEET PG 2025 Round 1 Choice Filling Deadline Extended Until Further Notice – MCC Counselling Update",
+      title: "Supreme Court Orders NBE to Disclosure Answer Key Policy as NEET PG 2025 Round 1 Choice Filling Deadline Extended Until Further Notice – MCC Counselling Update",
       date: "2025-11-08T08:00:00Z",
       priority: 'high',
       category: 'NEET PG',

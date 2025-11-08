@@ -782,7 +782,7 @@ const AnnouncementPage: React.FC = () => {
     {
       id: 64,
       title: "NEET PG Counselling 2025:",
-      content:"Supreme Court Orders NBE Answer Key Disclosure as NEET PG 2025 Round 1 Choice Filling Deadline Extended Until Further Notice – MCC Counselling Update",
+      content:"Supreme Court Orders NBE to Disclosure Answer Key Policy as NEET PG 2025 Round 1 Choice Filling Deadline Extended Until Further Notice – MCC Counselling Update",
       date: "2025-11-08T08:00:00Z",
       priority: 'high',
       category: 'NEET PG',
