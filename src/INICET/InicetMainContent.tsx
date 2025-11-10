@@ -900,26 +900,26 @@ const InicetMainContent: React.FC = () => {
       onClick: () => navigate("/inicet/allotments"),
     },
     {
-      title: "Cutoff Ranks",
-      subtitle: "Category-wise Cutoffs",
+      title: "Allotments PG Jul-2025",
+      subtitle: "Session-wise Allotments",
       icon: TrendingUp,
       color: "bg-blue-500",
       onClick: () => navigate("/inicet/closing-ranks"),
     },
-    {
-      title: "Seat Matrix",
-      subtitle: "Available Seats",
-      icon: BarChart3,
-      color: "bg-indigo-500",
-      onClick: () => navigate("/inicet/seat-matrix"),
-    },
-    {
-      title: "Fee & Stipend",
-      subtitle: "Financial Details",
-      icon: Award,
-      color: "bg-purple-600",
-      onClick: () => navigate("/inicet/fee-stipend"),
-    },
+    // {
+    //   title: "Seat Matrix",
+    //   subtitle: "Available Seats",
+    //   icon: BarChart3,
+    //   color: "bg-indigo-500",
+    //   onClick: () => navigate("/inicet/seat-matrix"),
+    // },
+    // {
+    //   title: "Fee & Stipend",
+    //   subtitle: "Financial Details",
+    //   icon: Award,
+    //   color: "bg-purple-600",
+    //   onClick: () => navigate("/inicet/fee-stipend"),
+    // },
   ];
 
   // INICET Cutoff Data
