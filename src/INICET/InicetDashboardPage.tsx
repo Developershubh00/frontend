@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { useAuth } from "../contexts/AuthContext";
 import Header from "../components/Header";
-import Sidebar from "../components/Sidebar";
+import Sidebar from "./InicetSidebar";
 import InicetMainContent from "../INICET/InicetMainContent";
-import RightSidebar from "../components/RightSidebar";
+import RightSidebar from "./InicetRightSideBar";
 import MobileBottomNav from "../components/MobileBottomNav";
 import AiSensyWidget from "../components/AiSensyWidget";
 import { neetAPI, counsellingAPI } from "../services/api";
