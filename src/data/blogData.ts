@@ -12954,6 +12954,438 @@ export const blogPosts: BlogPost[] = [
       "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
     }
   ]
+},
+{
+  "id": 37,
+  "title": "Rajasthan NEET PG Counselling 2025: Step-by-Step Guide for Postgraduate Medical Admissions",
+  "slug": "rajasthan-neet-pg-counselling-2025-step-by-step-guide-postgraduate-medical-admissions",
+  "excerpt": "Rajasthan NEET PG Counselling 2025 simplifies postgraduate medical admissions with detailed steps on registration, choice filling, and seat allotment for aspirants.",
+  "featured_image": "https://cdn.dribbble.com/userupload/45643685/file/69d81c4ec633048c46d99c3a514c58de.png?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-purple-100 text-purple-800"
+  },
+  "tags": [
+    "Rajasthan NEET PG",
+    "NEET PG Counselling",
+    "NEET PG 2025",
+    "State Quota",
+    "Medical Admissions",
+    "Seat Allotment"
+  ],
+  "published_date": "2025-11-08",
+  "read_time": 15,
+  "meta_description": "Rajasthan NEET PG Counselling 2025 simplifies postgraduate medical admissions with detailed steps on registration, choice filling, and seat allotment for aspirants.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "Rajasthan NEET PG Counselling 2025 has been managed by SMS Medical College, Jaipur, and the State Counselling Board through an online merit-based seat allotment process. You know, there are so many state counselling processes that have happened in India. In which the Rajasthan NEET PG Counselling 2025 stands out for its ultimate transparency, systematic approach, and fair allotment procedure. This is basically conducted by the Rajasthan State Counselling Board process provides admission to MD, MS, Diploma, and DNB courses in both government and private medical colleges across the state.\n\nThis important guide will help you walk through everything you need to know about this, from its eligibility and registration to document verification and final admission."
+    },
+    {
+      "id": "counselling-application",
+      "type": "heading",
+      "title": "1. Counselling and Application Process",
+      "level": 2
+    },
+    {
+      "id": "counselling-application-content",
+      "type": "paragraph",
+      "content": "This is for only those candidates who have already qualified for NEET PG and have already registered with the Rajasthan State Counseling Board are eligible to participate in it. Although the entire process has been conducted online and it is basically divided into two stages: Part 1 and Part 2 of the application form.\n\nAlthough applicants must have to pay a non-refundable registration fee, which has the negotiation rates for SC/ST candidates. If your form is Incomplete, that will be automatically rejected, and PwD or Senior Demonstrator applicants must go with in-person document verification at designated centers, so fill that accordingly."
+    },
+    {
+      "id": "state-eligibility",
+      "type": "heading",
+      "title": "2. State Eligibility Criteria",
+      "level": 2
+    },
+    {
+      "id": "state-eligibility-intro",
+      "type": "paragraph",
+      "content": "Rajasthan follows specific eligibility rules for both government and private medical institutions.\n\nFor Government and Private Colleges:"
+    },
+    {
+      "id": "state-eligibility-list",
+      "type": "list",
+      "items": [
+        "50% of seats are reserved for candidates who have completed their MBBS in Rajasthan or are serving under the Government of Rajasthan.",
+        "25% of government seats are preferentially allotted to graduates from the University of Rajasthan or RUHS.",
+        "The remaining 50% of private seats are open to all NEET PG-qualified candidates across India.",
+        "Senior Demonstrators with three years of service in government medical colleges are eligible for priority after qualifying for NEET PG and submitting a No Objection Certificate (NOC).",
+        "For those who have a Post-MBBS Diploma/DNB, 50% of seats are set aside for in-service government doctors."
+      ]
+    },
+    {
+      "id": "academic-eligibility",
+      "type": "heading",
+      "title": "3. Academic Eligibility",
+      "level": 2
+    },
+    {
+      "id": "academic-eligibility-intro",
+      "type": "paragraph",
+      "content": "To apply, candidates must meet the following academic requirements for their academic eligibility:"
+    },
+    {
+      "id": "academic-eligibility-list",
+      "type": "list",
+      "items": [
+        "They should have to possess a valid MBBS degree that is recognized by NMC/MCI.",
+        "Candidates must have completed at least one year of compulsory rotatory internship.",
+        "Hold registration with NMC/MCI or a State Medical Council (candidates from other states must later obtain an RMC certificate).",
+        "Must have achieved minimum qualifying percentile scores in NEET PG as per category.",
+        "In-service candidates are awarded bonus marks as per state government rules after verification."
+      ]
+    },
+    {
+      "id": "reservation-policy",
+      "type": "heading",
+      "title": "4. Reservation Policy",
+      "level": 2
+    },
+    {
+      "id": "reservation-policy-intro",
+      "type": "paragraph",
+      "content": "The Rajasthan PG medical admission process strictly follows the state's reservation roster.\n\nCategory-Wise Reservation:"
+    },
+    {
+      "id": "reservation-policy-list",
+      "type": "list",
+      "items": [
+        "SC, ST, STA, OBC-NCL, MBC-NCL, EWS, and Unreserved categories are applicable.",
+        "25% of seats in each category are reserved for female candidates.",
+        "Only Rajasthan domicile candidates can claim reservation benefits; others are treated as Unreserved.",
+        "Candidates must have produced their certified and valid certificates for Caste, EWS, and Non-Creamy Layer.",
+        "Those who are PwD candidates can enjoy the 5% horizontal reservation, which is only valid with certificates that have been issued by MCC-approved centers.",
+        "After Round 3, any unfilled reserved seats automatically convert to the Unreserved category."
+      ]
+    },
+    {
+      "id": "seat-matrix",
+      "type": "heading",
+      "title": "5. Seat Matrix",
+      "level": 2
+    },
+    {
+      "id": "seat-matrix-content",
+      "type": "paragraph",
+      "content": "Before each round, the seat matrix is published on the official counselling website. Each medical institution is responsible for ensuring the correctness of seat distribution and category allocation."
+    },
+    {
+      "id": "fee-details",
+      "type": "heading",
+      "title": "6. Fee Details",
+      "level": 2
+    },
+    {
+      "id": "fee-details-content",
+      "type": "paragraph",
+      "content": "The fee structure change by institution and is perfectly displayed online before counselling happens. Each college supports with full responsibility for always maintaining the right, accurate, and transparent fee details for students."
+    },
+    {
+      "id": "application-registration",
+      "type": "heading",
+      "title": "7. Application and Registration Procedure",
+      "level": 2
+    },
+    {
+      "id": "application-registration-intro",
+      "type": "paragraph",
+      "content": "Candidates must complete their online form carefully; if they find any type of errors, it may lead to rejection."
+    },
+    {
+      "id": "application-registration-list",
+      "type": "list",
+      "items": [
+        "There will be only online submissions will be accepted.",
+        "The Admission Board's decisions are final.",
+        "Any disputes fall under the jurisdiction of the Rajasthan High Court.",
+        "This is very important for candidates to keep their passwords private to avoid disqualification due to misuse."
+      ]
+    },
+    {
+      "id": "choice-filling",
+      "type": "heading",
+      "title": "8. Choice Filling Process",
+      "level": 2
+    },
+    {
+      "id": "choice-filling-intro",
+      "type": "paragraph",
+      "content": "You know what, the choice filling process is one of the most crucial steps in the counselling process."
+    },
+    {
+      "id": "choice-filling-list",
+      "type": "list",
+      "items": [
+        "Fresh choice filling is required for each round.",
+        "Choices from previous rounds are not carried forward.",
+        "Failure to submit fresh choices means exclusion from that round.",
+        "There will be various virtual vacancies that have been created by upgraded candidates, which will be considered during subsequent rounds, and it is based on merit and preference."
+      ]
+    },
+    {
+      "id": "seat-allotment",
+      "type": "heading",
+      "title": "9. Seat Allotment Process",
+      "level": 2
+    },
+    {
+      "id": "seat-allotment-intro",
+      "type": "paragraph",
+      "content": "You know what, the seat allotment is done strictly based on:"
+    },
+    {
+      "id": "seat-allotment-list",
+      "type": "list",
+      "items": [
+        "Merit-cum-preference",
+        "The reservation policy and all the important guidelines set by the NMC and court directives."
+      ]
+    },
+    {
+      "id": "seat-allotment-conclusion",
+      "type": "paragraph",
+      "content": "After each round, the allotment results are declared online."
+    },
+    {
+      "id": "inter-se-merit",
+      "type": "heading",
+      "title": "10. Inter-Se Merit Rules",
+      "level": 2
+    },
+    {
+      "id": "inter-se-merit-content",
+      "type": "paragraph",
+      "content": "While using the NEET PG scores and bonus marks for Round 1, the merit list is prepared. In subsequent rounds, the NBE inter-se merit criteria are followed."
+    },
+    {
+      "id": "security-deposit",
+      "type": "heading",
+      "title": "11. Security Deposit",
+      "level": 2
+    },
+    {
+      "id": "security-deposit-intro",
+      "type": "paragraph",
+      "content": "To confirm participation, candidates must pay a refundable/adjustable security deposit:"
+    },
+    {
+      "id": "security-deposit-list",
+      "type": "list",
+      "items": [
+        "₹1,00,000 for Government seats",
+        "₹2,00,000 for Management seats in government society colleges",
+        "₹5,00,000 for Private colleges"
+      ]
+    },
+    {
+      "id": "security-deposit-conclusion",
+      "type": "paragraph",
+      "content": "The amount is forfeited if a candidate fails to join or provides false information. It is basically adjusted towards the tuition fees for joining or refunded after every counselling process if unused.\n\nAll the candidates who do not join after Round 3 or deviate from vacancy rounds may face penalties or debarment later."
+    },
+    {
+      "id": "joining-college",
+      "type": "heading",
+      "title": "12. Joining the Allotted College",
+      "level": 2
+    },
+    {
+      "id": "joining-college-intro",
+      "type": "paragraph",
+      "content": "Once your college has been allotted to the candidates, they must report in person to the Academic Block, SMS Medical College, Jaipur, at the desk assigned to their institution.\n\nKey Instructions:"
+    },
+    {
+      "id": "joining-college-list",
+      "type": "list",
+      "items": [
+        "Candidate's tuition fees must be paid by NEFT/RTGS to the Counseling Board's account.",
+        "They have to submit their original documents, bonds, and fee proof.",
+        "If it is upgraded, the original documents are automatically transferred to the new college.",
+        "No extension in reporting dates is allowed.",
+        "All admissions remain provisional until university enrollment.",
+        "Candidates already admitted elsewhere must provide an official resignation letter."
+      ]
+    },
+    {
+      "id": "joining-college-note",
+      "type": "paragraph",
+      "content": "Note: Holding two admissions together is strictly prohibited."
+    },
+    {
+      "id": "documents-required",
+      "type": "heading",
+      "title": "Documents Required at the Time of Joining",
+      "level": 2
+    },
+    {
+      "id": "documents-required-list",
+      "type": "list",
+      "items": [
+        "Allotment Letter",
+        "NEET PG Score Card",
+        "Printed Online Application Form",
+        "Resignation from Previous Institution (if applicable)",
+        "Birth Certificate or 10th Marksheet",
+        "MBBS Marksheets and Degree",
+        "Internship Completion Certificate",
+        "NMC/MCI/State Registration Certificate",
+        "Attempt Certificate",
+        "Valid Photo ID Proof",
+        "Six Passport-size Photographs",
+        "Domicile Certificate (if applicable)",
+        "Surety Bond",
+        "Caste or Sub-Category Certificate",
+        "PwD Certificate (if applicable)",
+        "EWS Certificate (if applicable)",
+        "NOC from Employer (if applicable)",
+        "Any Other Relevant Certificates"
+      ]
+    },
+    {
+      "id": "part-b-heading",
+      "type": "heading",
+      "title": "Part B: How to Apply Online – Step-by-Step Guide",
+      "level": 2
+    },
+    {
+      "id": "part-b-intro",
+      "type": "paragraph",
+      "content": "Before starting the online process to apply, candidates must keep the scanned copies of their important documents that are ready in the prescribed format and file size."
+    },
+    {
+      "id": "pre-requisites",
+      "type": "heading",
+      "title": "Pre-Requisites",
+      "level": 3
+    },
+    {
+      "id": "pre-requisites-list",
+      "type": "list",
+      "items": [
+        "The candidate's recent photograph and signature",
+        "Their MBBS final marksheet/degree",
+        "The official certificate of their Caste/EWS/PwD certificate (if applicable)",
+        "Other relevant and important documents"
+      ]
+    },
+    {
+      "id": "part-1-registration",
+      "type": "heading",
+      "title": "Part 1: Initial Registration",
+      "level": 3
+    },
+    {
+      "id": "part-1-registration-list",
+      "type": "list",
+      "items": [
+        "They should have entered their NEET PG Roll Number and basic personal details.",
+        "Then, next, they have to choose their domicile, category, EWS, and PwD status.",
+        "On the next step, enter email ID, mobile number, and internship completion date.",
+        "Pay the non-refundable registration fee online.",
+        "Later on, you will receive your Application ID and Password.",
+        "At last, just print out the payment receipt and proceed to Part 2."
+      ]
+    },
+    {
+      "id": "part-2-application",
+      "type": "heading",
+      "title": "Part 2: Detailed Application",
+      "level": 3
+    },
+    {
+      "id": "part-2-application-list",
+      "type": "list",
+      "items": [
+        "Candidates first log in using their Application ID and Password.",
+        "They should fill in those Basic Details (address, gender, nationality, contact info).",
+        "Add their overall Qualification Details (college, university, marks, attempts).",
+        "Indicate their service status, which includes in-service, non-service, or senior demonstrator.",
+        "If it is applicable, they show their specific interest in the 6-month PCPNDT Ultrasound Training (if applicable).",
+        "Then later on, upload the required documents in the proper format.",
+        "At last, just carefully review and click Final Submit."
+      ]
+    },
+    {
+      "id": "part-2-conclusion",
+      "type": "paragraph",
+      "content": "Once submitted, the form becomes non-editable. Keep two printed copies for joining purposes."
+    },
+    {
+      "id": "conclusion",
+      "type": "heading",
+      "title": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "conclusion-content",
+      "type": "paragraph",
+      "content": "The Rajasthan NEET PG Counselling 2025 process may seem very tough and wide, but if you have that proper understanding and take timely action can be taken, it becomes a smooth journey toward your postgraduate dream. Always keep an eye on official notifications, double-check your documents, and fill in details carefully; your diligence today defines your residency tomorrow."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1. What are the eligibility criteria for Rajasthan NEET PG 2025?",
+          "answer": "First of all, Candidates must qualify the exam of NEET PG 2025, in which they should have 50th percentile (UR/EWS), 45th (PwD), and 40th (SC/ST/OBC). They must have completed MBBS with an internship as well and hold a Rajasthan residence for state quota seats."
+        },
+        {
+          "question": "Q2. What is the security deposit amount for Rajasthan NEET PG counselling?",
+          "answer": "The refundable security deposit is: For government colleges, it should be ₹1,00,000 for Government colleges And ₹2,00,000 for Government Society/Management seats ₹5,00,000 for Private colleges, which should be It is surrendered if a candidate fails to report or provides false information."
+        },
+        {
+          "question": "Q3. Can I change my filled choices later?",
+          "answer": "Yes, choices can be modified until final locking. After locking, no changes are allowed. For each new round, candidates must refill their preferences afresh."
+        },
+        {
+          "question": "Q4: Where is document verification conducted?",
+          "answer": "The document verification for Rajasthan NEET PG 2025 came out at SMS Medical College, which is in Jaipur, Academic Block on designated dates per the counselling schedule."
+        },
+        {
+          "question": "Q5: What happens if I don't report after seat allotment in Round 3?",
+          "answer": "There will be non-reporting results in the security deposit that has been sacrificed and unsuitability for the stray vacancy rounds. Candidates cannot participate in further counselling."
+        }
+      ]
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "Rajasthan neet pg counselling",
+        "neet pg counselling",
+        "Rajasthan neet pg counselling 2025",
+        "Rajasthan neet pg 2025 counselling",
+        "aiq neet pg counselling",
+        "Rajasthan state neet pg counselling",
+        "Rajasthan neet pg seat matrix",
+        "neet pg counselling state quota",
+        "state counselling neet pg",
+        "raj neet pg counselling",
+        "Rajasthan neet pg seat allotment",
+        "Rajasthan neet pg choice filling"
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    }
+  ]
 }
 
 ];
