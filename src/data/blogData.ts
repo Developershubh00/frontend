@@ -12979,7 +12979,7 @@ export const blogPosts: BlogPost[] = [
     "Medical Admissions",
     "Seat Allotment"
   ],
-  "published_date": "2025-11-08",
+  "published_date": "2025-11-10",
   "read_time": 15,
   "meta_description": "Rajasthan NEET PG Counselling 2025 simplifies postgraduate medical admissions with detailed steps on registration, choice filling, and seat allotment for aspirants.",
   "sections": [
