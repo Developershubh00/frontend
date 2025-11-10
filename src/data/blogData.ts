@@ -12622,7 +12622,7 @@ export const blogPosts: BlogPost[] = [
   "title": "NEET PG Counselling 2025: Smart Choice Filling, Ranking, and Round Strategy Guide",
   "slug": "neet-pg-counselling-2025-smart-choice-filling-ranking-round-strategy-guide",
   "excerpt": "Plan your NEET PG Counselling 2025 smartly with expert strategies for choice filling, ranking, and rounds to secure your dream medical college.",
-  "featured_image": "https://cdn.dribbble.com/userupload/45624018/file/5035ae68c190fe06cd3dd0d7a8a7cfc2.jpeg?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/45641495/file/9a2ddbcd53303b8807ddecce77459fde.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
     "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
