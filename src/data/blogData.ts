@@ -12960,7 +12960,7 @@ export const blogPosts: BlogPost[] = [
   "title": "Rajasthan NEET PG Counselling 2025: Step-by-Step Guide for Postgraduate Medical Admissions",
   "slug": "rajasthan-neet-pg-counselling-2025-step-by-step-guide-postgraduate-medical-admissions",
   "excerpt": "Rajasthan NEET PG Counselling 2025 simplifies postgraduate medical admissions with detailed steps on registration, choice filling, and seat allotment for aspirants.",
-  "featured_image": "https://cdn.dribbble.com/userupload/45643685/file/69d81c4ec633048c46d99c3a514c58de.png?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/45651509/file/dd896f7013f0d1296bcd1084608e5af1.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
     "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
