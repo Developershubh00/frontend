@@ -65,6 +65,7 @@ import { NotFound } from "./Error Pages/NotFound";
 import ForgotPasswordPage from './pages/ForgotPasswordPage';
 import ResetPasswordPage from './pages/ResetPasswordPage';
 import InicetDashboardPage from "./INICET/InicetDashboardPage";
+import InicetAllotmentPage from "./INICET/InicetAllotmentsPage";
 
 /**
  * Main App Component with React Router
@@ -279,8 +280,8 @@ function App() {
           <Route path="/Closingranks" element={<ClossingRanksPage onBack={() => window.history.back()} />} />
           <Route path="/NEETPGPredictor" element={<NEETPGPredictor onBack={() => window.history.back()} />} />
           {/* <Route path="/InicetMainContent" element={<InicetMainContent onBack={() => window.history.back()} />} /> */}
-          {/* <Route path="/inicet/allotments" element={<InicetAllotmentsPage />} />
-          <Route path="/inicet/closing-ranks" element={<InicetClosingRanksPage />} /> */}
+          <Route path="/inicet/allotments" element={<InicetAllotmentPage onBack={() => window.history.back()}/>} />
+          <Route path="/inicet/closing-ranks" element={<InicetClosingRanksPage onBack={() => window.history.back()}/>} />
           {/* <Route path="/inicet/seat-matrix" element={<InicetSeatMatrixPage />} />
           <Route path="/inicet/fee-stipend" element={<InicetFeeStipendPage />} />  */}
           
