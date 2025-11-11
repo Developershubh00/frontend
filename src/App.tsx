@@ -134,14 +134,14 @@ function App() {
               </ProtectedRoute>
             }
           /> */}
-          <Route
+          {/* <Route
             path="/inicet"
             element={
               <ProtectedRoute>
                 <InicetMainContent />
               </ProtectedRoute>
             }
-          />
+          /> */}
 
           {/* Predictor Routes - API Integration: /api/predictor/ */}
           <Route

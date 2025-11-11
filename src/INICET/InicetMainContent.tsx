@@ -11,7 +11,6 @@ import {
   ChevronRight,
   CheckCircle,
 } from "lucide-react";
-import inicetpdf from "../../public/data/ INI-CET.pdf"
 
 /**
  * INICET Main Content Component
@@ -40,15 +39,13 @@ const InicetMainContent: React.FC = () => {
     //   onClick: () => window.open("https://inicet.aiims.edu/", "_blank"),
     // },
     {
-  id: "prospectus",
-  label: "Prospectus",
-  icon: FileText,
-  bgColor: "bg-blue-100",
-  textColor: "text-blue-600",
-  href: {inicetpdf},
-  target: "_blank",
-  rel: "noopener noreferrer",
-}
+      id: "prospectus",
+      label: "Prospectus",
+      icon: FileText,
+      bgColor: "bg-blue-100",
+      textColor: "text-blue-600",
+      onClick: () => window.open("/data/INI-CET.pdf", "_blank"),
+    },
     // {
     //   id: "results",
     //   label: "Results",
@@ -218,6 +215,133 @@ const InicetMainContent: React.FC = () => {
               <ChevronRight className="w-4 h-4 text-slate-400 mt-2" />
             </div>
           ))}
+        </div>
+
+        {/* What is INICET */}
+        <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
+          <div className="text-center mb-6 lg:mb-8">
+            <h2 className="text-2xl lg:text-3xl font-bold text-slate-800 mb-2">
+              📚 What is INICET?
+            </h2>
+            <p className="text-slate-600 text-sm lg:text-base">
+              INICET (Institute of National Importance Combined Entrance Test)
+              is a national-level entrance examination conducted for admission
+              to various postgraduate medical courses (MD/MS/DM/M.Ch/MDS) at
+              AIIMS and other Institutes of National Importance.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-6">
+              <h3 className="text-lg font-bold text-slate-800 mb-4">
+                🎯 Exam Highlights
+              </h3>
+              <div className="space-y-3">
+                {[
+                  { title: "Conducting Body", desc: "AIIMS New Delhi" },
+                  { title: "Exam Mode", desc: "Computer-Based Test (CBT)" },
+                  { title: "Frequency", desc: "Twice a Year (January & July)" },
+                  { title: "Duration", desc: "3 Hours (180 Minutes)" },
+                ].map((item, idx) => (
+                  <div key={idx} className="flex items-start space-x-3">
+                    <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <div>
+                      <p className="text-slate-700 text-sm font-medium">
+                        {item.title}
+                      </p>
+                      <p className="text-slate-600 text-xs">{item.desc}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-xl p-6">
+              <h3 className="text-lg font-bold text-slate-800 mb-4">
+                🏥 Participating Institutes
+              </h3>
+              <div className="space-y-2">
+                {[
+                  "AIIMS New Delhi",
+                  "JIPMER Puducherry",
+                  "PGIMER Chandigarh",
+                  "NIMHANS Bangalore",
+                  "SCTIMST Trivandrum",
+                  "All other AIIMS Institutes",
+                ].map((institute, idx) => (
+                  <div key={idx} className="flex items-center space-x-2">
+                    <span className="w-2 h-2 bg-purple-600 rounded-full"></span>
+                    <p className="text-slate-700 text-sm">{institute}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* INICET Cutoff Table */}
+        <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
+          <div className="text-center mb-6 lg:mb-8">
+            <h2 className="text-2xl lg:text-3xl font-bold text-slate-800 mb-2">
+              📊 INICET Category-wise Cutoff Ranks
+            </h2>
+            <p className="text-slate-600 text-sm lg:text-base">
+              Historical cutoff data for different categories across multiple
+              sessions
+            </p>
+          </div>
+
+          <div className="overflow-x-auto rounded-xl border border-slate-200 shadow-sm">
+            <table className="w-full text-left border-collapse min-w-full">
+              <thead className="bg-slate-50">
+                <tr>
+                  <th className="border-b border-slate-200 py-3 px-4 text-slate-600 text-sm lg:text-base font-bold">
+                    Category
+                  </th>
+                  <th className="border-b border-slate-200 py-3 px-4 text-slate-600 text-sm lg:text-base font-bold">
+                    Jan 2025 MD/MS
+                  </th>
+                  <th className="border-b border-slate-200 py-3 px-4 text-slate-600 text-sm lg:text-base font-bold">
+                    July 2024 MD/MS
+                  </th>
+                  <th className="border-b border-slate-200 py-3 px-4 text-slate-600 text-sm lg:text-base font-bold">
+                    Jan 2024 MD/MS
+                  </th>
+                  <th className="border-b border-slate-200 py-3 px-4 text-slate-600 text-sm lg:text-base font-bold">
+                    July 2023 MD/MS
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {inicetCutoffData.map((row, idx) => (
+                  <tr key={idx} className="hover:bg-slate-50 transition">
+                    <td className="border-b border-slate-200 py-3 px-4 text-slate-800 font-semibold">
+                      {row.category}
+                    </td>
+                    <td className="border-b border-slate-200 py-3 px-4 text-slate-800">
+                      {row.jan2025}
+                    </td>
+                    <td className="border-b border-slate-200 py-3 px-4 text-slate-800">
+                      {row.july2024}
+                    </td>
+                    <td className="border-b border-slate-200 py-3 px-4 text-slate-800">
+                      {row.jan2024}
+                    </td>
+                    <td className="border-b border-slate-200 py-3 px-4 text-slate-800">
+                      {row.july2023}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <div className="mt-6 bg-blue-50 rounded-xl p-4 border-l-4 border-blue-500">
+            <p className="text-sm text-slate-700">
+              <strong>Note:</strong> Cutoff ranks vary based on difficulty
+              level, number of candidates, and seat availability.
+            </p>
+          </div>
         </div>
 
         {/* INICET Process Map - Google Material Design Style */}
@@ -529,135 +653,6 @@ const InicetMainContent: React.FC = () => {
             </div>
           </div>
         </div>
-
-        {/* What is INICET */}
-        <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
-          <div className="text-center mb-6 lg:mb-8">
-            <h2 className="text-2xl lg:text-3xl font-bold text-slate-800 mb-2">
-              📚 What is INICET?
-            </h2>
-            <p className="text-slate-600 text-sm lg:text-base">
-              INICET (Institute of National Importance Combined Entrance Test)
-              is a national-level entrance examination conducted for admission
-              to various postgraduate medical courses (MD/MS/DM/M.Ch/MDS) at
-              AIIMS and other Institutes of National Importance.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-6">
-              <h3 className="text-lg font-bold text-slate-800 mb-4">
-                🎯 Exam Highlights
-              </h3>
-              <div className="space-y-3">
-                {[
-                  { title: "Conducting Body", desc: "AIIMS New Delhi" },
-                  { title: "Exam Mode", desc: "Computer-Based Test (CBT)" },
-                  { title: "Frequency", desc: "Twice a Year (January & July)" },
-                  { title: "Duration", desc: "3 Hours (180 Minutes)" },
-                ].map((item, idx) => (
-                  <div key={idx} className="flex items-start space-x-3">
-                    <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
-                    <div>
-                      <p className="text-slate-700 text-sm font-medium">
-                        {item.title}
-                      </p>
-                      <p className="text-slate-600 text-xs">{item.desc}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            <div className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-xl p-6">
-              <h3 className="text-lg font-bold text-slate-800 mb-4">
-                🏥 Participating Institutes
-              </h3>
-              <div className="space-y-2">
-                {[
-                  "AIIMS New Delhi",
-                  "JIPMER Puducherry",
-                  "PGIMER Chandigarh",
-                  "NIMHANS Bangalore",
-                  "SCTIMST Trivandrum",
-                  "All other AIIMS Institutes",
-                ].map((institute, idx) => (
-                  <div key={idx} className="flex items-center space-x-2">
-                    <span className="w-2 h-2 bg-purple-600 rounded-full"></span>
-                    <p className="text-slate-700 text-sm">{institute}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* INICET Cutoff Table */}
-        <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
-          <div className="text-center mb-6 lg:mb-8">
-            <h2 className="text-2xl lg:text-3xl font-bold text-slate-800 mb-2">
-              📊 INICET Category-wise Cutoff Ranks
-            </h2>
-            <p className="text-slate-600 text-sm lg:text-base">
-              Historical cutoff data for different categories across multiple
-              sessions
-            </p>
-          </div>
-
-          <div className="overflow-x-auto rounded-xl border border-slate-200 shadow-sm">
-            <table className="w-full text-left border-collapse min-w-full">
-              <thead className="bg-slate-50">
-                <tr>
-                  <th className="border-b border-slate-200 py-3 px-4 text-slate-600 text-sm lg:text-base font-bold">
-                    Category
-                  </th>
-                  <th className="border-b border-slate-200 py-3 px-4 text-slate-600 text-sm lg:text-base font-bold">
-                    Jan 2025 MD/MS
-                  </th>
-                  <th className="border-b border-slate-200 py-3 px-4 text-slate-600 text-sm lg:text-base font-bold">
-                    July 2024 MD/MS
-                  </th>
-                  <th className="border-b border-slate-200 py-3 px-4 text-slate-600 text-sm lg:text-base font-bold">
-                    Jan 2024 MD/MS
-                  </th>
-                  <th className="border-b border-slate-200 py-3 px-4 text-slate-600 text-sm lg:text-base font-bold">
-                    July 2023 MD/MS
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                {inicetCutoffData.map((row, idx) => (
-                  <tr key={idx} className="hover:bg-slate-50 transition">
-                    <td className="border-b border-slate-200 py-3 px-4 text-slate-800 font-semibold">
-                      {row.category}
-                    </td>
-                    <td className="border-b border-slate-200 py-3 px-4 text-slate-800">
-                      {row.jan2025}
-                    </td>
-                    <td className="border-b border-slate-200 py-3 px-4 text-slate-800">
-                      {row.july2024}
-                    </td>
-                    <td className="border-b border-slate-200 py-3 px-4 text-slate-800">
-                      {row.jan2024}
-                    </td>
-                    <td className="border-b border-slate-200 py-3 px-4 text-slate-800">
-                      {row.july2023}
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-
-          <div className="mt-6 bg-blue-50 rounded-xl p-4 border-l-4 border-blue-500">
-            <p className="text-sm text-slate-700">
-              <strong>Note:</strong> Cutoff ranks vary based on difficulty
-              level, number of candidates, and seat availability.
-            </p>
-          </div>
-        </div>
-
-        
 
         {/* CTA Section */}
         <div className="bg-gradient-to-r from-purple-600 to-indigo-600 rounded-2xl lg:rounded-3xl p-6 lg:p-8 text-center text-white shadow-2xl">
