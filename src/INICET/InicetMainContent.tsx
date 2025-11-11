@@ -11,6 +11,7 @@ import {
   ChevronRight,
   CheckCircle,
 } from "lucide-react";
+import inicetpdf from "../../public/data/ INI-CET.pdf"
 
 /**
  * INICET Main Content Component
@@ -28,7 +29,7 @@ const InicetMainContent: React.FC = () => {
       icon: FileText,
       bgColor: "bg-blue-100",
       textColor: "text-blue-600",
-      onClick: () => window.open("https://www.aiimsexams.ac.in/", "_blank"),
+      onClick: () => window.open("https://aiims.edu/inicet/", "_blank"),
     },
     // {
     //   id: "registration",
@@ -44,7 +45,7 @@ const InicetMainContent: React.FC = () => {
   icon: FileText,
   bgColor: "bg-blue-100",
   textColor: "text-blue-600",
-  href: "/data/INI-CET.pdf",
+  href: {inicetpdf},
   target: "_blank",
   rel: "noopener noreferrer",
 }
