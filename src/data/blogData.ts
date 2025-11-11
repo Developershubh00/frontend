@@ -13386,6 +13386,291 @@ export const blogPosts: BlogPost[] = [
       "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
     }
   ]
+},
+{
+  "id": 38,
+  "title": "Understanding Year Marking in Maharashtra NEET PG Counselling",
+  "slug": "understanding-year-marking-maharashtra-neet-pg-counselling",
+  "excerpt": "Learn how year marking impacts seat allotment in Maharashtra NEET PG counselling 2025. Understand its role in merit ranking and fair admission process.",
+  "featured_image": "https://cdn.dribbble.com/userupload/45658303/file/6e68352dfde4819fa0f6254cf30b385c.png?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-purple-100 text-purple-800"
+  },
+  "tags": [
+    "Maharashtra NEET PG",
+    "NEET PG Counselling",
+    "Year Marking",
+    "State Quota",
+    "Seat Allotment",
+    "Reserved Category"
+  ],
+  "published_date": "2025-11-11",
+  "read_time": 12,
+  "meta_description": "Learn how year marking impacts seat allotment in Maharashtra NEET PG counselling 2025. Understand its role in merit ranking and fair admission process.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "The Maharashtra NEET PG counselling process includes the year-marking feature for candidates in reserved categories, which determines seat allocation between open and reserved categories. Year marking enables reserved category candidates to choose allocation between open and reserved category seats during the NEET PG counselling procedure.\n\nThis guide simplifies the concept step-by-step, so you can understand how it works, when it applies, and how it affects your NEET PG seat allotment."
+    },
+    {
+      "id": "what-is-year-marking",
+      "type": "heading",
+      "title": "What Is Year Marking?",
+      "level": 2
+    },
+    {
+      "id": "what-is-year-marking-content",
+      "type": "paragraph",
+      "content": "In Maharashtra NEET PG 2025 counselling, Year marking is a very crucial step, which only comes into play the role for candidates belonging to reserved categories (such as SC, ST, OBC, etc.) who are basically eligible for both open and reserved category seats within Maharashtra.\n\nThis system ensures transparency in NEET PG counselling seat matrix management and empowers reserved category candidates to make an informed choice regarding their seat preference.\n\nAlthough candidates can define an alternative for open or reserved seat allocation if both are available at their preferred rank."
+    },
+    {
+      "id": "seat-types",
+      "type": "list",
+      "items": [
+        "Open Seat: You know the seats are basically available for all candidates in any case of category.",
+        "Reserved Seat: The reserved seats are particularly allotted for a particular category (example: SC, ST, OBC)."
+      ]
+    },
+    {
+      "id": "seat-types-note",
+      "type": "paragraph",
+      "content": "Candidates who are in the Unreserved (Open) category can participate only in open seat allocation, with no devoting option."
+    },
+    {
+      "id": "why-important",
+      "type": "heading",
+      "title": "Why Is Year Marking Important?",
+      "level": 2
+    },
+    {
+      "id": "why-important-content",
+      "type": "paragraph",
+      "content": "In All India counselling, candidates with multiple seat eligibility receive automatic open seat allocation. In Maharashtra, reserved category candidates decide their seats via year marking.\n\nHowever, when the Maharashtra counselling process happens, the year marking system allows all the candidates to decide which seat (open or reserved) and what seat should be allotted to them, along with which one should be set aside for lower-ranked candidates.\n\nAlthough it is designated to ensure that transparent seat allocation and authorize reserved category candidates to participate in the process in the direct mode."
+    },
+    {
+      "id": "how-it-works",
+      "type": "heading",
+      "title": "How Year Marking Works: An Example",
+      "level": 2
+    },
+    {
+      "id": "how-it-works-intro",
+      "type": "paragraph",
+      "content": "Okay, so let's go through with the example of a candidate who belongs to the SC category.\n\nThe candidate sees both options, which are under the \"Year Marking, especially when filling in choices during counselling."
+    },
+    {
+      "id": "year-marking-table",
+      "type": "table",
+      "headers": ["Open", "Reserved"],
+      "rows": []
+    },
+    {
+      "id": "year-marking-explanation",
+      "type": "paragraph",
+      "content": "Here's what each means:"
+    },
+    {
+      "id": "year-marking-options",
+      "type": "list",
+      "items": [
+        "Basically, if the candidate chooses \"Open\", it means they want to set aside the open seat for lower-ranked candidates and take the reserved seat for themselves but only if both are available.",
+        "If the candidate chooses \"Reserved\", it means they want to set aside the reserved seat for lower-ranked candidates and take the open seat for themselves."
+      ]
+    },
+    {
+      "id": "year-marking-simple",
+      "type": "paragraph",
+      "content": "Simply put:\n\nYear marking = deciding which seat to set aside for lower ranks.\n\nThe seat you don't earmark is the one allotted to you."
+    },
+    {
+      "id": "scenarios",
+      "type": "heading",
+      "title": "Scenarios Explained",
+      "level": 2
+    },
+    {
+      "id": "scenarios-intro",
+      "type": "paragraph",
+      "content": "To make this concept very clear, here are very few common situations you may experience:"
+    },
+    {
+      "id": "scenario-1",
+      "type": "heading",
+      "title": "Scenario 1: Only Reserved Seat Available",
+      "level": 3
+    },
+    {
+      "id": "scenario-1-content",
+      "type": "paragraph",
+      "content": "If you find out that only a reserved seat is available at your preferred rank, then you will receive that seat regardless of the year marking setting successfully. Although year marking does not influence your own seat allotment in the present round, it only influences the lower-ranked candidates' preferred eligibility."
+    },
+    {
+      "id": "scenario-2",
+      "type": "heading",
+      "title": "Scenario 2: Only Open Seat Available",
+      "level": 3
+    },
+    {
+      "id": "scenario-2-content",
+      "type": "paragraph",
+      "content": "If it happens that only one open seat is available at your rank, then you will receive that seat regardless of the year marking setting."
+    },
+    {
+      "id": "scenario-3",
+      "type": "heading",
+      "title": "Scenario 3: Both Open and Reserved Seats Available",
+      "level": 3
+    },
+    {
+      "id": "scenario-3-intro",
+      "type": "paragraph",
+      "content": "This is where year marking comes into effect:"
+    },
+    {
+      "id": "scenario-3-list",
+      "type": "list",
+      "items": [
+        "If you earmark \"Reserved\", you set aside the reserved seat for lower-ranked candidates and will be allotted the open seat.",
+        "Selecting 'reserved' sets aside the reserved seat for lower-ranked candidates, and you receive the open seat if both are available. Selecting 'open' sets aside the open seat, and you receive the reserved seat."
+      ]
+    },
+    {
+      "id": "scenario-3-conclusion",
+      "type": "paragraph",
+      "content": "This gives you control over which type of seat you wish to retain during NEET PG seat allotment."
+    },
+    {
+      "id": "round-wise-impact",
+      "type": "heading",
+      "title": "Round-Wise Impact of Year Marking",
+      "level": 2
+    },
+    {
+      "id": "round-wise-impact-intro",
+      "type": "paragraph",
+      "content": "If your year-marking decision does not impact your current round seat allotment.\n\nSo here's how it works across NEET PG counselling rounds:"
+    },
+    {
+      "id": "round-wise-impact-list",
+      "type": "list",
+      "items": [
+        "Round 1: Whether year marking has an open or reserved seat, your preferred seat allotment will not change later. You don't have to worry because you will still get the seat as per availability at your rank.",
+        "Subsequent Rounds: year-marking choices sometimes impact how seats can easily move down to lower-ranked candidates in subsequent rounds."
+      ]
+    },
+    {
+      "id": "round-wise-example",
+      "type": "paragraph",
+      "content": "For example, if you are year-marked as the SC seat, then your officially reserved seat will be set individually for lower rankers, while you'll hold on to the open seat.\n\nSo, while it doesn't affect your allotment in Round 1, it can influence the options available for candidates below you."
+    },
+    {
+      "id": "free-exit",
+      "type": "heading",
+      "title": "What If You Take a Free Exit?",
+      "level": 2
+    },
+    {
+      "id": "free-exit-intro",
+      "type": "paragraph",
+      "content": "There is a clear-cut meaning that if you want a free exit, then it means you choose not to join the seat that is allotted to you. Other than you wish to participate in further Maharashtra NEET PG counselling rounds.\n\nLet's consider possible outcomes:"
+    },
+    {
+      "id": "free-exit-list",
+      "type": "list",
+      "items": [
+        "If you were allotted to your reserved seat and you don't want to join, that the same seat will going to appear as a reserved seat in the next round.",
+        "On the other hand, if you were allotted an open seat and don't want to join, it will continue to be available as an open seat in another round."
+      ]
+    },
+    {
+      "id": "free-exit-conclusion",
+      "type": "paragraph",
+      "content": "Your year marking does not convert a seat from open to reserved or vice versa in later rounds; it simply determines which seat type you initially hold."
+    },
+    {
+      "id": "fees-bonds-benefits",
+      "type": "heading",
+      "title": "What About Fees, Bonds, and Benefits?",
+      "level": 2
+    },
+    {
+      "id": "fees-bonds-benefits-intro",
+      "type": "paragraph",
+      "content": "So many candidates are worried that getting an open seat will going to affect their fee compromise or scholarships, but that's not the real case."
+    },
+    {
+      "id": "fees-bonds-benefits-list",
+      "type": "list",
+      "items": [
+        "Your category as a candidate (SC, OBC, ST, etc.) perfectly determines your overall eligibility for benefits, but it is not the category of the seat you are allotted.",
+        "There will be fee structures, stipends, and scholarship benefits that are highly linked to your personal category only, not the seat's which has a label, whether it's open or reserved."
+      ]
+    },
+    {
+      "id": "fees-bonds-benefits-conclusion",
+      "type": "paragraph",
+      "content": "So, even if you're allotted an open seat, you'll continue to receive the benefits you're eligible for as a reserved-category candidate."
+    },
+    {
+      "id": "key-takeaways",
+      "type": "heading",
+      "title": "Key Takeaways",
+      "level": 2
+    },
+    {
+      "id": "key-takeaways-list",
+      "type": "list",
+      "items": [
+        "Year marking applies only to reserved-category candidates.",
+        "It allows you to choose which seat type (open/reserved) to set aside for lower-ranked candidates.",
+        "Your allotment in the current round is not affected by what you select in the year marking column.",
+        "Free exit scenarios are rare, but do not alter seat categories in future rounds.",
+        "Your category benefits (fee concessions, scholarships) remain unaffected, no matter which type of seat you take."
+      ]
+    },
+    {
+      "id": "final-thoughts",
+      "type": "heading",
+      "title": "Final Thoughts",
+      "level": 2
+    },
+    {
+      "id": "final-thoughts-content",
+      "type": "paragraph",
+      "content": "Year marking in Maharashtra state NEET PG counselling is basically not an element that changes your seat in the present round; it's basically a conventional choice that perfectly determines how seat availability circulates to candidates below you.\n\nHowever, it may sound very complex, but understanding its basic purpose makes it very simple; but somehow, it's all about maintaining the fair and clear distribution without influencing your own allotment.\n\nAs long as you make informed choices, your year marking will not disadvantage you, it only improves the fairness of the NEET PG counselling seat matrix and ensures smooth progression through each NEET PG counselling round."
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "maharashtra neet pg counselling",
+        "neet pg counselling",
+        "maharashtra neet pg counselling 2025",
+        "maharashtra neet pg 2025 counselling",
+        "counselling procedure for neet pg",
+        "maharashtra state neet pg counselling",
+        "neet pg counselling seat matrix",
+        "neet pg seat allotment",
+        "neet pg counselling choice filling",
+        "neet pg counselling round"
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    }
+  ]
 }
 
 ];

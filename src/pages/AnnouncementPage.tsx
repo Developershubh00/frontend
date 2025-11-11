@@ -791,6 +791,19 @@ const AnnouncementPage: React.FC = () => {
       source: 'Indian Express',
       created_at: "2025-11-08T08:00:00Z"
     },
+    {
+      id: 65,
+      title: "NEET PG Counselling 2025:",
+      content:"NEET PG 2025: NBEMS Releases Important Reporting and Joining Instructions for DNB Seat Holders in All India Quota Counselling",
+      date: "2025-11-11T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: ' https://natboard.edu.in',
+      is_active: true,
+      source: 'NBEMS',
+      created_at: "2025-11-11T08:00:00Z"
+    },
+
 
 
 

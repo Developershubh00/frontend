@@ -616,6 +616,15 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: ' https://indianexpress.com/article/education/neet-pg-2025-counselling-choice-filling-extends-supreme-court-directs-nbems-nbe-disclose-answer-key-policy-counselling-delays-10351941/',
       source: 'Indian Express',
      },
+     {
+      id: 65,
+      title: "NEET PG 2025: NBEMS Releases Important Reporting and Joining Instructions for DNB Seat Holders in All India Quota Counselling",
+      date: "2025-11-11T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: ' https://natboard.edu.in',
+      source: 'NBEMS',
+    },
 
 
 
