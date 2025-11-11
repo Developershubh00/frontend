@@ -234,7 +234,7 @@ const InicetAllotmentPage: React.FC<InicetAllotmentPageProps> = ({
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("/data/INICET_Allotments.csv");
+        const response = await fetch("/data/INICET_allotments.csv");
 
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);

@@ -44,7 +44,7 @@ const InicetMainContent: React.FC = () => {
       icon: FileText,
       bgColor: "bg-blue-100",
       textColor: "text-blue-600",
-      onClick: () => window.open("/data/INI-CET.pdf", "_blank"),
+      onClick: () => window.open("/data/INI_CET.pdf", "_blank"),
     },
     // {
     //   id: "results",
