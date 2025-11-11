@@ -279,71 +279,7 @@ const InicetMainContent: React.FC = () => {
           </div>
         </div>
 
-        {/* INICET Cutoff Table */}
-        <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
-          <div className="text-center mb-6 lg:mb-8">
-            <h2 className="text-2xl lg:text-3xl font-bold text-slate-800 mb-2">
-              📊 INICET Category-wise Cutoff Ranks
-            </h2>
-            <p className="text-slate-600 text-sm lg:text-base">
-              Historical cutoff data for different categories across multiple
-              sessions
-            </p>
-          </div>
-
-          <div className="overflow-x-auto rounded-xl border border-slate-200 shadow-sm">
-            <table className="w-full text-left border-collapse min-w-full">
-              <thead className="bg-slate-50">
-                <tr>
-                  <th className="border-b border-slate-200 py-3 px-4 text-slate-600 text-sm lg:text-base font-bold">
-                    Category
-                  </th>
-                  <th className="border-b border-slate-200 py-3 px-4 text-slate-600 text-sm lg:text-base font-bold">
-                    Jan 2025 MD/MS
-                  </th>
-                  <th className="border-b border-slate-200 py-3 px-4 text-slate-600 text-sm lg:text-base font-bold">
-                    July 2024 MD/MS
-                  </th>
-                  <th className="border-b border-slate-200 py-3 px-4 text-slate-600 text-sm lg:text-base font-bold">
-                    Jan 2024 MD/MS
-                  </th>
-                  <th className="border-b border-slate-200 py-3 px-4 text-slate-600 text-sm lg:text-base font-bold">
-                    July 2023 MD/MS
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                {inicetCutoffData.map((row, idx) => (
-                  <tr key={idx} className="hover:bg-slate-50 transition">
-                    <td className="border-b border-slate-200 py-3 px-4 text-slate-800 font-semibold">
-                      {row.category}
-                    </td>
-                    <td className="border-b border-slate-200 py-3 px-4 text-slate-800">
-                      {row.jan2025}
-                    </td>
-                    <td className="border-b border-slate-200 py-3 px-4 text-slate-800">
-                      {row.july2024}
-                    </td>
-                    <td className="border-b border-slate-200 py-3 px-4 text-slate-800">
-                      {row.jan2024}
-                    </td>
-                    <td className="border-b border-slate-200 py-3 px-4 text-slate-800">
-                      {row.july2023}
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-
-          <div className="mt-6 bg-blue-50 rounded-xl p-4 border-l-4 border-blue-500">
-            <p className="text-sm text-slate-700">
-              <strong>Note:</strong> Cutoff ranks vary based on difficulty
-              level, number of candidates, and seat availability.
-            </p>
-          </div>
-        </div>
-
+        
         {/* INICET Process Map - Google Material Design Style */}
         <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
           <div className="text-center mb-8 lg:mb-10">
@@ -653,6 +589,72 @@ const InicetMainContent: React.FC = () => {
             </div>
           </div>
         </div>
+
+        {/* INICET Cutoff Table */}
+        <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
+          <div className="text-center mb-6 lg:mb-8">
+            <h2 className="text-2xl lg:text-3xl font-bold text-slate-800 mb-2">
+              📊 INICET Category-wise Cutoff Ranks
+            </h2>
+            <p className="text-slate-600 text-sm lg:text-base">
+              Historical cutoff data for different categories across multiple
+              sessions
+            </p>
+          </div>
+
+          <div className="overflow-x-auto rounded-xl border border-slate-200 shadow-sm">
+            <table className="w-full text-left border-collapse min-w-full">
+              <thead className="bg-slate-50">
+                <tr>
+                  <th className="border-b border-slate-200 py-3 px-4 text-slate-600 text-sm lg:text-base font-bold">
+                    Category
+                  </th>
+                  <th className="border-b border-slate-200 py-3 px-4 text-slate-600 text-sm lg:text-base font-bold">
+                    Jan 2025 MD/MS
+                  </th>
+                  <th className="border-b border-slate-200 py-3 px-4 text-slate-600 text-sm lg:text-base font-bold">
+                    July 2024 MD/MS
+                  </th>
+                  <th className="border-b border-slate-200 py-3 px-4 text-slate-600 text-sm lg:text-base font-bold">
+                    Jan 2024 MD/MS
+                  </th>
+                  <th className="border-b border-slate-200 py-3 px-4 text-slate-600 text-sm lg:text-base font-bold">
+                    July 2023 MD/MS
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {inicetCutoffData.map((row, idx) => (
+                  <tr key={idx} className="hover:bg-slate-50 transition">
+                    <td className="border-b border-slate-200 py-3 px-4 text-slate-800 font-semibold">
+                      {row.category}
+                    </td>
+                    <td className="border-b border-slate-200 py-3 px-4 text-slate-800">
+                      {row.jan2025}
+                    </td>
+                    <td className="border-b border-slate-200 py-3 px-4 text-slate-800">
+                      {row.july2024}
+                    </td>
+                    <td className="border-b border-slate-200 py-3 px-4 text-slate-800">
+                      {row.jan2024}
+                    </td>
+                    <td className="border-b border-slate-200 py-3 px-4 text-slate-800">
+                      {row.july2023}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <div className="mt-6 bg-blue-50 rounded-xl p-4 border-l-4 border-blue-500">
+            <p className="text-sm text-slate-700">
+              <strong>Note:</strong> Cutoff ranks vary based on difficulty
+              level, number of candidates, and seat availability.
+            </p>
+          </div>
+        </div>
+
 
         {/* CTA Section */}
         <div className="bg-gradient-to-r from-purple-600 to-indigo-600 rounded-2xl lg:rounded-3xl p-6 lg:p-8 text-center text-white shadow-2xl">
