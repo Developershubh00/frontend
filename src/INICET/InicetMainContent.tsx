@@ -59,14 +59,14 @@ const InicetMainContent: React.FC = () => {
   // Data cards with navigation to dedicated pages
   const dataCards = [
     {
-      title: "Allotments",
+      title: "INICET Allotments",
       subtitle: "View Past Allotments",
       icon: Users,
       color: "bg-purple-500",
       onClick: () => navigate("/inicet/allotments"),
     },
     {
-      title: "Allotments PG Jul-2025",
+      title: "INICET PG Jul-2025",
       subtitle: "Session-wise Allotments",
       icon: TrendingUp,
       color: "bg-blue-500",
