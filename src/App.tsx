@@ -278,11 +278,11 @@ function App() {
           <Route path="/Feesstipendbonds" element={<FeesStipendBondPage onBack={() => window.history.back()} />} />
           <Route path="/Closingranks" element={<ClossingRanksPage onBack={() => window.history.back()} />} />
           <Route path="/NEETPGPredictor" element={<NEETPGPredictor onBack={() => window.history.back()} />} />
-          <Route path="/InicetMainContent" element={<InicetMainContent onBack={() => window.history.back()} />} />
-          <Route path="/inicet/allotments" element={<InicetAllotmentsPage />} />
-          <Route path="/inicet/closing-ranks" element={<InicetClosingRanksPage />} />
-          <Route path="/inicet/seat-matrix" element={<InicetSeatMatrixPage />} />
-          <Route path="/inicet/fee-stipend" element={<InicetFeeStipendPage />} /> 
+          {/* <Route path="/InicetMainContent" element={<InicetMainContent onBack={() => window.history.back()} />} /> */}
+          {/* <Route path="/inicet/allotments" element={<InicetAllotmentsPage />} />
+          <Route path="/inicet/closing-ranks" element={<InicetClosingRanksPage />} /> */}
+          {/* <Route path="/inicet/seat-matrix" element={<InicetSeatMatrixPage />} />
+          <Route path="/inicet/fee-stipend" element={<InicetFeeStipendPage />} />  */}
           
            {/* Blog Routes */}
           <Route path="/blog" element={<BlogList />} />
