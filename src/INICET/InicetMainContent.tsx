@@ -70,7 +70,7 @@ const InicetMainContent: React.FC = () => {
       subtitle: "Session-wise Allotments",
       icon: TrendingUp,
       color: "bg-blue-500",
-      onClick: () => navigate("/inicet/closing-ranks"),
+      onClick: () => navigate("/inicet/allotments/julysession"),
     },
     // {
     //   title: "Seat Matrix",
