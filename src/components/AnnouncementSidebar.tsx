@@ -625,6 +625,15 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: ' https://natboard.edu.in',
       source: 'NBEMS',
     },
+    {
+      id: 66,
+      title: "Jharkhand NEET PG 2025 Round 1 Final Merit List Declared by JCECEB – Choice Filling Open for 267 Eligible Candidates",
+      date: "2025-11-11T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: ' https://timesofindia.indiatimes.com/education/news/jharkhand-neet-pg-counselling-2025-round-1-final-merit-list-released-check-steps-to-download-and-other-details-here/articleshow/125246017.cms',
+      source: 'NBEMS',
+    },
 
 
 
