@@ -13671,6 +13671,317 @@ export const blogPosts: BlogPost[] = [
       "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
     }
   ]
+},
+{
+  "id": 39,
+  "title": "Jharkhand NEET PG 2025 Counselling Begins: Check Process, Fees & Important Dates",
+  "slug": "jharkhand-neet-pg-2025-counselling-process-fees-dates",
+  "excerpt": "Jharkhand NEET PG 2025 counselling starts now. Know registration steps, fees, eligibility, and key dates for postgraduate medical admissions.",
+  "featured_image": "https://cdn.dribbble.com/userupload/45672399/file/d49a8a78f8d44646ac71a7d771a68b24.jpeg?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-purple-100 text-purple-800"
+  },
+  "tags": [
+    "Jharkhand NEET PG",
+    "NEET PG Counselling",
+    "NEET PG 2025",
+    "State Quota",
+    "Seat Allotment",
+    "Medical Admissions"
+  ],
+  "published_date": "2025-11-12",
+  "read_time": 10,
+  "meta_description": "Jharkhand NEET PG 2025 counselling starts now. Know registration steps, fees, eligibility, and key dates for postgraduate medical admissions.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "The Jharkhand Entrance Competitive Examination Board, also known as JCECEB, has released the official Jharkhand NEET PG 2025 counselling notification on October 31, 2025, while they are initiating Round 1 registration from November 2, 2025. This process encompasses the state-quota, government, private, and deemed universities in Jharkhand that offer MD/MS and PG Diploma courses.\n\nThis is a brief overview of eligibility, key dates, NEET PG counselling registration procedures, and counselling timelines for Jharkhand NEET PG 2025. There are important steps for candidates who are seeking to pursue postgraduate medical education in the state."
+    },
+    {
+      "id": "application-fees",
+      "type": "heading",
+      "title": "Application and Counselling Fee",
+      "level": 2
+    },
+    {
+      "id": "application-fees-content",
+      "type": "paragraph",
+      "content": "The total application fee: ₹1,000, in (General/EWS/BC-I/BC-II); ₹500 (SC/ST/Female candidates of all categories). On the other hand, the Counselling fee: ₹2,000 (General/EWS/BC-I/BC-II); ₹1,200 (SC/ST/Female)."
+    },
+    {
+      "id": "counselling-fee-heading",
+      "type": "heading",
+      "title": "Counselling Fee",
+      "level": 3
+    },
+    {
+      "id": "counselling-fee-list",
+      "type": "list",
+      "items": [
+        "General/EWS/BC-I/BC-II: ₹2000",
+        "SC/ST/Female Candidates: ₹1200"
+      ]
+    },
+    {
+      "id": "security-deposit-heading",
+      "type": "heading",
+      "title": "Security Deposit",
+      "level": 3
+    },
+    {
+      "id": "security-deposit-content",
+      "type": "paragraph",
+      "content": "There will be a security deposit where government Colleges charge: ₹30,000 (UR/EWS), and ₹15,000 (SC/ST/OBC/PWD)\n\nPrivate Colleges and government charges: ₹2,00,000 for (Medical) / and ₹1,00,000 for (Dental)\n\nStray/Mop-up is basically specified in JCECEB's round: ₹50,000"
+    },
+    {
+      "id": "eligibility",
+      "type": "heading",
+      "title": "Eligibility Criteria",
+      "level": 2
+    },
+    {
+      "id": "eligibility-intro",
+      "type": "paragraph",
+      "content": "In the eligibility criteria, if you want to participate in Jharkhand NEET PG counselling, candidates must:"
+    },
+    {
+      "id": "eligibility-list",
+      "type": "list",
+      "items": [
+        "You should qualify for NEET PG 2025 with a rational score.",
+        "As a medical candidate, you must hold an MBBS degree from a well-organized institute that is recognized by the National Medical Commission (NMC).",
+        "Complete your compulsory internship by the specified date, 31st March 2025.",
+        "You have to be registered with the State Medical Council or NMC.",
+        "You must have the domicile certificate of Jharkhand if you are going to apply for the state quota."
+      ]
+    },
+    {
+      "id": "important-dates",
+      "type": "heading",
+      "title": "Important Dates",
+      "level": 2
+    },
+    {
+      "id": "important-dates-table",
+      "type": "table",
+      "headers": ["Activity", "Dates (Tentative)"],
+      "rows": [
+        ["Online Registration", "November 2 – 5, 2025"],
+        ["Provisional Merit List", "November 7, 2025"],
+        ["Choice Filling and Locking", "November 12-14, 2025"],
+        ["Seat Allotment Result", "November 16, 2025"],
+        ["Document Verification and institute reporting", "November 20-27, 2025"]
+      ]
+    },
+    {
+      "id": "important-dates-note",
+      "type": "paragraph",
+      "content": "Candidates should monitor that dates may be updated based on JCECEB notifications regularly. Timely NEET PG counselling registration and NEET PG counselling choice filling are essential for seat allotment."
+    },
+    {
+      "id": "registration-process",
+      "type": "heading",
+      "title": "Registration Process",
+      "level": 2
+    },
+    {
+      "id": "registration-process-intro",
+      "type": "paragraph",
+      "content": "For registration, you have to visit the Official Website: jceceb.jharkhand.gov.in\n\nThe process of NEET PG online counselling is registered online with your NEET PG roll number, name, and contact details.\n\nIf you are filling out the Application form, make sure the submit it with your academic details and upload the required documents, which include the photo, signature, MBBS certificate, internship completion certificate, and ID proof."
+    },
+    {
+      "id": "registration-payment",
+      "type": "paragraph",
+      "content": "Pay Counselling Fee online requires some important things:\n\nFor female candidates of Jharkhand, ₹500 for SC/ST.\n\nThe payment of ₹1000 for General/EWS/OBC candidates\n\nAnd for other state candidates, it's ₹5000.\n\nSubmit and save the Application for future reference and subsequent round participation."
+    },
+    {
+      "id": "choice-filling",
+      "type": "heading",
+      "title": "Choice Filling and Seat Allotment",
+      "level": 2
+    },
+    {
+      "id": "choice-filling-content",
+      "type": "paragraph",
+      "content": "After registration:\n\nCandidates can only choose their preferred colleges and speciality preferences based on merit and eligibility.\n\nNEET PG seat allotment always follows a merit-based sequential process, which is according to NEET PG rank, category, and seat availability.\n\nOnce allotted, candidates who receive the provisional seat and allotment letter by the portal must download that letter and report to the respective institute for verification and admission."
+    },
+    {
+      "id": "documents-required",
+      "type": "heading",
+      "title": "Documents Required",
+      "level": 2
+    },
+    {
+      "id": "documents-required-intro",
+      "type": "paragraph",
+      "content": "During counselling and admission, candidates must present:"
+    },
+    {
+      "id": "documents-required-list",
+      "type": "list",
+      "items": [
+        "NEET PG 2025 Admit Card & Scorecard",
+        "MBBS Mark Sheets & Degree Certificate",
+        "Internship Completion Certificate",
+        "Medical Registration Certificate",
+        "Domicile Certificate (for state quota)",
+        "Category Certificate (if applicable)",
+        "Photo ID (Aadhaar/PAN/Passport)",
+        "Passport-size Photographs"
+      ]
+    },
+    {
+      "id": "seat-matrix",
+      "type": "heading",
+      "title": "Seat Matrix and Reservation",
+      "level": 2
+    },
+    {
+      "id": "seat-matrix-intro",
+      "type": "paragraph",
+      "content": "About the seat matrix and reservation, Jharkhand should follow the state government reservation policy for medical admissions.\n\nSeats are divided among:"
+    },
+    {
+      "id": "seat-matrix-list",
+      "type": "list",
+      "items": [
+        "All India State Quota (50%) – for eligible Jharkhand-domicile candidates, which is managed by the MCC official portal.",
+        "All India Quota (50%) – managed by MCC",
+        "Category-wise reservation applies to state government percentages as per norms for SC, ST, OBC, and EWS candidates."
+      ]
+    },
+    {
+      "id": "online-registration-steps",
+      "type": "heading",
+      "title": "Steps for Online Registration",
+      "level": 2
+    },
+    {
+      "id": "online-registration-steps-list",
+      "type": "list",
+      "items": [
+        "They should visit https://neetpgcet.jceceb.org.in",
+        "After that, just click on 'New Registration' and complete your details.",
+        "Later on, they will receive your Registration ID via SMS and Email.",
+        "They can easily log in it using the credentials and fill out the application form carefully.",
+        "They just have to upload the following documents: Their NEET PG 2025 Scorecard, The MBBS Pass Certificate, Internship Completion Certificate, Proof of Resident Certificate, Your Passport-size photograph, signature, and left-thumb impression are required (as per given specifications)",
+        "Later on, you have to pay the required fee online.",
+        "Review all entries and lock your application before submission."
+      ]
+    },
+    {
+      "id": "reporting-admission",
+      "type": "heading",
+      "title": "Reporting and Admission",
+      "level": 2
+    },
+    {
+      "id": "reporting-admission-intro",
+      "type": "paragraph",
+      "content": "After your seat is allotted:"
+    },
+    {
+      "id": "reporting-admission-list",
+      "type": "list",
+      "items": [
+        "Candidates must physically report to the allotted college within the given timeline.",
+        "You just have to bring all your original documents and photocopies for verification.",
+        "Later on, you have to pay the admission fee as per the institute's guidelines to confirm the seat."
+      ]
+    },
+    {
+      "id": "conclusion",
+      "type": "heading",
+      "title": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "conclusion-content",
+      "type": "paragraph",
+      "content": "The Jharkhand NEET PG 2025 Counselling process strictly follows the merit-based seat allocation that offers the candidates a very fair and transparent pathway for medical graduates, so they can easily secure their postgraduate seats across government and private colleges in the state.\n\nThere will be complete procedural information where Candidates are advised to keep their documents ready on time, while they should follow the schedule closely, and stay updated through the official JCECEB website for real-time notifications, so don't miss out on any. Timely registration and wise choice filling can help aspirants secure their desired specialty in this competitive process."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "Frequently Asked Questions (FAQs)",
+      "level": 2
+    },
+    {
+      "id": "faq-1",
+      "type": "heading",
+      "title": "Q1: What are the registration dates for Jharkhand NEET PG 2025 Round 1?",
+      "level": 3
+    },
+    {
+      "id": "faq-1-answer",
+      "type": "paragraph",
+      "content": "A: Round 1 registration: November 2-5, 2025. Choice filling: November 12-14, 2025. Seat allotment letter: November 16, 2025. Institute reporting: November 20-27, 2025."
+    },
+    {
+      "id": "faq-2",
+      "type": "heading",
+      "title": "Q2: What are the application and counselling fees for Jharkhand NEET PG 2025?",
+      "level": 3
+    },
+    {
+      "id": "faq-2-answer",
+      "type": "paragraph",
+      "content": "A: The overall application fee: ₹1,000 either they're from (General/EWS/BC-I/BC-II); and ₹500 (SC/ST/Female). Although the counselling fee is about ₹2,000 (General/EWS/BC-I/BC-II), and ₹1,200 (SC/ST/Female)."
+    },
+    {
+      "id": "faq-3",
+      "type": "heading",
+      "title": "Q3: Can candidates from other states apply for Jharkhand state quota seats?",
+      "level": 3
+    },
+    {
+      "id": "faq-3-answer",
+      "type": "paragraph",
+      "content": "A: There is a big No. Jharkhand state quota counselling requires a Jharkhand residency certificate. And who are Non-residency candidates are unqualified for state quota seats, which were administered by JCECEB."
+    },
+    {
+      "id": "faq-4",
+      "type": "heading",
+      "title": "Q4: What is the internship completion deadline for eligibility?",
+      "level": 3
+    },
+    {
+      "id": "faq-4-answer",
+      "type": "paragraph",
+      "content": "A: There will be a compulsory revolving internship that must be completed by March 31 by the candidates of 2025, as it is specified in the JCECEB counselling notification."
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "jharkhand neet pg counselling",
+        "neet pg counselling",
+        "jharkhand neet pg counselling 2025",
+        "neet pg counselling registration",
+        "counselling procedure for neet pg",
+        "jharkhand neet pg seat matrix",
+        "neet pg seat allotment",
+        "neet pg counselling choice filling",
+        "neet pg online counselling",
+        "state counselling neet pg"
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    }
+  ]
 }
 
 ];
