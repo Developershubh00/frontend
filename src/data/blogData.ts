@@ -14255,15 +14255,15 @@ export const blogPosts: BlogPost[] = [
       "type": "keywords",
       "title": "Related Keywords",
       "keywords": [
-        "ini cet counselling",
-        "ini cet counselling process",
-        "ini cet counselling 2025",
-        "ini cet 2025 counselling",
-        "inicet counselling",
-        "inicet counselling registration",
-        "inicet counselling rounds 1",
-        "ini cet counselling round 2",
-        "ini cet counselling open round"
+         "INI CET Counselling",
+  "INI CET Counselling Process",
+  "INI CET Counselling 2025",
+  "INI CET 2025 Counselling",
+  "INICET Counselling",
+  "INICET Counselling Registration",
+  "INICET Counselling Round 1",
+  "INI CET Counselling Round 2",
+  "INI CET Counselling Open Round"
       ]
     },
     {
