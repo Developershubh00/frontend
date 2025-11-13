@@ -399,11 +399,23 @@ const INICETSeatMatrixPage: React.FC<INICETSeatMatrixPageProps> = ({ onBack }) =
         </div>
 
         {/* Institute Buttons - Fixed Section */}
-        <div className="bg-white border-b border-gray-200 px-4 py-4">
-          <h2 className="text-sm font-semibold text-gray-700 mb-3">
-            Select Institute
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 max-h-64 overflow-y-auto">
+        {/* Institute Buttons - Compact Layout */}
+        <div className="bg-white border-b border-gray-200 px-4 py-3">
+          <div className="flex items-center justify-between mb-2">
+            <h2 className="text-xs font-semibold text-gray-700">
+              Select Institute
+            </h2>
+            {selectedInstitute && (
+              <button
+                onClick={() => setSelectedInstitute("")}
+                className="text-xs text-red-600 hover:text-red-700 flex items-center gap-1"
+              >
+                <X className="w-3 h-3" />
+                Clear
+              </button>
+            )}
+          </div>
+          <div className="flex flex-wrap gap-2">
             {INSTITUTES.map((institute) => {
               const instituteCount = seatMatrixData.filter(
                 (item) => item.INSTITUTE === institute
@@ -417,34 +429,17 @@ const INICETSeatMatrixPage: React.FC<INICETSeatMatrixPageProps> = ({ onBack }) =
                     );
                     setCurrentPage(1);
                   }}
-                  className={`px-3 py-2 text-xs font-medium rounded-lg transition-all ${
+                  className={`px-2 py-1 text-[10px] font-medium rounded transition-all ${
                     selectedInstitute === institute
-                      ? "bg-blue-600 text-white shadow-md"
+                      ? "bg-pink-600 text-white"
                       : "bg-gray-100 text-gray-700 hover:bg-gray-200"
                   }`}
                 >
-                  <div className="truncate">{institute}</div>
-                  <div className="text-[10px] opacity-75 mt-0.5">
-                    {instituteCount} entries
-                  </div>
+                  {institute.replace("AIIMS", "").replace(",", "").trim()}
                 </button>
               );
             })}
           </div>
-          {selectedInstitute && (
-            <div className="mt-3 flex items-center gap-2">
-              <span className="text-xs text-gray-600">Selected:</span>
-              <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-medium">
-                {selectedInstitute}
-              </span>
-              <button
-                onClick={() => setSelectedInstitute("")}
-                className="text-xs text-red-600 hover:text-red-700 underline"
-              >
-                Clear
-              </button>
-            </div>
-          )}
         </div>
 
         {/* Search and Filters */}
@@ -608,8 +603,10 @@ const INICETSeatMatrixPage: React.FC<INICETSeatMatrixPageProps> = ({ onBack }) =
         </div>
 
         {/* Table - Scrollable */}
-        <div className="flex-1 overflow-auto">
-          <table className="w-full">
+        {/* Scrollable Table Container */}
+        <div className="flex-1 overflow-hidden">
+          <div className="overflow-y-auto max-h-[calc(100vh-300px)]">
+           <table className="w-full">
             <thead className="bg-gradient-to-r from-gray-100 to-gray-200 border-b border-gray-300 sticky top-0">
               <tr>
                 {columnVisibility.Subject && (
@@ -729,6 +726,7 @@ const INICETSeatMatrixPage: React.FC<INICETSeatMatrixPageProps> = ({ onBack }) =
               )}
             </tbody>
           </table>
+          </div>
         </div>
 
         {/* Pagination */}
