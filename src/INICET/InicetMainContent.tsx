@@ -72,13 +72,13 @@ const InicetMainContent: React.FC = () => {
       color: "bg-blue-500",
       onClick: () => navigate("/inicet/allotments/julysession"),
     },
-    // {
-    //   title: "Seat Matrix",
-    //   subtitle: "Available Seats",
-    //   icon: BarChart3,
-    //   color: "bg-indigo-500",
-    //   onClick: () => navigate("/inicet/seat-matrix"),
-    // },
+    {
+      title: "Seat Matrix",
+      subtitle: "Available Seats",
+      icon: BarChart3,
+      color: "bg-indigo-500",
+      onClick: () => navigate("/inicet/seat-matrix"),
+    },
     // {
     //   title: "Fee & Stipend",
     //   subtitle: "Financial Details",

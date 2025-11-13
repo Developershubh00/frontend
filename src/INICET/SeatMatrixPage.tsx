@@ -1,81 +1,3 @@
-// // InicetAllotmentsPage.tsx
-// import React, { useState } from "react";
-// import { useAuth } from "../contexts/AuthContext";
-// import { useNavigate } from "react-router-dom";
-// import Header from "../components/Header";
-// import Sidebar from "../components/Sidebar";
-// import RightSidebar from "../components/RightSidebar";
-// import MobileBottomNav from "../components/MobileBottomNav";
-// import AiSensyWidget from "../components/AiSensyWidget";
-// import { Users, ArrowLeft } from "lucide-react";
-
-// const InicetAllotmentsPage: React.FC = () => {
-//   const { user } = useAuth();
-//   const navigate = useNavigate();
-//   const [activeSection, setActiveSection] = useState("allotments");
-//   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
-//   return (
-//     <div className="h-screen w-screen bg-gradient-to-br from-rose-50 via-blue-50 to-indigo-50 overflow-hidden">
-//       <div className="h-16 w-full bg-white/95 backdrop-blur-xl border-b border-slate-200/50 z-40 fixed top-0 left-0 right-0">
-//         <Header
-//           onSearchChange={() => {}}
-//           onMobileMenuToggle={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-//           isMobileMenuOpen={isMobileMenuOpen}
-//           user={user}
-//           onSectionChange={setActiveSection}
-//         />
-//       </div>
-
-//       <div className="flex h-full w-full pt-16">
-//         <div className="hidden lg:block w-64 h-full bg-white/95 backdrop-blur-xl border-r border-slate-200/50 z-30">
-//           <Sidebar activeSection={activeSection} onSectionChange={setActiveSection} isCollapsed={false} onToggleCollapse={() => {}} />
-//         </div>
-
-//         <div className="flex-1 h-full overflow-y-auto" style={{ width: 'calc(100vw - 256px - 320px)', minWidth: '320px' }}>
-//           <div className="p-4 lg:p-6 max-w-7xl mx-auto">
-//             <button onClick={() => navigate("/inicet")} className="flex items-center space-x-2 text-blue-600 hover:text-blue-700 mb-6">
-//               <ArrowLeft className="w-5 h-5" />
-//               <span>Back to INICET Dashboard</span>
-//             </button>
-
-//             <div className="bg-white/80 backdrop-blur-xl rounded-2xl shadow-xl p-6 lg:p-8 border border-white/20">
-//               <div className="flex items-center space-x-4 mb-6">
-//                 <div className="w-12 h-12 bg-purple-500 rounded-xl flex items-center justify-center">
-//                   <Users className="w-6 h-6 text-white" />
-//                 </div>
-//                 <div>
-//                   <h1 className="text-2xl lg:text-3xl font-bold text-slate-800">INICET Allotments</h1>
-//                   <p className="text-slate-600">View past allotment data for INICET</p>
-//                 </div>
-//               </div>
-//               <div className="bg-blue-50 rounded-xl p-6 text-center">
-//                 <p className="text-slate-700">Allotment data will be displayed here. Connect to your data source to populate this page.</p>
-//               </div>
-//             </div>
-//           </div>
-//         </div>
-
-//         <div className="hidden xl:block w-80 h-full bg-white/95 backdrop-blur-xl border-l border-slate-200/50 z-30">
-//           <RightSidebar isOpen={true} onToggle={() => {}} choiceLists={[]} />
-//         </div>
-//       </div>
-
-//       {isMobileMenuOpen && (
-//         <div className="lg:hidden fixed inset-0 z-50 flex">
-//           <div className="fixed inset-0 bg-black/50" onClick={() => setIsMobileMenuOpen(false)} />
-//           <Sidebar activeSection={activeSection} onSectionChange={setActiveSection} className="relative z-10" isCollapsed={false} onToggleCollapse={() => {}} />
-//         </div>
-//       )}
-
-//       <MobileBottomNav activeSection={activeSection} onSectionChange={setActiveSection} />
-//       <AiSensyWidget widgetId="aaa5qq" />
-//     </div>
-//   );
-// };
-
-// export default InicetAllotmentsPage;
-
 import React, { useState, useEffect } from "react";
 import {
   ArrowLeft,
@@ -92,70 +14,95 @@ import {
   Building2,
   Award,
 } from "lucide-react";
-import CustomSelect from "../components/CustomSelect";
 
-interface InicetAllotmentPageProps {
+interface SeatMatrixPageProps {
   onBack: () => void;
 }
 
-interface AllotmentData {
-  Round: string;
-  "AI Rank": string;
-  State: string;
-  Institute: string;
-  Course: string;
-  Quota: string;
-  Category: string;
+interface SeatMatrixData {
+  Subject: string;
+  Total: string;
+  UR: string;
+  OBC: string;
+  SC: string;
+  ST: string;
+  EWS: string;
+  INSTITUTE: string;
+  COURSE: string;
 }
 
 interface ColumnVisibility {
-  Round: boolean;
-  "AI Rank": boolean;
-  State: boolean;
-  Institute: boolean;
-  Course: boolean;
-  Quota: boolean;
-  Category: boolean;
+  Subject: boolean;
+  Total: boolean;
+  UR: boolean;
+  OBC: boolean;
+  SC: boolean;
+  ST: boolean;
+  EWS: boolean;
+  INSTITUTE: boolean;
+  COURSE: boolean;
 }
 
-const InicetAllotmentPage: React.FC<InicetAllotmentPageProps> = ({
-  onBack,
-}) => {
-  const [allotmentData, setAllotmentData] = useState<AllotmentData[]>([]);
+const INSTITUTES = [
+  "AIIMS NEW DELHI",
+  "AIIMS BHOPAL",
+  "AIIMS JODHPUR",
+  "AIIMS RISHIKESH",
+  "AIIMS NAGPUR",
+  "AIIMS BIBINAGAR",
+  "AIIMS BATHINDA",
+  "AIIMS DEOGHAR",
+  "AIIMS MANGALAGIRI",
+  "AIIMS KALYANI",
+  "AIIMS BILASPUR",
+  "AIIMS GORAKHPUR",
+  "AIIMS GUWAHATI",
+  "AIIMS RAJKOT",
+  "AIIMS JAMMU",
+  "AIIMS, RAIPUR",
+  "AIIMS, RAEBARELI",
+  "AIIMS, BHUBANESWAR",
+  "JIPMER, PUDUCHERRY",
+  "NIMHANS, BENGALURU",
+  "PGIMER, Chandigarh",
+  "SCTIMST Trivandrum",
+];
+
+const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
+  const [seatMatrixData, setSeatMatrixData] = useState<SeatMatrixData[]>([]);
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState("");
-  const [selectedRound, setSelectedRound] = useState("all");
-  const [selectedState, setSelectedState] = useState("all");
+  const [selectedInstitute, setSelectedInstitute] = useState<string>("");
   const [selectedCourse, setSelectedCourse] = useState("all");
-  const [selectedQuota, setSelectedQuota] = useState("all");
-  const [selectedCategory, setSelectedCategory] = useState("all");
+  const [selectedSubject, setSelectedSubject] = useState("all");
   const [currentPage, setCurrentPage] = useState(1);
   const [showAdvancedFilters, setShowAdvancedFilters] = useState(false);
   const [showColumnVisibility, setShowColumnVisibility] = useState(false);
 
-  // Column visibility state
   const [columnVisibility, setColumnVisibility] = useState<ColumnVisibility>({
-    Round: true,
-    "AI Rank": true,
-    State: true,
-    Institute: true,
-    Course: true,
-    Quota: true,
-    Category: true,
+    Subject: true,
+    Total: true,
+    UR: true,
+    OBC: true,
+    SC: true,
+    ST: true,
+    EWS: true,
+    INSTITUTE: true,
+    COURSE: true,
   });
 
-  // Column definitions
   const columnDefinitions = [
-    { key: "Round" as keyof ColumnVisibility, label: "Round" },
-    { key: "AI Rank" as keyof ColumnVisibility, label: "AI Rank" },
-    { key: "State" as keyof ColumnVisibility, label: "State" },
-    { key: "Institute" as keyof ColumnVisibility, label: "Institute" },
-    { key: "Course" as keyof ColumnVisibility, label: "Course" },
-    { key: "Quota" as keyof ColumnVisibility, label: "Quota" },
-    { key: "Category" as keyof ColumnVisibility, label: "Category" },
+    { key: "Subject" as keyof ColumnVisibility, label: "Subject" },
+    { key: "Total" as keyof ColumnVisibility, label: "Total" },
+    { key: "UR" as keyof ColumnVisibility, label: "UR" },
+    { key: "OBC" as keyof ColumnVisibility, label: "OBC" },
+    { key: "SC" as keyof ColumnVisibility, label: "SC" },
+    { key: "ST" as keyof ColumnVisibility, label: "ST" },
+    { key: "EWS" as keyof ColumnVisibility, label: "EWS" },
+    { key: "INSTITUTE" as keyof ColumnVisibility, label: "Institute" },
+    { key: "COURSE" as keyof ColumnVisibility, label: "Course" },
   ];
 
-  // Toggle column visibility
   const toggleColumn = (columnKey: keyof ColumnVisibility) => {
     setColumnVisibility((prev) => ({
       ...prev,
@@ -163,7 +110,6 @@ const InicetAllotmentPage: React.FC<InicetAllotmentPageProps> = ({
     }));
   };
 
-  // Show all columns
   const showAllColumns = () => {
     const allVisible = Object.keys(columnVisibility).reduce((acc, key) => {
       acc[key as keyof ColumnVisibility] = true;
@@ -172,16 +118,15 @@ const InicetAllotmentPage: React.FC<InicetAllotmentPageProps> = ({
     setColumnVisibility(allVisible);
   };
 
-  // Hide all columns (but keep Institute visible)
   const hideAllColumns = () => {
     const allHidden = Object.keys(columnVisibility).reduce((acc, key) => {
-      acc[key as keyof ColumnVisibility] = key === "Institute";
+      acc[key as keyof ColumnVisibility] = key === "INSTITUTE" || key === "Subject";
       return acc;
     }, {} as ColumnVisibility);
     setColumnVisibility(allHidden);
   };
 
-  const parseCSV = (csvText: string): AllotmentData[] => {
+  const parseCSV = (csvText: string): SeatMatrixData[] => {
     if (csvText.includes("<html") || csvText.includes("<!DOCTYPE")) {
       throw new Error("Invalid CSV data - received HTML");
     }
@@ -192,10 +137,6 @@ const InicetAllotmentPage: React.FC<InicetAllotmentPageProps> = ({
     if (dataLines.length < 2) {
       throw new Error("Invalid CSV data - insufficient rows");
     }
-
-    const headers = dataLines[0]
-      .split(",")
-      .map((h) => h.trim().replace(/"/g, ""));
 
     return dataLines.slice(1).map((line) => {
       const values: string[] = [];
@@ -220,13 +161,15 @@ const InicetAllotmentPage: React.FC<InicetAllotmentPageProps> = ({
       );
 
       return {
-        Round: cleanedValues[0] || "",
-        "AI Rank": cleanedValues[1] || "",
-        State: cleanedValues[2] || "",
-        Institute: cleanedValues[3] || "",
-        Course: cleanedValues[4] || "",
-        Quota: cleanedValues[5] || "",
-        Category: cleanedValues[6] || "",
+        Subject: cleanedValues[0] || "",
+        Total: cleanedValues[1] || "",
+        UR: cleanedValues[2] || "",
+        OBC: cleanedValues[3] || "",
+        SC: cleanedValues[4] || "",
+        ST: cleanedValues[5] || "",
+        EWS: cleanedValues[6] || "",
+        INSTITUTE: cleanedValues[7] || "",
+        COURSE: cleanedValues[8] || "",
       };
     });
   };
@@ -234,7 +177,7 @@ const InicetAllotmentPage: React.FC<InicetAllotmentPageProps> = ({
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("/data/INICET_allotments.csv");
+        const response = await fetch("/data/Seat_matrixINICET.csv");
 
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
@@ -252,33 +195,37 @@ const InicetAllotmentPage: React.FC<InicetAllotmentPageProps> = ({
           throw new Error("No valid data parsed from CSV");
         }
 
-        setAllotmentData(parsedData);
+        setSeatMatrixData(parsedData);
       } catch (error) {
-        console.error("Error fetching INICET allotment data:", error);
+        console.error("Error fetching INICET seat matrix data:", error);
 
         // Fallback data
-        const fallbackData: AllotmentData[] = [
+        const fallbackData: SeatMatrixData[] = [
           {
-            Round: "Round 1",
-            "AI Rank": "100",
-            State: "Delhi",
-            Institute: "All India Institute of Medical Sciences, New Delhi",
-            Course: "MD General Medicine",
-            Quota: "All India Quota",
-            Category: "General",
+            Subject: "Anatomy",
+            Total: "10",
+            UR: "5",
+            OBC: "2",
+            SC: "1",
+            ST: "1",
+            EWS: "1",
+            INSTITUTE: "AIIMS NEW DELHI",
+            COURSE: "MD",
           },
           {
-            Round: "Round 1",
-            "AI Rank": "250",
-            State: "Maharashtra",
-            Institute: "Seth G.S. Medical College and KEM Hospital, Mumbai",
-            Course: "MS General Surgery",
-            Quota: "All India Quota",
-            Category: "OBC",
+            Subject: "General Medicine",
+            Total: "15",
+            UR: "7",
+            OBC: "4",
+            SC: "2",
+            ST: "1",
+            EWS: "1",
+            INSTITUTE: "AIIMS BHOPAL",
+            COURSE: "MD",
           },
         ];
 
-        setAllotmentData(fallbackData);
+        setSeatMatrixData(fallbackData);
       } finally {
         setLoading(false);
       }
@@ -287,35 +234,21 @@ const InicetAllotmentPage: React.FC<InicetAllotmentPageProps> = ({
     fetchData();
   }, []);
 
-  const filteredData = allotmentData.filter((item) => {
+  const filteredData = seatMatrixData.filter((item) => {
     const matchesSearch =
-      item.Round.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      item["AI Rank"].toLowerCase().includes(searchTerm.toLowerCase()) ||
-      item.State.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      item.Institute.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      item.Course.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      item.Quota.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      item.Category.toLowerCase().includes(searchTerm.toLowerCase());
+      item.Subject.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      item.INSTITUTE.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      item.COURSE.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      item.Total.toLowerCase().includes(searchTerm.toLowerCase());
 
-    const matchesRound =
-      selectedRound === "all" || item.Round === selectedRound;
-    const matchesState =
-      selectedState === "all" || item.State === selectedState;
+    const matchesInstitute =
+      !selectedInstitute || item.INSTITUTE === selectedInstitute;
     const matchesCourse =
-      selectedCourse === "all" || item.Course === selectedCourse;
-    const matchesQuota =
-      selectedQuota === "all" || item.Quota === selectedQuota;
-    const matchesCategory =
-      selectedCategory === "all" || item.Category === selectedCategory;
+      selectedCourse === "all" || item.COURSE === selectedCourse;
+    const matchesSubject =
+      selectedSubject === "all" || item.Subject === selectedSubject;
 
-    return (
-      matchesSearch &&
-      matchesRound &&
-      matchesState &&
-      matchesCourse &&
-      matchesQuota &&
-      matchesCategory
-    );
+    return matchesSearch && matchesInstitute && matchesCourse && matchesSubject;
   });
 
   // Pagination
@@ -328,43 +261,35 @@ const InicetAllotmentPage: React.FC<InicetAllotmentPageProps> = ({
   );
 
   // Get unique values for filters
-  const rounds = [
-    "all",
-    ...Array.from(new Set(allotmentData.map((item) => item.Round))),
-  ].sort();
-  const states = [
-    "all",
-    ...Array.from(new Set(allotmentData.map((item) => item.State))),
-  ].sort();
   const courses = [
     "all",
-    ...Array.from(new Set(allotmentData.map((item) => item.Course))),
+    ...Array.from(new Set(seatMatrixData.map((item) => item.COURSE))),
   ].sort();
-  const quotas = [
+  const subjects = [
     "all",
-    ...Array.from(new Set(allotmentData.map((item) => item.Quota))),
-  ].sort();
-  const categories = [
-    "all",
-    ...Array.from(new Set(allotmentData.map((item) => item.Category))),
+    ...Array.from(new Set(seatMatrixData.map((item) => item.Subject))),
   ].sort();
 
   const clearAllFilters = () => {
     setSearchTerm("");
-    setSelectedRound("all");
-    setSelectedState("all");
+    setSelectedInstitute("");
     setSelectedCourse("all");
-    setSelectedQuota("all");
-    setSelectedCategory("all");
+    setSelectedSubject("all");
     setCurrentPage(1);
   };
+
+  // Calculate total seats
+  const totalSeats = filteredData.reduce(
+    (sum, item) => sum + (parseInt(item.Total) || 0),
+    0
+  );
 
   if (loading) {
     return (
       <div className="flex-1 bg-gradient-to-br from-rose-50 via-blue-50 to-indigo-50 min-h-screen flex items-center justify-center">
         <div className="text-center">
           <div className="w-16 h-16 border-4 border-blue-500 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
-          <p className="text-slate-600">Loading INICET Allotment Data...</p>
+          <p className="text-slate-600">Loading INICET Seat Matrix Data...</p>
         </div>
       </div>
     );
@@ -458,19 +383,68 @@ const InicetAllotmentPage: React.FC<InicetAllotmentPageProps> = ({
                 <ArrowLeft className="w-4 h-4" />
               </button>
               <div>
-                <h1 className="text-lg font-semibold">INICET Allotments</h1>
+                <h1 className="text-lg font-semibold">INICET Seat Matrix</h1>
                 <p className="text-xs text-blue-100">
-                  Institute of National Importance Combined Entrance Test
+                  Institute Wise Seat Distribution
                 </p>
               </div>
             </div>
 
             <div className="hidden md:flex items-center space-x-2">
               <span className="text-xs text-blue-100">
-                {filteredData.length} Allotments
+                {filteredData.length} Entries
               </span>
             </div>
           </div>
+        </div>
+
+        {/* Institute Buttons - Fixed Section */}
+        <div className="bg-white border-b border-gray-200 px-4 py-4">
+          <h2 className="text-sm font-semibold text-gray-700 mb-3">
+            Select Institute
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 max-h-64 overflow-y-auto">
+            {INSTITUTES.map((institute) => {
+              const instituteCount = seatMatrixData.filter(
+                (item) => item.INSTITUTE === institute
+              ).length;
+              return (
+                <button
+                  key={institute}
+                  onClick={() => {
+                    setSelectedInstitute(
+                      selectedInstitute === institute ? "" : institute
+                    );
+                    setCurrentPage(1);
+                  }}
+                  className={`px-3 py-2 text-xs font-medium rounded-lg transition-all ${
+                    selectedInstitute === institute
+                      ? "bg-blue-600 text-white shadow-md"
+                      : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+                  }`}
+                >
+                  <div className="truncate">{institute}</div>
+                  <div className="text-[10px] opacity-75 mt-0.5">
+                    {instituteCount} entries
+                  </div>
+                </button>
+              );
+            })}
+          </div>
+          {selectedInstitute && (
+            <div className="mt-3 flex items-center gap-2">
+              <span className="text-xs text-gray-600">Selected:</span>
+              <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-medium">
+                {selectedInstitute}
+              </span>
+              <button
+                onClick={() => setSelectedInstitute("")}
+                className="text-xs text-red-600 hover:text-red-700 underline"
+              >
+                Clear
+              </button>
+            </div>
+          )}
         </div>
 
         {/* Search and Filters */}
@@ -483,28 +457,15 @@ const InicetAllotmentPage: React.FC<InicetAllotmentPageProps> = ({
                 <Search className="w-4 h-4 absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
                 <input
                   type="text"
-                  placeholder="Search allotments, institutes, courses, states..."
+                  placeholder="Search subjects, institutes, courses..."
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
                   className="w-full pl-10 pr-4 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
                 />
               </div>
 
-              {/* Quick Filters */}
+              {/* Quick Actions */}
               <div className="flex gap-2 flex-wrap">
-                <CustomSelect
-                  value={selectedState}
-                  onChange={(value) => {
-                    setSelectedState(value);
-                    setCurrentPage(1);
-                  }}
-                  options={states}
-                  placeholder="Select State"
-                  allLabel="All States"
-                  menuPlacement="auto"
-                  className="min-w-[120px]"
-                />
-
                 <button
                   onClick={() => setShowColumnVisibility(true)}
                   className="flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-lg bg-orange-100 text-orange-700 hover:bg-orange-200 transition-colors whitespace-nowrap"
@@ -513,7 +474,6 @@ const InicetAllotmentPage: React.FC<InicetAllotmentPageProps> = ({
                   Show/Hide
                 </button>
 
-                {/* Advanced Filter Toggle */}
                 <button
                   onClick={() => setShowAdvancedFilters(!showAdvancedFilters)}
                   className="flex items-center gap-2 px-3 py-2 text-sm text-blue-600 hover:bg-blue-50 rounded-lg transition-colors border border-blue-200"
@@ -532,62 +492,57 @@ const InicetAllotmentPage: React.FC<InicetAllotmentPageProps> = ({
             {/* Advanced Filters */}
             {showAdvancedFilters && (
               <div className="space-y-3 border-t pt-3">
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-3">
-                  {/* Round Filter */}
-                  <CustomSelect
-                    value={selectedRound}
-                    onChange={(value) => {
-                      setSelectedRound(value);
-                      setCurrentPage(1);
-                    }}
-                    options={rounds}
-                    placeholder="Select Round"
-                    allLabel="All Rounds"
-                    menuPlacement="auto"
-                  />
-
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                   {/* Course Filter */}
-                  <CustomSelect
-                    value={selectedCourse}
-                    onChange={(value) => {
-                      setSelectedCourse(value);
-                      setCurrentPage(1);
-                    }}
-                    options={courses}
-                    placeholder="Select Course"
-                    allLabel="All Courses"
-                    menuPlacement="auto"
-                  />
+                  <div>
+                    <label className="block text-xs font-medium text-gray-700 mb-1">
+                      Course
+                    </label>
+                    <select
+                      value={selectedCourse}
+                      onChange={(e) => {
+                        setSelectedCourse(e.target.value);
+                        setCurrentPage(1);
+                      }}
+                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm text-black"
+                    >
+                      <option value="all">All Courses</option>
+                      {courses
+                        .filter((c) => c !== "all")
+                        .map((course) => (
+                          <option key={course} value={course}>
+                            {course}
+                          </option>
+                        ))}
+                    </select>
+                  </div>
 
-                  {/* Quota Filter */}
-                  <CustomSelect
-                    value={selectedQuota}
-                    onChange={(value) => {
-                      setSelectedQuota(value);
-                      setCurrentPage(1);
-                    }}
-                    options={quotas}
-                    placeholder="Select Quota"
-                    allLabel="All Quotas"
-                    menuPlacement="auto"
-                  />
-
-                  {/* Category Filter */}
-                  <CustomSelect
-                    value={selectedCategory}
-                    onChange={(value) => {
-                      setSelectedCategory(value);
-                      setCurrentPage(1);
-                    }}
-                    options={categories}
-                    placeholder="Select Category"
-                    allLabel="All Categories"
-                    menuPlacement="auto"
-                  />
+                  {/* Subject Filter */}
+                  <div>
+                    <label className="block text-xs font-medium text-gray-700 mb-1">
+                      Subject
+                    </label>
+                    <select
+                      value={selectedSubject}
+                      onChange={(e) => {
+                        setSelectedSubject(e.target.value);
+                        setCurrentPage(1);
+                      }}
+                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm text-black"
+                    >
+                      <option value="all">All Subjects</option>
+                      {subjects
+                        .filter((s) => s !== "all")
+                        .map((subject) => (
+                          <option key={subject} value={subject}>
+                            {subject}
+                          </option>
+                        ))}
+                    </select>
+                  </div>
                 </div>
 
                 <div className="flex items-center justify-between">
-                  {/* Clear Filters Button */}
                   <button
                     onClick={clearAllFilters}
                     className="px-4 py-2 border border-gray-300 text-gray-600 rounded-lg hover:bg-gray-50 transition-colors text-sm"
@@ -595,12 +550,11 @@ const InicetAllotmentPage: React.FC<InicetAllotmentPageProps> = ({
                     Clear All Filters
                   </button>
 
-                  {/* Results Count */}
                   <div className="flex items-center text-sm text-gray-600 bg-gray-50 rounded-lg px-3 py-2">
                     <span className="font-medium text-blue-600">
                       {filteredData.length}
                     </span>
-                    <span className="ml-1">allotments found</span>
+                    <span className="ml-1">entries found</span>
                   </div>
                 </div>
               </div>
@@ -616,9 +570,9 @@ const InicetAllotmentPage: React.FC<InicetAllotmentPageProps> = ({
                 <Users className="w-4 h-4 text-white" />
               </div>
               <div className="text-sm font-bold text-gray-800">
-                {allotmentData.length}
+                {totalSeats}
               </div>
-              <div className="text-gray-600 text-xs">Total Allotments</div>
+              <div className="text-gray-600 text-xs">Total Seats</div>
             </div>
 
             <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-lg p-3 text-center">
@@ -626,9 +580,9 @@ const InicetAllotmentPage: React.FC<InicetAllotmentPageProps> = ({
                 <GraduationCap className="w-4 h-4 text-white" />
               </div>
               <div className="text-sm font-bold text-gray-800">
-                {courses.length - 1}
+                {subjects.length - 1}
               </div>
-              <div className="text-gray-600 text-xs">Courses</div>
+              <div className="text-gray-600 text-xs">Subjects</div>
             </div>
 
             <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg p-3 text-center">
@@ -636,10 +590,7 @@ const InicetAllotmentPage: React.FC<InicetAllotmentPageProps> = ({
                 <Building2 className="w-4 h-4 text-white" />
               </div>
               <div className="text-sm font-bold text-gray-800">
-                {
-                  Array.from(new Set(allotmentData.map((s) => s.Institute)))
-                    .length
-                }
+                {INSTITUTES.length}
               </div>
               <div className="text-gray-600 text-xs">Institutes</div>
             </div>
@@ -649,53 +600,61 @@ const InicetAllotmentPage: React.FC<InicetAllotmentPageProps> = ({
                 <Award className="w-4 h-4 text-white" />
               </div>
               <div className="text-sm font-bold text-gray-800">
-                {states.length - 1}
+                {courses.length - 1}
               </div>
-              <div className="text-gray-600 text-xs">States</div>
+              <div className="text-gray-600 text-xs">Courses</div>
             </div>
           </div>
         </div>
 
-        {/* Table */}
-        {/* Scrollable Table Container */}
-        <div className="flex-1 overflow-hidden">
-        <div className="overflow-y-auto max-h-[calc(100vh-300px)]">
-         <table className="w-full">
+        {/* Table - Scrollable */}
+        <div className="flex-1 overflow-auto">
+          <table className="w-full">
             <thead className="bg-gradient-to-r from-gray-100 to-gray-200 border-b border-gray-300 sticky top-0">
               <tr>
-                {columnVisibility.Round && (
-                  <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">
-                    Round
+                {columnVisibility.Subject && (
+                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">
+                    Subject
                   </th>
                 )}
-                {columnVisibility["AI Rank"] && (
+                {columnVisibility.Total && (
                   <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">
-                    AI Rank
+                    Total
                   </th>
                 )}
-                {columnVisibility.State && (
+                {columnVisibility.UR && (
                   <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">
-                    State
+                    UR
                   </th>
                 )}
-                {columnVisibility.Institute && (
+                {columnVisibility.OBC && (
                   <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">
+                    OBC
+                  </th>
+                )}
+                {columnVisibility.SC && (
+                  <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">
+                    SC
+                  </th>
+                )}
+                {columnVisibility.ST && (
+                  <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">
+                    ST
+                  </th>
+                )}
+                {columnVisibility.EWS && (
+                  <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">
+                    EWS
+                  </th>
+                )}
+                {columnVisibility.INSTITUTE && (
+                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">
                     Institute
                   </th>
                 )}
-                {columnVisibility.Course && (
+                {columnVisibility.COURSE && (
                   <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">
                     Course
-                  </th>
-                )}
-                {columnVisibility.Quota && (
-                  <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">
-                    Quota
-                  </th>
-                )}
-                {columnVisibility.Category && (
-                  <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">
-                    Category
                   </th>
                 )}
               </tr>
@@ -709,7 +668,7 @@ const InicetAllotmentPage: React.FC<InicetAllotmentPageProps> = ({
                     }
                     className="px-6 py-8 text-center text-gray-500"
                   >
-                    No data found. Try adjusting your filters.
+                    No data found. Try adjusting your filters or selecting an institute.
                   </td>
                 </tr>
               ) : (
@@ -718,60 +677,50 @@ const InicetAllotmentPage: React.FC<InicetAllotmentPageProps> = ({
                     key={index}
                     className="hover:bg-blue-50 transition-colors"
                   >
-                    {columnVisibility.Round && (
-                      <td className="px-2 py-2 text-center text-xs text-gray-700 font-medium">
-                        {item.Round}
+                    {columnVisibility.Subject && (
+                      <td className="px-2 py-2 text-left text-xs text-gray-700 font-medium">
+                        {item.Subject}
                       </td>
                     )}
-                    {columnVisibility["AI Rank"] && (
-                      <td className="px-2 py-2 text-center text-xs text-purple-600 font-semibold">
-                        {item["AI Rank"]}
+                    {columnVisibility.Total && (
+                      <td className="px-2 py-2 text-center text-xs text-blue-600 font-bold">
+                        {item.Total}
                       </td>
                     )}
-                    {columnVisibility.State && (
-                      <td className="px-2 py-2 text-center text-xs text-gray-700 font-medium">
-                        {item.State}
-                      </td>
-                    )}
-                    {columnVisibility.Institute && (
-                      <td className="px-2 py-2 text-center text-xs text-blue-600 hover:text-blue-800 cursor-pointer font-medium">
-                        {item.Institute}
-                      </td>
-                    )}
-                    {columnVisibility.Course && (
+                    {columnVisibility.UR && (
                       <td className="px-2 py-2 text-center text-xs text-gray-700">
-                        {item.Course}
+                        {item.UR}
                       </td>
                     )}
-                    {columnVisibility.Quota && (
-                      <td className="px-2 py-2 text-center text-xs">
-                        <span
-                          className={`px-2 py-1 rounded-full text-xs font-medium ${
-                            item.Quota.toLowerCase().includes("all india")
-                              ? "bg-blue-100 text-blue-800"
-                              : "bg-green-100 text-green-800"
-                          }`}
-                        >
-                          {item.Quota}
-                        </span>
+                    {columnVisibility.OBC && (
+                      <td className="px-2 py-2 text-center text-xs text-gray-700">
+                        {item.OBC}
                       </td>
                     )}
-                    {columnVisibility.Category && (
+                    {columnVisibility.SC && (
+                      <td className="px-2 py-2 text-center text-xs text-gray-700">
+                        {item.SC}
+                      </td>
+                    )}
+                    {columnVisibility.ST && (
+                      <td className="px-2 py-2 text-center text-xs text-gray-700">
+                        {item.ST}
+                      </td>
+                    )}
+                    {columnVisibility.EWS && (
+                      <td className="px-2 py-2 text-center text-xs text-gray-700">
+                        {item.EWS}
+                      </td>
+                    )}
+                    {columnVisibility.INSTITUTE && (
+                      <td className="px-2 py-2 text-left text-xs text-blue-600 hover:text-blue-800 cursor-pointer font-medium">
+                        {item.INSTITUTE}
+                      </td>
+                    )}
+                    {columnVisibility.COURSE && (
                       <td className="px-2 py-2 text-center text-xs">
-                        <span
-                          className={`px-2 py-1 rounded-full text-xs font-medium ${
-                            item.Category.toLowerCase() === "general"
-                              ? "bg-gray-100 text-gray-800"
-                              : item.Category.toLowerCase() === "obc"
-                              ? "bg-yellow-100 text-yellow-800"
-                              : item.Category.toLowerCase() === "sc"
-                              ? "bg-green-100 text-green-800"
-                              : item.Category.toLowerCase() === "st"
-                              ? "bg-red-100 text-red-800"
-                              : "bg-purple-100 text-purple-800"
-                          }`}
-                        >
-                          {item.Category}
+                        <span className="px-2 py-1 rounded-full text-xs font-medium bg-purple-100 text-purple-800">
+                          {item.COURSE}
                         </span>
                       </td>
                     )}
@@ -780,7 +729,6 @@ const InicetAllotmentPage: React.FC<InicetAllotmentPageProps> = ({
               )}
             </tbody>
           </table>
-        </div>
         </div>
 
         {/* Pagination */}
@@ -845,5 +793,4 @@ const InicetAllotmentPage: React.FC<InicetAllotmentPageProps> = ({
   );
 };
 
-export default InicetAllotmentPage;
-
+export default SeatMatrixPage;

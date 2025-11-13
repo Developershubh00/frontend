@@ -238,8 +238,8 @@ function App() {
           <Route path="/InicetMainContent" element={<InicetMainContent onBack={() => window.history.back()} />} />
           <Route path="/inicet/allotments" element={<InicetAllotmentPage onBack={() => window.history.back()}/>} />
           <Route path="/inicet/allotments/julysession" element={<InicetAllotmentsSessionPage onBack={() => window.history.back()}/>} />
-          {/* <Route path="/inicet/seat-matrix" element={<InicetSeatMatrixPage />} />
-          <Route path="/inicet/fee-stipend" element={<InicetFeeStipendPage />} />  */}
+          <Route path="/inicet/seat-matrix" element={<SeatMatrixPage onBack={() => window.history.back()}/>} />
+          {/* <Route path="/inicet/fee-stipend" element={<InicetFeeStipendPage />} />  */}
           
           <Route path="/forgot-password" element={<ForgotPasswordPage />} />
           <Route path="/reset-password" element={<ResetPasswordPage />} />
