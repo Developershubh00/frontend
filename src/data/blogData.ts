@@ -13983,6 +13983,7 @@ export const blogPosts: BlogPost[] = [
     }
   ]
 },
+
 {
   "id": 40,
   "title": "INI-CET Counselling 2025: A Complete Step-by-Step Guide for MD/MS Aspirants",
@@ -14003,12 +14004,13 @@ export const blogPosts: BlogPost[] = [
     "INI-CET Counselling",
     "INI-CET 2025",
     "MD/MS Admissions",
-    "AIIMS",
+    "AIIMS Counselling",
     "Seat Allotment",
     "Choice Filling"
   ],
   "published_date": "2025-11-13",
   "read_time": 15,
+  "meta_title": "INI-CET Counselling 2025: A Complete Step-by-Step Guide for MD/MS Aspirants",
   "meta_description": "Navigate INI CET Counselling 2025 with ease using this step by step guide covering registration, choice filling, and seat allotment for MD and MS aspirants.",
   "sections": [
     {
@@ -14037,9 +14039,9 @@ export const blogPosts: BlogPost[] = [
       ]
     },
     {
-      "id": "check-result-tip",
+      "id": "scorecard-save",
       "type": "paragraph",
-      "content": "Save that PDF as a photocopy and take a printout for future reference; it will be the most important part for the INI-CET counselling, your counselling, document verification, and seat allocation.\n\nTip: Cross-verify all details (name, category, application number) immediately after downloading to avoid discrepancies later."
+      "content": "Save that PDF as a photocopy and take a printout for future reference; it will be the most important part for the INI-CET counselling, your counselling, document verification, and seat allocation.\n\n**Tip:** Cross-verify all details (name, category, application number) immediately after downloading to avoid discrepancies later."
     },
     {
       "id": "verify-eligibility",
@@ -14059,7 +14061,7 @@ export const blogPosts: BlogPost[] = [
       "level": 3
     },
     {
-      "id": "eligibility-conditions-list",
+      "id": "eligibility-list",
       "type": "list",
       "items": [
         "You must hold your MBBS/BDS degree from an NMC-recognized institution",
@@ -14068,18 +14070,18 @@ export const blogPosts: BlogPost[] = [
       ]
     },
     {
-      "id": "documents-required",
+      "id": "documents-prep",
       "type": "paragraph",
       "content": "Once all the details are confirmed, all you have to prepare are both scanned and physical copies of all your required documents for uploading and verification."
     },
     {
-      "id": "important-documents",
+      "id": "documents-heading",
       "type": "heading",
       "title": "Important Documents to Keep Ready:",
       "level": 3
     },
     {
-      "id": "important-documents-list",
+      "id": "documents-list",
       "type": "list",
       "items": [
         "Your INI-CET 2025 Scorecard should be with you",
@@ -14093,27 +14095,27 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "documents-tip",
       "type": "paragraph",
-      "content": "Tip: Keep all documents in a labelled folder (both digital and physical) to ensure you can upload or present them without delay during the online counselling rounds."
+      "content": "**Tip:** Keep all documents in a labelled folder (both digital and physical) to ensure you can upload or present them without delay during the online counselling rounds."
     },
     {
-      "id": "register-counselling",
+      "id": "registration",
       "type": "heading",
       "title": "Register for INI-CET Online Counselling",
       "level": 2
     },
     {
-      "id": "register-counselling-intro",
+      "id": "registration-intro",
       "type": "paragraph",
       "content": "After the INI-CET counselling notice is released, which is in November, you can definitely proceed with your registration for the seat allocation process on the AIIMS website:\n\nhttps://aiimsexams.ac.in"
     },
     {
-      "id": "how-to-register",
+      "id": "registration-steps-heading",
       "type": "heading",
       "title": "How to Register:",
       "level": 3
     },
     {
-      "id": "how-to-register-list",
+      "id": "registration-steps",
       "type": "list",
       "items": [
         "First step, you have to log in again using your Candidate ID and Password.",
@@ -14153,7 +14155,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "choice-filling-tip",
       "type": "paragraph",
-      "content": "Tip: As a candidate, you need to research each institute's past cut-off trends and specialty options before locking in your preferred choices to make an informed decision."
+      "content": "**Tip:** As a candidate, you need to research each institute's past cut-off trends and specialty options before locking in your preferred choices to make an informed decision."
     },
     {
       "id": "seat-allotment",
@@ -14167,7 +14169,7 @@ export const blogPosts: BlogPost[] = [
       "content": "After the choice filling deadline:"
     },
     {
-      "id": "seat-allotment-process",
+      "id": "seat-allotment-steps",
       "type": "list",
       "items": [
         "AIIMS has just released the temporary seat allotment result, which should be based on merit, category, and preference.",
@@ -14202,7 +14204,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "faq-1-answer",
       "type": "paragraph",
-      "content": "A: Counselling registration for the November 2025 session begins in the last week of December 2025. The result was declared on November 15, 2025."
+      "content": "**A:** Counselling registration for the November 2025 session begins in the last week of December 2025. The result was declared on November 15, 2025."
     },
     {
       "id": "faq-2",
@@ -14213,7 +14215,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "faq-2-answer",
       "type": "paragraph",
-      "content": "A: The documents required for your counselling registration are: MBBS/BDS degree certificate, internship completion certificate, NMC/SMC or Dental Council registration, category certificate if it's applicable, PwD certificate, and photo ID proof."
+      "content": "**A:** The documents required for your counselling registration are: MBBS/BDS degree certificate, internship completion certificate, NMC/SMC or Dental Council registration, category certificate if it's applicable, PwD certificate, and photo ID proof."
     },
     {
       "id": "faq-3",
@@ -14224,7 +14226,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "faq-3-answer",
       "type": "paragraph",
-      "content": "A: There are a total of four rounds: the first is a mock Round (preference testing without allocation), considered as (primary), Round 2 is all about (vacant/upgraded seats), and the Open Round (final vacancies)."
+      "content": "**A:** There are a total of four rounds: the first is a mock Round (preference testing without allocation), considered as (primary), Round 2 is all about (vacant/upgraded seats), and the Open Round (final vacancies)."
     },
     {
       "id": "faq-4",
@@ -14235,7 +14237,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "faq-4-answer",
       "type": "paragraph",
-      "content": "A: No. Choice locking is irreversible. Modifications permitted only until the locking deadline. System auto-locks choices if manual locking is not completed by the cutoff."
+      "content": "**A:** No. Choice locking is irreversible. Modifications permitted only until the locking deadline. System auto-locks choices if manual locking is not completed by the cutoff."
     },
     {
       "id": "faq-5",
@@ -14246,7 +14248,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "faq-5-answer",
       "type": "paragraph",
-      "content": "A: Non-reporting results in seat forfeiture and ineligibility for subsequent counselling rounds. Physical reporting with original documents must occur within a specified timeline (typically 5-7 days)."
+      "content": "**A:** Non-reporting results in seat forfeiture and ineligibility for subsequent counselling rounds. Physical reporting with original documents must occur within a specified timeline (typically 5-7 days)."
     },
     {
       "id": "keywords",
