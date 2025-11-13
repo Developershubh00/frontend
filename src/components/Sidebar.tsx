@@ -115,14 +115,14 @@ const Sidebar: React.FC<SidebarProps> = ({
     //   color: "text-indigo-600",
     //   onClick: () => navigate("/predictor/pg"),
     // },
-    {
-      id: "PG Predictor",
-      icon: GraduationCap,
-      label: "Magic PG Predictor",
-      hasSubmenu: false,
-      color: "text-indigo-600",
-      onClick: () => navigate("/NEETPGPredictor"),
-    },
+    // {
+    //   id: "PG Predictor",
+    //   icon: GraduationCap,
+    //   label: "Magic PG Predictor",
+    //   hasSubmenu: false,
+    //   color: "text-indigo-600",
+    //   onClick: () => navigate("/NEETPGPredictor"),
+    // },
     // {
     //   id: "MyChoicelist",
     //   icon: Heart,
@@ -163,14 +163,14 @@ const Sidebar: React.FC<SidebarProps> = ({
       color: "text-cyan-600",
       onClick: () => navigate("/Closingranks"),
     },
-    {
-      id: "MyChoicelist",
-      icon: Heart,
-      label: "MyChoicelist",
-      hasSubmenu: false,
-      color: "text-indigo-600",
-      onClick: () => navigate("/choicelists"),
-    },
+    // {
+    //   id: "MyChoicelist",
+    //   icon: Heart,
+    //   label: "MyChoicelist",
+    //   hasSubmenu: false,
+    //   color: "text-indigo-600",
+    //   onClick: () => navigate("/choicelists"),
+    // },
     
     // {
     //   id: "explore",

@@ -914,7 +914,7 @@ const Header: React.FC<HeaderProps> = ({
               </div>
 
               {/* Predictor Dropdown */}
-              <div className="relative">
+              {/* <div className="relative">
                 <button
                   onClick={() => toggleDropdown("predictor")}
                   className="flex items-center space-x-2 px-4 py-2 text-green-600 hover:bg-green-50 rounded-xl transition-all duration-200 font-medium"
@@ -954,7 +954,7 @@ const Header: React.FC<HeaderProps> = ({
                 </button>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="flex items-center space-x-3 lg:space-x-4">
             <div className="relative">
