@@ -15,11 +15,11 @@ import {
   Award,
 } from "lucide-react";
 
-interface SeatMatrixPageProps {
+interface INICETSeatMatrixPageProps {
   onBack: () => void;
 }
 
-interface SeatMatrixData {
+interface INICETSeatMatrixData {
   Subject: string;
   Total: string;
   UR: string;
@@ -68,8 +68,8 @@ const INSTITUTES = [
   "SCTIMST Trivandrum",
 ];
 
-const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
-  const [seatMatrixData, setSeatMatrixData] = useState<SeatMatrixData[]>([]);
+const INICETSeatMatrixPage: React.FC<INICETSeatMatrixPageProps> = ({ onBack }) => {
+  const [seatMatrixData, setSeatMatrixData] = useState<INICETSeatMatrixData[]>([]);
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedInstitute, setSelectedInstitute] = useState<string>("");
@@ -793,4 +793,4 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
   );
 };
 
-export default SeatMatrixPage;
+export default INICETSeatMatrixPage;
