@@ -14273,6 +14273,327 @@ export const blogPosts: BlogPost[] = [
       "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
     }
   ]
+},
+{
+  "id": 41,
+  "title": "INI-CET 2025 Counselling Explained: Seat Allotment, Upgradation & Final Admission Process",
+  "slug": "ini-cet-2025-counselling-seat-allotment-upgradation-final-admission-process",
+  "excerpt": "INI-CET 2025 counselling simplifies seat allotment, upgradation and final admission steps, guiding aspirants through every stage with clarity and confidence.",
+  "featured_image": "https://cdn.dribbble.com/userupload/45702654/file/bd84893b28e0045762793aa5805dca7c.png?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "INI-CET",
+    "slug": "ini-cet",
+    "color": "bg-blue-100 text-blue-800"
+  },
+  "tags": [
+    "INI-CET Counselling",
+    "INI-CET 2025",
+    "Seat Allotment",
+    "Upgradation",
+    "AIIMS Counselling",
+    "MD/MS Admissions"
+  ],
+  "published_date": "2025-11-14",
+  "read_time": 12,
+  "meta_description": "INI-CET 2025 counselling simplifies seat allotment, upgradation and final admission steps, guiding aspirants through every stage with clarity and confidence.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "This is especially for candidates who qualified for INI-CET 2025 and have also proceeded through successive counselling rounds (Round 1, Round 2), administered by AIIMS New Delhi, specifically for MD/MS seat allocation. This crucial phase not just decides your specialty, but it also determines where you'll spend the next few years of your medical journey.\n\nIt starts with the first allotment list, and it continues through to final joining; you know every step requires close attention, and it is crucial as well. So here's a complete post-result guide that you need to know on how the INI-CET seat allotment and admission process works, step-by-step."
+    },
+    {
+      "id": "seat-allotment-rounds",
+      "type": "heading",
+      "title": "Seat Allotment Rounds",
+      "level": 2
+    },
+    {
+      "id": "seat-allotment-intro",
+      "type": "paragraph",
+      "content": "Once your INI-CET counselling registration and choice-filling process is complete, AIIMS will conduct multiple rounds of seat allocation for candidates that are highly based on their merit, preference, and seat availability.\n\nThe rounds typically include: also known as INI-CET counselling rounds 1, INI-CET counselling round 2, and Open Round."
+    },
+    {
+      "id": "round-1",
+      "type": "heading",
+      "title": "Round 1",
+      "level": 3
+    },
+    {
+      "id": "round-1-content",
+      "type": "paragraph",
+      "content": "In this round, the first list of selected candidates is directly based on NEET rank, category, and own preference. This is the beginning of INI-CET 2025 counselling."
+    },
+    {
+      "id": "round-2",
+      "type": "heading",
+      "title": "Round 2",
+      "level": 3
+    },
+    {
+      "id": "round-2-content",
+      "type": "paragraph",
+      "content": "Round 2 is definitely conducted for vacant seats after Round 1 is done. Candidates who didn't get a seat or wish to upgrade."
+    },
+    {
+      "id": "open-round",
+      "type": "heading",
+      "title": "Open Round",
+      "level": 3
+    },
+    {
+      "id": "open-round-content",
+      "type": "paragraph",
+      "content": "This round includes all the remaining seats after the first two rounds have happened, which are basically open to all eligible candidates who have registered."
+    },
+    {
+      "id": "institute-round",
+      "type": "heading",
+      "title": "Institute (Spot) Round",
+      "level": 3
+    },
+    {
+      "id": "institute-round-content",
+      "type": "paragraph",
+      "content": "The institutional rounds are basically conducted directly by respective INIs (like AIIMS, JIPMER, NIMHANS, or PGIMER) for any clear seats."
+    },
+    {
+      "id": "where-to-check",
+      "type": "heading",
+      "title": "Where to check:",
+      "level": 3
+    },
+    {
+      "id": "where-to-check-content",
+      "type": "paragraph",
+      "content": "If you want to check, then you must know that all seat allotment results are published in PDF format on the official website of AIIMS: https://aiimsexams.ac.in, which is under Academic courses - INI-CET - Seat Allocation Results.\n\nTip: This is an important tip that always download and save each round's result PDF, even if you're not allotted a seat in the current round. You will have to keep it for reference in subsequent rounds."
+    },
+    {
+      "id": "accepting-declining-seat",
+      "type": "heading",
+      "title": "Accepting or Declining the Allotted Seat",
+      "level": 2
+    },
+    {
+      "id": "accepting-declining-intro",
+      "type": "paragraph",
+      "content": "Okay, so the other main thing you need to do is, after your seat has been allotted, you just have to log in to the AIIMS official portal, where you get a choice to accept or decline the offer within the given deadline."
+    },
+    {
+      "id": "if-accept-seat",
+      "type": "heading",
+      "title": "If you accept the seat:",
+      "level": 3
+    },
+    {
+      "id": "if-accept-seat-list",
+      "type": "list",
+      "items": [
+        "You have to upload all your required documents online (as per the given instructions).",
+        "Then, after that, just download your Provisional Seat Allocation Letter for reporting.",
+        "After downloading both files, just save both of them as soft and hard copies; it is mandatory during institute verification."
+      ]
+    },
+    {
+      "id": "if-decline-seat",
+      "type": "heading",
+      "title": "If you decline the seat:",
+      "level": 3
+    },
+    {
+      "id": "if-decline-seat-content",
+      "type": "paragraph",
+      "content": "You will be penalized for that particular seat and will only be considered for further INI-CET counselling rounds if eligible and opt for upgradation.\n\nTip: Before declining to do anything, just think carefully. Accepting with an upgradation option gives you the flexibility to aim for a better preference later."
+    },
+    {
+      "id": "reporting-institute",
+      "type": "heading",
+      "title": "Reporting at the Allotted Institute",
+      "level": 2
+    },
+    {
+      "id": "reporting-intro",
+      "type": "paragraph",
+      "content": "After acceptance, the next step should be your reporting to your allotted institute, either physically or online, which totally depends on the AIIMS instructions for that round of INI-CET 2025 counselling"
+    },
+    {
+      "id": "during-reporting",
+      "type": "heading",
+      "title": "During reporting, candidates must:",
+      "level": 3
+    },
+    {
+      "id": "during-reporting-list",
+      "type": "list",
+      "items": [
+        "During your reporting, you need to present all original documents and the provisional seat letter for verification.",
+        "After that, you just have to submit the fee payment as per the institute's guidelines.",
+        "After that, just complete the bond submission (if it's applicable).",
+        "It is required that you have to undergo with Undergo the medical check-up."
+      ]
+    },
+    {
+      "id": "required-documents",
+      "type": "heading",
+      "title": "Commonly required documents include:",
+      "level": 3
+    },
+    {
+      "id": "required-documents-list",
+      "type": "list",
+      "items": [
+        "Your INI-CET Scorecard",
+        "Your official seat Allotment Letter",
+        "MBBS/BDS Degree",
+        "Certified Internship Completion Certificate",
+        "Official registration (MCI/NMC/DCI) Certificate",
+        "Category/PwD Certificate (if applicable)",
+        "Passport-size Photographs",
+        "Valid ID Proof"
+      ]
+    },
+    {
+      "id": "documents-tip",
+      "type": "paragraph",
+      "content": "Tip: Keep both original and photocopy sets organized. Institutes often retain copies during verification."
+    },
+    {
+      "id": "upgradation-option",
+      "type": "heading",
+      "title": "Upgradation Option",
+      "level": 2
+    },
+    {
+      "id": "upgradation-intro",
+      "type": "paragraph",
+      "content": "You know the upgradation option is one of the most crucial parts of the INI-CET counselling process.\n\nWhen you accept a seat, you can choose between:"
+    },
+    {
+      "id": "upgradation-choices",
+      "type": "list",
+      "items": [
+        "Accept with upgradation - You have to maintain the current seat, but along with that, you are also eligible for a higher preference in your next round.",
+        "Accept and freeze - You finalize your current seat and opt out of further rounds."
+      ]
+    },
+    {
+      "id": "upgradation-details",
+      "type": "paragraph",
+      "content": "If you opt for an upgradation, then AIIMS automatically considers you for a higher-ranked choice in your next seat allocation.\n\nOnce it is upgraded, your previous seat will be cancelled automatically, and you must report to the newly allotted institute."
+    },
+    {
+      "id": "final-admission",
+      "type": "heading",
+      "title": "Final Admission and Joining",
+      "level": 2
+    },
+    {
+      "id": "final-admission-content",
+      "type": "paragraph",
+      "content": "Once the final round terminates and you've accepted your seat, the joining formalities begin at your allotted institute. Each institute may have some different joining procedures, so you just have to carefully read all their official notifications or welcome circulars."
+    },
+    {
+      "id": "check-website",
+      "type": "heading",
+      "title": "Regularly Check the AIIMS Website",
+      "level": 2
+    },
+    {
+      "id": "check-website-intro",
+      "type": "paragraph",
+      "content": "Just like some other counselling authorities, the AIIMS institute does not send you individual emails or SMS alerts for every update. So it should be your responsibility to stay informed about every counselling round, schedule, and notice."
+    },
+    {
+      "id": "stay-updated",
+      "type": "heading",
+      "title": "To stay updated:",
+      "level": 3
+    },
+    {
+      "id": "stay-updated-list",
+      "type": "list",
+      "items": [
+        "Visit https://aiimsexams.ac.in daily.",
+        "You can check all the \"Important Announcements\" and \"Seat Allocation/Results\" sections, which are mentioned under INI-CET.",
+        "Note that all the deadlines for choice filling, seat acceptance, reporting, and upgradation options."
+      ]
+    },
+    {
+      "id": "website-tip",
+      "type": "paragraph",
+      "content": "Tip: Bookmark the counselling page and allow all your browser notifications just to avoid missing important updates. Missing even one deadline may cost you your seat."
+    },
+    {
+      "id": "final-thoughts",
+      "type": "heading",
+      "title": "Final Thoughts",
+      "level": 2
+    },
+    {
+      "id": "final-thoughts-content",
+      "type": "paragraph",
+      "content": "The INI-CET counselling process may seem very hard to understand, but when you follow it step-by-step, it will ensure a transparent and merit-based seat allocation for the candidate. As it starts from seat allotment rounds to final joining, every detailed phase demands very careful action and timely response.\n\nAs a candidate, you have to regularly check updates, keep documents ready, and make informed choices; you can secure your dream specialty and institute with confidence.\n\nYour INI-CET 2025 success doesn't end with the exam; it truly begins with smart decision-making during counselling."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "5 Concise FAQs",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1: How many counselling rounds are conducted for INI-CET 2025?",
+          "answer": "There are a total of four rounds: Mock Round, which has its preference testing without allocation, then Round 1 happens called (primary), then Round 2, called (vacant/upgraded seats), and Open Round, which has (final vacancies)."
+        },
+        {
+          "question": "Q2: What is the difference between \"accept with upgradation\" and \"accept and freeze\"?",
+          "answer": "Accept with all the upgradation: that hang on to the current seat while participating in upcoming rounds for higher preferences. On the other hand, accept and freeze: that perfectly finalizes the current seat, and terminates further round eligibility."
+        },
+        {
+          "question": "Q3: What happens if I don't report after accepting a seat?",
+          "answer": "The non-reporting results in seat sacrificing and disqualification for the following rounds. The reporting must occur within 5-7 days after the post-allotment with all your original documents."
+        },
+        {
+          "question": "Q4: Can I participate in Round 2 if I wasn't allotted a seat in Round 1?",
+          "answer": "Yes. The Non-allotted Round 1 candidates can automatically proceed with the Round 2 if they have completed INI-CET counselling registration."
+        },
+        {
+          "question": "Q5: Where do I check my seat allotment result?",
+          "answer": "If any candidate wants to check the seat allotment result, then they just have to log in to 'MyPage' at aiimsexams.ac.in using their candidate ID and password. Personalized allotment status displays upon result declaration."
+        }
+      ]
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "ini-cet counselling",
+        "ini-cet counselling process",
+        "ini-cet counselling 2025",
+        "ini-cet 2025 counselling",
+        "ini-cet counselling registration",
+        "ini-cet counselling rounds 1",
+        "ini-cet counselling round 2",
+        "ini-cet counselling open round",
+        "ini-cet 2025"
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    }
+  ]
 }
 
 ];
