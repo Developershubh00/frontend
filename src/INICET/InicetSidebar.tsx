@@ -94,7 +94,7 @@ const InicetSidebar: React.FC<InicetSidebarProps> = ({
     {
       id: "Admitted Students",
       icon: UserCheck,
-      label: "INICET Jul-Session Allotments",
+      label: "INICET Jul-Session",
       hasSubmenu: false,
       color: "text-cyan-600",
       onClick: () => navigate("/inicet/allotments/julysession"),
