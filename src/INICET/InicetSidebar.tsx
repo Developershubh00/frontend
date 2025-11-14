@@ -102,7 +102,7 @@ const InicetSidebar: React.FC<InicetSidebarProps> = ({
     {
       id: "results",
       icon: Award,
-      label: "INICET Seatmatrix",
+      label: "INICET Seat Matrix",
       hasSubmenu: false,
       color: "text-emerald-600",
       onClick: () => navigate("/inicet/seat-matrix"),

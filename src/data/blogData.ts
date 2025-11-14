@@ -6001,7 +6001,7 @@ export const blogPosts: BlogPost[] = [
   "title": "Tamil Nadu NEET PG 2025 Applications Now Open: A Complete Guide",
   "slug": "tamil-nadu-neet-pg-2025-complete-guide",
   "excerpt": "Complete guide to Tamil Nadu NEET PG 2025 counselling covering government and management quota applications, eligibility criteria, registration process, important dates, and document requirements for state medical admissions.",
-  "featured_image": "https://cdn.dribbble.com/userupload/45488795/file/72480ae9c696962f003897a4f04bbf61.png?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/45529484/file/6f295f56a68052e51838f8f184c718b8.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
     "avatar": "https://cdn.dribbble.com/userupload/45488654/file/98027e9768f050cd497e75b45637291a.png?w=100&h=100&fit=crop&crop=face",
@@ -6899,7 +6899,7 @@ export const blogPosts: BlogPost[] = [
   "title": "Tamil Nadu Management Quota 2025: Complete Information Guide",
   "slug": "tamil-nadu-management-quota-2025-guide",
   "excerpt": "Complete guide to Tamil Nadu Management Quota 2025 covering eligibility, fees, counselling process, documentation, and admission procedures for PG medical seats in private institutions.",
-  "featured_image": "https://cdn.dribbble.com/userupload/45529484/file/6f295f56a68052e51838f8f184c718b8.png?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/45696739/file/3c9eded4c83c7a2d187723082e46219a.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
     "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
