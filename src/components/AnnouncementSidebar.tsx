@@ -634,6 +634,15 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: ' https://timesofindia.indiatimes.com/education/news/jharkhand-neet-pg-counselling-2025-round-1-final-merit-list-released-check-steps-to-download-and-other-details-here/articleshow/125246017.cms',
       source: 'NBEMS',
     },
+     {
+      id: 67,
+      title: "AIIMS Confirms INI CET November 2025 tentative Result Date – January 2026 Session Scorecard to be tentatively Released Tomorrow (November 15)",
+      date: "2025-11-11T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://oldwebsite.aiimsexams.ac.in/info/keydates_2025.html',
+      source: 'NBEMS',
+      },
 
 
 

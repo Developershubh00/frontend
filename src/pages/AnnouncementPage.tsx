@@ -815,6 +815,19 @@ const AnnouncementPage: React.FC = () => {
       source: 'NBEMS',
       created_at: "2025-11-11T08:00:00Z"
     },
+    {
+      id: 67,
+      title: "NEET PG Counselling 2025:",
+      content:"AIIMS Confirms INI CET November 2025 tentative Result Date – January 2026 Session Scorecard to be tentatively Released Tomorrow (November 15)",
+      date: "2025-11-11T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://oldwebsite.aiimsexams.ac.in/info/keydates_2025.html',
+      is_active: true,
+      source: 'NBEMS',
+      created_at: "2025-11-11T08:00:00Z"
+    },
+    
 
 
 
