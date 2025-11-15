@@ -643,6 +643,15 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: 'https://oldwebsite.aiimsexams.ac.in/info/keydates_2025.html',
       source: 'NBEMS',
       },
+      {
+      id: 68,
+      title: "Haryana NEET PG Counselling 2025 Round 1: Registration and Choice Filling Open Until November 16 – Check Complete Schedule",
+      date: "2025-11-15T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.telegraphindia.com/edugraph/news/haryana-neet-pg-2025-counselling-round-1-choice-filling-open-till-november-16-detailed-schedule-here/cid/2132881',
+      source: 'telegraphindia',
+     },
 
 
 

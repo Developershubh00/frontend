@@ -827,6 +827,18 @@ const AnnouncementPage: React.FC = () => {
       source: 'NBEMS',
       created_at: "2025-11-11T08:00:00Z"
     },
+    {
+      id: 68,
+      title: "NEET PG Counselling 2025:",
+      content:"Haryana NEET PG Counselling 2025 Round 1: Registration and Choice Filling Open Until November 16 – Check Complete Schedule",
+      date: "2025-11-15T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.telegraphindia.com/edugraph/news/haryana-neet-pg-2025-counselling-round-1-choice-filling-open-till-november-16-detailed-schedule-here/cid/2132881',
+      is_active: true,
+      source: 'telegraphindia',
+      created_at: "2025-11-15T08:00:00Z"
+    },
     
 
 
