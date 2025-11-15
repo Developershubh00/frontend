@@ -216,6 +216,37 @@ const InicetMainContent: React.FC = () => {
             </div>
           ))}
         </div>
+        {/* Results Announcement Banner */}
+<div className="mb-6 lg:mb-8 animate-pulse">
+  <div className="bg-gradient-to-r from-green-500 via-emerald-500 to-teal-500 rounded-2xl lg:rounded-3xl shadow-2xl overflow-hidden">
+    <div className="relative p-6 lg:p-8">
+      <div className="absolute inset-0 bg-gradient-to-r from-green-600/20 to-emerald-600/20"></div>
+      <div className="relative flex flex-col lg:flex-row items-center justify-between gap-4">
+        <div className="flex items-center gap-4">
+          <div className="bg-white/20 backdrop-blur-sm rounded-full p-3 lg:p-4">
+            <Award className="w-8 h-8 lg:w-10 lg:h-10 text-white" />
+          </div>
+          <div className="text-center lg:text-left">
+            <h3 className="text-2xl lg:text-3xl font-bold text-white mb-1">
+              🎉 INICET Results Announced!
+            </h3>
+            <p className="text-green-100 text-sm lg:text-base">
+              Check your INICET exam results now
+            </p>
+          </div>
+        </div>
+        <button
+          onClick={() => window.open("/data/inicet_results.pdf", "_blank")}
+          className="bg-white text-green-600 px-6 lg:px-8 py-3 lg:py-4 rounded-xl font-bold text-base lg:text-lg hover:bg-green-50 transition-all duration-300 transform hover:scale-105 shadow-xl flex items-center gap-2 whitespace-nowrap"
+        >
+          <FileText className="w-5 h-5" />
+          View Results PDF
+          <ChevronRight className="w-5 h-5" />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
 
         {/* What is INICET */}
         <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
