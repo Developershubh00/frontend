@@ -63,6 +63,7 @@ import InicetDashboardPage from "./INICET/InicetDashboardPage";
 import InicetAllotmentPage from "./INICET/InicetAllotmentsPage";
 import InicetAllotmentsSessionPage from "./INICET/InicetAllotmentsSessionPage";
 import INICETSeatMatrixPage from "./INICET/INICETSeatMatrixPage";
+import Inicet2026SeatMatrix from "./INICET/Inicet2026SeatMatrix";
 
 /**
  * Main App Component with React Router
@@ -240,7 +241,7 @@ function App() {
           <Route path="/inicet/allotments" element={<InicetAllotmentPage onBack={() => window.history.back()}/>} />
           <Route path="/inicet/allotments/julysession" element={<InicetAllotmentsSessionPage onBack={() => window.history.back()}/>} />
           <Route path="/inicet/seat-matrix" element={<INICETSeatMatrixPage onBack={() => window.history.back()}/>} />
-          {/* <Route path="/inicet/fee-stipend" element={<InicetFeeStipendPage />} />  */}
+          <Route path="/inicet/tentativesheet" element={<Inicet2026SeatMatrix />} /> 
           
           <Route path="/forgot-password" element={<ForgotPasswordPage />} />
           <Route path="/reset-password" element={<ResetPasswordPage />} />
