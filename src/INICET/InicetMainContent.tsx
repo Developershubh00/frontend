@@ -79,13 +79,13 @@ const InicetMainContent: React.FC = () => {
       color: "bg-indigo-500",
       onClick: () => navigate("/inicet/seat-matrix"),
     },
-    // {
-    //   title: "Fee & Stipend",
-    //   subtitle: "Financial Details",
-    //   icon: Award,
-    //   color: "bg-purple-600",
-    //   onClick: () => navigate("/inicet/fee-stipend"),
-    // },
+    {
+      title: "Seat Matrix 2026 (Tentative)",
+      subtitle: "INICET Predicted Seats",
+      icon: Award,
+      color: "bg-purple-600",
+      onClick: () => navigate("/inicet/tentativesheet"),
+    },
   ];
 
   // INICET Cutoff Data

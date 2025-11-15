@@ -110,7 +110,7 @@ const InicetSidebar: React.FC<InicetSidebarProps> = ({
     {
       id: "PG Predictor",
       icon: GraduationCap,
-      label: "Tentative Seat Matrix",
+      label: "Seat Matrix (Tentative)",
       hasSubmenu: false,
       color: "text-indigo-600",
       onClick: () => navigate("/inicet/tentativesheet"),
