@@ -252,7 +252,11 @@ const InicetAllotmentPage: React.FC<InicetAllotmentPageProps> = ({
           throw new Error("No valid data parsed from CSV");
         }
 
-        setAllotmentData(parsedData);
+        const cleanedData = parsedData.filter(item => 
+          item.Round !== "Round" && item.Round !== "ROUND"
+        );
+
+        setAllotmentData(cleanedData);
       } catch (error) {
         console.error("Error fetching INICET allotment data:", error);
 

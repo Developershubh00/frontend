@@ -66,7 +66,7 @@ const InicetMainContent: React.FC = () => {
       onClick: () => navigate("/inicet/allotments"),
     },
     {
-      title: "INICET PG Jul-2025",
+      title: "INICET Jul-2025",
       subtitle: "Session-wise Allotments",
       icon: TrendingUp,
       color: "bg-blue-500",
@@ -590,70 +590,134 @@ const InicetMainContent: React.FC = () => {
           </div>
         </div>
 
-        {/* INICET Cutoff Table */}
-        <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
-          <div className="text-center mb-6 lg:mb-8">
-            <h2 className="text-2xl lg:text-3xl font-bold text-slate-800 mb-2">
-              📊 INICET Category-wise Cutoff Ranks
-            </h2>
-            <p className="text-slate-600 text-sm lg:text-base">
-              Historical cutoff data for different categories across multiple
-              sessions
-            </p>
-          </div>
+        {/* INICET 2024 AIIMS Institute-wise Cutoff */}
+<div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
+  <div className="text-center mb-6 lg:mb-8">
+    <h2 className="text-2xl lg:text-3xl font-bold text-slate-800 mb-2">
+      🏥 INI CET 2024 AIIMS Institute-wise Cut Off
+    </h2>
+    <p className="text-slate-600 text-sm lg:text-base">
+      Opening and Closing Ranks for AIIMS Institutes in 2024
+    </p>
+  </div>
 
-          <div className="overflow-x-auto rounded-xl border border-slate-200 shadow-sm">
-            <table className="w-full text-left border-collapse min-w-full">
-              <thead className="bg-slate-50">
-                <tr>
-                  <th className="border-b border-slate-200 py-3 px-4 text-slate-600 text-sm lg:text-base font-bold">
-                    Category
-                  </th>
-                  <th className="border-b border-slate-200 py-3 px-4 text-slate-600 text-sm lg:text-base font-bold">
-                    Jan 2025 MD/MS
-                  </th>
-                  <th className="border-b border-slate-200 py-3 px-4 text-slate-600 text-sm lg:text-base font-bold">
-                    July 2024 MD/MS
-                  </th>
-                  <th className="border-b border-slate-200 py-3 px-4 text-slate-600 text-sm lg:text-base font-bold">
-                    Jan 2024 MD/MS
-                  </th>
-                  <th className="border-b border-slate-200 py-3 px-4 text-slate-600 text-sm lg:text-base font-bold">
-                    July 2023 MD/MS
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                {inicetCutoffData.map((row, idx) => (
-                  <tr key={idx} className="hover:bg-slate-50 transition">
-                    <td className="border-b border-slate-200 py-3 px-4 text-slate-800 font-semibold">
-                      {row.category}
-                    </td>
-                    <td className="border-b border-slate-200 py-3 px-4 text-slate-800">
-                      {row.jan2025}
-                    </td>
-                    <td className="border-b border-slate-200 py-3 px-4 text-slate-800">
-                      {row.july2024}
-                    </td>
-                    <td className="border-b border-slate-200 py-3 px-4 text-slate-800">
-                      {row.jan2024}
-                    </td>
-                    <td className="border-b border-slate-200 py-3 px-4 text-slate-800">
-                      {row.july2023}
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-
-          <div className="mt-6 bg-blue-50 rounded-xl p-4 border-l-4 border-blue-500">
-            <p className="text-sm text-slate-700">
-              <strong>Note:</strong> Cutoff ranks vary based on difficulty
-              level, number of candidates, and seat availability.
-            </p>
+  {/* Mobile View - Card Layout */}
+  <div className="lg:hidden space-y-4">
+    {[
+      { name: "AIIMS New Delhi", opening: "109", closing: "2212" },
+      { name: "AIIMS Bathinda", opening: "119", closing: "2058" },
+      { name: "AIIMS Bhopal", opening: "840", closing: "1351" },
+      { name: "AIIMS Bhubaneswar", opening: "202", closing: "1104" },
+      { name: "AIIMS Bibinagar", opening: "1164", closing: "1164" },
+      { name: "AIIMS Bilaspur", opening: "515", closing: "1445" },
+      { name: "AIIMS Deoghar", opening: "1107", closing: "1508" },
+      { name: "AIIMS Gorakhpur", opening: "1071", closing: "2133" },
+      { name: "AIIMS Guwahati", opening: "566", closing: "1487" },
+      { name: "AIIMS Jodhpur", opening: "26", closing: "1029" },
+      { name: "AIIMS Kalyani", opening: "209", closing: "1178" },
+      { name: "AIIMS Mangalagiri", opening: "347", closing: "1863" },
+      { name: "AIIMS Nagpur", opening: "542", closing: "1279" },
+      { name: "AIIMS Patna", opening: "206", closing: "871" },
+      { name: "AIIMS Raebareli", opening: "256", closing: "1255" },
+      { name: "AIIMS Raipur", opening: "74", closing: "1170" },
+      { name: "AIIMS Rajkot", opening: "101", closing: "1080" },
+      { name: "AIIMS Rishikesh", opening: "105", closing: "1200" },
+    ].map((institute, idx) => (
+      <div 
+        key={idx}
+        className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden"
+      >
+        <div className="bg-gradient-to-r from-purple-500 to-indigo-600 px-4 py-3">
+          <h3 className="text-white font-bold text-base">{institute.name}</h3>
+        </div>
+        <div className="p-4">
+          <div className="grid grid-cols-2 gap-4">
+            <div className="text-center">
+              <p className="text-xs text-slate-600 mb-2 font-medium">Opening Rank</p>
+              <span className="inline-block bg-green-100 text-green-800 px-4 py-2 rounded-lg text-base font-bold">
+                {institute.opening}
+              </span>
+            </div>
+            <div className="text-center">
+              <p className="text-xs text-slate-600 mb-2 font-medium">Closing Rank</p>
+              <span className="inline-block bg-blue-100 text-blue-800 px-4 py-2 rounded-lg text-base font-bold">
+                {institute.closing}
+              </span>
+            </div>
           </div>
         </div>
+      </div>
+    ))}
+  </div>
+
+  {/* Desktop View - Table Layout */}
+  <div className="hidden lg:block overflow-x-auto rounded-xl border border-slate-200 shadow-sm">
+    <table className="w-full text-left border-collapse min-w-full">
+      <thead className="bg-gradient-to-r from-purple-500 to-indigo-600">
+        <tr>
+          <th className="border-b border-white/20 py-4 px-4 text-white text-base font-bold">
+            AIIMS Institute Names
+          </th>
+          <th className="border-b border-white/20 py-4 px-4 text-white text-base font-bold text-center">
+            Opening Rank
+          </th>
+          <th className="border-b border-white/20 py-4 px-4 text-white text-base font-bold text-center">
+            Closing Rank
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        {[
+          { name: "AIIMS New Delhi", opening: "109", closing: "2212" },
+          { name: "AIIMS Bathinda", opening: "119", closing: "2058" },
+          { name: "AIIMS Bhopal", opening: "840", closing: "1351" },
+          { name: "AIIMS Bhubaneswar", opening: "202", closing: "1104" },
+          { name: "AIIMS Bibinagar", opening: "1164", closing: "1164" },
+          { name: "AIIMS Bilaspur", opening: "515", closing: "1445" },
+          { name: "AIIMS Deoghar", opening: "1107", closing: "1508" },
+          { name: "AIIMS Gorakhpur", opening: "1071", closing: "2133" },
+          { name: "AIIMS Guwahati", opening: "566", closing: "1487" },
+          { name: "AIIMS Jodhpur", opening: "26", closing: "1029" },
+          { name: "AIIMS Kalyani", opening: "209", closing: "1178" },
+          { name: "AIIMS Mangalagiri", opening: "347", closing: "1863" },
+          { name: "AIIMS Nagpur", opening: "542", closing: "1279" },
+          { name: "AIIMS Patna", opening: "206", closing: "871" },
+          { name: "AIIMS Raebareli", opening: "256", closing: "1255" },
+          { name: "AIIMS Raipur", opening: "74", closing: "1170" },
+          { name: "AIIMS Rajkot", opening: "101", closing: "1080" },
+          { name: "AIIMS Rishikesh", opening: "105", closing: "1200" },
+        ].map((institute, idx) => (
+          <tr 
+            key={idx} 
+            className={`hover:bg-purple-50 transition ${
+              idx % 2 === 0 ? 'bg-white' : 'bg-slate-50'
+            }`}
+          >
+            <td className="border-b border-slate-200 py-3 px-4 text-slate-800 font-semibold">
+              {institute.name}
+            </td>
+            <td className="border-b border-slate-200 py-3 px-4 text-slate-800 text-center">
+              <span className="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">
+                {institute.opening}
+              </span>
+            </td>
+            <td className="border-b border-slate-200 py-3 px-4 text-slate-800 text-center">
+              <span className="inline-block bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
+                {institute.closing}
+              </span>
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <div className="mt-6 bg-gradient-to-r from-purple-50 to-blue-50 rounded-xl p-4 border-l-4 border-purple-500">
+    <p className="text-sm text-slate-700">
+      <strong>💡 Note:</strong> These cutoff ranks are for the 2024 session and may vary year to year based on exam difficulty, number of candidates, and seat availability. Opening rank indicates the best rank that got admission, while closing rank shows the last rank that secured a seat.
+    </p>
+  </div>
+</div>
 
 
         {/* CTA Section */}
