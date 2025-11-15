@@ -14279,7 +14279,7 @@ export const blogPosts: BlogPost[] = [
   "title": "INI-CET 2025 Counselling Explained: Seat Allotment, Upgradation & Final Admission Process",
   "slug": "ini-cet-2025-counselling-seat-allotment-upgradation-final-admission-process",
   "excerpt": "INI-CET 2025 counselling simplifies seat allotment, upgradation and final admission steps, guiding aspirants through every stage with clarity and confidence.",
-  "featured_image": "https://cdn.dribbble.com/userupload/45712883/file/47aa18e228e29ecd74a3ba0eddc94426.png?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/45702654/file/bd84893b28e0045762793aa5805dca7c.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
     "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
@@ -14596,11 +14596,11 @@ export const blogPosts: BlogPost[] = [
   ]
 },
 {
-  "id": 42,
+  "id": 43,
   "title": "Understanding Internal Reservation in INI-CET: The Complete Guide to Institutional Preference (IP) Seats",
   "slug": "understanding-internal-reservation-ini-cet-institutional-preference-ip-seats",
   "excerpt": "Master the INI-CET Internal Reservation system: Learn how Institutional Preference (IP) seats work, eligibility criteria, and strategic counselling advantages for AIIMS MBBS graduates.",
-  "featured_image": "https://cdn.dribbble.com/userupload/45702654/file/bd84893b28e0045762793aa5805dca7c.png?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/45712883/file/47aa18e228e29ecd74a3ba0eddc94426.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
     "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
