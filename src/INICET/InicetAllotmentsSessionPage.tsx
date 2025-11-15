@@ -737,8 +737,10 @@ const InicetAllotmentsSessionPage: React.FC<InicetAllotmentsSessionPageProps> = 
         </div>
 
         {/* Table */}
-        <div className="flex-1 overflow-auto">
-          <table className="w-full">
+        {/* Scrollable Table Container */}
+        <div className="flex-1 overflow-hidden">
+        <div className="overflow-y-auto max-h-[calc(100vh-300px)]">
+         <table className="w-full">
             <thead className="bg-gradient-to-r from-gray-100 to-gray-200 border-b border-gray-300 sticky top-0">
               <tr>
                 {columnVisibility.Round && (
@@ -858,6 +860,7 @@ const InicetAllotmentsSessionPage: React.FC<InicetAllotmentsSessionPageProps> = 
               )}
             </tbody>
           </table>
+          </div>
         </div>
 
         {/* Pagination */}
