@@ -14275,11 +14275,11 @@ export const blogPosts: BlogPost[] = [
   ]
 },
 {
-  "id": 41,
+  "id": 42,
   "title": "INI-CET 2025 Counselling Explained: Seat Allotment, Upgradation & Final Admission Process",
   "slug": "ini-cet-2025-counselling-seat-allotment-upgradation-final-admission-process",
   "excerpt": "INI-CET 2025 counselling simplifies seat allotment, upgradation and final admission steps, guiding aspirants through every stage with clarity and confidence.",
-  "featured_image": "https://cdn.dribbble.com/userupload/45702654/file/bd84893b28e0045762793aa5805dca7c.png?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/45712883/file/47aa18e228e29ecd74a3ba0eddc94426.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
     "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
@@ -14585,6 +14585,296 @@ export const blogPosts: BlogPost[] = [
         "ini-cet counselling round 2",
         "ini-cet counselling open round",
         "ini-cet 2025"
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    }
+  ]
+},
+{
+  "id": 42,
+  "title": "Understanding Internal Reservation in INI-CET: The Complete Guide to Institutional Preference (IP) Seats",
+  "slug": "understanding-internal-reservation-ini-cet-institutional-preference-ip-seats",
+  "excerpt": "Master the INI-CET Internal Reservation system: Learn how Institutional Preference (IP) seats work, eligibility criteria, and strategic counselling advantages for AIIMS MBBS graduates.",
+  "featured_image": "https://cdn.dribbble.com/userupload/45702654/file/bd84893b28e0045762793aa5805dca7c.png?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "INI-CET",
+    "slug": "ini-cet",
+    "color": "bg-blue-100 text-blue-800"
+  },
+  "tags": [
+    "INI-CET Counselling",
+    "Internal Reservation",
+    "Institutional Preference",
+    "IP Seats",
+    "AIIMS Counselling",
+    "MD/MS Admissions",
+    "INI-CET 2025"
+  ],
+  "published_date": "2025-11-15",
+  "read_time": 15,
+  "meta_description": "Master the INI-CET Internal Reservation system: Learn how Institutional Preference (IP) seats work, eligibility criteria, and strategic counselling advantages for AIIMS MBBS graduates.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "The INI-CET, also known as the Institute of National Importance Combined Entrance Test, is actually not just about securing a very good rank; along with it's also about perfectly understanding how the seat allocation system works. Among all the important and various aspects of INI-CET counselling, there is one crucial and often misunderstood concept is about \"Internal Reservation\" or \"Institutional Preference (IP)\"."
+    },
+    {
+      "id": "intro-importance",
+      "type": "paragraph",
+      "content": "You need to understand that the internal reservation is a most notable factor for candidates who have just completed their MBBS at the specific AIIMS or any other INI institutes, as it may provide them with an utmost advantage during the seat allotment. However, it's not a \"separate reservation\" in the constitutional sense. Let's understand how it works, who it can make beneficial to candidates, and what it means for your INI-CET counselling strategy."
+    },
+    {
+      "id": "what-is-ip",
+      "type": "heading",
+      "title": "What is Internal Reservation / Institutional Preference in INI-CET?",
+      "level": 2
+    },
+    {
+      "id": "what-is-ip-content",
+      "type": "paragraph",
+      "content": "Basically, in the INI-CET 2025 counselling and seat allocation process, there is every AIIMS or participating institute has to maintain a defined internal preference policy for its own MBBS graduates.\n\nThis Institutional Preference (IP) already aims to give an approximate advantage to those who have studied at the same institute for their MBBS degree when they have already applied for postgraduate (MD/MS/MDS) courses there."
+    },
+    {
+      "id": "important-notes-heading",
+      "type": "paragraph",
+      "content": "However, it's important to note:"
+    },
+    {
+      "id": "important-notes",
+      "type": "list",
+      "items": [
+        "These are not supplementary or extra seats that are beyond the total seat matrix.",
+        "Basically, the internal preference is unified within the survival category-wise distribution, either it's (UR/OBC/SC/ST/EWS).",
+        "Although it does not overturn or replace the constitutional reservations."
+      ]
+    },
+    {
+      "id": "for-instance-heading",
+      "type": "paragraph",
+      "content": "For instance:"
+    },
+    {
+      "id": "for-instance-list",
+      "type": "list",
+      "items": [
+        "For instance, basically, seats marked as \"IP\" are only open to those who completed their MBBS from that same institute.",
+        "The candidates who are from the reserved category must also fulfil the general eligibility norms for the unreserved (UR) category. PG admissions are highly eligible for IP seats, but they have to compete for their respective category seats and UR seats per merit.",
+        "The calculation of IP seats is capped, which is usually at 50% of the total MBBS seats of that particular institute, as it is not more than 50% of the total UR PG seats."
+      ]
+    },
+    {
+      "id": "key-components",
+      "type": "heading",
+      "title": "Key Components of Institutional Preference and How It Works",
+      "level": 2
+    },
+    {
+      "id": "key-components-intro",
+      "type": "paragraph",
+      "content": "Let's break down the structure and functioning of IP seats in detail."
+    },
+    {
+      "id": "ip-seats-component",
+      "type": "heading",
+      "title": "1. Institutional Preference (IP) Seats",
+      "level": 3
+    },
+    {
+      "id": "ip-seats-content",
+      "type": "paragraph",
+      "content": "Each AIIMS (or other INI-CET participating institute) has calculated the total number of internal preference seats, which are based on its MBBS capacity.\n\nHere's how it typically works:"
+    },
+    {
+      "id": "ip-seats-working",
+      "type": "list",
+      "items": [
+        "You know what the maximum limit for IP seats is = 50% of MBBS seats of that specific institute, which has been provided that it does not exceed 50% of total UR PG seats (eliminate the dental seats).",
+        "If any specific AIIMS did not have an MBBS batch for candidates for the given academic cycle, then there will be no IP seats will be allotted.",
+        "Only those candidates who have completed their MBBS and an internship with the same institute and who can fulfill the general eligibility can apply under IP."
+      ]
+    },
+    {
+      "id": "ip-seats-example",
+      "type": "paragraph",
+      "content": "So, for example, if AIIMS in Rishikesh had 100 MBBS seats in 2019, and 50 students had completed MBBS there, which is up to 25 PG seats (for example, 50% of 50 MBBS seats) could be easily set aside as IP seats in its PG programs."
+    },
+    {
+      "id": "roster-component",
+      "type": "heading",
+      "title": "2. The 200-Point Roster: How Seat Allocation is Structured",
+      "level": 3
+    },
+    {
+      "id": "roster-intro",
+      "type": "paragraph",
+      "content": "The 200-point roster is basically a standardized allocation, which is a framework that distributes seats systematically with different categories, including UR, OBC, SC, ST, EWS, and IP, following a balanced and fair order.\n\nHere's how it functions:"
+    },
+    {
+      "id": "roster-functioning",
+      "type": "list",
+      "items": [
+        "Each seat corresponds to a roster point, which has a designated category, for example, roster point #1, #2, #3, and so on. Each point is has been set aside for a specific category or preference type (UR, OBC, SC, ST, IP, etc.).",
+        "You know what, over every block of 200 seats, the particular distribution matches the overall required percentages for each category and their preferred preference.",
+        "During each counselling round of the INI-CET counselling process: Although seat 1 has been allotted that are based on roster point 1, then 2, and so forth.",
+        "If a candidate has vacated a seat in a later round, basically, in the next allocation, it usually continues from that roster position.",
+        "An exceptional candidate who is from a reserved category and who also qualifies in the UR merit list can still be considered for a UR seat if they are eligible."
+      ]
+    },
+    {
+      "id": "roster-transparency",
+      "type": "paragraph",
+      "content": "This system has just made sure about transparency and uniformity in how internal preferences and category-wise allocations should be managed concurrently."
+    },
+    {
+      "id": "constitutional-reservations",
+      "type": "heading",
+      "title": "3. Interaction with Standard Constitutional Reservations",
+      "level": 3
+    },
+    {
+      "id": "constitutional-intro",
+      "type": "paragraph",
+      "content": "The internal preference mechanism works in parallel with the regular reservation structure.\n\nThe standard and each category-wise reservation that apply to PG courses under INI-CET:"
+    },
+    {
+      "id": "category-reservations",
+      "type": "paragraph",
+      "content": "In SC (Scheduled Caste), there will be 15%, in ST (Scheduled Tribe): 7.5%, for OBC (Non-Creamy Layer) its 27%, for EWS, called as (Economically Weaker Section) should be 10% and at last the PwBD (Persons with Benchmark Disabilities) is 5% there will be horizontal reservation across all categories."
+    },
+    {
+      "id": "ip-interaction-heading",
+      "type": "paragraph",
+      "content": "Now, how IP interacts with these:"
+    },
+    {
+      "id": "ip-interaction-list",
+      "type": "list",
+      "items": [
+        "The IP seats are actually not only extra, but they're also included within the institute's total seat count.",
+        "The PwBD reservation has basically applied horizontally in all categories, as it includes the IP, which also means that PwBD candidates can assert seats within their respective category, whether it's (UR, OBC, etc.).",
+        "Basically, if the reserved category seats remain uncovered after all the rounds, there will be conversion rules applied; ST seats may convert into SC, then to UR, in the open round.",
+        "Basically, all the internal preferences fit within the same matrix, which preserves the honesty of constitutional reservations."
+      ]
+    },
+    {
+      "id": "why-matters",
+      "type": "heading",
+      "title": "Why Institutional Preference Matters",
+      "level": 2
+    },
+    {
+      "id": "why-matters-intro",
+      "type": "paragraph",
+      "content": "If you've already completed your MBBS from any AIIMS or you have participated in INI, the internal preference policy can remarkably influence all your postgraduate opportunities. Here's why it's important:"
+    },
+    {
+      "id": "why-matters-list",
+      "type": "list",
+      "items": [
+        "Added Advantage: IP seats preferential roster, which means the actual allocation that depends on the merit-eligible candidates has a marginally higher chance to secure a seat in their own institute.",
+        "Limited Competition: The competition pool for IP seats is way minimum, which is also limited only to that institute's for MBBS graduates.",
+        "Predictable Allocation: It is very clear that IP seats are clearly defined within the seat matrix, and the eligible candidates can plan their choice, filling in more deliberately."
+      ]
+    },
+    {
+      "id": "case-study",
+      "type": "heading",
+      "title": "Example Scenario: AIIMS Delhi Case Study",
+      "level": 2
+    },
+    {
+      "id": "case-study-intro",
+      "type": "paragraph",
+      "content": "Let's consider a real-world illustration to make this clearer.\n\nLet's mean that you completed your MBBS from AIIMS Delhi, and now you are ready to appear for INI-CET PG counselling for admission to AIIMS Delhi itself."
+    },
+    {
+      "id": "case-study-heading",
+      "type": "paragraph",
+      "content": "Here's what happens:"
+    },
+    {
+      "id": "case-study-steps",
+      "type": "list",
+      "items": [
+        "AIIMS Delhi strategically determined that from its 2019 MBBS batch, 100 students completed the course.",
+        "As per the rule, up to 50% of that number, like 50 seats, should be considered as IP seats for PG admission.",
+        "These seats are still distributed differently, which is with the UR, OBC, SC, ST, and EWS categories; although there's no additional allocation.",
+        "You, being an AIIMS Delhi graduate, later became eligible for IP seats there.",
+        "During choice filling, you can select: Branch A (Medicine), which basically comes under the IP option. Branch B (Radiology) under regular UR/reserved option.",
+        "It is typically, depending on your rank and personal preferences, that you may be allotted an IP seat.",
+        "But even it happened that you don't get one, you can still compete for regular seats in Delhi or other AIIMS campuses, there are a lot of optionss."
+      ]
+    },
+    {
+      "id": "case-study-conclusion",
+      "type": "paragraph",
+      "content": "This structure will make sure about fairness, rewarding institutions that continue without compromising it in the national merit."
+    },
+    {
+      "id": "final-takeaway",
+      "type": "heading",
+      "title": "Final Takeaway",
+      "level": 2
+    },
+    {
+      "id": "final-takeaway-content",
+      "type": "paragraph",
+      "content": "At last, the internal reservation (IP) in INI-CET can make an important difference in your counselling strategy.\n\nIn the demanding world of INI-CET PG admissions, which perfectly knows the perfect print about IP seats, which helps you to make those smarter choices, which effortlessly avoids misunderstandings, and maximizes your chances of landing the seat you deserve."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "5 Concise FAQs",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1: What is Institutional Preference (IP) in INI-CET?",
+          "answer": "IP provides the perfect privileged roster that has positioning for AIIMS MBBS graduates at their respective parent institutions. Although the IP represents preference, which includes (not reservation) within UR seat limits as per the 200-point roster system."
+        },
+        {
+          "question": "Q2: How are IP seats calculated?",
+          "answer": "IP seats = 50% of 2019 MBBS sanctioned seats at that AIIMS, capped at 50% of UR PG seats (excluding MDS). AIIMS, without the 2019 batch, has zero IP seats."
+        },
+        {
+          "question": "Q3: Can reserved category candidates (OBC/SC/ST) at AIIMS benefit from IP?",
+          "answer": "No. There will be no IP eligibility requirements, especially for candidates to meet UR category criteria. Although it has a reserved category, students compete for their respective category seats and UR seats on merit."
+        },
+        {
+          "question": "Q4: Do non-AIIMS INIs (PGIMER, NIMHANS, SCTIMST) have IP seats?",
+          "answer": "No. There will be no IP provisions that apply solely to AIIMS institutions. Although there are PGIMER, NIMHANS, SCTIMST, and JIPMER (now AIIMS Puducherry) that allocate seats through the standard category-based merit system."
+        },
+        {
+          "question": "Q5: What happens at an IP roster point if no IP candidate accepts the seat?",
+          "answer": "The roster point has been converted to UR. The seat is basically allocated to the next merit-ranked UR candidate per their preference social scale."
+        }
+      ]
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+         "INI-CET Counselling",
+    "INI-CET Counselling Process",
+    "INI-CET Counselling 2025",
+    "INI-CET 2025 Counselling",
+    "INI-CET Counselling Registration",
+    "INI-CET 2025"
       ]
     },
     {
