@@ -594,10 +594,10 @@ const InicetMainContent: React.FC = () => {
 <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
   <div className="text-center mb-6 lg:mb-8">
     <h2 className="text-2xl lg:text-3xl font-bold text-slate-800 mb-2">
-      🏥 INI CET 2024 AIIMS Institute-wise Cut Off
+      🏥 INI-CET AIIMS Institute-wise Cut Off
     </h2>
     <p className="text-slate-600 text-sm lg:text-base">
-      Opening and Closing Ranks for AIIMS Institutes in 2024
+      Opening and Closing Ranks for AIIMS Institutes 
     </p>
   </div>
 
@@ -714,7 +714,7 @@ const InicetMainContent: React.FC = () => {
 
   <div className="mt-6 bg-gradient-to-r from-purple-50 to-blue-50 rounded-xl p-4 border-l-4 border-purple-500">
     <p className="text-sm text-slate-700">
-      <strong>💡 Note:</strong> These cutoff ranks are for the 2024 session and may vary year to year based on exam difficulty, number of candidates, and seat availability. Opening rank indicates the best rank that got admission, while closing rank shows the last rank that secured a seat.
+      <strong>💡 Note:</strong> These cutoff ranks may vary year to year based on exam difficulty, number of candidates, and seat availability. Opening rank indicates the best rank that got admission, while closing rank shows the last rank that secured a seat.
     </p>
   </div>
 </div>
