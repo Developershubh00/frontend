@@ -652,6 +652,15 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: 'https://www.telegraphindia.com/edugraph/news/haryana-neet-pg-2025-counselling-round-1-choice-filling-open-till-november-16-detailed-schedule-here/cid/2132881',
       source: 'telegraphindia',
      },
+     {
+      id: 69,
+      title: "MCC Releases Complete NEET PG 2025 Counselling Calendar—All India Quota, State Quota, and Deemed University Schedule Announced",
+      date: "2025-11-15T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://mcc.nic.in/pg-medical-counselling/',
+      source: 'mcc.nic.in',
+    },
 
 
 

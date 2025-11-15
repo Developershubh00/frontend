@@ -839,6 +839,18 @@ const AnnouncementPage: React.FC = () => {
       source: 'telegraphindia',
       created_at: "2025-11-15T08:00:00Z"
     },
+    {
+      id: 69,
+      title: "NEET PG Counselling 2025:",
+      content:"MCC Releases Complete NEET PG 2025 Counselling Calendar—All India Quota, State Quota, and Deemed University Schedule Announced",
+      date: "2025-11-15T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://mcc.nic.in/pg-medical-counselling/',
+      is_active: true,
+      source: 'mcc.nic.in',
+      created_at: "2025-11-15T08:00:00Z"
+    },
     
 
 
