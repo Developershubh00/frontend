@@ -28,7 +28,7 @@ const InicetMainContent: React.FC = () => {
       icon: FileText,
       bgColor: "bg-blue-100",
       textColor: "text-blue-600",
-      onClick: () => window.open("https://aiims.edu/inicet/", "_blank"),
+      onClick: () => window.open("https://www.aiimsexams.ac.in/", "_blank"),
     },
     // {
     //   id: "registration",
@@ -44,7 +44,7 @@ const InicetMainContent: React.FC = () => {
       icon: FileText,
       bgColor: "bg-blue-100",
       textColor: "text-blue-600",
-      onClick: () => window.open("/data/INI_CET.pdf", "_blank"),
+      onClick: () => window.open("https://docs.aiimsexams.ac.in/sites/2_PROSPECTUS%20PART-A%20INI-CET%20JULY%202025%20SESSION.pdf", "_blank"),
     },
     // {
     //   id: "results",
