@@ -661,6 +661,15 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: 'https://mcc.nic.in/pg-medical-counselling/',
       source: 'mcc.nic.in',
     },
+    {
+      id: 70,
+      title: "AIIMS INI CET 2025 Result Declared: 32,374 Candidates Qualify for January 2026 Session MD/MS/DM/MCh/MDS Admissions - Download Score at aiimsexams.ac.in",
+      date: "2025-11-16T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.ndtv.com/education/aiims-ini-cet-2025-exam-roll-number-wise-result-released-download-directly-here-9643761',
+      source: 'ndtv',
+    },
 
 
 

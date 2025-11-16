@@ -851,6 +851,18 @@ const AnnouncementPage: React.FC = () => {
       source: 'mcc.nic.in',
       created_at: "2025-11-15T08:00:00Z"
     },
+    {
+      id: 70,
+      title: "NEET PG Counselling 2025:",
+      content:"AIIMS INI CET 2025 Result Declared: 32,374 Candidates Qualify for January 2026 Session MD/MS/DM/MCh/MDS Admissions - Download Score at aiimsexams.ac.in",
+      date: "2025-11-16T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.ndtv.com/education/aiims-ini-cet-2025-exam-roll-number-wise-result-released-download-directly-here-9643761',
+      is_active: true,
+      source: 'ndtv',
+      created_at: "2025-11-15T08:00:00Z"
+    },
     
 
 
