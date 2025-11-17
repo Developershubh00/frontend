@@ -217,7 +217,7 @@ const InicetMainContent: React.FC = () => {
           ))}
         </div>
         {/* Results Announcement Banner */}
-<div className="mb-6 lg:mb-8 animate-pulse">
+<div className="mb-6 lg:mb-8 ">
   <div className="bg-gradient-to-r from-green-500 via-emerald-500 to-teal-500 rounded-2xl lg:rounded-3xl shadow-2xl overflow-hidden">
     <div className="relative p-6 lg:p-8">
       <div className="absolute inset-0 bg-gradient-to-r from-green-600/20 to-emerald-600/20"></div>
