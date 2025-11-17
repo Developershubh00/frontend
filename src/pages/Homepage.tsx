@@ -584,6 +584,7 @@ function Homepage() {
                 </span>
               </button>
             </div>
+            </div>
 
             {/* <button
             onClick={() => navigate("/signup")}
