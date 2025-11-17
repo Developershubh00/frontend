@@ -14884,6 +14884,329 @@ export const blogPosts: BlogPost[] = [
       "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
     }
   ]
+},
+{
+  "id": 44,
+  "title": "Chhattisgarh NEET PG Counselling 2025: Complete Guide to Registration, Eligibility & Process",
+  "slug": "chhattisgarh-neet-pg-counselling-2025-registration-eligibility-process",
+  "excerpt": "Get clarity on registration steps eligibility rules and seat allotment to secure your PG medical admission in Chhattisgarh with confidence.",
+  "featured_image": "https://cdn.dribbble.com/userupload/45732935/file/071f22829586625e0a110a29d0dc710a.png?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-green-100 text-green-800"
+  },
+  "tags": [
+    "Chhattisgarh NEET PG",
+    "NEET PG Counselling",
+    "State Quota",
+    "MD/MS Admissions",
+    "NEET PG 2025",
+    "DME Chhattisgarh"
+  ],
+  "published_date": "2025-11-17",
+  "read_time": 12,
+  "meta_description": "Get clarity on registration steps eligibility rules and seat allotment to secure your PG medical admission in Chhattisgarh with confidence.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "The Chhattisgarh NEET PG (MD/MS) Counselling 2025 process has officially started, and it is now opening doors for postgraduate medical aspirants who are already aiming for State Quota seats. Although it is basically managed by the Directorate of Medical Education (DME), Chhattisgarh, the counselling has been conducted through an online platform which designed to streamline registration, verification, choice filling, and seat allotment."
+    },
+    {
+      "id": "intro-purpose",
+      "type": "paragraph",
+      "content": "Suppose you're planning to secure a seat for yourself in an MD/MS program in Chhattisgarh this year. In that case, this blog will help to break down the important dates, eligibility, step-by-step registration process, documents, and platform navigation in an easy and well-structured manner."
+    },
+    {
+      "id": "highlights",
+      "type": "heading",
+      "title": "Important Highlights for 2025",
+      "level": 2
+    },
+    {
+      "id": "highlights-list",
+      "type": "list",
+      "items": [
+        "Application Fee: ₹2000 (non-refundable)",
+        "Official Website: https://cgdme.admissions.nic.in/",
+        "Registration Portal: https://cgmcc.admissions.nic.in/Applicant/Root/Home.aspx?AgencyId=147&boardId=147022521",
+        "Authority: Directorate of Medical Education, Govt. of Chhattisgarh"
+      ]
+    },
+    {
+      "id": "schedule",
+      "type": "heading",
+      "title": "Round 1 Tentative Schedule (MD/MS – State Quota)",
+      "level": 2
+    },
+    {
+      "id": "schedule-table",
+      "type": "table",
+      "headers": ["Stage", "Dates / Details"],
+      "rows": [
+        ["Online Registration & Fee Submission", "13 November – 18 November 2025"],
+        ["Choice Filling & Locking", "6-day window after registration"],
+        ["Merit List Publication", "To be notified"],
+        ["Seat Allotment Procedure", "To be notified"],
+        ["Result of Round 1", "To be notified"],
+        ["Document Scrutiny at Allotted Institute", "To be notified"],
+        ["Admission to the Institute", "To be notified"]
+      ]
+    },
+    {
+      "id": "eligibility",
+      "type": "heading",
+      "title": "Eligibility Criteria",
+      "level": 2
+    },
+    {
+      "id": "eligibility-intro",
+      "type": "paragraph",
+      "content": "The counselling has two priority categories:"
+    },
+    {
+      "id": "priority1",
+      "type": "heading",
+      "title": "Priority 1 — Chhattisgarh Affiliated Graduates",
+      "level": 3
+    },
+    {
+      "id": "priority1-content",
+      "type": "paragraph",
+      "content": "Candidates who completed MBBS from medical colleges under Pt. Deendayal Upadhyaya Memorial Health Sciences & AYUSH University, Chhattisgarh"
+    },
+    {
+      "id": "priority1-list",
+      "type": "list",
+      "items": [
+        "Includes serving candidates from government establishments."
+      ]
+    },
+    {
+      "id": "priority2",
+      "type": "heading",
+      "title": "Priority 2 — Other-State MBBS Graduates",
+      "level": 3
+    },
+    {
+      "id": "priority2-content",
+      "type": "paragraph",
+      "content": "Applicants who completed MBBS from any state outside Chhattisgarh, regardless of domicile."
+    },
+    {
+      "id": "both-categories",
+      "type": "paragraph",
+      "content": "Both categories must:"
+    },
+    {
+      "id": "both-categories-list",
+      "type": "list",
+      "items": [
+        "They should qualify for NEET PG 2025",
+        "They have to complete the internship by the prescribed date",
+        "They have to maintain the required documents as per the bulletin"
+      ]
+    },
+    {
+      "id": "dme-system",
+      "type": "heading",
+      "title": "About the DME Counselling System",
+      "level": 2
+    },
+    {
+      "id": "dme-intro",
+      "type": "paragraph",
+      "content": "Regarding the DME counselling system, which is also known as the Directorate of Medical Education (DME), it oversees nearly 15 medical colleges, 6 dental colleges, and over 125 nursing institutions. But on the other side of managing academic groundwork and training hospitals, the department is also able to handle the centralized online counselling, especially for medical and dental admissions."
+    },
+    {
+      "id": "portal-provides",
+      "type": "paragraph",
+      "content": "The portal provides:"
+    },
+    {
+      "id": "portal-features",
+      "type": "list",
+      "items": [
+        "The official and latest notices",
+        "Information mentioned in the bulletin",
+        "Registration and login services are always available",
+        "Certificate formats",
+        "Choice filling dashboard"
+      ]
+    },
+    {
+      "id": "recent-updates",
+      "type": "paragraph",
+      "content": "Recent updates include:"
+    },
+    {
+      "id": "recent-updates-list",
+      "type": "list",
+      "items": [
+        "Information Bulletin",
+        "Rules & Regulations for PG Counselling",
+        "Round 1 Registration Notice",
+        "UG Mop-Up Round Results and Merit Lists"
+      ]
+    },
+    {
+      "id": "registration-process",
+      "type": "heading",
+      "title": "Step-by-Step Registration Process for NEET PG Counselling 2025",
+      "level": 2
+    },
+    {
+      "id": "registration-intro",
+      "type": "paragraph",
+      "content": "This guide helps you complete the NEET PG counselling registration accurately:"
+    },
+    {
+      "id": "registration-steps",
+      "type": "list",
+      "items": [
+        "Visit Portal: first, you need to open the official site and click New Candidate Registration.",
+        "Agree to T&C: then you have to accept all announcements and proceed.",
+        "Enter NEET PG Details: Fill your registered roll no., application no., name, mother's name, and DOB, etc.",
+        "Add Contact Info: Enter mobile number & email ID, which is verified via OTP.",
+        "Create Password: Then you have to set and confirm a secure login password, which you will remember.",
+        "Fill Personal Info: In the personal information, you need to enter gender, nationality, category, domicile status & subcategory.",
+        "Add Bank Details: Here are the official details that come in, which you have to provide account info, plus upload cancelled cheque/passbook PDF.",
+        "PwD Section (if applicable): if you have any kind of disability, then mention it there, percentage & upload your disability proof.",
+        "Enter Qualification Details: then you have to add your MBBS passing status, year, enrollment no, and college.",
+        "Enter Internship Details: further, you have to fill in internship dates and completion status.",
+        "Fill Address: Provide the application form with your permanent and correspondence address.",
+        "Select Seat Type: Choose your preferred seat options, either it's Govt/Private/NRI options as eligible.",
+        "Pay Counselling Fee: After that, just complete your payment as shown on the portal.",
+        "Upload Documents: Submit all required scanned certificates."
+      ]
+    },
+    {
+      "id": "security-reminders",
+      "type": "paragraph",
+      "content": "Security reminders:"
+    },
+    {
+      "id": "security-list",
+      "type": "list",
+      "items": [
+        "You have to maintain that you could never share the password that you have created",
+        "Always remember to log out of that page after completing tasks",
+        "You must keep your OTP confidential",
+        "Add a system that tracks IP addresses for safety"
+      ]
+    },
+    {
+      "id": "steps-foundation",
+      "type": "paragraph",
+      "content": "These steps form the foundation of the NEET PG counselling application form completion."
+    },
+    {
+      "id": "scrutiny-admission",
+      "type": "heading",
+      "title": "Scrutiny & Admission at the Institute",
+      "level": 2
+    },
+    {
+      "id": "scrutiny-intro",
+      "type": "paragraph",
+      "content": "After Round 1 results:"
+    },
+    {
+      "id": "scrutiny-steps",
+      "type": "list",
+      "items": [
+        "After round 1 results, visit your allotted institute with all the original documents",
+        "Get there with all your verified certificates",
+        "Pay the required admission fees",
+        "Then just submit the bond/affidavit if applicable",
+        "Receive admission acknowledgment"
+      ]
+    },
+    {
+      "id": "failure-warning",
+      "type": "paragraph",
+      "content": "Failure to report may lead to the cancellation of the seat."
+    },
+    {
+      "id": "final-takeaway",
+      "type": "heading",
+      "title": "Final Takeaway",
+      "level": 2
+    },
+    {
+      "id": "final-takeaway-content",
+      "type": "paragraph",
+      "content": "The Chhattisgarh NEET PG Counselling 2025 process is basically centralized, transparent, well-structured, and entirely digital. With NEET PG counselling seat allotment, all the registrations that are already open, candidates just have to complete their forms on time, verify all the relevant details, and keep track of them for further announcements regarding merit lists and seat allotment."
+    },
+    {
+      "id": "final-takeaway-conclusion",
+      "type": "paragraph",
+      "content": "A systematic approach, starting with careful form submission and concluding at the allotted college, ensures a smooth admission experience for NEET PG counselling state quota aspirants."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "5 Concise FAQs",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1: What are the eligibility criteria for Chhattisgarh NEET PG 2025?",
+          "answer": "There should be. Your Priority 1: You did your MBBS from Chhattisgarh University. Then your Priority 2 is that you have done your MBBS from another state. However, all candidates must be qualified for NEET PG, and have completed their MBBS also internship within a limited time."
+        },
+        {
+          "question": "Q2: What is the registration fee for Chhattisgarh NEET PG 2025?",
+          "answer": "₹2,000 for all categories (non-refundable), ₹10,000 for NRI candidates."
+        },
+        {
+          "question": "Q3: What are the registration dates for Round 1?",
+          "answer": "The registration dates for round 1 are 13–18 November 2025, 11:59 PM."
+        },
+        {
+          "question": "Q4: How is the choice-filling process structured?",
+          "answer": "The Choice filling window has been opened after registration, and the duration is to be notified on the portal. Although candidates just have to select and lock preferences for colleges and courses."
+        },
+        {
+          "question": "Q5: How many rounds are conducted?",
+          "answer": "There will be a total of three rounds of counselling should be conducted for Chhattisgarh NEET PG 2025."
+        }
+      ]
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "chhattisgarh neet pg counselling",
+        "chhattisgarh neet pg counselling 2025",
+        "neet pg counselling",
+        "neet pg counselling procedure",
+        "neet pg counselling registration",
+        "neet pg counselling round 1",
+        "neet pg counselling seat matrix",
+        "neet pg counselling choice filling",
+        "neet pg counselling application form",
+        "neet pg counselling seat allotment",
+        "neet pg counselling state quota",
+        "neet pg round 1 counselling result"
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    }
+  ]
 }
 
 ];
