@@ -65,14 +65,15 @@ const InicetRightSideBar: React.FC<InicetRightSideBarProps> = ({
       id: 6,
       date: "15th November 2025",
       event: "Result Declaration",
-      status: "upcoming",
-      isHighlight: true,
+      status: "completed",
+      
     },
     {
       id: 7,
       date: "November–December 2025",
       event: "Counselling & Seat Allotment",
       status: "upcoming",
+      isHighlight: true,
     },
   ];
 
