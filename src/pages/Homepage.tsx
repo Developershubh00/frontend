@@ -574,7 +574,7 @@ function Homepage() {
                 className={`w-full sm:w-auto bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white px-10 py-4 rounded-full text-xl font-bold inline-flex items-center justify-center space-x-3 transition-all duration-300 hover:scale-105 shadow-2xl animate-pulse relative ${isVisible
                     ? "opacity-100 translate-y-0"
                     : "opacity-0 translate-y-10"
-                  } transition-all duration-700 delay-500`}
+                  } transition-all duration-700 delay-400`}
               >
                 <Award className="w-6 h-6" />
                 <span>INICET Results - Check Now!</span>
