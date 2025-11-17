@@ -43,8 +43,8 @@ function Homepage() {
   const featuresRef = useRef<HTMLDivElement>(null);
   const reviewsRef = useRef<HTMLDivElement>(null);
   const navigate = useNavigate();
-    
-  
+
+
 
   useEffect(() => {
     const observerOptions = {
@@ -184,14 +184,14 @@ function Homepage() {
       icon: <BookOpen className="w-8 h-8 text-cyan-600" />,
       highlight: "Webinars & Video Guides",
     },
-    {
-      title: "Rank College Predictor",
-      description: "Fine tune your choice list before facing the D day.",
-      color: "border-indigo-300 bg-indigo-50",
-      textColor: "text-indigo-800",
-      icon: <Settings className="w-8 h-8 text-indigo-600" />,
-      highlight: "Choice List builder",
-    },
+    // {
+    //   title: "Rank College Predictor",
+    //   description: "Fine tune your choice list before facing the D day.",
+    //   color: "border-indigo-300 bg-indigo-50",
+    //   textColor: "text-indigo-800",
+    //   icon: <Settings className="w-8 h-8 text-indigo-600" />,
+    //   highlight: "Choice List builder",
+    // },
     {
       title: "Advanced tools",
       description: "Know every seat, every movement, who got admitted where.",
@@ -201,13 +201,13 @@ function Homepage() {
       highlight: "Advanced tools",
     },
     {
-    title: "INICET Live Results 2025",
-    description: "Check ranks, cutoffs, seat matrix, and counselling schedule for INICET Jan 2025. Get institute-wise data.",
-    color: "border-emerald-300 bg-emerald-50",
-    textColor: "text-emerald-800",
-    icon: <Award className="w-8 h-8 text-emerald-600" />,
-    highlight: "INICET Results Live",
-}
+      title: "INICET Live Results 2025",
+      description: "Check ranks, cutoffs, seat matrix, and counselling schedule for INICET Jan 2025. Get institute-wise data.",
+      color: "border-emerald-300 bg-emerald-50",
+      textColor: "text-emerald-800",
+      icon: <Award className="w-8 h-8 text-emerald-600" />,
+      highlight: "INICET Results Live",
+    }
   ];
 
   const reviews = [
@@ -334,11 +334,11 @@ function Homepage() {
     );
   };
 
-  
+
   return (
 
-<div className="min-h-screen bg-white overflow-x-hidden">
-   {/* Navigation */}
+    <div className="min-h-screen bg-white overflow-x-hidden">
+      {/* Navigation */}
       <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm border-b border-gray-100 z-50 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
@@ -363,20 +363,20 @@ function Homepage() {
                 </span>
               </div> */}
             </div>
-            
+
             {/* Desktop Menu */}
             <div className="hidden md:flex items-center space-x-8 ml-auto">
               <div className="flex items-center space-x-8">
                 <a
-                onClick={() => navigate("/inicetdashboard")}
-                className="text-white bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 px-4 py-2 rounded-full transition-all duration-300 font-bold relative group cursor-pointer animate-pulse shadow-lg"
+                  onClick={() => navigate("/inicetdashboard")}
+                  className="text-white bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 px-4 py-2 rounded-full transition-all duration-300 font-bold relative group cursor-pointer animate-pulse shadow-lg"
                 >
-             🎉 INICET Results Out!
-            <span className="absolute -top-1 -right-1 flex h-3 w-3">
-             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-            <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
-              </span>
-            </a>
+                  🎉 INICET Results Out!
+                  <span className="absolute -top-1 -right-1 flex h-3 w-3">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
+                  </span>
+                </a>
                 {/* <a
                   href="#testimonials"
                   className="text-gray-700 hover:text-blue-600 transition-all duration-300 font-medium relative group"
@@ -413,13 +413,13 @@ function Homepage() {
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
                 </a>
               </div>
-              
+
               <div className="flex items-left space-x-4">
                 {/* <div className="flex items-center space-x-2 text-sm text-gray-600">
                   <Phone className="w-4 h-4" />
                   <span>091-9211724969</span>
                 </div> */}
-                <button 
+                <button
                   onClick={() => navigate("/login")}
                   className="bg-gradient-to-r from-blue-300 to-blue-700 hover:from-blue-300 hover:to-blue-800 text-white px-6 py-2.5 rounded-full font-semibold transition-all duration-300 hover:scale-105 shadow-lg mr-[5px]"
                 >
@@ -427,7 +427,7 @@ function Homepage() {
                 </button>
               </div>
             </div>
-            
+
             {/* Mobile Menu Button */}
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -440,22 +440,22 @@ function Homepage() {
               )}
             </button>
           </div>
-          
+
           {/* Mobile Menu */}
           {/* Mobile Menu */}
           {isMenuOpen && (
             <div className="md:hidden border-t border-gray-100 bg-white/95 backdrop-blur-sm">
               <div className="px-2 pt-2 pb-3 space-y-1">
 
-<a
-  onClick={() => {
-    navigate("/inicetdashboard");
-    setIsMenuOpen(false);
-  }}
-  className="block px-3 py-3 text-white bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 rounded-xl transition-all duration-300 font-bold text-center cursor-pointer shadow-lg mb-2 animate-pulse"
->
-  🎉 INICET Results Out! Check Now
-</a>
+                <a
+                  onClick={() => {
+                    navigate("/inicetdashboard");
+                    setIsMenuOpen(false);
+                  }}
+                  className="block px-3 py-3 text-white bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 rounded-xl transition-all duration-300 font-bold text-center cursor-pointer shadow-lg mb-2 animate-pulse"
+                >
+                  🎉 INICET Results Out! Check Now
+                </a>
 
                 <a
                   onClick={() => {
@@ -493,7 +493,7 @@ function Homepage() {
                   Contact Us
                 </a>
                 <div className="pt-2">
-                  <button 
+                  <button
                     onClick={() => {
                       navigate("/login");
                       setIsMenuOpen(false);
@@ -508,7 +508,7 @@ function Homepage() {
           )}
         </div>
       </nav>
-   
+
 
       {/* Hero Section */}
       <section
@@ -520,38 +520,34 @@ function Homepage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center mb-12">
             <h1
-              className={`text-5xl md:text-7xl font-bold text-gray-900 mb-6 transition-all duration-700 ${
-                isVisible
+              className={`text-5xl md:text-7xl font-bold text-gray-900 mb-6 transition-all duration-700 ${isVisible
                   ? "opacity-100 translate-y-0"
                   : "opacity-0 translate-y-10"
-              }`}
+                }`}
             >
               Your Ultimate Guide to
             </h1>
             <div
-  className={`text-4xl md:text-6xl font-bold mb-8 transition-all duration-700 delay-100 ${
-    isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-  } flex justify-center items-center gap-3`}
->
-  <TypingCategories />
-  <span className="text-gray-900">Counselling</span>
-</div>
+              className={`text-4xl md:text-6xl font-bold mb-8 transition-all duration-700 delay-100 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+                } flex justify-center items-center gap-3`}
+            >
+              <TypingCategories />
+              <span className="text-gray-900">Counselling</span>
+            </div>
             <p
-              className={`text-xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed transition-all duration-700 delay-200 ${
-                isVisible
+              className={`text-xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed transition-all duration-700 delay-200 ${isVisible
                   ? "opacity-100 translate-y-0"
                   : "opacity-0 translate-y-10"
-              }`}
+                }`}
             >
               Counselling dates, colleges, courses, fees, cut-offs, and beyond.
               Let's take the guess work out of your choice filling.
             </p>
             <div
-              className={`mb-8 transition-all duration-700 delay-300 ${
-                isVisible
+              className={`mb-8 transition-all duration-700 delay-300 ${isVisible
                   ? "opacity-100 translate-y-0"
                   : "opacity-0 translate-y-10"
-              }`}
+                }`}
             >
               <div className="inline-flex items-center bg-green-100 text-green-800 px-6 py-3 rounded-full font-semibold text-lg mb-6">
                 <CheckCircle className="w-5 h-5 mr-2" />
@@ -561,7 +557,35 @@ function Homepage() {
                 </span>
               </div>
             </div>
-            <button
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
+              <button
+                onClick={() => navigate("/signup")}
+                className={`w-full sm:w-auto bg-gradient-to-r from-blue-300 to-indigo-600 hover:from-blue-300 hover:to-indigo-700 text-white px-10 py-4 rounded-full text-xl font-bold inline-flex items-center justify-center space-x-3 transition-all duration-300 hover:scale-105 shadow-2xl ${isVisible
+                    ? "opacity-100 translate-y-0"
+                    : "opacity-0 translate-y-10"
+                  } transition-all duration-700 delay-400`}
+              >
+                <span>Get started</span>
+                <ArrowRight className="w-6 h-6" />
+              </button>
+
+              <button
+                onClick={() => navigate("/inicetdashboard")}
+                className={`w-full sm:w-auto bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white px-10 py-4 rounded-full text-xl font-bold inline-flex items-center justify-center space-x-3 transition-all duration-300 hover:scale-105 shadow-2xl animate-pulse relative ${isVisible
+                    ? "opacity-100 translate-y-0"
+                    : "opacity-0 translate-y-10"
+                  } transition-all duration-700 delay-500`}
+              >
+                <Award className="w-6 h-6" />
+                <span>INICET Results - Check Now!</span>
+                <span className="absolute -top-1 -right-1 flex h-4 w-4">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-yellow-400 opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-4 w-4 bg-yellow-500"></span>
+                </span>
+              </button>
+            </div>
+
+            {/* <button
             onClick={() => navigate("/signup")}
               className={`bg-gradient-to-r from-blue-300 to-indigo-600 hover:from-blue-300 hover:to-indigo-700 text-white px-10 py-4 rounded-full text-xl font-bold inline-flex items-center space-x-3 transition-all duration-300 hover:scale-105 shadow-2xl ${
                 isVisible
@@ -583,10 +607,10 @@ function Homepage() {
       <span className="relative inline-flex rounded-full h-4 w-4 bg-yellow-500"></span>
     </span>
   </button>
-          </div>
+          </div> */}
 
-          {/* Stats */}
-          {/* <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
+            {/* Stats */}
+            {/* <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
             {stats.map((stat, index) => (
               <div
                 key={index}
@@ -607,7 +631,7 @@ function Homepage() {
               </div>
             ))}
           </div> */}
-        </div>
+          </div>
       </section>
 
       {/* Dashboard Preview */}
@@ -617,11 +641,10 @@ function Homepage() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div
-            className={`relative transition-all duration-500 ${
-              dashboardVisible
+            className={`relative transition-all duration-500 ${dashboardVisible
                 ? "opacity-100 translate-y-0 scale-100"
                 : "opacity-70 translate-y-10 scale-95"
-            }`}
+              }`}
           >
             <div className="bg-white rounded-[40px] shadow-2xl overflow-hidden border border-gray-200 relative">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-600/10 to-indigo-600/10 rounded-[40px]"></div>
@@ -665,11 +688,10 @@ function Homepage() {
         <div className="absolute inset-0 bg-gradient-to-b from-gray-50 to-white"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div
-            className={`text-center mb-16 transition-all duration-500 ${
-              chaosVisible
+            className={`text-center mb-16 transition-all duration-500 ${chaosVisible
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 translate-y-10"
-            }`}
+              }`}
           >
             <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
               Welcome to the Counselling Chaos.
@@ -684,13 +706,11 @@ function Homepage() {
             {chaosReasons.map((reason, index) => (
               <div
                 key={index}
-                className={`flex flex-col ${
-                  index % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"
-                } items-center gap-8 lg:gap-16 transition-all duration-700 ${
-                  chaosVisible
+                className={`flex flex-col ${index % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"
+                  } items-center gap-8 lg:gap-16 transition-all duration-700 ${chaosVisible
                     ? "opacity-100 translate-y-0"
                     : "opacity-0 translate-y-20"
-                }`}
+                  }`}
                 style={{ transitionDelay: `${index * 150}ms` }}
               >
                 <div className="flex-1 relative group">
@@ -748,11 +768,10 @@ function Homepage() {
         <div className="absolute inset-0 bg-gradient-to-r from-blue-50/30 to-indigo-50/30"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div
-            className={`text-center mb-16 transition-all duration-1000 ${
-              featuresVisible
+            className={`text-center mb-16 transition-all duration-1000 ${featuresVisible
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 translate-y-10"
-            }`}
+              }`}
           >
             <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
               Say hello 👋 to Believers Consultancy
@@ -766,13 +785,11 @@ function Homepage() {
             {features.map((feature, index) => (
               <div
                 key={index}
-                className={`${
-                  feature.color
-                } rounded-3xl p-8 border-2 hover:scale-105 transition-all duration-500 cursor-pointer group shadow-lg hover:shadow-2xl ${
-                  featuresVisible
+                className={`${feature.color
+                  } rounded-3xl p-8 border-2 hover:scale-105 transition-all duration-500 cursor-pointer group shadow-lg hover:shadow-2xl ${featuresVisible
                     ? "opacity-100 translate-y-0"
                     : "opacity-0 translate-y-20"
-                }`}
+                  }`}
                 style={{ transitionDelay: `${index * 50}ms` }}
               >
                 <div className="mb-6 transform group-hover:scale-110 transition-transform duration-200">
@@ -816,7 +833,7 @@ function Homepage() {
                   rel="noopener noreferrer"
                   className="font-semibold text-green-700 "
                 >
-                Chat with an Expert on WhatsApp
+                  Chat with an Expert on WhatsApp
                 </a>
               </div>
               {/* <div className="flex items-center bg-blue-100 text-blue-800 px-6 py-3 rounded-full font-semibold">
@@ -870,11 +887,10 @@ function Homepage() {
       <section ref={reviewsRef} className="py-14 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div
-            className={`text-center mb-16 transition-all duration-1000 ${
-              reviewsVisible
+            className={`text-center mb-16 transition-all duration-1000 ${reviewsVisible
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 translate-y-10"
-            }`}
+              }`}
           >
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
               Don't take our word for it
@@ -906,11 +922,10 @@ function Homepage() {
                 .map((review, index) => (
                   <div
                     key={index}
-                    className={`relative group transition-all duration-1000 ${
-                      reviewsVisible
+                    className={`relative group transition-all duration-1000 ${reviewsVisible
                         ? "opacity-100 translate-y-0"
                         : "opacity-0 translate-y-20"
-                    }`}
+                      }`}
                     style={{ transitionDelay: `${index * 100}ms` }}
                     onMouseEnter={() =>
                       setActiveReview(currentReviewIndex + index)
@@ -918,11 +933,10 @@ function Homepage() {
                     onMouseLeave={() => setActiveReview(null)}
                   >
                     <div
-                      className={`bg-white rounded-3xl p-8 shadow-lg border border-gray-200 transition-all duration-500 cursor-pointer h-full ${
-                        activeReview === currentReviewIndex + index
+                      className={`bg-white rounded-3xl p-8 shadow-lg border border-gray-200 transition-all duration-500 cursor-pointer h-full ${activeReview === currentReviewIndex + index
                           ? "scale-105 shadow-2xl"
                           : ""
-                      }`}
+                        }`}
                     >
                       <div className="flex items-center mb-6">
                         <img
@@ -963,11 +977,10 @@ function Homepage() {
 
                       {/* Hover overlay */}
                       <div
-                        className={`absolute inset-0 bg-gradient-to-br from-blue-600 to-indigo-600 rounded-3xl flex items-center justify-center transition-all duration-500 ${
-                          activeReview === currentReviewIndex + index
+                        className={`absolute inset-0 bg-gradient-to-br from-blue-600 to-indigo-600 rounded-3xl flex items-center justify-center transition-all duration-500 ${activeReview === currentReviewIndex + index
                             ? "opacity-95"
                             : "opacity-0 pointer-events-none"
-                        }`}
+                          }`}
                       >
                         <div className="text-center text-white p-8">
                           <CheckCircle className="w-16 h-16 mx-auto mb-4" />
@@ -997,7 +1010,7 @@ function Homepage() {
         </div>
       </section>
 
-     {/* FAQ Section */}
+      {/* FAQ Section */}
       <section className="py-14 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-20">
@@ -1025,17 +1038,15 @@ function Homepage() {
                     {faq.question}
                   </span>
                   <ChevronDown
-                    className={`w-6 h-6 text-gray-500 transition-transform flex-shrink-0 ${
-                      activeFAQ === index ? "rotate-180" : ""
-                    }`}
+                    className={`w-6 h-6 text-gray-500 transition-transform flex-shrink-0 ${activeFAQ === index ? "rotate-180" : ""
+                      }`}
                   />
                 </button>
                 <div
-                  className={`px-8 bg-gray-50 transition-all duration-300 overflow-hidden ${
-                    activeFAQ === index
+                  className={`px-8 bg-gray-50 transition-all duration-300 overflow-hidden ${activeFAQ === index
                       ? "py-6 opacity-100"
                       : "py-0 opacity-0 max-h-0"
-                  }`}
+                    }`}
                 >
                   <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
                 </div>
@@ -1043,7 +1054,7 @@ function Homepage() {
             ))}
           </div>
         </div>
-       </section> 
+      </section>
 
       {/* Take Control Today */}
       <section className="py-12 bg-gradient-to-br from-blue-500 to-indigo-100 relative overflow-hidden">
@@ -1056,15 +1067,15 @@ function Homepage() {
             Stop guessing. Start planning with clarity and confidence.
             Everything is FREE!
           </p>
-          <button 
-          onClick={() => navigate("/login")}
-          className="bg-gradient-to-r from-blue-300 to-indigo-600 hover:from-blue-300 hover:to-indigo-800 text-white px-10 py-4 rounded-full text-xl font-bold inline-flex items-center space-x-3 transition-all duration-300 hover:scale-105 shadow-2xl mb-8">
+          <button
+            onClick={() => navigate("/login")}
+            className="bg-gradient-to-r from-blue-300 to-indigo-600 hover:from-blue-300 hover:to-indigo-800 text-white px-10 py-4 rounded-full text-xl font-bold inline-flex items-center space-x-3 transition-all duration-300 hover:scale-105 shadow-2xl mb-8">
             <span>Get started - FREE Access</span>
             <ArrowRight className="w-6 h-6" />
           </button>
 
           {/* WhatsApp Support Widget */}
-      <AiSensyWidget widgetId="aaa5qq" />
+          <AiSensyWidget widgetId="aaa5qq" />
 
         </div>
       </section>
@@ -1088,7 +1099,7 @@ function Homepage() {
                 Your ultimate guide to counselling. 100% free
                 access to all resources and expert guidance.
               </p>
-              
+
               {/* Social Media Links */}
               <div className="mb-4">
                 <h4 className="font-semibold text-white mb-3">Follow Us</h4>
