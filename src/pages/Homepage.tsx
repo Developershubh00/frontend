@@ -557,7 +557,7 @@ function Homepage() {
                 </span>
               </div>
             </div>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-8 sm:gap-6">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-6">
               <button
                 onClick={() => navigate("/signup")}
                 className={`w-full sm:w-auto bg-gradient-to-r from-blue-300 to-indigo-600 hover:from-blue-300 hover:to-indigo-700 text-white px-10 py-4 rounded-full text-xl font-bold inline-flex items-center justify-center space-x-3 transition-all duration-300 hover:scale-105 shadow-2xl ${isVisible
