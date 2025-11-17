@@ -369,7 +369,7 @@ function Homepage() {
               <div className="flex items-center space-x-8">
                 <a
                   onClick={() => navigate("/inicetdashboard")}
-                  className="text-white bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 px-4 py-2 rounded-full transition-all duration-300 font-bold relative group cursor-pointer animate-pulse shadow-lg"
+                  className="text-white bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 px-4 py-2 rounded-full transition-all duration-300 font-bold relative group cursor-pointer "
                 >
                   🎉 INICET Results Out!
                   <span className="absolute -top-1 -right-1 flex h-3 w-3">
