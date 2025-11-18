@@ -15207,6 +15207,382 @@ export const blogPosts: BlogPost[] = [
       "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
     }
   ]
+},
+{
+  "id": 45,
+  "title": "West Bengal NEET PG Counselling 2025: Registration, Eligibility, and Complete Application Guide",
+  "slug": "west-bengal-neet-pg-counselling-2025-registration-eligibility-application-guide",
+  "excerpt": "Navigate WB NEET PG 2025 with clarity as you learn key dates, eligibility rules, and the full application process for a smooth counselling journey.",
+  "featured_image": "https://cdn.dribbble.com/userupload/45746804/file/6a86ad9d8ef3de1c9e26143a857326a8.jpeg?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-green-100 text-green-800"
+  },
+  "tags": [
+    "West Bengal NEET PG",
+    "NEET PG Counselling",
+    "State Quota",
+    "MD/MS Admissions",
+    "NEET PG 2025",
+    "WBMCC"
+  ],
+  "published_date": "2025-11-18",
+  "read_time": 14,
+  "meta_description": "Navigate WB NEET PG 2025 with clarity as you learn key dates, eligibility rules, and the full application process for a smooth counselling journey.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "There is some good news that the West Bengal Medical Counselling Committee (WBMCC) has officially started the registration process for NEET PG Counselling in 2025. This identifies the first important step for postgraduate medical aspirants who are seeking admission to MD, MS, and Diploma programs across the government and private medical institutions in West Bengal. This guide will also help you understand the overall flow of NEET PG counselling, NEET PG counselling rounds, NEET PG counselling seat matrix, and other important steps."
+    },
+    {
+      "id": "intro-purpose",
+      "type": "paragraph",
+      "content": "Here's a detailed guide for you'll which is going to cover everything, as it starts from registration dates and eligibility to the complete step-by-step application process."
+    },
+    {
+      "id": "important-dates",
+      "type": "heading",
+      "title": "Important Dates",
+      "level": 2
+    },
+    {
+      "id": "dates-table",
+      "type": "table",
+      "headers": ["Event", "Schedule"],
+      "rows": [
+        ["Official Website", "https://wbmcc.nic.in/"],
+        ["Registration Link", "Click Here to Register"],
+        ["Registration Starts", "It's from November 6, 2025 (11:00 AM)"],
+        ["Registration Ends", "It ends on November 9, 2025 (6:00 PM)"]
+      ]
+    },
+    {
+      "id": "dates-note",
+      "type": "paragraph",
+      "content": "Based on further schedules for choice filling, seat matrix publication, and merit list declaration will going to be announced soon on their official website. However, candidates are highly advised to check the official portal regularly for new updates."
+    },
+    {
+      "id": "eligibility-criteria",
+      "type": "heading",
+      "title": "Eligibility Criteria",
+      "level": 2
+    },
+    {
+      "id": "govt-quota",
+      "type": "heading",
+      "title": "For Government Quota Seats",
+      "level": 3
+    },
+    {
+      "id": "govt-quota-intro",
+      "type": "paragraph",
+      "content": "A candidate is eligible under any of the following:"
+    },
+    {
+      "id": "govt-quota-list",
+      "type": "list",
+      "items": [
+        "Category 1 – Those who have completed MBBS from the State of West Bengal.",
+        "Category 2 – Those whose permanent residence is in West Bengal (must be clearly mentioned in their official documents).",
+        "In-Service Category – Medical professionals who have completed 3 years of continuous government service and have also worked in rural/remote/difficult areas for a minimum of 3 years.",
+        "Other Service Category – Regular service candidates working under WB Government, Central Government, or Semi-Government organizations (not under WBHS/WBMES/WBPHAS/DoHFW) are also eligible, but only for NEET PG counselling state quota seats, Open Category seats."
+      ]
+    },
+    {
+      "id": "management-quota",
+      "type": "heading",
+      "title": "For Management Quota Seats",
+      "level": 3
+    },
+    {
+      "id": "management-quota-list",
+      "type": "list",
+      "items": [
+        "All India candidates are eligible to apply.",
+        "OCI candidates can apply as Indians only if they do not opt for the NRI quota."
+      ]
+    },
+    {
+      "id": "registration-process",
+      "type": "heading",
+      "title": "Step-by-Step Registration Process",
+      "level": 2
+    },
+    {
+      "id": "step1",
+      "type": "heading",
+      "title": "Step 1: Visit the Official Website",
+      "level": 3
+    },
+    {
+      "id": "step1-content",
+      "type": "paragraph",
+      "content": "Firstly, you have to visit the Official Website: https://wbmcc.nic.in/"
+    },
+    {
+      "id": "step2",
+      "type": "heading",
+      "title": "Step 2: Click on New Candidate Registration",
+      "level": 3
+    },
+    {
+      "id": "step2-list",
+      "type": "list",
+      "items": [
+        "Enter all the relevant details which are exactly as printed on your NEET PG 2025 Admit Card, including Roll Number, Application Number, Name, Mother's Name, and Date of Birth, etc.",
+        "The email ID and mobile number will be required which is used during NEET PG registration, will be pre-filled. An OTP verification will be required on both.",
+        "Once it is verified by the official portal, then you have to create a strong password and click \"Submit & Next.\""
+      ]
+    },
+    {
+      "id": "security-guidelines",
+      "type": "paragraph",
+      "content": "Important Security Guidelines:"
+    },
+    {
+      "id": "security-list",
+      "type": "list",
+      "items": [
+        "Keep your password private so no one can change it regularly.",
+        "It is essential to avoid sharing your OTP or login details.",
+        "Always remember to log out after completing your session.",
+        "The website actively monitors user IPs for security compliance."
+      ]
+    },
+    {
+      "id": "step3",
+      "type": "heading",
+      "title": "Step 3: Fill the Application Form",
+      "level": 3
+    },
+    {
+      "id": "step3-intro",
+      "type": "paragraph",
+      "content": "Once your overall registration is complete, just log in to your dashboard and proceed with your \"Application Form,\" which is a key part of the NEET PG counselling application form process."
+    },
+    {
+      "id": "step3-sections",
+      "type": "paragraph",
+      "content": "You will need to fill in multiple sections:"
+    },
+    {
+      "id": "candidate-details",
+      "type": "heading",
+      "title": "Candidate Details",
+      "level": 4
+    },
+    {
+      "id": "candidate-details-list",
+      "type": "list",
+      "items": [
+        "In the candidate's registration part, first, just verify your pre-filled personal data, which includes Father's and Mother's names, which will auto-populate.",
+        "After that, you have to choose your domicile (West Bengal or Outside West Bengal).",
+        "Later on, just select your religion and category (General/OBC-A/OBC-B/SC/ST)."
+      ]
+    },
+    {
+      "id": "bank-details",
+      "type": "heading",
+      "title": "Bank Account Details",
+      "level": 4
+    },
+    {
+      "id": "bank-details-list",
+      "type": "list",
+      "items": [
+        "For official bank details, you need to provide your account information for potential fee refunds.",
+        "Then you have to enter Account Holder Name, your Account Number, IFSC Code, Bank Name, and Branch Name, etc details.",
+        "You just make sure that the details match your official bank records."
+      ]
+    },
+    {
+      "id": "other-details",
+      "type": "heading",
+      "title": "Candidate Other Details",
+      "level": 4
+    },
+    {
+      "id": "other-details-list",
+      "type": "list",
+      "items": [
+        "For the other details, just clearly declare your quota preferences, whether you are applying under the NRI/PIO/OCI quota.",
+        "If it's applicable, then you just have to mention the service category (WBHS, WBMES, WBPHAS, etc.).",
+        "Later on, just enter your overall experience or completion dates (e.g., Diploma, PG Degree, or Trainee Reserve completion)."
+      ]
+    },
+    {
+      "id": "step4",
+      "type": "heading",
+      "title": "Step 4: Fill Qualification Details",
+      "level": 3
+    },
+    {
+      "id": "step4-list",
+      "type": "list",
+      "items": [
+        "In qualification details, you should select MBBS Passing Status as \"Passed.\"",
+        "After that, you have to mention your Passing State, Year, and Registration Number (which is as per the Medical Council records).",
+        "This is for those candidates who have not completed a one-year internship by July 31, 2025, and are not eligible for counselling."
+      ]
+    },
+    {
+      "id": "step5",
+      "type": "heading",
+      "title": "Step 5: Internship Details",
+      "level": 3
+    },
+    {
+      "id": "step5-list",
+      "type": "list",
+      "items": [
+        "In the internship details section, choose \"Yes\" if your internship is completed.",
+        "Then, after that, you need to enter your Institute Name, Address, Internship Start Date, and Completion Date.",
+        "Candidates who are still pursuing an internship which is beyond July 31, 2025, will be directly disqualified."
+      ]
+    },
+    {
+      "id": "step6",
+      "type": "heading",
+      "title": "Step 6: Contact Details",
+      "level": 3
+    },
+    {
+      "id": "step6-intro",
+      "type": "paragraph",
+      "content": "For specific contact details, provide accurate correspondence and permanent addresses, including:"
+    },
+    {
+      "id": "step6-list",
+      "type": "list",
+      "items": [
+        "Which includes Village/Locality",
+        "City/Town",
+        "District",
+        "State and PIN code",
+        "Alternate contact number (optional)",
+        "After that, you may use that information in the Correspondence Address if both addresses are identical."
+      ]
+    },
+    {
+      "id": "step7",
+      "type": "heading",
+      "title": "Step 7: Upload Required Documents",
+      "level": 3
+    },
+    {
+      "id": "step7-content",
+      "type": "paragraph",
+      "content": "In the next step, you have to upload the following in JPG format (20–100 KB):"
+    },
+    {
+      "id": "step7-list",
+      "type": "list",
+      "items": [
+        "You have to share a clear image of the Cancelled Cheque/Bank Passbook/Online Bank Statement, which clearly shows all the account details.",
+        "While making sure the image is clear and all text is legible before uploading."
+      ]
+    },
+    {
+      "id": "step8",
+      "type": "heading",
+      "title": "Step 8: Preview and Final Submission",
+      "level": 3
+    },
+    {
+      "id": "step8-intro",
+      "type": "paragraph",
+      "content": "After completing all sections:"
+    },
+    {
+      "id": "step8-list",
+      "type": "list",
+      "items": [
+        "Review your every application field carefully in the Application Preview.",
+        "After that, verify your preferred bank details, category, and uploaded documents.",
+        "Then just tick the declaration confirming that all information provided is valid.",
+        "Click \"Save & Final Submit\" to complete your application.",
+        "Once the submission is made, there will be no further edits can be made, so double-check all details before finalizing."
+      ]
+    },
+    {
+      "id": "conclusion",
+      "type": "heading",
+      "title": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "conclusion-content",
+      "type": "paragraph",
+      "content": "The West Bengal NEET PG Counselling 2025 is your utmost gateway to securing your postgraduate seat in one of India's most well-respected medical institutions. By following those important steps above carefully and perfectly maintaining all types of attention to detail, candidates can ensure a smooth registration and verification process."
+    },
+    {
+      "id": "conclusion-reminder",
+      "type": "paragraph",
+      "content": "This is your responsibility to keep monitoring the official WBMCC website for all the latest updates on merit lists, seat matrix, and subsequent counselling rounds. A well-prepared and correctly filled application form is the first milestone toward your PG medical dream."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1: When is the registration deadline for West Bengal NEET PG 2025?",
+          "answer": "The registration deadline is on November 9, 2025, at 11 PM."
+        },
+        {
+          "question": "Q2: What is the eligibility for state quota seats?",
+          "answer": "For the eligibility quota seats, candidates must have completed their MBBS in West Bengal, or they must have a West Bengal residence. In-service candidates must meet government service and rural/remote area requirements."
+        },
+        {
+          "question": "Q3: What fee is required for registration?",
+          "answer": "The overall registration fee is ₹3,000, which would be non-refundable, payable online."
+        },
+        {
+          "question": "Q4: What documents are required for counselling?",
+          "answer": "The documents should be required are NEET PG scorecard, MBBS degree, internship completion certificate, residency proof, and category certificate (if applicable)."
+        },
+        {
+          "question": "Q5: How many rounds are conducted?",
+          "answer": "There will be three total rounds plus a stray vacancy round, as part of West Bengal NEET PG counselling 2025."
+        }
+      ]
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "west bengal neet pg counselling",
+        "neet pg counselling",
+        "west bengal neet pg 2025 counselling",
+        "west bengal neet pg counselling 2025",
+        "neet pg counselling round",
+        "neet pg counselling seat matrix",
+        "neet pg counselling choice filling",
+        "neet pg counselling seat allotment",
+        "neet pg counselling state quota",
+        "neet pg management quota counselling"
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    }
+  ]
 }
 
 ];
