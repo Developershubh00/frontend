@@ -863,6 +863,18 @@ const AnnouncementPage: React.FC = () => {
       source: 'ndtv',
       created_at: "2025-11-15T08:00:00Z"
     },
+    {
+      id: 71,
+      title: "NEET PG Counselling 2025:",
+      content:"The choice filling has been extended by 2-3 days in larger interest of candidates.",
+      date: "2025-11-19T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.ndtv.com/education/aiims-ini-cet-2025-exam-roll-number-wise-result-released-download-directly-here-9643761',
+      is_active: true,
+      source: 'ndtv',
+      created_at: "2025-11-19T08:00:00Z"
+    },
     
 
 
