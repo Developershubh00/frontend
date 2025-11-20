@@ -242,7 +242,7 @@ const NeetPGPage: React.FC = () => {
             Get expert guidance for NEET PG preparation and specialty selection
           </p>
           <a
-            href="https://forms.gle/HE2RyX5CLh7j9FzX9"
+            href=""
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gradient-to-r from-blue-400 to-red-400 px-6 py-3 lg:px-8 lg:py-4 rounded-xl text-white font-bold text-base lg:text-lg hover:from-blue-500 hover:to-red-500 transition-all duration-300 transform hover:scale-105 shadow-xl inline-block"
