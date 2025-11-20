@@ -15583,6 +15583,375 @@ export const blogPosts: BlogPost[] = [
       "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
     }
   ]
+},
+{
+  "id": 46,
+  "title": "Uttar Pradesh NEET PG Counselling 2025: Eligibility, Seats, Reservation, and Fee Details",
+  "slug": "uttar-pradesh-neet-pg-counselling-2025-eligibility-seats-reservation-fee",
+  "excerpt": "UP NEET PG 2025 guides aspirants with clear rules on eligibility, seat distribution, reservation and fees, helping students plan their medical careers confidently.",
+  "featured_image": "https://cdn.dribbble.com/userupload/45775327/file/ae3c4ab8ae380c180f1baa500b2f7d16.png?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-green-100 text-green-800"
+  },
+  "tags": [
+    "Uttar Pradesh NEET PG",
+    "NEET PG Counselling",
+    "State Quota",
+    "MD/MS Admissions",
+    "NEET PG 2025",
+    "DGME UP"
+  ],
+  "published_date": "2025-11-20",
+  "read_time": 14,
+  "meta_description": "UP NEET PG 2025 guides aspirants with clear rules on eligibility, seat distribution, reservation and fees, helping students plan their medical careers confidently.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "The Uttar Pradesh NEET PG Counselling 2025 will be conducted by the Directorate General of Medical Education (DGME), Uttar Pradesh. This is basically essential for admission to MD, MS, and PG Diploma courses across all the government and private medical colleges in the state."
+    },
+    {
+      "id": "intro-purpose",
+      "type": "paragraph",
+      "content": "So, if you're planning to apply for postgraduate medical seats in UP, here's a complete breakdown of that, which includes the eligibility criteria, seat distribution, reservation policy, important certificates that are required, and fee details. Here are some important things to know before registration, especially for those preparing for Uttar Pradesh NEET PG 2025 counselling."
+    },
+    {
+      "id": "seat-distribution",
+      "type": "heading",
+      "title": "Seat Distribution in Uttar Pradesh NEET PG Counselling",
+      "level": 2
+    },
+    {
+      "id": "seat-distribution-intro",
+      "type": "paragraph",
+      "content": "The process of seat distribution that covers both Government and Private medical colleges under the state quota. This is the same seat classification followed across major NEET PG counselling seat matrix systems."
+    },
+    {
+      "id": "seat-distribution-details",
+      "type": "paragraph",
+      "content": "Here's how the seats are divided:"
+    },
+    {
+      "id": "seat-distribution-list",
+      "type": "list",
+      "items": [
+        "Half of the seats (50%) of seats in Government Medical Colleges fall under the State Government Quota.",
+        "On the other hand, 100% of seats in Private Medical Colleges come under the State Counselling Quota.",
+        "There are no All India Quota seats that are specifically managed under this process; they are handled separately by MCC."
+      ]
+    },
+    {
+      "id": "neet-qualification",
+      "type": "heading",
+      "title": "NEET PG 2025 Qualification Percentile (Applicable for UP State)",
+      "level": 2
+    },
+    {
+      "id": "neet-qualification-intro",
+      "type": "paragraph",
+      "content": "If any candidate wants to participate in UP NEET PG counselling, then they should meet the minimum percentile cut-off, which is prescribed by NMC:"
+    },
+    {
+      "id": "neet-qualification-table",
+      "type": "table",
+      "headers": ["Category", "Minimum Qualifying Percentile"],
+      "rows": [
+        ["UR / EWS", "50th percentile"],
+        ["UR-PwD / EWS-PwD", "45th percentile"],
+        ["OBC / SC / ST", "40th percentile"]
+      ]
+    },
+    {
+      "id": "neet-qualification-note",
+      "type": "paragraph",
+      "content": "Note:"
+    },
+    {
+      "id": "neet-qualification-note-list",
+      "type": "list",
+      "items": [
+        "OBC candidates who are scoring between the 40th and 50th percentile may not be qualified for the All India Quota unless they are listed under the Central OBC-NCL list, but they don't have to worry because they may still be eligible under the UP State Quota.",
+        "All candidates from outside Uttar Pradesh are treated as the Unreserved (UR) category for seat allocation."
+      ]
+    },
+    {
+      "id": "ineligibility",
+      "type": "heading",
+      "title": "Ineligibility Criteria",
+      "level": 2
+    },
+    {
+      "id": "ineligibility-intro",
+      "type": "paragraph",
+      "content": "Certain candidates are not permitted to participate in UP NEET PG Counselling 2025:"
+    },
+    {
+      "id": "ineligibility-list",
+      "type": "list",
+      "items": [
+        "Those allotted seats in the Stray Vacancy Round of 2024 but did not join.",
+        "Candidates who discontinued a PG course in UP after joining in 2024.",
+        "Candidates currently pursuing or have failed a PG course elsewhere in India."
+      ]
+    },
+    {
+      "id": "eligibility-state-quota",
+      "type": "heading",
+      "title": "Eligibility for Uttar Pradesh State Government Quota Seats",
+      "level": 2
+    },
+    {
+      "id": "eligibility-state-quota-intro",
+      "type": "paragraph",
+      "content": "The eligibility for UP State Quota (which covers 50% Government seats and 100% Private seats) then the candidates must meet one of the following educational criteria that has been required:"
+    },
+    {
+      "id": "eligibility-categories",
+      "type": "heading",
+      "title": "Eligible Categories for UP State Quota:",
+      "level": 3
+    },
+    {
+      "id": "eligibility-categories-list",
+      "type": "list",
+      "items": [
+        "Category 1: In the very first category, the MBBS graduates from the Government Medical Colleges of Uttar Pradesh.",
+        "Category 2: MBBS graduates from Private Medical Colleges of Uttar Pradesh.",
+        "Category 3: MBBS graduates from State Private Universities of Uttar Pradesh (including Santosh University)."
+      ]
+    },
+    {
+      "id": "seat-split",
+      "type": "heading",
+      "title": "Seat Split in Uttar Pradesh",
+      "level": 2
+    },
+    {
+      "id": "seat-split-table",
+      "type": "table",
+      "headers": ["Type of Institution", "Category", "Eligibility", "Seat Share"],
+      "rows": [
+        ["Government Colleges", "The State Govt Seats", "They must be qualified with their MBBS from Uttar Pradesh*", "50%"],
+        ["Private Minority Colleges", "The Minority Quota", "Minority candidates (All India basis)", "50%"],
+        ["Private Colleges (Open Category)", "The Open Quota", "All India candidates", "100%"]
+      ]
+    },
+    {
+      "id": "reservation-policy",
+      "type": "heading",
+      "title": "Reservation Policy in Uttar Pradesh PG Counselling",
+      "level": 2
+    },
+    {
+      "id": "reservation-policy-intro",
+      "type": "paragraph",
+      "content": "The UP PG counselling process follows all the reservation patterns as per the State Government norms:"
+    },
+    {
+      "id": "reservation-policy-table",
+      "type": "table",
+      "headers": ["Category", "Reservation %"],
+      "rows": [
+        ["Unreserved / Open", "40%"],
+        ["EWS (Economically Weaker Section)", "10%"],
+        ["OBC", "27%"],
+        ["SC", "21%"],
+        ["ST", "2%"],
+        ["PwD (Horizontal Reservation)", "5%"]
+      ]
+    },
+    {
+      "id": "step-by-step",
+      "type": "heading",
+      "title": "Step-by-Step Process",
+      "level": 2
+    },
+    {
+      "id": "step-by-step-intro",
+      "type": "paragraph",
+      "content": "This step-by-step method aligns with the general procedural flow of NEET PG counselling round, including registration, fee payment, and NEET PG counselling choice filling."
+    },
+    {
+      "id": "step-by-step-list",
+      "type": "list",
+      "items": [
+        "Register using NEET PG Roll Number and a valid Email ID.",
+        "Pay the registration fee online.",
+        "Fill in details like domicile, category, sub-category, and in-service (PMHS) status.",
+        "Confirm and submit your registration form.",
+        "Download the registration slip for future reference.",
+        "Pay the refundable security fee (see below).",
+        "Save both receipts — registration slip and payment proof."
+      ]
+    },
+    {
+      "id": "application-fees",
+      "type": "heading",
+      "title": "Application Fees and Security Deposit",
+      "level": 2
+    },
+    {
+      "id": "application-fees-intro",
+      "type": "paragraph",
+      "content": "The following fee structure is part of the official NEET PG counselling registration fees and deposit norms:"
+    },
+    {
+      "id": "application-fees-table",
+      "type": "table",
+      "headers": ["Type", "Amount", "Description"],
+      "rows": [
+        ["Registration Fee", "₹3,000", "Mandatory for all candidates during Round 1 registration."],
+        ["Stray Vacancy Round Fee", "₹3,000", "If applicable (for candidates eligible for the stray round)."],
+        ["Security Deposit", "₹30,000", "For Government seats."],
+        ["Security Deposit", "₹2,00,000", "For opting for both Government + Private seats."]
+      ]
+    },
+    {
+      "id": "application-fees-note",
+      "type": "paragraph",
+      "content": "All payments can be made via Net Banking, Credit Card, or Debit Card only, so plan accordingly."
+    },
+    {
+      "id": "documents-required",
+      "type": "heading",
+      "title": "Documents Required at the Time of Admission",
+      "level": 2
+    },
+    {
+      "id": "documents-required-intro",
+      "type": "paragraph",
+      "content": "When reporting for admission under the Uttar Pradesh NEET PG 2025 Counselling, make sure that you carry all your original documents and a self-attested photocopy for the final verification."
+    },
+    {
+      "id": "documents-required-breakdown",
+      "type": "paragraph",
+      "content": "Here's a simple breakdown of what you'll need:"
+    },
+    {
+      "id": "documents-required-list",
+      "type": "list",
+      "items": [
+        "NEET PG Admit Card: You need to carry your original admit card along with one self-attested photocopy for verification.",
+        "NEET PG Scorecard: For the NEET PG scorecard, you need to carry the original scorecard, and a photocopy is required to confirm your qualifying marks.",
+        "Proof of Date of Birth: You have to submit your Class 10 (SSLC) certificate, as it serves as valid proof of birth date.",
+        "MBBS Degree or Provisional Certificate: Either the final MBBS degree or a provisional degree certificate issued by your university must be produced.",
+        "MBBS Mark Sheets (All Years): Carry mark sheets for every academic year of your MBBS course, originals and one photocopy each.",
+        "Internship Completion Certificate: Proof that you've completed your CRRI (internship) period is mandatory.",
+        "Permanent Registration Certificate: For the submission of a permanent registration certificate, you need to submit your registration certificate from the State Medical Council or the National Medical Commission (NMC).",
+        "Caste or EWS Certificate (if applicable): All the candidates who need to apply under SC, ST, OBC, or EWS categories must provide a valid community certificate. This is especially for OBC/EWS candidates, for whom the certificates issued on or after April 1, 2025, will be accepted.",
+        "PwD (Persons with Disability) Certificate (if applicable): Submit the official disability certificate issued only by government-recognized medical boards or authorized centers.",
+        "Allotment Letter: Print out your official allotment letter from the counselling portal and attach a self-attested copy with it."
+      ]
+    },
+    {
+      "id": "service-bond",
+      "type": "heading",
+      "title": "Service Bond and Penalty (Government Seats)",
+      "level": 2
+    },
+    {
+      "id": "service-bond-list",
+      "type": "list",
+      "items": [
+        "Bond Duration: 2 years of compulsory service.",
+        "Bond Amount: ₹40 lakhs penalty for discontinuation or non-completion.",
+        "In-service Candidates: 10-year bond or ₹2 crore penalty (for those under State Quota).",
+        "Course Discontinuation: No monetary penalty since 2024, but debarred for one academic year."
+      ]
+    },
+    {
+      "id": "stipend",
+      "type": "heading",
+      "title": "Stipend (Government Colleges)",
+      "level": 2
+    },
+    {
+      "id": "stipend-table",
+      "type": "table",
+      "headers": ["Year", "Approx. Stipend (₹ per annum)"],
+      "rows": [
+        ["1st Year", "₹1,09,955"],
+        ["2nd Year", "₹1,13,808"],
+        ["3rd Year", "₹1,16,970"]
+      ]
+    },
+    {
+      "id": "conclusion",
+      "type": "heading",
+      "title": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "conclusion-content",
+      "type": "paragraph",
+      "content": "The Uttar Pradesh NEET PG Counselling 2025 provides a fair, transparent, and merit-based admission pathway for postgraduate medical aspirants. With a clearly defined eligibility structure, reservation system, NEET PG counselling seat allotment process, and robust counselling mechanism, candidates from within and outside UP can plan their choices effectively. Always ensure that you meet eligibility conditions, hold the required documents, and stay updated through the official websites to avoid last-minute issues."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "Frequently Asked Questions (FAQs)",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1: What is the registration fee for UP NEET PG 2025?",
+          "answer": "The registration fee would be ₹3,000, mandatory for all candidates, especially in round 1. All the relevant payments are to be made online by Net Banking, Credit Card, or Debit Card only."
+        },
+        {
+          "question": "Q2: Who is eligible for UP State Quota seats?",
+          "answer": "All the MBBS graduates specific platforms of government or private colleges in Uttar Pradesh are highly eligible for UP State Quota seats. Although candidates who have completed their MBBS from outside UP are highly eligible for only private college seats."
+        },
+        {
+          "question": "Q3: What is the minimum NEET PG percentile for UR/EWS candidates in UP 2025?",
+          "answer": "The minimum NEET PG percentile for UR/EWS candidates in UP 2025 is 50% percentile."
+        },
+        {
+          "question": "Q4: What is the service bond for government PG seats in UP?",
+          "answer": "It should be for 10 years, where regular PG candidates must serve 2 years; there will be penalties for non-completion, which are of ₹40 lakh (regular) or ₹2 crore (in-service)."
+        },
+        {
+          "question": "Q5: What documents are required for counselling and admission?",
+          "answer": "The documents which are required for counselling are that you must carry your NEET PG admit card, scorecard, MBBS degree/certificate, MBBS mark sheets, internship completion certificate, registration certificate, and category/EWS/PwD certificate (if applicable), along with your allotment letter. These are all highly required."
+        }
+      ]
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "uttar pradesh neet pg counselling",
+        "neet pg counselling",
+        "uttar pradesh neet pg counselling 2025",
+        "uttar pradesh neet pg 2025 counselling",
+        "neet pg counselling registration fees",
+        "neet pg counselling rules",
+        "neet pg counselling seat matrix",
+        "neet pg counselling choice filling",
+        "neet pg counselling application form",
+        "neet pg counselling payment",
+        "neet pg counselling seat allotment",
+        "neet pg counselling state quota",
+        "neet pg counselling round"
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "For more queries, submit your questions here:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    }
+  ]
 }
 
 ];
