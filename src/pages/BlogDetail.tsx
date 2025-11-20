@@ -1721,46 +1721,86 @@ const BlogDetail: React.FC = () => {
           </ul>
         );
 
+      // case 'table':
+      //   return (
+      //     <div className="mb-8 overflow-x-auto">
+      //       <div className="inline-block min-w-full align-middle">
+      //         <div className="overflow-hidden border border-gray-300 rounded-lg shadow-sm">
+      //           <table className="min-w-full divide-y divide-gray-300">
+      //             <thead className="bg-gradient-to-r from-blue-500 to-indigo-600">
+      //               <tr>
+      //                 {section.table?.headers.map((header, idx) => (
+      //                   <th
+      //                     key={idx}
+      //                     className="px-6 py-4 text-left text-sm font-semibold text-white uppercase tracking-wider"
+      //                   >
+      //                     {header}
+      //                   </th>
+      //                 ))}
+      //               </tr>
+      //             </thead>
+      //             <tbody className="bg-white divide-y divide-gray-200">
+      //               {section.table?.rows.map((row, rowIdx) => (
+      //                 <tr
+      //                   key={rowIdx}
+      //                   className={rowIdx % 2 === 0 ? 'bg-white' : 'bg-gray-50'}
+      //                 >
+      //                   {row.map((cell, cellIdx) => (
+      //                     <td
+      //                       key={cellIdx}
+      //                       className="px-6 py-4 text-sm text-gray-700 whitespace-pre-line"
+      //                     >
+      //                       {highlightKeywords(cell, keywords)}
+      //                     </td>
+      //                   ))}
+      //                 </tr>
+      //               ))}
+      //             </tbody>
+      //           </table>
+      //         </div>
+      //       </div>
+      //     </div>
+      //   );
       case 'table':
-        return (
-          <div className="mb-8 overflow-x-auto">
-            <div className="inline-block min-w-full align-middle">
-              <div className="overflow-hidden border border-gray-300 rounded-lg shadow-sm">
-                <table className="min-w-full divide-y divide-gray-300">
-                  <thead className="bg-gradient-to-r from-blue-500 to-indigo-600">
-                    <tr>
-                      {section.table?.headers.map((header, idx) => (
-                        <th
-                          key={idx}
-                          className="px-6 py-4 text-left text-sm font-semibold text-white uppercase tracking-wider"
-                        >
-                          {header}
-                        </th>
-                      ))}
-                    </tr>
-                  </thead>
-                  <tbody className="bg-white divide-y divide-gray-200">
-                    {section.table?.rows.map((row, rowIdx) => (
-                      <tr
-                        key={rowIdx}
-                        className={rowIdx % 2 === 0 ? 'bg-white' : 'bg-gray-50'}
-                      >
-                        {row.map((cell, cellIdx) => (
-                          <td
-                            key={cellIdx}
-                            className="px-6 py-4 text-sm text-gray-700 whitespace-pre-line"
-                          >
-                            {highlightKeywords(cell, keywords)}
-                          </td>
-                        ))}
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
-        );
+  return (
+    <div className="mb-8 overflow-x-auto">
+      <div className="inline-block min-w-full align-middle">
+        <div className="overflow-hidden border border-gray-300 rounded-lg shadow-sm">
+          <table className="min-w-full divide-y divide-gray-300">
+            <thead className="bg-gradient-to-r from-blue-500 to-indigo-600">
+              <tr>
+                {section.headers?.map((header, idx) => (
+                  <th
+                    key={idx}
+                    className="px-6 py-4 text-left text-sm font-semibold text-white uppercase tracking-wider"
+                  >
+                    {highlightKeywords(header, keywords)}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody className="bg-white divide-y divide-gray-200">
+              {section.rows?.map((row, rowIdx) => (
+                <tr
+                  key={rowIdx}
+                  className={rowIdx % 2 === 0 ? 'bg-white' : 'bg-gray-50'}
+                >
+                  {row.map((cell, cellIdx) => (
+                    <td
+                      key={cellIdx}
+                      className="px-6 py-4 text-sm text-gray-700 whitespace-pre-line"
+                    >
+                      {highlightKeywords(cell, keywords)}
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  );
 
       case 'info-box': {
         const boxColors = {
