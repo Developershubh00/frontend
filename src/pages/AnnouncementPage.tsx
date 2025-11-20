@@ -875,6 +875,18 @@ const AnnouncementPage: React.FC = () => {
       source: 'ndtv',
       created_at: "2025-11-19T08:00:00Z"
     },
+    {
+      id: 71,
+      title: "NEET PG Counselling 2025:",
+      content:"NEET PG Counselling 2025 Revised: 239 New Deemed University Seats Added, 235 DNB Seats Withdrawn – Choice Filling Extended Till November 21",
+      date: "2025-11-19T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/11/202511191286629593.pdf',
+      is_active: true,
+      source: 'ndtv',
+      created_at: "2025-11-19T08:00:00Z"
+    },
     
 
 
