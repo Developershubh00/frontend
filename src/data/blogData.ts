@@ -15952,7 +15952,7 @@ export const blogPosts: BlogPost[] = [
   "title": "West Bengal NEET PG Counselling 2025: Eligibility, Seat Matrix, Documents & Fee Details",
   "slug": "west-bengal-neet-pg-counselling-2025-eligibility-seat-matrix-documents-fee",
   "excerpt": "Get a quick overview of eligibility rules, seat availability, required documents and fee structure to smoothly navigate the West Bengal NEET PG 2025 counselling process",
-  "featured_image": "https://cdn.dribbble.com/userupload/45775327/file/ae3c4ab8ae380c180f1baa500b2f7d16.png?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/45788187/file/a1ecb5a0e3cd0b687be802fefcdef71e.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
     "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
