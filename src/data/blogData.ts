@@ -15945,6 +15945,509 @@ export const blogPosts: BlogPost[] = [
       "content": "For more queries, submit your questions here:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
     }
   ]
+},
+
+{
+  "id": 47,
+  "title": "West Bengal NEET PG Counselling 2025: Eligibility, Seat Matrix, Documents & Fee Details",
+  "slug": "west-bengal-neet-pg-counselling-2025-eligibility-seat-matrix-documents-fee",
+  "excerpt": "Get a quick overview of eligibility rules, seat availability, required documents and fee structure to smoothly navigate the West Bengal NEET PG 2025 counselling process",
+  "featured_image": "https://cdn.dribbble.com/userupload/45775327/file/ae3c4ab8ae380c180f1baa500b2f7d16.png?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-green-100 text-green-800"
+  },
+  "tags": [
+    "West Bengal NEET PG",
+    "NEET PG Counselling",
+    "State Quota",
+    "MD/MS Admissions",
+    "NEET PG 2025",
+    "WBMCC"
+  ],
+  "published_date": "2025-11-21",
+  "read_time": 16,
+  "meta_description": "Get a quick overview of eligibility rules, seat availability, required documents and fee structure to smoothly navigate the West Bengal NEET PG 2025 counselling process",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "The West Bengal NEET PG Counselling 2025 is conducted by the West Bengal Medical Counselling Committee (WBMCC) for admission to MD/MS/PG Diploma courses in both Government and Private Medical Colleges across the state. This blog provides a complete overview of the seat distribution, eligibility criteria, reservation policy, NRI quota rules, application steps, required documents, domicile formats, and bond details, simplified and well-organized for your reference."
+    },
+    {
+      "id": "seat-distribution",
+      "type": "heading",
+      "title": "1. Seat Distribution in West Bengal NEET PG 2025",
+      "level": 2
+    },
+    {
+      "id": "seat-distribution-list",
+      "type": "list",
+      "items": [
+        "In government medical colleges where only 50% of seats fall under the State Government Quota, the applicable state quota counselling is conducted.",
+        "All seats in private medical colleges are filled through West Bengal NEET PG counselling, with about 50% of these surrendered to the State Government Quota",
+        "Out of these, around 50% of seats in private institutes are surrendered to the State Government Quota."
+      ]
+    },
+    {
+      "id": "qualifying-percentile",
+      "type": "heading",
+      "title": "2. NEET PG 2025 Qualifying Percentile",
+      "level": 2
+    },
+    {
+      "id": "qualifying-table",
+      "type": "table",
+      "headers": ["Category", "Minimum Qualifying Percentile"],
+      "rows": [
+        ["UR / EWS", "50th Percentile"],
+        ["UR-PwD", "45th Percentile"],
+        ["OBC / OBC-A / OBC-B / SC / ST", "40th Percentile"]
+      ]
+    },
+    {
+      "id": "qualifying-note",
+      "type": "info-box",
+      "boxType": "info",
+      "content": "Note:\nOBC-A and OBC-B candidates who are scoring ranks in between 40th–50th percentiles may not qualify for AIQ counselling until and unless they are listed under the Central OBC list or Non-Creamy Layer, but they remain eligible for State Quota seats."
+    },
+    {
+      "id": "eligibility-criteria",
+      "type": "heading",
+      "title": "3. Eligibility Criteria",
+      "level": 2
+    },
+    {
+      "id": "govt-quota-seats",
+      "type": "heading",
+      "title": "A. Government Quota Seats",
+      "level": 3
+    },
+    {
+      "id": "govt-quota-intro",
+      "type": "paragraph",
+      "content": "Candidates must fulfill any one of the following:"
+    },
+    {
+      "id": "govt-quota-list",
+      "type": "list",
+      "items": [
+        "MBBS from West Bengal – A Candidate who has passed their MBBS exam from a medical college in West Bengal.",
+        "Permanent Residence in West Bengal – West Bengal must have been mentioned as their permanent address by all the fellow candidates.",
+        "In-Service Candidates – They must have completed 3 years of regular service, which includes at least 3 years in rural/remote/difficult areas. Eligible only for In-Service Quota Seats.",
+        "Other Service Candidates – Regular service employees of the West Bengal Government, Government of India, or Semi-Govt. Organizations. Eligible only under the Open Category."
+      ]
+    },
+    {
+      "id": "management-quota-seats",
+      "type": "heading",
+      "title": "B. Management Quota Seats",
+      "level": 3
+    },
+    {
+      "id": "management-quota-list",
+      "type": "list",
+      "items": [
+        "All candidates across India are eligible to apply.",
+        "OCI candidates who wish to apply as Indian nationals should not opt for the NRI Quota."
+      ]
+    },
+    {
+      "id": "ineligible-candidates",
+      "type": "heading",
+      "title": "C. Ineligible Candidates",
+      "level": 3
+    },
+    {
+      "id": "ineligible-list",
+      "type": "list",
+      "items": [
+        "Candidates pursuing another PG course that ends after the prescribed admission date.",
+        "In-service candidates who have already completed or are pursuing a PG degree."
+      ]
+    },
+    {
+      "id": "seat-split",
+      "type": "heading",
+      "title": "4. Seat Split Overview",
+      "level": 2
+    },
+    {
+      "id": "seat-split-table",
+      "type": "table",
+      "headers": ["Quota", "Eligibility", "Govt. Institutes", "Private Institutes"],
+      "rows": [
+        ["State Govt. Quota", "MBBS from WB / Permanent Resident of WB", "50%", "50%"],
+        ["Management Quota", "All India Candidates", "—", "50% (max 15% NRI)"],
+        ["NRI Quota", "NRI or sponsored by NRI", "—", "15% (maximum)"]
+      ]
+    },
+    {
+      "id": "additional-govt-quota",
+      "type": "paragraph",
+      "content": "Additional Government Quota Seats Available At:"
+    },
+    {
+      "id": "additional-govt-list",
+      "type": "list",
+      "items": [
+        "Command Hospital, Kolkata (No in-service reservation)",
+        "AIIPMR, Kolkata",
+        "ESI Medical College, Joka",
+        "Central Reservation (OBC, SC, ST, EWS) applies to these institutions."
+      ]
+    },
+    {
+      "id": "nri-quota",
+      "type": "heading",
+      "title": "5. NRI Quota Rules",
+      "level": 2
+    },
+    {
+      "id": "nri-eligibility",
+      "type": "heading",
+      "title": "Eligibility",
+      "level": 3
+    },
+    {
+      "id": "nri-eligibility-intro",
+      "type": "paragraph",
+      "content": "The candidate should be an NRI or have an NRI sponsor as per WP 689/2017 norms."
+    },
+    {
+      "id": "nri-sponsor-relationships",
+      "type": "paragraph",
+      "content": "Acceptable Sponsor Relationships (as per Supreme Court ruling):"
+    },
+    {
+      "id": "nri-sponsor-list",
+      "type": "list",
+      "items": [
+        "Father / Mother / Real Brother / Real Sister",
+        "Paternal or Maternal Uncle / Aunt",
+        "Grandparents (both sides)",
+        "First-degree paternal or maternal cousins"
+      ]
+    },
+    {
+      "id": "nri-note",
+      "type": "info-box",
+      "boxType": "info",
+      "content": "Note:\nNRI candidates cannot apply for State or Private Management seats simultaneously.\n\nPIO/OCI candidates may apply under the NRI Quota.\n\nFor 2025, no physical document verification will be required before choice filling for NRI candidates."
+    },
+    {
+      "id": "nri-documents",
+      "type": "heading",
+      "title": "Documents Required for NRI Quota",
+      "level": 3
+    },
+    {
+      "id": "nri-documents-list",
+      "type": "list",
+      "items": [
+        "NEET PG Admit Card & Score Card",
+        "Valid Passport of the candidate/sponsor",
+        "Visa / Residence / Work Permit",
+        "OCI/PIO Card (if applicable)",
+        "Proof of NRI status (issued by Embassy/Consulate)",
+        "Certificate of Relationship (from competent revenue authority via Family Tree)",
+        "Affidavit (Notarized) by NRI sponsor declaring full financial responsibility + NRE Bank Statement",
+        "10th & 12th Marksheets & Certificates",
+        "Birth Certificate"
+      ]
+    },
+    {
+      "id": "reservation",
+      "type": "heading",
+      "title": "6. Reservation in Government Quota Seats",
+      "level": 2
+    },
+    {
+      "id": "reservation-table",
+      "type": "table",
+      "headers": ["Category", "Reservation (%)"],
+      "rows": [
+        ["Unreserved / Open", "45%"],
+        ["OBC-A", "10%"],
+        ["OBC-B", "7%"],
+        ["SC", "22%"],
+        ["ST", "6%"],
+        ["FWS (Financially Weaker Section)", "10%"]
+      ]
+    },
+    {
+      "id": "reservation-notes",
+      "type": "heading",
+      "title": "Additional Notes:",
+      "level": 3
+    },
+    {
+      "id": "reservation-notes-list",
+      "type": "list",
+      "items": [
+        "EWS Reservation is not applicable for In-Service Seats.",
+        "PwD Reservation: 5% horizontally across all categories (certified at IPGMER, Kolkata).",
+        "The reservation applies only to West Bengal residents.",
+        "Candidates from other states claiming SC/ST/OBC/EWS will be considered Unreserved under the State Quota."
+      ]
+    },
+    {
+      "id": "in-service",
+      "type": "heading",
+      "title": "7. In-Service Reservation & Incentives",
+      "level": 2
+    },
+    {
+      "id": "in-service-list",
+      "type": "list",
+      "items": [
+        "40% of Degree and 50% of Diploma seats under State Quota are reserved for in-service candidates (WBHS, WBMES, WBPHAS, or DoHFW, WB).",
+        "Must have completed 3 years of regular service and served 3 years in rural/remote/difficult areas.",
+        "COVID-19 service is considered equivalent to service in difficult areas.",
+        "Age limit: below 50 years as on 31st March 2025.",
+        "Document verification for in-service candidates is done at Swasthya Bhavan, Kolkata."
+      ]
+    },
+    {
+      "id": "application-process",
+      "type": "heading",
+      "title": "8. Application Process",
+      "level": 2
+    },
+    {
+      "id": "application-website",
+      "type": "paragraph",
+      "content": "Official Website: https://wbmcc.nic.in"
+    },
+    {
+      "id": "steps-to-apply",
+      "type": "heading",
+      "title": "Steps to Apply",
+      "level": 3
+    },
+    {
+      "id": "steps-list",
+      "type": "list",
+      "items": [
+        "The step for online registration is to use the Roll No. & Date of Birth",
+        "Then you have to enter relevant details, which include the Category, Service, and Residence",
+        "On the other hand, you have to match the MBBS state/residence details with the NBE records",
+        "Later on, you have to select your reservation category (OBC/SC/ST/EWS as per state norms)",
+        "Then you have to upload your Cancelled Cheque / Bank Passbook / Online Bank Statement for refund purposes.",
+        "To generate your Candidate profile letter, you must pay the registration fee.",
+        "You just have to attend the document verification (at Swasthya Bhavan for in-service)",
+        "Verified list publication & discrepancy resolution via helpline",
+        "Choice filling & locking (NEET PG counselling choice filling)",
+        "At last, the Seat allotment result announcement (NEET PG counselling seat allotment)"
+      ]
+    },
+    {
+      "id": "documents-required",
+      "type": "heading",
+      "title": "9. Documents Required for Verification PG Rank Card",
+      "level": 2
+    },
+    {
+      "id": "documents-list",
+      "type": "list",
+      "items": [
+        "Your NEET PG Admit Card",
+        "Official verified Aadhaar / EPIC / Passport (any 2 you have to carry)",
+        "Proof of certificate of your date of Birth, plus you need to carry (10th Certificate/Admit Card)",
+        "Your residency proof (for non-WB MBBS candidates)",
+        "Your official MBBS Degree and Provisional Certificate",
+        "Your certificate of Internship Completion",
+        "Registration Certificate, either it will be (MCI/SMC)",
+        "Your Caste Certificate, if it's applicable.",
+        "Non-Creamy Layer/EWS Certificate, which has been issued after 1st April 2025.",
+        "Service ID/NOC: This is officially for in-service candidates",
+        "Your verified PwD Certificate (IPGMER, Kolkata)",
+        "Candidate Profile Letter, and the Payment Proof is required",
+        "Notarized Bond (₹50 Stamp Paper)",
+        "Other Service & In-Service Documents (as per the official notification)"
+      ]
+    },
+    {
+      "id": "domicile-certificate",
+      "type": "heading",
+      "title": "10. Domicile Certificate Formats",
+      "level": 2
+    },
+    {
+      "id": "proforma-a1-b",
+      "type": "heading",
+      "title": "Proforma A1 / B",
+      "level": 3
+    },
+    {
+      "id": "proforma-a1-intro",
+      "type": "paragraph",
+      "content": "Must be signed by one of the following:"
+    },
+    {
+      "id": "proforma-a1-list",
+      "type": "list",
+      "items": [
+        "District/Additional/Sub-Divisional Magistrate or Collector",
+        "Police Commissioner / Superintendent / Deputy Commissioner",
+        "Judicial Magistrate (any rank)",
+        "Assistant Secretary or above in West Bengal/Central Government",
+        "Deputy Director or above in a Directorate"
+      ]
+    },
+    {
+      "id": "proforma-a2",
+      "type": "heading",
+      "title": "Proforma A2",
+      "level": 3
+    },
+    {
+      "id": "proforma-a2-content",
+      "type": "paragraph",
+      "content": "Must be signed by the Head of the Institution from which the candidate passed 10+2."
+    },
+    {
+      "id": "fee-structure",
+      "type": "heading",
+      "title": "11. Fee Structure",
+      "level": 2
+    },
+    {
+      "id": "fee-table",
+      "type": "table",
+      "headers": ["Fee Type", "Amount", "Remarks"],
+      "rows": [
+        ["Registration Fee", "₹3000", "Non-refundable"],
+        ["Tuition Fee (Govt Colleges)", "₹12,000 per annum", "+ ₹6,000 admission fee for 1st year"],
+        ["Private College Fee", "As per the institute", ""],
+        ["Seat Leaving Penalty", "₹5,00,000", ""],
+        ["Course Discontinuation (Degree/Diploma)", "₹5L / ₹2L respectively", ""],
+        ["ESIC, Joka", "₹2.5L per annum", ""]
+      ]
+    },
+    {
+      "id": "service-bond",
+      "type": "heading",
+      "title": "12. Service Bond & Penalty Details",
+      "level": 2
+    },
+    {
+      "id": "bond-table",
+      "type": "table",
+      "headers": ["Course", "Bond Duration", "Penalty Amount"],
+      "rows": [
+        ["Degree", "3 years", "The penalty you have to pay ₹30 lakhs (₹10L per defaulting year)"],
+        ["Diploma", "2 years", "For diploma it will be ₹20 lakhs (₹10L per defaulting year)"]
+      ]
+    },
+    {
+      "id": "resignation-penalty",
+      "type": "paragraph",
+      "content": "If resigned after the prescribed timeline:"
+    },
+    {
+      "id": "resignation-list",
+      "type": "list",
+      "items": [
+        "The official Degree: ₹5 lakhs",
+        "Diploma: ₹2 lakhs",
+        "ESIC, Joka: ₹10 lakhs + full course fee"
+      ]
+    },
+    {
+      "id": "stipend",
+      "type": "heading",
+      "title": "Stipend Structure (Approx.):",
+      "level": 3
+    },
+    {
+      "id": "stipend-list",
+      "type": "list",
+      "items": [
+        "1st Year – ₹61,634/month",
+        "2nd Year – ₹65,606/month",
+        "3rd Year – ₹69,578/month",
+        "ESIC Joka: ₹1,00,980/month"
+      ]
+    },
+    {
+      "id": "conclusion",
+      "type": "heading",
+      "title": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "conclusion-content",
+      "type": "paragraph",
+      "content": "The West Bengal NEET PG Counselling 2025 is basically designed to be transparent, which ensures fair opportunities, which is valid for both state quota counselling, management quota counselling, and the NRI quota system. Although it starts from the eligibility verification to final allotment, understanding each criterion perfectly, especially for State Quota, Management Quota, and NRI seats, is essential. While Candidates are advised to keep all documents ready, follow official updates on wbmcc.nic.in, and review service bond obligations before confirming admission."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "Frequently Asked Questions (FAQs)",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1: Who is eligible for West Bengal NEET PG Counselling 2025?",
+          "answer": "Candidates should have to qualify for NEET PG 2025 and either be MBBS graduates or permanent residents of West Bengal, while in-service candidates need 3 years of service, including rural postings."
+        },
+        {
+          "question": "Q2: Can candidates from other states apply for West Bengal NEET PG counselling?",
+          "answer": "Yes, they can apply for private and AIQ seats, but state quota seats require WB residency or MBBS from a West Bengal college."
+        },
+        {
+          "question": "Q3: How many rounds of counselling are conducted for West Bengal NEET PG 2025?",
+          "answer": "There are four rounds: Round 1, Round 2, Mop-Up Round, and Stray Vacancy Round."
+        },
+        {
+          "question": "Q4: What documents are required for document verification in West Bengal NEET PG counselling?",
+          "answer": "NEET PG rank/admit card, MBBS degree, internship and registration certificates, caste/EWS/NCL certificates, and domicile proof (if applicable)."
+        },
+        {
+          "question": "Q5: What happens if I don't get a seat in Round 1 of counselling?",
+          "answer": "You can participate in Round 2, Mop-Up, and Stray Vacancy rounds if eligible and seats are available."
+        }
+      ]
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "State Quota Counselling",
+        "West Bengal NEET PG Counselling",
+        "NEET PG Counselling",
+        "Management Quota Counselling",
+        "West Bengal NEET PG Counselling 2025",
+        "West Bengal NEET PG 2025 Counselling",
+        "NEET PG Counselling Seat Matrix",
+        "NEET PG Counselling Choice Filling",
+        "NEET PG Counselling Seat Allotment",
+        "NEET PG Counselling NRI Quota",
+        "NEET PG Counselling Rounds",
+        "NEET PG Counselling Rules",
+        "NEET PG Counselling Application Form",
+        "NEET PG Counselling State Quota",
+        "NEET PG Management Quota Counselling"
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "For more queries, submit your questions here:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    }
+  ]
 }
 
 ];
