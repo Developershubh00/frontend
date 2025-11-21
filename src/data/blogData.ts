@@ -7590,7 +7590,7 @@ export const blogPosts: BlogPost[] = [
   },
   "category": {
     "name": "Career Guidance",
-    "slug": "counselling",
+    "slug": "career-guidance",
     "color": "bg-blue-100 text-blue-800"
   },
   "tags": ["Medical Career", "Branch Selection", "NEET Counselling", "Medical Students", "Career Advice"],
@@ -8083,8 +8083,8 @@ export const blogPosts: BlogPost[] = [
     "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
   "category": {
-    "name": "NEET Counselling",
-    "slug": "neet-counselling",
+    "name": "Counselling",
+    "slug": "counselling",
     "color": "bg-green-100 text-green-800"
   },
   "tags": ["CEE Kerala", "NEET PG 2025", "Kerala Counselling", "Medical Admissions", "NRI Quota", "State Quota"],
