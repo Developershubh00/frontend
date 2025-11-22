@@ -144,6 +144,28 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
         window.location.href = "/";
       },
     },
+    {
+      title: "Provisional NEET-PG",
+      subtitle: "Provisional NEET-PG Round-1 Seats Allotments",
+      icon: Award,
+      color: "bg-purple-600",
+      navLink: "/data/provisionalneetpg.pdf",
+      onClick: () => {
+            const win = window.open("/data/provisionalneetpg.pdf", "Provisional NEET-PG Round-1");
+            if (win) win.focus();
+          },
+    },
+    // {
+    //       id: "universities",
+    //       icon: GraduationCap,
+    //       label: "Provisional NEET-PG ",
+    //       hasSubmenu: false,
+    //       color: "text-cyan-600",
+    //       onClick: () => {
+    //         const win = window.open("/data/provisionalneetpg.pdf", "Provisional NEET-PG Round-1");
+    //         if (win) win.focus();
+    //       },
+    //     },
   ];
 
   // Quick action cards for main dashboard features - PG Centric
@@ -198,6 +220,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
     { label: "Appeared", value: "3,33,333", year: "2024" },
     { label: "Qualified", value: "2,15,768", year: "2024" },
   ];
+  
 
   // Timeline steps for Counselling process
   const timelineSteps = dashboardData?.timeline || [
@@ -509,6 +532,17 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
             className="text-blue-500 font-weight: 900; hover:text-blue-900 underline font-medium text-sm lg:text-base transition-colors duration-200"
           >
              Number of Seats Available as on 31.03.2025 in PG Medical Course (Broad/Super Speciality) in various Medical Colleges/Institution for the A.Y. 2024-25
+          </a>
+        </div>
+        <div className="text-center mb-6 lg:mb-8">
+
+          <a
+            href="/data/provisionalneetpg.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 font-weight: 900; hover:text-blue-900 underline font-medium text-sm lg:text-base transition-colors duration-200"
+          >
+             Provisional NEET-PG  Counselling Seats Allotment -2025 Round- 1
           </a>
         </div>
 
