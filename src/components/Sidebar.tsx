@@ -166,7 +166,7 @@ const Sidebar: React.FC<SidebarProps> = ({
     {
       id: "universities",
       icon: GraduationCap,
-      label: "Provisional NEET-PG Round-1",
+      label: "Provisional NEET-PG ",
       hasSubmenu: false,
       color: "text-cyan-600",
       onClick: () => {
