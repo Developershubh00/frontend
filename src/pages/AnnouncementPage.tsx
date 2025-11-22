@@ -872,22 +872,45 @@ const AnnouncementPage: React.FC = () => {
       category: 'NEET PG',
       link: 'https://mcc.nic.in/pg-medical-counselling',
       is_active: true,
-      source: 'ndtv',
+      source: 'mcc.nic.in',
       created_at: "2025-11-19T08:00:00Z"
     },
     {
-      id: 71,
+      id: 72,
       title: "NEET PG Counselling 2025:",
-      content:"NEET PG Counselling 2025 Revised: 239 New Deemed University Seats Added, 235 DNB Seats Withdrawn – Choice Filling Extended Till November 21",
-      date: "2025-11-19T08:00:00Z",
+      content:"MCC Round 1 Choice Locking Begins Today at 5 PM; Locking Window Open Till Tomorrow Noon",
+      date: "2025-11-12T08:00:00Z",
       priority: 'high',
       category: 'NEET PG',
-      link: 'https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/11/202511191286629593.pdf',
+      link: 'https://mcc.nic.in/',
       is_active: true,
-      source: 'ndtv',
-      created_at: "2025-11-19T08:00:00Z"
+      source: 'mcc.nic.in',
+      created_at: "2025-11-20T08:00:00Z"
     },
-    
+    {
+      id: 73,
+      title: "NEET PG Counselling 2025:",
+      content:"NEET PG Counselling 2025: Round 1 Provisional Results Announced, Round 2 Schedule Released",
+      date: "2025-11-21T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.indiatoday.in/education-today/news/story/neet-pg-counselling-2025-round-1-provisional-result-out-round-2-schedule-here-2824182-2025-11-22',
+      is_active: true,
+      source: 'mcc.nic.in',
+      created_at: "2025-11-21T08:00:00Z"
+    },
+    {
+      id: 74,
+      title: "NEET PG Counselling 2025:",
+      content:"NEET PG Counselling 2025 Round 1 Seat Allotment PDF Available, MCC Announces Reporting and Round 2 Schedule",
+      date: "2025-11-22T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://mcc.nic.in/pg-medical-counselling/',
+      is_active: true,
+      source: 'mcc.nic.in',
+      created_at: "2025-11-22T08:00:00Z"
+    },
 
 
 
