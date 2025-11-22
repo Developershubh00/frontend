@@ -16448,6 +16448,473 @@ export const blogPosts: BlogPost[] = [
       "content": "For more queries, submit your questions here:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
     }
   ]
+},
+{
+  "id": 48,
+  "title": "Uttar Pradesh NEET PG Counselling 2025: Complete Guide to Registration, Rounds, and Rules",
+  "slug": "uttar-pradesh-neet-pg-counselling-2025-complete-guide-registration-rounds-rules",
+  "excerpt": "Understand the full UP NEET PG 2025 counselling flow with clear steps on registration, rounds, rules and seat process for smooth admission planning.",
+  "featured_image": "https://cdn.dribbble.com/userupload/45798182/file/22e0d7b22c9ecd055da456986e2cf5da.jpeg?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-green-100 text-green-800"
+  },
+  "tags": [
+    "Uttar Pradesh NEET PG",
+    "NEET PG Counselling",
+    "State Counselling",
+    "MD/MS Admissions",
+    "NEET PG 2025",
+    "UPDGME"
+  ],
+  "published_date": "2025-11-22",
+  "read_time": 18,
+  "meta_description": "Understand the full UP NEET PG 2025 counselling flow with clear steps on registration, rounds, rules and seat process for smooth admission planning.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "The Uttar Pradesh NEET PG 2025 counselling is officially known for its clear and well-defined process, one of the most structured and rule-driven systems in India for MD, MS, and PG Diploma seat allocation. As it is basically managed by the UPDGME (Directorate of Medical Education and Training, Uttar Pradesh), this process includes multiple rounds, and each one of them comes with unique rules on registration, eligibility, and fee payments. So let's go step-by-step through the details to understand how the process unfolds."
+    },
+    {
+      "id": "fresh-registration",
+      "type": "heading",
+      "title": "Fresh Registration Rules",
+      "level": 2
+    },
+    {
+      "id": "fresh-registration-intro",
+      "type": "paragraph",
+      "content": "Registration is the first and most crucial stage of counselling. Here's how it works round-wise:"
+    },
+    {
+      "id": "fresh-registration-list",
+      "type": "list",
+      "items": [
+        "Round 1: Fresh registration is mandatory and open to all eligible candidates.",
+        "Round 2: No new registrations are allowed for this round.",
+        "Round 3: In 2024, registration was reopened when the NEET PG cut-off was reduced. However, for 2025, there's no official confirmation yet.",
+        "Stray Vacancy Round (Round 4): New registrations are not permitted.",
+        "Special Stray Round (Round 5, if announced): This was introduced in 2024 due to further cut-off reduction, but again, confirmation for 2025 is awaited."
+      ]
+    },
+    {
+      "id": "revised-cutoff",
+      "type": "heading",
+      "title": "Revised Cut-Off and Fresh Applications",
+      "level": 3
+    },
+    {
+      "id": "revised-cutoff-content",
+      "type": "paragraph",
+      "content": "If the NEET PG cut-off is revised, then UPDGME will reopen the registration window for fresh candidates before Round 3 and the Special Stray Round, but once you have registered everything you can't change your category or Quota. Although all the aspirants are advised to add all relevant quotas during Round 1 itself, as later modifications are not allowed."
+    },
+    {
+      "id": "registration-fee",
+      "type": "heading",
+      "title": "Registration Fee & Security Deposit",
+      "level": 2
+    },
+    {
+      "id": "registration-fee-intro",
+      "type": "paragraph",
+      "content": "The UP counselling process involves two types of payments: a non-refundable registration fee and a refundable security deposit."
+    },
+    {
+      "id": "registration-fee-amount",
+      "type": "heading",
+      "title": "Registration Fee",
+      "level": 3
+    },
+    {
+      "id": "registration-fee-list",
+      "type": "list",
+      "items": [
+        "₹3,000 for Round 1, Round 2, and Round 3 — paid once during the first registration.",
+        "₹3,000 again for Stray Vacancy Round (Round 4) — if you wish to participate."
+      ]
+    },
+    {
+      "id": "security-deposit",
+      "type": "heading",
+      "title": "Security Deposit",
+      "level": 3
+    },
+    {
+      "id": "security-deposit-table",
+      "type": "table",
+      "headers": ["Type of Institute", "Deposit Amount", "Mode of Payment"],
+      "rows": [
+        ["Government Seats", "₹30,000", "Through the UPDGME portal link"],
+        ["Govt + Private Seats", "₹2,00,000", "Through the UPDGME portal link"]
+      ]
+    },
+    {
+      "id": "security-deposit-notes",
+      "type": "heading",
+      "title": "Important Notes:",
+      "level": 3
+    },
+    {
+      "id": "security-deposit-notes-list",
+      "type": "list",
+      "items": [
+        "Deposit is not adjusted against tuition fees.",
+        "Carried forward to future rounds if not forfeited.",
+        "Refunded after the entire counselling process to the same account used for payment.",
+        "If you miss only the security deposit deadline, you can still pay it during the designated window announced before choice filling."
+      ]
+    },
+    {
+      "id": "tuition-fees-bond",
+      "type": "heading",
+      "title": "Tuition Fees and Bond Penalties",
+      "level": 2
+    },
+    {
+      "id": "tuition-fees-table",
+      "type": "table",
+      "headers": ["Type", "Amount", "Payment Mode", "Remarks"],
+      "rows": [
+        ["Registration Fee", "₹3,000 (per process)", "Net Banking/Debit/Credit Card", "Paid during registration"],
+        ["Security Deposit", "₹30,000 (Govt), ₹2 Lakh (Private)", "Through the separate UPDGME link", "Mandatory before choice filling"],
+        ["Tuition Fee", "₹30,000–₹40,000 (Govt), Varies (Private)", "Bank Draft / Institute Payment", "Pay the full first-year fee"],
+        ["Service Bond", "₹40 Lakh (Degree) / ₹20 Lakh (Diploma)", "—", "Payable if the course is discontinued"]
+      ]
+    },
+    {
+      "id": "tuition-fees-note",
+      "type": "paragraph",
+      "content": "If a candidate leaves mid-course, the bond penalty and stipend recovery apply. In-service candidates have a 10-year bond (₹2 crore penalty)."
+    },
+    {
+      "id": "penalty-forfeiture",
+      "type": "heading",
+      "title": "Penalty and Forfeiture Rules",
+      "level": 2
+    },
+    {
+      "id": "penalty-intro",
+      "type": "paragraph",
+      "content": "Penalties are applied depending on when a candidate resigns or fails to join the allotted seat."
+    },
+    {
+      "id": "penalty-table",
+      "type": "table",
+      "headers": ["Situation", "Government Institutes", "Private Institutes"],
+      "rows": [
+        ["Resigns before Round 2", "Free exit", "Free exit"],
+        ["Resigns after Round 2 allotment", "Deposit + admission fee forfeited", "Deposit forfeited"],
+        ["Leaves after Stray Round", "All fees forfeited + debarred next year", "Same rule applies"]
+      ]
+    },
+    {
+      "id": "penalty-tip",
+      "type": "info-box",
+      "boxType": "info",
+      "content": "Key Tip: Always resign two days before the next round begins to avoid penalties or debarment."
+    },
+    {
+      "id": "eligibility-guidelines",
+      "type": "heading",
+      "title": "Eligibility Guidelines",
+      "level": 2
+    },
+    {
+      "id": "eligibility-list",
+      "type": "list",
+      "items": [
+        "Currently pursuing MD/MS/DNB: Not eligible.",
+        "Completed MD/MS/DNB/PG Diploma: Eligible for another degree.",
+        "Discontinued candidates (2024): 1-year debarment applies.",
+        "Completed Diploma: Can apply for a Degree course in the same or another specialty."
+      ]
+    },
+    {
+      "id": "document-verification",
+      "type": "heading",
+      "title": "Document Verification",
+      "level": 2
+    },
+    {
+      "id": "document-verification-list",
+      "type": "list",
+      "items": [
+        "No document upload required during registration (as per 2024).",
+        "Verification is online; no physical presence or postal submission is needed.",
+        "Candidates must submit originals only during final admission at the institute or nodal center."
+      ]
+    },
+    {
+      "id": "quotas-seat-types",
+      "type": "heading",
+      "title": "Quotas & Seat Types",
+      "level": 2
+    },
+    {
+      "id": "quotas-list",
+      "type": "list",
+      "items": [
+        "No Government quota in private colleges.",
+        "All private seats are open to all eligible candidates.",
+        "Minority seats: Available in specific colleges",
+        "Muslim Minority: ERA Lucknow, FH Agra, Integral Lucknow, Career Lucknow",
+        "Jain Minority: Teerthanker Mahaveer, Moradabad",
+        "Buddhist Minority: Subharti Medical College, Meerut",
+        "Uttar Pradesh does not have an NRI quota for PG seats."
+      ]
+    },
+    {
+      "id": "service-category",
+      "type": "heading",
+      "title": "Service Category & Incentives",
+      "level": 2
+    },
+    {
+      "id": "service-category-list",
+      "type": "list",
+      "items": [
+        "50% of Diploma seats are reserved for in-service candidates.",
+        "No exclusive seats for Degree programs.",
+        "30% incentive marks are applied for eligible service candidates.",
+        "Merit list for Diploma seats combines both in-service and general candidates with incentives applied."
+      ]
+    },
+    {
+      "id": "merit-list",
+      "type": "heading",
+      "title": "Merit List System",
+      "level": 2
+    },
+    {
+      "id": "merit-list-list",
+      "type": "list",
+      "items": [
+        "A single combined merit list is published for MD/MS seats.",
+        "A separate merit list exists for DNB in-service candidates.",
+        "In 2024, ranks changed in Round 3 and Stray Round due to fresh registration."
+      ]
+    },
+    {
+      "id": "category-reservation",
+      "type": "heading",
+      "title": "Category Reservation",
+      "level": 2
+    },
+    {
+      "id": "category-reservation-content",
+      "type": "paragraph",
+      "content": "EWS, OBC, SC, and ST quotas apply as per UP government norms, and certificates that should must be issued by UP authorities. There will be no reservation for other-state candidates in private colleges."
+    },
+    {
+      "id": "certificate-validity",
+      "type": "heading",
+      "title": "Certificate Validity:",
+      "level": 3
+    },
+    {
+      "id": "certificate-validity-list",
+      "type": "list",
+      "items": [
+        "For certificate validity, the OBC/EWS certificates must be issued after April 1, 2025.",
+        "The SC/ST certificates have no expiry dates, but the specific caste validity is mandatory.",
+        "The official PWD certificates must be from MCC-approved centers.",
+        "The overall Minority certificates must be issued by a competent authority other than state authorities."
+      ]
+    },
+    {
+      "id": "choice-filling",
+      "type": "heading",
+      "title": "Choice Filling & Allotment",
+      "level": 2
+    },
+    {
+      "id": "choice-filling-list",
+      "type": "list",
+      "items": [
+        "All rounds are conducted online.",
+        "Choice filling begins after the merit list is published (not during registration).",
+        "Candidates must lock their choices manually; there's no auto-lock feature.",
+        "Fresh choice filling is required for every round, including the Stray Round.",
+        "You can skip the choice filling in one round and still participate in the next. However, if you don't fill out any choices at all, your security deposit will be refunded automatically."
+      ]
+    },
+    {
+      "id": "round-wise-eligibility",
+      "type": "heading",
+      "title": "Round-Wise Eligibility Overview",
+      "level": 2
+    },
+    {
+      "id": "round-1",
+      "type": "heading",
+      "title": "Round 1",
+      "level": 3
+    },
+    {
+      "id": "round-1-list",
+      "type": "list",
+      "items": [
+        "All registered candidates can participate.",
+        "Deposit determines eligible seat type (Govt or Pvt)."
+      ]
+    },
+    {
+      "id": "round-2",
+      "type": "heading",
+      "title": "Round 2",
+      "level": 3
+    },
+    {
+      "id": "round-2-list",
+      "type": "list",
+      "items": [
+        "Open to all candidates, regardless of All India status.",
+        "Free exit is possible if resignation is done before the cut-off."
+      ]
+    },
+    {
+      "id": "round-3",
+      "type": "heading",
+      "title": "Round 3",
+      "level": 3
+    },
+    {
+      "id": "round-3-list",
+      "type": "list",
+      "items": [
+        "All candidates are eligible (including those who resigned earlier).",
+        "Seats are converted between categories, PwD, and service quota in this round."
+      ]
+    },
+    {
+      "id": "stray-vacancy-round",
+      "type": "heading",
+      "title": "Stray Vacancy Round",
+      "level": 3
+    },
+    {
+      "id": "stray-vacancy-list",
+      "type": "list",
+      "items": [
+        "Fresh registration and ₹3,000 payment required.",
+        "Previously allotted candidates are not eligible.",
+        "Non-joining candidates are debarred from participating in the 2026 counselling."
+      ]
+    },
+    {
+      "id": "joining-process",
+      "type": "heading",
+      "title": "Joining Process",
+      "level": 2
+    },
+    {
+      "id": "joining-process-intro",
+      "type": "paragraph",
+      "content": "Joining is offline:"
+    },
+    {
+      "id": "joining-process-list",
+      "type": "list",
+      "items": [
+        "Government colleges: Report directly to the institute.",
+        "Private colleges: Report at the designated nodal center with original documents and full first-year tuition fees (via CTS Bank Draft).",
+        "Resignations must also be submitted offline at the nodal center or institute."
+      ]
+    },
+    {
+      "id": "seat-conversion",
+      "type": "heading",
+      "title": "Seat Conversion Rules",
+      "level": 2
+    },
+    {
+      "id": "seat-conversion-list",
+      "type": "list",
+      "items": [
+        "Service - Govt seats",
+        "PwD - Other category",
+        "Category conversions, all processed in Round 3 only."
+      ]
+    },
+    {
+      "id": "final-takeaway",
+      "type": "heading",
+      "title": "Final Takeaway",
+      "level": 2
+    },
+    {
+      "id": "final-takeaway-content",
+      "type": "paragraph",
+      "content": "The Uttar Pradesh NEET PG Counselling 2025 process is transparent but very difficult to understand. Where candidates must plan about payment, registration, as well as to avoid penalties, especially regarding registration timelines, security deposit payments, and round-wise eligibility. There will be no offline verification; online accuracy is key. Remember to resign on time, lock your choices carefully, and verify your category certificates well in advance."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "Frequently Asked Questions (FAQs)",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1: Is fresh registration required for each counselling round in UP NEET PG 2025?",
+          "answer": "For the new and fresh registration, which is needed only for Round 1 is basically unless authorities allow it again in later rounds, as it is seen in Round 3 of 2024."
+        },
+        {
+          "question": "Q2: What is the difference between the registration fee and security deposit?",
+          "answer": "The registration fee is at least ₹3,000, which is also non-refundable; on the other hand, the security deposit is about (₹30,000 govt / ₹2,00,000 combined), which is refundable if rules are followed."
+        },
+        {
+          "question": "Q3: What happens if I resign after seat allotment?",
+          "answer": "If any candidate wants to resign before Round 2, it allows free exit without any inconvenience, while resigning after Round 2 forfeits fees, as leaving after the stray round causes full forfeiture plus next-year debarment."
+        },
+        {
+          "question": "Q4: Are there any minority quota seats in UP private medical colleges?",
+          "answer": "Yes, some private colleges offer minority quota seats for Muslim, Jain, and Buddhist communities."
+        },
+        {
+          "question": "Q5: How is choice filling conducted during counselling?",
+          "answer": "When the Choice filling is done online in every round, after that, all the candidates must lock fresh choices each time, or they risk removal from that round."
+        }
+      ]
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "neet pg counselling",
+        "uttar pradesh neet pg 2025 counselling",
+        "uttar pradesh neet pg counselling 2025",
+        "neet pg counselling round 2",
+        "neet pg counselling round 1",
+        "neet pg counselling round 3",
+        "neet pg counselling seat matrix",
+        "neet pg counselling seat allotment",
+        "neet pg vacant seats",
+        "neet pg counselling choice filling",
+        "neet pg stray round",
+        "state counselling neet pg",
+        "counselling procedure for neet pg",
+        "neet pg counselling schedule",
+        "special round counselling neet pg"
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    }
+  ]
 }
 
 ];
