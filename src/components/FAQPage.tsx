@@ -388,6 +388,35 @@ const FAQPage: React.FC<FAQPageProps> = ({ onBack }) => {
         "Medical career prospects: 1) Clinical practice in various specialties 2) Research and academics 3) Healthcare administration 4) Public health and policy 5) Medical technology and innovation 6) Global opportunities 7) Entrepreneurship in healthcare 8) Telemedicine and digital health.",
       category: "career",
     },
+    {
+  id: 51,
+  question: "What happens if I upgrade from a DNB/NBE Diploma seat in Round 1 to another DNB/NBE Diploma seat?",
+  answer:
+    "No fresh payment is required. NBE will transfer the initially paid amount to the final institute.",
+  category: "counselling",
+},
+{
+  id: 52,
+  question: "What happens if I upgrade from a DNB/NBE Diploma seat to an MD/MS seat?",
+  answer:
+    "If the candidate joins the MD/MS seat, the Rs. 1.25 lakhs paid to NBE will be refunded 6 to 12 months after completion of all counselling rounds.",
+  category: "counselling",
+},
+{
+  id: 53,
+  question: "What if I resign a DNB/NBE Diploma seat after paying Rs. 1.25 lakhs and do not join any seat later?",
+  answer:
+    "The entire Rs. 1.25 lakhs is forfeited. No refund will be provided.",
+  category: "counselling",
+},
+{
+  id: 54,
+  question: "Is there any seat-leaving penalty for private institutes?",
+  answer:
+    "No. There is no penalty for course discontinuation in private institutes.",
+  category: "counselling",
+},
+    
   ];
 
   // Categories for filtering
