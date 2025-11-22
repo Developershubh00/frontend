@@ -144,17 +144,17 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
         window.location.href = "/";
       },
     },
-    {
-      title: "Provisional NEET-PG",
-      subtitle: "Provisional NEET-PG Round-1 Seats Allotments",
-      icon: Award,
-      color: "bg-purple-600",
-      navLink: "/data/provisionalneetpg.pdf",
-      onClick: () => {
-            const win = window.open("/data/provisionalneetpg.pdf", "Provisional NEET-PG Round-1");
-            if (win) win.focus();
-          },
-    },
+    // {
+    //   title: "Provisional NEET-PG",
+    //   subtitle: "Provisional NEET-PG Round-1 Seats Allotments",
+    //   icon: Award,
+    //   color: "bg-purple-600",
+    //   navLink: "/data/provisionalneetpg.pdf",
+    //   onClick: () => {
+    //         const win = window.open("/data/provisionalneetpg.pdf", "Provisional NEET-PG Round-1");
+    //         if (win) win.focus();
+    //       },
+    // },
     // {
     //       id: "universities",
     //       icon: GraduationCap,
