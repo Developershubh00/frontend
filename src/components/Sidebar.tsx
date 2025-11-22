@@ -163,6 +163,17 @@ const Sidebar: React.FC<SidebarProps> = ({
       color: "text-cyan-600",
       onClick: () => navigate("/Closingranks"),
     },
+    {
+      id: "universities",
+      icon: GraduationCap,
+      label: "Provisional NEET-PG Round-1",
+      hasSubmenu: false,
+      color: "text-cyan-600",
+      onClick: () => {
+        const win = window.open("/data/provisionalneetpg.pdf", "Provisional NEET-PG Round-1");
+        if (win) win.focus();
+      },
+    },
     // {
     //   id: "MyChoicelist",
     //   icon: Heart,

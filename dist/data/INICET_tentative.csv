@@ -1,0 +1,527 @@
+SN,Insitute,Dept,Course,Total Seats,UR,OBC,SC,ST,EWS
+1,AIIMS BATHINDA,Anesthesiology,MD/MS,6,2,1,1,1,1
+2,AIIMS BATHINDA,Biochemistry,MD/MS,1,1,0,0,0,0
+3,AIIMS BATHINDA,CFM,MD/MS,4,1,1,1,1,0
+4,AIIMS BATHINDA,Dermatology & Venerology,MD/MS,2,1,1,0,0,0
+5,AIIMS BATHINDA,ENT,MD/MS,2,1,1,0,0,0
+6,AIIMS BATHINDA,Forensic Medicine and Toxicology,MD/MS,1,1,0,0,0,0
+7,AIIMS BATHINDA,General Medicine,MD/MS,6,2,1,1,1,1
+8,AIIMS BATHINDA,General Surgery,MD/MS,5,2,1,1,0,1
+9,AIIMS BATHINDA,Microbiology,MD/MS,2,1,1,0,0,0
+10,AIIMS BATHINDA,Obstetrics & Gynecology,MD/MS,5,2,1,1,0,1
+11,AIIMS BATHINDA,Ophthalmology,MD/MS,3,1,1,1,0,0
+12,AIIMS BATHINDA,Orthopaedics,MD/MS,6,1,2,1,1,1
+13,AIIMS BATHINDA,Pediatrics,MD/MS,5,2,1,1,0,1
+14,AIIMS BATHINDA,Pathology,MD/MS,2,1,1,0,0,0
+15,AIIMS BATHINDA,Pharmacology,MD/MS,1,1,0,0,0,0
+16,AIIMS BATHINDA,Psychiatry,MD/MS,1,1,0,0,0,0
+17,AIIMS BATHINDA,Radiodiagnosis,MD/MS,2,1,1,0,0,0
+18,AIIMS BATHINDA,Radiation Oncology,MD/MS,2,1,1,0,0,0
+19,AIIMS BATHINDA,Hospital Administration,MD/MS,1,1,0,0,0,0
+20,AIIMS BATHINDA,Plastic and Reconstructive Surgery (MCh 6 Years),DM/MCH (06 YEARS),1,1,0,0,0,0
+21,AIIMS BATHINDA,Cardiothoracic and Vascular Surgery (MCh 6 Years),DM/MCH (06 YEARS),1,1,0,0,0,0
+22,AIIMS BATHINDA,Neurosurgery (MCh 6 years),DM/MCH (06 YEARS),1,1,0,0,0,0
+23,AIIMS BATHINDA,Paediatric Surgery (MCh 6 Years),DM/MCH (06 YEARS),1,1,0,0,0,0
+24,AIIMS BATHINDA,Periodontology,MDS,1,1,0,0,0,0
+25,AIIMS BHOPAL,Anesthesiology,MD/MS,6,2,2,1,0,1
+26,AIIMS BHOPAL,Anatomy,MD/MS,2,2,0,0,0,0
+27,AIIMS BHOPAL,Biochemistry,MD/MS,2,0,0,1,1,0
+28,AIIMS BHOPAL,Community Medicine,MD/MS,3,1,2,0,0,0
+29,AIIMS BHOPAL,Dermatology,MD/MS,2,0,1,0,0,1
+30,AIIMS BHOPAL,Emergency Medicine,MD/MS,4,3,1,0,0,0
+31,AIIMS BHOPAL,ENT,MD/MS,4,0,1,1,1,1
+32,AIIMS BHOPAL,Family Medicine,MD/MS,2,2,0,0,0,0
+33,AIIMS BHOPAL,Forensic Medicine and Toxicology,MD/MS,4,1,1,1,0,1
+34,AIIMS BHOPAL,General Medicine,MD/MS,3,0,1,1,1,0
+35,AIIMS BHOPAL,Geriatric Medicine,MD/MS,1,0,1,0,0,0
+36,AIIMS BHOPAL,General Surgery,MD/MS,4,3,1,0,0,0
+37,AIIMS BHOPAL,Hospital Administration,MD/MS,1,1,0,0,0,0
+38,AIIMS BHOPAL,Microbiology,MD/MS,3,1,1,1,0,0
+39,AIIMS BHOPAL,Obstetrics & Gynecology,MD/MS,4,2,1,0,0,1
+40,AIIMS BHOPAL,Ophthalmology,MD/MS,4,1,1,1,1,0
+41,AIIMS BHOPAL,Orthopaedics,MD/MS,4,2,1,1,0,0
+42,AIIMS BHOPAL,Pediatrics,MD/MS,6,3,2,0,0,1
+43,AIIMS BHOPAL,Pathology,MD/MS,4,1,1,1,1,0
+44,AIIMS BHOPAL,Pharmacology,MD/MS,2,1,0,0,0,1
+45,AIIMS BHOPAL,Physical Medicine and Rehabilitation,MD/MS,1,1,0,0,0,0
+46,AIIMS BHOPAL,Physiology,MD/MS,2,0,1,1,0,0
+47,AIIMS BHOPAL,Psychiatry,MD/MS,2,2,0,0,0,0
+48,AIIMS BHOPAL,Radiodiagnosis,MD/MS,6,1,2,1,1,1
+49,AIIMS BHOPAL,Radiation Oncology,MD/MS,2,1,1,0,0,0
+50,AIIMS BHOPAL,Transfusion Medicine & Blood Bank,MD/MS,1,1,0,0,0,0
+51,AIIMS BHOPAL,Cardiothoracic and Vascular Surgery (MCh 6 Years),DM/MCH (06 YEARS),3,3,0,0,0,0
+52,AIIMS BHOPAL,Pediatric Surgery (MCh 6 Years),DM/MCH (06 YEARS),2,2,0,0,0,0
+53,AIIMS BHOPAL,Oral & Maxillofacial Surgery,MDS,1,1,0,0,0,0
+54,AIIMS BHOPAL,Public Health Dentistry,MDS,1,0,0,1,0,0
+55,AIIMS BHUBANESWAR,Anesthesiology& Critical Care,MD/MS,10,3,3,2,2,0
+56,AIIMS BHUBANESWAR,Anatomy,MD/MS,6,3,1,0,1,1
+57,AIIMS BHUBANESWAR,Biochemistry,MD/MS,2,0,1,1,0,0
+58,AIIMS BHUBANESWAR,Community Medicine,MD/MS,6,2,0,1,2,1
+59,AIIMS BHUBANESWAR,Dermatology,MD/MS,2,0,0,1,1,0
+60,AIIMS BHUBANESWAR,Emergency Medicine,MD/MS,7,3,0,1,1,2
+61,AIIMS BHUBANESWAR,ENT,MD/MS,4,1,1,2,0,0
+62,AIIMS BHUBANESWAR,General Medicine,MD/MS,3,1,1,1,0,0
+63,AIIMS BHUBANESWAR,General Surgery,MD/MS,6,2,2,1,0,1
+64,AIIMS BHUBANESWAR,Hospital Administration,MD/MS,2,2,0,0,0,0
+65,AIIMS BHUBANESWAR,Nuclear Medicine,MD/MS,1,0,1,0,0,0
+66,AIIMS BHUBANESWAR,Obstetrics & Gynecology,MD/MS,8,3,3,1,1,0
+67,AIIMS BHUBANESWAR,Ophthalmology,MD/MS,1,0,0,0,0,1
+68,AIIMS BHUBANESWAR,Orthopaedics,MD/MS,6,4,2,0,0,0
+69,AIIMS BHUBANESWAR,Pediatrics,MD/MS,5,2,1,0,1,1
+70,AIIMS BHUBANESWAR,Pathology,MD/MS,7,4,1,0,1,1
+71,AIIMS BHUBANESWAR,Pharmacology,MD/MS,3,2,0,1,0,0
+72,AIIMS BHUBANESWAR,Physiology,MD/MS,2,0,2,0,0,0
+73,AIIMS BHUBANESWAR,PMR,MD/MS,3,1,0,1,1,0
+74,AIIMS BHUBANESWAR,Psychiatry,MD/MS,4,2,1,0,0,1
+75,AIIMS BHUBANESWAR,Radiation Oncology,MD/MS,3,3,0,0,0,0
+76,AIIMS BHUBANESWAR,Radiodiagnosis,MD/MS,4,0,2,1,1,0
+77,AIIMS BHUBANESWAR,Transfusion Medicine,MD/MS,3,0,1,1,0,1
+78,AIIMS BHUBANESWAR,Paediatric Surgery (MCh 6 Years),DM/MCH (06 YEARS),1,1,0,0,0,0
+79,AIIMS BHUBANESWAR,Burns & Plastic Surgery (MCh 6 Years),DM/MCH (06 YEARS),1,1,0,0,0,0
+80,AIIMS BHUBANESWAR,Orthodontics,MDS,2,2,0,0,0,0
+81,AIIMS BIBINAGAR,Anesthesiology,MD/MS,3,1,1,1,0,0
+82,AIIMS BIBINAGAR,Anatomy,MD/MS,1,1,0,0,0,0
+83,AIIMS BIBINAGAR,Biochemistry,MD/MS,2,0,1,0,0,1
+84,AIIMS BIBINAGAR,Community Medicine,MD/MS,4,1,1,1,0,1
+85,AIIMS BIBINAGAR,Dermatology & Venerology & Leprology,MD/MS,2,1,0,1,0,0
+86,AIIMS BIBINAGAR,General Medicine,MD/MS,5,2,1,1,1,0
+87,AIIMS BIBINAGAR,General Surgery,MD/MS,3,1,1,0,1,0
+88,AIIMS BIBINAGAR,Microbiology,MD/MS,2,0,0,1,0,1
+89,AIIMS BIBINAGAR,Obstetrics & Gynecology,MD/MS,4,3,1,0,0,0
+90,AIIMS BIBINAGAR,Ophthalmology,MD/MS,2,0,1,1,0,0
+91,AIIMS BIBINAGAR,Orthopaedics,MD/MS,4,1,1,1,0,1
+92,AIIMS BIBINAGAR,Otorhinolaryngology (ENT),MD/MS,2,1,1,0,0,0
+93,AIIMS BIBINAGAR,Pediatrics,MD/MS,4,3,1,0,0,0
+94,AIIMS BIBINAGAR,Pathology,MD/MS,2,1,1,0,0,0
+95,AIIMS BIBINAGAR,Pharmacology,MD/MS,2,0,1,0,1,0
+96,AIIMS BIBINAGAR,Physiology,MD/MS,1,0,0,0,0,1
+97,AIIMS BIBINAGAR,Psychiatry,MD/MS,2,1,1,0,0,0
+98,AIIMS BIBINAGAR,Radiodiagnosis,MD/MS,4,3,1,0,0,0
+99,AIIMS BIBINAGAR,Paediatric Surgery (MCh 6 Years),DM/MCH (06 YEARS),1,1,0,0,0,0
+100,AIIMS BILASPUR,Anesthesiology,MD/MS,2,1,1,0,0,0
+101,AIIMS BILASPUR,Anatomy,MD/MS,1,1,0,0,0,0
+102,AIIMS BILASPUR,Biochemistry,MD/MS,1,0,1,0,0,0
+103,AIIMS BILASPUR,Community and Family Medicine,MD/MS,1,0,0,0,0,1
+104,AIIMS BILASPUR,Dermatology,MD/MS,1,0,0,1,0,0
+105,AIIMS BILASPUR,ENT,MD/MS,2,1,1,0,0,0
+106,AIIMS BILASPUR,Forensic Medicine and Toxicology,MD/MS,1,1,0,0,0,0
+107,AIIMS BILASPUR,General Medicine,MD/MS,3,2,1,0,0,0
+108,AIIMS BILASPUR,General Surgery,MD/MS,2,0,0,1,1,0
+109,AIIMS BILASPUR,Microbiology,MD/MS,1,1,0,0,0,0
+110,AIIMS BILASPUR,Obstetrics & Gynecology,MD/MS,3,2,0,0,0,1
+111,AIIMS BILASPUR,Ophthalmology,MD/MS,2,0,1,0,0,1
+112,AIIMS BILASPUR,Orthopedics,MD/MS,2,0,1,1,0,0
+113,AIIMS BILASPUR,Pathology,MD/MS,1,1,0,0,0,0
+114,AIIMS BILASPUR,Pediatrics,MD/MS,2,0,1,1,0,0
+115,AIIMS BILASPUR,Pharmacology,MD/MS,1,0,0,1,0,0
+116,AIIMS BILASPUR,Physiology,MD/MS,1,0,1,0,0,0
+117,AIIMS BILASPUR,Radiodiagnosis,MD/MS,2,0,1,0,1,0
+118,AIIMS BILASPUR,Radiotherapy,MD/MS,1,1,0,0,0,0
+119,AIIMS BILASPUR,Transfusion Medicine & Blood Bank,MD/MS,1,1,0,0,0,0
+120,AIIMS BILASPUR,Oral & Maxillofacial Surgery,MDS,1,1,0,0,0,0
+121,AIIMS DEOGHAR,Anesthesiology,MD/MS,4,2,1,1,0,0
+122,AIIMS DEOGHAR,Anatomy,MD/MS,1,0,1,0,0,0
+123,AIIMS DEOGHAR,Biochemistry,MD/MS,1,1,0,0,0,0
+124,AIIMS DEOGHAR,Community and Family Medicine,MD/MS,3,2,1,0,0,0
+125,AIIMS DEOGHAR,Forensic Medicine and Toxicology,MD/MS,1,0,0,1,0,0
+126,AIIMS DEOGHAR,General Medicine,MD/MS,3,1,1,0,0,1
+127,AIIMS DEOGHAR,General Surgery,MD/MS,3,1,1,1,0,0
+128,AIIMS DEOGHAR,Microbiology,MD/MS,1,1,0,0,0,0
+129,AIIMS DEOGHAR,Obstetrics & Gynecology,MD/MS,3,1,1,0,0,1
+130,AIIMS DEOGHAR,Ophthalmology,MD/MS,2,2,0,0,0,0
+131,AIIMS DEOGHAR,Orthopaedics,MD/MS,3,0,1,1,1,0
+132,AIIMS DEOGHAR,Otorhinolaryngology,MD/MS,2,1,1,0,0,0
+133,AIIMS DEOGHAR,Pediatrics,MD/MS,3,1,1,1,0,0
+134,AIIMS DEOGHAR,Pathology & Lab Medicine,MD/MS,2,1,0,0,0,1
+135,AIIMS DEOGHAR,Pharmacology,MD/MS,1,1,0,0,0,0
+136,AIIMS DEOGHAR,Physical Medicine and Rehabilitation,MD/MS,1,0,1,0,0,0
+137,AIIMS DEOGHAR,Physiology,MD/MS,1,1,0,0,0,0
+138,AIIMS DEOGHAR,Psychiatry,MD/MS,1,0,0,1,0,0
+139,AIIMS DEOGHAR,Pediatric Surgery (MCh 6 Years),DM/MCH (06 YEARS),1,1,0,0,0,0
+140,AIIMS DEOGHAR,Paediatrics and Preventive Dentistry,MDS,1,0,0,0,1,0
+141,AIIMS GORAKHPUR,Anesthesiology,MD/MS,3,1,1,0,0,1
+142,AIIMS GORAKHPUR,Anatomy,MD/MS,1,1,0,0,0,0
+143,AIIMS GORAKHPUR,Biochemistry,MD/MS,1,1,0,0,0,0
+144,AIIMS GORAKHPUR,CMFM,MD/MS,1,0,1,0,0,0
+145,AIIMS GORAKHPUR,Dermatology,MD/MS,1,1,0,0,0,0
+146,AIIMS GORAKHPUR,Otorhinolaryngology (ENT),MD/MS,1,0,1,0,0,0
+147,AIIMS GORAKHPUR,Emergency Medicine,MD/MS,1,0,0,1,0,0
+148,AIIMS GORAKHPUR,Forensic Medicine and Toxicology,MD/MS,1,0,1,0,0,0
+149,AIIMS GORAKHPUR,General Medicine,MD/MS,3,2,1,0,0,0
+150,AIIMS GORAKHPUR,General Surgery,MD/MS,2,1,1,0,0,0
+151,AIIMS GORAKHPUR,Immunohematology and Blood Transfusion,MD/MS,1,1,0,0,0,0
+152,AIIMS GORAKHPUR,Microbiology,MD/MS,1,0,1,0,0,0
+153,AIIMS GORAKHPUR,Obstetrics & Gynecology,MD/MS,2,1,0,0,1,0
+154,AIIMS GORAKHPUR,Ophthalmology,MD/MS,1,1,0,0,0,0
+155,AIIMS GORAKHPUR,Orthopedics,MD/MS,1,0,1,0,0,0
+156,AIIMS GORAKHPUR,Pediatrics,MD/MS,2,0,0,1,0,1
+157,AIIMS GORAKHPUR,Pathology,MD/MS,1,0,0,0,1,0
+158,AIIMS GORAKHPUR,Pharmacology,MD/MS,1,0,0,1,0,0
+159,AIIMS GORAKHPUR,Physiology,MD/MS,1,0,1,0,0,0
+160,AIIMS GORAKHPUR,Psychiatry,MD/MS,1,0,0,0,0,1
+161,AIIMS GORAKHPUR,Radiotherapy,MD/MS,1,0,0,1,0,0
+162,AIIMS GORAKHPUR,Periodontology,MDS,1,1,0,0,0,0
+163,AIIMS GORAKHPUR,Trauma Surgery,MD/MS,1,1,0,0,0,0
+164,AIIMS GUWAHATI,Anesthesiology,MD/MS,3,3,0,0,0,0
+165,AIIMS GUWAHATI,Anatomy,MD/MS,2,1,1,0,0,0
+166,AIIMS GUWAHATI,Biochemistry,MD/MS,2,1,0,1,0,0
+167,AIIMS GUWAHATI,Community and Family Medicine,MD/MS,2,1,1,0,0,0
+168,AIIMS GUWAHATI,Dermatology,MD/MS,1,1,0,0,0,0
+169,AIIMS GUWAHATI,Emergency Medicine,MD/MS,1,0,1,0,0,0
+170,AIIMS GUWAHATI,ENT,MD/MS,3,1,0,1,1,0
+171,AIIMS GUWAHATI,FMT,MD/MS,1,0,1,0,0,0
+172,AIIMS GUWAHATI,General Medicine,MD/MS,2,2,0,0,0,0
+173,AIIMS GUWAHATI,General Surgery,MD/MS,2,0,1,1,0,0
+174,AIIMS GUWAHATI,Microbiology,MD/MS,2,1,0,0,0,1
+175,AIIMS GUWAHATI,Obstetrics & Gynecology,MD/MS,2,1,1,0,0,0
+176,AIIMS GUWAHATI,Ophthalmology,MD/MS,2,1,1,0,0,0
+177,AIIMS GUWAHATI,Orthopaedics,MD/MS,1,0,0,1,0,0
+178,AIIMS GUWAHATI,Pediatrics,MD/MS,2,1,0,0,1,0
+179,AIIMS GUWAHATI,Pathology,MD/MS,2,0,1,0,0,1
+180,AIIMS GUWAHATI,Pharmacology,MD/MS,2,2,0,0,0,0
+181,AIIMS GUWAHATI,Physical Medicine and Rehabilitation,MD/MS,2,0,1,1,0,0
+182,AIIMS GUWAHATI,Physiology,MD/MS,2,2,0,0,0,0
+183,AIIMS GUWAHATI,Psychiatry,MD/MS,2,1,1,0,0,0
+184,AIIMS GUWAHATI,Radiation Oncology,MD/MS,1,0,0,0,1,0
+185,AIIMS GUWAHATI,Radiology,MD/MS,3,0,1,1,0,1
+186,AIIMS GUWAHATI,Transfusion Medicine,MD/MS,1,1,0,0,0,0
+187,AIIMS GUWAHATI,Conservative Dentistry & Endodontics,MDS,1,0,0,0,0,1
+188,AIIMS JAMMU,Anesthesiology,MD/MS,5,2,1,1,0,1
+189,AIIMS JAMMU,Anatomy,MD/MS,6,2,2,1,0,1
+190,AIIMS JAMMU,ENT,MD/MS,2,2,0,0,0,0
+191,AIIMS JAMMU,Forensic Medicine and Toxicology,MD/MS,1,0,0,0,1,0
+192,AIIMS JAMMU,Obstetrics & Gynecology,MD/MS,4,2,1,0,0,1
+193,AIIMS JAMMU,Ophthalmology,MD/MS,1,0,1,0,0,0
+194,AIIMS JAMMU,Pathology,MD/MS,2,0,1,1,0,0
+195,AIIMS JAMMU,Physiology,MD/MS,3,2,1,0,0,0
+196,AIIMS JAMMU,Psychiatry,MD/MS,1,0,1,0,0,0
+197,AIIMS JAMMU,Transfusion Medicine & Blood Bank,MD/MS,1,1,0,0,0,0
+198,AIIMS JAMMU,Pediatric Surgery (MCh 6 Years),DM/MCH (06 YEARS),1,1,0,0,0,0
+199,AIIMS JAMMU,Conservative Dentistry,MDS,1,0,1,0,0,0
+200,AIIMS JODHPUR,Anesthesiology& Critical Care,MD/MS,8,3,1,2,1,1
+201,AIIMS JODHPUR,Anatomy,MD/MS,1,1,0,0,0,0
+202,AIIMS JODHPUR,Biochemistry,MD/MS,2,1,0,0,0,1
+203,AIIMS JODHPUR,Community Medicine,MD/MS,2,1,1,0,0,0
+204,AIIMS JODHPUR,Dermatology & Venerology,MD/MS,2,1,0,0,1,0
+205,AIIMS JODHPUR,Emergency Medicine,MD/MS,2,1,1,0,0,0
+206,AIIMS JODHPUR,Family Medicine,MD/MS,2,1,1,0,0,0
+207,AIIMS JODHPUR,Forensic Medicine and Toxicology,MD/MS,2,0,1,0,1,0
+208,AIIMS JODHPUR,General Medicine,MD/MS,3,1,1,1,0,0
+209,AIIMS JODHPUR,General Surgery,MD/MS,4,2,1,1,0,0
+210,AIIMS JODHPUR,Microbiology,MD/MS,2,1,0,1,0,0
+211,AIIMS JODHPUR,Nuclear Medicine,MD/MS,2,1,0,0,0,1
+212,AIIMS JODHPUR,Obstetrics & Gynecology,MD/MS,3,1,1,0,0,1
+213,AIIMS JODHPUR,Ophthalmology,MD/MS,2,0,1,1,0,0
+214,AIIMS JODHPUR,Orthopaedics,MD/MS,3,1,1,1,0,0
+215,AIIMS JODHPUR,Otorhinolaryngology,MD/MS,3,1,1,1,0,0
+216,AIIMS JODHPUR,Pediatrics,MD/MS,3,1,1,0,1,0
+217,AIIMS JODHPUR,Pathology,MD/MS,3,1,1,1,0,0
+218,AIIMS JODHPUR,Pharmacology,MD/MS,2,1,1,0,0,0
+219,AIIMS JODHPUR,Physiology,MD/MS,1,1,0,0,0,0
+220,AIIMS JODHPUR,PMR,MD/MS,2,1,0,0,0,1
+221,AIIMS JODHPUR,Psychiatry,MD/MS,3,1,1,1,0,0
+222,AIIMS JODHPUR,Radiology,MD/MS,4,2,1,0,0,1
+223,AIIMS JODHPUR,Transfusion Medicine & Blood Bank,MD/MS,1,0,1,0,0,0
+224,AIIMS JODHPUR,Hospital Administration,MD/MS,1,0,0,0,1,0
+225,AIIMS JODHPUR,Paediatric Surgery (MCh 6 Years),DM/MCH (06 YEARS),1,1,0,0,0,0
+226,AIIMS KALYANI,Anesthesiology,MD/MS,7,3,2,1,0,1
+227,AIIMS KALYANI,Anatomy,MD/MS,5,1,2,1,1,0
+228,AIIMS KALYANI,Biochemistry,MD/MS,4,2,1,0,0,1
+229,AIIMS KALYANI,Community Medicine,MD/MS,6,1,1,2,1,1
+230,AIIMS KALYANI,Dermatology & Venerology,MD/MS,2,2,0,0,0,0
+231,AIIMS KALYANI,Emergency Medicine,MD/MS,6,3,2,1,0,0
+232,AIIMS KALYANI,Forensic Medicine and Toxicology,MD/MS,4,2,1,0,0,1
+233,AIIMS KALYANI,General Medicine,MD/MS,5,2,1,1,1,0
+234,AIIMS KALYANI,General Surgery,MD/MS,5,1,2,1,0,1
+235,AIIMS KALYANI,Hospital Administration,MD/MS,1,1,0,0,0,0
+236,AIIMS KALYANI,Microbiology,MD/MS,7,2,2,1,1,1
+237,AIIMS KALYANI,Obstetrics & Gynecology,MD/MS,5,3,1,1,0,0
+238,AIIMS KALYANI,Ophthalmology,MD/MS,5,1,2,1,1,0
+239,AIIMS KALYANI,Orthopaedics,MD/MS,5,2,2,1,0,0
+240,AIIMS KALYANI,Otorhinolaryngology,MD/MS,5,2,1,1,0,1
+241,AIIMS KALYANI,Pediatrics,MD/MS,8,3,2,1,1,1
+242,AIIMS KALYANI,Pathology,MD/MS,7,3,2,1,1,0
+243,AIIMS KALYANI,Pharmacology,MD/MS,3,1,1,0,0,1
+244,AIIMS KALYANI,Physical Medicine and Rehabilitation,MD/MS,1,1,0,0,0,0
+245,AIIMS KALYANI,Physiology,MD/MS,4,2,1,1,0,0
+246,AIIMS KALYANI,Psychiatry,MD/MS,5,1,2,1,1,0
+247,AIIMS KALYANI,Radiation Oncology,MD/MS,2,1,0,0,0,1
+248,AIIMS KALYANI,Radiodiagnosis,MD/MS,5,2,2,1,0,0
+249,AIIMS KALYANI,Transfusion Medicine,MD/MS,2,1,0,0,0,1
+250,AIIMS KALYANI,Neurosurgery (MCh 6 years),DM/MCH (06 YEARS),1,1,0,0,0,0
+251,AIIMS KALYANI,Conservative Dentistry & Endodontics,MDS,2,1,1,0,0,0
+252,AIIMS KALYANI,Oral & Maxillofacial Surgery,MDS,1,0,0,0,0,1
+253,AIIMS KALYANI,Orthodontics & Dentofacial Orthopaedics,MDS,1,1,0,0,,0
+254,AIIMS MANGALAGIRI,Anesthesiology,MD/MS,4,1,1,1,0,1
+255,AIIMS MANGALAGIRI,Anatomy,MD/MS,2,1,0,0,0,1
+256,AIIMS MANGALAGIRI,Biochemistry,MD/MS,2,0,1,1,0,0
+257,AIIMS MANGALAGIRI,Community Medicine,MD/MS,2,0,0,1,0,1
+258,AIIMS MANGALAGIRI,Dermatology,MD/MS,2,0,0,0,1,1
+259,AIIMS MANGALAGIRI,Emergency Medicine,MD/MS,4,1,1,1,0,1
+260,AIIMS MANGALAGIRI,Family Medicine,MD/MS,2,1,1,0,0,0
+261,AIIMS MANGALAGIRI,Forensic Medicine and Toxicology,MD/MS,2,1,0,1,0,0
+262,AIIMS MANGALAGIRI,General Medicine,MD/MS,4,2,1,1,,0
+263,AIIMS MANGALAGIRI,General Surgery,MD/MS,4,1,2,0,1,0
+264,AIIMS MANGALAGIRI,Hospital Administration,MD/MS,2,1,0,0,1,0
+265,AIIMS MANGALAGIRI,Immunohematology and  Blood Transfusion (Transfusion Medicine),MD/MS,4,1,1,1,0,1
+266,AIIMS MANGALAGIRI,Microbiology,MD/MS,2,0,0,1,1,0
+267,AIIMS MANGALAGIRI,Nuclear Medicine,MD/MS,2,1,1,0,0,0
+268,AIIMS MANGALAGIRI,Obstetrics & Gynecology,MD/MS,4,1,1,1,1,0
+269,AIIMS MANGALAGIRI,Ophthalmology,MD/MS,2,1,0,1,0,0
+270,AIIMS MANGALAGIRI,Orthopaedics,MD/MS,4,1,1,0,1,1
+271,AIIMS MANGALAGIRI,Otorhinolaryngology (ENT),MD/MS,2,1,1,0,0,0
+272,AIIMS MANGALAGIRI,Pediatrics,MD/MS,5,2,1,1,0,1
+273,AIIMS MANGALAGIRI,Pathology,MD/MS,2,1,1,0,0,0
+274,AIIMS MANGALAGIRI,Pharmacology,MD/MS,2,0,1,0,1,0
+275,AIIMS MANGALAGIRI,Physical Medicine and Rehabilitation,MD/MS,2,1,1,0,0,0
+276,AIIMS MANGALAGIRI,Physiology,MD/MS,2,1,1,0,0,0
+277,AIIMS MANGALAGIRI,Psychiatry,MD/MS,2,0,1,0,0,1
+278,AIIMS MANGALAGIRI,Radiation Oncology,MD/MS,2,0,1,1,0,0
+279,AIIMS MANGALAGIRI,Radiodiagnosis,MD/MS,4,2,1,1,0,0
+280,AIIMS MANGALAGIRI,Neurosurgery (MCh 6 years),DM/MCH (06 YEARS),2,2,0,0,0,0
+281,AIIMS MANGALAGIRI,Oral & Maxillofacial Surgery,MDS,2,1,1,0,0,0
+282,AIIMS MANGALAGIRI,Pediatrics and Preventive Dentistry,MDS,2,1,1,0,0,0
+283,AIIMS NAGPUR,Anesthesiology,MD/MS,5,2,2,1,0,0
+284,AIIMS NAGPUR,Anatomy,MD/MS,2,0,0,1,1,0
+285,AIIMS NAGPUR,Biochemistry,MD/MS,3,2,0,0,1,0
+286,AIIMS NAGPUR,Community Medicine,MD/MS,3,2,1,0,0,0
+287,AIIMS NAGPUR,Dermatology,MD/MS,3,2,1,0,0,0
+288,AIIMS NAGPUR,Forensic Medicine and Toxicology,MD/MS,2,0,1,0,0,1
+289,AIIMS NAGPUR,General Medicine,MD/MS,5,2,2,0,0,1
+290,AIIMS NAGPUR,General Surgery,MD/MS,5,2,2,0,0,1
+291,AIIMS NAGPUR,Hospital Administration,MD/MS,1,0,0,1,0,0
+292,AIIMS NAGPUR,Microbiology,MD/MS,3,1,1,1,0,0
+293,AIIMS NAGPUR,Nuclear Medicine,MD/MS,1,1,0,0,0,0
+294,AIIMS NAGPUR,Obst. & Gynae,MD/MS,3,1,1,1,0,0
+295,AIIMS NAGPUR,Ophthalmology,MD/MS,2,2,0,0,0,0
+296,AIIMS NAGPUR,Orthopaedics,MD/MS,5,1,2,1,0,1
+297,AIIMS NAGPUR,Otorhinolaryngology,MD/MS,2,2,0,0,0,0
+298,AIIMS NAGPUR,Pediatrics,MD/MS,3,1,1,1,0,0
+299,AIIMS NAGPUR,Pathology,MD/MS,3,2,0,0,0,1
+300,AIIMS NAGPUR,Pharmacology,MD/MS,2,0,1,0,1,0
+301,AIIMS NAGPUR,Physical Medicine and Rehabilitation,MD/MS,2,1,0,0,1,0
+302,AIIMS NAGPUR,Physiology,MD/MS,2,0,1,0,0,1
+303,AIIMS NAGPUR,Psychiatry,MD/MS,2,1,0,1,0,0
+304,AIIMS NAGPUR,Radiation Oncology,MD/MS,2,1,0,1,0,0
+305,AIIMS NAGPUR,Radiodiagnosis,MD/MS,3,1,1,0,0,1
+306,AIIMS NAGPUR,Transfusion Medicine,MD/MS,2,1,1,0,0,0
+307,AIIMS NAGPUR,Conservative Dentistry & Endodontics,MDS,1,0,0,0,1,0
+308,AIIMS NAGPUR,Oral & Maxillofacial Surgery,MDS,1,0,0,1,0,0
+309,AIIMS NAGPUR,Burns & Plastic Surgery (MCh 6 Years),DM/MCH (06 YEARS),2,2,0,0,0,0
+310,AIIMS NAGPUR,Neurosurgery (MCh 6 years),DM/MCH (06 YEARS),2,2,0,0,0,0
+311,AIIMS NAGPUR,Pediatric Surgery (MCh 6 Years),DM/MCH (06 YEARS),3,3,0,0,0,0
+312,AIIMS NEW DELHI,Anesthesiology,MD/MS,22,9,6,4,1,2
+313,AIIMS NEW DELHI,Anatomy,MD/MS,2,1,0,1,0,0
+314,AIIMS NEW DELHI,Biochemistry,MD/MS,7,4,2,1,0,0
+315,AIIMS NEW DELHI,Biophysics,MD/MS,6,1,2,1,1,1
+316,AIIMS NEW DELHI,Community Medicine,MD/MS,9,3,3,1,1,1
+317,AIIMS NEW DELHI,Dermatology & Venerology,MD/MS,6,3,1,1,0,1
+318,AIIMS NEW DELHI,Emergency Medicine,MD/MS,2,2,0,0,0,0
+319,AIIMS NEW DELHI,Forensic Medicine,MD/MS,2,0,1,1,0,0
+320,AIIMS NEW DELHI,Geriatric Medicine,MD/MS,5,2,1,1,1,0
+321,AIIMS NEW DELHI,Hospital Administration,MD/MS,3,1,1,0,0,1
+322,AIIMS NEW DELHI,Laboratory Medicine,MD/MS,3,2,1,0,0,0
+323,AIIMS NEW DELHI,Medicine,MD/MS,11,5,4,1,0,1
+324,AIIMS NEW DELHI,Microbiology,MD/MS,4,2,1,0,1,0
+325,AIIMS NEW DELHI,Nuclear Medicine,MD/MS,4,1,1,1,0,1
+326,AIIMS NEW DELHI,Obst. & Gynae,MD/MS,11,5,2,2,1,1
+327,AIIMS NEW DELHI,Ophthalmology,MD/MS,9,3,3,1,1,1
+328,AIIMS NEW DELHI,Orthopaedics,MD/MS,5,2,1,1,0,1
+329,AIIMS NEW DELHI,Otorhinolaryngology,MD/MS,3,0,1,1,1,0
+330,AIIMS NEW DELHI,Pediatrics,MD/MS,9,3,3,1,1,1
+331,AIIMS NEW DELHI,Palliative Medicine,MD/MS,2,2,0,0,0,0
+332,AIIMS NEW DELHI,Pathology,MD/MS,13,7,3,1,1,1
+333,AIIMS NEW DELHI,Pharmacology,MD/MS,6,2,1,1,1,1
+334,AIIMS NEW DELHI,Physical Medicine and Rehabilitation,MD/MS,3,1,1,1,0,0
+335,AIIMS NEW DELHI,Physiology,MD/MS,4,3,1,0,0,0
+336,AIIMS NEW DELHI,Psychiatry,MD/MS,4,1,1,1,0,1
+337,AIIMS NEW DELHI,Radiodiagnosis & Interventional Radiology,MD/MS,4,1,1,1,0,1
+338,AIIMS NEW DELHI,Radiation Oncology,MD/MS,4,1,1,0,1,1
+339,AIIMS NEW DELHI,Surgery,MD/MS,8,3,2,1,1,1
+340,AIIMS NEW DELHI,Transfusion Medicine,MD/MS,4,1,1,1,1,0
+341,AIIMS NEW DELHI,DM-ID (DM 6 Years),DM/MCH (06 YEARS),2,2,0,0,0,0
+342,AIIMS NEW DELHI,Neurosurgery (MCh 6 years),DM/MCH (06 YEARS),1,1,0,0,0,0
+343,AIIMS NEW DELHI,Conservative Dentistry & Endodontics,MDS,1,0,1,0,0,0
+344,AIIMS NEW DELHI,Pediatrics and Preventive Dentistry,MDS,2,2,0,0,0,0
+345,AIIMS NEW DELHI,Prosthodontics,MDS,2,0,1,1,0,0
+346,AIIMS PATNA,Anesthesiology,MD/MS,8,3,2,2,0,1
+347,AIIMS PATNA,Anatomy,MD/MS,1,0,1,0,0,0
+348,AIIMS PATNA,Biochemistry,MD/MS,3,1,1,1,0,0
+349,AIIMS PATNA,Community and Family Medicine,MD/MS,3,1,1,1,0,0
+350,AIIMS PATNA,Dermatology,MD/MS,1,0,1,0,0,0
+351,AIIMS PATNA,Emergency Medicine,MD/MS,4,1,1,0,1,1
+352,AIIMS PATNA,ENT,MD/MS,1,1,0,0,0,0
+353,AIIMS PATNA,Forensic Medicine and Toxicology,MD/MS,1,0,1,0,0,0
+354,AIIMS PATNA,General Medicine,MD/MS,4,2,1,0,1,0
+355,AIIMS PATNA,General Surgery,MD/MS,4,2,0,1,1,0
+356,AIIMS PATNA,Microbiology,MD/MS,1,1,0,0,0,0
+357,AIIMS PATNA,Obstetrics & Gynecology,MD/MS,6,2,2,1,0,1
+358,AIIMS PATNA,Ophthalmology,MD/MS,2,1,0,0,0,1
+359,AIIMS PATNA,Orthopaedics,MD/MS,3,1,1,0,1,0
+360,AIIMS PATNA,Pediatrics,MD/MS,5,2,1,0,1,1
+361,AIIMS PATNA,Pathology,MD/MS,4,3,1,0,0,0
+362,AIIMS PATNA,Pharmacology,MD/MS,1,1,0,0,0,0
+363,AIIMS PATNA,Physical Medicine and Rehabilitation,MD/MS,1,1,0,0,0,0
+364,AIIMS PATNA,Physiology,MD/MS,2,0,1,1,0,0
+365,AIIMS PATNA,Psychiatry,MD/MS,2,1,0,1,0,0
+366,AIIMS PATNA,Radiation Oncology,MD/MS,1,1,0,0,0,0
+367,AIIMS PATNA,Radiodiagnosis,MD/MS,4,2,1,0,0,1
+368,AIIMS PATNA,Transfusion Medicine,MD/MS,1,1,0,0,0,0
+369,AIIMS PATNA,Cardiothoracic and Vascular Surgery (MCh 6 Years),DM/MCH (06 YEARS),1,1,0,0,0,0
+370,AIIMS PATNA,Paediatric Surgery (MCh 6 Years),DM/MCH (06 YEARS),1,1,0,0,0,0
+371,AIIMS PATNA,Surgical gastroenterology (MCh 6 Years),DM/MCH (06 YEARS),1,1,0,0,0,0
+372,AIIMS PATNA,Trauma Surgery & Critical Care (MCh 6 Years),DM/MCH (06 YEARS),3,3,0,0,0,0
+373,AIIMS PATNA,Oral & Maxillofacial Surgery,MDS,1,0,0,1,0,0
+374,AIIMS RAEBARELI,Anesthesiology,MD/MS,5,2,2,1,0,0
+375,AIIMS RAEBARELI,Anatomy,MD/MS,2,2,0,0,0,0
+376,AIIMS RAEBARELI,Biochemistry,MD/MS,2,1,1,0,0,0
+377,AIIMS RAEBARELI,Community Medicine,MD/MS,3,2,1,0,0,0
+378,AIIMS RAEBARELI,General Medicine,MD/MS,5,2,1,1,1,0
+379,AIIMS RAEBARELI,Microbiology,MD/MS,2,0,1,1,0,0
+380,AIIMS RAEBARELI,Obstetrics & Gynecology,MD/MS,4,2,1,1,0,0
+381,AIIMS RAEBARELI,Ophthalmology,MD/MS,2,1,1,0,0,0
+382,AIIMS RAEBARELI,Orthopaedics,MD/MS,3,1,1,0,0,1
+383,AIIMS RAEBARELI,ENT,MD/MS,2,1,0,0,0,1
+384,AIIMS RAEBARELI,Pediatrics,MD/MS,4,1,1,1,1,0
+385,AIIMS RAEBARELI,Pathology,MD/MS,2,2,0,0,0,0
+386,AIIMS RAEBARELI,Psychiatry,MD/MS,2,1,0,1,0,0
+387,AIIMS RAEBARELI,General Surgery,MD/MS,5,2,2,0,0,1
+388,AIIMS RAEBARELI,Transfusion Medicine,MD/MS,2,0,0,1,1,0
+389,AIIMS RAEBARELI,Forensic Medicine,MD/MS,2,1,0,0,0,1
+390,AIIMS RAEBARELI,Pediatric Surgery (MCh 6 Years),DM/MCH (06 YEARS),2,2,0,0,0,0
+391,AIIMS RAIPUR,Anesthesiology,MD/MS,8,3,2,1,1,1
+392,AIIMS RAIPUR,Anatomy,MD/MS,3,2,0,0,1,0
+393,AIIMS RAIPUR,Biochemistry,MD/MS,2,1,1,0,0,0
+394,AIIMS RAIPUR,Community Medicine,MD/MS,6,2,2,1,0,1
+395,AIIMS RAIPUR,Dermatology,MD/MS,2,0,1,0,0,1
+396,AIIMS RAIPUR,Emergency Medicine,MD/MS,4,2,1,1,0,0
+397,AIIMS RAIPUR,ENT,MD/MS,2,1,0,0,1,0
+398,AIIMS RAIPUR,Family Medicine,MD/MS,1,0,0,1,0,0
+399,AIIMS RAIPUR,Forensic Medicine and Toxicology,MD/MS,2,1,0,0,1,0
+400,AIIMS RAIPUR,General Medicine,MD/MS,7,3,2,1,1,0
+401,AIIMS RAIPUR,General Surgery,MD/MS,6,3,1,1,0,1
+402,AIIMS RAIPUR,Microbiology,MD/MS,3,1,1,0,0,1
+403,AIIMS RAIPUR,Nuclear Medicine,MD/MS,1,0,0,0,1,0
+404,AIIMS RAIPUR,Obstetrics & Gynecology,MD/MS,5,2,2,1,0,0
+405,AIIMS RAIPUR,Ophthalmology,MD/MS,6,3,2,1,0,0
+406,AIIMS RAIPUR,Orthopaedics,MD/MS,4,2,1,1,0,0
+407,AIIMS RAIPUR,Pediatrics,MD/MS,4,1,2,1,0,0
+408,AIIMS RAIPUR,Pathology,MD/MS,4,2,1,0,0,1
+409,AIIMS RAIPUR,Pharmacology,MD/MS,2,0,1,1,0,0
+410,AIIMS RAIPUR,Physical Medicine and Rehabilitation,MD/MS,2,1,0,1,0,0
+411,AIIMS RAIPUR,Physiology,MD/MS,1,0,1,0,0,0
+412,AIIMS RAIPUR,Psychiatry,MD/MS,3,1,1,0,0,1
+413,AIIMS RAIPUR,Radiodiagnosis,MD/MS,3,1,1,0,0,1
+414,AIIMS RAIPUR,Radiotherapy,MD/MS,1,0,0,1,0,0
+415,AIIMS RAIPUR,Transfusion Medicine,MD/MS,2,1,0,0,0,1
+416,AIIMS RAIPUR,Cardiothoracic and Vascular Surgery (MCh 6 Years),DM/MCH (06 YEARS),1,1,0,0,0,0
+417,AIIMS RAIPUR,Oral & Maxillofacial Surgery,MDS,1,1,0,0,0,0
+418,AIIMS RAIPUR,Pediatrics and Preventive Dentistry,MDS,1,0,0,1,0,0
+419,AIIMS RAJKOT,Anesthesiology,MD/MS,7,4,2,0,0,1
+420,AIIMS RAJKOT,Anatomy,MD/MS,3,2,1,0,0,0
+421,AIIMS RAJKOT,Biochemistry,MD/MS,1,0,0,0,0,1
+422,AIIMS RAJKOT,Community and Family Medicine,MD/MS,2,1,0,1,0,0
+423,AIIMS RAJKOT,Dermatology & Venerology,MD/MS,2,1,0,1,0,0
+424,AIIMS RAJKOT,Family Medicine,MD/MS,2,0,1,1,0,0
+425,AIIMS RAJKOT,Forensic Medicine and Toxicology,MD/MS,2,1,1,0,0,0
+426,AIIMS RAJKOT,General Medicine,MD/MS,1,1,0,0,0,0
+427,AIIMS RAJKOT,General Surgery,MD/MS,3,1,1,0,0,1
+428,AIIMS RAJKOT,Microbiology,MD/MS,1,0,0,0,0,1
+429,AIIMS RAJKOT,Obstetrics & Gynecology,MD/MS,3,0,1,1,1,0
+430,AIIMS RAJKOT,Ophthalmology,MD/MS,2,1,0,0,1,0
+431,AIIMS RAJKOT,Orthopaedics,MD/MS,1,0,0,0,1,0
+432,AIIMS RAJKOT,Otorhinolaryngology (ENT),MD/MS,2,1,1,0,0,0
+433,AIIMS RAJKOT,Pediatrics,MD/MS,2,0,1,0,1,0
+434,AIIMS RAJKOT,Pathology,MD/MS,4,1,1,1,0,1
+435,AIIMS RAJKOT,Pharmacology,MD/MS,1,1,0,0,0,0
+436,AIIMS RAJKOT,Physiology,MD/MS,2,0,1,1,0,0
+437,AIIMS RAJKOT,Psychiatry,MD/MS,2,2,0,0,0,0
+438,AIIMS RAJKOT,Radiodiagnosis,MD/MS,1,1,0,0,0,0
+439,AIIMS RAJKOT,Radiation Oncology,MD/MS,3,2,0,1,0,0
+440,AIIMS RAJKOT,Conservative Dentistry & Endodontics,MDS,1,0,1,0,0,0
+441,AIIMS RAJKOT,Pedodontics and Preventive Dentistry,MDS,1,0,1,0,0,0
+442,AIIMS RISHIKESH,Anesthesiology,MD/MS,8,4,2,1,0,1
+443,AIIMS RISHIKESH,Anatomy,MD/MS,3,2,0,1,0,0
+444,AIIMS RISHIKESH,Biochemistry,MD/MS,3,1,0,0,1,1
+445,AIIMS RISHIKESH,Community Medicine,MD/MS,4,1,1,1,1,0
+446,AIIMS RISHIKESH,Dermatology & Venerology,MD/MS,2,0,1,0,1,0
+447,AIIMS RISHIKESH,Diagnostic & Interventional Radiology,MD/MS,5,2,1,1,0,1
+448,AIIMS RISHIKESH,Emergency Medicine,MD/MS,7,2,2,1,1,1
+449,AIIMS RISHIKESH,Otorhinolaryngology,MD/MS,6,3,1,1,0,1
+450,AIIMS RISHIKESH,Forensic Medicine and Toxicology,MD/MS,1,1,0,0,0,0
+451,AIIMS RISHIKESH,General Medicine,MD/MS,6,2,2,1,1,0
+452,AIIMS RISHIKESH,Geriatric Medicine,MD/MS,2,1,1,0,0,0
+453,AIIMS RISHIKESH,General Surgery,MD/MS,5,0,2,1,1,1
+454,AIIMS RISHIKESH,Microbiology,MD/MS,4,1,1,1,0,1
+455,AIIMS RISHIKESH,Nuclear Medicine,MD/MS,3,1,1,0,1,0
+456,AIIMS RISHIKESH,Obstetrics & Gynecology,MD/MS,6,4,1,1,0,0
+457,AIIMS RISHIKESH,Ophthalmology,MD/MS,7,2,2,1,1,1
+458,AIIMS RISHIKESH,Orthopaedics,MD/MS,4,2,1,1,0,0
+459,AIIMS RISHIKESH,Pediatrics,MD/MS,6,3,2,1,0,0
+460,AIIMS RISHIKESH,Pathology,MD/MS,8,2,3,1,1,1
+461,AIIMS RISHIKESH,Pharmacology,MD/MS,2,1,1,0,0,0
+462,AIIMS RISHIKESH,Physical Medicine and Rehabilitation,MD/MS,2,1,1,0,0,0
+463,AIIMS RISHIKESH,Physiology,MD/MS,1,1,0,0,0,0
+464,AIIMS RISHIKESH,Psychiatry,MD/MS,2,2,0,0,0,0
+465,AIIMS RISHIKESH,Radiation Oncology,MD/MS,2,1,1,0,0,0
+466,AIIMS RISHIKESH,Respiratory Medicine,MD/MS,3,1,1,1,0,0
+467,AIIMS RISHIKESH,Transfusion Medicine,MD/MS,4,1,1,1,0,1
+468,AIIMS RISHIKESH,Cardiothoracic and Vascular Surgery (MCh 6 Years),DM/MCH (06 YEARS),3,3,0,0,0,0
+469,AIIMS RISHIKESH,Paediatric Surgery (MCh 6 Years),DM/MCH (06 YEARS),3,3,0,0,0,0
+470,AIIMS RISHIKESH,Plastic and Reconstructive & Burns Surgery (MCh 6 Years),DM/MCH (06 YEARS),1,1,0,0,0,0
+471,AIIMS RISHIKESH,Trauma Surgery & Critical Care (MCh 6 Years),DM/MCH (06 YEARS),2,2,0,0,0,0
+472,AIIMS RISHIKESH,Urology,DM/MCH (06 YEARS),1,1,0,0,0,0
+473,AIIMS RISHIKESH,Oral & Maxillofacial Surgery,MDS,2,1,1,0,0,0
+474,AIIMS RISHIKESH,Periodontology,MDS,1,1,0,0,0,0
+475,JIPMER PUDUCHERRY,Anesthesiology,MD/MS,9,0,0,0,0,0
+476,JIPMER PUDUCHERRY,Anatomy,MD/MS,3,0,0,0,0,0
+477,JIPMER PUDUCHERRY,Biochemistry,MD/MS,3,0,0,0,0,0
+478,JIPMER PUDUCHERRY,Community Medicine,MD/MS,3,0,0,0,0,0
+479,JIPMER PUDUCHERRY,Dermatology & Venerology & Leprology,MD/MS,4,0,0,0,0,0
+480,JIPMER PUDUCHERRY,Emergency Medicine,MD/MS,3,0,0,0,0,0
+481,JIPMER PUDUCHERRY,Forensic Medicine,MD/MS,2,0,0,0,0,0
+482,JIPMER PUDUCHERRY,General Medicine,MD/MS,12,0,0,0,0,0
+483,JIPMER PUDUCHERRY,Immunohematology and  Blood Transfusion,MD/MS,1,0,0,0,0,0
+484,JIPMER PUDUCHERRY,Microbiology,MD/MS,3,0,0,0,0,0
+485,JIPMER PUDUCHERRY,Nuclear Medicine,MD/MS,1,0,0,0,0,0
+486,JIPMER PUDUCHERRY,Pathology,MD/MS,4,0,0,0,0,0
+487,JIPMER PUDUCHERRY,Pediatrics,MD/MS,10,0,0,0,0,0
+488,JIPMER PUDUCHERRY,Pharmacology,MD/MS,3,0,0,0,0,0
+489,JIPMER PUDUCHERRY,Physiology,MD/MS,3,0,0,0,0,0
+490,JIPMER PUDUCHERRY,Physical Medicine and Rehabilitation,MD/MS,1,0,0,0,0,0
+491,JIPMER PUDUCHERRY,Psychiatry,MD/MS,2,0,0,0,0,0
+492,JIPMER PUDUCHERRY,Pulmonary medicine,MD/MS,3,0,0,0,0,0
+493,JIPMER PUDUCHERRY,Radiodiagnosis,MD/MS,6,0,0,0,0,0
+494,JIPMER PUDUCHERRY,Radiation Oncology,MD/MS,4,0,0,0,0,0
+495,JIPMER PUDUCHERRY,General Surgery,MD/MS,11,0,0,0,0,0
+496,JIPMER PUDUCHERRY,Obstetrics & Gynecology,MD/MS,11,0,0,0,0,0
+497,JIPMER PUDUCHERRY,Ophthalmology,MD/MS,5,0,0,0,0,0
+498,JIPMER PUDUCHERRY,Orthopaedics Surgery,MD/MS,4,0,0,0,0,0
+499,JIPMER PUDUCHERRY,Otorhinolaryngology (ENT),MD/MS,4,0,0,0,0,0
+500,JIPMER PUDUCHERRY,Neurosurgery (MCh 6 years),DM/MCH (06 YEARS),1,0,0,0,0,0
+501,JIPMER PUDUCHERRY,Paediatric Surgery (MCh 6 Years),DM/MCH (06 YEARS),1,0,0,0,0,0
+502,NIMHANS BENGALURU,Psychiatry,MD/MS,14,7,3,1,1,2
+503,NIMHANS BENGALURU,Psychiatry (Karnataka Domicile),MD/MS,5,4,0,0,1,0
+504,NIMHANS BENGALURU,Psychiatry (Northeastern Domicile),MD/MS,4,4,0,0,0,0
+506,NIMHANS BENGALURU,Neurosurgery (MCh 6 years),DM/MCH (06 YEARS),2,2,0,0,0,0
+507,PGIMER CHANDIGARH,Anaesthesia and Intensive Care,MD/MS,18,9,5,2,2,0
+508,PGIMER CHANDIGARH,Biochemistry,MD/MS,1,1,0,0,0,0
+509,PGIMER CHANDIGARH,Community Medicine,MD/MS,2,1,0,0,1,0
+510,PGIMER CHANDIGARH,Dermatology & Venerology & Leprology,MD/MS,2,1,1,0,0,0
+511,PGIMER CHANDIGARH,Otorhinolaryngology,MD/MS,3,2,0,1,0,0
+512,PGIMER CHANDIGARH,Forensic Medicine,MD/MS,1,0,1,0,0,0
+513,PGIMER CHANDIGARH,Medicine,MD/MS,16,8,4,3,1,0
+514,PGIMER CHANDIGARH,Microbiology,MD/MS,3,2,0,1,,0
+515,PGIMER CHANDIGARH,Nuclear Medicine,MD/MS,2,1,0,0,1,0
+516,PGIMER CHANDIGARH,Obstetrics & Gynecology,MD/MS,7,4,2,1,0,0
+517,PGIMER CHANDIGARH,Ophthalmology,MD/MS,7,4,2,1,0,0
+518,PGIMER CHANDIGARH,Orthopaedics Surgery,MD/MS,5,3,1,1,0,0
+519,PGIMER CHANDIGARH,Pathology,MD/MS,9,4,3,1,1,0
+520,PGIMER CHANDIGARH,Pediatrics,MD/MS,16,8,4,2,2,0
+521,PGIMER CHANDIGARH,Pharmacology,MD/MS,2,0,1,1,0,0
+522,PGIMER CHANDIGARH,Psychiatry,MD/MS,5,2,2,1,0,0
+523,PGIMER CHANDIGARH,Radiodiagnosis & Imaging,MD/MS,5,4,1,0,0,0
+524,PGIMER CHANDIGARH,Radiotherapy and Clinical Oncology,MD/MS,2,1,0,1,0,0
+525,PGIMER CHANDIGARH,General Surgery,MD/MS,18,9,5,3,1,0
+526,PGIMER CHANDIGARH,Transfusion Medicine,MD/MS,3,1,1,1,0,0
+527,PGIMER CHANDIGARH,Hospital Administration,MD/MS,1,0,0,1,0,0
