@@ -542,7 +542,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
             rel="noopener noreferrer"
             className="text-blue-500 font-weight: 900; hover:text-blue-900 underline font-medium text-sm lg:text-base transition-colors duration-200"
           >
-             Provisional NEET-PG  Counselling Seats Allotment -2025 Round- 1
+             NEET-PG  Counselling Seats Allotment -2025 Round- 1
           </a>
         </div>
 
