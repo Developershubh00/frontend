@@ -537,7 +537,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
         <div className="text-center mb-6 lg:mb-8">
 
           <a
-            href="/data/provisionalneetpg.pdf"
+            href="/data/neetpground1.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-500 font-weight: 900; hover:text-blue-900 underline font-medium text-sm lg:text-base transition-colors duration-200"

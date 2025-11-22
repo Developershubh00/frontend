@@ -166,11 +166,11 @@ const Sidebar: React.FC<SidebarProps> = ({
     {
       id: "universities",
       icon: GraduationCap,
-      label: "Provisional NEET-PG ",
+      label: "NEET-PG Round 1 ",
       hasSubmenu: false,
       color: "text-cyan-600",
       onClick: () => {
-        const win = window.open("/data/provisionalneetpg.pdf", "Provisional NEET-PG Round-1");
+        const win = window.open("/data/neetpground1.pdf", " NEET-PG Round-1");
         if (win) win.focus();
       },
     },
