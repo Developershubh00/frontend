@@ -115,7 +115,14 @@ const InicetSidebar: React.FC<InicetSidebarProps> = ({
       color: "text-indigo-600",
       onClick: () => navigate("/inicet/tentativesheet"),
     },
-    // 
+    {
+      id: "MyChoicelist",
+      icon: Heart,
+      label: "Qualified Candidates List",
+      hasSubmenu: false,
+      color: "text-indigo-600",
+      onClick: () => window.open("/data/Qualified_Candidates.pdf", "_blank"),
+    },
     // {
     //   id: "MyChoicelist",
     //   icon: Heart,
