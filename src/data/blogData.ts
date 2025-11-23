@@ -17314,6 +17314,436 @@ export const blogPosts: BlogPost[] = [
       ]
     }
   ]
+},
+{
+  "id": 50,
+  "title": "Assam NEET PG 2025 Counselling: Detailed Insight into Eligibility, Fees, and Bonds",
+  "slug": "assam-neet-pg-2025-counselling-detailed-insight-eligibility-fees-bonds",
+  "excerpt": "Get clear guidance on Assam NEET PG eligibility, fee structure, and bond rules to help you navigate the counselling process with confidence.",
+  "featured_image": "https://cdn.dribbble.com/userupload/45806091/file/61fae3f7b7c3a828b662e0b5c35c11f4.jpeg?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-green-100 text-green-800"
+  },
+  "tags": [
+    "Assam NEET PG Counselling",
+    "NEET PG 2025",
+    "State Counselling",
+    "MD/MS Admissions",
+    "NEET PG Eligibility",
+    "DME Assam"
+  ],
+  "published_date": "2025-11-23",
+  "read_time": 16,
+  "meta_description": "Get clear guidance on Assam NEET PG eligibility, fee structure, and bond rules to help you navigate the counselling process with confidence.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "The Assam NEET PG counselling 2025 overall process has been conducted for admissions to postgraduate medical courses that fall under the State Government Quota, State Health Quota (SHQ), and NEC Quota. The Directorate of Medical Education (DME), Assam, has supervised the whole NEET PG counselling process, either seat allotment and verification."
+    },
+    {
+      "id": "intro-guide",
+      "type": "paragraph",
+      "content": "This guide covers and provides you'll a detailed breakdown, which includes seat distribution, eligibility requirements, reservation policies, NEET PG counselling application form, steps and procedures, and fee structures for the Assam NEET PG 2025 counselling."
+    },
+    {
+      "id": "seat-distribution",
+      "type": "heading",
+      "title": "Seat Distribution in Assam NEET PG Counselling",
+      "level": 2
+    },
+    {
+      "id": "seat-distribution-intro",
+      "type": "paragraph",
+      "content": "The Assam state NEET PG seats are basically divided between the government colleges and the regional cancer institute, which are as follows:"
+    },
+    {
+      "id": "seat-distribution-list",
+      "type": "list",
+      "items": [
+        "50% seats in Government Medical Colleges in Assam (under State Government Quota)",
+        "50% seats of Dr. B Borooah Cancer Institute (RCC)"
+      ]
+    },
+    {
+      "id": "percentile-qualification",
+      "type": "heading",
+      "title": "NEET PG Percentile Qualification",
+      "level": 2
+    },
+    {
+      "id": "percentile-qualification-intro",
+      "type": "paragraph",
+      "content": "To be eligible for Assam NEET PG 2025 counselling, candidates must achieve the following percentile cutoffs:"
+    },
+    {
+      "id": "percentile-qualification-table",
+      "type": "table",
+      "headers": ["Category", "Percentile Qualification"],
+      "rows": [
+        ["OBC/MOBC/SC/ST(H)/ST(P)", "40 percentile"],
+        ["UR-PwD", "45 percentile"],
+        ["UR/EWS", "50 percentile"]
+      ]
+    },
+    {
+      "id": "percentile-note",
+      "type": "paragraph",
+      "content": "Note: OBC/MOBC candidates with the rank of 40–50 percentiles are eligible for Assam State Quota seats, but they are not eligible for All India Quota unless listed under the Central OBC-NCL list."
+    },
+    {
+      "id": "eligibility-criteria",
+      "type": "heading",
+      "title": "Eligibility Criteria for Assam NEET PG Counselling 2025",
+      "level": 2
+    },
+    {
+      "id": "eligibility-criteria-intro",
+      "type": "paragraph",
+      "content": "There are four main eligibility categories under the NEET PG counselling procedure in Assam:"
+    },
+    {
+      "id": "eligibility-criteria-list",
+      "type": "list",
+      "items": [
+        "Category 1: Permanent residents of Assam (MBBS from any state or FMG)",
+        "Category 2: MBBS graduates from Assam under 15% AIQ",
+        "Category 3: Spouse/sons/daughters of Employees of All India Services of Assam",
+        "Category 4: Candidates applying for the NEC Quota seats (from North Eastern States)"
+      ]
+    },
+    {
+      "id": "eligibility-rural-service",
+      "type": "paragraph",
+      "content": "All candidates (except NEC or All India Service dependents) must have completed one year of rural service in Assam before 10th June of the session."
+    },
+    {
+      "id": "seat-split-matrix",
+      "type": "heading",
+      "title": "Seat Split and Eligibility Matrix",
+      "level": 2
+    },
+    {
+      "id": "seat-split-matrix-table",
+      "type": "table",
+      "headers": ["Institute / Category", "Eligibility", "% of Seats", "Remarks"],
+      "rows": [
+        ["Assam State Govt Seats", "Permanent resident of Assam (MBBS from any state or 15% AIQ) + 1-year rural service", "50% of State Govt Institute Seats", "State Govt Quota"],
+        ["SHQ (State Health Quota)", "Completed ≥5 years of rural service", "37 Degree + 3 Diploma + 2 degree seats (specific departments)", "As per departmental eligibility"],
+        ["NEC Quota", "NEC recommendation from NE States (other than Assam)", "1 Degree + 1 Diploma Seat", "As per NEC eligibility"]
+      ]
+    },
+    {
+      "id": "state-health-quota",
+      "type": "heading",
+      "title": "State Health Quota (SHQ) Seats",
+      "level": 2
+    },
+    {
+      "id": "state-health-quota-intro",
+      "type": "paragraph",
+      "content": "To qualify under the State Health Quota, candidates must have:"
+    },
+    {
+      "id": "state-health-quota-list",
+      "type": "list",
+      "items": [
+        "Completed continuous 5 years or more of government service (by 31st May of the admission year).",
+        "No category-based reservation in these seats.",
+        "A service bond of 10 years / ₹25 lakhs plus salary/stipend drawn."
+      ]
+    },
+    {
+      "id": "shq-seat-details",
+      "type": "heading",
+      "title": "Seat Details:",
+      "level": 3
+    },
+    {
+      "id": "shq-seat-details-list",
+      "type": "list",
+      "items": [
+        "37 Degree Seats, 3 Diploma Seats",
+        "2 Degree Seats each in Anatomy, Physiology, Biochemistry, Forensic Medicine, Pharmacology, Microbiology, and Community Medicine."
+      ]
+    },
+    {
+      "id": "shq-incentives",
+      "type": "heading",
+      "title": "Incentives:",
+      "level": 3
+    },
+    {
+      "id": "shq-incentives-content",
+      "type": "paragraph",
+      "content": "Candidates with at least 1 year of service in remote/difficult areas receive an additional 3% per year (max 9%) in merit."
+    },
+    {
+      "id": "nec-quota-seats",
+      "type": "heading",
+      "title": "NEC Quota Seats",
+      "level": 2
+    },
+    {
+      "id": "nec-quota-seats-list",
+      "type": "list",
+      "items": [
+        "The North Eastern Council (NEC) recommends eligible candidates.",
+        "Allotment is strictly as per merit.",
+        "One Degree and one Diploma seat are reserved for NE states other than Assam."
+      ]
+    },
+    {
+      "id": "reservation-policy",
+      "type": "heading",
+      "title": "Reservation Policy in Assam NEET PG Counselling",
+      "level": 2
+    },
+    {
+      "id": "reservation-policy-table",
+      "type": "table",
+      "headers": ["Category", "Reservation %"],
+      "rows": [
+        ["Unreserved / Open", "41%"],
+        ["SC", "7%"],
+        ["ST (P)", "10%"],
+        ["ST (H)", "5%"],
+        ["OBC/MOBC (NCL)", "27%"],
+        ["EWS", "10% (Only for Assam residents)"]
+      ]
+    },
+    {
+      "id": "reservation-policy-notes",
+      "type": "list",
+      "items": [
+        "PwD candidates receive reservations as per the RPwD Act, adjusted against their respective categories.",
+        "Candidates were also allowed to update their category (if different from the NEET PG registration 2024)."
+      ]
+    },
+    {
+      "id": "application-process",
+      "type": "heading",
+      "title": "Application Process for Assam NEET PG Counselling 2025",
+      "level": 2
+    },
+    {
+      "id": "application-process-website",
+      "type": "paragraph",
+      "content": "Official Website: https://dme.assam.gov.in/"
+    },
+    {
+      "id": "application-process-steps",
+      "type": "heading",
+      "title": "Step-by-Step Procedure for NEET PG counselling application:",
+      "level": 3
+    },
+    {
+      "id": "application-process-steps-list",
+      "type": "list",
+      "items": [
+        "Register online with a valid email ID and mobile number. (Neet PG counselling registration)",
+        "Obtain the acknowledgment slip and application number.",
+        "Log in with the application number and upload documents in PDF format.",
+        "Take a printout of the completed application form."
+      ]
+    },
+    {
+      "id": "image-requirements",
+      "type": "heading",
+      "title": "Image Requirements:",
+      "level": 3
+    },
+    {
+      "id": "image-requirements-list",
+      "type": "list",
+      "items": [
+        "Photograph: JPG format, < 50 KB",
+        "Signature: JPG format, < 30 KB"
+      ]
+    },
+    {
+      "id": "documents-required",
+      "type": "heading",
+      "title": "Documents Required for NEET PG Counselling Verification",
+      "level": 2
+    },
+    {
+      "id": "documents-required-table",
+      "type": "table",
+      "headers": ["S. No", "Document", "Requirement"],
+      "rows": [
+        ["1", "NEET PG Score Card", "Original + 2 self-attested copies"],
+        ["2", "NEET PG Admit Card", "Original + 2 self-attested copies"],
+        ["3", "Date of Birth Proof (10th Certificate)", "Original + 2 copies"],
+        ["4", "Class XII Marksheet", "Original + 2 copies"],
+        ["5", "MBBS Degree/Provisional Certificate", "Original + 2 copies"],
+        ["6", "MBBS Marksheets", "Original + 2 copies"],
+        ["7", "Internship Completion Certificate", "Original + 2 copies"],
+        ["8", "Permanent Registration (State/MCI)", "Original + 2 copies"],
+        ["9", "Permanent Resident Certificate (if applicable)", "Original + 2 copies"],
+        ["10", "Caste/EWS Certificate", "Original + 2 copies"],
+        ["11", "PwD Certificate (if applicable)", "Original + 2 copies"],
+        ["12", "Rural/Remote Service Certificate", "Original + 2 copies"],
+        ["13", "NOC for In-service Doctors", "Original + 2 copies"],
+        ["14", "Relieving Order (if employed)", "Original + 2 copies"],
+        ["15", "Bond Agreement", "On ₹100 stamp paper"],
+        ["16", "Declaration Form", "Printed and filled"]
+      ]
+    },
+    {
+      "id": "fee-details",
+      "type": "heading",
+      "title": "Fee Details and Refund Policy",
+      "level": 2
+    },
+    {
+      "id": "fee-details-table",
+      "type": "table",
+      "headers": ["Type", "Amount / Details"],
+      "rows": [
+        ["Registration Fee", "₹1000 (at form submission)"],
+        ["Deduction (Resigning before the deadline)", "10% deduction (90% refund)"],
+        ["Penalty (After deadline)", "₹10 Lakhs for Degree / ₹5 Lakhs for Diploma"],
+        ["Stipend Refund", "Must return the stipend received"]
+      ]
+    },
+    {
+      "id": "tuition-fees",
+      "type": "heading",
+      "title": "Tuition Fees:",
+      "level": 3
+    },
+    {
+      "id": "tuition-fees-table",
+      "type": "table",
+      "headers": ["Institute", "Annual Fee"],
+      "rows": [
+        ["Govt Institutes", "₹25,900 – ₹27,300"],
+        ["LGBRIMH", "₹50,000"],
+        ["Dr. B Borooah Cancer Institute", "1st Year ₹1,05,000"]
+      ]
+    },
+    {
+      "id": "service-bond",
+      "type": "heading",
+      "title": "Service Bond and Penalty Structure",
+      "level": 2
+    },
+    {
+      "id": "service-bond-table",
+      "type": "table",
+      "headers": ["Category", "Bond Duration", "Penalty"],
+      "rows": [
+        ["Govt Seats (AIQ & State Quota)", "Degree: 2 yrs / Diploma: 2 yrs", "₹20L / ₹15L"],
+        ["In-Service Candidates", "10 yrs", "₹25L + stipend"],
+        ["Dr. B Borooah Cancer Institute", "1 yr", "₹25L + GST"]
+      ]
+    },
+    {
+      "id": "service-bond-note",
+      "type": "paragraph",
+      "content": "The Government of Assam may release candidates earlier if their services are no longer required."
+    },
+    {
+      "id": "stipend-structure",
+      "type": "heading",
+      "title": "Stipend Structure",
+      "level": 2
+    },
+    {
+      "id": "stipend-structure-table",
+      "type": "table",
+      "headers": ["Year", "Govt Institutes", "Dr. B Borooah Cancer Institute"],
+      "rows": [
+        ["1st Year", "₹55,200", "₹1,05,840"],
+        ["2nd Year", "₹56,925", "₹1,08,360"],
+        ["3rd Year", "₹58,650", "₹1,12,140"]
+      ]
+    },
+    {
+      "id": "final-takeaway",
+      "type": "heading",
+      "title": "Final Takeaway",
+      "level": 2
+    },
+    {
+      "id": "final-takeaway-content",
+      "type": "paragraph",
+      "content": "The Assam NEET PG counselling 2025 process ensures that the fair seat allotment comes under the various quotas, which include the State Government Quota, State Health Quota, and NEC Quota. Perfectly understanding towards the eligibility, reservation rules, bond obligations, and overall fee details in advance which helps every candidate to make informed decisions during the choice filling and seat acceptance stages."
+    },
+    {
+      "id": "final-takeaway-closing",
+      "type": "paragraph",
+      "content": "Whether you are applying through the NEC Quota, in-service quota, or state quota, every step, from NEET PG registration to counselling rounds, must be followed carefully through the official DME Assam counselling portal."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "5 Concise FAQs",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1: What are the registration dates for Assam NEET PG 2025 Round 1?",
+          "answer": "There will be an online registration for Round 1which starts from November 19 to November 20, 2025 (midnight). On the other hand, the choice filling starts from November 21 to November 23, 2025 (5 PM)."
+        },
+        {
+          "question": "Q2: Is one year of rural service mandatory for all applicants?",
+          "answer": "Yes, this is correct. There will be one year of rural service in Assam ( which has been completed before June 10th of the session) as it is mandatory for most State Quota categories."
+        },
+        {
+          "question": "Q3: What are the service bond penalties in Assam?",
+          "answer": "This is especially for government seats; there will be a penalty of ₹20 lakh for a degree and ₹15 lakh for a diploma. For in-service, it is ₹25 lakh plus the stipend candidates will receive."
+        },
+        {
+          "question": "Q4: What are the application and security deposit fees for the General category?",
+          "answer": "The non-refundable application fee would be ₹1,000. Or the refundable security deposit for the General category is a total of ₹25,000."
+        },
+        {
+          "question": "Q5: Are candidates from other states eligible for the Assam State Quota?",
+          "answer": "No, the Assam State Quota is very much reserved for permanent residents of Assam. However, all the candidates from other North-Eastern states can apply through the NEC Quota."
+        }
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "assam neet pg counselling",
+        "neet pg counselling",
+        "assam neet pg 2025 counselling",
+        "assam neet pg counselling 2025",
+        "neet pg counselling application form",
+        "neet pg counselling choice filling",
+        "neet pg counselling seat matrix",
+        "neet pg counselling seat allotment",
+        "neet pg counselling round",
+        "neet pg counselling application",
+        "neet pg counselling details",
+        "neet pg counselling payment",
+        "neet pg counselling registration fees",
+        "neet pg counselling rules",
+        "neet pg rank seat allotment"
+      ]
+    }
+  ]
 }
 
 ];
