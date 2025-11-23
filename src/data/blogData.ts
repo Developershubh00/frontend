@@ -16915,6 +16915,405 @@ export const blogPosts: BlogPost[] = [
       "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
     }
   ]
+},
+{
+  "id": 49,
+  "title": "What Top-1000 NEET PG Ranks Revealed: Branch Choices, Trends, and Leading Colleges",
+  "slug": "what-top-1000-neet-pg-ranks-revealed-branch-choices-trends-leading-colleges",
+  "excerpt": "Top-1000 NEET PG trends uncover preferred branches, shifting choices, and premier colleges shaping aspirants' career paths.",
+  "featured_image": "https://cdn.dribbble.com/userupload/45805966/file/57e92a9daeed7a23399b88c5a5c05b6b.jpeg?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-green-100 text-green-800"
+  },
+  "tags": [
+    "NEET PG Ranks",
+    "MD General Medicine",
+    "MD Radiology",
+    "MS Surgery",
+    "MD Nuclear Medicine",
+    "Medical Careers"
+  ],
+  "published_date": "2025-11-23",
+  "read_time": 15,
+  "meta_description": "Top-1000 NEET PG trends uncover preferred branches, shifting choices, and premier colleges shaping aspirants' career paths.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "The top-1000 rankers in NEET PG consistently set trends that influence thousands of aspirants every year. Their choices often reflect training quality, long-term career scope, and institutional reputation. By looking closely at the distribution of seats taken by toppers, the emerging patterns become clear: some specialties dominate, some maintain steady demand, and a few unexpected 'dark-horse' branches are beginning to shine."
+    },
+    {
+      "id": "intro-purpose",
+      "type": "paragraph",
+      "content": "This blog breaks down the seat distribution among the top-1000 ranks, key observations, and the top colleges chosen in each speciality."
+    },
+    {
+      "id": "seats-breakdown",
+      "type": "heading",
+      "title": "Seats Taken by Each Branch in Top-1000: A Clear Breakdown",
+      "level": 2
+    },
+    {
+      "id": "seats-breakdown-intro",
+      "type": "paragraph",
+      "content": "A speciality-wise summary reveals how toppers are thinking and what they prioritise:"
+    },
+    {
+      "id": "md-general-medicine",
+      "type": "heading",
+      "title": "1. MD General Medicine",
+      "level": 3
+    },
+    {
+      "id": "md-general-medicine-list",
+      "type": "list",
+      "items": [
+        "Approximately 40% of all parsed top-1000 allotments.",
+        "Continues to be one of the most sought-after and competitive branches."
+      ]
+    },
+    {
+      "id": "radio-diagnosis",
+      "type": "heading",
+      "title": "2. Radio-Diagnosis",
+      "level": 3
+    },
+    {
+      "id": "radio-diagnosis-list",
+      "type": "list",
+      "items": [
+        "Accounts for around 30% of the choices.",
+        "Highly preferred but still less dominant than Medicine."
+      ]
+    },
+    {
+      "id": "surgery-surgical-specialties",
+      "type": "heading",
+      "title": "3. Surgery + Surgical Specialties",
+      "level": 3
+    },
+    {
+      "id": "surgery-surgical-specialties-list",
+      "type": "list",
+      "items": [
+        "Includes MS General Surgery, Orthopaedics, ENT, Ophthalmology, and others.",
+        "Combined, they form low double digits to nearly 10%, depending on grouping."
+      ]
+    },
+    {
+      "id": "remaining-specialties",
+      "type": "heading",
+      "title": "4. Remaining Specialties",
+      "level": 3
+    },
+    {
+      "id": "remaining-specialties-list",
+      "type": "list",
+      "items": [
+        "Paediatrics, Anaesthesia, Pathology, Dermatology, Obstetrics & Gynaecology, Psychiatry, etc.",
+        "Each specialty individually ranges from single-digit numbers to about 30–40 seats.",
+        "These collectively make up the rest of the placements."
+      ]
+    },
+    {
+      "id": "detailed-specialty-table",
+      "type": "heading",
+      "title": "Detailed Specialty-Wise Table (Top-1000 Allotments)",
+      "level": 2
+    },
+    {
+      "id": "detailed-specialty-table-intro",
+      "type": "paragraph",
+      "content": "Below is the complete table exactly as provided, formatted neatly for clarity:"
+    },
+    {
+      "id": "specialty-table",
+      "type": "table",
+      "headers": ["S.No.", "Course", "Candidates"],
+      "rows": [
+        ["1", "—", "0"],
+        ["2", "(NBEMS–Diploma) Radio-Diagnosis", "1"],
+        ["3", "(NBEMS) Dermatology, Venereology & Leprosy", "1"],
+        ["4", "(NBEMS) Ophthalmology", "1"],
+        ["5", "(NBEMS) General Medicine", "15"],
+        ["6", "(NBEMS) Nuclear Medicine", "3"],
+        ["7", "(NBEMS) Radio-Diagnosis", "31"],
+        ["8", "M.D. (Anaesthesiology)", "1"],
+        ["9", "M.D. (Dermatology / Venerology / Leprosy / Skin & Venereal Diseases)", "67"],
+        ["10", "M.D. (General Medicine)", "373"],
+        ["11", "M.D./M.S. (Obstetrics & Gynaecology)", "39"],
+        ["12", "M.D. (Paediatrics)", "36"],
+        ["13", "M.D. (Psychiatry)", "2"],
+        ["14", "M.D. (Radio-Diagnosis)", "279"],
+        ["15", "M.D. (Nuclear Medicine)", "8"],
+        ["16", "M.S. (Ophthalmology)", "3"],
+        ["17", "M.S. (ENT)", "1"],
+        ["18", "M.S. (General Surgery)", "53"],
+        ["19", "M.S. (Orthopaedics)", "14"],
+        ["—", "Grand Total", "928"]
+      ]
+    },
+    {
+      "id": "key-observations",
+      "type": "heading",
+      "title": "Key Observations & Trends from the Top-1000 Choices",
+      "level": 2
+    },
+    {
+      "id": "key-observations-intro",
+      "type": "paragraph",
+      "content": "A closer analysis of the allotments reveals strong and consistent trends:"
+    },
+    {
+      "id": "medicine-dominates",
+      "type": "heading",
+      "title": "1. Medicine Dominates the Top Segment",
+      "level": 3
+    },
+    {
+      "id": "medicine-dominates-list",
+      "type": "list",
+      "items": [
+        "A significantly large proportion of toppers chose MD General Medicine.",
+        "It continues to be the primary preference among the highest ranks."
+      ]
+    },
+    {
+      "id": "radiology-popularity",
+      "type": "heading",
+      "title": "2. Radiology Retains High Popularity",
+      "level": 3
+    },
+    {
+      "id": "radiology-popularity-list",
+      "type": "list",
+      "items": [
+        "Remains one of the most preferred specialties.",
+        "Many toppers opt for Radio-Diagnosis, though not as overwhelming as Medicine."
+      ]
+    },
+    {
+      "id": "surgery-less-popular",
+      "type": "heading",
+      "title": "3. Surgery and Surgical Branches Are Less Popular Among Toppers",
+      "level": 3
+    },
+    {
+      "id": "surgery-less-popular-list",
+      "type": "list",
+      "items": [
+        "These branches are taken less frequently by the top 1000.",
+        "The choices are more widely distributed across institutes, unlike Medicine or Radiology."
+      ]
+    },
+    {
+      "id": "nuclear-medicine-dark-horse",
+      "type": "heading",
+      "title": "4. Nuclear Medicine Emerges as a 'Dark Horse'",
+      "level": 3
+    },
+    {
+      "id": "nuclear-medicine-dark-horse-intro",
+      "type": "paragraph",
+      "content": "Despite small absolute numbers, it shows highly concentrated picks."
+    },
+    {
+      "id": "nuclear-medicine-dark-horse-list",
+      "type": "list",
+      "items": [
+        "Top top-ranked choosing Nuclear Medicine often select premier centres like: Tata Memorial Centre and SGPGI",
+        "The branch is gaining recognition among toppers seeking niche, high-technology fields."
+      ]
+    },
+    {
+      "id": "top-colleges",
+      "type": "heading",
+      "title": "Top Colleges Chosen by Toppers (Speciality-wise)",
+      "level": 2
+    },
+    {
+      "id": "md-medicine-colleges",
+      "type": "heading",
+      "title": "MD (General Medicine): Leading Institutions",
+      "level": 3
+    },
+    {
+      "id": "md-medicine-colleges-intro",
+      "type": "paragraph",
+      "content": "Top-1000 candidates choosing Medicine frequently selected the following renowned centres:"
+    },
+    {
+      "id": "md-medicine-colleges-list",
+      "type": "list",
+      "items": [
+        "PGIMER / Dr. RML Hospital, New Delhi — numerous occurrences.",
+        "Madras Medical College, Chennai — repeatedly chosen.",
+        "Sawai Man Singh Medical College, Jaipur — frequent picks."
+      ]
+    },
+    {
+      "id": "md-radiology-colleges",
+      "type": "heading",
+      "title": "MD (Radio-Diagnosis): Most Common Allotments",
+      "level": 3
+    },
+    {
+      "id": "md-radiology-colleges-intro",
+      "type": "paragraph",
+      "content": "Radiology candidates predominantly gravitated toward:"
+    },
+    {
+      "id": "md-radiology-colleges-list",
+      "type": "list",
+      "items": [
+        "Vardhman Mahavir Medical College (VMMC), New Delhi — very frequent.",
+        "Maulana Azad Medical College (MAMC), Delhi — regularly chosen.",
+        "Seth GS Medical College / Grant Medical College (Mumbai) and other major Mumbai colleges — numerous selections."
+      ]
+    },
+    {
+      "id": "ms-surgery-colleges",
+      "type": "heading",
+      "title": "MS (General Surgery): Popular Training Centres",
+      "level": 3
+    },
+    {
+      "id": "ms-surgery-colleges-intro",
+      "type": "paragraph",
+      "content": "Surgery choices were more spread out, but several institutes appeared consistently:"
+    },
+    {
+      "id": "ms-surgery-colleges-list",
+      "type": "list",
+      "items": [
+        "PGIMER / RML Hospital",
+        "Grant Medical College, Mumbai",
+        "Madras Medical College",
+        "Major state medical colleges, including: Sawai Man Singh, Jaipur and Osmania Medical College, and others."
+      ]
+    },
+    {
+      "id": "ms-orthopaedics-colleges",
+      "type": "heading",
+      "title": "MS (Orthopaedics): High-Volume Training Hubs",
+      "level": 3
+    },
+    {
+      "id": "ms-orthopaedics-colleges-intro",
+      "type": "paragraph",
+      "content": "Orthopaedics choices indicate a wide distribution across reputed centres:"
+    },
+    {
+      "id": "ms-orthopaedics-colleges-list",
+      "type": "list",
+      "items": [
+        "Rangaraya Medical College",
+        "Major Government orthopaedic centres across Goa, Chennai, and other states.",
+        "Multiple DNB hospitals, showing repeated appearances."
+      ]
+    },
+    {
+      "id": "md-nuclear-medicine-colleges",
+      "type": "heading",
+      "title": "MD (Nuclear Medicine): Highly Focused Picks",
+      "level": 3
+    },
+    {
+      "id": "md-nuclear-medicine-colleges-intro",
+      "type": "paragraph",
+      "content": "Though limited in number, selections showed a strong preference for specialised centres:"
+    },
+    {
+      "id": "md-nuclear-medicine-colleges-list",
+      "type": "list",
+      "items": [
+        "Tata Memorial Centre, Mumbai",
+        "Other top-tier Radiation and Nuclear Medicine centres",
+        "These institutions form the core training hubs for this niche specialty."
+      ]
+    },
+    {
+      "id": "dnb-quotas",
+      "type": "heading",
+      "title": "The Role of DNB Quotas and NBEMS Hospitals",
+      "level": 2
+    },
+    {
+      "id": "dnb-quotas-intro",
+      "type": "paragraph",
+      "content": "Across multiple specialities, DNB institutions consistently appeared in the top 1000 choices. Some of the repeatedly selected centres include:"
+    },
+    {
+      "id": "dnb-quotas-list",
+      "type": "list",
+      "items": [
+        "Sir Ganga Ram Hospital",
+        "Apollo Hospitals",
+        "HCG",
+        "Kokilaben Hospital",
+        "Other private super-speciality chains",
+        "Their recurrent presence underscores the reputation and training quality offered through NBEMS/DNB pathways."
+      ]
+    },
+    {
+      "id": "conclusion",
+      "type": "heading",
+      "title": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "conclusion-intro",
+      "type": "paragraph",
+      "content": "The top-1000 NEET PG choices clearly reflect:"
+    },
+    {
+      "id": "conclusion-list",
+      "type": "list",
+      "items": [
+        "MD General Medicine continues to dominate.",
+        "Radio-Diagnosis remains highly competitive.",
+        "Surgical branches observe more distributed and moderate preferences.",
+        "Nuclear Medicine is emerging as a noteworthy, concentrated pick among the best ranks.",
+        "Top institutions like PGIMER, VMMC, MAMC, MMC Chennai, Grant Medical College, and Tata Memorial remain the first choice for elite ranks.",
+        "DNB/NBEMS hospitals continue to hold strong credibility."
+      ]
+    },
+    {
+      "id": "conclusion-final",
+      "type": "paragraph",
+      "content": "This analysis provides a clear, speciality-wise insight into how toppers plan their medical careers and helps future aspirants understand current trends better."
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "neet pg ranks",
+        "md general medicine",
+        "md radiology",
+        "ms surgery",
+        "md nuclear medicine",
+        "medical careers",
+        "neet pg seat allotment",
+        "neet pg counselling",
+        "medical counselling pg",
+        "medical pg counselling",
+        "neet pg branch",
+        "choice filling in neet pg",
+        "neet pg speciality",
+        "neet pg cut off branch wise",
+        "neet pg branch rank wise",
+        "neet pg branches"
+      ]
+    }
+  ]
 }
 
 ];
