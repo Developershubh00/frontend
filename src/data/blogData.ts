@@ -16921,7 +16921,7 @@ export const blogPosts: BlogPost[] = [
   "title": "What Top-1000 NEET PG Ranks Revealed: Branch Choices, Trends, and Leading Colleges",
   "slug": "what-top-1000-neet-pg-ranks-revealed-branch-choices-trends-leading-colleges",
   "excerpt": "Top-1000 NEET PG trends uncover preferred branches, shifting choices, and premier colleges shaping aspirants' career paths.",
-  "featured_image": "https://cdn.dribbble.com/userupload/45805966/file/57e92a9daeed7a23399b88c5a5c05b6b.jpeg?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/45812896/file/a17a11a00a3e2e0f365c6f67241ecd8e.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
     "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
