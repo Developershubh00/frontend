@@ -17744,6 +17744,1167 @@ export const blogPosts: BlogPost[] = [
       ]
     }
   ]
+},
+{
+  "id": 51,
+  "title": "Chandigarh MD/MS Admissions 2025: Complete Guide to Seats, Eligibility, Process & Counselling",
+  "slug": "chandigarh-neet-pg-2025-counselling-complete-guide-seats-eligibility-process",
+  "excerpt": "Chandigarh NEET PG counselling offers clear steps for seat allotment. Know eligibility, documents, and key dates to secure your MD/MS seat smoothly.",
+  "featured_image": "https://cdn.dribbble.com/userupload/45817632/file/4d966011c06e48e4c40ba3b269a8800b.png?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-green-100 text-green-800"
+  },
+  "tags": [
+    "Chandigarh NEET PG Counselling",
+    "NEET PG 2025",
+    "State Counselling",
+    "MD/MS Admissions",
+    "NEET PG Eligibility",
+    "GMCH Chandigarh"
+  ],
+  "published_date": "2025-11-24",
+  "read_time": 18,
+  "meta_description": "Chandigarh NEET PG counselling offers clear steps for seat allotment. Know eligibility, documents, and key dates to secure your MD/MS seat smoothly.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "You know the GMCH Chandigarh has officially released its official prospectus for MD/MS admissions 2025, while delineating a clear, merit-based process that is totally based on NEET PG 2025 scores. There are 155 total seats, which are across multiple specialities, and they are allocated with clearly defined quotas. The institution follows a structured, merit-based process and a transparent admission process, especially for Chandigarh NEET PG Counselling."
+    },
+    {
+      "id": "intro-guide",
+      "type": "paragraph",
+      "content": "This guide simplifies the entire prospectus, important dates, eligibility, documents, counselling rules, NEET PG counselling seat matrix, fee structure, penalties, leave rules, academic requirements, and more into a clear, easy-to-understand blog for applicants."
+    },
+    {
+      "id": "key-dates",
+      "type": "heading",
+      "title": "1. Key Dates for MD/MS Admissions 2025",
+      "level": 2
+    },
+    {
+      "id": "key-dates-list",
+      "type": "list",
+      "items": [
+        "Prospectus availability: 07 November 2025",
+        "Application submission: 07–10 November 2025 (till 5 PM)",
+        "Deficient document list: 11–12 November 2025",
+        "Submission of deficient documents: till 13 November 2025, 10 PM",
+        "Eligible candidate list: 15 November 2025",
+        "Choice filling & Counselling rounds (including NEET PG counselling round 2 & NEET PG counselling round 3): To be announced on the GMCH website",
+        "Academic session begins: 08 December 2025"
+      ]
+    },
+    {
+      "id": "key-dates-note",
+      "type": "paragraph",
+      "content": "All updates appear exclusively on www.gmch.gov.in and form an important part of Chandigarh NEET PG 2025 counselling timelines."
+    },
+    {
+      "id": "total-seats",
+      "type": "heading",
+      "title": "2. Total Seats & Distribution",
+      "level": 2
+    },
+    {
+      "id": "total-seats-intro",
+      "type": "paragraph",
+      "content": "GMCH offers its candidates a total of 155 seats (151 + 4 additional EWS seats)."
+    },
+    {
+      "id": "aiq-seats",
+      "type": "heading",
+      "title": "A. All India Quota (AIQ)",
+      "level": 3
+    },
+    {
+      "id": "aiq-seats-content",
+      "type": "paragraph",
+      "content": "76 seats (50% of total, prohibiting the special EWS seats)"
+    },
+    {
+      "id": "state-quota-seats",
+      "type": "heading",
+      "title": "B. State Quota (UT Chandigarh)",
+      "level": 3
+    },
+    {
+      "id": "state-quota-seats-intro",
+      "type": "paragraph",
+      "content": "State Quota includes 75 seats + 4 EWS seats = 79 seats"
+    },
+    {
+      "id": "state-quota-breakdown",
+      "type": "paragraph",
+      "content": "As it includes:"
+    },
+    {
+      "id": "state-quota-breakdown-list",
+      "type": "list",
+      "items": [
+        "Institutional Preference Pool also called as (IP): 38 + 2 EWS",
+        "UT Chandigarh Pool: 37 + 2 EWS"
+      ]
+    },
+    {
+      "id": "state-quota-reservations",
+      "type": "paragraph",
+      "content": "State Quota reservations are: SC (15%), OBC (3%), PwBD (5%), and EWS as per the official guidelines."
+    },
+    {
+      "id": "state-quota-note",
+      "type": "paragraph",
+      "content": "You know the entire NEET PG counselling seat matrix is governed by NEET PG ranking and eligibility under respective pools."
+    },
+    {
+      "id": "two-pools",
+      "type": "heading",
+      "title": "3. Understanding the Two-State Quota Pools",
+      "level": 2
+    },
+    {
+      "id": "ip-pool",
+      "type": "heading",
+      "title": "A. Institutional Preference Pool (IP)",
+      "level": 3
+    },
+    {
+      "id": "ip-pool-list",
+      "type": "list",
+      "items": [
+        "This is especially for those candidates who completed MBBS from GMCH-32.",
+        "They must submit their final professional marksheet with degree proof."
+      ]
+    },
+    {
+      "id": "ut-pool",
+      "type": "heading",
+      "title": "B. UT Chandigarh Pool",
+      "level": 3
+    },
+    {
+      "id": "ut-pool-intro",
+      "type": "paragraph",
+      "content": "For candidates who completed 10th, 10+1, and 10+2 as regular students from schools recognized by the Chandigarh Administration."
+    },
+    {
+      "id": "ut-pool-affidavit",
+      "type": "heading",
+      "title": "Mandatory Affidavit (Appendix-V):",
+      "level": 4
+    },
+    {
+      "id": "ut-pool-affidavit-content",
+      "type": "paragraph",
+      "content": "All UT pool applicants must declare that they have not claimed residence in any other state/UT after NEET PG results. Failure = cancellation of candidature."
+    },
+    {
+      "id": "ut-pool-note",
+      "type": "paragraph",
+      "content": "This forms a key eligibility filter in NEET PG counselling state quota admissions."
+    },
+    {
+      "id": "category-eligibility",
+      "type": "heading",
+      "title": "4. Category-Specific Eligibility",
+      "level": 2
+    },
+    {
+      "id": "sc-candidates",
+      "type": "heading",
+      "title": "SC Candidates",
+      "level": 3
+    },
+    {
+      "id": "sc-candidates-list",
+      "type": "list",
+      "items": [
+        "Must have selected the SC category during the NEET PG form.",
+        "Must hold Chandigarh-issued SC certificate."
+      ]
+    },
+    {
+      "id": "obc-candidates",
+      "type": "heading",
+      "title": "OBC Candidates",
+      "level": 3
+    },
+    {
+      "id": "obc-candidates-list",
+      "type": "list",
+      "items": [
+        "OBC-NCL certificate from Chandigarh Administration is mandatory.",
+        "Must have selected OBC during NEET PG."
+      ]
+    },
+    {
+      "id": "ews-candidates",
+      "type": "heading",
+      "title": "EWS Candidates",
+      "level": 3
+    },
+    {
+      "id": "ews-candidates-intro",
+      "type": "paragraph",
+      "content": "Only the Chandigarh-issued EWS certificate is accepted. Family income must be < ₹8 lakh, and must not own:"
+    },
+    {
+      "id": "ews-candidates-list",
+      "type": "list",
+      "items": [
+        "5 acres of agricultural land",
+        "Flat 1000 sq ft",
+        "Plot ≥100 sq yards (municipal area) / ≥200 sq yards (non-municipal area)"
+      ]
+    },
+    {
+      "id": "pwbd-candidates",
+      "type": "heading",
+      "title": "PwBD Candidates",
+      "level": 3
+    },
+    {
+      "id": "pwbd-candidates-list",
+      "type": "list",
+      "items": [
+        "5% seats are horizontally reserved.",
+        "Must have selected PwBD in NEET PG 2025.",
+        "Disability certificate only from NMC-authorized centres."
+      ]
+    },
+    {
+      "id": "general-eligibility",
+      "type": "heading",
+      "title": "5. Eligibility Criteria (General)",
+      "level": 2
+    },
+    {
+      "id": "general-eligibility-intro",
+      "type": "paragraph",
+      "content": "To apply through AIQ or State Quota during NEET PG counselling registration:"
+    },
+    {
+      "id": "general-eligibility-list",
+      "type": "list",
+      "items": [
+        "Indian citizen (OCI pre-04.03.2021 allowed under the General category).",
+        "Must have scored: 50th percentile – General/EWS/OCI, 45th percentile – General PwBD, 40th percentile – SC/OBC (including PwBD)",
+        "Must complete internship by 31 July 2025.",
+        "Must have NMC/State Medical Council registration."
+      ]
+    },
+    {
+      "id": "application-process",
+      "type": "heading",
+      "title": "6. Application Process (State Quota)",
+      "level": 2
+    },
+    {
+      "id": "application-process-intro",
+      "type": "paragraph",
+      "content": "Applications are online only at www.gmch.gov.in. The official portal for the NEET PG counselling application form under the Chandigarh quota."
+    },
+    {
+      "id": "application-steps",
+      "type": "heading",
+      "title": "Steps:",
+      "level": 3
+    },
+    {
+      "id": "application-steps-list",
+      "type": "list",
+      "items": [
+        "Register - receive login credentials.",
+        "Fill personal & academic details.",
+        "Upload photo, signature & documents.",
+        "Choose Pool (IP / UT / Both) & Category.",
+        "Pay the online application fee.",
+        "Final submission.",
+        "Take a printout of the form."
+      ]
+    },
+    {
+      "id": "documents-upload",
+      "type": "heading",
+      "title": "Documents to Upload",
+      "level": 3
+    },
+    {
+      "id": "documents-upload-content",
+      "type": "paragraph",
+      "content": "Required documents for upload include: your Photo, MBBS final marksheet, with internship completion certificate, registration certificate, and NEET PG result card."
+    },
+    {
+      "id": "counselling-process",
+      "type": "heading",
+      "title": "7. Counselling Process (State Quota)",
+      "level": 2
+    },
+    {
+      "id": "counselling-process-intro",
+      "type": "paragraph",
+      "content": "Counselling is online-based on the NEET PG 2025 rank and follows standard NEET PG counselling seat allotment rules."
+    },
+    {
+      "id": "seat-allotment-rules",
+      "type": "heading",
+      "title": "Seat Allotment Rules",
+      "level": 3
+    },
+    {
+      "id": "seat-allotment-rules-list",
+      "type": "list",
+      "items": [
+        "Merit list is common for General + all categories.",
+        "Category candidates selected on General merit do not lose category benefits.",
+        "IP candidates are first considered for IP seats; if unavailable, they may be allotted UT pool seats (if eligible).",
+        "UT pool candidates are considered only for UT pool seats."
+      ]
+    },
+    {
+      "id": "documents-joining",
+      "type": "heading",
+      "title": "Documents Required at Joining",
+      "level": 3
+    },
+    {
+      "id": "documents-joining-intro",
+      "type": "paragraph",
+      "content": "Original + self-attested copies:"
+    },
+    {
+      "id": "documents-joining-list",
+      "type": "list",
+      "items": [
+        "Application form",
+        "NEET PG result",
+        "DOB proof",
+        "MBBS marksheets",
+        "Internship certificate",
+        "Registration certificate",
+        "Pool/category certificates",
+        "Affidavits",
+        "NOC (if in-service)",
+        "Character certificate",
+        "Migration certificate"
+      ]
+    },
+    {
+      "id": "documents-joining-note",
+      "type": "paragraph",
+      "content": "Without originals, you cannot join."
+    },
+    {
+      "id": "subsequent-rounds",
+      "type": "heading",
+      "title": "8. Second, Third & Stray Vacancy Rounds",
+      "level": 2
+    },
+    {
+      "id": "subsequent-rounds-intro",
+      "type": "paragraph",
+      "content": "These rounds follow the national norms of NEET PG counselling round 2, NEET PG counselling round 3, and NEET PG counselling stray vacancy round."
+    },
+    {
+      "id": "second-round",
+      "type": "heading",
+      "title": "Second Round",
+      "level": 3
+    },
+    {
+      "id": "second-round-list",
+      "type": "list",
+      "items": [
+        "In subsequent rounds, candidates must \"surrender seat online\" to participate.",
+        "Conversion of reserved seats to the General category occurs if no eligible candidates remain."
+      ]
+    },
+    {
+      "id": "third-round",
+      "type": "heading",
+      "title": "Third Round",
+      "level": 3
+    },
+    {
+      "id": "third-round-content",
+      "type": "paragraph",
+      "content": "Similar rules; candidates may participate even if absent in earlier rounds."
+    },
+    {
+      "id": "stray-round",
+      "type": "heading",
+      "title": "Stray Vacancy Round",
+      "level": 3
+    },
+    {
+      "id": "stray-round-list",
+      "type": "list",
+      "items": [
+        "Conducted physically.",
+        "Fresh applications are invited from non-UT candidates.",
+        "No reservation for non-UT applicants, treated as the General category."
+      ]
+    },
+    {
+      "id": "general-conditions",
+      "type": "heading",
+      "title": "9. General Conditions for All Admitted Students",
+      "level": 2
+    },
+    {
+      "id": "general-conditions-list",
+      "type": "list",
+      "items": [
+        "Must pass the Medical Board fitness test.",
+        "Original certificates retained till course completion.",
+        "If a student leaves the course within 1 year, a penalty of ₹5 lakh + debarment for the next session.",
+        "If documents are found to be fake, cancellation + legal action.",
+        "Admission is subject to approval by Panjab University/NMC."
+      ]
+    },
+    {
+      "id": "fees-refund",
+      "type": "heading",
+      "title": "10. Fees & Refund Rules",
+      "level": 2
+    },
+    {
+      "id": "annual-fees",
+      "type": "heading",
+      "title": "Annual Fees (Approx.)",
+      "level": 3
+    },
+    {
+      "id": "annual-fees-list",
+      "type": "list",
+      "items": [
+        "1st Year: ₹34,500",
+        "2nd Year: ₹32,500",
+        "3rd Year: ₹36,000"
+      ]
+    },
+    {
+      "id": "refund-policy",
+      "type": "heading",
+      "title": "Refund Policy",
+      "level": 3
+    },
+    {
+      "id": "refund-policy-intro",
+      "type": "paragraph",
+      "content": "If surrendered before the last date, the fee will be refunded after deducting:"
+    },
+    {
+      "id": "refund-policy-list",
+      "type": "list",
+      "items": [
+        "₹1,000 (IP/UT candidates)",
+        "10% fee (AIQ candidates)",
+        "If shifting specialty in 2nd/3rd round → fee transferred."
+      ]
+    },
+    {
+      "id": "stipend",
+      "type": "heading",
+      "title": "11. Stipend",
+      "level": 2
+    },
+    {
+      "id": "stipend-content",
+      "type": "paragraph",
+      "content": "The stipends are paid as per Chandigarh Administration norms."
+    },
+    {
+      "id": "academic-requirements",
+      "type": "heading",
+      "title": "12. Academic Requirements",
+      "level": 2
+    },
+    {
+      "id": "logbook-performance",
+      "type": "heading",
+      "title": "Logbook & Performance",
+      "level": 3
+    },
+    {
+      "id": "logbook-performance-content",
+      "type": "paragraph",
+      "content": "Students must submit a completed logbook, one poster, one paper read, and one research paper (published/accepted/submitted) before their final exam."
+    },
+    {
+      "id": "thesis-schedule",
+      "type": "heading",
+      "title": "Thesis Schedule",
+      "level": 3
+    },
+    {
+      "id": "thesis-schedule-list",
+      "type": "list",
+      "items": [
+        "Submit protocol within 3 months of admission.",
+        "The final thesis must be submitted 6 months before final exam."
+      ]
+    },
+    {
+      "id": "leave-rules",
+      "type": "heading",
+      "title": "13. Leave Rules",
+      "level": 2
+    },
+    {
+      "id": "leave-rules-list",
+      "type": "list",
+      "items": [
+        "1st year: 30 days",
+        "2nd year: 36 days",
+        "3rd year: 36 days",
+        "Includes 5 academic leaves/year."
+      ]
+    },
+    {
+      "id": "leave-provisions",
+      "type": "heading",
+      "title": "Other provisions:",
+      "level": 3
+    },
+    {
+      "id": "leave-provisions-list",
+      "type": "list",
+      "items": [
+        "Maternity/Paternity leave as per Govt norms",
+        "Excess leave = extension of course (sometimes without stipend)",
+        "Leaves cannot be carried forward or encashed"
+      ]
+    },
+    {
+      "id": "discipline",
+      "type": "heading",
+      "title": "14. Discipline, Ragging & Conduct",
+      "level": 2
+    },
+    {
+      "id": "discipline-list",
+      "type": "list",
+      "items": [
+        "Ragging is strictly prohibited.",
+        "Complaints of sexual harassment are handled by the institutional committee."
+      ]
+    },
+    {
+      "id": "conclusion",
+      "type": "heading",
+      "title": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "conclusion-content",
+      "type": "paragraph",
+      "content": "GMCH Chandigarh's 2025 MD/MS admission process is merit-based which is structured, transparent, and purely merit-based through NEET PG 2025. With accurate quota distribution, clear eligibility norms, strict document requirements, and a well-defined counselling system, these are some essential rules where candidates must stay attentive to deadlines and make sure that all documents are correctly submitted."
+    },
+    {
+      "id": "conclusion-closing",
+      "type": "paragraph",
+      "content": "GMCH remains one of North India's premier postgraduate medical training centres, offering strong academic exposure, clinical experience, and supervised professional growth for residents."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "Frequently Asked Questions (FAQs)",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1: Is fresh registration required for each counselling round in UP NEET PG 2025?",
+          "answer": "The fresh registration is very much needed only for Round 1, and for the later rounds, it will only be allowed if it is officially announced."
+        },
+        {
+          "question": "Q2: What is the difference between the registration fee and the security deposit?",
+          "answer": "The registration fee is a non-refundable which is of ₹3,000; on the other hand, the security deposit is totally refundable after counselling if they follow the rules."
+        },
+        {
+          "question": "Q3: What happens if I resign after seat allotment?",
+          "answer": "If anyone wants to resign before Round 2, which is considered a free exit, but resigning after Round 2 will incur the penalty fees, and leaving after a stray round causes full fee loss and next-year debarment."
+        },
+        {
+          "question": "Q4: Are there any minority quota seats in UP private medical colleges?",
+          "answer": "Yes, there are some private colleges that offer minority quota seats for Muslim, Jain, and Buddhist communities."
+        },
+        {
+          "question": "Q5: How is choice filling conducted during counselling?",
+          "answer": "Choice filling has been conducted online for every round, and not submitting choices in any round leads to exclusion and automatic security deposit refund."
+        }
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "chandigarh neet pg counselling",
+        "neet pg counselling",
+        "chandigarh neet pg 2025 counselling",
+        "neet pg counselling registration",
+        "neet pg counselling seat matrix",
+        "neet pg counselling seat allotment",
+        "neet pg counselling application form",
+        "neet pg counselling round 2",
+        "neet pg counselling round 3",
+        "neet pg counselling state quota",
+        "neet pg counselling stray vacancy round"
+      ]
+    }
+  ]
+},
+{
+  "id": 52,
+  "title": "NEET PG 2025 Round-1 Results: Complete Branch-Wise Breakdown and What It Means for Aspirants",
+  "slug": "neet-pg-2025-round-1-results-complete-branch-wise-breakdown-analysis",
+  "excerpt": "NEET PG 2025 Round-1 results reveal major shifts in branch preferences and competition. Get detailed branch-wise analysis to plan your next counselling strategy.",
+  "featured_image": "https://cdn.dribbble.com/userupload/45817631/file/e0466eafb0b80e5da872f225b07c503d.png?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-green-100 text-green-800"
+  },
+  "tags": [
+    "NEET PG 2025",
+    "NEET PG Results",
+    "Round 1 Counselling",
+    "Branch-wise Analysis",
+    "MCC Counselling",
+    "NEET PG Seat Allotment"
+  ],
+  "published_date": "2025-11-24",
+  "read_time": 20,
+  "meta_description": "NEET PG 2025 Round-1 results reveal major shifts in branch preferences and competition. Get detailed branch-wise analysis to plan your next counselling strategy.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "The NEET PG 2025 Round-1 Counselling Results have been officially released by the Medical Counselling Committee (MCC) on 22 November 2025, marking an important turning point specifically for postgraduate medical admissions in India. This major update in the NEET PG counselling, especially the NEET PG 2025 counselling. There are a total of 26,889 candidates who are securing their seats out of these 1,28,116 qualified aspirants. The result patterns of this year reveal some major shifts in branch preferences, competition intensity, and the category-wise accessibility which is across clinical, para-clinical, and non-clinical provinces."
+    },
+    {
+      "id": "intro-guide",
+      "type": "paragraph",
+      "content": "This blog will show a comprehensive and the best simplified analysis of the Round-1 results, which is considered ideal for medical graduates who are preparing for upcoming counselling rounds."
+    },
+    {
+      "id": "overall-landscape",
+      "type": "heading",
+      "title": "Overall Admission Landscape: Key Highlights",
+      "level": 2
+    },
+    {
+      "id": "overall-landscape-intro",
+      "type": "paragraph",
+      "content": "NEET PG 2025 will finally get to witness a tougher exam, which has been reflected in the lowered qualifying marks across all categories."
+    },
+    {
+      "id": "overall-landscape-list",
+      "type": "list",
+      "items": [
+        "General/EWS, which has the NEET PG counselling cutoff, fell from 291 (2024) to 276 (2025).",
+        "SC/ST/OBC cutoff dropped from 257 to 235"
+      ]
+    },
+    {
+      "id": "overall-landscape-seats",
+      "type": "paragraph",
+      "content": "There will be a total of 28,663 seats that are available in Round 1 across MD/MS, DNB, Central Institutes, and Deemed Universities. forming a major part of the NEET PG counselling seat matrix."
+    },
+    {
+      "id": "overall-landscape-note",
+      "type": "paragraph",
+      "content": "Importantly, MCC added 239 new Deemed seats and withdrew 235 DNB seats during matrix revision, while AIQ MD/MS seats remained unchanged for Round-1."
+    },
+    {
+      "id": "clinical-branches",
+      "type": "heading",
+      "title": "Clinical Branches: What Shifted and Why",
+      "level": 2
+    },
+    {
+      "id": "super-specialty",
+      "type": "heading",
+      "title": "1. Super-Specialty Learning Clinical Branches",
+      "level": 3
+    },
+    {
+      "id": "radiodiagnosis",
+      "type": "heading",
+      "title": "Radiodiagnosis (Radiology)",
+      "level": 4
+    },
+    {
+      "id": "radiodiagnosis-intro",
+      "type": "paragraph",
+      "content": "Still one of the most competitive NEET PG speciality branches, Radiology experienced a positive shift (less competitive):"
+    },
+    {
+      "id": "radiodiagnosis-list",
+      "type": "list",
+      "items": [
+        "General Category: Closed at 2920 (vs 2125 in 2024)",
+        "OBC: 5901",
+        "SC: 14,426",
+        "ST: 32,065",
+        "EWS: 5,797"
+      ]
+    },
+    {
+      "id": "radiodiagnosis-note",
+      "type": "paragraph",
+      "content": "The shift occurred largely because top rankers preferred General Medicine over Radiology this year during NEET PG counselling seat allotment."
+    },
+    {
+      "id": "dermatology",
+      "type": "heading",
+      "title": "Dermatology (MD DVL)",
+      "level": 4
+    },
+    {
+      "id": "dermatology-intro",
+      "type": "paragraph",
+      "content": "Dermatology remained highly preferred with minimal movement:"
+    },
+    {
+      "id": "dermatology-list",
+      "type": "list",
+      "items": [
+        "General: 2725 (slight +86 shift)",
+        "OBC: 5653",
+        "SC: 12,811 (+1,861)",
+        "ST: 25,258 (rare negative shift)",
+        "EWS: 5,857"
+      ]
+    },
+    {
+      "id": "dermatology-note",
+      "type": "paragraph",
+      "content": "Dermatology retains its tag as a high-lifestyle, high-earning specialty."
+    },
+    {
+      "id": "core-clinical",
+      "type": "heading",
+      "title": "2. Core Clinical Specialties",
+      "level": 3
+    },
+    {
+      "id": "general-medicine",
+      "type": "heading",
+      "title": "General Medicine – The New Favourite of Toppers",
+      "level": 4
+    },
+    {
+      "id": "general-medicine-intro",
+      "type": "paragraph",
+      "content": "The most dramatic trend of NEET PG 2025 is the dominance of General Medicine:"
+    },
+    {
+      "id": "general-medicine-list",
+      "type": "list",
+      "items": [
+        "9 out of the top 10 and 48 of top 100 chose Medicine.",
+        "General Closing Rank: 3822 (+394 shift from 3428 in 2024)",
+        "Even though the closing rank moved positively, experts note an 800–1000 rank \"negative shift\" in demand at the top end, indicating high competition among toppers."
+      ]
+    },
+    {
+      "id": "general-medicine-category",
+      "type": "paragraph",
+      "content": "Category-wise:"
+    },
+    {
+      "id": "general-medicine-category-list",
+      "type": "list",
+      "items": [
+        "OBC: 6311 (slightly negative shift)",
+        "SC: 14,896 (+1,250)",
+        "ST: 26,801 (+1,000)",
+        "EWS: 6,771 (+1,000)"
+      ]
+    },
+    {
+      "id": "paediatrics",
+      "type": "heading",
+      "title": "Paediatrics",
+      "level": 4
+    },
+    {
+      "id": "paediatrics-intro",
+      "type": "paragraph",
+      "content": "One of the biggest positive movements this year:"
+    },
+    {
+      "id": "paediatrics-list",
+      "type": "list",
+      "items": [
+        "General: 7071 (+1,164)",
+        "OBC/SC/ST saw +1000 to +1250 expansions, making the branch more accessible."
+      ]
+    },
+    {
+      "id": "obg",
+      "type": "heading",
+      "title": "Obstetrics & Gynaecology (OBG)",
+      "level": 4
+    },
+    {
+      "id": "obg-list",
+      "type": "list",
+      "items": [
+        "General: 9714 (+643)",
+        "All categories had positive shifts, indicating reduced competition."
+      ]
+    },
+    {
+      "id": "surgical-specialties",
+      "type": "heading",
+      "title": "3. Surgical Specialties",
+      "level": 3
+    },
+    {
+      "id": "general-surgery",
+      "type": "heading",
+      "title": "General Surgery",
+      "level": 4
+    },
+    {
+      "id": "general-surgery-content",
+      "type": "paragraph",
+      "content": "General: 11,507 (+700). Steady demand but improved access in reserved groups."
+    },
+    {
+      "id": "orthopaedics",
+      "type": "heading",
+      "title": "Orthopaedics",
+      "level": 4
+    },
+    {
+      "id": "orthopaedics-intro",
+      "type": "paragraph",
+      "content": "A major highlight of 2025:"
+    },
+    {
+      "id": "orthopaedics-list",
+      "type": "list",
+      "items": [
+        "General (MD/MS): 12,429 (+565)",
+        "DNB General: Massive +5200 rank shift",
+        "Orthopaedics saw one of the biggest DNB seat expansions, leading to large positive shifts."
+      ]
+    },
+    {
+      "id": "ophthalmology",
+      "type": "heading",
+      "title": "Ophthalmology",
+      "level": 4
+    },
+    {
+      "id": "ophthalmology-list",
+      "type": "list",
+      "items": [
+        "General: 16,979 (+2,635)",
+        "DNB OBC: Extraordinary +9,356 shift"
+      ]
+    },
+    {
+      "id": "ent",
+      "type": "heading",
+      "title": "ENT (Otorhinolaryngology)",
+      "level": 4
+    },
+    {
+      "id": "ent-content",
+      "type": "paragraph",
+      "content": "General: 17,851 (+1,882). Consistent moderate-level demand."
+    },
+    {
+      "id": "para-clinical",
+      "type": "heading",
+      "title": "Para-Clinical and Non-Clinical Branches: Better Opportunities in 2025",
+      "level": 2
+    },
+    {
+      "id": "para-clinical-specialties",
+      "type": "heading",
+      "title": "Para-Clinical Specialties",
+      "level": 3
+    },
+    {
+      "id": "pathology",
+      "type": "heading",
+      "title": "Pathology",
+      "level": 4
+    },
+    {
+      "id": "pathology-intro",
+      "type": "paragraph",
+      "content": "Most competitive para-clinical branch:"
+    },
+    {
+      "id": "pathology-list",
+      "type": "list",
+      "items": [
+        "General: ~36,000 (+2,500)",
+        "DNB Pathology saw historic jumps: General: +5,344, SC: +7,770, ST: +39,857 (largest shift among all branches)"
+      ]
+    },
+    {
+      "id": "microbiology",
+      "type": "heading",
+      "title": "Microbiology",
+      "level": 4
+    },
+    {
+      "id": "microbiology-content",
+      "type": "paragraph",
+      "content": "General: 20,440. Preferred by those aiming for academic and research pathways."
+    },
+    {
+      "id": "non-clinical-specialties",
+      "type": "heading",
+      "title": "Non-Clinical Specialties",
+      "level": 3
+    },
+    {
+      "id": "anatomy",
+      "type": "heading",
+      "title": "Anatomy",
+      "level": 4
+    },
+    {
+      "id": "anatomy-content",
+      "type": "paragraph",
+      "content": "General: 44,216. Lowest competition and excellent academic lifestyle."
+    },
+    {
+      "id": "physiology",
+      "type": "heading",
+      "title": "Physiology",
+      "level": 4
+    },
+    {
+      "id": "physiology-content",
+      "type": "paragraph",
+      "content": "General: ~35,839. LHMC closing range around 32,687–37,274."
+    },
+    {
+      "id": "biochemistry",
+      "type": "heading",
+      "title": "Biochemistry",
+      "level": 4
+    },
+    {
+      "id": "biochemistry-content",
+      "type": "paragraph",
+      "content": "General: 28,454 (MAMC cutoff). Lower interest but stable academic scope."
+    },
+    {
+      "id": "community-medicine",
+      "type": "heading",
+      "title": "Community Medicine (PSM)",
+      "level": 4
+    },
+    {
+      "id": "community-medicine-content",
+      "type": "paragraph",
+      "content": "This has typically, 30,000–35,000 closing range. This has been more and more chosen for research and public health careers."
+    },
+    {
+      "id": "pharmacology-forensic",
+      "type": "heading",
+      "title": "Pharmacology & Forensic Medicine",
+      "level": 4
+    },
+    {
+      "id": "pharmacology-forensic-content",
+      "type": "paragraph",
+      "content": "There are premier colleges for Pharmacology & Forensic Medicine, like MAMC and LHMC, which continue to attract those candidates with ranks that range from 7,000–22,000, depending on the specialty."
+    },
+    {
+      "id": "dnb-seats",
+      "type": "heading",
+      "title": "DNB Seats: Biggest Positive Shifts of 2025",
+      "level": 2
+    },
+    {
+      "id": "dnb-seats-intro",
+      "type": "paragraph",
+      "content": "Even with 235 DNB seats having been withdrawn, most DNB branches showed considerable positive shifts due to increased overall capacity."
+    },
+    {
+      "id": "dnb-key-highlights",
+      "type": "heading",
+      "title": "Key Highlights",
+      "level": 3
+    },
+    {
+      "id": "dnb-key-highlights-list",
+      "type": "list",
+      "items": [
+        "DNB General Medicine: 12,999 (+394)",
+        "DNB Paediatrics: Positive movement",
+        "DNB Radiology: +944",
+        "DNB Orthopaedics: +5200 (one of the largest)",
+        "DNB Emergency Medicine: +4430 (EWS +8626)",
+        "DNB Anaesthesia: +1915",
+        "DNB ENT: +1882"
+      ]
+    },
+    {
+      "id": "reserved-category",
+      "type": "heading",
+      "title": "Reserved Category Trends",
+      "level": 2
+    },
+    {
+      "id": "reserved-category-list",
+      "type": "list",
+      "items": [
+        "OBC: Mostly positive shifts; Ophthalmology and ENT showed extremely large expansions.",
+        "SC: Mixed, some branches tightened (Dermatology -10,439) while others expanded.",
+        "ST: Strongest positive movements across almost all branches.",
+        "EWS: There have been broad positive shifts except for minor movement in a few large competition specialties."
+      ]
+    },
+    {
+      "id": "what-trends-mean",
+      "type": "heading",
+      "title": "What These Trends Mean for Aspirants",
+      "level": 2
+    },
+    {
+      "id": "what-trends-mean-intro",
+      "type": "paragraph",
+      "content": "The NEET PG 2025 Round-1 data, which finally reveals several evolving patterns:"
+    },
+    {
+      "id": "lifestyle-branches",
+      "type": "heading",
+      "title": "Lifestyle Branches Still Dominate",
+      "level": 3
+    },
+    {
+      "id": "lifestyle-branches-intro",
+      "type": "paragraph",
+      "content": "There will be Radiology, Dermatology, and Psychiatry that will continue to attract multiple candidates who are seeking:"
+    },
+    {
+      "id": "lifestyle-branches-list",
+      "type": "list",
+      "items": [
+        "Work-life balance system",
+        "Large income potential",
+        "Fewer emergencies"
+      ]
+    },
+    {
+      "id": "medicine-prestige",
+      "type": "heading",
+      "title": "General Medicine Reclaims Prestige",
+      "level": 3
+    },
+    {
+      "id": "medicine-prestige-intro",
+      "type": "paragraph",
+      "content": "The unexpected surge in Medicine preference among toppers shows a renewed focus on:"
+    },
+    {
+      "id": "medicine-prestige-list",
+      "type": "list",
+      "items": [
+        "Strong clinical grounding",
+        "DM super-specialization options",
+        "Academic pathways"
+      ]
+    },
+    {
+      "id": "seat-expansion",
+      "type": "heading",
+      "title": "Seat Expansion Makes Mid-Tier Branches More Accessible",
+      "level": 3
+    },
+    {
+      "id": "seat-expansion-content",
+      "type": "paragraph",
+      "content": "Branches such as Paediatrics, Ophthalmology, ENT, and Orthopaedics experienced significant positive shifts, benefiting mid-ranking candidates."
+    },
+    {
+      "id": "round-2-expectations",
+      "type": "heading",
+      "title": "Round-2 Expectations: What Candidates Should Prepare For",
+      "level": 2
+    },
+    {
+      "id": "round-2-expectations-intro",
+      "type": "paragraph",
+      "content": "Round 2 (Dec 2–10, 2025) of NEET PG counselling round 2 is expected to bring even better opportunities due to:"
+    },
+    {
+      "id": "round-2-expectations-list",
+      "type": "list",
+      "items": [
+        "Additional MD/MS seats from NMC",
+        "Upgradation/Non-joining vacancies from Round-1",
+        "INI-CET movement freeing 1000–1200 seats",
+        "Improved accessibility for SC/ST categories",
+        "More movement in mid-competition branches (Ortho, Paeds, Ophthalmology, PSM, Pathology)",
+        "High-competition branches like Radiology and Dermatology may not see significant shifts in Round 2."
+      ]
+    },
+    {
+      "id": "final-word",
+      "type": "heading",
+      "title": "Final Word",
+      "level": 2
+    },
+    {
+      "id": "final-word-content",
+      "type": "paragraph",
+      "content": "The NEET PG 2025 Round-1 results reflect a dynamic shift in India's postgraduate medical landscape. With toppers gravitating toward General Medicine, DNB seats expanding, and para-clinical branches becoming more accessible, aspirants must approach NEET PG counselling round 3, and later phases like the NEET PG counselling stray vacancy round with a clear, data-driven strategy based on updated results, realistic expectations, and personal career goals."
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "neet pg 2025",
+        "neet pg counselling",
+        "neet pg round 1 results",
+        "neet pg counselling round 2",
+        "neet pg counselling round 3",
+        "neet pg counselling seat matrix",
+        "neet pg counselling seat allotment",
+        "neet pg counselling cutoff",
+        "neet pg branch wise analysis",
+        "neet pg 2025 counselling",
+        "mcc counselling",
+        "neet pg counselling stray vacancy round"
+      ]
+    }
+  ]
 }
 
 ];
