@@ -911,6 +911,18 @@ const AnnouncementPage: React.FC = () => {
       source: 'mcc.nic.in',
       created_at: "2025-11-22T08:00:00Z"
     },
+    {
+      id: 74,
+      title: "NEET PG Counselling 2025:",
+      content:"Maharashtra NEET PG Counselling 2025: Revised Schedule for Round 1 & 2 Announced",
+      date: "2025-11-25T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.jagranjosh.com/news/maharashtra-neet-pg-counselling-2025-round-1-and-2-revised-schedule-out-at-medicalug2025-mahacet-org-check-here-181926',
+      is_active: true,
+      source: 'jagranjosh',
+      created_at: "2025-11-22T08:00:00Z"
+    },
 
 
 
