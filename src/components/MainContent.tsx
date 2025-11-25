@@ -65,16 +65,16 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
         );
       },
     },
-    {
-      id: "quotas",
-      label: "Quotas",
-      icon: FileText,
-      bgColor: "bg-blue-100",
-      textColor: "text-blue-600",
-      onClick: () => {
-        setShowQuotaModal(true); // Show the popup modal
-      },
-    },
+    // {
+    //   id: "quotas",
+    //   label: "Quotas",
+    //   icon: FileText,
+    //   bgColor: "bg-blue-100",
+    //   textColor: "text-blue-600",
+    //   onClick: () => {
+    //     setShowQuotaModal(true); // Show the popup modal
+    //   },
+    // },
     {
       id: "registration",
       label: "Registration",
@@ -97,6 +97,19 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
       onClick: () => {
         window.open(
           "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2024/11/2024110615.pdf",
+          "_blank"
+        );
+      },
+    },
+    {
+      id: "prospectus",
+      label: "Notice",
+      icon: FileText,
+      bgColor: "bg-blue-100",
+      textColor: "text-blue-600",
+      onClick: () => {
+        window.open(
+          "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/11/202511191286629593.pdf",
           "_blank"
         );
       },
@@ -548,7 +561,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
 
         <div className="text-center mb-3 lg:mb-4">
   <a
-    href="https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/10/202510282088194740.pdf"
+    href="https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/11/20251119105316139.pdf"
     target="_blank"
     rel="noopener noreferrer"
     className="text-blue-600 font-semibold hover:text-blue-900 underline text-sm lg:text-base transition-colors duration-200"
