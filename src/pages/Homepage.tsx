@@ -257,7 +257,7 @@ function Homepage() {
     {
       name: "Madhu ",
       role: "PG Ophthalmology",
-      specialty: "NEET Counselling Support",
+      specialty: "NEET UG 2024",
       location: "Mumbai",
       rating: 5,
       review: "Thank You Believers Consultancy ❤️",
