@@ -78,7 +78,7 @@ const SchedulePage: React.FC = () => {
                     Year
                   </th>
                   <th className="px-6 py-3 text-left text-sm font-medium text-slate-800 w-48">
-                    View / Download
+                    View 
                   </th>
                 </tr>
               </thead>
