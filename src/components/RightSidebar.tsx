@@ -127,7 +127,7 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
         </div>
 
         {/* NEET PG Results Announcement */}
-        <div className="mb-6 ">
+        {/* <div className="mb-6 ">
           <div className="bg-gradient-to-r from-green-500 to-emerald-600 rounded-xl p-4 text-white">
             <div className="flex items-center space-x-3 mb-2">
               <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center">
@@ -146,12 +146,12 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
               Check Results Now
             </button>
           </div>
-        </div>
+        </div> */}
 
         {/* Quick Actions */}
-        <div className="mb-6">
-          <h3 className="text-sm font-bold text-slate-800 mb-3">Quick Actions</h3>
-          <div className="space-y-2">
+        {/* <div className="mb-6">
+          <h3 className="text-sm font-bold text-slate-800 mb-3">Quick Actions</h3> */}
+          {/* <div className="space-y-2">
             <button 
               onClick={() => window.open('', '_blank')}
               className="w-full flex items-center space-x-3 p-3 bg-blue-50 hover:bg-blue-100 rounded-lg transition-colors"
@@ -165,7 +165,7 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
             >
               <Target className="w-4 h-4 text-purple-600" />
               <span className="text-sm font-medium text-slate-800">Specialty Predictor</span>
-            </button>
+            </button> */}
             {/* <button 
               onClick={() => window.location.href = '/allotments'}
               className="w-full flex items-center space-x-3 p-3 bg-blue-50 hover:bg-blue-100 rounded-lg transition-colors"
@@ -180,8 +180,8 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
               <TrendingUp className="w-4 h-4 text-green-600" />
               <span className="text-sm font-medium text-slate-800">Closing Ranks</span>
             </button> */}
-          </div>
-        </div>
+          {/* </div>
+        </div> */}
 
         {/* NEET PG Timeline */}
         {/* <div className="mb-6">
