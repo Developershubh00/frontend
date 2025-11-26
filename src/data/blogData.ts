@@ -19509,6 +19509,624 @@ export const blogPosts: BlogPost[] = [
       ]
     }
   ]
+},
+{
+  "id": 54,
+  "title": "Haryana NEET PG Counselling 2025: Complete Registration Guide, Eligibility Rules & Step-by-Step Process",
+  "slug": "haryana-neet-pg-2025-counselling-complete-registration-guide-eligibility-rules-step-by-step-process",
+  "excerpt": "Haryana NEET PG Counselling offers a clear path to seats with structured registration detailed rules and a smooth stepwise procedure for every aspirant.",
+  "featured_image": "https://cdn.dribbble.com/userupload/45844103/file/ee01760b40d0653046ca1f4630acc6e7.png?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-green-100 text-green-800"
+  },
+  "tags": [
+    "Haryana NEET PG Counselling",
+    "NEET PG 2025",
+    "State Counselling",
+    "MD/MS Admissions",
+    "NEET PG Eligibility",
+    "DMER Haryana"
+  ],
+  "published_date": "2025-11-26",
+  "read_time": 18,
+  "meta_description": "Haryana NEET PG Counselling offers a clear path to seats with structured registration detailed rules and a smooth stepwise procedure for every aspirant.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "The Department of Medical Education & Research (DMER) has started its online registration for NEET PG 2025 admissions to MD, MS, Post-MBBS Diploma, and Post-MBBS DNB courses in government and private medical colleges across. With government, private, and NRI quota seats available, aspirants can now begin the application process through the official counselling portal."
+    },
+    {
+      "id": "intro-guide",
+      "type": "paragraph",
+      "content": "This guide will explain the complete counselling process, which includes important dates, eligibility rules, registration instructions, required documents, important dates for NEET PG aspirants, and category-wise conditions, fully simplified and paraphrased from the detailed counselling interface."
+    },
+    {
+      "id": "important-dates",
+      "type": "heading",
+      "title": "1. Important Dates for Haryana NEET PG Counselling 2025",
+      "level": 2
+    },
+    {
+      "id": "important-dates-website",
+      "type": "paragraph",
+      "content": "Official Website: https://dmer.haryana.gov.in/"
+    },
+    {
+      "id": "important-dates-portal",
+      "type": "paragraph",
+      "content": "Counselling Portal: https://hry.online-counselling.co.in/"
+    },
+    {
+      "id": "important-dates-login",
+      "type": "paragraph",
+      "content": "Candidate Login: https://hry.online-counselling.co.in/login"
+    },
+    {
+      "id": "registration-window",
+      "type": "heading",
+      "title": "Registration Window",
+      "level": 3
+    },
+    {
+      "id": "registration-window-list",
+      "type": "list",
+      "items": [
+        "Starts: 13 October 2025",
+        "Ends: 16 November 2025 (11:59 PM)"
+      ]
+    },
+    {
+      "id": "important-dates-note",
+      "type": "paragraph",
+      "content": "All future rounds, notices, and updates are posted on DMER Haryana and UHSR Rohtak portals. This applies to all stages of the Haryana State NEET PG counselling cycle."
+    },
+    {
+      "id": "eligibility-criteria",
+      "type": "heading",
+      "title": "2. Who Can Apply? (Eligibility Criteria)",
+      "level": 2
+    },
+    {
+      "id": "eligibility-intro",
+      "type": "paragraph",
+      "content": "This section aligns with the rules of the official Haryana NEET PG 2025 counselling and covers government, private, and NRI quota eligibility."
+    },
+    {
+      "id": "seat-distribution",
+      "type": "list",
+      "items": [
+        "50% seats in Government Medical Colleges",
+        "50% seats in Private Medical Colleges",
+        "75% seats in SGT University + seats in Alfalah University",
+        "NRI seats as per quota (up to 15% max)"
+      ]
+    },
+    {
+      "id": "eligibility-categories-intro",
+      "type": "paragraph",
+      "content": "You are eligible if you fall into any one of these major categories:"
+    },
+    {
+      "id": "category-1",
+      "type": "heading",
+      "title": "Category 1",
+      "level": 3
+    },
+    {
+      "id": "category-1-content",
+      "type": "paragraph",
+      "content": "MBBS graduates from any Haryana-based medical college (recognized university/institution)."
+    },
+    {
+      "id": "category-2",
+      "type": "heading",
+      "title": "Category 2",
+      "level": 3
+    },
+    {
+      "id": "category-2-content",
+      "type": "paragraph",
+      "content": "Candidates who have completed MBBS from any state, including FMGs, provided they or their parents hold a valid Haryana Resident Certificate."
+    },
+    {
+      "id": "open-category",
+      "type": "heading",
+      "title": "Open Category for Private Universities",
+      "level": 3
+    },
+    {
+      "id": "open-category-intro",
+      "type": "paragraph",
+      "content": "The private medical colleges accept the application form. Candidates from any part of India, irrespective of domicile, can apply for:"
+    },
+    {
+      "id": "open-category-list",
+      "type": "list",
+      "items": [
+        "The Private Medical Colleges that have only (50% seats)",
+        "SGT University, who have (75% seats)",
+        "Alfalah University seats"
+      ]
+    },
+    {
+      "id": "minimum-scores",
+      "type": "heading",
+      "title": "3. Minimum NEET PG 2025 Scores Required",
+      "level": 2
+    },
+    {
+      "id": "minimum-scores-intro",
+      "type": "paragraph",
+      "content": "As per the NEET PG 2025 bulletin and the NEET PG cut-off percentile rules:"
+    },
+    {
+      "id": "minimum-scores-table",
+      "type": "table",
+      "headers": ["Category", "Cut-off Percentile", "Minimum Score"],
+      "rows": [
+        ["General / EWS", "50th", "276"],
+        ["SC / SC-Deprived / BCA / BCB", "40th", "235"],
+        ["PwBD (General/EWS)", "45th", "255"],
+        ["PwBD (SC/BC Categories)", "40th", "235"]
+      ]
+    },
+    {
+      "id": "minimum-scores-note",
+      "type": "paragraph",
+      "content": "Candidates must upload the correct NEET PG 2025 scorecard during registration."
+    },
+    {
+      "id": "important-alerts",
+      "type": "heading",
+      "title": "4. Before You Start: Important Alerts on the Portal",
+      "level": 2
+    },
+    {
+      "id": "important-alerts-intro",
+      "type": "paragraph",
+      "content": "The Haryana counselling website perfectly displays key security notes, which are highly essential for anyone completing the NEET PG counselling application form:"
+    },
+    {
+      "id": "important-alerts-list",
+      "type": "list",
+      "items": [
+        "You have to keep your password confidential",
+        "Make sure that your OTPs are never shared",
+        "The login details cannot be reset once it will be used",
+        "The system automatically logs your IP address for security",
+        "A single roll number can be registered only once",
+        "Make sure you read all DMER Haryana notifications before filling the form."
+      ]
+    },
+    {
+      "id": "registration-process",
+      "type": "heading",
+      "title": "5. Step-by-Step Registration Process for Haryana NEET PG 2025",
+      "level": 2
+    },
+    {
+      "id": "registration-process-intro",
+      "type": "paragraph",
+      "content": "This includes the NEET PG counseling registration steps every candidate must follow:"
+    },
+    {
+      "id": "step-1",
+      "type": "heading",
+      "title": "Step 1: Open the Counselling Portal",
+      "level": 3
+    },
+    {
+      "id": "step-1-content",
+      "type": "paragraph",
+      "content": "First, you have to click on \"NEET PG 2025 Registration,\" which is on the homepage."
+    },
+    {
+      "id": "step-2",
+      "type": "heading",
+      "title": "Step 2: Agree to Instructions",
+      "level": 3
+    },
+    {
+      "id": "step-2-content",
+      "type": "paragraph",
+      "content": "In the second step, you need to tick the checkbox stating that you have read all instructions and government notifications, then you just click Proceed."
+    },
+    {
+      "id": "step-3",
+      "type": "heading",
+      "title": "Step 3: Enter NEET PG Details",
+      "level": 3
+    },
+    {
+      "id": "step-3-content",
+      "type": "paragraph",
+      "content": "Provide:"
+    },
+    {
+      "id": "step-3-list",
+      "type": "list",
+      "items": [
+        "You have to provide the NEET PG Roll Number",
+        "As per the NEET scorecard, there will be no corrections allowed later"
+      ]
+    },
+    {
+      "id": "step-4",
+      "type": "heading",
+      "title": "Step 4: Verify Email & Mobile Number",
+      "level": 3
+    },
+    {
+      "id": "step-4-content",
+      "type": "paragraph",
+      "content": "The same OTP will be sent to both your mobile number and email ID. Just make sure the DND is disabled."
+    },
+    {
+      "id": "step-5",
+      "type": "heading",
+      "title": "Step 5: Receive Login Credentials",
+      "level": 3
+    },
+    {
+      "id": "step-5-intro",
+      "type": "paragraph",
+      "content": "After the verification is done, you get:"
+    },
+    {
+      "id": "step-5-list",
+      "type": "list",
+      "items": [
+        "Your official Login ID",
+        "Temporary password, which is for (On both email & SMS)"
+      ]
+    },
+    {
+      "id": "step-5-note",
+      "type": "paragraph",
+      "content": "You must reset the password before taking any steps forward."
+    },
+    {
+      "id": "application-form-sections",
+      "type": "heading",
+      "title": "6. Application Form Sections Inside the Portal",
+      "level": 2
+    },
+    {
+      "id": "application-form-intro",
+      "type": "paragraph",
+      "content": "These sections are important for NEET PG counselling choice filling and seat eligibility."
+    },
+    {
+      "id": "personal-details",
+      "type": "heading",
+      "title": "Personal Details",
+      "level": 3
+    },
+    {
+      "id": "personal-details-content",
+      "type": "paragraph",
+      "content": "Basic demographic details + declaration if you are pursuing any PG course currently."
+    },
+    {
+      "id": "registration-details",
+      "type": "heading",
+      "title": "Registration Details",
+      "level": 3
+    },
+    {
+      "id": "registration-details-intro",
+      "type": "paragraph",
+      "content": "Here you will fill:"
+    },
+    {
+      "id": "registration-details-list",
+      "type": "list",
+      "items": [
+        "Permanent Medical Council Registration Number",
+        "Validity date",
+        "State of registration",
+        "Haryana domicile status",
+        "Whether you belong to a Muslim minority",
+        "Whether the MBBS was completed in Haryana",
+        "Aadhaar number",
+        "PwBD status",
+        "Ex-serviceman category",
+        "Freedom fighter dependent status"
+      ]
+    },
+    {
+      "id": "registration-details-determines",
+      "type": "paragraph",
+      "content": "This section determines eligibility for:"
+    },
+    {
+      "id": "registration-details-eligibility",
+      "type": "list",
+      "items": [
+        "State Quota",
+        "Private Quota",
+        "Management Quota",
+        "NRI Quota",
+        "DNB & Diploma seats"
+      ]
+    },
+    {
+      "id": "nri-options",
+      "type": "heading",
+      "title": "NRI / OCI / PIO Options",
+      "level": 3
+    },
+    {
+      "id": "nri-options-intro",
+      "type": "paragraph",
+      "content": "If applying for NRI/OCI/Foreign National seats:"
+    },
+    {
+      "id": "nri-options-list",
+      "type": "list",
+      "items": [
+        "Choose the NRI Type",
+        "Select the correct sub-category (1–6) Example: Actual NRI from Haryana, child of NRI from other Indian state, nearest relative of NRI, etc."
+      ]
+    },
+    {
+      "id": "address-details",
+      "type": "heading",
+      "title": "Address Details",
+      "level": 3
+    },
+    {
+      "id": "address-details-intro",
+      "type": "paragraph",
+      "content": "Provide:"
+    },
+    {
+      "id": "address-details-list",
+      "type": "list",
+      "items": [
+        "Correspondence address",
+        "City, district, tehsil",
+        "Pin code",
+        "Alternative contact options"
+      ]
+    },
+    {
+      "id": "qualification-details",
+      "type": "heading",
+      "title": "Qualification Details",
+      "level": 3
+    },
+    {
+      "id": "qualification-details-intro",
+      "type": "paragraph",
+      "content": "Fill MBBS academic information:"
+    },
+    {
+      "id": "qualification-details-list",
+      "type": "list",
+      "items": [
+        "Marks of each professional",
+        "Passing year",
+        "Internship dates",
+        "Institute name"
+      ]
+    },
+    {
+      "id": "qualification-details-note",
+      "type": "paragraph",
+      "content": "Internship must finish on or before 31 July 2025."
+    },
+    {
+      "id": "qualification-details-fmg",
+      "type": "paragraph",
+      "content": "FMGs must enter:"
+    },
+    {
+      "id": "qualification-details-fmg-list",
+      "type": "list",
+      "items": [
+        "FMGE marks",
+        "Year of passing the qualifying exam"
+      ]
+    },
+    {
+      "id": "pg-details",
+      "type": "heading",
+      "title": "PG Details (If Applicable)",
+      "level": 3
+    },
+    {
+      "id": "pg-details-intro",
+      "type": "paragraph",
+      "content": "If you were previously admitted to a PG course in Haryana:"
+    },
+    {
+      "id": "pg-details-list",
+      "type": "list",
+      "items": [
+        "Mention institute",
+        "Specialty",
+        "Whether you completed or left",
+        "Date of leaving"
+      ]
+    },
+    {
+      "id": "category-selection",
+      "type": "heading",
+      "title": "Category Selection",
+      "level": 3
+    },
+    {
+      "id": "category-selection-intro",
+      "type": "paragraph",
+      "content": "Your earlier inputs auto-determine:"
+    },
+    {
+      "id": "category-selection-list",
+      "type": "list",
+      "items": [
+        "Category eligibility",
+        "Seat eligibility in government, private, management or NRI quotas"
+      ]
+    },
+    {
+      "id": "upload-documents",
+      "type": "heading",
+      "title": "Upload Documents",
+      "level": 3
+    },
+    {
+      "id": "upload-documents-intro",
+      "type": "paragraph",
+      "content": "All documents must be uploaded (JPG/JPEG/PNG/PDF, 4 KB–500 KB):"
+    },
+    {
+      "id": "upload-documents-list",
+      "type": "list",
+      "items": [
+        "MBBS Degree",
+        "Internship Completion Certificate",
+        "Haryana Domicile (if applicable)",
+        "NEET PG 2025 result",
+        "Category certificate (SC/BC/EWS etc.)",
+        "PwBD certificate",
+        "Freedom fighter certificate",
+        "NEET PG admit card",
+        "Cancelled cheque",
+        "Aadhaar / PAN / Voter ID / Passport",
+        "NRI supporting documents (if applying)"
+      ]
+    },
+    {
+      "id": "payment-fee",
+      "type": "heading",
+      "title": "Payment of Registration Fee",
+      "level": 3
+    },
+    {
+      "id": "payment-fee-table",
+      "type": "table",
+      "headers": ["Category", "Fee"],
+      "rows": [
+        ["General / Unreserved", "₹2500"],
+        ["SC / ST / BC / EWS / PwBD", "₹1250"]
+      ]
+    },
+    {
+      "id": "final-submission",
+      "type": "heading",
+      "title": "7. Final Submission",
+      "level": 2
+    },
+    {
+      "id": "final-submission-intro",
+      "type": "paragraph",
+      "content": "After completing all the landmarks:"
+    },
+    {
+      "id": "final-submission-list",
+      "type": "list",
+      "items": [
+        "You need to review the Preview Page carefully",
+        "Then you need to submit the form",
+        "Later on, just take a printout for future use"
+      ]
+    },
+    {
+      "id": "final-submission-note",
+      "type": "paragraph",
+      "content": "Once submitted, the form cannot be edited, so fill it accordingly."
+    },
+    {
+      "id": "conclusion",
+      "type": "heading",
+      "title": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "conclusion-content",
+      "type": "paragraph",
+      "content": "The Haryana NEET PG Counselling 2025 process is entirely transparent, an online admission process for candidates, and it is designed to accommodate candidates from Haryana as well as from other states. With clear eligibility pathways for government, private, and NRI quota seats. The portal ensures a transparent and systematic admission process."
+    },
+    {
+      "id": "conclusion-closing",
+      "type": "paragraph",
+      "content": "It doesn't matter whether you are applying for government colleges, private institutions, SGT University, Alfalah University, diploma seats, or NRI quotas; completing the registration accurately is crucial for seat allotment."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "Frequently Asked Questions (FAQs)",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1: Can candidates from other states apply for Haryana NEET PG counselling?",
+          "answer": "Yes—only for Management Quota seats and seats in private universities; State/Govt Quota seats are only for Haryana domicile or MBBS-from-Haryana candidates."
+        },
+        {
+          "question": "Q2: Is the registration fee refundable?",
+          "answer": "No, the registration fee is non-refundable, but the security deposit is refundable if you don't forfeit your seat."
+        },
+        {
+          "question": "Q3: What happens if I resign from my allotted seat after Round 2?",
+          "answer": "You lose your security deposit, and resigning after mop-up/stray may lead to a ₹10 lakh penalty + 3-year debarment."
+        },
+        {
+          "question": "Q4: Is there a service bond for PG medical courses in Haryana?",
+          "answer": "Yes, government colleges require a service bond with approx ₹10 lakh penalty for discontinuation or non-service."
+        },
+        {
+          "question": "Q5: Can I edit my application form after final submission?",
+          "answer": "No edits allowed after final submission, except for limited corrections if DMER opens a correction window."
+        }
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "haryana neet pg counselling",
+        "neet pg counselling",
+        "haryana neet pg counselling 2025",
+        "haryana neet pg 2025 counselling",
+        "neet pg 2025 counselling",
+        "neet pg counseling registration",
+        "neet pg counselling application form",
+        "haryana state neet pg counselling",
+        "neet pg counselling seat allotment",
+        "neet pg counselling choice filling",
+        "mop up counselling neet pg",
+        "mop up round neet pg",
+        "neet pg counselling round 2",
+        "neet pg counselling round 1",
+        "neet pg counselling rules",
+        "neet pg md ms counselling",
+        "stray round neet pg",
+        "stray counselling neet pg",
+        "neet pg nri quota documents",
+        "neet pg management quota counselling"
+      ]
+    }
+  ]
 }
 
 ];
