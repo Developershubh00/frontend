@@ -19511,7 +19511,7 @@ export const blogPosts: BlogPost[] = [
   ]
 },
 {
-  "id": 53,
+  "id": 54,
   "title": "Haryana NEET PG Counselling 2025: Complete Guide to Eligibility, Seats, Documents & Process",
   "slug": "haryana-neet-pg-counselling-2025-complete-guide-eligibility-seats-documents-process",
   "excerpt": "Haryana NEET PG Counselling 2025 ensures aspirants get clear insight into eligibility seats documents and guided process for confident registration.",
