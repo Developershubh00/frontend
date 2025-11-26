@@ -19510,6 +19510,622 @@ export const blogPosts: BlogPost[] = [
     }
   ]
 },
+{
+  "id": 53,
+  "title": "Haryana NEET PG Counselling 2025: Complete Guide to Eligibility, Seats, Documents & Process",
+  "slug": "haryana-neet-pg-counselling-2025-complete-guide-eligibility-seats-documents-process",
+  "excerpt": "Haryana NEET PG Counselling 2025 ensures aspirants get clear insight into eligibility seats documents and guided process for confident registration.",
+  "featured_image": "https://cdn.dribbble.com/userupload/45844103/file/ee01760b40d0653046ca1f4630acc6e7.png?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-green-100 text-green-800"
+  },
+  "tags": [
+    "Haryana NEET PG Counselling",
+    "NEET PG 2025",
+    "State Counselling",
+    "MD/MS Admissions",
+    "NEET PG Eligibility",
+    "DMER Haryana"
+  ],
+  "published_date": "2025-11-26",
+  "read_time": 20,
+  "meta_title": "Haryana NEET PG Counselling 2025: Complete Guide to Eligibility, Seats, Documents & Process",
+  "meta_description": "Haryana NEET PG Counselling 2025 ensures aspirants get clear insight into eligibility seats documents and guided process for confident registration.",
+  "keywords": [
+    "haryana neet pg counselling",
+    "neet pg counselling",
+    "haryana neet pg counselling 2025",
+    "haryana neet pg 2025 counselling",
+    "neet pg 2025 counselling",
+    "neet pg counseling registration",
+    "neet pg counselling application form",
+    "haryana state neet pg counselling",
+    "neet pg counselling seat allotment",
+    "neet pg counselling choice filling",
+    "mop up counselling neet pg",
+    "mop up round neet pg",
+    "neet pg counselling round 2",
+    "neet pg counselling round 1",
+    "neet pg counselling rules",
+    "neet pg md ms counselling",
+    "stray round neet pg",
+    "stray counselling neet pg",
+    "neet pg nri quota documents",
+    "neet pg management quota counselling"
+  ],
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "The Haryana NEET PG Counselling 2025 is a streamlined and transparent process for MD/MS and PG Diploma admissions, officially conducted by DMER Haryana and USHR Rohtak. For students preparing to participate in the Haryana NEET PG Counselling, this guide covers everything, eligibility, seat matrix, documents, registration steps, and round-wise rules, helping you navigate the NEET PG counselling 2025 system smoothly."
+    },
+    {
+      "id": "intro-guide",
+      "type": "paragraph",
+      "content": "Suppose you are preparing to participate in Haryana's postgraduate medical admission rounds. In that case, this guide will walk you through everything, from eligibility rules and seat breakup to documents, fees, timelines, reservations, and round-wise procedures."
+    },
+    {
+      "id": "eligibility-criteria",
+      "type": "heading",
+      "title": "Eligibility Criteria for Haryana MD/MS Counselling",
+      "level": 2
+    },
+    {
+      "id": "eligibility-intro",
+      "type": "paragraph",
+      "content": "Haryana offers seats through two broad eligibility pathways:"
+    },
+    {
+      "id": "state-quota-eligibility",
+      "type": "heading",
+      "title": "A. Eligibility for State Quota (Govt + Private Seats Under State Quota)",
+      "level": 3
+    },
+    {
+      "id": "state-quota-intro",
+      "type": "paragraph",
+      "content": "A candidate is basically considered eligible under the Haryana NEET PG counselling if:"
+    },
+    {
+      "id": "category-1",
+      "type": "heading",
+      "title": "Category 1 – MBBS from Haryana",
+      "level": 4
+    },
+    {
+      "id": "category-1-content",
+      "type": "paragraph",
+      "content": "Students who completed their MBBS degree from a well-recognized medical college located in Haryana."
+    },
+    {
+      "id": "category-2",
+      "type": "heading",
+      "title": "Category 2 – Haryana Resident Certificate Holders",
+      "level": 4
+    },
+    {
+      "id": "category-2-content",
+      "type": "paragraph",
+      "content": "Applicable even for FMGs if they hold a valid domicile. This matters particularly for the Haryana NEET PG 2025 counselling State Quota."
+    },
+    {
+      "id": "resident-status",
+      "type": "heading",
+      "title": "Who Can Claim Haryana Resident Status?",
+      "level": 4
+    },
+    {
+      "id": "resident-status-intro",
+      "type": "paragraph",
+      "content": "Individuals who are falling under these cases (along with all supporting documents):"
+    },
+    {
+      "id": "resident-status-list",
+      "type": "list",
+      "items": [
+        "Children who are employees of Haryana statutory bodies/corporations",
+        "They should be permanent residents of Haryana (even if living outside for work, that doesn't matter)",
+        "Individuals who have at least 15+ years of residence in Haryana",
+        "Recognize the journalists who are living in Haryana",
+        "Any partner of yours is from Haryana residents",
+        "Persons born in Haryana",
+        "Pensioners settled in Haryana & while drawing pension from the state itself",
+        "Central Govt employees have been posted in Haryana or are involved with state affairs"
+      ]
+    },
+    {
+      "id": "resident-status-note",
+      "type": "paragraph",
+      "content": "Note: All the important applicants must confirm their Indian citizenship and must not have claimed domicile benefits in any other state."
+    },
+    {
+      "id": "not-eligible",
+      "type": "heading",
+      "title": "2. Who Is NOT Eligible?",
+      "level": 3
+    },
+    {
+      "id": "not-eligible-list",
+      "type": "list",
+      "items": [
+        "Candidates already pursuing any MD/MS/Diploma course are barred until they complete or discontinue the course.",
+        "An undertaking stating \"not admitted elsewhere\" is mandatory."
+      ]
+    },
+    {
+      "id": "nri-quota",
+      "type": "heading",
+      "title": "3. NRI Quota Eligibility (15% of Seats in Private & SGT University)",
+      "level": 3
+    },
+    {
+      "id": "nri-quota-intro",
+      "type": "paragraph",
+      "content": "Relevant for students applying under the NEET PG NRI quota documents list."
+    },
+    {
+      "id": "nri-quota-list",
+      "type": "list",
+      "items": [
+        "All the NRIs/PIOs/OCIs originally belonged to Haryana (including children)",
+        "NRIs/PIOs/OCIs are basically from other states",
+        "Those whose siblings are also NRIs",
+        "The first-degree relatives who are also NRIs (along with the proof of guardianship)",
+        "Foreign nationals"
+      ]
+    },
+    {
+      "id": "nri-documents",
+      "type": "paragraph",
+      "content": "For the documents for NRI verification, you need to carry your Passport/PIO/OCI card, Embassy letter/MEA letter, and NRI bank account proof."
+    },
+    {
+      "id": "seat-distribution",
+      "type": "heading",
+      "title": "4. Seat Distribution in Haryana NEET PG 2025",
+      "level": 2
+    },
+    {
+      "id": "seat-distribution-intro",
+      "type": "paragraph",
+      "content": "This section aligns with both NEET PG MD MS counselling and Haryana NEET PG counselling rules."
+    },
+    {
+      "id": "govt-colleges",
+      "type": "heading",
+      "title": "A. Government Medical Colleges",
+      "level": 3
+    },
+    {
+      "id": "govt-colleges-list",
+      "type": "list",
+      "items": [
+        "For the government medical college seat is required 50% under the State Government Quota",
+        "The eligibility: Haryana residents or MBBS from Haryana"
+      ]
+    },
+    {
+      "id": "private-colleges",
+      "type": "heading",
+      "title": "B. Private Medical Colleges",
+      "level": 3
+    },
+    {
+      "id": "private-colleges-list",
+      "type": "list",
+      "items": [
+        "All seats come under the State Counselling",
+        "Overall the 50% of these seats are officially surrendered to the State Quota",
+        "The remaining constitutes the Management/NRI Quota"
+      ]
+    },
+    {
+      "id": "sgt-university",
+      "type": "heading",
+      "title": "C. SGT University",
+      "level": 3
+    },
+    {
+      "id": "sgt-university-list",
+      "type": "list",
+      "items": [
+        "The official 25% seats under the State Quota",
+        "Other than the 75% seats under Management/NRI"
+      ]
+    },
+    {
+      "id": "reservation",
+      "type": "heading",
+      "title": "5. Reservation Structure (Haryana MD/MS)",
+      "level": 2
+    },
+    {
+      "id": "vertical-reservation",
+      "type": "heading",
+      "title": "Vertical Reservation (State Quota)",
+      "level": 3
+    },
+    {
+      "id": "vertical-reservation-list",
+      "type": "list",
+      "items": [
+        "General (Open): 43%",
+        "EWS: 10%",
+        "BCA: 16%",
+        "BCB: 11%",
+        "Other SC: 10%",
+        "SC Deprived: 10%"
+      ]
+    },
+    {
+      "id": "horizontal-reservation",
+      "type": "heading",
+      "title": "Horizontal Reservation",
+      "level": 3
+    },
+    {
+      "id": "horizontal-reservation-list",
+      "type": "list",
+      "items": [
+        "5% for PwD",
+        "Institutional Preference: 25% for candidates who completed MBBS in Haryana",
+        "Reservations for Ex-Servicemen & Freedom Fighter dependents"
+      ]
+    },
+    {
+      "id": "sgt-reservation",
+      "type": "heading",
+      "title": "SGT University (State Quota – 25% seats only)",
+      "level": 3
+    },
+    {
+      "id": "sgt-reservation-list",
+      "type": "list",
+      "items": [
+        "Open – 10%",
+        "SC – 10%",
+        "PwD – 5%"
+      ]
+    },
+    {
+      "id": "application-process",
+      "type": "heading",
+      "title": "6. Application Process: Step-by-Step Flow",
+      "level": 2
+    },
+    {
+      "id": "application-process-list",
+      "type": "list",
+      "items": [
+        "Online Registration & Fee Payment",
+        "Editing/Correction Window",
+        "Choice Filling & Locking",
+        "Seat Allotment (Provisional List)",
+        "Submission of Grievances (if any)",
+        "Final Allocation List",
+        "Payment of Tuition Fee Online",
+        "Document Verification at PGIMS Rohtak",
+        "Download Admission Letter",
+        "Reporting to Allotted Institute"
+      ]
+    },
+    {
+      "id": "important-dates",
+      "type": "heading",
+      "title": "7. Important Dates (Round 1)",
+      "level": 2
+    },
+    {
+      "id": "important-dates-table",
+      "type": "table",
+      "headers": ["Step", "Dates"],
+      "rows": [
+        ["Registration", "13–16 Nov 2025 (11:59 PM)"],
+        ["Editing Window", "13–16 Nov 2025"],
+        ["Choice Filling & Locking", "13–16 Nov 2025"],
+        ["Upcoming Rounds", "Will be announced later"]
+      ]
+    },
+    {
+      "id": "important-dates-note",
+      "type": "paragraph",
+      "content": "Other rounds (including NEET PG counselling round 2, mop up round NEET PG, stray counselling NEET PG) to be announced."
+    },
+    {
+      "id": "documents-required",
+      "type": "heading",
+      "title": "8. Documents Required (Application & Verification)",
+      "level": 2
+    },
+    {
+      "id": "documents-upload",
+      "type": "heading",
+      "title": "Documents to Upload",
+      "level": 3
+    },
+    {
+      "id": "documents-upload-list",
+      "type": "list",
+      "items": [
+        "NEET PG Scorecard (unlocked PDF)",
+        "NEET PG Admit Card",
+        "10th Certificate (DOB proof)",
+        "MBBS degree/provisional",
+        "Internship Completion Certificate",
+        "Haryana Domicile Certificate",
+        "State/Medical Council registration",
+        "Caste/EWS/BC certificates (if applicable)",
+        "NRI documents",
+        "Cancelled cheque",
+        "Non-creamy layer certificate",
+        "PwD certificate",
+        "Identity proof (Aadhaar/PAN/Passport/Driving Licence/Voter ID)",
+        "FMGE result (for FMGs)"
+      ]
+    },
+    {
+      "id": "documents-carry",
+      "type": "heading",
+      "title": "Documents to Carry in Original During Verification",
+      "level": 3
+    },
+    {
+      "id": "documents-carry-list",
+      "type": "list",
+      "items": [
+        "All above (as applicable)",
+        "Passport-size photographs",
+        "Character certificate",
+        "NOC for in-service candidates",
+        "Admission application printout",
+        "Any additional documents requested by the authorities"
+      ]
+    },
+    {
+      "id": "fee-structure",
+      "type": "heading",
+      "title": "9. Fee Structure (Govt, Private & Deemed)",
+      "level": 2
+    },
+    {
+      "id": "registration-fee",
+      "type": "heading",
+      "title": "Registration Fee",
+      "level": 3
+    },
+    {
+      "id": "registration-fee-list",
+      "type": "list",
+      "items": [
+        "₹2500 – Unreserved",
+        "₹1250 – SC/BC/EWS/PwD (Haryana)"
+      ]
+    },
+    {
+      "id": "security-deposit",
+      "type": "heading",
+      "title": "Security Deposit (Paid from Round 2 onwards)",
+      "level": 3
+    },
+    {
+      "id": "security-deposit-govt",
+      "type": "paragraph",
+      "content": "Govt Colleges:"
+    },
+    {
+      "id": "security-deposit-govt-list",
+      "type": "list",
+      "items": [
+        "₹25,000 (UR)",
+        "₹12,500 (Reserved categories)"
+      ]
+    },
+    {
+      "id": "security-deposit-private",
+      "type": "paragraph",
+      "content": "Private Medical Colleges: ₹2,00,000"
+    },
+    {
+      "id": "tuition-fee",
+      "type": "heading",
+      "title": "Tuition Fee (Annual)",
+      "level": 3
+    },
+    {
+      "id": "tuition-fee-govt",
+      "type": "heading",
+      "title": "Government Colleges",
+      "level": 4
+    },
+    {
+      "id": "tuition-fee-govt-list",
+      "type": "list",
+      "items": [
+        "Pre-clinical: ₹1,00,000",
+        "Para-clinical: ₹1,25,000",
+        "Clinical: ₹1,00,000 – ₹14,00,000"
+      ]
+    },
+    {
+      "id": "tuition-fee-private",
+      "type": "heading",
+      "title": "Private Medical Colleges",
+      "level": 4
+    },
+    {
+      "id": "tuition-fee-private-list",
+      "type": "list",
+      "items": [
+        "Clinical: ₹20–45 lakhs",
+        "Pre-clinical: ₹10 lakhs",
+        "Para-clinical: ₹5.5–10 lakhs"
+      ]
+    },
+    {
+      "id": "tuition-fee-sgt",
+      "type": "heading",
+      "title": "SGT University",
+      "level": 4
+    },
+    {
+      "id": "tuition-fee-sgt-list",
+      "type": "list",
+      "items": [
+        "Pre-clinical: ₹2.4 lakhs",
+        "Para-clinical: ₹7.2 lakhs",
+        "Clinical: ₹17.9–32.9 lakhs"
+      ]
+    },
+    {
+      "id": "penalty-bond",
+      "type": "heading",
+      "title": "10. Penalty & Bond Rules",
+      "level": 2
+    },
+    {
+      "id": "penalty-bond-list",
+      "type": "list",
+      "items": [
+        "No service bond currently for Haryana PG seats"
+      ]
+    },
+    {
+      "id": "discontinuation-fee",
+      "type": "heading",
+      "title": "Discontinuation Fee:",
+      "level": 3
+    },
+    {
+      "id": "discontinuation-fee-list",
+      "type": "list",
+      "items": [
+        "₹10 lakh + current year fee + 50% next year fee",
+        "Plus 3 years debarment"
+      ]
+    },
+    {
+      "id": "stipend",
+      "type": "heading",
+      "title": "Stipend in Government Colleges",
+      "level": 3
+    },
+    {
+      "id": "stipend-list",
+      "type": "list",
+      "items": [
+        "Year 1: ₹1,04,346",
+        "Year 2: ₹1,07,508",
+        "Year 3: ₹1,10,670"
+      ]
+    },
+    {
+      "id": "round-wise-rules",
+      "type": "heading",
+      "title": "11. Round-wise Rules (Joining, Upgradation & Exit)",
+      "level": 2
+    },
+    {
+      "id": "after-round-1",
+      "type": "heading",
+      "title": "After Round 1",
+      "level": 3
+    },
+    {
+      "id": "after-round-1-list",
+      "type": "list",
+      "items": [
+        "After round 1, joining is mandatory to secure the seat",
+        "The overall upgradation allowed in Round 2",
+        "There will be no penalty for withdrawal before the final dates"
+      ]
+    },
+    {
+      "id": "round-2",
+      "type": "heading",
+      "title": "Round 2",
+      "level": 3
+    },
+    {
+      "id": "round-2-list",
+      "type": "list",
+      "items": [
+        "The security deposit is mandatory",
+        "If it has been allotted and not joined, a penalty applies",
+        "The overall upgradation continues if you joined the Round 1 seat"
+      ]
+    },
+    {
+      "id": "mop-up-round",
+      "type": "heading",
+      "title": "Mop-Up/Stray Round",
+      "level": 3
+    },
+    {
+      "id": "mop-up-round-list",
+      "type": "list",
+      "items": [
+        "There will be no fresh registration in most cases",
+        "Once it is allotted, you must join, or penalties apply"
+      ]
+    },
+    {
+      "id": "conclusion",
+      "type": "heading",
+      "title": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "conclusion-content",
+      "type": "paragraph",
+      "content": "The Haryana NEET PG Counselling, from registration to seat allotment and document verification, ensures a fair and transparent admission experience. By following timelines, rules, and documentation steps accurately, students can maximize their chances in the NEET PG 2025 counselling process."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "Frequently Asked Questions (FAQs)",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1: Is there a service bond for Haryana Government PG seats?",
+          "answer": "A: No, there is no service bond for PG seats in 2025, but discontinuation attracts strict penalties."
+        },
+        {
+          "question": "Q2: Can students from other states apply for Private Medical Colleges in Haryana?",
+          "answer": "A: Yes, other-state students are eligible for Management Quota seats in private colleges and SGT University."
+        },
+        {
+          "question": "Q3: What is the penalty for leaving a seat after Round 2?",
+          "answer": "A: Leaving after Round 2 causes security deposit loss, and resigning later leads to a ₹10 lakh penalty plus 3-year debarment."
+        },
+        {
+          "question": "Q4: Is document verification online or offline?",
+          "answer": "A: Final document verification is offline at PGIMS Rohtak."
+        },
+        {
+          "question": "Q5: What is the difference between SC and Deprived SC categories in Haryana?",
+          "answer": "A: Haryana divides the SC quota into 10% SC and 10% Deprived SC (DSC) for better representation."
+        }
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    }
+  ]
+}
 // {
 //   "id": 54,
 //   "title": "Haryana NEET PG Counselling 2025: Complete Registration Guide, Eligibility Rules & Step-by-Step Process",
