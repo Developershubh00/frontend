@@ -62,7 +62,7 @@ const SchedulePage: React.FC = () => {
           <div className="bg-gradient-to-r from-slate-700 to-slate-800 px-6 py-4">
             <h2 className="text-lg font-medium text-white flex items-center gap-2">
               <FileText className="w-5 h-5" />
-              eservices/Schedule
+              Schedule PG
             </h2>
           </div>
 
