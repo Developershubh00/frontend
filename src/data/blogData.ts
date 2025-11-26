@@ -19515,7 +19515,7 @@ export const blogPosts: BlogPost[] = [
   "title": "Haryana NEET PG Counselling 2025: Complete Registration Guide, Eligibility Rules & Step-by-Step Process",
   "slug": "haryana-neet-pg-2025-counselling-complete-registration-guide-eligibility-rules-step-by-step-process",
   "excerpt": "Haryana NEET PG Counselling offers a clear path to seats with structured registration detailed rules and a smooth stepwise procedure for every aspirant.",
-  "featured_image": "https://cdn.dribbble.com/userupload/45844103/file/ee01760b40d0653046ca1f4630acc6e7.png?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/45844334/file/f4e72359b26126a4485060519eb4ec95.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
     "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
