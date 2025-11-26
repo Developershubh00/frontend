@@ -177,24 +177,3 @@ const SchedulePage: React.FC = () => {
 };
 
 export default SchedulePage;
-
-
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 p-6">
-      <div className="max-w-7xl mx-auto">
-        {/* Header Section */}
-        <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl shadow-2xl p-8 mb-8 text-white">
-          <div className="flex items-center gap-4 mb-4">
-            <div className="bg-white/20 backdrop-blur-sm p-3 rounded-xl">
-              <Calendar className="w-8 h-8" />
-            </div>
-            <div>
-              <h1 className="text-4xl font-bold">NEET PG 2025 Schedule</h1>
-              <p className="text-blue-100 mt-2">
-                Check Your Counselling Schedule & Important Documents
-              </p>
-            </div>
-          </div>
-        </div>
-
-       
