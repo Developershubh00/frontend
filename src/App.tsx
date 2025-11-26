@@ -64,6 +64,7 @@ import InicetAllotmentPage from "./INICET/InicetAllotmentsPage";
 import InicetAllotmentsSessionPage from "./INICET/InicetAllotmentsSessionPage";
 import INICETSeatMatrixPage from "./INICET/INICETSeatMatrixPage";
 import Inicet2026SeatMatrix from "./INICET/Inicet2026SeatMatrix";
+import SchedulePage from "./pages/SchedulePage";
 
 /**
  * Main App Component with React Router
@@ -246,6 +247,7 @@ function App() {
           <Route path="/forgot-password" element={<ForgotPasswordPage />} />
           <Route path="/reset-password" element={<ResetPasswordPage />} />
           <Route path="/inicetdashboard" element={<InicetDashboardPage />} />
+          <Route path="/schedule" element={<SchedulePage onBack={() => window.history.back()}/>} />
           
 
 

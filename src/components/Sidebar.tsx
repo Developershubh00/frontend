@@ -174,6 +174,14 @@ const Sidebar: React.FC<SidebarProps> = ({
         if (win) win.focus();
       },
     },
+    {
+      id: "universities",
+      icon: GraduationCap,
+      label: "Schedule",
+      hasSubmenu: false,
+      color: "text-cyan-600",
+      onClick: () => navigate("/schedule"),
+    },
     // {
     //   id: "MyChoicelist",
     //   icon: Heart,
@@ -256,7 +264,7 @@ const Sidebar: React.FC<SidebarProps> = ({
                     onSectionChange(item.id);
                   }
                 }}
-                className={`w-full flex items-center ${
+                className={`w-full flex items-start ${
                   isCollapsed ? "justify-center px-2" : "justify-between px-4"
                 } py-3 text-sm font-medium rounded-xl transition-all duration-200 group ${
                   activeSection === item.id
@@ -266,17 +274,17 @@ const Sidebar: React.FC<SidebarProps> = ({
                 title={isCollapsed ? item.label : ""}
               >
                 <div
-                  className={`flex items-center ${
+                  className={`flex items-start ${
                     isCollapsed ? "" : "space-x-3"
                   }`}
                 >
                   <item.icon
-                    className={`w-5 h-5 ${
+                    className={`w-5 h-5 flex-shrink-0 ${
                       activeSection === item.id ? "text-blue-600" : item.color
                     } transition-colors`}
                   />
                   {!isCollapsed && (
-                    <span className="font-medium">{item.label}</span>
+                    <span className="font-medium text-left">{item.label}</span>
                   )}
                 </div>
                 {item.hasSubmenu && !isCollapsed && (

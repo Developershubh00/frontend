@@ -114,6 +114,16 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
         );
       },
     },
+    {
+      id: "prospectus",
+      label: "Schedule",
+      icon: BarChart3,
+      bgColor: "bg-blue-100",
+      textColor: "text-blue-600",
+      onClick: () => {
+        window.location.href = "/schedule";
+      },
+    },
   ];
 
   const dataCards = [
