@@ -143,7 +143,7 @@ const SchedulePage: React.FC = () => {
 
         {/* Info Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
-          <div className="bg-white rounded-xl shadow-md p-6 border border-blue-100 hover:shadow-lg transition-shadow">
+          {/* <div className="bg-white rounded-xl shadow-md p-6 border border-blue-100 hover:shadow-lg transition-shadow">
             <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mb-3">
               <FileText className="w-5 h-5 text-blue-600" />
             </div>
@@ -151,14 +151,14 @@ const SchedulePage: React.FC = () => {
             <p className="text-slate-600 text-sm leading-relaxed">
               All schedule documents are accessible for viewing in a new tab
             </p>
-          </div>
+          </div> */}
           <div className="bg-white rounded-xl shadow-md p-6 border border-indigo-100 hover:shadow-lg transition-shadow">
             <div className="w-10 h-10 bg-indigo-100 rounded-lg flex items-center justify-center mb-3">
               <Calendar className="w-5 h-5 text-indigo-600" />
             </div>
             <h3 className="text-base font-medium text-slate-800 mb-2">Stay Updated</h3>
             <p className="text-slate-600 text-sm leading-relaxed">
-              Check regularly for new announcements and schedule changes
+              Keep checking Our Blogs for All the Latest Updates with Full View.
             </p>
           </div>
           <div className="bg-white rounded-xl shadow-md p-6 border border-purple-100 hover:shadow-lg transition-shadow">
