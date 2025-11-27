@@ -141,14 +141,65 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
       date: "15th November 2025",
       event: "Result Declaration",
       status: "completed",
-      
     },
     {
       id: 7,
-      date: "November–December 2025",
-      event: "Counselling & Seat Allotment",
+      date: "17th Oct '25 to 9th Dec '25",
+      event: "1st Round of Counselling",
       status: "upcoming",
       isHighlight: true,
+    },
+    {
+      id: 8,
+      date: "1st Dec '25 to 7th Dec '25",
+      event: "Last Date of Joining (Round 1)",
+      status: "upcoming",
+    },
+    {
+      id: 9,
+      date: "5th Dec '25 to 29th Dec '25",
+      event: "2nd Round of Counselling",
+      status: "upcoming",
+      isHighlight: true,
+    },
+    {
+      id: 10,
+      date: "21st Dec '25 to 28th Dec '25",
+      event: "Last Date of Joining (Round 2)",
+      status: "upcoming",
+    },
+    {
+      id: 11,
+      date: "22nd Dec '25",
+      event: "Commencement of New Session",
+      status: "upcoming",
+      isHighlight: true,
+    },
+    {
+      id: 12,
+      date: "26th Dec '25 to 19th Jan '26",
+      event: "Round 3 of Counselling",
+      status: "upcoming",
+      isHighlight: true,
+    },
+    {
+      id: 13,
+      date: "11th Jan '26 to 17th Jan '26",
+      event: "Last Date of Joining (Round 3)",
+      status: "upcoming",
+    },
+    {
+      id: 14,
+      date: "15th Jan '26 to 24th Jan '26",
+      event: "Stray Vacancy Round",
+      status: "upcoming",
+      isHighlight: true,
+    },
+    {
+      id: 15,
+      date: "31st Jan '26",
+      event: "Last Date of Joining (Stray Vacancy)",
+      status: "upcoming",
     },
   ];
   const pdfUrl = "https://believersconsultancy.com/data/AIQ_and_State_Schedule_PG_2025_dated_25.11.25.pdf";
