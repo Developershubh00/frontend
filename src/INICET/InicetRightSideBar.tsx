@@ -106,7 +106,7 @@ const InicetRightSideBar: React.FC<InicetRightSideBarProps> = ({
             <p className="text-xs text-slate-500">Important Dates & Events</p>
           </div>
           {/* PDF Button - Small */}
-        <a
+        {/* <a
           href={pdfUrl}
           target="_blank"
           rel="noopener noreferrer"
@@ -115,7 +115,7 @@ const InicetRightSideBar: React.FC<InicetRightSideBarProps> = ({
         >
           <span>For Full Schedule</span>
           <ExternalLink className="w-3 h-3" />
-        </a>
+        </a> */}
       </div>
 
 
