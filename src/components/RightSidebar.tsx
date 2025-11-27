@@ -160,7 +160,7 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
       date: "5th Dec '25 to 29th Dec '25",
       event: "2nd Round of Counselling",
       status: "upcoming",
-      isHighlight: true,
+      // isHighlight: true,
     },
     {
       id: 10,
@@ -173,14 +173,14 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
       date: "22nd Dec '25",
       event: "Commencement of New Session",
       status: "upcoming",
-      isHighlight: true,
+      // isHighlight: true,
     },
     {
       id: 12,
       date: "26th Dec '25 to 19th Jan '26",
       event: "Round 3 of Counselling",
       status: "upcoming",
-      isHighlight: true,
+      // isHighlight: true,
     },
     {
       id: 13,
@@ -193,7 +193,7 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
       date: "15th Jan '26 to 24th Jan '26",
       event: "Stray Vacancy Round",
       status: "upcoming",
-      isHighlight: true,
+      // isHighlight: true,
     },
     {
       id: 15,
