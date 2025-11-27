@@ -117,7 +117,7 @@ const InicetSidebar: React.FC<InicetSidebarProps> = ({
     },
     {
       id: "MyChoicelist",
-      icon: Heart,
+      icon: UserCheck,
       label: "Qualified Candidates List",
       hasSubmenu: false,
       color: "text-indigo-600",
