@@ -10,6 +10,7 @@ import {
   Users,
   Target,
 } from "lucide-react";
+import { CheckCircle2, Circle, ExternalLink } from 'lucide-react';
 import AnnouncementSidebar from "./AnnouncementSidebar";
 /**
  * Right Sidebar Component
@@ -28,82 +29,129 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
   choiceLists: propChoiceLists 
 }) => {
   // NEET PG 2025 Updates data
+  // const neetPGUpdates = [
+  //   {
+  //     id: 1,
+  //     title: "Registration",
+  //     description: "17 Apr 3:00 PM to 7 May, 2025 11:55 PM",
+  //     status: "completed",
+  //     icon: CheckCircle,
+  //     color: "text-green-600",
+  //     bgColor: "bg-green-100",
+  //   },
+  //   {
+  //     id: 2,
+  //     title: "Resubmit exam centre choice",
+  //     description: "13 to 17 Jun, 2025",
+  //     status: "completed",
+  //     icon: CheckCircle,
+  //     color: "text-green-600",
+  //     bgColor: "bg-green-100",
+  //   },
+  //   {
+  //     id: 3,
+  //     title: "Application edit window",
+  //     description: "20 to 22 Jun, 2025",
+  //     status: "completed",
+  //     icon: CheckCircle,
+  //     color: "text-green-600",
+  //     bgColor: "bg-green-100",
+  //   },
+  //   {
+  //     id: 4,
+  //     title: "Informing exam city to candidates",
+  //     description: "21 Jul, 2025",
+  //     status: "completed",
+  //     icon: CheckCircle,
+  //     color: "text-green-600",
+  //     bgColor: "bg-green-100",
+  //   },
+  //   {
+  //     id: 5,
+  //     title: "Issue of admit cards",
+  //     description: "31 Jul, 2025",
+  //     status: "completed",
+  //     icon: CheckCircle,
+  //     color: "text-green-600",
+  //     bgColor: "bg-green-100",
+  //   },
+  //   {
+  //     id: 6,
+  //     title: "NEET PG 2025 Exam",
+  //     description: "03 Aug, 2025",
+  //     status: "completed",
+  //     icon: CheckCircle,
+  //     color: "text-green-600",
+  //     bgColor: "bg-green-100",
+  //   },
+  //   {
+  //     id: 7,
+  //     title: "NEET PG 2025 Results",
+  //     description: "Results Announced - Check Now!",
+  //     status: "announced",
+  //     icon: CheckCircle,
+  //     color: "text-green-600",
+  //     bgColor: "bg-green-100",
+  //     isClickable: true,
+  //   },
+  //   {
+  //     id: 8,
+  //     title: "Counselling",
+  //     description: "Registration Open - Start Now!",
+  //     status: "active",
+  //     icon: Clock,
+  //     color: "text-blue-600",
+  //     bgColor: "bg-blue-100",
+  //     isClickable: true,
+  //   },
+  // ];
   const neetPGUpdates = [
     {
       id: 1,
-      title: "Registration",
-      description: "17 Apr 3:00 PM to 7 May, 2025 11:55 PM",
+      date: "September 30, 2025",
+      event: "Registration Start",
       status: "completed",
-      icon: CheckCircle,
-      color: "text-green-600",
-      bgColor: "bg-green-100",
     },
     {
       id: 2,
-      title: "Resubmit exam centre choice",
-      description: "13 to 17 Jun, 2025",
+      date: "October 21, 2025 (5 PM)",
+      event: "Last Date for Registration",
       status: "completed",
-      icon: CheckCircle,
-      color: "text-green-600",
-      bgColor: "bg-green-100",
     },
     {
       id: 3,
-      title: "Application edit window",
-      description: "20 to 22 Jun, 2025",
+      date: "October 24 to 26, 2025 (5 PM)",
+      event: "Correction Window",
       status: "completed",
-      icon: CheckCircle,
-      color: "text-green-600",
-      bgColor: "bg-green-100",
     },
     {
       id: 4,
-      title: "Informing exam city to candidates",
-      description: "21 Jul, 2025",
+      date: "November 1, 2025",
+      event: "Admit Card Release",
       status: "completed",
-      icon: CheckCircle,
-      color: "text-green-600",
-      bgColor: "bg-green-100",
     },
     {
       id: 5,
-      title: "Issue of admit cards",
-      description: "31 Jul, 2025",
+      date: "9th November 2025 (Sunday)",
+      event: "Exam Date",
       status: "completed",
-      icon: CheckCircle,
-      color: "text-green-600",
-      bgColor: "bg-green-100",
     },
     {
       id: 6,
-      title: "NEET PG 2025 Exam",
-      description: "03 Aug, 2025",
+      date: "15th November 2025",
+      event: "Result Declaration",
       status: "completed",
-      icon: CheckCircle,
-      color: "text-green-600",
-      bgColor: "bg-green-100",
+      
     },
     {
       id: 7,
-      title: "NEET PG 2025 Results",
-      description: "Results Announced - Check Now!",
-      status: "announced",
-      icon: CheckCircle,
-      color: "text-green-600",
-      bgColor: "bg-green-100",
-      isClickable: true,
-    },
-    {
-      id: 8,
-      title: "Counselling",
-      description: "Registration Open - Start Now!",
-      status: "active",
-      icon: Clock,
-      color: "text-blue-600",
-      bgColor: "bg-blue-100",
-      isClickable: true,
+      date: "November–December 2025",
+      event: "Counselling & Seat Allotment",
+      status: "upcoming",
+      isHighlight: true,
     },
   ];
+  const pdfUrl = "https://believersconsultancy.com/data/AIQ_and_State_Schedule_PG_2025_dated_25.11.25.pdf";
 
   return (
     <div className="h-full w-80 bg-white/95 backdrop-blur-xl border-l border-slate-200/50 z-30 overflow-y-auto mb-6">
@@ -184,7 +232,7 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
         </div> */}
 
         {/* NEET PG Timeline */}
-        <div className="mb-6">
+        {/* <div className="mb-6">
           <h3 className="text-sm font-bold text-slate-800 mb-3">Timeline</h3>
           <div className="space-y-2">
             {neetPGUpdates.slice(0, 8).map((update) => (
@@ -201,7 +249,86 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
+        <div className="pt-4 border-t border-slate-200">
+                  <div className="mb-4">
+                    <h3 className="text-sm font-bold text-slate-800 mb-1 flex items-center">
+                      <span className="w-1 h-4 bg-emerald-600 rounded-full mr-2"></span>
+                      NEET PG 2026 January Session
+                    </h3>
+                    <p className="text-xs text-slate-500">Important Dates & Events</p>
+                  </div>
+                  {/* PDF Button - Small */}
+                <a
+                  href={pdfUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-1 px-2 py-1 text-xs font-medium text-emerald-700 bg-emerald-50 border border-emerald-200 rounded hover:bg-emerald-100 hover:border-emerald-300 transition-colors duration-200 active:scale-95 whitespace-nowrap"
+                  title="View Official Schedule"
+                >
+                  <span>For Full Schedule</span>
+                  <ExternalLink className="w-3 h-3" />
+                </a>
+              </div>
+
+
+        <div className="space-y-3">
+            {neetPGUpdates.map((item, index) => (
+              <div key={item.id} className="relative">
+                {/* Timeline connector line */}
+                {index !== neetPGUpdates.length - 1 && (
+                  <div className="absolute left-[7px] top-6 w-0.5 h-8 bg-slate-200"></div>
+                )}
+
+                <div
+                  className={`flex items-start space-x-3 ${
+                    item.isHighlight
+                      ? "bg-emerald-50 border border-emerald-200 rounded-lg p-2 -ml-2"
+                      : ""
+                  }`}
+                >
+                  {/* Timeline dot */}
+                  <div className="flex-shrink-0 mt-0.5">
+                    {item.status === "completed" ? (
+                      <CheckCircle2 className="w-4 h-4 text-green-600" />
+                    ) : item.isHighlight ? (
+                      <div className="w-4 h-4 rounded-full bg-emerald-600 flex items-center justify-center">
+                        <div className="w-2 h-2 rounded-full bg-white"></div>
+                      </div>
+                    ) : (
+                      <Circle className="w-4 h-4 text-slate-400" />
+                    )}
+                  </div>
+
+                  {/* Content */}
+                  <div className="flex-1 min-w-0">
+                    <p
+                      className={`text-xs font-semibold ${
+                        item.status === "completed"
+                          ? "text-slate-600"
+                          : item.isHighlight
+                          ? "text-emerald-900"
+                          : "text-slate-800"
+                      }`}
+                    >
+                      {item.event}
+                    </p>
+                    <p
+                      className={`text-xs mt-0.5 ${
+                        item.status === "completed"
+                          ? "text-slate-400"
+                          : item.isHighlight
+                          ? "text-emerald-700"
+                          : "text-slate-500"
+                      }`}
+                    >
+                      {item.date}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
 
         {/* NEET PG Statistics */}
         <div className="mb-6">
