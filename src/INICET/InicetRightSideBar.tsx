@@ -121,7 +121,8 @@ const InicetRightSideBar: React.FC<InicetRightSideBarProps> = ({
 
           {/* Timeline */}
           <div className="space-y-3">
-            {inicetTimeline.map((item, index) => (
+            {/* {inicetTimeline.map((item, index)  */}
+            {[...inicetTimeline].reverse().map((item, index)=> (
               <div key={item.id} className="relative">
                 {/* Timeline connector line */}
                 {index !== inicetTimeline.length - 1 && (
