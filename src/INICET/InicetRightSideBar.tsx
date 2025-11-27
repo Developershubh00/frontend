@@ -197,7 +197,6 @@ const InicetRightSideBar: React.FC<InicetRightSideBarProps> = ({
 
         {/* NEET PG Results Card (Optional - can be removed if not needed) */}
       </div>
-    </div>
   );
 };
 
