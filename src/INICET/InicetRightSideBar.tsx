@@ -12,6 +12,7 @@ import {
   Circle,
   CheckCircle2,
 } from "lucide-react";
+import { CheckCircle2, Circle, ExternalLink } from 'lucide-react';
 import AnnouncementSidebar from "../components/AnnouncementSidebar";
 
 /**
@@ -76,6 +77,8 @@ const InicetRightSideBar: React.FC<InicetRightSideBarProps> = ({
       isHighlight: true,
     },
   ];
+  const pdfUrl = "https://example.com/neet-pg-counselling-schedule.pdf"; // Replace with actual PDF URL
+
 
   return (
     <div className="h-full w-80 bg-white/95 backdrop-blur-xl border-l border-slate-200/50 z-30 overflow-y-auto">
@@ -102,6 +105,19 @@ const InicetRightSideBar: React.FC<InicetRightSideBarProps> = ({
             </h3>
             <p className="text-xs text-slate-500">Important Dates & Events</p>
           </div>
+          {/* PDF Button - Small */}
+        <a
+          href={pdfUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-1 px-2 py-1 text-xs font-medium text-emerald-700 bg-emerald-50 border border-emerald-200 rounded hover:bg-emerald-100 hover:border-emerald-300 transition-colors duration-200 active:scale-95 whitespace-nowrap"
+          title="View Official Schedule"
+        >
+          <span>PDF</span>
+          <ExternalLink className="w-3 h-3" />
+        </a>
+      </div>
+
 
           {/* Timeline */}
           <div className="space-y-3">
