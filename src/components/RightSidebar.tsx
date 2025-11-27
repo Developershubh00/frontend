@@ -324,8 +324,8 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
 
 
         <div className="space-y-3">
-            {neetPGUpdates.map((item, index) => (
-              <div key={item.id} className="relative">
+  {[...neetPGUpdates].reverse().map((item, index) => (
+    <div key={item.id} className="relative">
                 {/* Timeline connector line */}
                 {index !== neetPGUpdates.length - 1 && (
                   <div className="absolute left-[7px] top-6 w-0.5 h-8 bg-slate-200"></div>
