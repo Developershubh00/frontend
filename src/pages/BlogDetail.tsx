@@ -1592,7 +1592,7 @@ const readTime = post?.read_time || 5;
       const text = section.content || section.title || '';
       return acc + text.split(' ').length;
     }, 0),
-    "timeRequired": `PT${readTime()}M`,
+    "timeRequired": `PT${readTime}M`,
     "inLanguage": "en-IN"
   } : null;
 
