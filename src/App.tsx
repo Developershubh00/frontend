@@ -248,7 +248,7 @@ function App() {
           <Route path="/reset-password" element={<ResetPasswordPage />} />
           <Route path="/inicetdashboard" element={<InicetDashboardPage />} />
           <Route path="/schedule" element={<SchedulePage onBack={() => window.history.back()}/>} />
-          <AiSensyWidget widgetId="aaa5qq" />
+          
 
 
           
