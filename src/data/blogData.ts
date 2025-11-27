@@ -20125,625 +20125,643 @@ export const blogPosts: BlogPost[] = [
       "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
     }
   ]
+},
+{
+  "id": 55,
+  "title": "NEET PG Seat Matrix Explained: The Real Reason Behind Delays, Confusion & Updated Counselling Timelines (Detailed Breakdown)",
+  "slug": "neet-pg-seat-matrix-explained-delays-confusion-updated-counselling-timelines",
+  "excerpt": "NEET PG seat matrix insights revealing why delays happen what changes impact allotments and how updated timelines guide aspirants through smoother counselling.",
+  "featured_image": "https://cdn.dribbble.com/userupload/45857920/file/a5172f2c67aed1e46c1d76864d2a6e19.jpeg?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-green-100 text-green-800"
+  },
+  "tags": [
+    "NEET PG Counselling",
+    "NEET PG Seat Matrix",
+    "MCC Counselling",
+    "AIQ Counselling",
+    "DNB Seats",
+    "MD/MS Counselling"
+  ],
+  "published_date": "2025-11-27",
+  "read_time": 22,
+  "meta_description": "NEET PG seat matrix insights revealing why delays happen what changes impact allotments and how updated timelines guide aspirants through smoother counselling.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "The NEET PG counselling process cycle comes with its own set of changes, challenges, and unexpected delays. But in the year 2025, the aspirants are most significantly confused about the NEET PG counselling, the Seat Matrix, which revolves around the NEET PG seat matrix, as it is specifically regarding missing seats, sudden additions, and the logic behind revised counselling schedules. A major part of this confusion comes from how the NEET PG counselling seat allotment depends entirely on the accuracy of the NEET PG counselling seat matrix published by MCC."
+    },
+    {
+      "id": "intro-purpose",
+      "type": "paragraph",
+      "content": "Let's suppose that you've been worried for a very long time about the delays in All India Counselling, state counselling results, or some unexpected issues in the seat matrix. Especially in that case, this detailed guide will totally help you to understand what exactly is happening behind the scenes, in clear terms."
+    },
+    {
+      "id": "why-talking",
+      "type": "heading",
+      "title": "Why Is Everyone Talking About the Seat Matrix?",
+      "level": 2
+    },
+    {
+      "id": "common-questions",
+      "type": "paragraph",
+      "content": "Many students are repeatedly asking:"
+    },
+    {
+      "id": "common-questions-list",
+      "type": "list",
+      "items": [
+        "Why is the NEET PG AIQ seat matrix not published yet?",
+        "Why are some seats appearing twice?",
+        "Why are new seats not added in NEET PG counselling round 1?",
+        "Why are some DNB seats missing?",
+        "Why are state results getting delayed?"
+      ]
+    },
+    {
+      "id": "reason-explanation",
+      "type": "paragraph",
+      "content": "The reason for all these issues lies in how MCC receives, verifies, and publishes the NEET PG seat matrix from different sources as part of the MCC NEET PG counselling process."
+    },
+    {
+      "id": "blog-breakdown",
+      "type": "paragraph",
+      "content": "This blog breaks down the entire process step by step."
+    },
+    {
+      "id": "delay-reason",
+      "type": "heading",
+      "title": "1. Why the All-India Counselling Timeline Got Delayed",
+      "level": 2
+    },
+    {
+      "id": "delay-original-date",
+      "type": "paragraph",
+      "content": "Originally, the All India NEET PG Counselling Round 1 results were supposed to be released on 15 November. But due to inconsistencies in the seat matrix, the results could not be published."
+    },
+    {
+      "id": "state-impact-heading",
+      "type": "heading",
+      "title": "How does this affect state counselling?",
+      "level": 3
+    },
+    {
+      "id": "state-impact",
+      "type": "paragraph",
+      "content": "States cannot publish their Round 1 results until MCC releases the All-India results. Therefore, every state is waiting for MCC's corrected seat matrix and revised schedule, NEET PG AIQ seat matrix and revised schedule."
+    },
+    {
+      "id": "state-status",
+      "type": "paragraph",
+      "content": "Many states are still allowing choice filling, but no state will declare results until MCC completes Round 1."
+    },
+    {
+      "id": "seat-affect-heading",
+      "type": "heading",
+      "title": "Will this affect your seat?",
+      "level": 3
+    },
+    {
+      "id": "seat-affect",
+      "type": "paragraph",
+      "content": "No. It will only shift the counselling timeline by 10–15 days, not your chances."
+    },
+    {
+      "id": "mcc-process",
+      "type": "heading",
+      "title": "2. How MCC Actually Gets the Seat Matrix",
+      "level": 2
+    },
+    {
+      "id": "mcc-misconception",
+      "type": "paragraph",
+      "content": "Most students think MCC creates the seat matrix itself. But in reality, MCC only publishes what medical institutes \"surrender\" to them."
+    },
+    {
+      "id": "mcc-categories",
+      "type": "paragraph",
+      "content": "MCC has received the seat data from two major categories of institutes:"
+    },
+    {
+      "id": "category-a",
+      "type": "heading",
+      "title": "Category A: MD/MS & PG Diploma Seats (NMC-regulated Institutes)",
+      "level": 3
+    },
+    {
+      "id": "category-a-includes",
+      "type": "paragraph",
+      "content": "These include:"
+    },
+    {
+      "id": "category-a-list",
+      "type": "list",
+      "items": [
+        "The official government Medical Colleges",
+        "The Central Universities",
+        "PG Teaching Institutes (like RCC Trivandrum)",
+        "Some Deemed Universities"
+      ]
+    },
+    {
+      "id": "category-a-system",
+      "type": "paragraph",
+      "content": "These fall under the Neet PG, MD MS counselling system."
+    },
+    {
+      "id": "surrender-process-heading",
+      "type": "heading",
+      "title": "How do these institutes surrender their seats?",
+      "level": 4
+    },
+    {
+      "id": "surrender-process",
+      "type": "paragraph",
+      "content": "Each institute uses the Intra-MCC Portal to log in and declare:"
+    },
+    {
+      "id": "surrender-process-list",
+      "type": "list",
+      "items": [
+        "Total seats sanctioned by NMC",
+        "Number of seats to be contributed to the All India Quota (AIQ)",
+        "Category-wise distribution"
+      ]
+    },
+    {
+      "id": "mcc-verification",
+      "type": "paragraph",
+      "content": "MCC then verifies these numbers before publishing the matrix."
+    },
+    {
+      "id": "aiq-contribution-heading",
+      "type": "heading",
+      "title": "How AIQ contribution works",
+      "level": 4
+    },
+    {
+      "id": "aiq-contribution-list",
+      "type": "list",
+      "items": [
+        "Government institutes: Surrender 50% of seats to AIQ",
+        "Deemed Universities: Surrender 100% of seats to MCC",
+        "Private institutes: Do NOT contribute to All India; they fall under State Counselling"
+      ]
+    },
+    {
+      "id": "dnb-tie",
+      "type": "paragraph",
+      "content": "This ties closely with DNB seats in NEET PG."
+    },
+    {
+      "id": "category-b",
+      "type": "heading",
+      "title": "Category B: DNB & DrNB Seats (NBE-regulated Hospitals)",
+      "level": 3
+    },
+    {
+      "id": "category-b-process",
+      "type": "paragraph",
+      "content": "These seats are not surrendered by individual hospitals anymore. Instead, the National Board of Examinations (NBE) collects all DNB seat data and sends a single consolidated list to MCC."
+    },
+    {
+      "id": "govt-dnb-heading",
+      "type": "heading",
+      "title": "Government DNB hospitals contribute:",
+      "level": 4
+    },
+    {
+      "id": "govt-dnb-list",
+      "type": "list",
+      "items": [
+        "50% seats to MCC (AIQ)",
+        "50% to state in-service quota"
+      ]
+    },
+    {
+      "id": "private-dnb-heading",
+      "type": "heading",
+      "title": "Private DNB hospitals contribute:",
+      "level": 4
+    },
+    {
+      "id": "private-dnb-list",
+      "type": "list",
+      "items": [
+        "100% seats to MCC"
+      ]
+    },
+    {
+      "id": "centralization-note",
+      "type": "paragraph",
+      "content": "This centralization was done to avoid errors, but ironically, some issues remain."
+    },
+    {
+      "id": "matrix-errors",
+      "type": "heading",
+      "title": "3. Why the Seat Matrix Errors Happened This Year",
+      "level": 2
+    },
+    {
+      "id": "matrix-errors-intro",
+      "type": "paragraph",
+      "content": "This year, 2025, numerous issues have been found in the MCC seat matrix, such as:"
+    },
+    {
+      "id": "issue-1",
+      "type": "heading",
+      "title": "Issue 1: Some MD/MS institutes are missing entirely",
+      "level": 3
+    },
+    {
+      "id": "issue-1-content",
+      "type": "paragraph",
+      "content": "There is a major inconsistency that was observeid was the absence of certain established institutes from the Round 1 list, which caused concern among students targeting specific colleges."
+    },
+    {
+      "id": "issue-2",
+      "type": "heading",
+      "title": "Issue 2: New seat increases are not reflected",
+      "level": 3
+    },
+    {
+      "id": "issue-2-content",
+      "type": "paragraph",
+      "content": "NMC has released a seat increase PDF on 17 October. But there are so many new seats that are not visible in MCC's Round 1 matrix."
+    },
+    {
+      "id": "issue-2-confusion",
+      "type": "paragraph",
+      "content": "This leads to confusion:"
+    },
+    {
+      "id": "issue-2-questions",
+      "type": "list",
+      "items": [
+        "Are the seats officially valid for Round 1?",
+        "Will they going to be appearing in Round 2?",
+        "Will they shift the cut-off ranks?"
+      ]
+    },
+    {
+      "id": "issue-3",
+      "type": "heading",
+      "title": "Issue 3: Deemed University seat increases published late",
+      "level": 3
+    },
+    {
+      "id": "issue-3-content",
+      "type": "paragraph",
+      "content": "Deemed universities submitted their new seat additions late, so MCC could not include them in Round 1."
+    },
+    {
+      "id": "issue-3-expectation",
+      "type": "paragraph",
+      "content": "Expect many additions in Round 2."
+    },
+    {
+      "id": "issue-4",
+      "type": "heading",
+      "title": "Issue 4: DNB seats missing or reduced",
+      "level": 3
+    },
+    {
+      "id": "issue-4-content",
+      "type": "paragraph",
+      "content": "Some DNB institutes have:"
+    },
+    {
+      "id": "issue-4-list",
+      "type": "list",
+      "items": [
+        "6 seats in the NBE accreditation portal",
+        "But only 4 seats in the MCC matrix"
+      ]
+    },
+    {
+      "id": "issue-4-panic",
+      "type": "paragraph",
+      "content": "This creates panic among aspirants."
+    },
+    {
+      "id": "issue-5",
+      "type": "heading",
+      "title": "Issue 5: Some institutes are showing more seats than are accredited",
+      "level": 3
+    },
+    {
+      "id": "issue-5-example",
+      "type": "paragraph",
+      "content": "Example:"
+    },
+    {
+      "id": "issue-5-list",
+      "type": "list",
+      "items": [
+        "The accreditation portal shows 14 seats",
+        "The MCC matrix shows 25 seats"
+      ]
+    },
+    {
+      "id": "issue-5-correction",
+      "type": "paragraph",
+      "content": "This discrepancy needs NBE correction."
+    },
+    {
+      "id": "issue-6",
+      "type": "heading",
+      "title": "Issue 6: MD/MS seats mistakenly appearing in the DNB section",
+      "level": 3
+    },
+    {
+      "id": "issue-6-content",
+      "type": "paragraph",
+      "content": "A few institutes display:"
+    },
+    {
+      "id": "issue-6-list",
+      "type": "list",
+      "items": [
+        "MD Microbiology",
+        "under DNB Post MBBS category"
+      ]
+    },
+    {
+      "id": "issue-6-note",
+      "type": "paragraph",
+      "content": "This is a technical error."
+    },
+    {
+      "id": "issue-7",
+      "type": "heading",
+      "title": "Issue 7: Same specialty shown twice in the same institute",
+      "level": 3
+    },
+    {
+      "id": "issue-7-example",
+      "type": "paragraph",
+      "content": "Example:"
+    },
+    {
+      "id": "issue-7-list",
+      "type": "list",
+      "items": [
+        "MS General Surgery",
+        "DNB General Surgery"
+      ]
+    },
+    {
+      "id": "issue-7-content",
+      "type": "paragraph",
+      "content": "Both are showing for the same institute (like Andaman & Nicobar). This is impossible because:"
+    },
+    {
+      "id": "issue-7-reason",
+      "type": "paragraph",
+      "content": "A single department cannot run: MD/MS & DNB in the same specialty"
+    },
+    {
+      "id": "issue-7-solution",
+      "type": "paragraph",
+      "content": "One of them must be removed."
+    },
+    {
+      "id": "issue-7-impact",
+      "type": "paragraph",
+      "content": "This particular error has caused the biggest delay."
+    },
+    {
+      "id": "cross-check",
+      "type": "heading",
+      "title": "4. How Students Can Cross-Check Seat Validity",
+      "level": 2
+    },
+    {
+      "id": "cross-check-intro",
+      "type": "paragraph",
+      "content": "If you want to verify whether the seats shown in the NEET PG seat matrix are correct:"
+    },
+    {
+      "id": "md-ms-seats",
+      "type": "heading",
+      "title": "For MD/MS Seats",
+      "level": 3
+    },
+    {
+      "id": "md-ms-check",
+      "type": "paragraph",
+      "content": "Check:"
+    },
+    {
+      "id": "md-ms-check-list",
+      "type": "list",
+      "items": [
+        "NMC Portal → Seat Details",
+        "Seat Increase Notification (17 October)"
+      ]
+    },
+    {
+      "id": "dnb-seats",
+      "type": "heading",
+      "title": "For DNB Seats",
+      "level": 3
+    },
+    {
+      "id": "dnb-check",
+      "type": "paragraph",
+      "content": "Check:"
+    },
+    {
+      "id": "dnb-check-list",
+      "type": "list",
+      "items": [
+        "NBE Accreditation Portal",
+        "Validity period of accreditation (e.g., up to December 2026)"
+      ]
+    },
+    {
+      "id": "ensure-heading",
+      "type": "heading",
+      "title": "You must ensure:",
+      "level": 4
+    },
+    {
+      "id": "ensure-list",
+      "type": "list",
+      "items": [
+        "Government DNB → 50% seats should appear in AIQ",
+        "Private DNB → 100% seats must appear in the MCC matrix"
+      ]
+    },
+    {
+      "id": "if-not",
+      "type": "paragraph",
+      "content": "If not, it means:"
+    },
+    {
+      "id": "if-not-list",
+      "type": "list",
+      "items": [
+        "The institute didn't surrender correctly",
+        "NBE did not include it",
+        "Or MCC hasn't updated it yet"
+      ]
+    },
+    {
+      "id": "what-next",
+      "type": "heading",
+      "title": "5. What Happens Next? (The Realistic Outcome)",
+      "level": 2
+    },
+    {
+      "id": "outcome-1",
+      "type": "heading",
+      "title": "1. MCC will republish a corrected seat matrix",
+      "level": 3
+    },
+    {
+      "id": "outcome-1-content",
+      "type": "paragraph",
+      "content": "This revised matrix will resolve:"
+    },
+    {
+      "id": "outcome-1-list",
+      "type": "list",
+      "items": [
+        "Duplicate specialty entries",
+        "There are some missing new seats",
+        "The seat counts are Wrong",
+        "The Incorrect category distribution"
+      ]
+    },
+    {
+      "id": "outcome-2",
+      "type": "heading",
+      "title": "2. Revised All India Counselling Schedule",
+      "level": 3
+    },
+    {
+      "id": "outcome-2-content",
+      "type": "paragraph",
+      "content": "A new timeline will be released shortly."
+    },
+    {
+      "id": "outcome-3",
+      "type": "heading",
+      "title": "3. All states must follow MCC's updated timeline",
+      "level": 3
+    },
+    {
+      "id": "outcome-3-content",
+      "type": "paragraph",
+      "content": "No state can publish Round 1 before MCC."
+    },
+    {
+      "id": "outcome-4",
+      "type": "heading",
+      "title": "4. Expect a 10–15-day delay",
+      "level": 3
+    },
+    {
+      "id": "outcome-4-content",
+      "type": "paragraph",
+      "content": "This affects only dates, not your chances of getting a seat."
+    },
+    {
+      "id": "conclusion",
+      "type": "heading",
+      "title": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "conclusion-content",
+      "type": "paragraph",
+      "content": "In summary, the current delays in the NEET PG 2025 counselling are primarily due to various errors in seat surrender, accreditation mismatches, and duplication of specialties in the NEET PG seat matrix."
+    },
+    {
+      "id": "conclusion-reassurance",
+      "type": "paragraph",
+      "content": "While the process has slowed down, no student will be disadvantaged because results, both All India and state, will be released only after the corrected seat matrix is finalized."
+    },
+    {
+      "id": "conclusion-understanding",
+      "type": "paragraph",
+      "content": "Understanding how seats are contributed, validated, and published helps remove the panic and confusion around the counselling timeline."
+    },
+    {
+      "id": "conclusion-advice",
+      "type": "paragraph",
+      "content": "Stay calm, monitor official MCC updates, and be prepared for the corrected schedule."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "Frequently Asked Questions (FAQs)",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1: Why was NEET PG counselling delayed this year?",
+          "answer": "A: Due to some major errors in the seat matrix, which have missing seats, duplicate entries, and authorized mismatches, although these have to be corrected before allotment."
+        },
+        {
+          "question": "Q2: Does the All India delay affect state counselling?",
+          "answer": "A: Yes, because states cannot release Round 1 until MCC finishes NEET PG counselling round 1."
+        },
+        {
+          "question": "Q3: How do government colleges and deemed universities differ in seat surrender?",
+          "answer": "A: Government colleges give 50% of seats to AIQ, while deemed universities surrender 100% of seats to MCC."
+        },
+        {
+          "question": "Q4: Will these delays affect my chance of getting a seat?",
+          "answer": "A: No. The delay only ensures accuracy. Your rank and choices remain the main factors for allotment."
+        },
+        {
+          "question": "Q5: How do I verify if a seat in the matrix is valid?",
+          "answer": "A: Check the NMC website for MD/MS seats and the NBE accreditation portal for DNB/DrNB seats."
+        }
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "neet pg counselling",
+        "neet pg seat matrix",
+        "neet pg counselling seat allotment",
+        "neet pg counselling seat matrix",
+        "neet pg counselling process",
+        "neet pg counselling round 1",
+        "neet pg counselling round 1 results",
+        "counselling process of neet pg",
+        "dnb seats in neet pg",
+        "mcc neet pg counselling",
+        "aiq neet pg counselling",
+        "neet pg aiq seat matrix",
+        "neet pg md ms counselling"
+      ]
+    }
+  ]
 }
-// {
-//   "id": 54,
-//   "title": "Haryana NEET PG Counselling 2025: Complete Registration Guide, Eligibility Rules & Step-by-Step Process",
-//   "slug": "haryana-neet-pg-2025-counselling-complete-registration-guide-eligibility-rules-step-by-step-process",
-//   "excerpt": "Haryana NEET PG Counselling offers a clear path to seats with structured registration detailed rules and a smooth stepwise procedure for every aspirant.",
-//   "featured_image": "https://cdn.dribbble.com/userupload/45844334/file/f4e72359b26126a4485060519eb4ec95.png?w=1200&h=600&fit=crop",
-//   "author": {
-//     "name": "Believers Team",
-//     "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
-//     "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
-//   },
-//   "category": {
-//     "name": "NEET PG",
-//     "slug": "neet-pg",
-//     "color": "bg-green-100 text-green-800"
-//   },
-//   "tags": [
-//     "Haryana NEET PG Counselling",
-//     "NEET PG 2025",
-//     "State Counselling",
-//     "MD/MS Admissions",
-//     "NEET PG Eligibility",
-//     "DMER Haryana"
-//   ],
-//   "published_date": "2025-11-26",
-//   "read_time": 18,
-//   "meta_description": "Haryana NEET PG Counselling offers a clear path to seats with structured registration detailed rules and a smooth stepwise procedure for every aspirant.",
-//   "sections": [
-//     {
-//       "id": "intro",
-//       "type": "paragraph",
-//       "content": "The Department of Medical Education & Research (DMER) has started its online registration for NEET PG 2025 admissions to MD, MS, Post-MBBS Diploma, and Post-MBBS DNB courses in government and private medical colleges across. With government, private, and NRI quota seats available, aspirants can now begin the application process through the official counselling portal."
-//     },
-//     {
-//       "id": "intro-guide",
-//       "type": "paragraph",
-//       "content": "This guide will explain the complete counselling process, which includes important dates, eligibility rules, registration instructions, required documents, important dates for NEET PG aspirants, and category-wise conditions, fully simplified and paraphrased from the detailed counselling interface."
-//     },
-//     {
-//       "id": "important-dates",
-//       "type": "heading",
-//       "title": "1. Important Dates for Haryana NEET PG Counselling 2025",
-//       "level": 2
-//     },
-//     {
-//       "id": "important-dates-website",
-//       "type": "paragraph",
-//       "content": "Official Website: https://dmer.haryana.gov.in/"
-//     },
-//     {
-//       "id": "important-dates-portal",
-//       "type": "paragraph",
-//       "content": "Counselling Portal: https://hry.online-counselling.co.in/"
-//     },
-//     {
-//       "id": "important-dates-login",
-//       "type": "paragraph",
-//       "content": "Candidate Login: https://hry.online-counselling.co.in/login"
-//     },
-//     {
-//       "id": "registration-window",
-//       "type": "heading",
-//       "title": "Registration Window",
-//       "level": 3
-//     },
-//     {
-//       "id": "registration-window-list",
-//       "type": "list",
-//       "items": [
-//         "Starts: 13 October 2025",
-//         "Ends: 16 November 2025 (11:59 PM)"
-//       ]
-//     },
-//     {
-//       "id": "important-dates-note",
-//       "type": "paragraph",
-//       "content": "All future rounds, notices, and updates are posted on DMER Haryana and UHSR Rohtak portals. This applies to all stages of the Haryana State NEET PG counselling cycle."
-//     },
-//     {
-//       "id": "eligibility-criteria",
-//       "type": "heading",
-//       "title": "2. Who Can Apply? (Eligibility Criteria)",
-//       "level": 2
-//     },
-//     {
-//       "id": "eligibility-intro",
-//       "type": "paragraph",
-//       "content": "This section aligns with the rules of the official Haryana NEET PG 2025 counselling and covers government, private, and NRI quota eligibility."
-//     },
-//     {
-//       "id": "seat-distribution",
-//       "type": "list",
-//       "items": [
-//         "50% seats in Government Medical Colleges",
-//         "50% seats in Private Medical Colleges",
-//         "75% seats in SGT University + seats in Alfalah University",
-//         "NRI seats as per quota (up to 15% max)"
-//       ]
-//     },
-//     {
-//       "id": "eligibility-categories-intro",
-//       "type": "paragraph",
-//       "content": "You are eligible if you fall into any one of these major categories:"
-//     },
-//     {
-//       "id": "category-1",
-//       "type": "heading",
-//       "title": "Category 1",
-//       "level": 3
-//     },
-//     {
-//       "id": "category-1-content",
-//       "type": "paragraph",
-//       "content": "MBBS graduates from any Haryana-based medical college (recognized university/institution)."
-//     },
-//     {
-//       "id": "category-2",
-//       "type": "heading",
-//       "title": "Category 2",
-//       "level": 3
-//     },
-//     {
-//       "id": "category-2-content",
-//       "type": "paragraph",
-//       "content": "Candidates who have completed MBBS from any state, including FMGs, provided they or their parents hold a valid Haryana Resident Certificate."
-//     },
-//     {
-//       "id": "open-category",
-//       "type": "heading",
-//       "title": "Open Category for Private Universities",
-//       "level": 3
-//     },
-//     {
-//       "id": "open-category-intro",
-//       "type": "paragraph",
-//       "content": "The private medical colleges accept the application form. Candidates from any part of India, irrespective of domicile, can apply for:"
-//     },
-//     {
-//       "id": "open-category-list",
-//       "type": "list",
-//       "items": [
-//         "The Private Medical Colleges that have only (50% seats)",
-//         "SGT University, who have (75% seats)",
-//         "Alfalah University seats"
-//       ]
-//     },
-//     {
-//       "id": "minimum-scores",
-//       "type": "heading",
-//       "title": "3. Minimum NEET PG 2025 Scores Required",
-//       "level": 2
-//     },
-//     {
-//       "id": "minimum-scores-intro",
-//       "type": "paragraph",
-//       "content": "As per the NEET PG 2025 bulletin and the NEET PG cut-off percentile rules:"
-//     },
-//     {
-//       "id": "minimum-scores-table",
-//       "type": "table",
-//       "headers": ["Category", "Cut-off Percentile", "Minimum Score"],
-//       "rows": [
-//         ["General / EWS", "50th", "276"],
-//         ["SC / SC-Deprived / BCA / BCB", "40th", "235"],
-//         ["PwBD (General/EWS)", "45th", "255"],
-//         ["PwBD (SC/BC Categories)", "40th", "235"]
-//       ]
-//     },
-//     {
-//       "id": "minimum-scores-note",
-//       "type": "paragraph",
-//       "content": "Candidates must upload the correct NEET PG 2025 scorecard during registration."
-//     },
-//     {
-//       "id": "important-alerts",
-//       "type": "heading",
-//       "title": "4. Before You Start: Important Alerts on the Portal",
-//       "level": 2
-//     },
-//     {
-//       "id": "important-alerts-intro",
-//       "type": "paragraph",
-//       "content": "The Haryana counselling website perfectly displays key security notes, which are highly essential for anyone completing the NEET PG counselling application form:"
-//     },
-//     {
-//       "id": "important-alerts-list",
-//       "type": "list",
-//       "items": [
-//         "You have to keep your password confidential",
-//         "Make sure that your OTPs are never shared",
-//         "The login details cannot be reset once it will be used",
-//         "The system automatically logs your IP address for security",
-//         "A single roll number can be registered only once",
-//         "Make sure you read all DMER Haryana notifications before filling the form."
-//       ]
-//     },
-//     {
-//       "id": "registration-process",
-//       "type": "heading",
-//       "title": "5. Step-by-Step Registration Process for Haryana NEET PG 2025",
-//       "level": 2
-//     },
-//     {
-//       "id": "registration-process-intro",
-//       "type": "paragraph",
-//       "content": "This includes the NEET PG counseling registration steps every candidate must follow:"
-//     },
-//     {
-//       "id": "step-1",
-//       "type": "heading",
-//       "title": "Step 1: Open the Counselling Portal",
-//       "level": 3
-//     },
-//     {
-//       "id": "step-1-content",
-//       "type": "paragraph",
-//       "content": "First, you have to click on \"NEET PG 2025 Registration,\" which is on the homepage."
-//     },
-//     {
-//       "id": "step-2",
-//       "type": "heading",
-//       "title": "Step 2: Agree to Instructions",
-//       "level": 3
-//     },
-//     {
-//       "id": "step-2-content",
-//       "type": "paragraph",
-//       "content": "In the second step, you need to tick the checkbox stating that you have read all instructions and government notifications, then you just click Proceed."
-//     },
-//     {
-//       "id": "step-3",
-//       "type": "heading",
-//       "title": "Step 3: Enter NEET PG Details",
-//       "level": 3
-//     },
-//     {
-//       "id": "step-3-content",
-//       "type": "paragraph",
-//       "content": "Provide:"
-//     },
-//     {
-//       "id": "step-3-list",
-//       "type": "list",
-//       "items": [
-//         "You have to provide the NEET PG Roll Number",
-//         "As per the NEET scorecard, there will be no corrections allowed later"
-//       ]
-//     },
-//     {
-//       "id": "step-4",
-//       "type": "heading",
-//       "title": "Step 4: Verify Email & Mobile Number",
-//       "level": 3
-//     },
-//     {
-//       "id": "step-4-content",
-//       "type": "paragraph",
-//       "content": "The same OTP will be sent to both your mobile number and email ID. Just make sure the DND is disabled."
-//     },
-//     {
-//       "id": "step-5",
-//       "type": "heading",
-//       "title": "Step 5: Receive Login Credentials",
-//       "level": 3
-//     },
-//     {
-//       "id": "step-5-intro",
-//       "type": "paragraph",
-//       "content": "After the verification is done, you get:"
-//     },
-//     {
-//       "id": "step-5-list",
-//       "type": "list",
-//       "items": [
-//         "Your official Login ID",
-//         "Temporary password, which is for (On both email & SMS)"
-//       ]
-//     },
-//     {
-//       "id": "step-5-note",
-//       "type": "paragraph",
-//       "content": "You must reset the password before taking any steps forward."
-//     },
-//     {
-//       "id": "application-form-sections",
-//       "type": "heading",
-//       "title": "6. Application Form Sections Inside the Portal",
-//       "level": 2
-//     },
-//     {
-//       "id": "application-form-intro",
-//       "type": "paragraph",
-//       "content": "These sections are important for NEET PG counselling choice filling and seat eligibility."
-//     },
-//     {
-//       "id": "personal-details",
-//       "type": "heading",
-//       "title": "Personal Details",
-//       "level": 3
-//     },
-//     {
-//       "id": "personal-details-content",
-//       "type": "paragraph",
-//       "content": "Basic demographic details + declaration if you are pursuing any PG course currently."
-//     },
-//     {
-//       "id": "registration-details",
-//       "type": "heading",
-//       "title": "Registration Details",
-//       "level": 3
-//     },
-//     {
-//       "id": "registration-details-intro",
-//       "type": "paragraph",
-//       "content": "Here you will fill:"
-//     },
-//     {
-//       "id": "registration-details-list",
-//       "type": "list",
-//       "items": [
-//         "Permanent Medical Council Registration Number",
-//         "Validity date",
-//         "State of registration",
-//         "Haryana domicile status",
-//         "Whether you belong to a Muslim minority",
-//         "Whether the MBBS was completed in Haryana",
-//         "Aadhaar number",
-//         "PwBD status",
-//         "Ex-serviceman category",
-//         "Freedom fighter dependent status"
-//       ]
-//     },
-//     {
-//       "id": "registration-details-determines",
-//       "type": "paragraph",
-//       "content": "This section determines eligibility for:"
-//     },
-//     {
-//       "id": "registration-details-eligibility",
-//       "type": "list",
-//       "items": [
-//         "State Quota",
-//         "Private Quota",
-//         "Management Quota",
-//         "NRI Quota",
-//         "DNB & Diploma seats"
-//       ]
-//     },
-//     {
-//       "id": "nri-options",
-//       "type": "heading",
-//       "title": "NRI / OCI / PIO Options",
-//       "level": 3
-//     },
-//     {
-//       "id": "nri-options-intro",
-//       "type": "paragraph",
-//       "content": "If applying for NRI/OCI/Foreign National seats:"
-//     },
-//     {
-//       "id": "nri-options-list",
-//       "type": "list",
-//       "items": [
-//         "Choose the NRI Type",
-//         "Select the correct sub-category (1–6) Example: Actual NRI from Haryana, child of NRI from other Indian state, nearest relative of NRI, etc."
-//       ]
-//     },
-//     {
-//       "id": "address-details",
-//       "type": "heading",
-//       "title": "Address Details",
-//       "level": 3
-//     },
-//     {
-//       "id": "address-details-intro",
-//       "type": "paragraph",
-//       "content": "Provide:"
-//     },
-//     {
-//       "id": "address-details-list",
-//       "type": "list",
-//       "items": [
-//         "Correspondence address",
-//         "City, district, tehsil",
-//         "Pin code",
-//         "Alternative contact options"
-//       ]
-//     },
-//     {
-//       "id": "qualification-details",
-//       "type": "heading",
-//       "title": "Qualification Details",
-//       "level": 3
-//     },
-//     {
-//       "id": "qualification-details-intro",
-//       "type": "paragraph",
-//       "content": "Fill MBBS academic information:"
-//     },
-//     {
-//       "id": "qualification-details-list",
-//       "type": "list",
-//       "items": [
-//         "Marks of each professional",
-//         "Passing year",
-//         "Internship dates",
-//         "Institute name"
-//       ]
-//     },
-//     {
-//       "id": "qualification-details-note",
-//       "type": "paragraph",
-//       "content": "Internship must finish on or before 31 July 2025."
-//     },
-//     {
-//       "id": "qualification-details-fmg",
-//       "type": "paragraph",
-//       "content": "FMGs must enter:"
-//     },
-//     {
-//       "id": "qualification-details-fmg-list",
-//       "type": "list",
-//       "items": [
-//         "FMGE marks",
-//         "Year of passing the qualifying exam"
-//       ]
-//     },
-//     {
-//       "id": "pg-details",
-//       "type": "heading",
-//       "title": "PG Details (If Applicable)",
-//       "level": 3
-//     },
-//     {
-//       "id": "pg-details-intro",
-//       "type": "paragraph",
-//       "content": "If you were previously admitted to a PG course in Haryana:"
-//     },
-//     {
-//       "id": "pg-details-list",
-//       "type": "list",
-//       "items": [
-//         "Mention institute",
-//         "Specialty",
-//         "Whether you completed or left",
-//         "Date of leaving"
-//       ]
-//     },
-//     {
-//       "id": "category-selection",
-//       "type": "heading",
-//       "title": "Category Selection",
-//       "level": 3
-//     },
-//     {
-//       "id": "category-selection-intro",
-//       "type": "paragraph",
-//       "content": "Your earlier inputs auto-determine:"
-//     },
-//     {
-//       "id": "category-selection-list",
-//       "type": "list",
-//       "items": [
-//         "Category eligibility",
-//         "Seat eligibility in government, private, management or NRI quotas"
-//       ]
-//     },
-//     {
-//       "id": "upload-documents",
-//       "type": "heading",
-//       "title": "Upload Documents",
-//       "level": 3
-//     },
-//     {
-//       "id": "upload-documents-intro",
-//       "type": "paragraph",
-//       "content": "All documents must be uploaded (JPG/JPEG/PNG/PDF, 4 KB–500 KB):"
-//     },
-//     {
-//       "id": "upload-documents-list",
-//       "type": "list",
-//       "items": [
-//         "MBBS Degree",
-//         "Internship Completion Certificate",
-//         "Haryana Domicile (if applicable)",
-//         "NEET PG 2025 result",
-//         "Category certificate (SC/BC/EWS etc.)",
-//         "PwBD certificate",
-//         "Freedom fighter certificate",
-//         "NEET PG admit card",
-//         "Cancelled cheque",
-//         "Aadhaar / PAN / Voter ID / Passport",
-//         "NRI supporting documents (if applying)"
-//       ]
-//     },
-//     {
-//       "id": "payment-fee",
-//       "type": "heading",
-//       "title": "Payment of Registration Fee",
-//       "level": 3
-//     },
-//     {
-//       "id": "payment-fee-table",
-//       "type": "table",
-//       "headers": ["Category", "Fee"],
-//       "rows": [
-//         ["General / Unreserved", "₹2500"],
-//         ["SC / ST / BC / EWS / PwBD", "₹1250"]
-//       ]
-//     },
-//     {
-//       "id": "final-submission",
-//       "type": "heading",
-//       "title": "7. Final Submission",
-//       "level": 2
-//     },
-//     {
-//       "id": "final-submission-intro",
-//       "type": "paragraph",
-//       "content": "After completing all the landmarks:"
-//     },
-//     {
-//       "id": "final-submission-list",
-//       "type": "list",
-//       "items": [
-//         "You need to review the Preview Page carefully",
-//         "Then you need to submit the form",
-//         "Later on, just take a printout for future use"
-//       ]
-//     },
-//     {
-//       "id": "final-submission-note",
-//       "type": "paragraph",
-//       "content": "Once submitted, the form cannot be edited, so fill it accordingly."
-//     },
-//     {
-//       "id": "conclusion",
-//       "type": "heading",
-//       "title": "Conclusion",
-//       "level": 2
-//     },
-//     {
-//       "id": "conclusion-content",
-//       "type": "paragraph",
-//       "content": "The Haryana NEET PG Counselling 2025 process is entirely transparent, an online admission process for candidates, and it is designed to accommodate candidates from Haryana as well as from other states. With clear eligibility pathways for government, private, and NRI quota seats. The portal ensures a transparent and systematic admission process."
-//     },
-//     {
-//       "id": "conclusion-closing",
-//       "type": "paragraph",
-//       "content": "It doesn't matter whether you are applying for government colleges, private institutions, SGT University, Alfalah University, diploma seats, or NRI quotas; completing the registration accurately is crucial for seat allotment."
-//     },
-//     {
-//       "id": "faqs",
-//       "type": "heading",
-//       "title": "Frequently Asked Questions (FAQs)",
-//       "level": 2
-//     },
-//     {
-//       "id": "faqs-list",
-//       "type": "faq",
-//       "faqs": [
-//         {
-//           "question": "Q1: Can candidates from other states apply for Haryana NEET PG counselling?",
-//           "answer": "Yes—only for Management Quota seats and seats in private universities; State/Govt Quota seats are only for Haryana domicile or MBBS-from-Haryana candidates."
-//         },
-//         {
-//           "question": "Q2: Is the registration fee refundable?",
-//           "answer": "No, the registration fee is non-refundable, but the security deposit is refundable if you don't forfeit your seat."
-//         },
-//         {
-//           "question": "Q3: What happens if I resign from my allotted seat after Round 2?",
-//           "answer": "You lose your security deposit, and resigning after mop-up/stray may lead to a ₹10 lakh penalty + 3-year debarment."
-//         },
-//         {
-//           "question": "Q4: Is there a service bond for PG medical courses in Haryana?",
-//           "answer": "Yes, government colleges require a service bond with approx ₹10 lakh penalty for discontinuation or non-service."
-//         },
-//         {
-//           "question": "Q5: Can I edit my application form after final submission?",
-//           "answer": "No edits allowed after final submission, except for limited corrections if DMER opens a correction window."
-//         }
-//       ]
-//     },
-//     {
-//       "id": "contact-form",
-//       "type": "contact-form",
-//       "title": "Submit queries to BelieversConsultancy",
-//       "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
-//     },
-//     {
-//       "id": "keywords",
-//       "type": "keywords",
-//       "title": "Related Keywords",
-//       "keywords": [
-//         "haryana neet pg counselling",
-//         "neet pg counselling",
-//         "haryana neet pg counselling 2025",
-//         "haryana neet pg 2025 counselling",
-//         "neet pg 2025 counselling",
-//         "neet pg counseling registration",
-//         "neet pg counselling application form",
-//         "haryana state neet pg counselling",
-//         "neet pg counselling seat allotment",
-//         "neet pg counselling choice filling",
-//         "mop up counselling neet pg",
-//         "mop up round neet pg",
-//         "neet pg counselling round 2",
-//         "neet pg counselling round 1",
-//         "neet pg counselling rules",
-//         "neet pg md ms counselling",
-//         "stray round neet pg",
-//         "stray counselling neet pg",
-//         "neet pg nri quota documents",
-//         "neet pg management quota counselling"
-//       ]
-//     }
-//   ]
-// }
+
 
 ];
 
