@@ -113,7 +113,7 @@ const InicetRightSideBar: React.FC<InicetRightSideBarProps> = ({
           className="flex items-center gap-1 px-2 py-1 text-xs font-medium text-emerald-700 bg-emerald-50 border border-emerald-200 rounded hover:bg-emerald-100 hover:border-emerald-300 transition-colors duration-200 active:scale-95 whitespace-nowrap"
           title="View Official Schedule"
         >
-          <span>PDF</span>
+          <span>For Full Schedule</span>
           <ExternalLink className="w-3 h-3" />
         </a>
       </div>

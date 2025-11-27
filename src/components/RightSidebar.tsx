@@ -184,7 +184,7 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
         </div> */}
 
         {/* NEET PG Timeline */}
-        {/* <div className="mb-6">
+        <div className="mb-6">
           <h3 className="text-sm font-bold text-slate-800 mb-3">Timeline</h3>
           <div className="space-y-2">
             {neetPGUpdates.slice(0, 8).map((update) => (
@@ -201,7 +201,7 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
               </div>
             ))}
           </div>
-        </div> */}
+        </div>
 
         {/* NEET PG Statistics */}
         <div className="mb-6">
