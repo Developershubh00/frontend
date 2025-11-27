@@ -1548,15 +1548,16 @@ const BlogDetail: React.FC = () => {
   }, [slug, navigate]);
 
   // ✅ FIXED: Only ONE calculateReadTime function
-  const calculateReadTime = () => {
-    if (!post) return 0;
-    const wordsPerMinute = 200;
-    const totalWords = post.sections.reduce((acc, section) => {
-      const text = section.content || section.title || '';
-      return acc + text.split(' ').length;
-    }, 0);
-    return Math.ceil(totalWords / wordsPerMinute);
-  };
+  // const calculateReadTime = () => {
+  //   if (!post) return 0;
+  //   const wordsPerMinute = 200;
+  //   const totalWords = post.sections.reduce((acc, section) => {
+  //     const text = section.content || section.title || '';
+  //     return acc + text.split(' ').length;
+  //   }, 0);
+  //   return Math.ceil(totalWords / wordsPerMinute);
+  // };
+const readTime = post?.read_time || 5;
 
   // ✅ Generate structured data
   const articleSchema = post ? {
@@ -1591,7 +1592,7 @@ const BlogDetail: React.FC = () => {
       const text = section.content || section.title || '';
       return acc + text.split(' ').length;
     }, 0),
-    "timeRequired": `PT${calculateReadTime()}M`,
+    "timeRequired": `PT${readTime()}M`,
     "inLanguage": "en-IN"
   } : null;
 
@@ -2027,7 +2028,8 @@ const BlogDetail: React.FC = () => {
                       </div>
                       <div className="flex items-center text-white text-sm">
                         <Clock className="w-4 h-4 mr-1" />
-                        {calculateReadTime()} min read
+                        {/* {calculateReadTime()} min read */}
+                        {readTime} min read
                       </div>
                     </div>
                   </div>
@@ -2057,48 +2059,56 @@ const BlogDetail: React.FC = () => {
                       </div>
                     </div>
 
-                    <div className="flex items-center gap-4">
-                      <div className="relative">
-                        <button
-                          onClick={() => setShareMenuOpen(!shareMenuOpen)}
-                          className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center hover:bg-blue-200 transition-colors"
-                        >
-                          <Share2 className="w-5 h-5 text-blue-600" />
-                        </button>
+                   <div className="relative">
+  <button
+    onClick={() => setShareMenuOpen(!shareMenuOpen)}
+    className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center hover:bg-blue-200 transition-colors relative z-50"
+  >
+    <Share2 className="w-5 h-5 text-blue-600" />
+  </button>
 
-                        {shareMenuOpen && (
-                          <div className="absolute top-12 right-0 bg-white rounded-lg shadow-xl p-2 z-10 min-w-[140px]">
-                            <button
-                              onClick={() => handleShare("facebook")}
-                              className="w-full flex items-center px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded"
-                            >
-                              <Facebook className="w-4 h-4 mr-2 text-blue-600" />
-                              Facebook
-                            </button>
-                            <button
-                              onClick={() => handleShare("twitter")}
-                              className="w-full flex items-center px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded"
-                            >
-                              <Twitter className="w-4 h-4 mr-2 text-blue-400" />
-                              Twitter
-                            </button>
-                            <button
-                              onClick={() => handleShare("linkedin")}
-                              className="w-full flex items-center px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded"
-                            >
-                              <Linkedin className="w-4 h-4 mr-2 text-blue-700" />
-                              LinkedIn
-                            </button>
-                            <button
-                              onClick={() => handleShare("copy")}
-                              className="w-full flex items-center px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded"
-                            >
-                              <LinkIcon className="w-4 h-4 mr-2 text-gray-600" />
-                              Copy Link
-                            </button>
-                          </div>
-                        )}
-                      </div>
+  {shareMenuOpen && (
+    <>
+      {/* Backdrop to close menu when clicking outside */}
+      <div 
+        className="fixed inset-0 z-40" 
+        onClick={() => setShareMenuOpen(false)}
+      />
+      
+      {/* Share menu dropdown */}
+      <div className="absolute top-12 right-0 bg-white rounded-lg shadow-2xl border border-gray-200 p-2 z-50 min-w-[160px]">
+        <button
+          onClick={() => handleShare("facebook")}
+          className="w-full flex items-center px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded"
+        >
+          <Facebook className="w-4 h-4 mr-2 text-blue-600" />
+          Facebook
+        </button>
+        <button
+          onClick={() => handleShare("twitter")}
+          className="w-full flex items-center px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded"
+        >
+          <Twitter className="w-4 h-4 mr-2 text-blue-400" />
+          Twitter
+        </button>
+        <button
+          onClick={() => handleShare("linkedin")}
+          className="w-full flex items-center px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded"
+        >
+          <Linkedin className="w-4 h-4 mr-2 text-blue-700" />
+          LinkedIn
+        </button>
+        <button
+          onClick={() => handleShare("copy")}
+          className="w-full flex items-center px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded"
+        >
+          <LinkIcon className="w-4 h-4 mr-2 text-gray-600" />
+          Copy Link
+        </button>
+      </div>
+    </>
+  )}
+
                     </div>
                   </div>
                 </div>
