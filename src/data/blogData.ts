@@ -3197,23 +3197,68 @@ export const blogPosts: BlogPost[] = [
       ]
     },
     {
+  "id": "faqs",
+  "type": "heading",
+  "title": "Frequently Asked Questions (FAQs)",
+  "level": 2
+},
+{
+  "id": "faqs-list",
+  "type": "faq",
+  "faqs": [
+    {
+      "question": "Q9: When will NEET PG 2025 counselling start?",
+      "answer": "After results and merit list release, detailed schedules will be published by MCC on the official portal mcc.nic.in."
+    },
+    {
+      "question": "Q10: What seats fall under All India vs State counselling?",
+      "answer": "All India Quota includes 50% government seats, ESIC, AFMS, DNB, deemed and central universities. State counselling manages remaining government seats and private college seats."
+    },
+    {
+      "question": "Q11: What documents are needed for NEET PG counselling?",
+      "answer": "NEET PG scorecard, ID proof, MBBS degree & marksheet, internship completion certificate, state/medical registration certificate, category/EWS/PwD certificates, photographs, originals + photocopies."
+    },
+    {
+      "question": "Q12: How to fill choices effectively?",
+      "answer": "Create lists of aspirational, realistic, and safe options; use previous year rank cutoffs, seat matrices, current allotment trends; and review carefully before locking."
+    },
+    {
+      "question": "Q13: How many rounds of counselling are conducted?",
+      "answer": "MCC usually conducts four rounds: Round 1, Round 2, Round 3 (Mop-Up), and Stray Vacancy Round."
+    },
+    {
+      "question": "Q14: Can Foreign Medical Graduates participate in state counselling?",
+      "answer": "FMG eligibility varies by state; some require domicile proof while others accept institutional qualification from the same state. It is necessary to check official state guidelines."
+    }
+  ]
+},
+    {
   "id": "keywords",
   "type": "keywords",
   "title": "Related Keywords",
   "keywords": [
-  "NEET PG Exam",
-  "PG Medical Course",
   "NEET PG Counselling",
-  "Tamil Nadu State Counselling",
-  "PG Counselling",
-  "CMC Vellore Online Registration",
-  "CMC Vellore PG Registration",
-  "CMC Vellore Entrance Exam 2025",
-  "CMC Vellore Application Form 2025",
-  "CMC Vellore Application Form",
-  "CMC Vellore Application",
-  "CMC Vellore Entrance Exam",
-  "CMC Vellore Admission Process"
+    "NEET PG 2025",
+    "NEET PG Counselling 2025",
+    "NEET PG 2025 Counselling",
+    "NEET PG Counselling Process",
+    "PG Counselling",
+    "Medical PG Counselling",
+    "NEET PG Medical Counselling",
+    "NEET PG Counselling Schedule",
+    "NEET PG Counselling Guidance",
+    "MCC NEET PG Counselling",
+    "AIQ NEET PG Counselling",
+    "MCC Counselling NEET PG",
+    "MCC PG Medical Counselling",
+    "Apply for NEET PG Counselling",
+    "Choice Filling in NEET PG",
+    "Counselling Process of NEET PG",
+    "Seat Matrix for NEET PG",
+    "State Counselling for NEET PG",
+    "State NEET PG Counselling",
+    "State Counselling NEET PG",
+    "NEET PG Seat Matrix"
 ]
 },
     {
@@ -20757,6 +20802,510 @@ export const blogPosts: BlogPost[] = [
         "aiq neet pg counselling",
         "neet pg aiq seat matrix",
         "neet pg md ms counselling"
+      ]
+    }
+  ]
+},
+{
+  "id": 56,
+  "title": "MCC Seat Matrix Confusion Explained: Understanding the DNB–MD/MS Duplication Issue in NEET PG 2025",
+  "slug": "mcc-seat-matrix-confusion-explained-understanding-the-dnb-md-ms-duplication-issue-in-neet-pg-2025",
+  "excerpt": "Clear insight into how duplicated DNB and MD/MS seats impact choices, cut-offs, and counselling clarity for NEET PG 2025 aspirants.",
+  "featured_image": "https://cdn.dribbble.com/userupload/45831038/file/f16f8bf330b91814db1021ed463e9806.jpeg?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-green-100 text-green-800"
+  },
+  "tags": [
+    "MCC Seat Matrix",
+    "NEET PG Counselling",
+    "NEET PG 2025",
+    "DNB Seats",
+    "MD/MS Admissions",
+    "AIQ Counselling"
+  ],
+  "published_date": "2025-11-28",
+  "read_time": 20,
+  "meta_description": "Clear insight into how duplicated DNB and MD/MS seats impact choices, cut-offs, and counselling clarity for NEET PG 2025 aspirants.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "The MCC seat matrix in the NEET PG counselling and NEET PG 2025 counselling begins with an unusual and confusing situation: duplicate seats appear in the MCC seat matrix. Numerous aspirants noticed that DNB/NB Diploma and MD/MS seats were contemporarily listed under the same specialty and institute."
+    },
+    {
+      "id": "intro-problem",
+      "type": "paragraph",
+      "content": "This overlap led created widespread confusion among all the candidates, but MCC has already acknowledged the seat matrix issues and confirmed that corrections are underway."
+    },
+    {
+      "id": "intro-guide",
+      "type": "paragraph",
+      "content": "This blog perfectly unpacks the root of the problem, the official policy which is behind MD/MS vs DNB seats, and why conversions led to duplication, or what does this mean for candidates during their round 1 and round 2 choice filling."
+    },
+    {
+      "id": "duplication-issue",
+      "type": "heading",
+      "title": "What Exactly Went Wrong? Understanding the Duplication Issue",
+      "level": 2
+    },
+    {
+      "id": "duplication-issue-content",
+      "type": "paragraph",
+      "content": "Reviewing the NEET PG counselling seat matrix, candidates noticed both MD/MS and DNB/NB Diploma seats listed under the same specialty and institute."
+    },
+    {
+      "id": "duplication-issue-problem",
+      "type": "paragraph",
+      "content": "But this is not allowed."
+    },
+    {
+      "id": "duplication-issue-rule",
+      "type": "paragraph",
+      "content": "A single institute cannot run MD/MS and DNB programs in the same specialty during the same academic session."
+    },
+    {
+      "id": "duplication-issue-question",
+      "type": "paragraph",
+      "content": "So why was this happening?"
+    },
+    {
+      "id": "duplication-issue-reason",
+      "type": "paragraph",
+      "content": "Because seat conversions and updates were not fully reflected in the PG NEET seat matrix. Here's the core problem:"
+    },
+    {
+      "id": "duplication-issue-list",
+      "type": "list",
+      "items": [
+        "Some medical colleges previously offered DNB or NB Diploma seats.",
+        "These institutes recently received permission from NMC to start MD/MS programs in the same specialty.",
+        "Once MD/MS seats are approved, the equivalent DNB seats must be surrendered/withdrawn.",
+        "However, MCC's initial seat matrix mistakenly displayed both."
+      ]
+    },
+    {
+      "id": "duplication-issue-impact",
+      "type": "paragraph",
+      "content": "This led to the duplication of seats across 29 institutes in the AIQ NEET PG counselling."
+    },
+    {
+      "id": "mcc-statement",
+      "type": "heading",
+      "title": "MCC's Statement on the Issue",
+      "level": 2
+    },
+    {
+      "id": "mcc-statement-content",
+      "type": "paragraph",
+      "content": "On November 6, MCC confirmed:"
+    },
+    {
+      "id": "mcc-statement-list",
+      "type": "list",
+      "items": [
+        "They received updated data from NMC about new PG seats.",
+        "They received intimation from NBEMS to withdraw 169 DNB/NB Diploma seats.",
+        "Corrections are in progress."
+      ]
+    },
+    {
+      "id": "mcc-statement-note",
+      "type": "paragraph",
+      "content": "Though the notification didn't directly spell out the duplication problem, it was clear that seat conversions from DNB - MD/MS were the root cause."
+    },
+    {
+      "id": "coexistence-question",
+      "type": "heading",
+      "title": "Why Can't Both Courses Coexist? (MD/MS vs DNB)",
+      "level": 2
+    },
+    {
+      "id": "coexistence-intro",
+      "type": "paragraph",
+      "content": "To understand the issue, you must understand how PG course permissions work."
+    },
+    {
+      "id": "medical-colleges",
+      "type": "heading",
+      "title": "1. Medical Colleges & Teaching Hospitals",
+      "level": 3
+    },
+    {
+      "id": "medical-colleges-content",
+      "type": "paragraph",
+      "content": "Every medical college operates with one or more attached teaching hospitals. These hospitals may be:"
+    },
+    {
+      "id": "medical-colleges-list",
+      "type": "list",
+      "items": [
+        "On the same campus, or",
+        "A few kilometers away, but officially attached."
+      ]
+    },
+    {
+      "id": "permissions",
+      "type": "heading",
+      "title": "2. Who Grants Which Permissions?",
+      "level": 3
+    },
+    {
+      "id": "permissions-list",
+      "type": "list",
+      "items": [
+        "NMC approves MD/MS seats (university-affiliated programs).",
+        "NBEMS accredits DNB / NB Diploma seats (hospital-based programs)."
+      ]
+    },
+    {
+      "id": "coexistence-reason",
+      "type": "heading",
+      "title": "3. Why Can't Both MD/MS and DNB Run in the Same Specialty?",
+      "level": 3
+    },
+    {
+      "id": "coexistence-reason-content",
+      "type": "paragraph",
+      "content": "Because:"
+    },
+    {
+      "id": "coexistence-reason-list",
+      "type": "list",
+      "items": [
+        "They share the same faculty, infrastructure, and clinical resources.",
+        "Running parallel programs would violate NBEMS accreditation norms.",
+        "Once MD/MS is granted, the institute must surrender DNB seats in that specialty."
+      ]
+    },
+    {
+      "id": "coexistence-impact",
+      "type": "paragraph",
+      "content": "This directly affects the DNB seats in NEET PG listings."
+    },
+    {
+      "id": "conversion-pathway",
+      "type": "heading",
+      "title": "4. Typical Pathway of Conversion",
+      "level": 3
+    },
+    {
+      "id": "conversion-pathway-content",
+      "type": "paragraph",
+      "content": "Many institutes start with DNB seats because NBEMS requirements are relatively easier."
+    },
+    {
+      "id": "conversion-pathway-process",
+      "type": "paragraph",
+      "content": "Later, once they expand infrastructure and faculty, they apply for MD/MS seats."
+    },
+    {
+      "id": "conversion-pathway-result",
+      "type": "paragraph",
+      "content": "Once approved:"
+    },
+    {
+      "id": "conversion-pathway-list",
+      "type": "list",
+      "items": [
+        "DNB seats are withdrawn,",
+        "MD/MS seats replace them."
+      ]
+    },
+    {
+      "id": "real-example",
+      "type": "heading",
+      "title": "A Real Example: Kalpana Chawla Government Medical College, Karnal (Haryana)",
+      "level": 2
+    },
+    {
+      "id": "real-example-intro",
+      "type": "paragraph",
+      "content": "This example perfectly shows how duplication can occur if updates are not properly reflected."
+    },
+    {
+      "id": "institute-structure",
+      "type": "heading",
+      "title": "Institute Structure:",
+      "level": 3
+    },
+    {
+      "id": "institute-structure-content",
+      "type": "paragraph",
+      "content": "Kalpana Chawla GMC appears in the seat matrix, which has 2 different codes:"
+    },
+    {
+      "id": "institute-structure-list",
+      "type": "list",
+      "items": [
+        "Medical College – MD/MS seats",
+        "Attached Hospital – DNB/NB Diploma seats"
+      ]
+    },
+    {
+      "id": "institute-structure-note",
+      "type": "paragraph",
+      "content": "They are highlighted separately because they're listed under different counselling categories in the AIQ seat matrix NEET PG."
+    },
+    {
+      "id": "key-point",
+      "type": "heading",
+      "title": "Key Point:",
+      "level": 3
+    },
+    {
+      "id": "key-point-content",
+      "type": "paragraph",
+      "content": "A specialty can't appear in both lists in the same session. But due to half updates, some of the specialties are incorrectly appearing under:"
+    },
+    {
+      "id": "key-point-list",
+      "type": "list",
+      "items": [
+        "MD/MS (seat increase list)",
+        "DNB (existing seat list)"
+      ]
+    },
+    {
+      "id": "numbers",
+      "type": "heading",
+      "title": "The Numbers: How Many Seats Are Affected?",
+      "level": 2
+    },
+    {
+      "id": "numbers-content",
+      "type": "paragraph",
+      "content": "The analysis so far reveals:"
+    },
+    {
+      "id": "numbers-list",
+      "type": "list",
+      "items": [
+        "175 DNB/NB Diploma seats actually required withdrawal.",
+        "MCC officially notified the withdrawal of 169 seats (minor difference due to data variance).",
+        "These DNB seats correspond to 256 newly approved MD/MS seats."
+      ]
+    },
+    {
+      "id": "numbers-remember",
+      "type": "paragraph",
+      "content": "Remember: Only 50% of government college seats appear in the All India Quota, so the visible impact in MCC is half the total conversions."
+    },
+    {
+      "id": "status-actions",
+      "type": "heading",
+      "title": "Status of Actions Taken",
+      "level": 2
+    },
+    {
+      "id": "status-actions-list",
+      "type": "list",
+      "items": [
+        "Most NB Diploma seats have already been removed.",
+        "Several DNB seats have been withdrawn as well.",
+        "A final small batch (around 30–70 seats) is still pending removal.",
+        "MD/MS seats are expected to be added either in NEET PG counselling round 1 or NEET PG counselling round 2."
+      ]
+    },
+    {
+      "id": "conversions-practice",
+      "type": "heading",
+      "title": "How These Conversions Look in Practice",
+      "level": 2
+    },
+    {
+      "id": "conversions-example",
+      "type": "paragraph",
+      "content": "Example:"
+    },
+    {
+      "id": "conversions-example-college",
+      "type": "paragraph",
+      "content": "Government Medical College, Anantnag"
+    },
+    {
+      "id": "conversions-example-earlier",
+      "type": "paragraph",
+      "content": "Earlier:"
+    },
+    {
+      "id": "conversions-example-earlier-list",
+      "type": "list",
+      "items": [
+        "DNB Anesthesiology – 3 seats",
+        "NB Diploma in Anesthesia – 1 seat"
+      ]
+    },
+    {
+      "id": "conversions-example-now",
+      "type": "paragraph",
+      "content": "Now:"
+    },
+    {
+      "id": "conversions-example-now-list",
+      "type": "list",
+      "items": [
+        "All 4 seats converted to MD Anesthesiology."
+      ]
+    },
+    {
+      "id": "conversions-example-status",
+      "type": "paragraph",
+      "content": "Current Status: Diploma & DNB seats withdrawn; MD seats yet to be added."
+    },
+    {
+      "id": "conversions-pattern",
+      "type": "paragraph",
+      "content": "This pattern repeats across multiple colleges and specialties."
+    },
+    {
+      "id": "candidate-action",
+      "type": "heading",
+      "title": "What Candidates Need to Do (VERY IMPORTANT)",
+      "level": 2
+    },
+    {
+      "id": "candidate-action-1",
+      "type": "heading",
+      "title": "1. Do NOT panic about duplication",
+      "level": 3
+    },
+    {
+      "id": "candidate-action-1-content",
+      "type": "paragraph",
+      "content": "MCC will release a clean, corrected matrix before NEET PG MD MS counselling allotment."
+    },
+    {
+      "id": "candidate-action-2",
+      "type": "heading",
+      "title": "2. During choice filling, simply follow the official MCC matrix",
+      "level": 3
+    },
+    {
+      "id": "candidate-action-2-content",
+      "type": "paragraph",
+      "content": "Only the final updated list matters."
+    },
+    {
+      "id": "candidate-action-3",
+      "type": "heading",
+      "title": "3. If any of the 175 withdrawn DNB seats still appear, report it",
+      "level": 3
+    },
+    {
+      "id": "candidate-action-3-content",
+      "type": "paragraph",
+      "content": "The counselling team and MCC will ensure such seats are not allotted."
+    },
+    {
+      "id": "candidate-action-4",
+      "type": "heading",
+      "title": "4. MD/MS seats may get added in Round 1 or Round 2",
+      "level": 3
+    },
+    {
+      "id": "candidate-action-4-content",
+      "type": "paragraph",
+      "content": "It makes no difference for candidates; just fill in all choices logically."
+    },
+    {
+      "id": "candidate-action-5",
+      "type": "heading",
+      "title": "5. No action is required from candidates",
+      "level": 3
+    },
+    {
+      "id": "candidate-action-5-content",
+      "type": "paragraph",
+      "content": "MCC and NBEMS are handling all the withdrawals and additions."
+    },
+    {
+      "id": "conclusion",
+      "type": "heading",
+      "title": "Conclusion: The Issue Will Be Resolved—Just Stay Informed",
+      "level": 2
+    },
+    {
+      "id": "conclusion-content",
+      "type": "paragraph",
+      "content": "The DNB, MD/MS duplication in the NEET PG 2025 MCC seat matrix has a technical issue that has typically been caused by ongoing seat conversions."
+    },
+    {
+      "id": "conclusion-status",
+      "type": "paragraph",
+      "content": "Most incorrect DNB seats have been removed, and MD/MS seats will be added soon."
+    },
+    {
+      "id": "conclusion-advice",
+      "type": "paragraph",
+      "content": "As a candidate, wait for the final seat matrix, fill choices based on the updated list, and keep track of official notifications. MCC will release further updates to clean up the matrix."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "Frequently Asked Questions (FAQs)",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1: Why are MD/MS and DNB seats both showing for the same specialty?",
+          "answer": "It's basically a technical update error. When DNB seats have been converted to MD/MS, the old DNB seats should be removed. Although MCC is fixing this."
+        },
+        {
+          "question": "Q2: What if I see duplicate seats?",
+          "answer": "You don't have to worry about it; you can simply report that, and MCC will correct the matrix before allotment."
+        },
+        {
+          "question": "Q3: Will removing DNB seats reduce my chances?",
+          "answer": "No. MD/MS seats replace withdrawn DNB seats. Your chances remain unchanged."
+        },
+        {
+          "question": "Q4: When will the corrected seat matrix come?",
+          "answer": "MCC will release the updated matrix before allotment. Keep checking the MCC site."
+        },
+        {
+          "question": "Q5: Can I apply to institutes with duplicate entries?",
+          "answer": "Yes, but only the final corrected matrix will be considered for allotment. Recheck before choice filling."
+        }
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "mcc seat matrix",
+        "neet pg counselling",
+        "neet pg 2025 counselling",
+        "mcc neet pg counselling",
+        "neet pg counselling seat allotment",
+        "neet pg md ms counselling",
+        "dnb seats in neet pg",
+        "counselling for neet pg",
+        "neet pg counselling seat matrix",
+        "neet pg counselling process",
+        "pg neet seat matrix",
+        "seat matrix neet pg",
+        "aiq neet pg counselling",
+        "neet pg counselling round 1",
+        "neet pg counselling round 2",
+        "aiq seat matrix neet pg",
+        "nbe neet pg counselling"
       ]
     }
   ]
