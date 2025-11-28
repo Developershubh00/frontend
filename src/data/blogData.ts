@@ -20811,7 +20811,7 @@ export const blogPosts: BlogPost[] = [
   "title": "MCC Seat Matrix Confusion Explained: Understanding the DNB–MD/MS Duplication Issue in NEET PG 2025",
   "slug": "mcc-seat-matrix-confusion-explained-understanding-the-dnb-md-ms-duplication-issue-in-neet-pg-2025",
   "excerpt": "Clear insight into how duplicated DNB and MD/MS seats impact choices, cut-offs, and counselling clarity for NEET PG 2025 aspirants.",
-  "featured_image": "https://cdn.dribbble.com/userupload/45831038/file/f16f8bf330b91814db1021ed463e9806.jpeg?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/45869537/file/0a583b25a00f872e4a8f0c0b9b05ff12.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
     "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
