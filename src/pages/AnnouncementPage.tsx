@@ -923,6 +923,18 @@ const AnnouncementPage: React.FC = () => {
       source: 'jagranjosh',
       created_at: "2025-11-22T08:00:00Z"
     },
+    {
+      id: 75,
+      title: "NEET PG Counselling 2025:",
+      content:"Odisha NEET PG 2025 Round 1 Seat Allotment Result Released at dmetodisha.in, Download Allotment Letter Online",
+      date: "2025-11-28T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.jagranjosh.com/news/odisha-neet-pg-counselling-2025-round-1-seat-allotment-result-out-at-dmetodisha-in-direct-link-here-181973',
+      is_active: true,
+      source: 'jagranjosh',
+      created_at: "2025-11-28T08:00:00Z"
+    },
 
 
 

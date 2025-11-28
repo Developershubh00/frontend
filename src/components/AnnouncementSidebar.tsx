@@ -724,6 +724,15 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: 'https://www.jagranjosh.com/news/maharashtra-neet-pg-counselling-2025-round-1-and-2-revised-schedule-out-at-medicalug2025-mahacet-org-check-here-181926',
       source: 'jagranjosh',
     },
+     {
+      id: 75,
+      title: "Odisha NEET PG 2025 Round 1 Seat Allotment Result Released at dmetodisha.in, Download Allotment Letter Online",
+      date: "2025-11-28T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.jagranjosh.com/news/odisha-neet-pg-counselling-2025-round-1-seat-allotment-result-out-at-dmetodisha-in-direct-link-here-181973',
+      source: 'jagranjosh',
+    },
 
 
 
