@@ -627,6 +627,106 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
       The cutoff scores for different categories and rank-wise admission prospects are updated below.
     </p>
   </div>
+  
+  {/* Trend Comparison Table - NEW */}
+        <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
+          <div className="text-center mb-6 lg:mb-8">
+            <h2 className="text-2xl lg:text-3xl font-bold text-slate-800 mb-2">
+              📊 Trend Comparison: Top 100 Ranks Branch Preferences
+            </h2>
+            <p className="text-slate-600 text-sm lg:text-base">
+              Branch preferences by first 100 rank holders in All India Counselling (2021-2025)
+            </p>
+          </div>
+
+          <div className="overflow-x-auto rounded-xl border border-slate-200 shadow-sm">
+            <table className="w-full text-center border-collapse min-w-full">
+              <thead className="bg-gradient-to-r from-slate-700 to-slate-800 text-white">
+                <tr>
+                  <th className="py-4 px-4 text-left font-bold text-base lg:text-lg border-r border-slate-600">
+                    Branch/Specialty
+                  </th>
+                  <th className="py-4 px-4 font-bold text-base lg:text-lg border-r border-slate-600">2025</th>
+                  <th className="py-4 px-4 font-bold text-base lg:text-lg border-r border-slate-600">2024</th>
+                  <th className="py-4 px-4 font-bold text-base lg:text-lg border-r border-slate-600">2022</th>
+                  <th className="py-4 px-4 font-bold text-base lg:text-lg">2021</th>
+                </tr>
+              </thead>
+              <tbody className="bg-white">
+                {[
+                  { branch: "Dermatology", emoji: "🩺", years: [4, 1, 2, 3], highlight: true },
+                  { branch: "Radiology", emoji: "📷", years: [41, 45, 41, 36] },
+                  { branch: "Surgery", emoji: "🔪", years: [3, 2, 4, 11], highlight: true },
+                  { branch: "Medicine", emoji: "🏥", years: [46, 46, 45, 43] },
+                  { branch: "ObGy", emoji: "👩‍⚕️", years: [3, 4, 1, 1], highlight: true },
+                  { branch: "Pediatrics", emoji: "👶", years: [1, 2, 5, 2], highlight: true },
+                  { branch: "Orthopedics", emoji: "🦴", years: [1, 0, 2, 2], highlight: true },
+                ].map((row, idx) => (
+                  <tr 
+                    key={idx} 
+                    className={`hover:bg-blue-50 transition-colors ${
+                      idx % 2 === 0 ? 'bg-slate-50' : 'bg-white'
+                    }`}
+                  >
+                    <td className="py-3 px-4 text-left font-semibold text-slate-800 border-r border-slate-200">
+                      <span className="mr-2">{row.emoji}</span>
+                      {row.branch}
+                    </td>
+                    {row.years.map((value, yearIdx) => (
+                      <td 
+                        key={yearIdx} 
+                        className={`py-3 px-4 font-bold border-r border-slate-200 last:border-r-0 ${
+                          row.highlight && value <= 5 
+                            ? 'text-green-600 bg-green-50' 
+                            : value === 0 
+                            ? 'text-red-600 bg-red-50'
+                            : 'text-slate-700'
+                        }`}
+                      >
+                        {value}
+                      </td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          {/* Insights Section */}
+          <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="bg-green-50 border-l-4 border-green-500 rounded-lg p-4">
+              <div className="flex items-center space-x-2 mb-2">
+                <span className="text-2xl">🏆</span>
+                <h4 className="font-bold text-slate-800">Most Preferred</h4>
+              </div>
+              <p className="text-sm text-slate-600">
+                Dermatology, Surgery, ObGy, Pediatrics & Orthopedics show highest preference among top rankers
+              </p>
+            </div>
+
+            <div className="bg-blue-50 border-l-4 border-blue-500 rounded-lg p-4">
+              <div className="flex items-center space-x-2 mb-2">
+                <span className="text-2xl">📈</span>
+                <h4 className="font-bold text-slate-800">Stable Trends</h4>
+              </div>
+              <p className="text-sm text-slate-600">
+                Medicine and Radiology maintain consistent selection numbers across all years
+              </p>
+            </div>
+
+            <div className="bg-purple-50 border-l-4 border-purple-500 rounded-lg p-4">
+              <div className="flex items-center space-x-2 mb-2">
+                <span className="text-2xl">💡</span>
+                <h4 className="font-bold text-slate-800">Key Insight</h4>
+              </div>
+              <p className="text-sm text-slate-600">
+                Higher rank holders prefer specialties with better lifestyle balance and private practice scope
+              </p>
+            </div>
+          </div>
+        </div>
+
+
 
   {/* Cutoff Scores */}
   <div className="text-center mb-6 lg:mb-8">
