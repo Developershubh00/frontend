@@ -134,20 +134,37 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
   ];
 
   // Custom Select Component
+  // const CustomSelect = ({ value, onChange, options, placeholder, allLabel }: any) => (
+  //   <select
+  //     value={value}
+  //     onChange={(e) => onChange(e.target.value)}
+  //     className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-sm bg-white min-w-[140px]"
+  //   >
+  //     <option value="all">{allLabel}</option>
+  //     {options.filter((opt: string) => opt !== "all").map((option: string) => (
+  //       <option key={option} value={option}>
+  //         {option}
+  //       </option>
+  //     ))}
+  //   </select>
+  // );
   const CustomSelect = ({ value, onChange, options, placeholder, allLabel }: any) => (
-    <select
-      value={value}
-      onChange={(e) => onChange(e.target.value)}
-      className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-sm bg-white min-w-[140px]"
-    >
-      <option value="all">{allLabel}</option>
-      {options.filter((opt: string) => opt !== "all").map((option: string) => (
+  <select
+    value={value}
+    onChange={(e) => onChange(e.target.value)}
+    className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-sm bg-white min-w-[140px]"
+  >
+    <option value="all">{allLabel}</option>
+    {options
+      .filter((opt: string) => opt !== "all")
+      .map((option: string) => (
         <option key={option} value={option}>
           {option}
         </option>
-      ))}
-    </select>
-  );
+      ))
+    }
+  </select>
+);
 
   // Toggle column visibility
   const toggleColumn = (columnKey: keyof ColumnVisibility) => {
@@ -175,34 +192,72 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
     setColumnVisibility(allHidden);
   };
   const fetchAllFilterOptions = async () => {
-    try {
-      const response = await fetch(`https://backend-dju9.onrender.com/get-seatmatrix/?page_size=10000`);
-      
-      if (!response.ok) {
-        console.error(`API returned status ${response.status}`);
-        return;
-      }
-      
-      const data = await response.json();
-      
-      // Extract unique values for each filter
-      const quotas = ["all", ...Array.from(new Set(data.results.map((item: any) => item.quota).filter((q: string) => q && q !== "No Info Available")))];
-      const categories = ["all", ...Array.from(new Set(data.results.map((item: any) => item.category).filter((c: string) => c && c !== "No Info Available")))];
-      const states = ["all", ...Array.from(new Set(data.results.map((item: any) => item.state).filter((s: string) => s && s !== "No Info Available")))];
-      const institutes = ["all", ...Array.from(new Set(data.results.map((item: any) => item.institute).filter((i: string) => i && i !== "No Info Available")))];
-      const courses = ["all", ...Array.from(new Set(data.results.map((item: any) => item.course).filter((c: string) => c && c !== "No Info Available")))];
-      
-      setAvailableFilters({
-        quotas,
-        categories,
-        states,
-        institutes,
-        courses,
-      });
-    } catch (error) {
-      console.error("Error fetching filter options:", error);
+  try {
+    // Fetch without any filters to get all unique values
+    const response = await fetch(`https://backend-dju9.onrender.com/get-seatmatrix/?page=1&page_size=50000`);
+    
+    if (!response.ok) {
+      console.error(`API returned status ${response.status}`);
+      return;
     }
-  };
+    
+    const data = await response.json();
+    
+    if (!data.results || data.results.length === 0) {
+      console.warn("No results returned from API");
+      return;
+    }
+    
+    // Extract unique values for each filter - ensure "all" is always first
+    const uniqueQuotas = Array.from(new Set(
+      data.results
+        .map((item: any) => item.quota)
+        .filter((q: string) => q && q !== "No Info Available" && q.trim() !== "")
+    )).sort();
+    
+    const uniqueCategories = Array.from(new Set(
+      data.results
+        .map((item: any) => item.category)
+        .filter((c: string) => c && c !== "No Info Available" && c.trim() !== "")
+    )).sort();
+    
+    const uniqueStates = Array.from(new Set(
+      data.results
+        .map((item: any) => item.state)
+        .filter((s: string) => s && s !== "No Info Available" && s.trim() !== "")
+    )).sort();
+    
+    const uniqueInstitutes = Array.from(new Set(
+      data.results
+        .map((item: any) => item.institute)
+        .filter((i: string) => i && i !== "No Info Available" && i.trim() !== "")
+    )).sort();
+    
+    const uniqueCourses = Array.from(new Set(
+      data.results
+        .map((item: any) => item.course)
+        .filter((c: string) => c && c !== "No Info Available" && c.trim() !== "")
+    )).sort();
+    
+    console.log("Fetched filter options:", {
+      quotas: uniqueQuotas.length,
+      categories: uniqueCategories.length,
+      states: uniqueStates.length,
+      institutes: uniqueInstitutes.length,
+      courses: uniqueCourses.length
+    });
+    
+    setAvailableFilters({
+      quotas: ["all", ...uniqueQuotas],
+      categories: ["all", ...uniqueCategories],
+      states: ["all", ...uniqueStates],
+      institutes: ["all", ...uniqueInstitutes],
+      courses: ["all", ...uniqueCourses],
+    });
+  } catch (error) {
+    console.error("Error fetching filter options:", error);
+  }
+};
 
 
 
@@ -278,9 +333,9 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
       return { results: [], count: 0 };
     }
   };
-//   useEffect(() => {
-//   fetchAllFilterOptions();
-// }, []);
+useEffect(() => {
+  console.log("Available Filters Updated:", availableFilters);
+}, [availableFilters]);
 
   // Fetch data with API
   useEffect(() => {
@@ -326,15 +381,23 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
     selectedInstituteType,
     currentPage
   ]);
+  // Use pre-fetched filter options instead of deriving from current data
+const quotas = availableFilters.quotas;
+const categories = availableFilters.categories;
+const rounds = ["all", "Round 1", "Round 2", "Round 3", "Round 4", "Round 5"];
+const states = availableFilters.states;
+const institutes = availableFilters.institutes;
+const courses = availableFilters.courses;
+const instituteTypes = ["all", "Government", "Private"];
 
   // Get unique values for filters from current data
-  const quotas = ["all", ...Array.from(new Set(seatMatrixData.map(item => item.Quota).filter(q => q !== "No Info Available")))];
-  const categories = ["all", ...Array.from(new Set(seatMatrixData.map(item => item.Category).filter(c => c !== "No Info Available")))];
-  const rounds = ["all", "Round 1", "Round 2", "Round 3", "Round 4", "Round 5"];
-  const states = ["all", ...Array.from(new Set(seatMatrixData.map(item => item.State).filter(s => s !== "No Info Available")))];
-  const institutes = ["all", ...Array.from(new Set(seatMatrixData.map(item => item.Institute).filter(i => i !== "No Info Available")))];
-  const courses = ["all", ...Array.from(new Set(seatMatrixData.map(item => item.Course).filter(c => c !== "No Info Available")))];
-  const instituteTypes = ["all", "Government", "Private"];
+  // const quotas = ["all", ...Array.from(new Set(seatMatrixData.map(item => item.Quota).filter(q => q !== "No Info Available")))];
+  // const categories = ["all", ...Array.from(new Set(seatMatrixData.map(item => item.Category).filter(c => c !== "No Info Available")))];
+  // const rounds = ["all", "Round 1", "Round 2", "Round 3", "Round 4", "Round 5"];
+  // const states = ["all", ...Array.from(new Set(seatMatrixData.map(item => item.State).filter(s => s !== "No Info Available")))];
+  // const institutes = ["all", ...Array.from(new Set(seatMatrixData.map(item => item.Institute).filter(i => i !== "No Info Available")))];
+  // const courses = ["all", ...Array.from(new Set(seatMatrixData.map(item => item.Course).filter(c => c !== "No Info Available")))];
+  // const instituteTypes = ["all", "Government", "Private"];
 // const quotas = availableFilters.quotas;
 // const categories = availableFilters.categories;
 // const rounds = ["all", "Round 1", "Round 2", "Round 3", "Round 4", "Round 5"];
