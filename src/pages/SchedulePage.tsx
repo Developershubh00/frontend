@@ -1,5 +1,5 @@
 import React from 'react';
-import { FileText, ExternalLink, Calendar } from 'lucide-react';
+import { FileText, ExternalLink, Calendar, ArrowLeft } from 'lucide-react';
 
 interface ScheduleDocument {
   id: number;
@@ -38,9 +38,23 @@ const SchedulePage: React.FC = () => {
     window.open(`/data/${fileName}`, '_blank');
   };
 
+const handleBack = () => {
+  window.history.back();
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 p-6">
       <div className="max-w-7xl mx-auto">
+
+      {/* ADD THIS BACK BUTTON SECTION */}
+        <button
+          onClick={handleBack}
+          className="mb-4 inline-flex items-center gap-2 px-4 py-2 bg-white rounded-lg shadow-md hover:shadow-lg transition-all hover:bg-slate-50 text-slate-700 font-medium"
+        >
+          <ArrowLeft className="w-5 h-5" />
+          <span>Back</span>
+        </button>
+
         {/* Header Section */}
         <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl shadow-2xl p-8 mb-8 text-white">
           <div className="flex items-center gap-4 mb-4">
