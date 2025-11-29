@@ -134,10 +134,10 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
       ) {
         throw new Error(
           (error.response as { data: { detail?: string } }).data.detail ||
-            "Login Failed!! If you are a new user. Please Sign-up first  & Try Again"
+            "Scheduled Maintenance in Progress — Thanks for your patience."
         );
       }
-      throw new Error("Login Failed!! If you are a new user. Please Sign-up first  & Try Again");
+      throw new Error("Scheduled Maintenance in Progress — Thanks for your patience.");
     }
   };
 
