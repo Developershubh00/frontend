@@ -144,7 +144,7 @@ export const authAPI = {
 };
 
 // Allotments API (separate instance if needed)
-const API_BASE = "https://backend-dju9.onrender.com/"; // update if different
+const API_BASE = "https://backend-fiwg.onrender.com/"; // update if different
 
 export const getAllotments = async (params: any = {}) => {
   const response = await axios.get(`${API_BASE}/get-allotments/`, { params });

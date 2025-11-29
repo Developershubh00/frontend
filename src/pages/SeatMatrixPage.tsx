@@ -194,7 +194,7 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
   const fetchAllFilterOptions = async () => {
   try {
     // Fetch without any filters to get all unique values
-    const response = await fetch(`https://backend-dju9.onrender.com/get-seatmatrix/?page=1&page_size=50000`);
+    const response = await fetch(`https://backend-fiwg.onrender.com/get-seatmatrix/?page=1&page_size=50000`);
     
     if (!response.ok) {
       console.error(`API returned status ${response.status}`);
@@ -290,7 +290,7 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
     queryParams.append('page_size', '70');
   
     try {
-      const response = await fetch(`https://backend-dju9.onrender.com/get-seatmatrix/?${queryParams.toString()}`);
+      const response = await fetch(`https://backend-fiwg.onrender.com/get-seatmatrix/?${queryParams.toString()}`);
       
       if (!response.ok) {
         console.error(`API returned status ${response.status}`);
