@@ -1230,12 +1230,32 @@ function Homepage() {
             </div>
           </div>
 
-          <div className="border-t border-gray-800 mt-16 pt-8 text-center text-gray-400">
+          {/* <div className="border-t border-gray-800 mt-16 pt-8 text-center text-gray-400">
             <p>
-              &copy; 2025 Believers Destination. All rights reserved. | Empowering
+              &copy; 2025 Believers Destination Pvt Ltd. All rights reserved. | Empowering
               students with free counselling guidance.
             </p>
-          </div>
+             <p className="text-xs font-bold text-gray-400 mb-4">
+              Designed & Managed By: Believers Destination Pvt Ltd
+            </p>
+          </div> */}
+          <div className="border-t border-gray-800 mt-16 pt-8 text-center text-gray-400">
+  <p>
+    &copy; 2025 Believers Destination Pvt Ltd. All rights reserved. | Empowering
+    students with free counselling guidance.
+  </p>
+  <p className="text-xs mb-4">
+    <span className="font-bold text-gray-300">Designed & Managed By:</span>{' '}
+    <a 
+      href="https://www.believersdestination.com" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="font-semibold text-blue-400 hover:text-blue-300 underline"
+    >
+      Believers Destination Pvt Ltd
+    </a>
+  </p>
+</div>
         </div>
       </footer>
     </div>
