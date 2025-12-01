@@ -21754,6 +21754,572 @@ export const blogPosts: BlogPost[] = [
       ]
     }
   ]
+},
+{
+  "id": 58,
+  "title": "Puducherry NEET PG Counselling 2025: Detailed, Easy-to-Follow Guide for MD/MS Aspirants",
+  "slug": "puducherry-neet-pg-counselling-2025-detailed-easy-to-follow-guide-for-md-ms-aspirants",
+  "excerpt": "Puducherry NEET PG Counselling 2025 offers a smooth, clear process for MD/MS seats with transparent steps, ensuring aspirants make confident choices.",
+  "featured_image": "https://cdn.dribbble.com/userupload/45897849/file/28ecee9f536631dd669f5bdeb9bdcdc9.png?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-green-100 text-green-800"
+  },
+  "tags": [
+    "Puducherry NEET PG Counselling",
+    "NEET PG 2025",
+    "State Counselling",
+    "MD/MS Admissions",
+    "CENTAC",
+    "NEET PG Eligibility"
+  ],
+  "published_date": "2025-11-30",
+  "read_time": 18,
+  "meta_description": "Puducherry NEET PG Counselling 2025 offers a smooth, clear process for MD/MS seats with transparent steps, ensuring aspirants make confident choices.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "The Centralised Admission Committee (CENTAC) has officially opened the application window for Puducherry NEET PG counselling for MD/MS seats in Puducherry. Suppose you're planning to join a postgraduate medical program in the Union Territory. In that case, this comprehensive guide covers important dates, eligibility rules, fee structure, quota criteria, and the entire NEET PG counselling procedure step by step."
+    },
+    {
+      "id": "important-dates",
+      "type": "heading",
+      "title": "1. Important Dates & Official Links",
+      "level": 2
+    },
+    {
+      "id": "important-dates-intro",
+      "type": "paragraph",
+      "content": "CENTAC has officially released the admission notification on its official portal for MD/MS programs for the academic year 2025–26. Here's what you must remember during NEET PG 2025 counselling:"
+    },
+    {
+      "id": "key-dates",
+      "type": "heading",
+      "title": "Key Dates",
+      "level": 3
+    },
+    {
+      "id": "key-dates-list",
+      "type": "list",
+      "items": [
+        "Registration has been opened on 14 November 2025",
+        "Registration has closed on: 19 November 2025 (Wednesday)"
+      ]
+    },
+    {
+      "id": "useful-links",
+      "type": "heading",
+      "title": "Useful Links",
+      "level": 3
+    },
+    {
+      "id": "useful-links-list",
+      "type": "list",
+      "items": [
+        "Official Website: www.centacpuducherry.in",
+        "Registration Portal: https://centac.py.gov.in/PgNeet/Medical_2025/"
+      ]
+    },
+    {
+      "id": "important-dates-note",
+      "type": "paragraph",
+      "content": "You have to make sure that you complete the NEET PG counselling application form before the deadline, as corrections are usually not allowed later."
+    },
+    {
+      "id": "application-fee",
+      "type": "heading",
+      "title": "2. Application Fee Structure",
+      "level": 2
+    },
+    {
+      "id": "application-fee-intro",
+      "type": "paragraph",
+      "content": "The fee varies totally depending upon the quota that you're applying for and your category, as seen across most state NEET PG counselling processes."
+    },
+    {
+      "id": "application-fee-table",
+      "type": "table",
+      "headers": ["Applicant Type", "Fee"],
+      "rows": [
+        ["Puducherry Residents – Government Quota (SC/ST/PwD)", "₹1500"],
+        ["Puducherry Residents – Government Quota (Others)", "₹3000"],
+        ["Management Quota (All Candidates Eligible)", "₹5000"],
+        ["Govt + Management Quota (Puducherry Residents)", "₹5000"],
+        ["Other State Candidates / NRI / OCI (Management Only)", "₹5000"]
+      ]
+    },
+    {
+      "id": "eligibility-criteria",
+      "type": "heading",
+      "title": "3. Eligibility Criteria",
+      "level": 2
+    },
+    {
+      "id": "eligibility-criteria-intro",
+      "type": "paragraph",
+      "content": "In the Eligibility criteria for puducherry neet pg counselling 2025, there's a difference between the Government Quota and Management/Minority Quota seats"
+    },
+    {
+      "id": "govt-quota-eligibility",
+      "type": "heading",
+      "title": "A. Government Quota Eligibility (Only for Puducherry Residents)",
+      "level": 3
+    },
+    {
+      "id": "govt-quota-eligibility-intro",
+      "type": "paragraph",
+      "content": "You must meet any one of the residency categories below:"
+    },
+    {
+      "id": "category-1",
+      "type": "heading",
+      "title": "Category 1",
+      "level": 4
+    },
+    {
+      "id": "category-1-content",
+      "type": "paragraph",
+      "content": "At least one parent or legal guardian has lived continuously in Puducherry for at least 5 years."
+    },
+    {
+      "id": "category-2",
+      "type": "heading",
+      "title": "Category 2",
+      "level": 4
+    },
+    {
+      "id": "category-2-content",
+      "type": "paragraph",
+      "content": "The candidate must have completed SSLC/HSC in Puducherry and studied for five consecutive years immediately before the qualifying exam."
+    },
+    {
+      "id": "category-3",
+      "type": "heading",
+      "title": "Category 3",
+      "level": 4
+    },
+    {
+      "id": "category-3-content",
+      "type": "paragraph",
+      "content": "Children of native Puducherry residents who can provide a certified nativity document."
+    },
+    {
+      "id": "category-4",
+      "type": "heading",
+      "title": "Category 4",
+      "level": 4
+    },
+    {
+      "id": "category-4-content",
+      "type": "paragraph",
+      "content": "Children of Central/State Government employees, PSU staff, Defence/Paramilitary personnel posted in Puducherry for at least three years."
+    },
+    {
+      "id": "category-4-requirement",
+      "type": "paragraph",
+      "content": "The candidate must have studied two years of HSC in Puducherry."
+    },
+    {
+      "id": "category-5",
+      "type": "heading",
+      "title": "Category 5",
+      "level": 4
+    },
+    {
+      "id": "category-5-content",
+      "type": "paragraph",
+      "content": "Children of Defence/Paramilitary personnel who were martyred, disabled in service, or died while serving in Puducherry."
+    },
+    {
+      "id": "category-6",
+      "type": "heading",
+      "title": "Category 6",
+      "level": 4
+    },
+    {
+      "id": "category-6-content",
+      "type": "paragraph",
+      "content": "French nationals covered under the Treaty of Cession (with a valid Certificate of Registration). Eligible only for the Government Quota."
+    },
+    {
+      "id": "management-quota-eligibility",
+      "type": "heading",
+      "title": "B. Management & Minority Quota Eligibility",
+      "level": 3
+    },
+    {
+      "id": "management-quota-eligibility-content",
+      "type": "paragraph",
+      "content": "All India candidates can apply for Management Quota seats from Round 1 of Puducherry NEET PG 2025 counselling."
+    },
+    {
+      "id": "college-wise-eligibility",
+      "type": "heading",
+      "title": "College-wise Eligibility",
+      "level": 3
+    },
+    {
+      "id": "college-wise-eligibility-table",
+      "type": "table",
+      "headers": ["College", "Quota", "Eligibility"],
+      "rows": [
+        ["Sri Manakula Vinayagar Medical College", "50%", "Open to all Indian candidates"],
+        ["Pondicherry Institute of Medical Sciences", "50%", "Open to all Indian candidates"],
+        ["Sri Venkateshwaraa Medical College (Telugu Minority)", "50%", "R1 & R2: Only Puducherry Residents of the Telugu Community\nR3: Remaining seats shift to Management Quota (open to all)"]
+      ]
+    },
+    {
+      "id": "registration-process",
+      "type": "heading",
+      "title": "4. How to Register for Puducherry NEET PG 2025",
+      "level": 2
+    },
+    {
+      "id": "registration-process-intro",
+      "type": "paragraph",
+      "content": "You know the whole NEET PG counselling registration process has been scheduled online. Below is a simplified explanation of each step:"
+    },
+    {
+      "id": "step-1",
+      "type": "heading",
+      "title": "Step 1: Create Your Account",
+      "level": 3
+    },
+    {
+      "id": "step-1-content",
+      "type": "paragraph",
+      "content": "Visit the registration portal and fill out:"
+    },
+    {
+      "id": "step-1-list",
+      "type": "list",
+      "items": [
+        "Candidate's (your) full name",
+        "Parent/guardian name",
+        "Your Email ID",
+        "Your accurate Mobile number",
+        "Strong Password"
+      ]
+    },
+    {
+      "id": "step-1-note",
+      "type": "paragraph",
+      "content": "After submitting, the details cannot be edited, so fill them in accordingly."
+    },
+    {
+      "id": "step-2",
+      "type": "heading",
+      "title": "Step 2: Fill in Academic Information",
+      "level": 3
+    },
+    {
+      "id": "step-2-content",
+      "type": "paragraph",
+      "content": "Enter all the relevant details as per your NEET PG 2025 scorecard:"
+    },
+    {
+      "id": "step-2-list",
+      "type": "list",
+      "items": [
+        "NEET PG Roll Number",
+        "NEET PG Rank",
+        "NEET PG Score",
+        "NEET PG Application ID"
+      ]
+    },
+    {
+      "id": "step-2-action",
+      "type": "paragraph",
+      "content": "Save and continue."
+    },
+    {
+      "id": "step-3",
+      "type": "heading",
+      "title": "Step 3: Enter Personal Information",
+      "level": 3
+    },
+    {
+      "id": "step-3-intro",
+      "type": "paragraph",
+      "content": "This personal information section requires all your personal details, which are related to your application process:"
+    },
+    {
+      "id": "step-3-list",
+      "type": "list",
+      "items": [
+        "Mother's name",
+        "Date of birth",
+        "Community/category",
+        "Nationality"
+      ]
+    },
+    {
+      "id": "step-3-note",
+      "type": "paragraph",
+      "content": "Names filled during initial registration appear automatically."
+    },
+    {
+      "id": "step-4",
+      "type": "heading",
+      "title": "Step 4: Provide Contact Details",
+      "level": 3
+    },
+    {
+      "id": "step-4-prefilled",
+      "type": "paragraph",
+      "content": "Some information will be pre-filled."
+    },
+    {
+      "id": "step-4-update",
+      "type": "paragraph",
+      "content": "You need to update:"
+    },
+    {
+      "id": "step-4-list",
+      "type": "list",
+      "items": [
+        "Alternate phone number",
+        "Permanent address",
+        "Communication address",
+        "Pincode"
+      ]
+    },
+    {
+      "id": "step-4-note",
+      "type": "paragraph",
+      "content": "You may select \"Communication address same as permanent address.\""
+    },
+    {
+      "id": "quota-selection",
+      "type": "heading",
+      "title": "5. Reservation & Quota Selection",
+      "level": 2
+    },
+    {
+      "id": "quota-selection-intro",
+      "type": "paragraph",
+      "content": "This is the most important part of your NEET PG counselling choice filling, so fill carefully."
+    },
+    {
+      "id": "puducherry-resident",
+      "type": "heading",
+      "title": "A. If You Are a Puducherry Resident",
+      "level": 3
+    },
+    {
+      "id": "puducherry-resident-select",
+      "type": "paragraph",
+      "content": "Select:"
+    },
+    {
+      "id": "puducherry-resident-list",
+      "type": "list",
+      "items": [
+        "Region/Taluk",
+        "Community/category",
+        "Special reservation (if applicable):\n- Ex-Servicemen (ESM)\n- Persons with Disabilities (PwD)\n- Freedom Fighter (FF)\n- Most Backward Class (MSP)\n- Telugu Minority"
+      ]
+    },
+    {
+      "id": "puducherry-resident-quota",
+      "type": "paragraph",
+      "content": "Carefully choose whether you are applying for:"
+    },
+    {
+      "id": "puducherry-resident-quota-list",
+      "type": "list",
+      "items": [
+        "Government Quota, or",
+        "Government + Management Quota"
+      ]
+    },
+    {
+      "id": "other-state-candidates",
+      "type": "heading",
+      "title": "B. For Other State Candidates",
+      "level": 3
+    },
+    {
+      "id": "other-state-candidates-content",
+      "type": "paragraph",
+      "content": "You can apply only for the Management Quota."
+    },
+    {
+      "id": "other-state-candidates-upload",
+      "type": "paragraph",
+      "content": "Upload the applicable community/category certificate."
+    },
+    {
+      "id": "document-upload",
+      "type": "heading",
+      "title": "6. Document Upload Requirements",
+      "level": 2
+    },
+    {
+      "id": "document-upload-intro",
+      "type": "paragraph",
+      "content": "All files must follow CENTAC standards:"
+    },
+    {
+      "id": "file-size-format",
+      "type": "heading",
+      "title": "File Size & Format",
+      "level": 3
+    },
+    {
+      "id": "file-size-format-list",
+      "type": "list",
+      "items": [
+        "Photos & Signatures: 20–50 KB (JPEG/JPG)",
+        "Other documents: 100–500 KB (JPEG/JPG)",
+        "Scorecard & Degree Certificate: PDF accepted"
+      ]
+    },
+    {
+      "id": "documents-required",
+      "type": "heading",
+      "title": "Documents Required",
+      "level": 3
+    },
+    {
+      "id": "documents-required-list",
+      "type": "list",
+      "items": [
+        "Passport-sized photograph",
+        "Signature",
+        "Birth proof",
+        "NEET PG Scorecard",
+        "MBBS degree or completion certificate",
+        "Community certificate (if applicable)",
+        "Special category certificate (ESM/PwD/Minority etc.)",
+        "Nativity/residency certificate (if claiming Govt Quota)"
+      ]
+    },
+    {
+      "id": "document-upload-note",
+      "type": "paragraph",
+      "content": "Ensure files are clear and readable, as unclear uploads may lead to rejection."
+    },
+    {
+      "id": "payment-submission",
+      "type": "heading",
+      "title": "7. Final Step: Payment & Submission",
+      "level": 2
+    },
+    {
+      "id": "payment-methods",
+      "type": "paragraph",
+      "content": "You can pay using:"
+    },
+    {
+      "id": "payment-methods-list",
+      "type": "list",
+      "items": [
+        "Net banking",
+        "Debit/credit card",
+        "UPI",
+        "Bharat QR"
+      ]
+    },
+    {
+      "id": "after-payment",
+      "type": "paragraph",
+      "content": "After successful payment:"
+    },
+    {
+      "id": "after-payment-list",
+      "type": "list",
+      "items": [
+        "Review your form",
+        "Ensure all documents are uploaded",
+        "Submit the final application"
+      ]
+    },
+    {
+      "id": "payment-note",
+      "type": "paragraph",
+      "content": "Once submitted, details cannot be changed."
+    },
+    {
+      "id": "conclusion",
+      "type": "heading",
+      "title": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "conclusion-content",
+      "type": "paragraph",
+      "content": "The CENTAC NEET PG counselling seat allotment process for Puducherry is basically a straightforward process, if you follow each step carefully. As it has very limited time available between the opening and closing dates, all the candidates must make sure they register on time, upload proper documents, and accurately select quota and reservation options."
+    },
+    {
+      "id": "conclusion-closing",
+      "type": "paragraph",
+      "content": "Whether you're applying under the Government Quota as a Puducherry resident or exploring Management/Minority seats open to all, this guide equips you with everything required to complete the Puducherry NEET PG counselling smoothly."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "1. Who can apply for the Government Quota?",
+          "answer": "Only Puducherry residents who meet the specified residency/nativity categories."
+        },
+        {
+          "question": "2. Can other state candidates apply?",
+          "answer": "Yes, but only for Management Quota seats."
+        },
+        {
+          "question": "3. Is fresh registration allowed in every round?",
+          "answer": "No. Fresh registration is usually allowed only in Round 1."
+        },
+        {
+          "question": "4. What documents are required?",
+          "answer": "Photo, signature, NEET PG scorecard, MBBS certificate, community/residency proofs (if applicable)."
+        },
+        {
+          "question": "5. Can I edit the form after submission?",
+          "answer": "No. No corrections are allowed once the form is submitted."
+        }
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "puducherry neet pg counselling",
+        "neet pg counselling",
+        "puducherry neet pg counselling 2025",
+        "puducherry neet pg 2025 counselling",
+        "neet pg 2025 counselling",
+        "neet pg counselling registration",
+        "neet pg counselling procedure",
+        "neet pg counselling choice filling",
+        "neet pg counselling seat allotment",
+        "neet pg counselling application form",
+        "state neet pg counselling"
+      ]
+    }
+  ]
 }
 
 
