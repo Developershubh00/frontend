@@ -226,8 +226,123 @@ function App() {
           <Route path="/blog" element={<BlogList />} />
           <Route path="/blog/:slug" element={<BlogDetail />} />
 
+          <Route
+  path="/multicriteria"
+  element={
+    <ProtectedRoute>
+      <MultiCriteriaPredictor />
+    </ProtectedRoute>
+  }
+/>
+<Route
+  path="/Clinicaldata"
+  element={
+    <ProtectedRoute>
+      <ClinicalDataPage onBack={() => window.history.back()} />
+    </ProtectedRoute>
+  }
+/>
+<Route
+  path="/courses"
+  element={
+    <ProtectedRoute>
+      <CoursesPage onBack={() => window.history.back()} />
+    </ProtectedRoute>
+  }
+/>
+<Route
+  path="/Institutes"
+  element={
+    <ProtectedRoute>
+      <InstitutesPage onBack={() => window.history.back()} />
+    </ProtectedRoute>
+  }
+/>
+<Route
+  path="/Admitted_Students"
+  element={
+    <ProtectedRoute>
+      <AdmittedStudentsPage onBack={() => window.history.back()} />
+    </ProtectedRoute>
+  }
+/>
+<Route
+  path="/Feesstipendbonds"
+  element={
+    <ProtectedRoute>
+      <FeesStipendBondPage onBack={() => window.history.back()} />
+    </ProtectedRoute>
+  }
+/>
+<Route
+  path="/Closingranks"
+  element={
+    <ProtectedRoute>
+      <ClossingRanksPage onBack={() => window.history.back()} />
+    </ProtectedRoute>
+  }
+/>
+<Route
+  path="/NEETPGPredictor"
+  element={
+    <ProtectedRoute>
+      <NEETPGPredictor onBack={() => window.history.back()} />
+    </ProtectedRoute>
+  }
+/>
+
+{/* INICET Routes */}
+<Route
+  path="/InicetMainContent"
+  element={
+    <ProtectedRoute>
+      <InicetMainContent onBack={() => window.history.back()} />
+    </ProtectedRoute>
+  }
+/>
+<Route
+  path="/inicet/allotments"
+  element={
+    <ProtectedRoute>
+      <InicetAllotmentPage onBack={() => window.history.back()} />
+    </ProtectedRoute>
+  }
+/>
+<Route
+  path="/inicet/allotments/julysession"
+  element={
+    <ProtectedRoute>
+      <InicetAllotmentsSessionPage onBack={() => window.history.back()} />
+    </ProtectedRoute>
+  }
+/>
+<Route
+  path="/inicet/seat-matrix"
+  element={
+    <ProtectedRoute>
+      <INICETSeatMatrixPage onBack={() => window.history.back()} />
+    </ProtectedRoute>
+  }
+/>
+<Route
+  path="/inicet/tentativesheet"
+  element={
+    <ProtectedRoute>
+      <Inicet2026SeatMatrix onBack={() => window.history.back()} />
+    </ProtectedRoute>
+  }
+/>
+<Route
+  path="/schedule"
+  element={
+    <ProtectedRoute>
+      <SchedulePage onBack={() => window.history.back()} />
+    </ProtectedRoute>
+  }
+/>
+
           
-          <Route path="/multicriteria" element={<MultiCriteriaPredictor />} />
+          {/* <Route path="/multicriteria" element={<MultiCriteriaPredictor />} />
           <Route path="/Clinicaldata" element={<ClinicalDataPage onBack={() => window.history.back()}  />} />
           <Route path="/courses" element={<CoursesPage onBack={() => window.history.back()} />} />
           <Route path="/Institutes" element={<InstitutesPage onBack={() => window.history.back()} />} />
@@ -242,12 +357,12 @@ function App() {
           <Route path="/inicet/allotments" element={<InicetAllotmentPage onBack={() => window.history.back()}/>} />
           <Route path="/inicet/allotments/julysession" element={<InicetAllotmentsSessionPage onBack={() => window.history.back()}/>} />
           <Route path="/inicet/seat-matrix" element={<INICETSeatMatrixPage onBack={() => window.history.back()}/>} />
-          <Route path="/inicet/tentativesheet" element={<Inicet2026SeatMatrix />} /> 
+          <Route path="/inicet/tentativesheet" element={<Inicet2026SeatMatrix />} />  */}
           
           <Route path="/forgot-password" element={<ForgotPasswordPage />} />
           <Route path="/reset-password" element={<ResetPasswordPage />} />
           <Route path="/inicetdashboard" element={<InicetDashboardPage />} />
-          <Route path="/schedule" element={<SchedulePage onBack={() => window.history.back()}/>} />
+          
           
 
 

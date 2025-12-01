@@ -1096,6 +1096,10 @@ function Homepage() {
                   />
                 </div>
               </div>
+              {/* 👇 NEW LINE: Small, Bold Attribution */}
+  <p className="text-xs font-bold text-gray-400 mb-4">
+    Designed & Managed By: Believers Destination Pvt Ltd
+  </p>
               <p className="text-gray-400 mb-4 leading-relaxed">
                 Your ultimate guide to counselling. 100% free
                 access to all resources and expert guidance.
