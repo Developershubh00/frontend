@@ -21779,7 +21779,7 @@ export const blogPosts: BlogPost[] = [
     "CENTAC",
     "NEET PG Eligibility"
   ],
-  "published_date": "2025-11-30",
+  "published_date": "2025-12-01",
   "read_time": 18,
   "meta_description": "Puducherry NEET PG Counselling 2025 offers a smooth, clear process for MD/MS seats with transparent steps, ensuring aspirants make confident choices.",
   "sections": [
