@@ -733,6 +733,15 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: 'https://www.jagranjosh.com/news/odisha-neet-pg-counselling-2025-round-1-seat-allotment-result-out-at-dmetodisha-in-direct-link-here-181973',
       source: 'jagranjosh',
     },
+    {
+          id: 76,
+          title: "Uttarakhand NEET PG Counselling 2025: Round 1 Seat Allotment Result Out, 1,122 Candidates Allotted MD/MS, DNB Seats",
+          date: "2025-12-02T08:00:00Z",
+          priority: 'high',
+          category: 'NEET PG',
+          link: 'https://timesofindia.indiatimes.com/education/news/uttarakhand-neet-pg-counselling-2025-round-1-seat-allotment-result-released-at-hnbumu-ac-in-check-direct-link-here/articleshow/125711458.cms',
+          source: 'jagranjosh',
+        },
 
 
 
