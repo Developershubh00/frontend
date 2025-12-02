@@ -22320,6 +22320,533 @@ export const blogPosts: BlogPost[] = [
       ]
     }
   ]
+},
+{
+  "id": 59,
+  "title": "Andhra Pradesh NEET-PG 2025 MQ Registration: Complete Application Guide",
+  "slug": "andhra-pradesh-neet-pg-2025-mq-registration-complete-application-guide",
+  "excerpt": "Smoothly navigate AP NEET PG 2025 MQ registration with this stepwise guide ensuring error-free application and timely submission.",
+  "featured_image": "https://cdn.dribbble.com/userupload/45913872/file/b1269338d6de0f54525d858d67c0ee16.png?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-green-100 text-green-800"
+  },
+  "tags": [
+    "Andhra Pradesh NEET PG",
+    "NEET PG 2025",
+    "Management Quota",
+    "State Counselling",
+    "NEET PG Registration",
+    "AP NEET PG"
+  ],
+  "published_date": "2025-12-02",
+  "read_time": 20,
+  "meta_description": "Smoothly navigate AP NEET PG 2025 MQ registration with this stepwise guide ensuring error-free application and timely submission.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "If you are planning to apply for Andhra Pradesh NEET-PG 2025 counselling, especially for Andhra Pradesh NEET PG Management Quota, the process can feel overwhelming because of multiple fee slabs, eligibility categories, and document requirements. This detailed guide simplifies the entire workflow, from important dates and registration steps to category-wise rules and payment procedures, so you can complete the process confidently."
+    },
+    {
+      "id": "intro-purpose",
+      "type": "paragraph",
+      "content": "For students preparing for NEET PG counselling or exploring AP NEET PG Management Quota counselling, this guide will act as a complete walkthrough."
+    },
+    {
+      "id": "important-dates",
+      "type": "heading",
+      "title": "1. Important Dates & Official Links",
+      "level": 2
+    },
+    {
+      "id": "important-dates-intro",
+      "type": "paragraph",
+      "content": "In the admission process, the important dates and official links for Management Quota seats are provided through:"
+    },
+    {
+      "id": "official-links",
+      "type": "list",
+      "items": [
+        "Official Website: https://drntr.uhsap.in",
+        "Application Portal: https://apuhs-pgadmissions.aptonline.in/PGMedMQ/Home/StudentLogin/"
+      ]
+    },
+    {
+      "id": "registration-timeline",
+      "type": "heading",
+      "title": "Registration Timeline",
+      "level": 3
+    },
+    {
+      "id": "without-late-fee",
+      "type": "paragraph",
+      "content": "Without Late Fee:"
+    },
+    {
+      "id": "without-late-fee-dates",
+      "type": "paragraph",
+      "content": "On 18 November 2025, the date 3:00 PM to 23 November 2025 (3:00 PM)"
+    },
+    {
+      "id": "with-late-fee",
+      "type": "paragraph",
+      "content": "With Late Fee:"
+    },
+    {
+      "id": "with-late-fee-dates",
+      "type": "paragraph",
+      "content": "24 November 2025 (11:00 AM) to 26 November 2025 (11:00 AM)"
+    },
+    {
+      "id": "important-dates-note",
+      "type": "paragraph",
+      "content": "Applicants must make sure that their NEET PG counselling registration is completed on time because the fee once paid is non-refundable and non-adjustable, even in case of mistakes. Students appearing for NEET PG 2025 counselling must also ensure accurate entries in the NEET PG counselling application form to avoid issues later."
+    },
+    {
+      "id": "fee-structure",
+      "type": "heading",
+      "title": "2. Registration & Processing Fee Structure",
+      "level": 2
+    },
+    {
+      "id": "fee-structure-intro",
+      "type": "paragraph",
+      "content": "The registration fee totally depends on where you completed your MBBS and whether you register within the deadline or with late fees."
+    },
+    {
+      "id": "regular-registration",
+      "type": "heading",
+      "title": "A. Regular Registration (No Late Fee)",
+      "level": 3
+    },
+    {
+      "id": "regular-registration-table",
+      "type": "table",
+      "headers": ["Category", "MBBS Completed", "Registration Fee", "Verification Fee", "Total"],
+      "rows": [
+        ["OC/BC/SC/ST", "Within Andhra Pradesh", "₹6,000", "–", "₹6,000"],
+        ["OC/BC/SC/ST", "Outside Andhra Pradesh", "₹6,000", "₹3,000", "₹9,000"],
+        ["OC/BC/SC/ST", "Outside India", "₹6,000", "₹7,000", "₹13,000"]
+      ]
+    },
+    {
+      "id": "late-registration",
+      "type": "heading",
+      "title": "B. Registration With Late Fee",
+      "level": 3
+    },
+    {
+      "id": "late-registration-table",
+      "type": "table",
+      "headers": ["Category", "MBBS Completed", "Base Fee", "Late Fee", "Total"],
+      "rows": [
+        ["OC/BC/SC/ST", "Within Andhra Pradesh", "₹6,000", "₹20,000", "₹26,000"],
+        ["OC/BC/SC/ST", "Outside Andhra Pradesh", "₹9,000", "₹20,000", "₹29,000"],
+        ["OC/BC/SC/ST", "Outside India", "₹13,000", "₹20,000", "₹33,000"]
+      ]
+    },
+    {
+      "id": "payment-methods",
+      "type": "paragraph",
+      "content": "Payments can be made using a Debit Card, a Credit Card, or Net Banking, similar to most NEET PG counselling payment gateways."
+    },
+    {
+      "id": "eligibility-criteria",
+      "type": "heading",
+      "title": "3. Eligibility Criteria for AP Management Quota PG Seats",
+      "level": 2
+    },
+    {
+      "id": "eligibility-intro",
+      "type": "paragraph",
+      "content": "Under the AP NEET PG Management Quota counselling, seats fall into three categories, CAT B, S1B, S2, and S3. Here's how eligibility works for Andhra Pradesh NEET PG counselling:"
+    },
+    {
+      "id": "category-b-all-india",
+      "type": "heading",
+      "title": "A. Category B Seats – 25% (Open to All India)",
+      "level": 3
+    },
+    {
+      "id": "category-b-all-india-list",
+      "type": "list",
+      "items": [
+        "Term: S1A",
+        "Open to candidates from any state in India.",
+        "No state-specific restriction."
+      ]
+    },
+    {
+      "id": "category-b-local",
+      "type": "heading",
+      "title": "B. Category B Seats – 85% (Local AP Candidates Only)",
+      "level": 3
+    },
+    {
+      "id": "category-b-local-list",
+      "type": "list",
+      "items": [
+        "Term: S1B",
+        "Only students from the Andhra University/Sri Venkateswara University regions can apply."
+      ]
+    },
+    {
+      "id": "category-c-nri",
+      "type": "heading",
+      "title": "C. Category C Seats – NRI Quota (15%)",
+      "level": 3
+    },
+    {
+      "id": "category-c-nri-content",
+      "type": "paragraph",
+      "content": "Category C Seats (15%): Term S2, open to NRI, NRI-sponsored, and foreign national candidates. It is important for students searching for NEET PG counselling NRI quota options."
+    },
+    {
+      "id": "category-c-institutional",
+      "type": "heading",
+      "title": "D. Category C Seats – Institutional Preference (10%)",
+      "level": 3
+    },
+    {
+      "id": "category-c-institutional-term",
+      "type": "paragraph",
+      "content": "Term: S3"
+    },
+    {
+      "id": "category-c-institutional-for",
+      "type": "paragraph",
+      "content": "For:"
+    },
+    {
+      "id": "category-c-institutional-list",
+      "type": "list",
+      "items": [
+        "Students who completed MBBS in the same college",
+        "Employees of the institution (with minimum required service)",
+        "Children of employees"
+      ]
+    },
+    {
+      "id": "category-c-institutional-note",
+      "type": "paragraph",
+      "content": "This category gives the highest preference to the institution's own graduates and staff."
+    },
+    {
+      "id": "registration-process",
+      "type": "heading",
+      "title": "4. Step-by-Step Registration Process",
+      "level": 2
+    },
+    {
+      "id": "registration-process-intro",
+      "type": "paragraph",
+      "content": "The official portal generally requires you to complete the overall registration through multiple sections. Here is a simplified breakdown for students completing Andhra Pradesh NEET PG counselling registration:"
+    },
+    {
+      "id": "step-1",
+      "type": "heading",
+      "title": "Step 1: Basic Registration",
+      "level": 3
+    },
+    {
+      "id": "step-1-content",
+      "type": "paragraph",
+      "content": "First, you need to enter:"
+    },
+    {
+      "id": "step-1-list",
+      "type": "list",
+      "items": [
+        "NEET PG Hall Ticket Number",
+        "Your date of Birth",
+        "Candidate Name (as per NEET application form)",
+        "Mobile Number (which should remain active till closure of admissions)",
+        "Email ID",
+        "Create a Password",
+        "Verify via OTP"
+      ]
+    },
+    {
+      "id": "step-1-tip",
+      "type": "paragraph",
+      "content": "Tip: Always cross-check your NEET Roll Number before submitting the NEET PG counselling registration form."
+    },
+    {
+      "id": "step-2",
+      "type": "heading",
+      "title": "Step 2: Personal Details",
+      "level": 3
+    },
+    {
+      "id": "step-2-auto",
+      "type": "paragraph",
+      "content": "The system will automatically call for:"
+    },
+    {
+      "id": "step-2-auto-list",
+      "type": "list",
+      "items": [
+        "NEET Roll Number",
+        "NEET Rank",
+        "NEET Score",
+        "Candidate Name",
+        "Date of Birth"
+      ]
+    },
+    {
+      "id": "step-2-additional",
+      "type": "paragraph",
+      "content": "You must additionally enter:"
+    },
+    {
+      "id": "step-2-additional-list",
+      "type": "list",
+      "items": [
+        "Father's & Mother's Name",
+        "Aadhaar Number",
+        "Gender",
+        "Complete Address",
+        "Social Category (with certificate details)",
+        "Contact Numbers (primary & alternate)"
+      ]
+    },
+    {
+      "id": "step-2-special",
+      "type": "paragraph",
+      "content": "If applying under:"
+    },
+    {
+      "id": "step-2-nri",
+      "type": "paragraph",
+      "content": "NRI Quota (S2): You must provide all your sponsor details, your official passport information, and your country of residence."
+    },
+    {
+      "id": "step-2-institutional",
+      "type": "paragraph",
+      "content": "Institutional Quota (S3): You must provide your specific employment details of the institution or parental employment."
+    },
+    {
+      "id": "step-3",
+      "type": "heading",
+      "title": "Step 3: Educational Details",
+      "level": 3
+    },
+    {
+      "id": "step-3-content",
+      "type": "paragraph",
+      "content": "You must fill:"
+    },
+    {
+      "id": "step-3-ssc",
+      "type": "heading",
+      "title": "SSC / Equivalent",
+      "level": 4
+    },
+    {
+      "id": "step-3-ssc-list",
+      "type": "list",
+      "items": [
+        "Board Name",
+        "Hall Ticket Number",
+        "Year & Month of Passing"
+      ]
+    },
+    {
+      "id": "step-3-mbbs",
+      "type": "heading",
+      "title": "MBBS Details",
+      "level": 4
+    },
+    {
+      "id": "step-3-mbbs-list",
+      "type": "list",
+      "items": [
+        "University Name",
+        "College Name",
+        "Admission Year",
+        "Completion Year",
+        "MBBS Hall Ticket Number",
+        "Internship Completion Date",
+        "Medical Council Registration Number & Date",
+        "State of the Medical Council"
+      ]
+    },
+    {
+      "id": "step-3-note",
+      "type": "paragraph",
+      "content": "Candidates of Andhra Pradesh NEET PG counselling 2025 who studied MBBS in AP will automatically fall under the local region."
+    },
+    {
+      "id": "local-classification",
+      "type": "heading",
+      "title": "5. Local / Non-Local Classification",
+      "level": 2
+    },
+    {
+      "id": "local-classification-intro",
+      "type": "paragraph",
+      "content": "Your region is set based on MBBS education:"
+    },
+    {
+      "id": "local-classification-list",
+      "type": "list",
+      "items": [
+        "AP Region (AU/SVU)",
+        "Other Region (If MBBS completed outside AP)"
+      ]
+    },
+    {
+      "id": "local-classification-migration",
+      "type": "paragraph",
+      "content": "If you are a migrant from Telangana to AP, you must:"
+    },
+    {
+      "id": "local-classification-migration-list",
+      "type": "list",
+      "items": [
+        "You must provide your Migration Certificate details",
+        "You need to submit a Meeseva-issued Local Status Certificate",
+        "Select the applicable G.O. category (132/171/129)"
+      ]
+    },
+    {
+      "id": "payment",
+      "type": "heading",
+      "title": "6. Payment of Fees",
+      "level": 2
+    },
+    {
+      "id": "payment-intro",
+      "type": "paragraph",
+      "content": "Payment of Fees: After entering all details, proceed to the payment section. Payment options include net banking (SBI, HDFC, ICICI, others), debit card, and credit card"
+    },
+    {
+      "id": "payment-after",
+      "type": "paragraph",
+      "content": "Once payment is made:"
+    },
+    {
+      "id": "payment-after-list",
+      "type": "list",
+      "items": [
+        "If the transaction shows pending, click \"Verify & Continue.\"",
+        "If payment fails, you can retry through the gateway.",
+        "Any deducted failed amount will be refunded automatically."
+      ]
+    },
+    {
+      "id": "document-upload",
+      "type": "heading",
+      "title": "7. Uploading Documents",
+      "level": 2
+    },
+    {
+      "id": "document-upload-intro",
+      "type": "paragraph",
+      "content": "All documents must be uploaded in PDF format, as required in most NEET PG counselling choice filling and document verification procedures."
+    },
+    {
+      "id": "document-upload-list",
+      "type": "list",
+      "items": [
+        "NEET PG Scorecard",
+        "MBBS Degree Certificate",
+        "Internship Completion Certificate",
+        "Medical Council Registration",
+        "SSC Certificate",
+        "Caste Certificate (if applicable)",
+        "NRI/Institutional Quota supporting documents",
+        "Local/Migration certificates"
+      ]
+    },
+    {
+      "id": "document-upload-note",
+      "type": "paragraph",
+      "content": "Ensure clarity and correct file naming to avoid rejection."
+    },
+    {
+      "id": "conclusion",
+      "type": "heading",
+      "title": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "conclusion-content",
+      "type": "paragraph",
+      "content": "The Andhra Pradesh NEET PG 2025 counselling process for Management Quota admissions is structured but requires accuracy at every step, from timely registration and documentation to correct category selection. Whether you are applying under CAT B, S1B, or the NRI quota, understanding the counselling procedure for NEET PG helps ensure a smooth experience."
+    },
+    {
+      "id": "conclusion-closing",
+      "type": "paragraph",
+      "content": "If you're aiming for NEET PG 2025 counselling under Management Quota, staying organised and updated is the key to a stress-free admission journey."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "Frequently Asked Questions (FAQs)",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1: What are the eligibility criteria for Management Quota seats in Andhra Pradesh NEET-PG 2025?",
+          "answer": "Management Quota seats are divided into categories: CAT B (open to all India), S1B (for Andhra University/Sri Venkateswara University region candidates), S2 (NRI quota), and S3 (institutional preference for MBBS graduates of the same college or employees)."
+        },
+        {
+          "question": "Q2: What documents are required for the Management Quota application?",
+          "answer": "Required documents include NEET PG scorecard, MBBS degree certificate, internship completion certificate, medical council registration, SSC certificate, caste certificate (if applicable), NRI/institutional quota supporting documents, and local/migration certificates."
+        },
+        {
+          "question": "Q3: How is the region classification determined for local and non-local candidates?",
+          "answer": "Region classification is based on MBBS education: AP Region (AU/SVU) or Other Region (if MBBS completed outside AP). Migrants from Telangana to AP need a migration certificate and a Meeseva-issued local status certificate."
+        },
+        {
+          "question": "Q4: What payment options are available for the registration fee?",
+          "answer": "Payment options include net banking (SBI, HDFC, ICICI, others), debit card, and credit card. Any deducted failed amount will be refunded automatically."
+        },
+        {
+          "question": "Q5: What happens if I make a mistake in my application?",
+          "answer": "Fees are non-refundable and non-adjustable, even if you make mistakes. Ensure all details are accurate before submitting."
+        }
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "andhra pradesh neet pg 2025 counselling",
+        "andhra pradesh neet pg counselling 2025",
+        "neet pg counselling",
+        "andhra pradesh neet pg management quota",
+        "andhra pradesh neet pg counselling",
+        "neet pg 2025 counselling",
+        "neet pg counselling registration",
+        "ap neet pg management quota counselling",
+        "andhra pradesh neet pg counselling registration",
+        "counselling procedure for neet pg",
+        "neet pg counseling registration",
+        "neet pg counselling application form",
+        "neet pg counselling choice filling",
+        "neet pg counselling nri quota"
+      ]
+    }
+  ]
 }
 
 
