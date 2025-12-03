@@ -22847,6 +22847,464 @@ export const blogPosts: BlogPost[] = [
       ]
     }
   ]
+},
+{
+  "id": 60,
+  "title": "AP NEET-PG 2025 Management Quota Counselling: Complete Guide to Eligibility, Process, Fees & Documentation",
+  "slug": "ap-neet-pg-2025-management-quota-counselling-complete-guide-eligibility-process-fees-documentation",
+  "excerpt": "AP NEET PG 2025 management quota counselling explained with clear steps on eligibility, fees and documents for smooth seat allotment.",
+  "featured_image": "https://cdn.dribbble.com/userupload/45925774/file/f3d87ae7b4c068b11c77d7dd991a45b1.png?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-green-100 text-green-800"
+  },
+  "tags": [
+    "AP NEET PG",
+    "NEET PG 2025",
+    "Management Quota",
+    "Andhra Pradesh Counselling",
+    "NEET PG Seat Allotment",
+    "NRI Quota"
+  ],
+  "published_date": "2025-12-02",
+  "read_time": 22,
+  "meta_description": "AP NEET PG 2025 management quota counselling explained with clear steps on eligibility, fees and documents for smooth seat allotment.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "Andhra Pradesh conducts its own AP NEET PG counselling 2025 for MD/MS seats, with the Management Quota being a popular route for candidates across India. Since the state has a separate counselling mechanism from AIQ, students nationwide can apply for open seats under the AP NEET PG Management Quota."
+    },
+    {
+      "id": "intro-purpose",
+      "type": "paragraph",
+      "content": "This detailed guide covers every important aspect—eligibility, registration, NEET PG counselling process, document checklist, round-wise rules, choice filling, NEET PG seat allotment, and more."
+    },
+    {
+      "id": "eligibility",
+      "type": "heading",
+      "title": "1. Eligibility for Counselling",
+      "level": 2
+    },
+    {
+      "id": "eligibility-intro",
+      "type": "paragraph",
+      "content": "Candidates from all over India are eligible if they meet the NEET-PG percentile cut-off:"
+    },
+    {
+      "id": "eligibility-list",
+      "type": "list",
+      "items": [
+        "Candidates from all over India can apply if they meet the NEET-PG percentile cut-off: General (50th), General PwD (45th), BC/SC/ST (40th).",
+        "Candidates between 40–50th percentiles in BC may not qualify for AIQ unless they fall under OBC-NCL, but remain eligible for the state quota",
+        "There will be no reservation within the Management Quota, as the cut-off percentile is only for qualification."
+      ]
+    },
+    {
+      "id": "application-requirements",
+      "type": "heading",
+      "title": "2. Application Requirements",
+      "level": 2
+    },
+    {
+      "id": "application-requirements-intro",
+      "type": "paragraph",
+      "content": "You have to complete the online application through the official AP Management Quota Admission Portal or the Dr. NTRUHS official website."
+    },
+    {
+      "id": "application-requirements-process",
+      "type": "paragraph",
+      "content": "The NEET PG counselling registration involves:"
+    },
+    {
+      "id": "application-requirements-content",
+      "type": "paragraph",
+      "content": "Register with your demographic and NEET-PG details, verify OTP, log in, fill in personal, academic, MBBS, and NEET information, pay the fee, upload photograph, signature, and certificates, submit and print your application, and wait for verification remarks and merit list publication."
+    },
+    {
+      "id": "certificate-checklist",
+      "type": "heading",
+      "title": "3. Certificate Checklist",
+      "level": 2
+    },
+    {
+      "id": "certificate-checklist-intro",
+      "type": "paragraph",
+      "content": "The following documents must be uploaded during the application phase:"
+    },
+    {
+      "id": "certificate-checklist-list",
+      "type": "list",
+      "items": [
+        "NEET-PG Admit Card",
+        "NEET-PG Scorecard (password removed)",
+        "Passport-size photograph",
+        "Digital signature",
+        "MBBS Degree/Provisional Certificate",
+        "MBBS Study Certificates",
+        "Internship Completion Certificate",
+        "Medical Council registration",
+        "Transfer/Migration Certificate",
+        "Aadhaar, PAN",
+        "Category certificate (if applicable)",
+        "Study certificates for candidates from specific AP colleges",
+        "Minority certificate (if required)",
+        "Local status certificate (for Telangana-to-AP migrated candidates)",
+        "OCI/PIO Certificate (if applicable)",
+        "NRI-related documents for NRI/Sponsored quota",
+        "Sponsorship certificate (if claiming institutional preference)",
+        "FMGE result (for FMGs)",
+        "MBBS year-wise marksheets",
+        "Printed application form"
+      ]
+    },
+    {
+      "id": "certificate-checklist-note",
+      "type": "paragraph",
+      "content": "During admission, candidates must bring all their originals with three photocopies each as required."
+    },
+    {
+      "id": "round-wise-rules",
+      "type": "heading",
+      "title": "4. Round-wise Rules",
+      "level": 2
+    },
+    {
+      "id": "round-wise-rules-intro",
+      "type": "paragraph",
+      "content": "The NEET PG counselling 2025 for AP follows a structured format:"
+    },
+    {
+      "id": "round-wise-rules-list",
+      "type": "list",
+      "items": [
+        "Release of provisional merit list",
+        "Final merit list",
+        "NEET PG choice filling (web options)",
+        "Seat allotment",
+        "Reporting",
+        "Upgradation options (as per round policies)",
+        "Exit rules"
+      ]
+    },
+    {
+      "id": "round-wise-rules-note",
+      "type": "paragraph",
+      "content": "Round-1 choice filling dates are awaited for AP NEET PG counselling 2025"
+    },
+    {
+      "id": "choice-filling",
+      "type": "heading",
+      "title": "5. Choice Filling & Allotment Rules",
+      "level": 2
+    },
+    {
+      "id": "choice-filling-intro",
+      "type": "paragraph",
+      "content": "Candidates must exercise their web options within the provided schedule, which is on the official portal. Seats are allotted based on:"
+    },
+    {
+      "id": "choice-filling-list",
+      "type": "list",
+      "items": [
+        "NEET-PG rank",
+        "Reservation rules (for non-management quota)",
+        "Seat availability under Category B & Category C of private medical colleges"
+      ]
+    },
+    {
+      "id": "choice-filling-download",
+      "type": "paragraph",
+      "content": "Candidates can download allotment orders after paying the university fee."
+    },
+    {
+      "id": "choice-filling-note",
+      "type": "paragraph",
+      "content": "This is part of the AP NEET PG seat allotment process."
+    },
+    {
+      "id": "joining-policies",
+      "type": "heading",
+      "title": "6. Joining, Upgradation & Exit Policies",
+      "level": 2
+    },
+    {
+      "id": "joining-policies-list",
+      "type": "list",
+      "items": [
+        "Candidates must report to the allotted college within the stipulated dates.",
+        "Upgradation may be available in subsequent rounds (as per official notifications).",
+        "Resignation after Round 2 attracts a penalty and three-year debarment.",
+        "Discontinuation after joining leads to:\n- A penalty of Rs. 3 lakh + stipend recovery\n- Bond-related actions as per the government order"
+      ]
+    },
+    {
+      "id": "counselling-categories",
+      "type": "heading",
+      "title": "7. AP Counselling Categories (Management Quota)",
+      "level": 2
+    },
+    {
+      "id": "counselling-categories-intro",
+      "type": "paragraph",
+      "content": "Management Quota seats are divided into:"
+    },
+    {
+      "id": "category-b",
+      "type": "heading",
+      "title": "Category B (S1A/S1B) – 25% of Total Seats",
+      "level": 3
+    },
+    {
+      "id": "category-b-list",
+      "type": "list",
+      "items": [
+        "S1A (15%): Open to all of India",
+        "S1B (85%): Only AP local candidates (AU/SVU regions)"
+      ]
+    },
+    {
+      "id": "category-c",
+      "type": "heading",
+      "title": "Category C (S2/S3) – 15% Seats",
+      "level": 3
+    },
+    {
+      "id": "category-c-s2",
+      "type": "paragraph",
+      "content": "S2 (NRI): 100% seats for NRI/NRI-sponsored candidates"
+    },
+    {
+      "id": "category-c-s3",
+      "type": "paragraph",
+      "content": "S3 (Institutional Preference):"
+    },
+    {
+      "id": "category-c-s3-list",
+      "type": "list",
+      "items": [
+        "MBBS from the same institution",
+        "Employees of the institution (minimum 6 months)",
+        "Children of employees"
+      ]
+    },
+    {
+      "id": "counselling-categories-note",
+      "type": "paragraph",
+      "content": "These distinctions are crucial for applicants in the AP management quota NEET PG process."
+    },
+    {
+      "id": "nri-quota",
+      "type": "heading",
+      "title": "8. NRI Quota Rules",
+      "level": 2
+    },
+    {
+      "id": "nri-quota-eligible",
+      "type": "paragraph",
+      "content": "Eligible candidates:"
+    },
+    {
+      "id": "nri-quota-eligible-list",
+      "type": "list",
+      "items": [
+        "NRIs",
+        "NRI-sponsored candidates",
+        "Foreign nationals"
+      ]
+    },
+    {
+      "id": "nri-quota-documents",
+      "type": "paragraph",
+      "content": "Documents needed:"
+    },
+    {
+      "id": "nri-quota-documents-list",
+      "type": "list",
+      "items": [
+        "Annexure-II signed by the candidate & NRI sponsor",
+        "One of the following:\n- Passport / Citizenship card / Green card\n- Bank statement (6 months)\n- Utility bills (electricity/gas/water)"
+      ]
+    },
+    {
+      "id": "nri-quota-note",
+      "type": "paragraph",
+      "content": "Note: Work/visit visas are not accepted."
+    },
+    {
+      "id": "important-dates",
+      "type": "heading",
+      "title": "9. Important Dates — AP NEET-PG 2025 Management Quota",
+      "level": 2
+    },
+    {
+      "id": "important-dates-table",
+      "type": "table",
+      "headers": ["Event", "Schedule"],
+      "rows": [
+        ["Notification Release", "18 Nov 2025"],
+        ["Application (No Late Fee)", "18 Nov 3 PM – 23 Nov 3 PM"],
+        ["Application (With Late Fee)", "24 Nov 11 AM – 26 Nov 11 AM"],
+        ["Provisional Merit List", "To be updated"],
+        ["Final Merit List", "To be updated"],
+        ["Web Options", "To be notified"],
+        ["Joining at College", "As per the dates"],
+        ["Commencement of Classes", "As per NMC rules"],
+        ["Admission Closure", "As per the schedule"]
+      ]
+    },
+    {
+      "id": "important-dates-note",
+      "type": "paragraph",
+      "content": "Candidates must check the NTRUHS official website regularly for updates and allotment notices."
+    },
+    {
+      "id": "seat-distribution",
+      "type": "heading",
+      "title": "10. Seat Distribution (Management Quota)",
+      "level": 2
+    },
+    {
+      "id": "category-b-fees",
+      "type": "heading",
+      "title": "Category B (S1) Fees",
+      "level": 3
+    },
+    {
+      "id": "category-b-fees-list",
+      "type": "list",
+      "items": [
+        "Clinical: ₹9.93 lakh",
+        "Para-clinical: ₹3.10 lakh",
+        "Pre-clinical: ₹1.40 lakh"
+      ]
+    },
+    {
+      "id": "category-c-fees",
+      "type": "heading",
+      "title": "Category C (S2 & S3) Fees",
+      "level": 3
+    },
+    {
+      "id": "category-c-fees-list",
+      "type": "list",
+      "items": [
+        "Clinical: ₹57 lakh",
+        "Para-clinical: ₹17.25 lakh",
+        "Pre-clinical: ₹9.20 lakh"
+      ]
+    },
+    {
+      "id": "category-c-fees-note",
+      "type": "paragraph",
+      "content": "(Revised fees subject to court outcomes)"
+    },
+    {
+      "id": "university-fee",
+      "type": "heading",
+      "title": "University Fee",
+      "level": 3
+    },
+    {
+      "id": "university-fee-content",
+      "type": "paragraph",
+      "content": "₹49,600 (mandatory before downloading allotment order)"
+    },
+    {
+      "id": "application-fee",
+      "type": "heading",
+      "title": "Application Fee",
+      "level": 3
+    },
+    {
+      "id": "application-fee-list",
+      "type": "list",
+      "items": [
+        "AP MBBS graduates: ₹6,000",
+        "Other-state graduates: ₹9,000",
+        "FMGs: ₹13,000",
+        "Late fee: Additional ₹20,000"
+      ]
+    },
+    {
+      "id": "final-thoughts",
+      "type": "heading",
+      "title": "Final Thoughts",
+      "level": 2
+    },
+    {
+      "id": "final-thoughts-content",
+      "type": "paragraph",
+      "content": "The AP NEET-PG counselling 2025 Management Quota counselling process demands careful attention to eligibility, timely application, and proper documentation. With two different categories, varied fee structures, NRI options, and strict exit rules, students must stay updated through the official portals."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "Frequently Asked Questions (FAQs)",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1: Who is eligible for AP NEET-PG 2025 Management Quota?",
+          "answer": "Candidates nationwide who meet the NEET-PG cut-off (General: 50th, PwD: 45th, BC/SC/ST: 40th). No reservation applies in the Management Quota."
+        },
+        {
+          "question": "Q2: What documents are required?",
+          "answer": "NEET-PG admit card, scorecard, photo, signature, MBBS degree/provisional certificate, internship certificate, medical registration, transfer/migration certificate, Aadhaar, PAN, category certificate (if applicable), and NRI documents (if applicable)."
+        },
+        {
+          "question": "Q3: What are the Management Quota categories?",
+          "answer": "Category B: S1A (All India), S1B (AP locals)\nCategory C: S2 (NRI), S3 (Institutional preference)"
+        },
+        {
+          "question": "Q4: What is the fee structure?",
+          "answer": "Category B: Clinical ₹9.93L, Para-clinical ₹3.10L, Pre-clinical ₹1.40L\nCategory C: Clinical ₹57L, Para-clinical ₹17.25L, Pre-clinical ₹9.20L\nUniversity Fee: ₹49,600\nApplication Fee: AP ₹6,000, Other States ₹9,000, FMGs ₹13,000 (+₹20,000 late fee)"
+        },
+        {
+          "question": "Q5: What are the exit rules?",
+          "answer": "Resignation after Round 2 → penalty + 3-year debarment.\nDiscontinuation → ₹3 lakh penalty + stipend recovery + bond conditions."
+        }
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "andhra pradesh neet pg 2025 counselling",
+        "andhra pradesh neet pg counselling 2025",
+        "neet pg counselling",
+        "andhra pradesh neet pg management quota",
+        "andhra pradesh neet pg counselling",
+        "neet pg 2025 counselling",
+        "neet pg counselling registration",
+        "ap neet pg management quota counselling",
+        "andhra pradesh neet pg counselling registration",
+        "counselling procedure for neet pg",
+        "neet pg counseling registration",
+        "neet pg counselling application form",
+        "neet pg counselling choice filling",
+        "neet pg counselling nri quota",
+        "neet pg round counselling",
+        "neet pg counselling seat allotment"
+      ]
+    }
+  ]
 }
 
 
