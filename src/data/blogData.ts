@@ -21779,7 +21779,7 @@ export const blogPosts: BlogPost[] = [
     "CENTAC",
     "NEET PG Eligibility"
   ],
-  "published_date": "2025-12-03",
+  "published_date": "2025-12-01",
   "read_time": 18,
   "meta_description": "Puducherry NEET PG Counselling 2025 offers a smooth, clear process for MD/MS seats with transparent steps, ensuring aspirants make confident choices.",
   "sections": [
@@ -22872,7 +22872,7 @@ export const blogPosts: BlogPost[] = [
     "NEET PG Seat Allotment",
     "NRI Quota"
   ],
-  "published_date": "2025-12-02",
+  "published_date": "2025-12-03",
   "read_time": 22,
   "meta_description": "AP NEET PG 2025 management quota counselling explained with clear steps on eligibility, fees and documents for smooth seat allotment.",
   "sections": [
