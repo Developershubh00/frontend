@@ -23673,7 +23673,7 @@ export const blogPosts: BlogPost[] = [
     "MCC NEET PG",
     "Document Verification"
   ],
-  "published_date": "2025-12-04",
+  "published_date": "2025-12-05",
   "read_time": 16,
   "meta_description": "Get clarity on DNB and NBE Diploma joining steps OPJR process fee payment rules required documents and key guidelines for a smooth start in 2025.",
 
