@@ -23311,7 +23311,7 @@ export const blogPosts: BlogPost[] = [
   "title": "Choosing Internal Medicine After NEET-PG: The Real Journey, The Hard Truths, and Why This Branch Chooses You Back",
   "slug": "choosing-internal-medicine-after-neet-pg-real-journey-hard-truths-why-branch-chooses-you-back",
   "excerpt": "Internal Medicine after NEET PG is a challenging yet fulfilling path where your commitment and curiosity shape your growth and the branch truly chooses you back.",
-  "featured_image": "https://cdn.dribbble.com/userupload/45949009/file/8315428555bc57d77e6e62a1d810cdb8.png?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/45954818/file/4ae2ff04d8b35298d3baf6c131c703d9.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
     "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
