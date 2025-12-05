@@ -23648,6 +23648,486 @@ export const blogPosts: BlogPost[] = [
       ]
     }
   ]
+},
+{
+  "id": 60,
+  "title": "The Complete Guide to DNB/NBE Diploma Joining 2025: OPJR, Fee Payment, Documents & All You Must Know",
+  "slug": "complete-guide-dnb-nbe-diploma-joining-2025-opjr-fee-payment-documents",
+  "excerpt": "Get clarity on DNB and NBE Diploma joining steps OPJR process fee payment rules required documents and key guidelines for a smooth start in 2025.",
+  "featured_image": "https://cdn.dribbble.com/userupload/45954602/file/2ef96d6f05e69c84e8a6864975c5c48d.png?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-green-100 text-green-800"
+  },
+  "tags": [
+    "DNB Joining",
+    "OPJR",
+    "NEET PG Counselling",
+    "NBE Diploma",
+    "MCC NEET PG",
+    "Document Verification"
+  ],
+  "published_date": "2025-12-04",
+  "read_time": 16,
+  "meta_description": "Get clarity on DNB and NBE Diploma joining steps OPJR process fee payment rules required documents and key guidelines for a smooth start in 2025.",
+
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "Joining a DNB or NBE Diploma seat after NEET PG Counselling can feel overwhelming, especially with the new OPJR (Online Portal for Joining and Registration) system. Many candidates who are confused about the NEET PG counselling procedure, MCC NEET PG counselling, PG counselling, or even the NEET PG counselling registration fee often find this stage difficult. To simplify the process, this blog walks you through every essential step, from logging in to OPJR to securing your Intra-MCC Admission Letter, uploading documents, completing fee payment, and finishing institute-level verification."
+    },
+    {
+      "id": "intro-purpose",
+      "type": "paragraph",
+      "content": "If you're confused about the first steps, which documents to upload, or how the joining process is officially confirmed after MCC registration, NEET PG, or online registration for NEET PG counselling, this guide has everything you need."
+    },
+    {
+      "id": "what-is-opjr",
+      "type": "heading",
+      "title": "What is OPJR? Why Is It Important?",
+      "level": 2
+    },
+    {
+      "id": "what-is-opjr-intro",
+      "type": "paragraph",
+      "content": "OPJR (Online Portal for Joining & Registration) is the official NBEMS portal where DNB/NBE Diploma candidates must complete:"
+    },
+    {
+      "id": "what-is-opjr-list",
+      "type": "list",
+      "items": [
+        "Joining formalities",
+        "Document upload & verification",
+        "Fee payment for Year 1",
+        "Self-appraisal for NBEMS registration",
+        "Tracking institute verification"
+      ]
+    },
+    {
+      "id": "what-is-opjr-mandatory",
+      "type": "paragraph",
+      "content": "This portal is mandatory for all NBEMS trainees joining an accredited hospital and is directly linked with MCC NEET PG seat allotment updates after counselling for NEET PG."
+    },
+    {
+      "id": "official-notices",
+      "type": "paragraph",
+      "content": "Official notices:"
+    },
+    {
+      "id": "official-notices-list",
+      "type": "list",
+      "items": [
+        "Candidates OPJR: (NBEMS Notice)",
+        "Hospital Instructions: (NBEMS Notice)"
+      ]
+    },
+    {
+      "id": "step-1",
+      "type": "heading",
+      "title": "Step 1: Complete OPJR Before Going to the Institute",
+      "level": 2
+    },
+    {
+      "id": "step-1-content",
+      "type": "paragraph",
+      "content": "Your first step is to finish the OPJR joining requirements."
+    },
+    {
+      "id": "step-1-submission",
+      "type": "paragraph",
+      "content": "After submitting everything online, you must physically visit the allotted institute for the Intra-MCC Admission Process."
+    },
+    {
+      "id": "step-1-letter",
+      "type": "paragraph",
+      "content": "The Intra-MCC Admission Letter is the primary proof of joining after NEET PG MCC counselling. Make sure you collect it."
+    },
+    {
+      "id": "step-2",
+      "type": "heading",
+      "title": "Step 2: OPJR Candidate Login – How to Access Your Dashboard",
+      "level": 2
+    },
+    {
+      "id": "step-2-criteria",
+      "type": "paragraph",
+      "content": "For the candidate's login criteria, you need to:"
+    },
+    {
+      "id": "step-2-criteria-list",
+      "type": "list",
+      "items": [
+        "Registered email ID",
+        "Then register your mobile number",
+        "Your NEET PG roll number",
+        "Your accurate Date of birth"
+      ]
+    },
+    {
+      "id": "step-2-otp",
+      "type": "paragraph",
+      "content": "After that, a passcode/OTP is sent for verification."
+    },
+    {
+      "id": "step-2-dashboard",
+      "type": "paragraph",
+      "content": "Once all the things are done, inside your dashboard, you will see:"
+    },
+    {
+      "id": "step-2-dashboard-list",
+      "type": "list",
+      "items": [
+        "The overall Candidate Profile",
+        "Your Educational Qualification",
+        "Photograph & Signature section",
+        "Official Document Upload",
+        "Fee Payment",
+        "Seat Allotment details",
+        "Acceptance and Self-Appraisal options"
+      ]
+    },
+    {
+      "id": "step-3",
+      "type": "heading",
+      "title": "Step 3: Photo & Signature Verification",
+      "level": 2
+    },
+    {
+      "id": "step-3-inside",
+      "type": "paragraph",
+      "content": "Inside OPJR:"
+    },
+    {
+      "id": "step-3-inside-list",
+      "type": "list",
+      "items": [
+        "Your original photo, signature, and exam-day photo appear.",
+        "You cannot edit anything here."
+      ]
+    },
+    {
+      "id": "step-3-missing",
+      "type": "paragraph",
+      "content": "If photos are missing:"
+    },
+    {
+      "id": "step-3-missing-list",
+      "type": "list",
+      "items": [
+        "It is okay.",
+        "If joining immediately, continue the process.",
+        "If joining later - wait for correction."
+      ]
+    },
+    {
+      "id": "step-4",
+      "type": "heading",
+      "title": "Step 4: Educational Details Review",
+      "level": 2
+    },
+    {
+      "id": "step-4-includes",
+      "type": "paragraph",
+      "content": "This section includes:"
+    },
+    {
+      "id": "step-4-includes-list",
+      "type": "list",
+      "items": [
+        "MBBS degree details",
+        "Internship dates",
+        "State medical council registration",
+        "Allotment information"
+      ]
+    },
+    {
+      "id": "step-4-verify",
+      "type": "paragraph",
+      "content": "You only need to verify and check the declaration. No edits are allowed."
+    },
+    {
+      "id": "step-5",
+      "type": "heading",
+      "title": "Step 5: Document Upload – What You Must Keep Ready",
+      "level": 2
+    },
+    {
+      "id": "step-5-intro",
+      "type": "paragraph",
+      "content": "You must upload scanned copies of the following:"
+    },
+    {
+      "id": "step-5-all-candidates",
+      "type": "heading",
+      "title": "For All Candidates",
+      "level": 3
+    },
+    {
+      "id": "step-5-all-candidates-list",
+      "type": "list",
+      "items": [
+        "MBBS Degree / Provisional Certificate",
+        "Permanent Registration Certificate (NMC/MCI/SMC)",
+        "NMC Recognition Status of MBBS University (printout from NMC site)",
+        "Internship Completion Certificate",
+        "Valid Photo Identity (PAN/Passport/Voter ID/DL/Aadhaar)"
+      ]
+    },
+    {
+      "id": "step-5-if-applicable",
+      "type": "heading",
+      "title": "If Applicable",
+      "level": 3
+    },
+    {
+      "id": "step-5-if-applicable-list",
+      "type": "list",
+      "items": [
+        "Category Certificate (SC/ST/OBC/EWS/PWD)",
+        "Special Category Certificate (State quotas)",
+        "NOC & Relieving Letter (if sponsored)",
+        "Seat Allotment Letter (State/DME authority)",
+        "Relieving Letter from the last Government. employer",
+        "NOC from last employer"
+      ]
+    },
+    {
+      "id": "step-5-note",
+      "type": "paragraph",
+      "content": "Upload everything clearly, in the correct format."
+    },
+    {
+      "id": "step-6",
+      "type": "heading",
+      "title": "Step 6: Fee Payment Process for DNB/NBE Diploma",
+      "level": 2
+    },
+    {
+      "id": "step-6-important",
+      "type": "paragraph",
+      "content": "Important points:"
+    },
+    {
+      "id": "step-6-important-list",
+      "type": "list",
+      "items": [
+        "Pay ONLY through OPJR",
+        "UPI usually fails; prefer Net Banking or Cards",
+        "Avoid NEFT/Challan unless necessary",
+        "If payment fails: Wait 1 day, raise a ticket via the NBEMS Communication Portal, contact your bank to dispute the payment; if unresolved, you may need to repay and track a refund, and try to obtain an Intra-MCC Admission Letter using bank slips (some institutes allow this)."
+      ]
+    },
+    {
+      "id": "step-6-note",
+      "type": "paragraph",
+      "content": "This step is often confused with the NEET PG counselling payment, but remember: OPJR payment is separate from the NEET PG counselling application form process."
+    },
+    {
+      "id": "step-7",
+      "type": "heading",
+      "title": "Step 7: After Submission – Final Confirmation Page",
+      "level": 2
+    },
+    {
+      "id": "step-7-completed",
+      "type": "paragraph",
+      "content": "Once OPJR is completed:"
+    },
+    {
+      "id": "step-7-see",
+      "type": "paragraph",
+      "content": "You will see: \"Successfully submitted the prerequisites for joining the allotted hospital/institute.\""
+    },
+    {
+      "id": "step-7-next",
+      "type": "paragraph",
+      "content": "Next steps:"
+    },
+    {
+      "id": "step-7-next-list",
+      "type": "list",
+      "items": [
+        "Visit the institute with originals",
+        "The institute verifies your documents",
+        "Institute updates your status on OPJR",
+        "You will then complete the Self-Appraisal Form",
+        "Registration with NBEMS will follow"
+      ]
+    },
+    {
+      "id": "step-8",
+      "type": "heading",
+      "title": "Step 8: Institute-Level Joining (Offline Process)",
+      "level": 2
+    },
+    {
+      "id": "step-8-visit",
+      "type": "paragraph",
+      "content": "When you visit the institute:"
+    },
+    {
+      "id": "step-8-visit-list",
+      "type": "list",
+      "items": [
+        "Carry all original documents",
+        "Collect your Intra-MCC Admission Letter",
+        "No fee payment at the institute (already done online)",
+        "Duties may begin immediately",
+        "The institute will store photocopies"
+      ]
+    },
+    {
+      "id": "step-8-not-updated",
+      "type": "paragraph",
+      "content": "If OPJR is not updated yet, no issue. The institute will update it soon."
+    },
+    {
+      "id": "common-issues",
+      "type": "heading",
+      "title": "Common Issues & Solutions",
+      "level": 2
+    },
+    {
+      "id": "issue-1",
+      "type": "heading",
+      "title": "1. Medical Council Details Incorrect",
+      "level": 3
+    },
+    {
+      "id": "issue-1-content",
+      "type": "paragraph",
+      "content": "No problem. If the institute accepts it, continue."
+    },
+    {
+      "id": "issue-2",
+      "type": "heading",
+      "title": "2. Address Doesn't Match",
+      "level": 3
+    },
+    {
+      "id": "issue-2-content",
+      "type": "paragraph",
+      "content": "Carry supporting documents for clarification."
+    },
+    {
+      "id": "issue-3",
+      "type": "heading",
+      "title": "3. Institute Asking for DD Payment",
+      "level": 3
+    },
+    {
+      "id": "issue-3-content",
+      "type": "paragraph",
+      "content": "Politely inform them OPJR payment is mandatory."
+    },
+    {
+      "id": "issue-4",
+      "type": "heading",
+      "title": "4. In-Service Candidate Allotted DNB/Diploma",
+      "level": 3
+    },
+    {
+      "id": "issue-4-content",
+      "type": "paragraph",
+      "content": "You must produce:"
+    },
+    {
+      "id": "issue-4-list",
+      "type": "list",
+      "items": [
+        "NOC",
+        "Relieving letter",
+        "Salary continuation proof"
+      ]
+    },
+    {
+      "id": "issue-5",
+      "type": "heading",
+      "title": "5. Upgrading to MD/MS? Refund?",
+      "level": 3
+    },
+    {
+      "id": "issue-5-content",
+      "type": "paragraph",
+      "content": "Refund timelines depend on NBEMS + MCC instructions."
+    },
+    {
+      "id": "conclusion",
+      "type": "heading",
+      "title": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "conclusion-content",
+      "type": "paragraph",
+      "content": "The DNB/NBE Diploma joining process basically requires careful attention, especially with OPJR steps, official document uploads, and institute verification. After all the information has been collected, the OPJR and Intra-MCC admissions are complete, your joining is officially valid, and your NBEMS training can begin smoothly."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "Frequently Asked Questions (FAQs)",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1: What is OPJR, and why is it important for DNB/NBE Diploma joining?",
+          "answer": "OPJR (Online Portal for Joining & Registration) is the official NBEMS portal where candidates complete joining formalities, document upload, fee payment, and self-appraisal for NBEMS registration."
+        },
+        {
+          "question": "Q2: What documents are required for OPJR?",
+          "answer": "Required documents include MBBS degree/provisional certificate, permanent registration certificate, NMC recognition status of MBBS university, internship completion certificate, valid photo identity, and any applicable category, NOC, or relieving letters."
+        },
+        {
+          "question": "Q3: How do I pay the fee for the DNB/NBE Diploma joining?",
+          "answer": "Pay only through OPJR using net banking or cards; UPI often fails. If payment fails, wait a day, raise a ticket, or contact your bank for dispute resolution."
+        },
+        {
+          "question": "Q4: What is the Intra-MCC Admission Letter, and why is it important?",
+          "answer": "The Intra-MCC Admission Letter is the primary proof of joining and must be collected from the institute after completing OPJR formalities."
+        },
+        {
+          "question": "Q5: What are the common issues during DNB/NBE Diploma joining, and how can they be resolved?",
+          "answer": "Common issues include incorrect medical council details, address mismatches, and payment issues. For these, carry supporting documents, clarify with the institute, and follow OPJR guidelines for payment disputes."
+        }
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "neet pg counselling",
+        "opjr",
+        "mcc neet pg counselling",
+        "mcc neet pg",
+        "pg counselling",
+        "counselling for neet pg",
+        "mcc registration neet pg",
+        "neet pg counselling procedure",
+        "neet pg counselling registration fee",
+        "neet pg counselling application form",
+        "neet pg counselling payment",
+        "neet pg mcc counselling",
+        "online registration for neet pg counselling"
+      ]
+    }
+  ]
 }
 
 

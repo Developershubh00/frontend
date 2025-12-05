@@ -959,6 +959,18 @@ const AnnouncementPage: React.FC = () => {
       source: 'Times Internet / Jagran Josh Education ',
       created_at: "2025-12-04T08:00:00Z"
     },
+     {
+      id: 78,
+      title: "NEET PG Counselling 2025:",
+      content:"NEET PG Counselling 2025: Round 2 Registration Starts Today, Apply Online at mcc.nic.in Till 9 December",
+      date: "2025-12-05T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.jagranjosh.com/news/neet-pg-counselling-2025-round-2-registration-at-mcc-nic-in-apply-till-9-december-182074',
+      is_active: true,
+      source: 'Jagran Josh Education ',
+      created_at: "2025-12-05T08:00:00Z"
+    },
 
 
 

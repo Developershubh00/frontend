@@ -752,6 +752,15 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: 'https://www.jagranjosh.com/news/telangana-neet-pg-2025-counselling-round-1-final-merit-list-out-at-knruhs-telangana-gov-in-182060',
       source: 'Times Internet / Jagran Josh Education ',
     },
+     {
+      id: 78,
+      title: "NEET PG Counselling 2025: Round 2 Registration Starts Today, Apply Online at mcc.nic.in Till 9 December",
+      date: "2025-12-05T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.jagranjosh.com/news/neet-pg-counselling-2025-round-2-registration-at-mcc-nic-in-apply-till-9-december-182074',
+     source: 'Jagran Josh Education ',
+    },
 
 
 
