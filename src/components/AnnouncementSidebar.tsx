@@ -741,7 +741,17 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
           category: 'NEET PG',
           link: 'https://timesofindia.indiatimes.com/education/news/uttarakhand-neet-pg-counselling-2025-round-1-seat-allotment-result-released-at-hnbumu-ac-in-check-direct-link-here/articleshow/125711458.cms',
           source: 'jagranjosh',
-        },
+     },
+
+        {
+      id: 77,
+      title: "Telangana NEET PG 2025 Round 1 Final Merit List Released; Check Eligible Candidates at knruhs.telangana.gov.in ",
+      date: "2025-12-04T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.jagranjosh.com/news/telangana-neet-pg-2025-counselling-round-1-final-merit-list-out-at-knruhs-telangana-gov-in-182060',
+      source: 'Times Internet / Jagran Josh Education ',
+    },
 
 
 

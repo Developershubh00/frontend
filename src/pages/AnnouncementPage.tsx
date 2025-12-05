@@ -947,6 +947,18 @@ const AnnouncementPage: React.FC = () => {
       source: 'jagranjosh',
       created_at: "2025-12-02T08:00:00Z"
     },
+    {
+      id: 77,
+      title: "NEET PG Counselling 2025:",
+      content:"Telangana NEET PG 2025 Round 1 Final Merit List Released; Check Eligible Candidates at knruhs.telangana.gov.in ",
+      date: "2025-12-04T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.jagranjosh.com/news/telangana-neet-pg-2025-counselling-round-1-final-merit-list-out-at-knruhs-telangana-gov-in-182060',
+      is_active: true,
+      source: 'Times Internet / Jagran Josh Education ',
+      created_at: "2025-12-04T08:00:00Z"
+    },
 
 
 

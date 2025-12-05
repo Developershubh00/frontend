@@ -23330,7 +23330,7 @@ export const blogPosts: BlogPost[] = [
     "Super Specialisation",
     "Career Guide"
   ],
-  "published_date": "2025-12-03",
+  "published_date": "2025-12-04",
   "read_time": 15,
   "meta_description": "Internal Medicine after NEET PG is a challenging yet fulfilling path where your commitment and curiosity shape your growth and the branch truly chooses you back.",
   "sections": [
