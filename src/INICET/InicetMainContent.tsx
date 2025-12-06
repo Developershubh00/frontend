@@ -229,6 +229,20 @@ const InicetMainContent: React.FC = () => {
             </div>
           ))}
         </div>
+
+          <div className="text-center mb-3 lg:mb-4">
+  <a
+    href="https://static.collegedekho.com/media/uploads/2025/11/24/1763125732925-114509804.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-600 font-semibold hover:text-blue-900 underline text-sm lg:text-base transition-colors duration-200"
+  >
+    Final Seat Position for admission to PG courses of INIs for INI-CET January 2026 session.
+  </a>
+</div>
+
+
+
         {/* Results Announcement Banner */}
 <div className="mb-6 lg:mb-8 ">
   <div className="bg-gradient-to-r from-green-500 via-emerald-500 to-teal-500 rounded-2xl lg:rounded-3xl shadow-2xl overflow-hidden">
