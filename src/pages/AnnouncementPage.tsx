@@ -971,6 +971,19 @@ const AnnouncementPage: React.FC = () => {
       source: 'Jagran Josh Education ',
       created_at: "2025-12-05T08:00:00Z"
     },
+    {
+      id: 79,
+      title: "NEET PG Counselling 2025:",
+      content:"INI‑CET January 2026 PG Counselling: AIIMS Releases Online Seat Allocation Schedule for Mock, Round 1 and Round 2",
+      date: "2025-12-06T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://drive.google.com/file/d/1xX5C9xXtYBDL24Wum0W8fvoWv9_4-49d/view?usp=sharing',
+      is_active: true,
+      source: 'Jagran Josh Education ',
+      created_at: "2025-12-06T08:00:00Z"
+    },
+
 
 
 

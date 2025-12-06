@@ -761,6 +761,16 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: 'https://www.jagranjosh.com/news/neet-pg-counselling-2025-round-2-registration-at-mcc-nic-in-apply-till-9-december-182074',
      source: 'Jagran Josh Education ',
     },
+     {
+      id: 79,
+      title: "INI‑CET January 2026 PG Counselling: AIIMS Releases Online Seat Allocation Schedule for Mock, Round 1 and Round 2",
+      date: "2025-12-06T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://drive.google.com/file/d/1xX5C9xXtYBDL24Wum0W8fvoWv9_4-49d/view?usp=sharing',
+      source: 'Jagran Josh Education ',
+    },
+
 
 
 
