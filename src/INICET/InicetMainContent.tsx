@@ -46,6 +46,19 @@ const InicetMainContent: React.FC = () => {
       textColor: "text-blue-600",
       onClick: () => window.open("https://docs.aiimsexams.ac.in/sites/2_PROSPECTUS%20PART-A%20INI-CET%20JULY%202025%20SESSION.pdf", "_blank"),
     },
+    {
+          id: "prospectus",
+          label: "Notice",
+          icon: FileText,
+          bgColor: "bg-blue-100",
+          textColor: "text-blue-600",
+          onClick: () => {
+            window.open(
+              "https://cdn.dribbble.com/userupload/45962642/file/361c5dc5aed7756227cc324a5ffb9396.jpeg?resize=752x&vertical=center",
+              "_blank"
+            );
+          },
+        },
     // {
     //   id: "results",
     //   label: "Results",
