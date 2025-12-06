@@ -48,7 +48,7 @@ const InicetMainContent: React.FC = () => {
     },
     {
           id: "prospectus",
-          label: "Notice",
+          label: "Schedule",
           icon: FileText,
           bgColor: "bg-blue-100",
           textColor: "text-blue-600",
