@@ -1,12 +1,14 @@
 import React from 'react';
-import { FileText, ExternalLink, Calendar, ArrowLeft } from 'lucide-react';
+import { FileText, ExternalLink, Calendar, ArrowLeft, Link } from 'lucide-react';
 
 interface ScheduleDocument {
   id: number;
   title: string;
   year: number;
-  fileName: string;
+  fileName?: string; // Optional now
+  externalUrl?: string; // New field for external links
   size: string;
+  isExternal: boolean; // Flag to identify external links
 }
 
 const scheduleDocuments: ScheduleDocument[] = [
@@ -15,38 +17,59 @@ const scheduleDocuments: ScheduleDocument[] = [
     title: 'AIQ and State Schedule PG 2025 dated 25.11.25',
     year: 2025,
     fileName: 'AIQ_and_State_Schedule_PG_2025_dated_25.11.25.pdf',
-    size: '387 KB'
+    size: '387 KB',
+    isExternal: false
   },
   {
     id: 2,
     title: 'PG Counselling 2025 Schedule dated 25.11.25',
     year: 2025,
     fileName: 'PG_Counselling_2025_Schedule_dated_25.11.25.pdf',
-    size: '274 KB'
+    size: '274 KB',
+    isExternal: false
   },
-  // {
-  //   id: 3,
-  //   title: 'Revised PG Information Bulletin 2025 dated 26.11.2025',
-  //   year: 2025,
-  //   fileName: 'Revised_PG_Information_Bulletin_2025_dated_26.11.2025.pdf',
-  //   size: '2 MB'
-  // }
+  {
+    id: 3,
+    title: 'NEWLY ADDED SEATS ROUND 2 (MD MS AND DNB) – PG COUNSELLING 2025',
+    year: 2025,
+    externalUrl: 'https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/12/20251206729694661.pdf', // Replace with your actual URL
+    size: 'External',
+    isExternal: true
+  },
+  {
+    id: 4,
+    title: 'CLEAR VACANCY ROUND 2 (MD MS AND DNB) – PG COUNSELLING 2025',
+    year: 2025,
+    externalUrl: 'https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/12/20251206128647095.pdf', // Replace with your actual URL
+    size: 'External',
+    isExternal: true
+  },
+  {
+    id: 5,
+    title: 'VIRTUAL VACANCY ROUND 2 (MD MS AND DNB) – PG COUNSELLING 2025',
+    year: 2025,
+    externalUrl: 'https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/12/20251206767130184.pdf', // Replace with your actual URL
+    size: 'External',
+    isExternal: true
+  }
 ];
 
 const SchedulePage: React.FC = () => {
-  const handleView = (fileName: string) => {
-    window.open(`/data/${fileName}`, '_blank');
+  const handleView = (doc: ScheduleDocument) => {
+    if (doc.isExternal && doc.externalUrl) {
+      window.open(doc.externalUrl, '_blank');
+    } else if (doc.fileName) {
+      window.open(`/data/${doc.fileName}`, '_blank');
+    }
   };
 
-const handleBack = () => {
-  window.history.back();
+  const handleBack = () => {
+    window.history.back();
   };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 p-6">
       <div className="max-w-7xl mx-auto">
-
-      {/* ADD THIS BACK BUTTON SECTION */}
         <button
           onClick={handleBack}
           className="mb-4 inline-flex items-center gap-2 px-4 py-2 bg-white rounded-lg shadow-md hover:shadow-lg transition-all hover:bg-slate-50 text-slate-700 font-medium"
@@ -106,12 +129,27 @@ const handleBack = () => {
                   >
                     <td className="px-6 py-4">
                       <div className="flex items-center gap-3">
-                        <div className="bg-gradient-to-br from-blue-100 to-indigo-100 p-2 rounded-lg">
-                          <FileText className="w-4 h-4 text-blue-600" />
+                        <div className={`bg-gradient-to-br ${
+                          doc.isExternal 
+                            ? 'from-purple-100 to-pink-100' 
+                            : 'from-blue-100 to-indigo-100'
+                        } p-2 rounded-lg`}>
+                          {doc.isExternal ? (
+                            <Link className="w-4 h-4 text-purple-600" />
+                          ) : (
+                            <FileText className="w-4 h-4 text-blue-600" />
+                          )}
                         </div>
-                        <span className="text-sm text-slate-700">
-                          {doc.title}
-                        </span>
+                        {/* <div>
+                          <span className="text-sm text-slate-700">
+                            {doc.title}
+                          </span>
+                          {doc.isExternal && (
+                            <span className="ml-2 text-xs text-purple-600 bg-purple-50 px-2 py-0.5 rounded">
+                              External Link
+                            </span>
+                          )}
+                        </div> */}
                       </div>
                     </td>
                     <td className="px-6 py-4">
@@ -122,10 +160,10 @@ const handleBack = () => {
                     <td className="px-6 py-4">
                       <div className="flex items-center gap-2">
                         <span className="text-sm text-slate-600">
-                          Accessible Version :
+                          {doc.isExternal ? 'External Link :' : 'Accessible Version :'}
                         </span>
                         <button
-                          onClick={() => handleView(doc.fileName)}
+                          onClick={() => handleView(doc)}
                           className="group inline-flex items-center gap-1.5 text-sm text-blue-600 hover:text-blue-700 transition-colors"
                         >
                           <span className="underline decoration-blue-300 hover:decoration-blue-500">
@@ -157,15 +195,6 @@ const handleBack = () => {
 
         {/* Info Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-          {/* <div className="bg-white rounded-xl shadow-md p-6 border border-blue-100 hover:shadow-lg transition-shadow">
-            <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mb-3">
-              <FileText className="w-5 h-5 text-blue-600" />
-            </div>
-            <h3 className="text-base font-medium text-slate-800 mb-2">Quick Access</h3>
-            <p className="text-slate-600 text-sm leading-relaxed">
-              All schedule documents are accessible for viewing in a new tab
-            </p>
-          </div> */}
           <div className="bg-white rounded-xl shadow-md p-6 border border-indigo-100 hover:shadow-lg transition-shadow">
             <div className="w-10 h-10 bg-indigo-100 rounded-lg flex items-center justify-center mb-3">
               <Calendar className="w-5 h-5 text-indigo-600" />
