@@ -145,9 +145,9 @@ const SchedulePage: React.FC = () => {
                             {doc.title}
                           </span>
                           {doc.isExternal && (
-                            // <span className="ml-2 text-xs text-purple-600 bg-purple-50 px-2 py-0.5 rounded">
-                            //   External Link
-                            // </span>
+                            <span className="ml-2 text-xs text-purple-600 bg-purple-50 px-2 py-0.5 rounded">
+                              External Link
+                            </span>
                           )}
                         </div>
                       </div>
