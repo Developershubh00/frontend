@@ -184,7 +184,7 @@ const SchedulePage: React.FC = () => {
             <div className="flex items-center justify-between text-sm text-slate-600">
               <span className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-green-400 rounded-full"></div>
-                Last Updated: Nov 26, 2025
+                Last Updated: Dec 08, 2025
               </span>
               <span>
                 Total Documents: {scheduleDocuments.length}
