@@ -140,16 +140,16 @@ const SchedulePage: React.FC = () => {
                             <FileText className="w-4 h-4 text-blue-600" />
                           )}
                         </div>
-                        {/* <div>
+                        <div>
                           <span className="text-sm text-slate-700">
                             {doc.title}
                           </span>
                           {doc.isExternal && (
-                            <span className="ml-2 text-xs text-purple-600 bg-purple-50 px-2 py-0.5 rounded">
-                              External Link
-                            </span>
+                            // <span className="ml-2 text-xs text-purple-600 bg-purple-50 px-2 py-0.5 rounded">
+                            //   External Link
+                            // </span>
                           )}
-                        </div> */}
+                        </div>
                       </div>
                     </td>
                     <td className="px-6 py-4">
