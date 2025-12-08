@@ -770,6 +770,15 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: 'https://drive.google.com/file/d/1xX5C9xXtYBDL24Wum0W8fvoWv9_4-49d/view?usp=sharing',
       source: 'Jagran Josh Education ',
     },
+    {
+      id: 80,
+      title: "NEET PG Counselling 2025 Round 2: 2,620 New Seats Added, 32,080 Seats in Updated Matrix; Choice Filling Live at mcc.nic.in",
+      date: "2025-12-07T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://indianexpress.com/article/education/neet-pg-2025-round-two-2620-new-seats-added-to-matrix-mcc-nic-in-10407121/',
+      source: 'Jagran Josh Education ',
+    },
 
 
 
