@@ -992,7 +992,19 @@ const AnnouncementPage: React.FC = () => {
       category: 'NEET PG',
       link: 'https://indianexpress.com/article/education/neet-pg-2025-round-two-2620-new-seats-added-to-matrix-mcc-nic-in-10407121/',
       is_active: true,
-      source: 'Jagran Josh Education ',
+      source: 'indianexpress ',
+      created_at: "2025-12-07T08:00:00Z"
+    },
+     {
+      id: 81,
+      title: "NEET PG Counselling 2025:",
+      content:"NEET PG 2025 Round 2 Choice Filling Extended: MCC Keeps PG Counselling Window Open Till 12 December",
+      date: "2025-12-07T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://mcc.nic.in/pg-medical-counselling/',
+      is_active: true,
+      source: 'mcc.nic.in ',
       created_at: "2025-12-07T08:00:00Z"
     },
 

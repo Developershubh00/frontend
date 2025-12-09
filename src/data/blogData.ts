@@ -24673,7 +24673,7 @@ export const blogPosts: BlogPost[] = [
     "Residency Programs",
     "Medical Career"
   ],
-  "published_date": "2025-12-06",
+  "published_date": "2025-12-08",
   "read_time": 12,
   "meta_description": "Residency brings long hours, real responsibility and rapid growth. Expect challenges, breakthroughs and the journey that shapes you into a confident doctor.",
   "sections": [
