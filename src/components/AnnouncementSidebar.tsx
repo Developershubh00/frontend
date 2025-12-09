@@ -782,7 +782,7 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
     {
       id: 81,
       title: "NEET PG 2025 Round 2 Choice Filling Extended: MCC Keeps PG Counselling Window Open Till 12 December",
-      date: "2025-12-07T08:00:00Z",
+      date: "2025-12-08T08:00:00Z",
       priority: 'high',
       category: 'NEET PG',
       link: 'https://mcc.nic.in/pg-medical-counselling/',
