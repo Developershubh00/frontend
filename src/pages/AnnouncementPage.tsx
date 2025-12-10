@@ -1007,6 +1007,18 @@ const AnnouncementPage: React.FC = () => {
       source: 'mcc.nic.in ',
       created_at: "2025-12-07T08:00:00Z"
     },
+    {
+      id: 82,
+      title: "NEET PG Counselling 2025:",
+      content:"MCC NEET PG Counselling 2025 Round 2 Choice Filling Halted Today 2 PM–6 PM for Seat Matrix Update; Fresh Vacant Seats to Be Added, Choice Filling and Locking Extended Till 11:55 PM on December 12 at mcc.nic.in",
+      date: "2025-12-10T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://mcc.nic.in/pg-medical-counselling/',
+      is_active: true,
+      source: 'mcc.nic.in ',
+      created_at: "2025-12-10T08:00:00Z"
+    },
 
 
 
