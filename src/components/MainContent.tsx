@@ -108,10 +108,7 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
       bgColor: "bg-blue-100",
       textColor: "text-blue-600",
       onClick: () => {
-        window.open(
-          "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/11/202511191286629593.pdf",
-          "_blank"
-        );
+       window.location.href = "/notice";
       },
     },
     {
