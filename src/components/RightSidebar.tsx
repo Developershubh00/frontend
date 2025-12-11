@@ -146,21 +146,23 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
       id: 7,
       date: "17th Oct '25 to 9th Dec '25",
       event: "1st Round of Counselling",
-      status: "upcoming",
-      isHighlight: true,
+      status: "completed",
+      
     },
     {
       id: 8,
       date: "1st Dec '25 to 7th Dec '25",
       event: "Last Date of Joining (Round 1)",
-      status: "upcoming",
+      status: "completed",
+      
     },
     {
       id: 9,
       date: "5th Dec '25 to 29th Dec '25",
       event: "2nd Round of Counselling",
       status: "upcoming",
-      // isHighlight: true,
+      isHighlight: true,
+      
     },
     {
       id: 10,
