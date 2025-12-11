@@ -25518,8 +25518,8 @@ export const blogPosts: BlogPost[] = [
 },
 {
   "id": 64,
-  "title": "Work–Life Balance in OBS-GYN: Myth or Reality? Here's the Truth Every Aspirant Should Know",
-  "slug": "work-life-balance-obs-gyn-myth-or-reality-truth-every-aspirant-should-know",
+  "title": "Work–Life Balance in OB-GYN: Myth or Reality? Here's the Truth Every Aspirant Should Know",
+  "slug": "work-life-balance-ob-gyn-myth-or-reality-truth-every-aspirant-should-know",
   "excerpt": "Discover the real OB GYN lifestyle, the workload, and how smart planning helps you build balance without losing passion.",
   "featured_image": "https://cdn.dribbble.com/userupload/46009549/file/c945bf876e67fdbb2bcc4cfaa99ce06b.png?w=1200&h=600&fit=crop",
   "author": {
@@ -25533,21 +25533,21 @@ export const blogPosts: BlogPost[] = [
     "color": "bg-green-100 text-green-800"
   },
   "tags": [
-    "OBS-GYN",
+    "OB-GYN Residency",
     "Obstetrics Gynecology",
     "Medical Residency",
     "Work-Life Balance",
-    "OBGYN Residency",
+    "OBGYN Programs",
     "Career Guide"
   ],
-  "published_date": "2025-12-10",
+  "published_date": "2025-12-09",
   "read_time": 14,
   "meta_description": "Discover the real OB GYN lifestyle, the workload, and how smart planning helps you build balance without losing passion.",
   "sections": [
     {
       "id": "intro",
       "type": "paragraph",
-      "content": "When medical students think about Obstetrics and Gynecology, the first thoughts that come to mind are usually long emergency nights, labour room rushes, emotionally heavy cases, and zero personal time."
+      "content": "When medical students think about obstetrics and gynecology residency, the first thoughts that come to mind are usually long emergency nights, labour room rushes, emotionally heavy cases, and zero personal time."
     },
     {
       "id": "intro-question",
@@ -25562,7 +25562,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "more-than-delivering",
       "type": "heading",
-      "title": "OBS-GYN — More than \"Delivering Babies\"",
+      "title": "OB-GYN — More than \"Delivering Babies\"",
       "level": 2
     },
     {
@@ -25579,7 +25579,7 @@ export const blogPosts: BlogPost[] = [
       "id": "more-than-delivering-list",
       "type": "list",
       "items": [
-        "OBSstetrics – antenatal care, pregnancy, labour, complications",
+        "Obstetrics – antenatal care, pregnancy, labour, complications",
         "Gynecology – reproductive health, hormonal care, diagnostic and surgical management"
       ]
     },
@@ -25597,7 +25597,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "beauty-of-choice-intro",
       "type": "paragraph",
-      "content": "One of the strongest advantages of choosing OBS-GYN is flexibility. While most people associate this field with sleepless nights and high-pressure emergency duties, they rarely look at the massive range of sub-specialities available."
+      "content": "One of the strongest advantages of choosing OB-GYN residency programs is flexibility. While most people associate this field with sleepless nights and high-pressure emergency duties, they rarely look at the massive range of sub-specialities available."
     },
     {
       "id": "beauty-of-choice-paths",
@@ -25625,7 +25625,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "beauty-of-choice-balance",
       "type": "paragraph",
-      "content": "So, work-life balance is not only possible, but it also depends on the direction you choose after residency."
+      "content": "So work-life balance is not only possible, but it also depends on the direction you choose after your obstetrics and gynecology residency."
     },
     {
       "id": "lifestyle-question",
@@ -25636,7 +25636,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "lifestyle-question-doubt",
       "type": "paragraph",
-      "content": "Let's address the biggest doubt: \"Can I have a peaceful family life if I choose OBS-GYN?\""
+      "content": "Let's address the biggest doubt: \"Can I have a peaceful family life if I choose OB-GYN?\""
     },
     {
       "id": "lifestyle-question-truth",
@@ -25660,7 +25660,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "lifestyle-question-after",
       "type": "paragraph",
-      "content": "After your residency, most OBS-GYNs build their own working structure based on the specialty they move into."
+      "content": "After your obstetrics and gynecology residency program, most clinicians build their own working structure based on the specialty they move into."
     },
     {
       "id": "lifestyle-question-example",
@@ -25697,7 +25697,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "want-adrenaline-content",
       "type": "paragraph",
-      "content": "Some clinicians enjoy fast clinical decision-making and labour-room dynamics. High-risk pregnancy care, intrapartum management, and emergency OBSstetrics provide an active, high-intensity environment where every case demands quick responses and hands-on involvement."
+      "content": "Academic research, IVF, fetal medicine and formal teaching roles offer structured work. These are highly respected residency programs with increasing academic opportunities."
     },
     {
       "id": "want-academic",
@@ -25708,7 +25708,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "want-academic-content",
       "type": "paragraph",
-      "content": "Many aspirants seek academic satisfaction rather than pure clinical practice. For them, OBS-GYN again provides multiple paths, including fetal medicine, reproductive medicine, including IVF, academic research, and formal teaching positions. These branches allow deeper subject expertise, ongoing learning, and involvement with scientific advancement. They also suit individuals who prefer structured work profiles and academic engagement over high-pressure clinical roles."
+      "content": "Many aspirants seek academic satisfaction rather than pure clinical practice. For them, OB-GYN again provides multiple paths, including fetal medicine, reproductive medicine, including IVF, academic research, and formal teaching positions. These branches allow deeper subject expertise, ongoing learning, and involvement with scientific advancement. They also suit individuals who prefer structured work profiles and academic engagement over high-pressure clinical roles."
     },
     {
       "id": "income-career",
@@ -25738,7 +25738,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "income-career-pathways",
       "type": "paragraph",
-      "content": "Whether you want clinic-based practice or surgical care, OBS-GYN has pathways that match both lifestyle and professional ambition."
+      "content": "Whether you prefer clinical OPD or surgery, OB-GYN programs offer pathways that match both lifestyle and ambition."
     },
     {
       "id": "honest",
@@ -25759,7 +25759,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "honest-but",
       "type": "paragraph",
-      "content": "But in OBS-GYN, you get to choose your pace later."
+      "content": "But in OB-GYN, you get to choose your pace later."
     },
     {
       "id": "honest-difference",
@@ -25769,13 +25769,13 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "worth-choosing",
       "type": "heading",
-      "title": "So, is OBS-GYN worth choosing?",
+      "title": "So, is OB-GYN worth choosing?",
       "level": 2
     },
     {
       "id": "worth-choosing-content",
       "type": "paragraph",
-      "content": "OBS-GYN is an excellent choice for those who want strong clinical exposure and hands-on surgical experience, combined with emotionally meaningful outcomes. The field constantly evolves scientifically, remains clinically satisfying, and eventually becomes financially rewarding. Most importantly, it offers multiple lifestyle choices in later years, which many residents only realise after completing training. In fact, a considerable number of gynecologists discover that life becomes much more balanced after residency than they imagined during MBBS postings."
+      "content": "OB-GYN is an excellent choice for those seeking clinical exposure, hands-on surgical training, and emotionally meaningful patient outcomes. The specialty evolves continuously and becomes financially rewarding over time. Most OB-GYN residents discover that life becomes more balanced after residency than they expected during MBBS postings."
     },
     {
       "id": "important-reminder",
@@ -25786,7 +25786,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "important-reminder-content",
       "type": "paragraph",
-      "content": "Students must evaluate their own personality and long-term goals before choosing a specialty. It is crucial to assess whether one enjoys women's health, is comfortable with emergencies, appreciates surgical exposure, and is emotionally prepared to handle sensitive patient scenarios. Aspirants also need to think about the kind of lifestyle they prefer later in life. These individual reflections guide the decision better than hearsay or random opinions."
+      "content": "Students must evaluate their personality, comfort with emergencies, surgical interest, emotional resilience, and long-term lifestyle preferences before entering obstetrics and gynecology residency. These personal reflections decide suitability far better than hearsay."
     },
     {
       "id": "final-thought",
@@ -25797,7 +25797,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "final-thought-content",
       "type": "paragraph",
-      "content": "Work-life balance in OBS-GYN is certainly achievable, not because the branch is inherently easy, but because it offers diverse pathways suited to different professional expectations. Once the right sub-specialty is chosen, the field provides both personal and professional fulfilment, enabling doctors to design a career that aligns perfectly with their interests and life goals."
+      "content": "Work-life balance in OB-GYN is certainly achievable, not because the branch is inherently easy, but because it offers diverse pathways suited to different professional expectations. Once the right sub-specialty is chosen, the field provides both personal and professional fulfilment, enabling doctors to design a career that aligns perfectly with their interests and life goals."
     },
     {
       "id": "faqs",
@@ -25810,24 +25810,24 @@ export const blogPosts: BlogPost[] = [
       "type": "faq",
       "faqs": [
         {
-          "question": "Q1: Is work–life balance realistically possible in OBS‑GYN?",
+          "question": "Q1: Is work–life balance realistically possible in OB‑GYN?",
           "answer": "Yes. Residency years are intense, but later you can choose sub‑specialties and practice setups (OPD‑based, academic, IVF, menopausal clinics, etc.) that offer far more predictable hours and better balance."
         },
         {
-          "question": "Q2: Is OBS‑GYN compatible with having a family or children?",
+          "question": "Q2: Is OB‑GYN compatible with having a family or children?",
           "answer": "Many gynecologists successfully manage both career and family by choosing group practices, sharing calls, reducing night duties over time, and setting clear boundaries once they are established in practice."
         },
         {
-          "question": "Q3: Do all OBS‑GYN doctors have to do frequent night duties forever?",
+          "question": "Q3: Do all OB‑GYN doctors have to do frequent night duties forever?",
           "answer": "No. Night duties are heaviest during residency and early years. Later, you can shift towards day‑time OPDs, elective surgery lists, academic roles, or niche clinics with minimal or shared on‑call work."
         },
         {
-          "question": "Q4: Which sub‑specialties in OBS‑GYN are relatively more lifestyle‑friendly?",
+          "question": "Q4: Which sub‑specialties in OB‑GYN are relatively more lifestyle‑friendly?",
           "answer": "Fields like gynecology OPD practice, menopausal health, reproductive endocrinology, IVF (in some setups), preventive screening, and academic posts usually have more structured hours than pure labour-room-based work."
         },
         {
-          "question": "Q5: Should I avoid OBS‑GYN if I am afraid of emergencies?",
-          "answer": "Not necessarily. You should be willing to handle emergencies during training, but later you can choose segments of the branch with fewer acute events. Still, if you strongly dislike high‑pressure situations, think carefully before choosing a primarily obstetric‑heavy career."
+          "question": "Q5: Should I avoid OB‑GYN if I am afraid of emergencies?",
+          "answer": "Not necessarily. You should be willing to handle emergencies during training, but later you can choose segments of the branch with fewer acute events. Still, if you strongly dislike high‑pressure situations, think carefully before choosing a primarily OB-GYN career."
         }
       ]
     },
@@ -25835,7 +25835,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
     },
     {
       "id": "keywords",
@@ -25843,21 +25843,18 @@ export const blogPosts: BlogPost[] = [
       "title": "Related Keywords",
       "keywords": [
         "obstetrics and gynecology residency",
+        "OB-GYN residency programs",
+        "obstetrics and gynecology residency program",
+        "residency programs",
+        "OB-GYN programs",
+        "OB-GYN residents",
         "obgyn residency",
         "ob gyn residency programs",
         "best ob gyn residency programs",
         "ob gyn programs",
         "best obgyn residency programs",
         "obgyn residents",
-        "obstetrics and gynecology residency program",
         "obstetrics gynecology residency",
-        "obstetrics and gynecology residency",
-        "OB-GYN residency programs",
-        " obstetrics and gynecology residency program",
-        "residency programs",
-        "OB-GYN programs",
-        "OB-GYN residents",
-        "residency programs",
         "medical residency"
       ]
     }
