@@ -25540,7 +25540,7 @@ export const blogPosts: BlogPost[] = [
     "OBGYN Programs",
     "Career Guide"
   ],
-  "published_date": "2025-12-09",
+  "published_date": "2025-12-10",
   "read_time": 14,
   "meta_description": "Discover the real OB GYN lifestyle, the workload, and how smart planning helps you build balance without losing passion.",
   "sections": [
