@@ -14,19 +14,19 @@ interface ScheduleDocument {
 const scheduleDocuments: ScheduleDocument[] = [
   {
     id: 1,
-    title: 'AIQ and State Schedule PG 2025 dated 25.11.25',
+    title: 'VIRTUAL VACANCY ROUND 2 (MD MS AND DNB) – PG COUNSELLING 2025',
     year: 2025,
-    fileName: 'AIQ_and_State_Schedule_PG_2025_dated_25.11.25.pdf',
-    size: '387 KB',
-    isExternal: false
+    externalUrl: 'https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/12/20251206767130184.pdf', // Replace with your actual URL
+    size: 'External',
+    isExternal: true
   },
   {
     id: 2,
-    title: 'PG Counselling 2025 Schedule dated 25.11.25',
+    title: 'CLEAR VACANCY ROUND 2 (MD MS AND DNB) – PG COUNSELLING 2025',
     year: 2025,
-    fileName: 'PG_Counselling_2025_Schedule_dated_25.11.25.pdf',
-    size: '274 KB',
-    isExternal: false
+    externalUrl: 'https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/12/20251206128647095.pdf', // Replace with your actual URL
+    size: 'External',
+    isExternal: true
   },
   {
     id: 3,
@@ -38,20 +38,23 @@ const scheduleDocuments: ScheduleDocument[] = [
   },
   {
     id: 4,
-    title: 'CLEAR VACANCY ROUND 2 (MD MS AND DNB) – PG COUNSELLING 2025',
+    title: 'AIQ and State Schedule PG 2025 dated 25.11.25',
     year: 2025,
-    externalUrl: 'https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/12/20251206128647095.pdf', // Replace with your actual URL
-    size: 'External',
-    isExternal: true
+    fileName: 'AIQ_and_State_Schedule_PG_2025_dated_25.11.25.pdf',
+    size: '387 KB',
+    isExternal: false
   },
   {
     id: 5,
-    title: 'VIRTUAL VACANCY ROUND 2 (MD MS AND DNB) – PG COUNSELLING 2025',
+    title: 'PG Counselling 2025 Schedule dated 25.11.25',
     year: 2025,
-    externalUrl: 'https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/12/20251206767130184.pdf', // Replace with your actual URL
-    size: 'External',
-    isExternal: true
-  }
+    fileName: 'PG_Counselling_2025_Schedule_dated_25.11.25.pdf',
+    size: '274 KB',
+    isExternal: false
+  },
+  
+  
+  
 ];
 
 const SchedulePage: React.FC = () => {
