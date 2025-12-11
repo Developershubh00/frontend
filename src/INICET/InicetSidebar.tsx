@@ -6,6 +6,7 @@ import {
   UserCheck,
   ChevronDown,
   Award,
+  FileText,
   Heart,
   PanelLeftClose,
   PanelLeftOpen,
@@ -123,6 +124,16 @@ const InicetSidebar: React.FC<InicetSidebarProps> = ({
       color: "text-indigo-600",
       onClick: () => window.open("/data/Qualified_Candidates.pdf", "_blank"),
     },
+    {
+      id: "MyChoicelist",
+      icon: FileText,
+      label: "View Result PDF",
+      hasSubmenu: false,
+      color: "text-indigo-600",
+      onClick: () => window.open("/data/inicet_results.pdf", "_blank"),
+    },
+
+    
     // {
     //   id: "MyChoicelist",
     //   icon: Heart,
