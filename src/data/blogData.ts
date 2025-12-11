@@ -25851,6 +25851,12 @@ export const blogPosts: BlogPost[] = [
         "obgyn residents",
         "obstetrics and gynecology residency program",
         "obstetrics gynecology residency",
+        "obstetrics and gynecology residency",
+        "OB-GYN residency programs",
+        " obstetrics and gynecology residency program",
+        "residency programs",
+        "OB-GYN programs",
+        "OB-GYN residents",
         "residency programs",
         "medical residency"
       ]
