@@ -1019,6 +1019,18 @@ const AnnouncementPage: React.FC = () => {
       source: 'mcc.nic.in ',
       created_at: "2025-12-10T08:00:00Z"
     },
+    {
+      id: 83,
+      title: "NEET PG Counselling 2025:",
+      content:"NEET PG 2025 Round 2 Choice Filling, Locking Available Till 1 PM on 13 December – Check Final Timings",
+      date: "2025-12-12T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://mcc.nic.in/pg-medical-counselling/',
+      is_active: true,
+      source: 'mcc.nic.in ',
+      created_at: "2025-12-12T08:00:00Z"
+    },
 
 
 
