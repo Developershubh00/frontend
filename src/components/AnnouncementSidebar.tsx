@@ -806,6 +806,15 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: 'https://mcc.nic.in/pg-medical-counselling/',
       source: 'mcc.nic.in ',
      },
+     {
+      id: 84,
+      title: "NEET PG 2025 Round 2 Updated Schedule Released: MCC Extends Choice Filling Till 14 December, Result on 16 December",
+      date: "2025-12-13T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/12/20251213294404571.pdf',
+      source: 'mcc.nic.in ',
+    },
 
 
 
