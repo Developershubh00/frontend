@@ -27484,7 +27484,7 @@ export const blogPosts: BlogPost[] = [
       ]
     }
   ]
-}
+},
 {
   "id": 69,
   "title": "The Residency Rulebook: What Students Must Know Before Choosing Their Branch and College",
