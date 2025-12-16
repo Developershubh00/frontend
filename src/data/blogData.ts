@@ -27485,6 +27485,371 @@ export const blogPosts: BlogPost[] = [
     }
   ]
 }
+{
+  "id": 69,
+  "title": "The Residency Rulebook: What Students Must Know Before Choosing Their Branch and College",
+  "slug": "the-residency-rulebook-what-students-must-know-before-choosing-their-branch-and-college",
+  "excerpt": "Before choosing a branch or college, understand workload, learning culture, toxicity, future scope, and real residency rules that shape your training years.",
+  "featured_image": "https://cdn.dribbble.com/userupload/46076445/file/b67e25d3569997d7d85ddf7545a16cb4.png?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-green-100 text-green-800"
+  },
+  "tags": [
+    "Residency Programs",
+    "NEET PG",
+    "Medical Residency",
+    "Residency Training",
+    "Doctor Residency",
+    "Residency Application"
+  ],
+  "published_date": "2025-12-16",
+  "read_time": 18,
+  "meta_description": "Before choosing a branch or college, understand workload, learning culture, toxicity, future scope, and real residency rules that shape your training years.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "The journey from clearing NEET PG, the most competitive pg entrance exam and entrance exam for doctors, to actually choosing a residency branch is one of the most confusing, emotional, and mentally exhausting phases in a doctor's life. This phase defines your medical residency, your doctor residency, and the entire residency process ahead."
+    },
+    {
+      "id": "intro-context",
+      "type": "paragraph",
+      "content": "While everyone talks about marks, ranks, and the residency match, very few discuss the decisions that will actually shape your residency training and the next 30 years of your career in residency medicine."
+    },
+    {
+      "id": "intro-purpose",
+      "type": "paragraph",
+      "content": "This blog summarizes the most important lessons shared by seniors, residents, and mentors, lessons every student must read before locking in their residency application and entering a residency training program."
+    },
+    {
+      "id": "rule-1",
+      "type": "heading",
+      "title": "1. Branch Matters More Than College",
+      "level": 2
+    },
+    {
+      "id": "rule-1-intro",
+      "type": "paragraph",
+      "content": "Across the country, students chase the \"top college,\" believing that prestige will define their career."
+    },
+    {
+      "id": "rule-1-senior-advice",
+      "type": "paragraph",
+      "content": "But every senior unanimously says the same thing: A good college cannot compensate for a branch you don't love."
+    },
+    {
+      "id": "rule-1-reality",
+      "type": "paragraph",
+      "content": "If you choose a specialty you dislike, even a \"dream institute\" will feel suffocating throughout your residency program. If you choose a branch you genuinely enjoy, even an average hospital will become a place of growth."
+    },
+    {
+      "id": "rule-1-truth",
+      "type": "paragraph",
+      "content": "The truth is simple: No future employer cares which building you trained in during your residency training program. They care about what you can do."
+    },
+    {
+      "id": "rule-2",
+      "type": "heading",
+      "title": "2. Branch Matters More Than the Degree (MS/MD/DNB/Dip)",
+      "level": 2
+    },
+    {
+      "id": "rule-2-intro",
+      "type": "paragraph",
+      "content": "Many students chase letters, MS, MD, DNB, Diploma, believing one is superior during residency programs."
+    },
+    {
+      "id": "rule-2-reality",
+      "type": "paragraph",
+      "content": "But in the real world of residency medicine, none of these matters if you dislike the work you're expected to do daily."
+    },
+    {
+      "id": "rule-2-truth",
+      "type": "paragraph",
+      "content": "A resident who loves their branch will always outperform someone who picked a degree for prestige during their medical residency."
+    },
+    {
+      "id": "rule-2-advice",
+      "type": "paragraph",
+      "content": "Pick passion, not alphabets."
+    },
+    {
+      "id": "rule-3",
+      "type": "heading",
+      "title": "3. Staying Near Home Matters More Than You Think",
+      "level": 2
+    },
+    {
+      "id": "rule-3-intro",
+      "type": "paragraph",
+      "content": "One of the most underrated, but most important pieces of advice from residents: Choose the best college closest to your home, without compromising your branch."
+    },
+    {
+      "id": "rule-3-reality",
+      "type": "paragraph",
+      "content": "Residency breaks people. Leaves are rare. Workload is unpredictable. Homesickness is severe."
+    },
+    {
+      "id": "rule-3-importance",
+      "type": "paragraph",
+      "content": "During the residency process, familiarity with your city, your language, and your support system becomes your backbone. Even average hospitals feel manageable when you can go home on a bad day during a doctor residency or rely on family when needed."
+    },
+    {
+      "id": "rule-3-contrast",
+      "type": "paragraph",
+      "content": "In contrast, the \"best college far away\" can destroy emotional strength."
+    },
+    {
+      "id": "rule-4",
+      "type": "heading",
+      "title": "4. Your Final Call Matters More Than Opinions Around You",
+      "level": 2
+    },
+    {
+      "id": "rule-4-context",
+      "type": "paragraph",
+      "content": "Family can guide. Friends can advise. Relatives can comment endlessly, especially during NEET PG counselling and the residency application phase."
+    },
+    {
+      "id": "rule-4-reality",
+      "type": "paragraph",
+      "content": "But only you will work in that branch. Only you will handle night duties. Only you will build a career in that specialty."
+    },
+    {
+      "id": "rule-4-truth",
+      "type": "paragraph",
+      "content": "Their words don't build your life; your decisions do."
+    },
+    {
+      "id": "rule-4-advice",
+      "type": "paragraph",
+      "content": "Learn to listen, but decide independently."
+    },
+    {
+      "id": "rule-5",
+      "type": "heading",
+      "title": "5. Branch Should Come Before Money",
+      "level": 2
+    },
+    {
+      "id": "rule-5-intro",
+      "type": "paragraph",
+      "content": "This advice often sounds controversial—especially when financial pressure exists."
+    },
+    {
+      "id": "rule-5-senior-wisdom",
+      "type": "paragraph",
+      "content": "But seniors say something that time repeatedly proves: Money follows mastery. Mastery follows passion. Passion follows the right branch during residency in medicine."
+    },
+    {
+      "id": "rule-5-warning",
+      "type": "paragraph",
+      "content": "If you pick a specialty only because it \"pays well,\" that money will never feel worth the mental exhaustion."
+    },
+    {
+      "id": "rule-5-promise",
+      "type": "paragraph",
+      "content": "But if you pick what excites you, success eventually finds you."
+    },
+    {
+      "id": "emotional-cost",
+      "type": "heading",
+      "title": "The Emotional Cost",
+      "level": 2
+    },
+    {
+      "id": "emotional-cost-content",
+      "type": "paragraph",
+      "content": "Some days, you walk out without applause, without gratitude, without anyone knowing what you prevented. But you know. You carry the relief, the adrenaline, and the near misses silently. Anesthesia, and many other demanding residency programs—shape you into someone who finds meaning in what is unseen, undocumented, and uncredited, but always essential."
+    },
+    {
+      "id": "insights-heading",
+      "type": "heading",
+      "title": "Insights From Residents: The Transcript Breakdown",
+      "level": 2
+    },
+    {
+      "id": "insight-a",
+      "type": "heading",
+      "title": "A. Don't Listen to Relatives",
+      "level": 3
+    },
+    {
+      "id": "insight-a-content",
+      "type": "paragraph",
+      "content": "Residents say this openly; relatives won't work in your place during medical residency. You will. The only opinions that matter are your own and your parents'."
+    },
+    {
+      "id": "insight-b",
+      "type": "heading",
+      "title": "B. Confusion Is Normal",
+      "level": 3
+    },
+    {
+      "id": "insight-b-content",
+      "type": "paragraph",
+      "content": "Almost everyone remains confused till the very last minute. Exploring, asking seniors, and trusting the process is the only way forward."
+    },
+    {
+      "id": "insight-c",
+      "type": "heading",
+      "title": "C. Don't Copy Friends' Choices",
+      "level": 3
+    },
+    {
+      "id": "insight-c-content",
+      "type": "paragraph",
+      "content": "\"My friend filled this, so I will too.\" This single mistake ruins many careers during residency training."
+    },
+    {
+      "id": "insight-c-reality",
+      "type": "paragraph",
+      "content": "Your rank, your goals, your priorities, your comfort zone, everything is different. So your list must be different."
+    },
+    {
+      "id": "insight-d",
+      "type": "heading",
+      "title": "D. Choose a College Close to Home",
+      "level": 3
+    },
+    {
+      "id": "insight-d-content",
+      "type": "paragraph",
+      "content": "Nearly every experienced resident repeats this: Being close to home keeps you sane during a doctor residency."
+    },
+    {
+      "id": "insight-e",
+      "type": "heading",
+      "title": "E. Choose the Branch, Not the Hype",
+      "level": 3
+    },
+    {
+      "id": "insight-e-content",
+      "type": "paragraph",
+      "content": "Every year, one branch becomes \"trending.\" But trends change, your life doesn't."
+    },
+    {
+      "id": "insight-f",
+      "type": "heading",
+      "title": "F. Be Specific, Not Haphazard",
+      "level": 3
+    },
+    {
+      "id": "insight-f-intro",
+      "type": "paragraph",
+      "content": "Randomly filling choices leads to regret. Make a clear priority list:"
+    },
+    {
+      "id": "insight-f-list",
+      "type": "list",
+      "items": [
+        "Branch preference",
+        "City preference",
+        "College preference",
+        "Long-term goals"
+      ]
+    },
+    {
+      "id": "insight-g",
+      "type": "heading",
+      "title": "G. The Process Is Mentally Draining — But Temporary",
+      "level": 3
+    },
+    {
+      "id": "insight-g-reality",
+      "type": "paragraph",
+      "content": "Yes, the exam was tough. Yes, counselling is tougher. Yes, confusion is normal. But once you get your branch, everything settles beautifully."
+    },
+    {
+      "id": "insight-g-quote",
+      "type": "paragraph",
+      "content": "Every resident says the same thing: \"Everything becomes fine the moment you finally join.\""
+    },
+    {
+      "id": "final-thoughts",
+      "type": "heading",
+      "title": "Final Thoughts",
+      "level": 2
+    },
+    {
+      "id": "final-thoughts-intro",
+      "type": "paragraph",
+      "content": "Choosing a branch is not about glamour, pressure, or societal expectations during NEET PG counselling."
+    },
+    {
+      "id": "final-thoughts-truth",
+      "type": "paragraph",
+      "content": "It is about who you want to be for the next three decades of your doctor residency and career. Pick what fits your personality, your strengths, your dreams, and your pace of life. Not what fits your relatives' opinions, social media hype, or temporary trends."
+    },
+    {
+      "id": "final-thoughts-conclusion",
+      "type": "paragraph",
+      "content": "Residency will test and stretch you, but if the branch suits you, the struggle starts to feel meaningful instead of meaningless."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "FAQs – Residency Rulebook for NEET PG",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1: What should I prioritise first: branch, college, or city?",
+          "answer": "Prioritise in this order: 1) branch you can see yourself doing long term, 2) broad location/support system, 3) specific college name."
+        },
+        {
+          "question": "Q2: Are MS/MD really better than DNB or Diploma?",
+          "answer": "Each has pros and cons, but your skills, exposure, and interest in the work matter far more in practice than the exact degree label."
+        },
+        {
+          "question": "Q3: How close to home should I try to stay for residency?",
+          "answer": "If possible, choose the best branch–college combination within a region where language, culture, and family support feel familiar, without compromising heavily on the branch."
+        },
+        {
+          "question": "Q4: Is it normal to stay confused about the branch till the last rounds?",
+          "answer": "Yes. Most students feel unsure till late in counselling. Systematic self‑reflection, talking to honest seniors, and ranking your priorities clearly are more important than having instant clarity."
+        }
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "residency",
+        "residents",
+        "residency programs",
+        "neet pg",
+        "medical residency",
+        "residency medicine",
+        "doctor residency",
+        "residency training",
+        "residency training program",
+        "residency process",
+        "residency application",
+        "entrance exam",
+        "residency match",
+        "pg entrance exam"
+      ]
+    }
+  ]
+}
 
 
 
