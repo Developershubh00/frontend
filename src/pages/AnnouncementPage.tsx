@@ -1043,6 +1043,18 @@ const AnnouncementPage: React.FC = () => {
       source: 'mcc.nic.in ',
       created_at: "2025-12-13T08:00:00Z"
     },
+    {
+      id: 85,
+      title: "NEET PG Counselling 2025:",
+      content:"NEET PG 2025 Round 2 Provisional Seat Allotment Result Released for All India Quota",
+      date: "2025-12-17T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/12/202512161123505831.pdf',
+      is_active: true,
+      source: 'mcc.nic.in ',
+      created_at: "2025-12-17T08:00:00Z"
+    },
 
 
 
