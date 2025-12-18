@@ -542,6 +542,17 @@ const MainContent: React.FC<MainContentProps> = ({ activeTab, dashboardData }) =
           </div>
         </div> */}
 
+        <div className="text-center mb-3 lg:mb-4">
+  <a
+    href="https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/12/202512172132273940.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-600 font-semibold hover:text-blue-900 underline text-sm lg:text-base transition-colors duration-200"
+  >
+     NEET-PG Counselling Seats Allotment -2025 Round 2
+  </a>
+</div>
+
         {/* Seat Availability Notice - Compact Section */}
         <div className="text-center mb-6 lg:mb-8">
 
