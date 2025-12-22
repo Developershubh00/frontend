@@ -1055,6 +1055,19 @@ const AnnouncementPage: React.FC = () => {
       source: 'mcc.nic.in ',
       created_at: "2025-12-17T08:00:00Z"
     },
+    {
+      id: 86,
+      title: "NEET PG Counselling 2025:",
+      content:"Karnataka NEET PG 2025 Round 2 Provisional Seat Allotment Today After 6 PM, Check Result on KEA Portal",
+      date: "2025-12-22T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://timesofindia.indiatimes.com/education/news/karnataka-neet-pg-counselling-2025-round-2-seat-allotment-result-to-be-released-today-steps-to-check-online-portal/articleshow/126112714.cms',
+      is_active: true,
+      source: 'mcc.nic.in ',
+      created_at: "2025-12-22T08:00:00Z"
+    },
+
 
 
 
