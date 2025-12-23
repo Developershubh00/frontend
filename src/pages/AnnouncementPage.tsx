@@ -1067,6 +1067,18 @@ const AnnouncementPage: React.FC = () => {
       source: 'mcc.nic.in ',
       created_at: "2025-12-22T08:00:00Z"
     },
+    {
+      id: 86,
+      title: "NEET PG Counselling 2025:",
+      content:"NEET PG 2025: MCC Extends Resignation Window for Round 1 & 2 Seats Till December 26",
+      date: "2025-12-23T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://timesofindia.indiatimes.com/education/news/mcc-extends-neet-pg-2025-resignation-window-for-round-1-and-2-seats-check-official-notice-here/articleshow/126135069.cms',
+      is_active: true,
+      source: 'timesofindia ',
+      created_at: "2025-12-23T08:00:00Z"
+    },
 
 
 

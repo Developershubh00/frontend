@@ -833,6 +833,15 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: 'https://timesofindia.indiatimes.com/education/news/karnataka-neet-pg-counselling-2025-round-2-seat-allotment-result-to-be-released-today-steps-to-check-online-portal/articleshow/126112714.cms',
       source: 'mcc.nic.in ',
       },
+      {
+      id: 87,
+      title: "NEET PG 2025: MCC Extends Resignation Window for Round 1 & 2 Seats Till December 26",
+      date: "2025-12-23T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://timesofindia.indiatimes.com/education/news/mcc-extends-neet-pg-2025-resignation-window-for-round-1-and-2-seats-check-official-notice-here/articleshow/126135069.cms',
+      source: 'timesofindia ',
+     },
 
 
 
