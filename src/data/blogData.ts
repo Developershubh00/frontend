@@ -14028,11 +14028,10 @@ export const blogPosts: BlogPost[] = [
     }
   ]
 },
-
 {
   "id": 40,
   "title": "INI-CET Counselling 2025: A Complete Step-by-Step Guide for MD/MS Aspirants",
-  "slug": "ini-cet-counselling-2025-complete-guide-md-ms-aspirants",
+  "slug": "ini-cet-counselling-2025-complete-step-by-step-guide-md-ms-aspirants",
   "excerpt": "Navigate INI CET Counselling 2025 with ease using this step by step guide covering registration, choice filling, and seat allotment for MD and MS aspirants.",
   "featured_image": "https://cdn.dribbble.com/userupload/45687120/file/dd6a8710796561173a45d9e721a9f7e4.jpeg?w=1200&h=600&fit=crop",
   "author": {
@@ -14041,27 +14040,31 @@ export const blogPosts: BlogPost[] = [
     "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
   "category": {
-    "name": "INI-CET",
-    "slug": "ini-cet",
-    "color": "bg-blue-100 text-blue-800"
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-green-100 text-green-800"
   },
   "tags": [
     "INI-CET Counselling",
     "INI-CET 2025",
     "MD/MS Admissions",
-    "AIIMS Counselling",
-    "Seat Allotment",
-    "Choice Filling"
+    "AIIMS",
+    "Counselling Process",
+    "Seat Allotment"
   ],
-  "published_date": "2025-11-13",
-  "read_time": 15,
-  "meta_title": "INI-CET Counselling 2025: A Complete Step-by-Step Guide for MD/MS Aspirants",
+  "published_date": "2025-12-21",
+  "read_time": 12,
   "meta_description": "Navigate INI CET Counselling 2025 with ease using this step by step guide covering registration, choice filling, and seat allotment for MD and MS aspirants.",
   "sections": [
     {
       "id": "intro",
       "type": "paragraph",
-      "content": "The INI-CET 2025 November session result has been declared on. Also, it helps to initiate the INI-CET counselling process for MD/MS admissions at AIIMS and the Institutes of National Importance. It is basically conducted by AIIMS, which is in New Delhi. This ultimate process provides admission to postgraduate courses like MD, MS from those premier institutes such as AIIMS, JIPMER, NIMHANS, and PGIMER.\n\nAlthough if you've cleared the exam, the next steps, from checking your result to locking your preferred choices, along with the requirement for careful attention. Here's a complete post-result, which will give you an overall step-by-step guide to help you navigate the INI-CET counselling process smoothly."
+      "content": "The INI-CET 2025 November session result has been declared. Also, it helps to initiate the INI-CET counselling process for MD/MS admissions at AIIMS and the Institutes of National Importance. It is basically conducted by AIIMS, which is in New Delhi. This ultimate process provides admission to postgraduate courses like MD, MS from those premier institutes such as AIIMS, JIPMER, NIMHANS, and PGIMER."
+    },
+    {
+      "id": "intro-purpose",
+      "type": "paragraph",
+      "content": "Although if you've cleared the exam, the next steps, from checking your result to locking your preferred choices, along with the requirement for careful attention. Here's a complete post-result, which will give you an overall step-by-step guide to help you navigate the INI-CET counselling process smoothly."
     },
     {
       "id": "check-result",
@@ -14070,12 +14073,22 @@ export const blogPosts: BlogPost[] = [
       "level": 2
     },
     {
-      "id": "check-result-content",
+      "id": "check-result-visit",
       "type": "paragraph",
-      "content": "Visit the official website: https://aiimsexams.ac.in. Once the results are declared.\n\nYou can easily access your result through 'MyPage' login at aiimsexams.ac.in by using your candidate ID and password, which were provided via registered email.\n\nAfter that, you just have to download your scorecard that displays:"
+      "content": "Visit the official website: https://aiimsexams.ac.in. Once the results are declared."
     },
     {
-      "id": "scorecard-details",
+      "id": "check-result-access",
+      "type": "paragraph",
+      "content": "You can easily access your result through 'MyPage' login at aiimsexams.ac.in by using your candidate ID and password, which were provided via registered email."
+    },
+    {
+      "id": "check-result-download",
+      "type": "paragraph",
+      "content": "After that, you just have to download your scorecard that displays:"
+    },
+    {
+      "id": "check-result-list",
       "type": "list",
       "items": [
         "Overall Rank",
@@ -14084,9 +14097,14 @@ export const blogPosts: BlogPost[] = [
       ]
     },
     {
-      "id": "scorecard-save",
+      "id": "check-result-save",
       "type": "paragraph",
-      "content": "Save that PDF as a photocopy and take a printout for future reference; it will be the most important part for the INI-CET counselling, your counselling, document verification, and seat allocation.\n\n**Tip:** Cross-verify all details (name, category, application number) immediately after downloading to avoid discrepancies later."
+      "content": "Save that PDF as a photocopy and take a printout for future reference; it will be the most important part for the INI-CET counselling, your counselling, document verification, and seat allocation."
+    },
+    {
+      "id": "check-result-tip",
+      "type": "paragraph",
+      "content": "Tip: Cross-verify all details (name, category, application number) immediately after downloading to avoid discrepancies later."
     },
     {
       "id": "verify-eligibility",
@@ -14100,13 +14118,13 @@ export const blogPosts: BlogPost[] = [
       "content": "Before moving forward in your INI-CET counselling process, just make sure that you will meet all the eligibility criteria for admission through INI-CET 2025:"
     },
     {
-      "id": "eligibility-conditions",
+      "id": "verify-eligibility-conditions",
       "type": "heading",
       "title": "Essential Eligibility Conditions:",
       "level": 3
     },
     {
-      "id": "eligibility-list",
+      "id": "verify-eligibility-conditions-list",
       "type": "list",
       "items": [
         "You must hold your MBBS/BDS degree from an NMC-recognized institution",
@@ -14115,18 +14133,18 @@ export const blogPosts: BlogPost[] = [
       ]
     },
     {
-      "id": "documents-prep",
+      "id": "verify-eligibility-prepare",
       "type": "paragraph",
       "content": "Once all the details are confirmed, all you have to prepare are both scanned and physical copies of all your required documents for uploading and verification."
     },
     {
-      "id": "documents-heading",
+      "id": "verify-eligibility-documents",
       "type": "heading",
       "title": "Important Documents to Keep Ready:",
       "level": 3
     },
     {
-      "id": "documents-list",
+      "id": "verify-eligibility-documents-list",
       "type": "list",
       "items": [
         "Your INI-CET 2025 Scorecard should be with you",
@@ -14138,29 +14156,29 @@ export const blogPosts: BlogPost[] = [
       ]
     },
     {
-      "id": "documents-tip",
+      "id": "verify-eligibility-tip",
       "type": "paragraph",
-      "content": "**Tip:** Keep all documents in a labelled folder (both digital and physical) to ensure you can upload or present them without delay during the online counselling rounds."
+      "content": "Tip: Keep all documents in a labelled folder (both digital and physical) to ensure you can upload or present them without delay during the online counselling rounds."
     },
     {
-      "id": "registration",
+      "id": "register",
       "type": "heading",
       "title": "Register for INI-CET Online Counselling",
       "level": 2
     },
     {
-      "id": "registration-intro",
+      "id": "register-intro",
       "type": "paragraph",
-      "content": "After the INI-CET counselling notice is released, which is in November, you can definitely proceed with your registration for the seat allocation process on the AIIMS website:\n\nhttps://aiimsexams.ac.in"
+      "content": "After the INI-CET counselling notice is released, which is in November, you can definitely proceed with your registration for the seat allocation process on the AIIMS website: https://aiimsexams.ac.in"
     },
     {
-      "id": "registration-steps-heading",
+      "id": "register-how",
       "type": "heading",
       "title": "How to Register:",
       "level": 3
     },
     {
-      "id": "registration-steps",
+      "id": "register-how-list",
       "type": "list",
       "items": [
         "First step, you have to log in again using your Candidate ID and Password.",
@@ -14171,7 +14189,7 @@ export const blogPosts: BlogPost[] = [
       ]
     },
     {
-      "id": "registration-mandatory",
+      "id": "register-mandatory",
       "type": "paragraph",
       "content": "This registration is mandatory to be eligible for all INI-CET counselling and the seat allocation rounds. But if you are non-registered candidates, you will not be considered for any round of counselling."
     },
@@ -14184,10 +14202,15 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "choice-filling-intro",
       "type": "paragraph",
-      "content": "Once your registration is done, you will be directed to the choice-filling portal, where you can easily select your preferred institutes and specialties.\n\nHere's how the process works:"
+      "content": "Once your registration is done, you will be directed to the choice-filling portal, where you can easily select your preferred institutes and specialties."
     },
     {
-      "id": "choice-filling-steps",
+      "id": "choice-filling-how",
+      "type": "paragraph",
+      "content": "Here's how the process works:"
+    },
+    {
+      "id": "choice-filling-list",
       "type": "list",
       "items": [
         "Just carefully read the list of some available AIIMS and INIs (like PGIMER, NIMHANS, JIPMER).",
@@ -14200,21 +14223,21 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "choice-filling-tip",
       "type": "paragraph",
-      "content": "**Tip:** As a candidate, you need to research each institute's past cut-off trends and specialty options before locking in your preferred choices to make an informed decision."
+      "content": "Tip: As a candidate, you need to research each institute's past cut-off trends and specialty options before locking in your preferred choices to make an informed decision."
     },
     {
-      "id": "seat-allotment",
+      "id": "what-happens-next",
       "type": "heading",
       "title": "What Happens Next: Seat Allotment and Reporting",
       "level": 2
     },
     {
-      "id": "seat-allotment-intro",
+      "id": "what-happens-next-intro",
       "type": "paragraph",
       "content": "After the choice filling deadline:"
     },
     {
-      "id": "seat-allotment-steps",
+      "id": "what-happens-next-list",
       "type": "list",
       "items": [
         "AIIMS has just released the temporary seat allotment result, which should be based on merit, category, and preference.",
@@ -14230,9 +14253,14 @@ export const blogPosts: BlogPost[] = [
       "level": 2
     },
     {
-      "id": "final-advice-content",
+      "id": "final-advice-crucial",
       "type": "paragraph",
-      "content": "The INI-CET counselling process is very crucial as the exam itself. Every step from registration to choice filling and seat locking perfectly regulates your final seat.\n\nJust remember, your success in INI-CET 2025 doesn't end with just clearing the exam; it comes to an end in securing the preferred seat at the right institute. You just have to do careful planning, give attention to every minor detail, and timely action can make all the difference in your postgraduate journey."
+      "content": "The INI-CET counselling process is very crucial as the exam itself. Every step from registration to choice filling and seat locking perfectly regulates your final seat."
+    },
+    {
+      "id": "final-advice-remember",
+      "type": "paragraph",
+      "content": "Just remember, your success in INI-CET 2025 doesn't end with just clearing the exam; it comes to an end in securing the preferred seat at the right institute. You just have to do careful planning, give attention to every minor detail, and timely action can make all the difference in your postgraduate journey."
     },
     {
       "id": "faqs",
@@ -14241,74 +14269,29 @@ export const blogPosts: BlogPost[] = [
       "level": 2
     },
     {
-      "id": "faq-1",
-      "type": "heading",
-      "title": "Q1: When will the INI-CET November 2025 counselling begin?",
-      "level": 3
-    },
-    {
-      "id": "faq-1-answer",
-      "type": "paragraph",
-      "content": "**A:** Counselling registration for the November 2025 session begins in the last week of December 2025. The result was declared on November 15, 2025."
-    },
-    {
-      "id": "faq-2",
-      "type": "heading",
-      "title": "Q2: Mention what documents are required for counselling registration?",
-      "level": 3
-    },
-    {
-      "id": "faq-2-answer",
-      "type": "paragraph",
-      "content": "**A:** The documents required for your counselling registration are: MBBS/BDS degree certificate, internship completion certificate, NMC/SMC or Dental Council registration, category certificate if it's applicable, PwD certificate, and photo ID proof."
-    },
-    {
-      "id": "faq-3",
-      "type": "heading",
-      "title": "Q3: How many rounds of counselling are conducted?",
-      "level": 3
-    },
-    {
-      "id": "faq-3-answer",
-      "type": "paragraph",
-      "content": "**A:** There are a total of four rounds: the first is a mock Round (preference testing without allocation), considered as (primary), Round 2 is all about (vacant/upgraded seats), and the Open Round (final vacancies)."
-    },
-    {
-      "id": "faq-4",
-      "type": "heading",
-      "title": "Q4: Can I modify my choices after locking them?",
-      "level": 3
-    },
-    {
-      "id": "faq-4-answer",
-      "type": "paragraph",
-      "content": "**A:** No. Choice locking is irreversible. Modifications permitted only until the locking deadline. System auto-locks choices if manual locking is not completed by the cutoff."
-    },
-    {
-      "id": "faq-5",
-      "type": "heading",
-      "title": "Q5: What happens if I don't report after seat allotment?",
-      "level": 3
-    },
-    {
-      "id": "faq-5-answer",
-      "type": "paragraph",
-      "content": "**A:** Non-reporting results in seat forfeiture and ineligibility for subsequent counselling rounds. Physical reporting with original documents must occur within a specified timeline (typically 5-7 days)."
-    },
-    {
-      "id": "keywords",
-      "type": "keywords",
-      "title": "Related Keywords",
-      "keywords": [
-         "INI CET Counselling",
-  "INI CET Counselling Process",
-  "INI CET Counselling 2025",
-  "INI CET 2025 Counselling",
-  "INICET Counselling",
-  "INICET Counselling Registration",
-  "INICET Counselling Round 1",
-  "INI CET Counselling Round 2",
-  "INI CET Counselling Open Round"
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1: When will the INI-CET November 2025 counselling begin?",
+          "answer": "Counselling registration for the November 2025 session begins in the last week of December 2025. The result was declared on November 15, 2025."
+        },
+        {
+          "question": "Q2: Mention what documents are required for counselling registration?",
+          "answer": "The documents required for your counselling registration are: MBBS/BDS degree certificate, internship completion certificate, NMC/SMC or Dental Council registration, category certificate if it's applicable, PwD certificate, and photo ID proof."
+        },
+        {
+          "question": "Q3: How many rounds of counselling are conducted?",
+          "answer": "There are a total of four rounds: the first is a mock Round (preference testing without allocation), considered as (primary), Round 2 is all about (vacant/upgraded seats), and the Open Round (final vacancies)."
+        },
+        {
+          "question": "Q4: Can I modify my choices after locking them?",
+          "answer": "No. Choice locking is irreversible. Modifications permitted only until the locking deadline. System auto-locks choices if manual locking is not completed by the cutoff."
+        },
+        {
+          "question": "Q5: What happens if I don't report after seat allotment?",
+          "answer": "Non-reporting results in seat forfeiture and ineligibility for subsequent counselling rounds. Physical reporting with original documents must occur within a specified timeline (typically 5-7 days)."
+        }
       ]
     },
     {
@@ -14316,9 +14299,315 @@ export const blogPosts: BlogPost[] = [
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
       "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "ini-cet counselling",
+        "ini-cet counselling process",
+        "ini-cet counselling 2025",
+        "ini-cet 2025 counselling",
+        "ini-cet counselling registration",
+        "ini-cet counselling rounds 1",
+        "ini-cet counselling round 2",
+        "ini-cet counselling open round"
+      ]
     }
   ]
 },
+
+// {
+//   "id": 40,
+//   "title": "INI-CET Counselling 2025: A Complete Step-by-Step Guide for MD/MS Aspirants",
+//   "slug": "ini-cet-counselling-2025-complete-guide-md-ms-aspirants",
+//   "excerpt": "Navigate INI CET Counselling 2025 with ease using this step by step guide covering registration, choice filling, and seat allotment for MD and MS aspirants.",
+//   "featured_image": "https://cdn.dribbble.com/userupload/45687120/file/dd6a8710796561173a45d9e721a9f7e4.jpeg?w=1200&h=600&fit=crop",
+//   "author": {
+//     "name": "Believers Team",
+//     "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+//     "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+//   },
+//   "category": {
+//     "name": "INI-CET",
+//     "slug": "ini-cet",
+//     "color": "bg-blue-100 text-blue-800"
+//   },
+//   "tags": [
+//     "INI-CET Counselling",
+//     "INI-CET 2025",
+//     "MD/MS Admissions",
+//     "AIIMS Counselling",
+//     "Seat Allotment",
+//     "Choice Filling"
+//   ],
+//   "published_date": "2025-11-13",
+//   "read_time": 15,
+//   "meta_title": "INI-CET Counselling 2025: A Complete Step-by-Step Guide for MD/MS Aspirants",
+//   "meta_description": "Navigate INI CET Counselling 2025 with ease using this step by step guide covering registration, choice filling, and seat allotment for MD and MS aspirants.",
+//   "sections": [
+//     {
+//       "id": "intro",
+//       "type": "paragraph",
+//       "content": "The INI-CET 2025 November session result has been declared on. Also, it helps to initiate the INI-CET counselling process for MD/MS admissions at AIIMS and the Institutes of National Importance. It is basically conducted by AIIMS, which is in New Delhi. This ultimate process provides admission to postgraduate courses like MD, MS from those premier institutes such as AIIMS, JIPMER, NIMHANS, and PGIMER.\n\nAlthough if you've cleared the exam, the next steps, from checking your result to locking your preferred choices, along with the requirement for careful attention. Here's a complete post-result, which will give you an overall step-by-step guide to help you navigate the INI-CET counselling process smoothly."
+//     },
+//     {
+//       "id": "check-result",
+//       "type": "heading",
+//       "title": "Check Your INI-CET Result and Rank",
+//       "level": 2
+//     },
+//     {
+//       "id": "check-result-content",
+//       "type": "paragraph",
+//       "content": "Visit the official website: https://aiimsexams.ac.in. Once the results are declared.\n\nYou can easily access your result through 'MyPage' login at aiimsexams.ac.in by using your candidate ID and password, which were provided via registered email.\n\nAfter that, you just have to download your scorecard that displays:"
+//     },
+//     {
+//       "id": "scorecard-details",
+//       "type": "list",
+//       "items": [
+//         "Overall Rank",
+//         "Category Rank",
+//         "Percentile Score"
+//       ]
+//     },
+//     {
+//       "id": "scorecard-save",
+//       "type": "paragraph",
+//       "content": "Save that PDF as a photocopy and take a printout for future reference; it will be the most important part for the INI-CET counselling, your counselling, document verification, and seat allocation.\n\n**Tip:** Cross-verify all details (name, category, application number) immediately after downloading to avoid discrepancies later."
+//     },
+//     {
+//       "id": "verify-eligibility",
+//       "type": "heading",
+//       "title": "Verify Eligibility and Keep Documents Ready",
+//       "level": 2
+//     },
+//     {
+//       "id": "verify-eligibility-intro",
+//       "type": "paragraph",
+//       "content": "Before moving forward in your INI-CET counselling process, just make sure that you will meet all the eligibility criteria for admission through INI-CET 2025:"
+//     },
+//     {
+//       "id": "eligibility-conditions",
+//       "type": "heading",
+//       "title": "Essential Eligibility Conditions:",
+//       "level": 3
+//     },
+//     {
+//       "id": "eligibility-list",
+//       "type": "list",
+//       "items": [
+//         "You must hold your MBBS/BDS degree from an NMC-recognized institution",
+//         "You must have completed the internship before the specified cutoff date.",
+//         "Hold a valid MCI/NMC registration (or DCI for dental courses)."
+//       ]
+//     },
+//     {
+//       "id": "documents-prep",
+//       "type": "paragraph",
+//       "content": "Once all the details are confirmed, all you have to prepare are both scanned and physical copies of all your required documents for uploading and verification."
+//     },
+//     {
+//       "id": "documents-heading",
+//       "type": "heading",
+//       "title": "Important Documents to Keep Ready:",
+//       "level": 3
+//     },
+//     {
+//       "id": "documents-list",
+//       "type": "list",
+//       "items": [
+//         "Your INI-CET 2025 Scorecard should be with you",
+//         "The MBBS/BDS Degree Certificate most essential documents",
+//         "Internship Completion Certificate will also be their",
+//         "Your certified MCI/NMC (or DCI) Registration Certificate",
+//         "Proof of your Photo ID (Aadhaar, PAN, Passport, or Driving License)",
+//         "If applicable, carry your Caste/Category Certificate and PwD Certificate"
+//       ]
+//     },
+//     {
+//       "id": "documents-tip",
+//       "type": "paragraph",
+//       "content": "**Tip:** Keep all documents in a labelled folder (both digital and physical) to ensure you can upload or present them without delay during the online counselling rounds."
+//     },
+//     {
+//       "id": "registration",
+//       "type": "heading",
+//       "title": "Register for INI-CET Online Counselling",
+//       "level": 2
+//     },
+//     {
+//       "id": "registration-intro",
+//       "type": "paragraph",
+//       "content": "After the INI-CET counselling notice is released, which is in November, you can definitely proceed with your registration for the seat allocation process on the AIIMS website:\n\nhttps://aiimsexams.ac.in"
+//     },
+//     {
+//       "id": "registration-steps-heading",
+//       "type": "heading",
+//       "title": "How to Register:",
+//       "level": 3
+//     },
+//     {
+//       "id": "registration-steps",
+//       "type": "list",
+//       "items": [
+//         "First step, you have to log in again using your Candidate ID and Password.",
+//         "Then, after that, click on the \"Seat Allocation/Counselling\" section, which is mentioned under INI-CET.",
+//         "Before reviewing, just cross-check all the details, your personal, educational, and contact details.",
+//         "Finally, just check all details carefully before final submission.",
+//         "Save your registration confirmation for future rounds."
+//       ]
+//     },
+//     {
+//       "id": "registration-mandatory",
+//       "type": "paragraph",
+//       "content": "This registration is mandatory to be eligible for all INI-CET counselling and the seat allocation rounds. But if you are non-registered candidates, you will not be considered for any round of counselling."
+//     },
+//     {
+//       "id": "choice-filling",
+//       "type": "heading",
+//       "title": "Choice Filling and Locking",
+//       "level": 2
+//     },
+//     {
+//       "id": "choice-filling-intro",
+//       "type": "paragraph",
+//       "content": "Once your registration is done, you will be directed to the choice-filling portal, where you can easily select your preferred institutes and specialties.\n\nHere's how the process works:"
+//     },
+//     {
+//       "id": "choice-filling-steps",
+//       "type": "list",
+//       "items": [
+//         "Just carefully read the list of some available AIIMS and INIs (like PGIMER, NIMHANS, JIPMER).",
+//         "In order of priority, you just have to fill your choices; make sure your top preferred course and institute are listed first.",
+//         "You can add, remove, or rearrange your personal preferences multiple times until the choice-filling is completed by the cutoff time.",
+//         "Once you are satisfied with all your information, lock your choices before the closing date. There will be no changes that can be made after locking.",
+//         "Take a printout of the locked choices for reference."
+//       ]
+//     },
+//     {
+//       "id": "choice-filling-tip",
+//       "type": "paragraph",
+//       "content": "**Tip:** As a candidate, you need to research each institute's past cut-off trends and specialty options before locking in your preferred choices to make an informed decision."
+//     },
+//     {
+//       "id": "seat-allotment",
+//       "type": "heading",
+//       "title": "What Happens Next: Seat Allotment and Reporting",
+//       "level": 2
+//     },
+//     {
+//       "id": "seat-allotment-intro",
+//       "type": "paragraph",
+//       "content": "After the choice filling deadline:"
+//     },
+//     {
+//       "id": "seat-allotment-steps",
+//       "type": "list",
+//       "items": [
+//         "AIIMS has just released the temporary seat allotment result, which should be based on merit, category, and preference.",
+//         "Although candidates who are allotted a seat must accept, refuse, or opt for upgradation within the given time limitation.",
+//         "Those who accept must report physically to the allotted institute with all original documents for verification and fee payment.",
+//         "In the successive round 2 and Open Rounds will be conducted for vacant seats."
+//       ]
+//     },
+//     {
+//       "id": "final-advice",
+//       "type": "heading",
+//       "title": "Final Advice for INI-CET Aspirants",
+//       "level": 2
+//     },
+//     {
+//       "id": "final-advice-content",
+//       "type": "paragraph",
+//       "content": "The INI-CET counselling process is very crucial as the exam itself. Every step from registration to choice filling and seat locking perfectly regulates your final seat.\n\nJust remember, your success in INI-CET 2025 doesn't end with just clearing the exam; it comes to an end in securing the preferred seat at the right institute. You just have to do careful planning, give attention to every minor detail, and timely action can make all the difference in your postgraduate journey."
+//     },
+//     {
+//       "id": "faqs",
+//       "type": "heading",
+//       "title": "5 Concise FAQs",
+//       "level": 2
+//     },
+//     {
+//       "id": "faq-1",
+//       "type": "heading",
+//       "title": "Q1: When will the INI-CET November 2025 counselling begin?",
+//       "level": 3
+//     },
+//     {
+//       "id": "faq-1-answer",
+//       "type": "paragraph",
+//       "content": "**A:** Counselling registration for the November 2025 session begins in the last week of December 2025. The result was declared on November 15, 2025."
+//     },
+//     {
+//       "id": "faq-2",
+//       "type": "heading",
+//       "title": "Q2: Mention what documents are required for counselling registration?",
+//       "level": 3
+//     },
+//     {
+//       "id": "faq-2-answer",
+//       "type": "paragraph",
+//       "content": "**A:** The documents required for your counselling registration are: MBBS/BDS degree certificate, internship completion certificate, NMC/SMC or Dental Council registration, category certificate if it's applicable, PwD certificate, and photo ID proof."
+//     },
+//     {
+//       "id": "faq-3",
+//       "type": "heading",
+//       "title": "Q3: How many rounds of counselling are conducted?",
+//       "level": 3
+//     },
+//     {
+//       "id": "faq-3-answer",
+//       "type": "paragraph",
+//       "content": "**A:** There are a total of four rounds: the first is a mock Round (preference testing without allocation), considered as (primary), Round 2 is all about (vacant/upgraded seats), and the Open Round (final vacancies)."
+//     },
+//     {
+//       "id": "faq-4",
+//       "type": "heading",
+//       "title": "Q4: Can I modify my choices after locking them?",
+//       "level": 3
+//     },
+//     {
+//       "id": "faq-4-answer",
+//       "type": "paragraph",
+//       "content": "**A:** No. Choice locking is irreversible. Modifications permitted only until the locking deadline. System auto-locks choices if manual locking is not completed by the cutoff."
+//     },
+//     {
+//       "id": "faq-5",
+//       "type": "heading",
+//       "title": "Q5: What happens if I don't report after seat allotment?",
+//       "level": 3
+//     },
+//     {
+//       "id": "faq-5-answer",
+//       "type": "paragraph",
+//       "content": "**A:** Non-reporting results in seat forfeiture and ineligibility for subsequent counselling rounds. Physical reporting with original documents must occur within a specified timeline (typically 5-7 days)."
+//     },
+//     {
+//       "id": "keywords",
+//       "type": "keywords",
+//       "title": "Related Keywords",
+//       "keywords": [
+//          "INI CET Counselling",
+//   "INI CET Counselling Process",
+//   "INI CET Counselling 2025",
+//   "INI CET 2025 Counselling",
+//   "INICET Counselling",
+//   "INICET Counselling Registration",
+//   "INICET Counselling Round 1",
+//   "INI CET Counselling Round 2",
+//   "INI CET Counselling Open Round"
+//       ]
+//     },
+//     {
+//       "id": "contact-form",
+//       "type": "contact-form",
+//       "title": "Submit queries to BelieversConsultancy",
+//       "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+//     }
+//   ]
+// },
 {
   "id": 42,
   "title": "INI-CET 2025 Counselling Explained: Seat Allotment, Upgradation & Final Admission Process",
