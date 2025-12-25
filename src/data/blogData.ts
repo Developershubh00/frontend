@@ -44,323 +44,399 @@ export interface Section {
 }
 
 export const blogPosts: BlogPost[] = [
-    {
-    id: 1,
-    title: "NRI Category Seats in NEET PG 2025: Understanding the New MEA Guidelines",
-    slug: "nri-category-seats-neet-pg-2025-mea-guidelines",
-    excerpt: "The NRI quota has always been the most important gateway for candidates aiming to secure a postgraduate medical seat in India. However, recent MEA notifications have created significant changes.",
-    featured_image: "https://cdn.dribbble.com/userupload/45458725/file/444c433cbdc94b76a1601922220e34f0.png?w=1200&h=600&fit=crop",
-    author: {
-      name: "Believers Team",
-      avatar: "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
-      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
-    },
-    category: {
-      name: "NEET PG",
-      slug: "neet-pg",
-      color: "bg-blue-100 text-blue-800"
-    },
-    tags: ["NEET PG 2025", "NRI Quota", "MEA Guidelines", "Medical Admissions"],
-    published_date: "2025-10-05",
-    read_time: 5,
-    meta_description: " Explore NRI category seat eligibility, documentation, and MEA’s latest guidelines for NEET PG 2025 Counselling to secure your dream postgraduate seat.",
-    sections: [
-      {
-        id: "intro",
-        type: "paragraph",
-        content: "The NRI (Non-Resident Indian) quota has always been the most important gateway for all the candidates who are aiming to secure a postgraduate medical seat in India. However, with the recent Ministry of External Affairs (MEA) notifications, the process of acquiring an NRI certificate from Indian embassies abroad has seen remarkable changes. These changes have created some confusion for many NEET PG 2025 aspirants.\n\nThis blog explains the updated details, eligibility, and other documentation challenges so that candidates can be clear about how these rules impact All India Counselling and State Counselling."
-      },
-      {
-        id: "why-change",
-        type: "heading",
-        title: "Why This Change Matters",
-        level: 2
-      },
-      {
-        id: "why-change-content",
-        type: "paragraph",
-        content: "Commonly, NRI eligibility and documentation varied across states and institutions. While many states depend on an embassy-issued NRI certificate, there is no systematic format. To make the process smooth, the MEA has issued fresh guidelines in 2024 (first for NEET UG) and now it has been extended for NEET PG 2025, which regulates who can be issued an NRI certificate for their educational purposes."
-      },
-      {
-        id: "why-change-alert",
-        type: "info-box",
-        boxType: "warning",
-        content: "As a result, many PG aspirants are struggling to secure the valid embassy certificates, especially for those who depend upon their relatives for NRI sponsorship."
-      },
-      {
-        id: "eligibility",
-        type: "heading",
-        title: "Who Is Eligible for NRI Seats?",
-        level: 2
-      },
-      {
-        id: "eligibility-intro",
-        type: "paragraph",
-        content: "Eligibility for NRI quota seats is not uniform. It depends on whether you are applying through All India Counselling (MCC) or State Counselling."
-      },
-      {
-        id: "eligibility-cards",
-        type: "cards",
-        cards: [
-          {
-            id: "direct-nri",
-            title: "Direct NRI Candidates",
-            color: "green",
-            items: [
-              "If you are an NRI yourself, you are eligible.",
-              "Proof: Residence abroad for more than 180 days and an embassy-issued NRI certificate."
-            ]
-          },
-          {
-            id: "children-nri",
-            title: "Children of NRI Parents",
-            color: "blue",
-            items: [
-              "If either parent is an NRI, you qualify for the NRI quota in most states.",
-              "An embassy certificate of the parent is required."
-            ]
-          },
-          {
-            id: "sponsored",
-            title: "Sponsored Candidates ⚠️",
-            color: "red",
-            items: [
-              "Previously allowed sponsorship by relatives",
-              "Now restricted to minor wards only",
-              "Adult candidates (22+) are effectively blocked"
-            ]
-          }
-        ]
-      },
-      {
-        id: "mea-guidelines",
-        type: "heading",
-        title: "MEA Guidelines: What Changed?",
-        level: 2
-      },
-      {
-        id: "mea-content",
-        type: "paragraph",
-        content: "The new MEA notification has been circulated to all the Indian embassies and commissions abroad, specifying:"
-      },
-      {
-        id: "mea-eligible",
-        type: "info-box",
-        boxType: "success",
-        content: "✅ Eligibility for NRI Certificate (Educational Purposes):\n• NRI candidates themselves\n• Children of NRIs\n• Wards only if minors under genuine guardianship"
-      },
-      {
-        id: "mea-excluded",
-        type: "info-box",
-        boxType: "error",
-        content: "❌ Exclusions:\nAdult wards or relatives (e.g., cousins, uncles, aunts) cannot be issued sponsorship-based NRI certificates. This is why many PG aspirants are being denied certificates at embassies, especially in the US and UAE."
-      },
-      {
-        id: "impact-counselling",
-        type: "heading",
-        title: "Impact on NEET PG 2025 Counselling",
-        level: 2
-      },
-      {
-        id: "impact-cards",
-        type: "cards",
-        cards: [
-          {
-            id: "all-india",
-            title: "All India Counselling (Deemed Universities)",
-            color: "blue",
-            items: [
-              "Only deemed universities have NRI seats under MCC",
-              "15% of deemed university seats are reserved for NRIs",
-              "Till 2024, sponsorship by first-degree relatives was valid",
-              "From 2025, only NRIs themselves or children of NRIs will likely be recognized under Priority 1"
-            ]
-          },
-          {
-            id: "state-counselling",
-            title: "State Counselling",
-            color: "purple",
-            items: [
-              "Many states reserve 15% of private medical seats under NRI quota",
-              "Some states give priority to their own NRI candidates first",
-              "If embassy certificates cannot be issued to adult wards, sponsorship eligibility may collapse"
-            ]
-          }
-        ]
-      },
-      {
-        id: "priority-system",
-        type: "info-box",
-        boxType: "info",
-        content: "Priority System Introduced:\n\nPriority 1: NRI candidates and children of NRIs\nPriority 2: First- or second-degree relatives sponsoring wards (practically blocked due to 'minor only' rule)\n\nThis means direct NRI candidates and children of NRIs will have a clear advantage, while relatives-based sponsorship faces uncertainty."
-      },
-      {
-        id: "documentation",
-        type: "heading",
-        title: "Documentation Requirements",
-        level: 2
-      },
-      {
-        id: "documentation-intro",
-        type: "paragraph",
-        content: "If you are applying under the NRI category, keep these documents ready:"
-      },
-      {
-        id: "documentation-list",
-        type: "list",
-        items: [
-          "Embassy-issued NRI Certificate (valid for only 1 year)",
-          "Passport & Visa copies (of NRI candidate/parent)",
-          "Relationship proof (Birth certificate, family tree affidavit)",
-          "Affidavit (for financial sponsorship, if applicable)",
-          "NEET PG Scorecard",
-          "Self-declaration by the candidate"
-        ]
-      },
-      {
-        id: "documentation-note",
-        type: "info-box",
-        boxType: "error",
-        content: "📌 Note: Old NRI certificates issued last year are not valid for NEET PG 2025."
-      },
-      {
-        id: "challenges",
-        type: "heading",
-        title: "The Challenge for PG Aspirants",
-        level: 2
-      },
-      {
-        id: "challenges-cards",
-        type: "cards",
-        cards: [
-          {
-            id: "ug-candidates",
-            title: "✅ For UG Candidates",
-            color: "green",
-            items: [
-              "Relatives can still sponsor undergraduate (UG) candidates who are minors."
-            ]
-          },
-          {
-            id: "pg-candidates",
-            title: "❌ For PG Candidates",
-            color: "red",
-            items: [
-              "Postgraduate (PG) candidates (adults) cannot obtain sponsorship certificates from embassies if they are not children of an NRI."
-            ]
-          }
-        ]
-      },
-      {
-        id: "challenge-key",
-        type: "info-box",
-        boxType: "warning",
-        content: "Key Issue: Many embassies are now outright refusing to issue sponsorship-based NRI certificates for PG candidates. This creates significant problems for candidates who depend on uncles, aunts, or grandparents for eligibility."
-      },
-      {
-        id: "practical-implications",
-        type: "heading",
-        title: "Practical Implications for Candidates",
-        level: 2
-      },
-      {
-        id: "practical-aspirants",
-        type: "heading",
-        title: "For Current NEET PG Aspirants",
-        level: 3
-      },
-      {
-        id: "practical-list",
-        type: "list",
-        items: [
-          "If you are an NRI yourself or child of an NRI, the process is still straightforward, but documentation requirements are more stringent",
-          "Sponsorship by extended family (uncle, aunt, grandmother) is no longer possible for adult candidates",
-          "OCI/PIO status holders may benefit from reduced competition due to fewer eligible sponsored candidates"
-        ]
-      },
-      {
-        id: "financial",
-        type: "heading",
-        title: "💰 Financial Considerations",
-        level: 3
-      },
-      {
-        id: "financial-list",
-        type: "list",
-        items: [
-          "NRI quota seats cost 3-5 times higher than general seats",
-          "With concentrated demand among eligible candidates, remaining NRI seats may become even more expensive",
-          "Limited eligibility may lead to increased competition and higher fees"
-        ]
-      },
-      {
-        id: "final-word",
-        type: "info-box",
-        boxType: "info",
-        content: "Final Word\n\nNRI eligibility for NEET PG 2025 has been restricted by the new MEA guidelines. This has simplified the process for direct NRIs and their children, but created challenges for candidates dependent on extended family sponsorship.\n\nIf you are a candidate, please confirm your eligibility and required documents thoroughly before counselling starts.\n\nThe path remains open for genuine NRI candidates, but the biggest challenge for sponsored candidates this year will be obtaining embassy certificates."
-      },
-      {
-        id: "faqs",
-        type: "heading",
-        title: "Frequently Asked Questions",
-        level: 2
-      },
-      {
-        id: "faqs-list",
-        type: "faq",
-        faqs: [
-          {
-            question: "Q1. Who can get an educational NRI certificate from an Indian Mission/Post?",
-            answer: "Issued only to NRIs, their children, or minors under guardianship. Adult-ward sponsorships aren't allowed. Valid for one year."
-          },
-          {
-            question: "Q2. Will MCC PG follow UG's NRI priority system?",
-            answer: "Likely similar, but wait for the latest MCC PG notice before assuming allotment priority."
-          },
-          {
-            question: "Q3. Can extended relatives sponsor a PG candidate for an NRI certificate?",
-            answer: "No. 'Ward' means a minor; adult candidates cannot use extended-relative sponsorship. Use parent NRI proof or apply under NRI/OCI/PIO rules."
-          },
-          {
-            question: "Q4. What documents are needed for NRI admission?",
-            answer: "Valid NRI certificate, NRI parent/candidate passport & visa, relationship proof, NEET PG scorecard, and state forms. Originals verified at reporting."
-          }
-        ]
-      },
-      {
-  "id": "keywords",
-  "type": "keywords",
-  "title": "Related Keywords",
-  "keywords": [
-   "NEET PG 2025",
-  "All India Counselling",
-  "NEET PG 2025 Counselling",
-  "NEET PG Counselling",
-  "NEET Counselling",
-  "NEET UG Counselling MCC",
-  "MCC NEET UG Counselling",
-  "NEET Counselling Process",
-  "NEET PG Counselling Schedule",
-  "MCC NEET PG Counselling",
-  "AIQ Medical Counselling",
-  "AIQ NEET Counselling",
-  "All India Counseling NEET",
-  "All India Counseling Schedule",
-  "All India Counselling for NEET",
-  "All India Quota in NEET PG",
-  "Counseling Process of NEET",
-  "MCC Counselling NEET UG",
-  "MCC Counselling Process"
-]
-},
-      {
-        id: "contact-form",
-        type: "contact-form",
-        title: "Submit queries to Believers Consultancy",
-        content: "Have a question beyond these FAQs? Submit the Google Form and our team will respond during 9 AM–7 PM support hours."
-      }
-    ]
+    
+  {
+  "id": 1,
+  "title": "NEET PG 2025: Can You Change Your Category in All India Counselling?",
+  "slug": "neet-pg-2025-can-you-change-category-all-india-counselling",
+  "excerpt": "Find out if you can change your category during NEET PG 2025 All India Counselling. Know rules, process, and key updates for hassle-free seat allocation.",
+  "featured_image": "https://cdn.dribbble.com/userupload/45458725/file/444c433cbdc94b76a1601922220e34f0.png?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-green-100 text-green-800"
+  },
+  "tags": [
+    "NEET PG Counselling",
+    "All India Counselling",
+    "MCC NEET PG",
+    "Category Change",
+    "Counselling Rules",
+    "Medical PG"
+  ],
+  "published_date": "2025-12-25",
+  "read_time": 5,
+  "meta_description": "Find out if you can change your category during NEET PG 2025 All India Counselling. Know rules, process, and key updates for hassle-free seat allocation.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "This happens with almost every NEET PG candidate; the same doubt keeps popping up: \"Can I change my category during counselling?\""
+    },
+    {
+      "id": "intro-problem",
+      "type": "paragraph",
+      "content": "Unfortunately, many students face confusion—some realise late that they belong to the OBC-NCL category and not the General category, while others discover that their state and central lists don't match."
+    },
+    {
+      "id": "intro-purpose",
+      "type": "paragraph",
+      "content": "This article is part of our FAQ series for NEET PG 2025 counselling, designed to help you understand the category change process in All India Counselling (MCC NEET PG) simply and practically."
+    },
+    {
+      "id": "section-1",
+      "type": "heading",
+      "title": "First Things: Where Does Your Category Come From?",
+      "level": 2
+    },
+    {
+      "id": "section-1-intro",
+      "type": "paragraph",
+      "content": "When you applied for NEET PG 2025, you selected your category on the NBE portal as one of the following:"
+    },
+    {
+      "id": "section-1-list",
+      "type": "list",
+      "items": [
+        "General",
+        "OBC-NCL",
+        "SC",
+        "ST",
+        "EWS",
+        "PwD status (Yes/No)"
+      ]
+    },
+    {
+      "id": "section-1-locking",
+      "type": "paragraph",
+      "content": "Once you confirm and submit your details, your category information is locked in the NBE system and automatically transferred to the MCC NEET PG counselling portal."
+    },
+    {
+      "id": "section-1-admit-card",
+      "type": "paragraph",
+      "content": "If your admit card shows only GEN, rely on your NBE application form; those details are what MCC uses for the All India Medical Counselling process."
+    },
+    {
+      "id": "section-1-registration",
+      "type": "paragraph",
+      "content": "During the All India Counselling registration, your personal details appear pre-filled from the NBE records. Depending on the counselling interface that year, reservation fields may or may not be editable."
+    },
+    {
+      "id": "section-1-conclusion",
+      "type": "paragraph",
+      "content": "In short, your counselling identity is carried forward from your NBE data to the MCC counselling system."
+    },
+    {
+      "id": "section-2",
+      "type": "heading",
+      "title": "Why Category Matters So Much in All India Counselling",
+      "level": 2
+    },
+    {
+      "id": "section-2-intro",
+      "type": "paragraph",
+      "content": "Here's the tricky part: MCC doesn't give an option like, \"I only want to compete for General seats even though I applied as OBC.\""
+    },
+    {
+      "id": "section-2-algorithm",
+      "type": "paragraph",
+      "content": "When you fill in your choices during the All India counselling schedule, MCC's algorithm automatically checks:"
+    },
+    {
+      "id": "section-2-checks",
+      "type": "list",
+      "items": [
+        "Are General seats available at your rank?",
+        "Are OBC or reserved category seats available?"
+      ]
+    },
+    {
+      "id": "section-2-allocation",
+      "type": "paragraph",
+      "content": "You know, if a General seat is open, then you can be allotted one for sure. However, if there's no OBC seat available at your preferred rank, you may still be offered a General seat, provided your certificate is valid."
+    },
+    {
+      "id": "section-2-warning",
+      "type": "paragraph",
+      "content": "If your OBC certificate is somehow invalid or unavailable, then the allotted institute can surely cancel your admission, and you'll have to wait for the next NEET PG counselling round."
+    },
+    {
+      "id": "section-2-conclusion",
+      "type": "paragraph",
+      "content": "This is the reason why category verification is a make-or-break factor in MCC NEET PG counselling."
+    },
+    {
+      "id": "section-3",
+      "type": "heading",
+      "title": "Common Questions Students Ask",
+      "level": 2
+    },
+    {
+      "id": "section-3-intro",
+      "type": "paragraph",
+      "content": "So, without any further confusion, let's address the most frequent doubts about the category that has changed during the All India Medical Counselling for NEET PG 2025."
+    },
+    {
+      "id": "q1",
+      "type": "heading",
+      "title": "Q1: I applied as a General. Can I change to OBC/SC/ST/EWS?",
+      "level": 3
+    },
+    {
+      "id": "q1-answer-1",
+      "type": "paragraph",
+      "content": "From General → OBC/SC/ST/EWS: NOT POSSIBLE"
+    },
+    {
+      "id": "q1-explanation-1",
+      "type": "paragraph",
+      "content": "Even if you made a very genuine mistake or recently acquired the overall eligibility, MCC NEET PG doesn't allow you to switch from General to a reserved category."
+    },
+    {
+      "id": "q1-pwd-heading",
+      "type": "paragraph",
+      "content": "PWD STATUS: From \"No\" to \"Yes\""
+    },
+    {
+      "id": "q1-pwd-answer",
+      "type": "paragraph",
+      "content": "NOT POSSIBLE."
+    },
+    {
+      "id": "q1-pwd-explanation",
+      "type": "paragraph",
+      "content": "Although if you applied as PWD No, you cannot change later to PWD Yes, even if you became eligible after the exam."
+    },
+    {
+      "id": "q2",
+      "type": "heading",
+      "title": "Q2: I applied as an OBC/SC/ST/EWS candidate. Can I change to General?",
+      "level": 3
+    },
+    {
+      "id": "q2-answer",
+      "type": "paragraph",
+      "content": "Yes, this is possible."
+    },
+    {
+      "id": "q2-explanation",
+      "type": "paragraph",
+      "content": "During the All India counselling registration, MCC displays your category (e.g., OBC-NCL). You can choose to convert to General if you decide not to claim a reserved seat."
+    },
+    {
+      "id": "q3",
+      "type": "heading",
+      "title": "Q3: PWD STATUS: From \"Yes\" to \"No.\"",
+      "level": 3
+    },
+    {
+      "id": "q3-answer",
+      "type": "paragraph",
+      "content": "POSSIBLE."
+    },
+    {
+      "id": "q3-explanation",
+      "type": "paragraph",
+      "content": "If you had selected PWD Yes but failed to obtain the necessary certificate, you can update your status to PWD No during registration."
+    },
+    {
+      "id": "q3-reminder",
+      "type": "paragraph",
+      "content": "Remember: You can only change from Yes to No, not the other way around."
+    },
+    {
+      "id": "section-4",
+      "type": "heading",
+      "title": "Does This Apply to State Counselling Too?",
+      "level": 2
+    },
+    {
+      "id": "section-4-answer",
+      "type": "paragraph",
+      "content": "There will be no. State counselling has a separate process with its own set of rules and regulations."
+    },
+    {
+      "id": "section-4-state-examples",
+      "type": "paragraph",
+      "content": "As you know, each state command, for example, KEA (Karnataka), TN Medical (Tamil Nadu), or BCECE (Bihar), clearly defines its own reservation categories and counselling process."
+    },
+    {
+      "id": "section-4-flexibility",
+      "type": "paragraph",
+      "content": "As a candidate, you may apply as a General in NBE, but you can still be eligible for OBC in your state quota counselling. States don't always copy NBE category data; they collect fresh information during registration."
+    },
+    {
+      "id": "section-4-exceptions",
+      "type": "paragraph",
+      "content": "Only a few states, like Bihar, have stricter norms regarding PWD changes."
+    },
+    {
+      "id": "section-4-conclusion",
+      "type": "paragraph",
+      "content": "So, your NBE category doesn't restrict you in state quota counselling; it's independently verified."
+    },
+    {
+      "id": "section-5",
+      "type": "heading",
+      "title": "Certificate Requirements for All India Counselling",
+      "level": 2
+    },
+    {
+      "id": "section-5-intro",
+      "type": "paragraph",
+      "content": "Here's a quick overview of documents needed during MCC NEET PG counselling 2025:"
+    },
+    {
+      "id": "section-5-table",
+      "type": "table",
+      "headers": ["Category", "Required Certificate", "Criteria"],
+      "rows": [
+        ["OBC", "Non-Creamy Layer certificate", "Family income < ₹8 lakh/year"],
+        ["SC/ST", "Valid caste certificate", "From an authorized officer"],
+        ["EWS", "Income certificate", "Family income < ₹8 lakh/year"],
+        ["PWD", "Disability certificate", "Issued by an approved medical board"],
+        ["General", "No certificate required", "–"]
+      ]
+    },
+    {
+      "id": "section-5-conclusion",
+      "type": "paragraph",
+      "content": "Each document must be valid as per the All India Medical Counselling guidelines for that academic year."
+    },
+    {
+      "id": "section-6",
+      "type": "heading",
+      "title": "Key Recommendations for NEET PG 2025 Aspirants",
+      "level": 2
+    },
+    {
+      "id": "section-6-list",
+      "type": "list",
+      "items": [
+        "Choose carefully: First of all, you need to double-check your category while registering for NEET PG.",
+        "Certificate Availability: You have to make sure that you can obtain valid certificates before the NEET PG counselling schedule starts.",
+        "Understand Limitations: there is something candidates need to understand that the General → Reserved category change isn't allowed.",
+        "Plan Smartly: You can definitely plan smartly so that you can apply for both All India and State counselling to maximize seat options.",
+        "Stay Updated: You have to stay updated regularly and visit the official MCC website and the All India Medical Counselling portal for the latest updates."
+      ]
+    },
+    {
+      "id": "section-7",
+      "type": "heading",
+      "title": "Final Advice for NEET PG 2025 Candidates",
+      "level": 2
+    },
+    {
+      "id": "section-7-intro",
+      "type": "paragraph",
+      "content": "If you are preparing for All India Counselling, keep these points in mind:"
+    },
+    {
+      "id": "section-7-list",
+      "type": "list",
+      "items": [
+        "Always cross-check your category before submitting the NBE form.",
+        "For OBC or EWS candidates, ensure your certificates align with the Central List.",
+        "If you cannot produce valid documents, switch to General during MCC NEET PG registration to avoid cancellation.",
+        "For rare cases like post-exam disability, consult with officials or seek legal support if required."
+      ]
+    },
+    {
+      "id": "section-7-conclusion",
+      "type": "paragraph",
+      "content": "Most importantly, keep track of every notification from MCC NEET PG counselling and NBE, as category-related rules can change yearly."
+    },
+    {
+      "id": "section-8",
+      "type": "heading",
+      "title": "Mock Counselling and All India Registration Tip",
+      "level": 2
+    },
+    {
+      "id": "section-8-content",
+      "type": "paragraph",
+      "content": "You know what, before the official rounds begin, the MCC often conducts a NEET PG mock counselling just to help candidates to totally understand the All India counselling registration process and seat allotment logic as well. Although you can use this chance to verify your data, preferences, and category before locking your choices."
+    },
+    {
+      "id": "conclusion",
+      "type": "heading",
+      "title": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "conclusion-content-1",
+      "type": "paragraph",
+      "content": "You can definitely change your category during NEET PG counselling, which isn't as flexible as many aspirants believe. Although switching from a reserved category to General is allowed, the reverse isn't."
+    },
+    {
+      "id": "conclusion-content-2",
+      "type": "paragraph",
+      "content": "So, you have to be alert during the All India Medical Counselling registration, and again, just cross-check every detail, and keep your certificates updated. Although A single error can cost you on your preferred branch or seat."
+    },
+    {
+      "id": "conclusion-content-3",
+      "type": "paragraph",
+      "content": "If you have done the correct preparation, created awareness, and regularly tracked the All India counselling process, then you can easily navigate the MCC NEET PG counselling 2025 journey without confusion."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1. Can a General-category applicant switch to OBC/SC/ST/EWS during All India Counselling?",
+          "answer": "No. Changing from General to a reserved category is definitely not permitted in All India (MCC) counselling; whereas the reservation changes of this kind are disallowed during registration."
+        },
+        {
+          "question": "Q2. Can OBC/SC/ST/EWS applicants switch to General in MCC registration?",
+          "answer": "Yes, all the candidates who can definitely register under a reserved category may opt to participate as General during the official MCC registration, if they choose to forego reservation benefits."
+        },
+        {
+          "question": "Q3. Can PwD status be changed during counselling?",
+          "answer": "PwD Yes to PwD No is allowed if the candidate cannot meet certification requirements; PwD No to PwD Yes is not permitted in MCC and typically requires legal recourse to consider exceptions."
+        },
+        {
+          "question": "Q4. Do these change rules also apply to state counselling?",
+          "answer": "Not necessarily. State counselling runs under separate rules and fresh registration; many states allow category selection per state norms, independent of the exam application data (with some state-specific exceptions)"
+        }
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "neet pg counselling",
+        "all india counselling",
+        "mcc neet pg",
+        "all india medical counselling",
+        "neet pg counselling schedule",
+        "mcc neet pg counselling",
+        "all india counselling process",
+        "all india counselling registration",
+        "all india counselling schedule",
+        "all india medical counselling website",
+        "neet pg mock counselling"
+      ]
+    }
+  ]
+}
 
 
   {
