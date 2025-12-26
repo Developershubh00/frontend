@@ -851,6 +851,15 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: 'https://www.jagranjosh.com/news/neet-pg-counselling-2025-round-3-registration-begins-at-mcc-nic-in-steps-to-register-here-182298',
       source: 'jagranjosh ',
      },
+     {
+      id: 89,
+      title: "Rajasthan NEET PG 2025 Round 2 Seat Allotment Result Out; Report to Allotted Colleges by December 30| You can check your result from here: Click Now",
+      date: "2025-12-26T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://rajpgneet2025.in/notifications/1766732402146.pdf',
+      source: 'rajpgneet2025 ',
+     },
 
 
 
