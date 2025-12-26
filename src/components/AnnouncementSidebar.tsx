@@ -842,6 +842,15 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: 'https://timesofindia.indiatimes.com/education/news/mcc-extends-neet-pg-2025-resignation-window-for-round-1-and-2-seats-check-official-notice-here/articleshow/126135069.cms',
       source: 'timesofindia ',
      },
+     {
+      id: 88,
+      title: "NEET PG 2025 Round 3 Counselling: Registration Begins Today at mcc.nic.in, Apply Till January 2",
+      date: "2025-12-26T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.jagranjosh.com/news/neet-pg-counselling-2025-round-3-registration-begins-at-mcc-nic-in-steps-to-register-here-182298',
+      source: 'jagranjosh ',
+     },
 
 
 

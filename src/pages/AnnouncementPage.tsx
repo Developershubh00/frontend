@@ -1068,7 +1068,7 @@ const AnnouncementPage: React.FC = () => {
       created_at: "2025-12-22T08:00:00Z"
     },
     {
-      id: 86,
+      id: 87,
       title: "NEET PG Counselling 2025:",
       content:"NEET PG 2025: MCC Extends Resignation Window for Round 1 & 2 Seats Till December 26",
       date: "2025-12-23T08:00:00Z",
@@ -1079,6 +1079,19 @@ const AnnouncementPage: React.FC = () => {
       source: 'timesofindia ',
       created_at: "2025-12-23T08:00:00Z"
     },
+     {
+      id: 88,
+      title: "NEET PG Counselling 2025:",
+      content:"NEET PG 2025 Round 3 Counselling: Registration Begins Today at mcc.nic.in, Apply Till January 2",
+      date: "2025-12-26T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.jagranjosh.com/news/neet-pg-counselling-2025-round-3-registration-begins-at-mcc-nic-in-steps-to-register-here-182298',
+      is_active: true,
+      source: 'jagranjosh ',
+      created_at: "2025-12-26T08:00:00Z"
+    },
+
 
 
 
