@@ -1103,6 +1103,18 @@ const AnnouncementPage: React.FC = () => {
       source: 'rajpgneet2025 ',
       created_at: "2025-12-26T08:00:00Z"
     },
+    {
+      id: 90,
+      title: "NEET PG Counselling 2025:",
+      content:"NEET PG 2025 Counselling: MCC Extends Round 2 Reporting & Resignation Deadline Till December 29, 4 PM at mcc.nic.in",
+      date: "2025-12-27T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://timesofindia.indiatimes.com/education/news/neet-pg-counselling-2025-round-2-reporting-resignation-deadline-extended-till-this-date-check-details-here/articleshow/126198627.cms',
+      is_active: true,
+      source: 'timesofindia. ',
+      created_at: "2025-12-27T08:00:00Z"
+    },
 
 
 
