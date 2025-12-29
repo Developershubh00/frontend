@@ -33366,8 +33366,8 @@ export const blogPosts: BlogPost[] = [
 },
 {
   "id": 83,
-  "title": "Microbiology After MBBS: A Thoughtful Career Choice for Doctors",
-  "slug": "microbiology-after-mbbs-thoughtful-career-choice-for-doctors",
+  "title": "Microbiology After MBBS: A Careful Career Option for Medical Professionals (NEET PG counselling 2025)",
+  "slug": "microbiology-after-mbbs-A-Careful-Career-Option-for-Medical-Professionals",
   "excerpt": "Microbiology suits doctors who love systems, diagnostics, and impact beyond clinics. Explore scope, lifestyle, academics, and growth before counselling.",
   "featured_image": "https://cdn.dribbble.com/userupload/46205542/file/871d74bd14c281713e14c5da5ef4983d.png?w=1200&h=600&fit=crop",
   "author": {
