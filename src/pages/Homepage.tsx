@@ -5311,7 +5311,7 @@ const snowflakes = [...Array(25)].map((_, i) => ({
             {/* New Year Special Badge */}
             <div className="inline-flex items-center bg-gradient-to-r from-purple-100 to-pink-100 text-purple-800 px-6 py-3 rounded-full font-bold text-lg mb-6 animate-bounce">
               <Sparkles className="w-5 h-5 mr-2" />
-              <span>New Year Special 2026 - All Services FREE!</span>
+              <span>Happy New Year 2026 !</span>
               <Sparkles className="w-5 h-5 ml-2" />
             </div>
 
