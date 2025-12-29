@@ -69,7 +69,7 @@ export const blogPosts: BlogPost[] = [
     "Counselling Rules",
     "Medical PG"
   ],
-  "published_date": "2025-12-25",
+  "published_date": "2025-11-07",
   "read_time": 5,
   "meta_description": "Find out if you can change your category during NEET PG 2025 All India Counselling. Know rules, process, and key updates for hassle-free seat allocation.",
   "sections": [
@@ -14128,7 +14128,7 @@ export const blogPosts: BlogPost[] = [
     "Counselling Process",
     "Seat Allotment"
   ],
-  "published_date": "2025-12-21",
+  "published_date": "2025-11-13",
   "read_time": 12,
   "meta_description": "Navigate INI CET Counselling 2025 with ease using this step by step guide covering registration, choice filling, and seat allotment for MD and MS aspirants.",
   "sections": [
