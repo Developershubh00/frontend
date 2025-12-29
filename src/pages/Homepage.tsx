@@ -201,8 +201,8 @@
 //       highlight: "Advanced tools",
 //     },
 //     {
-//       title: "INICET Live Results 2025",
-//       description: "Check ranks, cutoffs, seat matrix, and counselling schedule for INICET Jan 2025. Get institute-wise data.",
+//       title: "INICET Live Results 2026",
+//       description: "Check ranks, cutoffs, seat matrix, and counselling schedule for INICET Jan 2026. Get institute-wise data.",
 //       color: "border-emerald-300 bg-emerald-50",
 //       textColor: "text-emerald-800",
 //       icon: <Award className="w-8 h-8 text-emerald-600" />,
@@ -213,7 +213,7 @@
 //   const reviews = [
 //     {
 //       name: "Dr. Priya ",
-//       role: "NEET UG 2025 - AIIMS Delhi",
+//       role: "NEET UG 2026 - AIIMS Delhi",
 //       specialty: "MD Paediatrics Resident",
 //       location:
 //         "Dr. Uttam Patil Medical College and Hospital Jalgaon, Maharashtra",
@@ -1232,7 +1232,7 @@
 
 //           {/* <div className="border-t border-gray-800 mt-16 pt-8 text-center text-gray-400">
 //             <p>
-//               &copy; 2025 Believers Destination Pvt Ltd. All rights reserved. | Empowering
+//               &copy; 2026 Believers Destination Pvt Ltd. All rights reserved. | Empowering
 //               students with free counselling guidance.
 //             </p>
 //              <p className="text-xs font-bold text-gray-400 mb-4">
@@ -1241,7 +1241,7 @@
 //           </div> */}
 //           <div className="border-t border-gray-800 mt-16 pt-8 text-center text-gray-400">
 //   <p>
-//     &copy; 2025 Believers Destination Pvt Ltd. All rights reserved. | Empowering
+//     &copy; 2026 Believers Destination Pvt Ltd. All rights reserved. | Empowering
 //     students with free counselling guidance.
 //   </p>
 //   <p className="text-xs mb-4">
@@ -1457,8 +1457,8 @@
 //       highlight: "Advanced tools",
 //     },
 //     {
-//       title: "INICET Live Results 2025",
-//       description: "Check ranks, cutoffs, seat matrix, and counselling schedule for INICET Jan 2025. Get institute-wise data.",
+//       title: "INICET Live Results 2026",
+//       description: "Check ranks, cutoffs, seat matrix, and counselling schedule for INICET Jan 2026. Get institute-wise data.",
 //       color: "border-emerald-300 bg-emerald-50",
 //       textColor: "text-emerald-800",
 //       icon: <Award className="w-8 h-8 text-emerald-600" />,
@@ -1469,7 +1469,7 @@
 //   const reviews = [
 //     {
 //       name: "Dr. Priya ",
-//       role: "NEET UG 2025 - AIIMS Delhi",
+//       role: "NEET UG 2026 - AIIMS Delhi",
 //       specialty: "MD Paediatrics Resident",
 //       location:
 //         "Dr. Uttam Patil Medical College and Hospital Jalgaon, Maharashtra",
@@ -2806,7 +2806,7 @@
 
 //           <div className="border-t border-gray-800 mt-16 pt-8 text-center text-gray-400">
 //             <p>
-//               &copy; 2025 Believers Destination Pvt Ltd. All rights reserved. | Empowering
+//               &copy; 2026 Believers Destination Pvt Ltd. All rights reserved. | Empowering
 //               students with free counselling guidance.
 //             </p>
 //             <p className="text-xs mb-4 mt-2">
@@ -2899,7 +2899,7 @@
 //   <div className="fixed top-20 right-4 z-40 animate-bounce">
 //     <div className="bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-600 text-white px-6 py-3 rounded-full shadow-2xl flex items-center gap-2 font-bold text-sm">
 //       <Sparkles className="w-4 h-4 animate-spin" />
-//       <span>Happy New Year 2025! 🎉</span>
+//       <span>Happy New Year 2026! 🎉</span>
 //     </div>
 //   </div>
 // );
@@ -2975,8 +2975,8 @@
 //       icon: <Search className="w-8 h-8 text-teal-600" />,
 //     },
 //     {
-//       title: "INICET Live Results 2025",
-//       description: "Check ranks, cutoffs, seat matrix, and counselling schedule for INICET Jan 2025.",
+//       title: "INICET Live Results 2026",
+//       description: "Check ranks, cutoffs, seat matrix, and counselling schedule for INICET Jan 2026.",
 //       color: "border-emerald-300 bg-emerald-50",
 //       textColor: "text-emerald-800",
 //       icon: <Award className="w-8 h-8 text-emerald-600" />,
@@ -3109,7 +3109,7 @@
 //         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
 //           <div className="text-center mb-12">
 //             <div className="inline-block mb-6 px-8 py-3 bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-600 rounded-full text-white font-bold text-lg animate-pulse shadow-2xl">
-//               🎊 Welcome 2025 - New Year, New Opportunities! 🎊
+//               🎊 Welcome 2026 - New Year, New Opportunities! 🎊
 //             </div>
             
 //             <h1 className={`text-5xl md:text-7xl font-bold bg-gradient-to-r from-purple-600 via-pink-600 to-yellow-600 bg-clip-text text-transparent mb-6 transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
@@ -3121,7 +3121,7 @@
 //             </div>
 
 //             <p className="text-xl text-gray-700 mb-8 max-w-4xl mx-auto leading-relaxed">
-//               Counselling dates, colleges, courses, fees, cut-offs, and beyond. Start 2025 with confidence! 🎯
+//               Counselling dates, colleges, courses, fees, cut-offs, and beyond. Start 2026 with confidence! 🎯
 //             </p>
 
 //             <div className="inline-flex items-center bg-green-100 text-green-800 px-6 py-3 rounded-full font-semibold text-lg mb-6">
@@ -3135,7 +3135,7 @@
 //                 className="w-full sm:w-auto bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500 hover:from-purple-600 hover:to-yellow-600 text-white px-10 py-4 rounded-full text-xl font-bold inline-flex items-center justify-center space-x-3 transition-all duration-300 hover:scale-105 shadow-2xl"
 //               >
 //                 <Sparkles className="w-6 h-6" />
-//                 <span>Start Your Journey 2025</span>
+//                 <span>Start Your Journey 2026</span>
 //                 <ArrowRight className="w-6 h-6" />
 //               </button>
 //             </div>
@@ -3165,7 +3165,7 @@
 //             <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-6">
 //               Say hello 👋 to Believers Consultancy
 //             </h2>
-//             <p className="text-xl text-gray-600">Make 2025 your year of success!</p>
+//             <p className="text-xl text-gray-600">Make 2026 your year of success!</p>
 //           </div>
 
 //           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -3188,7 +3188,7 @@
 //         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 //           <div className="text-center mb-16">
 //             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Success Stories 2024</h2>
-//             <p className="text-xl text-gray-600">Join them in making 2025 even better!</p>
+//             <p className="text-xl text-gray-600">Join them in making 2026 even better!</p>
 //           </div>
 
 //           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -3244,7 +3244,7 @@
 //         <div className="absolute inset-0 bg-black/10"></div>
 //         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative">
 //           <Sparkles className="w-16 h-16 text-yellow-300 mx-auto mb-6 animate-pulse" />
-//           <h2 className="text-5xl md:text-6xl font-bold text-white mb-6">Start 2025 Right!</h2>
+//           <h2 className="text-5xl md:text-6xl font-bold text-white mb-6">Start 2026 Right!</h2>
 //           <p className="text-xl text-white/90 mb-8 max-w-3xl mx-auto">
 //             Don't let counselling confusion hold you back. Everything is FREE!
 //           </p>
@@ -3305,7 +3305,7 @@
 //           </div>
 
 //           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-//             <p>&copy; 2025 Believers Destination Pvt Ltd. Happy New Year! 🎉</p>
+//             <p>&copy; 2026 Believers Destination Pvt Ltd. Happy New Year! 🎉</p>
 //           </div>
 //         </div>
 //       </footer>
@@ -3607,8 +3607,8 @@
 //       highlight: "Advanced tools",
 //     },
 //     {
-//       title: "INICET Live Results 2025",
-//       description: "Check ranks, cutoffs, seat matrix, and counselling schedule for INICET Jan 2025. Get institute-wise data.",
+//       title: "INICET Live Results 2026",
+//       description: "Check ranks, cutoffs, seat matrix, and counselling schedule for INICET Jan 2026. Get institute-wise data.",
 //       color: "border-emerald-300 bg-emerald-50",
 //       textColor: "text-emerald-800",
 //       icon: <Award className="w-8 h-8 text-emerald-600" />,
@@ -3619,7 +3619,7 @@
 //   const reviews = [
 //     {
 //       name: "Dr. Priya ",
-//       role: "NEET UG 2025 - AIIMS Delhi",
+//       role: "NEET UG 2026 - AIIMS Delhi",
 //       specialty: "MD Paediatrics Resident",
 //       location:
 //         "Dr. Uttam Patil Medical College and Hospital Jalgaon, Maharashtra",
@@ -3761,7 +3761,7 @@
 //             <div className="flex items-center space-x-3">
 //               <Sparkles className="w-6 h-6 animate-spin" />
 //               <span className="font-bold text-lg">
-//                 🎉 Happy New Year 2025! Start Your Medical Journey With Us 🎊
+//                 🎉 Happy New Year 2026! Start Your Medical Journey With Us 🎊
 //               </span>
 //               <Sparkles className="w-6 h-6 animate-spin" />
 //             </div>
@@ -3929,7 +3929,7 @@
 //             {/* New Year Special Badge */}
 //             <div className="inline-flex items-center bg-gradient-to-r from-purple-100 to-pink-100 text-purple-800 px-6 py-3 rounded-full font-bold text-lg mb-6 animate-bounce">
 //               <Sparkles className="w-5 h-5 mr-2" />
-//               <span>New Year Special 2025 - All Services FREE!</span>
+//               <span>New Year Special 2026 - All Services FREE!</span>
 //               <Sparkles className="w-5 h-5 ml-2" />
 //             </div>
 
@@ -4601,7 +4601,7 @@
 
 //           <div className="border-t border-gray-800 mt-16 pt-8 text-center text-gray-400">
 //             <p>
-//               &copy; 2025 Believers Destination Pvt Ltd. All rights reserved. |
+//               &copy; 2026 Believers Destination Pvt Ltd. All rights reserved. |
 //               Empowering students with free counselling guidance.
 //             </p>
 //             <p className="text-xs mb-4 mt-2">
@@ -4978,8 +4978,8 @@ const snowflakes = [...Array(25)].map((_, i) => ({
       highlight: "Advanced tools",
     },
     {
-      title: "INICET Live Results 2025",
-      description: "Check ranks, cutoffs, seat matrix, and counselling schedule for INICET Jan 2025. Get institute-wise data.",
+      title: "INICET Live Results 2026",
+      description: "Check ranks, cutoffs, seat matrix, and counselling schedule for INICET Jan 2026. Get institute-wise data.",
       color: "border-emerald-300 bg-emerald-50",
       textColor: "text-emerald-800",
       icon: <Award className="w-8 h-8 text-emerald-600" />,
@@ -4990,7 +4990,7 @@ const snowflakes = [...Array(25)].map((_, i) => ({
   const reviews = [
     {
       name: "Dr. Priya ",
-      role: "NEET UG 2025 - AIIMS Delhi",
+      role: "NEET UG 2026 - AIIMS Delhi",
       specialty: "MD Paediatrics Resident",
       location:
         "Dr. Uttam Patil Medical College and Hospital Jalgaon, Maharashtra",
@@ -5142,7 +5142,7 @@ const snowflakes = [...Array(25)].map((_, i) => ({
             <div className="flex items-center justify-center space-x-3">
               <Sparkles className="w-5 h-5 md:w-6 md:h-6 animate-spin flex-shrink-0" />
               <span className="font-bold text-sm md:text-lg text-center">
-                🎉 Happy New Year 2025! Start Your Medical Journey With Us 🎊
+                🎉 Happy New Year 2026! Start Your Medical Journey With Us 🎊
               </span>
               <Sparkles className="w-5 h-5 md:w-6 md:h-6 animate-spin flex-shrink-0" />
             </div>
@@ -5311,7 +5311,7 @@ const snowflakes = [...Array(25)].map((_, i) => ({
             {/* New Year Special Badge */}
             <div className="inline-flex items-center bg-gradient-to-r from-purple-100 to-pink-100 text-purple-800 px-6 py-3 rounded-full font-bold text-lg mb-6 animate-bounce">
               <Sparkles className="w-5 h-5 mr-2" />
-              <span>New Year Special 2025 - All Services FREE!</span>
+              <span>New Year Special 2026 - All Services FREE!</span>
               <Sparkles className="w-5 h-5 ml-2" />
             </div>
 
@@ -5983,7 +5983,7 @@ const snowflakes = [...Array(25)].map((_, i) => ({
 
           <div className="border-t border-gray-800 mt-16 pt-8 text-center text-gray-400">
             <p>
-              &copy; 2025 Believers Destination Pvt Ltd. All rights reserved. |
+              &copy; 2026 Believers Destination Pvt Ltd. All rights reserved. |
               Empowering students with free counselling guidance.
             </p>
             <p className="text-xs mb-4 mt-2">
