@@ -4687,16 +4687,19 @@ import {
   Sparkles,
 } from "lucide-react";
 
-// Snowflake Component - Fixed with slower animation and fade effect
-const Snowflake = ({ delay, duration, left, size }) => (
+// Snowflake Component - Smooth with no flicker
+const Snowflake = ({ delay, duration, left, size, opacity }) => (
   <div
-    className="absolute text-white pointer-events-none snowflake-fall"
+    className="absolute pointer-events-none snowflake-fall"
     style={{
       left: `${left}%`,
       animationDelay: `${delay}s`,
       animationDuration: `${duration}s`,
       fontSize: `${size}px`,
-      top: '-5%',
+      opacity: opacity,
+      color: 'rgba(255, 255, 255, 0.6)',
+      textShadow: '0 0 5px rgba(255, 255, 255, 0.5)',
+      filter: 'blur(0.5px)',
     }}
   >
     ❄
@@ -4783,14 +4786,15 @@ function Homepage() {
   const reviewsRef = useRef(null);
   const navigate = useNavigate();
 
-  // Generate snowflakes with varied properties
-  const snowflakes = [...Array(30)].map((_, i) => ({
-    id: i,
-    delay: Math.random() * 15,
-    duration: Math.random() * 10 + 15, // 15-25 seconds (slower)
-    left: Math.random() * 100,
-    size: Math.random() * 8 + 10, // 10-18px
-  }));
+  // Generate snowflakes with varied properties - smoother distribution
+const snowflakes = [...Array(25)].map((_, i) => ({
+  id: i,
+  delay: (i * 1.2) % 20, // Staggered delays to prevent clustering
+  duration: Math.random() * 8 + 18, // 18-26 seconds (slower & smoother)
+  left: (i * 4.3) % 100, // Better horizontal distribution
+  size: Math.random() * 6 + 8, // 8-14px (slightly smaller)
+  opacity: Math.random() * 0.3 + 0.4, // 0.4-0.7 opacity range
+}));
 
   // Auto-hide New Year banner after 5 seconds
   useEffect(() => {
@@ -6000,29 +6004,34 @@ function Homepage() {
       </footer>
 
       {/* Fixed CSS Styles */}
-      <style jsx>{`
-        /* Snowflake Animation - Slower with fade effect */
-        @keyframes snowfall {
-          0% {
-            transform: translateY(0) translateX(0) rotate(0deg);
-            opacity: 0;
-          }
-          10% {
-            opacity: 0.7;
-          }
-          90% {
-            opacity: 0.5;
-          }
-          100% {
-            transform: translateY(100vh) translateX(20px) rotate(360deg);
-            opacity: 0;
-          }
-        }
-        
-        .snowflake-fall {
-          animation: snowfall linear infinite;
-          will-change: transform, opacity;
-        }
+<style jsx>{`
+  /* Snowflake Animation - Ultra smooth, no flicker */
+  @keyframes snowfall {
+    0% {
+      transform: translateY(-20px) translateX(0) rotate(0deg);
+      opacity: 0;
+    }
+    5% {
+      opacity: var(--snow-opacity, 0.5);
+    }
+    50% {
+      transform: translateY(50vh) translateX(15px) rotate(180deg);
+      opacity: var(--snow-opacity, 0.5);
+    }
+    95% {
+      opacity: var(--snow-opacity, 0.5);
+    }
+    100% {
+      transform: translateY(105vh) translateX(-10px) rotate(360deg);
+      opacity: 0;
+    }
+  }
+  
+  .snowflake-fall {
+    animation: snowfall ease-in-out infinite;
+    will-change: transform;
+    top: 0;
+  }
         
         /* Firework Animation */
         @keyframes firework {
