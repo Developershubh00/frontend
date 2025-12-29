@@ -20,7 +20,7 @@ The application is specifically designed for mobile devices with:
 - Fast loading times
 - Intuitive user experience
 
-## 🛠️ Tech Stack
+<!-- ## 🛠️ Tech Stack
 
 - **Frontend**: React 18 + TypeScript
 - **Build Tool**: Vite
@@ -225,4 +225,4 @@ Stay updated with:
 
 ---
 
-**Built with ❤️ for the medical counselling community**
+**Built with ❤️ for the medical counselling community** -->
