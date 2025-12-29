@@ -33388,7 +33388,7 @@ export const blogPosts: BlogPost[] = [
     "Infectious Diseases",
     "Medical Career"
   ],
-  "published_date": "2025-12-28",
+  "published_date": "2025-12-29",
   "read_time": 10,
   "meta_description": "Microbiology suits doctors who love systems, diagnostics, and impact beyond clinics. Explore scope, lifestyle, academics, and growth before counselling.",
   "sections": [
