@@ -3438,8 +3438,8 @@ function Homepage() {
   // Generate snowflakes
   const snowflakes = [...Array(50)].map((_, i) => ({
     id: i,
-    delay: Math.random() * 5,
-    duration: Math.random() * 3 + 5,
+    delay: Math.random() * 20,
+    duration: Math.random() * 3 + 20,
     left: Math.random() * 100,
   }));
 
