@@ -5174,16 +5174,7 @@ const snowflakes = [...Array(25)].map((_, i) => ({
             {/* Desktop Menu */}
             <div className="hidden md:flex items-center space-x-8 ml-auto">
               <div className="flex items-center space-x-8">
-                <a
-                  onClick={() => navigate("/inicetdashboard")}
-                  className="text-white bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 px-4 py-2 rounded-full transition-all duration-300 font-bold relative group cursor-pointer"
-                >
-                  🎉 INICET Results Out!
-                  <span className="absolute -top-1 -right-1 flex h-3 w-3">
-                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-                    <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
-                  </span>
-                </a>
+                
                 <a
                   onClick={() => navigate("/blog")}
                   className="text-gray-700 hover:text-blue-600 transition-all duration-300 font-medium relative group cursor-pointer"
