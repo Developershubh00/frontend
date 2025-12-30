@@ -69,48 +69,49 @@ const NotificationPopup: React.FC<NotificationPopupProps> = ({
         onClick={onClose}
       />
 
-      {/* Popup */}
-      <div className="fixed top-20 right-4 lg:right-6 z-50 w-[95vw] max-w-md bg-white/95 backdrop-blur-xl rounded-2xl shadow-2xl border border-slate-200/50 overflow-hidden">
-        {/* Header */}
-        <div className="bg-gradient-to-r from-blue-500 to-indigo-600 p-4 flex items-center justify-between">
-          <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-white/20 rounded-xl flex items-center justify-center backdrop-blur-sm">
-              <Bell className="w-5 h-5 text-white" />
+      {/* Popup - Mobile Optimized */}
+      <div className="fixed top-16 left-2 right-2 sm:top-20 sm:left-auto sm:right-4 lg:right-6 z-50 w-auto sm:w-[95vw] sm:max-w-md bg-white/95 backdrop-blur-xl rounded-2xl shadow-2xl border border-slate-200/50 overflow-hidden animate-slideDown">
+        {/* Header - Mobile Optimized */}
+        <div className="bg-gradient-to-r from-blue-500 to-indigo-600 p-3 sm:p-4 flex items-center justify-between">
+          <div className="flex items-center space-x-2 sm:space-x-3">
+            <div className="w-8 h-8 sm:w-10 sm:h-10 bg-white/20 rounded-xl flex items-center justify-center backdrop-blur-sm">
+              <Bell className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
             </div>
             <div>
-              <h3 className="text-white font-bold text-lg">Notifications</h3>
-              <p className="text-blue-100 text-sm">
+              <h3 className="text-white font-bold text-base sm:text-lg">Notifications</h3>
+              <p className="text-blue-100 text-xs sm:text-sm">
                 {unreadNotifications.length} unread
               </p>
             </div>
           </div>
           <button
             onClick={onClose}
-            className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center hover:bg-white/30 transition-colors"
+            className="w-7 h-7 sm:w-8 sm:h-8 bg-white/20 rounded-lg flex items-center justify-center hover:bg-white/30 transition-colors"
           >
-            <X className="w-5 h-5 text-white" />
+            <X className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
           </button>
         </div>
 
-        {/* Actions */}
-        <div className="p-3 bg-slate-50/80 border-b border-slate-200/50 flex justify-end">
+        {/* Actions - Mobile Optimized */}
+        <div className="p-2 sm:p-3 bg-slate-50/80 border-b border-slate-200/50 flex justify-between items-center">
+          <span className="text-xs sm:text-sm text-slate-600 font-medium">Latest Updates</span>
           <button
             onClick={onMarkAllAsRead}
-            className="text-sm text-blue-600 hover:text-blue-700 font-medium transition-colors"
+            className="text-xs sm:text-sm text-blue-600 hover:text-blue-700 font-medium transition-colors"
           >
             Mark all as read
           </button>
         </div>
 
-        {/* Notifications List */}
-        <div className="max-h-[60vh] overflow-y-auto">
+        {/* Notifications List - Mobile Optimized */}
+        <div className="max-h-[50vh] sm:max-h-[60vh] overflow-y-auto">
           {displayNotifications.length === 0 ? (
-            <div className="p-8 text-center">
-              <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-3">
-                <Bell className="w-8 h-8 text-slate-400" />
+            <div className="p-6 sm:p-8 text-center">
+              <div className="w-12 h-12 sm:w-16 sm:h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-2 sm:mb-3">
+                <Bell className="w-6 h-6 sm:w-8 sm:h-8 text-slate-400" />
               </div>
-              <p className="text-slate-600 font-medium">No notifications yet</p>
-              <p className="text-slate-400 text-sm mt-1">
+              <p className="text-slate-600 font-medium text-sm sm:text-base">No notifications yet</p>
+              <p className="text-slate-400 text-xs sm:text-sm mt-1">
                 We'll notify you when something new arrives
               </p>
             </div>
@@ -119,7 +120,7 @@ const NotificationPopup: React.FC<NotificationPopupProps> = ({
               {displayNotifications.map((notification) => (
                 <div
                   key={notification.id}
-                  className={`p-4 hover:bg-slate-50/80 transition-colors cursor-pointer ${
+                  className={`p-3 sm:p-4 hover:bg-slate-50/80 active:bg-slate-100 transition-colors cursor-pointer ${
                     !notification.read ? 'bg-blue-50/30' : ''
                   }`}
                   onClick={() => {
@@ -129,27 +130,27 @@ const NotificationPopup: React.FC<NotificationPopupProps> = ({
                     }
                   }}
                 >
-                  <div className="flex items-start space-x-3">
-                    <div className={`w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0 ${getNotificationBgColor(notification.type)} border`}>
+                  <div className="flex items-start space-x-2 sm:space-x-3">
+                    <div className={`w-8 h-8 sm:w-10 sm:h-10 rounded-xl flex items-center justify-center flex-shrink-0 ${getNotificationBgColor(notification.type)} border`}>
                       {notification.icon ? (
-                        <span className="text-xl">{notification.icon}</span>
+                        <span className="text-lg sm:text-xl">{notification.icon}</span>
                       ) : (
                         getNotificationIcon(notification.type)
                       )}
                     </div>
                     <div className="flex-1 min-w-0">
                       <div className="flex items-start justify-between mb-1">
-                        <h4 className={`font-semibold text-sm ${!notification.read ? 'text-slate-900' : 'text-slate-700'}`}>
+                        <h4 className={`font-semibold text-xs sm:text-sm leading-tight ${!notification.read ? 'text-slate-900' : 'text-slate-700'}`}>
                           {notification.title}
                         </h4>
                         {!notification.read && (
-                          <div className="w-2 h-2 bg-blue-500 rounded-full flex-shrink-0 mt-1.5 ml-2" />
+                          <div className="w-2 h-2 bg-blue-500 rounded-full flex-shrink-0 mt-1 ml-2" />
                         )}
                       </div>
-                      <p className="text-slate-600 text-sm mb-2 line-clamp-2">
+                      <p className="text-slate-600 text-xs sm:text-sm mb-1.5 sm:mb-2 line-clamp-2 leading-snug">
                         {notification.message}
                       </p>
-                      <div className="flex items-center space-x-2 text-xs text-slate-400">
+                      <div className="flex items-center space-x-1.5 sm:space-x-2 text-[10px] sm:text-xs text-slate-400">
                         <span>{notification.date}</span>
                         <span>•</span>
                         <span>{notification.time}</span>
@@ -162,12 +163,12 @@ const NotificationPopup: React.FC<NotificationPopupProps> = ({
           )}
         </div>
 
-        {/* Footer */}
+        {/* Footer - Mobile Optimized */}
         {displayNotifications.length > 0 && (
-          <div className="p-4 bg-slate-50/80 border-t border-slate-200/50">
+          <div className="p-3 sm:p-4 bg-slate-50/80 border-t border-slate-200/50">
             <button
               onClick={onViewAll}
-              className="w-full py-2.5 bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-semibold rounded-xl hover:from-blue-600 hover:to-indigo-700 transition-all duration-300 transform hover:scale-[1.02]"
+              className="w-full py-2 sm:py-2.5 bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-semibold rounded-xl hover:from-blue-600 hover:to-indigo-700 active:scale-95 transition-all duration-300 text-sm sm:text-base"
             >
               View All Notifications
             </button>

@@ -210,20 +210,20 @@ const DashboardPage: React.FC = () => {
     fetchDashboardData();
   }, []);
 
-  // Show welcome notification on first load
+  // Show notification popup on EVERY page load/reload
   useEffect(() => {
-    const hasSeenWelcome = localStorage.getItem('hasSeenWelcomeNotification');
-    if (!hasSeenWelcome && notifications.length > 0) {
-      // Auto-open notification popup after 2 seconds
+    // Check if there are unread notifications
+    const hasUnread = notifications.some(n => !n.read);
+    
+    if (hasUnread && notifications.length > 0) {
+      // Auto-open notification popup after 1.5 seconds on every load
       const timer = setTimeout(() => {
         setIsNotificationPopupOpen(true);
-        localStorage.setItem('hasSeenWelcomeNotification', 'true');
-        setShowWelcomeNotification(false);
-      }, 2000);
+      }, 1500);
 
       return () => clearTimeout(timer);
     }
-  }, []);
+  }, []); // Empty dependency array ensures this runs on every mount/reload
 
   // Notification handlers
   const handleNotificationClick = () => {
@@ -246,6 +246,7 @@ const DashboardPage: React.FC = () => {
   const handleBackToDashboard = () => {
     setShowNotificationsPage(false);
   };
+
 
   const handleSearchChange = (value: string) => setSearchValue(value);
   const handleSectionChange = (section: string) => {
