@@ -36,33 +36,33 @@ export const notificationsData: Notification[] = [
   {
     id: "3",
     title: "Karnataka State Counselling",
-    message: "Change in KEA round 2 provisional allotment list. Please check the updated note in ZyNerd.",
+    message: "Change in KEA round 2 provisional allotment list. Please check the updated note in schedule.",
     type: "warning",
     date: "Sun, 21 Dec",
     time: "10:30 AM",
     read: false,
     link: "/notice"
   },
-  {
-    id: "4",
-    title: "NEET PG Round 2 - Info",
-    message: "Fresh Seat In AI R2, Joining & Reporting process explained",
-    type: "info",
-    date: "Wed, 17 Dec",
-    time: "3:45 PM",
-    read: true,
-    link: "/schedule"
-  },
-  {
-    id: "5",
-    title: "NEET PG 2025 Results Announced!",
-    message: "Check your scorecard and start your counselling registration. Cutoff scores updated.",
-    type: "success",
-    date: "Mon, 15 Dec",
-    time: "9:00 AM",
-    read: true,
-    link: "/"
-  }
+  // {
+  //   id: "4",
+  //   title: "NEET PG Round 2 - Info",
+  //   message: "Fresh Seat In AI R2, Joining & Reporting process explained",
+  //   type: "info",
+  //   date: "Wed, 17 Dec",
+  //   time: "3:45 PM",
+  //   read: true,
+  //   link: "/schedule"
+  // },
+  // {
+  //   id: "5",
+  //   title: "NEET PG 2025 Results Announced!",
+  //   message: "Check your scorecard and start your counselling registration. Cutoff scores updated.",
+  //   type: "success",
+  //   date: "Mon, 15 Dec",
+  //   time: "9:00 AM",
+  //   read: true,
+  //   link: "/"
+  // }
 ];
 
 // Helper functions
