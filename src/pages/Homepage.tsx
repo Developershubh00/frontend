@@ -5232,15 +5232,7 @@ const snowflakes = [...Array(25)].map((_, i) => ({
           {isMenuOpen && (
             <div className="md:hidden border-t border-gray-100 bg-white/95 backdrop-blur-sm">
               <div className="px-2 pt-2 pb-3 space-y-1">
-                <a
-                  onClick={() => {
-                    navigate("/inicetdashboard");
-                    setIsMenuOpen(false);
-                  }}
-                  className="block px-3 py-3 text-white bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 rounded-xl transition-all duration-300 font-bold text-center cursor-pointer shadow-lg mb-2 animate-pulse"
-                >
-                  🎉 INICET Results Out! Check Now
-                </a>
+                
                 <a
                   onClick={() => {
                     navigate("/blog");
