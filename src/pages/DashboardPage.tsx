@@ -147,6 +147,14 @@ import AIAssistant from "../components/AIAssistant";
 import { neetAPI, counsellingAPI } from "../services/api";
 import WhatsAppSupport from "../components/WhatsAppSupport";
 import AiSensyWidget from "../components/AiSensyWidget";
+import { 
+  notificationsData, 
+  getUnreadCount, 
+  markAsRead, 
+  markAllAsRead 
+} from "../data/notifications";
+import type { Notification } from "../data/notifications";
+import NotificationPopup from "../components/NotificationPopup";
 
 /**
  * Enhanced Dashboard Page Component for NEET PG Platform
@@ -161,6 +169,14 @@ const DashboardPage: React.FC = () => {
   const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false);
   const [isRightSidebarOpen, setIsRightSidebarOpen] = useState(true);
   const [activeStateTab, setActiveStateTab] = useState("all-india");
+
+ // Notification states
+  const [notifications, setNotifications] = useState<Notification[]>(notificationsData);
+  const [isNotificationPopupOpen, setIsNotificationPopupOpen] = useState(false);
+  const [showNotificationsPage, setShowNotificationsPage] = useState(false);
+  const [showWelcomeNotification, setShowWelcomeNotification] = useState(true);
+
+
   const [dashboardData, setDashboardData] = useState({
     neetStats: [],
     timeline: [],
@@ -193,6 +209,43 @@ const DashboardPage: React.FC = () => {
     fetchDashboardData();
   }, []);
 
+  // Show welcome notification on first load
+  useEffect(() => {
+    const hasSeenWelcome = localStorage.getItem('hasSeenWelcomeNotification');
+    if (!hasSeenWelcome && notifications.length > 0) {
+      // Auto-open notification popup after 2 seconds
+      const timer = setTimeout(() => {
+        setIsNotificationPopupOpen(true);
+        localStorage.setItem('hasSeenWelcomeNotification', 'true');
+        setShowWelcomeNotification(false);
+      }, 2000);
+
+      return () => clearTimeout(timer);
+    }
+  }, []);
+
+  // Notification handlers
+  const handleNotificationClick = () => {
+    setIsNotificationPopupOpen(!isNotificationPopupOpen);
+  };
+
+  const handleMarkAsRead = (id: string) => {
+    setNotifications(markAsRead(notifications, id));
+  };
+
+  const handleMarkAllAsRead = () => {
+    setNotifications(markAllAsRead(notifications));
+  };
+
+  const handleViewAllNotifications = () => {
+    setIsNotificationPopupOpen(false);
+    setShowNotificationsPage(true);
+  };
+
+  const handleBackToDashboard = () => {
+    setShowNotificationsPage(false);
+  };
+
   const handleSearchChange = (value: string) => setSearchValue(value);
   const handleSectionChange = (section: string) => {
     setActiveSection(section);
@@ -205,6 +258,19 @@ const DashboardPage: React.FC = () => {
     console.log("Selected state:", state);
   };
 
+   if (showNotificationsPage) {
+    // Import NotificationsPage component dynamically
+    const NotificationsPage = require("../pages/NotificationsPage").default;
+    return (
+      <NotificationsPage
+        notifications={notifications}
+        onMarkAsRead={handleMarkAsRead}
+        onMarkAllAsRead={handleMarkAllAsRead}
+        onBack={handleBackToDashboard}
+      />
+    );
+  }
+
   return (
     <div className="h-screen-dynamic w-screen-dynamic bg-gradient-to-br from-rose-50 via-blue-50 to-indigo-50 overflow-hidden">
       {/* Header - Fixed at top */}
@@ -215,8 +281,20 @@ const DashboardPage: React.FC = () => {
           isMobileMenuOpen={isMobileMenuOpen}
           user={user}
           onSectionChange={handleSectionChange}
+          unreadCount={getUnreadCount(notifications)}
+          onNotificationClick={handleNotificationClick}
         />
       </div>
+
+      {/* Notification Popup */}
+      <NotificationPopup
+        notifications={notifications}
+        isOpen={isNotificationPopupOpen}
+        onClose={() => setIsNotificationPopupOpen(false)}
+        onMarkAsRead={handleMarkAsRead}
+        onMarkAllAsRead={handleMarkAllAsRead}
+        onViewAll={handleViewAllNotifications}
+      />
 
       {/* Main Layout Container */}
       <div className="flex h-full w-full pt-16">

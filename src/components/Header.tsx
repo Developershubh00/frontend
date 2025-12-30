@@ -738,6 +738,9 @@ interface HeaderProps {
   isMobileMenuOpen: boolean;
   user?: any;
   onSectionChange: (section: string) => void;
+  // New props for notifications
+  unreadCount?: number;
+  onNotificationClick?: () => void;
 }
 
 const Header: React.FC<HeaderProps> = ({
@@ -746,6 +749,8 @@ const Header: React.FC<HeaderProps> = ({
   isMobileMenuOpen,
   user,
   onSectionChange,
+  unreadCount = 0,
+  onNotificationClick,
 }) => {
   const navigate = useNavigate();
   const location = useLocation();
@@ -985,10 +990,23 @@ const Header: React.FC<HeaderProps> = ({
               </button>
             </div>
 
-            <button className="p-2.5 text-slate-700 hover:bg-slate-50 rounded-xl transition-colors relative">
-              <Bell className="w-5 h-5" />
-              <span className="absolute -top-1 -right-1 w-3 h-3 bg-red-400 rounded-full animate-pulse"></span>
-            </button>
+           {/* Notification Bell */}
+          <button
+            onClick={onNotificationClick}
+            className="relative w-10 h-10 flex items-center justify-center rounded-lg hover:bg-slate-100 transition-all duration-200 group"
+          >
+            <Bell className="w-5 h-5 text-slate-700 group-hover:text-blue-600 transition-colors" />
+            {unreadCount > 0 && (
+              <>
+                {/* Badge */}
+                <span className="absolute top-1 right-1 w-5 h-5 bg-gradient-to-r from-red-500 to-rose-600 text-white text-xs font-bold rounded-full flex items-center justify-center shadow-lg animate-pulse">
+                  {unreadCount > 9 ? '9+' : unreadCount}
+                </span>
+                {/* Pulse effect */}
+                <span className="absolute top-1 right-1 w-5 h-5 bg-red-500 rounded-full animate-ping opacity-75"></span>
+              </>
+            )}
+          </button>
 
             <div className="relative">
               <button
