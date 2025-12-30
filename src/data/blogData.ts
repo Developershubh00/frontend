@@ -1143,411 +1143,519 @@ export const blogPosts: BlogPost[] = [
     }
   ]
 },
-
- {
-    id: 3,
-    title: "The Ultimate NEET-PG Counselling Strategy: Your Complete Guide to All India and State Rounds",
-    slug: "neet-pg-counselling-strategy-complete-guide",
-    excerpt: "Managing NEET-PG counselling is a pivotal step in your medical career. You are supposed to navigate multiple rounds, tight timelines, and critical decisions at every stage.",
-    featured_image: "https://cdn.dribbble.com/userupload/45458731/file/6df69d40f8518ecf354089d98b68c71d.png?w=1200&h=600&fit=crop",
-    author: {
-      name: "Believers Team",
-      avatar: "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
-      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
-    },
-    category: {
-      name: "NEET PG",
-      slug: "neet-pg",
-      color: "bg-blue-100 text-blue-800"
-    },
-    tags: ["NEET PG Counselling", "All India Quota", "State Counselling", "Medical Career"],
-    published_date: "2025-10-09",
-    read_time: 5,
-    meta_description: "Master your NEET-PG Counselling with smart strategies for All India and State rounds. Learn seat choice tactics, category rules, and top ranker insights..",
-    sections: [
-      {
-        id: "intro",
-        type: "paragraph",
-        content: "Managing NEET-PG counselling is a pivotal step in your medical career. You are supposed to navigate multiple rounds, tight timelines, and critical decisions at every stage. Your success depends not only on your rank but also on strategic planning and informed choices.\n\nThis guide provides a clear step-by-step strategy to navigate both All India Quota (AIQ) and State counselling processes effectively, helping you make confident decisions and secure your ideal seat."
-      },
-      {
-        id: "foundation",
-        type: "heading",
-        title: "Understanding the Foundation: Why Choice List Preparation is Everything",
-        level: 2
-      },
-      {
-        id: "foundation-content",
-        type: "paragraph",
-        content: "The biggest lesson from successful counselling: Your choice list is more important than your rank.\n\nMany aspirants spend countless hours collecting data about seats and cutoffs, but the real work lies in evaluating and ranking their preferences correctly."
-      },
-      {
-        id: "fifty-rule",
-        type: "heading",
-        title: "The 50% Rule",
-        level: 3
-      },
-      {
-        id: "fifty-rule-content",
-        type: "paragraph",
-        content: "Here's a reality check: Only about 50% of all available information will apply to your specific situation. The problem is, you don't know in advance which half is relevant. That's why detailed preparation is essential."
-      },
-      {
-        id: "eighty-twenty",
-        type: "heading",
-        title: "The 80/20 Rule for Preparation",
-        level: 3
-      },
-      {
-        id: "eighty-twenty-content",
-        type: "paragraph",
-        content: "Spend 80% of your time evaluating choices with help from current PG residents/seniors, and only 20% collecting raw data."
-      },
-      {
-        id: "key-principles",
-        type: "heading",
-        title: "Key Principles for Choice List Preparation:",
-        level: 3
-      },
-      {
-        id: "key-principles-list",
-        type: "list",
-        items: [
-          "Include every seat you'd genuinely join",
-          "Rank options by true preference, not perceived difficulty",
-          "Add backup options for lower probability scenarios",
-          "Consult current residents, not random online lists"
-        ]
-      },
-      {
-        id: "counselling-order",
-        type: "heading",
-        title: "Counselling Round Order",
-        level: 2
-      },
-      {
-        id: "counselling-order-content",
-        type: "paragraph",
-        content: "The counselling rounds always follow this order:\n\nAll India Round 1 - State Round 1\nAll India Round 2 - State Round 2\nAll India Round 3 - State Round 3\nAll India Stray - State Stray\n\nRule: All India results always come before corresponding State results."
-      },
-      {
-        id: "eligibility",
-        type: "heading",
-        title: "Eligibility Criteria: What You Need to Know",
-        level: 2
-      },
-      {
-        id: "eligibility-neet",
-        type: "paragraph",
-        content: "For NEET UG Qualification: This is basically mandatory to appear in both AIQ and state counselling."
-      },
-      {
-        id: "eligibility-lodging",
-        type: "paragraph",
-        content: "Lodging & Residency: This is very important, especially for the state quota. Many states require that you have studied class 10/class 12 from the same state or have a certificate that proves your residence."
-      },
-      {
-        id: "eligibility-category",
-        type: "paragraph",
-        content: "Category Certificate (OBC, SC/ST, EWS, PwD): These certificates must be valid and are required to be accepted during the counselling or document verification process.\n\nParticipants were motivated to have all required and preferred documents, which would be ready and verified before registering, as this is especially important for state-specific quotas, where criteria are stringent and may vary."
-      },
-      {
-        id: "master-streams",
-        type: "heading",
-        title: "Master the Counselling Streams",
-        level: 2
-      },
-      {
-        id: "aiq-counselling",
-        type: "heading",
-        title: "All India Quota (AIQ) Counselling:",
-        level: 3
-      },
-      {
-        id: "aiq-content",
-        type: "paragraph",
-        content: "It is basically managed by the Medical Counselling Committee (MCC) under the DGHS (Director General of Health Services). This process covers:\n\nOverall, 15% of seats in state government colleges.\n\nAll seats are in central institutions (AIIMS, JIPMER, DU, BHU, AMU, ESIC, AFMC, and deemed universities).\n\nLet us start with Round 1, which involves choice filling, and then the process moves forward to the mop-up round and the stray vacancy round."
-      },
-      {
-        id: "state-counselling",
-        type: "heading",
-        title: "State Quota Counselling:",
-        level: 3
-      },
-      {
-        id: "state-content",
-        type: "paragraph",
-        content: "This is specifically conducted by individual states for the remaining 85% of seats in state government and private colleges.\n\nEach state applies its own merit rules. Some factors, such as residence status, category certificates, and academic qualification, play a role."
-      },
-      {
-        id: "sequence-movement",
-        type: "heading",
-        title: "Sequence & Movement Between Counselling Rounds",
-        level: 2
-      },
-      {
-        id: "sequence-intro",
-        type: "paragraph",
-        content: "The video highlights the advances and limitations of moving between AIQ and state counselling:"
-      },
-      {
-        id: "sequence-cards",
-        type: "cards",
-        cards: [
-          {
-            id: "round-1",
-            title: "Round 1",
-            color: "blue",
-            items: [
-              "In this round, candidates can register in both AIQ and state counselling. But choose wisely, which could be based on your rank."
-            ]
-          },
-          {
-            id: "round-2",
-            title: "Round 2",
-            color: "purple",
-            items: [
-              "If you're assigned both in AIQ and the state, then you must decide which to join; both cannot be maintained."
-            ]
-          },
-          {
-            id: "beyond-round-2",
-            title: "Beyond Round 2",
-            color: "red",
-            items: [
-              "There will be no upgradation or switching between colleges or streams in the whole AIQ and state allowed."
-            ]
-          }
-        ]
-      },
-      {
-        id: "mopup-rounds",
-        type: "info-box",
-        boxType: "warning",
-        content: "Mop-up & Stray Vacancy Rounds:\n\nMobility is restricted after Round 2 due to Supreme Court orders (to prevent seat blocking).\n\nThis means flexibility is permitted only within the first two rounds, and once you give your commitment, you can't jump on categories or upgrade later."
-      },
-      {
-        id: "strategy-options",
-        type: "heading",
-        title: "Strategy Options",
-        level: 2
-      },
-      {
-        id: "strategy-high-rank",
-        type: "paragraph",
-        content: "High-rank aspirants: Candidates who have high ranks can participate in both AIQ and their home state counselling just to maximize chances.\n\nBasic Financial Considerations: Security deposits apply across states and quotas. If any student fails to join after allocation may lead to surrender.\n\nTiming & exit rules: when you take exit after Round 1, which is often allowed without any penalty, but exiting after Round 2 may lead you to lose the security deposit, so this is something crucial that every aspirant must weight carefully."
-      },
-      {
-        id: "single-participation",
-        type: "heading",
-        title: "Single Counselling Participation",
-        level: 3
-      },
-      {
-        id: "single-participation-list",
-        type: "list",
-        items: [
-          "AIQ only: Fill your choice list, accept/upgrade through rounds, and consider stray rounds.",
-          "State only: Same process, but check state-specific rules (e.g., Karnataka: no upgradation for clinical seats)."
-        ]
-      },
-      {
-        id: "dual-participation",
-        type: "heading",
-        title: "Dual Participation (Maximum Opportunities)",
-        level: 3
-      },
-      {
-        id: "dual-participation-list",
-        type: "list",
-        items: [
-          "You can participate in both AIQ and State simultaneously",
-          "States won't remove you for having an AIQ seat",
-          "Free exit is allowed for AIQ Round 1",
-          "Eligibility Rule: Joining, skipping, or resigning from AIQ Round 1 keeps you eligible for both State Round 1 and AIQ Round 2."
-        ]
-      },
-      {
-        id: "timeline-scenarios",
-        type: "heading",
-        title: "Timeline Scenarios",
-        level: 3
-      },
-      {
-        id: "timeline-scenarios-list",
-        type: "list",
-        items: [
-          "State results before AIQ joining deadline – Wait for both, pick the better seat, zero risk",
-          "State results between AIQ joining and resignation – Join AIQ first, switch if the state offers a better seat",
-          "State results after AIQ resignation – conservative: Join AIQ; aggressive: skip AIQ if confident about State"
-        ]
-      },
-      {
-        id: "state-specific",
-        type: "heading",
-        title: "State-Specific Rules:",
-        level: 3
-      },
-      {
-        id: "state-specific-list",
-        type: "list",
-        items: [
-          "Telangana: No free exit. If you skip Round 1, you lose eligibility for further rounds.",
-          "Karnataka: No upgradation allowed for clinical seats"
-        ]
-      },
-      {
-        id: "quick-tips",
-        type: "heading",
-        title: "Quick Tips for Success",
-        level: 2
-      },
-      {
-        id: "quick-tips-do",
-        type: "heading",
-        title: "Do:",
-        level: 3
-      },
-      {
-        id: "quick-tips-do-list",
-        type: "list",
-        items: [
-          "Consult seniors, use the previous year's data",
-          "Fill all genuinely acceptable choices",
-          "Plan travel and document logistics"
-        ]
-      },
-      {
-        id: "quick-tips-dont",
-        type: "heading",
-        title: "Don't:",
-        level: 3
-      },
-      {
-        id: "quick-tips-dont-list",
-        type: "list",
-        items: [
-          "Rely simply on rank or online lists",
-          "Ignore state-specific rules",
-          "Make major changes after Round 1"
-        ]
-      },
-      {
-        id: "quick-tips-remember",
-        type: "info-box",
-        boxType: "info",
-        content: "Remember: Preparation is easier than panicking. You have to secure one good seat, then pursue upgrades systematically."
-      },
-      {
-        id: "action-plan",
-        type: "heading",
-        title: "Action Plan for Aspirants",
-        level: 2
-      },
-      {
-        id: "action-plan-intro",
-        type: "paragraph",
-        content: "Here's a consolidated checklist based on the session:"
-      },
-      {
-        id: "action-plan-list",
-        type: "list",
-        items: [
-          "First, need to qualify NEET UG, then register on MCC (for AIQ) and respective state portals.",
-          "Then, prepare all your documentation, including identity, NEET scorecard, domicile/residency, and category.",
-          "Then fill in your preferences, prioritizing colleges based on your rank and aspirations.",
-          "Monitor Round 1 results, which are under AIQ and state counselling.",
-          "Decide early; if seats are allocated in both channels, you must choose one (you cannot retain both).",
-          "Complete reporting and document verification under the deadlines.",
-          "Track following rounds if not allocated, but remember, no switching after Round 2.",
-          "Consider mop-up or stray vacancy rounds if still unplaced.",
-          "Use insights like closing ranks, category-wise trends, and seat matrix to refine choices."
-        ]
-      },
-      {
-        id: "conclusion",
-        type: "heading",
-        title: "Conclusion",
-        level: 2
-      },
-      {
-        id: "conclusion-content",
-        type: "paragraph",
-        content: "NEET-PG counselling success is all about strategy, patience, and informed decisions. Rank matters, but planning your choices, understanding rules, and learning from seniors is what truly counts.\n\nYour medical specialization journey begins here. Make every counselling decision count."
-      },
-      {
-        id: "faqs",
-        type: "heading",
-        title: "FAQs",
-        level: 2
-      },
-      {
-        id: "faqs-list",
-        type: "faq",
-        faqs: [
-          {
-            question: "Q1. How should the choice list be built to maximize outcomes?",
-            answer: "Include every option genuinely acceptable, rank strictly by true preference (not perceived difficulty), add layered backups, and validate with current residents for on-ground insights."
-          },
-          {
-            question: "Q2. Can AIQ and State counselling run in parallel without risk?",
-            answer: "Yes. Participate in both; AIQ Round 1 has free exit. If allotted in both later, only one can be retained—decide based on joining deadlines and comparative seat quality."
-          },
-          {
-            question: "Q3. What's the best way to handle timeline clashes between AIQ and State?",
-            answer: "If State results arrive before the AIQ join deadline, compare both and pick the better seat. If State results come later, join AIQ first and switch only if State offers a clearly better, secure option."
-          },
-          {
-            question: "Q4. Which common mistakes derail counselling strategy?",
-            answer: "Over-relying on rank over preferences, too few choices, ignoring state-specific rules (e.g., no free exit or no clinical upgradation), late choice locking, and neglecting document/logistics planning."
-          },
-          {
-            question: "Q5. Can candidates register for both AIQ and State counselling in Round 1?",
-            answer: "Yes. Registration in both channels is allowed in Round 1; however, once a seat is allotted in both streams later, only one can be retained and the other must be relinquished."
-          },
-          {
-            question: "Q6. Is switching between AIQ and State allowed after Round 2?",
-            answer: "No. Post–Supreme Court directives restrict round 2, switching/upgradation across AIQ and State to prevent seat blocking; choices must be finalized by then."
-          },
-          {
-            question: "Q7. What documents are critical for State quota eligibility?",
-            answer: "State-specific domicile/residency proofs (or schooling criteria), valid category certificates (OBC/EWS/SC/ST/PwD), identity proof, NEET scorecard, and internship/registration documents as required."
-          },
-          {
-            question: "Q8. How should a rank-based strategy be planned across rounds?",
-            answer: "Prioritize safer options in Rounds 1–2, use Round 3 for targeted upgrades, and treat mop-up/stray rounds as high-risk fallback; reference past closing ranks, seat matrix, and applicable security deposit/exit rules."
-          }
-        ]
-      },
-      {
-  "id": "keywords",
-  "type": "keywords",
-  "title": "Related Keywords",
-  "keywords": [
-   "NEET PG Counselling",
-  "All India Quota Counselling",
-  "PG Counselling",
-  "NEET PG Counselling Schedule",
-  "NEET PG Counselling Guidance",
-  "MCC NEET PG Counselling",
-  "Apply for NEET PG Counselling",
-  "Choice Filling in NEET PG",
-  "Counseling NEET PG",
-  "Counselling for NEET PG",
-  "MCC NEET PG Counselling Schedule",
-  "All India Quota Counselling Procedure",
-  "All India Quota Seats in NEET PG",
-  "NEET PG Counselling Round"
-]
-},
-      {
-        id: "contact-form",
-        type: "contact-form",
-        title: "Submit queries to BelieversConsultancy",
-        content: "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours."
-      }
-    ]
+{
+  "id": 3,
+  "title": "The Ultimate NEET-PG Counselling Strategy: Your Complete Guide to All India and State Rounds",
+  "slug": "ultimate-neet-pg-counselling-strategy-complete-guide-all-india-state-rounds",
+  "excerpt": "Master your NEET-PG Counselling with smart strategies for All India and State rounds. Learn seat choice tactics, category rules, and top ranker insights.",
+  "featured_image": "https://cdn.dribbble.com/userupload/45458731/file/6df69d40f8518ecf354089d98b68c71d.png?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-green-100 text-green-800"
+  },
+  "tags": [
+    "NEET PG Counselling",
+    "All India Quota",
+    "State Counselling",
+    "Choice Filling",
+    "MCC Counselling",
+    "Counselling Strategy"
+  ],
+  "published_date": "2025-12-29",
+  "read_time": 5,
+  "meta_description": "Master your NEET-PG Counselling with smart strategies for All India and State rounds. Learn seat choice tactics, category rules, and top ranker insights.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "Managing NEET PG counselling, you know consider as one of the most crucial stages in your overall medical career. Although you must negotiate the multiple rounds, strict timelines, and some critical seat choices. Your final stage of success doesn't really depend just on your NEET PG rank, but it's totally on strategic planning, timing, and informed decision-making."
+    },
+    {
+      "id": "intro-purpose",
+      "type": "paragraph",
+      "content": "This informative guide gives you a very clear approach about how to managing All India Quota (AIQ) and State counselling processes effectively, as it also helps you to fill your choice list smartly and very securely with your ideal postgraduate seat."
+    },
+    {
+      "id": "section-1",
+      "type": "heading",
+      "title": "Understanding the Foundation: Why Choice List Preparation is Everything",
+      "level": 2
+    },
+    {
+      "id": "section-1-intro",
+      "type": "paragraph",
+      "content": "One of the biggest lessons from previous counselling sessions is so simple and understandable: that your choice list is more important than your rank."
+    },
+    {
+      "id": "section-1-focus",
+      "type": "paragraph",
+      "content": "Many aspirants spend excessive time collecting data about seat cutoffs, but few focus on choice filling in NEET PG, which ultimately decides your final seat. Preparing your list strategically is what differentiates top candidates during the PG counselling rounds."
+    },
+    {
+      "id": "section-1-50-rule",
+      "type": "heading",
+      "title": "The 50% Rule",
+      "level": 3
+    },
+    {
+      "id": "section-1-50-content",
+      "type": "paragraph",
+      "content": "Here's the reality: only about 50% of all available data applies to your case. You won't know which half until the process begins. That's why clarity and research are essential before you apply for NEET PG counselling or participate in All India Quota counselling."
+    },
+    {
+      "id": "section-1-80-20-rule",
+      "type": "heading",
+      "title": "The 80/20 Rule for Preparation",
+      "level": 3
+    },
+    {
+      "id": "section-1-80-20-content",
+      "type": "paragraph",
+      "content": "Spend 80% of your preparation time evaluating preferences with guidance from seniors or current PG residents and only 20% collecting raw seat data."
+    },
+    {
+      "id": "section-1-80-20-conclusion",
+      "type": "paragraph",
+      "content": "This always makes sure that your overall decisions are practical and experience-based."
+    },
+    {
+      "id": "section-1-principles",
+      "type": "heading",
+      "title": "Key Principles for Choice List Preparation:",
+      "level": 3
+    },
+    {
+      "id": "section-1-principles-list",
+      "type": "list",
+      "items": [
+        "It basically includes every seat that you'd have to genuinely accept.",
+        "There will be rank options by real preference, not difficulty level.",
+        "You need to add the safe backup options just to cover the lower-probability outcomes.",
+        "You have to consult with your senior residents, not random online lists."
+      ]
+    },
+    {
+      "id": "section-2",
+      "type": "heading",
+      "title": "The Counselling Flow and Sequence",
+      "level": 2
+    },
+    {
+      "id": "section-2-intro",
+      "type": "paragraph",
+      "content": "The NEET PG counselling schedule always follows this pattern:"
+    },
+    {
+      "id": "section-2-list",
+      "type": "list",
+      "items": [
+        "All India Round 1 → State Round 1",
+        "All India Round 2 → State Round 2",
+        "All India Round 3 → State Round 3",
+        "All India Stray → State Stray"
+      ]
+    },
+    {
+      "id": "section-2-rule",
+      "type": "paragraph",
+      "content": "Rule: There is a rule that all India results are always released before the communicate with the State round results. This order always makes sure that candidates can make informed decisions before switching."
+    },
+    {
+      "id": "section-3",
+      "type": "heading",
+      "title": "Eligibility Criteria: What You Need to Know",
+      "level": 2
+    },
+    {
+      "id": "section-3-intro",
+      "type": "paragraph",
+      "content": "You know what, before completing your overall registration for MCC NEET PG counselling, you need to make sure that you meet the eligibility and document requirements."
+    },
+    {
+      "id": "section-3-basic",
+      "type": "paragraph",
+      "content": "Basic Criteria:"
+    },
+    {
+      "id": "section-3-list",
+      "type": "list",
+      "items": [
+        "NEET UG Qualification: It is mandatory to participate in both AIQ and state counselling.",
+        "Residency Requirement: Many states demand Class 10/12 study or domicile proof from the same state.",
+        "Category Certificates (OBC/SC/ST/EWS/PwD): it should be must be valid and officially verified during the document check process."
+      ]
+    },
+    {
+      "id": "section-3-conclusion",
+      "type": "paragraph",
+      "content": "You need to keep all your required certificates ready before registration happens, and delays in document verification can easily block your participation in the NEET PG counselling rounds."
+    },
+    {
+      "id": "section-4",
+      "type": "heading",
+      "title": "Mastering the Counselling Streams",
+      "level": 2
+    },
+    {
+      "id": "section-4-aiq",
+      "type": "heading",
+      "title": "1. All India Quota (AIQ) Counselling",
+      "level": 3
+    },
+    {
+      "id": "section-4-aiq-intro",
+      "type": "paragraph",
+      "content": "Conducted by the Medical Counselling Committee (MCC) under DGHS, this process includes:"
+    },
+    {
+      "id": "section-4-aiq-list",
+      "type": "list",
+      "items": [
+        "15% of government college seats.",
+        "100% of seats in AIIMS, JIPMER, BHU, AMU, DU, ESIC, AFMC, and deemed universities."
+      ]
+    },
+    {
+      "id": "section-4-aiq-process",
+      "type": "paragraph",
+      "content": "The AIQ process starts with your choice of filling in NEET PG, which is basically followed by rounds of allotment, mop-up, and stray vacancy."
+    },
+    {
+      "id": "section-4-state",
+      "type": "heading",
+      "title": "2. State Quota Counselling",
+      "level": 3
+    },
+    {
+      "id": "section-4-state-intro",
+      "type": "paragraph",
+      "content": "You know, in state quota counselling, each state conducts its own PG counselling for 85% of seats in government and private colleges."
+    },
+    {
+      "id": "section-4-state-rules",
+      "type": "paragraph",
+      "content": "Where all the rules vary, often depending on domicile, category, or academic background. Always check the state NEET PG counselling schedule and eligibility before registration."
+    },
+    {
+      "id": "section-5",
+      "type": "heading",
+      "title": "Sequence & Movement Between Counselling Rounds",
+      "level": 2
+    },
+    {
+      "id": "section-5-intro",
+      "type": "paragraph",
+      "content": "The transition that happens between AIQ and State counselling rounds is very important. Here's how it works:"
+    },
+    {
+      "id": "section-5-table",
+      "type": "table",
+      "headers": ["Phase", "Key Rule"],
+      "rows": [
+        ["Round 1", "Although you can register for both AIQ and State simultaneously. Choose wisely based on your rank."],
+        ["Round 2", "If allotted both in AIQ and State, you must pick one — dual retention isn't allowed."],
+        ["After Round 2", "No switching or upgradation allowed between AIQ and State seats (as per Supreme Court orders)."]
+      ]
+    },
+    {
+      "id": "section-5-note",
+      "type": "paragraph",
+      "content": "Note: Flexibility exists only in the first two rounds. Once you commit to a seat, no further upgrades across categories or colleges are allowed."
+    },
+    {
+      "id": "section-6",
+      "type": "heading",
+      "title": "Strategy Options for Different Aspirants",
+      "level": 2
+    },
+    {
+      "id": "section-6-high-rank",
+      "type": "heading",
+      "title": "High-Rank Candidates",
+      "level": 3
+    },
+    {
+      "id": "section-6-high-rank-list",
+      "type": "list",
+      "items": [
+        "Participate in both AIQ and State counselling to maximize options.",
+        "Be strategic during choice filling in NEET PG to target premium colleges first."
+      ]
+    },
+    {
+      "id": "section-6-financial",
+      "type": "heading",
+      "title": "Financial Considerations",
+      "level": 3
+    },
+    {
+      "id": "section-6-financial-list",
+      "type": "list",
+      "items": [
+        "Every counselling portal requires a refundable security deposit.",
+        "Non-joining after seat allotment may lead to forfeiture."
+      ]
+    },
+    {
+      "id": "section-6-exit",
+      "type": "heading",
+      "title": "Exit Rules",
+      "level": 3
+    },
+    {
+      "id": "section-6-exit-list",
+      "type": "list",
+      "items": [
+        "After Round 1: You can exit without penalty.",
+        "After Round 2: Exiting results in loss of deposit and potential ineligibility for later rounds."
+      ]
+    },
+    {
+      "id": "section-7",
+      "type": "heading",
+      "title": "Single vs Dual Counselling Participation",
+      "level": 2
+    },
+    {
+      "id": "section-7-aiq-only",
+      "type": "heading",
+      "title": "AIQ Only",
+      "level": 3
+    },
+    {
+      "id": "section-7-aiq-only-list",
+      "type": "list",
+      "items": [
+        "Fill your list and proceed through all AIQ rounds (including stray).",
+        "You remain eligible for upgrades within AIQ counselling."
+      ]
+    },
+    {
+      "id": "section-7-state-only",
+      "type": "heading",
+      "title": "State Only",
+      "level": 3
+    },
+    {
+      "id": "section-7-state-only-list",
+      "type": "list",
+      "items": [
+        "Follow your state's specific procedure and deadlines.",
+        "Example: Karnataka doesn't allow upgradation for clinical seats."
+      ]
+    },
+    {
+      "id": "section-7-dual",
+      "type": "heading",
+      "title": "Dual Participation (Recommended)",
+      "level": 3
+    },
+    {
+      "id": "section-7-dual-list",
+      "type": "list",
+      "items": [
+        "Register for both AIQ and State counselling.",
+        "You can accept AIQ Round 1, remain eligible for State Round 1, and AIQ Round 2.",
+        "Increases your chance of securing a better seat."
+      ]
+    },
+    {
+      "id": "section-8",
+      "type": "heading",
+      "title": "Timeline Scenarios",
+      "level": 2
+    },
+    {
+      "id": "section-8-list",
+      "type": "list",
+      "items": [
+        "If State results are released before the AIQ joining deadline, then you need to wait, compare both results, and pick the better seat according to it.",
+        "If State results come during the AIQ joining period, firstly, please join AIQ; then you can switch it later if State offers a superior option.",
+        "If State results come after AIQ resignation, candidates need to play safe and join the AIQ unless confident about State quota results."
+      ]
+    },
+    {
+      "id": "section-9",
+      "type": "heading",
+      "title": "State-Specific Rules to Remember",
+      "level": 2
+    },
+    {
+      "id": "section-9-list",
+      "type": "list",
+      "items": [
+        "Telangana: There will be no free exit after Round 1; your skipping it makes you ineligible for further rounds.",
+        "Karnataka: No upgradation allowed for clinical seats post-allotment."
+      ]
+    },
+    {
+      "id": "section-10",
+      "type": "heading",
+      "title": "Quick Tips for Counselling Success",
+      "level": 2
+    },
+    {
+      "id": "section-10-do",
+      "type": "paragraph",
+      "content": "Do:"
+    },
+    {
+      "id": "section-10-do-list",
+      "type": "list",
+      "items": [
+        "Consult seniors and analyze the previous year's data.",
+        "Include all acceptable choices.",
+        "Plan logistics and document verification."
+      ]
+    },
+    {
+      "id": "section-10-dont",
+      "type": "paragraph",
+      "content": "Don't:"
+    },
+    {
+      "id": "section-10-dont-list",
+      "type": "list",
+      "items": [
+        "Depend only on rank or online college lists.",
+        "Ignore State-specific eligibility rules.",
+        "Make drastic changes after Round 1."
+      ]
+    },
+    {
+      "id": "section-10-remember",
+      "type": "paragraph",
+      "content": "Remember: Preparation prevents panic. You only need one good seat, upgrades can follow strategically."
+    },
+    {
+      "id": "section-11",
+      "type": "heading",
+      "title": "Action Plan for NEET PG Counselling 2025 Aspirants",
+      "level": 2
+    },
+    {
+      "id": "section-11-list",
+      "type": "list",
+      "items": [
+        "Qualify for NEET UG/PG Exam.",
+        "Register on MCC (for AIQ) and respective State portals.",
+        "Prepare documentation: ID, NEET scorecard, domicile, and category proof.",
+        "Fill choices strategically as per your goals and realistic rank.",
+        "Track Round 1 results for both AIQ and State simultaneously.",
+        "Select one seat if allotted in both; dual holding is not allowed.",
+        "Complete reporting and document verification promptly.",
+        "Participate in subsequent rounds if unallotted.",
+        "Consider mop-up and stray vacancy rounds if still unplaced.",
+        "Use closing ranks and trends to refine your later round preferences."
+      ]
+    },
+    {
+      "id": "conclusion",
+      "type": "heading",
+      "title": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "conclusion-content-1",
+      "type": "paragraph",
+      "content": "NEET PG counselling 2025 is basically a test of strategy and patience. Your overall rank gives you the final entry, but your planning determines your overall success."
+    },
+    {
+      "id": "conclusion-content-2",
+      "type": "paragraph",
+      "content": "It starts from understanding the MCC NEET PG counselling schedule, just to handling All India quota counselling procedures; every decision must be informed promptly."
+    },
+    {
+      "id": "conclusion-content-3",
+      "type": "paragraph",
+      "content": "So, just prepare everything early and plan all your preferences smartly, and approach each round with confidence."
+    },
+    {
+      "id": "conclusion-content-4",
+      "type": "paragraph",
+      "content": "Although your postgraduate journey and future specialization begin with making every counselling decision count."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1. How should the choice list be built to maximize outcomes?",
+          "answer": "It basically includes every genuinely acceptable option, and it is ranked strictly by the true preference (not perceived difficulty), or it adds layered backups, and validates with current residents for on-ground insights."
+        },
+        {
+          "question": "Q2. Can AIQ and State counselling run in parallel without risk?",
+          "answer": "Yes, the AIQ and state counselling participate in both; AIQ Round 1 has a free exit. Or if it's allotted in both later, only one can be held on to, or it is decided based on joining deadlines and comparative seat quality."
+        },
+        {
+          "question": "Q3. What's the best way to handle timeline clashes between AIQ and State?",
+          "answer": "If the state results has arrive before the AIQ join deadline, then you need to compare both and pick the better seat. But if state results come later, then you can join AIQ first and switch that only if the state offers a clearly better, secure option."
+        },
+        {
+          "question": "Q4. Which common mistakes derail counselling strategy?",
+          "answer": "It has been over-reliant on rank, which is over preferences, and too few choices; it also ignores the overall state-specific rules ( for example: no free exit or no clinical upgradation), late choice locking, and neglects all the document/logistics planning."
+        },
+        {
+          "question": "Q5 Can candidates register for both AIQ and State counselling in Round 1?",
+          "answer": "Yes. There will be registration in both channels, which is allowed in Round 1; however, once a seat is finally allotted in both streams later, there is one can be retained, and the other must be renounced."
+        },
+        {
+          "question": "Q6. Is switching between AIQ and State allowed after Round 2?",
+          "answer": "No. Post–Supreme Court directives restrict round 2, switching/upgradation across AIQ and State to prevent seat blocking; choices must be finalized by then."
+        },
+        {
+          "question": "Q7. What documents are critical for State quota eligibility?",
+          "answer": "State-specific domicile/residency proofs (or schooling criteria), valid category certificates (OBC/EWS/SC/ST/PwD), identity proof, NEET scorecard, and internship/registration documents as required."
+        },
+        {
+          "question": "Q8. How should a rank-based strategy be planned across rounds?",
+          "answer": "Prioritize safer options in Rounds 1–2, use Round 3 for targeted upgrades, and treat mop-up/stray rounds as high-risk fallback; reference past closing ranks, seat matrix, and applicable security deposit/exit rules."
+        }
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "neet pg counselling",
+        "all india quota counselling",
+        "pg counselling",
+        "neet pg counselling schedule",
+        "neet pg counselling guidance",
+        "mcc neet pg counselling",
+        "apply for neet pg counselling",
+        "choice filling in neet pg",
+        "counseling neet pg",
+        "counselling for neet pg",
+        "mcc neet pg counselling schedule",
+        "all india quota counselling procedure",
+        "all india quota seats in neet pg",
+        "neet pg counselling round"
+      ]
+    }
+  ]
+},
+
+
  {
   id: 4,
     title: "Decoding NEET PG 2025: All India 50% Quota Seats Counselling Explained",
