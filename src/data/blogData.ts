@@ -1167,7 +1167,7 @@ export const blogPosts: BlogPost[] = [
     "MCC Counselling",
     "Counselling Strategy"
   ],
-  "published_date": "2025-12-29",
+  "published_date": "2025-11-12",
   "read_time": 5,
   "meta_description": "Master your NEET-PG Counselling with smart strategies for All India and State rounds. Learn seat choice tactics, category rules, and top ranker insights.",
   "sections": [
