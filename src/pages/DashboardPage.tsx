@@ -155,6 +155,7 @@ import {
 } from "../data/notifications";
 import type { Notification } from "../data/notifications";
 import NotificationPopup from "../components/NotificationPopup";
+import NotificationsPage from "./NotificationsPage";
 
 /**
  * Enhanced Dashboard Page Component for NEET PG Platform
@@ -258,9 +259,8 @@ const DashboardPage: React.FC = () => {
     console.log("Selected state:", state);
   };
 
-   if (showNotificationsPage) {
-    // Import NotificationsPage component dynamically
-    const NotificationsPage = require("../pages/NotificationsPage").default;
+   // If showing notifications page, render it instead
+  if (showNotificationsPage) {
     return (
       <NotificationsPage
         notifications={notifications}
