@@ -34331,7 +34331,7 @@ export const blogPosts: BlogPost[] = [
     "Career Guidance",
     "PG Life"
   ],
-  "published_date": "2025-12-30",
+  "published_date": "2025-12-31",
   "read_time": 8,
   "meta_description": "Residency shapes more than skills. It reshapes thinking, builds resilience, and transforms medical graduates into confident, accountable doctors for life.",
   "sections": [
