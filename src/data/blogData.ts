@@ -35214,7 +35214,7 @@ export const blogPosts: BlogPost[] = [
     "MCC Counselling",
     "Seat Allotment"
   ],
-  "published_date": "2025-01-02",
+  "published_date": "2026-01-02",
   "read_time": 8,
   "meta_description": "Navigate NEET PG Counselling Round 3 smartly with clear strategies to balance All India and State rounds, avoid seat loss, and maximize admission chances.",
   "sections": [
