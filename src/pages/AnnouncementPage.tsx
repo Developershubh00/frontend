@@ -1106,15 +1106,16 @@ const AnnouncementPage: React.FC = () => {
     {
       id: 90,
       title: "NEET PG Counselling 2025:",
-      content:"NEET PG 2025 Counselling: MCC Extends Round 2 Reporting & Resignation Deadline Till December 29, 4 PM at mcc.nic.in",
-      date: "2025-12-27T08:00:00Z",
+      content:"FMGE December 2025: NBEMS Extends Deficient Documents Submission Deadline Till January 7, 2026",
+      date: "2025-12-30T08:00:00Z",
       priority: 'high',
       category: 'NEET PG',
-      link: 'https://timesofindia.indiatimes.com/education/news/neet-pg-counselling-2025-round-2-reporting-resignation-deadline-extended-till-this-date-check-details-here/articleshow/126198627.cms',
+      link: 'https://natboard.edu.in/allnotice.php',
       is_active: true,
-      source: 'timesofindia. ',
-      created_at: "2025-12-27T08:00:00Z"
+      source: 'natboard ',
+      created_at: "2025-12-30T08:00:00Z"
     },
+    
 
 
 

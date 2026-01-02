@@ -35,10 +35,10 @@ export const notificationsData: Notification[] = [
   },
   {
     id: "3",
-    title: "Karnataka State Counselling",
-    message: "Change in KEA round 2 provisional allotment list. Please check the updated note in schedule.",
+    title: "FMGE December 2025",
+    message: "NBEMS Extends Deficient Documents Submission Deadline Till January 7, 2026",
     type: "warning",
-    date: "Sun, 21 Dec",
+    date: "Sun, 30 Dec",
     time: "10:30 AM",
     read: false,
     link: "/notice"
