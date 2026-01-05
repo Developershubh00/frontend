@@ -36139,7 +36139,7 @@ export const blogPosts: BlogPost[] = [
     "Molecular Medicine",
     "Career Guidance"
   ],
-  "published_date": "2025-12-24",
+  "published_date": "2026-01-05",
   "read_time": 12,
   "meta_title": "MD Biochemistry After MBBS: Understanding Disease at Its Roots in 2025",
   "meta_description": "MD Biochemistry after MBBS focuses on molecular mechanisms of disease, diagnostics, and research, shaping experts who understand illness from its roots in 2025.",
