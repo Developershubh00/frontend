@@ -36545,6 +36545,22 @@ export const blogPosts: BlogPost[] = [
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
       "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "MD Biochemistry",
+    "Residency",
+    "Medicine",
+    "Residents",
+    "Molecular Medicine",
+    "PG Branch After MBBS",
+    "Residency Programs",
+    "Medical Residency",
+    "Modern Medicine"
+      ]
     }
   ]
 }
