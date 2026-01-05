@@ -679,7 +679,7 @@ export const blogPosts: BlogPost[] = [
     ]
   },
   {
-  "id": 83,
+  "id": 3,
   "title": "NRI Category Seats in NEET PG 2025: Understanding the New MEA Guidelines",
   "slug": "nri-category-seats-neet-pg-2025-understanding-new-mea-guidelines",
   "excerpt": "Explore NRI category seat eligibility, documentation, and MEA's latest guidelines for NEET PG 2025 Counselling to secure your dream postgraduate seat.",
@@ -1144,7 +1144,7 @@ export const blogPosts: BlogPost[] = [
   ]
 },
 {
-  "id": 3,
+  "id": 4,
   "title": "The Ultimate NEET-PG Counselling Strategy: Your Complete Guide to All India and State Rounds",
   "slug": "ultimate-neet-pg-counselling-strategy-complete-guide-all-india-state-rounds",
   "excerpt": "Master your NEET-PG Counselling with smart strategies for All India and State rounds. Learn seat choice tactics, category rules, and top ranker insights.",
@@ -1655,7 +1655,7 @@ export const blogPosts: BlogPost[] = [
   ]
 },
 {
-  "id": 4,
+  "id": 5,
   "title": "Decoding NEET PG 2025: All India 50% Quota Seats Counselling Explained",
   "slug": "decoding-neet-pg-2025-all-india-50-quota-seats-counselling-explained",
   "excerpt": "Understand the NEET PG 2025 All India 50% Quota Counselling process, eligibility, and seat allotment steps to secure your desired postgraduate seat.",
