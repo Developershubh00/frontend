@@ -415,7 +415,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -1113,7 +1113,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -1629,7 +1629,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -2025,7 +2025,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -2365,7 +2365,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -2713,7 +2713,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -3066,7 +3066,7 @@ export const blogPosts: BlogPost[] = [
       id: "contact-form",
       type: "contact-form",
       title: "Submit queries to BelieversConsultancy",
-      content: "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      content: "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -3624,7 +3624,7 @@ export const blogPosts: BlogPost[] = [
       id: "contact-form",
       type: "contact-form",
       title: "Submit queries to BelieversConsultancy",
-      content: "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      content: "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -4054,7 +4054,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -4569,7 +4569,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -4987,7 +4987,7 @@ export const blogPosts: BlogPost[] = [
       id: "contact-form",
       type: "contact-form",
       title: "Submit queries to BelieversConsultancy",
-      content: "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      content: "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -5374,7 +5374,7 @@ export const blogPosts: BlogPost[] = [
       id: "contact-form",
       type: "contact-form",
       title: "Submit queries to BelieversConsultancy",
-      content: "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      content: "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -5710,7 +5710,7 @@ export const blogPosts: BlogPost[] = [
       id: "contact-form",
       type: "contact-form",
       title: "Submit queries to BelieversConsultancy",
-      content: "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      content: "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -6025,7 +6025,7 @@ export const blogPosts: BlogPost[] = [
       id: "contact-form",
       type: "contact-form",
       title: "Submit queries to BelieversConsultancy",
-      content: "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      content: "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -6254,7 +6254,7 @@ export const blogPosts: BlogPost[] = [
       id: "contact-form",
       type: "contact-form",
       title: "Submit queries to BelieversConsultancy",
-      content: "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      content: "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -6446,7 +6446,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -6822,7 +6822,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -7141,7 +7141,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -7493,7 +7493,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -7720,7 +7720,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -8076,7 +8076,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -8403,7 +8403,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -8570,7 +8570,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -8897,7 +8897,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -9264,7 +9264,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -9586,7 +9586,7 @@ export const blogPosts: BlogPost[] = [
 //       "id": "contact-form",
 //       "type": "contact-form",
 //       "title": "Submit queries to BelieversConsultancy",
-//       "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+//       "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8"
 //     }
 //   ]
 // },
@@ -10336,7 +10336,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -10611,7 +10611,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\nhttps://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -10996,7 +10996,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -11332,7 +11332,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -11639,7 +11639,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -11925,7 +11925,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -12407,7 +12407,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -12789,7 +12789,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -12995,7 +12995,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -13443,7 +13443,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -13781,7 +13781,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -14213,7 +14213,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -14498,7 +14498,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -14809,7 +14809,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -15083,7 +15083,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -15389,7 +15389,7 @@ export const blogPosts: BlogPost[] = [
 //       "id": "contact-form",
 //       "type": "contact-form",
 //       "title": "Submit queries to BelieversConsultancy",
-//       "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+//       "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
 //     }
 //   ]
 // },
@@ -15710,7 +15710,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -16000,7 +16000,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -16323,7 +16323,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -16699,7 +16699,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -17061,7 +17061,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "For more queries, submit your questions here:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "For more queries, submit your questions here:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -17564,7 +17564,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "For more queries, submit your questions here:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "For more queries, submit your questions here:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -18031,7 +18031,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -18838,7 +18838,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -19468,7 +19468,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -20606,7 +20606,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -21241,7 +21241,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     }
   ]
 },
@@ -21856,7 +21856,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -22356,7 +22356,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -22801,7 +22801,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -23373,7 +23373,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -23897,7 +23897,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -24353,7 +24353,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -24699,7 +24699,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -25179,7 +25179,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -25689,7 +25689,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -26072,7 +26072,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -26565,7 +26565,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -26909,7 +26909,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -27265,7 +27265,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -27721,7 +27721,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -27968,7 +27968,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -28529,7 +28529,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -28899,7 +28899,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -29437,7 +29437,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -29938,7 +29938,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -30456,7 +30456,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -30935,7 +30935,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -31329,7 +31329,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -31744,7 +31744,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -32106,7 +32106,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -32598,7 +32598,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -33043,7 +33043,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -33578,7 +33578,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -33993,7 +33993,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -34420,7 +34420,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -34671,7 +34671,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -35224,7 +35224,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -35587,7 +35587,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -36105,7 +36105,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -36555,7 +36555,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
@@ -37098,7 +37098,7 @@ export const blogPosts: BlogPost[] = [
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
     },
     {
       "id": "keywords",
