@@ -2078,7 +2078,7 @@ export const blogPosts: BlogPost[] = [
     "Medical Education",
     "Career Guidance"
   ],
-  "published_date": "2026-10-13",
+  "published_date": "2025-10-13",
   "read_time": 8,
   "meta_description": "Compare PG Diploma and NBE Diploma under NEET PG 2025. Understand course structure, recognition, and career scope to make the right postgraduate choice.",
   "sections": [
@@ -36598,7 +36598,7 @@ export const blogPosts: BlogPost[] = [
     "Career Guidance",
     "NEET PG"
   ],
-  "published_date": "2025-12-24",
+  "published_date": "2026-01-06",
   "read_time": 14,
   "meta_title": "Pediatrics: The Branch Where Your Patient Can Cry... But You Must Not",
   "meta_description": "Pediatrics demands patience, empathy, and calm judgment, caring for children who cannot explain pain while doctors stay composed and compassionate.",
