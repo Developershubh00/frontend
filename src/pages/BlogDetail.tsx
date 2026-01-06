@@ -1906,7 +1906,7 @@ const readTime = post?.read_time || 5;
             </h3>
             <p className="text-sm md:text-base text-gray-700 mb-4">{section.content}</p>
             <a
-              href="https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+              href="https://forms.gle/24RzkmeNreNikpJA8"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center bg-gradient-to-r from-blue-500 to-red-500 text-white px-6 py-3 rounded-full font-semibold hover:scale-105 transition-transform duration-200"
