@@ -2717,359 +2717,431 @@ export const blogPosts: BlogPost[] = [
     }
   ]
 },
-  
 {
-  id: 7,
-  title: "NEET PG 2025: A Complete Guide to the OBC-NCL Certificate",
-  slug: "neet-pg-2025-complete-guide-obc-ncl-certificate",
-  excerpt: "The OBC-NCL certificate is mandatory for medical graduates seeking admission under the 27% OBC quota in All India Quota seats for NEET PG 2025. This explainer clarifies purpose, eligibility, validity, and the application pathway for claiming OBC-NCL under AIQ.",
-  featured_image: "https://cdn.dribbble.com/userupload/45488653/file/3d61def9920690366538b13113f9935d.png?w=1200&h=600&fit=crop",
-  author: {
-    name: "Believers Team",
-    avatar: "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
-    bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  "id": 7,
+  "title": "NEET PG 2025: A Complete Guide to the OBC-NCL Certificate",
+  "slug": "neet-pg-2025-complete-guide-obc-ncl-certificate",
+  "excerpt": "Learn everything about the OBC NCL certificate for NEET PG 2025 including eligibility documents and how to ensure a smooth counselling process.",
+  "featured_image": "https://cdn.dribbble.com/userupload/45488653/file/3d61def9920690366538b13113f9935d.png?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
-  category: {
-    name: "NEET PG",
-    slug: "neet-pg",
-    color: "bg-blue-100 text-blue-800"
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-green-100 text-green-800"
   },
-  tags: ["NEET PG 2025", "OBC-NCL Certificate", "All India Quota", "Medical Admissions", "Reservation"],
-  published_date: "2025-10-24",
-  read_time: 8,
-  meta_description: " Learn everything about the OBC NCL certificate for NEET PG 2025 including eligibility documents and how to ensure a smooth counselling process.",
-  sections: [
+  "tags": [
+    "NEET PG 2025",
+    "OBC NCL Certificate",
+    "MCC Counselling",
+    "All India Counselling",
+    "Career Guidance"
+  ],
+  "published_date": "2025-10-24",
+  "read_time": 10,
+  "meta_title": "NEET PG 2025: A Complete Guide to the OBC-NCL Certificate",
+  "meta_description": "Learn everything about the OBC NCL certificate for NEET PG 2025 including eligibility documents and how to ensure a smooth counselling process.",
+  "keywords": [
+    "neet pg 2025",
+    "obc ncl certificate",
+    "all india counselling",
+    "mcc counselling",
+    "obc certificate",
+    "ncl certificate",
+    "mcc neet pg counselling",
+    "creamy layer certificate",
+    "ncl certificate online",
+    "ncl for obc",
+    "ncl obc",
+    "ncl certificate online apply",
+    "ncl certificate apply online",
+    "non creamy layer certificate",
+    "non creamy layer",
+    "non creamy layer certificate apply online",
+    "non creamy layer certificate for obc",
+    "non creamy layer in obc"
+  ],
+  "sections": [
     {
-      id: "intro",
-      type: "paragraph",
-      content: "The OBC-NCL (Other Backward Class – Non-Creamy Layer) certificate is very important for NEET PG 2025 aspirants applying through All India Quota (AIQ). This guide explains eligibility, benefits, the application process, and common queries.\n\nHere is the detailed explanation:"
+      "id": "intro",
+      "type": "paragraph",
+      "content": "The OBC-NCL (Other Backward Class – Non-Creamy Layer) certificate is mandatory for medical graduates seeking admission under the 27% OBC quota in All India Quota (AIQ) seats for NEET PG 2025. This explainer clarifies purpose, eligibility, validity, and the application pathway for claiming OBC‑NCL under AIQ."
     },
     {
-      id: "why-need-certificate",
-      type: "heading",
-      title: "Why You Need an OBC-NCL Certificate",
-      level: 2
+      "id": "intro-purpose",
+      "type": "paragraph",
+      "content": "The OBC-NCL (Other Backward Class – Non-Creamy Layer) certificate is very important for NEET PG 2025 aspirants applying through All India Quota (AIQ). This guide explains eligibility, benefits, the application process, and common queries."
     },
     {
-      id: "why-need-certificate-list",
-      type: "list",
-      items: [
-        "For AIQ under MCC, the OBC certificate must certify Non-Creamy Layer status as per the Central OBC List and be in the prescribed format issued by a competent authority; state-list-only OBC status is not accepted for AIQ.",
-        "State-issued OBC certificates are not valid for AIQ admissions.",
-        "MCC applies 27% OBC-NCL reservation in AIQ; open AIQ includes 50% AIQ of government seats and 100% DNB under AIQ, as per the counselling scheme.",
-        "OBC-NCL candidates qualify at the 40th percentile; UR/EWS require the 50th percentile; UR-PwBD is 45th percentile"
-      ]
+      "id": "intro-explanation",
+      "type": "paragraph",
+      "content": "Here is the detailed explanation:"
     },
     {
-      id: "central-vs-state",
-      type: "heading",
-      title: "Central vs. State Certificates",
-      level: 2
+      "id": "why-need",
+      "type": "heading",
+      "title": "Why You Need an OBC-NCL Certificate",
+      "level": 2
     },
     {
-      id: "central-vs-state-list",
-      type: "list",
-      items: [
-        "Certificates must be issued by a competent authority (e.g., Tehsildar/SDM/DM); for AIQ, the caste must be in the NCBC Central List and the certificate must follow MCC's proforma.",
-        "State OBC/Backward Class Certificate - For state counselling only.",
-        "Always verify your caste in the NCBC (National Commission for Backward Classes) central list to ensure eligibility."
-      ]
+      "id": "why-need-requirement",
+      "type": "paragraph",
+      "content": "For AIQ under MCC, the OBC certificate must certify Non‑Creamy Layer status as per the Central OBC List and be in the prescribed format issued by a competent authority; state‑list‑only OBC status is not accepted for AIQ."
     },
     {
-      id: "what-is-certificate",
-      type: "heading",
-      title: "What Is the OBC-NCL Certificate?",
-      level: 2
+      "id": "why-need-state",
+      "type": "paragraph",
+      "content": "State-issued OBC certificates are not valid for AIQ admissions."
     },
     {
-      id: "what-is-certificate-content",
-      type: "paragraph",
-      content: "The OBC-NCL certificate verifies two things:"
+      "id": "why-need-reservation",
+      "type": "paragraph",
+      "content": "MCC applies 27% OBC‑NCL reservation in AIQ; open AIQ includes 50% AIQ of government seats and 100% DNB under AIQ, as per the counselling scheme."
     },
     {
-      id: "what-is-certificate-list",
-      type: "list",
-      items: [
-        "OBC Status: The candidate belongs to a caste or community listed in the Central OBC list, notified by the National Commission for Backward Classes (NCBC).",
-        "Non-Creamy Layer (NCL) Status: The candidate's family falls under the non-creamy layer category, determined mainly by parents' income and occupation, making them eligible for reservation benefits.",
-        "This is different from a state OBC certificate. A state OBC certificate is valid only for state quota seats, whereas a central OBC-NCL certificate is mandatory for all seats allotted through All India Counselling by the Medical Counselling Committee (MCC)."
-      ]
+      "id": "why-need-percentile",
+      "type": "paragraph",
+      "content": "OBC‑NCL candidates qualify at the 40th percentile; UR/EWS require the 50th percentile; UR‑PwBD is at the 45th percentile"
     },
     {
-      id: "eligibility-rules",
-      type: "heading",
-      title: "Key Eligibility Rules",
-      level: 2
+      "id": "central-vs-state",
+      "type": "heading",
+      "title": "Central vs. State Certificates",
+      "level": 2
     },
     {
-      id: "eligibility-rules-content",
-      type: "paragraph",
-      content: "To qualify for an OBC-NCL certificate, you must meet the following conditions:"
+      "id": "central-vs-state-requirement",
+      "type": "paragraph",
+      "content": "Certificates must be issued by a competent authority (e.g., Tehsildar/SDM/DM); for AIQ, the caste must be in the NCBC Central List and the certificate must follow MCC's proforma."
     },
     {
-      id: "caste-central-list",
-      type: "heading",
-      title: "Caste in Central List:",
-      level: 3
+      "id": "central-vs-state-info",
+      "type": "paragraph",
+      "content": "State OBC/Backward Class Certificate - For state counselling only."
     },
     {
-      id: "caste-central-list-list",
-      type: "list",
-      items: [
+      "id": "central-vs-state-verify",
+      "type": "paragraph",
+      "content": "Always verify your caste in the NCBC (National Commission for Backward Classes) central list to ensure eligibility."
+    },
+    {
+      "id": "what-is",
+      "type": "heading",
+      "title": "What Is the OBC-NCL Certificate?",
+      "level": 2
+    },
+    {
+      "id": "what-is-intro",
+      "type": "paragraph",
+      "content": "The OBC-NCL certificate verifies two things:"
+    },
+    {
+      "id": "what-is-obc-status",
+      "type": "paragraph",
+      "content": "OBC Status: The overall candidates who belong to a caste or a particular community that is listed in the Central OBC list, or it is officially notified by the National Commission for Backward Classes (NCBC)."
+    },
+    {
+      "id": "what-is-ncl-status",
+      "type": "paragraph",
+      "content": "Non-Creamy Layer (NCL) Status: if the candidate's family falls under the non-creamy layer category, or it is determined mainly by parents' income and their preferred occupation, making them highly eligible for reservation benefits."
+    },
+    {
+      "id": "what-is-difference",
+      "type": "paragraph",
+      "content": "This is different from a state OBC certificate. A state OBC certificate is valid only for state quota seats, whereas a central OBC-NCL certificate is mandatory for all seats allotted through All India Counselling by the Medical Counselling Committee (MCC)."
+    },
+    {
+      "id": "eligibility",
+      "type": "heading",
+      "title": "Key Eligibility Rules",
+      "level": 2
+    },
+    {
+      "id": "eligibility-intro",
+      "type": "paragraph",
+      "content": "To qualify for an OBC-NCL certificate, you must meet the following conditions:"
+    },
+    {
+      "id": "eligibility-caste",
+      "type": "paragraph",
+      "content": "Caste in Central List:"
+    },
+    {
+      "id": "eligibility-caste-list",
+      "type": "list",
+      "items": [
         "Verify that your caste/community is listed in the NCBC Central OBC List.",
         "State OBC status alone makes you eligible for AIQ reservation."
       ]
     },
     {
-      id: "income-criteria",
-      type: "heading",
-      title: "Income Criteria:",
-      level: 3
+      "id": "eligibility-income",
+      "type": "paragraph",
+      "content": "Income Criteria:"
     },
     {
-      id: "income-criteria-list",
-      type: "list",
-      items: [
+      "id": "eligibility-income-list",
+      "type": "list",
+      "items": [
         "Parents' combined annual income (excluding salary and agricultural income) must be below ₹8 lakh for the last three financial years.",
-        "For NEET PG 2025, income is assessed for the years 2022–2023, 2023–2024, and 2024–2025."
+        "For NEET PG 2025, income is assessed for the years 2022–2023, 2023–2024, and 2024–2025 for NEET PG 2025."
       ]
     },
     {
-      id: "exclusions",
-      type: "heading",
-      title: "Exclusions:",
-      level: 3
+      "id": "eligibility-exclusions",
+      "type": "paragraph",
+      "content": "Exclusions:"
     },
     {
-      id: "exclusions-content",
-      type: "paragraph",
-      content: "Children of specified constitutional/functionary categories and Group-A/Group-B officers fall under creamy-layer exclusions as per DoPT OMs, irrespective of income."
+      "id": "eligibility-exclusions-content",
+      "type": "paragraph",
+      "content": "Children of specified constitutional/functionary categories and Group‑A/Group‑B officers fall under creamy‑layer exclusions as per DoPT OMs, irrespective of income."
     },
     {
-      id: "validity",
-      type: "heading",
-      title: "Validity of the Certificate",
-      level: 2
+      "id": "validity",
+      "type": "heading",
+      "title": "Validity of the Certificate",
+      "level": 2
     },
     {
-      id: "validity-list",
-      type: "list",
-      items: [
-        "It must be issued on or after April 1, 2025, for it to be valid for NEET PG 2025 counselling.",
-        "Certificates issued before April 1, 2025, are not accepted, even if they mention validity.",
-        "Ensure your certificate is digitally recorded in government databases for hassle-free verification."
+      "id": "validity-requirement",
+      "type": "paragraph",
+      "content": "It must be issued on or after April 1, 2025, for it to be valid for NEET PG 2025 counselling."
+    },
+    {
+      "id": "validity-old",
+      "type": "paragraph",
+      "content": "Certificates issued before April 1, 2025, are not accepted, even if they mention validity."
+    },
+    {
+      "id": "validity-digital",
+      "type": "paragraph",
+      "content": "You need to make sure that all your certificate is digitally recorded in the government databases for hassle-free verification."
+    },
+    {
+      "id": "how-to-apply",
+      "type": "heading",
+      "title": "How to Apply for an OBC-NCL Certificate",
+      "level": 2
+    },
+    {
+      "id": "how-to-apply-intro",
+      "type": "paragraph",
+      "content": "You can apply online or offline, but it totally depends on your state's process:"
+    },
+    {
+      "id": "how-to-apply-online",
+      "type": "heading",
+      "title": "Online Application",
+      "level": 3
+    },
+    {
+      "id": "how-to-apply-online-list",
+      "type": "list",
+      "items": [
+        "For the online application, you may first visit your state's e-Seva or caste certificate official portal.",
+        "Then, you need to fill out the application form, upload all the required documents, and obtain a digitally signed certificate with a QR code."
       ]
     },
     {
-      id: "how-to-apply",
-      type: "heading",
-      title: "How to Apply for an OBC-NCL Certificate",
-      level: 2
+      "id": "how-to-apply-offline",
+      "type": "heading",
+      "title": "Offline Application",
+      "level": 3
     },
     {
-      id: "how-to-apply-content",
-      type: "paragraph",
-      content: "You can apply online or offline, depending on your state's process:"
-    },
-    {
-      id: "online-application",
-      type: "heading",
-      title: "Online Application",
-      level: 3
-    },
-    {
-      id: "online-application-list",
-      type: "list",
-      items: [
-        "Visit your state's e-Seva or caste certificate portal.",
-        "Fill out the application, upload the required documents, and obtain a digitally signed certificate with a QR code."
+      "id": "how-to-apply-offline-list",
+      "type": "list",
+      "items": [
+        "For the offline application, you need to visit the Tehsildar, Sub-Divisional Officer (SDO), or District Magistrate's office.",
+        "There, you have to submit all your documents and request a certificate for that. Just to make sure that all the certificate is properly recorded in government records to avoid counselling issues."
       ]
     },
     {
-      id: "offline-application",
-      type: "heading",
-      title: "Offline Application",
-      level: 3
+      "id": "documents",
+      "type": "heading",
+      "title": "Documents Required",
+      "level": 2
     },
     {
-      id: "offline-application-content",
-      type: "paragraph",
-      content: "Visit the Tehsildar, Sub-Divisional Officer (SDO), or District Magistrate's office. Submit documents and request a certificate. Ensure the certificate is properly recorded in government records to avoid counselling issues."
-    },
-    {
-      id: "documents-required",
-      type: "heading",
-      title: "Documents Required",
-      level: 2
-    },
-    {
-      id: "documents-required-list",
-      type: "list",
-      items: [
-        "Proof of identity (Aadhaar, PAN, Voter ID)",
+      "id": "documents-list",
+      "type": "list",
+      "items": [
+        "The Proof of identity photocopy of your (original Aadhaar, PAN, Voter ID)",
         "Caste proof (OBC caste certificate of the candidate or parents)",
-        "Parents' income certificates or IT returns for the past three years",
-        "Proof of residence (domicile certificate, ration card, etc.)",
+        "It is important to submit your parents' income certificates, or IT returns for the past three years",
+        "You need to submit the actual proof of residence (domicile certificate, ration card, etc.)",
         "Passport-sized photographs"
       ]
     },
     {
-      id: "quick-checklist",
-      type: "heading",
-      title: "Quick Checklist for Your Certificate",
-      level: 2
+      "id": "checklist",
+      "type": "heading",
+      "title": "Quick Checklist for Your Certificate",
+      "level": 2
     },
     {
-      id: "quick-checklist-content",
-      type: "paragraph",
-      content: "Before submitting your certificate during counselling, check:"
+      "id": "checklist-intro",
+      "type": "paragraph",
+      "content": "Before submitting your certificate during counselling, please check these important things:"
     },
     {
-      id: "quick-checklist-list",
-      type: "list",
-      items: [
+      "id": "checklist-list",
+      "type": "list",
+      "items": [
         "Issued after April 1, 2025",
         "Clearly states Non-Creamy Layer",
-        "Signed by a Tehsildar or higher authority",
+        "All the documents must be signed by a Tehsildar or higher authority",
         "Includes a reference to Central Educational Institutions",
-        "Proper resolution/order number mentioned"
+        "In your documents, there will be a proper resolution/order number mentioned"
       ]
     },
     {
-      id: "common-mistakes",
-      type: "heading",
-      title: "Common Mistakes to Avoid",
-      level: 2
+      "id": "mistakes",
+      "type": "heading",
+      "title": "Common Mistakes to Avoid",
+      "level": 2
     },
     {
-      id: "common-mistakes-list",
-      type: "list",
-      items: [
-        "Submitting only the state-only OBC certificate for All India Counselling.",
-        "Using an outdated certificate issued before April 2025.",
-        "Not verifying whether your caste is on the Central OBC list.",
-        "Skipping the official registration of your certificate in government databases."
+      "id": "mistakes-list",
+      "type": "list",
+      "items": [
+        "Submit only the state-only OBC certificate for All India Counselling.",
+        "You need to use an outdated certificate that was issued before April 2025.",
+        "Please verify everything, and if you are not verifying whether your caste is on the Central OBC list.",
+        "Although if you ever skip the official registration of your certificate in government databases considered to be a big mistake."
       ]
     },
     {
-      id: "key-benefits",
-      type: "heading",
-      title: "Key Benefits of OBC-NCL Status",
-      level: 2
+      "id": "benefits",
+      "type": "heading",
+      "title": "Key Benefits of OBC-NCL Status",
+      "level": 2
     },
     {
-      id: "key-benefits-list",
-      type: "list",
-      items: [
-        "Reservation: 27% AIQ seats in government colleges, DNB institutes, and NBE diploma courses.",
-        "Lower Cut-Off: OBC-NCL candidates are eligible from the 40th percentile (compared to the 50th percentile for the General category).",
-        "High-merit OBC candidates are considered in UR merit and may also be allotted OBC-reserved seats per AIQ reservation rules."
-      ]
+      "id": "benefits-reservation",
+      "type": "paragraph",
+      "content": "Reservation: 27% AIQ seats in government colleges, DNB institutes, and NBE diploma courses."
     },
     {
-      id: "important-rules",
-      type: "heading",
-      title: "Important Rules & Clarifications",
-      level: 2
+      "id": "benefits-cutoff",
+      "type": "paragraph",
+      "content": "Lower Cut-Off: OBC-NCL candidates are eligible from the 40th percentile (compared to the 50th percentile for the General category)."
     },
     {
-      id: "important-rules-list",
-      type: "list",
-      items: [
+      "id": "benefits-merit",
+      "type": "paragraph",
+      "content": "High‑merit OBC candidates are considered in UR merit and may also be allotted OBC‑reserved seats per AIQ reservation rules."
+    },
+    {
+      "id": "important-rules",
+      "type": "heading",
+      "title": "Important Rules & Clarifications",
+      "level": 2
+    },
+    {
+      "id": "important-rules-list",
+      "type": "list",
+      "items": [
         "A state OBC certificate cannot be used for AIQ seats.",
         "If you applied under the General category in NEET PG, you cannot later switch to OBC-NCL.",
-        "UR→reserved switches are not permitted in AIQ; in prior cycles, MCC enabled one-way conversion from reserved to UR during registration when the certificate was unavailable.",
+        "UR→reserved switches are not permitted in AIQ; in prior cycles, MCC enabled one‑way conversion from reserved to UR during registration when the certificate was unavailable.",
         "For married candidates, only parents' income is considered, not the spouse's.",
         "Certificates not properly issued or verified in government records may be rejected."
       ]
     },
     {
-      id: "final-takeaway",
-      type: "heading",
-      title: "Final Takeaway",
-      level: 2
+      "id": "final-takeaway",
+      "type": "heading",
+      "title": "Final Takeaway",
+      "level": 2
     },
     {
-      id: "final-takeaway-content",
-      type: "paragraph",
-      content: "The OBC-NCL certificate is essential for claiming OBC reservation in NEET PG 2025. Start the process early, confirm your caste in the Central OBC List, and ensure your certificate is accurate and valid. Being proactive will help you secure your reservation benefits and avoid last-minute hurdles during counselling."
+      "id": "final-takeaway-content",
+      "type": "paragraph",
+      "content": "The OBC-NCL certificate is the most essential, which is just for claiming OBC reservation in NEET PG 2025. First, you need to start the process a little early, then you have to confirm your caste in the Central OBC List, and make sure that all your certificate is accurate and valid. Being energetic will help you to secure your reservation benefits and avoid last-minute hurdles during counselling."
     },
     {
-      id: "faqs",
-      type: "heading",
-      title: "Frequently Asked Questions (FAQs)",
-      level: 2
+      "id": "faqs",
+      "type": "heading",
+      "title": "Frequently Asked Questions (FAQs)",
+      "level": 2
     },
     {
-      id: "faqs-list",
-      type: "faq",
-      faqs: [
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
         {
-          question: "Q1. I am not from Gujarat, but I did my MBBS there. Can I apply for a Government Quota seat?",
-          answer: "Yes. If you have completed your MBBS from a recognized university in Gujarat, you are eligible to apply for both Government Quota (GQ) and Management Quota (MQ) seats, but you will be considered under the Unreserved (UR) category."
+          "question": "Q1. I am not from Gujarat, but I did my MBBS there. Can I apply for a Government Quota seat?",
+          "answer": "Yes, for sure. Candidates who have already completed their MBBS degree from a well-organized university in Gujarat who are eligible for both Government Quota (GQ) and Management Quota (MQ) seats, but will be considered under the Unreserved (UR) category."
         },
         {
-          question: "Q2. What is the process for purchasing the PIN for registration?",
-          answer: "You must purchase a 14-digit PIN online through the official website, medadmgujarat.org, by paying the non-refundable application fee. This PIN is essential to access the registration form."
+          "question": "Q2. What is the process for purchasing the PIN for registration?",
+          "answer": "The process for purchasing a 14-digit PIN can be done online through medadmgujarat.org just by paying a non-refundable application fee, as it is mandatory to access the registration form as well."
         },
         {
-          question: "Q3. Is there a separate counselling for government and private colleges in Gujarat?",
-          answer: "No, Gujarat conducts a single, combined counselling process through ACPPGMEC for all Government Quota and Management Quota seats in both government and private medical colleges across the state."
+          "question": "Q3. Is there a separate counselling for government and private colleges in Gujarat?",
+          "answer": "No. There is no separate counselling for government and private colleges because Gujarat follows a single, centralized counselling process, which is conducted by ACPPGMEC."
         },
         {
-          question: "Q4. Are the fees paid during registration refundable?",
-          answer: "The online PIN purchase fee (application fee) is non-refundable. However, the security deposit paid during the counselling rounds is refundable if you are not allotted a seat or if you join your allotted seat."
+          "question": "Q4. Are the fees paid during registration refundable?",
+          "answer": "The online registration for the PIN purchase fee (application fee) is basically non-refundable. However, the security deposit has to be paid during the counselling rounds and is refundable if you are not finally allotted a seat or if you join your allotted seat."
         },
         {
-          question: "Q5. Is a state OBC certificate valid for All India Quota (AIQ)?",
-          answer: "No. AIQ requires a Central OBC-NCL certificate aligned with the NCBC central list; state OBC/SEBC certificates are valid only for state counselling."
+          "question": "Q5. Is a state OBC certificate valid for the All India Quota (AIQ)?",
+          "answer": "No. AIQ requires a Central OBC‑NCL certificate aligned with the NCBC central list; state OBC/SEBC certificates are valid only for state counselling."
         },
         {
-          question: "Q6. What income and validity rules apply for OBC-NCL?",
-          answer: "Parents' combined non-salary, non-agricultural income must be below ₹8 lakh per year per current norms, and the certificate should be issued after April 1, 2025 for NEET PG 2025."
+          "question": "Q6. What income and validity rules apply for OBC‑NCL?",
+          "answer": "Parents' combined non‑salary, non‑agricultural income must be below ₹8 lakh per year per current norms, and the certificate should be issued after April 1, 2025, for NEET PG 2025."
         },
         {
-          question: "Q7. Can category be changed from General to OBC-NCL in MCC counselling?",
-          answer: "No. A General-to-reserved switch is not permitted in All India counselling; if listed as OBC-NCL but a certificate cannot be produced, opt to participate as General during MCC registration."
+          "question": "Q7. Can the category be changed from General to OBC‑NCL in MCC counselling?",
+          "answer": "No. A General-to-reserved switch is not permitted in All India counselling; if listed as OBC‑NCL but a certificate cannot be produced, opt to participate as General during MCC registration."
         },
         {
-          question: "Q8. Which documents are typically required for a Central OBC-NCL certificate?",
-          answer: "Candidate/parents' caste proofs, parents' income tax returns or income statements for the last three financial years, and government-issued ID/address proofs; obtain a digitally signed or Tehsildar/DM-issued certificate."
+          "question": "Q8. Which documents are typically required for a Central OBC‑NCL certificate?",
+          "answer": "Candidate/parents' caste proofs, parents' income tax returns or income statements for the last three financial years, and government-issued ID/address proofs; obtain a digitally signed or Tehsildar/DM‑issued certificate."
         }
       ]
     },
     {
-  "id": "keywords",
-  "type": "keywords",
-  "title": "Related Keywords",
-  "keywords": [
-  "NEET PG 2025",
-  "OBC NCL Certificate",
-  "All India Counselling",
-  "MCC Counselling",
-  "OBC Certificate",
-  "NCL Certificate",
-  "MCC NEET PG Counselling",
-  "Creamy Layer Certificate",
-  "NCL Certificate Online",
-  "NCL for OBC",
-  "NCL OBC",
-  "NCL Certificate Online Apply",
-  "NCL Certificate Apply Online",
-  "Non Creamy Layer Certificate",
-  "Non Creamy Layer",
-  "Non Creamy Layer Certificate Apply Online",
-  "Non Creamy Layer Certificate for OBC",
-  "Non Creamy Layer in OBC"]
-},
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    },
     {
-      id: "contact-form",
-      type: "contact-form",
-      title: "Submit queries to BelieversConsultancy",
-      content: "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8"
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "neet pg 2025",
+        "obc ncl certificate",
+        "all india counselling",
+        "mcc counselling",
+        "obc certificate",
+        "ncl certificate",
+        "mcc neet pg counselling",
+        "creamy layer certificate",
+        "ncl certificate online",
+        "ncl for obc",
+        "ncl obc",
+        "ncl certificate online apply",
+        "ncl certificate apply online",
+        "non creamy layer certificate",
+        "non creamy layer",
+        "non creamy layer certificate apply online",
+        "non creamy layer certificate for obc",
+        "non creamy layer in obc"
+      ]
     }
   ]
 },
+  
 {
   id: 8,
   title: "Andhra Pradesh NEET PG 2025: Competent Authority Quota (State Government Quota) – Complete Guide",
