@@ -37198,7 +37198,7 @@ export const blogPosts: BlogPost[] = [
   "title": "Internship: The Phase That Gives You Real Career Clarity",
   "slug": "internship-phase-gives-real-career-clarity",
   "excerpt": "Internship is where theory meets reality shaping skills confidence and choices. This phase helps you understand strengths interests and the career path that truly fits you",
-  "featured_image": "https://cdn.dribbble.com/userupload/46320327/file/014e0e247b7b3b04443850d404e30d7c.png?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/46299981/file/b8243f982235f63f81cc0b354090a066.jpeg?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
     "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
@@ -37487,11 +37487,11 @@ export const blogPosts: BlogPost[] = [
   ]
 },
 {
-  "id": 93,
+  "id": 94,
   "title": "The Mindset Required Before Starting Medical Residency",
   "slug": "mindset-required-before-starting-medical-residency",
   "excerpt": "Starting medical residency requires humility, discipline, adaptability, and mental endurance, preparing young doctors to learn continuously under pressure.",
-  "featured_image": "https://cdn.dribbble.com/userupload/46163367/file/5bd95427edf79557303ad20b51ed66be.jpeg?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/46320327/file/014e0e247b7b3b04443850d404e30d7c.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
     "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
