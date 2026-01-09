@@ -37217,7 +37217,7 @@ export const blogPosts: BlogPost[] = [
     "Medical Career",
     "MBBS Internship"
   ],
-  "published_date": "2026-01-09",
+  "published_date": "2026-01-08",
   "read_time": 10,
   "meta_description": "Internship is where theory meets reality shaping skills confidence and choices. This phase helps you understand strengths interests and the career path that truly fits you",
   "sections": [
@@ -37510,7 +37510,7 @@ export const blogPosts: BlogPost[] = [
     "PG Preparation",
     "Medical Mindset"
   ],
-  "published_date": "2026-01-03",
+  "published_date": "2026-01-09",
   "read_time": 12,
   "meta_description": "Starting medical residency requires humility, discipline, adaptability, and mental endurance, preparing young doctors to learn continuously under pressure.",
   "sections": [
