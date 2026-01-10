@@ -887,6 +887,15 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: 'https://www.aiimsexams.ac.in/result/68dbf1add6fe8f55c65468ab',
       source: 'aiimsexams ',
     },
+    {
+      id: 92,
+      title: "NEET PG 2025: DGHS Directs States to Halt Round 3 Counselling Until MCC Releases Official Schedule",
+      date: "2026-01-07T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://mcc.nic.in/news-events-pg/',
+       source: 'natboard ',
+     },
 
 
 

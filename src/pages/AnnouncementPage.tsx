@@ -1127,6 +1127,18 @@ const AnnouncementPage: React.FC = () => {
       source: 'natboard ',
       created_at: "2026-01-10T08:00:00Z"
     },
+    {
+      id: 92,
+      title: "NEET PG Counselling 2025:",
+      content:"NEET PG 2025: DGHS Directs States to Halt Round 3 Counselling Until MCC Releases Official Schedule",
+      date: "2026-01-07T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://mcc.nic.in/news-events-pg/',
+      is_active: true,
+      source: 'natboard ',
+      created_at: "2026-01-10T08:00:00Z"
+    },
     
 
 
