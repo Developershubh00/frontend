@@ -66,6 +66,7 @@ import INICETSeatMatrixPage from "./INICET/INICETSeatMatrixPage";
 import Inicet2026SeatMatrix from "./INICET/Inicet2026SeatMatrix";
 import SchedulePage from "./pages/SchedulePage";
 import NoticesPage from "./pages/NoticesPage";
+import CareersPage from "./pages/CareersPage";
 
 /**
  * Main App Component with React Router
@@ -364,6 +365,7 @@ function App() {
           <Route path="/reset-password" element={<ResetPasswordPage />} />
           <Route path="/inicetdashboard" element={<InicetDashboardPage />} />
           <Route path="/notice" element={<NoticesPage />} />
+          <Route path="/careers" element={<CareersPage />} />
           
           
 
