@@ -38246,7 +38246,7 @@ export const blogPosts: BlogPost[] = [
     "Private Practice",
     "Medical Career"
   ],
-  "published_date": "2026-01-04",
+  "published_date": "2026-01-10",
   "read_time": 14,
   "meta_description": "ENT after MBBS in 2026 offers balanced residency training, evolving surgical skills, strong career scope and steady private practice opportunities.",
   "sections": [
