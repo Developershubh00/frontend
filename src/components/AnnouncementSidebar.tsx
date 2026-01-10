@@ -870,13 +870,22 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       source: 'timesofindia. ',
     },
     {
-      id: 90,
+      id: 91,
       title: "FMGE December 2025: NBEMS Extends Deficient Documents Submission Deadline Till January 7, 2026",
       date: "2025-12-30T08:00:00Z",
       priority: 'high',
       category: 'NEET PG',
       link: 'https://natboard.edu.in/allnotice.php',
       source: 'natboard ',
+    },
+    {
+      id: 92,
+      title: "INI CET January 2026: AIIMS Releases Round 2 Online Seat Allotment Result",
+      date: "2026-01-10T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.aiimsexams.ac.in/result/68dbf1add6fe8f55c65468ab',
+      source: 'aiimsexams ',
     },
 
 

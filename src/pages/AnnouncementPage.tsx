@@ -1115,6 +1115,18 @@ const AnnouncementPage: React.FC = () => {
       source: 'natboard ',
       created_at: "2025-12-30T08:00:00Z"
     },
+    {
+      id: 91,
+      title: "NEET PG Counselling 2025:",
+      content:"INI CET January 2026: AIIMS Releases Round 2 Online Seat Allotment Result",
+      date: "2026-01-10T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://www.aiimsexams.ac.in/result/68dbf1add6fe8f55c65468ab',
+      is_active: true,
+      source: 'natboard ',
+      created_at: "2026-01-10T08:00:00Z"
+    },
     
 
 
