@@ -888,7 +888,7 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       source: 'aiimsexams ',
     },
     {
-      id: 92,
+      id: 93,
       title: "NEET PG 2025: DGHS Directs States to Halt Round 3 Counselling Until MCC Releases Official Schedule",
       date: "2026-01-07T08:00:00Z",
       priority: 'high',
