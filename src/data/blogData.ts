@@ -38246,7 +38246,7 @@ export const blogPosts: BlogPost[] = [
     "Residency Programs",
     "Career Guidance"
   ],
-  "published_date": "2026-01-03",
+  "published_date": "2026-01-10",
   "read_time": 13,
   "meta_description": "Radiation Oncology after MBBS combines cancer care with advanced technology, offering structured training, balanced lifestyle, growing scope, and long term professional satisfaction.",
   "sections": [
