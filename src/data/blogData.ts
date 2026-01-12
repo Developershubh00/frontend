@@ -4130,12 +4130,11 @@ export const blogPosts: BlogPost[] = [
     }
   ]
 },
-
 {
   "id": 10,
   "title": "Kerala State PG Counselling 2025: Step-by-Step Guide for Applicants and Service Candidates",
-  "slug": "kerala-state-pg-counselling-2025-step-by-step-guide",
-  "excerpt": "Complete guide to Kerala NEET PG 2025 state quota counselling covering eligibility, registration process, documentation, reservations, and fees for both general and service candidates.",
+  "slug": "kerala-state-pg-counselling-2025-step-by-step-guide-applicants-service-candidates",
+  "excerpt": "Get a complete guide to Kerala NEET PG Counselling 2025 for applicants and service candidates. Learn registration, eligibility, and seat allotment process.",
   "featured_image": "https://cdn.dribbble.com/userupload/45442252/file/2c0b92727c04261c5752acdffd46e931.png?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
@@ -4145,26 +4144,53 @@ export const blogPosts: BlogPost[] = [
   "category": {
     "name": "NEET PG",
     "slug": "neet-pg",
-    "color": "bg-blue-100 text-blue-800"
+    "color": "bg-green-100 text-green-800"
   },
-  "tags": ["NEET PG 2025", "Kerala", "State Counselling", "Service Quota", "Medical Admissions"],
+  "tags": [
+    "Kerala NEET PG",
+    "State Counselling",
+    "NEET PG 2025",
+    "Service Quota",
+    "Medical Counselling",
+    "Kerala PG"
+  ],
   "published_date": "2025-10-24",
-  "read_time": 12,
-  "meta_description": " Get a complete guide to Kerala NEET PG Counselling 2025 for applicants and service candidates. Learn registration, eligibility, and seat allotment process.",
+  "read_time": 16,
+  "meta_description": "Get a complete guide to Kerala NEET PG Counselling 2025 for applicants and service candidates. Learn registration, eligibility, and seat allotment process.",
   "sections": [
     {
       "id": "intro",
       "type": "paragraph",
-      "content": "The Commissioner for Entrance Examinations (CEE) Kerala administers NEET PG 2025 counselling for 50% state quota seats in government and private self-financing medical institutions. This guide covers eligibility, application requirements, documents, reservations, quotas, fees, and important rules for joining, upgrading, and exit policies.\n\nThe Commissioner for Entrance Examinations (CEE) Kerala has initiated the registration process for NEET PG 2025 state quota counselling. The registration window opened on September 10, 2025, and remains active until September 22, 2025, at 4:00 PM.\n\nCandidates must either have an MBBS degree from Kerala or be of Kerala origin. Candidates from other states are not eligible, even for NRI seats.\n\nKerala maintains eligibility restrictions requiring candidates to demonstrate Kerala origin or completion of MBBS from Kerala institutions. Candidates without a Kerala domicile or educational credentials from Kerala institutions are ineligible for state quota participation.\n\nThis overview covers the registration procedures, eligibility requirements, documentation specifications, and critical timelines for Kerala NEET PG 2025 counselling."
+      "content": "Basically just for 50% of the state quota seats in government and private self-financing medical colleges, the official commissioner for Entrance Examinations (CEE) Kerala administers NEET PG 2025 counseling. This profound guide covers the proper eligibility, application requirements which are highly required, original documents, reservations, quotas, fees, and all the important rules for joining, upgrading, and exit policies."
     },
     {
-      "id": "seats-covered",
+      "id": "intro-timeline",
+      "type": "paragraph",
+      "content": "The Commissioner has finally started the overall registration process for NEET PG 2025 state quota counselling. Although the overall registration window has finally opened on September 10, 2025, it remained active until September 22, 2025, till 4:00 PM."
+    },
+    {
+      "id": "intro-eligibility",
+      "type": "paragraph",
+      "content": "Candidates must either have an MBBS degree from Kerala or be of Kerala origin. Candidates from other states are not eligible, even for NRI seats."
+    },
+    {
+      "id": "intro-restrictions",
+      "type": "paragraph",
+      "content": "Kerala maintains eligibility restrictions requiring candidates to demonstrate Kerala origin or completion of MBBS from Kerala institutions. Candidates without a Kerala domicile or educational credentials from Kerala institutions are ineligible for state quota participation."
+    },
+    {
+      "id": "intro-purpose",
+      "type": "paragraph",
+      "content": "This guide overview covers all types of registration procedures, eligibility requirements, and official documentation specifications, in its critical timelines for Kerala NEET PG 2025 counselling."
+    },
+    {
+      "id": "section-1",
       "type": "heading",
       "title": "Seats Under Kerala State Counselling",
       "level": 2
     },
     {
-      "id": "seats-covered-list",
+      "id": "section-1-list",
       "type": "list",
       "items": [
         "Government Colleges: 50% of seats come under state counselling.",
@@ -4174,143 +4200,135 @@ export const blogPosts: BlogPost[] = [
       ]
     },
     {
-      "id": "eligibility-criteria",
+      "id": "section-2",
       "type": "heading",
       "title": "Eligibility Criteria",
       "level": 2
     },
     {
-      "id": "eligibility-intro",
+      "id": "section-2-intro",
       "type": "paragraph",
       "content": "Eligibility is divided into two categories:"
     },
     {
-      "id": "kerala-origin",
+      "id": "section-2-kerala",
       "type": "heading",
       "title": "1. Kerala Origin Candidates",
       "level": 3
     },
     {
-      "id": "kerala-origin-list",
+      "id": "section-2-kerala-list",
       "type": "list",
       "items": [
-        "Indian citizens with Kerala origin who hold an MBBS degree recognized by the NMC.",
-        "Origin Definition: Born in Kerala or have parents born in Kerala.",
-        "Acceptable proof of Kerala origin includes Secondary School Leaving Certificate, Indian passport, birth certificate, or village officer-issued nativity certificate."
+        "All the Indian citizens of Kerala origin who gradually obtained an MBBS degree, which is recognized by the NMC.",
+        "Origin Definition: It is essential to be born in Kerala or have parents born in Kerala.",
+        "The proof should be acceptable of Kerala origin, which includes a Secondary School leaving Certificate, an Indian passport, a birth certificate, or a village officer-issued nativity certificate."
       ]
     },
     {
-      "id": "non-keralite",
+      "id": "section-2-non-kerala",
       "type": "heading",
       "title": "2. Non-Keralite Candidates",
       "level": 3
     },
     {
-      "id": "non-keralite-content",
-      "type": "paragraph",
-      "content": "Candidates who are not of Kerala origin but completed MBBS from Kerala institutions are eligible for general merit category participation, though ineligible for communal or special reservations."
-    },
-    {
-      "id": "non-keralite-list",
+      "id": "section-2-non-kerala-list",
       "type": "list",
       "items": [
+        "Candidates who are not of Kerala origin but completed MBBS from Kerala institutions are eligible for general merit category participation, though ineligible for communal or special reservations.",
         "Eligible under the general merit category (state merit seats) and service quota if applicable."
       ]
     },
     {
-      "id": "pg-percentile",
+      "id": "section-3",
       "type": "heading",
       "title": "PG Percentile Requirement",
-      "level": 3
+      "level": 2
     },
     {
-      "id": "pg-percentile-list",
+      "id": "section-3-list",
       "type": "list",
       "items": [
-        "General/EWS: 50 percentile",
-        "SC/ST/STBC/PWD: 40 percentile",
-        "EWS PWD/General PWD: 45 percentile"
+        "General/EWS: 50th percentile",
+        "SC/ST/STBC/PWD: 40th percentile",
+        "EWS PWD/General PWD: 45th percentile"
       ]
     },
     {
-      "id": "pg-percentile-note",
+      "id": "section-3-note",
       "type": "paragraph",
-      "content": "Note: Kerala has its own criteria for EWS certification, different from the central government certificate."
+      "content": "Note: You know that Kerala has its own particular criteria for EWS certification, which is different from the central government certificate."
     },
     {
-      "id": "registration-process",
+      "id": "section-4",
       "type": "heading",
       "title": "Registration Process",
       "level": 2
     },
     {
-      "id": "registration-intro",
+      "id": "section-4-intro",
       "type": "paragraph",
-      "content": "The process starts with basic registration, followed by uploading certificates, payment, and final submission. Here's a breakdown of the key steps:"
+      "content": "The overall registration process starts with just the basic process, which is followed by uploading certificates, payments, and the final submission is here. So here's a proper breakdown of the key steps:"
     },
     {
-      "id": "step-1",
+      "id": "section-4-step1",
       "type": "heading",
       "title": "Step 1: Registration",
       "level": 3
     },
     {
-      "id": "step-1-content",
-      "type": "paragraph",
-      "content": "The system generates a reference ID and OTP for authentication following initial data submission."
-    },
-    {
-      "id": "step-1-list",
+      "id": "section-4-step1-list",
       "type": "list",
       "items": [
-        "Confirm your details and enter a valid email ID and mobile number, which will be used for OTP verification.",
+        "The system has generated an overall reference ID and OTP for proper authentication, which is directly following the opening data submission.",
+        "Then after that you need to confirm all your official details and enter a valid email ID and mobile number, which will be used for OTP verification.",
         "The system generates a reference ID and OTP for authentication following initial data submission."
       ]
     },
     {
-      "id": "step-2",
+      "id": "section-4-step2",
       "type": "heading",
       "title": "Step 2: Application Form",
       "level": 3
     },
     {
-      "id": "step-2-intro",
+      "id": "section-4-step2-intro",
       "type": "paragraph",
       "content": "The application form is divided into multiple sections:"
     },
     {
-      "id": "step-2-list",
+      "id": "section-4-step2-list",
       "type": "list",
       "items": [
-        "Quota Selection: Choose General or Service quota based on your eligibility.",
-        "Basic Details: Gender, nationality (Indian, OCI/PIO), and Kerala origin status.",
-        "Guardian and Parents Information: Enter names and native districts.",
-        "Communication and Permanent Address: Ensure these are correct, though all communication will be via email or OTP.",
-        "Academic Details: Include total MBBS marks, month and year of passing, university, internship completion date, and medical council registration number."
+        "Quota Selection: You need to choose a General or Service quota based on your eligibility.",
+        "Basic Details: it includes Gender, nationality (Indian, OCI/PIO), and Kerala origin status for security.",
+        "Guardian and Parents Information: you have to enter names and some other native districts.",
+        "Communication and Permanent Address: It is essential that these are correct, though all the communication that will be activated via email or OTP.",
+        "Academic Details: it basically includes total MBBS marks, the month and year of passing, your university, internship completion date, and medical council registration number as well."
       ]
     },
     {
-      "id": "step-3",
+      "id": "section-4-step3",
       "type": "heading",
       "title": "Step 3: Communal Reservation",
       "level": 3
     },
     {
-      "id": "step-3-list",
+      "id": "section-4-step3-list",
       "type": "list",
       "items": [
-        "Only Keralite candidates can select a community for reservation purposes.",
-        "For inter-caste or mixed-category backgrounds, the candidate can choose which community to apply under."
+        "For communal reservation, only Keralite candidates can select a community for reservation purposes only.",
+        "This is especially for inter-caste or mixed-category backgrounds, where all candidates can choose which community to apply under."
       ]
     },
     {
-      "id": "step-4",
+      "id": "section-4-step4",
       "type": "heading",
       "title": "Step 4: Special Reservations and Minority Quotas",
       "level": 3
     },
     {
-      "id": "step-4-list",
+      "id": "section-4-step4-list",
       "type": "list",
       "items": [
         "Ex-servicemen and dependents: Specific seats available.",
@@ -4319,13 +4337,13 @@ export const blogPosts: BlogPost[] = [
       ]
     },
     {
-      "id": "step-5",
+      "id": "section-4-step5",
       "type": "heading",
       "title": "Step 5: NRI Quota",
       "level": 3
     },
     {
-      "id": "step-5-list",
+      "id": "section-4-step5-list",
       "type": "list",
       "items": [
         "Both Indian and OCI/PIO candidates can be considered for NRI seats.",
@@ -4333,13 +4351,13 @@ export const blogPosts: BlogPost[] = [
       ]
     },
     {
-      "id": "reservation-policy",
+      "id": "section-5",
       "type": "heading",
       "title": "Reservation Policy",
       "level": 2
     },
     {
-      "id": "reservation-policy-list",
+      "id": "section-5-list",
       "type": "list",
       "items": [
         "EWS: 10%",
@@ -4350,32 +4368,39 @@ export const blogPosts: BlogPost[] = [
       ]
     },
     {
-      "id": "reservation-note",
+      "id": "section-5-benefits",
       "type": "paragraph",
-      "content": "Reservation benefits under communal and special categories are available exclusively to candidates meeting Kerala origin requirements.\n\nCandidates claiming reservation benefits must submit certificates issued by designated revenue authorities as specified in the CEE guidelines"
+      "content": "Reservation benefits under communal and special categories are available exclusively to candidates meeting Kerala origin requirements."
     },
     {
-      "id": "minority-quotas",
+      "id": "section-5-certificates",
+      "type": "paragraph",
+      "content": "Candidates claiming reservation benefits must submit certificates issued by designated revenue authorities as specified in the CEE guidelines"
+    },
+    {
+      "id": "section-6",
       "type": "heading",
       "title": "Minority Quotas",
       "level": 2
     },
     {
-      "id": "minority-quotas-list",
-      "type": "list",
-      "items": [
-        "Christian Minority, Muslim Minority, NRI Christian, and NRI Muslim seats are available in specific self-financing institutes.",
-        "Minority category eligibility requires valid minority community certificates, with Non-Creamy Layer certification not being mandatory for such seats."
-      ]
+      "id": "section-6-intro",
+      "type": "paragraph",
+      "content": "Christian Minority, Muslim Minority, NRI Christian, and NRI Muslim seats are available in specific self-financing institutes."
     },
     {
-      "id": "service-quota",
+      "id": "section-6-eligibility",
+      "type": "paragraph",
+      "content": "Minority category eligibility requires valid minority community certificates, with Non-Creamy Layer certification not being mandatory for such seats."
+    },
+    {
+      "id": "section-7",
       "type": "heading",
       "title": "Service Quota",
       "level": 2
     },
     {
-      "id": "service-quota-list",
+      "id": "section-7-list",
       "type": "list",
       "items": [
         "10% of total seats reserved for Kerala in-service candidates.",
@@ -4385,18 +4410,18 @@ export const blogPosts: BlogPost[] = [
       ]
     },
     {
-      "id": "nri-quota",
+      "id": "section-8",
       "type": "heading",
       "title": "NRI Quota Eligibility",
       "level": 2
     },
     {
-      "id": "nri-quota-intro",
+      "id": "section-8-sponsor",
       "type": "paragraph",
       "content": "NRI sponsorship is applicable if the sponsor is:"
     },
     {
-      "id": "nri-quota-list",
+      "id": "section-8-sponsor-list",
       "type": "list",
       "items": [
         "Father, mother, and siblings of the candidate",
@@ -4406,13 +4431,12 @@ export const blogPosts: BlogPost[] = [
       ]
     },
     {
-      "id": "nri-documents",
-      "type": "heading",
-      "title": "Required documents:",
-      "level": 3
+      "id": "section-8-documents",
+      "type": "paragraph",
+      "content": "Required documents:"
     },
     {
-      "id": "nri-documents-list",
+      "id": "section-8-documents-list",
       "type": "list",
       "items": [
         "Passport, visa, green card, or OCI/PIO card of the sponsor",
@@ -4422,40 +4446,36 @@ export const blogPosts: BlogPost[] = [
       ]
     },
     {
-      "id": "nri-note",
+      "id": "section-8-payment",
       "type": "paragraph",
       "content": "NRI category fee payment is accepted from both resident Indian and NRI bank accounts as per CEE financial regulations."
     },
     {
-      "id": "application-process",
+      "id": "section-9",
       "type": "heading",
       "title": "Application Process",
       "level": 2
     },
     {
-      "id": "application-process-list",
+      "id": "section-9-list",
       "type": "list",
       "items": [
         "Registration: The registration process requires candidates to provide valid email addresses and mobile numbers for OTP-based authentication and official communication.",
         "Basic Details: Fill in personal and academic information.",
         "Certificates Upload: Signature and required documents in PDF format.",
         "Printouts: Take the application printout and the fee payment receipt.",
-        "In-Service Candidates: Forward printouts and enclosures to the Head of Department."
+        "In-Service Candidates: Forward printouts and enclosures to the Head of Department.",
+        "General category candidates complete the application process entirely online without physical document submission requirements."
       ]
     },
     {
-      "id": "application-note",
-      "type": "paragraph",
-      "content": "General category candidates complete the application process entirely online without physical document submission requirements."
-    },
-    {
-      "id": "required-documents",
+      "id": "section-10",
       "type": "heading",
       "title": "Required Documents",
       "level": 2
     },
     {
-      "id": "required-documents-list",
+      "id": "section-10-list",
       "type": "list",
       "items": [
         "Keralite Candidates: SSLC, birth certificate, passport, or nativity certificate",
@@ -4467,13 +4487,12 @@ export const blogPosts: BlogPost[] = [
       ]
     },
     {
-      "id": "additional-documents",
-      "type": "heading",
-      "title": "Additional documents required during admission:",
-      "level": 3
+      "id": "section-10-additional",
+      "type": "paragraph",
+      "content": "Additional documents required during admission:"
     },
     {
-      "id": "additional-documents-list",
+      "id": "section-10-additional-list",
       "type": "list",
       "items": [
         "MBBS degree or provisional certificate",
@@ -4484,32 +4503,28 @@ export const blogPosts: BlogPost[] = [
       ]
     },
     {
-      "id": "fees-deposit",
+      "id": "section-11",
       "type": "heading",
       "title": "Fees and Security Deposit",
       "level": 2
     },
     {
-      "id": "fees-deposit-list",
+      "id": "section-11-list",
       "type": "list",
       "items": [
         "Application Fee: ₹1000 (SC/ST candidates: ₹500)",
-        "Service Quota Candidates: Additional ₹1000 if applying for the general quota"
+        "Service Quota Candidates: Additional ₹1000 if applying for the general quota",
+        "Candidates must remit security deposits during choice filling: ₹10,000 for the general category and ₹5,000 for SC/ST candidates, which are subsequently adjusted against first-year tuition fees"
       ]
     },
     {
-      "id": "security-deposit",
-      "type": "paragraph",
-      "content": "Candidates must remit security deposits during choice filling: ₹10,000 for the general category and ₹5,000 for SC/ST candidates, which are subsequently adjusted against first-year tuition fees"
-    },
-    {
-      "id": "tuition-fees",
+      "id": "section-12",
       "type": "heading",
       "title": "Tuition Fees",
       "level": 2
     },
     {
-      "id": "tuition-fees-list",
+      "id": "section-12-list",
       "type": "list",
       "items": [
         "Government Colleges: ₹57,890 + caution deposit ₹23,160",
@@ -4519,46 +4534,47 @@ export const blogPosts: BlogPost[] = [
       ]
     },
     {
-      "id": "tuition-note",
+      "id": "section-12-adjustment",
       "type": "paragraph",
       "content": "Fees paid are adjusted if candidates shift institutes; a penalty applies for course discontinuation."
     },
     {
-      "id": "bonds-penalties",
+      "id": "section-13",
       "type": "heading",
       "title": "Bonds and Penalties",
       "level": 2
     },
     {
-      "id": "bonds-penalties-list",
+      "id": "section-13-list",
       "type": "list",
       "items": [
         "Non-Service Candidates: One-year bond of ₹50 lakhs with two sureties (parents/guardians).",
-        "In-Service Candidates: Minimum 10-year bond; posted initially in remote/difficult areas."
+        "In-Service Candidates: Minimum 10-year bond; posted initially in remote/difficult areas.",
+        "Candidates failing to report to allotted institutions are subject to penalties, including financial charges and debarment from future counselling cycles as per CEE regulations"
       ]
     },
     {
-      "id": "penalties-note",
-      "type": "paragraph",
-      "content": "Candidates failing to report to allotted institutions are subject to penalties, including financial charges and debarment from future counselling cycles as per CEE regulations"
-    },
-    {
-      "id": "uploading-certificates",
+      "id": "section-14",
       "type": "heading",
       "title": "Uploading Images and Certificates",
       "level": 2
     },
     {
-      "id": "uploading-intro",
+      "id": "section-14-intro",
       "type": "paragraph",
       "content": "After completing registration and payment, you must upload:"
     },
     {
-      "id": "uploading-list",
+      "id": "section-14-list",
       "type": "list",
       "items": [
         "Photograph and signature in specified formats.",
-        "Certificates required depending on your eligibility category, including: Nationality proof (passport, birth certificate, voter ID), Kerala origin certificates, MBBS degree and mark sheets, Special reservation certificates (if applicable), Minority or NRI sponsorship certificates"
+        "Certificates required depending on your eligibility category, including:",
+        "Nationality proof (passport, birth certificate, voter ID)",
+        "Kerala origin certificates",
+        "MBBS degree and mark sheets",
+        "Special reservation certificates (if applicable)",
+        "Minority or NRI sponsorship certificates"
       ]
     },
     {
@@ -4570,7 +4586,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "conclusion-content",
       "type": "paragraph",
-      "content": "Kerala PG Counselling 2025 comes with clear rules, strict eligibility, and detailed reservation policies. With proper documents, timely registration, and awareness of fee structures and bonds, candidates can secure their seats without confusion. Staying updated with official notifications is the key to a smooth counselling journey."
+      "content": "Kerala PG Counselling 2025 comes with very clear rules, along with a strict process of eligibility, and perfectly detailed reservation policies which are going to use. Along with proper official documents, timely registration, and awareness of fee structures and bonds, candidates can easily secure their overall seats without having any confusion. Also they need to stay updated with all types of official notifications is the key to a smooth counselling journey."
     },
     {
       "id": "faqs",
@@ -4584,67 +4600,64 @@ export const blogPosts: BlogPost[] = [
       "faqs": [
         {
           "question": "Q1: Who is eligible for Kerala NEET PG state quota counselling 2025?",
-          "answer": "Eligibility includes two main categories: (1) Indian citizens of Kerala origin, demonstrated through birth in Kerala or parental birth in Kerala, verified via SSLC, birth certificate, passport, or nativity certificate; and (2) Non-Keralite candidates who completed MBBS from any medical institution in Kerala, eligible for general merit seats but not communal reservations. Additionally, in-service candidates with minimum 10 years of government service in Kerala qualify for service quota."
+          "answer": "Those eligible candidates include: Indian citizens of Kerala origin (who are self or parents born in Kerala) and then non-Keralites who have completed their MBBS from a medical college in Kerala (general merit only). In-service doctors with 10+ years of Kerala government service qualify for the service quota."
         },
         {
-          "question": "Q2: What is the service quota in Kerala NEET PG counselling and how does it work?",
-          "answer": "The service quota reserves 10% of total state quota seats for in-service government doctors in Kerala. Eligible candidates must have completed a minimum of 10 years of government medical service and receive incentive marks up to 30 based on service duration and location. Service candidates can apply for both service quota and general merit seats by paying separate application fees. The upper age limit for medical education service candidates is 49 years as of December 31, 2025."
+          "question": "Q2: What is the service quota in Kerala NEET PG counselling?",
+          "answer": "You know what overall 10% of state quota seats are officially reserved for in-service government doctors with a minimum of 10 years' service. Motive marks up to 30 are highly awarded. Whereas all the candidates may apply for both the service and general quotas separately. The overall age limit is 49 years (as of Dec 31, 2025)."
         },
         {
-          "question": "Q3: What is the bond requirement and penalty for Kerala NEET PG 2025 admissions?",
-          "answer": "Non-service candidates must execute a one-year service bond with a penalty amount of ₹50 lakhs, requiring two sureties (typically parents or guardians) on ₹200 stamp paper. In-service candidates are bound to serve a minimum of 10 years with initial postings in remote or difficult areas. Candidates who fail to report to allotted institutions face financial penalties and may be debarred from future counselling cycles. The bond becomes enforceable upon seat acceptance."
+          "question": "Q3: What is the bond requirement for Kerala NEET PG 2025?",
+          "answer": "Those who are from Non-service candidates, they must sign a 1-year service bond with a ₹50 lakh penalty which is compulsory. Although In-service candidates must complete 10 years of government service for record. Those who fail to join after allotment attract multiple financial penalties and possible exclusion."
         },
         {
-          "question": "Q4: What are the tuition fees for different categories under Kerala NEET PG counselling?",
-          "answer": "Government medical college fees are ₹57,890 per year plus a caution deposit of ₹23,160. Private self-financing colleges charge approximately ₹3 lakhs per year (varies by institution), while NRI quota seats cost approximately ₹38 lakhs. Clinical specialty courses in private institutions range from ₹17-19 lakhs. Security deposits of ₹10,000 (general category) or ₹5,000 (SC/ST) are collected during choice filling and adjusted against first-year tuition fees."
+          "question": "Q4: What are the tuition fees under Kerala NEET PG counselling?",
+          "answer": "all the government colleges who have charged ₹57,890/year (along with ₹23,160 caution deposit). The private colleges charge around ₹3 lakh/year, which have clinical branches of ₹17–19 lakh, and NRI seats ~₹38 lakh. On the other hand the Security deposit: ₹10,000 (General) / ₹5,000 (SC/ST)."
         },
         {
-          "question": "Q5: Who is eligible to apply for Kerala NEET PG state quota counselling 2025?",
-          "answer": "Eligibility is limited to two categories: (1) Indian citizens of Kerala origin, which includes candidates born in Kerala or whose parents were born in Kerala, verified through SSLC, birth certificate, passport, or village officer-issued nativity certificate; and (2) Non-Keralite candidates who completed MBBS from any medical institution in Kerala, regardless of their place of origin. OCI/PIO cardholders with Kerala connections may also be eligible."
+          "question": "Q5: What is the application fee for Kerala NEET PG 2025 counselling?",
+          "answer": "The total amount ₹1,000 is basically for General and Service quota candidates, whereas ₹500 is for SC/ST. If you are applying for both general and service quotas which have been required an additional charge amount of ₹1,000. Just get to know that the fees are non-refundable and paid online."
         },
         {
-          "question": "Q6: What is the application fee for Kerala NEET PG 2025 counselling?",
-          "answer": "The application fee is ₹1,000 for general category candidates and ₹500 for SC/ST candidates. Service quota candidates pay ₹1,000, with an additional ₹1,000 required if applying for both general and service quota categories. All fees are non-refundable and must be paid online through credit card, debit card, or net banking."
+          "question": "Q6: What are the important dates for Kerala NEET PG 2025 counselling?",
+          "answer": "The Kerala NEET PG 2025 registration has finally opened Sept 10, 2025 and it is also extended till Sept 30, 2025 (5 PM). whereas the Merit list is expected to come in early October, with choice filling likely in the second week."
         },
         {
-          "question": "Q7: When is the registration deadline for Kerala NEET PG 2025 state counselling?",
-          "answer": "Registration opened on September 10, 2025. The deadline was initially September 22, 2025, at 4:00 PM but has been extended to September 30, 2025, at 5:00 PM. Merit list publication is expected in the first week of October 2025, followed by choice filling in the second week."
-        },
-        {
-          "question": "Q8: Can I edit my application after final submission in Kerala NEET PG counselling?",
-          "answer": "No, the CEE Kerala system does not permit any modifications once candidates select 'Save and Finalise' and complete the payment process. Candidates must carefully verify all entered information, uploaded documents, and selections before final submission. However, if deficiencies are identified during verification, CEE may issue notifications requesting corrected documents, which candidates should monitor regularly through the official portal."
+          "question": "Q7: Can I edit my Kerala NEET PG application after submission?",
+          "answer": "No. Once \"Save & Finalise\" is clicked, edits are not allowed. However, CEE may request document corrections during verification, which must be updated promptly on the portal."
         }
       ]
     },
     {
-  "id": "keywords",
-  "type": "keywords",
-  "title": "Related Keywords",
-  "keywords": [
-   "Kerala NEET PG Counselling",
-  "Kerala NEET PG 2025 Counselling",
-  "Kerala NEET PG Counselling 2025",
-  "NEET PG Counselling Guidance",
-  "NEET PG Counselling Schedule",
-  "MCC NEET PG Counselling",
-  "NEET PG Counselling Registration",
-  "Apply for NEET PG Counselling",
-  "Career Counselling NEET PG",
-  "NEET PG Allotment",
-  "NEET PG Career Counselling",
-  "Kerala Medical PG Counselling",
-  "Kerala PG Medical Counselling",
-  "Kerala State NEET PG Counselling"
-]
-},
-    {
       "id": "contact-form",
       "type": "contact-form",
       "title": "Submit queries to BelieversConsultancy",
-      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8"
+      "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit"
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "kerala neet pg counselling",
+        "kerala neet pg 2025 counselling",
+        "kerala neet pg counselling 2025",
+        "neet pg counselling guidance",
+        "neet pg counselling schedule",
+        "mcc neet pg counselling",
+        "neet pg counselling registration",
+        "apply for neet pg counselling",
+        "career counselling neet pg",
+        "neet pg allotment",
+        "neet pg career counselling",
+        "kerala medical pg counselling",
+        "kerala pg medical counselling",
+        "kerala state neet pg counselling"
+      ]
     }
   ]
 },
+
 {
   id: 11,
   title: "Gujarat NEET PG 2025 Counselling: Complete Guide",
@@ -38594,6 +38607,435 @@ export const blogPosts: BlogPost[] = [
         "NEET PG Counselling 2026",
         "NEET PG Counselling",
         "NEET PG 2026 Counselling"
+      ]
+    }
+  ]
+},
+{
+  "id": 99,
+  "title": "The Residency Survival Kit No One Talks About (But Everyone Needs)",
+  "slug": "residency-survival-kit-no-one-talks-about-but-everyone-needs",
+  "excerpt": "The real residency survival kit includes emotional strength, time management, teamwork, and self care skills that help young doctors endure and grow.",
+  "featured_image": "https://cdn.dribbble.com/userupload/46355970/file/4024d631df96b6a70fc525b04e621411.png?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "Medical Residency",
+    "slug": "medical-residency",
+    "color": "bg-blue-100 text-blue-800"
+  },
+  "tags": [
+    "Residency",
+    "Residency Programs",
+    "Medical Residency",
+    "Training Program",
+    "Residency Medicine",
+    "The Resident",
+    "Self Care"
+  ],
+  "published_date": "2026-01-12",
+  "read_time": 15,
+  "meta_description": "The real residency survival kit includes emotional strength, time management, teamwork, and self care skills that help young doctors endure and grow.",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "content": "The Residency Program is not just a training program. It is a test of endurance, adaptability, and survival. Long shifts, unpredictable schedules, skipped meals, sleepless nights, and constant physical and emotional demands slowly teach you one thing: being prepared matters."
+    },
+    {
+      "id": "intro-context",
+      "type": "paragraph",
+      "content": "While medical textbooks and clinical skills are essential, there is a different kind of preparation no one warns you about: the everyday survival essentials that help you function during 36–48-hour duties. This blog is a realistic guide to the residency survival kit, built not from theory, but from experience."
+    },
+    {
+      "id": "why-survival-kit",
+      "type": "heading",
+      "title": "Why a Residency Survival Kit Is Non-Negotiable",
+      "level": 2
+    },
+    {
+      "id": "why-survival-kit-content",
+      "type": "paragraph",
+      "content": "During residency, the hospital becomes your second home, sometimes your first. Cafeterias shut early, phones die mid-shift, headaches creep in at 3 a.m., and basic self-care becomes a luxury. The right essentials won't make residency programs easy, but they will make it manageable."
+    },
+    {
+      "id": "why-survival-kit-intro",
+      "type": "paragraph",
+      "content": "Here's what truly belongs in every resident's survival kit."
+    },
+    {
+      "id": "item-1",
+      "type": "heading",
+      "title": "1. Shoes That Can Survive 48-Hour Shifts",
+      "level": 2
+    },
+    {
+      "id": "item-1-intro",
+      "type": "paragraph",
+      "content": "Your shoes are not a fashion statement during medical residency, they are life-support equipment."
+    },
+    {
+      "id": "item-1-tips",
+      "type": "list",
+      "items": [
+        "Choose memory foam or well-cushioned shoes",
+        "They should support long-standing hours and sudden running",
+        "If you can't run in them, don't buy them"
+      ]
+    },
+    {
+      "id": "item-1-conclusion",
+      "type": "paragraph",
+      "content": "Good shoes protect your knees, back, and sanity more than you realize."
+    },
+    {
+      "id": "item-2",
+      "type": "heading",
+      "title": "2. Headache Roll-On or Balm",
+      "level": 2
+    },
+    {
+      "id": "item-2-intro",
+      "type": "paragraph",
+      "content": "Headaches are inevitable dehydration, missed meals, lack of sleep, screen time, sand tress."
+    },
+    {
+      "id": "item-2-content",
+      "type": "paragraph",
+      "content": "A simple headache roll-on or balm (like Amrutanjan) can be a lifesaver. It becomes your quiet comfort companion when you don't have time to rest but still need relief."
+    },
+    {
+      "id": "item-3",
+      "type": "heading",
+      "title": "3. Power Bank, Long Cable, and Charger",
+      "level": 2
+    },
+    {
+      "id": "item-3-intro",
+      "type": "paragraph",
+      "content": "Your phone will die faster than your willpower."
+    },
+    {
+      "id": "item-3-tips",
+      "type": "list",
+      "items": [
+        "Carry a reliable power bank",
+        "A long charging cable helps during awkward plug-point situations",
+        "Your phone is your clock, reference book, food app, and emotional support"
+      ]
+    },
+    {
+      "id": "item-3-conclusion",
+      "type": "paragraph",
+      "content": "Think of this as caffeine for your phone."
+    },
+    {
+      "id": "item-4",
+      "type": "heading",
+      "title": "4. Protein Bars or a 3 A.M. Snack Stash",
+      "level": 2
+    },
+    {
+      "id": "item-4-intro",
+      "type": "paragraph",
+      "content": "Hunger doesn't follow hospital timings. Cafeterias close long before your shift does."
+    },
+    {
+      "id": "item-4-keep",
+      "type": "paragraph",
+      "content": "Keep:"
+    },
+    {
+      "id": "item-4-list",
+      "type": "list",
+      "items": [
+        "Protein bars",
+        "Muesli packets",
+        "Dry fruits",
+        "Tetra packs of milk"
+      ]
+    },
+    {
+      "id": "item-4-conclusion",
+      "type": "paragraph",
+      "content": "These snacks don't replace meals, but they prevent crashes, dizziness, and poor decision-making."
+    },
+    {
+      "id": "item-5",
+      "type": "heading",
+      "title": "5. Toothbrush, Toothpaste, and Mints",
+      "level": 2
+    },
+    {
+      "id": "item-5-intro",
+      "type": "paragraph",
+      "content": "You will forget to brush sometimes. It happens."
+    },
+    {
+      "id": "item-5-content",
+      "type": "paragraph",
+      "content": "But when you do get a chance, brushing your teeth feels like reclaiming a piece of yourself. Add mints for quick refreshers before rounds or post-night duties."
+    },
+    {
+      "id": "item-5-conclusion",
+      "type": "paragraph",
+      "content": "Small acts of hygiene can make you feel human again."
+    },
+    {
+      "id": "item-6",
+      "type": "heading",
+      "title": "6. A Mini Medicine Kit (For Yourself)",
+      "level": 2
+    },
+    {
+      "id": "item-6-intro",
+      "type": "paragraph",
+      "content": "Doctors are the worst patients, especially residents."
+    },
+    {
+      "id": "item-6-kit-intro",
+      "type": "paragraph",
+      "content": "Your personal kit should include:"
+    },
+    {
+      "id": "item-6-list",
+      "type": "list",
+      "items": [
+        "Medicines for acidity and gastritis",
+        "ORS",
+        "Painkillers",
+        "Anti-spasmodics (especially for menstrual cramps)",
+        "Any personal prescription medications"
+      ]
+    },
+    {
+      "id": "item-6-conclusion",
+      "type": "paragraph",
+      "content": "Skipping meals, eating outside food, stress, and dehydration make this kit essential."
+    },
+    {
+      "id": "item-7",
+      "type": "heading",
+      "title": "7. Pens. Pens. And More Pens.",
+      "level": 2
+    },
+    {
+      "id": "item-7-intro",
+      "type": "paragraph",
+      "content": "You will lose pens. Constantly."
+    },
+    {
+      "id": "item-7-tips",
+      "type": "list",
+      "items": [
+        "Hide them in your bag",
+        "Keep some in your locker",
+        "Carry extras in your pockets"
+      ]
+    },
+    {
+      "id": "item-7-conclusion",
+      "type": "paragraph",
+      "content": "There is unmatched joy in randomly finding a decent pen during a chaotic shift."
+    },
+    {
+      "id": "item-8",
+      "type": "heading",
+      "title": "8. Personal Care Supplies",
+      "level": 2
+    },
+    {
+      "id": "item-8-intro",
+      "type": "paragraph",
+      "content": "Hospitals don't feel like home—but a few personal items help."
+    },
+    {
+      "id": "item-8-pouch-intro",
+      "type": "paragraph",
+      "content": "Keep a small pouch with:"
+    },
+    {
+      "id": "item-8-list",
+      "type": "list",
+      "items": [
+        "Face wash",
+        "Deodorant",
+        "Perfume",
+        "Hand sanitizer",
+        "Tissues",
+        "Face towel"
+      ]
+    },
+    {
+      "id": "item-8-conclusion",
+      "type": "paragraph",
+      "content": "These are not luxuries. They are survival tools."
+    },
+    {
+      "id": "item-9",
+      "type": "heading",
+      "title": "9. A Reliable Stethoscope (With Extra Parts)",
+      "level": 2
+    },
+    {
+      "id": "item-9-intro",
+      "type": "paragraph",
+      "content": "A decent stethoscope is non-negotiable."
+    },
+    {
+      "id": "item-9-keep-intro",
+      "type": "paragraph",
+      "content": "Also keep:"
+    },
+    {
+      "id": "item-9-list",
+      "type": "list",
+      "items": [
+        "An extra diaphragm",
+        "Extra earpieces"
+      ]
+    },
+    {
+      "id": "item-9-conclusion",
+      "type": "paragraph",
+      "content": "Nothing is worse than being asked to identify a murmur during rounds and realizing your stethoscope isn't functional."
+    },
+    {
+      "id": "item-10",
+      "type": "heading",
+      "title": "10. Essentials for Periods During Medical Residency",
+      "level": 2
+    },
+    {
+      "id": "item-10-intro",
+      "type": "paragraph",
+      "content": "For residents who menstruate, preparation is crucial."
+    },
+    {
+      "id": "item-10-keep-intro",
+      "type": "paragraph",
+      "content": "Always keep:"
+    },
+    {
+      "id": "item-10-list",
+      "type": "list",
+      "items": [
+        "Sanitary pads or tampons",
+        "Pain relief medication",
+        "Extra supplies for longer-than-expected duties"
+      ]
+    },
+    {
+      "id": "item-10-conclusion",
+      "type": "paragraph",
+      "content": "Medical Residency doesn't pause for periods. Planning helps you cope better."
+    },
+    {
+      "id": "item-11",
+      "type": "heading",
+      "title": "11. A Water Bottle That Lives in the Hospital",
+      "level": 2
+    },
+    {
+      "id": "item-11-intro",
+      "type": "paragraph",
+      "content": "Dehydration is silent but dangerous."
+    },
+    {
+      "id": "item-11-tips",
+      "type": "list",
+      "items": [
+        "Keep a reusable water bottle",
+        "Fill it from the hospital water coolers",
+        "Leave it in the duty room if needed"
+      ]
+    },
+    {
+      "id": "item-11-conclusion",
+      "type": "paragraph",
+      "content": "For many residents, this becomes the only way they drink water regularly."
+    },
+    {
+      "id": "residency-survival-game",
+      "type": "heading",
+      "title": "Residency Training Is a Survival Game",
+      "level": 2
+    },
+    {
+      "id": "residency-survival-game-content",
+      "type": "paragraph",
+      "content": "Residency will teach you medicine, but it will also teach you endurance. Having the right survival kit doesn't make you weak, it makes you prepared."
+    },
+    {
+      "id": "residency-survival-game-conclusion",
+      "type": "paragraph",
+      "content": "These essentials won't reduce your plus workload, but they will reduce unnecessary suffering."
+    },
+    {
+      "id": "final-thought",
+      "type": "heading",
+      "title": "Final Thought",
+      "level": 2
+    },
+    {
+      "id": "final-thought-content",
+      "type": "paragraph",
+      "content": "Every resident eventually builds their own version of a survival kit. What matters is recognizing that self-care is not selfish, it's necessary."
+    },
+    {
+      "id": "final-thought-question",
+      "type": "paragraph",
+      "content": "What's in your residency survival kit? Share your must-have essentials and help another resident survive a little better."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "NEET PG FAQs: Residency Survival",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1: Duty bag size recommendation?",
+          "answer": "Backpack (20L). Fits kit + laptop + change of clothes. Frontloader for quick access."
+        },
+        {
+          "question": "Q2: Best shoes under ₹5k for PG?",
+          "answer": "Bata Power/Asian cushioned. ₹2.5–4k. Ortho-approved for Indian wards."
+        },
+        {
+          "question": "Q3: How to pack for 48-hr duty?",
+          "answer": "Kit + 2 sets scrubs + socks + electrolytes. Leave non-essentials in the hostel."
+        },
+        {
+          "question": "Q4: First month kit priority?",
+          "answer": "1. Shoes 2. Power bank 3. Snacks 4. Meds. Rest builds gradually."
+        }
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/e/1FAIpQLSeIM6HYq_pg_mq6PK78YzdLn6KwaVQjyndn2CdJ8ThWWXvNOA/viewform"
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "residency",
+        "residency programs",
+        "medical residency",
+        "the residency",
+        "residency medicine",
+        "training program",
+        "the resident"
       ]
     }
   ]
