@@ -15,6 +15,17 @@ export interface Notification {
 export const notificationsData: Notification[] = [
   {
     id: "1",
+    title: "Notice Dated: 12-01-2026",
+    message: "All India Round 2 - Resignation has been extended till 01:00 PM of 30th Dec 2025",
+    type: "urgent",
+    date: "mon, 12 Jan 2026",
+    time: "2:30 PM",
+    read: false,
+    icon: "🔔",
+    link: "/notice"
+  },
+  {
+    id: "2",
     title: "All India PG Counselling - 2025",
     message: "All India Round 2 - Resignation has been extended till 01:00 PM of 30th Dec 2025",
     type: "urgent",
@@ -24,7 +35,7 @@ export const notificationsData: Notification[] = [
     icon: "🔔"
   },
   {
-    id: "2",
+    id: "3",
     title: "Round 2 vs State Round 2 - Timeline Based Decisions",
     message: "NEET PG 2025 - Important updates regarding counselling timeline",
     type: "info",
@@ -34,7 +45,7 @@ export const notificationsData: Notification[] = [
     link: "/schedule"
   },
   {
-    id: "3",
+    id: "4",
     title: "FMGE December 2025",
     message: "NBEMS Extends Deficient Documents Submission Deadline Till January 7, 2026",
     type: "warning",
