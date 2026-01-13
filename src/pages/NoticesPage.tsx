@@ -13,6 +13,14 @@ interface NoticeDocument {
 const noticeDocuments: NoticeDocument[] = [
   {
     id: 1,
+    title: 'Notice Dated: 12-01-2026',
+    date: '12-11-2026',
+    externalUrl: 'https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/202601121777720733.pdf',
+    size: 'External',
+    isNew: false
+  },
+  {
+    id: 2,
     title: 'Notice Dated: 10.12.2025',
     date: '10-12-2025',
     externalUrl: 'https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/12/2025121025430996.pdf',
@@ -20,7 +28,7 @@ const noticeDocuments: NoticeDocument[] = [
     isNew: true
   },
   {
-    id: 2,
+    id: 3,
     title: 'Notice Dated: 19.11.2025',
     date: '19-11-2025',
     externalUrl: 'https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/11/202511191286629593.pdf',
