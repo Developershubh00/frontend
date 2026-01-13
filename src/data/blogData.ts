@@ -39064,7 +39064,7 @@ export const blogPosts: BlogPost[] = [
     "NEET PG",
     "Medical Decision"
   ],
-  "published_date": "2026-01-05",
+  "published_date": "2026-01-13",
   "read_time": 11,
   "meta_description": "Before choosing a PG branch face the real truths about workload lifestyle competition money and burnout so your decision is informed practical and regret free",
   "sections": [
