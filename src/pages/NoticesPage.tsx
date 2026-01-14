@@ -25,7 +25,7 @@ const noticeDocuments: NoticeDocument[] = [
     date: '12-11-2026',
     externalUrl: 'https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/202601121777720733.pdf',
     size: 'External',
-    isNew: true
+    isNew: false
   },
   {
     id: 3,
