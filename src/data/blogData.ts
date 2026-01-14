@@ -39045,7 +39045,7 @@ export const blogPosts: BlogPost[] = [
   "title": "Before You Choose a PG Branch: 10 Hard Truths Every Doctor Must Accept",
   "slug": "before-you-choose-pg-branch-10-hard-truths-every-doctor-must-accept",
   "excerpt": "Before choosing a PG branch face the real truths about workload lifestyle competition money and burnout so your decision is informed practical and regret free",
-  "featured_image": "https://cdn.dribbble.com/userupload/46369665/file/2cb995e7a2bf711d4236868b3369119d.png?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/46379268/file/29542b9cd27314273a373c82e987b9c8.jpg?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
     "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
@@ -39356,4 +39356,5 @@ export const getRelatedBlogs = (currentSlug: string, limit: number = 3): BlogPos
 };
 
 // Debug helper: return all slugs (useful for runtime inspection)
+
 export const listAllBlogSlugs = (): string[] => blogPosts.map((p) => p.slug);
