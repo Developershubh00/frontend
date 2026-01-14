@@ -1117,7 +1117,7 @@ const AnnouncementPage: React.FC = () => {
     },
     {
       id: 91,
-      title: "NEET PG Counselling 2025:",
+      title: "NEET PG Counselling 2026:",
       content:"INI CET January 2026: AIIMS Releases Round 2 Online Seat Allotment Result",
       date: "2026-01-10T08:00:00Z",
       priority: 'high',
@@ -1129,7 +1129,7 @@ const AnnouncementPage: React.FC = () => {
     },
     {
       id: 92,
-      title: "NEET PG Counselling 2025:",
+      title: "NEET PG Counselling 2026:",
       content:"NEET PG 2025: DGHS Directs States to Halt Round 3 Counselling Until MCC Releases Official Schedule",
       date: "2026-01-07T08:00:00Z",
       priority: 'high',
@@ -1139,14 +1139,18 @@ const AnnouncementPage: React.FC = () => {
       source: 'natboard ',
       created_at: "2026-01-10T08:00:00Z"
     },
-    
-
-
-
-
-
-
-
+     {
+      id: 93,
+      title: "NEET PG Counselling 2026:",
+      content:"MCC Releases Round-3 PG Counselling 2025 Seat Matrix; Institutes Asked to Verify by Jan 15 Published Date",
+      date: "2026-01-14T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://pdflink.to/efdb78c3/',
+      is_active: true,
+      source: 'natboard ',
+      created_at: "2026-01-14T08:00:00Z"
+    },
   ];
 
   const fetchAnnouncements = async () => {
