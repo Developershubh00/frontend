@@ -896,6 +896,24 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
       link: 'https://mcc.nic.in/news-events-pg/',
        source: 'natboard ',
      },
+     {
+      id: 94,
+      title: " Admit Card Released: Download Hall Ticket from natboard.edu.in",
+      date: "2026-01-14T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://timesofindia.indiatimes.com/education/news/fmge-december-2025-admit-card-released-at-natboard-edu-in-direct-link-to-download-hall-ticket-here/articleshow/126519255.cms',
+     source: 'natboard ',
+    },
+     {
+      id: 95,
+      title: "Round-3 Schedule Released: Registration Starts January 15 ",
+      date: "2026-01-15T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/20260115689301834.pdf',
+      source: 'MCC ',
+    },
 
 
 

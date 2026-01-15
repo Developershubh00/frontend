@@ -1163,6 +1163,18 @@ const AnnouncementPage: React.FC = () => {
       source: 'natboard ',
       created_at: "2026-01-14T08:00:00Z"
     },
+     {
+      id: 95,
+      title: "NEET PG Counselling 2025",
+      content:"NEET PG Counselling 2025 Round-3 Schedule Released: Registration Starts January 15 ",
+      date: "2026-01-15T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/20260115689301834.pdf',
+      is_active: true,
+      source: 'MCC ',
+      created_at: "2026-01-14T08:00:00Z"
+    },
   ];
 
   const fetchAnnouncements = async () => {
