@@ -973,7 +973,7 @@ const AnnouncementPage: React.FC = () => {
     },
     {
       id: 79,
-      title: "NEET PG Counselling 2025:",
+      title: "INI‑CET January 2026 PG Counselling:",
       content:"INI‑CET January 2026 PG Counselling: AIIMS Releases Online Seat Allocation Schedule for Mock, Round 1 and Round 2",
       date: "2025-12-06T08:00:00Z",
       priority: 'high',
@@ -1105,7 +1105,7 @@ const AnnouncementPage: React.FC = () => {
     },
     {
       id: 90,
-      title: "NEET PG Counselling 2025:",
+      title: "FMGE December 2025:",
       content:"FMGE December 2025: NBEMS Extends Deficient Documents Submission Deadline Till January 7, 2026",
       date: "2025-12-30T08:00:00Z",
       priority: 'high',
