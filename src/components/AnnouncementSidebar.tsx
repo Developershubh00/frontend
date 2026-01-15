@@ -890,7 +890,7 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({ onAnnouncemen
     {
       id: 93,
       title: "NEET PG 2025: DGHS Directs States to Halt Round 3 Counselling Until MCC Releases Official Schedule",
-      date: "2026-01-07T08:00:00Z",
+      date: "2026-01-12T08:00:00Z",
       priority: 'high',
       category: 'NEET PG',
       link: 'https://mcc.nic.in/news-events-pg/',
