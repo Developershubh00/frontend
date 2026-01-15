@@ -42712,7 +42712,7 @@ export const blogPosts: BlogPost[] = [
       "Blood Banking",
       "Career Guidance",
     ],
-    published_date: "2026-01-14",
+    published_date: "2026-01-15",
     read_time: 12,
     meta_description:
       "Transfusion Medicine offers a steady career focused on patient safety, blood services, and clinical impact, ideal for doctors seeking precision without emergency stress.",
