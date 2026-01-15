@@ -14,6 +14,22 @@ interface ScheduleDocument {
 const scheduleDocuments: ScheduleDocument[] = [
   {
     id: 1,
+    title: 'NEET-PG SCHEDULE- 2025 All India Quota/ Deemed/ Central State Quota',
+    year: 2026,
+    externalUrl: 'https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/20260115689301834.pdf', // Replace with your actual URL
+    size: 'External',
+    isExternal: true
+  },
+  {
+    id: 2,
+    title: 'TENTATIVE SCHEDULE FOR ONLINE COUNSELING (ALLOTMENT PROCESS) ',
+    year: 2026,
+    externalUrl: 'https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/20260115708039106.pdf', // Replace with your actual URL
+    size: 'External',
+    isExternal: true
+  },
+  {
+    id: 3,
     title: 'VIRTUAL VACANCY ROUND 2 (MD MS AND DNB) – PG COUNSELLING 2025',
     year: 2025,
     externalUrl: 'https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/12/20251206767130184.pdf', // Replace with your actual URL
@@ -21,7 +37,7 @@ const scheduleDocuments: ScheduleDocument[] = [
     isExternal: true
   },
   {
-    id: 2,
+    id: 4,
     title: 'CLEAR VACANCY ROUND 2 (MD MS AND DNB) – PG COUNSELLING 2025',
     year: 2025,
     externalUrl: 'https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/12/20251206128647095.pdf', // Replace with your actual URL
@@ -29,7 +45,7 @@ const scheduleDocuments: ScheduleDocument[] = [
     isExternal: true
   },
   {
-    id: 3,
+    id: 5,
     title: 'NEWLY ADDED SEATS ROUND 2 (MD MS AND DNB) – PG COUNSELLING 2025',
     year: 2025,
     externalUrl: 'https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/12/20251206729694661.pdf', // Replace with your actual URL
@@ -37,7 +53,7 @@ const scheduleDocuments: ScheduleDocument[] = [
     isExternal: true
   },
   {
-    id: 4,
+    id: 6,
     title: 'AIQ and State Schedule PG 2025 dated 25.11.25',
     year: 2025,
     fileName: 'AIQ_and_State_Schedule_PG_2025_dated_25.11.25.pdf',
@@ -45,7 +61,7 @@ const scheduleDocuments: ScheduleDocument[] = [
     isExternal: false
   },
   {
-    id: 5,
+    id: 7,
     title: 'PG Counselling 2025 Schedule dated 25.11.25',
     year: 2025,
     fileName: 'PG_Counselling_2025_Schedule_dated_25.11.25.pdf',
