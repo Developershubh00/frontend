@@ -1151,6 +1151,18 @@ const AnnouncementPage: React.FC = () => {
       source: 'natboard ',
       created_at: "2026-01-14T08:00:00Z"
     },
+    {
+      id: 94,
+      title: "FMGE December 2025",
+      content:"FMGE December 2025 Admit Card Released: Download Hall Ticket from natboard.edu.in",
+      date: "2026-01-14T08:00:00Z",
+      priority: 'high',
+      category: 'NEET PG',
+      link: 'https://timesofindia.indiatimes.com/education/news/fmge-december-2025-admit-card-released-at-natboard-edu-in-direct-link-to-download-hall-ticket-here/articleshow/126519255.cms',
+      is_active: true,
+      source: 'natboard ',
+      created_at: "2026-01-14T08:00:00Z"
+    },
   ];
 
   const fetchAnnouncements = async () => {
