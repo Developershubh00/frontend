@@ -817,7 +817,7 @@ const AnnouncementPage: React.FC = () => {
     },
     {
       id: 67,
-      title: "NEET PG Counselling 2025:",
+      title: "AIIMS Confirms INI CET November 2025:",
       content:"AIIMS Confirms INI CET November 2025 tentative Result Date – January 2026 Session Scorecard to be tentatively Released Tomorrow (November 15)",
       date: "2025-11-11T08:00:00Z",
       priority: 'high',
@@ -853,7 +853,7 @@ const AnnouncementPage: React.FC = () => {
     },
     {
       id: 70,
-      title: "NEET PG Counselling 2025:",
+      title: "AIIMS INI CET 2025 Result Declared:",
       content:"AIIMS INI CET 2025 Result Declared: 32,374 Candidates Qualify for January 2026 Session MD/MS/DM/MCh/MDS Admissions - Download Score at aiimsexams.ac.in",
       date: "2025-11-16T08:00:00Z",
       priority: 'high',
@@ -1117,7 +1117,7 @@ const AnnouncementPage: React.FC = () => {
     },
     {
       id: 91,
-      title: "NEET PG Counselling 2026:",
+      title: "INI CET January 2026:",
       content:"INI CET January 2026: AIIMS Releases Round 2 Online Seat Allotment Result",
       date: "2026-01-10T08:00:00Z",
       priority: 'high',
