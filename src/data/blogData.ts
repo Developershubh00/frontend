@@ -43074,6 +43074,321 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    id: 102,
+    title: "FMGE Exam Guide – Part 1: Eligibility, Purpose & Basics",
+    slug: "fmge-exam-guide-part-1-eligibility-purpose-basics",
+    excerpt:
+      "Starting FMGE preparation? Learn eligibility rules, exam purpose, format, and key basics every foreign medical graduate must know before applying.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/46415300/file/3354503909032dd8608d59f8a1b5aa01.jpg?w=1200&h=600&fit=crop",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+    },
+    category: {
+      name: "FMGE",
+      slug: "fmge",
+      color: "bg-blue-100 text-blue-800",
+    },
+    tags: [
+      "FMGE Exam",
+      "FMGE Preparation",
+      "Foreign Medical Graduate",
+      "FMGE Eligibility",
+      "Medical Registration",
+      "FMGE 2026",
+    ],
+    published_date: "2026-01-17",
+    read_time: 10,
+    meta_description:
+      "Starting FMGE preparation? Learn eligibility rules, exam purpose, format, and key basics every foreign medical graduate must know before applying.",
+    sections: [
+      {
+        id: "section-1",
+        type: "heading",
+        title: "What is the FMGE Exam?",
+        level: 2,
+      },
+      {
+        id: "section-1-intro",
+        type: "paragraph",
+        content:
+          "The Foreign Medical Graduate Examination (FMGE), has been commonly known as the fmge exam, which is basically a screening test that has been conducted in India for Indian citizens or Overseas Citizens of India called as (OCI) who have generally obtained their primary medical qualification from a very well foreign medical institution. Although clearing the fmge exam is highly mandatory for such graduates just for practising in medicine or pursuing for their further medical training in India.",
+      },
+      {
+        id: "section-1-bridge",
+        type: "paragraph",
+        content:
+          "The fmge actually acts as a regulatory bridge which is between the foreign medical education systems and Indian medical standards as well, although it makes sure that doctors who are entering the Indian healthcare system meets minimum expertness requirements. So this is clearly explained about fmge and about fmge exams for all foreign medical graduates.",
+      },
+      {
+        id: "section-2",
+        type: "heading",
+        title: "The Purpose of FMGE",
+        level: 2,
+      },
+      {
+        id: "section-2-intro",
+        type: "paragraph",
+        content:
+          "You know the actual core purpose of the FMGE exam which is their quality guarantee. Whereas the medical education varies significantly in different countries in terms of their overall curriculum, where do you find the better clinical exposure, and assessment standards. However the fmge exam criteria make things sure about:",
+      },
+      {
+        id: "section-2-list",
+        type: "list",
+        items: [
+          "• the overall uniform clinical competency in between foreign medical graduates",
+          "• whereas all the patient safety within the Indian healthcare system",
+          "• although the official standardization of medical knowledge follow at the MBBS level",
+          "• social and professional readiness to practice medicine in India",
+        ],
+      },
+      {
+        id: "section-2-conclusion",
+        type: "paragraph",
+        content:
+          "Rather than being a difficult problem, FMGE functions as a perfect screening mechanism to align global medical graduates with Indian clinical expectations and the fmge exam pattern followed in India.",
+      },
+      {
+        id: "section-3",
+        type: "heading",
+        title: "Who Needs to Take the FMGE Exam?",
+        level: 2,
+      },
+      {
+        id: "section-3-intro",
+        type: "paragraph",
+        content: "FMGE is mandatory for:",
+      },
+      {
+        id: "section-3-list",
+        type: "list",
+        items: [
+          "• all the Indian citizens who have completed their MBBS degree or identical degrees from foreign medical colleges",
+          "• OCI candidates with the foreign primary medical qualifications",
+          "• The candidates who are highly Graduates from countries whose medical degrees are not directly recognized for practice in India",
+        ],
+      },
+      {
+        id: "section-3-conclusion",
+        type: "paragraph",
+        content:
+          "Without clearing the fmge exam, such graduates cannot obtain permanent or provisional registration in India, which directly impacts career options after fmge exam.",
+      },
+      {
+        id: "section-4",
+        type: "heading",
+        title: "Medical Graduates Exempt from the FMGE",
+        level: 2,
+      },
+      {
+        id: "section-4-intro",
+        type: "paragraph",
+        content:
+          "Certain candidates are exempted from the fmge based on international recognition agreements. These include medical graduates who have obtained their primary medical qualification from:",
+      },
+      {
+        id: "section-4-list",
+        type: "list",
+        items: [
+          "• United Kingdom",
+          "• United States of America",
+          "• Canada",
+          "• Australia",
+          "• New Zealand",
+        ],
+      },
+      {
+        id: "section-4-note",
+        type: "paragraph",
+        content:
+          "This exemption applies only if the degree is recognized and the candidate has completed training as per that country's licensing norms, as clarified on the fmge official website through regular fmge exam updates.",
+      },
+      {
+        id: "section-5",
+        type: "heading",
+        title: "FMGE Eligibility Criteria",
+        level: 2,
+      },
+      {
+        id: "section-5-nationality",
+        type: "heading",
+        title: "1. Nationality",
+        level: 3,
+      },
+      {
+        id: "section-5-nationality-content",
+        type: "paragraph",
+        content: "The candidate must be:",
+      },
+      {
+        id: "section-5-nationality-list",
+        type: "list",
+        items: ["• An Indian citizen, or an Overseas Citizen of India (OCI)"],
+      },
+      {
+        id: "section-5-qualification",
+        type: "heading",
+        title: "2. Medical Qualification",
+        level: 3,
+      },
+      {
+        id: "section-5-qualification-list",
+        type: "list",
+        items: [
+          "• The primary medical qualification must be highly obtained from a foreign institution which is highly recognized in that country",
+          "• The overall qualification should be identical to an MBBS degree",
+        ],
+      },
+      {
+        id: "section-5-eligibility",
+        type: "heading",
+        title: "3. Eligibility Certificate for Older Students",
+        level: 3,
+      },
+      {
+        id: "section-5-eligibility-content",
+        type: "paragraph",
+        content:
+          "All the candidates who took the admission in foreign medical colleges after all the specified cutoff then the date must possess an Eligibility Certificate which has been issued by the National Medical Commission (NMC). This confirms that the candidate was highly eligible to pursue the MBBS degree at the time of admission as per fmge exam criteria.",
+      },
+      {
+        id: "section-5-completion",
+        type: "heading",
+        title: "4. Course Completion",
+        level: 3,
+      },
+      {
+        id: "section-5-completion-list",
+        type: "list",
+        items: [
+          "• for the course completion all the candidate must have completed the overall duration of the medical course",
+          "• there will be the mandatory internship or clinical training which has been prescribed by the foreign university must be completed",
+        ],
+      },
+      {
+        id: "section-5-completion-note",
+        type: "paragraph",
+        content:
+          "The Incomplete courses or pending internships finally make candidates unqualified for the fmge exam, which is highly irrespective of fmge 2026 exam timelines.",
+      },
+      {
+        id: "section-6",
+        type: "heading",
+        title: "Documents Required for FMGE",
+        level: 2,
+      },
+      {
+        id: "section-6-intro",
+        type: "paragraph",
+        content:
+          "Candidates must keep all the documents complete during the application:",
+      },
+      {
+        id: "section-6-list",
+        type: "list",
+        items: [
+          "• you should have your passport with entry, exit stamps",
+          "• Primary medical qualification degree is also required",
+          "• Mark sheets or transcripts needed",
+          "• Internship completion certificate",
+          "• Eligibility Certificate (if applicable)",
+          "• Proof of nationality (Indian passport or OCI card)",
+          "• Recent passport-size photographs",
+        ],
+      },
+      {
+        id: "section-6-note",
+        type: "paragraph",
+        content:
+          "All the documentation should be accurate is critical, as all the discrepancies can lead to application rejection or result cancellation.",
+      },
+      {
+        id: "conclusion",
+        type: "heading",
+        title: "Conclusion: Understanding FMGE Is the First Step",
+        level: 2,
+      },
+      {
+        id: "conclusion-intro",
+        type: "paragraph",
+        content:
+          "Understanding the fmge exam is the first step toward practicing medicine in India. Perfectly knowing the eligibility criteria, overall immunity, and required all approved documents which helps you avoid the last minute confusion and delays later. With this utmost clarity, you can directly approach the fmge preparation, and fmge exam preparation tips with full confidence and direction, as it includes practicing from fmge exam papers.",
+      },
+      {
+        id: "conclusion-next",
+        type: "paragraph",
+        content:
+          "In Part 2, we'll cover the application process, fmge exam pattern, challenges, and how clearing the exam shapes your medical career after fmge exam.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FMGE FAQs for Foreign Medical Graduates",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "1. Can I appear for NEET PG before clearing FMGE?",
+            answer:
+              "No. You must clear FMGE first to get provisional/permanent registration with MCI/NMC, which is mandatory for NEET PG eligibility and counseling.",
+          },
+          {
+            question:
+              "2. What if my foreign medical college isn't listed in the World Directory?",
+            answer:
+              "You're ineligible for FMGE. Check the World Directory of Medical Schools before applying or during admission to avoid this issue.",
+          },
+          {
+            question: "3. How long is FMGE validity after passing?",
+            answer:
+              "Yes absolutely there will be lifetime validity. Once you have cleared everything, your FMGE result remains valid up for medical registration and PG entrance exams.",
+          },
+          {
+            question: "4. Can I work as an intern in India before FMGE?",
+            answer:
+              "No. Foreign graduates cannot do an internship or practice in India without clearing FMGE and getting provisional registration first.",
+          },
+        ],
+      },
+      {
+        id: "contact-form",
+        type: "contact-form",
+        title: "Submit queries to BelieversConsultancy",
+        content:
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/e/1FAIpQLSeIM6HYq_pg_mq6PK78YzdLn6KwaVQjyndn2CdJ8ThWWXvNOA/viewform",
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "fmge exam",
+          "fmge preparation",
+          "fmge",
+          "about fmge exam",
+          "about fmge",
+          "after fmge exam",
+          "fmge 2026",
+          "fmge 2026 exam",
+          "fmge exam preparation",
+          "fmge exam papers",
+          "fmge exam preparation tips",
+          "fmge exam updates",
+          "fmge official website",
+          "fmge exam registration",
+          "fmge exam criteria",
+          "fmge exam pattern",
+        ],
+      },
+    ],
+  },
 ];
 
 // Helper function to get blog by slug
