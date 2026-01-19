@@ -1,5 +1,11 @@
-import React from 'react';
-import { FileText, ExternalLink, Calendar, ArrowLeft, Link } from 'lucide-react';
+import React from "react";
+import {
+  FileText,
+  ExternalLink,
+  Calendar,
+  ArrowLeft,
+  Link,
+} from "lucide-react";
 
 interface ScheduleDocument {
   id: number;
@@ -14,71 +20,74 @@ interface ScheduleDocument {
 const scheduleDocuments: ScheduleDocument[] = [
   {
     id: 1,
-    title: 'NEET-PG SCHEDULE- 2025 All India Quota/ Deemed/ Central State Quota',
+    title:
+      "NEET-PG SCHEDULE- 2025 All India Quota/ Deemed/ Central State Quota",
     year: 2026,
-    externalUrl: 'https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/20260115689301834.pdf', // Replace with your actual URL
-    size: 'External',
-    isExternal: true
+    externalUrl:
+      "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/20260115689301834.pdf", // Replace with your actual URL
+    size: "External",
+    isExternal: true,
   },
   {
     id: 2,
-    title: 'TENTATIVE SCHEDULE FOR ONLINE COUNSELING (ALLOTMENT PROCESS) ',
+    title: "TENTATIVE SCHEDULE FOR ONLINE COUNSELING (ALLOTMENT PROCESS) ",
     year: 2026,
-    externalUrl: 'https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/20260115708039106.pdf', // Replace with your actual URL
-    size: 'External',
-    isExternal: true
+    externalUrl:
+      "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/20260115708039106.pdf", // Replace with your actual URL
+    size: "External",
+    isExternal: true,
   },
   {
     id: 3,
-    title: 'VIRTUAL VACANCY ROUND 2 (MD MS AND DNB) – PG COUNSELLING 2025',
+    title: "VIRTUAL VACANCY ROUND 2 (MD MS AND DNB) – PG COUNSELLING 2025",
     year: 2025,
-    externalUrl: 'https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/12/20251206767130184.pdf', // Replace with your actual URL
-    size: 'External',
-    isExternal: true
+    externalUrl:
+      "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/12/20251206767130184.pdf", // Replace with your actual URL
+    size: "External",
+    isExternal: true,
   },
   {
     id: 4,
-    title: 'CLEAR VACANCY ROUND 2 (MD MS AND DNB) – PG COUNSELLING 2025',
+    title: "CLEAR VACANCY ROUND 2 (MD MS AND DNB) – PG COUNSELLING 2025",
     year: 2025,
-    externalUrl: 'https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/12/20251206128647095.pdf', // Replace with your actual URL
-    size: 'External',
-    isExternal: true
+    externalUrl:
+      "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/12/20251206128647095.pdf", // Replace with your actual URL
+    size: "External",
+    isExternal: true,
   },
   {
     id: 5,
-    title: 'NEWLY ADDED SEATS ROUND 2 (MD MS AND DNB) – PG COUNSELLING 2025',
+    title: "NEWLY ADDED SEATS ROUND 2 (MD MS AND DNB) – PG COUNSELLING 2025",
     year: 2025,
-    externalUrl: 'https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/12/20251206729694661.pdf', // Replace with your actual URL
-    size: 'External',
-    isExternal: true
+    externalUrl:
+      "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/12/20251206729694661.pdf", // Replace with your actual URL
+    size: "External",
+    isExternal: true,
   },
   {
     id: 6,
-    title: 'AIQ and State Schedule PG 2025 dated 25.11.25',
+    title: "AIQ and State Schedule PG 2025 dated 25.11.25",
     year: 2025,
-    fileName: 'AIQ_and_State_Schedule_PG_2025_dated_25.11.25.pdf',
-    size: '387 KB',
-    isExternal: false
+    fileName: "AIQ_and_State_Schedule_PG_2025_dated_25.11.25.pdf",
+    size: "387 KB",
+    isExternal: false,
   },
   {
     id: 7,
-    title: 'PG Counselling 2025 Schedule dated 25.11.25',
+    title: "PG Counselling 2025 Schedule dated 25.11.25",
     year: 2025,
-    fileName: 'PG_Counselling_2025_Schedule_dated_25.11.25.pdf',
-    size: '274 KB',
-    isExternal: false
+    fileName: "PG_Counselling_2025_Schedule_dated_25.11.25.pdf",
+    size: "274 KB",
+    isExternal: false,
   },
-  
-  
-  
 ];
 
 const SchedulePage: React.FC = () => {
   const handleView = (doc: ScheduleDocument) => {
     if (doc.isExternal && doc.externalUrl) {
-      window.open(doc.externalUrl, '_blank');
+      window.open(doc.externalUrl, "_blank");
     } else if (doc.fileName) {
-      window.open(`/data/${doc.fileName}`, '_blank');
+      window.open(`/data/${doc.fileName}`, "_blank");
     }
   };
 
@@ -134,7 +143,7 @@ const SchedulePage: React.FC = () => {
                     Year
                   </th>
                   <th className="px-6 py-3 text-left text-sm font-medium text-slate-800 w-48">
-                    View 
+                    View
                   </th>
                 </tr>
               </thead>
@@ -143,16 +152,18 @@ const SchedulePage: React.FC = () => {
                   <tr
                     key={doc.id}
                     className={`transition-colors duration-150 hover:bg-blue-50 ${
-                      index % 2 === 0 ? 'bg-white' : 'bg-slate-50'
+                      index % 2 === 0 ? "bg-white" : "bg-slate-50"
                     }`}
                   >
                     <td className="px-6 py-4">
                       <div className="flex items-center gap-3">
-                        <div className={`bg-gradient-to-br ${
-                          doc.isExternal 
-                            ? 'from-purple-100 to-pink-100' 
-                            : 'from-blue-100 to-indigo-100'
-                        } p-2 rounded-lg`}>
+                        <div
+                          className={`bg-gradient-to-br ${
+                            doc.isExternal
+                              ? "from-purple-100 to-pink-100"
+                              : "from-blue-100 to-indigo-100"
+                          } p-2 rounded-lg`}
+                        >
                           {doc.isExternal ? (
                             <Link className="w-4 h-4 text-purple-600" />
                           ) : (
@@ -179,7 +190,9 @@ const SchedulePage: React.FC = () => {
                     <td className="px-6 py-4">
                       <div className="flex items-center gap-2">
                         <span className="text-sm text-slate-600">
-                          {doc.isExternal ? 'External Link :' : 'Accessible Version :'}
+                          {doc.isExternal
+                            ? "External Link :"
+                            : "Accessible Version :"}
                         </span>
                         <button
                           onClick={() => handleView(doc)}
@@ -205,14 +218,12 @@ const SchedulePage: React.FC = () => {
                 <div className="w-2 h-2 bg-green-400 rounded-full"></div>
                 Last Updated: Dec 08, 2025
               </span>
-              <span>
-                Total Documents: {scheduleDocuments.length}
-              </span>
+              <span>Total Documents: {scheduleDocuments.length}</span>
             </div>
           </div>
         </div>
 
-        {/* Info Cards */}
+        {/* Info Cards
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
           <div className="bg-white rounded-xl shadow-md p-6 border border-indigo-100 hover:shadow-lg transition-shadow">
             <div className="w-10 h-10 bg-indigo-100 rounded-lg flex items-center justify-center mb-3">
@@ -232,7 +243,7 @@ const SchedulePage: React.FC = () => {
               Contact support if you face any issues accessing documents
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
