@@ -43397,7 +43397,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "FMGE results didn't meet expectations? Pause, reflect, and plan wisely. Avoid rushed decisions, reassess options, and move forward with clarity.",
     featured_image:
-      "https://cdn.dribbble.com/userupload/46163367/file/5bd95427edf79557203ad20b51ed66be.jpeg?w=1200&h=600&fit=crop",
+      "https://cdn.dribbble.com/userupload/46434627/file/c261ae0c29b1538ec98e0c93fe9e56d5.jpg?w=1200&h=600&fit=crop",
     author: {
       name: "Believers Team",
       avatar:
