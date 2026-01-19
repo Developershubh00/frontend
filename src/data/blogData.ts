@@ -43779,7 +43779,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/e/1FAIpQLSeIM6HYq_pg_mq6PK78YzdLn6KwaVQjyndn2CdJ8ThWWXvNOA/viewform",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\n",
       },
       {
         id: "keywords",
