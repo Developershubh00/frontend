@@ -1,5 +1,11 @@
-import React from 'react';
-import { FileText, ExternalLink, Calendar, ArrowLeft, Bell } from 'lucide-react';
+import React from "react";
+import {
+  FileText,
+  ExternalLink,
+  Calendar,
+  ArrowLeft,
+  Bell,
+} from "lucide-react";
 
 interface NoticeDocument {
   id: number;
@@ -11,51 +17,66 @@ interface NoticeDocument {
 }
 
 const noticeDocuments: NoticeDocument[] = [
-   {
+  {
     id: 1,
-    title: 'Notice Dated: 14-01-2026',
-    date: '14-01-2026',
-    externalUrl: 'https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/202601141426630661.pdf',
-    size: 'External',
-    isNew: true
+    title: "Notice Dated: 17-01-2026",
+    date: "17-01-2026",
+    externalUrl:
+      "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/202601171983313339.pdf",
+    size: "External",
+    isNew: true,
   },
+
   {
     id: 2,
-    title: 'Notice Dated: 13-01-2026',
-    date: '13-01-2026',
-    externalUrl: 'https://natboard.edu.in/viewNotice.php?NBE=NlZON01lQnErVzZvRXJoM2s1dHBXZz09',
-    size: 'External',
-    isNew: false
+    title: "Notice Dated: 14-01-2026",
+    date: "14-01-2026",
+    externalUrl:
+      "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/202601141426630661.pdf",
+    size: "External",
+    isNew: true,
   },
   {
     id: 3,
-    title: 'Notice Dated: 12-01-2026',
-    date: '12-01-2026',
-    externalUrl: 'https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/202601121777720733.pdf',
-    size: 'External',
-    isNew: false
+    title: "Notice Dated: 13-01-2026",
+    date: "13-01-2026",
+    externalUrl:
+      "https://natboard.edu.in/viewNotice.php?NBE=NlZON01lQnErVzZvRXJoM2s1dHBXZz09",
+    size: "External",
+    isNew: false,
   },
   {
     id: 4,
-    title: 'Notice Dated: 10.12.2025',
-    date: '10-12-2025',
-    externalUrl: 'https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/12/2025121025430996.pdf',
-    size: 'External',
-    isNew: false
+    title: "Notice Dated: 12-01-2026",
+    date: "12-01-2026",
+    externalUrl:
+      "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/202601121777720733.pdf",
+    size: "External",
+    isNew: false,
   },
   {
     id: 5,
-    title: 'Notice Dated: 19.11.2025',
-    date: '19-11-2025',
-    externalUrl: 'https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/11/202511191286629593.pdf',
-    size: 'External',
-    isNew: false
-  }
+    title: "Notice Dated: 10.12.2025",
+    date: "10-12-2025",
+    externalUrl:
+      "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/12/2025121025430996.pdf",
+    size: "External",
+    isNew: false,
+  },
+  {
+    id: 6,
+    title: "Notice Dated: 19.11.2025",
+    date: "19-11-2025",
+    externalUrl:
+      "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/11/202511191286629593.pdf",
+    size: "External",
+    isNew: false,
+  },
 ];
 
 const NoticesPage: React.FC = () => {
   const handleView = (doc: NoticeDocument) => {
-    window.open(doc.externalUrl, '_blank');
+    window.open(doc.externalUrl, "_blank");
   };
 
   const handleBack = () => {
@@ -110,7 +131,7 @@ const NoticesPage: React.FC = () => {
                     Date
                   </th>
                   <th className="px-6 py-3 text-left text-sm font-medium text-slate-800 w-48">
-                    View 
+                    View
                   </th>
                 </tr>
               </thead>
@@ -119,7 +140,7 @@ const NoticesPage: React.FC = () => {
                   <tr
                     key={doc.id}
                     className={`transition-colors duration-150 hover:bg-blue-50 ${
-                      index % 2 === 0 ? 'bg-white' : 'bg-slate-50'
+                      index % 2 === 0 ? "bg-white" : "bg-slate-50"
                     }`}
                   >
                     <td className="px-6 py-4">
@@ -173,9 +194,7 @@ const NoticesPage: React.FC = () => {
                 <div className="w-2 h-2 bg-green-400 rounded-full"></div>
                 Last Updated: Dec 10, 2025
               </span>
-              <span>
-                Total Notices: {noticeDocuments.length}
-              </span>
+              <span>Total Notices: {noticeDocuments.length}</span>
             </div>
           </div>
         </div>
@@ -186,7 +205,9 @@ const NoticesPage: React.FC = () => {
             <div className="w-10 h-10 bg-indigo-100 rounded-lg flex items-center justify-center mb-3">
               <Calendar className="w-5 h-5 text-indigo-600" />
             </div>
-            <h3 className="text-base font-medium text-slate-800 mb-2">Stay Updated</h3>
+            <h3 className="text-base font-medium text-slate-800 mb-2">
+              Stay Updated
+            </h3>
             <p className="text-slate-600 text-sm leading-relaxed">
               Keep checking Our Blogs for All the Latest Updates with Full View.
             </p>
@@ -195,7 +216,9 @@ const NoticesPage: React.FC = () => {
             <div className="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center mb-3">
               <Bell className="w-5 h-5 text-purple-600" />
             </div>
-            <h3 className="text-base font-medium text-slate-800 mb-2">Important Notice</h3>
+            <h3 className="text-base font-medium text-slate-800 mb-2">
+              Important Notice
+            </h3>
             <p className="text-slate-600 text-sm leading-relaxed">
               Read all notices carefully before proceeding with counselling
             </p>
