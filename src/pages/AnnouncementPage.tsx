@@ -1231,7 +1231,7 @@ const AnnouncementPage: React.FC = () => {
       link: "https://mcc.nic.in/news-events-pg/",
       is_active: true,
       source: "mcc.nic.in ",
-      created_at: "2026-01-10T08:00:00Z",
+      created_at: "2026-01-07T08:00:00Z",
     },
     {
       id: 93,
@@ -1270,7 +1270,7 @@ const AnnouncementPage: React.FC = () => {
       link: "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/20260115689301834.pdf",
       is_active: true,
       source: "MCC ",
-      created_at: "2026-01-14T08:00:00Z",
+      created_at: "2026-01-15T08:00:00Z",
     },
     {
       id: 96,
@@ -1283,7 +1283,20 @@ const AnnouncementPage: React.FC = () => {
       link: "https://indianexpress.com/article/education/supreme-court-public-interest-litigation-neet-pg-cut-off-minus-40-hearing-this-week-writ-petition-10482796/",
       is_active: true,
       source: "indianexpress.com ",
-      created_at: "2026-01-14T08:00:00Z",
+      created_at: "2026-01-20T08:00:00Z",
+    },
+    {
+      id: 97,
+      title: "NEET PG Counselling 2025",
+      content:
+        "NEET PG Counselling 2025: MCC Allows Seat Resignation & Withdrawal Till 22 January 2026 (5 PM)",
+      date: "2026-01-21T08:00:00Z",
+      priority: "high",
+      category: "NEET PG",
+      link: "https://mcc.nic.in/",
+      is_active: true,
+      source: "mcc.nic.in ",
+      created_at: "2026-01-21T08:00:00Z",
     },
   ];
 

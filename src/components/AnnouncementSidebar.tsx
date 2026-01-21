@@ -1015,6 +1015,17 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({
       link: "https://indianexpress.com/article/education/supreme-court-public-interest-litigation-neet-pg-cut-off-minus-40-hearing-this-week-writ-petition-10482796/",
       source: "indianexpress.com ",
     },
+
+    {
+      id: 97,
+      title:
+        "NEET PG Counselling 2025: MCC Allows Seat Resignation & Withdrawal Till 22 January 2026 (5 PM)",
+      date: "2026-01-21T08:00:00Z",
+      priority: "high",
+      category: "NEET PG",
+      link: "https://mcc.nic.in/",
+      source: "mcc.nic.in ",
+    },
   ];
 
   const fetchRecentAnnouncements = async () => {
