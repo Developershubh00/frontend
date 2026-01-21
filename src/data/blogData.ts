@@ -44019,12 +44019,12 @@ export const blogPosts: BlogPost[] = [
         type: "faq",
         faqs: [
           {
-            question: "Q1: What is the FMGE exam fee??",
+            question: "Q1: What is the FMGE exam fee?",
             answer:
               "The total application fee is ₹6,195, which includes a base exam fee of ₹5,250 plus 18% GST (₹945). This amount is payable online during registration and is non-refundable and non-transferable. If you apply after the deadline, a late fee of ₹1,500 is charged in addition to ₹6,195..",
           },
           {
-            question: "Q2: How many attempts are allowed for FMGE??",
+            question: "Q2: How many attempts are allowed for FMGE?",
             answer:
               "There is no limit on attempts—you can appear for FMGE as many times as needed until you pass.",
           },
