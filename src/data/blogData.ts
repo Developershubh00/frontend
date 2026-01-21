@@ -44014,30 +44014,30 @@ export const blogPosts: BlogPost[] = [
         title: "4 FMGE FAQs – NEET PG Aspirants",
         level: 2,
       },
-      {
-        id: "faqs-list",
-        type: "faq",
-        faqs: [
-          {
-            question: "Q1: FMGE exam format pass % this year?",
-            answer:
-              "~25%. Higher with Marrow/Prepladder (40–50% student pass).",
-          },
-          {
-            question: "Q2: Can I prepare for NEET PG during FMGE exam?",
-            answer:
-              "No. Focus FMGE exam pattern 100%. NEET PG after internship Year 1.",
-          },
-          {
-            question: "Q3: MCI registration timeline post-FMGE 2026?",
-            answer: "Result → 15 days MCI apply → 1 month approval.",
-          },
-          {
-            question: "Q4: Best FMGE exam coaching for FMGs?",
-            answer: "Marrow FMGE package + Telegram groups for PYQs.",
-          },
-        ],
-      },
+      // {
+      //   id: "faqs-list",
+      //   type: "faq",
+      //   faqs: [
+      //     // {
+      //     //   question: "Q1: FMGE exam format pass % this year?",
+      //     //   answer:
+      //     //     "~25%. Higher with Marrow/Prepladder (40–50% student pass).",
+      //     // },
+      //     {
+      //       question: "Q1: Can I prepare for NEET PG during FMGE exam?",
+      //       answer:
+      //         "No. Focus FMGE exam pattern 100%. NEET PG after internship Year 1.",
+      //     },
+      //     {
+      //       question: "Q2: MCI registration timeline post-FMGE 2026?",
+      //       answer: "Result → 15 days MCI apply → 1 month approval.",
+      //     },
+      //     {
+      //       question: "Q3: Best FMGE exam coaching for FMGs?",
+      //       answer: " FMGE package + Telegram groups for PYQs.",
+      //     },
+      //   ],
+      // },
       {
         id: "contact-form",
         type: "contact-form",
