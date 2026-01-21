@@ -44014,30 +44014,32 @@ export const blogPosts: BlogPost[] = [
         title: "4 FMGE FAQs – NEET PG Aspirants",
         level: 2,
       },
-      // {
-      //   id: "faqs-list",
-      //   type: "faq",
-      //   faqs: [
-      //     // {
-      //     //   question: "Q1: FMGE exam format pass % this year?",
-      //     //   answer:
-      //     //     "~25%. Higher with Marrow/Prepladder (40–50% student pass).",
-      //     // },
-      //     {
-      //       question: "Q1: Can I prepare for NEET PG during FMGE exam?",
-      //       answer:
-      //         "No. Focus FMGE exam pattern 100%. NEET PG after internship Year 1.",
-      //     },
-      //     {
-      //       question: "Q2: MCI registration timeline post-FMGE 2026?",
-      //       answer: "Result → 15 days MCI apply → 1 month approval.",
-      //     },
-      //     {
-      //       question: "Q3: Best FMGE exam coaching for FMGs?",
-      //       answer: " FMGE package + Telegram groups for PYQs.",
-      //     },
-      //   ],
-      // },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "Q1: What is the FMGE exam fee??",
+            answer:
+              "The fee is approximately ₹6,000 for Indian nationals and ₹70,000 for foreign nationals (subject to change; check the official NBE website for FMGE 2026 updates).",
+          },
+          {
+            question: "Q2: How many attempts are allowed for FMGE??",
+            answer:
+              "There is no limit on attempts—you can appear for FMGE as many times as needed until you pass.",
+          },
+          {
+            question: "Q3: When is FMGE 2026 expected?",
+            answer:
+              "FMGE is typically held twice a year (June and December sessions). For 2026, watch the NBE website for the official notification, usually released 2-3 months prior.",
+          },
+          {
+            question: "Q4: Can I practice medicine in India without FMGE?",
+            answer:
+              " No, foreign medical graduates must pass FMGE (or qualify via the exemption route if eligible) to obtain MCI registration and practice legally.",
+          },
+        ],
+      },
       {
         id: "contact-form",
         type: "contact-form",
