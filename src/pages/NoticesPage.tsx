@@ -72,8 +72,23 @@ const noticeDocuments: NoticeDocument[] = [
     size: "External",
     isNew: false,
   },
+  {
+    id: 7,
+    title: "Notice Dated: 20.01.2026",
+    date: "20.01.2026",
+    externalUrl:
+      "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/20260120701771295.pdf",
+    size: "External",
+    isNew: true,
+  },
 ];
 
+/*************  ✨ Windsurf Command ⭐  *************/
+/**
+ * Page that displays all the notices for NEET PG 2025 Counselling
+ * @returns {JSX.Element} A JSX element representing the notices page
+ */
+/*******  1e0ebdc5-83c0-4045-9cf1-d15b7196cc0e  *******/
 const NoticesPage: React.FC = () => {
   const handleView = (doc: NoticeDocument) => {
     window.open(doc.externalUrl, "_blank");
