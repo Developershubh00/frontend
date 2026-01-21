@@ -44021,7 +44021,7 @@ export const blogPosts: BlogPost[] = [
           {
             question: "Q1: What is the FMGE exam fee??",
             answer:
-              "The fee is approximately ₹6,000 for Indian nationals and ₹70,000 for foreign nationals (subject to change; check the official NBE website for FMGE 2026 updates).",
+              "The total application fee is ₹6,195, which includes a base exam fee of ₹5,250 plus 18% GST (₹945). This amount is payable online during registration and is non-refundable and non-transferable. If you apply after the deadline, a late fee of ₹1,500 is charged in addition to ₹6,195..",
           },
           {
             question: "Q2: How many attempts are allowed for FMGE??",
