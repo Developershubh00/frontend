@@ -1316,7 +1316,7 @@ const AnnouncementPage: React.FC = () => {
       title: "PG Counselling 2025:",
       content:
         "PG Counselling 2025: MCC Announces Withdrawal of Seats Before Round 3",
-      date: "2026-01-22T08:00:00Z",
+      date: "2026-01-21T08:00:00Z",
       priority: "high",
       category: "NEET PG",
       link: "https://mcc.nic.in",
