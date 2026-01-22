@@ -1026,6 +1026,16 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({
       link: "https://mcc.nic.in/",
       source: "mcc.nic.in ",
     },
+    {
+      id: 98,
+      title:
+        "NEET-MDS 2026 and NEET-PG 2026 Tentative Exam Schedule Released by NBEMSOfficial Source",
+      date: "2026-01-22T08:00:00Z",
+      priority: "high",
+      category: "NEET PG",
+      link: "https://natboard.edu.in",
+      source: "NBEMS ",
+    },
   ];
 
   const fetchRecentAnnouncements = async () => {

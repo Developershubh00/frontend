@@ -1298,6 +1298,19 @@ const AnnouncementPage: React.FC = () => {
       source: "mcc.nic.in ",
       created_at: "2026-01-21T08:00:00Z",
     },
+    {
+      id: 98,
+      title: "NEET-MDS 2026 and NEET-PG 2026",
+      content:
+        "NEET-MDS 2026 and NEET-PG 2026 Tentative Exam Schedule Released by NBEMSOfficial Source",
+      date: "2026-01-22T08:00:00Z",
+      priority: "high",
+      category: "NEET PG",
+      link: "https://natboard.edu.in",
+      is_active: true,
+      source: "NBEMS ",
+      created_at: "2026-01-21T08:00:00Z",
+    },
   ];
 
   const fetchAnnouncements = async () => {
