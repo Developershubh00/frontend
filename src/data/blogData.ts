@@ -6326,9 +6326,9 @@ export const blogPosts: BlogPost[] = [
     id: 14,
     title:
       "NEET PG 2025 Application Process: Official Timeline and Requirements",
-    slug: "neet-pg-2025-application-process-timeline",
+    slug: "neet-pg-2025-application-process-official-timeline-requirements",
     excerpt:
-      "NBEMS released the NEET PG 2025 notification on April 16, 2025. Complete step-by-step guide covering registration, documentation, payment, and exam day requirements for NEET PG 2025.",
+      "Complete guide to NEET PG 2025 registration process, including step-by-step instructions, document requirements, and important deadlines for aspiring postgraduate medical students.",
     featured_image:
       "https://cdn.dribbble.com/userupload/45458727/file/528c6965ec8baf6f969f4d1ed12f67ea.png?w=1200&h=600&fit=crop",
     author: {
@@ -6340,77 +6340,111 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-blue-100 text-blue-800",
+      color: "bg-green-100 text-green-800",
     },
     tags: [
       "NEET PG 2025",
-      "Application Process",
-      "Registration",
-      "Exam Requirements",
+      "NEET PG Registration",
+      "NEET PG Application",
+      "Medical Counselling",
+      "MCC NEET PG",
     ],
     published_date: "2025-10-25",
-    read_time: 7,
+    read_time: 12,
+    meta_title:
+      "NEET PG 2025 Application Process: Official Timeline and Requirements",
     meta_description:
-      "Complete guide to NEET PG 2025 application process including registration timeline, step-by-step instructions, document requirements, payment process, and exam day guidelines.",
+      "Complete guide to NEET PG 2025 registration process, including step-by-step instructions, document requirements, and important deadlines for aspiring postgraduate medical students.",
+    keywords: [
+      "neet pg 2025",
+      "neet pg registration",
+      "neet pg application process",
+      "neet pg 2025 registration",
+      "neet pg exam registration",
+      "mcc neet pg registration",
+      "neet pg admission process",
+      "medical counselling registration",
+      "all india medical pg counselling",
+      "neet pg eligibility",
+      "nbems neet pg",
+      "neet pg documents required",
+    ],
     sections: [
       {
         id: "intro",
         type: "paragraph",
         content:
-          "NBEMS released the NEET PG 2025 notification on April 16, 2025, initiating the NEET PG 2025 application process for eligible candidates. Registrations started on April 17 at 3 p.m. and will close on May 7, 2025 (11:55 p.m.). The NBEMS notification officially marked the beginning of the NEET PG 2025 registration process, allowing candidates to complete their NEET PG registration process online through the official portal.",
+          "NBEMS has finally released the notification about NEET PG 2025 on April 16, 2025, which has been initiating the NEET PG 2025 application process just for those who are really eligible candidates. Although the Registrations started on April 17 at 3 p.m. and it will typically close on May 7, 2025. The NBEMS notification has officially marked the beginning of the NEET PG 2025 registration process, which allows the candidates to complete their NEET PG registration process online through the official portal.",
       },
       {
-        id: "registration-process",
+        id: "step-by-step",
         type: "heading",
         title: "Step-by-Step Registration Process",
         level: 2,
       },
       {
-        id: "step-1",
+        id: "create-login",
         type: "heading",
         title: "1. Create Login ID",
         level: 3,
       },
       {
-        id: "step-1-list",
-        type: "list",
-        items: [
-          "Enter personal details (name, DOB, gender, nationality, mobile, email).",
-          "Validate with OTP received on both mobile & email.",
-          "The system generates a unique Application ID (10-digit, prefixed with PG) and password for account access. This marks the start of your NEET PG exam registration journey.",
-        ],
+        id: "create-login-step1",
+        type: "paragraph",
+        content:
+          "You need to enter the personal details (like name, your DOB, gender, nationality, mobile, email ID).",
       },
       {
-        id: "step-2",
+        id: "create-login-step2",
+        type: "paragraph",
+        content:
+          "Then you need to enter the validate OTP which you will receive on both mobile & email.",
+      },
+      {
+        id: "create-login-step3",
+        type: "paragraph",
+        content:
+          "The overall system generates a very unique Application ID (which has only 10-digit, introduced with PG) and password for your official account access. However this marks the start of your NEET PG exam registration journey.",
+      },
+      {
+        id: "declaration-verification",
         type: "heading",
         title: "2. Declaration & Verification",
         level: 3,
       },
       {
-        id: "step-2-list",
-        type: "list",
-        items: [
-          "Tick the declaration box.",
-          "Carefully recheck name, email, and mobile number (non-editable later).",
-          "Submit to confirm your Application ID.",
-        ],
+        id: "declaration-step1",
+        type: "paragraph",
+        content:
+          "For declaration and verification you can tick the declaration box.",
       },
       {
-        id: "step-3",
+        id: "declaration-step2",
+        type: "paragraph",
+        content:
+          "After that just carefully recheck your details like name, email, and mobile number (non-editable later).",
+      },
+      {
+        id: "declaration-step3",
+        type: "paragraph",
+        content:
+          "Then you can just submit that information to confirm your Application ID.",
+      },
+      {
+        id: "complete-application",
         type: "heading",
         title: "3. Complete the Application Form",
         level: 3,
       },
       {
-        id: "step-3-content",
+        id: "complete-application-intro",
         type: "paragraph",
-        content: "Fill details in these sections:",
+        content: "Enter all your personal details which contains:",
       },
       {
-        id: "step-3-list",
+        id: "complete-application-list",
         type: "list",
         items: [
-          "Personal details",
           "Identification details (Voter ID, PAN, DL, Passport, Aadhaar allowed on exam day)",
           "Communication details (both permanent & correspondence address)",
           "Qualification details (10th, 12th, MBBS, internship completion)",
@@ -6425,13 +6459,25 @@ export const blogPosts: BlogPost[] = [
         level: 2,
       },
       {
-        id: "academic-content",
+        id: "academic-intro",
         type: "paragraph",
         content:
-          "Enter MBBS college/university details. Candidates with foreign medical qualifications must enter institution details manually in the designated fields. Text input fields do not accept special characters, including punctuation marks and symbols. Year of passing can be exam date, result date, or certificate date.",
+          "Enter your original MBBS college/university details. To the candidates who have foreign medical qualifications must enter their all institution details manually in the respected designated fields.",
       },
       {
-        id: "internship-heading",
+        id: "academic-note1",
+        type: "paragraph",
+        content:
+          "Next up just fill the input fields and do not accept all the special characters, including punctuation marks and symbols.",
+      },
+      {
+        id: "academic-note2",
+        type: "paragraph",
+        content:
+          "Year of passing can be exam date, result date, or certificate date.",
+      },
+      {
+        id: "internship-subheading",
         type: "heading",
         title: "Internship:",
         level: 3,
@@ -6451,10 +6497,15 @@ export const blogPosts: BlogPost[] = [
         level: 2,
       },
       {
+        id: "medical-council-intro",
+        type: "paragraph",
+        content:
+          "Enter either provisional or permanent medical council registration number (even if expired).",
+      },
+      {
         id: "medical-council-list",
         type: "list",
         items: [
-          "Enter either provisional or permanent medical council registration number (even if expired).",
           "Upload PDF (1 MB, multiple pages allowed, not password-protected).",
           "Update later in the edit window if needed.",
         ],
@@ -6493,7 +6544,7 @@ export const blogPosts: BlogPost[] = [
           "General, EWS, OBC, SC, ST categories apply for All India Counselling (50% AIQ + DNB).",
           "State-specific categories apply only in state counselling.",
           "OBC - must be on the central list + Non-Creamy Layer (income ₹8 lakh).",
-          "You can shift from OBC/EWS → General later, but not the reverse.",
+          "You can shift from OBC/EWS - General later, but not the reverse.",
           "PWD candidates: select Yes; upload not required now, but a certificate is needed for counselling.",
           "AFMS option: select Yes for flexibility; you may skip later if uninterested.",
         ],
@@ -6505,7 +6556,7 @@ export const blogPosts: BlogPost[] = [
         level: 2,
       },
       {
-        id: "city-list",
+        id: "city-selection-list",
         type: "list",
         items: [
           "179 test cities available this year.",
@@ -6521,39 +6572,47 @@ export const blogPosts: BlogPost[] = [
         level: 2,
       },
       {
-        id: "document-list",
+        id: "document-upload-list",
         type: "list",
         items: [
           "Photo: 50–80 KB, JPG, 200 DPI, white background, 70–80% face visible, no spectacles.",
           "Signature: Max 80 KB, scanned at 200 DPI.",
           "Thumb Impression: Left thumb, clear scan.",
           "Medical Council Registration: PDF 1 MB.",
+          "Mistakes can be corrected in pre-final and final edit windows.",
         ],
       },
       {
-        id: "document-note",
-        type: "paragraph",
-        content:
-          "Mistakes can be corrected in pre-final and final edit windows.",
-      },
-      {
-        id: "payment",
+        id: "payment-process",
         type: "heading",
         title: "Payment Process",
         level: 2,
       },
       {
-        id: "payment-list",
-        type: "list",
-        items: [
-          "Fee: ₹3,500 (General), ₹2,500 (Reserved).",
-          "Modes: UPI, debit/credit card, net banking.",
-          "Payment failures should be addressed promptly as test center availability may change during processing delays.",
-          "If deducted but pending - wait 2–3 days OR repay to secure a city slot. Refunds are processed later.",
-        ],
+        id: "payment-fee",
+        type: "paragraph",
+        content: "Fee: ₹3,500 (General), ₹2,500 (Reserved).",
       },
       {
-        id: "payment-note",
+        id: "payment-modes",
+        type: "paragraph",
+        content:
+          "There are different modes which help you to do payment: UPI, debit/credit card, net banking.",
+      },
+      {
+        id: "payment-note1",
+        type: "paragraph",
+        content:
+          "Payment failures should be addressed punctually as the test center which has the availability that may change during processing delays.",
+      },
+      {
+        id: "payment-note2",
+        type: "paragraph",
+        content:
+          "If it's been deducted but pending, you need to wait 2–3 days OR repay to secure a city slot. Refunds are processed later.",
+      },
+      {
+        id: "payment-confirmation",
         type: "paragraph",
         content:
           "This payment marks the final confirmation of your NEET PG 2025 registration and completion of the NEET PG application process.",
@@ -6575,8 +6634,8 @@ export const blogPosts: BlogPost[] = [
         type: "list",
         items: [
           "Admit card (A4, single-side print)",
-          "Government-issued photo ID",
-          "Registration certificate (print copy acceptable)",
+          "Your should have your government-issued photo ID",
+          "The registration certificate (print copy acceptable)",
         ],
       },
       {
@@ -6592,10 +6651,16 @@ export const blogPosts: BlogPost[] = [
         level: 2,
       },
       {
-        id: "final-word-content",
+        id: "final-word-content1",
         type: "paragraph",
         content:
-          "From notification to payment, every stage of the NEET PG 2025 registration process has been broken down step by step. Successful completion of the NEET PG registration process ensures eligibility for the upcoming NEET PG admission process, including all India counselling, all India counselling NEET PG, and state counselling rounds conducted by MCC NEET PG counselling registration authorities.\n\nCandidates must also stay updated about MCC NEET PG registration, all all-India counselling process, and all-India medical PG counselling schedules, which form the backbone of seat allotment under the medical counselling registration framework. Systematic attention to detail and timely submission before the official deadline is key to securing your dream postgraduate seat.",
+          "It basically starts from notification to payment, where every stage of the NEET PG 2025 registration process has been gradually broken down step by step. After the successful completion of the NEET PG registration process which makes sure about the eligibility for the upcoming NEET PG admission process, which also includes all India counselling rounds conducted by MCC authorities.",
+      },
+      {
+        id: "final-word-content2",
+        type: "paragraph",
+        content:
+          "Whereas the candidates must also stay regularly updated about MCC NEET PG registration, all-India medical PG counselling proper schedules, which form the backbone of the seat allotment under the medical counselling registration substructure. Systematic attention to every detail and there will be a timely submission before the official deadline has secured your desired postgraduate seat.",
       },
       {
         id: "faqs",
@@ -6609,47 +6674,22 @@ export const blogPosts: BlogPost[] = [
         faqs: [
           {
             question:
-              "Q1: Can I edit my application after submitting and paying the fees?",
+              "Q1: Can I edit my application after submission and payment?",
             answer:
-              "NBE provides limited editing windows for specific fields only. Critical information like name, email, and mobile number cannot be modified after initial submission. The edit window (May 9–13) allows changes to select fields such as test city preferences and some academic details.",
+              "There will be only limited fields that can be edited during the correction window which is going to start from (May 9–13). Whereas the important details like name, email, and mobile number cannot be changed.",
           },
           {
             question:
-              "Q2: What should I do if my payment is deducted but the application shows as incomplete?",
+              "Q2: What if my payment is deducted but the application is incomplete?",
             answer:
-              "If payment is deducted but status remains pending, wait 2–3 days for system processing. If the issue persists, you may need to make an alternate payment to secure your NEET PG exam registration, with the duplicate amount being refunded later by NBE.",
+              "You have to just wait for 2–3 days for processing. But if it still shows incomplete, then you have to make a fresh payment just to confirm registration. If there's any extra amount will be refunded by NBE.",
           },
           {
             question:
-              "Q3: Is it mandatory to complete an internship before the NEET PG 2025 exam?",
+              "Q3: Is completing the internship mandatory for NEET PG 2025?",
             answer:
-              "Yes, the internship must be completed on or before July 31, 2025. Candidates with incomplete internships can apply by providing expected completion dates, but must ensure actual completion by the stipulated deadline to remain eligible for MCC NEET PG counselling registration and all India counselling NEET PG.",
+              "Yes. There is an Internship which must be completed by July 31, 2025. You may apply with an expected completion date, but eligibility depends on finishing it by the deadline.",
           },
-        ],
-      },
-      {
-        id: "keywords",
-        type: "keywords",
-        title: "Related Keywords",
-        keywords: [
-          "NEET PG Exam",
-          "NEET PG Registration Process",
-          "NEET PG 2025 Application Process",
-          "NEET PG 2025 Registration Process",
-          "Medical Council Registration",
-          "NEET PG Application Process",
-          "NEET PG 2025 Registration",
-          "NEET PG Counselling Registration",
-          "MCC NEET PG Counselling Registration",
-          "MCC NEET PG Registration",
-          "Medical Counselling Registration",
-          "NEET PG Admission Process",
-          "NEET PG Exam Registration",
-          "All India Counselling",
-          "All India Counselling NEET PG",
-          "All India Counselling Process",
-          "All India Medical Counselling PG",
-          "All India Medical PG Counselling",
         ],
       },
       {
@@ -6657,10 +6697,30 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit",
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "neet pg 2025",
+          "neet pg registration",
+          "neet pg application process",
+          "neet pg 2025 registration",
+          "neet pg exam registration",
+          "mcc neet pg registration",
+          "neet pg admission process",
+          "medical counselling registration",
+          "all india medical pg counselling",
+          "neet pg eligibility",
+          "nbems neet pg",
+          "neet pg documents required",
+        ],
       },
     ],
   },
+
   {
     id: 15,
     title:
