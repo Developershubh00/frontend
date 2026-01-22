@@ -19,62 +19,16 @@ interface NoticeDocument {
 const noticeDocuments: NoticeDocument[] = [
   {
     id: 1,
-    title: "Notice Dated: 17-01-2026",
-    date: "17-01-2026",
+    title: "Notice Dated: 22-01-2026",
+    date: "22.01.2026",
     externalUrl:
-      "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/202601171983313339.pdf",
+      "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/20260121211129792.pdf",
     size: "External",
     isNew: true,
   },
-
   {
     id: 2,
-    title: "Notice Dated: 14-01-2026",
-    date: "14-01-2026",
-    externalUrl:
-      "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/202601141426630661.pdf",
-    size: "External",
-    isNew: true,
-  },
-  {
-    id: 3,
-    title: "Notice Dated: 13-01-2026",
-    date: "13-01-2026",
-    externalUrl:
-      "https://natboard.edu.in/viewNotice.php?NBE=NlZON01lQnErVzZvRXJoM2s1dHBXZz09",
-    size: "External",
-    isNew: false,
-  },
-  {
-    id: 4,
-    title: "Notice Dated: 12-01-2026",
-    date: "12-01-2026",
-    externalUrl:
-      "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/202601121777720733.pdf",
-    size: "External",
-    isNew: false,
-  },
-  {
-    id: 5,
-    title: "Notice Dated: 10.12.2025",
-    date: "10-12-2025",
-    externalUrl:
-      "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/12/2025121025430996.pdf",
-    size: "External",
-    isNew: false,
-  },
-  {
-    id: 6,
-    title: "Notice Dated: 19.11.2025",
-    date: "19-11-2025",
-    externalUrl:
-      "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/11/202511191286629593.pdf",
-    size: "External",
-    isNew: false,
-  },
-  {
-    id: 7,
-    title: "Notice Dated: 20.01.2026",
+    title: "Notice Dated: 20-01-2026",
     date: "20.01.2026",
     externalUrl:
       "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/20260120701771295.pdf",
@@ -82,13 +36,59 @@ const noticeDocuments: NoticeDocument[] = [
     isNew: true,
   },
   {
-    id: 8,
-    title: "Notice Dated: 21.01.2026",
-    date: "21.01.2026",
+    id: 3,
+    title: "Notice Dated: 17-01-2026",
+    date: "17.01.2026",
     externalUrl:
-      "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/20260121211129792.pdf",
+      "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/202601171983313339.pdf",
     size: "External",
-    isNew: true,
+    isNew: false,
+  },
+
+  {
+    id: 4,
+    title: "Notice Dated: 14-01-2026",
+    date: "14.01.2026",
+    externalUrl:
+      "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/202601141426630661.pdf",
+    size: "External",
+    isNew: false,
+  },
+  {
+    id: 5,
+    title: "Notice Dated: 13-01-2026",
+    date: "13.01.2026",
+    externalUrl:
+      "https://natboard.edu.in/viewNotice.php?NBE=NlZON01lQnErVzZvRXJoM2s1dHBXZz09",
+    size: "External",
+    isNew: false,
+  },
+  {
+    id: 6,
+    title: "Notice Dated: 12-01-2026",
+    date: "12.01.2026",
+    externalUrl:
+      "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/202601121777720733.pdf",
+    size: "External",
+    isNew: false,
+  },
+  {
+    id: 7,
+    title: "Notice Dated: 10-12-2025",
+    date: "10.12.2025",
+    externalUrl:
+      "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/12/2025121025430996.pdf",
+    size: "External",
+    isNew: false,
+  },
+  {
+    id: 8,
+    title: "Notice Dated: 19-11-2025",
+    date: "19.11.2025",
+    externalUrl:
+      "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/11/202511191286629593.pdf",
+    size: "External",
+    isNew: false,
   },
 ];
 
