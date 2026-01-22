@@ -629,7 +629,7 @@ const MainContent: React.FC<MainContentProps> = ({
             </div>
           ))}
         </div> */}
-        <div className="text-center mb-6 lg:mb-8">
+        {/* <div className="text-center mb-6 lg:mb-8">
           <h2 className="text-2xl lg:text-3xl font-bold text-slate-800 mb-2">
             🎉 NEET PG 2025 Results Announced!
           </h2>
@@ -638,7 +638,7 @@ const MainContent: React.FC<MainContentProps> = ({
             start your counselling registration. The cutoff scores for different
             categories and rank-wise admission prospects are updated below.
           </p>
-        </div>
+        </div> */}
 
         {/* Trend Comparison Table - NEW */}
         <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
