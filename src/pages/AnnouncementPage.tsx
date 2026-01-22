@@ -1311,6 +1311,19 @@ const AnnouncementPage: React.FC = () => {
       source: "NBEMS ",
       created_at: "2026-01-21T08:00:00Z",
     },
+    {
+      id: 99,
+      title: "PG Counselling 2025:",
+      content:
+        "PG Counselling 2025: MCC Announces Withdrawal of Seats Before Round 3",
+      date: "2026-01-22T08:00:00Z",
+      priority: "high",
+      category: "NEET PG",
+      link: "https://mcc.nic.in",
+      is_active: true,
+      source: "mcc.nic.in ",
+      created_at: "2026-01-21T08:00:00Z",
+    },
   ];
 
   const fetchAnnouncements = async () => {

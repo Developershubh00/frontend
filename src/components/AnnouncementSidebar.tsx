@@ -1036,6 +1036,16 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({
       link: "https://natboard.edu.in",
       source: "NBEMS ",
     },
+    {
+      id: 99,
+      title:
+        "PG Counselling 2025: MCC Announces Withdrawal of Seats Before Round 3",
+      date: "2026-01-22T08:00:00Z",
+      priority: "high",
+      category: "NEET PG",
+      link: "https://mcc.nic.in",
+      source: "mcc.nic.in ",
+    },
   ];
 
   const fetchRecentAnnouncements = async () => {
