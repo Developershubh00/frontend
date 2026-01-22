@@ -421,16 +421,16 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="hidden xl:block text-center">
             <div className="inline-flex items-center space-x-3 mb-6">
               <h1 className="text-3xl lg:text-4xl font-bold text-white">
-                🎉 NEET PG 2025 Results Announced!
+                Check Your Results & Start Your Counselling Journey Today!
               </h1>
               <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm">
                 <span className="text-white text-lg">🏆</span>
               </div>
             </div>
 
-            <p className="text-blue-100 mb-8 text-lg">
+            {/* <p className="text-blue-100 mb-8 text-lg">
               Check Your Results & Start Your Counselling Journey Today!
-            </p>
+            </p> */}
 
             <div className="flex flex-wrap items-center justify-center gap-4">
               {actionButtons.map((button) => (
