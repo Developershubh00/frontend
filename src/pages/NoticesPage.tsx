@@ -81,6 +81,15 @@ const noticeDocuments: NoticeDocument[] = [
     size: "External",
     isNew: true,
   },
+  {
+    id: 8,
+    title: "Notice Dated: 21.01.2026",
+    date: "21.01.2026",
+    externalUrl:
+      "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/20260121211129792.pdf",
+    size: "External",
+    isNew: true,
+  },
 ];
 
 /*************  ✨ Windsurf Command ⭐  *************/
