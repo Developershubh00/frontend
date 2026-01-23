@@ -1794,7 +1794,7 @@ const AnnouncementPage: React.FC = () => {
       const months = Object.keys(groupedAnnouncements[latestYear]);
       if (months.length > 0) {
         setExpandedYears(new Set([latestYear]));
-        setExpandedMonths(new Set([`${latestYear}-${months[0]}`]));
+        // setExpandedMonths(new Set([`${latestYear}-${months[0]}`]));
       }
     }
   }, [allAnnouncements.length]);
