@@ -66,9 +66,9 @@ import React, { useEffect, useState } from "react";
 
 const categories = [
   { text: "NEET PG", comingSoon: false },
+  { text: "INICET", comingSoon: false },
   { text: "NEET UG", comingSoon: true },
   { text: "NEET SS", comingSoon: true },
-  { text: "INICET", comingSoon: true },
 ];
 
 const TypingCategories: React.FC = () => {
@@ -93,12 +93,21 @@ const TypingCategories: React.FC = () => {
       timer = setTimeout(() => {
         setDisplayedText(current.text.slice(0, displayedText.length + 1));
       }, typingSpeed);
-    } else if (!isDeleting && displayedText.length === current.text.length && current.comingSoon) {
+    } else if (
+      !isDeleting &&
+      displayedText.length === current.text.length &&
+      current.comingSoon
+    ) {
       // start typing "COMING SOON" after delay
       if (comingSoonText.length < comingSoonFullText.length) {
-        timer = setTimeout(() => {
-          setComingSoonText(comingSoonFullText.slice(0, comingSoonText.length + 1));
-        }, comingSoonText.length === 0 ? comingSoonDelay : typingSpeed);
+        timer = setTimeout(
+          () => {
+            setComingSoonText(
+              comingSoonFullText.slice(0, comingSoonText.length + 1),
+            );
+          },
+          comingSoonText.length === 0 ? comingSoonDelay : typingSpeed,
+        );
       } else {
         // pause before deleting
         timer = setTimeout(() => {
@@ -106,13 +115,22 @@ const TypingCategories: React.FC = () => {
           setIsDeleting(true);
         }, pauseTime);
       }
-    } else if (!isDeleting && displayedText.length === current.text.length && !current.comingSoon) {
+    } else if (
+      !isDeleting &&
+      displayedText.length === current.text.length &&
+      !current.comingSoon
+    ) {
       // no coming soon, just wait before deleting
       timer = setTimeout(() => setIsDeleting(true), pauseTime);
-    } else if (isDeleting && (comingSoonText.length > 0 || isComingSoonDeleting)) {
+    } else if (
+      isDeleting &&
+      (comingSoonText.length > 0 || isComingSoonDeleting)
+    ) {
       // deleting "COMING SOON" first
       timer = setTimeout(() => {
-        setComingSoonText(comingSoonFullText.slice(0, comingSoonText.length - 1));
+        setComingSoonText(
+          comingSoonFullText.slice(0, comingSoonText.length - 1),
+        );
         if (comingSoonText.length === 1) {
           setIsComingSoonDeleting(false);
         }
