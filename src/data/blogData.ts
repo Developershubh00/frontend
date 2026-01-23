@@ -44151,7 +44151,7 @@ export const blogPosts: BlogPost[] = [
     },
     tags: [
       "Ophthalmology Residency",
-      "NEET PG Counselling 2025",
+      "NEET PG Counselling 2026",
       "Career Guidance",
       "Medical Specialization",
       "Surgical Branches",
