@@ -44553,8 +44553,8 @@ export const blogPosts: BlogPost[] = [
         title: "Related Keywords",
         keywords: [
           "ophthalmology residency",
-          "neet pg counselling 2025",
-          "neet pg 2025 counselling",
+          "neet pg counselling 2026",
+          "neet pg 2026 counselling",
           "neet pg counselling",
           "ophthalmology residency programs",
           "best ophthalmology residency programs",
