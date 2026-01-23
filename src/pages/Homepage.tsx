@@ -367,7 +367,7 @@ function Homepage() {
                   onClick={() => navigate("/inicetdashboard")}
                   className="text-white bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 px-4 py-2 rounded-full transition-all duration-300 font-bold relative group cursor-pointer "
                 >
-                  🎉 INICET Results Out!
+                  🎉 INICET !
                   <span className="absolute -top-1 -right-1 flex h-3 w-3">
                     <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
                     <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
@@ -576,7 +576,7 @@ function Homepage() {
                 } transition-all duration-700 delay-400`}
               >
                 <Award className="w-6 h-6" />
-                <span>INICET Results - Check Now!</span>
+                <span>INICET Check Now!</span>
                 <span className="absolute -top-1 -right-1 flex h-4 w-4">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-yellow-400 opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-4 w-4 bg-yellow-500"></span>
