@@ -44132,7 +44132,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 106,
     title:
-      "8 Things You Must Know Before Choosing Ophthalmology in NEET PG Counselling 2025",
+      "Things You Must Know Before Choosing Ophthalmology in NEET PG Counselling 2025",
     slug: "things-you-must-know-before-choosing-ophthalmology-neet-pg-counselling-2025",
     excerpt:
       "Before choosing ophthalmology in NEET PG 2025, know about surgical learning curve, competition, equipment costs, lifestyle balance, and long term growth.",
