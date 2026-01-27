@@ -1706,14 +1706,14 @@ const AnnouncementPage: React.FC = () => {
       id: 100,
       title: "PG Counselling 2025:",
       content:
-        "PG Counselling 2025: MCC Announces Withdrawal of Seats Before Round 3",
-      date: "2026-01-23T08:00:00Z",
+        "PG Medical Counselling 2025: Choice Locking Facility to Open from Tomorrow 26 January 2026",
+      date: "2026-01-26T08:00:00Z",
       priority: "high",
       category: "NEET PG",
       link: "https://mcc.nic.in",
       is_active: true,
       source: "mcc.nic.in ",
-      created_at: "2026-01-23T08:00:00Z",
+      created_at: "2026-01-26T08:00:00Z",
     },
   ];
 
