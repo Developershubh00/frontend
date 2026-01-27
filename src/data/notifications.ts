@@ -13,8 +13,19 @@ export interface Notification {
 }
 
 export const notificationsData: Notification[] = [
-  {
+   {
     id: "1",
+    title: "Notice Dated: 27-01-2026",
+    message: "",
+    type: "urgent",
+    date: "Tues, 27 Jan 2026",
+    time: "2:30 PM",
+    read: false,
+    icon: "🔔",
+    link: "/notice",
+  },
+  {
+    id: "2",
     title: "Notice Dated: 22-01-2026",
     message: "",
     type: "urgent",
@@ -25,7 +36,7 @@ export const notificationsData: Notification[] = [
     link: "/notice",
   },
   {
-    id: "2",
+    id: "3",
     title: "Notice Dated: 20-01-2026",
     message: "",
     type: "urgent",
@@ -36,7 +47,7 @@ export const notificationsData: Notification[] = [
     link: "/notice",
   },
   {
-    id: "3",
+    id: "4",
     title: "Notice Dated: 12-01-2026",
     message:
       "All India Round 2 - Resignation has been extended till 01:00 PM of 30th Dec 2025",
@@ -48,7 +59,7 @@ export const notificationsData: Notification[] = [
     link: "/notice",
   },
   {
-    id: "4",
+    id: "5",
     title: "All India PG Counselling - 2025",
     message:
       "All India Round 2 - Resignation has been extended till 01:00 PM of 30th Dec 2025",
@@ -59,7 +70,7 @@ export const notificationsData: Notification[] = [
     icon: "🔔",
   },
   {
-    id: "5",
+    id: "6",
     title: "Round 2 vs State Round 2 - Timeline Based Decisions",
     message: "NEET PG 2025 - Important updates regarding counselling timeline",
     type: "info",
@@ -68,17 +79,17 @@ export const notificationsData: Notification[] = [
     read: false,
     link: "/schedule",
   },
-  {
-    id: "6",
-    title: "FMGE December 2025",
-    message:
-      "NBEMS Extends Deficient Documents Submission Deadline Till January 7, 2026",
-    type: "warning",
-    date: "Sun, 30 Dec",
-    time: "10:30 AM",
-    read: false,
-    link: "/notice",
-  },
+  // {
+  //   id: "6",
+  //   title: "FMGE December 2025",
+  //   message:
+  //     "NBEMS Extends Deficient Documents Submission Deadline Till January 7, 2026",
+  //   type: "warning",
+  //   date: "Sun, 30 Dec",
+  //   time: "10:30 AM",
+  //   read: false,
+  //   link: "/notice",
+  // },
   // {
   //   id: "4",
   //   title: "NEET PG Round 2 - Info",
