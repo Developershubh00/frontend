@@ -98,15 +98,6 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({
       source: "Jagran Josh",
       link: "https://www.jagranjosh.com/news/nbems-to-release-neet-pg-counselling-2025-soon-check-expected-release-date-updates-here-181133",
     },
-    // {
-    //   id: 3,
-    //   title: "NEET PG 2025 Counselling Updates: Supreme Court to review transparency petition on Sept 12; MCC Round 1 schedule awaited",
-    //   date: "Sep 10,2025",
-    //   priority: 'medium',
-    //   category: 'NEET PG',
-    //   source: 'Times Of India',
-    //   link: 'https://news.careers360.com/neet-pg-2025-counselling-live-mcc-nic-in-nbems-registration-choice-filling-aiq-seat-allotment-cutoff-supreme-court-hearing-updates'
-    // },
     {
       id: 8,
       title:
@@ -117,15 +108,6 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({
       source: "Times Of India",
       link: "https://timesofindia.indiatimes.com/education/news/neet-pg-2025-mcc-to-announce-50-aiq-counselling-schedule-soon-sc-hearing-awaited-check-details-here/articleshow/123765991.cms",
     },
-    // {
-    //   id: 5,
-    //   title: "NEET PG Counselling 2025 LIVE: MCC to announce AIQ schedule amid Supreme Court case",
-    //   date: "Sep 9,2025",
-    //   priority: 'high',
-    //   category: 'NEET PG',
-    //   source: 'Times Of India',
-    //   link: 'https://news.careers360.com/neet-pg-2025-counselling-live-mcc-nic-in-nbems-registration-choice-filling-aiq-seat-allotment-cutoff-supreme-court-hearing-updates'
-    // },
     {
       id: 9,
       title:
@@ -1040,7 +1022,7 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({
       id: 99,
       title:
         "PG Counselling 2025: MCC Announces Withdrawal of Seats Before Round 3",
-      date: "2026-01-21T08:00:00Z",
+      date: "2026-01-23T08:00:00Z",
       priority: "high",
       category: "NEET PG",
       link: "https://mcc.nic.in",
