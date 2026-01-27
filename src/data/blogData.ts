@@ -44942,7 +44942,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
   "id": 108,
-  "title": "20 Critical Points to Consider Before Choosing Emergency Medicine",
+  "title": "Some Critical Points to Consider Before Choosing Emergency Medicine",
   "slug": "critical-points-before-choosing-emergency-medicine-neet-pg-counselling",
   "excerpt": "Choosing emergency medicine needs clarity on night shifts, high stress decisions, teamwork, rapid learning, burnout risk, and unmatched clinical exposure.",
   "featured_image": "https://cdn.dribbble.com/userupload/46522067/file/a1ec46c97e7403da257ec46353b1bb24.jpg",
@@ -45534,3 +45534,4 @@ export const getRelatedBlogs = (
 // Debug helper: return all slugs (useful for runtime inspection)
 
 export const listAllBlogSlugs = (): string[] => blogPosts.map((p) => p.slug);
+
