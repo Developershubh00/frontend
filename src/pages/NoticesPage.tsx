@@ -22,6 +22,15 @@ const noticeDocuments: NoticeDocument[] = [
     title: "Notice Dated: 27-01-2026",
     date: "27.01.2026",
     externalUrl:
+      "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/202601271513638155.pdf",
+    size: "External",
+    isNew: true,
+  },
+  {
+    id: 1,
+    title: "Notice Dated: 27-01-2026",
+    date: "27.01.2026",
+    externalUrl:
       "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/notice_3rd_pg_counselling_2025_new.pdf",
     size: "External",
     isNew: true,
