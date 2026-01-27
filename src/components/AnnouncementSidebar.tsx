@@ -1050,7 +1050,7 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({
       id: 100,
       title:
         "PG Medical Counselling 2025: Choice Locking Facility to Open from Tomorrow 26 January 2026",
-      date: "2026-01-21T08:00:00Z",
+      date: "2026-01-27T08:00:00Z",
       priority: "high",
       category: "NEET PG",
       link: "https://mcc.nic.in",

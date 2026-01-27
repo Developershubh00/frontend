@@ -24,8 +24,19 @@ export const notificationsData: Notification[] = [
     icon: "🔔",
     link: "/notice",
   },
-  {
+   {
     id: "2",
+    title: "Notice Dated: 26-01-2026",
+    message: "PG Medical Counselling 2025: Choice Locking Facility to Open from Tomorrow 26 January 2026",
+    type: "urgent",
+    date: "Mon, 26 Jan 2026",
+    time: "2:30 PM",
+    read: false,
+    icon: "🔔",
+    link: "/notice",
+  },
+  {
+    id: "3",
     title: "Notice Dated: 22-01-2026",
     message: "",
     type: "urgent",
@@ -36,7 +47,7 @@ export const notificationsData: Notification[] = [
     link: "/notice",
   },
   {
-    id: "3",
+    id: "4",
     title: "Notice Dated: 20-01-2026",
     message: "",
     type: "urgent",
@@ -47,7 +58,7 @@ export const notificationsData: Notification[] = [
     link: "/notice",
   },
   {
-    id: "4",
+    id: "5",
     title: "Notice Dated: 12-01-2026",
     message:
       "All India Round 2 - Resignation has been extended till 01:00 PM of 30th Dec 2025",
@@ -59,7 +70,7 @@ export const notificationsData: Notification[] = [
     link: "/notice",
   },
   {
-    id: "5",
+    id: "6",
     title: "All India PG Counselling - 2025",
     message:
       "All India Round 2 - Resignation has been extended till 01:00 PM of 30th Dec 2025",
@@ -69,16 +80,16 @@ export const notificationsData: Notification[] = [
     read: false,
     icon: "🔔",
   },
-  {
-    id: "6",
-    title: "Round 2 vs State Round 2 - Timeline Based Decisions",
-    message: "NEET PG 2025 - Important updates regarding counselling timeline",
-    type: "info",
-    date: "Wed, 24 Dec",
-    time: "12:00 PM",
-    read: false,
-    link: "/schedule",
-  },
+  // {
+  //   id: "6",
+  //   title: "Round 2 vs State Round 2 - Timeline Based Decisions",
+  //   message: "NEET PG 2025 - Important updates regarding counselling timeline",
+  //   type: "info",
+  //   date: "Wed, 24 Dec",
+  //   time: "12:00 PM",
+  //   read: false,
+  //   link: "/schedule",
+  // },
   // {
   //   id: "6",
   //   title: "FMGE December 2025",
