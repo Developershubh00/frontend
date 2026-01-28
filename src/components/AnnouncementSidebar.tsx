@@ -1027,7 +1027,7 @@
 //       category: "NEET PG",
 //       link: "https://mcc.nic.in",
 //       source: "mcc.nic.in ",
-    },
+// },
 //     {
 //       id: 100,
 //       title:
@@ -1230,7 +1230,10 @@ import {
   Clock,
   ExternalLink,
 } from "lucide-react";
-import { getRecentAnnouncements, type Announcement } from "../data/announcements-data";
+import {
+  getRecentAnnouncements,
+  type Announcement,
+} from "../data/announcements-data";
 
 interface AnnouncementSummary {
   id: number;
@@ -1255,7 +1258,7 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({
   const fetchRecentAnnouncements = async () => {
     try {
       setLoading(true);
-      
+
       // Simulate API call - replace with actual API endpoint if needed
       // const response = await fetch('/api/announcements/?limit=10');
       // if (!response.ok) throw new Error('Failed to fetch announcements');
@@ -1264,17 +1267,19 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({
       // Using centralized data source
       setTimeout(() => {
         const recentAnnouncements = getRecentAnnouncements(10);
-        
+
         // Map to AnnouncementSummary format
-        const summaries: AnnouncementSummary[] = recentAnnouncements.map(ann => ({
-          id: ann.id,
-          title: ann.title,
-          date: ann.date,
-          priority: ann.priority,
-          category: ann.category,
-          link: ann.link,
-          source: ann.source,
-        }));
+        const summaries: AnnouncementSummary[] = recentAnnouncements.map(
+          (ann) => ({
+            id: ann.id,
+            title: ann.title,
+            date: ann.date,
+            priority: ann.priority,
+            category: ann.category,
+            link: ann.link,
+            source: ann.source,
+          }),
+        );
 
         setAnnouncements(summaries);
         setLoading(false);
