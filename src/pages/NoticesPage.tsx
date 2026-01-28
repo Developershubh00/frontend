@@ -17,15 +17,15 @@ interface NoticeDocument {
 }
 
 const noticeDocuments: NoticeDocument[] = [
-  // {
-  //   id: 1,
-  //   title: "Notice Dated: 27-01-2026",
-  //   date: "27.01.2026",
-  //   externalUrl:
-  //     "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/202601271513638155.pdf",
-  //   size: "External",
-  //   isNew: true,
-  // },
+  {
+    id: 1,
+    title: "Notice Dated: 278-01-2026",
+    date: "27.01.2026",
+    externalUrl:
+      "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/20260128953677857.pdf",
+    size: "External",
+    isNew: true,
+  },
   {
     id: 2,
     title: "Notice Dated: 27-01-2026",

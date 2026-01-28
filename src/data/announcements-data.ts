@@ -1343,11 +1343,11 @@ export const ANNOUNCEMENTS: Announcement[] = [
     id: 102,
     title: "MCC Extends NEET PG",
     content:
-      "MCC Extends NEET PG 2025 Round-3 Counselling Choice Filling Amid New Seat Additions",
+      "MCC Extends Round-3 Choice Filling for NEET PG 2025 After Approval of New Seats",
     date: "2026-01-28T08:00:00Z",
     priority: "high",
     category: "FMGE ",
-    link: "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/20260128783206007.pdf",
+    link: "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/20260128953677857.pdf",
     is_active: true,
     source: "Jagran Josh ",
     created_at: "2026-01-28T08:00:00Z",
