@@ -26,7 +26,8 @@ export const notificationsData: Notification[] = [
   },
   {
     id: "2",
-    title: "Notice Dated: 27-01-2026",
+    title:
+      "Assam NEET PG 2025 Round 3 Counselling Revised Schedule Announced by DME Assam",
     message: "",
     type: "urgent",
     date: "Tues, 27 Jan 2026",
@@ -60,7 +61,8 @@ export const notificationsData: Notification[] = [
   },
   {
     id: "5",
-    title: "Notice Dated: 20-01-2026",
+    title:
+      "NEET PG Counselling 2025: Updated Clear Vacancy List for Round 3 (MD/MS & DNB Seats)",
     message: "",
     type: "urgent",
     date: "Tues, 20 Jan 2026",

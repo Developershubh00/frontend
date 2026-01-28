@@ -28,7 +28,8 @@ const noticeDocuments: NoticeDocument[] = [
   },
   {
     id: 2,
-    title: "Notice Dated: 27-01-2026",
+    title:
+      "Assam NEET PG 2025 Round 3 Counselling Revised Schedule Announced by DME Assam",
     date: "27.01.2026",
     externalUrl:
       "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/202601271513638155.pdf",
@@ -46,7 +47,8 @@ const noticeDocuments: NoticeDocument[] = [
   },
   {
     id: 4,
-    title: "Notice Dated: 22-01-2026",
+    title:
+      "NEET PG Counselling 2025 Round 3: Virtual Vacancy List for MD/MS & DNB Seats",
     date: "22.01.2026",
     externalUrl:
       "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/20260121211129792.pdf",
@@ -64,7 +66,8 @@ const noticeDocuments: NoticeDocument[] = [
   },
   {
     id: 6,
-    title: "Notice Dated: 20-01-2026",
+    title:
+      "NEET PG Counselling 2025: Updated Clear Vacancy List for Round 3 (MD/MS & DNB Seats)",
     date: "20.01.2026",
     externalUrl:
       "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/20260120701771295.pdf",
