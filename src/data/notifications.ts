@@ -15,7 +15,8 @@ export interface Notification {
 export const notificationsData: Notification[] = [
   {
     id: "1",
-    title: "Notice Dated: 28-01-2026",
+    title:
+      "MCC Extends NEET PG 2025 Round-3 Counselling Choice Filling Amid New Seat Additions",
     message: "",
     type: "urgent",
     date: "Tues, 27 Jan 2026",
