@@ -1355,8 +1355,22 @@ export const ANNOUNCEMENTS: Announcement[] = [
     category: "FMGE ",
     link: "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/20260128953677857.pdf",
     is_active: true,
-    source: "Jagran Josh ",
+    source: "cdnbbsr.s3waas.gov.in ",
     created_at: "2026-01-28T08:00:00Z",
+  },
+  {
+    id: 103,
+    title:
+      "Medical Counselling Committee (MCC) has updated the Round 3 seat matrix for NEET PG 2025",
+    content:
+      "Medical Counselling Committee (MCC) has updated the Round 3 seat matrix for NEET PG 2025, including seats withdrawn and newly added before seat processing.",
+    date: "2026-01-29T08:00:00Z",
+    priority: "high",
+    category: "FMGE ",
+    link: "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/20260128986085298.pdf",
+    is_active: true,
+    source: "cdnbbsr.s3waas.gov.in ",
+    created_at: "2026-01-29T08:00:00Z",
   },
 ];
 

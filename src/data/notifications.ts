@@ -16,6 +16,19 @@ export const notificationsData: Notification[] = [
   {
     id: "1",
     title:
+      "Medical Counselling Committee (MCC) has updated the Round 3 seat matrix for NEET PG 2025, ",
+    message:
+      "Including seats withdrawn and newly added before seat processing.",
+    type: "urgent",
+    date: "Tues, 29 Jan 2026",
+    time: "2:30 PM",
+    read: false,
+    icon: "🔔",
+    link: "/notice",
+  },
+  {
+    id: "2",
+    title:
       "MCC Extends NEET PG 2025 Round-3 Counselling Choice Filling Amid New Seat Additions",
     message: "",
     type: "urgent",
@@ -26,7 +39,7 @@ export const notificationsData: Notification[] = [
     link: "/notice",
   },
   {
-    id: "2",
+    id: "3",
     title:
       "Assam NEET PG 2025 Round 3 Counselling Revised Schedule Announced by DME Assam",
     message: "",
@@ -38,7 +51,7 @@ export const notificationsData: Notification[] = [
     link: "/notice",
   },
   {
-    id: "3",
+    id: "4",
     title:
       "PG Medical Counselling 2025: Choice Locking Facility to Open from Tomorrow 26 January 2026",
     message:
@@ -51,7 +64,7 @@ export const notificationsData: Notification[] = [
     link: "/notice",
   },
   {
-    id: "4",
+    id: "5",
     title:
       "NEET PG Counselling 2025 Round 3: Virtual Vacancy List for MD/MS & DNB Seats",
     message: "",
@@ -63,7 +76,7 @@ export const notificationsData: Notification[] = [
     link: "/notice",
   },
   {
-    id: "5",
+    id: "6",
     title:
       "NEET PG Counselling 2025: Updated Clear Vacancy List for Round 3 (MD/MS & DNB Seats)",
     message: "",
@@ -75,7 +88,7 @@ export const notificationsData: Notification[] = [
     link: "/notice",
   },
   {
-    id: "6",
+    id: "4",
     title: "Notice Dated: 12-01-2026",
     message:
       "All India Round 2 - Resignation has been extended till 01:00 PM of 30th Dec 2025",
@@ -87,7 +100,7 @@ export const notificationsData: Notification[] = [
     link: "/notice",
   },
   {
-    id: "7",
+    id: "8",
     title: "All India PG Counselling - 2025",
     message:
       "All India Round 2 - Resignation has been extended till 01:00 PM of 30th Dec 2025",
