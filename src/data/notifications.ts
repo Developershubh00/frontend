@@ -54,8 +54,7 @@ export const notificationsData: Notification[] = [
     id: "4",
     title:
       "PG Medical Counselling 2025: Choice Locking Facility to Open from Tomorrow 26 January 2026",
-    message:
-      "PG Medical Counselling 2025: Choice Locking Facility to Open from Tomorrow 26 January 2026",
+    message: "",
     type: "urgent",
     date: "Mon, 26 Jan 2026",
     time: "2:30 PM",
