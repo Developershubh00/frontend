@@ -39,7 +39,8 @@ export const notificationsData: Notification[] = [
   },
   {
     id: "3",
-    title: "Notice Dated: 26-01-2026",
+    title:
+      "PG Medical Counselling 2025: Choice Locking Facility to Open from Tomorrow 26 January 2026",
     message:
       "PG Medical Counselling 2025: Choice Locking Facility to Open from Tomorrow 26 January 2026",
     type: "urgent",
@@ -51,7 +52,8 @@ export const notificationsData: Notification[] = [
   },
   {
     id: "4",
-    title: "Notice Dated: 22-01-2026",
+    title:
+      "NEET PG Counselling 2025 Round 3: Virtual Vacancy List for MD/MS & DNB Seats",
     message: "",
     type: "urgent",
     date: "Thu, 22 Jan 2026",
