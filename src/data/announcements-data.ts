@@ -1276,7 +1276,8 @@ export const ANNOUNCEMENTS: Announcement[] = [
   },
   {
     id: 97,
-    title: "NEET PG Counselling 2025",
+    title:
+      "NEET PG Counselling 2025: MCC Allows Seat Resignation & Withdrawal Till 22 January 2026 (5 PM)",
     content:
       "NEET PG Counselling 2025: MCC Allows Seat Resignation & Withdrawal Till 22 January 2026 (5 PM)",
     date: "2026-01-21T08:00:00Z",
@@ -1289,7 +1290,8 @@ export const ANNOUNCEMENTS: Announcement[] = [
   },
   {
     id: 98,
-    title: "NEET-MDS 2026 and NEET-PG 2026",
+    title:
+      "NEET-MDS 2026 and NEET-PG 2026 Tentative Exam Schedule Released by NBEMSOfficial Source",
     content:
       "NEET-MDS 2026 and NEET-PG 2026 Tentative Exam Schedule Released by NBEMSOfficial Source",
     date: "2026-01-22T08:00:00Z",
@@ -1302,7 +1304,8 @@ export const ANNOUNCEMENTS: Announcement[] = [
   },
   {
     id: 99,
-    title: "PG Counselling 2025:",
+    title:
+      "PG Counselling 2025: MCC Announces Withdrawal of Seats Before Round 3",
     content:
       "PG Counselling 2025: MCC Announces Withdrawal of Seats Before Round 3",
     date: "2026-01-23T08:00:00Z",
@@ -1315,7 +1318,8 @@ export const ANNOUNCEMENTS: Announcement[] = [
   },
   {
     id: 100,
-    title: "PG Counselling 2025:",
+    title:
+      "PG Medical Counselling 2025: Choice Locking Facility to Open from Tomorrow 26 January 2026",
     content:
       "PG Medical Counselling 2025: Choice Locking Facility to Open from Tomorrow 26 January 2026",
     date: "2026-01-26T08:00:00Z",
@@ -1328,7 +1332,8 @@ export const ANNOUNCEMENTS: Announcement[] = [
   },
   {
     id: 101,
-    title: "FMGE Result 2025 December Session:",
+    title:
+      "FMGE Result 2025 December Session: Official Date Announced! Download Scorecard at natboard.edu.in (Feb 17)",
     content:
       "FMGE Result 2025 December Session: Official Date Announced! Download Scorecard at natboard.edu.in (Feb 17)",
     date: "2026-01-28T08:00:00Z",
@@ -1341,7 +1346,8 @@ export const ANNOUNCEMENTS: Announcement[] = [
   },
   {
     id: 102,
-    title: "MCC Extends NEET PG",
+    title:
+      "MCC Extends Round-3 Choice Filling for NEET PG 2025 After Approval of New Seats",
     content:
       "MCC Extends Round-3 Choice Filling for NEET PG 2025 After Approval of New Seats",
     date: "2026-01-28T08:00:00Z",
