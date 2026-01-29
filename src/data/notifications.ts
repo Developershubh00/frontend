@@ -19,7 +19,7 @@ export const notificationsData: Notification[] = [
       "MCC Extends NEET PG 2025 Round-3 Counselling Choice Filling Amid New Seat Additions",
     message: "",
     type: "urgent",
-    date: "Tues, 27 Jan 2026",
+    date: "Tues, 28 Jan 2026",
     time: "2:30 PM",
     read: false,
     icon: "🔔",
