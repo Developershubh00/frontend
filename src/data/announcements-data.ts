@@ -1372,6 +1372,20 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "cdnbbsr.s3waas.gov.in ",
     created_at: "2026-01-29T08:00:00Z",
   },
+  {
+    id: 104,
+    title:
+      "NEET PG Counselling 2025 Round 3: Last Date for Choice Filling & Locking Announced by MCC",
+    content:
+      "NEET PG Counselling 2025 Round 3: Last Date for Choice Filling & Locking Announced by MCC",
+    date: "2026-01-29T08:00:00Z",
+    priority: "high",
+    category: "FMGE ",
+    link: "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/202601291100007007.pdf",
+    is_active: true,
+    source: "cdnbbsr.s3waas.gov.in ",
+    created_at: "2026-01-29T08:00:00Z",
+  },
 ];
 
 /**
