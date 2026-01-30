@@ -1414,6 +1414,34 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "cdnbbsr.s3waas.gov.in ",
     created_at: "2026-01-30T08:00:00Z",
   },
+  {
+    id: 106,
+    title:
+      "NEET PG 2025 Round 3 Online Counseling Schedule: Important Dates for All India Quota, Deemed, Central Universities, and AFMS",
+    content:
+      "NEET PG 2025 Round 3 Online Counseling Schedule: Important Dates for All India Quota, Deemed, Central Universities, and AFMS",
+    date: "2026-01-30T08:00:00Z",
+    priority: "high",
+    category: "neet pg",
+    link: "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/202601301788608510.pdf",
+    is_active: true,
+    source: "cdnbbsr.s3waas.gov.in ",
+    created_at: "2026-01-30T08:00:00Z",
+  },
+  {
+    id: 106,
+    title:
+      "NEET PG 2025 Revised Counseling Schedule: Round 3 Important Dates for AIQ, State Quota, and Deemed Universities",
+    content:
+      "NEET PG 2025 Revised Counseling Schedule: Round 3 Important Dates for AIQ, State Quota, and Deemed Universities",
+    date: "2026-01-30T08:00:00Z",
+    priority: "high",
+    category: "neet pg",
+    link: "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/20260130981302429.pdf",
+    is_active: true,
+    source: "cdnbbsr.s3waas.gov.in ",
+    created_at: "2026-01-30T08:00:00Z",
+  },
 ];
 
 /**
