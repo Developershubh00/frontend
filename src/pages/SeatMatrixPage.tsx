@@ -1,5 +1,16 @@
 import React, { useState, useEffect } from "react";
-import { ArrowLeft, Search, Filter, X, ChevronDown, Eye, EyeOff, ChevronLeft, ChevronRight, Heart } from "lucide-react";
+import {
+  ArrowLeft,
+  Search,
+  Filter,
+  X,
+  ChevronDown,
+  Eye,
+  EyeOff,
+  ChevronLeft,
+  ChevronRight,
+  Heart,
+} from "lucide-react";
 
 interface SeatMatrixPageProps {
   onBack: () => void;
@@ -55,13 +66,12 @@ interface ColumnVisibility {
   actions: boolean;
 }
 
-
 const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
   const [seatMatrixData, setSeatMatrixData] = useState<SeatMatrixData[]>([]);
   const [loading, setLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState(1);
   const [totalCount, setTotalCount] = useState(0);
-  
+
   // Search and filter states
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedQuota, setSelectedQuota] = useState("all");
@@ -73,12 +83,12 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
   const [selectedInstituteType, setSelectedInstituteType] = useState("all");
   const [showAdvancedFilters, setShowAdvancedFilters] = useState(false);
   const [availableFilters, setAvailableFilters] = useState({
-  quotas: ["all"],
-  categories: ["all"],
-  states: ["all"],
-  institutes: ["all"],
-  courses: ["all"],
-});
+    quotas: ["all"],
+    categories: ["all"],
+    states: ["all"],
+    institutes: ["all"],
+    courses: ["all"],
+  });
 
   // Column visibility state
   const [showColumnVisibility, setShowColumnVisibility] = useState(false);
@@ -109,68 +119,79 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
 
   // Column definitions for easier management
   const columnDefinitions = [
-    { key: 'Round' as keyof ColumnVisibility, label: 'Round' },
-    { key: 'Quota' as keyof ColumnVisibility, label: 'Quota' },
-    { key: 'Category' as keyof ColumnVisibility, label: 'Category' },
-    { key: 'State' as keyof ColumnVisibility, label: 'State' },
-    { key: 'Institute' as keyof ColumnVisibility, label: 'Institute' },
-    { key: 'Course' as keyof ColumnVisibility, label: 'Course' },
-    { key: 'Seats' as keyof ColumnVisibility, label: 'Seats' },
-    { key: 'Fee_Stipend_Year_1' as keyof ColumnVisibility, label: 'Fee/Stipend Year 1' },
-    { key: 'Bond_Years' as keyof ColumnVisibility, label: 'Bond Years' },
-    { key: 'Bond_Penalty' as keyof ColumnVisibility, label: 'Bond Penalty' },
-    { key: 'Beds' as keyof ColumnVisibility, label: 'Beds' },
-    { key: 'CR_2023_1' as keyof ColumnVisibility, label: 'CR 2023-1' },
-    { key: 'CR_2023_2' as keyof ColumnVisibility, label: 'CR 2023-2' },
-    { key: 'CR_2023_3' as keyof ColumnVisibility, label: 'CR 2023-3' },
-    { key: 'CR_2023_4' as keyof ColumnVisibility, label: 'CR 2023-4' },
-    { key: 'CR_2023_5' as keyof ColumnVisibility, label: 'CR 2023-5' },
-    { key: 'CR_2024_1' as keyof ColumnVisibility, label: 'CR 2024-1' },
-    { key: 'CR_2024_2' as keyof ColumnVisibility, label: 'CR 2024-2' },
-    { key: 'CR_2024_3' as keyof ColumnVisibility, label: 'CR 2024-3' },
-    { key: 'CR_2024_4' as keyof ColumnVisibility, label: 'CR 2024-4' },
-    { key: 'CR_2024_5' as keyof ColumnVisibility, label: 'CR 2024-5' },
-    { key: 'actions' as keyof ColumnVisibility, label: 'Actions' },
+    { key: "Round" as keyof ColumnVisibility, label: "Round" },
+    { key: "Quota" as keyof ColumnVisibility, label: "Quota" },
+    { key: "Category" as keyof ColumnVisibility, label: "Category" },
+    { key: "State" as keyof ColumnVisibility, label: "State" },
+    { key: "Institute" as keyof ColumnVisibility, label: "Institute" },
+    { key: "Course" as keyof ColumnVisibility, label: "Course" },
+    { key: "Seats" as keyof ColumnVisibility, label: "Seats" },
+    {
+      key: "Fee_Stipend_Year_1" as keyof ColumnVisibility,
+      label: "Fee/Stipend Year 1",
+    },
+    { key: "Bond_Years" as keyof ColumnVisibility, label: "Bond Years" },
+    { key: "Bond_Penalty" as keyof ColumnVisibility, label: "Bond Penalty" },
+    { key: "Beds" as keyof ColumnVisibility, label: "Beds" },
+    { key: "CR_2023_1" as keyof ColumnVisibility, label: "CR 2023-1" },
+    { key: "CR_2023_2" as keyof ColumnVisibility, label: "CR 2023-2" },
+    { key: "CR_2023_3" as keyof ColumnVisibility, label: "CR 2023-3" },
+    { key: "CR_2023_4" as keyof ColumnVisibility, label: "CR 2023-4" },
+    { key: "CR_2023_5" as keyof ColumnVisibility, label: "CR 2023-5" },
+    { key: "CR_2024_1" as keyof ColumnVisibility, label: "CR 2024-1" },
+    { key: "CR_2024_2" as keyof ColumnVisibility, label: "CR 2024-2" },
+    { key: "CR_2024_3" as keyof ColumnVisibility, label: "CR 2024-3" },
+    { key: "CR_2024_4" as keyof ColumnVisibility, label: "CR 2024-4" },
+    { key: "CR_2024_5" as keyof ColumnVisibility, label: "CR 2024-5" },
+    { key: "actions" as keyof ColumnVisibility, label: "Actions" },
   ];
 
   // Custom Select Component
-  // const CustomSelect = ({ value, onChange, options, placeholder, allLabel }: any) => (
+  const CustomSelect = ({
+    value,
+    onChange,
+    options,
+    placeholder,
+    allLabel,
+  }: any) => (
+    <select
+      value={value}
+      onChange={(e) => onChange(e.target.value)}
+      className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-sm bg-white min-w-[140px]"
+    >
+      <option value="all">{allLabel}</option>
+      {options
+        .filter((opt: string) => opt !== "all")
+        .map((option: string) => (
+          <option key={option} value={option}>
+            {option}
+          </option>
+        ))}
+    </select>
+  );
+  //   const CustomSelect = ({ value, onChange, options, placeholder, allLabel }: any) => (
   //   <select
   //     value={value}
   //     onChange={(e) => onChange(e.target.value)}
   //     className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-sm bg-white min-w-[140px]"
   //   >
   //     <option value="all">{allLabel}</option>
-  //     {options.filter((opt: string) => opt !== "all").map((option: string) => (
-  //       <option key={option} value={option}>
-  //         {option}
-  //       </option>
-  //     ))}
+  //     {options
+  //       .filter((opt: string) => opt !== "all")
+  //       .map((option: string) => (
+  //         <option key={option} value={option}>
+  //           {option}
+  //         </option>
+  //       ))
+  //     }
   //   </select>
   // );
-  const CustomSelect = ({ value, onChange, options, placeholder, allLabel }: any) => (
-  <select
-    value={value}
-    onChange={(e) => onChange(e.target.value)}
-    className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-sm bg-white min-w-[140px]"
-  >
-    <option value="all">{allLabel}</option>
-    {options
-      .filter((opt: string) => opt !== "all")
-      .map((option: string) => (
-        <option key={option} value={option}>
-          {option}
-        </option>
-      ))
-    }
-  </select>
-);
 
   // Toggle column visibility
   const toggleColumn = (columnKey: keyof ColumnVisibility) => {
-    setColumnVisibility(prev => ({
+    setColumnVisibility((prev) => ({
       ...prev,
-      [columnKey]: !prev[columnKey]
+      [columnKey]: !prev[columnKey],
     }));
   };
 
@@ -186,119 +207,147 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
   // Hide all columns (but keep at least one visible)
   const hideAllColumns = () => {
     const allHidden = Object.keys(columnVisibility).reduce((acc, key) => {
-      acc[key as keyof ColumnVisibility] = key === 'Institute';
+      acc[key as keyof ColumnVisibility] = key === "Institute";
       return acc;
     }, {} as ColumnVisibility);
     setColumnVisibility(allHidden);
   };
   const fetchAllFilterOptions = async () => {
-  try {
-    // Fetch without any filters to get all unique values
-    const response = await fetch(`https://backend-fiwg.onrender.com/get-seatmatrix/?page=1&page_size=50000`);
-    
-    if (!response.ok) {
-      console.error(`API returned status ${response.status}`);
-      return;
-    }
-    
-    const data = await response.json();
-    
-    if (!data.results || data.results.length === 0) {
-      console.warn("No results returned from API");
-      return;
-    }
-    
-    // Extract unique values for each filter - ensure "all" is always first
-    const uniqueQuotas = Array.from(new Set(
-      data.results
-        .map((item: any) => item.quota)
-        .filter((q: string) => q && q !== "No Info Available" && q.trim() !== "")
-    )).sort();
-    
-    const uniqueCategories = Array.from(new Set(
-      data.results
-        .map((item: any) => item.category)
-        .filter((c: string) => c && c !== "No Info Available" && c.trim() !== "")
-    )).sort();
-    
-    const uniqueStates = Array.from(new Set(
-      data.results
-        .map((item: any) => item.state)
-        .filter((s: string) => s && s !== "No Info Available" && s.trim() !== "")
-    )).sort();
-    
-    const uniqueInstitutes = Array.from(new Set(
-      data.results
-        .map((item: any) => item.institute)
-        .filter((i: string) => i && i !== "No Info Available" && i.trim() !== "")
-    )).sort();
-    
-    const uniqueCourses = Array.from(new Set(
-      data.results
-        .map((item: any) => item.course)
-        .filter((c: string) => c && c !== "No Info Available" && c.trim() !== "")
-    )).sort();
-    
-    console.log("Fetched filter options:", {
-      quotas: uniqueQuotas.length,
-      categories: uniqueCategories.length,
-      states: uniqueStates.length,
-      institutes: uniqueInstitutes.length,
-      courses: uniqueCourses.length
-    });
-    
-    setAvailableFilters({
-      quotas: ["all", ...uniqueQuotas],
-      categories: ["all", ...uniqueCategories],
-      states: ["all", ...uniqueStates],
-      institutes: ["all", ...uniqueInstitutes],
-      courses: ["all", ...uniqueCourses],
-    });
-  } catch (error) {
-    console.error("Error fetching filter options:", error);
-  }
-};
+    try {
+      // Fetch without any filters to get all unique values
+      const response = await fetch(
+        `https://backend-fiwg.onrender.com/get-seatmatrix/?page=1&page_size=50000`,
+      );
 
+      if (!response.ok) {
+        console.error(`API returned status ${response.status}`);
+        return;
+      }
 
+      const data = await response.json();
+
+      if (!data.results || data.results.length === 0) {
+        console.warn("No results returned from API");
+        return;
+      }
+
+      // Extract unique values for each filter - ensure "all" is always first
+      const uniqueQuotas = Array.from(
+        new Set(
+          data.results
+            .map((item: any) => item.quota)
+            .filter(
+              (q: string) => q && q !== "No Info Available" && q.trim() !== "",
+            ),
+        ),
+      ).sort();
+
+      const uniqueCategories = Array.from(
+        new Set(
+          data.results
+            .map((item: any) => item.category)
+            .filter(
+              (c: string) => c && c !== "No Info Available" && c.trim() !== "",
+            ),
+        ),
+      ).sort();
+
+      const uniqueStates = Array.from(
+        new Set(
+          data.results
+            .map((item: any) => item.state)
+            .filter(
+              (s: string) => s && s !== "No Info Available" && s.trim() !== "",
+            ),
+        ),
+      ).sort();
+
+      const uniqueInstitutes = Array.from(
+        new Set(
+          data.results
+            .map((item: any) => item.institute)
+            .filter(
+              (i: string) => i && i !== "No Info Available" && i.trim() !== "",
+            ),
+        ),
+      ).sort();
+
+      const uniqueCourses = Array.from(
+        new Set(
+          data.results
+            .map((item: any) => item.course)
+            .filter(
+              (c: string) => c && c !== "No Info Available" && c.trim() !== "",
+            ),
+        ),
+      ).sort();
+
+      console.log("Fetched filter options:", {
+        quotas: uniqueQuotas.length,
+        categories: uniqueCategories.length,
+        states: uniqueStates.length,
+        institutes: uniqueInstitutes.length,
+        courses: uniqueCourses.length,
+      });
+
+      setAvailableFilters({
+        quotas: ["all", ...uniqueQuotas],
+        categories: ["all", ...uniqueCategories],
+        states: ["all", ...uniqueStates],
+        institutes: ["all", ...uniqueInstitutes],
+        courses: ["all", ...uniqueCourses],
+      });
+    } catch (error) {
+      console.error("Error fetching filter options:", error);
+    }
+  };
 
   // API fetch function
-  const fetchSeatMatrixFromAPI = async (params: { 
-    round?: string; 
-    category?: string; 
-    quota?: string; 
-    state?: string; 
-    institute?: string; 
-    course?: string; 
+  const fetchSeatMatrixFromAPI = async (params: {
+    round?: string;
+    category?: string;
+    quota?: string;
+    state?: string;
+    institute?: string;
+    course?: string;
     institute_type?: string;
-    page?: number 
+    page?: number;
   }) => {
     const queryParams = new URLSearchParams();
-    
+
     // Handle Round Filter: Transform "Round X" to "X" for the API
     if (params.round && params.round !== "all") {
       const roundNumber = params.round.replace("Round ", "");
-      queryParams.append('round', roundNumber);
+      queryParams.append("round", roundNumber);
     }
-    
-    if (params.category && params.category !== "all") queryParams.append('category', params.category);
-    if (params.quota && params.quota !== "all") queryParams.append('quota', params.quota);
-    if (params.state && params.state !== "all") queryParams.append('state', params.state);
-    if (params.institute && params.institute !== "all") queryParams.append('institute', params.institute);
-    if (params.course && params.course !== "all") queryParams.append('course', params.course);
-    if (params.institute_type && params.institute_type !== "all") queryParams.append('institute_type', params.institute_type);
-    if (params.page) queryParams.append('page', params.page.toString());
-    queryParams.append('page_size', '70');
-  
+
+    if (params.category && params.category !== "all")
+      queryParams.append("category", params.category);
+    if (params.quota && params.quota !== "all")
+      queryParams.append("quota", params.quota);
+    if (params.state && params.state !== "all")
+      queryParams.append("state", params.state);
+    if (params.institute && params.institute !== "all")
+      queryParams.append("institute", params.institute);
+    if (params.course && params.course !== "all")
+      queryParams.append("course", params.course);
+    if (params.institute_type && params.institute_type !== "all")
+      queryParams.append("institute_type", params.institute_type);
+    if (params.page) queryParams.append("page", params.page.toString());
+    queryParams.append("page_size", "70");
+
     try {
-      const response = await fetch(`https://backend-fiwg.onrender.com/get-seatmatrix/?${queryParams.toString()}`);
-      
+      const response = await fetch(
+        `https://backend-fiwg.onrender.com/get-seatmatrix/?${queryParams.toString()}`,
+      );
+
       if (!response.ok) {
         console.error(`API returned status ${response.status}`);
         return { results: [], count: 0 };
       }
-      
+
       const data = await response.json();
-      
+
       const mappedResults = data.results.map((item: any) => ({
         Round: item.round || "No Info Available",
         Quota: item.quota || "No Info Available",
@@ -307,7 +356,9 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
         Institute: item.institute || "No Info Available",
         Course: item.course || "No Info Available",
         Seats: item.seats ? parseInt(item.seats) : 0,
-        Fee_Stipend_Year_1: item.fee_stipend_year_1 ? parseFloat(item.fee_stipend_year_1) : 0,
+        Fee_Stipend_Year_1: item.fee_stipend_year_1
+          ? parseFloat(item.fee_stipend_year_1)
+          : 0,
         Bond_Years: item.bond_years ? parseInt(item.bond_years) : 0,
         Bond_Penalty: item.bond_penalty ? parseFloat(item.bond_penalty) : 0,
         Beds: item.beds ? parseInt(item.beds) : 0,
@@ -323,19 +374,24 @@ const SeatMatrixPage: React.FC<SeatMatrixPageProps> = ({ onBack }) => {
         CR_2024_5: item.cr_2024_5 ? parseInt(item.cr_2024_5) : 0,
         Institute_Type: item.institute_type || "No Info Available",
       }));
-      
+
       return {
         results: mappedResults,
-        count: data.count
+        count: data.count,
       };
     } catch (error) {
       console.error("Network error:", error);
       return { results: [], count: 0 };
     }
   };
-useEffect(() => {
-  console.log("Available Filters Updated:", availableFilters);
-}, [availableFilters]);
+  useEffect(() => {
+    console.log("Available Filters Updated:", availableFilters);
+  }, [availableFilters]);
+
+  // ADD THIS NEW useEffect HERE:
+  useEffect(() => {
+    fetchAllFilterOptions();
+  }, []);
 
   // Fetch data with API
   useEffect(() => {
@@ -347,13 +403,19 @@ useEffect(() => {
           category: selectedCategory !== "all" ? selectedCategory : undefined,
           quota: selectedQuota !== "all" ? selectedQuota : undefined,
           state: selectedState !== "all" ? selectedState : undefined,
-          institute: selectedInstitute !== "all" ? selectedInstitute : undefined,
+          institute:
+            selectedInstitute !== "all" ? selectedInstitute : undefined,
           course: selectedCourse !== "all" ? selectedCourse : undefined,
-          institute_type: selectedInstituteType !== "all" ? selectedInstituteType : undefined,
+          institute_type:
+            selectedInstituteType !== "all" ? selectedInstituteType : undefined,
           page: currentPage,
         });
-  
-        if (data && Array.isArray(data.results) && typeof data.count === "number") {
+
+        if (
+          data &&
+          Array.isArray(data.results) &&
+          typeof data.count === "number"
+        ) {
           setSeatMatrixData(data.results);
           setTotalCount(data.count);
         } else {
@@ -369,7 +431,7 @@ useEffect(() => {
         setLoading(false);
       }
     };
-  
+
     fetchData();
   }, [
     selectedRound,
@@ -379,16 +441,16 @@ useEffect(() => {
     selectedInstitute,
     selectedCourse,
     selectedInstituteType,
-    currentPage
+    currentPage,
   ]);
   // Use pre-fetched filter options instead of deriving from current data
-const quotas = availableFilters.quotas;
-const categories = availableFilters.categories;
-const rounds = ["all", "Round 1", "Round 2", "Round 3", "Round 4", "Round 5"];
-const states = availableFilters.states;
-const institutes = availableFilters.institutes;
-const courses = availableFilters.courses;
-const instituteTypes = ["all", "Government", "Private"];
+  const quotas = availableFilters.quotas;
+  const categories = availableFilters.categories;
+  const rounds = ["all", "Round 1", "Round 2", "Round 3", "Round 4", "Round 5"];
+  const states = availableFilters.states;
+  const institutes = availableFilters.institutes;
+  const courses = availableFilters.courses;
+  const instituteTypes = ["all", "Government", "Private"];
 
   // Get unique values for filters from current data
   // const quotas = ["all", ...Array.from(new Set(seatMatrixData.map(item => item.Quota).filter(q => q !== "No Info Available")))];
@@ -398,21 +460,22 @@ const instituteTypes = ["all", "Government", "Private"];
   // const institutes = ["all", ...Array.from(new Set(seatMatrixData.map(item => item.Institute).filter(i => i !== "No Info Available")))];
   // const courses = ["all", ...Array.from(new Set(seatMatrixData.map(item => item.Course).filter(c => c !== "No Info Available")))];
   // const instituteTypes = ["all", "Government", "Private"];
-// const quotas = availableFilters.quotas;
-// const categories = availableFilters.categories;
-// const rounds = ["all", "Round 1", "Round 2", "Round 3", "Round 4", "Round 5"];
-// const states = availableFilters.states;
-// const institutes = availableFilters.institutes;
-// const courses = availableFilters.courses;
-// const instituteTypes = ["all", "Government", "Private"];
+  // const quotas = availableFilters.quotas;
+  // const categories = availableFilters.categories;
+  // const rounds = ["all", "Round 1", "Round 2", "Round 3", "Round 4", "Round 5"];
+  // const states = availableFilters.states;
+  // const institutes = availableFilters.institutes;
+  // const courses = availableFilters.courses;
+  // const instituteTypes = ["all", "Government", "Private"];
 
   // Client-side filtering for search term only
   const filteredData = seatMatrixData.filter((item) => {
-    const matchesSearch = searchTerm === "" || 
+    const matchesSearch =
+      searchTerm === "" ||
       item.Institute.toLowerCase().includes(searchTerm.toLowerCase()) ||
       item.Course.toLowerCase().includes(searchTerm.toLowerCase()) ||
       item.State.toLowerCase().includes(searchTerm.toLowerCase());
-    
+
     return matchesSearch;
   });
 
@@ -447,7 +510,9 @@ const instituteTypes = ["all", "Government", "Private"];
         <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">
           <div className="bg-white rounded-lg shadow-xl max-w-2xl w-full max-h-[80vh] overflow-hidden">
             <div className="flex items-center justify-between p-4 border-b">
-              <h3 className="text-lg font-semibold text-gray-900">Show/Hide Columns</h3>
+              <h3 className="text-lg font-semibold text-gray-900">
+                Show/Hide Columns
+              </h3>
               <button
                 onClick={() => setShowColumnVisibility(false)}
                 className="p-1 hover:bg-gray-100 rounded-lg transition-colors"
@@ -455,7 +520,7 @@ const instituteTypes = ["all", "Government", "Private"];
                 <X className="w-5 h-5 text-gray-500" />
               </button>
             </div>
-            
+
             <div className="p-4">
               <div className="flex gap-2 mb-4">
                 <button
@@ -471,10 +536,13 @@ const instituteTypes = ["all", "Government", "Private"];
                   Hide All
                 </button>
               </div>
-              
+
               <div className="grid grid-cols-2 gap-2 max-h-96 overflow-y-auto">
                 {columnDefinitions.map(({ key, label }) => (
-                  <div key={key} className="flex items-center justify-between p-2 hover:bg-gray-50 rounded-lg">
+                  <div
+                    key={key}
+                    className="flex items-center justify-between p-2 hover:bg-gray-50 rounded-lg"
+                  >
                     <label className="flex items-center cursor-pointer flex-1">
                       <input
                         type="checkbox"
@@ -482,7 +550,9 @@ const instituteTypes = ["all", "Government", "Private"];
                         onChange={() => toggleColumn(key)}
                         className="w-4 h-4 text-purple-600 border-gray-300 rounded focus:ring-purple-500"
                       />
-                      <span className="ml-3 text-sm text-gray-700">{label}</span>
+                      <span className="ml-3 text-sm text-gray-700">
+                        {label}
+                      </span>
                     </label>
                     <div className="ml-2">
                       {columnVisibility[key] ? (
@@ -495,7 +565,7 @@ const instituteTypes = ["all", "Government", "Private"];
                 ))}
               </div>
             </div>
-            
+
             <div className="flex justify-end gap-2 p-4 border-t bg-gray-50">
               <button
                 onClick={() => setShowColumnVisibility(false)}
@@ -531,10 +601,9 @@ const instituteTypes = ["all", "Government", "Private"];
               </button>
               <div>
                 <h1 className="text-lg font-semibold">NEET PG Seat Matrix</h1>
-                
               </div>
             </div>
-            
+
             <div className="hidden md:flex items-center space-x-2">
               <span className="text-xs text-purple-100">
                 {filteredData.length} Records
@@ -546,22 +615,24 @@ const instituteTypes = ["all", "Government", "Private"];
         {/* Round Filter Pills with Show/Hide Button */}
         <div className="bg-white border-b border-gray-200 px-4 py-3">
           <div className="flex items-center gap-2 overflow-x-auto">
-            {["Round 1", "Round 2", "Round 3", "Round 4", "Round 5"].map((round) => (
-              <button
-                key={round}
-                onClick={() => {
-                  setSelectedRound(round);
-                  setCurrentPage(1);
-                }}
-                className={`px-4 py-2 text-sm font-medium rounded-full transition-colors whitespace-nowrap ${
-                  selectedRound === round
-                    ? "bg-purple-600 text-white"
-                    : "bg-gray-100 text-gray-700 hover:bg-gray-200"
-                }`}
-              >
-                {round}
-              </button>
-            ))}
+            {["Round 1", "Round 2", "Round 3", "Round 4", "Round 5"].map(
+              (round) => (
+                <button
+                  key={round}
+                  onClick={() => {
+                    setSelectedRound(round);
+                    setCurrentPage(1);
+                  }}
+                  className={`px-4 py-2 text-sm font-medium rounded-full transition-colors whitespace-nowrap ${
+                    selectedRound === round
+                      ? "bg-purple-600 text-white"
+                      : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+                  }`}
+                >
+                  {round}
+                </button>
+              ),
+            )}
 
             <button
               onClick={() => {
@@ -635,7 +706,9 @@ const instituteTypes = ["all", "Government", "Private"];
                 >
                   <Filter className="w-4 h-4" />
                   {showAdvancedFilters ? "Hide" : "Show"} Filters
-                  <ChevronDown className={`w-4 h-4 transition-transform ${showAdvancedFilters ? "rotate-180" : ""}`} />
+                  <ChevronDown
+                    className={`w-4 h-4 transition-transform ${showAdvancedFilters ? "rotate-180" : ""}`}
+                  />
                 </button>
               </div>
             </div>
@@ -686,7 +759,9 @@ const instituteTypes = ["all", "Government", "Private"];
                 </div>
 
                 <div className="flex items-center justify-center text-sm text-gray-600 bg-gray-50 rounded-lg px-3 py-2">
-                  <span className="font-medium text-purple-600">{filteredData.length}</span>
+                  <span className="font-medium text-purple-600">
+                    {filteredData.length}
+                  </span>
                   <span className="ml-1">filtered results</span>
                 </div>
               </div>
@@ -700,117 +775,188 @@ const instituteTypes = ["all", "Government", "Private"];
             <thead className="bg-gradient-to-r from-gray-100 to-gray-200 border-b border-gray-300 sticky top-0">
               <tr>
                 {columnVisibility.Round && (
-                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Round</th>
+                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">
+                    Round
+                  </th>
                 )}
                 {columnVisibility.Quota && (
-                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Quota</th>
+                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">
+                    Quota
+                  </th>
                 )}
                 {columnVisibility.Category && (
-                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Category</th>
+                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">
+                    Category
+                  </th>
                 )}
                 {columnVisibility.State && (
-                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">State</th>
+                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">
+                    State
+                  </th>
                 )}
                 {columnVisibility.Institute && (
-                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Institute</th>
+                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">
+                    Institute
+                  </th>
                 )}
                 {columnVisibility.Course && (
-                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Course</th>
+                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">
+                    Course
+                  </th>
                 )}
                 {columnVisibility.Seats && (
-                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Seats</th>
+                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">
+                    Seats
+                  </th>
                 )}
                 {columnVisibility.Fee_Stipend_Year_1 && (
-                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Fee/Stipend Year 1</th>
+                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">
+                    Fee/Stipend Year 1
+                  </th>
                 )}
                 {columnVisibility.Bond_Years && (
-                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Bond Years</th>
+                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">
+                    Bond Years
+                  </th>
                 )}
                 {columnVisibility.Bond_Penalty && (
-                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Bond Penalty</th>
+                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">
+                    Bond Penalty
+                  </th>
                 )}
                 {columnVisibility.Beds && (
-                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Beds</th>
+                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">
+                    Beds
+                  </th>
                 )}
                 {columnVisibility.CR_2023_1 && (
-                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">CR 2023-1</th>
+                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">
+                    CR 2023-1
+                  </th>
                 )}
                 {columnVisibility.CR_2023_2 && (
-                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">CR 2023-2</th>
+                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">
+                    CR 2023-2
+                  </th>
                 )}
                 {columnVisibility.CR_2023_3 && (
-                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">CR 2023-3</th>
+                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">
+                    CR 2023-3
+                  </th>
                 )}
                 {columnVisibility.CR_2023_4 && (
-                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">CR 2023-4</th>
+                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">
+                    CR 2023-4
+                  </th>
                 )}
                 {columnVisibility.CR_2023_5 && (
-                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">CR 2023-5</th>
+                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">
+                    CR 2023-5
+                  </th>
                 )}
                 {columnVisibility.CR_2024_1 && (
-                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">CR 2024-1</th>
+                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">
+                    CR 2024-1
+                  </th>
                 )}
                 {columnVisibility.CR_2024_2 && (
-                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">CR 2024-2</th>
+                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">
+                    CR 2024-2
+                  </th>
                 )}
                 {columnVisibility.CR_2024_3 && (
-                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">CR 2024-3</th>
+                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">
+                    CR 2024-3
+                  </th>
                 )}
                 {columnVisibility.CR_2024_4 && (
-                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">CR 2024-4</th>
+                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">
+                    CR 2024-4
+                  </th>
                 )}
                 {columnVisibility.CR_2024_5 && (
-                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">CR 2024-5</th>
+                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">
+                    CR 2024-5
+                  </th>
                 )}
                 {columnVisibility.actions && (
-                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Actions</th>
+                  <th className="px-2 py-2 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">
+                    Actions
+                  </th>
                 )}
               </tr>
             </thead>
             <tbody className="bg-white divide-y divide-gray-100">
               {filteredData.length === 0 ? (
                 <tr>
-                  <td colSpan={Object.values(columnVisibility).filter(Boolean).length} className="px-6 py-8 text-center text-gray-500">
+                  <td
+                    colSpan={
+                      Object.values(columnVisibility).filter(Boolean).length
+                    }
+                    className="px-6 py-8 text-center text-gray-500"
+                  >
                     No data found. Try adjusting your filters.
                   </td>
                 </tr>
               ) : (
                 filteredData.map((item, index) => (
-                  <tr key={index} className="hover:bg-purple-50 transition-colors">
+                  <tr
+                    key={index}
+                    className="hover:bg-purple-50 transition-colors"
+                  >
                     {columnVisibility.Round && (
-                      <td className="px-2 py-2 text-xs text-gray-700">{displayValue(item.Round)}</td>
+                      <td className="px-2 py-2 text-xs text-gray-700">
+                        {displayValue(item.Round)}
+                      </td>
                     )}
                     {columnVisibility.Quota && (
                       <td className="px-2 py-2 text-xs">
-                        <span className={`px-2 py-1 rounded-full text-xs font-medium ${
-                          item.Quota === "All India" ? "bg-green-100 text-green-800" :
-                          item.Quota === "State Quota" ? "bg-blue-100 text-blue-800" :
-                          item.Quota === "Management" ? "bg-purple-100 text-purple-800" :
-                          item.Quota === "NRI" ? "bg-blue-100 text-blue-800" :
-                          item.Quota === "No Info Available" ? "bg-gray-100 text-gray-600" :
-                          "bg-gray-100 text-gray-800"
-                        }`}>
+                        <span
+                          className={`px-2 py-1 rounded-full text-xs font-medium ${
+                            item.Quota === "All India"
+                              ? "bg-green-100 text-green-800"
+                              : item.Quota === "State Quota"
+                                ? "bg-blue-100 text-blue-800"
+                                : item.Quota === "Management"
+                                  ? "bg-purple-100 text-purple-800"
+                                  : item.Quota === "NRI"
+                                    ? "bg-blue-100 text-blue-800"
+                                    : item.Quota === "No Info Available"
+                                      ? "bg-gray-100 text-gray-600"
+                                      : "bg-gray-100 text-gray-800"
+                          }`}
+                        >
                           {displayValue(item.Quota)}
                         </span>
                       </td>
                     )}
                     {columnVisibility.Category && (
                       <td className="px-2 py-2 text-xs">
-                        <span className={`px-2 py-1 rounded-full text-xs font-medium ${
-                          item.Category === "General" ? "bg-blue-100 text-blue-800" :
-                          item.Category === "OBC" ? "bg-yellow-100 text-yellow-800" :
-                          item.Category === "SC" ? "bg-red-100 text-red-800" :
-                          item.Category === "ST" ? "bg-green-100 text-green-800" :
-                          item.Category === "EWS" ? "bg-indigo-100 text-indigo-800" :
-                          item.Category === "No Info Available" ? "bg-gray-100 text-gray-600" :
-                          "bg-pink-100 text-pink-800"
-                        }`}>
+                        <span
+                          className={`px-2 py-1 rounded-full text-xs font-medium ${
+                            item.Category === "General"
+                              ? "bg-blue-100 text-blue-800"
+                              : item.Category === "OBC"
+                                ? "bg-yellow-100 text-yellow-800"
+                                : item.Category === "SC"
+                                  ? "bg-red-100 text-red-800"
+                                  : item.Category === "ST"
+                                    ? "bg-green-100 text-green-800"
+                                    : item.Category === "EWS"
+                                      ? "bg-indigo-100 text-indigo-800"
+                                      : item.Category === "No Info Available"
+                                        ? "bg-gray-100 text-gray-600"
+                                        : "bg-pink-100 text-pink-800"
+                          }`}
+                        >
                           {displayValue(item.Category)}
                         </span>
                       </td>
                     )}
                     {columnVisibility.State && (
-                      <td className="px-2 py-2 text-xs text-gray-700">{displayValue(item.State)}</td>
+                      <td className="px-2 py-2 text-xs text-gray-700">
+                        {displayValue(item.State)}
+                      </td>
                     )}
                     {columnVisibility.Institute && (
                       <td className="px-2 py-2 text-xs text-purple-600 hover:text-purple-800 cursor-pointer font-medium">
@@ -818,7 +964,9 @@ const instituteTypes = ["all", "Government", "Private"];
                       </td>
                     )}
                     {columnVisibility.Course && (
-                      <td className="px-2 py-2 text-xs text-gray-700">{displayValue(item.Course)}</td>
+                      <td className="px-2 py-2 text-xs text-gray-700">
+                        {displayValue(item.Course)}
+                      </td>
                     )}
                     {columnVisibility.Seats && (
                       <td className="px-2 py-2 text-xs font-bold text-purple-600">
@@ -827,17 +975,23 @@ const instituteTypes = ["all", "Government", "Private"];
                     )}
                     {columnVisibility.Fee_Stipend_Year_1 && (
                       <td className="px-2 py-2 text-xs text-gray-700">
-                        {item.Fee_Stipend_Year_1 === 0 ? "No Info Available" : `₹${item.Fee_Stipend_Year_1.toLocaleString()}`}
+                        {item.Fee_Stipend_Year_1 === 0
+                          ? "No Info Available"
+                          : `₹${item.Fee_Stipend_Year_1.toLocaleString()}`}
                       </td>
                     )}
                     {columnVisibility.Bond_Years && (
                       <td className="px-2 py-2 text-xs text-gray-700">
-                        {item.Bond_Years === 0 ? "No Info Available" : item.Bond_Years}
+                        {item.Bond_Years === 0
+                          ? "No Info Available"
+                          : item.Bond_Years}
                       </td>
                     )}
                     {columnVisibility.Bond_Penalty && (
                       <td className="px-2 py-2 text-xs text-gray-700">
-                        {item.Bond_Penalty === 0 ? "No Info Available" : `₹${item.Bond_Penalty.toLocaleString()}`}
+                        {item.Bond_Penalty === 0
+                          ? "No Info Available"
+                          : `₹${item.Bond_Penalty.toLocaleString()}`}
                       </td>
                     )}
                     {columnVisibility.Beds && (
@@ -847,52 +1001,72 @@ const instituteTypes = ["all", "Government", "Private"];
                     )}
                     {columnVisibility.CR_2023_1 && (
                       <td className="px-2 py-2 text-xs text-gray-700">
-                        {item.CR_2023_1 === 0 ? "No Info Available" : item.CR_2023_1}
+                        {item.CR_2023_1 === 0
+                          ? "No Info Available"
+                          : item.CR_2023_1}
                       </td>
                     )}
                     {columnVisibility.CR_2023_2 && (
                       <td className="px-2 py-2 text-xs text-gray-700">
-                        {item.CR_2023_2 === 0 ? "No Info Available" : item.CR_2023_2}
+                        {item.CR_2023_2 === 0
+                          ? "No Info Available"
+                          : item.CR_2023_2}
                       </td>
                     )}
                     {columnVisibility.CR_2023_3 && (
                       <td className="px-2 py-2 text-xs text-gray-700">
-                        {item.CR_2023_3 === 0 ? "No Info Available" : item.CR_2023_3}
+                        {item.CR_2023_3 === 0
+                          ? "No Info Available"
+                          : item.CR_2023_3}
                       </td>
                     )}
                     {columnVisibility.CR_2023_4 && (
                       <td className="px-2 py-2 text-xs text-gray-700">
-                        {item.CR_2023_4 === 0 ? "No Info Available" : item.CR_2023_4}
+                        {item.CR_2023_4 === 0
+                          ? "No Info Available"
+                          : item.CR_2023_4}
                       </td>
                     )}
                     {columnVisibility.CR_2023_5 && (
                       <td className="px-2 py-2 text-xs text-gray-700">
-                        {item.CR_2023_5 === 0 ? "No Info Available" : item.CR_2023_5}
+                        {item.CR_2023_5 === 0
+                          ? "No Info Available"
+                          : item.CR_2023_5}
                       </td>
                     )}
                     {columnVisibility.CR_2024_1 && (
                       <td className="px-2 py-2 text-xs text-gray-700">
-                        {item.CR_2024_1 === 0 ? "No Info Available" : item.CR_2024_1}
+                        {item.CR_2024_1 === 0
+                          ? "No Info Available"
+                          : item.CR_2024_1}
                       </td>
                     )}
                     {columnVisibility.CR_2024_2 && (
                       <td className="px-2 py-2 text-xs text-gray-700">
-                        {item.CR_2024_2 === 0 ? "No Info Available" : item.CR_2024_2}
+                        {item.CR_2024_2 === 0
+                          ? "No Info Available"
+                          : item.CR_2024_2}
                       </td>
                     )}
                     {columnVisibility.CR_2024_3 && (
                       <td className="px-2 py-2 text-xs text-gray-700">
-                        {item.CR_2024_3 === 0 ? "No Info Available" : item.CR_2024_3}
+                        {item.CR_2024_3 === 0
+                          ? "No Info Available"
+                          : item.CR_2024_3}
                       </td>
                     )}
                     {columnVisibility.CR_2024_4 && (
                       <td className="px-2 py-2 text-xs text-gray-700">
-                        {item.CR_2024_4 === 0 ? "No Info Available" : item.CR_2024_4}
+                        {item.CR_2024_4 === 0
+                          ? "No Info Available"
+                          : item.CR_2024_4}
                       </td>
                     )}
                     {columnVisibility.CR_2024_5 && (
                       <td className="px-2 py-2 text-xs text-gray-700">
-                        {item.CR_2024_5 === 0 ? "No Info Available" : item.CR_2024_5}
+                        {item.CR_2024_5 === 0
+                          ? "No Info Available"
+                          : item.CR_2024_5}
                       </td>
                     )}
                     {columnVisibility.actions && (
@@ -913,9 +1087,12 @@ const instituteTypes = ["all", "Government", "Private"];
         <div className="bg-white border-t border-gray-200 px-4 py-3">
           <div className="flex items-center justify-between">
             <div className="text-xs text-gray-600">
-              Showing {totalCount > 0 ? ((currentPage - 1) * itemsPerPage) + 1 : 0} to {Math.min(currentPage * itemsPerPage, totalCount)} of {totalCount} results
+              Showing{" "}
+              {totalCount > 0 ? (currentPage - 1) * itemsPerPage + 1 : 0} to{" "}
+              {Math.min(currentPage * itemsPerPage, totalCount)} of {totalCount}{" "}
+              results
             </div>
-            
+
             <div className="flex items-center space-x-1">
               <button
                 onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
@@ -924,7 +1101,7 @@ const instituteTypes = ["all", "Government", "Private"];
               >
                 <ChevronLeft className="w-3 h-3" />
               </button>
-              
+
               <div className="flex space-x-1">
                 {Array.from({ length: Math.min(5, totalPages) }, (_, i) => {
                   let pageNum;
@@ -935,7 +1112,7 @@ const instituteTypes = ["all", "Government", "Private"];
                     pageNum = start + i;
                     if (pageNum > totalPages) return null;
                   }
-                  
+
                   return (
                     <button
                       key={pageNum}
@@ -951,9 +1128,11 @@ const instituteTypes = ["all", "Government", "Private"];
                   );
                 })}
               </div>
-              
+
               <button
-                onClick={() => setCurrentPage(Math.min(totalPages, currentPage + 1))}
+                onClick={() =>
+                  setCurrentPage(Math.min(totalPages, currentPage + 1))
+                }
                 disabled={currentPage === totalPages || totalPages === 0}
                 className="p-1.5 border text-black border-gray-300 rounded hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
               >
