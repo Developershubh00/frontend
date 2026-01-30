@@ -1386,6 +1386,20 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "cdnbbsr.s3waas.gov.in ",
     created_at: "2026-01-29T08:00:00Z",
   },
+  {
+    id: 105,
+    title:
+      "Tripura PG Medical Counselling 2025 Round 3 Schedule Extended Until Further Notice",
+    content:
+      "Tripura PG Medical Counselling 2025 Round 3 Schedule Extended Until Further Notice",
+    date: "2026-01-30T08:00:00Z",
+    priority: "high",
+    category: "neet pg",
+    link: "https://cdnbbsr.s3waas.gov.in/s337e3ca9768a106f686626a07db6facff/uploads/2026/01/20260130350773252.pdf",
+    is_active: true,
+    source: "cdnbbsr.s3waas.gov.in ",
+    created_at: "2026-01-30T08:00:00Z",
+  },
 ];
 
 /**
