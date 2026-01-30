@@ -1127,7 +1127,7 @@ const AnnouncementPage: React.FC = () => {
                 <div>
                   <h1 className="text-4xl font-bold">📢 Announcements</h1>
                   <p className="text-blue-100 mt-1">
-                    Stay updated with NEET PG 2025
+                    Stay updated with NEET PG 2026
                   </p>
                 </div>
               </div>
