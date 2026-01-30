@@ -1389,6 +1389,20 @@ export const ANNOUNCEMENTS: Announcement[] = [
   {
     id: 105,
     title:
+      "FMGE December 2025 Result Declared: NBEMS Releases Scorecards on natboard.edu.in",
+    content:
+      "FMGE December 2025 Result Declared: NBEMS Releases Scorecards on natboard.edu.in",
+    date: "2026-01-29T08:00:00Z",
+    priority: "high",
+    category: "FMGE ",
+    link: "https://natboard.edu.in",
+    is_active: true,
+    source: "natboard ",
+    created_at: "2026-01-29T08:00:00Z",
+  },
+  {
+    id: 106,
+    title:
       "Tripura PG Medical Counselling 2025 Round 3 Schedule Extended Until Further Notice",
     content:
       "Tripura PG Medical Counselling 2025 Round 3 Schedule Extended Until Further Notice",
