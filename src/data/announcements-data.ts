@@ -1415,7 +1415,7 @@ export const ANNOUNCEMENTS: Announcement[] = [
     created_at: "2026-01-30T08:00:00Z",
   },
   {
-    id: 106,
+    id: 107,
     title:
       "NEET PG 2025 Round 3 Online Counseling Schedule: Important Dates for All India Quota, Deemed, Central Universities, and AFMS",
     content:
@@ -1429,7 +1429,7 @@ export const ANNOUNCEMENTS: Announcement[] = [
     created_at: "2026-01-30T08:00:00Z",
   },
   {
-    id: 106,
+    id: 108,
     title:
       "NEET PG 2025 Revised Counseling Schedule: Round 3 Important Dates for AIQ, State Quota, and Deemed Universities",
     content:
@@ -1438,6 +1438,19 @@ export const ANNOUNCEMENTS: Announcement[] = [
     priority: "high",
     category: "neet pg",
     link: "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/20260130981302429.pdf",
+    is_active: true,
+    source: "cdnbbsr.s3waas.gov.in ",
+    created_at: "2026-01-30T08:00:00Z",
+  },
+  {
+    id: 108,
+    title: "AIIMS INI CET 2026 Registration & Choice-Filling Deadline Extended",
+    content:
+      "AIIMS INI CET 2026 Registration & Choice-Filling Deadline Extended to February 7: Check How to Apply",
+    date: "2026-01-30T08:00:00Z",
+    priority: "high",
+    category: "AIIMS INI-CET",
+    link: "https://timesofindia.indiatimes.com/education/news/aiims-ini-cet-2026-registration-deadline-extended-check-how-to-apply-more-details-here/articleshow/127799562.cms?utm_source=chatgpt.com",
     is_active: true,
     source: "cdnbbsr.s3waas.gov.in ",
     created_at: "2026-01-30T08:00:00Z",
