@@ -159,6 +159,16 @@ const rawNotices: Omit<NoticeDocument, 'isNew'>[] = [
       "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/01/20260130981302429.pdf",
     size: "External",
   },
+
+  {
+    id: 17,
+    title:
+      "NEET PG 2025 Round 3 Provisional Result Out | MCC Notice Download",
+    date: "03.02.2026",
+    externalUrl:
+      "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/02/20260203602661925.pdf",
+    size: "External",
+  },
   
 ];
 
