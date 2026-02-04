@@ -1455,6 +1455,19 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "cdnbbsr.s3waas.gov.in ",
     created_at: "2026-01-30T08:00:00Z",
   },
+  {
+    id: 110,
+    title: "Supreme Court Issues Notice in PIL Challenging Reduced NEET-PG 2025 Cut-Off; Hearing on Feb 6",
+    content:
+      "Supreme Court Issues Notice in PIL Challenging Reduced NEET-PG 2025 Cut-Off; Hearing on Feb 6",
+    date: "2026-01-30T08:00:00Z",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://www.jagranjosh.com/news/neet-pg-admission-2025-sc-issues-notice-on-pil-against-reduced-neet-pg-cutoff-hearing-on-6-feb-182726",
+    is_active: true,
+    source: "jagranjosh. ",
+    created_at: "2026-02-04T08:00:00Z",
+  },
 ];
 
 /**
