@@ -304,7 +304,7 @@ export const notificationsData: Notification[] = [
     message:
       "",
     type: "urgent",
-    date: "Tue, 5 Feb 2026",
+    date: "thu, 5 Feb 2026",
     time: "2:30 PM",
     read: false,
     icon: "🔔",
@@ -315,7 +315,7 @@ export const notificationsData: Notification[] = [
     message:
       "",
     type: "urgent",
-    date: "Tue, 5 Feb 2026",
+    date: "Thu, 5 Feb 2026",
     time: "2:30 PM",
     read: false,
     icon: "🔔",
