@@ -46628,7 +46628,7 @@ export const blogPosts: BlogPost[] = [
 },
 {
   id: 111,
-  title: "After Clearing FMGE The Confusing Phase No One Warns You About",
+  title: " The Confusing Phase No One Warns You About After Clearing FMGE",
   slug: "after-clearing-fmge-confusing-phase-no-one-warns-you-about",
   excerpt: "After FMGE, many face an unexpected confusing phase with career choices, internships and next steps, a reality rarely discussed but widely felt.",
   featured_image: "https://cdn.dribbble.com/userupload/46634832/file/0f7078a20d93eedecfcf376c6ef8ea5f.jpg?w=1200&h=600&fit=crop",
