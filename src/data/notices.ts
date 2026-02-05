@@ -169,6 +169,23 @@ const rawNotices: Omit<NoticeDocument, 'isNew'>[] = [
       "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/02/20260203602661925.pdf",
     size: "External",
   },
+  {
+    id: 18,
+    title:
+      " Provisional  Counselling Seats Allotment -2025 Round 3",
+    date: "05.02.2026",
+    externalUrl:
+      "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/02/20260205613462011.pdf",
+    size: "External",
+  },{
+    id: 19,
+    title:
+      "Provisional result of Round",
+    date: "05.02.2026",
+    externalUrl:
+      "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/02/20260205884483979.pdf",
+    size: "External",
+  },
   
 ];
 

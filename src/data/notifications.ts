@@ -288,12 +288,34 @@ export const notificationsData: Notification[] = [
     icon: "🔔",
   },
   {
-    id: "8",
+    id: "9",
     title: "NEET PG 2025 Round 3 ",
     message:
       "NEET PG 2025 Round 3 Provisional Result Out | MCC Notice Download",
     type: "urgent",
     date: "Tue, 3 Feb 2026",
+    time: "2:30 PM",
+    read: false,
+    icon: "🔔",
+  },
+  {
+    id: "10",
+    title: "Provisional result of Round-3 ",
+    message:
+      "",
+    type: "urgent",
+    date: "Tue, 5 Feb 2026",
+    time: "2:30 PM",
+    read: false,
+    icon: "🔔",
+  },
+  {
+    id: "11",
+    title: "Provisional  Counselling Seats Allotment -2025 Round 3 ",
+    message:
+      "",
+    type: "urgent",
+    date: "Tue, 5 Feb 2026",
     time: "2:30 PM",
     read: false,
     icon: "🔔",
