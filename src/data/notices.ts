@@ -186,6 +186,15 @@ const rawNotices: Omit<NoticeDocument, 'isNew'>[] = [
       "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/02/20260205884483979.pdf",
     size: "External",
   },
+  {
+    id: 20,
+    title:
+      "MCC Urges NEET PG 2025 Round 3 Candidates: Download Allotment Letters & Report by Feb 6 Noon for Admission",
+    date: "06.02.2026",
+    externalUrl:
+      "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/02/202602061705647951.pdf",
+    size: "External",
+  },
   
 ];
 
