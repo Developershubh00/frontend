@@ -47387,7 +47387,7 @@ export const blogPosts: BlogPost[] = [
     "Medical Specialization",
     "General Medicine",
   ],
-  published_date: "2026-01-29",
+  published_date: "2026-02-09",
   read_time: 13,
   meta_title: "Is Geriatrics the Right Choice After MBBS?",
   meta_description: "Geriatrics after MBBS focuses on holistic elder care, chronic disease management, and quality of life, offering meaningful work in an aging population.",
