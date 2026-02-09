@@ -47364,6 +47364,366 @@ export const blogPosts: BlogPost[] = [
     },
   ],
 },
+{
+  id: 113,
+  title: "Is Geriatrics the Right Choice After MBBS?",
+  slug: "is-geriatrics-right-choice-after-mbbs",
+  excerpt: "Geriatrics after MBBS focuses on holistic elder care, chronic disease management, and quality of life, offering meaningful work in an aging population.",
+  featured_image: "https://cdn.dribbble.com/userupload/46676334/file/b81229ad8b61bf7140923b79b0b32f22.jpg?w=1200&h=600&fit=crop",
+  author: {
+    name: "Believers Team",
+    avatar: "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+    bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+  },
+  category: {
+    name: "NEET PG",
+    slug: "neet-pg",
+    color: "bg-green-100 text-green-800",
+  },
+  tags: [
+    "Geriatric Medicine",
+    "NEET PG Counselling 2026",
+    "Career Guidance",
+    "Medical Specialization",
+    "General Medicine",
+  ],
+  published_date: "2026-01-29",
+  read_time: 13,
+  meta_title: "Is Geriatrics the Right Choice After MBBS?",
+  meta_description: "Geriatrics after MBBS focuses on holistic elder care, chronic disease management, and quality of life, offering meaningful work in an aging population.",
+  keywords: [
+    "neet pg counselling",
+    "geriatric medicine residency",
+    "general medicine",
+    "neet pg counselling 2026",
+    "neet pg 2026 counselling",
+    "general medicine doctor",
+  ],
+  sections: [
+    {
+      id: "subtitle",
+      type: "heading",
+      title: "7 Crucial Factors you need to Consider Before going to pursue for Geriatric Medicine (NEET PG Counselling 2026)",
+      level: 2,
+    },
+    {
+      id: "intro",
+      type: "paragraph",
+      content: "You know pursuing postgraduate medical specialty is not just only about rank or seat availability; it is all about perfectly aligning your professional life with your disposition, expectations, and the long-term goals. There is one branch which is slowly gaining attention but it is still very misunderstood about Geriatric Medicine. You know with India's elderly population increasing rapidly, geriatrics is emerging as a relevant yet challenging specialty.",
+    },
+    {
+      id: "intro-consideration",
+      type: "paragraph",
+      content: "Before you finalize this choice during the neet pg counselling 2026 and neet pg 2026 counselling, here are the seven essential aspects you must clearly understand.",
+    },
+    {
+      id: "factor-1",
+      type: "heading",
+      title: "1. Understanding the Role of a Geriatrician",
+      level: 2,
+    },
+    {
+      id: "factor-1-intro",
+      type: "paragraph",
+      content: "A geriatrician is basically a physician which is dedicated to the healthcare of older adults. Just like general medicine, where you will treat patients across all age groups as a general medicine doctor, geriatrics basically focuses exclusively on the elderly.",
+    },
+    {
+      id: "factor-1-role",
+      type: "paragraph",
+      content: "Your role involves:",
+    },
+    {
+      id: "factor-1-role-list",
+      type: "list",
+      items: [
+        "The main thing is to manage the chronic medical illnesses in older patients",
+        "Along with coordinating referrals to the appropriate sub-specialties when it is required",
+        "Admitting patients and handling all the emergencies which are related to geriatric care",
+        "Addressing multiple co-morbidities rather than just isolated diseases",
+      ],
+    },
+    {
+      id: "factor-1-note",
+      type: "paragraph",
+      content: "However, this also means that you will not perfectly manage younger patients or diverse acute medical conditions, because of this some doctors may miss after training in general medicine.",
+    },
+    {
+      id: "factor-2",
+      type: "heading",
+      title: "2. Advantages of Choosing Geriatric Medicine",
+      level: 2,
+    },
+    {
+      id: "factor-2-intro",
+      type: "paragraph",
+      content: "Geriatrics is a rapidly evolving specialty, which is available in both India and internationally and is now being considered more seriously during neet pg counselling.",
+    },
+    {
+      id: "factor-2-advantages",
+      type: "paragraph",
+      content: "Key advantages include:",
+    },
+    {
+      id: "factor-2-advantages-list",
+      type: "list",
+      items: [
+        "It has been growing in demand due to increasing the overall life expectancy",
+        "The opportunities in India as well as abroad, especially when they want developed nations",
+        "A structured, physician-led role required rather than a procedure-heavy practice",
+        "The Potential for relatively better work-life balance which is compared to high-intensity specialties",
+      ],
+    },
+    {
+      id: "factor-2-recognition",
+      type: "paragraph",
+      content: "As healthcare systems begin to prioritize long-term and elderly care, where geriatrics is slowly gaining recognition as a very vital specialty.",
+    },
+    {
+      id: "factor-3",
+      type: "heading",
+      title: "3. Emotional and Professional Challenges",
+      level: 2,
+    },
+    {
+      id: "factor-3-intro",
+      type: "paragraph",
+      content: "While geriatrics offers the perfect stability, it also brings one of the most unique emotional demands, which aspirants should understand before locking their choices during neet pg counselling 2026.",
+    },
+    {
+      id: "factor-3-encounter",
+      type: "paragraph",
+      content: "You will regularly encounter:",
+    },
+    {
+      id: "factor-3-encounter-list",
+      type: "list",
+      items: [
+        "Frailty and functional decline",
+        "Dementia and cognitive disorders",
+        "End-of-life care and palliative decisions",
+      ],
+    },
+    {
+      id: "factor-3-challenges",
+      type: "paragraph",
+      content: "This can be very emotionally and exhausting as well for doctors who used to struggle with chronic illness, dependency, and mortality daily. Additionally, geriatrics does not always recognize the \"glamour\" of super-specialties, and so many patients consult organ-specific specialists instead of geriatricians.",
+    },
+    {
+      id: "factor-3-awareness",
+      type: "paragraph",
+      content: "Public awareness is much more about the role of geriatric medicine which always remains limited, which impacts the patient flow in some settings.",
+    },
+    {
+      id: "factor-4",
+      type: "heading",
+      title: "4. Residency Life and Training Exposure",
+      level: 2,
+    },
+    {
+      id: "factor-4-intro",
+      type: "paragraph",
+      content: "Geriatrics seats are very much limited and it is only available in selected institutes, while making competition notably despite the branch being less popular.",
+    },
+    {
+      id: "factor-4-conditions",
+      type: "paragraph",
+      content: "During geriatric medicine residency, you will manage conditions such as:",
+    },
+    {
+      id: "factor-4-conditions-list",
+      type: "list",
+      items: [
+        "You have to manage COPD and chronic respiratory disorders",
+        "Sometimes the stroke and neurological deficits",
+        "The heart failure and cardiovascular issues will effect",
+        "Infections spread common in elderly patients",
+      ],
+    },
+    {
+      id: "factor-4-exposure",
+      type: "paragraph",
+      content: "You will also gain exposure to:",
+    },
+    {
+      id: "factor-4-exposure-list",
+      type: "list",
+      items: [
+        "Palliative and end-of-life care as well",
+        "Functional assessment and rehabilitation help to gain the exposure",
+        "Management of age-related syndromes",
+      ],
+    },
+    {
+      id: "factor-4-comparison",
+      type: "paragraph",
+      content: "As compared to general medicine, the duty hours may be slightly lighter and toxic as well, but the high work demands the high levels of patience, empathy, and communication skills.",
+    },
+    {
+      id: "factor-5",
+      type: "heading",
+      title: "5. Geriatrics Is More Than Prescribing Medicines",
+      level: 2,
+    },
+    {
+      id: "factor-5-intro",
+      type: "paragraph",
+      content: "Elderly care stretches far beyond pharmacological treatment.",
+    },
+    {
+      id: "factor-5-focus",
+      type: "paragraph",
+      content: "As a geriatrician, you must focus on:",
+    },
+    {
+      id: "factor-5-focus-list",
+      type: "list",
+      items: [
+        "Proper nutrition and lifestyle modification for yourself",
+        "Recovery and mobility support",
+        "Psychological counselling",
+        "Social and family support systems as well",
+      ],
+    },
+    {
+      id: "factor-5-communication",
+      type: "paragraph",
+      content: "Older patients sometimes require the repeated explanations, proper reassurance, and the utmost emotional connection. Although the ability to communicate calmly and in an inhuman way is as important as clinical knowledge in this specialty. Especially for doctors coming from general medicine.",
+    },
+    {
+      id: "factor-6",
+      type: "heading",
+      title: "6. Scope and Future Growth",
+      level: 2,
+    },
+    {
+      id: "factor-6-intro",
+      type: "paragraph",
+      content: "The long-term outlook for geriatrics is highly promising, making it an important consideration during neet pg 2026 counselling.",
+    },
+    {
+      id: "factor-6-reasons",
+      type: "paragraph",
+      content: "Reasons include:",
+    },
+    {
+      id: "factor-6-reasons-list",
+      type: "list",
+      items: [
+        "There is a rapid rise in India's as well as for elderly population",
+        "There is an expansion of old-age homes, nursing facilities, and other hospice centers",
+        "Severe shortage of geriatric specialists abroad",
+      ],
+    },
+    {
+      id: "factor-7",
+      type: "heading",
+      title: "7. Job Opportunities, Salary, and Career Satisfaction",
+      level: 2,
+    },
+    {
+      id: "factor-7-currently",
+      type: "paragraph",
+      content: "Currently:",
+    },
+    {
+      id: "factor-7-currently-list",
+      type: "list",
+      items: [
+        "There will be select government medical colleges who have independent geriatrics departments",
+        "In this branch the job saturation is low due to the limited number of specialists",
+        "Corporate hospitals sometimes face lack dedicated geriatrics units",
+      ],
+    },
+    {
+      id: "factor-7-salary",
+      type: "paragraph",
+      content: "In hospitals where geriatrics exists, the starting salaries in corporates typically range between ₹2 -- 3.5 lakhs per month. Where as the Private practice is possible, but it regularly requires about the patient education, reputation building, and consistent outreach.",
+    },
+    {
+      id: "who-will-find",
+      type: "heading",
+      title: "Who Will Find Geriatrics Fulfilling?",
+      level: 2,
+    },
+    {
+      id: "who-will-find-list",
+      type: "list",
+      items: [
+        "Doctors who really enjoy for long-term patient interaction",
+        "Those who generally value the overall communication over procedures",
+        "Individuals who are comfortable with chronic care and end-of-life decisions",
+      ],
+    },
+    {
+      id: "who-will-find-conclusion",
+      type: "paragraph",
+      content: "The respect, gratitude, and trust from elderly patients can be deeply rewarding, often surpassing financial or academic metrics of success.",
+    },
+    {
+      id: "final-thoughts",
+      type: "heading",
+      title: "Final Thoughts: Should You Choose Geriatrics?",
+      level: 2,
+    },
+    {
+      id: "final-thoughts-para1",
+      type: "paragraph",
+      content: "Geriatric Medicine you know is not a branch for everyone. It basically demands emotional flexibility, patience, and a strong sense of overall purpose. However, for the doctors who are seeking meaningful patient relationships, stability, and a growing field as well, geriatrics medicine can offer a deeply satisfying career for all.",
+    },
+    {
+      id: "final-thoughts-para2",
+      type: "paragraph",
+      content: "Your preferred decision during neet pg counselling 2026 should not be driven by the trends alone, but by whether you can see yourself caring for the elderly with so much empathy, consistency, and commitment over decades.",
+    },
+    {
+      id: "faqs",
+      type: "heading",
+      title: "Frequently Asked Questions (FAQs)",
+      level: 2,
+    },
+    {
+      id: "faqs-list",
+      type: "faq",
+      faqs: [
+        {
+          question: "1. Is Geriatric Medicine a good option for NEET PG students with an average rank?",
+          answer: "Yes absolutely, but only if you are genuinely interested in elderly care. Then the rank alone should not drive this decision.",
+        },
+        {
+          question: "2. Can I shift to private practice after MD Geriatric Medicine?",
+          answer: "Yes, but success depends on patient awareness, referrals, and your communication skills.",
+        },
+        {
+          question: "3. Is geriatrics emotionally more difficult than other medical branches?",
+          answer: "It can be, due to chronic illness and end-of-life care. Emotional preparedness is essential.",
+        },
+        {
+          question: "4. Does Geriatric Medicine have international scope?",
+          answer: "Yes. Many developed countries actively recruit trained geriatricians due to aging populations.",
+        },
+      ],
+    },
+    {
+      id: "contact-form",
+      type: "contact-form",
+      title: "Submit queries to BelieversConsultancy",
+      content: "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/e/1FAIpQLSeIM6HYq_pg_mq6PK78YzdLn6KwaVQjyndn2CdJ8ThWWXvNOA/viewform",
+    },
+    {
+      id: "keywords",
+      type: "keywords",
+      title: "Related Keywords",
+      keywords: [
+        "neet pg counselling",
+        "geriatric medicine residency",
+        "general medicine",
+        "neet pg counselling 2026",
+        "neet pg 2026 counselling",
+        "general medicine doctor",
+      ],
+    },
+  ],
+}
 ];
 
 // Helper function to get blog by slug
