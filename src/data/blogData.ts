@@ -47369,7 +47369,7 @@ export const blogPosts: BlogPost[] = [
   title: "Is Geriatrics the Right Choice After MBBS?",
   slug: "is-geriatrics-right-choice-after-mbbs",
   excerpt: "Geriatrics after MBBS focuses on holistic elder care, chronic disease management, and quality of life, offering meaningful work in an aging population.",
-  featured_image: "https://cdn.dribbble.com/userupload/46676334/file/b81229ad8b61bf7140923b79b0b32f22.jpg?w=1200&h=600&fit=crop",
+  featured_image: "https://cdn.dribbble.com/userupload/46676334/file/0f4a3abf36e412c562ec7030f528d5be.jpg?w=1200&h=600&fit=crop",
   author: {
     name: "Believers Team",
     avatar: "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
