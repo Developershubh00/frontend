@@ -1444,7 +1444,7 @@
 // export default BlogDetail;
 
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
 import {
   Calendar,
@@ -1461,6 +1461,10 @@ import {
   AlertCircle,
   Tag as TagIcon
 } from "lucide-react";
+
+// Add these new imports
+import { useTextToSpeech } from '../hooks/useTextToSpeech';
+import { SpeakerButton } from '../components/SpeakerButton';
 
 // ✅ SEO imports
 import { SEOHead } from '../components/SEO/SEOHead';
@@ -1531,6 +1535,13 @@ const BlogDetail: React.FC = () => {
   const [relatedPosts, setRelatedPosts] = useState<BlogPost[]>([]);
   const [shareMenuOpen, setShareMenuOpen] = useState(false);
   const [tocOpen, setTocOpen] = useState(false);
+  // ✅ Add these new lines
+  const contentRef = useRef<HTMLDivElement>(null);
+  const { isPlaying, isPaused, toggle, stop } = useTextToSpeech(contentRef, {
+    autoScroll: true,
+    highlightColor: 'rgb(191, 219, 254)', // light blue
+    scrollOffset: 100
+  });
 
   useEffect(() => {
     if (slug) {
@@ -2036,9 +2047,18 @@ const readTime = post?.read_time || 5;
                 </div>
 
                 <div className="p-6 lg:p-8">
-                  <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 leading-tight">
-                    {post.title}
-                  </h1>
+                  <div className="flex items-start justify-between gap-4 mb-4">
+  <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 leading-tight flex-1">
+    {post.title}
+  </h1>
+  <SpeakerButton
+    isPlaying={isPlaying}
+    isPaused={isPaused}
+    onToggle={toggle}
+    onStop={stop}
+    className="flex-shrink-0"
+  />
+</div>
                   <p className="text-sm md:text-base text-gray-600 mb-6 leading-relaxed">
                     {post.excerpt}
                   </p>
@@ -2115,7 +2135,7 @@ const readTime = post?.read_time || 5;
               </article>
 
               {/* Blog Content */}
-              <div className="bg-white rounded-3xl shadow-lg p-6 lg:p-8 mb-8">
+              <div  ref={contentRef} className="bg-white rounded-3xl shadow-lg p-6 lg:p-8 mb-8">
                 <div className="prose prose-lg max-w-none">
                   {post.sections.map((section) => (
                     <div key={section.id}>
