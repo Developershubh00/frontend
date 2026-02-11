@@ -1463,7 +1463,7 @@ import {
 } from "lucide-react";
 
 // Add these new imports
-import { useTextToSpeech } from '../hooks/useTextToSpeech';
+import { useTextToSpeech } from '../hooks/useTextToSpeech_ULTRA_SIMPLE';
 import { SpeakerButton } from '../components/SpeakerButton';
 
 // ✅ SEO imports
@@ -1537,11 +1537,21 @@ const BlogDetail: React.FC = () => {
   const [tocOpen, setTocOpen] = useState(false);
   // ✅ Add these new lines
   const contentRef = useRef<HTMLDivElement>(null);
-  const { isPlaying, isPaused, toggle, stop } = useTextToSpeech(contentRef, {
-    autoScroll: true,
-    highlightColor: 'rgb(191, 219, 254)', // light blue
-    scrollOffset: 100
-  });
+  // NEW:
+const { 
+  isPlaying, 
+  isPaused, 
+  toggle, 
+  stop,
+  availableVoices,
+  currentVoice,
+  speed,
+  setVoice,
+  setSpeed
+} = useTextToSpeech(contentRef, {
+  autoScroll: true,
+  scrollOffset: 100
+});
 
   useEffect(() => {
     if (slug) {
@@ -2052,12 +2062,17 @@ const readTime = post?.read_time || 5;
     {post.title}
   </h1>
   <SpeakerButton
-    isPlaying={isPlaying}
-    isPaused={isPaused}
-    onToggle={toggle}
-    onStop={stop}
-    className="flex-shrink-0"
-  />
+  isPlaying={isPlaying}
+  isPaused={isPaused}
+  onToggle={toggle}
+  onStop={stop}
+  availableVoices={availableVoices}
+  currentVoice={currentVoice}
+  speed={speed}
+  onVoiceChange={setVoice}
+  onSpeedChange={setSpeed}
+  className="flex-shrink-0"
+/>
 </div>
                   <p className="text-sm md:text-base text-gray-600 mb-6 leading-relaxed">
                     {post.excerpt}
