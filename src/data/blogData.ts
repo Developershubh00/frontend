@@ -48056,7 +48056,7 @@ export const blogPosts: BlogPost[] = [
   ],
 },
 {
-  id: 114,
+  id: 115,
   title: "Respiratory Medicine After MBBS: Realities to Know Before Choosing",
   slug: "respiratory-medicine-after-mbbs-realities-to-know-before-choosing",
   excerpt: "Respiratory medicine after MBBS demands patience with chronic disease, emergency readiness, and evolving tech, offering impact beyond just OPD practice.",
