@@ -195,6 +195,15 @@ const rawNotices: Omit<NoticeDocument, 'isNew'>[] = [
       "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/02/202602061705647951.pdf",
     size: "External",
   },
+  {
+    id: 21,
+    title:
+      " Indian to NRI for Stray Vacancy Round of PG Counselling 2025-26",
+    date: "15.02.2026",
+    externalUrl:
+      "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/02/202602141596178960.pdf",
+    size: "External",
+  },
   
 ];
 
