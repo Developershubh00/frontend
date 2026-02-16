@@ -1460,13 +1460,26 @@ export const ANNOUNCEMENTS: Announcement[] = [
     title: "Supreme Court Issues Notice in PIL Challenging Reduced NEET-PG 2025 Cut-Off; Hearing on Feb 6",
     content:
       "Supreme Court Issues Notice in PIL Challenging Reduced NEET-PG 2025 Cut-Off; Hearing on Feb 6",
-    date: "2026-01-30T08:00:00Z",
+    date: "2026-02-04T08:00:00Z",
     priority: "high",
     category: "NEET PG",
     link: "https://www.jagranjosh.com/news/neet-pg-admission-2025-sc-issues-notice-on-pil-against-reduced-neet-pg-cutoff-hearing-on-6-feb-182726",
     is_active: true,
     source: "jagranjosh. ",
     created_at: "2026-02-04T08:00:00Z",
+  },
+  {
+    id: 111,
+    title: "MCC Issues Notice for NRI Category Conversion in NEET-PG",
+    content:
+      "MCC Issues Notice for NRI Category Conversion in NEET-PG Counselling 2025-26 — Candidates Must Submit Documents by Feb 16, 2026",
+    date: "2026-02-14T08:00:00Z",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/02/202602141596178960.pdf?utm_source=chatgpt.com",
+    is_active: true,
+    source: "jagranjosh. ",
+    created_at: "2026-02-14T08:00:00Z",
   },
 ];
 
