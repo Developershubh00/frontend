@@ -411,7 +411,7 @@ import {
   sortByDateDesc,
   formatDisplayDate,
   getRelativeTime,
-} from "./notificationsData";
+} from "../data/notifications";
 
 interface NotificationPopupProps {
   notifications: Notification[];

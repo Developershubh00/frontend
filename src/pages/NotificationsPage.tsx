@@ -570,7 +570,7 @@ import {
   formatDisplayDate,
   getRelativeTime,
   getUnreadCount,
-} from "./notificationsData";
+} from "../data/notifications";
 
 interface NotificationsPageProps {
   notifications: Notification[];
