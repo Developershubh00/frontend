@@ -48381,7 +48381,7 @@ export const blogPosts: BlogPost[] = [
     "NEET PG",
     "Postgraduate Training",
   ],
-  published_date: "2026-02-01",
+  published_date: "2026-02-15",
   read_time: 11,
   meta_title: "Why Para-Clinical PG Branches Deserve More Attention in Today's Medical Career Landscape",
   meta_description: "Para clinical PG branches offer balanced lifestyles strong academics research scope and evolving roles making them smart career choices in today's changing medical ecosystem.",
