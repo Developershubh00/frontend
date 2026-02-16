@@ -206,20 +206,212 @@
 //   });
 // };
 
+// export interface Notification {
+//   id: string;
+//   title: string;
+//   message: string;
+//   type: "info" | "success" | "warning" | "urgent";
+//   date: string; // ISO 8601 format: 2026-02-14T08:00:00Z
+//   read: boolean;
+//   link?: string;
+//   icon?: string;
+// }
+
+// export const notificationsData: Notification[] = [
+//   {
+//     id: "10",
+//     title: "Provisional Result of Round-3",
+//     message: "Provisional result of Round-3 is now available for download.",
+//     type: "urgent",
+//     date: "2026-02-05T14:30:00Z",
+//     read: false,
+//     icon: "🔔",
+//   },
+//   {
+//     id: "11",
+//     title: "Provisional Counselling Seats Allotment - 2025 Round 3",
+//     message: "Seat allotment for Round 3 counselling has been provisionally announced.",
+//     type: "urgent",
+//     date: "2026-02-05T10:00:00Z",
+//     read: false,
+//     icon: "🔔",
+//   },
+//   {
+//     id: "9",
+//     title: "NEET PG 2025 Round 3",
+//     message: "NEET PG 2025 Round 3 Provisional Result Out | MCC Notice Download",
+//     type: "urgent",
+//     date: "2026-02-03T14:30:00Z",
+//     read: false,
+//     icon: "🔔",
+//   },
+//   {
+//     id: "1",
+//     title: "MCC Updated Round 3 Seat Matrix for NEET PG 2025",
+//     message:
+//       "Medical Counselling Committee (MCC) has updated the Round 3 seat matrix for NEET PG 2025, including seats withdrawn and newly added before seat processing.",
+//     type: "urgent",
+//     date: "2026-01-29T14:30:00Z",
+//     read: false,
+//     icon: "🔔",
+//     link: "/notice",
+//   },
+//   {
+//     id: "2",
+//     title: "MCC Extends NEET PG 2025 Round-3 Counselling Choice Filling Amid New Seat Additions",
+//     message:
+//       "Choice filling window extended for Round-3 counselling due to new seat additions.",
+//     type: "urgent",
+//     date: "2026-01-28T14:30:00Z",
+//     read: false,
+//     icon: "🔔",
+//     link: "/notice",
+//   },
+//   {
+//     id: "3",
+//     title: "Assam NEET PG 2025 Round 3 Counselling Revised Schedule Announced by DME Assam",
+//     message: "DME Assam has released a revised schedule for Round 3 counselling.",
+//     type: "urgent",
+//     date: "2026-01-27T14:30:00Z",
+//     read: false,
+//     icon: "🔔",
+//     link: "/notice",
+//   },
+//   {
+//     id: "4",
+//     title: "PG Medical Counselling 2025: Choice Locking Facility to Open from 26 January 2026",
+//     message: "Choice locking facility will be available from tomorrow, 26 January 2026.",
+//     type: "urgent",
+//     date: "2026-01-26T14:30:00Z",
+//     read: false,
+//     icon: "🔔",
+//     link: "/notice",
+//   },
+//   {
+//     id: "5",
+//     title: "NEET PG Counselling 2025 Round 3: Virtual Vacancy List for MD/MS & DNB Seats",
+//     message: "Virtual vacancy list for MD/MS and DNB seats has been released for Round 3.",
+//     type: "urgent",
+//     date: "2026-01-22T14:30:00Z",
+//     read: false,
+//     icon: "🔔",
+//     link: "/notice",
+//   },
+//   {
+//     id: "6",
+//     title: "NEET PG Counselling 2025: Updated Clear Vacancy List for Round 3 (MD/MS & DNB Seats)",
+//     message: "Updated clear vacancy list for Round 3 MD/MS and DNB seats is now available.",
+//     type: "urgent",
+//     date: "2026-01-20T14:30:00Z",
+//     read: false,
+//     icon: "🔔",
+//     link: "/notice",
+//   },
+//   {
+//     id: "7",
+//     title: "Notice Dated: 12-01-2026",
+//     message:
+//       "All India Round 2 - Resignation has been extended till 01:00 PM of 30th Dec 2025.",
+//     type: "urgent",
+//     date: "2026-01-12T14:30:00Z",
+//     read: false,
+//     icon: "🔔",
+//     link: "/notice",
+//   },
+//   {
+//     id: "8",
+//     title: "All India PG Counselling - 2025",
+//     message:
+//       "All India Round 2 - Resignation has been extended till 01:00 PM of 30th Dec 2025.",
+//     type: "urgent",
+//     date: "2025-12-24T14:30:00Z",
+//     read: false,
+//     icon: "🔔",
+//   },
+// ];
+
+// // ── Helpers ────────────────────────────────────────────────────────────────────
+
+// /** Sort notifications newest-first (in-place safe copy) */
+// export const sortByDateDesc = (notifications: Notification[]): Notification[] =>
+//   [...notifications].sort(
+//     (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+//   );
+
+// /** Format ISO date string to human-readable display, e.g. "Tue, 5 Feb 2026 • 2:30 PM" */
+// export const formatDisplayDate = (isoDate: string): { date: string; time: string } => {
+//   const d = new Date(isoDate);
+//   const date = d.toLocaleDateString("en-IN", {
+//     weekday: "short",
+//     day: "numeric",
+//     month: "short",
+//     year: "numeric",
+//     timeZone: "Asia/Kolkata",
+//   });
+//   const time = d.toLocaleTimeString("en-IN", {
+//     hour: "2-digit",
+//     minute: "2-digit",
+//     hour12: true,
+//     timeZone: "Asia/Kolkata",
+//   });
+//   return { date, time };
+// };
+
+// /** Relative time label, e.g. "2 hours ago", "3 days ago" */
+// export const getRelativeTime = (isoDate: string): string => {
+//   const diff = Date.now() - new Date(isoDate).getTime();
+//   const minutes = Math.floor(diff / 60_000);
+//   if (minutes < 1) return "Just now";
+//   if (minutes < 60) return `${minutes}m ago`;
+//   const hours = Math.floor(minutes / 60);
+//   if (hours < 24) return `${hours}h ago`;
+//   const days = Math.floor(hours / 24);
+//   if (days < 30) return `${days}d ago`;
+//   const months = Math.floor(days / 30);
+//   return `${months}mo ago`;
+// };
+
+// export const getUnreadCount = (notifications: Notification[]): number =>
+//   notifications.filter((n) => !n.read).length;
+
+// export const markAsRead = (
+//   notifications: Notification[],
+//   id: string
+// ): Notification[] =>
+//   notifications.map((n) => (n.id === id ? { ...n, read: true } : n));
+
+// export const markAllAsRead = (notifications: Notification[]): Notification[] =>
+//   notifications.map((n) => ({ ...n, read: true }));
+
+// export const getNotificationsByType = (
+//   notifications: Notification[],
+//   type: string
+// ): Notification[] => notifications.filter((n) => n.type === type);
+
+// /** Latest N notifications sorted newest-first */
+// export const getLatestNotifications = (
+//   notifications: Notification[],
+//   limit?: number
+// ): Notification[] => {
+//   const sorted = sortByDateDesc(notifications);
+//   return limit ? sorted.slice(0, limit) : sorted;
+// };
+
 export interface Notification {
   id: string;
   title: string;
   message: string;
   type: "info" | "success" | "warning" | "urgent";
-  date: string; // ISO 8601 format: 2026-02-14T08:00:00Z
+  date: string; // ISO 8601: "2026-02-05T14:30:00Z"
   read: boolean;
   link?: string;
   icon?: string;
 }
 
+// ─── Raw data (order here does NOT matter — always sort before using) ─────────
 export const notificationsData: Notification[] = [
   {
-    id: "10",
+    id: "a",
     title: "Provisional Result of Round-3",
     message: "Provisional result of Round-3 is now available for download.",
     type: "urgent",
@@ -228,7 +420,7 @@ export const notificationsData: Notification[] = [
     icon: "🔔",
   },
   {
-    id: "11",
+    id: "b",
     title: "Provisional Counselling Seats Allotment - 2025 Round 3",
     message: "Seat allotment for Round 3 counselling has been provisionally announced.",
     type: "urgent",
@@ -237,19 +429,19 @@ export const notificationsData: Notification[] = [
     icon: "🔔",
   },
   {
-    id: "9",
-    title: "NEET PG 2025 Round 3",
-    message: "NEET PG 2025 Round 3 Provisional Result Out | MCC Notice Download",
+    id: "c",
+    title: "NEET PG 2025 Round 3 Provisional Result Out | MCC Notice Download",
+    message: "NEET PG 2025 Round 3 Provisional Result is out. Download the MCC notice.",
     type: "urgent",
     date: "2026-02-03T14:30:00Z",
     read: false,
     icon: "🔔",
   },
   {
-    id: "1",
+    id: "d",
     title: "MCC Updated Round 3 Seat Matrix for NEET PG 2025",
     message:
-      "Medical Counselling Committee (MCC) has updated the Round 3 seat matrix for NEET PG 2025, including seats withdrawn and newly added before seat processing.",
+      "Medical Counselling Committee (MCC) has updated the Round 3 seat matrix, including seats withdrawn and newly added before seat processing.",
     type: "urgent",
     date: "2026-01-29T14:30:00Z",
     read: false,
@@ -257,10 +449,9 @@ export const notificationsData: Notification[] = [
     link: "/notice",
   },
   {
-    id: "2",
+    id: "e",
     title: "MCC Extends NEET PG 2025 Round-3 Counselling Choice Filling Amid New Seat Additions",
-    message:
-      "Choice filling window extended for Round-3 counselling due to new seat additions.",
+    message: "Choice filling window extended for Round-3 counselling due to new seat additions.",
     type: "urgent",
     date: "2026-01-28T14:30:00Z",
     read: false,
@@ -268,7 +459,7 @@ export const notificationsData: Notification[] = [
     link: "/notice",
   },
   {
-    id: "3",
+    id: "f",
     title: "Assam NEET PG 2025 Round 3 Counselling Revised Schedule Announced by DME Assam",
     message: "DME Assam has released a revised schedule for Round 3 counselling.",
     type: "urgent",
@@ -278,7 +469,7 @@ export const notificationsData: Notification[] = [
     link: "/notice",
   },
   {
-    id: "4",
+    id: "g",
     title: "PG Medical Counselling 2025: Choice Locking Facility to Open from 26 January 2026",
     message: "Choice locking facility will be available from tomorrow, 26 January 2026.",
     type: "urgent",
@@ -288,7 +479,7 @@ export const notificationsData: Notification[] = [
     link: "/notice",
   },
   {
-    id: "5",
+    id: "h",
     title: "NEET PG Counselling 2025 Round 3: Virtual Vacancy List for MD/MS & DNB Seats",
     message: "Virtual vacancy list for MD/MS and DNB seats has been released for Round 3.",
     type: "urgent",
@@ -298,7 +489,7 @@ export const notificationsData: Notification[] = [
     link: "/notice",
   },
   {
-    id: "6",
+    id: "i",
     title: "NEET PG Counselling 2025: Updated Clear Vacancy List for Round 3 (MD/MS & DNB Seats)",
     message: "Updated clear vacancy list for Round 3 MD/MS and DNB seats is now available.",
     type: "urgent",
@@ -308,10 +499,9 @@ export const notificationsData: Notification[] = [
     link: "/notice",
   },
   {
-    id: "7",
-    title: "Notice Dated: 12-01-2026",
-    message:
-      "All India Round 2 - Resignation has been extended till 01:00 PM of 30th Dec 2025.",
+    id: "j",
+    title: "Notice Dated 12-01-2026",
+    message: "All India Round 2 - Resignation has been extended till 01:00 PM of 30th Dec 2025.",
     type: "urgent",
     date: "2026-01-12T14:30:00Z",
     read: false,
@@ -319,10 +509,9 @@ export const notificationsData: Notification[] = [
     link: "/notice",
   },
   {
-    id: "8",
+    id: "k",
     title: "All India PG Counselling - 2025",
-    message:
-      "All India Round 2 - Resignation has been extended till 01:00 PM of 30th Dec 2025.",
+    message: "All India Round 2 - Resignation has been extended till 01:00 PM of 30th Dec 2025.",
     type: "urgent",
     date: "2025-12-24T14:30:00Z",
     read: false,
@@ -330,69 +519,53 @@ export const notificationsData: Notification[] = [
   },
 ];
 
-// ── Helpers ────────────────────────────────────────────────────────────────────
-
-/** Sort notifications newest-first (in-place safe copy) */
-export const sortByDateDesc = (notifications: Notification[]): Notification[] =>
-  [...notifications].sort(
+// ─── SORT: newest date first — use this EVERYWHERE before displaying ──────────
+export const sortByDateDesc = (list: Notification[]): Notification[] =>
+  [...list].sort(
     (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
   );
 
-/** Format ISO date string to human-readable display, e.g. "Tue, 5 Feb 2026 • 2:30 PM" */
-export const formatDisplayDate = (isoDate: string): { date: string; time: string } => {
+// ─── Format ISO date → human-readable { date, time } strings ─────────────────
+export const formatDisplayDate = (
+  isoDate: string
+): { date: string; time: string } => {
   const d = new Date(isoDate);
-  const date = d.toLocaleDateString("en-IN", {
-    weekday: "short",
-    day: "numeric",
-    month: "short",
-    year: "numeric",
-    timeZone: "Asia/Kolkata",
-  });
-  const time = d.toLocaleTimeString("en-IN", {
-    hour: "2-digit",
-    minute: "2-digit",
-    hour12: true,
-    timeZone: "Asia/Kolkata",
-  });
-  return { date, time };
+  return {
+    date: d.toLocaleDateString("en-IN", {
+      weekday: "short",
+      day: "numeric",
+      month: "short",
+      year: "numeric",
+      timeZone: "Asia/Kolkata",
+    }),
+    time: d.toLocaleTimeString("en-IN", {
+      hour: "2-digit",
+      minute: "2-digit",
+      hour12: true,
+      timeZone: "Asia/Kolkata",
+    }),
+  };
 };
 
-/** Relative time label, e.g. "2 hours ago", "3 days ago" */
+// ─── Relative label: "3d ago", "2h ago", etc. ────────────────────────────────
 export const getRelativeTime = (isoDate: string): string => {
-  const diff = Date.now() - new Date(isoDate).getTime();
-  const minutes = Math.floor(diff / 60_000);
-  if (minutes < 1) return "Just now";
-  if (minutes < 60) return `${minutes}m ago`;
-  const hours = Math.floor(minutes / 60);
-  if (hours < 24) return `${hours}h ago`;
-  const days = Math.floor(hours / 24);
+  const ms = Date.now() - new Date(isoDate).getTime();
+  const mins = Math.floor(ms / 60_000);
+  if (mins < 1) return "Just now";
+  if (mins < 60) return `${mins}m ago`;
+  const hrs = Math.floor(mins / 60);
+  if (hrs < 24) return `${hrs}h ago`;
+  const days = Math.floor(hrs / 24);
   if (days < 30) return `${days}d ago`;
-  const months = Math.floor(days / 30);
-  return `${months}mo ago`;
+  return `${Math.floor(days / 30)}mo ago`;
 };
 
-export const getUnreadCount = (notifications: Notification[]): number =>
-  notifications.filter((n) => !n.read).length;
+// ─── Standard helpers ─────────────────────────────────────────────────────────
+export const getUnreadCount = (list: Notification[]): number =>
+  list.filter((n) => !n.read).length;
 
-export const markAsRead = (
-  notifications: Notification[],
-  id: string
-): Notification[] =>
-  notifications.map((n) => (n.id === id ? { ...n, read: true } : n));
+export const markAsRead = (list: Notification[], id: string): Notification[] =>
+  list.map((n) => (n.id === id ? { ...n, read: true } : n));
 
-export const markAllAsRead = (notifications: Notification[]): Notification[] =>
-  notifications.map((n) => ({ ...n, read: true }));
-
-export const getNotificationsByType = (
-  notifications: Notification[],
-  type: string
-): Notification[] => notifications.filter((n) => n.type === type);
-
-/** Latest N notifications sorted newest-first */
-export const getLatestNotifications = (
-  notifications: Notification[],
-  limit?: number
-): Notification[] => {
-  const sorted = sortByDateDesc(notifications);
-  return limit ? sorted.slice(0, limit) : sorted;
-};
+export const markAllAsRead = (list: Notification[]): Notification[] =>
+  list.map((n) => ({ ...n, read: true }));
