@@ -747,7 +747,7 @@ const rawNotifications: Omit<Notification, "isNew">[] = [
     title: "Indian to NRI for Stray Vacancy Round of PG Counselling 2025-26",
     message: "Seat allotment for Round 3 counselling has been provisionally announced.",
     type: "urgent",
-    date: "15.02.2026",
+    date: "14.02.2026",
     time: "10:00 AM",
     read: false,
     icon: "🔔",
