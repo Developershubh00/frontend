@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { MessageCircle } from "lucide-react";
+import { trackWhatsAppClick } from "../hooks/trackEvents";
+
 
 /**
  * WhatsAppSupport Component
@@ -13,6 +15,9 @@ const WhatsAppSupport: React.FC = () => {
    * Shows connecting popup then redirects to WhatsApp
    */
   const handleWhatsAppClick = () => {
+
+     // ✅ Track click first
+    trackWhatsAppClick(); 
     setShowPopup(true);
     
     // Redirect to WhatsApp after brief delay

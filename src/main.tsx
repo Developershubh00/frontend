@@ -4,6 +4,17 @@ import App from './App';
 import ErrorBoundary from './components/ErrorBoundary';
 import './index.css';
 
+// ── ANALYTICS INIT ──────────────────────────────────
+import ReactGA from 'react-ga4';
+import ReactPixel from 'react-facebook-pixel';
+ 
+ReactGA.initialize('G-455L68YRG0');
+ 
+ReactPixel.init('1191321999595048', {}, { autoConfig: true, debug: false });
+ReactPixel.pageView();
+// ─────────────────────────────────────────────────────
+
+
 const rootElement = document.getElementById('root');
 
 if (rootElement) {

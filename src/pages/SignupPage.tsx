@@ -367,6 +367,7 @@ import {
 } from "lucide-react";
 import { useAuth } from "../contexts/AuthContext";
 import CustomSelect from "../components/CustomSelect";
+import { trackSignup } from '../hooks/trackEvents';
 
 /**
  * Signup Page Component
@@ -461,7 +462,7 @@ const SignupPage: React.FC = () => {
       
       // Also send to Google Sheets (non-blocking)
       sendToGoogleSheets(signupData);
-      
+      trackSignup();   
       navigate("/dashboard");
     } catch (error: any) {
       setError(error.message);

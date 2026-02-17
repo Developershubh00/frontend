@@ -13,7 +13,10 @@ const SupportPage = () => {
   const navigate = useNavigate();
 
   /**
-   * Handle WhatsApp button click
+   * Handle 
+   * 
+   * 
+   * click
    * Opens WhatsApp with pre-filled message
    */
   const handleWhatsAppClick = () => {

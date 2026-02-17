@@ -192,6 +192,7 @@ import {
   AlertCircle,
 } from "lucide-react";
 import { useAuth } from "../contexts/AuthContext";
+import { trackLogin } from '../hooks/trackEvents';
 
 /**
  * Login Page Component
@@ -219,6 +220,7 @@ const LoginPage: React.FC = () => {
 
     try {
       await login(email, password);
+      trackLogin();   
       navigate("/dashboard");
     } catch (error: any) {
       setError(error.message);
