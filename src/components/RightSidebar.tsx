@@ -185,15 +185,15 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
       id: 13,
       date: "11th Jan '26 to 17th Jan '26",
       event: "Last Date of Joining (Round 3)",
-      status: "upcoming",
-      isHighlight: true,
+      status: "completed",
+      // isHighlight: true,
     },
     {
       id: 14,
       date: "15th Jan '26 to 24th Jan '26",
       event: "Stray Vacancy Round",
       status: "upcoming",
-      // isHighlight: true,
+      isHighlight: true,
     },
     {
       id: 15,
