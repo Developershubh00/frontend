@@ -7,7 +7,7 @@
 //   useEffect(() => {
 //     // Track page view in Google Analytics
 //     if (window.gtag) {
-//       window.gtag('config', 'G-455L68YRG0', {
+//       window.gtag('config', 'G-WHDNY2WK54', {
 //         page_path: location.pathname + location.search,
 //       });
 //     }
@@ -25,7 +25,7 @@ export const usePageTracking = () => {
   useEffect(() => {
     // ── GA4 via gtag (your existing method) ──────────
     if (window.gtag) {
-      window.gtag('config', 'G-455L68YRG0', {
+      window.gtag('config', 'G-WHDNY2WK54', {
         page_path: location.pathname + location.search,
       });
     }

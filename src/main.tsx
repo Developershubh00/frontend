@@ -8,7 +8,7 @@ import './index.css';
 import ReactGA from 'react-ga4';
 import ReactPixel from 'react-facebook-pixel';
  
-ReactGA.initialize('G-455L68YRG0');
+ReactGA.initialize('G-WHDNY2WK54');
  
 ReactPixel.init('1191321999595048', {}, { autoConfig: true, debug: false });
 ReactPixel.pageView();
