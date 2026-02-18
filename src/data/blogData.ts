@@ -48714,7 +48714,7 @@ export const blogPosts: BlogPost[] = [
   },
   tags: [
     "NEET PG",
-    "Grand Tests",
+    
     "Exam Preparation",
     "Study Strategy",
     "Mental Health",
