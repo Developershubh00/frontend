@@ -1481,6 +1481,19 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "jagranjosh. ",
     created_at: "2026-02-14T08:00:00Z",
   },
+  {
+    id: 112,
+    title: "NEET PG Choice Filling for Stray Vacancy Round Extended",
+    content:
+      "NEET PG Choice Filling for Stray Vacancy Round Extended; Choice Locking Opens Early Morning",
+    date: "2026-02-19T08:00:00Z",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://mcc.nic.in",
+    is_active: true,
+    source: "Official PG Medical Counselling Website ",
+    created_at: "2026-02-19T08:00:00Z",
+  },
 ];
 
 /**
