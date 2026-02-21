@@ -204,6 +204,24 @@ const rawNotices: Omit<NoticeDocument, 'isNew'>[] = [
       "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/02/202602141596178960.pdf",
     size: "External",
   },
+   {
+    id: 22,
+    title:
+      "INI-CET January 2026 Open Round Seat Allocation Result Released for MD/MS/MCh/DM Courses",
+    date: "21.02.2026",
+    externalUrl:
+      "https://believersdestination1-my.sharepoint.com/:b:/g/personal/ishita_agarwal_believersdestination_com/IQDbQbLfJ6T9RLJOiJZ8Ul7fAfmFFauRyJbNF_wGLZsEdPI?e=LJES9c",
+    size: "External",
+  },
+  {
+    id: 23,
+    title:
+      "NEET PG 2025 Provisional Stray Vacancy Round Seat Allotment Released; Quota & Category Details Notified",
+    date: "21.02.2026",
+    externalUrl:
+      "https://believersdestination1-my.sharepoint.com/:b:/g/personal/ishita_agarwal_believersdestination_com/IQCbGUvYkCSyQoRnuYsRhUrRAedD0EwqbRm4URDEQevsvfk?e=YQUp1J",
+    size: "External",
+  },
   
 ];
 

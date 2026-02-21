@@ -1494,6 +1494,32 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "Official PG Medical Counselling Website ",
     created_at: "2026-02-19T08:00:00Z",
   },
+  {
+    id: 113,
+    title: "INI-CET January 2026 Open Round Seat Allocation Result Released for MD/MS/MCh/DM Courses",
+    content:
+      "INI-CET January 2026 Open Round Seat Allocation Result Released for MD/MS/MCh/DM Courses",
+    date: "2026-02-21T08:00:00Z",
+    priority: "high",
+    category: "INI CET",
+    link: "https://believersdestination1-my.sharepoint.com/:b:/g/personal/ishita_agarwal_believersdestination_com/IQDbQbLfJ6T9RLJOiJZ8Ul7fAfmFFauRyJbNF_wGLZsEdPI?e=LJES9c",
+    is_active: true,
+    source: "All India Institute of Medical Sciences (AIIMS), Examination Section",
+    created_at: "2026-02-21T08:00:00Z",
+  },
+  {
+    id: 114,
+    title: "NEET PG 2025 Provisional Stray Vacancy Round Seat Allotment Released; Quota & Category Details Notified",
+    content:
+      "NEET PG 2025 Provisional Stray Vacancy Round Seat Allotment Released; Quota & Category Details Notified",
+    date: "2026-02-21T08:00:00Z",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://mcc.nic.in/",
+    is_active: true,
+    source: "Medical Counselling Committee (MCC), NEET-PG Counselling",
+    created_at: "2026-02-21T08:00:00Z",
+  },
 ];
 
 /**
