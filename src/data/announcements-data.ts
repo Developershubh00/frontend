@@ -1520,6 +1520,19 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "Medical Counselling Committee (MCC), NEET-PG Counselling",
     created_at: "2026-02-21T08:00:00Z",
   },
+  {
+    id: 115,
+    title: "MCC Withdraws Select PG Counselling Seats Ahead of Stray Vacancy Round",
+    content:
+      "MCC Withdraws Select PG Counselling Seats Ahead of Stray Vacancy Round: What NEET PG Aspirants Should Know 23 Feb 2026",
+    date: "2026-02-23T08:00:00Z",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/02/202602231445700432.pdf",
+    is_active: true,
+    source: "Medical Counselling Committee (MCC), NEET-PG Counselling",
+    created_at: "2026-02-23T08:00:00Z",
+  },
 ];
 
 /**
