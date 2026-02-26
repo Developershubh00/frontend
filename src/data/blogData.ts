@@ -49333,7 +49333,7 @@ export const blogPosts: BlogPost[] = [
     "Sustainable Career",
     "Medical Professionals",
   ],
-  published_date: "2026-02-04",
+  published_date: "2026-02-26",
   read_time: 12,
   meta_title: "What Makes a Medical Career Sustainable: Why Guidance and Counselling Matter",
   meta_description: "Medical aspirants can explore expert guidance and counselling support to build a sustainable career in medicine and achieve long term professional excellence.",
