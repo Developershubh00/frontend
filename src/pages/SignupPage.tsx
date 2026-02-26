@@ -32,7 +32,7 @@ const SignupPage: React.FC = () => {
     phone: "",
     password: "",
     confirmPassword: "",
-    neetRank: "",
+    neetrank: "",
     category: "",
     state: "",
   });
@@ -122,7 +122,13 @@ try {
   const utmData = getStoredUTMs();   // ← reads from sessionStorage
  
   const fullPayload = {
-    ...signupData,                   // name, email, phone, neetRank, category, state, password
+    name:         signupData.name,
+  email:        signupData.email,
+  phone:        signupData.phone,
+  password:     signupData.password,
+  neet_rank:    signupData.neetrank,    // ✅ correct snake_case
+  category:     signupData.category,
+  state:        signupData.state,                   // name, email, phone, neetRank, category, state, password
     utm_source:   utmData.utm_source,
     utm_medium:   utmData.utm_medium,
     utm_campaign: utmData.utm_campaign,
