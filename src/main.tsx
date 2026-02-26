@@ -3,6 +3,8 @@ import { createRoot } from 'react-dom/client';
 import App from './App';
 import ErrorBoundary from './components/ErrorBoundary';
 import './index.css';
+// ── ADD: import at the top of main.tsx ──────────────────────────
+import { captureUTMs } from './utils/utmTracker';
 
 // ── ANALYTICS INIT ──────────────────────────────────
 import ReactGA from 'react-ga4';
@@ -13,6 +15,8 @@ ReactGA.initialize('G-WHDNY2WK54');
 ReactPixel.init('1191321999595048', {}, { autoConfig: true, debug: false });
 ReactPixel.pageView();
 // ─────────────────────────────────────────────────────
+// ── ADD: call it BEFORE ReactDOM.createRoot ──────────────────────
+captureUTMs();
 
 
 const rootElement = document.getElementById('root');
