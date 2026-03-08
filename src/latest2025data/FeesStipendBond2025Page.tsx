@@ -1,0 +1,79 @@
+import React from "react";
+import { ArrowLeft, Clock } from "lucide-react";
+
+interface FeesStipendBond2025PageProps {
+  onBack: () => void;
+}
+
+/**
+ * FeesStipendBond2025Page
+ *
+ * Currently shows "Coming Soon" while 2025 data is being prepared.
+ *
+ * WHEN 2025 DATA IS READY:
+ * Replace the content inside the white card below with the full
+ * FeesStipendBondPage table logic, pointing to your 2025 CSV/API.
+ * Keep the header and onBack button unchanged.
+ */
+const FeesStipendBond2025Page: React.FC<FeesStipendBond2025PageProps> = ({
+  onBack,
+}) => {
+  return (
+    <div className="flex min-h-screen bg-gray-50 flex-col">
+      {/* Header */}
+      <div className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-4 py-3">
+        <div className="flex items-center space-x-3">
+          <button
+            onClick={onBack}
+            className="p-1.5 hover:bg-white/20 rounded-lg transition-colors"
+          >
+            <ArrowLeft className="w-4 h-4" />
+          </button>
+          <div>
+            <h1 className="text-lg font-semibold">Fees, Stipend &amp; Bond</h1>
+            <p className="text-xs text-purple-100">2025 Session</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Coming Soon */}
+      <div className="flex-1 flex items-center justify-center p-8">
+        <div className="bg-white rounded-2xl shadow-lg border border-gray-100 p-10 text-center max-w-md w-full">
+          <div className="w-20 h-20 bg-gradient-to-br from-purple-100 to-pink-200 rounded-full flex items-center justify-center mx-auto mb-5">
+            <Clock className="w-10 h-10 text-purple-500" />
+          </div>
+          <div className="inline-flex items-center gap-2 px-3 py-1 bg-purple-50 border border-purple-200 rounded-full mb-4">
+            <span className="w-2 h-2 bg-purple-500 rounded-full animate-pulse" />
+            <span className="text-xs font-semibold text-purple-600 uppercase tracking-wide">
+              Coming Soon
+            </span>
+          </div>
+          <h2 className="text-xl font-bold text-gray-800 mb-3">
+            2025 Fees &amp; Stipend Data
+          </h2>
+          <p className="text-gray-500 text-sm leading-relaxed mb-6">
+            Updated 2025 fee structure, stipend amounts and bond details
+            will appear here once officially released by MCC.
+          </p>
+          <div className="flex justify-center gap-1.5 mb-6">
+            {[0, 1, 2].map((i) => (
+              <div
+                key={i}
+                className="w-2 h-2 bg-purple-400 rounded-full animate-bounce"
+                style={{ animationDelay: `${i * 0.18}s` }}
+              />
+            ))}
+          </div>
+          <button
+            onClick={onBack}
+            className="px-6 py-2.5 bg-purple-600 text-white rounded-xl font-medium hover:bg-purple-700 transition-colors text-sm"
+          >
+            ← Go Back
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default FeesStipendBond2025Page;
