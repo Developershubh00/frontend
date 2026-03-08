@@ -36,6 +36,8 @@ function Homepage() {
   const [chaosVisible, setChaosVisible] = useState(false);
   const [featuresVisible, setFeaturesVisible] = useState(false);
   const [reviewsVisible, setReviewsVisible] = useState(false);
+  const [isCounsellingOpen, setIsCounsellingOpen] = useState(false);
+
 
   const heroRef = useRef<HTMLDivElement>(null);
   const dashboardRef = useRef<HTMLDivElement>(null);
@@ -43,6 +45,8 @@ function Homepage() {
   const featuresRef = useRef<HTMLDivElement>(null);
   const reviewsRef = useRef<HTMLDivElement>(null);
   const navigate = useNavigate();
+  // NEW: Counsellings dropdown ref
+  const counsellingDropdownRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const observerOptions = {
@@ -74,6 +78,29 @@ function Homepage() {
 
     return () => observer.disconnect();
   }, []);
+
+  // NEW: Close counselling dropdown on outside click
+  useEffect(() => {
+    const handleClick = (e: MouseEvent) => {
+      if (
+        counsellingDropdownRef.current &&
+        !counsellingDropdownRef.current.contains(e.target as Node)
+      ) {
+        setIsCounsellingOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClick);
+    return () => document.removeEventListener("mousedown", handleClick);
+  }, []);
+
+  // NEW: Counselling dropdown items
+  const counsellingDropdownItems = [
+    { label: "NEET PG", path: "/neet-pg" },
+    { label: "NEET UG", path: "/neet-ug" },
+    { label: "INICET", path: "/inicet" },
+    { label: "NEET SS", path: "/neet-ss" },
+    { label: "DNB PDCET", path: "/dnb-pdcet" },
+  ];
 
   const stats = [
     { number: "15+", label: "Years of", sublabel: "experience" },
@@ -380,6 +407,39 @@ function Homepage() {
                   Testimonials
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
                 </a> */}
+
+                {/* Counsellings Dropdown */}
+                <div className="relative" ref={counsellingDropdownRef}>
+                  <button
+                    onClick={() => setIsCounsellingOpen(!isCounsellingOpen)}
+                    className="flex items-center gap-1.5 text-gray-700 hover:text-blue-600 transition-all duration-300 font-medium relative group"
+                  >
+                    Counsellings
+                    <ChevronDown
+                      className={`w-4 h-4 transition-transform duration-200 ${
+                        isCounsellingOpen ? "rotate-180" : ""
+                      }`}
+                    />
+                    <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                  </button>
+                  {isCounsellingOpen && (
+                    <div className="absolute top-full left-0 mt-2 w-52 bg-white rounded-2xl shadow-2xl border border-gray-100 py-2 z-50">
+                      {counsellingDropdownItems.map((item) => (
+                        <button
+                          key={item.label}
+                          onClick={() => {
+                            navigate(item.path);
+                            setIsCounsellingOpen(false);
+                          }}
+                          className="w-full text-left px-4 py-2.5 text-sm font-medium text-gray-700 transition-colors hover:bg-blue-50 hover:text-blue-600 first:rounded-t-xl last:rounded-b-xl"
+                        >
+                          {item.label}
+                        </button>
+                      ))}
+                    </div>
+                  )}
+                </div>
+
                 <a
                   onClick={() => navigate("/blog")}
                   className="text-gray-700 hover:text-blue-600 transition-all duration-300 font-medium relative group"
@@ -448,6 +508,24 @@ function Homepage() {
                 >
                   🎉 INICET Results Out! Check Now
                 </a>
+                {/* Counsellings section in mobile */}
+                <div className="px-3 py-2">
+                  <p className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">
+                    Counsellings
+                  </p>
+                  {counsellingDropdownItems.map((item) => (
+                    <button
+                      key={item.label}
+                      onClick={() => {
+                        navigate(item.path);
+                        setIsMenuOpen(false);
+                      }}
+                      className="block w-full text-left px-3 py-2 rounded-lg text-sm font-medium text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                    >
+                      {item.label}
+                    </button>
+                  ))}
+                </div>
 
                 <a
                   onClick={() => {
