@@ -50963,7 +50963,7 @@ export const blogPosts: BlogPost[] = [
   title: "Feeling Stuck in Your Career Decision? Here's What It Really Means",
   slug: "feeling-stuck-career-decision-what-it-really-means",
   excerpt: "Feeling unsure about your career path is normal. It often means you're exploring possibilities, reassessing goals, and preparing to choose the right direction.",
-  featured_image: "https://cdn.dribbble.com/userupload/46434627/file/c261ae0c29b1538ec98e0c93fe9e56d5.jpg?w=1200&h=600&fit=crop",
+  featured_image: "https://cdn.dribbble.com/userupload/46995871/file/e3989d5516beab08d5d6b11689e8eb00.jpg?w=1200&h=600&fit=crop",
   author: {
     name: "Believers Team",
     avatar: "https://cdn.dribbble.com/userupload/46995721/file/8cc8dbf72139f39b65295851bd5c4b19.jpg?w=100&h=100&fit=crop&crop=face",
