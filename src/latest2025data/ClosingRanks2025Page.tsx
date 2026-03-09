@@ -76,7 +76,7 @@ const ClosingRanks2025Page: React.FC<ClosingRanks2025PageProps> = ({
   );
 };
 
-export default ClosingRanks2025Page;\
+export default ClosingRanks2025Page;
 
 // import React, { useState, useEffect } from "react";
 // import {
