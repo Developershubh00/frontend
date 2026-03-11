@@ -453,6 +453,10 @@ import InicetPage from "./Homepages/Inicetpage";
 import NeetPGPages from "./Homepages/Neetpgpage";
 import NeetUGPage from "./Homepages/Neetugpage";
 import DnbPdcetPage from "./Homepages/Dnbpdcetpage";
+import Allotments2025Page from "./latest2025data/Allotments2025Page";
+import ClosingRanks2025Page from "./latest2025data/ClosingRanks2025Page";
+import SeatMatrix2025Page from "./latest2025data/SeatMatrix2025Page";
+import FeesStipendBond2025Page from "./latest2025data/FeesStipendBond2025Page";
 
 /**
  * Main App Component with React Router
@@ -519,6 +523,11 @@ function App() {
             <Route path="/seat-matrix" element={<ProtectedRoute><SeatMatrixPage onBack={() => window.history.back()} /></ProtectedRoute>} />
             <Route path="/fee-stipend-bond" element={<ProtectedRoute><FeeStipendBondPage onBack={() => window.history.back()} /></ProtectedRoute>} />
 
+            
+            <Route path="/allotments2025"      element={<Allotments2025Page     onBack={() => window.history.back()} />} />
+            <Route path="/closingranks2025"    element={<ClosingRanks2025Page   onBack={() => window.history.back()} />} />
+            <Route path="/seatmatrix2025"      element={<SeatMatrix2025Page     onBack={() => window.history.back()} />} />
+            <Route path="/feesstipendbond2025" element={<FeesStipendBond2025Page onBack={() => window.history.back()} />} />
             {/* Predictor */}
             <Route path="/predictor/pg" element={<ProtectedRoute><PGPredictorPage /></ProtectedRoute>} />
             <Route path="/NEETPGPredictor" element={<ProtectedRoute><NEETPGPredictor onBack={() => window.history.back()} /></ProtectedRoute>} />

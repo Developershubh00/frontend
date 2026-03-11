@@ -1771,15 +1771,6 @@ const MainContent: React.FC<MainContentProps> = ({
     cardTitle: string;
   }>({ open: false, cardId: "", cardTitle: "" });
 
-  // ── NEW STATE: which 2025 page is active (null = show main content) ─────
-  const [active2025Page, setActive2025Page] = useState<string | null>(null);
-  // ───────────────────────────────────────────────────────────────────────
-
-  // ── NEW HANDLERS ────────────────────────────────────────────────────────
-  /**
-   * Called when a data card is clicked.
-   * Opens the year-selection popup instead of navigating directly.
-   */
   const openYearModal = (cardId: string, cardTitle: string) => {
     setYearModal({ open: true, cardId, cardTitle });
   };
@@ -1794,9 +1785,12 @@ const MainContent: React.FC<MainContentProps> = ({
     setYearModal({ open: false, cardId: "", cardTitle: "" });
 
     if (year === "2025") {
-      setActive2025Page(cardId);
-      return;
-    }
+  if (cardId === "allotments")        window.location.href = "/allotments2025";
+  if (cardId === "closing-ranks")     window.location.href = "/closingranks2025";
+  if (cardId === "seat-matrix")       window.location.href = "/seatmatrix2025";
+  if (cardId === "fees-stipend-bond") window.location.href = "/feesstipendbond2025";
+  return;
+}
 
     // year === "2024" → go to existing pages
     if (cardId === "allotments")         window.location.href = "/allotments";
@@ -1805,7 +1799,7 @@ const MainContent: React.FC<MainContentProps> = ({
     if (cardId === "fees-stipend-bond")  window.location.href = "/feesstipendbond";
   };
 
-  const closeActive2025Page = () => setActive2025Page(null);
+  
   // ───────────────────────────────────────────────────────────────────────
 
   const actionButtons = [
@@ -2005,19 +1999,7 @@ const MainContent: React.FC<MainContentProps> = ({
     }
   };
 
-  // ── RENDER 2025 PAGES (overrides main content) ──────────────────────────
-  if (active2025Page === "allotments") {
-    return <Allotments2025Page onBack={closeActive2025Page} />;
-  }
-  if (active2025Page === "closing-ranks") {
-    return <ClosingRanks2025Page onBack={closeActive2025Page} />;
-  }
-  if (active2025Page === "seat-matrix") {
-    return <SeatMatrix2025Page onBack={closeActive2025Page} />;
-  }
-  if (active2025Page === "fees-stipend-bond") {
-    return <FeesStipendBond2025Page onBack={closeActive2025Page} />;
-  }
+  
   // ───────────────────────────────────────────────────────────────────────
 
   return (
