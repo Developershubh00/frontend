@@ -1003,8 +1003,8 @@ const Allotments2025Page: React.FC<Allotments2025PageProps> = ({ onBack }) => {
 
         // Fee range filter
         if (selFeeRange !== "all") {
-          // const fv = parseInt(item.Fee.replace(/[₹,]/g, "")) || 0;
-          const fv = parseInt(item.Fee.replace(/[₹?,\s]/g, "")) || 0;
+          const fv = parseInt(item.Fee.replace(/[₹,]/g, "")) || 0;
+          // const fv = parseInt(item.Fee.replace(/[₹?,\s]/g, "")) || 0;
           if (selFeeRange === "Under ₹1L" && fv >= 100000) return false;
           if (selFeeRange === "₹1L - ₹2L" && (fv < 100000 || fv > 200000)) return false;
           if (selFeeRange === "₹2L - ₹5L" && (fv < 200000 || fv > 500000)) return false;
