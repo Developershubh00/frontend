@@ -953,7 +953,7 @@ const Allotments2025Page: React.FC<Allotments2025PageProps> = ({ onBack }) => {
   // ─── Fetch CSV ──────────────────────────────────────────────────────────────
   useEffect(() => {
     setLoading(true);
-    fetch("/public/data/allotments2025.csv")
+    fetch("/data/allotments2025.csv")
       .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.text(); })
       .then(t => {
         const parsed = parseCSV(t);
