@@ -51662,7 +51662,7 @@ export const blogPosts: BlogPost[] = [
   title: "Why the Best Counselling Sessions Focus on Questions, Not Answers",
   slug: "why-best-counselling-sessions-focus-questions-not-answers",
   excerpt: "The best counselling sessions guide you through powerful questions that spark self-reflection. Instead of giving direct answers, they help you discover clarity and make confident decisions.",
-  featured_image: "https://cdn.dribbble.com/userupload/47044730/file/41b86f323f44864baeec25c4ce3c1ce2.jpg?w=1200&h=600&fit=crop",
+  featured_image: "https://cdn.dribbble.com/userupload/47044968/file/a9547f9ebc79564a153eac74a8e3a916.jpg?w=1200&h=600&fit=crop",
   author: {
     name: "Believers Team",
     avatar: "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
