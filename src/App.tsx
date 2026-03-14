@@ -546,7 +546,7 @@ function App() {
             <Route path="/courses" element={<ProtectedRoute><CoursesPage onBack={() => window.history.back()} /></ProtectedRoute>} />
             <Route path="/Institutes" element={<ProtectedRoute><InstitutesPage onBack={() => window.history.back()} /></ProtectedRoute>} />
             <Route path="/Admitted_Students" element={<ProtectedRoute><AdmittedStudentsPage onBack={() => window.history.back()} /></ProtectedRoute>} />
-            <Route path="/Feesstipendbonds" element={<ProtectedRoute><FeesStipendBondPage onBack={() => window.history.back()} /></ProtectedRoute>} />
+            <Route path="/Feesstipendbond" element={<ProtectedRoute><FeesStipendBondPage onBack={() => window.history.back()} /></ProtectedRoute>} />
             <Route path="/Closingranks" element={<ProtectedRoute><ClossingRanksPage onBack={() => window.history.back()} /></ProtectedRoute>} />
 
             {/* INICET Internal Pages */}
