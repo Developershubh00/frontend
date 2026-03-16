@@ -105,103 +105,161 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
   //     isClickable: true,
   //   },
   // ];
+  // const neetPGUpdates = [
+  //   {
+  //     id: 1,
+  //     date: "September 30, 2025",
+  //     event: "Registration Start",
+  //     status: "completed",
+  //   },
+  //   {
+  //     id: 2,
+  //     date: "October 21, 2025 (5 PM)",
+  //     event: "Last Date for Registration",
+  //     status: "completed",
+  //   },
+  //   {
+  //     id: 3,
+  //     date: "October 24 to 26, 2025 (5 PM)",
+  //     event: "Correction Window",
+  //     status: "completed",
+  //   },
+  //   {
+  //     id: 4,
+  //     date: "November 1, 2025",
+  //     event: "Admit Card Release",
+  //     status: "completed",
+  //   },
+  //   {
+  //     id: 5,
+  //     date: "9th November 2025 (Sunday)",
+  //     event: "Exam Date",
+  //     status: "completed",
+  //   },
+  //   {
+  //     id: 6,
+  //     date: "15th November 2025",
+  //     event: "Result Declaration",
+  //     status: "completed",
+  //   },
+  //   {
+  //     id: 7,
+  //     date: "17th Oct '25 to 9th Dec '25",
+  //     event: "1st Round of Counselling",
+  //     status: "completed",
+  //   },
+  //   {
+  //     id: 8,
+  //     date: "1st Dec '25 to 7th Dec '25",
+  //     event: "Last Date of Joining (Round 1)",
+  //     status: "completed",
+  //   },
+  //   {
+  //     id: 9,
+  //     date: "5th Dec '25 to 29th Dec '25",
+  //     event: "2nd Round of Counselling",
+  //     status: "completed",
+  //     // isHighlight: true,
+  //   },
+  //   {
+  //     id: 10,
+  //     date: "21st Dec '25 to 28th Dec '25",
+  //     event: "Last Date of Joining (Round 2)",
+  //     status: "completed",
+  //   },
+  //   {
+  //     id: 11,
+  //     date: "22nd Dec '25",
+  //     event: "Commencement of New Session",
+  //     status: "completed",
+  //     // isHighlight: true,
+  //   },
+  //   {
+  //     id: 12,
+  //     date: "26th Dec '25 to 19th Jan '26",
+  //     event: "Round 3 of Counselling",
+  //     status: "completed",
+  //     // isHighlight: true,
+  //   },
+  //   {
+  //     id: 13,
+  //     date: "11th Jan '26 to 17th Jan '26",
+  //     event: "Last Date of Joining (Round 3)",
+  //     status: "completed",
+  //     // isHighlight: true,
+  //   },
+  //   {
+  //     id: 14,
+  //     date: "15th Jan '26 to 24th Jan '26",
+  //     event: "Stray Vacancy Round",
+  //     status: "upcoming",
+  //     isHighlight: true,
+  //   },
+  //   {
+  //     id: 15,
+  //     date: "31st Jan '26",
+  //     event: "Last Date of Joining (Stray Vacancy)",
+  //     status: "upcoming",
+  //   },
+  // ];
   const neetPGUpdates = [
-    {
-      id: 1,
-      date: "September 30, 2025",
-      event: "Registration Start",
-      status: "completed",
-    },
-    {
-      id: 2,
-      date: "October 21, 2025 (5 PM)",
-      event: "Last Date for Registration",
-      status: "completed",
-    },
-    {
-      id: 3,
-      date: "October 24 to 26, 2025 (5 PM)",
-      event: "Correction Window",
-      status: "completed",
-    },
-    {
-      id: 4,
-      date: "November 1, 2025",
-      event: "Admit Card Release",
-      status: "completed",
-    },
-    {
-      id: 5,
-      date: "9th November 2025 (Sunday)",
-      event: "Exam Date",
-      status: "completed",
-    },
-    {
-      id: 6,
-      date: "15th November 2025",
-      event: "Result Declaration",
-      status: "completed",
-    },
-    {
-      id: 7,
-      date: "17th Oct '25 to 9th Dec '25",
-      event: "1st Round of Counselling",
-      status: "completed",
-    },
-    {
-      id: 8,
-      date: "1st Dec '25 to 7th Dec '25",
-      event: "Last Date of Joining (Round 1)",
-      status: "completed",
-    },
-    {
-      id: 9,
-      date: "5th Dec '25 to 29th Dec '25",
-      event: "2nd Round of Counselling",
-      status: "completed",
-      // isHighlight: true,
-    },
-    {
-      id: 10,
-      date: "21st Dec '25 to 28th Dec '25",
-      event: "Last Date of Joining (Round 2)",
-      status: "completed",
-    },
-    {
-      id: 11,
-      date: "22nd Dec '25",
-      event: "Commencement of New Session",
-      status: "completed",
-      // isHighlight: true,
-    },
-    {
-      id: 12,
-      date: "26th Dec '25 to 19th Jan '26",
-      event: "Round 3 of Counselling",
-      status: "completed",
-      // isHighlight: true,
-    },
-    {
-      id: 13,
-      date: "11th Jan '26 to 17th Jan '26",
-      event: "Last Date of Joining (Round 3)",
-      status: "completed",
-      // isHighlight: true,
-    },
-    {
-      id: 14,
-      date: "15th Jan '26 to 24th Jan '26",
-      event: "Stray Vacancy Round",
-      status: "upcoming",
-      isHighlight: true,
-    },
-    {
-      id: 15,
-      date: "31st Jan '26",
-      event: "Last Date of Joining (Stray Vacancy)",
-      status: "upcoming",
-    },
-  ];
+  {
+    id: 1,
+    date: "March 2026 (Expected)",
+    event: "Registration / Application Form",
+    status: "upcoming",
+    isHighlight: true,
+  },
+  {
+    id: 2,
+    date: "Late March 2026 (Expected)",
+    event: "Last Date for Registration",
+    status: "upcoming",
+  },
+  {
+    id: 3,
+    date: "April 2026 (Expected)",
+    event: "Correction Window",
+    status: "upcoming",
+  },
+  {
+    id: 4,
+    date: "July 30, 2026 (Expected)",
+    event: "Admit Card Release",
+    status: "upcoming",
+  },
+  {
+    id: 5,
+    date: "August 30, 2026 (Confirmed)",
+    event: "NEET PG 2026 Exam",
+    status: "upcoming",
+    isHighlight: true,
+  },
+  {
+    id: 6,
+    date: "September 2026 (Tentative)",
+    event: "Result Declaration",
+    status: "upcoming",
+  },
+  {
+    id: 7,
+    date: "September–October 2026 (Tentative)",
+    event: "Round 1 Counselling",
+    status: "upcoming",
+  },
+  {
+    id: 8,
+    date: "October–November 2026 (Tentative)",
+    event: "Round 2 Counselling",
+    status: "upcoming",
+  },
+  {
+    id: 9,
+    date: "November–December 2026 (Tentative)",
+    event: "Round 3 & Stray Vacancy Round",
+    status: "upcoming",
+  },
+];
   const pdfUrl =
     "https://believersconsultancy.com/data/AIQ_and_State_Schedule_PG_2025_dated_25.11.25.pdf";
 
@@ -286,6 +344,24 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
             </button> */}
         {/* </div>
         </div> */}
+        {/* NEET PG Statistics */}
+        <div className="mb-6">
+          <h3 className="text-sm font-bold text-slate-800 mb-3">Estimated Statistics For NEET PG 2026</h3>
+          <div className="space-y-2">
+            <div className="flex justify-between items-center p-2 bg-blue-50 rounded-lg">
+              <span className="text-xs text-slate-600">Exam Date</span>
+              <span className="text-xs font-bold text-blue-700">May 03, 2026</span>
+            </div>
+            <div className="flex justify-between items-center p-2 bg-green-50 rounded-lg">
+              <span className="text-xs text-slate-600">Total Seats (2025 ref.)</span>
+              <span className="text-xs font-bold text-green-700">51,953+</span>
+            </div>
+            <div className="flex justify-between items-center p-2 bg-purple-50 rounded-lg">
+              <span className="text-xs text-slate-600">Registration Opens</span>
+              <span className="text-xs font-bold text-purple-700">April 17, 2025</span>
+            </div>
+          </div>
+        </div>
 
         {/* NEET PG Timeline */}
         {/* <div className="mb-6">
@@ -310,7 +386,7 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
           <div className="mb-4">
             <h3 className="text-sm font-bold text-slate-800 mb-1 flex items-center">
               <span className="w-1 h-4 bg-emerald-600 rounded-full mr-2"></span>
-              NEET PG 2026 January Session
+              NEET PG 2026 Session
             </h3>
             <p className="text-xs text-slate-500">Important Dates & Events</p>
           </div>
@@ -328,7 +404,7 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
         </div>
 
         <div className="space-y-3">
-          {[...neetPGUpdates].reverse().map((item, index) => (
+          {neetPGUpdates.map((item, index) => (
             <div key={item.id} className="relative">
               {/* Timeline connector line */}
               {index !== neetPGUpdates.length - 1 && (
@@ -386,23 +462,23 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
         </div>
 
         {/* NEET PG Statistics */}
-        <div className="mb-6">
+        {/* <div className="mb-6">
           <h3 className="text-sm font-bold text-slate-800 mb-3">Statistics</h3>
           <div className="space-y-2">
             <div className="flex justify-between items-center p-2 bg-blue-50 rounded-lg">
-              <span className="text-xs text-slate-600">Total Registered</span>
-              <span className="text-xs font-bold text-blue-700">2,05,179</span>
+              <span className="text-xs text-slate-600">Exam Date</span>
+              <span className="text-xs font-bold text-blue-700">May 03, 2026</span>
             </div>
             <div className="flex justify-between items-center p-2 bg-green-50 rounded-lg">
-              <span className="text-xs text-slate-600">Qualified</span>
-              <span className="text-xs font-bold text-green-700">1,63,287</span>
+              <span className="text-xs text-slate-600">Total Seats (2025 ref.)</span>
+              <span className="text-xs font-bold text-green-700">51,953+</span>
             </div>
             <div className="flex justify-between items-center p-2 bg-purple-50 rounded-lg">
-              <span className="text-xs text-slate-600">Total Seats</span>
-              <span className="text-xs font-bold text-purple-700">51,953</span>
+              <span className="text-xs text-slate-600">Registration Opens</span>
+              <span className="text-xs font-bold text-purple-700">April 17, 2025</span>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Important Links */}
         {/* <div className="mb-6">
