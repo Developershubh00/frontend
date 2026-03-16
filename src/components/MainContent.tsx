@@ -1712,7 +1712,7 @@
 
 // export default MainContent;
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   FileText,
   BarChart3,
@@ -1742,6 +1742,7 @@ import Allotments2025Page from "../latest2025data/Allotments2025Page";
 import ClosingRanks2025Page from "../latest2025data/ClosingRanks2025Page";
 import SeatMatrix2025Page from "../latest2025data/SeatMatrix2025Page";
 import FeesStipendBond2025Page from "../latest2025data/FeesStipendBond2025Page";
+import SeatCards from "./SeatCards";
 // ───────────────────────────────────────────────────────────────────────────
 
 interface MainContentProps {
@@ -1799,7 +1800,16 @@ const MainContent: React.FC<MainContentProps> = ({
     if (cardId === "fees-stipend-bond")  window.location.href = "/feesstipendbond";
   };
 
-  
+  const [bgIndex, setBgIndex] = useState(0);
+  const bgImages = [
+  "https://cdn.dribbble.com/userupload/47072483/file/4e241bcd05ff431236aefe3ca32de0b5.png",
+  "https://cdn.dribbble.com/userupload/47072484/file/c4f9d53a79f4fe3a59f611bd51d832d0.png",
+];
+
+useEffect(() => {
+  const t = setInterval(() => setBgIndex(i => (i + 1) % bgImages.length), 4500);
+  return () => clearInterval(t);
+}, []);
   // ───────────────────────────────────────────────────────────────────────
 
   const actionButtons = [
@@ -2016,9 +2026,13 @@ const MainContent: React.FC<MainContentProps> = ({
       {/* ────────────────────────────────────────────────────────────────── */}
 
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-blue-300 to-blue-700 px-4 lg:px-6 py-6 lg:py-12 relative overflow-hidden rounded-2xl">
-        <div className="absolute inset-0 bg-black/5"></div>
-        <div className="relative max-w-7xl mx-auto">
+      {/* <div className="bg-gradient-to-r from-blue-300 to-blue-700 px-4 lg:px-6 py-6 lg:pb-20 lg:pb-24 relative overflow-hidden rounded-2xl">
+        <div className="absolute inset-0 bg-black/5"></div> */}
+        <div className="relative overflow-hidden rounded-2xl px-4 lg:px-6 pb-24 lg:pb-32 min-h-[280px] lg:min-h-[520px] flex flex-col justify-end">
+          <div className="absolute inset-0 bg-cover transition-opacity duration-[1200ms]" style={{ backgroundImage: `url(${bgImages[0]})`,backgroundPosition: "center 20%", opacity: bgIndex === 0 ? 1 : 0 }} />
+          <div className="absolute inset-0 bg-cover transition-opacity duration-[1200ms]" style={{ backgroundImage: `url(${bgImages[1]})`, backgroundPosition: "center 30%", opacity: bgIndex === 1 ? 1 : 0 }} />
+           <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-black/20 to-black/70" />
+          <div className="relative max-w-7xl mx-auto w-full">
           {/* Mobile */}
           <div className="xl:hidden text-center">
             <div className="inline-flex items-center justify-center w-12 h-12 bg-white/20 rounded-2xl mb-4 backdrop-blur-sm">
@@ -2067,7 +2081,7 @@ const MainContent: React.FC<MainContentProps> = ({
         </div>
       </div>
 
-      <div className="px-4 lg:px-6 py-6 lg:py-8 max-w-7xl mx-auto">
+      <div className="relative z-10 -mt-28 px-4 lg:px-6 py-6 lg:py-8 max-w-7xl mx-auto">
 
         {/* ── DATA CARDS ─────────────────────────────────────────────────── */}
         {/*
@@ -2102,64 +2116,8 @@ const MainContent: React.FC<MainContentProps> = ({
           ))}
         </div>
         {/* ────────────────────────────────────────────────────────────────── */}
-
-        {/* Seat Availability links */}
-        <div className="text-center mb-3 lg:mb-4">
-          <a
-            href="https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/12/202512172132273940.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 font-semibold hover:text-blue-900 underline text-sm lg:text-base transition-colors duration-200"
-          >
-            NEET-PG Counselling Seats Allotment -2025 Round 2
-          </a>
-        </div>
-
-        <div className="text-center mb-6 lg:mb-8">
-          <a
-            href="/data/Seats_PG.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500 hover:text-blue-900 underline font-medium text-sm lg:text-base transition-colors duration-200"
-          >
-            Number of Seats Available as on 31.03.2025 in PG Medical Course
-            (Broad/Super Speciality) in various Medical Colleges/Institution for
-            the A.Y. 2024-25
-          </a>
-        </div>
-
-        <div className="text-center mb-6 lg:mb-8">
-          <a
-            href="/data/neetpground1.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500 hover:text-blue-900 underline font-medium text-sm lg:text-base transition-colors duration-200"
-          >
-            Seat Allotment 2025 (Round 1)
-          </a>
-        </div>
-
-        <div className="text-center mb-3 lg:mb-4">
-          <a
-            href="https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/11/20251119105316139.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 font-semibold hover:text-blue-900 underline text-sm lg:text-base transition-colors duration-200"
-          >
-            DEEMED UNIVERSITY SEATS MATRIX PG 2025 COUNSELLING
-          </a>
-        </div>
-
-        <div className="text-center mb-3 lg:mb-4">
-          <a
-            href="https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/10/20251028847832917.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 font-semibold hover:text-blue-900 underline text-sm lg:text-base transition-colors duration-200"
-          >
-            CENTRAL INTERNAL QUOTA SEATS MATRIX PG 2025 COUNSELLING
-          </a>
-        </div>
+          <SeatCards />
+        
 
         {/* Trend Comparison Table */}
         <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
