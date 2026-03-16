@@ -2028,7 +2028,7 @@ useEffect(() => {
       {/* Hero Section */}
       {/* <div className="bg-gradient-to-r from-blue-300 to-blue-700 px-4 lg:px-6 py-6 lg:pb-20 lg:pb-24 relative overflow-hidden rounded-2xl">
         <div className="absolute inset-0 bg-black/5"></div> */}
-        <div className="relative overflow-hidden rounded-2xl px-4 lg:px-6 pb-24 lg:pb-32 min-h-[280px] lg:min-h-[520px] flex flex-col justify-end">
+        <div className="relative overflow-hidden rounded-2xl px-4 lg:px-6 pb-24 lg:pb-32 min-h-[280px] lg:min-h-[460px] flex flex-col justify-end">
           <div className="absolute inset-0 bg-cover transition-opacity duration-[1200ms]" style={{ backgroundImage: `url(${bgImages[0]})`,backgroundPosition: "center 20%", opacity: bgIndex === 0 ? 1 : 0 }} />
           <div className="absolute inset-0 bg-cover transition-opacity duration-[1200ms]" style={{ backgroundImage: `url(${bgImages[1]})`, backgroundPosition: "center 30%", opacity: bgIndex === 1 ? 1 : 0 }} />
            <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-black/20 to-black/70" />
