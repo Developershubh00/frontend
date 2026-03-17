@@ -1909,19 +1909,19 @@ useEffect(() => {
   // ───────────────────────────────────────────────────────────────────────
 
   const neetStats = dashboardData?.neetStats || [
-    { label: "Registered", value: "6,819", year: "2025" },
-    { label: "Appeared", value: "6,612", year: "2025" },
-    { label: "Qualified", value: "4,681", year: "2025" },
-    { label: "Registered", value: "3,49,759", year: "2024" },
-    { label: "Appeared", value: "3,33,333", year: "2024" },
-    { label: "Qualified", value: "2,15,768", year: "2024" },
+    { label: "Registered", value: "2,42,493", year: "2025" },
+    { label: "Appeared",   value: "2,30,114", year: "2025" },
+    { label: "Qualified",  value: "1,28,116", year: "2025" },
+    { label: "Registered", value: "2,28,540", year: "2024" },
+    { label: "Appeared",   value: "2,16,136", year: "2024" },
+    { label: "Qualified",  value: "1,28,532", year: "2024" },
   ];
 
   const timelineSteps = dashboardData?.timeline || [
-    { date: "SEP 20 2025", title: "Round 2 Joining", subtitle: "Start Date", status: "Coming Soon" },
-    { date: "SEP 27 2025", title: "Round 2 Joining", subtitle: "End Date", status: "Coming Soon" },
-    { date: "OCT 8 2025",  title: "Round 3 Registration", subtitle: "Start Date", status: "Coming Soon" },
-    { date: "OCT 11 2025", title: "Round 3 Registration", subtitle: "End Date", status: "Coming Soon" },
+    { date: "NOV 20 2025", title: "Round 1 Seat Allotment", subtitle: "Result Declared", status: "Completed" },
+    { date: "DEC 2025",    title: "Round 2 Counselling",    subtitle: "Completed",        status: "Completed" },
+    { date: "FEB 5 2026",  title: "Round 3 Final Result",   subtitle: "Declared",         status: "Completed" },
+    { date: "FEB 21 2026", title: "Stray Round Result",     subtitle: "Declared",        status: "Completed" },
   ];
 
   const handleStateTabChange = (tabId: string) => {
@@ -2143,15 +2143,25 @@ useEffect(() => {
                 </tr>
               </thead>
               <tbody className="bg-white">
-                {[
-                  { branch: "Dermatology", emoji: "🩺", years: [4, 1, 2, 3],   highlight: true },
-                  { branch: "Radiology",   emoji: "📷", years: [41, 45, 41, 36] },
-                  { branch: "Surgery",     emoji: "🔪", years: [3, 2, 4, 11],   highlight: true },
-                  { branch: "Medicine",    emoji: "🏥", years: [46, 46, 45, 43] },
-                  { branch: "ObGy",        emoji: "👩‍⚕️", years: [3, 4, 1, 1],    highlight: true },
-                  { branch: "Pediatrics",  emoji: "👶", years: [1, 2, 5, 2],    highlight: true },
-                  { branch: "Orthopedics", emoji: "🦴", years: [1, 0, 2, 2],    highlight: true },
-                ].map((row, idx) => (
+                {
+                // [
+                //   { branch: "Dermatology", emoji: "🩺", years: [4, 1, 2, 3],   highlight: true },
+                //   { branch: "Radiology",   emoji: "📷", years: [41, 45, 41, 36] },
+                //   { branch: "Surgery",     emoji: "🔪", years: [3, 2, 4, 11],   highlight: true },
+                //   { branch: "Medicine",    emoji: "🏥", years: [46, 46, 45, 43] },
+                //   { branch: "ObGy",        emoji: "👩‍⚕️", years: [3, 4, 1, 1],    highlight: true },
+                //   { branch: "Pediatrics",  emoji: "👶", years: [1, 2, 5, 2],    highlight: true },
+                //   { branch: "Orthopedics", emoji: "🦴", years: [1, 0, 2, 2],    highlight: true },
+                // ]
+                [
+  { branch: "Radiology",   emoji: "📷", years: [38, 40, 39, 36] },
+  { branch: "Medicine",    emoji: "🏥", years: [34, 32, 35, 33] },
+  { branch: "Dermatology", emoji: "🩺", years: [8, 7, 6, 7],   highlight: true },
+  { branch: "Pediatrics",  emoji: "👶", years: [6, 5, 5, 4],   highlight: true },
+  { branch: "ObGy",        emoji: "👩‍⚕️", years: [5, 6, 4, 5],   highlight: true },
+  { branch: "Surgery",     emoji: "🔪", years: [5, 5, 6, 8] },
+  { branch: "Orthopedics", emoji: "🦴", years: [4, 3, 3, 4] },
+].map((row, idx) => (
                   <tr key={idx} className={`hover:bg-blue-50 transition-colors ${idx % 2 === 0 ? "bg-slate-50" : "bg-white"}`}>
                     <td className="py-3 px-4 text-left font-semibold text-slate-800 border-r border-slate-200">
                       <span className="mr-2">{row.emoji}</span>{row.branch}
@@ -2170,21 +2180,21 @@ useEffect(() => {
           <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             <div className="bg-green-50 border-l-4 border-green-500 rounded-lg p-4">
               <div className="flex items-center space-x-2 mb-2"><span className="text-2xl">🏆</span><h4 className="font-bold text-slate-800">Most Preferred</h4></div>
-              <p className="text-sm text-slate-600">Dermatology, Surgery, ObGy, Pediatrics &amp; Orthopedics show highest preference among top rankers</p>
+              <p className="text-sm text-slate-600">Radiology and General Medicine dominate &amp; Top 100 ranks consistently</p>
             </div>
             <div className="bg-blue-50 border-l-4 border-blue-500 rounded-lg p-4">
               <div className="flex items-center space-x-2 mb-2"><span className="text-2xl">📈</span><h4 className="font-bold text-slate-800">Stable Trends</h4></div>
-              <p className="text-sm text-slate-600">Medicine and Radiology maintain consistent selection numbers across all years</p>
+              <p className="text-sm text-slate-600">Radiology and Medicine remain the most stable and highest chosen branches across all years</p>
             </div>
             <div className="bg-purple-50 border-l-4 border-purple-500 rounded-lg p-4">
               <div className="flex items-center space-x-2 mb-2"><span className="text-2xl">💡</span><h4 className="font-bold text-slate-800">Key Insight</h4></div>
-              <p className="text-sm text-slate-600">Higher rank holders prefer specialties with better lifestyle balance and private practice scope</p>
+              <p className="text-sm text-slate-600">Top rankers increasingly prefer lifestyle-friendly and high ROI branches like Radiology and Dermatology over traditionally demanding surgical fields</p>
             </div>
           </div>
         </div>
 
         {/* Cutoff Scores */}
-        <div className="text-center mb-6 lg:mb-8">
+        {/* <div className="text-center mb-6 lg:mb-8">
           <h3 className="text-xl lg:text-2xl font-bold text-slate-800 mb-2">📊 NEET PG 2025 Cutoff Scores</h3>
           <div className="overflow-x-auto">
             <table className="w-full text-center table-fixed border-collapse min-w-full">
@@ -2211,7 +2221,61 @@ useEffect(() => {
               </tbody>
             </table>
           </div>
-        </div>
+        </div> */}
+        {/* Cutoff Scores */}
+<div className="text-center mb-6 lg:mb-8">
+  <h3 className="text-xl lg:text-2xl font-bold text-slate-800 mb-2">
+    📊 NEET PG 2025 Cutoff Scores
+  </h3>
+
+  <p className="text-slate-600 text-sm mb-4">
+    Cutoffs are based on percentile and vary each year depending on exam difficulty and normalization.
+  </p>
+
+  <div className="overflow-x-auto">
+    <table className="w-full text-center table-fixed border-collapse min-w-full">
+      <thead>
+        <tr className="bg-slate-50">
+          <th className="border-b border-slate-200 py-2 px-3 text-slate-600 text-sm lg:text-base">
+            Category
+          </th>
+          <th className="border-b border-slate-200 py-2 px-3 text-slate-600 text-sm lg:text-base">
+            Qualifying Percentile
+          </th>
+          <th className="border-b border-slate-200 py-2 px-3 text-slate-600 text-sm lg:text-base">
+            Expected Score Range (2025)
+          </th>
+        </tr>
+      </thead>
+
+      <tbody>
+        {[
+          ["Unreserved (UR) / EWS", "50th percentile", "280-340 marks"],
+          ["SC / ST / OBC", "40th percentile", "240-290 marks"],
+          ["UR-PwD", "45th percentile", "260-310 marks"],
+          ["SC/ST/OBC-PwD", "40th percentile", "240-290 marks"],
+        ].map(([cat, pct, range], i) => (
+          <tr key={i} className="hover:bg-slate-50">
+            <td className="border-b border-slate-200 py-2 px-3 text-slate-800">
+              {cat}
+            </td>
+            <td className="border-b border-slate-200 py-2 px-3 text-slate-800">
+              {pct}
+            </td>
+            <td className="border-b border-slate-200 py-2 px-3 text-slate-800">
+              {range}
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  {/* Insight Box */}
+  <div className="mt-4 text-sm text-slate-500">
+    ⚠️ Cutoff marks change every year. Always rely on percentile rather than marks for eligibility.
+  </div>
+</div>
 
         {/* Marks vs Rank */}
         <div className="text-center mb-6 lg:mb-8">
@@ -2229,24 +2293,42 @@ useEffect(() => {
                 </tr>
               </thead>
               <tbody>
-                {[
-                  { score: "707",     rank: "1",                prospect: "Top AIIMS/PGI" },
-                  { score: "705",     rank: "2–3",              prospect: "Top AIIMS/PGI" },
-                  { score: "701",     rank: "4",                prospect: "Top Institutions" },
-                  { score: "695",     rank: "5–6",              prospect: "Premium Colleges" },
-                  { score: "690–678", rank: "12–28",            prospect: "Excellent Options" },
-                  { score: "677–663", rank: "29–113",           prospect: "Very Good Colleges" },
-                  { score: "638",     rank: "551",              prospect: "Good Government" },
-                  { score: "627",     rank: "974",              prospect: "Good Options" },
-                  { score: "620",     rank: "1356",             prospect: "Decent Choices" },
-                  { score: "600",     rank: "3049",             prospect: "Moderate Options" },
-                  { score: "591",     rank: "4100",             prospect: "Limited Government" },
-                  { score: "576",     rank: "6278",             prospect: "Private Options" },
-                  { score: "563",     rank: "8628",             prospect: "Competitive Private" },
-                  { score: "555–499", rank: "10,001–25,000",    prospect: "Challenging" },
-                  { score: "499–427", rank: "25,001–50,000",    prospect: "Very Challenging" },
-                  { score: "427–363", rank: "50,001–75,000",    prospect: "Extremely Difficult" },
-                ].map((row, idx) => (
+                {
+                // [
+                //   { score: "707",     rank: "1",                prospect: "Top AIIMS/PGI" },
+                //   { score: "705",     rank: "2–3",              prospect: "Top AIIMS/PGI" },
+                //   { score: "701",     rank: "4",                prospect: "Top Institutions" },
+                //   { score: "695",     rank: "5–6",              prospect: "Premium Colleges" },
+                //   { score: "690–678", rank: "12–28",            prospect: "Excellent Options" },
+                //   { score: "677–663", rank: "29–113",           prospect: "Very Good Colleges" },
+                //   { score: "638",     rank: "551",              prospect: "Good Government" },
+                //   { score: "627",     rank: "974",              prospect: "Good Options" },
+                //   { score: "620",     rank: "1356",             prospect: "Decent Choices" },
+                //   { score: "600",     rank: "3049",             prospect: "Moderate Options" },
+                //   { score: "591",     rank: "4100",             prospect: "Limited Government" },
+                //   { score: "576",     rank: "6278",             prospect: "Private Options" },
+                //   { score: "563",     rank: "8628",             prospect: "Competitive Private" },
+                //   { score: "555–499", rank: "10,001–25,000",    prospect: "Challenging" },
+                //   { score: "499–427", rank: "25,001–50,000",    prospect: "Very Challenging" },
+                //   { score: "427–363", rank: "50,001–75,000",    prospect: "Extremely Difficult" },
+                // ]
+                [
+                { score: "720–705", rank: "1–10",        prospect: "Top AIIMS (Delhi/Jodhpur/Bhopal), PGI Chandigarh" },
+                { score: "704–690", rank: "11–50",       prospect: "Top AIIMS + Elite Govt Colleges" },
+                { score: "689–670", rank: "51–200",      prospect: "Top Govt Medical Colleges (Clinical branches possible)" },
+                { score: "669–650", rank: "201–500",     prospect: "Excellent Govt Colleges" },
+                 { score: "649–630", rank: "501–1,200",   prospect: "Very Good Govt Colleges (Paraclinical/Some Clinical)" },
+                 { score: "629–610", rank: "1,201–2,500", prospect: "Good Govt + Deemed Universities" },
+               { score: "609–590", rank: "2,501–5,000", prospect: "Govt Colleges (Non-clinical) + Good Private" },
+                { score: "589–570", rank: "5,001–8,000", prospect: "Private + Some Govt (Low branches)" },
+  { score: "569–550", rank: "8,001–12,000", prospect: "Private Colleges (Decent options)" },
+  { score: "549–520", rank: "12,001–20,000", prospect: "Private / Deemed (Clinical difficult)" },
+  { score: "519–480", rank: "20,001–35,000", prospect: "Private Colleges (Management quota likely)" },
+  { score: "479–430", rank: "35,001–60,000", prospect: "Limited options (Mostly Private)" },
+  { score: "429–380", rank: "60,001–90,000", prospect: "Very Limited (High fees / low demand branches)" },
+  { score: "379–330", rank: "90,001–1,20,000", prospect: "Extremely Difficult" },
+  { score: "<330",     rank: "1,20,000+",      prospect: "Very Low Chances" },
+          ].map((row, idx) => (
                   <tr key={idx} className="hover:bg-slate-50 transition">
                     <td className="border-b border-slate-200 py-2 px-3 text-slate-800">{row.score}</td>
                     <td className="border-b border-slate-200 py-2 px-3 text-slate-800">{row.rank}</td>
@@ -2318,7 +2400,7 @@ useEffect(() => {
         </div>
 
         {/* Popular Specialties */}
-        <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
+        {/* <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
           <div className="flex items-start space-x-3 lg:space-x-4 mb-4 lg:mb-6">
             <div className="w-10 h-10 lg:w-12 lg:h-12 bg-purple-100 rounded-xl flex items-center justify-center flex-shrink-0">
               <Target className="w-5 h-5 lg:w-6 lg:h-6 text-purple-600" />
@@ -2354,7 +2436,84 @@ useEffect(() => {
               </div>
             ))}
           </div>
+        </div> */}
+        {/* Popular Specialties */}
+<div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
+  <div className="flex items-start space-x-3 lg:space-x-4 mb-4 lg:mb-6">
+    <div className="w-10 h-10 lg:w-12 lg:h-12 bg-purple-100 rounded-xl flex items-center justify-center flex-shrink-0">
+      <Target className="w-5 h-5 lg:w-6 lg:h-6 text-purple-600" />
+    </div>
+    <div>
+      <h3 className="text-lg lg:text-2xl font-bold text-slate-800 mb-2">
+        Popular NEET PG 2025 Specialties
+      </h3>
+      <p className="text-slate-600 text-sm lg:text-base">
+        Top specialties with highest demand and career opportunities.
+      </p>
+    </div>
+  </div>
+
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    {[
+      { name: "General Medicine",        seats: "3,600+", demand: "Very High", icon: "🏥" },
+      { name: "Radiology",               seats: "1,200+", demand: "Very High", icon: "📷" },
+      { name: "Dermatology",             seats: "700+",   demand: "Very High", icon: "🩺" },
+      { name: "Pediatrics",              seats: "1,500+", demand: "High",      icon: "👶" },
+      { name: "Obstetrics & Gynecology", seats: "1,400+", demand: "High",      icon: "👩‍⚕️" },
+      { name: "Orthopedics",             seats: "1,200+", demand: "High",      icon: "🦴" },
+      { name: "Anesthesiology",          seats: "2,000+", demand: "High",      icon: "💉" },
+      { name: "Psychiatry",              seats: "900+",   demand: "Rising",    icon: "🧠" },
+      { name: "Pathology",               seats: "1,000+", demand: "Moderate",  icon: "🔬" },
+    ].map((specialty, index) => (
+      <div
+        key={index}
+        className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-xl p-4 border border-purple-100 hover:shadow-lg transition-all duration-300"
+      >
+        <div className="flex items-center space-x-3 mb-3">
+          <span className="text-2xl">{specialty.icon}</span>
+          <div>
+            <h4 className="font-bold text-slate-800">{specialty.name}</h4>
+            <p className="text-sm text-slate-600">{specialty.seats} seats</p>
+          </div>
         </div>
+
+        {/* Demand Badge */}
+        <span
+          className={`px-2 py-1 rounded-full text-xs font-medium ${
+            specialty.demand === "Very High"
+              ? "bg-red-100 text-red-700"
+              : specialty.demand === "High"
+              ? "bg-blue-100 text-blue-700"
+              : specialty.demand === "Rising"
+              ? "bg-purple-100 text-purple-700"
+              : "bg-green-100 text-green-700"
+          }`}
+        >
+          {specialty.demand} Demand
+        </span>
+
+        {/* Competition Bar */}
+        <div className="mt-3">
+          <div className="w-full bg-slate-200 h-1 rounded-full">
+            <div
+              className="bg-purple-500 h-1 rounded-full transition-all duration-500"
+              style={{
+                width:
+                  specialty.demand === "Very High"
+                    ? "90%"
+                    : specialty.demand === "High"
+                    ? "70%"
+                    : specialty.demand === "Rising"
+                    ? "60%"
+                    : "40%",
+              }}
+            />
+          </div>
+        </div>
+      </div>
+    ))}
+  </div>
+</div>
 
         {/* Counselling Process */}
         <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
