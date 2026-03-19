@@ -49,7 +49,7 @@ const cards: Card[] = [
 
 const SeatCards: React.FC = () => {
   return (
-    <div className="w-[95%] mx-auto max-w-7xl py-0 ">
+    <div className="w-[95%] mx-auto max-w-7xl py-3 lg:py-3 mb-8 lg:mb-12">
       <h1 className="text-4xl font-semibold text-center mb-6 text-gray-700">
         NEET PG Counselling Updates
       </h1>

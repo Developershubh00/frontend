@@ -35,22 +35,32 @@ export const useTextToSpeech = (
   const wordsArrayRef = useRef<Array<{ element: HTMLElement; text: string; wordIndex: number }>>([]);
   const currentWordIndexRef = useRef(-1);
 
-  // Load voices
+  // ✅ FIXED: Safe voice loading for Android
   useEffect(() => {
+    // Guard: Android WebView may not have speechSynthesis at all
+    const isSpeechSupported =
+      typeof window !== 'undefined' &&
+      'speechSynthesis' in window &&
+      typeof window.speechSynthesis.getVoices === 'function';
+
+    if (!isSpeechSupported) return;
+
     const loadVoices = () => {
       const voices = window.speechSynthesis.getVoices();
+      if (!voices || voices.length === 0) return;
+
       setAvailableVoices(voices);
-      
-      // Try to find a female voice by default
+
       const femaleVoice = voices.find(
-        voice => voice.name.toLowerCase().includes('female') || 
-                 voice.name.toLowerCase().includes('woman') ||
-                 voice.name.toLowerCase().includes('samantha') ||
-                 voice.name.toLowerCase().includes('victoria') ||
-                 voice.name.toLowerCase().includes('karen') ||
-                 voice.name.toLowerCase().includes('zira')
+        voice =>
+          voice.name.toLowerCase().includes('female') ||
+          voice.name.toLowerCase().includes('woman') ||
+          voice.name.toLowerCase().includes('samantha') ||
+          voice.name.toLowerCase().includes('victoria') ||
+          voice.name.toLowerCase().includes('karen') ||
+          voice.name.toLowerCase().includes('zira')
       );
-      
+
       if (femaleVoice) {
         setCurrentVoice(femaleVoice);
       } else if (voices.length > 0) {
@@ -58,11 +68,21 @@ export const useTextToSpeech = (
       }
     };
 
+    // Try immediately (works on desktop/iOS)
     loadVoices();
-    
-    if (window.speechSynthesis.onvoiceschanged !== undefined) {
-      window.speechSynthesis.onvoiceschanged = loadVoices;
-    }
+
+    // ✅ Android fix: voiceschanged event is unreliable, so also poll
+    window.speechSynthesis.addEventListener('voiceschanged', loadVoices);
+
+    // ✅ Android fallback: poll after 500ms and 1500ms
+    const t1 = setTimeout(loadVoices, 500);
+    const t2 = setTimeout(loadVoices, 1500);
+
+    return () => {
+      window.speechSynthesis.removeEventListener('voiceschanged', loadVoices);
+      clearTimeout(t1);
+      clearTimeout(t2);
+    };
   }, []);
 
   // Add global CSS
@@ -215,6 +235,12 @@ export const useTextToSpeech = (
   const play = useCallback(() => {
     if (!contentRef.current) return;
 
+    // ✅ ADDED: Android guard
+    if (!('speechSynthesis' in window)) {
+      console.warn('Text-to-speech not supported on this device.');
+      return;
+    }
+
     if (isPaused) {
       window.speechSynthesis.resume();
       setIsPaused(false);
@@ -284,12 +310,14 @@ export const useTextToSpeech = (
   }, [contentRef, isPaused, speed, currentVoice, wrapWords, highlightWord, clearHighlights, unwrapWords]);
 
   const pause = useCallback(() => {
+    if (!('speechSynthesis' in window)) return;
     window.speechSynthesis.pause();
     setIsPaused(true);
     setIsPlaying(false);
   }, []);
 
   const stop = useCallback(() => {
+    if (!('speechSynthesis' in window)) return;
     window.speechSynthesis.cancel();
     setIsPlaying(false);
     setIsPaused(false);
@@ -315,7 +343,9 @@ export const useTextToSpeech = (
 
   useEffect(() => {
     return () => {
-      window.speechSynthesis.cancel();
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+      }
       clearHighlights();
       unwrapWords();
     };

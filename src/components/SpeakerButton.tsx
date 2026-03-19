@@ -142,7 +142,7 @@ export const SpeakerButton: React.FC<SpeakerButtonProps> = ({
       </button>
 
       {/* Settings button */}
-      {(availableVoices.length > 0 || onSpeedChange) && (
+      {(availableVoices && availableVoices.length > 0 || onSpeedChange) && (
         <button
           onClick={() => setShowSettings(!showSettings)}
           className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 text-gray-700 transition-all duration-200"

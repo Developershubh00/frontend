@@ -932,6 +932,12 @@ const Header: React.FC<HeaderProps> = ({
 
               {/* Predictor Dropdown */}
               <div className="relative">
+                <button
+                onClick={() => navigate("/predictor")}
+                 className="flex items-center space-x-2 px-4 py-2 text-green-600 hover:bg-green-50 rounded-xl transition-all duration-200 font-medium"
+                  >
+                 <span>Predictor</span>
+                  </button>
                 {/* <button
                   onClick={() => toggleDropdown("predictor")}
                   className="flex items-center space-x-2 px-4 py-2 text-green-600 hover:bg-green-50 rounded-xl transition-all duration-200 font-medium"

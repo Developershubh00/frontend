@@ -457,6 +457,7 @@ import Allotments2025Page from "./latest2025data/Allotments2025Page";
 import ClosingRanks2025Page from "./latest2025data/ClosingRanks2025Page";
 import SeatMatrix2025Page from "./latest2025data/SeatMatrix2025Page";
 import FeesStipendBond2025Page from "./latest2025data/FeesStipendBond2025Page";
+import CollegePredictorPage from "./pages/CollegePredictorPage";
 
 /**
  * Main App Component with React Router
@@ -532,6 +533,7 @@ function App() {
             <Route path="/predictor/pg" element={<ProtectedRoute><PGPredictorPage /></ProtectedRoute>} />
             <Route path="/NEETPGPredictor" element={<ProtectedRoute><NEETPGPredictor onBack={() => window.history.back()} /></ProtectedRoute>} />
             <Route path="/multicriteria" element={<ProtectedRoute><MultiCriteriaPredictor /></ProtectedRoute>} />
+            <Route path="/predictor" element={<CollegePredictorPage />} />
 
             {/* Info Pages */}
             <Route path="/faq" element={<ProtectedRoute><FAQPage onBack={() => window.history.back()} /></ProtectedRoute>} />

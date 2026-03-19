@@ -1743,6 +1743,7 @@ import ClosingRanks2025Page from "../latest2025data/ClosingRanks2025Page";
 import SeatMatrix2025Page from "../latest2025data/SeatMatrix2025Page";
 import FeesStipendBond2025Page from "../latest2025data/FeesStipendBond2025Page";
 import SeatCards from "./SeatCards";
+import CollegePredictor from "./CollegePredictor";
 // ───────────────────────────────────────────────────────────────────────────
 
 interface MainContentProps {
@@ -2081,7 +2082,7 @@ useEffect(() => {
         </div>
       </div>
 
-      <div className="relative z-10 -mt-16 px-4 lg:px-6 py-6 lg:py-8 max-w-7xl mx-auto">
+      <div className="relative z-10 -mt-16 px-4 lg:px-6 py-6 lg:py-4 max-w-7xl mx-auto">
 
         {/* ── DATA CARDS ─────────────────────────────────────────────────── */}
         {/*
@@ -2117,10 +2118,101 @@ useEffect(() => {
         </div>
         {/* ────────────────────────────────────────────────────────────────── */}
           <SeatCards />
-        
+
+           <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
+           {/* ── COLLEGE PREDICTOR ENTRY CARD ── */}
+        <div
+          className="mb-8 lg:mb-12 rounded-2xl overflow-hidden cursor-pointer group"
+          onClick={() => window.location.href = "/predictor"}
+          style={{
+            background: "linear-gradient(135deg,#1e1b4b 0%,#312e81 40%,#4338ca 70%,#6366f1 100%)",
+            position: "relative",
+          }}
+        >
+          {/* grid dots */}
+          <div style={{
+            position:"absolute",inset:0,pointerEvents:"none",
+            backgroundImage:"radial-gradient(circle,rgba(255,255,255,.07) 1px,transparent 1px)",
+            backgroundSize:"28px 28px",
+          }}/>
+          {/* blobs */}
+          <div style={{position:"absolute",top:-60,right:-60,width:220,height:220,borderRadius:"50%",background:"rgba(139,92,246,.25)",filter:"blur(60px)"}}/>
+          <div style={{position:"absolute",bottom:-40,left:"30%",width:160,height:160,borderRadius:"50%",background:"rgba(99,102,241,.2)",filter:"blur(50px)"}}/>
+ 
+          <div style={{ position:"relative", padding:"32px 36px", display:"flex", alignItems:"center", justifyContent:"space-between", flexWrap:"wrap", gap:24 }}>
+            {/* Left */}
+            <div style={{ flex:1, minWidth:240 }}>
+              <div style={{
+                display:"inline-flex", alignItems:"center", gap:7,
+                background:"rgba(255,255,255,.12)", backdropFilter:"blur(8px)",
+                border:"1px solid rgba(255,255,255,.2)",
+                borderRadius:999, padding:"4px 14px", marginBottom:14,
+                color:"#c7d2fe", fontSize:12, fontWeight:700,
+              }}>
+                <span>🎯</span> NEET PG 2025 — Live Data
+                <span style={{background:"#10b981",color:"#fff",borderRadius:999,padding:"1px 7px",fontSize:10,fontWeight:800}}>NEW</span>
+              </div>
+              <h2 style={{
+                margin:"0 0 10px", fontSize:"clamp(20px,3vw,30px)", fontWeight:900,
+                color:"#fff", lineHeight:1.2,
+                fontFamily:"'DM Sans','Nunito',sans-serif",
+                textShadow:"0 2px 12px rgba(0,0,0,.3)",
+              }}>
+                Predict Your <span style={{color:"#a5b4fc"}}>Dream College</span><br/>
+                With Your NEET PG Rank
+              </h2>
+              <p style={{margin:"0 0 20px",color:"#c7d2fe",fontSize:14,lineHeight:1.6,maxWidth:480}}>
+                Instantly see which colleges &amp; specialties you qualify for —
+                based on 28,000+ real 2025 allotment &amp; closing rank records.
+              </p>
+              {/* stats */}
+              <div style={{display:"flex",gap:22,flexWrap:"wrap"}}>
+                {[["4,200+","Allotments"],["14,500+","Closing Ranks"],["500+","Colleges"],["90+","Specialties"]].map(([v,l])=>(
+                  <div key={l} style={{textAlign:"center"}}>
+                    <div style={{fontSize:18,fontWeight:900,color:"#fff"}}>{v}</div>
+                    <div style={{fontSize:11,color:"#a5b4fc",fontWeight:600}}>{l}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+ 
+            {/* Right CTA */}
+            <div style={{ display:"flex", flexDirection:"column", alignItems:"center", gap:12 }}>
+              <div
+                style={{
+                  background:"linear-gradient(135deg,#f59e0b,#ef4444)",
+                  color:"#fff", border:"none", borderRadius:16,
+                  padding:"16px 36px", fontSize:17, fontWeight:800,
+                  boxShadow:"0 8px 28px rgba(239,68,68,.45)",
+                  display:"flex", alignItems:"center", gap:10,
+                  transition:"transform .2s",
+                  whiteSpace:"nowrap",
+                }}
+                className="group-hover:scale-105"
+              >
+                🔍 Open Predictor
+                <span style={{fontSize:20}}>→</span>
+              </div>
+              <span style={{color:"#818cf8",fontSize:12}}>Free · Instant results</span>
+ 
+              {/* Mode chips */}
+              <div style={{display:"flex",gap:8,flexWrap:"wrap",justifyContent:"center"}}>
+                {["🏥 Closing Ranks","📋 Past Allotments","💺 Seat Matrix"].map(l=>(
+                  <span key={l} style={{
+                    background:"rgba(255,255,255,.12)", color:"#c7d2fe",
+                    borderRadius:999, padding:"4px 12px", fontSize:11, fontWeight:700,
+                    border:"1px solid rgba(255,255,255,.15)",
+                  }}>{l}</span>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
 
         {/* Trend Comparison Table */}
         <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
+        
           <div className="text-center mb-6 lg:mb-8">
             <h2 className="text-2xl lg:text-3xl font-bold text-slate-800 mb-2">
               📊 Trend Comparison: Top 100 Ranks Branch Preferences
