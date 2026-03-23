@@ -2028,7 +2028,7 @@ const readTime = post?.read_time || 5;
             {/* Main Content */}
             <main className="lg:col-span-3">
               {/* Hero Section */}
-              <article className="bg-white rounded-3xl shadow-xl overflow-hidden mb-8">
+              <article className="bg-white rounded-3xl shadow-xl mb-8">
                 <div className="relative h-64 sm:h-80 lg:h-96">
                   <img
                     src={post.featured_image}
@@ -2111,7 +2111,7 @@ const readTime = post?.read_time || 5;
       />
       
       {/* Share menu dropdown */}
-      <div className="absolute top-12 right-0 bg-white rounded-lg shadow-2xl border border-gray-200 p-2 z-50 min-w-[160px]">
+      <div className="absolute bottom-12 right-0 bg-white rounded-lg shadow-2xl border border-gray-200 p-2 z-50 min-w-[160px]">
         <button
           onClick={() => handleShare("facebook")}
           className="w-full flex items-center px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded"
