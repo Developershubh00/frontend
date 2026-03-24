@@ -53005,6 +53005,563 @@ export const blogPosts: BlogPost[] = [
       ],
     },
   ],
+},
+{
+  id: 129,
+  title: "INICET Counseling Mistakes That Many Students Regret Later",
+  slug: "inicet-counseling-mistakes-that-many-students-regret-later",
+  excerpt: "Avoid common INICET counseling mistakes that lead to regret. Learn how to choose the right branch and institute based on interest, research, and long-term goals.",
+  featured_image: "https://cdn.dribbble.com/userupload/47142623/file/3d843fd45a4774ffcba9bdfeb388b46e.png?w=1200&h=600&fit=crop",
+  author: {
+    name: "Believers Team",
+    avatar: "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+    bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+  },
+  category: {
+    name: "NEET PG",
+    slug: "neet-pg",
+    color: "bg-green-100 text-green-800",
+  },
+  tags: [
+    "INICET Counseling",
+    "Career Guidance",
+    "Branch Selection",
+    "Medical PG",
+    "Decision Making",
+  ],
+  published_date: "2026-03-24",
+  read_time: 10,
+  meta_title: "INICET Counseling Mistakes That Many Students Regret Later",
+  meta_description: "Avoid common INICET counseling mistakes that lead to regret. Learn how to choose the right branch and institute based on interest, research, and long-term goals.",
+  keywords: [
+    "inicet counseling",
+    "inicet",
+    "inicet exam",
+    "medical pg counseling",
+    "branch selection",
+    "career guidance",
+    "counseling mistakes",
+    "medical specialization",
+    "postgraduate counseling",
+    "inicet seat allotment",
+  ],
+  sections: [
+    {
+      id: "intro",
+      type: "paragraph",
+      content: "Every year, thousands of medical graduates appear for the INICET with the dream of securing a prestigious postgraduate seat in institutes like AIIMS, JIPMER, PGIMER, and NIMHANS. After months or years of intense preparation, finally getting a seat feels like victory.",
+    },
+    {
+      id: "intro-regret",
+      type: "paragraph",
+      content: "Yet, surprisingly, many students experience regret after counseling. Some realize they chose the wrong branch; others feel they picked up the wrong institute, and a few even drop their seats and reattempt the exam.",
+    },
+    {
+      id: "intro-why",
+      type: "paragraph",
+      content: "Why does this happen?",
+    },
+    {
+      id: "intro-explore",
+      type: "paragraph",
+      content: "Let's explore the most common reasons behind INICET regret and more importantly, how you can avoid making the same mistakes.",
+    },
+    {
+      id: "mistake-1",
+      type: "heading",
+      title: "1. Choosing Rank Over Interest",
+      level: 2,
+    },
+    {
+      id: "mistake-1-intro",
+      type: "paragraph",
+      content: "One of the biggest mistakes students make is choosing a specialty purely based on rank prestige.",
+    },
+    {
+      id: "mistake-1-examples",
+      type: "paragraph",
+      content: "For example:",
+    },
+    {
+      id: "mistake-1-examples-list",
+      type: "list",
+      items: [
+        "A student interested in Medicine or Pediatrics may choose Anatomy or Biochemistry simply because it is available in a top institute.",
+        "Others pick Radiology or Dermatology only because they are considered \"high-rank branches.\"",
+      ],
+    },
+    {
+      id: "mistake-1-problem",
+      type: "paragraph",
+      content: "The problem appears later during residency when the student realizes:",
+    },
+    {
+      id: "mistake-1-problem-list",
+      type: "list",
+      items: [
+        "They don't enjoy the subject",
+        "The daily work feels exhausting",
+        "Long-term career satisfaction is missing",
+      ],
+    },
+    {
+      id: "mistake-1-avoid",
+      type: "heading",
+      title: "How to avoid it",
+      level: 3,
+    },
+    {
+      id: "mistake-1-avoid-ask",
+      type: "paragraph",
+      content: "Ask yourself honestly:",
+    },
+    {
+      id: "mistake-1-avoid-list",
+      type: "list",
+      items: [
+        "Can I study this subject for the next 30 years?",
+        "Do I enjoy its clinical work or academic nature?",
+        "Does it match my lifestyle goals?",
+      ],
+    },
+    {
+      id: "mistake-1-avoid-conclusion",
+      type: "paragraph",
+      content: "Your interest should always outweigh prestige.",
+    },
+    {
+      id: "mistake-2",
+      type: "heading",
+      title: "2. Overvaluing the Institute Name",
+      level: 2,
+    },
+    {
+      id: "mistake-2-intro",
+      type: "paragraph",
+      content: "AIIMS, PGIMER, and other INIs carry massive prestige. However, some students prioritize institute brand over branch quality.",
+    },
+    {
+      id: "mistake-2-examples",
+      type: "paragraph",
+      content: "Example situations:",
+    },
+    {
+      id: "mistake-2-examples-list",
+      type: "list",
+      items: [
+        "Choose a non-clinical branch at AIIMS when the student actually wants clinical practice.",
+        "Picking a less desired branch only because the institute is famous.",
+      ],
+    },
+    {
+      id: "mistake-2-realization",
+      type: "paragraph",
+      content: "After joining, many realize they would have been happier with their preferred specialty at another good institute.",
+    },
+    {
+      id: "mistake-2-avoid",
+      type: "heading",
+      title: "How to avoid it",
+      level: 3,
+    },
+    {
+      id: "mistake-2-avoid-order",
+      type: "paragraph",
+      content: "Think in this order:",
+    },
+    {
+      id: "mistake-2-avoid-list",
+      type: "list",
+      items: [
+        "Branch",
+        "Career goals",
+        "Institute",
+      ],
+    },
+    {
+      id: "mistake-2-avoid-conclusion",
+      type: "paragraph",
+      content: "Institute's reputation matters, but your specialty defines your career.",
+    },
+    {
+      id: "mistake-3",
+      type: "heading",
+      title: "3. Lack of Research About the Branch",
+      level: 2,
+    },
+    {
+      id: "mistake-3-intro",
+      type: "paragraph",
+      content: "Tons of students walk into counseling without actually understanding what a branch involves day-to-day.",
+    },
+    {
+      id: "mistake-3-shockers",
+      type: "paragraph",
+      content: "Common shockers:",
+    },
+    {
+      id: "mistake-3-shockers-list",
+      type: "list",
+      items: [
+        "Radiology's way more competitive and demanding than they thought",
+        "Surgery branches mean long brutal hours and intense workload",
+        "Non-clinical branches might kill your clinical exposure",
+      ],
+    },
+    {
+      id: "mistake-3-sources",
+      type: "paragraph",
+      content: "Students lean on random stuff seniors told them or Instagram posts instead of actually researching properly.",
+    },
+    {
+      id: "mistake-3-avoid",
+      type: "heading",
+      title: "How to dodge this",
+      level: 3,
+    },
+    {
+      id: "mistake-3-avoid-before",
+      type: "paragraph",
+      content: "Before counseling starts:",
+    },
+    {
+      id: "mistake-3-avoid-list",
+      type: "list",
+      items: [
+        "Talk to actual PG residents in that specialty",
+        "Ask what their daily routine looks like",
+        "Find out about future opportunities—real ones",
+        "Check what work-life balance actually means in that field",
+      ],
+    },
+    {
+      id: "mistake-3-avoid-conclusion",
+      type: "paragraph",
+      content: "Real information beats guessing every time.",
+    },
+    {
+      id: "mistake-4",
+      type: "heading",
+      title: "4. Panic During Counseling",
+      level: 2,
+    },
+    {
+      id: "mistake-4-intro",
+      type: "paragraph",
+      content: "INICET counseling can feel completely overwhelming.",
+    },
+    {
+      id: "mistake-4-deal",
+      type: "paragraph",
+      content: "Students deal with:",
+    },
+    {
+      id: "mistake-4-deal-list",
+      type: "list",
+      items: [
+        "Seats moving crazy fast",
+        "Fear of missing out on a seat",
+        "Family or friends pressuring them",
+      ],
+    },
+    {
+      id: "mistake-4-stress",
+      type: "paragraph",
+      content: "Because of this stress, lots of people make snap decisions they kick themselves over later.",
+    },
+    {
+      id: "mistake-4-examples",
+      type: "paragraph",
+      content: "Typical examples:",
+    },
+    {
+      id: "mistake-4-examples-list",
+      type: "list",
+      items: [
+        "Locking a branch they never planned for",
+        "Not filling enough choices out of confusion",
+        "Picking fast without thinking past next week",
+      ],
+    },
+    {
+      id: "mistake-4-avoid",
+      type: "heading",
+      title: "How to dodge this",
+      level: 3,
+    },
+    {
+      id: "mistake-4-avoid-before",
+      type: "paragraph",
+      content: "Before counseling kicks off:",
+    },
+    {
+      id: "mistake-4-avoid-list",
+      type: "list",
+      items: [
+        "Write out a clear priority list",
+        "Have backup plans ready (Plan B, Plan C, maybe even Plan D)",
+        "Look at seat matrix trends from previous years",
+      ],
+    },
+    {
+      id: "mistake-4-avoid-conclusion",
+      type: "paragraph",
+      content: "Being prepared kills panic.",
+    },
+    {
+      id: "mistake-5",
+      type: "heading",
+      title: "5. Following the Crowd",
+      level: 2,
+    },
+    {
+      id: "mistake-5-intro",
+      type: "paragraph",
+      content: "Another massive mistake? Blindly chasing whatever's trending.",
+    },
+    {
+      id: "mistake-5-like",
+      type: "paragraph",
+      content: "Like:",
+    },
+    {
+      id: "mistake-5-like-list",
+      type: "list",
+      items: [
+        "Everyone gunning for Radiology",
+        "Sudden hype around Dermatology",
+        "Avoiding certain branches because of what people say",
+      ],
+    },
+    {
+      id: "mistake-5-thing",
+      type: "paragraph",
+      content: "Here's the thing though:",
+    },
+    {
+      id: "mistake-5-thing-statement",
+      type: "paragraph",
+      content: "A branch that works for your friend might be terrible for you.",
+    },
+    {
+      id: "mistake-5-avoid",
+      type: "heading",
+      title: "How to dodge this",
+      level: 3,
+    },
+    {
+      id: "mistake-5-avoid-focus",
+      type: "paragraph",
+      content: "Focus on:",
+    },
+    {
+      id: "mistake-5-avoid-list",
+      type: "list",
+      items: [
+        "What you're actually good at",
+        "Your personality and how you work",
+        "Where you see yourself long-term",
+      ],
+    },
+    {
+      id: "mistake-5-avoid-conclusion",
+      type: "paragraph",
+      content: "Medicine has tons of fulfilling careers—not just the shiny trending ones.",
+    },
+    {
+      id: "mistake-6",
+      type: "heading",
+      title: "6. Ignoring Long-Term Career Goals",
+      level: 2,
+    },
+    {
+      id: "mistake-6-intro",
+      type: "paragraph",
+      content: "Lots of students only think about the next three years of residency. Not the next 30 years of practice.",
+    },
+    {
+      id: "mistake-6-mistake",
+      type: "paragraph",
+      content: "Big mistake.",
+    },
+    {
+      id: "mistake-6-reality",
+      type: "paragraph",
+      content: "What feels exciting now might bore you to death a decade later. What seems boring might actually fit your lifestyle perfectly long-term.",
+    },
+    {
+      id: "mistake-6-avoid",
+      type: "heading",
+      title: "How to dodge this",
+      level: 3,
+    },
+    {
+      id: "mistake-6-avoid-ask",
+      type: "paragraph",
+      content: "Ask yourself:",
+    },
+    {
+      id: "mistake-6-avoid-list",
+      type: "list",
+      items: [
+        "What kind of doctor do I want to be at 45?",
+        "What lifestyle do I actually want?",
+        "Does this branch match my personality or just my ego?",
+      ],
+    },
+    {
+      id: "mistake-6-avoid-conclusion",
+      type: "paragraph",
+      content: "Think beyond residency. Your career lasts way longer than training.",
+    },
+    {
+      id: "action-plan",
+      type: "heading",
+      title: "Quick Action Plan Before Counseling",
+      level: 2,
+    },
+    {
+      id: "action-1",
+      type: "heading",
+      title: "1. Know Your Rank Reality",
+      level: 3,
+    },
+    {
+      id: "action-1-content",
+      type: "paragraph",
+      content: "Check cutoffs. Be honest about what's possible.",
+    },
+    {
+      id: "action-2",
+      type: "heading",
+      title: "2. Research Every Branch",
+      level: 3,
+    },
+    {
+      id: "action-2-content",
+      type: "paragraph",
+      content: "Talk to residents, dig through forums, watch clinical work if you can.",
+    },
+    {
+      id: "action-3",
+      type: "heading",
+      title: "3. Make a Priority List",
+      level: 3,
+    },
+    {
+      id: "action-3-content",
+      type: "paragraph",
+      content: "Rank branches and institutes before counseling starts. Don't wing it.",
+    },
+    {
+      id: "action-4",
+      type: "heading",
+      title: "4. Plan Backup Options",
+      level: 3,
+    },
+    {
+      id: "action-4-content",
+      type: "paragraph",
+      content: "Always have Plan B and Plan C ready. Things move fast.",
+    },
+    {
+      id: "action-5",
+      type: "heading",
+      title: "5. Stay Calm During Counseling",
+      level: 3,
+    },
+    {
+      id: "action-5-content",
+      type: "paragraph",
+      content: "Trust your prep. Don't make panic decisions.",
+    },
+    {
+      id: "what-matters",
+      type: "heading",
+      title: "Here's What Actually Matters",
+      level: 2,
+    },
+    {
+      id: "what-matters-landing",
+      type: "paragraph",
+      content: "Landing an INICET seat is huge—but picking the right one matters just as much.",
+    },
+    {
+      id: "what-matters-remember",
+      type: "paragraph",
+      content: "Remember:",
+    },
+    {
+      id: "what-matters-list",
+      type: "list",
+      items: [
+        "Your branch defines what you do every single day",
+        "Your interest keeps you going when things get rough",
+        "Your career satisfaction beats prestige in the long run",
+      ],
+    },
+    {
+      id: "what-matters-smart",
+      type: "paragraph",
+      content: "A smart decision now saves you years of regret later.",
+    },
+    {
+      id: "what-matters-pick",
+      type: "paragraph",
+      content: "Pick wisely.",
+    },
+    {
+      id: "faqs",
+      type: "heading",
+      title: "FAQs",
+      level: 2,
+    },
+    {
+      id: "faqs-list",
+      type: "faq",
+      faqs: [
+        {
+          question: "1. What is the biggest mistake students make during counselling?",
+          answer: "Choosing a branch based only on rank or prestige instead of personal interest and long-term fit.",
+        },
+        {
+          question: "2. Should I prioritize institute or branch?",
+          answer: "Always prioritize branch first, then career goals, and then the institute.",
+        },
+        {
+          question: "3. How can I avoid panic during counselling?",
+          answer: "Prepare a clear priority list, study previous trends, and keep backup options ready.",
+        },
+        {
+          question: "4. Is following trending branches a good strategy?",
+          answer: "No. Choose a branch based on your strengths, interests, and future goals—not trends.",
+        },
+      ],
+    },
+    {
+      id: "contact-form",
+      type: "contact-form",
+      title: "Submit queries to BelieversConsultancy",
+      content: "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/e/1FAIpQLSeIM6HYq_pg_mq6PK78YzdLn6KwaVQjyndn2CdJ8ThWWXvNOA/viewform",
+    },
+    {
+      id: "keywords",
+      type: "keywords",
+      title: "Related Keywords",
+      keywords: [
+        "inicet counseling",
+        "inicet",
+        "inicet exam",
+        "medical pg counseling",
+        "branch selection",
+        "career guidance",
+        "counseling mistakes",
+        "medical specialization",
+        "postgraduate counseling",
+        "inicet seat allotment",
+      ],
+    },
+  ],
 }
 ];
 
