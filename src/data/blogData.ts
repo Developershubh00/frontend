@@ -53863,6 +53863,406 @@ export const blogPosts: BlogPost[] = [
       ],
     },
   ],
+},
+{
+  "id": 131,
+  "title": "Overthinking Your Career at 2 AM? Avoid These Costly Counselling Mistakes",
+  "slug": "overthinking-career-2am-avoid-costly-counselling-mistakes",
+  "excerpt": "Don't choose careers in confusion. Get proper guidance, know your strengths, and make informed decisions.",
+  "featured_image": "https://cdn.dribbble.com/userupload/47186043/file/0ef3b8fbb58f5c80c1b7aab3d9347155.jpg",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-green-100 text-green-800"
+  },
+  "tags": [
+    "Career Counselling",
+    "Career Guidance",
+    "Decision Making",
+    "Student Anxiety",
+    "Career Mistakes"
+  ],
+  "published_date": "2026-03-27",
+  "read_time": 8,
+  "meta_title": "Overthinking Your Career at 2 AM? Avoid These Costly Counselling Mistakes",
+  "meta_description": "Don't choose careers in confusion. Get proper guidance, know your strengths, and make informed decisions.",
+  "keywords": [
+    "career mistakes",
+    "career counselling",
+    "career guidance",
+    "counselling career",
+    "best career counselor",
+    "need career guidance",
+    "best career guidance"
+  ],
+  "sections": [
+    {
+      "id": "intro",
+      "type": "heading",
+      "title": "Overthinking Your Career at 2 AM? Avoid These Costly Counselling Mistakes",
+      "level": 1
+    },
+    {
+      "id": "intro-subtitle",
+      "type": "heading",
+      "title": "When late-night anxiety hijacks your future decisions—and how to stay on track",
+      "level": 2
+    },
+    {
+      "id": "intro-para1",
+      "type": "paragraph",
+      "content": "It's 2 AM. You're staring at the ceiling, scrolling through endless career options, second-guessing every decision you've made—or haven't made yet."
+    },
+    {
+      "id": "intro-questions",
+      "type": "paragraph",
+      "content": "\"Am I picking the right career?\"\n\"What if I crash and burn?\"\n\"What if I regret this forever?\""
+    },
+    {
+      "id": "intro-para2",
+      "type": "paragraph",
+      "content": "If these hits close to home, you're not alone."
+    },
+    {
+      "id": "intro-para3",
+      "type": "paragraph",
+      "content": "Overthinking career choices, especially late at night, is something tons of students go through. But what most don't realize? This mental spiral often leads to terrible counselling decisions and mistakes that mess up their future."
+    },
+    {
+      "id": "intro-para4",
+      "type": "paragraph",
+      "content": "Let's break down the common counselling mistakes students make during these moments—and how to dodge them."
+    },
+    {
+      "id": "mistake-1",
+      "type": "heading",
+      "title": "1. Making Emotional Decisions",
+      "level": 2
+    },
+    {
+      "id": "mistake-1-intro",
+      "type": "paragraph",
+      "content": "Thinking late at night? Instead of clarity, it is driven by fear, worry, and confusion."
+    },
+    {
+      "id": "mistake-1-error",
+      "type": "paragraph",
+      "content": "The error"
+    },
+    {
+      "id": "mistake-1-error-content",
+      "type": "paragraph",
+      "content": "Making a career decision when you're in a bad place."
+    },
+    {
+      "id": "mistake-1-instead",
+      "type": "paragraph",
+      "content": "What to do in its place"
+    },
+    {
+      "id": "mistake-1-instead-content",
+      "type": "paragraph",
+      "content": "Quit. Hold on. Important calls should be made while you're calm, not in a panic at two in the morning."
+    },
+    {
+      "id": "mistake-2",
+      "type": "heading",
+      "title": "2. Excessive Information Consumption",
+      "level": 2
+    },
+    {
+      "id": "mistake-2-intro",
+      "type": "paragraph",
+      "content": "It's far too simple to tumble into a rabbit hole of blogs, YouTube videos, and arbitrary beliefs at two in the morning."
+    },
+    {
+      "id": "mistake-2-error",
+      "type": "paragraph",
+      "content": "The error"
+    },
+    {
+      "id": "mistake-2-error-content",
+      "type": "paragraph",
+      "content": "overwhelmed with information that only makes things more confusing."
+    },
+    {
+      "id": "mistake-2-instead",
+      "type": "paragraph",
+      "content": "What to do in its place:"
+    },
+    {
+      "id": "mistake-2-instead-content",
+      "type": "paragraph",
+      "content": "Stay with reliable sources and real, structured advice, ideally from licensed counselors."
+    },
+    {
+      "id": "mistake-3",
+      "type": "heading",
+      "title": "3. Comparing Yourself to Others",
+      "level": 2
+    },
+    {
+      "id": "mistake-3-intro",
+      "type": "paragraph",
+      "content": "Scrolling through social media triggers comparison—\"They have it all figured out, why don't I?\""
+    },
+    {
+      "id": "mistake-3-error",
+      "type": "paragraph",
+      "content": "The mistake:"
+    },
+    {
+      "id": "mistake-3-error-content",
+      "type": "paragraph",
+      "content": "Basing your decisions on someone else's journey."
+    },
+    {
+      "id": "mistake-3-instead",
+      "type": "paragraph",
+      "content": "What to do instead:"
+    },
+    {
+      "id": "mistake-3-instead-content",
+      "type": "paragraph",
+      "content": "Every student's path is different. Focus on your own strengths and interests."
+    },
+    {
+      "id": "mistake-4",
+      "type": "heading",
+      "title": "4. Overestimating Risks, Underestimating Yourself",
+      "level": 2
+    },
+    {
+      "id": "mistake-4-intro",
+      "type": "paragraph",
+      "content": "Overthinking will bust up with fear—of failure, rejection, and it's end up making the \"wrong\" choice."
+    },
+    {
+      "id": "mistake-4-error",
+      "type": "paragraph",
+      "content": "The mistake:"
+    },
+    {
+      "id": "mistake-4-error-content",
+      "type": "paragraph",
+      "content": "Letting all the fear drives your career direction."
+    },
+    {
+      "id": "mistake-4-instead",
+      "type": "paragraph",
+      "content": "What to do instead:"
+    },
+    {
+      "id": "mistake-4-instead-content",
+      "type": "paragraph",
+      "content": "You just need to change your mindset from \"What if I fail?\" to \"What can I learn from this?\""
+    },
+    {
+      "id": "mistake-5",
+      "type": "heading",
+      "title": "5. Disregarding Expert Counseling",
+      "level": 2
+    },
+    {
+      "id": "mistake-5-intro",
+      "type": "paragraph",
+      "content": "You know that when you suffer during the late-night anxiety spirals, students are totally dependent upon unplanned internet information rather than professional guidance."
+    },
+    {
+      "id": "mistake-5-error",
+      "type": "paragraph",
+      "content": "Avoiding systematic, individualized counseling is the error."
+    },
+    {
+      "id": "mistake-5-instead",
+      "type": "paragraph",
+      "content": "Instead of this, you need to speak with a licensed career counselor who can easily provide you with insight based on your true aptitude and personality."
+    },
+    {
+      "id": "mistake-6",
+      "type": "heading",
+      "title": "6. Seeking the \"Perfect\" Career",
+      "level": 2
+    },
+    {
+      "id": "mistake-6-intro",
+      "type": "paragraph",
+      "content": "There are so many students who become fixated on choosing the ideal career around two in the morning."
+    },
+    {
+      "id": "mistake-6-error",
+      "type": "paragraph",
+      "content": "The error:"
+    },
+    {
+      "id": "mistake-6-error-content",
+      "type": "paragraph",
+      "content": "Some of them think that there is just one \"right\" way."
+    },
+    {
+      "id": "mistake-6-instead",
+      "type": "paragraph",
+      "content": "What to do in its place"
+    },
+    {
+      "id": "mistake-6-instead-content",
+      "type": "paragraph",
+      "content": "You know that careers change over time. So you need to prioritize developing your talents and remaining flexible."
+    },
+    {
+      "id": "mistake-7",
+      "type": "heading",
+      "title": "7. Rushing Decisions to End Anxiety",
+      "level": 2
+    },
+    {
+      "id": "mistake-7-intro",
+      "type": "paragraph",
+      "content": "Sometimes, students make snap decisions just to stop overthinking."
+    },
+    {
+      "id": "mistake-7-error",
+      "type": "paragraph",
+      "content": "The mistake:"
+    },
+    {
+      "id": "mistake-7-error-content",
+      "type": "paragraph",
+      "content": "Picking a path just for temporary relief."
+    },
+    {
+      "id": "mistake-7-instead",
+      "type": "paragraph",
+      "content": "What to do instead:"
+    },
+    {
+      "id": "mistake-7-instead-content",
+      "type": "paragraph",
+      "content": "Sit with uncertainty. Take actual time to explore options properly."
+    },
+    {
+      "id": "mistake-8",
+      "type": "heading",
+      "title": "8. Ignoring Self-Assessment",
+      "level": 2
+    },
+    {
+      "id": "mistake-8-intro",
+      "type": "paragraph",
+      "content": "Overthinking fixates external stuff—salary, status, what other people think."
+    },
+    {
+      "id": "mistake-8-error",
+      "type": "paragraph",
+      "content": "Mistake:"
+    },
+    {
+      "id": "mistake-8-error-content",
+      "type": "paragraph",
+      "content": "Not understanding your own strengths, interests, and personality."
+    },
+    {
+      "id": "mistake-8-instead",
+      "type": "paragraph",
+      "content": "What to do instead:"
+    },
+    {
+      "id": "mistake-8-instead-content",
+      "type": "paragraph",
+      "content": "Use career assessment tools and reflect on what genuinely suits you."
+    },
+    {
+      "id": "how-to-handle",
+      "type": "heading",
+      "title": "How to Handle 2 AM Career Anxiety",
+      "level": 2
+    },
+    {
+      "id": "how-to-handle-list",
+      "type": "list",
+      "items": [
+        "Instead of allowing your ideas to spiral out of control, write them down.",
+        "Make decisions in the morning rather than at night.",
+        "Reduce the amount of information you consume and prioritize quality over quantity.",
+        "Speak with a trusted person or, better yet, a licensed counselor.",
+        "Recall that perplexity, not failure, is a necessary part of the process."
+      ]
+    },
+    {
+      "id": "final-thoughts",
+      "type": "heading",
+      "title": "Final Thoughts",
+      "level": 2
+    },
+    {
+      "id": "final-thoughts-para1",
+      "type": "paragraph",
+      "content": "Overthinking your career at 2 AM doesn't mean you're lost—it means you care about your future. But turning that anxiety into rushed or uninformed decisions leads to regret."
+    },
+    {
+      "id": "final-thoughts-para2",
+      "type": "paragraph",
+      "content": "Aspirants should have this idea that the right career choice isn't made during a panic attack—it's built through the utmost clarity, guidance, and self-awareness."
+    },
+    {
+      "id": "final-thoughts-para3",
+      "type": "paragraph",
+      "content": "So, If you're also stuck in this cycle, then it's maybe the time to step away from late-night overthinking and step out into the structured, professional career counselling."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "1. Why do career doubts feel stronger at night?",
+          "answer": "Because anxiety and overthinking increase when you're tired, making problems feel bigger than they are."
+        },
+        {
+          "question": "2. Should I make career decisions when I feel overwhelmed?",
+          "answer": "No. Important decisions should be made with a calm and clear mind, not during emotional stress."
+        },
+        {
+          "question": "3. How can I stop overthinking career choices?",
+          "answer": "Limit information, avoid comparisons, write down thoughts, and seek structured guidance."
+        },
+        {
+          "question": "4. Is there really a \"perfect\" career choice?",
+          "answer": "No. Careers evolve over time—focus on growth, skills, and adaptability instead."
+        }
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have questions about career counselling or need guidance on making the right decision? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/e/1FAIpQLSeIM6HYq_pg_mq6PK78YzdLn6KwaVQjyndn2CdJ8ThWWXvNOA/viewform"
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "career mistakes",
+        "career counselling",
+        "career guidance",
+        "counselling career",
+        "best career counselor",
+        "need career guidance",
+        "best career guidance"
+      ]
+    }
+  ]
 }
 ];
 
