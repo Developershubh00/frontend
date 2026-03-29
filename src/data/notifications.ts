@@ -753,6 +753,17 @@ const rawNotifications: Omit<Notification, "isNew">[] = [
     icon: "🔔",
     link: "/notice",
   },
+  {
+    id: 14,
+    title: " INI-CET for admission to PG Courses for July 2026 session ",
+    message: "Institute of National Importance Combined Entrance Test (INI-CET) for admission to PG Courses for July 2026 session ",
+    type: "urgent",
+    date: "19.03.2026",
+    time: "10:00 AM",
+    read: false,
+    icon: "🔔",
+    link: "/notice",
+  },
   // {
   //   id: 14,
   //   title: "Provisional Counselling Seats Allotment - 2025 Round 3",

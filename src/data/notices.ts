@@ -222,6 +222,15 @@ const rawNotices: Omit<NoticeDocument, 'isNew'>[] = [
       "https://believersdestination1-my.sharepoint.com/:b:/g/personal/ishita_agarwal_believersdestination_com/IQCbGUvYkCSyQoRnuYsRhUrRAedD0EwqbRm4URDEQevsvfk?e=YQUp1J",
     size: "External",
   },
+  {
+    id: 24,
+    title:
+      "Institute of National Importance Combined Entrance Test (INI-CET) for admission to PG Courses for July 2026 session ",
+    date: "19.03.2026",
+    externalUrl:
+      "/data/inicet-admission.pdf",
+    size: "External",
+  },
   
 ];
 
