@@ -592,10 +592,10 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
       ) {
         throw new Error(
           (error.response as { data: { detail?: string } }).data.detail ||
-            "Scheduled Maintenance in Progress — Thanks for your patience."
+            "Incorrect password"
         );
       }
-      throw new Error("Scheduled Maintenance in Progress — Thanks for your patience.");
+      throw new Error("Incorrect password. If you don’t remember it, click “Forgot Password” to reset it.");
     }
   };
 
