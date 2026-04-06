@@ -55010,7 +55010,7 @@ export const blogPosts: BlogPost[] = [
   ],
 },
 {
-  id: 135,
+  id: 134,
   title: "Step-by-Step Counselling Process for NEET PG: A Complete Guide",
   slug: "step-by-step-counselling-process-neet-pg-complete-guide",
   excerpt: "Understand the NEET PG counselling process step by step, from registration to seat allotment to make informed choices and secure the best medical seat.",
@@ -55032,7 +55032,7 @@ export const blogPosts: BlogPost[] = [
     "Medical Admission",
     "Student Guide",
   ],
-  published_date: "2026-04-06",
+  published_date: "2026-04-03",
   read_time: 8,
   meta_title: "Step-by-Step Counselling Process for NEET PG: A Complete Guide",
   meta_description: "Understand the NEET PG counselling process step by step, from registration to seat allotment to make informed choices and secure the best medical seat.",
@@ -55350,7 +55350,7 @@ export const blogPosts: BlogPost[] = [
   title: "You're Not Lazy—You're Burnt Out: The Reality of NEET PG Prep",
   slug: "youre-not-lazy-youre-burnt-out-reality-neet-pg-prep",
   excerpt: "Struggling with NEET PG prep? It may be burnout, not laziness. Learn how stress, long study hours, and pressure affect focus and how to recover smartly.",
-  featured_image: "https://cdn.dribbble.com/userupload/46434627/file/c261ae0c29b1538ec98e0c93fe9e56d5.jpg?w=1200&h=600&fit=crop",
+  featured_image: "https://cdn.dribbble.com/userupload/47294880/file/fde858f805c99029a727eb966012fef7.jpg?w=1200&h=600&fit=crop",
   author: {
     name: "Believers Team",
     avatar: "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
@@ -55413,7 +55413,251 @@ export const blogPosts: BlogPost[] = [
     {
       id: "not-laziness-reality",
       type: "paragraph",
-      content: "When you're burnt out, it's not because you don't want to study or NEET PG exam, you just can't do it the s
+      content: "When you're burnt out, it's not because you don't want to study or NEET PG exam, you just can't do it the same way anymore. After a certain time, your brain feels foggy, your actual focus drops, and even simple topics start feeling heavy.",
+    },
+    {
+      id: "not-laziness-difference",
+      type: "paragraph",
+      content: "If it were laziness, taking a break would fix it instantly. But burnout doesn't work like that.",
+    },
+    {
+      id: "not-laziness-builds",
+      type: "paragraph",
+      content: "It builds slowly, especially during long prep cycles like NEET PG and other medical PG entrance preparation phases.",
+    },
+    {
+      id: "studying-more",
+      type: "heading",
+      title: "Studying More Actually Makes It Worse",
+      level: 2,
+    },
+    {
+      id: "studying-more-instinct",
+      type: "paragraph",
+      content: "Your first instinct when things go wrong is to push harder.",
+    },
+    {
+      id: "studying-more-maybe",
+      type: "paragraph",
+      content: "Maybe I just need to study 12–14 hours.",
+    },
+    {
+      id: "studying-more-backfires",
+      type: "paragraph",
+      content: "That usually backfires.",
+    },
+    {
+      id: "studying-more-exhausted",
+      type: "paragraph",
+      content: "When you're already mentally exhausted, adding more hours doesn't increase productivity—it drains whatever little energy you have left. You end up sitting longer, learning less, and feeling worse during your Neet PG preparation.",
+    },
+    {
+      id: "studying-more-loop",
+      type: "paragraph",
+      content: "This is where a lot of students get stuck in a loop.",
+    },
+    {
+      id: "breaks-alone",
+      type: "heading",
+      title: "Breaks Alone Don't Fix Exhaustion",
+      level: 2,
+    },
+    {
+      id: "breaks-alone-advice",
+      type: "paragraph",
+      content: "People love giving this advice: \"Just take a break.\"",
+    },
+    {
+      id: "breaks-alone-sure",
+      type: "paragraph",
+      content: "Sure, breaks help—but not in the way you think.",
+    },
+    {
+      id: "breaks-alone-scrolling",
+      type: "paragraph",
+      content: "Scrolling on your phone for two hours or binge-watching something doesn't really reset your brain. It just distracts you temporarily.",
+    },
+    {
+      id: "breaks-alone-real",
+      type: "paragraph",
+      content: "Real recovery needs better structure, not just random breaks, especially when you're preparing for a competitive medical PG exam like NEET PG.",
+    },
+    {
+      id: "structure-heals",
+      type: "heading",
+      title: "Structure Heals Burnout",
+      level: 2,
+    },
+    {
+      id: "structure-heals-late",
+      type: "paragraph",
+      content: "This is something most students figure out a bit too late.",
+    },
+    {
+      id: "structure-heals-improves",
+      type: "paragraph",
+      content: "Burnout improves when your day has clarity:",
+    },
+    {
+      id: "structure-heals-list",
+      type: "list",
+      items: [
+        "What to study for NEET PG",
+        "When to study",
+        "When to stop",
+      ],
+    },
+    {
+      id: "structure-heals-removes",
+      type: "paragraph",
+      content: "A structured plan removes decision fatigue. You don't waste energy wondering \"what next?\" every hour.",
+    },
+    {
+      id: "structure-heals-difference",
+      type: "paragraph",
+      content: "Even a simple routine like fixed study slots, planned revisions, and scheduled downtime—can make a huge difference.",
+    },
+    {
+      id: "comparison-fuels",
+      type: "heading",
+      title: "Comparison Fuels Burnout",
+      level: 2,
+    },
+    {
+      id: "comparison-fuels-hits",
+      type: "paragraph",
+      content: "This one hits hard.",
+    },
+    {
+      id: "comparison-fuels-see",
+      type: "paragraph",
+      content: "You see someone solving 300 MCQs a day. Someone else finishing revisions faster. Someone posting scores from mock tests.",
+    },
+    {
+      id: "comparison-fuels-suddenly",
+      type: "paragraph",
+      content: "And suddenly, whatever you're doing for your NEET PG preparation feels \"not enough.\"",
+    },
+    {
+      id: "comparison-fuels-doesnt",
+      type: "paragraph",
+      content: "Comparison doesn't motivate—it exhausts you.",
+    },
+    {
+      id: "comparison-fuels-chasing",
+      type: "paragraph",
+      content: "You start chasing unrealistic standards instead of focusing on your own pace. And that pressure slowly drains your confidence.",
+    },
+    {
+      id: "what-helps",
+      type: "heading",
+      title: "So What Actually Helps?",
+      level: 2,
+    },
+    {
+      id: "what-helps-intro",
+      type: "paragraph",
+      content: "There's no magic fix, but there are few things do work if you stick to them:",
+    },
+    {
+      id: "what-helps-list",
+      type: "list",
+      items: [
+        "You need to cut down your study load temporarily instead of increasing it",
+        "Follow a proper fixed, realistic schedule",
+        "Although you need to focus on consistency, not intensity",
+        "Limit comparison triggers (yes, even social media)",
+        "Revise more, don't just keep adding the new topics",
+      ],
+    },
+    {
+      id: "what-helps-important",
+      type: "paragraph",
+      content: "Most importantly, you need to accept that burnout is part of the process, not a sign that you're failing.",
+    },
+    {
+      id: "final-thoughts",
+      type: "heading",
+      title: "Final Thoughts",
+      level: 2,
+    },
+    {
+      id: "final-thoughts-long",
+      type: "paragraph",
+      content: "NEET PG preparation is a long game. You're not supposed to feel 100% motivated every day.",
+    },
+    {
+      id: "final-thoughts-some",
+      type: "paragraph",
+      content: "Some days will feel heavy. Some days won't go as planned. That doesn't mean you're doing it wrong.",
+    },
+    {
+      id: "final-thoughts-doesnt",
+      type: "paragraph",
+      content: "Burnout doesn't mean you're weak. It usually means you've been trying hard for too long without the right balance.",
+    },
+    {
+      id: "final-thoughts-fix",
+      type: "paragraph",
+      content: "Fix the structure, ease the pressure, and give yourself space to recover properly.",
+    },
+    {
+      id: "final-thoughts-need",
+      type: "paragraph",
+      content: "You don't need to do more—you just need to do it smarter.",
+    },
+    {
+      id: "faqs",
+      type: "heading",
+      title: "FAQs",
+      level: 2,
+    },
+    {
+      id: "faqs-list",
+      type: "faq",
+      faqs: [
+        {
+          question: "Is burnout the same as laziness during NEET PG prep?",
+          answer: "No, burnout is mental exhaustion, not a lack of willingness to study.",
+        },
+        {
+          question: "Why can't I focus even after sitting for long hours?",
+          answer: "Because burnout reduces your cognitive efficiency, not your effort.",
+        },
+        {
+          question: "Does studying more hours fix burnout?",
+          answer: "No, overstudying often worsens burnout and lowers productivity.",
+        },
+        {
+          question: "Do breaks really help with burnout?",
+          answer: "Only structured and meaningful breaks help, not passive distractions.",
+        },
+      ],
+    },
+    {
+      id: "contact-form",
+      type: "contact-form",
+      title: "Submit queries to BelieversConsultancy",
+      content: "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/e/1FAIpQLSeIM6HYq_pg_mq6PK78YzdLn6KwaVQjyndn2CdJ8ThWWXvNOA/viewform",
+    },
+    {
+      id: "keywords",
+      type: "keywords",
+      title: "Related Keywords",
+      keywords: [
+        "neet pg preparation",
+        "neet pg",
+        "neet pg exam",
+        "medical pg exam",
+        "medical pg preparation",
+        "medical pg entrance preparation",
+        "revision for neet pg",
+        "study for neet pg",
+        "study plan for neet pg",
+      ],
+    },
+  ],
+}
 ];
 
 // Helper function to get blog by slug
