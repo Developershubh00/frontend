@@ -55010,11 +55010,11 @@ export const blogPosts: BlogPost[] = [
   ],
 },
 {
-  id: 134,
+  id: 135,
   title: "Step-by-Step Counselling Process for NEET PG: A Complete Guide",
   slug: "step-by-step-counselling-process-neet-pg-complete-guide",
   excerpt: "Understand the NEET PG counselling process step by step, from registration to seat allotment to make informed choices and secure the best medical seat.",
-  featured_image: "https://cdn.dribbble.com/userupload/47267385/file/26bb8a6ca491ad6bc450506ee9a6ace3.png?w=1200&h=600&fit=crop",
+  featured_image: "https://cdn.dribbble.com/userupload/47294880/file/fde858f805c99029a727eb966012fef7.jpg?w=1200&h=600&fit=crop",
   author: {
     name: "Believers Team",
     avatar: "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
@@ -55032,7 +55032,7 @@ export const blogPosts: BlogPost[] = [
     "Medical Admission",
     "Student Guide",
   ],
-  published_date: "2026-04-03",
+  published_date: "2026-04-06",
   read_time: 8,
   meta_title: "Step-by-Step Counselling Process for NEET PG: A Complete Guide",
   meta_description: "Understand the NEET PG counselling process step by step, from registration to seat allotment to make informed choices and secure the best medical seat.",
@@ -55344,7 +55344,76 @@ export const blogPosts: BlogPost[] = [
       ],
     },
   ],
-}
+},
+{
+  id: 130,
+  title: "You're Not Lazy—You're Burnt Out: The Reality of NEET PG Prep",
+  slug: "youre-not-lazy-youre-burnt-out-reality-neet-pg-prep",
+  excerpt: "Struggling with NEET PG prep? It may be burnout, not laziness. Learn how stress, long study hours, and pressure affect focus and how to recover smartly.",
+  featured_image: "https://cdn.dribbble.com/userupload/46434627/file/c261ae0c29b1538ec98e0c93fe9e56d5.jpg?w=1200&h=600&fit=crop",
+  author: {
+    name: "Believers Team",
+    avatar: "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+    bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+  },
+  category: {
+    name: "NEET PG",
+    slug: "neet-pg",
+    color: "bg-green-100 text-green-800",
+  },
+  tags: [
+    "NEET PG Preparation",
+    "Burnout",
+    "Mental Health",
+    "Study Strategy",
+    "Student Wellbeing",
+  ],
+  published_date: "2026-02-16",
+  read_time: 7,
+  meta_title: "You're Not Lazy—You're Burnt Out: The Reality of NEET PG Prep",
+  meta_description: "Struggling with NEET PG prep? It may be burnout, not laziness. Learn how stress, long study hours, and pressure affect focus and how to recover smartly.",
+  keywords: [
+    "neet pg preparation",
+    "neet pg",
+    "neet pg exam",
+    "medical pg exam",
+    "medical pg preparation",
+    "medical pg entrance preparation",
+    "revision for neet pg",
+    "study for neet pg",
+    "study plan for neet pg",
+  ],
+  sections: [
+    {
+      id: "intro",
+      type: "paragraph",
+      content: "Let's be honest almost every NEET PG aspirant hits a phase where nothing feels right. You sit with your books, but your mind drifts. You try to study longer but somehow get less done. And then comes the guilt.",
+    },
+    {
+      id: "intro-myth",
+      type: "paragraph",
+      content: "Most people call this laziness. It's not.",
+    },
+    {
+      id: "intro-burnout",
+      type: "paragraph",
+      content: "This is the actual burnout. And the frustrating part? Nobody really explains it properly, especially during intense phases of medical pg preparation.",
+    },
+    {
+      id: "not-laziness",
+      type: "heading",
+      title: "Burnout Isn't Laziness",
+      level: 2,
+    },
+    {
+      id: "not-laziness-myth",
+      type: "paragraph",
+      content: "This is the biggest myth.",
+    },
+    {
+      id: "not-laziness-reality",
+      type: "paragraph",
+      content: "When you're burnt out, it's not because you don't want to study or NEET PG exam, you just can't do it the s
 ];
 
 // Helper function to get blog by slug
