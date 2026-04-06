@@ -55368,7 +55368,7 @@ export const blogPosts: BlogPost[] = [
     "Study Strategy",
     "Student Wellbeing",
   ],
-  published_date: "2026-02-16",
+  published_date: "2026-04-06",
   read_time: 7,
   meta_title: "You're Not Lazy—You're Burnt Out: The Reality of NEET PG Prep",
   meta_description: "Struggling with NEET PG prep? It may be burnout, not laziness. Learn how stress, long study hours, and pressure affect focus and how to recover smartly.",
