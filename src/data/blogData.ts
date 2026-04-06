@@ -55014,7 +55014,7 @@ export const blogPosts: BlogPost[] = [
   title: "Step-by-Step Counselling Process for NEET PG: A Complete Guide",
   slug: "step-by-step-counselling-process-neet-pg-complete-guide",
   excerpt: "Understand the NEET PG counselling process step by step, from registration to seat allotment to make informed choices and secure the best medical seat.",
-  featured_image: "https://cdn.dribbble.com/userupload/47294880/file/fde858f805c99029a727eb966012fef7.jpg?w=1200&h=600&fit=crop",
+  featured_image: "https://cdn.dribbble.com/userupload/47267385/file/26bb8a6ca491ad6bc450506ee9a6ace3.png?w=1200&h=600&fit=crop",
   author: {
     name: "Believers Team",
     avatar: "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
@@ -55347,7 +55347,7 @@ export const blogPosts: BlogPost[] = [
 },
 {
   id: 130,
-  title: "You're Not Lazy—You're Burnt Out: The Reality of NEET PG Prep",
+  title: "You're Not Lazy You're Burnt Out: The Reality of NEET PG Prep",
   slug: "youre-not-lazy-youre-burnt-out-reality-neet-pg-prep",
   excerpt: "Struggling with NEET PG prep? It may be burnout, not laziness. Learn how stress, long study hours, and pressure affect focus and how to recover smartly.",
   featured_image: "https://cdn.dribbble.com/userupload/47294880/file/fde858f805c99029a727eb966012fef7.jpg?w=1200&h=600&fit=crop",
