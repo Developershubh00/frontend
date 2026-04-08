@@ -55666,7 +55666,7 @@ export const blogPosts: BlogPost[] = [
   "featured_image": "https://cdn.dribbble.com/userupload/47321185/file/fca464410143da95cbe68287d9b1a32f.jpg?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
-    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22,
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
     "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
   "category": {
