@@ -55681,7 +55681,7 @@ export const blogPosts: BlogPost[] = [
     "Medical Career",
     "Career Advice"
   ],
-  "published_date": "2026-03-20",
+  "published_date": "2026-04-08",
   "read_time": 10,
   "meta_title": "Branch vs College: The NEET PG Decision That Defines Your Career",
   "meta_description": "Choosing between branch and college in NEET PG shapes your skills, exposure, and future growth. Make a balanced decision based on interest, rank, and goals.",
