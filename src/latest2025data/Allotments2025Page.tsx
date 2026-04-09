@@ -217,7 +217,7 @@
 //             </div>
 //             <div className="p-4">
 //               <div className="flex gap-2 mb-4">
-//                 <button onClick={showAll} className="px-3 py-1.5 text-sm bg-green-100 text-green-700 rounded-lg">Show All</button>
+//                 <button onClick={showAll} className="px-3 py-1.5 text-sm bg-blue-100 text-blue-700 rounded-lg">Show All</button>
 //                 <button onClick={hideAll} className="px-3 py-1.5 text-sm bg-red-100 text-red-700 rounded-lg">Hide All</button>
 //               </div>
 //               <div className="space-y-2 max-h-64 overflow-y-auto">
@@ -227,7 +227,7 @@
 //                       <input type="checkbox" checked={colVis[key]} onChange={() => toggleCol(key)} className="w-4 h-4 text-blue-600 border-gray-300 rounded" />
 //                       <span className="ml-3 text-sm text-gray-700">{label}</span>
 //                     </label>
-//                     {colVis[key] ? <Eye className="w-4 h-4 text-green-500" /> : <EyeOff className="w-4 h-4 text-gray-400" />}
+//                     {colVis[key] ? <Eye className="w-4 h-4 text-blue-500" /> : <EyeOff className="w-4 h-4 text-gray-400" />}
 //                   </div>
 //                 ))}
 //               </div>
@@ -355,8 +355,8 @@
 //                   {colVis.State && <td className="px-2 py-2 text-center text-xs text-gray-700">{item.State}</td>}
 //                   {colVis.Institute && <td className="px-2 py-2 text-left text-xs text-blue-600 hover:text-blue-800 cursor-pointer font-medium">{item.Institute}</td>}
 //                   {colVis.Course && <td className="px-2 py-2 text-left text-xs text-gray-700">{item.Course}</td>}
-//                   {colVis.Quota && <td className="px-2 py-2 text-center text-xs"><span className={`px-2 py-1 rounded-full text-xs font-medium ${item.Quota==="AIQ"?"bg-green-100 text-green-800":item.Quota==="State Quota"?"bg-blue-100 text-blue-800":"bg-purple-100 text-purple-800"}`}>{item.Quota}</span></td>}
-//                   {colVis.Category && <td className="px-2 py-2 text-center text-xs"><span className={`px-2 py-1 rounded-full text-xs font-medium ${item.Category==="GEN"?"bg-gray-100 text-gray-800":item.Category==="OBC"?"bg-yellow-100 text-yellow-800":item.Category==="SC"?"bg-red-100 text-red-800":item.Category==="ST"?"bg-blue-100 text-blue-800":"bg-green-100 text-green-800"}`}>{item.Category}</span></td>}
+//                   {colVis.Quota && <td className="px-2 py-2 text-center text-xs"><span className={`px-2 py-1 rounded-full text-xs font-medium ${item.Quota==="AIQ"?"bg-blue-100 text-blue-800":item.Quota==="State Quota"?"bg-blue-100 text-blue-800":"bg-purple-100 text-purple-800"}`}>{item.Quota}</span></td>}
+//                   {colVis.Category && <td className="px-2 py-2 text-center text-xs"><span className={`px-2 py-1 rounded-full text-xs font-medium ${item.Category==="GEN"?"bg-gray-100 text-gray-800":item.Category==="OBC"?"bg-yellow-100 text-yellow-800":item.Category==="SC"?"bg-red-100 text-red-800":item.Category==="ST"?"bg-blue-100 text-blue-800":"bg-blue-100 text-blue-800"}`}>{item.Category}</span></td>}
 //                   {colVis.Fee && <td className="px-2 py-2 text-center text-xs font-medium text-gray-900">{item.Fee}</td>}
 //                   {colVis.Stipend_Year_1 && <td className="px-2 py-2 text-center text-xs text-gray-700">{item.Stipend_Year_1}</td>}
 //                   {colVis.Bond_Years && <td className="px-2 py-2 text-center text-xs text-gray-700">{item.Bond_Years} yrs</td>}
@@ -590,7 +590,7 @@
 //             </div>
 //             <div className="p-4">
 //               <div className="flex gap-2 mb-4">
-//                 <button onClick={showAll} className="px-3 py-1.5 text-sm bg-green-100 text-green-700 rounded-lg hover:bg-green-200">Show All</button>
+//                 <button onClick={showAll} className="px-3 py-1.5 text-sm bg-blue-100 text-blue-700 rounded-lg hover:bg-blue-200">Show All</button>
 //                 <button onClick={hideAll} className="px-3 py-1.5 text-sm bg-red-100 text-red-700 rounded-lg hover:bg-red-200">Hide All</button>
 //               </div>
 //               <div className="space-y-2 max-h-64 overflow-y-auto">
@@ -601,7 +601,7 @@
 //                         className="w-4 h-4 text-blue-600 border-gray-300 rounded" />
 //                       <span className="ml-3 text-sm text-gray-700">{label}</span>
 //                     </label>
-//                     {colVis[key] ? <Eye className="w-4 h-4 text-green-500" /> : <EyeOff className="w-4 h-4 text-gray-400" />}
+//                     {colVis[key] ? <Eye className="w-4 h-4 text-blue-500" /> : <EyeOff className="w-4 h-4 text-gray-400" />}
 //                   </div>
 //                 ))}
 //               </div>
@@ -778,7 +778,7 @@
 //                   {colVis.Quota && (
 //                     <td className="px-2 py-2 text-center text-xs">
 //                       <span className={`px-2 py-1 rounded-full text-xs font-medium ${
-//                         item.Quota === "AIQ" ? "bg-green-100 text-green-800" :
+//                         item.Quota === "AIQ" ? "bg-blue-100 text-blue-800" :
 //                         item.Quota === "State Quota" ? "bg-blue-100 text-blue-800" :
 //                         "bg-purple-100 text-purple-800"
 //                       }`}>{item.Quota}</span>
@@ -791,7 +791,7 @@
 //                         item.Category === "OBC" ? "bg-yellow-100 text-yellow-800" :
 //                         item.Category === "SC" ? "bg-red-100 text-red-800" :
 //                         item.Category === "ST" ? "bg-blue-100 text-blue-800" :
-//                         "bg-green-100 text-green-800"
+//                         "bg-blue-100 text-blue-800"
 //                       }`}>{item.Category}</span>
 //                     </td>
 //                   )}
@@ -1065,7 +1065,7 @@ const Allotments2025Page: React.FC<Allotments2025PageProps> = ({ onBack }) => {
             </div>
             <div className="p-4">
               <div className="flex gap-2 mb-4">
-                <button onClick={showAll} className="px-3 py-1.5 text-sm bg-green-100 text-green-700 rounded-lg hover:bg-green-200">Show All</button>
+                <button onClick={showAll} className="px-3 py-1.5 text-sm bg-blue-100 text-blue-700 rounded-lg hover:bg-blue-200">Show All</button>
                 <button onClick={hideAll} className="px-3 py-1.5 text-sm bg-red-100 text-red-700 rounded-lg hover:bg-red-200">Hide All</button>
               </div>
               <div className="space-y-2 max-h-64 overflow-y-auto">
@@ -1076,7 +1076,7 @@ const Allotments2025Page: React.FC<Allotments2025PageProps> = ({ onBack }) => {
                         className="w-4 h-4 text-blue-600 border-gray-300 rounded" />
                       <span className="ml-3 text-sm text-gray-700">{label}</span>
                     </label>
-                    {colVis[key] ? <Eye className="w-4 h-4 text-green-500" /> : <EyeOff className="w-4 h-4 text-gray-400" />}
+                    {colVis[key] ? <Eye className="w-4 h-4 text-blue-500" /> : <EyeOff className="w-4 h-4 text-gray-400" />}
                   </div>
                 ))}
               </div>
@@ -1253,7 +1253,7 @@ const Allotments2025Page: React.FC<Allotments2025PageProps> = ({ onBack }) => {
                   {colVis.Quota && (
                     <td className="px-2 py-2 text-center text-xs">
                       <span className={`px-2 py-1 rounded-full text-xs font-medium ${
-                        item.Quota === "AIQ" ? "bg-green-100 text-green-800" :
+                        item.Quota === "AIQ" ? "bg-blue-100 text-blue-800" :
                         item.Quota === "State Quota" ? "bg-blue-100 text-blue-800" :
                         "bg-purple-100 text-purple-800"
                       }`}>{item.Quota}</span>
@@ -1266,7 +1266,7 @@ const Allotments2025Page: React.FC<Allotments2025PageProps> = ({ onBack }) => {
                         item.Category === "OBC" ? "bg-yellow-100 text-yellow-800" :
                         item.Category === "SC" ? "bg-red-100 text-red-800" :
                         item.Category === "ST" ? "bg-blue-100 text-blue-800" :
-                        "bg-green-100 text-green-800"
+                        "bg-blue-100 text-blue-800"
                       }`}>{item.Category}</span>
                     </td>
                   )}

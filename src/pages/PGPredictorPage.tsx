@@ -78,13 +78,13 @@
 
 //       <div className="max-w-6xl mx-auto p-6">
 //         {/* Hero Section */}
-//         <div className="bg-gradient-to-r from-green-500 to-emerald-600 rounded-3xl p-8 text-white mb-8 shadow-xl">
+//         <div className="bg-gradient-to-r from-blue-500 to-blue-600 rounded-3xl p-8 text-white mb-8 shadow-xl">
 //           <div className="text-center">
 //             <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
 //               <Stethoscope className="w-8 h-8" />
 //             </div>
 //             <h2 className="text-3xl font-bold mb-4">NEET PG Specialty Predictor</h2>
-//             <p className="text-green-100 text-lg">
+//             <p className="text-blue-100 text-lg">
 //               Predict your admission chances in postgraduate medical specializations
 //             </p>
 //           </div>
@@ -95,8 +95,8 @@
 //           <div className="lg:col-span-1">
 //             <div className="bg-white/80 backdrop-blur-xl rounded-2xl p-6 border border-white/20 shadow-lg">
 //               <div className="flex items-center space-x-3 mb-6">
-//                 <div className="w-10 h-10 bg-green-100 rounded-xl flex items-center justify-center">
-//                   <Calculator className="w-5 h-5 text-green-600" />
+//                 <div className="w-10 h-10 bg-blue-100 rounded-xl flex items-center justify-center">
+//                   <Calculator className="w-5 h-5 text-blue-600" />
 //                 </div>
 //                 <h3 className="text-xl font-bold text-slate-800">Enter Your Details</h3>
 //               </div>
@@ -117,7 +117,7 @@
 //                     name="rank"
 //                     value={formData.rank}
 //                     onChange={handleChange}
-//                     className="w-full px-4 py-3 border text-black border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
+//                     className="w-full px-4 py-3 border text-black border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
 //                     placeholder="Enter your NEET PG rank"
 //                     required
 //                   />
@@ -131,7 +131,7 @@
 //                     name="category"
 //                     value={formData.category}
 //                     onChange={handleChange}
-//                     className="w-full px-4 py-3 border text-black border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
+//                     className="w-full px-4 py-3 border text-black border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
 //                     required
 //                   >
 //                     <option value="">Select Category</option>
@@ -151,7 +151,7 @@
 //                     name="specialization"
 //                     value={formData.specialization}
 //                     onChange={handleChange}
-//                     className="w-full px-4 py-3 border text-black border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
+//                     className="w-full px-4 py-3 border text-black border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
 //                     required
 //                   >
 //                     <option value="">Select Specialization</option>
@@ -166,7 +166,7 @@
 //                 <button
 //                   type="submit"
 //                   disabled={isLoading}
-//                   className="w-full bg-gradient-to-r from-green-500 to-emerald-600 text-white py-3 rounded-xl font-medium hover:from-green-600 hover:to-emerald-700 transition-all duration-300 transform hover:scale-105 shadow-lg disabled:opacity-50"
+//                   className="w-full bg-gradient-to-r from-blue-500 to-blue-600 text-white py-3 rounded-xl font-medium hover:from-blue-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg disabled:opacity-50"
 //                 >
 //                   {isLoading ? (
 //                     <div className="flex items-center justify-center space-x-2">
@@ -185,8 +185,8 @@
 //           <div className="lg:col-span-2">
 //             <div className="bg-white/80 backdrop-blur-xl rounded-2xl p-6 border border-white/20 shadow-lg">
 //               <div className="flex items-center space-x-3 mb-6">
-//                 <div className="w-10 h-10 bg-emerald-100 rounded-xl flex items-center justify-center">
-//                   <TrendingUp className="w-5 h-5 text-emerald-600" />
+//                 <div className="w-10 h-10 bg-blue-100 rounded-xl flex items-center justify-center">
+//                   <TrendingUp className="w-5 h-5 text-blue-600" />
 //                 </div>
 //                 <h3 className="text-xl font-bold text-slate-800">Prediction Results</h3>
 //               </div>
@@ -205,7 +205,7 @@
 //                         <span
 //                           className={`px-3 py-1 rounded-full text-xs font-medium ${
 //                             prediction.admission_chance === "High"
-//                               ? "bg-green-100 text-green-800"
+//                               ? "bg-blue-100 text-blue-800"
 //                               : prediction.admission_chance === "Medium"
 //                               ? "bg-yellow-100 text-yellow-800"
 //                               : "bg-red-100 text-red-800"
@@ -421,8 +421,8 @@ const PGPredictorPage: React.FC = () => {
       case 0:
         return (
           <div className="text-center">
-            <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Target className="w-8 h-8 text-green-600" />
+            <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <Target className="w-8 h-8 text-blue-600" />
             </div>
             <h3 className="text-2xl font-bold text-slate-800 mb-2">Welcome to Multi-Criteria Predictor</h3>
             <p className="text-slate-600">We'll guide you through 7 steps to find the best PG colleges for your rank and preferences.</p>
@@ -437,7 +437,7 @@ const PGPredictorPage: React.FC = () => {
               type="number"
               value={formData.rank}
               onChange={(e) => handleChange("rank", e.target.value)}
-              className="w-full px-4 py-3 border text-black border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-green-500"
+              className="w-full px-4 py-3 border text-black border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500"
               placeholder="e.g., 500"
               required
             />
@@ -464,7 +464,7 @@ const PGPredictorPage: React.FC = () => {
                         );
                       }
                     }}
-                    className="text-black accent-green-500"
+                    className="text-black accent-blue-500"
                   />
                   <span className="text-sm text-black">{state}</span>
                 </label>
@@ -489,7 +489,7 @@ const PGPredictorPage: React.FC = () => {
                     value={type.toLowerCase()}
                     checked={formData.collegeType === type.toLowerCase()}
                     onChange={() => handleChange("collegeType", type.toLowerCase())}
-                    className="text-black accent-green-500"
+                    className="text-black accent-blue-500"
                   />
                   <span className="text-sm text-black">{type}</span>
                 </label>
@@ -534,7 +534,7 @@ const PGPredictorPage: React.FC = () => {
             <select
               value={formData.specialization}
               onChange={(e) => handleChange("specialization", e.target.value)}
-              className="w-full px-4 py-3 border text-black border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-green-500"
+              className="w-full px-4 py-3 border text-black border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500"
             >
               <option value="">Select Specialization</option>
               {specializations.map((spec) => (
@@ -583,12 +583,12 @@ const PGPredictorPage: React.FC = () => {
 
       <div className="max-w-6xl mx-auto p-6">
         {/* Hero Section */}
-        <div className="bg-gradient-to-r from-green-500 to-emerald-600 rounded-3xl p-8 text-white mb-8 shadow-xl text-center">
+        <div className="bg-gradient-to-r from-blue-500 to-blue-600 rounded-3xl p-8 text-white mb-8 shadow-xl text-center">
           <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
             <Stethoscope className="w-8 h-8" />
           </div>
           <h2 className="text-3xl font-bold mb-4">Advanced PG College Predictor</h2>
-          <p className="text-green-100 text-lg">
+          <p className="text-blue-100 text-lg">
             Find the best postgraduate medical colleges based on your rank, preferences, and budget
           </p>
         </div>
@@ -596,8 +596,8 @@ const PGPredictorPage: React.FC = () => {
         {/* Results Section */}
         <div className="bg-white/80 backdrop-blur-xl rounded-2xl p-6 border border-white/20 shadow-lg">
           <div className="flex items-center space-x-3 mb-6">
-            <div className="w-10 h-10 bg-emerald-100 rounded-xl flex items-center justify-center">
-              <Search className="w-5 h-5 text-emerald-600" />
+            <div className="w-10 h-10 bg-blue-100 rounded-xl flex items-center justify-center">
+              <Search className="w-5 h-5 text-blue-600" />
             </div>
             <h3 className="text-xl font-bold text-slate-800">Your College Matches</h3>
           </div>
@@ -617,7 +617,7 @@ const PGPredictorPage: React.FC = () => {
                     <span
                       className={`px-3 py-1 rounded-full text-xs font-medium ${
                         college.admission_chance === "High"
-                          ? "bg-green-100 text-green-800"
+                          ? "bg-blue-100 text-blue-800"
                           : college.admission_chance === "Medium"
                           ? "bg-yellow-100 text-yellow-800"
                           : "bg-red-100 text-red-800"
@@ -649,7 +649,7 @@ const PGPredictorPage: React.FC = () => {
                       href={college.website}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center space-x-1 text-green-600 hover:underline text-sm font-medium"
+                      className="inline-flex items-center space-x-1 text-blue-600 hover:underline text-sm font-medium"
                     >
                       <BookOpen className="w-4 h-4" />
                       <span>Visit Website</span>
@@ -671,7 +671,7 @@ const PGPredictorPage: React.FC = () => {
               </p>
               <button
                 onClick={() => setIsModalOpen(true)}
-                className="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-xl font-medium"
+                className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-xl font-medium"
               >
                 Start Predictor
               </button>
@@ -699,7 +699,7 @@ const PGPredictorPage: React.FC = () => {
               </div>
               <div className="w-full bg-slate-200 rounded-full h-2">
                 <div
-                  className="bg-green-500 h-2 rounded-full transition-all"
+                  className="bg-blue-500 h-2 rounded-full transition-all"
                   style={{ width: `${((currentStep + 1) / totalSteps) * 100}%` }}
                 ></div>
               </div>
@@ -725,7 +725,7 @@ const PGPredictorPage: React.FC = () => {
                 <button
                   onClick={handleSubmit}
                   disabled={isLoading}
-                  className="bg-green-500 hover:bg-green-600 disabled:opacity-50 text-white px-6 py-2 rounded-xl font-medium flex items-center space-x-2"
+                  className="bg-blue-500 hover:bg-blue-600 disabled:opacity-50 text-white px-6 py-2 rounded-xl font-medium flex items-center space-x-2"
                 >
                   {isLoading ? (
                     <>
@@ -742,7 +742,7 @@ const PGPredictorPage: React.FC = () => {
               ) : (
                 <button
                   onClick={nextStep}
-                  className="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-xl font-medium"
+                  className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-xl font-medium"
                 >
                   Next
                 </button>

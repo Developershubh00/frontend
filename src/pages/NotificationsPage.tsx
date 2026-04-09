@@ -34,7 +34,7 @@
 //   const getNotificationIcon = (type: string) => {
 //     switch (type) {
 //       case 'success':
-//         return <CheckCircle className="w-6 h-6 text-green-500" />;
+//         return <CheckCircle className="w-6 h-6 text-blue-500" />;
 //       case 'warning':
 //         return <AlertTriangle className="w-6 h-6 text-yellow-500" />;
 //       case 'urgent':
@@ -47,7 +47,7 @@
 //   const getNotificationBgColor = (type: string) => {
 //     switch (type) {
 //       case 'success':
-//         return 'from-green-50 to-emerald-50 border-green-200';
+//         return 'from-blue-50 to-blue-50 border-blue-200';
 //       case 'warning':
 //         return 'from-yellow-50 to-amber-50 border-yellow-200';
 //       case 'urgent':
@@ -332,7 +332,7 @@
 //   const getTypeIcon = (type: string) => {
 //     switch (type) {
 //       case "success":
-//         return <CheckCircle className="w-6 h-6 text-green-500" />;
+//         return <CheckCircle className="w-6 h-6 text-blue-500" />;
 //       case "warning":
 //         return <AlertTriangle className="w-6 h-6 text-yellow-500" />;
 //       case "urgent":
@@ -345,7 +345,7 @@
 //   const getTypeBg = (type: string) => {
 //     switch (type) {
 //       case "success":
-//         return "from-green-50 to-emerald-50 border-green-200";
+//         return "from-blue-50 to-blue-50 border-blue-200";
 //       case "warning":
 //         return "from-yellow-50 to-amber-50 border-yellow-200";
 //       case "urgent":
@@ -627,7 +627,7 @@
 
 //   const typeIcon = (type: string) => {
 //     switch (type) {
-//       case "success": return <CheckCircle className="w-6 h-6 text-green-500" />;
+//       case "success": return <CheckCircle className="w-6 h-6 text-blue-500" />;
 //       case "warning": return <AlertTriangle className="w-6 h-6 text-yellow-500" />;
 //       case "urgent":  return <AlertCircle className="w-6 h-6 text-red-500" />;
 //       default:        return <Info className="w-6 h-6 text-blue-500" />;
@@ -636,7 +636,7 @@
 
 //   const typeBg = (type: string) => {
 //     switch (type) {
-//       case "success": return "from-green-50 to-emerald-50 border-green-200";
+//       case "success": return "from-blue-50 to-blue-50 border-blue-200";
 //       case "warning": return "from-yellow-50 to-amber-50 border-yellow-200";
 //       case "urgent":  return "from-red-50 to-rose-50 border-red-200";
 //       default:        return "from-blue-50 to-indigo-50 border-blue-200";
@@ -878,7 +878,7 @@ const NotificationsPage: React.FC<NotificationsPageProps> = ({
 
   const typeIcon = (type: string) => {
     switch (type) {
-      case "success": return <CheckCircle className="w-6 h-6 text-green-500" />;
+      case "success": return <CheckCircle className="w-6 h-6 text-blue-500" />;
       case "warning": return <AlertTriangle className="w-6 h-6 text-yellow-500" />;
       case "urgent":  return <AlertCircle className="w-6 h-6 text-red-500" />;
       default:        return <Info className="w-6 h-6 text-blue-500" />;
@@ -887,7 +887,7 @@ const NotificationsPage: React.FC<NotificationsPageProps> = ({
 
   const typeBg = (type: string) => {
     switch (type) {
-      case "success": return "from-green-50 to-emerald-50 border-green-200";
+      case "success": return "from-blue-50 to-blue-50 border-blue-200";
       case "warning": return "from-yellow-50 to-amber-50 border-yellow-200";
       case "urgent":  return "from-red-50 to-rose-50 border-red-200";
       default:        return "from-blue-50 to-indigo-50 border-blue-200";

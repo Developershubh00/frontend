@@ -273,7 +273,7 @@ const InicetMainContent: React.FC = () => {
                   { title: "Duration", desc: "3 Hours (180 Minutes)" },
                 ].map((item, idx) => (
                   <div key={idx} className="flex items-start space-x-3">
-                    <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
                     <div>
                       <p className="text-slate-700 text-sm font-medium">
                         {item.title}
@@ -363,7 +363,7 @@ const InicetMainContent: React.FC = () => {
 
             {/* Arrow Between Phases */}
             <div className="flex justify-center py-2">
-              <div className="bg-gradient-to-r from-green-400 to-emerald-500 rounded-full p-2 shadow-lg">
+              <div className="bg-gradient-to-r from-blue-400 to-blue-500 rounded-full p-2 shadow-lg">
                 <ChevronRight className="w-6 h-6 text-white transform rotate-90" />
               </div>
             </div>
@@ -411,14 +411,14 @@ const InicetMainContent: React.FC = () => {
 
             {/* Arrow Between Phases */}
             <div className="flex justify-center py-2">
-              <div className="bg-gradient-to-r from-green-400 to-emerald-500 rounded-full p-2 shadow-lg">
+              <div className="bg-gradient-to-r from-blue-400 to-blue-500 rounded-full p-2 shadow-lg">
                 <ChevronRight className="w-6 h-6 text-white transform rotate-90" />
               </div>
             </div>
 
             {/* Phase 3: Seat Allocation */}
             <div className="bg-white rounded-xl shadow-md border border-slate-200 overflow-hidden">
-              <div className="bg-gradient-to-r from-emerald-500 to-teal-600 px-4 py-3 flex items-center">
+              <div className="bg-gradient-to-r from-blue-500 to-teal-600 px-4 py-3 flex items-center">
                 <div className="bg-white/20 backdrop-blur-sm rounded-lg px-3 py-1 mr-3">
                   <span className="text-white font-bold text-sm">III</span>
                 </div>
@@ -427,7 +427,7 @@ const InicetMainContent: React.FC = () => {
                 </h3>
               </div>
               <div className="p-4 space-y-3">
-                <div className="bg-slate-50 border-l-4 border-emerald-500 rounded p-3">
+                <div className="bg-slate-50 border-l-4 border-blue-500 rounded p-3">
                   <p className="text-sm font-semibold text-slate-800">
                     Mock Round ≫ 1<sup>st</sup> Round
                   </p>
@@ -435,7 +435,7 @@ const InicetMainContent: React.FC = () => {
                 <div className="flex justify-center py-1">
                   <ChevronRight className="w-6 h-6 text-slate-400 transform rotate-90" />
                 </div>
-                <div className="bg-slate-50 border-l-4 border-emerald-500 rounded p-3">
+                <div className="bg-slate-50 border-l-4 border-blue-500 rounded p-3">
                   <p className="text-sm font-semibold text-slate-800">
                     2<sup>nd</sup> Round
                   </p>
@@ -443,7 +443,7 @@ const InicetMainContent: React.FC = () => {
                 <div className="flex justify-center py-1">
                   <ChevronRight className="w-6 h-6 text-slate-400 transform rotate-90" />
                 </div>
-                <div className="bg-slate-50 border-l-4 border-emerald-500 rounded p-3">
+                <div className="bg-slate-50 border-l-4 border-blue-500 rounded p-3">
                   <p className="text-sm font-semibold text-slate-800">
                     Additional Rounds (if needed)
                   </p>
@@ -451,7 +451,7 @@ const InicetMainContent: React.FC = () => {
                 <div className="flex justify-center py-1">
                   <ChevronRight className="w-6 h-6 text-slate-400 transform rotate-90" />
                 </div>
-                <div className="bg-slate-50 border-l-4 border-emerald-500 rounded p-3">
+                <div className="bg-slate-50 border-l-4 border-blue-500 rounded p-3">
                   <p className="text-sm font-semibold text-slate-800">
                     Open Round (if needed)
                   </p>
@@ -459,7 +459,7 @@ const InicetMainContent: React.FC = () => {
                 <div className="flex justify-center py-1">
                   <ChevronRight className="w-6 h-6 text-slate-400 transform rotate-90" />
                 </div>
-                <div className="bg-slate-50 border-l-4 border-emerald-500 rounded p-3">
+                <div className="bg-slate-50 border-l-4 border-blue-500 rounded p-3">
                   <p className="text-sm font-semibold text-slate-800">
                     Spot Round (if needed)
                   </p>
@@ -514,7 +514,7 @@ const InicetMainContent: React.FC = () => {
                 </div>
                 {/* Right Arrow */}
                 <div className="absolute -right-8 top-1/2 transform -translate-y-1/2 z-10">
-                  <div className="bg-gradient-to-r from-green-400 to-emerald-500 rounded-full p-2.5 shadow-lg">
+                  <div className="bg-gradient-to-r from-blue-400 to-blue-500 rounded-full p-2.5 shadow-lg">
                     <ChevronRight className="w-7 h-7 text-white" />
                   </div>
                 </div>
@@ -557,7 +557,7 @@ const InicetMainContent: React.FC = () => {
                 </div>
                 {/* Right Arrow */}
                 <div className="absolute -right-8 top-1/2 transform -translate-y-1/2 z-10">
-                  <div className="bg-gradient-to-r from-green-400 to-emerald-500 rounded-full p-2.5 shadow-lg">
+                  <div className="bg-gradient-to-r from-blue-400 to-blue-500 rounded-full p-2.5 shadow-lg">
                     <ChevronRight className="w-7 h-7 text-white" />
                   </div>
                 </div>
@@ -566,7 +566,7 @@ const InicetMainContent: React.FC = () => {
               {/* Phase 3: Seat Allocation */}
               <div className="relative">
                 <div className="bg-white rounded-xl shadow-md border border-slate-200 overflow-hidden h-full">
-                  <div className="bg-gradient-to-r from-emerald-500 to-teal-600 px-5 py-4 flex items-center justify-center">
+                  <div className="bg-gradient-to-r from-blue-500 to-teal-600 px-5 py-4 flex items-center justify-center">
                     <div className="bg-white/20 backdrop-blur-sm rounded-lg px-4 py-1.5 mr-3">
                       <span className="text-white font-bold">III</span>
                     </div>
@@ -575,7 +575,7 @@ const InicetMainContent: React.FC = () => {
                     </h3>
                   </div>
                   <div className="p-5 space-y-3">
-                    <div className="bg-slate-50 border-l-4 border-emerald-500 rounded-lg p-4 hover:shadow-sm transition-shadow">
+                    <div className="bg-slate-50 border-l-4 border-blue-500 rounded-lg p-4 hover:shadow-sm transition-shadow">
                       <p className="text-sm font-semibold text-slate-800">
                         Mock Round ≫ 1<sup>st</sup> Round
                       </p>
@@ -583,7 +583,7 @@ const InicetMainContent: React.FC = () => {
                     <div className="flex justify-center py-1">
                       <ChevronRight className="w-6 h-6 text-slate-300 transform rotate-90" />
                     </div>
-                    <div className="bg-slate-50 border-l-4 border-emerald-500 rounded-lg p-4 hover:shadow-sm transition-shadow">
+                    <div className="bg-slate-50 border-l-4 border-blue-500 rounded-lg p-4 hover:shadow-sm transition-shadow">
                       <p className="text-sm font-semibold text-slate-800">
                         2<sup>nd</sup> Round
                       </p>
@@ -591,7 +591,7 @@ const InicetMainContent: React.FC = () => {
                     <div className="flex justify-center py-1">
                       <ChevronRight className="w-6 h-6 text-slate-300 transform rotate-90" />
                     </div>
-                    <div className="bg-slate-50 border-l-4 border-emerald-500 rounded-lg p-4 hover:shadow-sm transition-shadow">
+                    <div className="bg-slate-50 border-l-4 border-blue-500 rounded-lg p-4 hover:shadow-sm transition-shadow">
                       <p className="text-sm font-semibold text-slate-800">
                         Additional Rounds (if needed)
                       </p>
@@ -599,7 +599,7 @@ const InicetMainContent: React.FC = () => {
                     <div className="flex justify-center py-1">
                       <ChevronRight className="w-6 h-6 text-slate-300 transform rotate-90" />
                     </div>
-                    <div className="bg-slate-50 border-l-4 border-emerald-500 rounded-lg p-4 hover:shadow-sm transition-shadow">
+                    <div className="bg-slate-50 border-l-4 border-blue-500 rounded-lg p-4 hover:shadow-sm transition-shadow">
                       <p className="text-sm font-semibold text-slate-800">
                         Open Round (if needed)
                       </p>
@@ -607,7 +607,7 @@ const InicetMainContent: React.FC = () => {
                     <div className="flex justify-center py-1">
                       <ChevronRight className="w-6 h-6 text-slate-300 transform rotate-90" />
                     </div>
-                    <div className="bg-slate-50 border-l-4 border-emerald-500 rounded-lg p-4 hover:shadow-sm transition-shadow">
+                    <div className="bg-slate-50 border-l-4 border-blue-500 rounded-lg p-4 hover:shadow-sm transition-shadow">
                       <p className="text-sm font-semibold text-slate-800">
                         Spot Round (if needed)
                       </p>
@@ -663,7 +663,7 @@ const InicetMainContent: React.FC = () => {
           <div className="grid grid-cols-2 gap-4">
             <div className="text-center">
               <p className="text-xs text-slate-600 mb-2 font-medium">Opening Rank</p>
-              <span className="inline-block bg-green-100 text-green-800 px-4 py-2 rounded-lg text-base font-bold">
+              <span className="inline-block bg-blue-100 text-blue-800 px-4 py-2 rounded-lg text-base font-bold">
                 {institute.opening}
               </span>
             </div>
@@ -726,7 +726,7 @@ const InicetMainContent: React.FC = () => {
               {institute.name}
             </td>
             <td className="border-b border-slate-200 py-3 px-4 text-slate-800 text-center">
-              <span className="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">
+              <span className="inline-block bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
                 {institute.opening}
               </span>
             </td>
@@ -764,7 +764,7 @@ const InicetMainContent: React.FC = () => {
               href=""
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-gradient-to-r from-green-400 to-emerald-400 px-6 py-3 lg:px-8 lg:py-4 rounded-xl text-white font-bold hover:from-green-500 hover:to-emerald-500 transition-all duration-300 transform hover:scale-105 shadow-xl"
+              className="bg-gradient-to-r from-blue-400 to-blue-400 px-6 py-3 lg:px-8 lg:py-4 rounded-xl text-white font-bold hover:from-blue-500 hover:to-blue-500 transition-all duration-300 transform hover:scale-105 shadow-xl"
             >
               Get Expert Mentorship
             </a>

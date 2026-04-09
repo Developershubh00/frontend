@@ -36,7 +36,7 @@ const NeetUGPage: React.FC = () => {
       title: "UG Counselling Process",
       subtitle: "Step by step guidance",
       icon: GraduationCap,
-      bgGradient: "from-green-400 to-green-600",
+      bgGradient: "from-blue-400 to-blue-600",
       action: "Start Counselling",
       onClick: () => {
         window.open(

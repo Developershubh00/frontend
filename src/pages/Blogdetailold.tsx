@@ -586,12 +586,12 @@ const BlogDetailPage = () => {
                     {/* Direct NRI */}
                     <div
                       id="direct-nri"
-                      className="bg-green-50 border border-green-200 rounded-xl p-6"
+                      className="bg-blue-50 border border-blue-200 rounded-xl p-6"
                     >
-                      <h3 className="text-lg font-semibold text-green-800 mb-3">
+                      <h3 className="text-lg font-semibold text-blue-800 mb-3">
                         Direct NRI Candidates
                       </h3>
-                      <ul className="space-y-2 text-green-700">
+                      <ul className="space-y-2 text-blue-700">
                         <li className="flex items-start">
                           <ChevronRight className="w-4 h-4 mt-0.5 mr-2 flex-shrink-0" />
                           If you are an NRI yourself, you are eligible.
@@ -746,8 +746,8 @@ const BlogDetailPage = () => {
                       Recent MCC notifications show a priority allotment system:
                     </p>
                     <div className="space-y-2">
-                      <div className="bg-white rounded-lg p-3 border-l-4 border-green-500">
-                        <strong className="text-green-700">Priority 1:</strong>{" "}
+                      <div className="bg-white rounded-lg p-3 border-l-4 border-blue-500">
+                        <strong className="text-blue-700">Priority 1:</strong>{" "}
                         NRI candidates and children of NRIs
                       </div>
                       <div className="bg-white rounded-lg p-3 border-l-4 border-yellow-500">
@@ -827,11 +827,11 @@ const BlogDetailPage = () => {
                   </h2>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div className="bg-green-50 border border-green-200 rounded-lg p-6">
-                      <h4 className="font-semibold text-green-800 mb-2">
+                    <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
+                      <h4 className="font-semibold text-blue-800 mb-2">
                         ✅ For UG Candidates
                       </h4>
-                      <p className="text-green-700">
+                      <p className="text-blue-700">
                         Relatives can still sponsor undergraduate (UG)
                         candidates who are minors.
                       </p>

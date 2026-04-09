@@ -275,7 +275,7 @@
 //           {/* <div className="bg-slate-50 px-6 py-3 border-t border-slate-200">
 //             <div className="flex items-center justify-between text-sm text-slate-600">
 //               <span className="flex items-center gap-2">
-//                 <div className="w-2 h-2 bg-green-400 rounded-full"></div>
+//                 <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
 //                 Last Updated: Dec 10, 2025
 //               </span>
 //               <span>Total Notices: {noticeDocuments.length}</span>
@@ -448,7 +448,7 @@ const NoticesPage: React.FC = () => {
           {/* <div className="bg-slate-50 px-6 py-3 border-t border-slate-200">
             <div className="flex items-center justify-between text-sm text-slate-600">
               <span className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-green-400 rounded-full"></div>
+                <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
                 Last Updated: Dec 10, 2025
               </span>
               <span>Total Notices: {noticeDocuments.length}</span>

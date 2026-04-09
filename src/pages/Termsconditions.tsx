@@ -43,10 +43,10 @@ function TermsConditions() {
       ]
     },
     {
-      icon: <CheckCircle className="w-8 h-8 text-green-600" />,
+      icon: <CheckCircle className="w-8 h-8 text-blue-600" />,
       title: "Free Services",
-      color: "border-green-300 bg-green-50",
-      textColor: "text-green-800",
+      color: "border-blue-300 bg-blue-50",
+      textColor: "text-blue-800",
       content: [
         "All our counselling guidance, tools, and resources are completely free to use",
         "No subscription fees, hidden charges, or premium plans are required",
@@ -228,7 +228,7 @@ function TermsConditions() {
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
               Clear, fair terms that protect both you and us. Everything you need to know about using our platform.
             </p>
-            <div className="inline-flex items-center bg-green-100 text-green-800 px-6 py-3 rounded-full font-semibold">
+            <div className="inline-flex items-center bg-blue-100 text-blue-800 px-6 py-3 rounded-full font-semibold">
               <Calendar className="w-5 h-5 mr-2" />
               <span>Effective from: January 2025</span>
             </div>
@@ -240,10 +240,10 @@ function TermsConditions() {
       <section className="py-12 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
-            <div className="text-center p-6 bg-green-50 rounded-2xl border border-green-200">
-              <Zap className="w-12 h-12 text-green-600 mx-auto mb-4" />
-              <h3 className="font-bold text-green-800 mb-2">Always Free</h3>
-              <p className="text-green-700 text-sm">No hidden costs or surprise charges</p>
+            <div className="text-center p-6 bg-blue-50 rounded-2xl border border-blue-200">
+              <Zap className="w-12 h-12 text-blue-600 mx-auto mb-4" />
+              <h3 className="font-bold text-blue-800 mb-2">Always Free</h3>
+              <p className="text-blue-700 text-sm">No hidden costs or surprise charges</p>
             </div>
             <div className="text-center p-6 bg-blue-50 rounded-2xl border border-blue-200">
               <Scale className="w-12 h-12 text-blue-600 mx-auto mb-4" />
@@ -301,7 +301,7 @@ function TermsConditions() {
                 <ul className="space-y-4">
                   {section.content.map((item, itemIndex) => (
                     <li key={itemIndex} className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5 flex-shrink-0" />
                       <span className="text-gray-700 leading-relaxed">{item}</span>
                     </li>
                   ))}
@@ -324,13 +324,13 @@ function TermsConditions() {
               If you need clarification on any of these terms or have concerns about our policies, we're here to help.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <div className="flex items-center bg-green-100 text-green-800 px-6 py-3 rounded-full font-semibold">
+              <div className="flex items-center bg-blue-100 text-blue-800 px-6 py-3 rounded-full font-semibold">
                 <Phone className="w-5 h-5 mr-2" />
                 <a
                   href="https://wa.me/919211724969?text=Hi%20I%20have%20a%20question%20about%20terms"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-semibold text-green-700"
+                  className="font-semibold text-blue-700"
                 >
                   WhatsApp Us
                 </a>

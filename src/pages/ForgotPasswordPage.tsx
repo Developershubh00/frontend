@@ -114,14 +114,14 @@ const ForgotPasswordPage = () => {
 
           {/* Success Message */}
           {success && (
-            <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-xl animate-fade-in">
+            <div className="mb-6 p-4 bg-blue-50 border border-blue-200 rounded-xl animate-fade-in">
               <div className="flex items-start space-x-3">
-                <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
+                <CheckCircle className="w-5 h-5 text-blue-500 flex-shrink-0 mt-0.5" />
                 <div>
-                  <p className="text-green-700 text-sm font-medium mb-1">
+                  <p className="text-blue-700 text-sm font-medium mb-1">
                     Reset link sent successfully!
                   </p>
-                  <p className="text-green-600 text-xs">
+                  <p className="text-blue-600 text-xs">
                     Please check your email inbox and spam folder for the password reset link.
                     The link will expire in 1 hour.
                   </p>

@@ -504,7 +504,7 @@ const VerificationPage: React.FC<VerificationPageProps> = ({
                 <button
                   onClick={() => verifyCode()}
                   disabled={isVerifying || verificationCode.join("").length !== 6 || isBlocked}
-                  className="w-full bg-green-500 text-white py-3 rounded-xl font-medium hover:bg-green-600 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed mb-4"
+                  className="w-full bg-blue-500 text-white py-3 rounded-xl font-medium hover:bg-blue-600 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed mb-4"
                 >
                   {isVerifying ? (
                     <div className="flex items-center justify-center space-x-2">
@@ -548,7 +548,7 @@ const VerificationPage: React.FC<VerificationPageProps> = ({
       {showSuccessPopup && (
         <div className="fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50">
           <div className="bg-white rounded-3xl p-6 sm:p-8 max-w-sm w-full text-center shadow-2xl transform transition-all duration-500 scale-100">
-            <div className="w-16 h-16 sm:w-20 sm:h-20 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
+            <div className="w-16 h-16 sm:w-20 sm:h-20 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
               <CheckCircle className="w-10 h-10 sm:w-12 sm:h-12 text-white animate-bounce" />
             </div>
             <h2 className="text-xl sm:text-2xl font-bold text-slate-800 mb-3">
@@ -557,7 +557,7 @@ const VerificationPage: React.FC<VerificationPageProps> = ({
             <p className="text-slate-600 mb-4 sm:mb-6 text-sm sm:text-base">
               Your account has been verified successfully. Redirecting to dashboard...
             </p>
-            <div className="w-6 h-6 sm:w-8 sm:h-8 border-4 border-green-200 border-t-green-500 rounded-full animate-spin mx-auto"></div>
+            <div className="w-6 h-6 sm:w-8 sm:h-8 border-4 border-blue-200 border-t-blue-500 rounded-full animate-spin mx-auto"></div>
           </div>
         </div>
       )}

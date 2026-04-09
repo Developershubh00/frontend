@@ -622,7 +622,7 @@
 //                   <td className="px-2 py-2 text-xs text-gray-700">{item.Course}</td>
 //                   <td className="px-2 py-2 text-xs">
 //                     <span className={`px-2 py-1 rounded-full text-xs font-medium ${
-//                       item.Quota === "All India" ? "bg-green-100 text-green-800" :
+//                       item.Quota === "All India" ? "bg-blue-100 text-blue-800" :
 //                       item.Quota === "State Quota" ? "bg-blue-100 text-blue-800" :
 //                       "bg-purple-100 text-purple-800"
 //                     }`}>
@@ -1054,7 +1054,7 @@ const FeeStipendBondPage: React.FC<FeeStipendBondPageProps> = ({ onBack }) => {
                   <td className="px-2 py-2 text-xs text-gray-700">{item.Course}</td>
                   <td className="px-2 py-2 text-xs">
                     <span className={`px-2 py-1 rounded-full text-xs font-medium ${
-                      item.Quota === "All India" ? "bg-green-100 text-green-800" :
+                      item.Quota === "All India" ? "bg-blue-100 text-blue-800" :
                       item.Quota === "State Quota" ? "bg-blue-100 text-blue-800" :
                       "bg-purple-100 text-purple-800"
                     }`}>

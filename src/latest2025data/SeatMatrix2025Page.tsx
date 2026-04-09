@@ -252,7 +252,7 @@ const SeatMatrix2025Page: React.FC<SeatMatrix2025PageProps> = ({ onBack }) => {
   // Management badge colors
   const mgmtColor = (m: string) => {
     if (m === "Government" || m === "Govt" || m === "Govt.-Society")
-      return "bg-green-100 text-green-800";
+      return "bg-blue-100 text-blue-800";
     if (m === "Pvt" || m === "Private")
       return "bg-orange-100 text-orange-800";
     return "bg-blue-100 text-blue-800";
@@ -290,7 +290,7 @@ const SeatMatrix2025Page: React.FC<SeatMatrix2025PageProps> = ({ onBack }) => {
             </div>
             <div className="p-4">
               <div className="flex gap-2 mb-4">
-                <button onClick={showAll} className="px-3 py-1.5 text-sm bg-green-100 text-green-700 rounded-lg font-medium">Show All</button>
+                <button onClick={showAll} className="px-3 py-1.5 text-sm bg-blue-100 text-blue-700 rounded-lg font-medium">Show All</button>
                 <button onClick={hideAll} className="px-3 py-1.5 text-sm bg-red-100 text-red-700 rounded-lg font-medium">Hide All</button>
               </div>
               <div className="grid grid-cols-2 gap-2">
@@ -301,7 +301,7 @@ const SeatMatrix2025Page: React.FC<SeatMatrix2025PageProps> = ({ onBack }) => {
                         className="w-4 h-4 text-purple-600 border-gray-300 rounded" />
                       <span className="ml-3 text-sm text-gray-700 font-medium">{label}</span>
                     </label>
-                    {colVis[key] ? <Eye className="w-4 h-4 text-green-500" /> : <EyeOff className="w-4 h-4 text-gray-300" />}
+                    {colVis[key] ? <Eye className="w-4 h-4 text-blue-500" /> : <EyeOff className="w-4 h-4 text-gray-300" />}
                   </div>
                 ))}
               </div>
@@ -425,7 +425,7 @@ const SeatMatrix2025Page: React.FC<SeatMatrix2025PageProps> = ({ onBack }) => {
                   <span className="font-semibold text-purple-600">{filtered.length.toLocaleString()}</span>
                   <span className="text-gray-500">results</span>
                   <span className="text-gray-400">·</span>
-                  <span className="font-semibold text-emerald-600">{totalSeats.toLocaleString()}</span>
+                  <span className="font-semibold text-blue-600">{totalSeats.toLocaleString()}</span>
                   <span className="text-gray-500">total seats</span>
                 </div>
                 <button onClick={clearAll}
@@ -512,7 +512,7 @@ const SeatMatrix2025Page: React.FC<SeatMatrix2025PageProps> = ({ onBack }) => {
                         ) : item.Seats === 0 ? (
                           <span className="text-gray-400">0</span>
                         ) : (
-                          <span className={`font-bold text-sm ${item.Seats >= 10 ? "text-emerald-600" : item.Seats >= 5 ? "text-blue-600" : "text-orange-500"}`}>
+                          <span className={`font-bold text-sm ${item.Seats >= 10 ? "text-blue-600" : item.Seats >= 5 ? "text-blue-600" : "text-orange-500"}`}>
                             {item.Seats}
                           </span>
                         )}

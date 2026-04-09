@@ -283,7 +283,7 @@ const AdmittedStudentsPage: React.FC<AdmittedStudentsPageProps> = ({ onBack }) =
               <div className="flex gap-2 mb-4">
                 <button
                   onClick={showAllColumns}
-                  className="px-3 py-1.5 text-sm bg-green-100 text-green-700 rounded-lg hover:bg-green-200 transition-colors"
+                  className="px-3 py-1.5 text-sm bg-blue-100 text-blue-700 rounded-lg hover:bg-blue-200 transition-colors"
                 >
                   Show All
                 </button>
@@ -309,7 +309,7 @@ const AdmittedStudentsPage: React.FC<AdmittedStudentsPageProps> = ({ onBack }) =
                     </label>
                     <div className="ml-2">
                       {columnVisibility[key] ? (
-                        <Eye className="w-4 h-4 text-green-500" />
+                        <Eye className="w-4 h-4 text-blue-500" />
                       ) : (
                         <EyeOff className="w-4 h-4 text-gray-400" />
                       )}
@@ -334,7 +334,7 @@ const AdmittedStudentsPage: React.FC<AdmittedStudentsPageProps> = ({ onBack }) =
       {/* Main Content */}
       <div className="flex-1 flex flex-col">
         {/* Header */}
-        <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-3">
+        <div className="bg-gradient-to-r from-blue-600 to-blue-600 text-white px-4 py-3">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <button
@@ -384,7 +384,7 @@ const AdmittedStudentsPage: React.FC<AdmittedStudentsPageProps> = ({ onBack }) =
               }}
               className={`px-4 py-2 text-sm font-medium rounded-full transition-colors whitespace-nowrap ${
                 selectedYear === "all"
-                  ? "bg-purple-600 text-white"
+                  ? "bg-blue-600 text-white"
                   : "bg-gray-100 text-gray-700 hover:bg-gray-200"
               }`}
             >
@@ -559,8 +559,8 @@ const AdmittedStudentsPage: React.FC<AdmittedStudentsPageProps> = ({ onBack }) =
               <div className="text-gray-600 text-xs">Total Students</div>
             </div>
 
-            <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-lg p-3 text-center">
-              <div className="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-2">
+            <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-3 text-center">
+              <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-2">
                 <GraduationCap className="w-4 h-4 text-white" />
               </div>
               <div className="text-sm font-bold text-gray-800">
@@ -569,8 +569,8 @@ const AdmittedStudentsPage: React.FC<AdmittedStudentsPageProps> = ({ onBack }) =
               <div className="text-gray-600 text-xs">Courses</div>
             </div>
 
-            <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg p-3 text-center">
-              <div className="w-8 h-8 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-2">
+            <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-3 text-center">
+              <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-2">
                 <Building2 className="w-4 h-4 text-white" />
               </div>
               <div className="text-sm font-bold text-gray-800">
@@ -665,8 +665,8 @@ const AdmittedStudentsPage: React.FC<AdmittedStudentsPageProps> = ({ onBack }) =
                           item["Admitted Through"].toLowerCase().includes("all india") 
                             ? "bg-blue-100 text-blue-800" 
                             : item["Admitted Through"].toLowerCase().includes("state")
-                            ? "bg-green-100 text-green-800"
-                            : "bg-purple-100 text-purple-800"
+                            ? "bg-blue-100 text-blue-800"
+                            : "bg-blue-100 text-blue-800"
                         }`}>
                           {item["Admitted Through"]}
                         </span>

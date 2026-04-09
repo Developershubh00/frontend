@@ -74,7 +74,7 @@ const features = [
     icon: <Users className="w-6 h-6" />,
     title: "Universities",
     description: "Browse all medical universities with their profiles, affiliations, state quota rules, and participating colleges.",
-    color: "text-green-600", bg: "bg-green-50", border: "border-green-200"
+    color: "text-blue-600", bg: "bg-blue-50", border: "border-blue-200"
   },
   {
     icon: <Calendar className="w-6 h-6" />,
@@ -274,7 +274,7 @@ export default function NeetUGPage() {
                 </button>
               </div>
               <div className="mt-6 flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-green-500" />
+                <CheckCircle className="w-5 h-5 text-blue-500" />
                 <span className="text-gray-600 font-medium">100% Free. No subscription. No hidden charges.</span>
               </div>
             </div>

@@ -77,7 +77,7 @@
 //       title: "State-wise Predictor",
 //       description: "Find colleges in your preferred states with domicile benefits",
 //       icon: MapPin,
-//       color: "from-green-500 to-emerald-600"
+//       color: "from-blue-500 to-blue-600"
 //     },
 //     {
 //       id: "specialization",
@@ -349,8 +349,8 @@
 //         if (currentStep === 0) {
 //           return (
 //             <div className="text-center">
-//               <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-//                 <MapPin className="w-8 h-8 text-green-600" />
+//               <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+//                 <MapPin className="w-8 h-8 text-blue-600" />
 //               </div>
 //               <h3 className="text-2xl font-bold text-slate-800 mb-2">{mode?.title}</h3>
 //               <p className="text-slate-600">{mode?.description}</p>
@@ -364,7 +364,7 @@
 //                 type="number"
 //                 value={formData.rank}
 //                 onChange={(e) => handleChange("rank", e.target.value)}
-//                 className="w-full px-4 py-3 border border-slate-300 rounded-xl focus:ring-2 focus:ring-green-500 focus:outline-none"
+//                 className="w-full px-4 py-3 border border-slate-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:outline-none"
 //                 placeholder="e.g., 500"
 //               />
 //             </div>
@@ -376,7 +376,7 @@
 //               <select
 //                 value={formData.domicileState}
 //                 onChange={(e) => handleChange("domicileState", e.target.value)}
-//                 className="w-full px-4 py-3 border border-slate-300 rounded-xl focus:ring-2 focus:ring-green-500 focus:outline-none"
+//                 className="w-full px-4 py-3 border border-slate-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:outline-none"
 //               >
 //                 <option value="">Select State</option>
 //                 {states.map((state) => (
@@ -402,7 +402,7 @@
 //                           handleChange("preferredStates", formData.preferredStates.filter((s) => s !== state));
 //                         }
 //                       }}
-//                       className="accent-green-500"
+//                       className="accent-blue-500"
 //                     />
 //                     <span className="text-sm text-slate-700">{state}</span>
 //                   </label>
@@ -779,9 +779,9 @@
 //               <div className="bg-white rounded-xl p-4 shadow-md">
 //                 <div className="flex items-center justify-between mb-2">
 //                   <span className="text-slate-600 text-sm">Government</span>
-//                   <Building2 className="w-5 h-5 text-green-500" />
+//                   <Building2 className="w-5 h-5 text-blue-500" />
 //                 </div>
-//                 <p className="text-3xl font-bold text-green-600">{stats.govtColleges}</p>
+//                 <p className="text-3xl font-bold text-blue-600">{stats.govtColleges}</p>
 //               </div>
               
 //               <div className="bg-white rounded-xl p-4 shadow-md">
@@ -825,9 +825,9 @@
 //                   <p className="text-sm text-red-600 mb-1">Colleges with Bond</p>
 //                   <p className="text-2xl font-bold text-red-700">{stats.withBond}</p>
 //                 </div>
-//                 <div className="flex-1 bg-green-50 rounded-lg p-4">
-//                   <p className="text-sm text-green-600 mb-1">No Bond Required</p>
-//                   <p className="text-2xl font-bold text-green-700">{results.length - stats.withBond}</p>
+//                 <div className="flex-1 bg-blue-50 rounded-lg p-4">
+//                   <p className="text-sm text-blue-600 mb-1">No Bond Required</p>
+//                   <p className="text-2xl font-bold text-blue-700">{results.length - stats.withBond}</p>
 //                 </div>
 //               </div>
 //             </div>
@@ -884,7 +884,7 @@
 //                       </td>
 //                       <td className="py-4 px-4">
 //                         <span className={`px-2 py-1 rounded-full text-xs font-medium ${
-//                           college.type === "Government" ? "bg-green-100 text-green-700" :
+//                           college.type === "Government" ? "bg-blue-100 text-blue-700" :
 //                           college.type === "Private" ? "bg-orange-100 text-orange-700" :
 //                           "bg-blue-100 text-blue-700"
 //                         }`}>
@@ -909,7 +909,7 @@
 //                             <p className="text-xs text-slate-500">₹{(college.bond_amount / 100000).toFixed(1)}L</p>
 //                           </div>
 //                         ) : (
-//                           <span className="text-green-600 text-sm font-medium">No Bond</span>
+//                           <span className="text-blue-600 text-sm font-medium">No Bond</span>
 //                         )}
 //                       </td>
 //                       <td className="py-4 px-4">
@@ -1114,7 +1114,7 @@
 //       name: 'State-wise Predictor',
 //       icon: MapPin,
 //       description: 'Get colleges in your preferred states with domicile priority',
-//       color: 'from-green-500 to-green-600',
+//       color: 'from-blue-500 to-blue-600',
 //       steps: 3
 //     },
 //     {
@@ -1606,19 +1606,19 @@
 
 //           <div className="space-y-3 mb-8">
 //             <div className="flex items-center justify-center gap-3 text-gray-700">
-//               <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+//               <svg className="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
 //                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
 //               </svg>
 //               <span>Real-time College Predictions</span>
 //             </div>
 //             <div className="flex items-center justify-center gap-3 text-gray-700">
-//               <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+//               <svg className="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
 //                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
 //               </svg>
 //               <span>Advanced Filtering Options</span>
 //             </div>
 //             <div className="flex items-center justify-center gap-3 text-gray-700">
-//               <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+//               <svg className="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
 //                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
 //               </svg>
 //               <span>Comprehensive Analytics</span>
@@ -1672,7 +1672,7 @@
 //                     <Building2 size={32} className="opacity-80" />
 //                   </div>
 //                 </div>
-//                 <div className="bg-gradient-to-br from-green-500 to-green-600 rounded-xl p-4 text-white">
+//                 <div className="bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl p-4 text-white">
 //                   <div className="flex items-center justify-between">
 //                     <div>
 //                       <p className="text-sm opacity-90">Government</p>
@@ -1729,7 +1729,7 @@
 //                     </div>
 //                     <div className="flex items-center justify-between">
 //                       <span className="text-sm text-gray-700">Without Bond</span>
-//                       <span className="text-2xl font-bold text-green-600">{stats.total - bondColleges}</span>
+//                       <span className="text-2xl font-bold text-blue-600">{stats.total - bondColleges}</span>
 //                     </div>
 //                     <div className="pt-3 border-t border-red-200">
 //                       <p className="text-xs text-gray-500">
@@ -1775,14 +1775,14 @@
 //                           </td>
 //                           <td className="px-4 py-3">
 //                             <div className="flex items-center gap-1">
-//                               <MapPin size={14} className="text-green-600" />
+//                               <MapPin size={14} className="text-blue-600" />
 //                               <span className="text-sm text-gray-700">{row.state}</span>
 //                             </div>
 //                           </td>
 //                           <td className="px-4 py-3">
 //                             <span className={`px-2 py-1 rounded-full text-xs font-semibold ${
 //                               row.instituteType.toLowerCase().includes('government') 
-//                                 ? 'bg-green-100 text-green-700' 
+//                                 ? 'bg-blue-100 text-blue-700' 
 //                                 : row.instituteType.toLowerCase().includes('private')
 //                                 ? 'bg-purple-100 text-purple-700'
 //                                 : 'bg-blue-100 text-blue-700'
@@ -1806,7 +1806,7 @@
 //                                 <span className="text-sm font-semibold text-gray-800">{row.fee}</span>
 //                               </div>
 //                               {row.stipendY1 !== 'N/A' && (
-//                                 <p className="text-xs text-green-600 mt-1">Stipend: {row.stipendY1}</p>
+//                                 <p className="text-xs text-blue-600 mt-1">Stipend: {row.stipendY1}</p>
 //                               )}
 //                             </div>
 //                           </td>
@@ -1821,7 +1821,7 @@
 //                                 )}
 //                               </div>
 //                             ) : (
-//                               <span className="px-2 py-1 bg-green-100 text-green-700 rounded-full text-xs font-semibold">
+//                               <span className="px-2 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-semibold">
 //                                 No Bond
 //                               </span>
 //                             )}
@@ -1927,7 +1927,7 @@
 //                 ) : (
 //                   <button
 //                     onClick={handleSubmit}
-//                     className="flex-1 flex items-center justify-center gap-2 px-6 py-4 bg-gradient-to-r from-green-600 to-emerald-600 text-white rounded-xl font-semibold hover:from-green-700 hover:to-emerald-700 transition shadow-lg"
+//                     className="flex-1 flex items-center justify-center gap-2 px-6 py-4 bg-gradient-to-r from-blue-600 to-blue-600 text-white rounded-xl font-semibold hover:from-blue-700 hover:to-blue-700 transition shadow-lg"
 //                   >
 //                     <Search size={20} />
 //                     Find Colleges
@@ -1951,7 +1951,7 @@
 //           <p className="text-xl text-gray-600">Intelligent prediction system with 6 specialized modes</p>
           
 //           <div className="flex items-center justify-center gap-4 mt-6">
-//             <div className={`px-4 py-2 rounded-full ${dataLoaded ? 'bg-green-100 text-green-700' : 'bg-yellow-100 text-yellow-700'}`}>
+//             <div className={`px-4 py-2 rounded-full ${dataLoaded ? 'bg-blue-100 text-blue-700' : 'bg-yellow-100 text-yellow-700'}`}>
 //               <span className="font-semibold">{dataLoaded ? '✓ Data Loaded' : '⏳ Loading Data...'}</span>
 //             </div>
 //             <div className="px-4 py-2 bg-blue-100 text-blue-700 rounded-full">
@@ -1985,7 +1985,7 @@
                 
 //                 <div className="p-6">
 //                   <div className="flex items-center justify-between mb-4">
-//                     <span className="px-3 py-1 bg-green-100 text-green-700 rounded-full text-xs font-semibold">
+//                     <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-semibold">
 //                       ✓ Fully Working
 //                     </span>
 //                     <span className="text-sm text-gray-500">{mode.steps} Steps</span>
@@ -2015,10 +2015,10 @@
 //             <p className="text-gray-600 text-sm">Advanced filtering with fuzzy matching and multi-criteria analysis</p>
 //           </div>
 
-//           <div className="bg-white rounded-xl shadow-lg p-6 border-2 border-green-100">
+//           <div className="bg-white rounded-xl shadow-lg p-6 border-2 border-blue-100">
 //             <div className="flex items-center gap-3 mb-4">
-//               <div className="p-3 bg-green-100 rounded-lg">
-//                 <Users size={24} className="text-green-600" />
+//               <div className="p-3 bg-blue-100 rounded-lg">
+//                 <Users size={24} className="text-blue-600" />
 //               </div>
 //               <h3 className="text-lg font-bold text-gray-800">Comprehensive Data</h3>
 //             </div>
@@ -2171,7 +2171,7 @@
 //       name: 'State-wise Predictor',
 //       icon: MapPin,
 //       description: 'Get colleges in your preferred states with domicile priority',
-//       color: 'from-green-500 to-green-600',
+//       color: 'from-blue-500 to-blue-600',
 //       steps: 3
 //     },
 //     {
@@ -2712,7 +2712,7 @@
 //                     <Building2 size={32} className="opacity-80" />
 //                   </div>
 //                 </div>
-//                 <div className="bg-gradient-to-br from-green-500 to-green-600 rounded-xl p-4 text-white">
+//                 <div className="bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl p-4 text-white">
 //                   <div className="flex items-center justify-between">
 //                     <div>
 //                       <p className="text-sm opacity-90">Government</p>
@@ -2769,7 +2769,7 @@
 //                     </div>
 //                     <div className="flex items-center justify-between">
 //                       <span className="text-sm text-gray-700">Without Bond</span>
-//                       <span className="text-2xl font-bold text-green-600">{stats.total - bondColleges}</span>
+//                       <span className="text-2xl font-bold text-blue-600">{stats.total - bondColleges}</span>
 //                     </div>
 //                     <div className="pt-3 border-t border-red-200">
 //                       <p className="text-xs text-gray-500">
@@ -2815,14 +2815,14 @@
 //                           </td>
 //                           <td className="px-4 py-3">
 //                             <div className="flex items-center gap-1">
-//                               <MapPin size={14} className="text-green-600" />
+//                               <MapPin size={14} className="text-blue-600" />
 //                               <span className="text-sm text-gray-700">{row.state}</span>
 //                             </div>
 //                           </td>
 //                           <td className="px-4 py-3">
 //                             <span className={`px-2 py-1 rounded-full text-xs font-semibold ${
 //                               row.instituteType.toLowerCase().includes('government') 
-//                                 ? 'bg-green-100 text-green-700' 
+//                                 ? 'bg-blue-100 text-blue-700' 
 //                                 : row.instituteType.toLowerCase().includes('private')
 //                                 ? 'bg-purple-100 text-purple-700'
 //                                 : 'bg-blue-100 text-blue-700'
@@ -2846,7 +2846,7 @@
 //                                 <span className="text-sm font-semibold text-gray-800">{row.fee}</span>
 //                               </div>
 //                               {row.stipendY1 !== 'N/A' && (
-//                                 <p className="text-xs text-green-600 mt-1">Stipend: {row.stipendY1}</p>
+//                                 <p className="text-xs text-blue-600 mt-1">Stipend: {row.stipendY1}</p>
 //                               )}
 //                             </div>
 //                           </td>
@@ -2861,7 +2861,7 @@
 //                                 )}
 //                               </div>
 //                             ) : (
-//                               <span className="px-2 py-1 bg-green-100 text-green-700 rounded-full text-xs font-semibold">
+//                               <span className="px-2 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-semibold">
 //                                 No Bond
 //                               </span>
 //                             )}
@@ -2967,7 +2967,7 @@
 //                 ) : (
 //                   <button
 //                     onClick={handleSubmit}
-//                     className="flex-1 flex items-center justify-center gap-2 px-6 py-4 bg-gradient-to-r from-green-600 to-emerald-600 text-white rounded-xl font-semibold hover:from-green-700 hover:to-emerald-700 transition shadow-lg"
+//                     className="flex-1 flex items-center justify-center gap-2 px-6 py-4 bg-gradient-to-r from-blue-600 to-blue-600 text-white rounded-xl font-semibold hover:from-blue-700 hover:to-blue-700 transition shadow-lg"
 //                   >
 //                     <Search size={20} />
 //                     Find Colleges
@@ -2991,7 +2991,7 @@
 //           <p className="text-xl text-gray-600">Intelligent prediction system with 6 specialized modes</p>
           
 //           <div className="flex items-center justify-center gap-4 mt-6">
-//             <div className={`px-4 py-2 rounded-full ${dataLoaded ? 'bg-green-100 text-green-700' : 'bg-yellow-100 text-yellow-700'}`}>
+//             <div className={`px-4 py-2 rounded-full ${dataLoaded ? 'bg-blue-100 text-blue-700' : 'bg-yellow-100 text-yellow-700'}`}>
 //               <span className="font-semibold">{dataLoaded ? '✓ Data Loaded' : '⏳ Loading Data...'}</span>
 //             </div>
 //             <div className="px-4 py-2 bg-blue-100 text-blue-700 rounded-full">
@@ -3036,7 +3036,7 @@
                 
 //                 <div className="p-6">
 //                   <div className="flex items-center justify-between mb-4">
-//                     <span className="px-3 py-1 bg-green-100 text-green-700 rounded-full text-xs font-semibold">
+//                     <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-semibold">
 //                       ✓ Fully Working
 //                     </span>
 //                     <span className="text-sm text-gray-500">{mode.steps} Steps</span>
@@ -3066,10 +3066,10 @@
 //             <p className="text-gray-600 text-sm">Advanced filtering with fuzzy matching and multi-criteria analysis</p>
 //           </div>
 
-//           <div className="bg-white rounded-xl shadow-lg p-6 border-2 border-green-100">
+//           <div className="bg-white rounded-xl shadow-lg p-6 border-2 border-blue-100">
 //             <div className="flex items-center gap-3 mb-4">
-//               <div className="p-3 bg-green-100 rounded-lg">
-//                 <Users size={24} className="text-green-600" />
+//               <div className="p-3 bg-blue-100 rounded-lg">
+//                 <Users size={24} className="text-blue-600" />
 //               </div>
 //               <h3 className="text-lg font-bold text-gray-800">Comprehensive Data</h3>
 //             </div>
@@ -3215,7 +3215,7 @@ const NEETPGPredictor: React.FC = () => {
       name: 'College Finder',
       description: 'Search for specific colleges and their cutoff ranks',
       icon: Building2,
-      color: 'from-green-600 to-green-700',
+      color: 'from-blue-600 to-blue-700',
       steps: 3
     },
     {
@@ -3370,19 +3370,19 @@ const NEETPGPredictor: React.FC = () => {
 
               <div className="space-y-3 mb-8">
                 <div className="flex items-center justify-center gap-3 text-gray-700">
-                  <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
                   <span>Real-time College Predictions</span>
                 </div>
                 <div className="flex items-center justify-center gap-3 text-gray-700">
-                  <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
                   <span>Advanced Filtering Options</span>
                 </div>
                 <div className="flex items-center justify-center gap-3 text-gray-700">
-                  <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
                   <span>Comprehensive Analytics</span>
@@ -3434,7 +3434,7 @@ const NEETPGPredictor: React.FC = () => {
                         <Building2 size={32} className="opacity-80" />
                       </div>
                     </div>
-                    <div className="bg-gradient-to-br from-green-500 to-green-600 rounded-xl p-4 text-white">
+                    <div className="bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl p-4 text-white">
                       <div className="flex items-center justify-between">
                         <div>
                           <p className="text-sm opacity-90">Government</p>
@@ -3491,7 +3491,7 @@ const NEETPGPredictor: React.FC = () => {
                         </div>
                         <div className="flex items-center justify-between">
                           <span className="text-sm text-gray-700">Without Bond</span>
-                          <span className="text-2xl font-bold text-green-600">{stats.total - bondColleges}</span>
+                          <span className="text-2xl font-bold text-blue-600">{stats.total - bondColleges}</span>
                         </div>
                         <div className="pt-3 border-t border-red-200">
                           <p className="text-xs text-gray-500">
@@ -3537,14 +3537,14 @@ const NEETPGPredictor: React.FC = () => {
                               </td>
                               <td className="px-4 py-3">
                                 <div className="flex items-center gap-1">
-                                  <MapPin size={14} className="text-green-600" />
+                                  <MapPin size={14} className="text-blue-600" />
                                   <span className="text-sm text-gray-700">{row.state}</span>
                                 </div>
                               </td>
                               <td className="px-4 py-3">
                                 <span className={`px-2 py-1 rounded-full text-xs font-semibold ${
                                   row.instituteType.toLowerCase().includes('government') 
-                                    ? 'bg-green-100 text-green-700' 
+                                    ? 'bg-blue-100 text-blue-700' 
                                     : row.instituteType.toLowerCase().includes('private')
                                     ? 'bg-purple-100 text-purple-700'
                                     : 'bg-blue-100 text-blue-700'
@@ -3568,7 +3568,7 @@ const NEETPGPredictor: React.FC = () => {
                                     <span className="text-sm font-semibold text-gray-800">{row.fee}</span>
                                   </div>
                                   {row.stipendY1 !== 'N/A' && (
-                                    <p className="text-xs text-green-600 mt-1">Stipend: {row.stipendY1}</p>
+                                    <p className="text-xs text-blue-600 mt-1">Stipend: {row.stipendY1}</p>
                                   )}
                                 </div>
                               </td>
@@ -3583,7 +3583,7 @@ const NEETPGPredictor: React.FC = () => {
                                     )}
                                   </div>
                                 ) : (
-                                  <span className="px-2 py-1 bg-green-100 text-green-700 rounded-full text-xs font-semibold">
+                                  <span className="px-2 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-semibold">
                                     No Bond
                                   </span>
                                 )}
@@ -3691,7 +3691,7 @@ const NEETPGPredictor: React.FC = () => {
                 ) : (
                   <button
                     onClick={handleSubmit}
-                    className="flex-1 flex items-center justify-center gap-2 px-6 py-4 bg-gradient-to-r from-green-600 to-emerald-600 text-white rounded-xl font-semibold hover:from-green-700 hover:to-emerald-700 transition shadow-lg"
+                    className="flex-1 flex items-center justify-center gap-2 px-6 py-4 bg-gradient-to-r from-blue-600 to-blue-600 text-white rounded-xl font-semibold hover:from-blue-700 hover:to-blue-700 transition shadow-lg"
                   >
                     <Search size={20} />
                     Find Colleges
@@ -3738,19 +3738,19 @@ const NEETPGPredictor: React.FC = () => {
 
             <div className="space-y-3 mb-8">
               <div className="flex items-center justify-center gap-3 text-gray-700">
-                <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
                 <span>Real-time College Predictions</span>
               </div>
               <div className="flex items-center justify-center gap-3 text-gray-700">
-                <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
                 <span>Advanced Filtering Options</span>
               </div>
               <div className="flex items-center justify-center gap-3 text-gray-700">
-                <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
                 <span>Comprehensive Analytics</span>
@@ -3779,7 +3779,7 @@ const NEETPGPredictor: React.FC = () => {
               <p className="text-xl text-gray-600">Intelligent prediction system with 6 specialized modes</p>
               
               <div className="flex items-center justify-center gap-4 mt-6">
-                <div className={`px-4 py-2 rounded-full ${dataLoaded ? 'bg-green-100 text-green-700' : 'bg-yellow-100 text-yellow-700'}`}>
+                <div className={`px-4 py-2 rounded-full ${dataLoaded ? 'bg-blue-100 text-blue-700' : 'bg-yellow-100 text-yellow-700'}`}>
                   <span className="font-semibold">{dataLoaded ? '✓ Data Loaded' : '⏳ Loading Data...'}</span>
                 </div>
                 <div className="px-4 py-2 bg-blue-100 text-blue-700 rounded-full">
@@ -3813,7 +3813,7 @@ const NEETPGPredictor: React.FC = () => {
                     
                     <div className="p-6">
                       <div className="flex items-center justify-between mb-4">
-                        <span className="px-3 py-1 bg-green-100 text-green-700 rounded-full text-xs font-semibold">
+                        <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-semibold">
                           ✓ Fully Working
                         </span>
                         <span className="text-sm text-gray-500">{mode.steps} Steps</span>
@@ -3843,10 +3843,10 @@ const NEETPGPredictor: React.FC = () => {
                 <p className="text-gray-600 text-sm">Advanced filtering with fuzzy matching and multi-criteria analysis</p>
               </div>
 
-              <div className="bg-white rounded-xl shadow-lg p-6 border-2 border-green-100">
+              <div className="bg-white rounded-xl shadow-lg p-6 border-2 border-blue-100">
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="p-3 bg-green-100 rounded-lg">
-                    <Users size={24} className="text-green-600" />
+                  <div className="p-3 bg-blue-100 rounded-lg">
+                    <Users size={24} className="text-blue-600" />
                   </div>
                   <h3 className="text-lg font-bold text-gray-800">Comprehensive Data</h3>
                 </div>

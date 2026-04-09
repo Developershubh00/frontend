@@ -31,9 +31,9 @@
 //           </div>
 
 //           <div className="space-y-6">
-//             <div className="p-4 bg-green-50 border border-green-200 rounded-xl">
-//               <h3 className="font-semibold text-green-800 mb-2">✅ Frontend Status</h3>
-//               <p className="text-green-700">{frontendStatus}</p>
+//             <div className="p-4 bg-blue-50 border border-blue-200 rounded-xl">
+//               <h3 className="font-semibold text-blue-800 mb-2">✅ Frontend Status</h3>
+//               <p className="text-blue-700">{frontendStatus}</p>
 //             </div>
 
 //             <div className="p-4 bg-blue-50 border border-blue-200 rounded-xl">
@@ -141,9 +141,9 @@ const DebugPage: React.FC = () => {
 
           <div className="space-y-6">
             {/* ✅ Frontend Status */}
-            <div className="p-4 bg-green-50 border border-green-200 rounded-xl">
-              <h3 className="font-semibold text-green-800 mb-2">✅ Frontend Status</h3>
-              <p className="text-green-700">{frontendStatus}</p>
+            <div className="p-4 bg-blue-50 border border-blue-200 rounded-xl">
+              <h3 className="font-semibold text-blue-800 mb-2">✅ Frontend Status</h3>
+              <p className="text-blue-700">{frontendStatus}</p>
             </div>
 
             {/* 🔗 Backend Status */}

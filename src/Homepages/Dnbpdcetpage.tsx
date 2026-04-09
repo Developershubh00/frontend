@@ -50,7 +50,7 @@ const features = [
     icon: <DollarSign className="w-6 h-6" />,
     title: "Stipend & Bond Data",
     description: "Compare stipend structures and bond obligations across accredited hospitals by speciality and location.",
-    color: "text-emerald-600", bg: "bg-emerald-50", border: "border-emerald-200"
+    color: "text-blue-600", bg: "bg-blue-50", border: "border-blue-200"
   },
   {
     icon: <Calendar className="w-6 h-6" />,
@@ -271,7 +271,7 @@ export default function DnbPdcetPage() {
                 </button>
               </div>
               <div className="mt-6 flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-green-500" />
+                <CheckCircle className="w-5 h-5 text-blue-500" />
                 <span className="text-gray-600 font-medium">100% Free. No subscription. No hidden charges.</span>
               </div>
             </div>

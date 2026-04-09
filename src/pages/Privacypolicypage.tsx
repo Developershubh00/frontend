@@ -42,10 +42,10 @@ function PrivacyPolicy() {
       ]
     },
     {
-      icon: <Eye className="w-8 h-8 text-green-600" />,
+      icon: <Eye className="w-8 h-8 text-blue-600" />,
       title: "How We Use Your Information",
-      color: "border-green-300 bg-green-50",
-      textColor: "text-green-800",
+      color: "border-blue-300 bg-blue-50",
+      textColor: "text-blue-800",
       content: [
         "Provide personalized counselling guidance and college recommendations",
         "Send important updates about counselling schedules, deadlines, and opportunities",
@@ -206,7 +206,7 @@ function PrivacyPolicy() {
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
               Your privacy and data security are our top priorities. Learn how we collect, use, and protect your information.
             </p>
-            <div className="inline-flex items-center bg-green-100 text-green-800 px-6 py-3 rounded-full font-semibold">
+            <div className="inline-flex items-center bg-blue-100 text-blue-800 px-6 py-3 rounded-full font-semibold">
               <Calendar className="w-5 h-5 mr-2" />
               <span>Last updated: January 2025</span>
             </div>
@@ -218,10 +218,10 @@ function PrivacyPolicy() {
       <section className="py-12 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
-            <div className="text-center p-6 bg-green-50 rounded-2xl border border-green-200">
-              <CheckCircle className="w-12 h-12 text-green-600 mx-auto mb-4" />
-              <h3 className="font-bold text-green-800 mb-2">100% Free</h3>
-              <p className="text-green-700 text-sm">No hidden charges or premium plans</p>
+            <div className="text-center p-6 bg-blue-50 rounded-2xl border border-blue-200">
+              <CheckCircle className="w-12 h-12 text-blue-600 mx-auto mb-4" />
+              <h3 className="font-bold text-blue-800 mb-2">100% Free</h3>
+              <p className="text-blue-700 text-sm">No hidden charges or premium plans</p>
             </div>
             <div className="text-center p-6 bg-blue-50 rounded-2xl border border-blue-200">
               <Lock className="w-12 h-12 text-blue-600 mx-auto mb-4" />
@@ -257,7 +257,7 @@ function PrivacyPolicy() {
                 <ul className="space-y-4">
                   {section.content.map((item, itemIndex) => (
                     <li key={itemIndex} className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5 flex-shrink-0" />
                       <span className="text-gray-700 leading-relaxed">{item}</span>
                     </li>
                   ))}
@@ -280,13 +280,13 @@ function PrivacyPolicy() {
               If you have any concerns or questions about how we handle your personal information, we're here to help.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <div className="flex items-center bg-green-100 text-green-800 px-6 py-3 rounded-full font-semibold">
+              <div className="flex items-center bg-blue-100 text-blue-800 px-6 py-3 rounded-full font-semibold">
                 <Phone className="w-5 h-5 mr-2" />
                 <a
                   href="https://wa.me/919211724969?text=Hi%20I%20have%20a%20question%20about%20privacy"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-semibold text-green-700"
+                  className="font-semibold text-blue-700"
                 >
                   WhatsApp Us
                 </a>

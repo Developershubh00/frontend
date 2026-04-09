@@ -581,9 +581,9 @@ const FAQPage: React.FC<FAQPageProps> = ({ onBack }) => {
         )}
 
         {/* Contact Support Section */}
-        <div className="bg-gradient-to-r from-green-500 to-emerald-600 rounded-2xl p-6 text-white text-center mt-8">
+        <div className="bg-gradient-to-r from-blue-500 to-blue-600 rounded-2xl p-6 text-white text-center mt-8">
           <h3 className="text-xl font-bold mb-2">Still have questions?</h3>
-          <p className="text-green-100 mb-4">
+          <p className="text-blue-100 mb-4">
             Our support team is here to help you with personalized assistance
           </p>
           <button className="bg-white/20 backdrop-blur-sm px-6 py-3 rounded-xl hover:bg-white/30 transition-all duration-200 font-medium">

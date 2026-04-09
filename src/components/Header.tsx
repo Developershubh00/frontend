@@ -77,7 +77,7 @@
 //                 />
 //               </div>
 //               <div>
-//                 <h1 className="text-lg font-bold text-[clamp(10px,2vw,20px)] truncate bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+//                 <h1 className="text-lg font-bold text-[clamp(10px,2vw,20px)] truncate bg-gradient-to-r from-blue-600 to-blue-600 bg-clip-text text-transparent">
 //                   Believers Consultancy
 //                 </h1>
 //               </div>
@@ -99,7 +99,7 @@
 
 //             <button
 //               onClick={() => navigate("/profile")}
-//               className="flex items-center space-x-2 px-3 py-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-xl hover:from-blue-600 hover:to-purple-700 transition-all duration-200 transform hover:scale-105 shadow-lg"
+//               className="flex items-center space-x-2 px-3 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-xl hover:from-blue-600 hover:to-blue-700 transition-all duration-200 transform hover:scale-105 shadow-lg"
 //             >
 //               <User className="w-4 h-4" />
 //               <span className="font-medium text-sm">
@@ -109,7 +109,7 @@
 
 //             <button
 //               onClick={onMobileMenuToggle}
-//               className="p-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-xl hover:from-purple-600 hover:to-pink-600 transition-all duration-200 transform hover:scale-105 shadow-lg"
+//               className="p-2 bg-gradient-to-r from-blue-500 to-pink-500 text-white rounded-xl hover:from-blue-600 hover:to-pink-600 transition-all duration-200 transform hover:scale-105 shadow-lg"
 //             >
 //               {isMobileMenuOpen ? (
 //                 <X className="w-5 h-5" />
@@ -181,7 +181,7 @@
 //               <div className="relative">
 //                 <button
 //                   onClick={() => toggleDropdown("predictor")}
-//                   className="flex items-center space-x-2 px-4 py-2 text-green-600 hover:bg-green-50 rounded-xl transition-all duration-200 font-medium"
+//                   className="flex items-center space-x-2 px-4 py-2 text-blue-600 hover:bg-blue-50 rounded-xl transition-all duration-200 font-medium"
 //                 >
 //                   <span>Predictors</span>
 //                   <ChevronDown className="w-4 h-4" />
@@ -273,14 +273,14 @@
 
 //               <button
 //                 onClick={() => navigate("/faq")}
-//                 className="px-4 py-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-xl hover:from-purple-600 hover:to-pink-600 transition-all duration-200 transform hover:scale-105 shadow-lg"
+//                 className="px-4 py-2 bg-gradient-to-r from-blue-500 to-pink-500 text-white rounded-xl hover:from-blue-600 hover:to-pink-600 transition-all duration-200 transform hover:scale-105 shadow-lg"
 //               >
 //                 FAQ
 //               </button>
 
 //               <button
 //                 onClick={() => navigate("/support")}
-//                 className="px-4 py-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-xl hover:from-purple-600 hover:to-pink-600 transition-all duration-200 transform hover:scale-105 shadow-lg"
+//                 className="px-4 py-2 bg-gradient-to-r from-blue-500 to-pink-500 text-white rounded-xl hover:from-blue-600 hover:to-pink-600 transition-all duration-200 transform hover:scale-105 shadow-lg"
 //               >
 //                 Support
 //               </button>
@@ -294,7 +294,7 @@
 //             <div className="relative">
 //               <button
 //                 onClick={() => toggleDropdown("profile")}
-//                 className="flex items-center space-x-2 px-4 py-2.5 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-xl hover:from-blue-600 hover:to-purple-700 transition-all duration-200 transform hover:scale-105 shadow-lg"
+//                 className="flex items-center space-x-2 px-4 py-2.5 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-xl hover:from-blue-600 hover:to-blue-700 transition-all duration-200 transform hover:scale-105 shadow-lg"
 //               >
 //                 <User className="w-4 h-4" />
 //                 <span className="font-medium">
@@ -452,7 +452,7 @@
 //                 />
 //               </div>
 //               <div>
-//                 <h1 className="text-lg font-bold text-[clamp(10px,2vw,20px)] truncate bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+//                 <h1 className="text-lg font-bold text-[clamp(10px,2vw,20px)] truncate bg-gradient-to-r from-blue-600 to-blue-600 bg-clip-text text-transparent">
 //                   Believers Consultancy
 //                 </h1>
 //               </div>
@@ -467,7 +467,7 @@
 
 //             <button
 //               onClick={() => navigate("/profile")}
-//               className="flex items-center space-x-2 px-3 py-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-xl hover:from-blue-600 hover:to-purple-700 transition-all duration-200 transform hover:scale-105 shadow-lg"
+//               className="flex items-center space-x-2 px-3 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-xl hover:from-blue-600 hover:to-blue-700 transition-all duration-200 transform hover:scale-105 shadow-lg"
 //             >
 //               <User className="w-4 h-4" />
 //               <span className="font-medium text-sm">
@@ -477,7 +477,7 @@
 
 //             <button
 //               onClick={onMobileMenuToggle}
-//               className="p-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-xl hover:from-purple-600 hover:to-pink-600 transition-all duration-200 transform hover:scale-105 shadow-lg"
+//               className="p-2 bg-gradient-to-r from-blue-500 to-pink-500 text-white rounded-xl hover:from-blue-600 hover:to-pink-600 transition-all duration-200 transform hover:scale-105 shadow-lg"
 //             >
 //               {isMobileMenuOpen ? (
 //                 <X className="w-5 h-5" />
@@ -549,7 +549,7 @@
 //               <div className="relative">
 //                 <button
 //                   onClick={() => toggleDropdown("predictor")}
-//                   className="flex items-center space-x-2 px-4 py-2 text-green-600 hover:bg-green-50 rounded-xl transition-all duration-200 font-medium"
+//                   className="flex items-center space-x-2 px-4 py-2 text-blue-600 hover:bg-blue-50 rounded-xl transition-all duration-200 font-medium"
 //                 >
 //                   <span>Predictors</span>
 //                   <ChevronDown className="w-4 h-4" />
@@ -580,7 +580,7 @@
 //               <div className="relative">
 //                 <button
 //                   onClick={() => navigate("/blog")}
-//                   className="flex items-center space-x-2 px-4 py-2 text-green-600 hover:bg-green-50 rounded-xl transition-all duration-200 font-medium"
+//                   className="flex items-center space-x-2 px-4 py-2 text-blue-600 hover:bg-blue-50 rounded-xl transition-all duration-200 font-medium"
 //                 >
 //                   <span>Blogs</span>
                   
@@ -613,14 +613,14 @@
 
 //               <button
 //                 onClick={() => navigate("/faq")}
-//                 className="px-4 py-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-xl hover:from-purple-600 hover:to-pink-600 transition-all duration-200 transform hover:scale-105 shadow-lg"
+//                 className="px-4 py-2 bg-gradient-to-r from-blue-500 to-pink-500 text-white rounded-xl hover:from-blue-600 hover:to-pink-600 transition-all duration-200 transform hover:scale-105 shadow-lg"
 //               >
 //                 FAQ
 //               </button>
 
 //               <button
 //                 onClick={() => navigate("/support")}
-//                 className="px-4 py-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-xl hover:from-purple-600 hover:to-pink-600 transition-all duration-200 transform hover:scale-105 shadow-lg"
+//                 className="px-4 py-2 bg-gradient-to-r from-blue-500 to-pink-500 text-white rounded-xl hover:from-blue-600 hover:to-pink-600 transition-all duration-200 transform hover:scale-105 shadow-lg"
 //               >
 //                 Support
 //               </button>
@@ -634,7 +634,7 @@
 //             <div className="relative">
 //               <button
 //                 onClick={() => toggleDropdown("profile")}
-//                 className="flex items-center space-x-2 px-4 py-2.5 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-xl hover:from-blue-600 hover:to-purple-700 transition-all duration-200 transform hover:scale-105 shadow-lg"
+//                 className="flex items-center space-x-2 px-4 py-2.5 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-xl hover:from-blue-600 hover:to-blue-700 transition-all duration-200 transform hover:scale-105 shadow-lg"
 //               >
 //                 <User className="w-4 h-4" />
 //                 <span className="font-medium">
@@ -815,7 +815,7 @@ const Header: React.FC<HeaderProps> = ({
                 />
               </div>
               <div>
-                <h1 className="text-lg font-bold text-[clamp(10px,2vw,20px)] truncate bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                <h1 className="text-lg font-bold text-[clamp(10px,2vw,20px)] truncate bg-gradient-to-r from-blue-600 to-blue-600 bg-clip-text text-transparent">
                   Believers Consultancy
                 </h1>
                 <p className="text-[8px] text-slate-600">{currentSection}</p>
@@ -843,7 +843,7 @@ const Header: React.FC<HeaderProps> = ({
 
             <button
               onClick={() => navigate("/profile")}
-              className="flex items-center space-x-2 px-3 py-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-xl hover:from-blue-600 hover:to-purple-700 transition-all duration-200 transform hover:scale-105 shadow-lg"
+              className="flex items-center space-x-2 px-3 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-xl hover:from-blue-600 hover:to-blue-700 transition-all duration-200 transform hover:scale-105 shadow-lg"
             >
               <User className="w-4 h-4" />
               <span className="font-medium text-sm">
@@ -853,7 +853,7 @@ const Header: React.FC<HeaderProps> = ({
 
             <button
               onClick={onMobileMenuToggle}
-              className="p-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-xl hover:from-purple-600 hover:to-pink-600 transition-all duration-200 transform hover:scale-105 shadow-lg"
+              className="p-2 bg-gradient-to-r from-blue-500 to-pink-500 text-white rounded-xl hover:from-blue-600 hover:to-pink-600 transition-all duration-200 transform hover:scale-105 shadow-lg"
             >
               {isMobileMenuOpen ? (
                 <X className="w-5 h-5" />
@@ -897,7 +897,7 @@ const Header: React.FC<HeaderProps> = ({
                     currentSection === "NEET PG"
                       ? "bg-blue-100 text-blue-700"
                       : currentSection === "INICET"
-                      ? "bg-purple-100 text-purple-700"
+                      ? "bg-blue-100 text-blue-700"
                       : "text-blue-600 hover:bg-blue-50"
                   }`}
                 >
@@ -934,13 +934,13 @@ const Header: React.FC<HeaderProps> = ({
               <div className="relative">
                 <button
                 onClick={() => navigate("/predictor")}
-                 className="flex items-center space-x-2 px-4 py-2 text-green-600 hover:bg-green-50 rounded-xl transition-all duration-200 font-medium"
+                 className="flex items-center space-x-2 px-4 py-2 text-blue-600 hover:bg-blue-50 rounded-xl transition-all duration-200 font-medium"
                   >
                  <span>Predictor</span>
                   </button>
                 {/* <button
                   onClick={() => toggleDropdown("predictor")}
-                  className="flex items-center space-x-2 px-4 py-2 text-green-600 hover:bg-green-50 rounded-xl transition-all duration-200 font-medium"
+                  className="flex items-center space-x-2 px-4 py-2 text-blue-600 hover:bg-blue-50 rounded-xl transition-all duration-200 font-medium"
                 >
                   <span>Predictors</span>
                   <ChevronDown className={`w-4 h-4 transition-transform ${activeDropdown === "predictor" ? "rotate-180" : ""}`} />
@@ -971,7 +971,7 @@ const Header: React.FC<HeaderProps> = ({
               <div className="relative">
                 <button
                   onClick={() => navigate("/blog")}
-                  className="flex items-center space-x-2 px-4 py-2 text-green-600 hover:bg-green-50 rounded-xl transition-all duration-200 font-medium"
+                  className="flex items-center space-x-2 px-4 py-2 text-blue-600 hover:bg-blue-50 rounded-xl transition-all duration-200 font-medium"
                 >
                   <span>Blogs</span>
                 </button>
@@ -995,14 +995,14 @@ const Header: React.FC<HeaderProps> = ({
             <div className="flex items-center space-x-2">
               <button
                 onClick={() => navigate("/faq")}
-                className="px-4 py-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-xl hover:from-purple-600 hover:to-pink-600 transition-all duration-200 transform hover:scale-105 shadow-lg"
+                className="px-4 py-2 bg-gradient-to-r from-blue-300 to-blue-500 text-white rounded-xl hover:from-blue-600 hover:to-pink-600 transition-all duration-200 transform hover:scale-105 shadow-lg"
               >
                 FAQ
               </button>
 
               <button
                 onClick={() => navigate("/support")}
-                className="px-4 py-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-xl hover:from-purple-600 hover:to-pink-600 transition-all duration-200 transform hover:scale-105 shadow-lg"
+                className="px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-500 text-white rounded-xl hover:from-blue-600 hover:to-pink-600 transition-all duration-200 transform hover:scale-105 shadow-lg"
               >
                 Support
               </button>
@@ -1029,7 +1029,7 @@ const Header: React.FC<HeaderProps> = ({
             <div className="relative">
               <button
                 onClick={() => toggleDropdown("profile")}
-                className="flex items-center space-x-2 px-4 py-2.5 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-xl hover:from-blue-600 hover:to-purple-700 transition-all duration-200 transform hover:scale-105 shadow-lg"
+                className="flex items-center space-x-2 px-4 py-2.5 bg-gradient-to-r from-blue-300 to-blue-600 text-white rounded-xl hover:from-blue-300 hover:to-blue-700 transition-all duration-200 transform hover:scale-105 shadow-lg"
               >
                 <User className="w-4 h-4" />
                 <span className="font-medium">

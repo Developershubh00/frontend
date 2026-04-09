@@ -107,7 +107,7 @@ const SchedulePage: React.FC = () => {
         </button>
 
         {/* Header Section */}
-        <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl shadow-2xl p-8 mb-8 text-white">
+        <div className="bg-gradient-to-r from-blue-600 to-blue-600 rounded-2xl shadow-2xl p-8 mb-8 text-white">
           <div className="flex items-center gap-4 mb-4">
             <div className="bg-white/20 backdrop-blur-sm p-3 rounded-xl">
               <Calendar className="w-8 h-8" />
@@ -160,12 +160,12 @@ const SchedulePage: React.FC = () => {
                         <div
                           className={`bg-gradient-to-br ${
                             doc.isExternal
-                              ? "from-purple-100 to-pink-100"
+                              ? "from-blue-100 to-blue-100"
                               : "from-blue-100 to-indigo-100"
                           } p-2 rounded-lg`}
                         >
                           {doc.isExternal ? (
-                            <Link className="w-4 h-4 text-purple-600" />
+                            <Link className="w-4 h-4 text-blue-600" />
                           ) : (
                             <FileText className="w-4 h-4 text-blue-600" />
                           )}
@@ -175,7 +175,7 @@ const SchedulePage: React.FC = () => {
                             {doc.title}
                           </span>
                           {doc.isExternal && (
-                            <span className="ml-2 text-xs text-purple-600 bg-purple-50 px-2 py-0.5 rounded">
+                            <span className="ml-2 text-xs text-blue-600 bg-blue-50 px-2 py-0.5 rounded">
                               External Link
                             </span>
                           )}
@@ -215,7 +215,7 @@ const SchedulePage: React.FC = () => {
           <div className="bg-slate-50 px-6 py-3 border-t border-slate-200">
             <div className="flex items-center justify-between text-sm text-slate-600">
               <span className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-green-400 rounded-full"></div>
+                <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
                 Last Updated: Dec 08, 2025
               </span>
               <span>Total Documents: {scheduleDocuments.length}</span>
@@ -234,9 +234,9 @@ const SchedulePage: React.FC = () => {
               Keep checking Our Blogs for All the Latest Updates with Full View.
             </p>
           </div>
-          <div className="bg-white rounded-xl shadow-md p-6 border border-purple-100 hover:shadow-lg transition-shadow">
-            <div className="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center mb-3">
-              <ExternalLink className="w-5 h-5 text-purple-600" />
+          <div className="bg-white rounded-xl shadow-md p-6 border border-blue-100 hover:shadow-lg transition-shadow">
+            <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mb-3">
+              <ExternalLink className="w-5 h-5 text-blue-600" />
             </div>
             <h3 className="text-base font-medium text-slate-800 mb-2">Need Help?</h3>
             <p className="text-slate-600 text-sm leading-relaxed">

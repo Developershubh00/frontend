@@ -148,7 +148,7 @@ const ResultrankingPage: React.FC<ResultrankingPageProps> = ({ onBack }) => {
 
       <div className="max-w-7xl mx-auto p-6">
         {/* Hero Section */}
-        <div className="bg-gradient-to-r from-amber-500 to-blue-600 rounded-3xl p-8 text-white mb-8 shadow-xl">
+        <div className="bg-gradient-to-r from-blue-400 to-blue-700 rounded-3xl p-8 text-white mb-8 shadow-xl">
           <div className="text-center">
             <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
               <Trophy className="w-8 h-8" />
@@ -198,7 +198,7 @@ const ResultrankingPage: React.FC<ResultrankingPageProps> = ({ onBack }) => {
         <div className="bg-white/80 backdrop-blur-xl rounded-2xl border border-white/20 shadow-lg overflow-hidden">
           <div className="overflow-x-auto">
             <table className="w-full">
-              <thead className="bg-gradient-to-r from-blue-500 to-purple-600 text-white">
+              <thead className="bg-gradient-to-r from-blue-500 to-blue-600 text-white">
                 <tr>
                   <th className="px-6 py-4 text-left font-semibold">Rank</th>
                   <th className="px-6 py-4 text-left font-semibold">
@@ -229,7 +229,7 @@ const ResultrankingPage: React.FC<ResultrankingPageProps> = ({ onBack }) => {
                         <div
                           className={`w-8 h-8 rounded-full flex items-center justify-center text-white font-bold text-sm ${
                             college.NIRF_Rank_2024 <= 3
-                              ? "bg-gradient-to-r from-yellow-400 to-blue-500"
+                              ? "bg-gradient-to-r from-blue-200 to-blue-800"
                               : college.NIRF_Rank_2024 <= 10
                               ? "bg-gradient-to-r from-blue-400 to-blue-600"
                               : "bg-gradient-to-r from-slate-400 to-slate-600"
@@ -273,7 +273,7 @@ const ResultrankingPage: React.FC<ResultrankingPageProps> = ({ onBack }) => {
                     </td>
                     <td className="px-6 py-4">
                       <div className="flex items-center">
-                        <IndianRupee className="w-4 h-4 mr-1 text-green-600" />
+                        <IndianRupee className="w-4 h-4 mr-1 text-blue-600" />
                         <span className="font-medium text-slate-800">
                           {formatCurrency(college.Tuition_Fees_Per_Year)}
                         </span>
@@ -296,8 +296,8 @@ const ResultrankingPage: React.FC<ResultrankingPageProps> = ({ onBack }) => {
                       <span
                         className={`px-3 py-1 rounded-full text-xs font-medium ${
                           college.College_Type === "Government"
-                            ? "bg-green-100 text-green-800"
-                            : "bg-purple-100 text-purple-800"
+                            ? "bg-blue-100 text-blue-800"
+                            : "bg-blue-100 text-blue-800"
                         }`}
                       >
                         {college.College_Type}
@@ -338,7 +338,7 @@ const ResultrankingPage: React.FC<ResultrankingPageProps> = ({ onBack }) => {
           </div>
 
           <div className="bg-white/80 backdrop-blur-xl rounded-2xl p-6 border border-white/20 shadow-lg text-center">
-            <div className="w-12 h-12 bg-gradient-to-r from-green-400 to-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
+            <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
               <Users className="w-6 h-6 text-white" />
             </div>
             <div className="text-2xl font-bold text-slate-800 mb-2">
@@ -348,7 +348,7 @@ const ResultrankingPage: React.FC<ResultrankingPageProps> = ({ onBack }) => {
           </div>
 
           <div className="bg-white/80 backdrop-blur-xl rounded-2xl p-6 border border-white/20 shadow-lg text-center">
-            <div className="w-12 h-12 bg-gradient-to-r from-purple-400 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+            <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
               <Award className="w-6 h-6 text-white" />
             </div>
             <div className="text-2xl font-bold text-slate-800 mb-2">

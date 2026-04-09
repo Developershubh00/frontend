@@ -276,7 +276,7 @@
 //       {/* Main Content */}
 //       <div className="flex-1 flex flex-col">
 //                 {/* Header */}
-//         <div className="bg-gradient-to-r from-green-600 to-teal-600 text-white px-4 py-3">
+//         <div className="bg-gradient-to-r from-blue-600 to-teal-600 text-white px-4 py-3">
 //           <div className="flex items-center justify-between">
 //             <div className="flex items-center space-x-3">
 //               <button
@@ -287,7 +287,7 @@
 //               </button>
 //               <div>
 //                 <h1 className="text-lg font-semibold">NEET PG Closing Ranks</h1>
-//                 <p className="text-xs text-green-100">2024 Session Data</p>
+//                 <p className="text-xs text-blue-100">2024 Session Data</p>
 //               </div>
 //             </div>
             
@@ -311,7 +311,7 @@
 //                 placeholder="Search institutes, courses, or states..."
 //                 value={searchTerm}
 //                 onChange={(e) => setSearchTerm(e.target.value)}
-//                 className="w-full pl-10 pr-4 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-sm"
+//                 className="w-full pl-10 pr-4 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
 //               />
 //             </div>
 
@@ -319,7 +319,7 @@
 //             <select
 //               value={selectedCategory}
 //               onChange={(e) => setSelectedCategory(e.target.value)}
-//               className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-sm bg-white"
+//               className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white"
 //             >
 //               {categories.map((category) => (
 //                 <option key={category} value={category}>
@@ -332,7 +332,7 @@
 //             <select
 //               value={selectedQuota}
 //               onChange={(e) => setSelectedQuota(e.target.value)}
-//               className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-sm bg-white"
+//               className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white"
 //             >
 //               {quotas.map((quota) => (
 //                 <option key={quota} value={quota}>
@@ -365,10 +365,10 @@
 //             </thead>
 //             <tbody className="bg-white divide-y divide-gray-100">
 //               {paginatedData.map((item, index) => (
-//                 <tr key={index} className="hover:bg-green-50 transition-colors">
+//                 <tr key={index} className="hover:bg-blue-50 transition-colors">
 //                   <td className="px-2 py-2 text-xs">
 //                     <span className={`px-2 py-1 rounded-full text-xs font-medium ${
-//                       item.Quota === "All India" ? "bg-green-100 text-green-800" :
+//                       item.Quota === "All India" ? "bg-blue-100 text-blue-800" :
 //                       item.Quota === "State Quota" ? "bg-blue-100 text-blue-800" :
 //                       "bg-purple-100 text-purple-800"
 //                     }`}>
@@ -381,13 +381,13 @@
 //                       item.Category === "OBC" ? "bg-yellow-100 text-yellow-800" :
 //                       item.Category === "SC" ? "bg-red-100 text-red-800" :
 //                       item.Category === "ST" ? "bg-blue-100 text-blue-800" :
-//                       "bg-green-100 text-green-800"
+//                       "bg-blue-100 text-blue-800"
 //                     }`}>
 //                       {item.Category}
 //                     </span>
 //                   </td>
 //                   <td className="px-2 py-2 text-xs text-gray-700">{item.State}</td>
-//                   <td className="px-2 py-2 text-xs text-green-600 hover:text-green-800 cursor-pointer font-medium">
+//                   <td className="px-2 py-2 text-xs text-blue-600 hover:text-blue-800 cursor-pointer font-medium">
 //                     {item.Institute}
 //                   </td>
 //                   <td className="px-2 py-2 text-xs text-gray-700">{item.Course}</td>
@@ -395,9 +395,9 @@
 //                   <td className="px-2 py-2 text-xs text-gray-700">{item.Stipend_Year_1}</td>
 //                   <td className="px-2 py-2 text-xs text-gray-700">{item.Bond_Years} yrs</td>
 //                   <td className="px-2 py-2 text-xs text-gray-700">{item.Beds}</td>
-//                   <td className="px-2 py-2 text-xs font-bold text-green-600">{item.CR_2024_1.toLocaleString()}</td>
-//                   <td className="px-2 py-2 text-xs font-bold text-green-600">{item.CR_2024_2.toLocaleString()}</td>
-//                   <td className="px-2 py-2 text-xs font-bold text-green-600">{item.CR_2024_3.toLocaleString()}</td>
+//                   <td className="px-2 py-2 text-xs font-bold text-blue-600">{item.CR_2024_1.toLocaleString()}</td>
+//                   <td className="px-2 py-2 text-xs font-bold text-blue-600">{item.CR_2024_2.toLocaleString()}</td>
+//                   <td className="px-2 py-2 text-xs font-bold text-blue-600">{item.CR_2024_3.toLocaleString()}</td>
 //                   <td className="px-2 py-2">
 //                     <button className="p-1 hover:bg-red-100 rounded transition-colors">
 //                       <Heart className="w-3 h-3 text-gray-400 hover:text-red-500" />
@@ -434,7 +434,7 @@
 //                       onClick={() => setCurrentPage(pageNum)}
 //                       className={`px-2 py-1 text-xs rounded transition-colors ${
 //                         currentPage === pageNum
-//                           ? "bg-green-500 text-white"
+//                           ? "bg-blue-500 text-white"
 //                           : "border Text-black border-gray-300 hover:bg-gray-50"
 //                       }`}
 //                     >
@@ -680,7 +680,7 @@
 //     return (
 //       <div className="flex-1 bg-gradient-to-br from-rose-50 via-blue-50 to-indigo-50 min-h-screen flex items-center justify-center">
 //         <div className="text-center">
-//           <div className="w-16 h-16 border-4 border-green-500 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
+//           <div className="w-16 h-16 border-4 border-blue-500 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
 //           <p className="text-slate-600">Loading Closing Ranks Data...</p>
 //         </div>
 //       </div>
@@ -713,7 +713,7 @@
 //               <input
 //                 type="text"
 //                 placeholder="Search Counselling"
-//                 className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-sm"
+//                 className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
 //               />
 //             </div>
 //           </div>
@@ -724,7 +724,7 @@
 //                 key={index}
 //                 onClick={() => setSelectedCounselling(option)}
 //                 className={`w-full text-left px-4 py-3 border-b border-gray-100 hover:bg-gray-50 transition-colors flex items-center justify-between ${
-//                   selectedCounselling === option ? "bg-green-50 border-l-4 border-l-green-500" : ""
+//                   selectedCounselling === option ? "bg-blue-50 border-l-4 border-l-blue-500" : ""
 //                 }`}
 //               >
 //                 <div className="flex items-center space-x-3">
@@ -743,7 +743,7 @@
 //       {/* Main Content */}
 //       <div className="flex-1 flex flex-col">
 //         {/* Header */}
-//         <div className="bg-gradient-to-r from-green-600 to-teal-600 text-white px-4 py-3">
+//         <div className="bg-gradient-to-r from-blue-600 to-teal-600 text-white px-4 py-3">
 //           <div className="flex items-center justify-between">
 //             <div className="flex items-center space-x-3">
 //               <button
@@ -754,12 +754,12 @@
 //               </button>
 //               <div>
 //                 <h1 className="text-lg font-semibold">NEET PG Closing Ranks</h1>
-//                 <p className="text-xs text-green-100">2024 Session Data</p>
+//                 <p className="text-xs text-blue-100">2024 Session Data</p>
 //               </div>
 //             </div>
             
 //             <div className="hidden md:flex items-center space-x-2">
-//               <span className="text-xs text-green-100">
+//               <span className="text-xs text-blue-100">
 //                 Page {currentPage} of {totalPages} • {totalCount} Total Records
 //               </span>
 //             </div>
@@ -786,7 +786,7 @@
 //                   placeholder="Search institutes, courses, or states..."
 //                   value={searchTerm}
 //                   onChange={(e) => setSearchTerm(e.target.value)}
-//                   className="w-full pl-10 pr-4 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-sm"
+//                   className="w-full pl-10 pr-4 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
 //                 />
 //               </div>
 
@@ -798,7 +798,7 @@
 //                     setSelectedCategory(e.target.value);
 //                     setCurrentPage(1);
 //                   }}
-//                   className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-sm bg-white min-w-[120px]"
+//                   className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white min-w-[120px]"
 //                 >
 //                   {categories.map((category) => (
 //                     <option key={category} value={category}>
@@ -813,7 +813,7 @@
 //                     setSelectedQuota(e.target.value);
 //                     setCurrentPage(1);
 //                   }}
-//                   className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-sm bg-white min-w-[120px]"
+//                   className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white min-w-[120px]"
 //                 >
 //                   {quotas.map((quota) => (
 //                     <option key={quota} value={quota}>
@@ -825,7 +825,7 @@
 //                 {/* Advanced Filter Toggle */}
 //                 <button
 //                   onClick={() => setShowAdvancedFilters(!showAdvancedFilters)}
-//                   className="flex items-center gap-2 px-3 py-2 text-sm text-green-600 hover:bg-green-50 rounded-lg transition-colors border border-green-200"
+//                   className="flex items-center gap-2 px-3 py-2 text-sm text-blue-600 hover:bg-blue-50 rounded-lg transition-colors border border-blue-200"
 //                 >
 //                   <Filter className="w-4 h-4" />
 //                   {showAdvancedFilters ? "Hide" : "Show"} Filters
@@ -845,7 +845,7 @@
 //                       setSelectedState(e.target.value);
 //                       setCurrentPage(1);
 //                     }}
-//                     className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-sm bg-white"
+//                     className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white"
 //                   >
 //                     {states.map((state) => (
 //                       <option key={state} value={state}>
@@ -861,7 +861,7 @@
 //                       setSelectedCourse(e.target.value);
 //                       setCurrentPage(1);
 //                     }}
-//                     className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-sm bg-white"
+//                     className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white"
 //                   >
 //                     {courses.map((course) => (
 //                       <option key={course} value={course}>
@@ -880,7 +880,7 @@
 
 //                   {/* Results Count */}
 //                   <div className="flex items-center justify-center text-sm text-gray-600 bg-gray-50 rounded-lg px-3 py-2">
-//                     <span className="font-medium text-green-600">{sortedData.length}</span>
+//                     <span className="font-medium text-blue-600">{sortedData.length}</span>
 //                     <span className="ml-1">filtered</span>
 //                   </div>
 //                 </div>
@@ -918,10 +918,10 @@
 //                 </tr>
 //               ) : (
 //                 sortedData.map((item, index) => (
-//                   <tr key={index} className="hover:bg-green-50 transition-colors">
+//                   <tr key={index} className="hover:bg-blue-50 transition-colors">
 //                     <td className="px-2 py-2 text-xs">
 //                       <span className={`px-2 py-1 rounded-full text-xs font-medium ${
-//                         item.Quota === "All India" || item.Quota === "AIQ" ? "bg-green-100 text-green-800" :
+//                         item.Quota === "All India" || item.Quota === "AIQ" ? "bg-blue-100 text-blue-800" :
 //                         item.Quota === "State Quota" ? "bg-blue-100 text-blue-800" :
 //                         "bg-purple-100 text-purple-800"
 //                       }`}>
@@ -934,13 +934,13 @@
 //                         item.Category === "OBC" ? "bg-yellow-100 text-yellow-800" :
 //                         item.Category === "SC" ? "bg-red-100 text-red-800" :
 //                         item.Category === "ST" ? "bg-blue-100 text-blue-800" :
-//                         "bg-green-100 text-green-800"
+//                         "bg-blue-100 text-blue-800"
 //                       }`}>
 //                         {item.Category}
 //                       </span>
 //                     </td>
 //                     <td className="px-2 py-2 text-xs text-gray-700">{item.State}</td>
-//                     <td className="px-2 py-2 text-xs text-green-600 hover:text-green-800 cursor-pointer font-medium">
+//                     <td className="px-2 py-2 text-xs text-blue-600 hover:text-blue-800 cursor-pointer font-medium">
 //                       {item.Institute}
 //                     </td>
 //                     <td className="px-2 py-2 text-xs text-gray-700">{item.Course}</td>
@@ -948,13 +948,13 @@
 //                     <td className="px-2 py-2 text-xs text-gray-700">{item.Stipend_Year_1}</td>
 //                     <td className="px-2 py-2 text-xs text-gray-700">{item.Bond_Years} yrs</td>
 //                     <td className="px-2 py-2 text-xs text-gray-700">{item.Beds}</td>
-//                     <td className="px-2 py-2 text-xs font-bold text-green-600">
+//                     <td className="px-2 py-2 text-xs font-bold text-blue-600">
 //                       {item.CR_2024_1 > 0 ? item.CR_2024_1.toLocaleString() : '-'}
 //                     </td>
-//                     <td className="px-2 py-2 text-xs font-bold text-green-600">
+//                     <td className="px-2 py-2 text-xs font-bold text-blue-600">
 //                       {item.CR_2024_2 > 0 ? item.CR_2024_2.toLocaleString() : '-'}
 //                     </td>
-//                     <td className="px-2 py-2 text-xs font-bold text-green-600">
+//                     <td className="px-2 py-2 text-xs font-bold text-blue-600">
 //                       {item.CR_2024_3 > 0 ? item.CR_2024_3.toLocaleString() : '-'}
 //                     </td>
 //                     <td className="px-2 py-2">
@@ -1002,7 +1002,7 @@
 //                       onClick={() => setCurrentPage(pageNum)}
 //                       className={`px-2 py-1 text-xs rounded transition-colors ${
 //                         currentPage === pageNum
-//                           ? "bg-green-500 text-white"
+//                           ? "bg-blue-500 text-white"
 //                           : "border text-black border-gray-300 hover:bg-gray-50"
 //                       }`}
 //                     >
@@ -1363,7 +1363,7 @@
 //     return (
 //       <div className="flex-1 bg-gradient-to-br from-rose-50 via-blue-50 to-indigo-50 min-h-screen flex items-center justify-center">
 //         <div className="text-center">
-//           <div className="w-16 h-16 border-4 border-green-500 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
+//           <div className="w-16 h-16 border-4 border-blue-500 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
 //           <p className="text-slate-600">Loading Closing Ranks Data...</p>
 //         </div>
 //       </div>
@@ -1396,7 +1396,7 @@
 //               <input
 //                 type="text"
 //                 placeholder="Search Counselling"
-//                 className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-sm"
+//                 className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
 //               />
 //             </div>
 //           </div>
@@ -1407,7 +1407,7 @@
 //                 key={index}
 //                 onClick={() => setSelectedCounselling(option)}
 //                 className={`w-full text-left px-4 py-3 border-b border-gray-100 hover:bg-gray-50 transition-colors flex items-center justify-between ${
-//                   selectedCounselling === option ? "bg-green-50 border-l-4 border-l-green-500" : ""
+//                   selectedCounselling === option ? "bg-blue-50 border-l-4 border-l-blue-500" : ""
 //                 }`}
 //               >
 //                 <div className="flex items-center space-x-3">
@@ -1426,7 +1426,7 @@
 //       {/* Main Content */}
 //       <div className="flex-1 flex flex-col">
 //         {/* Header */}
-//         <div className="bg-gradient-to-r from-green-600 to-teal-600 text-white px-4 py-3">
+//         <div className="bg-gradient-to-r from-blue-600 to-teal-600 text-white px-4 py-3">
 //           <div className="flex items-center justify-between">
 //             <div className="flex items-center space-x-3">
 //               <button
@@ -1437,12 +1437,12 @@
 //               </button>
 //               <div>
 //                 <h1 className="text-lg font-semibold">NEET PG Closing Ranks</h1>
-//                 <p className="text-xs text-green-100">2024 Session Data</p>
+//                 <p className="text-xs text-blue-100">2024 Session Data</p>
 //               </div>
 //             </div>
             
 //             <div className="hidden md:flex items-center space-x-2">
-//               <span className="text-xs text-green-100">
+//               <span className="text-xs text-blue-100">
 //                 Page {currentPage} of {totalPages} • {totalCount} Total Records
 //               </span>
 //             </div>
@@ -1472,7 +1472,7 @@
 //               <div className="flex gap-2">
 //                 <button
 //                   onClick={() => toggleAllColumns(true)}
-//                   className="px-3 py-1 text-xs bg-green-500 text-white rounded hover:bg-green-600 transition-colors"
+//                   className="px-3 py-1 text-xs bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
 //                 >
 //                   Show All
 //                 </button>
@@ -1518,7 +1518,7 @@
 //                     setSearchTerm(e.target.value);
 //                     setCurrentPage(1);
 //                   }}
-//                   className="w-full pl-10 pr-4 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-sm"
+//                   className="w-full pl-10 pr-4 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
 //                 />
 //               </div>
 
@@ -1530,7 +1530,7 @@
 //                     setSelectedCategory(e.target.value);
 //                     setCurrentPage(1);
 //                   }}
-//                   className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-sm bg-white min-w-[120px]"
+//                   className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white min-w-[120px]"
 //                 >
 //                   {filterOptions.categories.map((category) => (
 //                     <option key={category} value={category}>
@@ -1545,7 +1545,7 @@
 //                     setSelectedQuota(e.target.value);
 //                     setCurrentPage(1);
 //                   }}
-//                   className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-sm bg-white min-w-[120px]"
+//                   className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white min-w-[120px]"
 //                 >
 //                   {filterOptions.quotas.map((quota) => (
 //                     <option key={quota} value={quota}>
@@ -1557,7 +1557,7 @@
 //                 {/* Advanced Filter Toggle */}
 //                 <button
 //                   onClick={() => setShowAdvancedFilters(!showAdvancedFilters)}
-//                   className="flex items-center gap-2 px-3 py-2 text-sm text-green-600 hover:bg-green-50 rounded-lg transition-colors border border-green-200"
+//                   className="flex items-center gap-2 px-3 py-2 text-sm text-blue-600 hover:bg-blue-50 rounded-lg transition-colors border border-blue-200"
 //                 >
 //                   <Filter className="w-4 h-4" />
 //                   {showAdvancedFilters ? "Hide" : "Show"} Filters
@@ -1577,7 +1577,7 @@
 //                       setSelectedCategoryType(e.target.value);
 //                       setCurrentPage(1);
 //                     }}
-//                     className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-sm bg-white"
+//                     className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white"
 //                   >
 //                     {filterOptions.categoryTypes.map((type) => (
 //                       <option key={type} value={type}>
@@ -1593,7 +1593,7 @@
 //                       setSelectedState(e.target.value);
 //                       setCurrentPage(1);
 //                     }}
-//                     className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-sm bg-white"
+//                     className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white"
 //                   >
 //                     {filterOptions.states.map((state) => (
 //                       <option key={state} value={state}>
@@ -1609,7 +1609,7 @@
 //                       setSelectedCourse(e.target.value);
 //                       setCurrentPage(1);
 //                     }}
-//                     className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-sm bg-white"
+//                     className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white"
 //                   >
 //                     {filterOptions.courses.map((course) => (
 //                       <option key={course} value={course}>
@@ -1625,7 +1625,7 @@
 //                       setSelectedInstitute(e.target.value);
 //                       setCurrentPage(1);
 //                     }}
-//                     className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-sm bg-white"
+//                     className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white"
 //                   >
 //                     {filterOptions.institutes.slice(0, 50).map((institute) => (
 //                       <option key={institute} value={institute}>
@@ -1644,7 +1644,7 @@
 //                 </div>
 
 //                 <div className="flex items-center justify-center text-sm text-gray-600 bg-gray-50 rounded-lg px-3 py-2">
-//                   <span className="font-medium text-green-600">{totalCount}</span>
+//                   <span className="font-medium text-blue-600">{totalCount}</span>
 //                   <span className="ml-1">total results</span>
 //                 </div>
 //               </div>
@@ -1680,12 +1680,12 @@
 //                 </tr>
 //               ) : (
 //                 sortedData.map((item, index) => (
-//                   <tr key={item.id || index} className="hover:bg-green-50 transition-colors">
+//                   <tr key={item.id || index} className="hover:bg-blue-50 transition-colors">
 //                     {visibleColumns.map((col) => (
 //                       <td key={col.key} className="px-2 py-2 text-xs">
 //                         {col.key === 'Quota' ? (
 //                           <span className={`px-2 py-1 rounded-full text-xs font-medium ${
-//                             item.Quota === "All India" || item.Quota === "AIQ" ? "bg-green-100 text-green-800" :
+//                             item.Quota === "All India" || item.Quota === "AIQ" ? "bg-blue-100 text-blue-800" :
 //                             item.Quota === "State Quota" ? "bg-blue-100 text-blue-800" :
 //                             "bg-purple-100 text-purple-800"
 //                           }`}>
@@ -1697,7 +1697,7 @@
 //                             item.Category === "OBC" ? "bg-yellow-100 text-yellow-800" :
 //                             item.Category === "SC" ? "bg-red-100 text-red-800" :
 //                             item.Category === "ST" ? "bg-blue-100 text-blue-800" :
-//                             "bg-green-100 text-green-800"
+//                             "bg-blue-100 text-blue-800"
 //                           }`}>
 //                             {item[col.key]}
 //                           </span>
@@ -1706,7 +1706,7 @@
 //                             {item[col.key]}
 //                           </span>
 //                         ) : col.key === 'Institute' ? (
-//                           <span className="text-green-600 hover:text-green-800 cursor-pointer font-medium">
+//                           <span className="text-blue-600 hover:text-blue-800 cursor-pointer font-medium">
 //                             {item[col.key]}
 //                           </span>
 //                         ) : col.key === 'Bond_Years' ? (
@@ -1714,7 +1714,7 @@
 //                             {item[col.key]} yrs
 //                           </span>
 //                         ) : col.key.startsWith('CR_') ? (
-//                           <span className="font-bold text-green-600">
+//                           <span className="font-bold text-blue-600">
 //                             {item[col.key] > 0 ? item[col.key].toLocaleString() : '-'}
 //                           </span>
 //                         ) : col.key === 'Fee' || col.key === 'Stipend_Year_1' || col.key === 'Bond_Penalty' ? (
@@ -1773,7 +1773,7 @@
 //                       onClick={() => setCurrentPage(pageNum)}
 //                       className={`px-2 py-1 text-xs rounded transition-colors ${
 //                         currentPage === pageNum
-//                           ? "bg-green-500 text-white"
+//                           ? "bg-blue-500 text-white"
 //                           : "border text-black border-gray-300 hover:bg-gray-50"
 //                       }`}
 //                     >
@@ -2101,7 +2101,7 @@ const ClosingRanksPage: React.FC<ClosingRanksPageProps> = ({ onBack }) => {
                     type="checkbox"
                     checked={visible}
                     onChange={() => toggleColumnVisibility(key as keyof ColumnVisibility)}
-                    className="rounded border-gray-300 text-green-600 focus:ring-green-500"
+                    className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
                   />
                   <span className="text-sm text-gray-700 capitalize">
                     {key.replace(/_/g, ' ')}
@@ -2162,7 +2162,7 @@ const ClosingRanksPage: React.FC<ClosingRanksPageProps> = ({ onBack }) => {
       {/* Main Content */}
       <div className="flex-1 flex flex-col">
         {/* Header */}
-        <div className="bg-gradient-to-r from-green-600 to-teal-600 text-white px-4 py-3">
+        <div className="bg-gradient-to-r from-blue-600 to-teal-600 text-white px-4 py-3">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <button
@@ -2173,7 +2173,7 @@ const ClosingRanksPage: React.FC<ClosingRanksPageProps> = ({ onBack }) => {
               </button>
               <div>
                 <h1 className="text-lg font-semibold">NEET PG Closing Ranks</h1>
-                <p className="text-xs text-green-100">2024 Session Data</p>
+                <p className="text-xs text-blue-100">2024 Session Data</p>
               </div>
             </div>
             
@@ -2205,7 +2205,7 @@ const ClosingRanksPage: React.FC<ClosingRanksPageProps> = ({ onBack }) => {
                   onClick={() => setSelectedRound(round)}
                   className={`px-3 py-1.5 text-sm rounded-lg transition-colors ${
                     selectedRound === round
-                      ? "bg-green-500 text-white"
+                      ? "bg-blue-500 text-white"
                       : "bg-gray-100 text-gray-700 hover:bg-gray-200"
                   }`}
                 >
@@ -2226,14 +2226,14 @@ const ClosingRanksPage: React.FC<ClosingRanksPageProps> = ({ onBack }) => {
                 placeholder="Search institutes, courses, or states..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full pl-10 pr-4 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-sm"
+                className="w-full pl-10 pr-4 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
               />
             </div>
 
             <select
               value={selectedCategory}
               onChange={(e) => setSelectedCategory(e.target.value)}
-              className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-sm bg-white"
+              className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white"
             >
               {filterOptions.categories.map((category) => (
                 <option key={category} value={category}>
@@ -2245,7 +2245,7 @@ const ClosingRanksPage: React.FC<ClosingRanksPageProps> = ({ onBack }) => {
             <select
               value={selectedQuota}
               onChange={(e) => setSelectedQuota(e.target.value)}
-              className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-sm bg-white"
+              className="px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white"
             >
               {filterOptions.quotas.map((quota) => (
                 <option key={quota} value={quota}>
@@ -2286,11 +2286,11 @@ const ClosingRanksPage: React.FC<ClosingRanksPageProps> = ({ onBack }) => {
             </thead>
             <tbody className="bg-white divide-y divide-gray-100">
               {filteredData.map((item, index) => (
-                <tr key={index} className="hover:bg-green-50 transition-colors">
+                <tr key={index} className="hover:bg-blue-50 transition-colors">
                   {columnVisibility.quota && (
                     <td className="px-2 py-2 text-xs">
                       <span className={`px-2 py-1 rounded-full text-xs font-medium ${
-                        item.quota === "All India" ? "bg-green-100 text-green-800" :
+                        item.quota === "All India" ? "bg-blue-100 text-blue-800" :
                         item.quota === "State Quota" ? "bg-blue-100 text-blue-800" :
                         "bg-purple-100 text-purple-800"
                       }`}>
@@ -2305,14 +2305,14 @@ const ClosingRanksPage: React.FC<ClosingRanksPageProps> = ({ onBack }) => {
                         item.category === "OBC" ? "bg-yellow-100 text-yellow-800" :
                         item.category === "SC" ? "bg-red-100 text-red-800" :
                         item.category === "ST" ? "bg-blue-100 text-blue-800" :
-                        "bg-green-100 text-green-800"
+                        "bg-blue-100 text-blue-800"
                       }`}>
                         {item.category}
                       </span>
                     </td>
                   )}
                   {columnVisibility.state && <td className="px-2 py-2 text-xs text-gray-700">{item.state}</td>}
-                  {columnVisibility.institute && <td className="px-2 py-2 text-xs text-green-600 hover:text-green-800 cursor-pointer font-medium">{item.institute}</td>}
+                  {columnVisibility.institute && <td className="px-2 py-2 text-xs text-blue-600 hover:text-blue-800 cursor-pointer font-medium">{item.institute}</td>}
                   {columnVisibility.course && <td className="px-2 py-2 text-xs text-gray-700">{item.course}</td>}
                   {columnVisibility.fee && <td className="px-2 py-2 text-xs font-medium text-gray-900">{item.fee}</td>}
                   {columnVisibility.stipend && <td className="px-2 py-2 text-xs text-gray-700">{item.stipend_year1}</td>}
@@ -2324,11 +2324,11 @@ const ClosingRanksPage: React.FC<ClosingRanksPageProps> = ({ onBack }) => {
                   {columnVisibility.cr_2023_3 && <td className="px-2 py-2 text-xs font-bold text-blue-600">{item.cr_2023_3 || '-'}</td>}
                   {columnVisibility.cr_2023_4 && <td className="px-2 py-2 text-xs font-bold text-blue-600">{item.cr_2023_4 || '-'}</td>}
                   {columnVisibility.cr_2023_5 && <td className="px-2 py-2 text-xs font-bold text-blue-600">{item.cr_2023_5 || '-'}</td>}
-                  {columnVisibility.cr_2024_1 && <td className="px-2 py-2 text-xs font-bold text-green-600">{item.cr_2024_1 || '-'}</td>}
-                  {columnVisibility.cr_2024_2 && <td className="px-2 py-2 text-xs font-bold text-green-600">{item.cr_2024_2 || '-'}</td>}
-                  {columnVisibility.cr_2024_3 && <td className="px-2 py-2 text-xs font-bold text-green-600">{item.cr_2024_3 || '-'}</td>}
-                  {columnVisibility.cr_2024_4 && <td className="px-2 py-2 text-xs font-bold text-green-600">{item.cr_2024_4 || '-'}</td>}
-                  {columnVisibility.cr_2024_5 && <td className="px-2 py-2 text-xs font-bold text-green-600">{item.cr_2024_5 || '-'}</td>}
+                  {columnVisibility.cr_2024_1 && <td className="px-2 py-2 text-xs font-bold text-blue-600">{item.cr_2024_1 || '-'}</td>}
+                  {columnVisibility.cr_2024_2 && <td className="px-2 py-2 text-xs font-bold text-blue-600">{item.cr_2024_2 || '-'}</td>}
+                  {columnVisibility.cr_2024_3 && <td className="px-2 py-2 text-xs font-bold text-blue-600">{item.cr_2024_3 || '-'}</td>}
+                  {columnVisibility.cr_2024_4 && <td className="px-2 py-2 text-xs font-bold text-blue-600">{item.cr_2024_4 || '-'}</td>}
+                  {columnVisibility.cr_2024_5 && <td className="px-2 py-2 text-xs font-bold text-blue-600">{item.cr_2024_5 || '-'}</td>}
                   <td className="px-2 py-2">
                     <button className="p-1 hover:bg-red-100 rounded transition-colors">
                       <Heart className="w-3 h-3 text-gray-400 hover:text-red-500" />
@@ -2366,7 +2366,7 @@ const ClosingRanksPage: React.FC<ClosingRanksPageProps> = ({ onBack }) => {
                       onClick={() => setCurrentPage(pageNum)}
                       className={`px-2 py-1 text-xs rounded transition-colors ${
                         currentPage === pageNum
-                          ? "bg-green-500 text-white"
+                          ? "bg-blue-500 text-white"
                           : "border text-black border-gray-300 hover:bg-gray-50"
                       }`}
                     >

@@ -472,7 +472,7 @@ const InicetAllotmentsSessionPage: React.FC<InicetAllotmentsSessionPageProps> = 
               <div className="flex gap-2 mb-4">
                 <button
                   onClick={showAllColumns}
-                  className="px-3 py-1.5 text-sm bg-green-100 text-green-700 rounded-lg hover:bg-green-200 transition-colors"
+                  className="px-3 py-1.5 text-sm bg-blue-100 text-blue-700 rounded-lg hover:bg-blue-200 transition-colors"
                 >
                   Show All
                 </button>
@@ -503,7 +503,7 @@ const InicetAllotmentsSessionPage: React.FC<InicetAllotmentsSessionPageProps> = 
                     </label>
                     <div className="ml-2">
                       {columnVisibility[key] ? (
-                        <Eye className="w-4 h-4 text-green-500" />
+                        <Eye className="w-4 h-4 text-blue-500" />
                       ) : (
                         <EyeOff className="w-4 h-4 text-gray-400" />
                       )}
@@ -701,8 +701,8 @@ const InicetAllotmentsSessionPage: React.FC<InicetAllotmentsSessionPageProps> = 
               <div className="text-gray-600 text-xs">Total Allotments</div>
             </div>
 
-            <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-lg p-3 text-center">
-              <div className="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-2">
+            <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-3 text-center">
+              <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-2">
                 <GraduationCap className="w-4 h-4 text-white" />
               </div>
               <div className="text-sm font-bold text-gray-800">
@@ -829,7 +829,7 @@ const InicetAllotmentsSessionPage: React.FC<InicetAllotmentsSessionPageProps> = 
                           className={`px-2 py-1 rounded-full text-xs font-medium ${
                             item.Quota.toLowerCase().includes("all india")
                               ? "bg-blue-100 text-blue-800"
-                              : "bg-green-100 text-green-800"
+                              : "bg-blue-100 text-blue-800"
                           }`}
                         >
                           {item.Quota}
@@ -845,7 +845,7 @@ const InicetAllotmentsSessionPage: React.FC<InicetAllotmentsSessionPageProps> = 
                               : item.Category.toLowerCase() === "obc"
                               ? "bg-yellow-100 text-yellow-800"
                               : item.Category.toLowerCase() === "sc"
-                              ? "bg-green-100 text-green-800"
+                              ? "bg-blue-100 text-blue-800"
                               : item.Category.toLowerCase() === "st"
                               ? "bg-red-100 text-red-800"
                               : "bg-purple-100 text-purple-800"

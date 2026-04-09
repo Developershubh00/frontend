@@ -78,7 +78,7 @@ const MultiCriteriaPredictor: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-blue-50 to-emerald-50 p-6">
+    <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-blue-50 to-blue-50 p-6">
       {/* Header */}
       <div className="flex items-center mb-6">
         <button
@@ -231,7 +231,7 @@ const MultiCriteriaPredictor: React.FC = () => {
             </ul>
             <div className="flex justify-between mt-4">
               <button onClick={handleBack} className="px-4 py-2 bg-slate-200 rounded-xl">Back</button>
-              <button onClick={handleFinalSubmit} className="px-4 py-2 bg-green-600 text-white rounded-xl">Submit</button>
+              <button onClick={handleFinalSubmit} className="px-4 py-2 bg-blue-600 text-white rounded-xl">Submit</button>
             </div>
           </div>
         )}

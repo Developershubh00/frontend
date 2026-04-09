@@ -396,17 +396,17 @@ const NEETPGCategoryChangeBlog = () => {
                   </div>
 
                   {/* Q2: Reserved to General */}
-                  <div id="reserved-to-gen" className="bg-green-50 border border-green-200 rounded-xl p-6 mb-6">
-                    <h3 className="text-xl font-bold text-green-800 mb-3 flex items-center">
+                  <div id="reserved-to-gen" className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-6">
+                    <h3 className="text-xl font-bold text-blue-800 mb-3 flex items-center">
                       <CheckCircle className="w-6 h-6 mr-2" />
                       Q2: I applied as OBC/SC/ST/EWS. Can I change to General?
                     </h3>
-                    <div className="bg-green-100 rounded-lg p-4 mb-3">
-                      <p className="text-green-900 font-bold text-lg">
+                    <div className="bg-blue-100 rounded-lg p-4 mb-3">
+                      <p className="text-blue-900 font-bold text-lg">
                         Yes, this is possible! ✓
                       </p>
                     </div>
-                    <p className="text-green-800 leading-relaxed">
+                    <p className="text-blue-800 leading-relaxed">
                       Okay, so when you register for MCC counseling, you will be able to see your current category displayed, which says OBC-NCL. Then MCC will give you an option to convert to General if you don't want to benefit from a reservation.
                     </p>
                   </div>
@@ -416,8 +416,8 @@ const NEETPGCategoryChangeBlog = () => {
                     <h3 className="text-xl font-bold text-blue-800 mb-3">
                       Q3: PWD STATUS Changes
                     </h3>
-                    <div className="bg-green-100 rounded-lg p-4 mb-3">
-                      <p className="text-green-900 font-bold">
+                    <div className="bg-blue-100 rounded-lg p-4 mb-3">
+                      <p className="text-blue-900 font-bold">
                         PWD Yes → PWD No: POSSIBLE ✓
                       </p>
                     </div>
@@ -487,12 +487,12 @@ const NEETPGCategoryChangeBlog = () => {
                       </p>
                     </div>
 
-                    <div className="bg-green-50 rounded-lg p-5 border border-green-200">
-                      <h4 className="font-bold text-green-800 mb-2 flex items-center">
+                    <div className="bg-blue-50 rounded-lg p-5 border border-blue-200">
+                      <h4 className="font-bold text-blue-800 mb-2 flex items-center">
                         <FileText className="w-5 h-5 mr-2" />
                         EWS (10%)
                       </h4>
-                      <p className="text-green-700 text-sm">
+                      <p className="text-blue-700 text-sm">
                         Income certificate showing the family income below ₹8 lakh annually.
                       </p>
                     </div>

@@ -148,7 +148,7 @@ function Homepage() {
         "https://cdn.dribbble.com/userupload/44607898/file/08a4bec8bff2268a7bcfa4c9c73cc279.webp?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
       mobileImage:
         "https://cdn.dribbble.com/userupload/44607898/file/08a4bec8bff2268a7bcfa4c9c73cc279.webp?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
-      color: "from-green-100 to-green-200",
+      color: "from-blue-100 to-blue-200",
     },
     {
       title: "Myths, PDFs and WhatsApp Advice",
@@ -177,9 +177,9 @@ function Homepage() {
       title: "Cut-offs & Seat Matrix",
       description:
         "Explore cut-offs across years & rounds to predict your best possible range of colleges. Sometimes you get your best college not in the first round but in the second.",
-      color: "border-green-300 bg-green-50",
-      textColor: "text-green-800",
-      icon: <BarChart3 className="w-8 h-8 text-green-600" />,
+      color: "border-blue-300 bg-blue-50",
+      textColor: "text-blue-800",
+      icon: <BarChart3 className="w-8 h-8 text-blue-600" />,
       highlight: "Cut-offs & Seat Matrix",
     },
     {
@@ -229,9 +229,9 @@ function Homepage() {
       title: "INICET Live Results 2026",
       description:
         "Check ranks, cutoffs, seat matrix, and counselling schedule for INICET Jan 2026. Get institute-wise data.",
-      color: "border-emerald-300 bg-emerald-50",
-      textColor: "text-emerald-800",
-      icon: <Award className="w-8 h-8 text-emerald-600" />,
+      color: "border-blue-300 bg-blue-50",
+      textColor: "text-blue-800",
+      icon: <Award className="w-8 h-8 text-blue-600" />,
       highlight: "INICET Results Live",
     },
   ];
@@ -392,12 +392,12 @@ function Homepage() {
               <div className="flex items-center space-x-8">
                 <a
                   onClick={() => navigate("/inicetdashboard")}
-                  className="text-white bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 px-4 py-2 rounded-full transition-all duration-300 font-bold relative group cursor-pointer "
+                  className="text-white bg-gradient-to-r from-blue-300 to-blue-600 hover:from-blue-600 hover:to-blue-700 px-4 py-2 rounded-full transition-all duration-300 font-bold relative group cursor-pointer "
                 >
-                  🎉 INICET !
+                  INICET
                   <span className="absolute -top-1 -right-1 flex h-3 w-3">
-                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-                    <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-3 w-3 bg-blue-500"></span>
                   </span>
                 </a>
                 {/* <a
@@ -504,7 +504,7 @@ function Homepage() {
                     navigate("/inicetdashboard");
                     setIsMenuOpen(false);
                   }}
-                  className="block px-3 py-3 text-white bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 rounded-xl transition-all duration-300 font-bold text-center cursor-pointer shadow-lg mb-2 animate-pulse"
+                  className="block px-3 py-3 text-white bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 rounded-xl transition-all duration-300 font-bold text-center cursor-pointer shadow-lg mb-2 animate-pulse"
                 >
                   🎉 INICET Results Out! Check Now
                 </a>
@@ -624,7 +624,7 @@ function Homepage() {
                   : "opacity-0 translate-y-10"
               }`}
             >
-              <div className="inline-flex items-center bg-green-100 text-green-800 px-6 py-3 rounded-full font-semibold text-lg mb-6">
+              <div className="inline-flex items-center bg-blue-100 text-blue-800 px-6 py-3 rounded-full font-semibold text-lg mb-6">
                 <CheckCircle className="w-5 h-5 mr-2" />
                 <span>
                   All resources are completely FREE - just login and access
@@ -647,7 +647,7 @@ function Homepage() {
 
               <button
                 onClick={() => navigate("/inicetdashboard")}
-                className={`w-full sm:w-auto bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white px-10 py-4 rounded-full text-xl font-bold inline-flex items-center justify-center space-x-3 transition-all duration-300 hover:scale-105 shadow-2xl animate-pulse relative ${
+                className={`w-full sm:w-auto bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-10 py-4 rounded-full text-xl font-bold inline-flex items-center justify-center space-x-3 transition-all duration-300 hover:scale-105 shadow-2xl animate-pulse relative ${
                   isVisible
                     ? "opacity-100 translate-y-0"
                     : "opacity-0 translate-y-10"
@@ -676,7 +676,7 @@ function Homepage() {
             </button>
             <button
     onClick={() => navigate("/inicetdashboard")}
-    className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white px-10 py-4 rounded-full text-xl font-bold inline-flex items-center justify-center space-x-3 transition-all duration-300 hover:scale-105 shadow-2xl animate-pulse relative"
+    className="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-10 py-4 rounded-full text-xl font-bold inline-flex items-center justify-center space-x-3 transition-all duration-300 hover:scale-105 shadow-2xl animate-pulse relative"
   >
     <Award className="w-6 h-6" />
     <span>INICET Results - Check Now!</span>
@@ -909,13 +909,13 @@ function Homepage() {
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-12">
-              <div className="flex items-center bg-green-100 text-green-800 px-6 py-3 rounded-full font-semibold transition-all duration-300 hover:text-green-900  hover:scale-110">
+              <div className="flex items-center bg-blue-100 text-blue-800 px-6 py-3 rounded-full font-semibold transition-all duration-300 hover:text-blue-900  hover:scale-110">
                 <Phone className="w-5 h-5 mr-2" />
                 <a
                   href="https://wa.me/919211724969?text=Hi%20I%20want%20to%20talk%20to%20an%20expert"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-semibold text-green-700 "
+                  className="font-semibold text-blue-700 "
                 >
                   Chat with an Expert on WhatsApp
                 </a>
@@ -927,14 +927,14 @@ function Homepage() {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="bg-green-100 rounded-3xl p-8 text-center">
-                <div className="w-20 h-20 bg-green-500 rounded-full mx-auto mb-6 flex items-center justify-center">
+              <div className="bg-blue-100 rounded-3xl p-8 text-center">
+                <div className="w-20 h-20 bg-blue-500 rounded-full mx-auto mb-6 flex items-center justify-center">
                   <Phone className="w-10 h-10 text-white" />
                 </div>
-                <h3 className="text-xl font-bold text-green-800 mb-4">
+                <h3 className="text-xl font-bold text-blue-800 mb-4">
                   No question is off-topic
                 </h3>
-                <p className="text-green-700">
+                <p className="text-blue-700">
                   If it matters to you, it matters to us.
                 </p>
               </div>
@@ -1056,7 +1056,7 @@ function Homepage() {
                       </p>
 
                       {review.verified && (
-                        <div className="flex items-center text-green-600 text-sm font-semibold">
+                        <div className="flex items-center text-blue-600 text-sm font-semibold">
                           <CheckCircle className="w-4 h-4 mr-2" />
                           <span>Verified Review</span>
                         </div>

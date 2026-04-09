@@ -71,15 +71,15 @@ const SupportPage = () => {
               {/* Phone */}
               <a 
                 href="tel:+919211724969"
-                className="flex items-center gap-4 p-4 bg-green-50 hover:bg-green-100 rounded-2xl border border-green-200 transition cursor-pointer"
+                className="flex items-center gap-4 p-4 bg-blue-50 hover:bg-blue-100 rounded-2xl border border-blue-200 transition cursor-pointer"
               >
-                <div className="w-12 h-12 md:w-14 md:h-14 bg-green-500 rounded-full flex items-center justify-center shadow-md flex-shrink-0">
+                <div className="w-12 h-12 md:w-14 md:h-14 bg-blue-500 rounded-full flex items-center justify-center shadow-md flex-shrink-0">
                   <Phone className="w-5 h-5 md:w-6 md:h-6 text-white" />
                 </div>
                 <div className="flex-1 min-w-0">
                   <p className="text-lg font-semibold text-slate-800">Phone</p>
                   <p className="text-sm text-slate-600">+91 9211724969</p>
-                  <p className="text-xs text-green-600">Mon-Sat: 10 AM - 7 PM</p>
+                  <p className="text-xs text-blue-600">Mon-Sat: 10 AM - 7 PM</p>
                 </div>
               </a>
 
@@ -156,8 +156,8 @@ const SupportPage = () => {
                 </div>
               </div>
 
-              <div className="mt-6 p-4 bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl border border-green-200/50">
-                <p className="text-sm text-green-700 text-center">
+              <div className="mt-6 p-4 bg-gradient-to-r from-blue-50 to-blue-50 rounded-xl border border-blue-200/50">
+                <p className="text-sm text-blue-700 text-center">
                   <strong>Quick Support:</strong> Available via WhatsApp during office hours
                 </p>
               </div>
@@ -166,7 +166,7 @@ const SupportPage = () => {
         </div>
 
         {/* WhatsApp Quick Support */}
-        <div className="mt-8 bg-gradient-to-r from-green-500 to-emerald-600 rounded-2xl md:rounded-3xl p-6 md:p-8 text-white text-center shadow-2xl">
+        <div className="mt-8 bg-gradient-to-r from-blue-500 to-blue-600 rounded-2xl md:rounded-3xl p-6 md:p-8 text-white text-center shadow-2xl">
           <div className="flex items-center justify-center mb-4">
             <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm">
               <MessageCircle className="w-8 h-8" />
@@ -176,7 +176,7 @@ const SupportPage = () => {
           <h3 className="text-xl md:text-2xl font-bold mb-4">
             Need Instant Help?
           </h3>
-          <p className="text-green-100 mb-6 text-sm md:text-base">
+          <p className="text-blue-100 mb-6 text-sm md:text-base">
             Chat with our Counselling experts on WhatsApp for immediate
             assistance with your medical career queries.
           </p>
@@ -189,7 +189,7 @@ const SupportPage = () => {
             <span>Start WhatsApp Chat</span>
           </button>
 
-          <p className="text-xs md:text-sm text-green-200 mt-4">
+          <p className="text-xs md:text-sm text-blue-200 mt-4">
             Available Mon-Sat: 10 AM - 7 PM • Quick response guaranteed
           </p>
         </div>
@@ -209,8 +209,8 @@ const SupportPage = () => {
           </div>
 
           <div className="bg-white/60 backdrop-blur-sm rounded-xl p-4 text-center border border-white/40">
-            <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-3">
-              <MessageCircle className="w-5 h-5 text-green-600" />
+            <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-3">
+              <MessageCircle className="w-5 h-5 text-blue-600" />
             </div>
             <h4 className="font-semibold text-slate-800 mb-1">
               Expert Guidance

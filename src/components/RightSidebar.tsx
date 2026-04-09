@@ -36,8 +36,8 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
   //     description: "17 Apr 3:00 PM to 7 May, 2025 11:55 PM",
   //     status: "completed",
   //     icon: CheckCircle,
-  //     color: "text-green-600",
-  //     bgColor: "bg-green-100",
+  //     color: "text-blue-600",
+  //     bgColor: "bg-blue-100",
   //   },
   //   {
   //     id: 2,
@@ -45,8 +45,8 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
   //     description: "13 to 17 Jun, 2025",
   //     status: "completed",
   //     icon: CheckCircle,
-  //     color: "text-green-600",
-  //     bgColor: "bg-green-100",
+  //     color: "text-blue-600",
+  //     bgColor: "bg-blue-100",
   //   },
   //   {
   //     id: 3,
@@ -54,8 +54,8 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
   //     description: "20 to 22 Jun, 2025",
   //     status: "completed",
   //     icon: CheckCircle,
-  //     color: "text-green-600",
-  //     bgColor: "bg-green-100",
+  //     color: "text-blue-600",
+  //     bgColor: "bg-blue-100",
   //   },
   //   {
   //     id: 4,
@@ -63,8 +63,8 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
   //     description: "21 Jul, 2025",
   //     status: "completed",
   //     icon: CheckCircle,
-  //     color: "text-green-600",
-  //     bgColor: "bg-green-100",
+  //     color: "text-blue-600",
+  //     bgColor: "bg-blue-100",
   //   },
   //   {
   //     id: 5,
@@ -72,8 +72,8 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
   //     description: "31 Jul, 2025",
   //     status: "completed",
   //     icon: CheckCircle,
-  //     color: "text-green-600",
-  //     bgColor: "bg-green-100",
+  //     color: "text-blue-600",
+  //     bgColor: "bg-blue-100",
   //   },
   //   {
   //     id: 6,
@@ -81,8 +81,8 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
   //     description: "03 Aug, 2025",
   //     status: "completed",
   //     icon: CheckCircle,
-  //     color: "text-green-600",
-  //     bgColor: "bg-green-100",
+  //     color: "text-blue-600",
+  //     bgColor: "bg-blue-100",
   //   },
   //   {
   //     id: 7,
@@ -90,8 +90,8 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
   //     description: "Results Announced - Check Now!",
   //     status: "announced",
   //     icon: CheckCircle,
-  //     color: "text-green-600",
-  //     bgColor: "bg-green-100",
+  //     color: "text-blue-600",
+  //     bgColor: "bg-blue-100",
   //     isClickable: true,
   //   },
   //   {
@@ -290,7 +290,7 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
 
         {/* NEET PG Results Announcement */}
         {/* <div className="mb-6 ">
-          <div className="bg-gradient-to-r from-green-500 to-emerald-600 rounded-xl p-4 text-white">
+          <div className="bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl p-4 text-white">
             <div className="flex items-center space-x-3 mb-2">
               <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center">
                 <Award className="w-4 h-4" />
@@ -298,7 +298,7 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
               <div>
                 <h2 className="text-lg font-bold text-white-800">NEET PG 2025</h2>
                 <h3 className="font-bold text-sm">Results Announced!</h3>
-                <p className="text-xs text-green-100">Check your NEET PG 2025 results</p>
+                <p className="text-xs text-blue-100">Check your NEET PG 2025 results</p>
               </div>
             </div>
             <button 
@@ -323,9 +323,9 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
             </button>
             <button 
               onClick={() => window.location.href = '/predictor/pg'}
-              className="w-full flex items-center space-x-3 p-3 bg-purple-50 hover:bg-purple-100 rounded-lg transition-colors"
+              className="w-full flex items-center space-x-3 p-3 bg-blue-50 hover:bg-blue-100 rounded-lg transition-colors"
             >
-              <Target className="w-4 h-4 text-purple-600" />
+              <Target className="w-4 h-4 text-blue-600" />
               <span className="text-sm font-medium text-slate-800">Specialty Predictor</span>
             </button> */}
         {/* <button 
@@ -337,9 +337,9 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
             </button> */}
         {/* <button 
               onClick={() => window.location.href = '/closing-ranks'}
-              className="w-full flex items-center space-x-3 p-3 bg-green-50 hover:bg-green-100 rounded-lg transition-colors"
+              className="w-full flex items-center space-x-3 p-3 bg-blue-50 hover:bg-blue-100 rounded-lg transition-colors"
             >
-              <TrendingUp className="w-4 h-4 text-green-600" />
+              <TrendingUp className="w-4 h-4 text-blue-600" />
               <span className="text-sm font-medium text-slate-800">Closing Ranks</span>
             </button> */}
         {/* </div>
@@ -352,13 +352,13 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
               <span className="text-xs text-slate-600">Exam Date</span>
               <span className="text-xs font-bold text-blue-700">May 03, 2026</span>
             </div>
-            <div className="flex justify-between items-center p-2 bg-green-50 rounded-lg">
+            <div className="flex justify-between items-center p-2 bg-blue-50 rounded-lg">
               <span className="text-xs text-slate-600">Total Seats (2025 ref.)</span>
-              <span className="text-xs font-bold text-green-700">51,953+</span>
+              <span className="text-xs font-bold text-blue-700">51,953+</span>
             </div>
-            <div className="flex justify-between items-center p-2 bg-purple-50 rounded-lg">
+            <div className="flex justify-between items-center p-2 bg-blue-50 rounded-lg">
               <span className="text-xs text-slate-600">Registration Opens</span>
-              <span className="text-xs font-bold text-purple-700">April 17, 2025</span>
+              <span className="text-xs font-bold text-blue-700">April 17, 2025</span>
             </div>
           </div>
         </div>
@@ -370,8 +370,8 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
             {neetPGUpdates.slice(0, 8).map((update) => (
               <div key={update.id} className="flex items-start space-x-2">
                 <div className={`w-2 h-2 rounded-full mt-2 flex-shrink-0 ${
-                  update.status === "completed" ? "bg-green-500" :
-                  update.status === "announced" ? "bg-green-500 animate-pulse" :
+                  update.status === "completed" ? "bg-blue-500" :
+                  update.status === "announced" ? "bg-blue-500 animate-pulse" :
                   update.status === "active" ? "bg-blue-500 animate-pulse" : "bg-gray-300"
                 }`}></div>
                 <div className="flex-1">
@@ -385,7 +385,7 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
         <div className="pt-4 border-t border-slate-200">
           <div className="mb-4">
             <h3 className="text-sm font-bold text-slate-800 mb-1 flex items-center">
-              <span className="w-1 h-4 bg-emerald-600 rounded-full mr-2"></span>
+              <span className="w-1 h-4 bg-blue-600 rounded-full mr-2"></span>
               NEET PG 2026 Session
             </h3>
             <p className="text-xs text-slate-500">Important Dates & Events</p>
@@ -395,7 +395,7 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
             href={pdfUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-1 px-2 py-1 text-xs font-medium text-emerald-700 bg-emerald-50 border border-emerald-200 rounded hover:bg-emerald-100 hover:border-emerald-300 transition-colors duration-200 active:scale-95 whitespace-nowrap"
+            className="flex items-center gap-1 px-2 py-1 text-xs font-medium text-blue-700 bg-blue-50 border border-blue-200 rounded hover:bg-blue-100 hover:border-blue-300 transition-colors duration-200 active:scale-95 whitespace-nowrap"
             title="View Official Schedule"
           >
             <span>For Full Schedule</span>
@@ -414,16 +414,16 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
               <div
                 className={`flex items-start space-x-3 ${
                   item.isHighlight
-                    ? "bg-emerald-50 border border-emerald-200 rounded-lg p-2 -ml-2"
+                    ? "bg-blue-50 border border-blue-200 rounded-lg p-2 -ml-2"
                     : ""
                 }`}
               >
                 {/* Timeline dot */}
                 <div className="flex-shrink-0 mt-0.5">
                   {item.status === "completed" ? (
-                    <CheckCircle2 className="w-4 h-4 text-green-600" />
+                    <CheckCircle2 className="w-4 h-4 text-blue-600" />
                   ) : item.isHighlight ? (
-                    <div className="w-4 h-4 rounded-full bg-emerald-600 flex items-center justify-center">
+                    <div className="w-4 h-4 rounded-full bg-blue-600 flex items-center justify-center">
                       <div className="w-2 h-2 rounded-full bg-white"></div>
                     </div>
                   ) : (
@@ -438,7 +438,7 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
                       item.status === "completed"
                         ? "text-slate-600"
                         : item.isHighlight
-                          ? "text-emerald-900"
+                          ? "text-blue-900"
                           : "text-slate-800"
                     }`}
                   >
@@ -449,7 +449,7 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
                       item.status === "completed"
                         ? "text-slate-400"
                         : item.isHighlight
-                          ? "text-emerald-700"
+                          ? "text-blue-700"
                           : "text-slate-500"
                     }`}
                   >
@@ -469,13 +469,13 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
               <span className="text-xs text-slate-600">Exam Date</span>
               <span className="text-xs font-bold text-blue-700">May 03, 2026</span>
             </div>
-            <div className="flex justify-between items-center p-2 bg-green-50 rounded-lg">
+            <div className="flex justify-between items-center p-2 bg-blue-50 rounded-lg">
               <span className="text-xs text-slate-600">Total Seats (2025 ref.)</span>
-              <span className="text-xs font-bold text-green-700">51,953+</span>
+              <span className="text-xs font-bold text-blue-700">51,953+</span>
             </div>
-            <div className="flex justify-between items-center p-2 bg-purple-50 rounded-lg">
+            <div className="flex justify-between items-center p-2 bg-blue-50 rounded-lg">
               <span className="text-xs text-slate-600">Registration Opens</span>
-              <span className="text-xs font-bold text-purple-700">April 17, 2025</span>
+              <span className="text-xs font-bold text-blue-700">April 17, 2025</span>
             </div>
           </div>
         </div> */}

@@ -253,7 +253,7 @@ export default function NeetSSPage() {
                 </button>
               </div>
               <div className="mt-6 flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-green-500" />
+                <CheckCircle className="w-5 h-5 text-blue-500" />
                 <span className="text-gray-600 font-medium">100% Free. No subscription. No hidden charges.</span>
               </div>
             </div>

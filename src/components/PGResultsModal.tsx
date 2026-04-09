@@ -23,7 +23,7 @@
 //     <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
 //       <div className="bg-white rounded-3xl shadow-2xl max-w-2xl w-full overflow-hidden">
 //         {/* Header */}
-//         <div className="relative bg-gradient-to-r from-green-500 to-emerald-600 p-6 text-white">
+//         <div className="relative bg-gradient-to-r from-blue-500 to-blue-600 p-6 text-white">
 //           <button
 //             onClick={onClose}
 //             className="absolute top-4 right-4 p-2 hover:bg-white/20 rounded-full transition-colors"
@@ -37,7 +37,7 @@
 //             </div>
 //             <div>
 //               <h2 className="text-2xl font-bold mb-2">🎉 NEET PG 2025 Results Announced!</h2>
-//               <p className="text-green-100">Your results are now available. Check your score and start your counselling journey!</p>
+//               <p className="text-blue-100">Your results are now available. Check your score and start your counselling journey!</p>
 //             </div>
 //           </div>
 //         </div>
@@ -58,14 +58,14 @@
 //               </div>
 //             </div>
 
-//             <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl p-4 border border-green-200">
+//             <div className="bg-gradient-to-r from-blue-50 to-blue-50 rounded-xl p-4 border border-blue-200">
 //               <div className="flex items-center space-x-3">
-//                 <div className="w-10 h-10 bg-green-500 rounded-lg flex items-center justify-center">
+//                 <div className="w-10 h-10 bg-blue-500 rounded-lg flex items-center justify-center">
 //                   <CheckCircle className="w-5 h-5 text-white" />
 //                 </div>
 //                 <div>
-//                   <div className="text-2xl font-bold text-green-700">1,63,287</div>
-//                   <div className="text-sm text-green-600">Qualified</div>
+//                   <div className="text-2xl font-bold text-blue-700">1,63,287</div>
+//                   <div className="text-sm text-blue-600">Qualified</div>
 //                 </div>
 //               </div>
 //             </div>
@@ -87,7 +87,7 @@
 //           <div className="space-y-4">
 //             <button
 //               onClick={handleCheckResults}
-//               className="w-full bg-gradient-to-r from-green-500 to-emerald-600 text-white py-4 px-6 rounded-xl font-bold text-lg hover:from-green-600 hover:to-emerald-700 transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center justify-center space-x-3"
+//               className="w-full bg-gradient-to-r from-blue-500 to-blue-600 text-white py-4 px-6 rounded-xl font-bold text-lg hover:from-blue-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center justify-center space-x-3"
 //             >
 //               <ExternalLink className="w-6 h-6" />
 //               <span>Check Your NEET PG Results</span>
@@ -185,7 +185,7 @@
 //     <div className="fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4 bg-black bg-opacity-50">
 //       <div className="bg-white rounded-xl shadow-2xl w-full max-w-sm sm:max-w-md md:max-w-lg max-h-[90vh] overflow-y-auto">
 //         {/* Header - More compact on mobile */}
-//         <div className="sticky top-0 bg-gradient-to-r from-green-500 to-blue-500 text-white p-3 sm:p-6 rounded-t-xl">
+//         <div className="sticky top-0 bg-gradient-to-r from-blue-500 to-blue-500 text-white p-3 sm:p-6 rounded-t-xl">
 //           <div className="flex justify-between items-start">
 //             <div className="flex-1">
 //               <h2 className="text-lg sm:text-2xl font-bold mb-1 sm:mb-2">
@@ -212,8 +212,8 @@
 //               <div className="text-lg sm:text-2xl font-bold text-blue-600">2,05,179</div>
 //               <div className="text-xs sm:text-sm text-gray-600">Total Registered</div>
 //             </div>
-//             <div className="text-center p-2 sm:p-3 bg-green-50 rounded-lg">
-//               <div className="text-lg sm:text-2xl font-bold text-green-600">1,63,287</div>
+//             <div className="text-center p-2 sm:p-3 bg-blue-50 rounded-lg">
+//               <div className="text-lg sm:text-2xl font-bold text-blue-600">1,63,287</div>
 //               <div className="text-xs sm:text-sm text-gray-600">Qualified</div>
 //             </div>
 //             <div className="text-center p-2 sm:p-3 bg-purple-50 rounded-lg">
@@ -226,7 +226,7 @@
 //           <div className="space-y-2 sm:space-y-3">
 //             <button
 //               onClick={handleCheckResults}
-//               className="w-full bg-gradient-to-r from-green-500 to-green-600 text-white py-2.5 sm:py-3 px-4 sm:px-6 rounded-lg font-medium hover:from-green-600 hover:to-green-700 transition-all duration-200 flex items-center justify-center text-sm sm:text-base"
+//               className="w-full bg-gradient-to-r from-blue-500 to-blue-600 text-white py-2.5 sm:py-3 px-4 sm:px-6 rounded-lg font-medium hover:from-blue-600 hover:to-blue-700 transition-all duration-200 flex items-center justify-center text-sm sm:text-base"
 //             >
 //               <CheckCircle className="w-4 h-4 mr-2" />
 //               Check Your NEET PG Results

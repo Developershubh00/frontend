@@ -208,8 +208,8 @@ const UGPredictorPage: React.FC = () => {
           <div className="lg:col-span-2">
             <div className="bg-white/80 backdrop-blur-xl rounded-2xl p-6 border border-white/20 shadow-lg">
               <div className="flex items-center space-x-3 mb-6">
-                <div className="w-10 h-10 bg-green-100 rounded-xl flex items-center justify-center">
-                  <TrendingUp className="w-5 h-5 text-green-600" />
+                <div className="w-10 h-10 bg-blue-100 rounded-xl flex items-center justify-center">
+                  <TrendingUp className="w-5 h-5 text-blue-600" />
                 </div>
                 <h3 className="text-xl font-bold text-slate-800">Prediction Results</h3>
               </div>
@@ -228,7 +228,7 @@ const UGPredictorPage: React.FC = () => {
                         <span
                           className={`px-3 py-1 rounded-full text-xs font-medium ${
                             prediction.admission_chance === "High"
-                              ? "bg-green-100 text-green-800"
+                              ? "bg-blue-100 text-blue-800"
                               : prediction.admission_chance === "Medium"
                               ? "bg-yellow-100 text-yellow-800"
                               : "bg-red-100 text-red-800"

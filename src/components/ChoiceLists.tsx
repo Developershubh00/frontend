@@ -53,7 +53,7 @@
 // //       id: "3",
 // //       name: "General Medicine DNB List",
 // //       count: 22,
-// //       color: "bg-green-50 border-green-200",
+// //       color: "bg-blue-50 border-blue-200",
 // //       priority: "high",
 // //     },
 // //     {
@@ -288,14 +288,14 @@
 // //               <div className="text-xs text-blue-600">2 hours ago</div>
 // //             </div>
 
-// //             <div className="p-4 bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl border border-green-200/50">
-// //               <h4 className="font-semibold text-green-900 mb-2">
+// //             <div className="p-4 bg-gradient-to-r from-blue-50 to-blue-50 rounded-xl border border-blue-200/50">
+// //               <h4 className="font-semibold text-blue-900 mb-2">
 // //                 Round 3 Registration
 // //               </h4>
-// //               <p className="text-sm text-green-700 mb-2">
+// //               <p className="text-sm text-blue-700 mb-2">
 // //                 Registration opens from Oct 8, 2024
 // //               </p>
-// //               <div className="text-xs text-green-600">5 hours ago</div>
+// //               <div className="text-xs text-blue-600">5 hours ago</div>
 // //             </div>
 
 // //             <div className="p-4 bg-gradient-to-r from-purple-50 to-pink-50 rounded-xl border border-purple-200/50">
@@ -475,7 +475,7 @@
 
 //         {/* Selected Count */}
 //         {selectedColleges.size > 0 && (
-//           <div className="bg-gradient-to-r from-green-400 to-emerald-500 text-white rounded-2xl p-4 mb-6">
+//           <div className="bg-gradient-to-r from-blue-400 to-blue-500 text-white rounded-2xl p-4 mb-6">
 //             <div className="flex items-center justify-between">
 //               <div className="flex items-center space-x-3">
 //                 <CheckCircle2 className="w-6 h-6" />
@@ -498,7 +498,7 @@
 //               <div
 //                 key={college.id}
 //                 className={`bg-white rounded-2xl shadow-xl overflow-hidden transition-all duration-300 transform hover:-translate-y-2 hover:shadow-2xl ${
-//                   isSelected ? 'ring-2 ring-green-500 ring-offset-2' : ''
+//                   isSelected ? 'ring-2 ring-blue-500 ring-offset-2' : ''
 //                 }`}
 //               >
 //                 {/* College Image */}
@@ -520,7 +520,7 @@
 //                     onClick={() => toggleCollegeSelection(college.id)}
 //                     className={`absolute top-4 right-4 p-2 rounded-full transition-all duration-200 ${
 //                       isSelected 
-//                         ? 'bg-green-500 text-white shadow-lg' 
+//                         ? 'bg-blue-500 text-white shadow-lg' 
 //                         : 'bg-white/80 text-gray-600 hover:bg-white'
 //                     }`}
 //                   >
@@ -562,7 +562,7 @@
 //                   </div>
 
 //                   <div className="mb-4">
-//                     <p className="text-lg font-bold text-green-600">{college.fees}</p>
+//                     <p className="text-lg font-bold text-blue-600">{college.fees}</p>
 //                     {college.cutoff_rank && (
 //                       <p className="text-sm text-gray-500">Cutoff Rank: {college.cutoff_rank}</p>
 //                     )}
@@ -594,7 +594,7 @@
 //                     onClick={() => toggleCollegeSelection(college.id)}
 //                     className={`w-full py-3 rounded-xl font-semibold transition-all duration-200 ${
 //                       isSelected
-//                         ? 'bg-green-500 hover:bg-green-600 text-white'
+//                         ? 'bg-blue-500 hover:bg-blue-600 text-white'
 //                         : 'bg-gray-100 hover:bg-gray-200 text-gray-700'
 //                     }`}
 //                   >
@@ -782,7 +782,7 @@ const ChoiceLists: React.FC = () => {
 
         {/* Selected Count */}
         {selectedColleges.size > 0 && (
-          <div className="bg-gradient-to-r from-green-400 to-emerald-500 text-white rounded-2xl p-4 mb-6">
+          <div className="bg-gradient-to-r from-blue-400 to-blue-500 text-white rounded-2xl p-4 mb-6">
             <div className="flex items-center justify-between">
               <div className="flex items-center space-x-3">
                 <CheckCircle2 className="w-6 h-6" />
@@ -805,7 +805,7 @@ const ChoiceLists: React.FC = () => {
               <div
                 key={college.id}
                 className={`bg-white rounded-2xl shadow-xl overflow-hidden transition-all duration-300 transform hover:-translate-y-2 hover:shadow-2xl ${
-                  isSelected ? 'ring-2 ring-green-500 ring-offset-2' : ''
+                  isSelected ? 'ring-2 ring-blue-500 ring-offset-2' : ''
                 }`}
               >
                 {/* College Image */}
@@ -827,7 +827,7 @@ const ChoiceLists: React.FC = () => {
                     onClick={() => toggleCollegeSelection(college.id)}
                     className={`absolute top-4 right-4 p-2 rounded-full transition-all duration-200 ${
                       isSelected 
-                        ? 'bg-green-500 text-white shadow-lg' 
+                        ? 'bg-blue-500 text-white shadow-lg' 
                         : 'bg-white/80 text-gray-600 hover:bg-white'
                     }`}
                   >
@@ -869,7 +869,7 @@ const ChoiceLists: React.FC = () => {
                   </div>
 
                   <div className="mb-4">
-                    <p className="text-lg font-bold text-green-600">{college.fees}</p>
+                    <p className="text-lg font-bold text-blue-600">{college.fees}</p>
                     {college.cutoff_rank && (
                       <p className="text-sm text-gray-500">Cutoff Rank: {college.cutoff_rank}</p>
                     )}
@@ -901,7 +901,7 @@ const ChoiceLists: React.FC = () => {
                     onClick={() => toggleCollegeSelection(college.id)}
                     className={`w-full py-3 rounded-xl font-semibold transition-all duration-200 ${
                       isSelected
-                        ? 'bg-green-500 hover:bg-green-600 text-white'
+                        ? 'bg-blue-500 hover:bg-blue-600 text-white'
                         : 'bg-gray-100 hover:bg-gray-200 text-gray-700'
                     }`}
                   >

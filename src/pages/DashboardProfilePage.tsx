@@ -142,8 +142,8 @@ const DashboardProfilePage: React.FC = () => {
               </h2>
               <p className="text-slate-600">Medical Aspirant</p>
               <div className="flex items-center space-x-2 mt-2">
-                <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                <span className="text-sm text-green-600">Active</span>
+                <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+                <span className="text-sm text-blue-600">Active</span>
               </div>
             </div>
 
@@ -161,9 +161,9 @@ const DashboardProfilePage: React.FC = () => {
                 </div>
               </div>
               
-              <div className="bg-gradient-to-r from-green-50 to-emerald-50 p-6 rounded-2xl">
+              <div className="bg-gradient-to-r from-blue-50 to-blue-50 p-6 rounded-2xl">
                 <div className="flex items-center space-x-3">
-                  <div className="w-12 h-12 bg-green-500 rounded-xl flex items-center justify-center">
+                  <div className="w-12 h-12 bg-blue-500 rounded-xl flex items-center justify-center">
                     <Target className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -202,7 +202,7 @@ const DashboardProfilePage: React.FC = () => {
                     <button
                       onClick={handleSave}
                       disabled={isLoading}
-                      className="flex items-center space-x-2 px-4 py-2 bg-green-500 text-white rounded-xl hover:bg-green-600 transition-colors disabled:opacity-50"
+                      className="flex items-center space-x-2 px-4 py-2 bg-blue-500 text-white rounded-xl hover:bg-blue-600 transition-colors disabled:opacity-50"
                     >
                       <Save className="w-4 h-4" />
                       <span>{isLoading ? "Saving..." : "Save"}</span>
@@ -420,8 +420,8 @@ const DashboardProfilePage: React.FC = () => {
                 <div className="flex items-center justify-between">
                   <span className="text-slate-600">Email Verified</span>
                   <div className="flex items-center space-x-2">
-                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                    <span className="text-sm text-green-600">Verified</span>
+                    <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+                    <span className="text-sm text-blue-600">Verified</span>
                   </div>
                 </div>
                 <div className="flex items-center justify-between">
@@ -448,8 +448,8 @@ const DashboardProfilePage: React.FC = () => {
                   <BookOpen className="w-5 h-5 text-blue-600" />
                   <span className="text-slate-700">View NEET PG Resources</span>
                 </button>
-                <button className="w-full flex items-center space-x-3 p-3 bg-green-50 hover:bg-green-100 rounded-xl transition-colors">
-                  <Target className="w-5 h-5 text-green-600" />
+                <button className="w-full flex items-center space-x-3 p-3 bg-blue-50 hover:bg-blue-100 rounded-xl transition-colors">
+                  <Target className="w-5 h-5 text-blue-600" />
                   <span className="text-slate-700">Specialty Predictor</span>
                 </button>
                 <button className="w-full flex items-center space-x-3 p-3 bg-purple-50 hover:bg-purple-100 rounded-xl transition-colors">
@@ -471,7 +471,7 @@ const DashboardProfilePage: React.FC = () => {
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-green-500 rounded-full mt-2"></div>
+                  <div className="w-2 h-2 bg-blue-500 rounded-full mt-2"></div>
                   <div>
                     <p className="text-sm text-slate-700">Accessed specialty predictor</p>
                     <p className="text-xs text-slate-500">1 day ago</p>
@@ -505,7 +505,7 @@ const DashboardProfilePage: React.FC = () => {
 
           <div className="bg-white/80 backdrop-blur-xl rounded-2xl p-6 border border-white/20 shadow-lg">
             <div className="text-center">
-              <div className="w-16 h-16 bg-gradient-to-r from-green-400 to-emerald-500 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-gradient-to-r from-blue-400 to-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
                 <User className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-slate-800 mb-2">

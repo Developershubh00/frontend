@@ -40,7 +40,7 @@ const features = [
     icon: <DollarSign className="w-6 h-6" />,
     title: "Fee, Stipend & Bond",
     description: "Compare tuition fees, stipends, bond obligations, and penalties categorised by institute, course and quota.",
-    color: "text-green-600", bg: "bg-green-50", border: "border-green-200"
+    color: "text-blue-600", bg: "bg-blue-50", border: "border-blue-200"
   },
   {
     icon: <MapPin className="w-6 h-6" />,
@@ -281,7 +281,7 @@ export default function NeetPGPages() {
                 </button>
               </div>
               <div className="mt-6 flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-green-500" />
+                <CheckCircle className="w-5 h-5 text-blue-500" />
                 <span className="text-gray-600 font-medium">100% Free. No subscription. No hidden charges.</span>
               </div>
             </div>
@@ -298,13 +298,13 @@ export default function NeetPGPages() {
                       <p className="text-sm text-gray-500">Counselling Live</p>
                     </div>
                     <div className="ml-auto flex items-center gap-1.5">
-                      <span className="w-2.5 h-2.5 bg-green-500 rounded-full animate-pulse"></span>
-                      <span className="text-xs text-green-600 font-semibold">LIVE</span>
+                      <span className="w-2.5 h-2.5 bg-blue-500 rounded-full animate-pulse"></span>
+                      <span className="text-xs text-blue-600 font-semibold">LIVE</span>
                     </div>
                   </div>
                   <div className="space-y-3">
                     {[
-                      { label: "AIQ Round 1 Cut-offs", status: "Available", color: "green" },
+                      { label: "AIQ Round 1 Cut-offs", status: "Available", color: "blue" },
                       { label: "State Quota Seats", status: "Updated", color: "blue" },
                       { label: "Fee & Bond Data", status: "Complete", color: "purple" },
                       { label: "Choice List Builder", status: "Free", color: "orange" },

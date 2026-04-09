@@ -51,16 +51,16 @@ const YearSelectionModal: React.FC<YearSelectionModalProps> = ({
           {/* 2025 NEW */}
           <button
             onClick={() => onSelectYear("2025", cardId)}
-            className="w-full group bg-gradient-to-r from-emerald-50 to-teal-50 border-2 border-emerald-200 hover:border-emerald-400 rounded-xl p-4 text-left transition-all duration-200 hover:shadow-md"
+            className="w-full group bg-gradient-to-r from-blue-50 to-teal-50 border-2 border-blue-200 hover:border-blue-400 rounded-xl p-4 text-left transition-all duration-200 hover:shadow-md"
           >
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-emerald-500 rounded-xl flex items-center justify-center flex-shrink-0">
+              <div className="w-10 h-10 bg-blue-500 rounded-xl flex items-center justify-center flex-shrink-0">
                 <Sparkles className="w-5 h-5 text-white" />
               </div>
               <div className="flex-1">
                 <div className="flex items-center gap-2">
                   <span className="font-bold text-gray-900">2025 Data</span>
-                  <span className="px-2 py-0.5 bg-emerald-500 text-white text-xs font-bold rounded-full">
+                  <span className="px-2 py-0.5 bg-blue-500 text-white text-xs font-bold rounded-full">
                     NEW
                   </span>
                 </div>
@@ -68,7 +68,7 @@ const YearSelectionModal: React.FC<YearSelectionModalProps> = ({
                   Latest counselling session
                 </p>
               </div>
-              <span className="text-emerald-400 font-bold text-lg group-hover:translate-x-1 transition-transform inline-block">
+              <span className="text-blue-400 font-bold text-lg group-hover:translate-x-1 transition-transform inline-block">
                 →
               </span>
             </div>

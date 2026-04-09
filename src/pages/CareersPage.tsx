@@ -78,8 +78,8 @@ const CareersPage: React.FC = () => {
       icon: <Users className="w-8 h-8" />,
       title: "Collaborative Spirit",
       description: "We believe in teamwork and supporting each other.",
-      color: "from-green-100 to-green-200",
-      borderColor: "border-green-300"
+      color: "from-blue-100 to-blue-200",
+      borderColor: "border-blue-300"
     },
     {
       icon: <Shield className="w-8 h-8" />,
@@ -109,8 +109,8 @@ const CareersPage: React.FC = () => {
       icon: <Users className="w-6 h-6" />,
       title: "Inclusive Culture",
       description: "A welcoming environment where everyone's voice matters.",
-      color: "border-green-300 bg-green-50",
-      iconColor: "text-green-600"
+      color: "border-blue-300 bg-blue-50",
+      iconColor: "text-blue-600"
     },
     {
       icon: <Award className="w-6 h-6" />,
@@ -138,7 +138,7 @@ const CareersPage: React.FC = () => {
       title: "Data & Insights",
       description: "Transform complex data into actionable insights.",
       icon: <BookOpen className="w-12 h-12" />,
-      gradient: "from-green-500 to-teal-500"
+      gradient: "from-blue-500 to-teal-500"
     },
     {
       title: "Community Building",
@@ -364,7 +364,7 @@ const CareersPage: React.FC = () => {
               </ul>
             </div>
             <div className={`transition-all duration-700 delay-200 ${benefitsVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'}`}>
-              <div className="w-full h-96 bg-gradient-to-br from-green-500 to-teal-600 rounded-3xl shadow-2xl flex items-center justify-center relative overflow-hidden">
+              <div className="w-full h-96 bg-gradient-to-br from-blue-500 to-teal-600 rounded-3xl shadow-2xl flex items-center justify-center relative overflow-hidden">
                 <Star className="w-32 h-32 text-white opacity-30 absolute" />
                 <Award className="w-24 h-24 text-white" />
               </div>

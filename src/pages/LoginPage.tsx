@@ -154,7 +154,7 @@
 //           {/* Features */}
 //           {/* <div className="mt-8 grid grid-cols-3 gap-4">
 //             <div className="text-center">
-//               <div className="w-12 h-12 bg-gradient-to-r from-green-400 to-emerald-500 rounded-xl flex items-center justify-center mx-auto mb-2">
+//               <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-blue-500 rounded-xl flex items-center justify-center mx-auto mb-2">
 //                 <GraduationCap className="w-6 h-6 text-white" />
 //               </div>
 //               <p className="text-xs text-slate-600">Career Guidance</p>
@@ -568,7 +568,7 @@ export default LoginPage;
 //           {/* Features */}
 //           <div className="mt-8 grid grid-cols-3 gap-4">
 //             <div className="text-center">
-//               <div className="w-12 h-12 bg-gradient-to-r from-green-400 to-emerald-500 rounded-xl flex items-center justify-center mx-auto mb-2">
+//               <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-blue-500 rounded-xl flex items-center justify-center mx-auto mb-2">
 //                 <GraduationCap className="w-6 h-6 text-white" />
 //               </div>
 //               <p className="text-xs text-slate-600">Career Guidance</p>

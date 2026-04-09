@@ -1079,7 +1079,7 @@
 //       case "medium":
 //         return "bg-yellow-500";
 //       default:
-//         return "bg-green-500";
+//         return "bg-blue-500";
 //     }
 //   };
 
@@ -1305,7 +1305,7 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({
       case "medium":
         return "bg-yellow-500";
       default:
-        return "bg-green-500";
+        return "bg-blue-500";
     }
   };
 
@@ -1344,8 +1344,8 @@ const AnnouncementSidebar: React.FC<AnnouncementSidebarProps> = ({
       {/* Header */}
       <div className="flex items-center justify-between mb-6">
         <div className="flex items-center space-x-3">
-          <div className="bg-gradient-to-r from-blue-400 to-pink-400 rounded-full p-2">
-            <Bell className="w-2 h-2 text-white" />
+          <div className="bg-gradient-to-r from-blue-300 to-blue-600 rounded-full p-2">
+            <Bell className="w-4 h-4 text-white" />
           </div>
           <h3 className="text-sm font-bold text-gray-800">Recent Updates</h3>
         </div>

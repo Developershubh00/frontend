@@ -323,7 +323,7 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
               <div className="flex gap-2 mb-4">
                 <button
                   onClick={showAllColumns}
-                  className="px-3 py-1.5 text-sm bg-green-100 text-green-700 rounded-lg hover:bg-green-200 transition-colors"
+                  className="px-3 py-1.5 text-sm bg-blue-100 text-blue-700 rounded-lg hover:bg-blue-200 transition-colors"
                 >
                   Show All
                 </button>
@@ -349,7 +349,7 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
                     </label>
                     <div className="ml-2">
                       {columnVisibility[key] ? (
-                        <Eye className="w-4 h-4 text-green-500" />
+                        <Eye className="w-4 h-4 text-blue-500" />
                       ) : (
                         <EyeOff className="w-4 h-4 text-gray-400" />
                       )}
@@ -653,7 +653,7 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
                     {columnVisibility.Quota && (
                       <td className="px-2 py-2 text-center text-xs">
                         <span className={`px-2 py-1 text-center rounded-full text-xs font-medium ${
-                          item.Quota === "AIQ" ? "bg-green-100 text-green-800" :
+                          item.Quota === "AIQ" ? "bg-blue-100 text-blue-800" :
                           item.Quota === "State Quota" ? "bg-blue-100 text-blue-800" :
                           "bg-purple-100 text-purple-800"
                         }`}>
@@ -668,7 +668,7 @@ const AllotmentsPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
                           item.Category === "OBC" ? "bg-yellow-100 text-yellow-800" :
                           item.Category === "SC" ? "bg-red-100 text-red-800" :
                           item.Category === "ST" ? "bg-blue-100 text-blue-800" :
-                          "bg-green-100 text-green-800"
+                          "bg-blue-100 text-blue-800"
                         }`}>
                           {item.Category}
                         </span>

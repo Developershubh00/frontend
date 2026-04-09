@@ -369,9 +369,9 @@
 //       case "Govt":
 //         return "bg-blue-100 text-blue-800";
 //       case "Private":
-//         return "bg-green-100 text-green-800";
+//         return "bg-blue-100 text-blue-800";
 //       case "Deemed":
-//         return "bg-purple-100 text-purple-800";
+//         return "bg-blue-100 text-blue-800";
 //       default:
 //         return "bg-gray-100 text-gray-800";
 //     }
@@ -379,7 +379,7 @@
 
 //   if (loading) {
 //     return (
-//       <div className="flex-1 bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 min-h-screen flex items-center justify-center">
+//       <div className="flex-1 bg-gradient-to-br from-blue-50 via-indigo-50 to-blue-50 min-h-screen flex items-center justify-center">
 //         <div className="text-center">
 //           <div className="w-16 h-16 border-4 border-blue-500 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
 //           <div className="w-64 bg-slate-200 rounded-full h-2 mb-4">
@@ -395,7 +395,7 @@
 //   }
 
 //   return (
-//     <div className="flex-1 bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 min-h-screen">
+//     <div className="flex-1 bg-gradient-to-br from-blue-50 via-indigo-50 to-blue-50 min-h-screen">
 //       {/* Header Section */}
 //       <div className="bg-white/80 backdrop-blur-xl border-b border-white/20 px-4 lg:px-6 py-4">
 //         <div className="flex items-center justify-between">
@@ -533,7 +533,7 @@
 //         {/* Main Content */}
 //         <div className="flex-1 p-6">
 //           {/* Hero Section */}
-//           <div className="bg-gradient-to-r from-indigo-600 to-purple-700 rounded-3xl p-8 text-white mb-8 shadow-xl">
+//           <div className="bg-gradient-to-r from-indigo-600 to-blue-700 rounded-3xl p-8 text-white mb-8 shadow-xl">
 //             <div className="text-center">
 //               <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
 //                 <Activity className="w-8 h-8" />
@@ -558,7 +558,7 @@
 //             </div>
 
 //             <div className="bg-white/80 backdrop-blur-xl rounded-2xl p-6 border border-white/20 shadow-lg text-center">
-//               <div className="w-12 h-12 bg-gradient-to-r from-green-400 to-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
+//               <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
 //                 <MapPin className="w-6 h-6 text-white" />
 //               </div>
 //               <div className="text-2xl font-bold text-slate-800 mb-2">
@@ -568,7 +568,7 @@
 //             </div>
 
 //             <div className="bg-white/80 backdrop-blur-xl rounded-2xl p-6 border border-white/20 shadow-lg text-center">
-//               <div className="w-12 h-12 bg-gradient-to-r from-purple-400 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+//               <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
 //                 <Stethoscope className="w-6 h-6 text-white" />
 //               </div>
 //               <div className="text-2xl font-bold text-slate-800 mb-2">
@@ -631,7 +631,7 @@
 
 //             <div className="overflow-x-auto">
 //               <table className="w-full">
-//                 <thead className="bg-gradient-to-r from-indigo-600 to-purple-700 text-white">
+//                 <thead className="bg-gradient-to-r from-indigo-600 to-blue-700 text-white">
 //                   <tr>
 //                     {visibleColumns.Institute && (
 //                       <th className="px-4 py-4 text-left font-semibold min-w-80">Institute</th>
@@ -1395,9 +1395,9 @@
 //       case "Govt":
 //         return "bg-blue-100 text-blue-800";
 //       case "Private":
-//         return "bg-green-100 text-green-800";
+//         return "bg-blue-100 text-blue-800";
 //       case "Deemed":
-//         return "bg-purple-100 text-purple-800";
+//         return "bg-blue-100 text-blue-800";
 //       default:
 //         return "bg-gray-100 text-gray-800";
 //     }
@@ -1412,7 +1412,7 @@
 
 //   if (loading) {
 //     return (
-//       <div className="flex-1 bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 min-h-screen flex items-center justify-center">
+//       <div className="flex-1 bg-gradient-to-br from-blue-50 via-indigo-50 to-blue-50 min-h-screen flex items-center justify-center">
 //         <div className="text-center">
 //           <div className="w-16 h-16 border-4 border-blue-500 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
 //           <div className="w-64 bg-slate-200 rounded-full h-2 mb-4">
@@ -1428,7 +1428,7 @@
 //   }
 
 //   return (
-//     <div className="flex-1 bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 min-h-screen">
+//     <div className="flex-1 bg-gradient-to-br from-blue-50 via-indigo-50 to-blue-50 min-h-screen">
 //       {/* Header Section */}
 //       <div className="bg-white/80 backdrop-blur-xl border-b border-white/20 px-4 py-3">
 //         <div className="flex items-center justify-between">
@@ -1686,7 +1686,7 @@
 //             </div>
 
 //             <div className="bg-white/80 backdrop-blur-xl rounded-lg p-3 border border-white/20 shadow text-center">
-//               <div className="w-8 h-8 bg-gradient-to-r from-green-400 to-green-600 rounded-full flex items-center justify-center mx-auto mb-2">
+//               <div className="w-8 h-8 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-2">
 //                 <MapPin className="w-4 h-4 text-white" />
 //               </div>
 //               <div className="text-sm font-bold text-slate-800">
@@ -1696,7 +1696,7 @@
 //             </div>
 
 //             <div className="bg-white/80 backdrop-blur-xl rounded-lg p-3 border border-white/20 shadow text-center">
-//               <div className="w-8 h-8 bg-gradient-to-r from-purple-400 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-2">
+//               <div className="w-8 h-8 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-2">
 //                 <Stethoscope className="w-4 h-4 text-white" />
 //               </div>
 //               <div className="text-sm font-bold text-slate-800">
@@ -1767,7 +1767,7 @@
 //           <div className="bg-white/80 backdrop-blur-xl rounded-lg border border-white/20 shadow overflow-hidden">
 //             <div className="overflow-x-auto">
 //               <table className="w-full text-xs">
-//                 <thead className="bg-gradient-to-r from-indigo-600 to-purple-700 text-white">
+//                 <thead className="bg-gradient-to-r from-indigo-600 to-blue-700 text-white">
 //                   <tr>
 //                     {visibleColumns.Institute && (
 //                       <th className="px-3 py-2 text-left font-semibold min-w-60">Institute</th>
@@ -2458,7 +2458,7 @@ const ClinicalDataPage: React.FC<ClinicalDataPageProps> = ({ onBack }) => {
               <div className="flex gap-2 mb-4">
                 <button
                   onClick={showAllColumns}
-                  className="px-3 py-1.5 text-sm bg-green-100 text-green-700 rounded-lg hover:bg-green-200 transition-colors"
+                  className="px-3 py-1.5 text-sm bg-blue-100 text-blue-700 rounded-lg hover:bg-blue-200 transition-colors"
                 >
                   Show All
                 </button>
@@ -2484,7 +2484,7 @@ const ClinicalDataPage: React.FC<ClinicalDataPageProps> = ({ onBack }) => {
                     </label>
                     <div className="ml-2">
                       {columnVisibility[key] ? (
-                        <Eye className="w-4 h-4 text-green-500" />
+                        <Eye className="w-4 h-4 text-blue-500" />
                       ) : (
                         <EyeOff className="w-4 h-4 text-gray-400" />
                       )}
@@ -2509,7 +2509,7 @@ const ClinicalDataPage: React.FC<ClinicalDataPageProps> = ({ onBack }) => {
       {/* Main Content */}
       <div className="flex-1 flex flex-col">
         {/* Header */}
-        <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-3">
+        <div className="bg-gradient-to-r from-blue-600 to-blue-600 text-white px-4 py-3">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <button
@@ -2559,7 +2559,7 @@ const ClinicalDataPage: React.FC<ClinicalDataPageProps> = ({ onBack }) => {
               }}
               className={`px-4 py-2 text-sm font-medium rounded-full transition-colors whitespace-nowrap ${
                 selectedInstType === "all"
-                  ? "bg-purple-600 text-white"
+                  ? "bg-blue-600 text-white"
                   : "bg-gray-100 text-gray-700 hover:bg-gray-200"
               }`}
             >
@@ -2774,8 +2774,8 @@ const ClinicalDataPage: React.FC<ClinicalDataPageProps> = ({ onBack }) => {
                       <td className="px-2 py-2 text-center text-xs">
                         <span className={`px-2 py-1 rounded-full text-xs font-medium ${
                           item["Inst. Type"] === "Govt" ? "bg-blue-100 text-blue-800" :
-                          item["Inst. Type"] === "Private" ? "bg-green-100 text-green-800" :
-                          "bg-purple-100 text-purple-800"
+                          item["Inst. Type"] === "Private" ? "bg-blue-100 text-blue-800" :
+                          "bg-blue-100 text-blue-800"
                         }`}>
                           {item["Inst. Type"]}
                         </span>

@@ -198,7 +198,7 @@
 //   const getClinicalTypeBadgeColor = (clinicalType: string) => {
 //     switch (clinicalType) {
 //       case "Clinical":
-//         return "bg-green-100 text-green-800";
+//         return "bg-blue-100 text-blue-800";
 //       case "Para Clinical":
 //         return "bg-blue-100 text-blue-800";
 //       case "Super Specialty":
@@ -222,7 +222,7 @@
 //       case "Super Speciality":
 //         return "bg-purple-100 text-purple-800";
 //       case "Under Graduate":
-//         return "bg-green-100 text-green-800";
+//         return "bg-blue-100 text-blue-800";
 //       default:
 //         return "bg-slate-100 text-slate-800";
 //     }
@@ -282,7 +282,7 @@
 
 //       <div className="max-w-7xl mx-auto p-6">
 //         {/* Hero Section */}
-//         <div className="bg-gradient-to-r from-emerald-500 to-teal-600 rounded-3xl p-8 text-white mb-8 shadow-xl">
+//         <div className="bg-gradient-to-r from-blue-500 to-teal-600 rounded-3xl p-8 text-white mb-8 shadow-xl">
 //           <div className="text-center">
 //             <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
 //               <BookOpen className="w-8 h-8" />
@@ -290,7 +290,7 @@
 //             <h2 className="text-3xl font-bold mb-4">
 //               Medical Courses Information
 //             </h2>
-//             <p className="text-emerald-100 text-lg">
+//             <p className="text-blue-100 text-lg">
 //               Comprehensive data on medical courses, duration, types, and available seats
 //             </p>
 //           </div>
@@ -307,7 +307,7 @@
 //                 placeholder="Search courses, degree types, or clinical types..."
 //                 value={searchTerm}
 //                 onChange={(e) => setSearchTerm(e.target.value)}
-//                 className="w-full pl-10 pr-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent text-slate-800"
+//                 className="w-full pl-10 pr-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-slate-800"
 //               />
 //             </div>
 
@@ -316,7 +316,7 @@
 //               <select
 //                 value={selectedDuration}
 //                 onChange={(e) => setSelectedDuration(e.target.value)}
-//                 className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent bg-white text-slate-800"
+//                 className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-800"
 //               >
 //                 {durations.map((duration) => (
 //                   <option key={duration} value={duration}>
@@ -328,7 +328,7 @@
 //               <select
 //                 value={selectedClinicalType}
 //                 onChange={(e) => setSelectedClinicalType(e.target.value)}
-//                 className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent bg-white text-slate-800"
+//                 className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-800"
 //               >
 //                 {clinicalTypes.map((type) => (
 //                   <option key={type} value={type}>
@@ -340,7 +340,7 @@
 //               <select
 //                 value={selectedDegreeType}
 //                 onChange={(e) => setSelectedDegreeType(e.target.value)}
-//                 className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent bg-white text-slate-800"
+//                 className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-800"
 //               >
 //                 {degreeTypes.map((type) => (
 //                   <option key={type} value={type}>
@@ -352,7 +352,7 @@
 //               <select
 //                 value={selectedCourseType}
 //                 onChange={(e) => setSelectedCourseType(e.target.value)}
-//                 className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent bg-white text-slate-800"
+//                 className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-800"
 //               >
 //                 {courseTypes.map((type) => (
 //                   <option key={type} value={type}>
@@ -367,7 +367,7 @@
 //         {/* Statistics Cards */}
 //         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
 //           <div className="bg-white/80 backdrop-blur-xl rounded-2xl p-6 border border-white/20 shadow-lg text-center">
-//             <div className="w-12 h-12 bg-gradient-to-r from-emerald-400 to-emerald-600 rounded-full flex items-center justify-center mx-auto mb-4">
+//             <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
 //               <BookOpen className="w-6 h-6 text-white" />
 //             </div>
 //             <div className="text-2xl font-bold text-slate-800 mb-2">
@@ -869,7 +869,7 @@
 //   const getClinicalTypeBadgeColor = (clinicalType: string) => {
 //     switch (clinicalType) {
 //       case "Clinical":
-//         return "bg-green-100 text-green-800";
+//         return "bg-blue-100 text-blue-800";
 //       case "Para Clinical":
 //         return "bg-blue-100 text-blue-800";
 //       case "Super Specialty":
@@ -893,7 +893,7 @@
 //       case "Super Speciality":
 //         return "bg-purple-100 text-purple-800";
 //       case "Under Graduate":
-//         return "bg-green-100 text-green-800";
+//         return "bg-blue-100 text-blue-800";
 //       default:
 //         return "bg-slate-100 text-slate-800";
 //     }
@@ -953,7 +953,7 @@
 
 //       <div className="max-w-7xl mx-auto p-6">
 //         {/* Hero Section */}
-//         <div className="bg-gradient-to-r from-emerald-500 to-teal-600 rounded-3xl p-8 text-white mb-8 shadow-xl">
+//         <div className="bg-gradient-to-r from-blue-500 to-teal-600 rounded-3xl p-8 text-white mb-8 shadow-xl">
 //           <div className="text-center">
 //             <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
 //               <BookOpen className="w-8 h-8" />
@@ -961,7 +961,7 @@
 //             <h2 className="text-3xl font-bold mb-4">
 //               Medical Courses Information
 //             </h2>
-//             <p className="text-emerald-100 text-lg">
+//             <p className="text-blue-100 text-lg">
 //               Comprehensive data on medical courses, duration, types, and available seats
 //             </p>
 //           </div>
@@ -978,7 +978,7 @@
 //                 placeholder="Search courses, degree types, or clinical types..."
 //                 value={searchTerm}
 //                 onChange={(e) => setSearchTerm(e.target.value)}
-//                 className="w-full pl-10 pr-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent text-slate-800"
+//                 className="w-full pl-10 pr-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-slate-800"
 //               />
 //             </div>
 
@@ -987,7 +987,7 @@
 //               <select
 //                 value={selectedDuration}
 //                 onChange={(e) => setSelectedDuration(e.target.value)}
-//                 className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent bg-white text-slate-800"
+//                 className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-800"
 //               >
 //                 {durations.map((duration) => (
 //                   <option key={duration} value={duration}>
@@ -999,7 +999,7 @@
 //               <select
 //                 value={selectedClinicalType}
 //                 onChange={(e) => setSelectedClinicalType(e.target.value)}
-//                 className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent bg-white text-slate-800"
+//                 className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-800"
 //               >
 //                 {clinicalTypes.map((type) => (
 //                   <option key={type} value={type}>
@@ -1011,7 +1011,7 @@
 //               <select
 //                 value={selectedDegreeType}
 //                 onChange={(e) => setSelectedDegreeType(e.target.value)}
-//                 className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent bg-white text-slate-800"
+//                 className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-800"
 //               >
 //                 {degreeTypes.map((type) => (
 //                   <option key={type} value={type}>
@@ -1023,7 +1023,7 @@
 //               <select
 //                 value={selectedCourseType}
 //                 onChange={(e) => setSelectedCourseType(e.target.value)}
-//                 className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent bg-white text-slate-800"
+//                 className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-800"
 //               >
 //                 {courseTypes.map((type) => (
 //                   <option key={type} value={type}>
@@ -1038,7 +1038,7 @@
 //         {/* Statistics Cards */}
 //         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
 //           <div className="bg-white/80 backdrop-blur-xl rounded-2xl p-6 border border-white/20 shadow-lg text-center">
-//             <div className="w-12 h-12 bg-gradient-to-r from-emerald-400 to-emerald-600 rounded-full flex items-center justify-center mx-auto mb-4">
+//             <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
 //               <BookOpen className="w-6 h-6 text-white" />
 //             </div>
 //             <div className="text-2xl font-bold text-slate-800 mb-2">
@@ -1545,7 +1545,7 @@
 //   const getClinicalTypeBadgeColor = (clinicalType: string) => {
 //     switch (clinicalType) {
 //       case "Clinical":
-//         return "bg-green-100 text-green-800";
+//         return "bg-blue-100 text-blue-800";
 //       case "Para Clinical":
 //         return "bg-blue-100 text-blue-800";
 //       case "Super Specialty":
@@ -1569,7 +1569,7 @@
 //       case "Super Speciality":
 //         return "bg-purple-100 text-purple-800";
 //       case "Under Graduate":
-//         return "bg-green-100 text-green-800";
+//         return "bg-blue-100 text-blue-800";
 //       default:
 //         return "bg-slate-100 text-slate-800";
 //     }
@@ -1629,7 +1629,7 @@
 
 //       <div className="max-w-7xl mx-auto p-6">
 //         {/* Hero Section */}
-//         <div className="bg-gradient-to-r from-emerald-500 to-teal-600 rounded-3xl p-8 text-white mb-8 shadow-xl">
+//         <div className="bg-gradient-to-r from-blue-500 to-teal-600 rounded-3xl p-8 text-white mb-8 shadow-xl">
 //           <div className="text-center">
 //             <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
 //               <BookOpen className="w-8 h-8" />
@@ -1637,7 +1637,7 @@
 //             <h2 className="text-3xl font-bold mb-4">
 //               Medical Courses Information
 //             </h2>
-//             <p className="text-emerald-100 text-lg">
+//             <p className="text-blue-100 text-lg">
 //               Comprehensive data on medical courses, duration, types, and available seats
 //             </p>
 //           </div>
@@ -1654,7 +1654,7 @@
 //                 placeholder="Search courses, degree types, or clinical types..."
 //                 value={searchTerm}
 //                 onChange={(e) => setSearchTerm(e.target.value)}
-//                 className="w-full pl-10 pr-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent text-slate-800"
+//                 className="w-full pl-10 pr-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-slate-800"
 //               />
 //             </div>
 
@@ -1663,7 +1663,7 @@
 //               <select
 //                 value={selectedDuration}
 //                 onChange={(e) => setSelectedDuration(e.target.value)}
-//                 className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent bg-white text-slate-800"
+//                 className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-800"
 //               >
 //                 {durations.map((duration) => (
 //                   <option key={duration} value={duration}>
@@ -1675,7 +1675,7 @@
 //               <select
 //                 value={selectedClinicalType}
 //                 onChange={(e) => setSelectedClinicalType(e.target.value)}
-//                 className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent bg-white text-slate-800"
+//                 className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-800"
 //               >
 //                 {clinicalTypes.map((type) => (
 //                   <option key={type} value={type}>
@@ -1687,7 +1687,7 @@
 //               <select
 //                 value={selectedDegreeType}
 //                 onChange={(e) => setSelectedDegreeType(e.target.value)}
-//                 className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent bg-white text-slate-800"
+//                 className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-800"
 //               >
 //                 {degreeTypes.map((type) => (
 //                   <option key={type} value={type}>
@@ -1699,7 +1699,7 @@
 //               <select
 //                 value={selectedCourseType}
 //                 onChange={(e) => setSelectedCourseType(e.target.value)}
-//                 className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent bg-white text-slate-800"
+//                 className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-800"
 //               >
 //                 {courseTypes.map((type) => (
 //                   <option key={type} value={type}>
@@ -1714,7 +1714,7 @@
 //         {/* Statistics Cards */}
 //         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
 //           <div className="bg-white/80 backdrop-blur-xl rounded-2xl p-6 border border-white/20 shadow-lg text-center">
-//             <div className="w-12 h-12 bg-gradient-to-r from-emerald-400 to-emerald-600 rounded-full flex items-center justify-center mx-auto mb-4">
+//             <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
 //               <BookOpen className="w-6 h-6 text-white" />
 //             </div>
 //             <div className="text-2xl font-bold text-slate-800 mb-2">
@@ -2198,7 +2198,7 @@ const CoursesPage: React.FC<CoursesPageProps> = ({ onBack }) => {
   const getClinicalTypeBadgeColor = (clinicalType: string) => {
     switch (clinicalType) {
       case "Clinical":
-        return "bg-green-100 text-green-800";
+        return "bg-blue-100 text-blue-800";
       case "Para Clinical":
         return "bg-blue-100 text-blue-800";
       case "Super Specialty":
@@ -2226,7 +2226,7 @@ const CoursesPage: React.FC<CoursesPageProps> = ({ onBack }) => {
       case "DM":
         return "bg-purple-100 text-purple-800";
       case "DNB":
-        return "bg-emerald-100 text-emerald-800";
+        return "bg-blue-100 text-blue-800";
       case "Diploma":
         return "bg-amber-100 text-amber-800";
       case "DMRD (NBEMS)":
@@ -2294,7 +2294,7 @@ const CoursesPage: React.FC<CoursesPageProps> = ({ onBack }) => {
 
       <div className="max-w-7xl mx-auto p-6">
         {/* Hero Section */}
-        <div className="bg-gradient-to-r from-emerald-500 to-teal-600 rounded-3xl p-8 text-white mb-8 shadow-xl">
+        <div className="bg-gradient-to-r from-blue-500 to-teal-600 rounded-3xl p-8 text-white mb-8 shadow-xl">
           <div className="text-center">
             <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
               <BookOpen className="w-8 h-8" />
@@ -2302,7 +2302,7 @@ const CoursesPage: React.FC<CoursesPageProps> = ({ onBack }) => {
             <h2 className="text-3xl font-bold mb-4">
               Medical Courses Information
             </h2>
-            <p className="text-emerald-100 text-lg">
+            <p className="text-blue-100 text-lg">
               Comprehensive data on medical courses, duration, types, and available seats
             </p>
           </div>
@@ -2319,7 +2319,7 @@ const CoursesPage: React.FC<CoursesPageProps> = ({ onBack }) => {
                 placeholder="Search courses, degree types, or clinical types..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full pl-10 pr-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent text-slate-800"
+                className="w-full pl-10 pr-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-slate-800"
               />
             </div>
 
@@ -2328,7 +2328,7 @@ const CoursesPage: React.FC<CoursesPageProps> = ({ onBack }) => {
               {/* <select
                 value={selectedDuration}
                 onChange={(e) => setSelectedDuration(e.target.value)}
-                className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent bg-white text-slate-800"
+                className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-800"
               >
                 {durations.map((duration) => (
                   <option key={duration} value={duration}>
@@ -2340,7 +2340,7 @@ const CoursesPage: React.FC<CoursesPageProps> = ({ onBack }) => {
               {/* <select
                 value={selectedClinicalType}
                 onChange={(e) => setSelectedClinicalType(e.target.value)}
-                className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent bg-white text-slate-800"
+                className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-800"
               >
                 {clinicalTypes.map((type) => (
                   <option key={type} value={type}>
@@ -2352,7 +2352,7 @@ const CoursesPage: React.FC<CoursesPageProps> = ({ onBack }) => {
               {/* <select
                 value={selectedDegreeType}
                 onChange={(e) => setSelectedDegreeType(e.target.value)}
-                className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent bg-white text-slate-800"
+                className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-800"
               >
                 {degreeTypes.map((type) => (
                   <option key={type} value={type}>
@@ -2364,7 +2364,7 @@ const CoursesPage: React.FC<CoursesPageProps> = ({ onBack }) => {
               {/* <select
                 value={selectedCourseType}
                 onChange={(e) => setSelectedCourseType(e.target.value)}
-                className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent bg-white text-slate-800"
+                className="px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-slate-800"
               >
                 {courseTypes.map((type) => (
                   <option key={type} value={type}>
@@ -2414,7 +2414,7 @@ const CoursesPage: React.FC<CoursesPageProps> = ({ onBack }) => {
         {/* Statistics Cards */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
           <div className="bg-white/80 backdrop-blur-xl rounded-2xl p-6 border border-white/20 shadow-lg text-center">
-            <div className="w-12 h-12 bg-gradient-to-r from-emerald-400 to-emerald-600 rounded-full flex items-center justify-center mx-auto mb-4">
+            <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
               <BookOpen className="w-6 h-6 text-white" />
             </div>
             <div className="text-2xl font-bold text-slate-800 mb-2">

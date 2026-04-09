@@ -77,7 +77,7 @@ const CustomSelect: React.FC<{
     <div className="relative min-w-[150px]">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-sm bg-white text-left flex items-center justify-between"
+        className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white text-left flex items-center justify-between"
       >
         <span className="text-gray-700 truncate">
           {value === "all" ? allLabel : value}
@@ -98,7 +98,7 @@ const CustomSelect: React.FC<{
                 placeholder="Search..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full px-2 py-1 text-sm border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-purple-500"
+                className="w-full px-2 py-1 text-sm border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-blue-500"
                 onClick={(e) => e.stopPropagation()}
               />
             </div>
@@ -111,8 +111,8 @@ const CustomSelect: React.FC<{
                     setIsOpen(false);
                     setSearchTerm("");
                   }}
-                  className={`px-3 py-2 text-sm cursor-pointer hover:bg-purple-50 ${
-                    value === option ? "bg-purple-100 text-purple-700" : "text-gray-700"
+                  className={`px-3 py-2 text-sm cursor-pointer hover:bg-blue-50 ${
+                    value === option ? "bg-blue-100 text-blue-700" : "text-gray-700"
                   }`}
                 >
                   {option === "all" ? allLabel : option}
@@ -463,9 +463,9 @@ const ClossingRanksPage: React.FC<ClossingRanksPageProps> = ({ onBack }) => {
 
   if (loading) {
     return (
-      <div className="flex-1 bg-gradient-to-br from-rose-50 via-blue-50 to-indigo-50 min-h-screen flex items-center justify-center">
+      <div className="flex-1 bg-gradient-to-br from-blue-50 via-blue-100 to-blue-150 min-h-screen flex items-center justify-center">
         <div className="text-center">
-          <div className="w-16 h-16 border-4 border-purple-500 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
+          <div className="w-16 h-16 border-4 border-blue-500 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
           <p className="text-slate-600">Loading Closing Ranks Data...</p>
         </div>
       </div>
@@ -491,7 +491,7 @@ const ClossingRanksPage: React.FC<ClossingRanksPageProps> = ({ onBack }) => {
               <div className="flex gap-2 mb-4">
                 <button
                   onClick={showAllColumns}
-                  className="px-3 py-1.5 text-sm bg-green-100 text-green-700 rounded-lg hover:bg-green-200 transition-colors"
+                  className="px-3 py-1.5 text-sm bg-blue-100 text-blue-700 rounded-lg hover:bg-blue-200 transition-colors"
                 >
                   Show All
                 </button>
@@ -511,13 +511,13 @@ const ClossingRanksPage: React.FC<ClossingRanksPageProps> = ({ onBack }) => {
                         type="checkbox"
                         checked={columnVisibility[key]}
                         onChange={() => toggleColumn(key)}
-                        className="w-4 h-4 text-purple-600 border-gray-300 rounded focus:ring-purple-500"
+                        className="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
                       />
                       <span className="ml-3 text-sm text-gray-700">{label}</span>
                     </label>
                     <div className="ml-2">
                       {columnVisibility[key] ? (
-                        <Eye className="w-4 h-4 text-green-500" />
+                        <Eye className="w-4 h-4 text-blue-500" />
                       ) : (
                         <EyeOff className="w-4 h-4 text-gray-400" />
                       )}
@@ -530,7 +530,7 @@ const ClossingRanksPage: React.FC<ClossingRanksPageProps> = ({ onBack }) => {
             <div className="flex justify-end gap-2 p-4 border-t bg-gray-50">
               <button
                 onClick={() => setShowColumnVisibility(false)}
-                className="px-4 py-2 text-sm bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors"
+                className="px-4 py-2 text-sm bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
               >
                 Apply Changes
               </button>
@@ -547,7 +547,7 @@ const ClossingRanksPage: React.FC<ClossingRanksPageProps> = ({ onBack }) => {
       )}
 
       <div className="flex-1 flex flex-col">
-        <div className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-4 py-3">
+        <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white px-4 py-3">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <button
@@ -563,7 +563,7 @@ const ClossingRanksPage: React.FC<ClossingRanksPageProps> = ({ onBack }) => {
             </div>
             
             <div className="hidden md:flex items-center space-x-2">
-              <span className="text-xs text-purple-100">
+              <span className="text-xs text-blue-100">
                 {filteredData.length} Records
               </span>
             </div>
@@ -581,7 +581,7 @@ const ClossingRanksPage: React.FC<ClossingRanksPageProps> = ({ onBack }) => {
                 }}
                 className={`px-4 py-2 text-sm font-medium rounded-full transition-colors whitespace-nowrap ${
                   selectedCategory === category
-                    ? "bg-purple-600 text-white"
+                    ? "bg-blue-600 text-white"
                     : "bg-gray-100 text-gray-700 hover:bg-gray-200"
                 }`}
               >
@@ -596,7 +596,7 @@ const ClossingRanksPage: React.FC<ClossingRanksPageProps> = ({ onBack }) => {
               }}
               className={`px-4 py-2 text-sm font-medium rounded-full transition-colors whitespace-nowrap ${
                 selectedCategory === "all"
-                  ? "bg-pink-600 text-white"
+                  ? "bg-blue-600 text-white"
                   : "bg-gray-100 text-gray-700 hover:bg-gray-200"
               }`}
             >
@@ -626,8 +626,8 @@ const ClossingRanksPage: React.FC<ClossingRanksPageProps> = ({ onBack }) => {
     onClick={() => filterColumnsByYear('2023')}
     className={`px-4 py-2 text-sm font-medium rounded-full transition-colors whitespace-nowrap ${
       selectedYear === '2023'
-        ? "bg-green-600 text-white"
-        : "bg-green-100 text-green-700 hover:bg-green-200"
+        ? "bg-blue-600 text-white"
+        : "bg-blue-100 text-blue-700 hover:bg-blue-200"
     }`}
   >
     2023
@@ -636,8 +636,8 @@ const ClossingRanksPage: React.FC<ClossingRanksPageProps> = ({ onBack }) => {
     onClick={() => filterColumnsByYear('2022')}
     className={`px-4 py-2 text-sm font-medium rounded-full transition-colors whitespace-nowrap ${
       selectedYear === '2022'
-        ? "bg-purple-600 text-white"
-        : "bg-purple-100 text-purple-700 hover:bg-purple-200"
+        ? "bg-blue-600 text-white"
+        : "bg-blue-100 text-blue-700 hover:bg-blue-200"
     }`}
   >
     2022
@@ -666,7 +666,7 @@ const ClossingRanksPage: React.FC<ClossingRanksPageProps> = ({ onBack }) => {
                   placeholder="Search colleges, states, courses, quota, category..."
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
-                  className="w-full pl-12 pr-4 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-sm"
+                  className="w-full pl-12 pr-4 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
                 />
               </div>
 
@@ -695,7 +695,7 @@ const ClossingRanksPage: React.FC<ClossingRanksPageProps> = ({ onBack }) => {
 
                 <button
                   onClick={() => setShowAdvancedFilters(!showAdvancedFilters)}
-                  className="flex items-center gap-2 px-3 py-2 text-sm text-purple-600 hover:bg-purple-50 rounded-lg transition-colors border border-purple-200"
+                  className="flex items-center gap-2 px-3 py-2 text-sm text-blue-600 hover:bg-blue-50 rounded-lg transition-colors border border-blue-200"
                 >
                   <Filter className="w-4 h-4" />
                   {showAdvancedFilters ? "Hide" : "Show"} Filters
@@ -727,7 +727,7 @@ const ClossingRanksPage: React.FC<ClossingRanksPageProps> = ({ onBack }) => {
                         setMinFee(e.target.value);
                         setCurrentPage(1);
                       }}
-                      className="w-full px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-sm"
+                      className="w-full px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
                     />
                     <input
                       type="number"
@@ -737,7 +737,7 @@ const ClossingRanksPage: React.FC<ClossingRanksPageProps> = ({ onBack }) => {
                         setMaxFee(e.target.value);
                         setCurrentPage(1);
                       }}
-                      className="w-full px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-sm"
+                      className="w-full px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
                     />
                   </div>
 
@@ -750,7 +750,7 @@ const ClossingRanksPage: React.FC<ClossingRanksPageProps> = ({ onBack }) => {
                         setMinRank(e.target.value);
                         setCurrentPage(1);
                       }}
-                      className="w-full px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-sm"
+                      className="w-full px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
                     />
                     <input
                       type="number"
@@ -760,7 +760,7 @@ const ClossingRanksPage: React.FC<ClossingRanksPageProps> = ({ onBack }) => {
                         setMaxRank(e.target.value);
                         setCurrentPage(1);
                       }}
-                      className="w-full px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-sm"
+                      className="w-full px-3 py-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
                     />
                   </div>
 
@@ -773,7 +773,7 @@ const ClossingRanksPage: React.FC<ClossingRanksPageProps> = ({ onBack }) => {
                 </div>
 
                 <div className="flex items-center justify-center text-sm text-gray-600 bg-gray-50 rounded-lg px-3 py-2">
-                  <span className="font-medium text-purple-600">{filteredData.length}</span>
+                  <span className="font-medium text-blue-600">{filteredData.length}</span>
                   <span className="ml-1">filtered results</span>
                 </div>
               </div>
@@ -819,28 +819,28 @@ const ClossingRanksPage: React.FC<ClossingRanksPageProps> = ({ onBack }) => {
                   <th className="px-2 py-2 text-center text-xs font-semibold text-blue-700 uppercase tracking-wider">2024 R5</th>
                 )}
                 {columnVisibility["2023 R1"] && (
-                  <th className="px-2 py-2 text-center text-xs font-semibold text-green-700 uppercase tracking-wider">2023 R1</th>
+                  <th className="px-2 py-2 text-center text-xs font-semibold text-blue-700 uppercase tracking-wider">2023 R1</th>
                 )}
                 {columnVisibility["2023 R2"] && (
-                  <th className="px-2 py-2 text-center text-xs font-semibold text-green-700 uppercase tracking-wider">2023 R2</th>
+                  <th className="px-2 py-2 text-center text-xs font-semibold text-blue-700 uppercase tracking-wider">2023 R2</th>
                 )}
                 {columnVisibility["2023 R3"] && (
-                  <th className="px-2 py-2 text-center text-xs font-semibold text-green-700 uppercase tracking-wider">2023 R3</th>
+                  <th className="px-2 py-2 text-center text-xs font-semibold text-blue-700 uppercase tracking-wider">2023 R3</th>
                 )}
                 {columnVisibility["2023 R4"] && (
-                  <th className="px-2 py-2 text-center text-xs font-semibold text-green-700 uppercase tracking-wider">2023 R4</th>
+                  <th className="px-2 py-2 text-center text-xs font-semibold text-blue-700 uppercase tracking-wider">2023 R4</th>
                 )}
                 {columnVisibility["2022 R1"] && (
-                  <th className="px-2 py-2 text-center text-xs font-semibold text-purple-700 uppercase tracking-wider">2022 R1</th>
+                  <th className="px-2 py-2 text-center text-xs font-semibold text-blue-700 uppercase tracking-wider">2022 R1</th>
                 )}
                 {columnVisibility["2022 R2"] && (
-                  <th className="px-2 py-2 text-center text-xs font-semibold text-purple-700 uppercase tracking-wider">2022 R2</th>
+                  <th className="px-2 py-2 text-center text-xs font-semibold text-blue-700 uppercase tracking-wider">2022 R2</th>
                 )}
                 {columnVisibility["2022 R3"] && (
-                  <th className="px-2 py-2 text-center text-xs font-semibold text-purple-700 uppercase tracking-wider">2022 R3</th>
+                  <th className="px-2 py-2 text-center text-xs font-semibold text-blue-700 uppercase tracking-wider">2022 R3</th>
                 )}
                 {columnVisibility["2022 R4"] && (
-                  <th className="px-2 py-2 text-center text-xs font-semibold text-purple-700 uppercase tracking-wider">2022 R4</th>
+                  <th className="px-2 py-2 text-center text-xs font-semibold text-blue-700 uppercase tracking-wider">2022 R4</th>
                 )}
               </tr>
             </thead>
@@ -853,7 +853,7 @@ const ClossingRanksPage: React.FC<ClossingRanksPageProps> = ({ onBack }) => {
                 </tr>
               ) : (
                 paginatedData.map((item, index) => (
-                  <tr key={index} className="hover:bg-purple-50 transition-colors">
+                  <tr key={index} className="hover:bg-blue-50 transition-colors">
                     {columnVisibility["Alloted Quota"] && (
                       <td className="px-2 py-2 text-center text-xs">
                         <span className="px-2 py-1 bg-indigo-100 text-indigo-700 rounded-full text-xs font-medium">
@@ -872,7 +872,7 @@ const ClossingRanksPage: React.FC<ClossingRanksPageProps> = ({ onBack }) => {
                       <td className="px-2 py-2 text-center text-xs text-gray-700">{item.State}</td>
                     )}
                     {columnVisibility.College && (
-                      <td className="px-2 py-2 text-left text-xs text-purple-600 hover:text-purple-800 cursor-pointer font-medium">
+                      <td className="px-2 py-2 text-left text-xs text-blue-600 hover:text-blue-800 cursor-pointer font-medium">
                         {item.College}
                       </td>
                     )}
@@ -880,7 +880,7 @@ const ClossingRanksPage: React.FC<ClossingRanksPageProps> = ({ onBack }) => {
                       <td className="px-2 py-2 text-left text-xs text-gray-700">{item.Course}</td>
                     )}
                     {columnVisibility["Course Fee"] && (
-                      <td className="px-2 py-2 text-center text-xs font-bold text-green-700">{formatCurrency(item["Course Fee"])}</td>
+                      <td className="px-2 py-2 text-center text-xs font-bold text-blue-700">{formatCurrency(item["Course Fee"])}</td>
                     )}
                     {columnVisibility["2024 R1"] && (
                       <td className="px-2 py-2 text-center text-xs font-medium text-blue-600">{formatRank(item["2024 R1"])}</td>
@@ -898,28 +898,28 @@ const ClossingRanksPage: React.FC<ClossingRanksPageProps> = ({ onBack }) => {
                       <td className="px-2 py-2 text-center text-xs font-medium text-blue-600">{formatRank(item["2024 R5"])}</td>
                     )}
                     {columnVisibility["2023 R1"] && (
-                      <td className="px-2 py-2 text-center text-xs font-medium text-green-600">{formatRank(item["2023 R1"])}</td>
+                      <td className="px-2 py-2 text-center text-xs font-medium text-blue-600">{formatRank(item["2023 R1"])}</td>
                     )}
                     {columnVisibility["2023 R2"] && (
-                      <td className="px-2 py-2 text-center text-xs font-medium text-green-600">{formatRank(item["2023 R2"])}</td>
+                      <td className="px-2 py-2 text-center text-xs font-medium text-blue-600">{formatRank(item["2023 R2"])}</td>
                     )}
                     {columnVisibility["2023 R3"] && (
-                      <td className="px-2 py-2 text-center text-xs font-medium text-green-600">{formatRank(item["2023 R3"])}</td>
+                      <td className="px-2 py-2 text-center text-xs font-medium text-blue-600">{formatRank(item["2023 R3"])}</td>
                     )}
                     {columnVisibility["2023 R4"] && (
-                      <td className="px-2 py-2 text-center text-xs font-medium text-green-600">{formatRank(item["2023 R4"])}</td>
+                      <td className="px-2 py-2 text-center text-xs font-medium text-blue-600">{formatRank(item["2023 R4"])}</td>
                     )}
                     {columnVisibility["2022 R1"] && (
-                      <td className="px-2 py-2 text-center text-xs font-medium text-purple-600">{formatRank(item["2022 R1"])}</td>
+                      <td className="px-2 py-2 text-center text-xs font-medium text-blue-600">{formatRank(item["2022 R1"])}</td>
                     )}
                     {columnVisibility["2022 R2"] && (
-                      <td className="px-2 py-2 text-center text-xs font-medium text-purple-600">{formatRank(item["2022 R2"])}</td>
+                      <td className="px-2 py-2 text-center text-xs font-medium text-blue-600">{formatRank(item["2022 R2"])}</td>
                     )}
                     {columnVisibility["2022 R3"] && (
-                      <td className="px-2 py-2 text-center text-xs font-medium text-purple-600">{formatRank(item["2022 R3"])}</td>
+                      <td className="px-2 py-2 text-center text-xs font-medium text-blue-600">{formatRank(item["2022 R3"])}</td>
                     )}
                     {columnVisibility["2022 R4"] && (
-                      <td className="px-2 py-2 text-center text-xs font-medium text-purple-600">{formatRank(item["2022 R4"])}</td>
+                      <td className="px-2 py-2 text-center text-xs font-medium text-blue-600">{formatRank(item["2022 R4"])}</td>
                     )}
                   </tr>
                 ))
@@ -960,7 +960,7 @@ const ClossingRanksPage: React.FC<ClossingRanksPageProps> = ({ onBack }) => {
                       onClick={() => setCurrentPage(pageNum)}
                       className={`px-2 py-1 text-xs rounded transition-colors ${
                         currentPage === pageNum
-                          ? "bg-purple-500 text-white"
+                          ? "bg-blue-500 text-white"
                           : "border border-gray-300 text-black hover:bg-gray-50"
                       }`}
                     >

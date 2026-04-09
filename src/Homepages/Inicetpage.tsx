@@ -22,13 +22,13 @@ const features = [
     icon: <BarChart3 className="w-6 h-6" />,
     title: "Allotments",
     description: "Track multi-year official allotments across rounds and quotas for AIIMS, JIPMER, NIMHANS, PGIMER, and SCTIMST.",
-    color: "text-emerald-600", bg: "bg-emerald-50", border: "border-emerald-200"
+    color: "text-blue-600", bg: "bg-blue-50", border: "border-blue-200"
   },
   {
     icon: <TrendingUp className="w-6 h-6" />,
     title: "Closing Ranks",
     description: "Explore multi-year cut-off ranks for every round, course and institute, filtered by category, quota, and more.",
-    color: "text-green-600", bg: "bg-green-50", border: "border-green-200"
+    color: "text-blue-600", bg: "bg-blue-50", border: "border-blue-200"
   },
   {
     icon: <Target className="w-6 h-6" />,
@@ -163,7 +163,7 @@ export default function InicetPage() {
             <div className="hidden md:flex items-center space-x-8 ml-auto">
               <div className="relative" ref={dropdownRef}>
                 <button onClick={() => setIsCounsellingOpen(!isCounsellingOpen)}
-                  className="flex items-center gap-1.5 text-emerald-600 font-semibold hover:text-emerald-700 transition-colors">
+                  className="flex items-center gap-1.5 text-blue-600 font-semibold hover:text-blue-700 transition-colors">
                   Counsellings
                   <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${isCounsellingOpen ? "rotate-180" : ""}`} />
                 </button>
@@ -172,17 +172,17 @@ export default function InicetPage() {
                     {counsellingDropdownItems.map((item) => (
                       <button key={item.label}
                         onClick={() => { navigate(item.path); setIsCounsellingOpen(false); }}
-                        className={`w-full text-left px-4 py-2.5 text-sm font-medium transition-colors hover:bg-emerald-50 hover:text-emerald-600 ${item.active ? "text-emerald-600 bg-emerald-50" : "text-gray-700"}`}>
+                        className={`w-full text-left px-4 py-2.5 text-sm font-medium transition-colors hover:bg-blue-50 hover:text-blue-600 ${item.active ? "text-blue-600 bg-blue-50" : "text-gray-700"}`}>
                         {item.label}
-                        {item.active && <span className="ml-2 text-xs bg-emerald-100 text-emerald-600 px-2 py-0.5 rounded-full">Current</span>}
+                        {item.active && <span className="ml-2 text-xs bg-blue-100 text-blue-600 px-2 py-0.5 rounded-full">Current</span>}
                       </button>
                     ))}
                   </div>
                 )}
               </div>
-              <a onClick={() => navigate("/blog")} className="text-gray-700 hover:text-emerald-600 transition-colors font-medium cursor-pointer">Blog</a>
-              <a onClick={() => navigate("/announcements")} className="text-gray-700 hover:text-emerald-600 transition-colors font-medium cursor-pointer">News</a>
-              <a onClick={() => navigate("/support")} className="text-gray-700 hover:text-emerald-600 transition-colors font-medium cursor-pointer">Contact Us</a>
+              <a onClick={() => navigate("/blog")} className="text-gray-700 hover:text-blue-600 transition-colors font-medium cursor-pointer">Blog</a>
+              <a onClick={() => navigate("/announcements")} className="text-gray-700 hover:text-blue-600 transition-colors font-medium cursor-pointer">News</a>
+              <a onClick={() => navigate("/support")} className="text-gray-700 hover:text-blue-600 transition-colors font-medium cursor-pointer">Contact Us</a>
               <button onClick={() => navigate("/login")}
                 className="bg-gradient-to-r from-blue-300 to-blue-700 hover:from-blue-300 hover:to-blue-800 text-white px-6 py-2.5 rounded-full font-semibold transition-all duration-300 hover:scale-105 shadow-lg">
                 Log-In | Sign-Up
@@ -199,7 +199,7 @@ export default function InicetPage() {
                   <p className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">Counsellings</p>
                   {counsellingDropdownItems.map(item => (
                     <button key={item.label} onClick={() => { navigate(item.path); setIsMenuOpen(false); }}
-                      className={`block w-full text-left px-3 py-2 rounded-lg text-sm font-medium transition-colors ${item.active ? "text-emerald-600 bg-emerald-50" : "text-gray-700 hover:bg-gray-50"}`}>
+                      className={`block w-full text-left px-3 py-2 rounded-lg text-sm font-medium transition-colors ${item.active ? "text-blue-600 bg-blue-50" : "text-gray-700 hover:bg-gray-50"}`}>
                       {item.label}
                     </button>
                   ))}
@@ -220,23 +220,23 @@ export default function InicetPage() {
       </nav>
 
       {/* Hero */}
-      <section ref={heroRef} className="pt-24 pb-12 bg-gradient-to-br from-emerald-50 via-teal-50/40 to-white relative overflow-hidden">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-emerald-100/60 to-transparent rounded-full -translate-y-1/2 translate-x-1/2"></div>
+      <section ref={heroRef} className="pt-24 pb-12 bg-gradient-to-br from-blue-50 via-teal-50/40 to-white relative overflow-hidden">
+        <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-blue-100/60 to-transparent rounded-full -translate-y-1/2 translate-x-1/2"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className={`transition-all duration-700 ${heroVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
-              <div className="inline-flex items-center gap-2 bg-emerald-100 text-emerald-700 px-4 py-1.5 rounded-full text-sm font-semibold mb-6">
+              <div className="inline-flex items-center gap-2 bg-blue-100 text-blue-700 px-4 py-1.5 rounded-full text-sm font-semibold mb-6">
                 <Users className="w-4 h-4" />
                 2.5k+ Students Enrolled
               </div>
               {/* Live badge */}
-              <div className="inline-flex items-center gap-2 bg-green-500 text-white px-4 py-1.5 rounded-full text-sm font-bold mb-4 ml-3 animate-pulse">
+              <div className="inline-flex items-center gap-2 bg-blue-500 text-white px-4 py-1.5 rounded-full text-sm font-bold mb-4 ml-3 animate-pulse">
                 <span className="w-2 h-2 bg-white rounded-full"></span>
                 INICET Jan 2026 Results Live
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
                 Plan Strategically for India's{" "}
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-teal-600">Elite PG Medical</span>{" "}
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-teal-600">Elite PG Medical</span>{" "}
                 Institutes
               </h1>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
@@ -244,12 +244,12 @@ export default function InicetPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <button onClick={() => navigate("/signup")}
-                  className="bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 text-white px-8 py-4 rounded-full text-lg font-bold inline-flex items-center justify-center gap-3 transition-all duration-300 hover:scale-105 shadow-2xl">
+                  className="bg-gradient-to-r from-blue-500 to-teal-600 hover:from-blue-600 hover:to-teal-700 text-white px-8 py-4 rounded-full text-lg font-bold inline-flex items-center justify-center gap-3 transition-all duration-300 hover:scale-105 shadow-2xl">
                   <span>Get started — FREE</span>
                   <ArrowRight className="w-5 h-5" />
                 </button>
                 <button onClick={() => navigate("/inicetdashboard")}
-                  className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white px-8 py-4 rounded-full text-lg font-bold inline-flex items-center justify-center gap-3 transition-all duration-300 hover:scale-105 shadow-lg relative">
+                  className="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-8 py-4 rounded-full text-lg font-bold inline-flex items-center justify-center gap-3 transition-all duration-300 hover:scale-105 shadow-lg relative">
                   <Award className="w-5 h-5" />
                   <span>INICET Results →</span>
                   <span className="absolute -top-1 -right-1 flex h-3 w-3">
@@ -259,7 +259,7 @@ export default function InicetPage() {
                 </button>
               </div>
               <div className="mt-6 flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-green-500" />
+                <CheckCircle className="w-5 h-5 text-blue-500" />
                 <span className="text-gray-600 font-medium">100% Free. No subscription. No hidden charges.</span>
               </div>
             </div>
@@ -268,21 +268,21 @@ export default function InicetPage() {
               <div className="relative">
                 <div className="bg-white rounded-3xl shadow-2xl p-6 border border-gray-100">
                   <div className="flex items-center gap-3 mb-4">
-                    <div className="w-10 h-10 bg-emerald-100 rounded-full flex items-center justify-center">
-                      <Award className="w-5 h-5 text-emerald-600" />
+                    <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
+                      <Award className="w-5 h-5 text-blue-600" />
                     </div>
                     <div>
                       <p className="font-bold text-gray-900">INICET Jan 2026</p>
                       <p className="text-sm text-gray-500">Results Declared</p>
                     </div>
                     <div className="ml-auto flex items-center gap-1.5">
-                      <span className="w-2.5 h-2.5 bg-green-500 rounded-full animate-pulse"></span>
-                      <span className="text-xs text-green-600 font-semibold">LIVE</span>
+                      <span className="w-2.5 h-2.5 bg-blue-500 rounded-full animate-pulse"></span>
+                      <span className="text-xs text-blue-600 font-semibold">LIVE</span>
                     </div>
                   </div>
                   <div className="space-y-3">
                     {[
-                      { label: "AIIMS Cut-offs", status: "Live", color: "green" },
+                      { label: "AIIMS Cut-offs", status: "Live", color: "blue" },
                       { label: "JIPMER Seat Data", status: "Updated", color: "blue" },
                       { label: "NIMHANS Allotments", status: "Available", color: "purple" },
                       { label: "PGIMER & SCTIMST", status: "Complete", color: "teal" },
@@ -354,7 +354,7 @@ export default function InicetPage() {
                     <ul className="space-y-2">
                       {item.content.map((point, j) => (
                         <li key={j} className="flex items-start gap-2 text-gray-600">
-                          <span className="w-1.5 h-1.5 bg-emerald-500 rounded-full mt-2 flex-shrink-0"></span>
+                          <span className="w-1.5 h-1.5 bg-blue-500 rounded-full mt-2 flex-shrink-0"></span>
                           {point}
                         </li>
                       ))}
@@ -394,13 +394,13 @@ export default function InicetPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-gradient-to-br from-emerald-500 to-teal-600 relative overflow-hidden">
+      <section className="py-16 bg-gradient-to-br from-blue-500 to-teal-600 relative overflow-hidden">
         <div className="absolute inset-0 opacity-10" style={{ backgroundImage: "radial-gradient(circle at 20% 50%, white 1px, transparent 1px), radial-gradient(circle at 80% 20%, white 1px, transparent 1px)", backgroundSize: "60px 60px" }}></div>
         <div className="max-w-4xl mx-auto px-4 text-center relative">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Start Your INICET Journey</h2>
-          <p className="text-emerald-100 text-xl mb-8">Everything is FREE. No subscriptions. No catch.</p>
+          <p className="text-blue-100 text-xl mb-8">Everything is FREE. No subscriptions. No catch.</p>
           <button onClick={() => navigate("/signup")}
-            className="bg-white text-emerald-600 hover:bg-emerald-50 px-10 py-4 rounded-full text-xl font-bold inline-flex items-center gap-3 transition-all duration-300 hover:scale-105 shadow-2xl">
+            className="bg-white text-blue-600 hover:bg-blue-50 px-10 py-4 rounded-full text-xl font-bold inline-flex items-center gap-3 transition-all duration-300 hover:scale-105 shadow-2xl">
             <span>Get Free Access</span>
             <ArrowRight className="w-6 h-6" />
           </button>

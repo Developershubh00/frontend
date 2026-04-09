@@ -98,7 +98,7 @@ const InicetRightSideBar: React.FC<InicetRightSideBarProps> = ({
         <div className="pt-4 border-t border-slate-200">
           <div className="mb-4">
             <h3 className="text-sm font-bold text-slate-800 mb-1 flex items-center">
-              <span className="w-1 h-4 bg-emerald-600 rounded-full mr-2"></span>
+              <span className="w-1 h-4 bg-blue-600 rounded-full mr-2"></span>
               INI CET 2026 January Session
             </h3>
             <p className="text-xs text-slate-500">Important Dates & Events</p>
@@ -108,7 +108,7 @@ const InicetRightSideBar: React.FC<InicetRightSideBarProps> = ({
           href={pdfUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-1 px-2 py-1 text-xs font-medium text-emerald-700 bg-emerald-50 border border-emerald-200 rounded hover:bg-emerald-100 hover:border-emerald-300 transition-colors duration-200 active:scale-95 whitespace-nowrap"
+          className="flex items-center gap-1 px-2 py-1 text-xs font-medium text-blue-700 bg-blue-50 border border-blue-200 rounded hover:bg-blue-100 hover:border-blue-300 transition-colors duration-200 active:scale-95 whitespace-nowrap"
           title="View Official Schedule"
         >
           <span>For Full Schedule</span>
@@ -129,16 +129,16 @@ const InicetRightSideBar: React.FC<InicetRightSideBarProps> = ({
               <div
                 className={`flex items-start space-x-3 ${
                   item.isHighlight
-                    ? "bg-emerald-50 border border-emerald-200 rounded-lg p-2 -ml-2"
+                    ? "bg-blue-50 border border-blue-200 rounded-lg p-2 -ml-2"
                     : ""
                 }`}
               >
                 {/* Timeline dot */}
                 <div className="flex-shrink-0 mt-0.5">
                   {item.status === "completed" ? (
-                    <CheckCircle2 className="w-4 h-4 text-green-600" />
+                    <CheckCircle2 className="w-4 h-4 text-blue-600" />
                   ) : item.isHighlight ? (
-                    <div className="w-4 h-4 rounded-full bg-emerald-600 flex items-center justify-center">
+                    <div className="w-4 h-4 rounded-full bg-blue-600 flex items-center justify-center">
                       <div className="w-2 h-2 rounded-full bg-white"></div>
                     </div>
                   ) : (
@@ -153,7 +153,7 @@ const InicetRightSideBar: React.FC<InicetRightSideBarProps> = ({
                       item.status === "completed"
                         ? "text-slate-600"
                         : item.isHighlight
-                        ? "text-emerald-900"
+                        ? "text-blue-900"
                         : "text-slate-800"
                     }`}
                   >
@@ -164,7 +164,7 @@ const InicetRightSideBar: React.FC<InicetRightSideBarProps> = ({
                       item.status === "completed"
                         ? "text-slate-400"
                         : item.isHighlight
-                        ? "text-emerald-700"
+                        ? "text-blue-700"
                         : "text-slate-500"
                     }`}
                   >

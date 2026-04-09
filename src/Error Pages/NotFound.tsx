@@ -69,7 +69,7 @@ export const NotFound: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
               <a 
                 href="tel:8447540715"
-                className="flex items-center justify-center gap-3 bg-green-50 text-green-700 px-6 py-4 rounded-lg hover:bg-green-100 transition-colors border border-green-200"
+                className="flex items-center justify-center gap-3 bg-blue-50 text-blue-700 px-6 py-4 rounded-lg hover:bg-blue-100 transition-colors border border-blue-200"
               >
                 <Phone className="w-5 h-5" />
                 <span className="font-semibold">Call: +91 9211724969</span>

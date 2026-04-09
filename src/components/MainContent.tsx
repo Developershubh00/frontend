@@ -194,7 +194,7 @@
 //   //     title: "NEET PG Results 2025",
 //   //     subtitle: "Results Announced - Check Now!",
 //   //     icon: Target,
-//   //     bgGradient: "from-green-400 to-emerald-600",
+//   //     bgGradient: "from-blue-400 to-blue-600",
 //   //     textColor: "text-white",
 //   //     action: "Check Results",
 //   //     onClick: () => {
@@ -408,7 +408,7 @@
 //             </div>
 
 //             {/* <div className="flex justify-center space-x-3">
-//               <button className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center text-white hover:bg-green-600 transition-all duration-300 transform hover:scale-110 shadow-lg">
+//               <button className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white hover:bg-blue-600 transition-all duration-300 transform hover:scale-110 shadow-lg">
 //                 <MessageCircle className="w-6 h-6" />
 //               </button>
 //               <button className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white hover:bg-blue-600 transition-all duration-300 transform hover:scale-110 shadow-lg">
@@ -521,7 +521,7 @@
 //                 <span className="bg-amber-100 text-amber-800 px-2 py-1 rounded-full text-xs font-medium">
 //                   📢 IMPORTANT NOTICE
 //                 </span>
-//                 <span className="bg-green-100 text-green-800 px-2 py-1 rounded-full text-xs font-medium">
+//                 <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
 //                   NEW UPDATE
 //                 </span>
 //               </div>
@@ -723,7 +723,7 @@
 //                         key={yearIdx}
 //                         className={`py-3 px-4 font-bold border-r border-slate-200 last:border-r-0 ${
 //                           row.highlight && value <= 5
-//                             ? "text-green-600 bg-green-50"
+//                             ? "text-blue-600 bg-blue-50"
 //                             : value === 0
 //                               ? "text-red-600 bg-red-50"
 //                               : "text-slate-700"
@@ -740,7 +740,7 @@
 
 //           {/* Insights Section */}
 //           <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-//             <div className="bg-green-50 border-l-4 border-green-500 rounded-lg p-4">
+//             <div className="bg-blue-50 border-l-4 border-blue-500 rounded-lg p-4">
 //               <div className="flex items-center space-x-2 mb-2">
 //                 <span className="text-2xl">🏆</span>
 //                 <h4 className="font-bold text-slate-800">Most Preferred</h4>
@@ -947,11 +947,11 @@
 
 //         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
 //           <div className="text-center">
-//             <div className="w-16 h-16 bg-green-500 rounded-full mx-auto mb-4 flex items-center justify-center">
+//             <div className="w-16 h-16 bg-blue-500 rounded-full mx-auto mb-4 flex items-center justify-center">
 //               <Calendar className="w-8 h-8 text-white" />
 //             </div>
-//             <div className="bg-green-50 rounded-xl p-4">
-//               <div className="text-sm text-green-600 font-medium mb-1">
+//             <div className="bg-blue-50 rounded-xl p-4">
+//               <div className="text-sm text-blue-600 font-medium mb-1">
 //                 Registration
 //               </div>
 //               <div className="text-lg font-bold text-slate-800 mb-1">
@@ -1161,8 +1161,8 @@
 //         {/* NEET PG 2025 Important Information */}
 //         <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
 //           <div className="flex items-start space-x-3 lg:space-x-4 mb-4 lg:mb-6">
-//             <div className="w-10 h-10 lg:w-12 lg:h-12 bg-green-100 rounded-xl flex items-center justify-center flex-shrink-0">
-//               <FileText className="w-5 h-5 lg:w-6 lg:h-6 text-green-600" />
+//             <div className="w-10 h-10 lg:w-12 lg:h-12 bg-blue-100 rounded-xl flex items-center justify-center flex-shrink-0">
+//               <FileText className="w-5 h-5 lg:w-6 lg:h-6 text-blue-600" />
 //             </div>
 //             <div>
 //               <h3 className="text-lg lg:text-2xl font-bold text-slate-800 mb-2">
@@ -1185,7 +1185,7 @@
 //               "Download and print the scorecard for counselling registration",
 //             ].map((step, index) => (
 //               <div key={index} className="flex items-start space-x-3">
-//                 <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center text-white text-sm font-bold mt-0.5 flex-shrink-0">
+//                 <div className="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center text-white text-sm font-bold mt-0.5 flex-shrink-0">
 //                   {index + 1}
 //                 </div>
 //                 <div>
@@ -1276,7 +1276,7 @@
 //                         ? "bg-red-100 text-red-700"
 //                         : specialty.demand === "High"
 //                           ? "bg-blue-100 text-blue-700"
-//                           : "bg-green-100 text-green-700"
+//                           : "bg-blue-100 text-blue-700"
 //                     }`}
 //                   >
 //                     {specialty.demand} Demand
@@ -1338,21 +1338,21 @@
 //               <h4 className="font-bold text-slate-800 text-lg">Important Documents</h4>
 //               <div className="space-y-3">
 //                 <div className="flex items-start space-x-3">
-//                   <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center text-white text-sm font-bold mt-0.5 flex-shrink-0">1</div>
+//                   <div className="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center text-white text-sm font-bold mt-0.5 flex-shrink-0">1</div>
 //                   <div>
 //                     <p className="text-slate-700 text-sm font-medium">NEET PG Scorecard</p>
 //                     <p className="text-slate-600 text-xs">Original and photocopies</p>
 //                   </div>
 //                 </div>
 //                 <div className="flex items-start space-x-3">
-//                   <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center text-white text-sm font-bold mt-0.5 flex-shrink-0">2</div>
+//                   <div className="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center text-white text-sm font-bold mt-0.5 flex-shrink-0">2</div>
 //                   <div>
 //                     <p className="text-slate-700 text-sm font-medium">MBBS Degree Certificate</p>
 //                     <p className="text-slate-600 text-xs">Provisional or final degree</p>
 //                   </div>
 //                 </div>
 //                 <div className="flex items-start space-x-3">
-//                   <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center text-white text-sm font-bold mt-0.5 flex-shrink-0">3</div>
+//                   <div className="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center text-white text-sm font-bold mt-0.5 flex-shrink-0">3</div>
 //                   <div>
 //                     <p className="text-slate-700 text-sm font-medium">Category Certificate</p>
 //                     <p className="text-slate-600 text-xs">If applicable (SC/ST/OBC/EWS)</p>
@@ -1432,7 +1432,7 @@
 //               </h4>
 //               <div className="space-y-3">
 //                 <div className="flex items-start space-x-3">
-//                   <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center text-white text-sm font-bold mt-0.5 flex-shrink-0">
+//                   <div className="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center text-white text-sm font-bold mt-0.5 flex-shrink-0">
 //                     4
 //                   </div>
 //                   <div>
@@ -1445,7 +1445,7 @@
 //                   </div>
 //                 </div>
 //                 <div className="flex items-start space-x-3">
-//                   <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center text-white text-sm font-bold mt-0.5 flex-shrink-0">
+//                   <div className="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center text-white text-sm font-bold mt-0.5 flex-shrink-0">
 //                     5
 //                   </div>
 //                   <div>
@@ -1458,7 +1458,7 @@
 //                   </div>
 //                 </div>
 //                 <div className="flex items-start space-x-3">
-//                   <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center text-white text-sm font-bold mt-0.5 flex-shrink-0">
+//                   <div className="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center text-white text-sm font-bold mt-0.5 flex-shrink-0">
 //                     6
 //                   </div>
 //                   <div>
@@ -1538,7 +1538,7 @@
 //                   <div
 //                     className={`w-6 h-6 rounded-full flex-shrink-0 ${
 //                       step.status === "completed"
-//                         ? "bg-green-400"
+//                         ? "bg-blue-400"
 //                         : step.status === "current"
 //                         ? "bg-blue-500 animate-pulse"
 //                         : "bg-slate-300"
@@ -1594,7 +1594,7 @@
 //                   <div
 //                     className={`w-6 h-6 rounded-full mb-4 ${
 //                       step.status === "completed"
-//                         ? "bg-green-400"
+//                         ? "bg-blue-400"
 //                         : step.status === "current"
 //                         ? "bg-blue-500 animate-pulse"
 //                         : "bg-slate-300"
@@ -1616,7 +1616,7 @@
 //             </div>
 
 //             <div className="hidden md:block absolute top-3 left-0 right-0 h-0.5 bg-slate-200">
-//               <div className="h-full bg-green-400 w-1/4"></div>
+//               <div className="h-full bg-blue-400 w-1/4"></div>
 //             </div>
 //           </div>
 //         </div> */}
@@ -1669,13 +1669,13 @@
 //         </div> */}
 
 //         {/* NEET PG Career Guidance CTA - Mobile Optimized */}
-//         <div className="bg-gradient-to-r from-green-600 to-emerald-600 rounded-2xl lg:rounded-3xl p-6 lg:p-8 text-center text-white shadow-2xl">
+//         <div className="bg-gradient-to-r from-blue-600 to-blue-600 rounded-2xl lg:rounded-3xl p-6 lg:p-8 text-center text-white shadow-2xl">
 //           <h3 className="text-xl lg:text-3xl font-bold mb-3 lg:mb-4">
 //             Ready for{" "}
-//             <span className="text-green-300">Specialty Selection?</span> Get
+//             <span className="text-blue-300">Specialty Selection?</span> Get
 //             Expert Guidance!
 //           </h3>
-//           <p className="text-green-100 mb-4 lg:mb-6 text-sm lg:text-lg">
+//           <p className="text-blue-100 mb-4 lg:mb-6 text-sm lg:text-lg">
 //             Choose the right specialty with our expert guidance. Get
 //             personalized advice for your NEET PG counselling journey.
 //           </p>
@@ -2036,10 +2036,8 @@ useEffect(() => {
           <div className="relative max-w-7xl mx-auto w-full">
           {/* Mobile */}
           <div className="xl:hidden text-center">
-            <div className="inline-flex items-center justify-center w-12 h-12 bg-white/20 rounded-2xl mb-4 backdrop-blur-sm">
-              <span className="text-white text-2xl">⚡</span>
-            </div>
-            <h1 className="text-xl font-bold text-white mb-2">
+            
+            <h1 className="text-xl font-bold text-white mb-4 [text-shadow:_1px_1px_2px_rgba(0,0,0,0.7)]">
               Check Your Results &amp; Start Counselling
             </h1>
             <div className="grid grid-cols-2 gap-3 mb-6">
@@ -2062,9 +2060,7 @@ useEffect(() => {
               <h1 className="text-3xl lg:text-4xl font-bold text-white [text-shadow:_1px_1px_2px_rgba(0,0,0,0.7)]">
                 Check Your Results &amp; Start Your Counselling Journey Today!
               </h1>
-              <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm">
-                <span className="text-white text-lg">🏆</span>
-              </div>
+              
             </div>
             <div className="flex flex-wrap items-center justify-center gap-4">
               {actionButtons.map((button) => (
@@ -2108,7 +2104,7 @@ useEffect(() => {
               <p className="text-xs lg:text-sm text-slate-600">{card.subtitle}</p>
               {/* small "2025 NEW" badge to hint there's new data */}
               <div className="flex items-center gap-1 mt-2">
-                <span className="px-1.5 py-0.5 bg-emerald-100 text-emerald-700 text-xs font-semibold rounded-md">
+                <span className="px-1.5 py-0.5 bg-blue-100 text-blue-700 text-xs font-semibold rounded-md">
                   2024 & 2025
                 </span>
                 <ChevronRight className="w-4 h-4 text-slate-400" />
@@ -2125,7 +2121,8 @@ useEffect(() => {
           className="mb-8 lg:mb-12 rounded-2xl overflow-hidden cursor-pointer group"
           onClick={() => window.location.href = "/predictor"}
           style={{
-            background: "linear-gradient(135deg,#1e1b4b 0%,#312e81 40%,#4338ca 70%,#6366f1 100%)",
+            background: "linear-gradient(135deg, #1e40af 0%, #1e40af 40%, #1447e6 70%,#51a2ff 100%)",
+            
             position: "relative",
           }}
         >
@@ -2149,7 +2146,7 @@ useEffect(() => {
                 borderRadius:999, padding:"4px 14px", marginBottom:14,
                 color:"#c7d2fe", fontSize:12, fontWeight:700,
               }}>
-                <span>🎯</span> NEET PG 2025 — Live Data
+                NEET PG 2025 — Live Data
                 <span style={{background:"#10b981",color:"#fff",borderRadius:999,padding:"1px 7px",fontSize:10,fontWeight:800}}>NEW</span>
               </div>
               <h2 style={{
@@ -2158,7 +2155,7 @@ useEffect(() => {
                 fontFamily:"'DM Sans','Nunito',sans-serif",
                 textShadow:"0 2px 12px rgba(0,0,0,.3)",
               }}>
-                Predict Your <span style={{color:"#a5b4fc"}}>Dream College</span><br/>
+                Predict Your <span style={{color:"#f5c506"}}>Dream College</span><br/>
                 With Your NEET PG Rank
               </h2>
               <p style={{margin:"0 0 20px",color:"#c7d2fe",fontSize:14,lineHeight:1.6,maxWidth:480}}>
@@ -2180,24 +2177,25 @@ useEffect(() => {
             <div style={{ display:"flex", flexDirection:"column", alignItems:"center", gap:12 }}>
               <div
                 style={{
-                  background:"linear-gradient(135deg,#f59e0b,#ef4444)",
-                  color:"#fff", border:"none", borderRadius:16,
-                  padding:"16px 36px", fontSize:17, fontWeight:800,
-                  boxShadow:"0 8px 28px rgba(239,68,68,.45)",
+                  // background:"linear-gradient(135deg, #60a5fa, #3b82f6)",
+                  background:"white",
+                  color:"#004391", border:"none", borderRadius:16,
+                  padding:"12px 30px", fontSize:21, fontWeight:800,
+                  boxShadow:"0 8px 28px rgba(31, 157, 241, 0.45)",
                   display:"flex", alignItems:"center", gap:10,
                   transition:"transform .2s",
                   whiteSpace:"nowrap",
                 }}
                 className="group-hover:scale-105"
               >
-                🔍 Open Predictor
+                Open Predictor
                 <span style={{fontSize:20}}>→</span>
               </div>
-              <span style={{color:"#818cf8",fontSize:12}}>Free · Instant results</span>
+              <span style={{color:"#ececec",fontSize:12}}>Free · Instant Results</span>
  
               {/* Mode chips */}
               <div style={{display:"flex",gap:8,flexWrap:"wrap",justifyContent:"center"}}>
-                {["🏥 Closing Ranks","📋 Past Allotments","💺 Seat Matrix"].map(l=>(
+                {["Closing Ranks","Past Allotments","Seat Matrix"].map(l=>(
                   <span key={l} style={{
                     background:"rgba(255,255,255,.12)", color:"#c7d2fe",
                     borderRadius:999, padding:"4px 12px", fontSize:11, fontWeight:700,
@@ -2214,10 +2212,10 @@ useEffect(() => {
         <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
         
           <div className="text-center mb-6 lg:mb-8">
-            <h2 className="text-2xl lg:text-3xl font-bold text-slate-800 mb-2">
-              📊 Trend Comparison: Top 100 Ranks Branch Preferences
+            <h2 className="text-2xl lg:text-3xl font-bold text-slate-800 mb-2 bg-gradient-to-r from-blue-800 to-blue-600 text-transparent bg-clip-text">
+              Trend Comparison: Top 100 Ranks Branch Preferences
             </h2>
-            <p className="text-slate-600 text-sm lg:text-base">
+            <p className="text-slate-800 text-sm lg:text-base max-w-2xl mx-auto border border-slate-200 rounded-full p-3 shadow-sm">
               Branch preferences by first 100 rank holders in All India
               Counselling (2021-2025)
             </p>
@@ -2236,22 +2234,14 @@ useEffect(() => {
               </thead>
               <tbody className="bg-white">
                 {
-                // [
-                //   { branch: "Dermatology", emoji: "🩺", years: [4, 1, 2, 3],   highlight: true },
-                //   { branch: "Radiology",   emoji: "📷", years: [41, 45, 41, 36] },
-                //   { branch: "Surgery",     emoji: "🔪", years: [3, 2, 4, 11],   highlight: true },
-                //   { branch: "Medicine",    emoji: "🏥", years: [46, 46, 45, 43] },
-                //   { branch: "ObGy",        emoji: "👩‍⚕️", years: [3, 4, 1, 1],    highlight: true },
-                //   { branch: "Pediatrics",  emoji: "👶", years: [1, 2, 5, 2],    highlight: true },
-                //   { branch: "Orthopedics", emoji: "🦴", years: [1, 0, 2, 2],    highlight: true },
-                // ]
+                
                 [
-  { branch: "Radiology",   emoji: "📷", years: [38, 40, 39, 36] },
-  { branch: "Medicine",    emoji: "🏥", years: [34, 32, 35, 33] },
-  { branch: "Dermatology", emoji: "🩺", years: [8, 7, 6, 7],   highlight: true },
-  { branch: "Pediatrics",  emoji: "👶", years: [6, 5, 5, 4],   highlight: true },
-  { branch: "ObGy",        emoji: "👩‍⚕️", years: [5, 6, 4, 5],   highlight: true },
-  { branch: "Surgery",     emoji: "🔪", years: [5, 5, 6, 8] },
+  { branch: "Radiology",   years: [38, 40, 39, 36] },
+  { branch: "Medicine",    years: [34, 32, 35, 33] },
+  { branch: "Dermatology", years: [8, 7, 6, 7],   highlight: true },
+  { branch: "Pediatrics",  years: [6, 5, 5, 4],   highlight: true },
+  { branch: "ObGy",        years: [5, 6, 4, 5],   highlight: true },
+  { branch: "Surgery",     years: [5, 5, 6, 8] },
   { branch: "Orthopedics", emoji: "🦴", years: [4, 3, 3, 4] },
 ].map((row, idx) => (
                   <tr key={idx} className={`hover:bg-blue-50 transition-colors ${idx % 2 === 0 ? "bg-slate-50" : "bg-white"}`}>
@@ -2259,7 +2249,7 @@ useEffect(() => {
                       <span className="mr-2">{row.emoji}</span>{row.branch}
                     </td>
                     {row.years.map((value, yearIdx) => (
-                      <td key={yearIdx} className={`py-3 px-4 font-bold border-r border-slate-200 last:border-r-0 ${row.highlight && value <= 5 ? "text-green-600 bg-green-50" : value === 0 ? "text-red-600 bg-red-50" : "text-slate-700"}`}>
+                      <td key={yearIdx} className={`py-3 px-4 font-bold border-r border-slate-200 last:border-r-0 ${row.highlight && value <= 5 ? "text-blue-600 bg-blue-50" : value === 0 ? "text-red-600 bg-red-50" : "text-slate-700"}`}>
                         {value}
                       </td>
                     ))}
@@ -2270,16 +2260,16 @@ useEffect(() => {
           </div>
 
           <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            <div className="bg-green-50 border-l-4 border-green-500 rounded-lg p-4">
-              <div className="flex items-center space-x-2 mb-2"><span className="text-2xl">🏆</span><h4 className="font-bold text-slate-800">Most Preferred</h4></div>
+            <div className="bg-blue-50 border-l-4 border-blue-500 rounded-lg p-4">
+              <div className="flex items-center space-x-2 mb-2"><span className="text-2xl"></span><h4 className="font-bold text-slate-800">Most Preferred</h4></div>
               <p className="text-sm text-slate-600">Radiology and General Medicine dominate &amp; Top 100 ranks consistently</p>
             </div>
             <div className="bg-blue-50 border-l-4 border-blue-500 rounded-lg p-4">
-              <div className="flex items-center space-x-2 mb-2"><span className="text-2xl">📈</span><h4 className="font-bold text-slate-800">Stable Trends</h4></div>
+              <div className="flex items-center space-x-2 mb-2"><span className="text-2xl"></span><h4 className="font-bold text-slate-800">Stable Trends</h4></div>
               <p className="text-sm text-slate-600">Radiology and Medicine remain the most stable and highest chosen branches across all years</p>
             </div>
             <div className="bg-purple-50 border-l-4 border-purple-500 rounded-lg p-4">
-              <div className="flex items-center space-x-2 mb-2"><span className="text-2xl">💡</span><h4 className="font-bold text-slate-800">Key Insight</h4></div>
+              <div className="flex items-center space-x-2 mb-2"><span className="text-2xl"></span><h4 className="font-bold text-slate-800">Key Insight</h4></div>
               <p className="text-sm text-slate-600">Top rankers increasingly prefer lifestyle-friendly and high ROI branches like Radiology and Dermatology over traditionally demanding surgical fields</p>
             </div>
           </div>
@@ -2316,16 +2306,16 @@ useEffect(() => {
         </div> */}
         {/* Cutoff Scores */}
 <div className="text-center mb-6 lg:mb-8">
-  <h3 className="text-xl lg:text-2xl font-bold text-slate-800 mb-2">
-    📊 NEET PG 2025 Cutoff Scores
+  <h3 className="text-xl lg:text-2xl font-bold text-slate-800 mb-2 bg-gradient-to-r from-blue-800 to-blue-400 text-transparent bg-clip-text">
+    NEET PG 2025 Cutoff Scores
   </h3>
 
-  <p className="text-slate-600 text-sm mb-4">
+  <p className="text-slate-600 text-sm mb-4 bg-blue-500 inline-block px-3 py-1 rounded-full text-white">
     Cutoffs are based on percentile and vary each year depending on exam difficulty and normalization.
   </p>
 
   <div className="overflow-x-auto">
-    <table className="w-full text-center table-fixed border-collapse min-w-full">
+    <table className="w-full text-center table-fixed border-collapse min-w-full bg-blue-100 rounded-xl shadow-sm">
       <thead>
         <tr className="bg-slate-50">
           <th className="border-b border-slate-200 py-2 px-3 text-slate-600 text-sm lg:text-base">
@@ -2364,20 +2354,22 @@ useEffect(() => {
   </div>
 
   {/* Insight Box */}
-  <div className="mt-4 text-sm text-slate-500">
-    ⚠️ Cutoff marks change every year. Always rely on percentile rather than marks for eligibility.
+  <div className="mt-4 text-sm text-slate-500 italic bg-blue-50 inline-block px-3 py-2 rounded-md">
+    Cutoff marks change every year. Always rely on percentile rather than marks for eligibility.
   </div>
 </div>
 
         {/* Marks vs Rank */}
         <div className="text-center mb-6 lg:mb-8">
-          <h3 className="text-xl lg:text-2xl font-bold text-slate-800 mb-2">🏆 NEET PG 2025 Marks vs Rank Analysis</h3>
-          <p className="text-slate-600 text-sm lg:text-base mb-4">
+          <h3 className="text-xl lg:text-2xl font-bold text-slate-800 mb-2 bg-gradient-to-r from-blue-800 to-blue-400 text-transparent bg-clip-text">
+            NEET PG 2025 Marks vs Rank Analysis
+          </h3>
+          <p className="text-slate-600 text-sm lg:text-base mb-4 bg-blue-500 inline-block px-3 py-1 rounded-full text-white">
             Here's how your marks may correspond to your All India Rank and admission prospects:
           </p>
-          <div className="overflow-x-auto max-h-[450px] rounded-xl border border-slate-200 shadow-sm">
-            <table className="w-full text-center table-fixed border-collapse min-w-full">
-              <thead className="bg-slate-50">
+          <div className="overflow-x-auto max-h-[450px] rounded-xl border border-slate-200 shadow-sm bg-blue-50">
+            <table className="w-full text-center table-fixed border-collapse min-w-full ">
+              <thead className="bg-slate-50 ">
                 <tr>
                   <th className="border-b border-slate-200 py-2 px-3 text-slate-600 text-sm lg:text-base">Score Range</th>
                   <th className="border-b border-slate-200 py-2 px-3 text-slate-600 text-sm lg:text-base">All India Rank</th>
@@ -2441,10 +2433,10 @@ useEffect(() => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {[
-            { icon: Calendar,    bg: "bg-green-500",  light: "bg-green-50",  color: "text-green-600",  label: "Registration",  status: "Started",     sub: "MCC Portal Open" },
-            { icon: CheckCircle, bg: "bg-blue-500",   light: "bg-blue-50",   color: "text-blue-600",   label: "Round 1",       status: "Coming Soon", sub: "Choice Filling" },
-            { icon: Award,       bg: "bg-purple-500", light: "bg-purple-50", color: "text-purple-600", label: "Seat Allotment",status: "Round 1",     sub: "Result Declaration" },
-            { icon: Users,       bg: "bg-blue-500",   light: "bg-blue-50",   color: "text-blue-600",   label: "Joining",       status: "Round 1",     sub: "Documentation" },
+            { icon: Calendar,    bg: "bg-blue-800",  light: "bg-blue-50",  color: "text-blue-600",  label: "Registration",  status: "Started",     sub: "MCC Portal Open" },
+            { icon: CheckCircle, bg: "bg-blue-800",   light: "bg-blue-50",   color: "text-blue-600",   label: "Round 1",       status: "Coming Soon", sub: "Choice Filling" },
+            { icon: Award,       bg: "bg-blue-800", light: "bg-purple-50", color: "text-purple-600", label: "Seat Allotment",status: "Round 1",     sub: "Result Declaration" },
+            { icon: Users,       bg: "bg-blue-800",   light: "bg-blue-50",   color: "text-blue-600",   label: "Joining",       status: "Round 1",     sub: "Documentation" },
           ].map((step, i) => (
             <div key={i} className="text-center">
               <div className={`w-16 h-16 ${step.bg} rounded-full mx-auto mb-4 flex items-center justify-center`}>
@@ -2464,8 +2456,8 @@ useEffect(() => {
         {/* How to Check Results */}
         <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
           <div className="flex items-start space-x-3 lg:space-x-4 mb-4 lg:mb-6">
-            <div className="w-10 h-10 lg:w-12 lg:h-12 bg-green-100 rounded-xl flex items-center justify-center flex-shrink-0">
-              <FileText className="w-5 h-5 lg:w-6 lg:h-6 text-green-600" />
+            <div className="w-10 h-10 lg:w-12 lg:h-12 bg-blue-100 rounded-xl flex items-center justify-center flex-shrink-0">
+              <FileText className="w-5 h-5 lg:w-6 lg:h-6 text-blue-600" />
             </div>
             <div>
               <h3 className="text-lg lg:text-2xl font-bold text-slate-800 mb-2">How to Check NEET PG 2025 Results?</h3>
@@ -2482,7 +2474,7 @@ useEffect(() => {
               "Download and print the scorecard for counselling registration",
             ].map((step, index) => (
               <div key={index} className="flex items-start space-x-3">
-                <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center text-white text-sm font-bold mt-0.5 flex-shrink-0">
+                <div className="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center text-white text-sm font-bold mt-0.5 flex-shrink-0">
                   {index + 1}
                 </div>
                 <p className="text-slate-700 text-sm lg:text-base">{step}</p>
@@ -2522,7 +2514,7 @@ useEffect(() => {
                     <p className="text-sm text-slate-600">{specialty.seats} seats</p>
                   </div>
                 </div>
-                <span className={`px-2 py-1 rounded-full text-xs font-medium ${specialty.demand === "Very High" ? "bg-red-100 text-red-700" : specialty.demand === "High" ? "bg-blue-100 text-blue-700" : "bg-green-100 text-green-700"}`}>
+                <span className={`px-2 py-1 rounded-full text-xs font-medium ${specialty.demand === "Very High" ? "bg-red-100 text-red-700" : specialty.demand === "High" ? "bg-blue-100 text-blue-700" : "bg-blue-100 text-blue-700"}`}>
                   {specialty.demand} Demand
                 </span>
               </div>
@@ -2532,8 +2524,8 @@ useEffect(() => {
         {/* Popular Specialties */}
 <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
   <div className="flex items-start space-x-3 lg:space-x-4 mb-4 lg:mb-6">
-    <div className="w-10 h-10 lg:w-12 lg:h-12 bg-purple-100 rounded-xl flex items-center justify-center flex-shrink-0">
-      <Target className="w-5 h-5 lg:w-6 lg:h-6 text-purple-600" />
+    <div className="w-10 h-10 lg:w-12 lg:h-12 bg-blue-100 rounded-xl flex items-center justify-center flex-shrink-0">
+      <Target className="w-5 h-5 lg:w-6 lg:h-6 text-blue-600" />
     </div>
     <div>
       <h3 className="text-lg lg:text-2xl font-bold text-slate-800 mb-2">
@@ -2547,19 +2539,19 @@ useEffect(() => {
 
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
     {[
-      { name: "General Medicine",        seats: "3,600+", demand: "Very High", icon: "🏥" },
-      { name: "Radiology",               seats: "1,200+", demand: "Very High", icon: "📷" },
-      { name: "Dermatology",             seats: "700+",   demand: "Very High", icon: "🩺" },
-      { name: "Pediatrics",              seats: "1,500+", demand: "High",      icon: "👶" },
-      { name: "Obstetrics & Gynecology", seats: "1,400+", demand: "High",      icon: "👩‍⚕️" },
-      { name: "Orthopedics",             seats: "1,200+", demand: "High",      icon: "🦴" },
-      { name: "Anesthesiology",          seats: "2,000+", demand: "High",      icon: "💉" },
-      { name: "Psychiatry",              seats: "900+",   demand: "Rising",    icon: "🧠" },
-      { name: "Pathology",               seats: "1,000+", demand: "Moderate",  icon: "🔬" },
+      { name: "General Medicine",        seats: "3,600+", demand: "Very High"},
+      { name: "Radiology",               seats: "1,200+", demand: "Very High" },
+      { name: "Dermatology",             seats: "700+",   demand: "Very High" },
+      { name: "Pediatrics",              seats: "1,500+", demand: "High"     },
+      { name: "Obstetrics & Gynecology", seats: "1,400+", demand: "High"      },
+      { name: "Orthopedics",             seats: "1,200+", demand: "High"     },
+      { name: "Anesthesiology",          seats: "2,000+", demand: "High"       },
+      { name: "Psychiatry",              seats: "900+",   demand: "Rising"     },
+      { name: "Pathology",               seats: "1,000+", demand: "Moderate"  },
     ].map((specialty, index) => (
       <div
         key={index}
-        className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-xl p-4 border border-purple-100 hover:shadow-lg transition-all duration-300"
+        className="bg-gradient-to-r from-blue-50 to-blue-100 rounded-xl p-4 border border-blue-100 hover:shadow-lg transition-all duration-300"
       >
         <div className="flex items-center space-x-3 mb-3">
           <span className="text-2xl">{specialty.icon}</span>
@@ -2577,8 +2569,8 @@ useEffect(() => {
               : specialty.demand === "High"
               ? "bg-blue-100 text-blue-700"
               : specialty.demand === "Rising"
-              ? "bg-purple-100 text-purple-700"
-              : "bg-green-100 text-green-700"
+              ? "bg-blue-100 text-blue-700"
+              : "bg-blue-100 text-blue-700"
           }`}
         >
           {specialty.demand} Demand
@@ -2588,7 +2580,7 @@ useEffect(() => {
         <div className="mt-3">
           <div className="w-full bg-slate-200 h-1 rounded-full">
             <div
-              className="bg-purple-500 h-1 rounded-full transition-all duration-500"
+              className="bg-blue-800 h-1 rounded-full transition-all duration-500"
               style={{
                 width:
                   specialty.demand === "Very High"
@@ -2640,7 +2632,7 @@ useEffect(() => {
                 { n: 6, title: "Report to College",  sub: "Complete admission formalities at allotted college" },
               ].map(({ n, title, sub }) => (
                 <div key={n} className="flex items-start space-x-3">
-                  <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center text-white text-sm font-bold mt-0.5 flex-shrink-0">{n}</div>
+                  <div className="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center text-white text-sm font-bold mt-0.5 flex-shrink-0">{n}</div>
                   <div><p className="text-slate-700 text-sm font-medium">{title}</p><p className="text-slate-600 text-xs">{sub}</p></div>
                 </div>
               ))}
@@ -2649,11 +2641,11 @@ useEffect(() => {
         </div>
 
         {/* CTA */}
-        <div className="bg-gradient-to-r from-green-600 to-emerald-600 rounded-2xl lg:rounded-3xl p-6 lg:p-8 text-center text-white shadow-2xl">
+        <div className="bg-gradient-to-r from-blue-600 to-blue-600 rounded-2xl lg:rounded-3xl p-6 lg:p-8 text-center text-white shadow-2xl">
           <h3 className="text-xl lg:text-3xl font-bold mb-3 lg:mb-4">
-            Ready for <span className="text-green-300">Specialty Selection?</span> Get Expert Guidance!
+            Ready for <span className="text-blue-300">Specialty Selection?</span> Get Expert Guidance!
           </h3>
-          <p className="text-green-100 mb-4 lg:mb-6 text-sm lg:text-lg">
+          <p className="text-blue-100 mb-4 lg:mb-6 text-sm lg:text-lg">
             Choose the right specialty with our expert guidance.
           </p>
           <a

@@ -1834,7 +1834,7 @@ const UniversitiesPage: React.FC<UniversitiesPageProps> = ({ onBack }) => {
                       <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-medium">
                         {selectedCollege.management}
                       </span>
-                      <span className="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm font-medium">
+                      <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-medium">
                         {selectedCollege.affiliation}
                       </span>
                     </div>
@@ -1865,7 +1865,7 @@ const UniversitiesPage: React.FC<UniversitiesPageProps> = ({ onBack }) => {
 
                   <div className="bg-slate-50 rounded-xl p-4">
                     <div className="flex items-center mb-2">
-                      <MapPin className="w-5 h-5 text-green-600 mr-2" />
+                      <MapPin className="w-5 h-5 text-blue-600 mr-2" />
                       <span className="font-semibold text-slate-800">
                         State
                       </span>

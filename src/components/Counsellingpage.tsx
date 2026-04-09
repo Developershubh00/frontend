@@ -171,7 +171,7 @@ const CounselingPage: React.FC<CounselingPageProps> = ({ onBack }) => {
   const getRoundBadgeColor = (round: number) => {
     switch (round) {
       case 1:
-        return "bg-green-100 text-green-800";
+        return "bg-blue-100 text-blue-800";
       case 2:
         return "bg-blue-100 text-blue-800";
       case 3:
@@ -193,7 +193,7 @@ const CounselingPage: React.FC<CounselingPageProps> = ({ onBack }) => {
       case "OBC":
         return "bg-blue-100 text-blue-800";
       case "SC":
-        return "bg-green-100 text-green-800";
+        return "bg-blue-100 text-blue-800";
       case "ST":
         return "bg-purple-100 text-purple-800";
       default:
@@ -219,7 +219,7 @@ const CounselingPage: React.FC<CounselingPageProps> = ({ onBack }) => {
   }
 
   return (
-    <div className="flex-1 bg-gradient-to-br from-rose-50 via-blue-50 to-indigo-50 min-h-screen">
+    <div className="flex-1 bg-gradient-to-br from-blue-50 via-blue-100 to-indigo-50 min-h-screen">
       {/* Header Section */}
       <div className="bg-white/80 backdrop-blur-xl border-b border-white/20 px-4 lg:px-6 py-4">
         <div className="flex items-center space-x-4">
@@ -237,7 +237,7 @@ const CounselingPage: React.FC<CounselingPageProps> = ({ onBack }) => {
 
       <div className="max-w-7xl mx-auto p-6">
         {/* Hero Section */}
-        <div className="bg-gradient-to-r from-indigo-500 to-purple-600 rounded-3xl p-8 text-white mb-8 shadow-xl">
+        <div className="bg-gradient-to-r from-blue-400 to-blue-700 rounded-3xl p-8 text-white mb-8 shadow-xl">
           <div className="text-center">
             <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
               <Users className="w-8 h-8" />
@@ -325,7 +325,7 @@ const CounselingPage: React.FC<CounselingPageProps> = ({ onBack }) => {
           </div>
 
           <div className="bg-white/80 backdrop-blur-xl rounded-2xl p-6 border border-white/20 shadow-lg text-center">
-            <div className="w-12 h-12 bg-gradient-to-r from-green-400 to-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
+            <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
               <Building2 className="w-6 h-6 text-white" />
             </div>
             <div className="text-2xl font-bold text-slate-800 mb-2">

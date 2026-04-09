@@ -168,7 +168,7 @@
 //       { id: 1, name: 'NEET PG', slug: 'neet-pg', color_class: 'bg-blue-100 text-blue-800' },
 //       { id: 2, name: 'NEET UG', slug: 'neet-ug', color_class: 'bg-red-100 text-red-800' },
 //       { id: 3, name: 'Counselling', slug: 'counselling', color_class: 'bg-purple-100 text-purple-800' },
-//       { id: 4, name: 'Finance', slug: 'finance', color_class: 'bg-green-100 text-green-800' },
+//       { id: 4, name: 'Finance', slug: 'finance', color_class: 'bg-blue-100 text-blue-800' },
 //       { id: 5, name: 'Analysis', slug: 'analysis', color_class: 'bg-blue-100 text-blue-800' }
 //     ];
 
@@ -844,7 +844,7 @@ const BlogPageWithAPI: React.FC = () => {
       category: {
         name: "Finance",
         slug: "finance",
-        color: "bg-green-100 text-green-800"
+        color: "bg-blue-100 text-blue-800"
       },
       tags: ["Fees", "Medical College", "Finance", "Planning"],
       published_date: "2024-12-10",
@@ -942,7 +942,7 @@ const BlogPageWithAPI: React.FC = () => {
     { name: 'NEET PG', slug: 'neet-pg', color: 'bg-blue-100 text-blue-800' },
     { name: 'NEET UG', slug: 'neet-ug', color: 'bg-red-100 text-red-800' },
     { name: 'Counselling', slug: 'counselling', color: 'bg-purple-100 text-purple-800' },
-    { name: 'Finance', slug: 'finance', color: 'bg-green-100 text-green-800' },
+    { name: 'Finance', slug: 'finance', color: 'bg-blue-100 text-blue-800' },
     { name: 'Analysis', slug: 'analysis', color: 'bg-blue-100 text-blue-800' }
   ];
 

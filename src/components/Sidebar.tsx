@@ -104,7 +104,7 @@ const Sidebar: React.FC<SidebarProps> = ({
       icon: Award,
       label: "Results & Rankings",
       hasSubmenu: false,
-      color: "text-emerald-600",
+      color: "text-blue-600",
       onClick: () => navigate("/rankings"),
     },
     // {

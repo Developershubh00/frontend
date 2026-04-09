@@ -290,7 +290,7 @@
 //             </div>
 //             <div className="p-4">
 //               <div className="flex gap-2 mb-4">
-//                 <button onClick={showAll} className="px-3 py-1.5 text-sm bg-green-100 text-green-700 rounded-lg">Show All</button>
+//                 <button onClick={showAll} className="px-3 py-1.5 text-sm bg-blue-100 text-blue-700 rounded-lg">Show All</button>
 //                 <button onClick={hideAll} className="px-3 py-1.5 text-sm bg-red-100 text-red-700 rounded-lg">Hide All</button>
 //               </div>
 //               <div className="space-y-2 max-h-96 overflow-y-auto">
@@ -300,7 +300,7 @@
 //                       <input type="checkbox" checked={colVis[key]} onChange={() => toggleCol(key)} className="w-4 h-4 text-purple-600 border-gray-300 rounded" />
 //                       <span className="ml-3 text-sm text-gray-700">{label}</span>
 //                     </label>
-//                     {colVis[key] ? <Eye className="w-4 h-4 text-green-500"/> : <EyeOff className="w-4 h-4 text-gray-400"/>}
+//                     {colVis[key] ? <Eye className="w-4 h-4 text-blue-500"/> : <EyeOff className="w-4 h-4 text-gray-400"/>}
 //                   </div>
 //                 ))}
 //               </div>
@@ -411,11 +411,11 @@
 //                 {colVis.College && <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase">College</th>}
 //                 {colVis.Course && <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase">Course</th>}
 //                 {colVis["Course Fee"] && <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase">Fee</th>}
-//                 {colVis["2025 R1"] && <th className="px-2 py-2 text-center text-xs font-semibold text-emerald-700 uppercase">2025 R1</th>}
-//                 {colVis["2025 R2"] && <th className="px-2 py-2 text-center text-xs font-semibold text-emerald-700 uppercase">2025 R2</th>}
-//                 {colVis["2025 R3"] && <th className="px-2 py-2 text-center text-xs font-semibold text-emerald-700 uppercase">2025 R3</th>}
-//                 {colVis["2025 R4"] && <th className="px-2 py-2 text-center text-xs font-semibold text-emerald-700 uppercase">2025 R4</th>}
-//                 {colVis["2025 R5"] && <th className="px-2 py-2 text-center text-xs font-semibold text-emerald-700 uppercase">2025 R5</th>}
+//                 {colVis["2025 R1"] && <th className="px-2 py-2 text-center text-xs font-semibold text-blue-700 uppercase">2025 R1</th>}
+//                 {colVis["2025 R2"] && <th className="px-2 py-2 text-center text-xs font-semibold text-blue-700 uppercase">2025 R2</th>}
+//                 {colVis["2025 R3"] && <th className="px-2 py-2 text-center text-xs font-semibold text-blue-700 uppercase">2025 R3</th>}
+//                 {colVis["2025 R4"] && <th className="px-2 py-2 text-center text-xs font-semibold text-blue-700 uppercase">2025 R4</th>}
+//                 {colVis["2025 R5"] && <th className="px-2 py-2 text-center text-xs font-semibold text-blue-700 uppercase">2025 R5</th>}
 //               </tr>
 //             </thead>
 //             <tbody className="bg-white divide-y divide-gray-100">
@@ -430,12 +430,12 @@
 //                   {colVis.State && <td className="px-2 py-2 text-center text-xs text-gray-700">{item.State}</td>}
 //                   {colVis.College && <td className="px-2 py-2 text-left text-xs text-purple-600 hover:text-purple-800 cursor-pointer font-medium">{item.College}</td>}
 //                   {colVis.Course && <td className="px-2 py-2 text-left text-xs text-gray-700">{item.Course}</td>}
-//                   {colVis["Course Fee"] && <td className="px-2 py-2 text-center text-xs font-bold text-green-700">{fmt(item["Course Fee"])}</td>}
-//                   {colVis["2025 R1"] && <td className="px-2 py-2 text-center text-xs font-medium text-emerald-600">{item["2025 R1"]||"-"}</td>}
-//                   {colVis["2025 R2"] && <td className="px-2 py-2 text-center text-xs font-medium text-emerald-600">{item["2025 R2"]||"-"}</td>}
-//                   {colVis["2025 R3"] && <td className="px-2 py-2 text-center text-xs font-medium text-emerald-600">{item["2025 R3"]||"-"}</td>}
-//                   {colVis["2025 R4"] && <td className="px-2 py-2 text-center text-xs font-medium text-emerald-600">{item["2025 R4"]||"-"}</td>}
-//                   {colVis["2025 R5"] && <td className="px-2 py-2 text-center text-xs font-medium text-emerald-600">{item["2025 R5"]||"-"}</td>}
+//                   {colVis["Course Fee"] && <td className="px-2 py-2 text-center text-xs font-bold text-blue-700">{fmt(item["Course Fee"])}</td>}
+//                   {colVis["2025 R1"] && <td className="px-2 py-2 text-center text-xs font-medium text-blue-600">{item["2025 R1"]||"-"}</td>}
+//                   {colVis["2025 R2"] && <td className="px-2 py-2 text-center text-xs font-medium text-blue-600">{item["2025 R2"]||"-"}</td>}
+//                   {colVis["2025 R3"] && <td className="px-2 py-2 text-center text-xs font-medium text-blue-600">{item["2025 R3"]||"-"}</td>}
+//                   {colVis["2025 R4"] && <td className="px-2 py-2 text-center text-xs font-medium text-blue-600">{item["2025 R4"]||"-"}</td>}
+//                   {colVis["2025 R5"] && <td className="px-2 py-2 text-center text-xs font-medium text-blue-600">{item["2025 R5"]||"-"}</td>}
 //                 </tr>
 //               ))}
 //             </tbody>
@@ -580,7 +580,7 @@ const RankCell: React.FC<{ val: string }> = ({ val }) => {
   if (!val || val === "-") return <span className="text-gray-300">—</span>;
   const rank = parseInt(val.replace(/[^0-9]/g, ""));
   const color =
-    rank <= 500   ? "text-emerald-600 font-bold" :
+    rank <= 500   ? "text-blue-600 font-bold" :
     rank <= 2000  ? "text-blue-600 font-semibold" :
     rank <= 5000  ? "text-amber-600" :
     "text-gray-500";
@@ -792,7 +792,7 @@ const ClosingRanks2025Page: React.FC<ClosingRanks2025PageProps> = ({ onBack }) =
             </div>
             <div className="p-4">
               <div className="flex gap-2 mb-4">
-                <button onClick={showAll} className="px-3 py-1.5 text-sm bg-green-100 text-green-700 rounded-lg hover:bg-green-200">Show All</button>
+                <button onClick={showAll} className="px-3 py-1.5 text-sm bg-blue-100 text-blue-700 rounded-lg hover:bg-blue-200">Show All</button>
                 <button onClick={hideAll} className="px-3 py-1.5 text-sm bg-red-100 text-red-700 rounded-lg hover:bg-red-200">Hide All</button>
               </div>
               {/* Group columns visually */}
@@ -812,7 +812,7 @@ const ClosingRanks2025Page: React.FC<ClosingRanks2025PageProps> = ({ onBack }) =
                           <input type="checkbox" checked={colVis[key]} onChange={() => toggleCol(key)} className="w-4 h-4 text-purple-600 border-gray-300 rounded" />
                           <span className="ml-3 text-sm text-gray-700">{def.label}</span>
                         </label>
-                        {colVis[key] ? <Eye className="w-4 h-4 text-green-500" /> : <EyeOff className="w-4 h-4 text-gray-400" />}
+                        {colVis[key] ? <Eye className="w-4 h-4 text-blue-500" /> : <EyeOff className="w-4 h-4 text-gray-400" />}
                       </div>
                     );
                   })}
@@ -967,7 +967,7 @@ const ClosingRanks2025Page: React.FC<ClosingRanks2025PageProps> = ({ onBack }) =
                   const is2025 = key.startsWith("CR 2025");
                   return (
                     <th key={key} className={`px-2 py-2 text-center text-xs font-semibold uppercase whitespace-nowrap ${
-                      is2023 ? "text-orange-700" : is2024 ? "text-blue-700" : is2025 ? "text-emerald-700" : "text-gray-700"
+                      is2023 ? "text-orange-700" : is2024 ? "text-blue-700" : is2025 ? "text-blue-700" : "text-gray-700"
                     }`}>{label}</th>
                   );
                 })}
@@ -988,13 +988,13 @@ const ClosingRanks2025Page: React.FC<ClosingRanks2025PageProps> = ({ onBack }) =
                     item.Category === "OBC" ? "bg-yellow-100 text-yellow-800" :
                     item.Category === "SC"  ? "bg-red-100 text-red-800" :
                     item.Category === "ST"  ? "bg-blue-100 text-blue-800" :
-                    item.Category === "EWS" ? "bg-green-100 text-green-800" :
+                    item.Category === "EWS" ? "bg-blue-100 text-blue-800" :
                     "bg-purple-100 text-purple-800"
                   }`}>{item.Category}</span></td>}
                   {colVis.State        && <td className="px-2 py-2 text-center text-xs text-gray-700 whitespace-nowrap">{item.State}</td>}
                   {colVis.Institute    && <td className="px-2 py-2 text-left text-xs text-purple-600 hover:text-purple-800 cursor-pointer font-medium min-w-[180px]">{item.Institute}</td>}
                   {colVis.Course       && <td className="px-2 py-2 text-left text-xs text-gray-700 whitespace-nowrap">{item.Course}</td>}
-                  {colVis.Fee          && <td className="px-2 py-2 text-center text-xs font-bold text-green-700 whitespace-nowrap">{fmt(item.Fee)}</td>}
+                  {colVis.Fee          && <td className="px-2 py-2 text-center text-xs font-bold text-blue-700 whitespace-nowrap">{fmt(item.Fee)}</td>}
                   {colVis.Stipend_Year_1 && <td className="px-2 py-2 text-center text-xs text-gray-700 whitespace-nowrap">{fmt(item.Stipend_Year_1)}</td>}
                   {colVis.Bond_Years   && <td className="px-2 py-2 text-center text-xs text-gray-700">{item.Bond_Years > 0 ? `${item.Bond_Years} yr` : "—"}</td>}
                   {colVis.Bond_Penalty && <td className="px-2 py-2 text-center text-xs text-gray-700 whitespace-nowrap">{fmt(item.Bond_Penalty)}</td>}

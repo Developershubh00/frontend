@@ -37,7 +37,7 @@ const StateTabs: React.FC<StateTabsProps> = ({ activeTab, onTabChange }) => {
       label: "Andhra Pradesh - PG Medical",
       shortLabel: "Andhra Pradesh - PG",
       icon: "👨‍⚕️",
-      color: "from-green-500 to-teal-600",
+      color: "from-blue-500 to-teal-600",
       category: "state-pg"
     },
     {
@@ -61,7 +61,7 @@ const StateTabs: React.FC<StateTabsProps> = ({ activeTab, onTabChange }) => {
       label: "Tamil Nadu - PG Medical",
       shortLabel: "Tamil Nadu - PG",
       icon: "👨‍⚕️",
-      color: "from-emerald-500 to-green-600",
+      color: "from-blue-500 to-blue-600",
       category: "state-pg"
     },
     {
@@ -101,7 +101,7 @@ const StateTabs: React.FC<StateTabsProps> = ({ activeTab, onTabChange }) => {
       label: "Punjab - PG Medical",
       shortLabel: "Punjab - PG",
       icon: "👨‍⚕️",
-      color: "from-lime-500 to-green-600",
+      color: "from-lime-500 to-blue-600",
       category: "state-pg"
     },
     {
@@ -157,7 +157,7 @@ const StateTabs: React.FC<StateTabsProps> = ({ activeTab, onTabChange }) => {
       label: "Assam - PG Medical",
       shortLabel: "Assam - PG",
       icon: "👨‍⚕️",
-      color: "from-emerald-500 to-teal-600",
+      color: "from-blue-500 to-teal-600",
       category: "state-pg"
     },
     {
@@ -165,7 +165,7 @@ const StateTabs: React.FC<StateTabsProps> = ({ activeTab, onTabChange }) => {
       label: "Jharkhand - PG Medical",
       shortLabel: "Jharkhand - PG",
       icon: "👨‍⚕️",
-      color: "from-green-500 to-emerald-600",
+      color: "from-blue-500 to-blue-600",
       category: "state-pg"
     },
     {
@@ -173,7 +173,7 @@ const StateTabs: React.FC<StateTabsProps> = ({ activeTab, onTabChange }) => {
       label: "Chhattisgarh - PG Medical",
       shortLabel: "CG - PG",
       icon: "👨‍⚕️",
-      color: "from-lime-500 to-green-600",
+      color: "from-lime-500 to-blue-600",
       category: "state-pg"
     },
     {
@@ -237,7 +237,7 @@ const StateTabs: React.FC<StateTabsProps> = ({ activeTab, onTabChange }) => {
       label: "Tripura - PG Medical",
       shortLabel: "Tripura - PG",
       icon: "👨‍⚕️",
-      color: "from-emerald-500 to-green-600",
+      color: "from-blue-500 to-blue-600",
       category: "state-pg"
     },
     {
@@ -345,7 +345,7 @@ const StateTabs: React.FC<StateTabsProps> = ({ activeTab, onTabChange }) => {
       label: "DNB PDCET - PG Medical",
       shortLabel: "DNB PDCET - PG",
       icon: "📗",
-      color: "from-emerald-500 to-green-600",
+      color: "from-blue-500 to-blue-600",
       category: "special"
     },
     {

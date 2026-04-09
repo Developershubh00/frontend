@@ -161,12 +161,12 @@ const ResetPasswordPage: React.FC = () => {
   // Success UI
   if (success) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-green-50 via-emerald-50 to-teal-50 flex items-center justify-center p-4">
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-blue-50 to-teal-50 flex items-center justify-center p-4">
         <div className="max-w-md w-full">
           <div className="bg-white/90 backdrop-blur-xl rounded-3xl shadow-2xl p-8 border border-white/30">
             <div className="text-center">
-              <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                <CheckCircle className="w-10 h-10 text-green-500" />
+              <div className="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                <CheckCircle className="w-10 h-10 text-blue-500" />
               </div>
               <h1 className="text-2xl font-bold text-slate-800 mb-3">
                 Password Reset Successfully!

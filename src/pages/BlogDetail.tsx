@@ -285,13 +285,13 @@
 //         const boxColors = {
 //           warning: 'bg-yellow-50 border-yellow-400 text-yellow-800',
 //           info: 'bg-blue-50 border-blue-400 text-blue-800',
-//           success: 'bg-green-50 border-green-400 text-green-800',
+//           success: 'bg-blue-50 border-blue-400 text-blue-800',
 //           error: 'bg-red-50 border-red-400 text-red-800'
 //         };
 //         const iconColors = {
 //           warning: 'text-yellow-400',
 //           info: 'text-blue-400',
-//           success: 'text-green-400',
+//           success: 'text-blue-400',
 //           error: 'text-red-400'
 //         };
         
@@ -307,7 +307,7 @@
 
 //       case 'cards': {
 //         const cardColors = {
-//           green: { bg: 'bg-green-50', border: 'border-green-200', title: 'text-green-800', text: 'text-green-700' },
+//           blue: { bg: 'bg-blue-50', border: 'border-blue-200', title: 'text-blue-800', text: 'text-blue-700' },
 //           blue: { bg: 'bg-blue-50', border: 'border-blue-200', title: 'text-blue-800', text: 'text-blue-700' },
 //           red: { bg: 'bg-red-50', border: 'border-red-200', title: 'text-red-800', text: 'text-red-700' },
 //           purple: { bg: 'bg-purple-50', border: 'border-purple-200', title: 'text-purple-800', text: 'text-purple-700' }
@@ -998,13 +998,13 @@
 //         const boxColors = {
 //           warning: 'bg-yellow-50 border-yellow-400 text-yellow-800',
 //           info: 'bg-blue-50 border-blue-400 text-blue-800',
-//           success: 'bg-green-50 border-green-400 text-green-800',
+//           success: 'bg-blue-50 border-blue-400 text-blue-800',
 //           error: 'bg-red-50 border-red-400 text-red-800'
 //         };
 //         const iconColors = {
 //           warning: 'text-yellow-400',
 //           info: 'text-blue-400',
-//           success: 'text-green-400',
+//           success: 'text-blue-400',
 //           error: 'text-red-400'
 //         };
         
@@ -1020,7 +1020,7 @@
 
 //       case 'cards': {
 //         const cardColors = {
-//           green: { bg: 'bg-green-50', border: 'border-green-200', title: 'text-green-800', text: 'text-green-700' },
+//           blue: { bg: 'bg-blue-50', border: 'border-blue-200', title: 'text-blue-800', text: 'text-blue-700' },
 //           blue: { bg: 'bg-blue-50', border: 'border-blue-200', title: 'text-blue-800', text: 'text-blue-700' },
 //           red: { bg: 'bg-red-50', border: 'border-red-200', title: 'text-red-800', text: 'text-red-700' },
 //           purple: { bg: 'bg-purple-50', border: 'border-purple-200', title: 'text-purple-800', text: 'text-purple-700' }
@@ -1828,13 +1828,13 @@ const readTime = post?.read_time || 5;
         const boxColors = {
           warning: 'bg-yellow-50 border-yellow-400 text-yellow-800',
           info: 'bg-blue-50 border-blue-400 text-blue-800',
-          success: 'bg-green-50 border-green-400 text-green-800',
+          success: 'bg-blue-50 border-blue-400 text-blue-800',
           error: 'bg-red-50 border-red-400 text-red-800'
         };
         const iconColors = {
           warning: 'text-yellow-400',
           info: 'text-blue-400',
-          success: 'text-green-400',
+          success: 'text-blue-400',
           error: 'text-red-400'
         };
         
@@ -1852,10 +1852,10 @@ const readTime = post?.read_time || 5;
 
       case 'cards': {
         const cardColors = {
-          green: { bg: 'bg-green-50', border: 'border-green-200', title: 'text-green-800', text: 'text-green-700' },
-          blue: { bg: 'bg-blue-50', border: 'border-blue-200', title: 'text-blue-800', text: 'text-blue-700' },
-          red: { bg: 'bg-red-50', border: 'border-red-200', title: 'text-red-800', text: 'text-red-700' },
-          purple: { bg: 'bg-purple-50', border: 'border-purple-200', title: 'text-purple-800', text: 'text-purple-700' }
+          
+           blue: { bg: 'bg-blue-50', border: 'border-blue-200', title: 'text-blue-800', text: 'text-blue-700' },
+  red: { bg: 'bg-red-50', border: 'border-red-200', title: 'text-red-800', text: 'text-red-700' },
+  purple: { bg: 'bg-purple-50', border: 'border-purple-200', title: 'text-purple-800', text: 'text-purple-700' }
         };
 
         return (

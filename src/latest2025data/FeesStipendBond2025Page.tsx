@@ -267,7 +267,7 @@ export default FeesStipendBond2025Page;
 //             </div>
 //             <div className="p-4">
 //               <div className="flex gap-2 mb-4">
-//                 <button onClick={showAll} className="px-3 py-1.5 text-sm bg-green-100 text-green-700 rounded-lg">Show All</button>
+//                 <button onClick={showAll} className="px-3 py-1.5 text-sm bg-blue-100 text-blue-700 rounded-lg">Show All</button>
 //                 <button onClick={hideAll} className="px-3 py-1.5 text-sm bg-red-100 text-red-700 rounded-lg">Hide All</button>
 //               </div>
 //               <div className="space-y-2 max-h-64 overflow-y-auto">
@@ -277,7 +277,7 @@ export default FeesStipendBond2025Page;
 //                       <input type="checkbox" checked={colVis[key]} onChange={() => toggleCol(key)} className="w-4 h-4 text-purple-600 border-gray-300 rounded"/>
 //                       <span className="ml-3 text-sm text-gray-700">{label}</span>
 //                     </label>
-//                     {colVis[key]?<Eye className="w-4 h-4 text-green-500"/>:<EyeOff className="w-4 h-4 text-gray-400"/>}
+//                     {colVis[key]?<Eye className="w-4 h-4 text-blue-500"/>:<EyeOff className="w-4 h-4 text-gray-400"/>}
 //                   </div>
 //                 ))}
 //               </div>
@@ -393,15 +393,15 @@ export default FeesStipendBond2025Page;
 //                 <tr key={i} className="hover:bg-purple-50 transition-colors">
 //                   {colVis.State && <td className="px-2 py-2 text-center text-xs text-gray-700">{item.State}</td>}
 //                   {colVis.Institute && <td className="px-2 py-2 text-left text-xs text-purple-600 hover:text-purple-800 cursor-pointer font-medium">{item.Institute}</td>}
-//                   {colVis["Institute Type"] && <td className="px-2 py-2 text-center text-xs"><span className={`px-2 py-1 rounded-full text-xs font-medium ${item["Institute Type"]==="Govt"?"bg-blue-100 text-blue-800":item["Institute Type"]==="Private"?"bg-green-100 text-green-800":"bg-purple-100 text-purple-800"}`}>{item["Institute Type"]}</span></td>}
+//                   {colVis["Institute Type"] && <td className="px-2 py-2 text-center text-xs"><span className={`px-2 py-1 rounded-full text-xs font-medium ${item["Institute Type"]==="Govt"?"bg-blue-100 text-blue-800":item["Institute Type"]==="Private"?"bg-blue-100 text-blue-800":"bg-purple-100 text-purple-800"}`}>{item["Institute Type"]}</span></td>}
 //                   {colVis.Course && <td className="px-2 py-2 text-center text-xs text-gray-700">{item.Course}</td>}
 //                   {colVis.Quota && <td className="px-2 py-2 text-center text-xs"><span className="px-2 py-1 bg-indigo-100 text-indigo-700 rounded-full text-xs font-medium">{item.Quota}</span></td>}
 //                   {colVis["Hosp Beds"] && <td className="px-2 py-2 text-center text-xs font-medium text-gray-900">{item["Hosp Beds"].toLocaleString()}</td>}
-//                   {colVis["Course Fee"] && <td className="px-2 py-2 text-center text-xs font-bold text-green-700">{fmt(item["Course Fee"])}</td>}
+//                   {colVis["Course Fee"] && <td className="px-2 py-2 text-center text-xs font-bold text-blue-700">{fmt(item["Course Fee"])}</td>}
 //                   {colVis["Stipend Year 1"] && <td className="px-2 py-2 text-center text-xs font-medium text-blue-600">{fmt(item["Stipend Year 1"])}</td>}
 //                   {colVis["Stipend Year 2"] && <td className="px-2 py-2 text-center text-xs font-medium text-blue-600">{fmt(item["Stipend Year 2"])}</td>}
 //                   {colVis["Stipend Year 3"] && <td className="px-2 py-2 text-center text-xs font-medium text-blue-600">{fmt(item["Stipend Year 3"])}</td>}
-//                   {colVis.Bond && <td className="px-2 py-2 text-center text-xs"><span className={`px-2 py-1 rounded-full text-xs font-medium ${item.Bond.toLowerCase().includes("no")||item.Bond.toLowerCase()==="n/a"?"bg-green-100 text-green-700":"bg-red-100 text-red-700"}`}>{item.Bond}</span></td>}
+//                   {colVis.Bond && <td className="px-2 py-2 text-center text-xs"><span className={`px-2 py-1 rounded-full text-xs font-medium ${item.Bond.toLowerCase().includes("no")||item.Bond.toLowerCase()==="n/a"?"bg-blue-100 text-blue-700":"bg-red-100 text-red-700"}`}>{item.Bond}</span></td>}
 //                   {colVis["Bond Penalty"] && <td className="px-2 py-2 text-center text-xs font-medium text-red-600">{item["Bond Penalty"]}</td>}
 //                 </tr>
 //               ))}

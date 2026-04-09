@@ -24,7 +24,7 @@ const NeetPGPage: React.FC = () => {
       title: "NEET PG Results 2025",
       subtitle: "Check your scorecard",
       icon: Target,
-      bgGradient: "from-green-400 to-emerald-600",
+      bgGradient: "from-blue-400 to-blue-600",
       action: "Get Result Now",
       onClick: () => {
         window.open("https://nbe.edu.in/", "_blank");
@@ -93,7 +93,7 @@ const NeetPGPage: React.FC = () => {
   return (
     <div className="flex-1 bg-gradient-to-br from-rose-50 via-blue-50 to-indigo-50 min-h-screen overflow-y-auto">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-green-500 via-emerald-500 to-teal-600 px-4 lg:px-6 py-6 lg:py-12 relative overflow-hidden">
+      <div className="bg-gradient-to-r from-blue-500 via-blue-500 to-teal-600 px-4 lg:px-6 py-6 lg:py-12 relative overflow-hidden">
         <div className="absolute inset-0 bg-black/5"></div>
         <div className="relative max-w-7xl mx-auto text-center">
           <div className="inline-flex items-center justify-center w-16 h-16 bg-white/20 rounded-2xl mb-6 backdrop-blur-sm">
@@ -102,7 +102,7 @@ const NeetPGPage: React.FC = () => {
           <h1 className="text-3xl lg:text-4xl font-bold text-white mb-4">
             NEET PG 2025 - Postgraduate Medical Entrance
           </h1>
-          <p className="text-green-100 mb-8 text-lg">
+          <p className="text-blue-100 mb-8 text-lg">
             National Eligibility cum Entrance Test for MD/MS/Diploma Admissions
           </p>
         </div>
@@ -153,7 +153,7 @@ const NeetPGPage: React.FC = () => {
             {neetPGStats.map((stat, index) => (
               <div
                 key={index}
-                className="bg-gradient-to-br from-slate-50 to-green-50 rounded-xl lg:rounded-2xl p-3 lg:p-6 border border-slate-200/50 hover:shadow-lg transition-all duration-300"
+                className="bg-gradient-to-br from-slate-50 to-blue-50 rounded-xl lg:rounded-2xl p-3 lg:p-6 border border-slate-200/50 hover:shadow-lg transition-all duration-300"
               >
                 <div className="text-center">
                   <div className="text-lg lg:text-3xl font-bold text-slate-800 mb-1 lg:mb-2">
@@ -162,7 +162,7 @@ const NeetPGPage: React.FC = () => {
                   <div className="text-slate-600 font-medium mb-1 text-xs lg:text-sm">
                     {stat.label}
                   </div>
-                  <div className="text-xs lg:text-sm text-green-600 font-medium">
+                  <div className="text-xs lg:text-sm text-blue-600 font-medium">
                     {stat.year || stat.type}
                   </div>
                 </div>
@@ -180,9 +180,9 @@ const NeetPGPage: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {timelineSteps.map((step, index) => (
               <div key={index} className="text-center">
-                <div className="w-6 h-6 bg-green-500 rounded-full mx-auto mb-4"></div>
+                <div className="w-6 h-6 bg-blue-500 rounded-full mx-auto mb-4"></div>
                 <div className="bg-slate-50 rounded-xl p-4">
-                  <div className="text-sm text-green-600 font-medium mb-1">
+                  <div className="text-sm text-blue-600 font-medium mb-1">
                     {step.date}
                   </div>
                   <div className="text-lg font-bold text-slate-800 mb-1">
@@ -198,8 +198,8 @@ const NeetPGPage: React.FC = () => {
         {/* Eligibility Section */}
         <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
           <div className="flex items-start space-x-3 lg:space-x-4 mb-4 lg:mb-6">
-            <div className="w-10 h-10 lg:w-12 lg:h-12 bg-green-100 rounded-xl flex items-center justify-center flex-shrink-0">
-              <FileText className="w-5 h-5 lg:w-6 lg:h-6 text-green-600" />
+            <div className="w-10 h-10 lg:w-12 lg:h-12 bg-blue-100 rounded-xl flex items-center justify-center flex-shrink-0">
+              <FileText className="w-5 h-5 lg:w-6 lg:h-6 text-blue-600" />
             </div>
             <div>
               <h3 className="text-lg lg:text-2xl font-bold text-slate-800 mb-2">
@@ -220,7 +220,7 @@ const NeetPGPage: React.FC = () => {
               "Foreign medical graduates must have cleared FMGE/NExT",
             ].map((criteria, index) => (
               <div key={index} className="flex items-start space-x-3">
-                <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center text-white text-sm font-bold mt-0.5 flex-shrink-0">
+                <div className="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center text-white text-sm font-bold mt-0.5 flex-shrink-0">
                   ✓
                 </div>
                 <div>
@@ -234,11 +234,11 @@ const NeetPGPage: React.FC = () => {
         </div>
 
         {/* CTA Section */}
-        <div className="bg-gradient-to-r from-green-600 to-emerald-600 rounded-2xl lg:rounded-3xl p-6 lg:p-8 text-center text-white shadow-2xl">
+        <div className="bg-gradient-to-r from-blue-600 to-blue-600 rounded-2xl lg:rounded-3xl p-6 lg:p-8 text-center text-white shadow-2xl">
           <h3 className="text-xl lg:text-3xl font-bold mb-3 lg:mb-4">
-            Advance Your <span className="text-green-300">Medical Career</span>
+            Advance Your <span className="text-blue-300">Medical Career</span>
           </h3>
-          <p className="text-green-100 mb-4 lg:mb-6 text-sm lg:text-lg">
+          <p className="text-blue-100 mb-4 lg:mb-6 text-sm lg:text-lg">
             Get expert guidance for NEET PG preparation and specialty selection
           </p>
           <a

@@ -70,7 +70,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "NEET PG Counselling",
@@ -774,7 +774,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "NEET PG 2025",
@@ -1279,7 +1279,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "NEET PG Counselling",
@@ -1843,7 +1843,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "NEET PG 2025",
@@ -2274,7 +2274,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "NEET PG 2025",
@@ -3014,7 +3014,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "NEET PG 2025",
@@ -4068,7 +4068,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "NEET PG Counselling",
@@ -4535,7 +4535,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "Kerala NEET PG",
@@ -4842,7 +4842,7 @@ export const blogPosts: BlogPost[] = [
         id: "section-8-documents-list",
         type: "list",
         items: [
-          "Passport, visa, green card, or OCI/PIO card of the sponsor",
+          "Passport, visa, blue card, or OCI/PIO card of the sponsor",
           "Employment certificate attested by the embassy/consulate",
           "Relationship certificate issued by the revenue authorities",
           "Affidavit on ₹200 stamp paper for sponsorship",
@@ -6340,7 +6340,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "NEET PG 2025",
@@ -7381,7 +7381,7 @@ export const blogPosts: BlogPost[] = [
         type: "list",
         items: [
           "SC/ST: As per Odisha government norms",
-          "Green Card Holders: 5% reservation",
+          "blue Card Holders: 5% reservation",
           "Ex-Servicemen: 3% reservation",
           "PwD Candidates: Reserved seats, not horizontally across all categories",
           "Management quota seats in private medical colleges are open only to UR candidates.",
@@ -9552,7 +9552,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET Counselling",
       slug: "counselling",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "JKBOPEE",
@@ -9913,7 +9913,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "Counselling",
       slug: "counselling",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "CEE Kerala",
@@ -16417,7 +16417,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "INI-CET Counselling",
@@ -17695,7 +17695,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "Chhattisgarh NEET PG",
@@ -18041,7 +18041,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "West Bengal NEET PG",
@@ -18438,7 +18438,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "Uttar Pradesh NEET PG",
@@ -18861,7 +18861,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "West Bengal NEET PG",
@@ -19417,7 +19417,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "Uttar Pradesh NEET PG",
@@ -19939,7 +19939,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "NEET PG Ranks",
@@ -20360,7 +20360,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "Assam NEET PG Counselling",
@@ -20855,7 +20855,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "Chandigarh NEET PG Counselling",
@@ -21512,7 +21512,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "NEET PG 2025",
@@ -22075,7 +22075,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "Haryana NEET PG Counselling",
@@ -22709,7 +22709,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "Haryana NEET PG Counselling",
@@ -23339,7 +23339,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "NEET PG Counselling",
@@ -24002,7 +24002,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "MCC Seat Matrix",
@@ -24539,7 +24539,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "MCC Seat Matrix",
@@ -25016,7 +25016,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "Puducherry NEET PG Counselling",
@@ -25620,7 +25620,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "Andhra Pradesh NEET PG",
@@ -26207,7 +26207,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "AP NEET PG",
@@ -26483,7 +26483,7 @@ export const blogPosts: BlogPost[] = [
         type: "list",
         items: [
           "Annexure-II signed by the candidate & NRI sponsor",
-          "One of the following:\n- Passport / Citizenship card / Green card\n- Bank statement (6 months)\n- Utility bills (electricity/gas/water)",
+          "One of the following:\n- Passport / Citizenship card / blue card\n- Bank statement (6 months)\n- Utility bills (electricity/gas/water)",
         ],
       },
       {
@@ -26687,7 +26687,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "Internal Medicine",
@@ -27073,7 +27073,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "DNB Joining",
@@ -27576,7 +27576,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "MCC NEET PG",
@@ -28130,7 +28130,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "Medical Residency",
@@ -28536,7 +28536,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "Medical Residency",
@@ -29058,7 +29058,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "OB-GYN Residency",
@@ -29434,7 +29434,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "General Surgery",
@@ -29830,7 +29830,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "Nuclear Medicine",
@@ -30324,7 +30324,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "NEET PG Counselling",
@@ -30608,7 +30608,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "Radiology Residency",
@@ -31211,7 +31211,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "Residency Programs",
@@ -31622,7 +31622,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "Anesthesia Residency",
@@ -32177,7 +32177,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "NEET PG 2025",
@@ -32714,7 +32714,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "Pediatrics Residency",
@@ -33270,7 +33270,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "NEET PG Counselling",
@@ -33801,7 +33801,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "NBEMS Diploma",
@@ -34218,7 +34218,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "NEET PG Counselling",
@@ -34670,7 +34670,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "NEET PG Counselling",
@@ -35077,7 +35077,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "MD Pharmacology",
@@ -35597,7 +35597,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "MD Forensic Medicine",
@@ -36076,7 +36076,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "MD PSM",
@@ -36654,7 +36654,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "MD Microbiology",
@@ -37097,7 +37097,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "MD Pathology",
@@ -37553,7 +37553,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "Medical Residency",
@@ -37837,7 +37837,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "MD Family Medicine",
@@ -38423,7 +38423,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "NEET PG Round 3",
@@ -38825,7 +38825,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "MD Dermatology",
@@ -39383,7 +39383,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "MD Biochemistry",
@@ -39869,7 +39869,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "Pediatrics",
@@ -40449,7 +40449,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "Medical Internship",
@@ -40778,7 +40778,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "Medical Residency",
@@ -41157,7 +41157,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "Radiation Oncology",
@@ -41587,7 +41587,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "ENT Residency",
@@ -42452,7 +42452,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "PG Branch Selection",
@@ -42763,7 +42763,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "Transfusion Medicine",
@@ -43467,7 +43467,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "FMGE",
@@ -43878,7 +43878,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "FMGE",
@@ -44147,7 +44147,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "Ophthalmology Residency",
@@ -44589,7 +44589,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "FMGE",
@@ -44958,7 +44958,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "NEET PG Counselling",
@@ -45544,7 +45544,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "Orthopedics Residency",
@@ -45900,7 +45900,7 @@ export const blogPosts: BlogPost[] = [
     category: {
       name: "NEET PG",
       slug: "neet-pg",
-      color: "bg-green-100 text-green-800",
+      color: "bg-blue-100 text-blue-800",
     },
     tags: [
       "FMGE",
@@ -46284,7 +46284,7 @@ export const blogPosts: BlogPost[] = [
   category: {
     name: "NEET PG",
     slug: "neet-pg",
-    color: "bg-green-100 text-green-800",
+    color: "bg-blue-100 text-blue-800",
   },
   tags: [
     "FMGE Exam",
@@ -46663,7 +46663,7 @@ export const blogPosts: BlogPost[] = [
   category: {
     name: "NEET PG",
     slug: "neet-pg",
-    color: "bg-green-100 text-green-800",
+    color: "bg-blue-100 text-blue-800",
   },
   tags: [
     "FMGE Exam",
@@ -47042,7 +47042,7 @@ export const blogPosts: BlogPost[] = [
   category: {
     name: "NEET PG",
     slug: "neet-pg",
-    color: "bg-green-100 text-green-800",
+    color: "bg-blue-100 text-blue-800",
   },
   tags: [
     "FMGE",
@@ -47378,7 +47378,7 @@ export const blogPosts: BlogPost[] = [
   category: {
     name: "NEET PG",
     slug: "neet-pg",
-    color: "bg-green-100 text-green-800",
+    color: "bg-blue-100 text-blue-800",
   },
   tags: [
     "Geriatric Medicine",
@@ -47738,7 +47738,7 @@ export const blogPosts: BlogPost[] = [
   category: {
     name: "NEET PG",
     slug: "neet-pg",
-    color: "bg-green-100 text-green-800",
+    color: "bg-blue-100 text-blue-800",
   },
   tags: [
     "Psychiatry Residency",
@@ -48069,7 +48069,7 @@ export const blogPosts: BlogPost[] = [
   category: {
     name: "NEET PG",
     slug: "neet-pg",
-    color: "bg-green-100 text-green-800",
+    color: "bg-blue-100 text-blue-800",
   },
   tags: [
     "Respiratory Medicine",
@@ -48372,7 +48372,7 @@ export const blogPosts: BlogPost[] = [
   category: {
     name: "NEET PG",
     slug: "neet-pg",
-    color: "bg-green-100 text-green-800",
+    color: "bg-blue-100 text-blue-800",
   },
   tags: [
     "Para-Clinical Branches",
@@ -48710,7 +48710,7 @@ export const blogPosts: BlogPost[] = [
   category: {
     name: "NEET PG",
     slug: "neet-pg",
-    color: "bg-green-100 text-green-800",
+    color: "bg-blue-100 text-blue-800",
   },
   tags: [
     "NEET PG",
@@ -49033,7 +49033,7 @@ export const blogPosts: BlogPost[] = [
   category: {
     name: "NEET PG",
     slug: "neet-pg",
-    color: "bg-green-100 text-green-800",
+    color: "bg-blue-100 text-blue-800",
   },
   tags: [
     "Career Counselling",
@@ -49324,7 +49324,7 @@ export const blogPosts: BlogPost[] = [
   category: {
     name: "NEET PG",
     slug: "neet-pg",
-    color: "bg-green-100 text-green-800",
+    color: "bg-blue-100 text-blue-800",
   },
   tags: [
     "Medical Career",
@@ -49598,7 +49598,7 @@ export const blogPosts: BlogPost[] = [
   "category": {
     "name": "NEET PG",
     "slug": "neet-pg",
-    "color": "bg-green-100 text-green-800"
+    "color": "bg-blue-100 text-blue-800"
   },
   "tags": [
     "Career Counselling",
@@ -49913,7 +49913,7 @@ export const blogPosts: BlogPost[] = [
   category: {
     name: "NEET PG",
     slug: "neet-pg",
-    color: "bg-green-100 text-green-800",
+    color: "bg-blue-100 text-blue-800",
   },
   tags: [
     "Career Psychology",
@@ -50295,7 +50295,7 @@ export const blogPosts: BlogPost[] = [
   category: {
     name: "NEET PG",
     slug: "neet-pg",
-    color: "bg-green-100 text-green-800",
+    color: "bg-blue-100 text-blue-800",
   },
   tags: [
     "Career Guidance",
@@ -50652,7 +50652,7 @@ export const blogPosts: BlogPost[] = [
   category: {
     name: "NEET PG",
     slug: "neet-pg",
-    color: "bg-green-100 text-green-800",
+    color: "bg-blue-100 text-blue-800",
   },
   tags: [
     "Career Guidance",
@@ -50972,7 +50972,7 @@ export const blogPosts: BlogPost[] = [
   category: {
     name: "NEET PG",
     slug: "neet-pg",
-    color: "bg-green-100 text-green-800",
+    color: "bg-blue-100 text-blue-800",
   },
   tags: [
     "Career Decision",
@@ -51350,7 +51350,7 @@ export const blogPosts: BlogPost[] = [
   category: {
     name: "NEET PG",
     slug: "neet-pg",
-    color: "bg-green-100 text-green-800",
+    color: "bg-blue-100 text-blue-800",
   },
   tags: [
     "Career Counselling",
@@ -51671,7 +51671,7 @@ export const blogPosts: BlogPost[] = [
   category: {
     name: "NEET PG",
     slug: "neet-pg",
-    color: "bg-green-100 text-green-800",
+    color: "bg-blue-100 text-blue-800",
   },
   tags: [
     "Counselling",
@@ -52038,7 +52038,7 @@ export const blogPosts: BlogPost[] = [
   category: {
     name: "NEET PG",
     slug: "neet-pg",
-    color: "bg-green-100 text-green-800",
+    color: "bg-blue-100 text-blue-800",
   },
   tags: [
     "Medical Student Guidance",
@@ -52418,7 +52418,7 @@ export const blogPosts: BlogPost[] = [
   "category": {
     "name": "NEET PG",
     "slug": "neet-pg",
-    "color": "bg-green-100 text-green-800"
+    "color": "bg-blue-100 text-blue-800"
   },
   "tags": [
     "INICET",
@@ -52607,7 +52607,7 @@ export const blogPosts: BlogPost[] = [
   category: {
     name: "NEET PG",
     slug: "neet-pg",
-    color: "bg-green-100 text-green-800",
+    color: "bg-blue-100 text-blue-800",
   },
   tags: [
     "INI-CET",
@@ -53020,7 +53020,7 @@ export const blogPosts: BlogPost[] = [
   category: {
     name: "NEET PG",
     slug: "neet-pg",
-    color: "bg-green-100 text-green-800",
+    color: "bg-blue-100 text-blue-800",
   },
   tags: [
     "INICET Counseling",
@@ -53577,7 +53577,7 @@ export const blogPosts: BlogPost[] = [
   category: {
     name: "NEET PG",
     slug: "neet-pg",
-    color: "bg-green-100 text-green-800",
+    color: "bg-blue-100 text-blue-800",
   },
   tags: [
     "Career Counselling",
@@ -53878,7 +53878,7 @@ export const blogPosts: BlogPost[] = [
   category: {
     name: "NEET PG",
     slug: "neet-pg",
-    color: "bg-green-100 text-green-800",
+    color: "bg-blue-100 text-blue-800",
   },
   tags: [
     "Career Mistakes",
@@ -54199,7 +54199,7 @@ export const blogPosts: BlogPost[] = [
   category: {
     name: "NEET PG",
     slug: "neet-pg",
-    color: "bg-green-100 text-green-800",
+    color: "bg-blue-100 text-blue-800",
   },
   tags: [
     "Career Counselling",
@@ -54618,7 +54618,7 @@ export const blogPosts: BlogPost[] = [
   category: {
     name: "NEET PG",
     slug: "neet-pg",
-    color: "bg-green-100 text-green-800",
+    color: "bg-blue-100 text-blue-800",
   },
   tags: [
     "NEET PG",
@@ -55023,7 +55023,7 @@ export const blogPosts: BlogPost[] = [
   category: {
     name: "NEET PG",
     slug: "neet-pg",
-    color: "bg-green-100 text-green-800",
+    color: "bg-blue-100 text-blue-800",
   },
   tags: [
     "NEET PG Counselling",
@@ -55359,7 +55359,7 @@ export const blogPosts: BlogPost[] = [
   category: {
     name: "NEET PG",
     slug: "neet-pg",
-    color: "bg-green-100 text-green-800",
+    color: "bg-blue-100 text-blue-800",
   },
   tags: [
     "NEET PG Preparation",
@@ -55672,7 +55672,7 @@ export const blogPosts: BlogPost[] = [
   "category": {
     "name": "NEET PG",
     "slug": "neet-pg",
-    "color": "bg-green-100 text-green-800"
+    "color": "bg-blue-100 text-blue-800"
   },
   "tags": [
     "NEET PG",

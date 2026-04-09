@@ -550,6 +550,13 @@ function App() {
             <Route path="/Admitted_Students" element={<ProtectedRoute><AdmittedStudentsPage onBack={() => window.history.back()} /></ProtectedRoute>} />
             <Route path="/Feesstipendbond" element={<ProtectedRoute><FeesStipendBondPage onBack={() => window.history.back()} /></ProtectedRoute>} />
             <Route path="/Closingranks" element={<ProtectedRoute><ClossingRanksPage onBack={() => window.history.back()} /></ProtectedRoute>} />
+            // <Route
+  path="/Feesstipendbonds"
+  element={
+    <ProtectedRoute>
+      <FeesStipendBondPage onBack={() => window.history.back()} />
+    </ProtectedRoute>
+  } />
 
             {/* INICET Internal Pages */}
             <Route path="/InicetMainContent" element={<ProtectedRoute><InicetMainContent onBack={() => window.history.back()} /></ProtectedRoute>} />

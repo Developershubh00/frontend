@@ -114,7 +114,7 @@ const ProfilePage: React.FC<ProfilePageProps> = ({ onBack, onLogout }) => {
                   <div className="flex space-x-2">
                     <button
                       onClick={handleSave}
-                      className="flex items-center space-x-2 px-4 py-2 bg-green-500 text-white rounded-xl hover:bg-green-600 transition-colors"
+                      className="flex items-center space-x-2 px-4 py-2 bg-blue-500 text-white rounded-xl hover:bg-blue-600 transition-colors"
                     >
                       <Save className="w-4 h-4" />
                       <span>Save</span>
@@ -202,7 +202,7 @@ const ProfilePage: React.FC<ProfilePageProps> = ({ onBack, onLogout }) => {
         {/* Stats Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <StatCard icon={<Award className="w-8 h-8 text-white" />} color="from-blue-400 to-purple-500" value="12,345" label="NEET Rank" />
-          <StatCard icon={<User className="w-8 h-8 text-white" />} color="from-green-400 to-emerald-500" value="28" label="Choice Lists" />
+          <StatCard icon={<User className="w-8 h-8 text-white" />} color="from-blue-400 to-blue-500" value="28" label="Choice Lists" />
           <StatCard icon={<MapPin className="w-8 h-8 text-white" />} color="from-blue-400 to-red-500" value="5" label="States Applied" />
         </div>
       </div>

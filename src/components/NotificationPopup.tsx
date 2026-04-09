@@ -35,7 +35,7 @@
 //   const getNotificationIcon = (type: string) => {
 //     switch (type) {
 //       case 'success':
-//         return <CheckCircle className="w-5 h-5 text-green-500" />;
+//         return <CheckCircle className="w-5 h-5 text-blue-500" />;
 //       case 'warning':
 //         return <AlertTriangle className="w-5 h-5 text-yellow-500" />;
 //       case 'urgent':
@@ -48,7 +48,7 @@
 //   const getNotificationBgColor = (type: string) => {
 //     switch (type) {
 //       case 'success':
-//         return 'bg-green-50 border-green-200';
+//         return 'bg-blue-50 border-blue-200';
 //       case 'warning':
 //         return 'bg-yellow-50 border-yellow-200';
 //       case 'urgent':
@@ -72,7 +72,7 @@
 //       {/* Popup - Mobile Optimized */}
 //       <div className="fixed top-16 left-2 right-2 sm:top-20 sm:left-auto sm:right-4 lg:right-6 z-50 w-auto sm:w-[95vw] sm:max-w-md bg-white/95 backdrop-blur-xl rounded-2xl shadow-2xl border border-slate-200/50 overflow-hidden animate-slideDown">
 //         {/* Header - Mobile Optimized */}
-//         <div className="bg-gradient-to-r from-blue-500 to-indigo-600 p-3 sm:p-4 flex items-center justify-between">
+//         <div className="bg-gradient-to-r from-blue-500 to-blue-600 p-3 sm:p-4 flex items-center justify-between">
 //           <div className="flex items-center space-x-2 sm:space-x-3">
 //             <div className="w-8 h-8 sm:w-10 sm:h-10 bg-white/20 rounded-xl flex items-center justify-center backdrop-blur-sm">
 //               <Bell className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
@@ -168,7 +168,7 @@
 //           <div className="p-3 sm:p-4 bg-slate-50/80 border-t border-slate-200/50">
 //             <button
 //               onClick={onViewAll}
-//               className="w-full py-2 sm:py-2.5 bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-semibold rounded-xl hover:from-blue-600 hover:to-indigo-700 active:scale-95 transition-all duration-300 text-sm sm:text-base"
+//               className="w-full py-2 sm:py-2.5 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-semibold rounded-xl hover:from-blue-600 hover:to-blue-700 active:scale-95 transition-all duration-300 text-sm sm:text-base"
 //             >
 //               View All Notifications
 //             </button>
@@ -237,7 +237,7 @@
 //   const getTypeIcon = (type: string) => {
 //     switch (type) {
 //       case "success":
-//         return <CheckCircle className="w-5 h-5 text-green-500" />;
+//         return <CheckCircle className="w-5 h-5 text-blue-500" />;
 //       case "warning":
 //         return <AlertTriangle className="w-5 h-5 text-yellow-500" />;
 //       case "urgent":
@@ -250,7 +250,7 @@
 //   const getTypeBg = (type: string) => {
 //     switch (type) {
 //       case "success":
-//         return "bg-green-50 border-green-200";
+//         return "bg-blue-50 border-blue-200";
 //       case "warning":
 //         return "bg-yellow-50 border-yellow-200";
 //       case "urgent":
@@ -272,7 +272,7 @@
 //       <div className="fixed top-16 left-2 right-2 sm:top-20 sm:left-auto sm:right-4 lg:right-6 z-50 w-auto sm:w-[95vw] sm:max-w-md bg-white/95 backdrop-blur-xl rounded-2xl shadow-2xl border border-slate-200/50 overflow-hidden animate-slideDown">
 
 //         {/* Header */}
-//         <div className="bg-gradient-to-r from-blue-500 to-indigo-600 p-3 sm:p-4 flex items-center justify-between">
+//         <div className="bg-gradient-to-r from-blue-500 to-blue-600 p-3 sm:p-4 flex items-center justify-between">
 //           <div className="flex items-center space-x-2 sm:space-x-3">
 //             <div className="w-8 h-8 sm:w-10 sm:h-10 bg-white/20 rounded-xl flex items-center justify-center backdrop-blur-sm">
 //               <Bell className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
@@ -392,7 +392,7 @@
 //           <div className="p-3 sm:p-4 bg-slate-50/80 border-t border-slate-200/50">
 //             <button
 //               onClick={onViewAll}
-//               className="w-full py-2 sm:py-2.5 bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-semibold rounded-xl hover:from-blue-600 hover:to-indigo-700 active:scale-95 transition-all duration-300 text-sm sm:text-base"
+//               className="w-full py-2 sm:py-2.5 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-semibold rounded-xl hover:from-blue-600 hover:to-blue-700 active:scale-95 transition-all duration-300 text-sm sm:text-base"
 //             >
 //               View All Notifications
 //             </button>
@@ -454,7 +454,7 @@
 
 //   const typeIcon = (type: string) => {
 //     switch (type) {
-//       case "success": return <CheckCircle className="w-5 h-5 text-green-500" />;
+//       case "success": return <CheckCircle className="w-5 h-5 text-blue-500" />;
 //       case "warning": return <AlertTriangle className="w-5 h-5 text-yellow-500" />;
 //       case "urgent":  return <AlertCircle className="w-5 h-5 text-red-500" />;
 //       default:        return <Info className="w-5 h-5 text-blue-500" />;
@@ -463,7 +463,7 @@
 
 //   const typeBg = (type: string) => {
 //     switch (type) {
-//       case "success": return "bg-green-50 border-green-200";
+//       case "success": return "bg-blue-50 border-blue-200";
 //       case "warning": return "bg-yellow-50 border-yellow-200";
 //       case "urgent":  return "bg-red-50 border-red-200";
 //       default:        return "bg-blue-50 border-blue-200";
@@ -482,7 +482,7 @@
 //                       border border-slate-200/50 overflow-hidden animate-slideDown">
 
 //         {/* Header */}
-//         <div className="bg-gradient-to-r from-blue-500 to-indigo-600 p-3 sm:p-4 flex items-center justify-between">
+//         <div className="bg-gradient-to-r from-blue-500 to-blue-600 p-3 sm:p-4 flex items-center justify-between">
 //           <div className="flex items-center gap-2 sm:gap-3">
 //             <div className="w-8 h-8 sm:w-10 sm:h-10 bg-white/20 rounded-xl flex items-center justify-center">
 //               <Bell className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
@@ -565,8 +565,8 @@
 //           <div className="p-3 bg-slate-50/80 border-t border-slate-200/50">
 //             <button
 //               onClick={onViewAll}
-//               className="w-full py-2 bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-semibold rounded-xl
-//                          hover:from-blue-600 hover:to-indigo-700 active:scale-95 transition-all text-sm"
+//               className="w-full py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-semibold rounded-xl
+//                          hover:from-blue-600 hover:to-blue-700 active:scale-95 transition-all text-sm"
 //             >
 //               View All Notifications
 //             </button>
@@ -625,7 +625,7 @@ const NotificationPopup: React.FC<NotificationPopupProps> = ({
 
   const typeIcon = (type: string) => {
     switch (type) {
-      case "success": return <CheckCircle className="w-5 h-5 text-green-500" />;
+      case "success": return <CheckCircle className="w-5 h-5 text-blue-500" />;
       case "warning": return <AlertTriangle className="w-5 h-5 text-yellow-500" />;
       case "urgent":  return <AlertCircle className="w-5 h-5 text-red-500" />;
       default:        return <Info className="w-5 h-5 text-blue-500" />;
@@ -634,7 +634,7 @@ const NotificationPopup: React.FC<NotificationPopupProps> = ({
 
   const typeBg = (type: string) => {
     switch (type) {
-      case "success": return "bg-green-50 border-green-200";
+      case "success": return "bg-blue-50 border-blue-200";
       case "warning": return "bg-yellow-50 border-yellow-200";
       case "urgent":  return "bg-red-50 border-red-200";
       default:        return "bg-blue-50 border-blue-200";
@@ -653,7 +653,7 @@ const NotificationPopup: React.FC<NotificationPopupProps> = ({
                       border border-slate-200/50 overflow-hidden">
 
         {/* Header */}
-        <div className="bg-gradient-to-r from-blue-500 to-indigo-600 p-3 sm:p-4 flex items-center justify-between">
+        <div className="bg-gradient-to-r from-blue-500 to-blue-600 p-3 sm:p-4 flex items-center justify-between">
           <div className="flex items-center gap-2 sm:gap-3">
             <div className="w-8 h-8 sm:w-10 sm:h-10 bg-white/20 rounded-xl flex items-center justify-center">
               <Bell className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
@@ -685,7 +685,7 @@ const NotificationPopup: React.FC<NotificationPopupProps> = ({
         {/* List */}
         <div className="max-h-[55vh] overflow-y-auto">
           {top5.length === 0 ? (
-            <div className="p-8 text-center">
+            <div className="p-8 text-center ">
               <Bell className="w-8 h-8 text-slate-300 mx-auto mb-2" />
               <p className="text-slate-500 text-sm">No notifications yet</p>
             </div>
@@ -749,8 +749,8 @@ const NotificationPopup: React.FC<NotificationPopupProps> = ({
           <div className="p-3 bg-slate-50/80 border-t border-slate-200/50">
             <button
               onClick={onViewAll}
-              className="w-full py-2 bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-semibold
-                         rounded-xl hover:from-blue-600 hover:to-indigo-700 active:scale-95 transition-all text-sm"
+              className="w-full py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-semibold
+                         rounded-xl hover:from-blue-600 hover:to-blue-700 active:scale-95 transition-all text-sm"
             >
               View All Notifications
             </button>

@@ -236,7 +236,7 @@
 //               </div>
 //             </div>
 //             <div>
-//               <div className="text-xl md:text-2xl font-bold text-green-600">
+//               <div className="text-xl md:text-2xl font-bold text-blue-600">
 //                 {
 //                   allAnnouncements.filter((a) => a.category === "NEET PG")
 //                     .length
@@ -642,7 +642,7 @@
 //         {/* Today's Announcements */}
 //         {todaysAnnouncements.length > 0 && (
 //           <div className="bg-white rounded-2xl shadow-lg overflow-hidden mb-6">
-//             <div className="bg-gradient-to-r from-green-500 to-emerald-500 px-6 py-4 text-white">
+//             <div className="bg-gradient-to-r from-blue-500 to-blue-500 px-6 py-4 text-white">
 //               <div className="flex items-center space-x-3">
 //                 <Bell className="w-6 h-6 animate-pulse" />
 //                 <h2 className="text-xl font-bold">Today's Announcements</h2>
@@ -844,7 +844,7 @@
 //               <div className="text-gray-600 text-sm">High Priority</div>
 //             </div>
 //             <div>
-//               <div className="text-2xl font-bold text-green-600">
+//               <div className="text-2xl font-bold text-blue-600">
 //                 {
 //                   allAnnouncements.filter((a) => a.category === "NEET PG")
 //                     .length
@@ -1193,7 +1193,7 @@ const AnnouncementPage: React.FC = () => {
         {/* Today's Announcements */}
         {todaysAnnouncements.length > 0 && (
           <div className="bg-white rounded-2xl shadow-lg overflow-hidden mb-6">
-            <div className="bg-gradient-to-r from-green-500 to-emerald-500 px-6 py-4 text-white">
+            <div className="bg-gradient-to-r from-blue-500 to-blue-500 px-6 py-4 text-white">
               <div className="flex items-center space-x-3">
                 <Bell className="w-6 h-6 animate-pulse" />
                 <h2 className="text-xl font-bold">Today's Announcements</h2>
@@ -1395,7 +1395,7 @@ const AnnouncementPage: React.FC = () => {
               <div className="text-gray-600 text-sm">High Priority</div>
             </div>
             <div>
-              <div className="text-2xl font-bold text-green-600">
+              <div className="text-2xl font-bold text-blue-600">
                 {
                   allAnnouncements.filter((a) => a.category === "NEET PG")
                     .length
