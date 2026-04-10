@@ -56126,7 +56126,7 @@ export const blogPosts: BlogPost[] = [
     "Career Advice",
     "NEET PG Counselling"
   ],
-  "published_date": "2026-04-08",
+  "published_date": "2026-04-10",
   "read_time": 10,
   "meta_title": "Should You Drop a Year or Take a Seat? The Ultimate Decision Guide",
   "meta_description": "Confused between dropping a year or taking a seat? Evaluate rank, branch options, and long-term goals to make a smart NEET PG career decision.",
