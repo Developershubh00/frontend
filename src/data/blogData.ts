@@ -55697,12 +55697,6 @@ export const blogPosts: BlogPost[] = [
   ],
   "sections": [
     {
-      "id": "intro",
-      "type": "heading",
-      "title": "Branch vs College: The NEET PG Decision That Defines Your Career",
-      "level": 1
-    },
-    {
       "id": "intro-para1",
       "type": "paragraph",
       "content": "Every NEET PG aspirant lastly faces one of the toughest difficulties in their medical career: Should you prioritize the branch (specialization) or the college?"
@@ -56141,12 +56135,6 @@ export const blogPosts: BlogPost[] = [
   ],
   "sections": [
     {
-      "id": "intro",
-      "type": "heading",
-      "title": "Should You Drop a Year or Take a Seat? The Ultimate Decision Guide",
-      "level": 1
-    },
-    {
       "id": "intro-para1",
       "type": "paragraph",
       "content": "You have your results. The counseling rounds are on, especially in NEET PG counselling. And now comes the real pressure:"
@@ -56543,12 +56531,6 @@ export const blogPosts: BlogPost[] = [
     "mop up round counselling"
   ],
   "sections": [
-    {
-      "id": "intro",
-      "type": "heading",
-      "title": "Last Round Strategy: How to Maximize Your Chances in Mop-Up & Stray Vacancy Rounds",
-      "level": 1
-    },
     {
       "id": "intro-para1",
       "type": "paragraph",
