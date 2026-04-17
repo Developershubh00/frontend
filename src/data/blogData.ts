@@ -57264,12 +57264,6 @@ export const blogPosts: BlogPost[] = [
   ],
   "sections": [
     {
-      "id": "intro",
-      "type": "heading",
-      "title": "Choosing the Wrong PG Branch? Here's Why It Happens (And How to Avoid It)",
-      "level": 1
-    },
-    {
       "id": "intro-para1",
       "type": "paragraph",
       "content": "Choosing a postgraduate (PG) branch is one of the most important decisions in a medical student's career. It's not just about the next 3 years, it shapes your lifestyle, career growth, income, and long-term satisfaction."
