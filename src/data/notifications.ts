@@ -764,6 +764,17 @@ const rawNotifications: Omit<Notification, "isNew">[] = [
     icon: "🔔",
     link: "/notice",
   },
+  {
+    id: 15,
+    title: " NBEMS has released the FMGE June 2026 ",
+    message: "NBEMS has released the FMGE June 2026 Information Bulletin. The exam is scheduled for 28 June 2026, and online registration is now open.",
+    type: "urgent",
+    date: "21.04.2026",
+    time: "10:00 AM",
+    read: false,
+    icon: "🔔",
+    link: "/announcement",
+  },
   // {
   //   id: 14,
   //   title: "Provisional Counselling Seats Allotment - 2025 Round 3",

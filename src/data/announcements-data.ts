@@ -1533,6 +1533,19 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "Medical Counselling Committee (MCC), NEET-PG Counselling",
     created_at: "2026-02-23T08:00:00Z",
   },
+  {
+    id: 116,
+    title: "NBEMS has released the FMGE June 2026",
+    content:
+      "NBEMS has released the FMGE June 2026 Information Bulletin. The exam is scheduled for 28 June 2026, and online registration is now open.",
+    date: "2026-04-21T08:00:00Z",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://nbe.edu.in/IB/FMGE%20JUNE%202026%20information%20bulletin.pdf",
+    is_active: true,
+    source: "Medical Counselling Committee (MCC), NEET-PG Counselling",
+    created_at: "2026-04-21T08:00:00Z",
+  },
 ];
 
 /**
