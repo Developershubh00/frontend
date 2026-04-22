@@ -773,7 +773,7 @@ const rawNotifications: Omit<Notification, "isNew">[] = [
     time: "10:00 AM",
     read: false,
     icon: "🔔",
-    link: "/announcement",
+    link: "/announcements",
   },
   // {
   //   id: 14,
