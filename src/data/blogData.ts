@@ -58491,7 +58491,7 @@ export const blogPosts: BlogPost[] = [
     "Medical PG Counselling",
     "Counselling Strategy"
   ],
-  "published_date": "2026-04-08",
+  "published_date": "2026-04-24",
   "read_time": 10,
   "meta_title": "Cutoff Trends of Last 5 Years: What They Really Mean (And What They Don't)",
   "meta_description": "Analyze 5-year cutoff trends to decode real patterns, avoid myths, and make smarter exam strategies with data-driven clarity.",
