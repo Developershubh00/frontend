@@ -58508,12 +58508,6 @@ export const blogPosts: BlogPost[] = [
     "medical pg counselling"
   ],
   "sections": [
-    // {
-    //   "id": "intro",
-    //   "type": "heading",
-    //   "title": "Cutoff Trends of Last 5 Years: What They Really Mean (And What They Don't)",
-    //   "level": 1
-    // },
     {
       "id": "intro-para1",
       "type": "paragraph",
@@ -58812,6 +58806,422 @@ export const blogPosts: BlogPost[] = [
         "counselling strategy",
         "medical counselling pg",
         "medical pg counselling"
+      ]
+    }
+  ]
+}
+{
+  "id": 144,
+  "title": "From Zero to Rank: How to Actually Prepare for INI-CET 2026",
+  "slug": "from-zero-to-rank-how-to-actually-prepare-inicet-2026",
+  "excerpt": "From Zero to Rank: Master INI-CET 2026 with smart planning, concept clarity, consistent revision, and targeted practice for high-yield results.",
+  "featured_image": "https://cdn.dribbble.com/userupload/47532815/file/f36a3df314d45af5a59d90e096f9ff59.jpg",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-green-100 text-green-800"
+  },
+  "tags": [
+    "INI-CET 2026",
+    "INI-CET Preparation",
+    "Medical PG Preparation",
+    "Exam Strategy",
+    "INICET"
+  ],
+  "published_date": "2026-04-27",
+  "read_time": 12,
+  "meta_title": "From Zero to Rank: How to Actually Prepare for INI-CET 2026",
+  "meta_description": "From Zero to Rank: Master INI-CET 2026 with smart planning, concept clarity, consistent revision, and targeted practice for high-yield results.",
+  "keywords": [
+    "ini cet 2026",
+    "ini cet preparation",
+    "ini cet",
+    "inicet exam",
+    "medical pg preparation",
+    "exam preparation",
+    "high yield topics",
+    "pg preparation",
+    "inicet pyq"
+  ],
+  "sections": [
+    {
+      "id": "intro-para1",
+      "type": "paragraph",
+      "content": "Let me be straight with you starting INI-CET prep from scratch is uncomfortable. You open Instagram and see people posting their test scores, talking about how they're on their third revision of Pathology, and you wonder if you've already fallen too far behind. You haven't. Some of the strongest performers in any INI-CET cycle started late, started confused, and still cracked it. What they had wasn't a head start; it was a clear sense of what to do next."
+    },
+    {
+      "id": "intro-para2",
+      "type": "paragraph",
+      "content": "That's what this guide is for."
+    },
+    {
+      "id": "understand-exam",
+      "type": "heading",
+      "title": "First, Understand What This Exam Actually Tests",
+      "level": 2
+    },
+    {
+      "id": "understand-exam-para1",
+      "type": "paragraph",
+      "content": "Most people treat INI-CET like an extended MBBS exam — just read more, memorize harder. That approach will exhaust you and still leave you underprepared."
+    },
+    {
+      "id": "understand-exam-para2",
+      "type": "paragraph",
+      "content": "INI-CET is a clinical reasoning exam dressed up as an MCQ test. The questions don't care how many pages of Harrison's you've read. They care whether you understand:"
+    },
+    {
+      "id": "understand-exam-list",
+      "type": "list",
+      "items": [
+        "Why a patient presents a certain way",
+        "Why one drug is chosen over another",
+        "Why a specific investigation is the next logical step"
+      ]
+    },
+    {
+      "id": "understand-exam-para3",
+      "type": "paragraph",
+      "content": "The fact-heavy topics matter too, but they're usually framed within a clinical context."
+    },
+    {
+      "id": "understand-exam-conclusion",
+      "type": "paragraph",
+      "content": "Once you internalize this, your entire approach to studying changes. You stop trying to \"finish\" subjects and start trying to understand them."
+    },
+    {
+      "id": "building-base",
+      "type": "heading",
+      "title": "Building Your Base — Don't Rush This Part",
+      "level": 2
+    },
+    {
+      "id": "building-base-para1",
+      "type": "paragraph",
+      "content": "When you're starting from zero, the temptation is to go fast. Resist that."
+    },
+    {
+      "id": "building-base-para2",
+      "type": "paragraph",
+      "content": "Your first phase should focus on building a solid foundation:"
+    },
+    {
+      "id": "building-base-list",
+      "type": "list",
+      "items": [
+        "Start with Anatomy, Physiology, Biochemistry",
+        "Move to Pathology, Pharmacology, Medicine"
+      ]
+    },
+    {
+      "id": "building-base-para3",
+      "type": "paragraph",
+      "content": "These aren't just important—they're the base of everything else."
+    },
+    {
+      "id": "building-base-simple",
+      "type": "paragraph",
+      "content": "Keep it simple:"
+    },
+    {
+      "id": "building-base-simple-list",
+      "type": "list",
+      "items": [
+        "Stick to one resource per subject",
+        "Make your own short notes (not copied)",
+        "Focus on clarity over speed"
+      ]
+    },
+    {
+      "id": "building-base-conclusion",
+      "type": "paragraph",
+      "content": "At this stage, slow is fast. A concept understood once clearly is far more valuable than multiple shallow readings."
+    },
+    {
+      "id": "start-mcqs",
+      "type": "heading",
+      "title": "Start MCQs Earlier Than You Think",
+      "level": 2
+    },
+    {
+      "id": "start-mcqs-para1",
+      "type": "paragraph",
+      "content": "Many students delay MCQs. That's a mistake."
+    },
+    {
+      "id": "start-mcqs-para2",
+      "type": "paragraph",
+      "content": "Start early and treat MCQs as a learning tool:"
+    },
+    {
+      "id": "start-mcqs-list",
+      "type": "list",
+      "items": [
+        "Solve alongside theory",
+        "Don't worry about low scores initially",
+        "Focus on understanding explanations"
+      ]
+    },
+    {
+      "id": "start-mcqs-helps",
+      "type": "paragraph",
+      "content": "What actually helps:"
+    },
+    {
+      "id": "start-mcqs-helps-list",
+      "type": "list",
+      "items": [
+        "Analyze mistakes",
+        "Note the concept (not just the answer)",
+        "Identify weak areas early"
+      ]
+    },
+    {
+      "id": "start-mcqs-conclusion",
+      "type": "paragraph",
+      "content": "MCQs teach you how the exam thinks—and that's half the battle."
+    },
+    {
+      "id": "routine",
+      "type": "heading",
+      "title": "A Routine You'll Actually Follow",
+      "level": 2
+    },
+    {
+      "id": "routine-para1",
+      "type": "paragraph",
+      "content": "Most study plans fail because they're unrealistic. Keep it practical."
+    },
+    {
+      "id": "routine-para2",
+      "type": "paragraph",
+      "content": "A simple structure works best:"
+    },
+    {
+      "id": "routine-structure",
+      "type": "list",
+      "items": [
+        "Morning: Theory / new concepts",
+        "Afternoon: MCQs from the same topics",
+        "Evening: Revision"
+      ]
+    },
+    {
+      "id": "routine-loop",
+      "type": "paragraph",
+      "content": "The loop is simple: Learn - Apply - Revise"
+    },
+    {
+      "id": "routine-stick",
+      "type": "paragraph",
+      "content": "Stick to:"
+    },
+    {
+      "id": "routine-stick-list",
+      "type": "list",
+      "items": [
+        "6–8 focused hours daily",
+        "Distraction-free study sessions",
+        "Consistency over intensity"
+      ]
+    },
+    {
+      "id": "revision",
+      "type": "heading",
+      "title": "Revision Is Where Preparation Lives or Dies",
+      "level": 2
+    },
+    {
+      "id": "revision-para1",
+      "type": "paragraph",
+      "content": "You can have the best notes, the best resources, the best schedule — and still perform poorly if you're not revising. Memory doesn't work the way we wish it did. Without repeated retrieval, things fade fast, often within days."
+    },
+    {
+      "id": "revision-para2",
+      "type": "paragraph",
+      "content": "A simple spacing approach works well here:"
+    },
+    {
+      "id": "revision-spacing",
+      "type": "list",
+      "items": [
+        "Revisit a topic within a week of first studying it",
+        "Go over it again within a month",
+        "Do a final sweep closer to the exam"
+      ]
+    },
+    {
+      "id": "revision-para3",
+      "type": "paragraph",
+      "content": "Your revision tools don't need to be elaborate. Short notes, flagged MCQs, quick flashcards — whatever format lets you go through material quickly without re-reading everything from scratch. The goal is to keep things accessible in your memory, not to re-learn them every time."
+    },
+    {
+      "id": "focus-repeats",
+      "type": "heading",
+      "title": "Focus on What the Exam Repeats",
+      "level": 2
+    },
+    {
+      "id": "focus-repeats-para1",
+      "type": "paragraph",
+      "content": "Not all topics are equal."
+    },
+    {
+      "id": "focus-repeats-prioritize",
+      "type": "paragraph",
+      "content": "Prioritize:"
+    },
+    {
+      "id": "focus-repeats-list",
+      "type": "list",
+      "items": [
+        "Previous Year Questions (PYQs)",
+        "High-yield clinical topics",
+        "Image-based questions",
+        "Repeated concepts"
+      ]
+    },
+    {
+      "id": "focus-repeats-pyqs",
+      "type": "paragraph",
+      "content": "PYQs help you understand:"
+    },
+    {
+      "id": "focus-repeats-pyqs-list",
+      "type": "list",
+      "items": [
+        "What the exam values",
+        "How questions are framed",
+        "Where marks are concentrated"
+      ]
+    },
+    {
+      "id": "focus-repeats-conclusion",
+      "type": "paragraph",
+      "content": "This is not shortcutting—it's smart preparation."
+    },
+    {
+      "id": "grand-tests",
+      "type": "heading",
+      "title": "When to Start Grand Tests",
+      "level": 2
+    },
+    {
+      "id": "grand-tests-para1",
+      "type": "paragraph",
+      "content": "Once you've covered a reasonable chunk of the syllabus — not all of it, just enough to have something to work with — start taking full-length tests. Most people find a good rhythm a few months into preparation."
+    },
+    {
+      "id": "grand-tests-para2",
+      "type": "paragraph",
+      "content": "Your first few tests will probably feel rough. Time pressure, question fatigue, decision paralysis. That's expected. What matters most early on isn't your percentile — it's whether you're getting better at managing time, making smarter guesses, and staying calm through 200 questions."
+    },
+    {
+      "id": "grand-tests-conclusion",
+      "type": "paragraph",
+      "content": "The test itself is just data. The analysis after is where the real work happens. Every incorrect question is telling you something specific. Listen to it."
+    },
+    {
+      "id": "mistakes",
+      "type": "heading",
+      "title": "Mistakes That Will Slow You Down",
+      "level": 2
+    },
+    {
+      "id": "mistakes-intro",
+      "type": "paragraph",
+      "content": "Since you're starting fresh, you can sidestep some of the errors that trip up a lot of aspirants:"
+    },
+    {
+      "id": "mistakes-list",
+      "type": "list",
+      "items": [
+        "Hoarding resources — having five books for one subject is not preparation, it's procrastination dressed up nicely",
+        "Skipping revision — studying without revisiting is like filling a bucket with a hole in it",
+        "Avoiding MCQs until \"ready\" — you'll never feel ready, and that's fine",
+        "Ignoring your errors — getting a question wrong and moving on is wasted effort",
+        "Measuring yourself against others — someone else's timeline has nothing to do with yours"
+      ]
+    },
+    {
+      "id": "mistakes-conclusion",
+      "type": "paragraph",
+      "content": "Simple, focused, consistent — that's the combination that works."
+    },
+    {
+      "id": "final-stretch",
+      "type": "heading",
+      "title": "The Final Stretch",
+      "level": 2
+    },
+    {
+      "id": "final-stretch-para1",
+      "type": "paragraph",
+      "content": "In the last two to three months before the exam, the mindset needs to shift. This is not the time to discover new books or start unexplored subjects. This is the time to make what you already know unshakeable."
+    },
+    {
+      "id": "final-stretch-para2",
+      "type": "paragraph",
+      "content": "More revisions. More PYQs. Regular grand tests with honest analysis. Targeted work on your weakest areas. The goal in this phase is consolidation — going deeper into what you know, not wider."
+    },
+    {
+      "id": "final-stretch-conclusion",
+      "type": "paragraph",
+      "content": "Resist the anxiety that pushes you toward \"just reading one more new thing.\" That instinct, however well-intentioned, usually does more harm than good this close to the exam."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Can I crack INI-CET 2026 if I'm starting from zero?",
+          "answer": "Yes, with a clear plan, consistent study, and smart revision, starting late is still workable."
+        },
+        {
+          "question": "When should I start solving MCQs for INI-CET?",
+          "answer": "Start early alongside theory to build understanding and exam-oriented thinking."
+        },
+        {
+          "question": "How many hours should I study daily for INI-CET preparation?",
+          "answer": "Around 6–8 focused hours daily with consistency is more effective than long, irregular study sessions."
+        },
+        {
+          "question": "What matters more in the final months before INI-CET?",
+          "answer": "Revision, PYQs, and grand test analysis matter more than starting new topics."
+        }
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have questions about INI-CET 2026 preparation? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/e/1FAIpQLSeIM6HYq_pg_mq6PK78YzdLn6KwaVQjyndn2CdJ8ThWWXvNOA/viewform"
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "ini cet 2026",
+        "ini cet preparation",
+        "ini cet",
+        "inicet exam",
+        "medical pg preparation",
+        "exam preparation",
+        "high yield topics",
+        "pg preparation",
+        "inicet pyq"
       ]
     }
   ]
