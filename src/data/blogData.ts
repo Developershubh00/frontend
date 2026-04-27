@@ -58809,7 +58809,7 @@ export const blogPosts: BlogPost[] = [
       ]
     }
   ]
-}
+},
 {
   "id": 144,
   "title": "From Zero to Rank: How to Actually Prepare for INI-CET 2026",
