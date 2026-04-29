@@ -59225,6 +59225,418 @@ export const blogPosts: BlogPost[] = [
       ]
     }
   ]
+},
+{
+  "id": 145,
+  "title": "From Zero to Rank: How to Actually Prepare for INI-CET 2026",
+  "slug": "from-zero-to-rank-how-to-prepare-for-ini-cet-2026",
+  "excerpt": "Start from basics and build strong concepts with daily revision, PYQs, and smart strategy to crack INI CET 2026 with confidence and consistency.",
+  "featured_image": "https://cdn.dribbble.com/userupload/47321185/file/fca464410143da95cbe68287d9b1a32f.jpg?w=1200&h=600&fit=crop",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-blue-100 text-blue-800"
+  },
+  "tags": [
+    "INI CET 2026",
+    "INICET Preparation",
+    "Medical PG Exams",
+    "PG Preparation",
+    "Exam Strategy"
+  ],
+  "published_date": "2026-04-08",
+  "read_time": 10,
+  "meta_title": "From Zero to Rank: How to Actually Prepare for INI-CET 2026",
+  "meta_description": "Start from basics and build strong concepts with daily revision, PYQs, and smart strategy to crack INI CET 2026 with confidence and consistency.",
+  "keywords": [
+    "ini cet 2026",
+    "inicet exam",
+    "inicet preparation",
+    "exam preparation",
+    "preparation strategy",
+    "ini cet study plan",
+    "inicet preparation strategy",
+    "medical pg exams",
+    "medical pg preparation",
+    "pg preparation",
+    "study material"
+  ],
+  "sections": [
+    {
+      "id": "intro",
+      "type": "heading",
+      "title": "A Practical Guide to INI-CET 2026 Preparation for MBBS Students",
+      "level": 1
+    },
+    {
+      "id": "intro-para1",
+      "type": "paragraph",
+      "content": "If you're in MBBS and thinking about INI CET 2026, chances are you're a bit unsure where to begin. That confusion is normal—every student preparing for medical PG exams goes through it at some point. The key is not finding a perfect plan, but building a practical INI CET preparation strategy that you can actually follow."
+    },
+    {
+      "id": "understand-prep",
+      "type": "heading",
+      "title": "First, Understand What You're Preparing For",
+      "level": 2
+    },
+    {
+      "id": "understand-prep-para1",
+      "type": "paragraph",
+      "content": "The INICET exam isn't about how much you can memorize. It's more about whether you can connect concepts and apply them clinically—which is exactly what most medical PG preparation demands today."
+    },
+    {
+      "id": "understand-prep-para2",
+      "type": "paragraph",
+      "content": "You'll notice this when you start solving questions:"
+    },
+    {
+      "id": "understand-prep-list",
+      "type": "list",
+      "items": [
+        "Questions are rarely direct",
+        "Options are close and confusing",
+        "Concepts overlap across subjects"
+      ]
+    },
+    {
+      "id": "understand-prep-conclusion",
+      "type": "paragraph",
+      "content": "So instead of thinking, \"I need to finish everything,\" shift to: \"I need to understand how things work together.\" That shift alone improves your exam preparation a lot."
+    },
+    {
+      "id": "build-base",
+      "type": "heading",
+      "title": "Build Your Base Early (Without Overcomplicating It)",
+      "level": 2
+    },
+    {
+      "id": "build-base-para1",
+      "type": "paragraph",
+      "content": "If you're still in MBBS, this is your biggest advantage—you have time to build things properly."
+    },
+    {
+      "id": "build-base-table",
+      "type": "table",
+      "headers": ["Phase", "Subjects to Cover"],
+      "rows": [
+        ["Start with", "Anatomy, Physiology, Biochemistry"],
+        ["Then move to", "Pathology, Pharmacology, Microbiology"]
+      ],
+      "caption": "This becomes the foundation of your PG preparation."
+    },
+    {
+      "id": "build-base-study-plan",
+      "type": "paragraph",
+      "content": "Keep your INICET study plan simple:"
+    },
+    {
+      "id": "build-base-list",
+      "type": "list",
+      "items": [
+        "Stick to one source per subject",
+        "Use limited, high-quality study material",
+        "Make your own short notes"
+      ]
+    },
+    {
+      "id": "mcqs-early",
+      "type": "heading",
+      "title": "Start MCQs Early (Even If You Feel Unprepared)",
+      "level": 2
+    },
+    {
+      "id": "mcqs-early-para1",
+      "type": "paragraph",
+      "content": "Most students delay MCQs, thinking they'll start once they're \"ready.\" That rarely happens."
+    },
+    {
+      "id": "mcqs-early-para2",
+      "type": "paragraph",
+      "content": "Start alongside theory:"
+    },
+    {
+      "id": "mcqs-early-list",
+      "type": "list",
+      "items": [
+        "Solve a small number daily",
+        "Don't stress about scores",
+        "Focus on understanding explanations"
+      ]
+    },
+    {
+      "id": "mcqs-early-para3",
+      "type": "paragraph",
+      "content": "This is where your INICET preparation actually becomes exam oriented. Over time, MCQs help you:"
+    },
+    {
+      "id": "mcqs-early-benefits-list",
+      "type": "list",
+      "items": [
+        "Understand patterns",
+        "Identify weak areas",
+        "Improve decision-making"
+      ]
+    },
+    {
+      "id": "study-routine",
+      "type": "heading",
+      "title": "Keep Your Study Routine Practical",
+      "level": 2
+    },
+    {
+      "id": "study-routine-para1",
+      "type": "paragraph",
+      "content": "A complicated schedule usually doesn't last. A simple one does."
+    },
+    {
+      "id": "study-routine-table",
+      "type": "table",
+      "headers": ["Time of Day", "Activity"],
+      "rows": [
+        ["Morning", "Theory"],
+        ["Afternoon", "MCQs"],
+        ["Evening", "Revision"]
+      ],
+      "caption": "This loop—Learn → Apply → Revise—is a solid preparation strategy for long-term consistency. Even 5–6 focused hours daily can be enough if done properly."
+    },
+    {
+      "id": "revision",
+      "type": "heading",
+      "title": "Revision Is Where Most of the Work Happens",
+      "level": 2
+    },
+    {
+      "id": "revision-para1",
+      "type": "paragraph",
+      "content": "You'll forget things. Everyone does. What matters is how often you revise."
+    },
+    {
+      "id": "revision-table",
+      "type": "table",
+      "headers": ["Revision Stage", "When to Do It"],
+      "rows": [
+        ["First revision", "Within a week of studying"],
+        ["Second revision", "Within a month"],
+        ["Final revision", "Closer to the exam"]
+      ],
+      "caption": "Good revision habits separate average prep from strong INICET preparation strategy."
+    },
+    {
+      "id": "revision-tools-para",
+      "type": "paragraph",
+      "content": "Use:"
+    },
+    {
+      "id": "revision-tools-list",
+      "type": "list",
+      "items": [
+        "Short notes",
+        "Marked MCQs",
+        "Quick summaries"
+      ]
+    },
+    {
+      "id": "pyqs",
+      "type": "heading",
+      "title": "Use PYQs to Guide Your Preparation",
+      "level": 2
+    },
+    {
+      "id": "pyqs-para1",
+      "type": "paragraph",
+      "content": "Previous Year Questions are one of the most reliable tools in any medical PG preparation."
+    },
+    {
+      "id": "pyqs-para2",
+      "type": "paragraph",
+      "content": "They help you:"
+    },
+    {
+      "id": "pyqs-list",
+      "type": "list",
+      "items": [
+        "Identify high-yield topics",
+        "Understand how questions are framed",
+        "Focus on what actually matters"
+      ]
+    },
+    {
+      "id": "pyqs-conclusion",
+      "type": "paragraph",
+      "content": "Don't just solve them—analyze them. That's where real improvement happens."
+    },
+    {
+      "id": "grand-tests",
+      "type": "heading",
+      "title": "When to Start Grand Tests",
+      "level": 2
+    },
+    {
+      "id": "grand-tests-para1",
+      "type": "paragraph",
+      "content": "You don't need to wait until everything is done. Once you've covered a reasonable portion:"
+    },
+    {
+      "id": "grand-tests-list",
+      "type": "list",
+      "items": [
+        "Start giving tests",
+        "Begin with low frequency",
+        "Increase gradually"
+      ]
+    },
+    {
+      "id": "grand-tests-para2",
+      "type": "paragraph",
+      "content": "Your early scores may not be great. That's fine. Focus on:"
+    },
+    {
+      "id": "grand-tests-focus-list",
+      "type": "list",
+      "items": [
+        "Time management",
+        "Accuracy",
+        "Post-test analysis"
+      ]
+    },
+    {
+      "id": "grand-tests-conclusion",
+      "type": "paragraph",
+      "content": "This is what makes your exam preparation effective."
+    },
+    {
+      "id": "common-mistakes",
+      "type": "heading",
+      "title": "Common Mistakes to Avoid",
+      "level": 2
+    },
+    {
+      "id": "common-mistakes-para1",
+      "type": "paragraph",
+      "content": "Some things slow down almost every student:"
+    },
+    {
+      "id": "common-mistakes-list",
+      "type": "list",
+      "items": [
+        "Using too many resources instead of sticking to limited study material",
+        "Ignoring revision",
+        "Avoiding MCQs",
+        "Not analyzing mistakes",
+        "Comparing your journey with others"
+      ]
+    },
+    {
+      "id": "common-mistakes-conclusion",
+      "type": "paragraph",
+      "content": "Keeping your INI CET study plan simple usually works better."
+    },
+    {
+      "id": "final-phase",
+      "type": "heading",
+      "title": "Final Phase: What Changes?",
+      "level": 2
+    },
+    {
+      "id": "final-phase-para1",
+      "type": "paragraph",
+      "content": "Closer to INI CET 2026, your focus should shift. Concentrate more on what you have already covered rather than learning new topics:"
+    },
+    {
+      "id": "final-phase-table",
+      "type": "table",
+      "headers": ["Final Phase Activity", "Purpose"],
+      "rows": [
+        ["Multiple revisions", "Strengthen what you already know"],
+        ["PYQs", "Reinforce exam patterns and high-yield topics"],
+        ["Regular tests", "Build speed, accuracy, and confidence"],
+        ["Target weak areas", "Close remaining gaps before the exam"]
+      ],
+      "caption": "At this stage, your goal isn't to expand—it's to stabilize your preparation."
+    },
+    {
+      "id": "final-thought",
+      "type": "heading",
+      "title": "Final Thought",
+      "level": 2
+    },
+    {
+      "id": "final-thought-para1",
+      "type": "paragraph",
+      "content": "Preparing for INI CET 2026 during your MBBS isn't about doing everything perfectly."
+    },
+    {
+      "id": "final-thought-para2",
+      "type": "paragraph",
+      "content": "It's about:"
+    },
+    {
+      "id": "final-thought-list",
+      "type": "list",
+      "items": [
+        "Understanding concepts clearly, especially complex topics",
+        "Following a strategic and well-structured preparation strategy",
+        "Staying consistent always",
+        "Learning from mistakes"
+      ]
+    },
+    {
+      "id": "final-thought-conclusion",
+      "type": "paragraph",
+      "content": "If you get these basics right, your PG preparation is already on track—and that's what really matters in the long run."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "When should I start preparing for INI-CET 2026 during MBBS?",
+          "answer": "Ideally, you should start as early as possible by building strong concepts alongside your MBBS subjects."
+        },
+        {
+          "question": "Is it necessary to solve MCQs from the beginning of preparation?",
+          "answer": "Yes, starting MCQs early helps you understand exam patterns and improves application skills."
+        },
+        {
+          "question": "How important are PYQs in INI-CET preparation?",
+          "answer": "PYQs are extremely important as they highlight high-yield topics and exam trends."
+        },
+        {
+          "question": "What matters more in the final phase—new topics or revision?",
+          "answer": "Revision matters more, as strengthening what you've already studied is key to scoring well."
+        }
+      ]
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "ini cet 2026",
+        "inicet exam",
+        "inicet preparation",
+        "exam preparation",
+        "preparation strategy",
+        "ini cet study plan",
+        "inicet preparation strategy",
+        "medical pg exams",
+        "medical pg preparation",
+        "pg preparation",
+        "study material"
+      ]
+    }
+  ]
 }
 ];
 
