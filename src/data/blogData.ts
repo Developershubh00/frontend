@@ -59228,9 +59228,9 @@ export const blogPosts: BlogPost[] = [
 },
 {
   "id": 145,
-  "title": "From Zero to Rank: How to Actually Prepare for INI-CET 2026",
+  "title": "A Practical Guide to INI CET 2026 Preparation for MBBS Students ",
   "slug": "from-zero-to-rank-how-to-prepare-for-ini-cet-2026",
-  "excerpt": "Start from basics and build strong concepts with daily revision, PYQs, and smart strategy to crack INI CET 2026 with confidence and consistency.",
+  "excerpt": "A Practical Guide to INI CET 2026 Preparation for MBBS Students ",
   "featured_image": "https://cdn.dribbble.com/userupload/47557705/file/0e49b4556e69ca294b7dc396df38ffcb.jpg?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
@@ -59267,16 +59267,16 @@ export const blogPosts: BlogPost[] = [
     "study material"
   ],
   "sections": [
-    {
-      "id": "intro",
-      "type": "heading",
-      "title": "A Practical Guide to INI-CET 2026 Preparation for MBBS Students",
-      "level": 1
-    },
+    // {
+    //   "id": "intro",
+    //   "type": "heading",
+    //   "title": "A Practical Guide to INI-CET 2026 Preparation for MBBS Students",
+    //   "level": 1
+    // },
     {
       "id": "intro-para1",
       "type": "paragraph",
-      "content": "If you're in MBBS and thinking about INI CET 2026, chances are you're a bit unsure where to begin. That confusion is normal—every student preparing for medical PG exams goes through it at some point. The key is not finding a perfect plan, but building a practical INI CET preparation strategy that you can actually follow."
+      "content": "If you're in MBBS and thinking about INI CET 2026, it’s normal to feel unsure about where to start. That confusion is normal—every student preparing for medical PG exams goes through it at some point. The key is not finding a perfect plan, but building a practical INI CET preparation strategy that you can actually follow."
     },
     {
       "id": "understand-prep",
