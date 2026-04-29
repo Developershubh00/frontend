@@ -59231,7 +59231,7 @@ export const blogPosts: BlogPost[] = [
   "title": "From Zero to Rank: How to Actually Prepare for INI-CET 2026",
   "slug": "from-zero-to-rank-how-to-prepare-for-ini-cet-2026",
   "excerpt": "Start from basics and build strong concepts with daily revision, PYQs, and smart strategy to crack INI CET 2026 with confidence and consistency.",
-  "featured_image": "https://cdn.dribbble.com/userupload/47321185/file/fca464410143da95cbe68287d9b1a32f.jpg?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/47557705/file/0e49b4556e69ca294b7dc396df38ffcb.jpg?w=1200&h=600&fit=crop",
   "author": {
     "name": "Believers Team",
     "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
