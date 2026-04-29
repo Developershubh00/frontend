@@ -59249,7 +59249,7 @@ export const blogPosts: BlogPost[] = [
     "PG Preparation",
     "Exam Strategy"
   ],
-  "published_date": "2026-04-08",
+  "published_date": "2026-04-29",
   "read_time": 10,
   "meta_title": "From Zero to Rank: How to Actually Prepare for INI-CET 2026",
   "meta_description": "Start from basics and build strong concepts with daily revision, PYQs, and smart strategy to crack INI CET 2026 with confidence and consistency.",
