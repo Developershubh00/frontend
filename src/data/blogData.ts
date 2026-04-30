@@ -59228,10 +59228,11 @@ export const blogPosts: BlogPost[] = [
 },
 {
   "id": 145,
-  "title": "A Practical Guide to INI CET 2026 Preparation for MBBS Students ",
-  "slug": "from-zero-to-rank-how-to-prepare-for-ini-cet-2026",
-  "excerpt": "A Practical Guide to INI CET 2026 Preparation for MBBS Students ",
+  "title": "A Practical Guide to INI CET 2026 Preparation for MBBS Students",
+  "slug": "practical-guide-ini-cet-2026-preparation-mbbs-students",
+  "excerpt": "Master INI CET 2026 preparation for MBBS students with PYQs, smart revision, concept clarity, and daily practice for a top rank.",
   "featured_image": "https://cdn.dribbble.com/userupload/47557705/file/0e49b4556e69ca294b7dc396df38ffcb.jpg?w=1200&h=600&fit=crop",
+  "featured_image_alt": "INI CET 2026 Preparation",
   "author": {
     "name": "Believers Team",
     "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
@@ -59244,15 +59245,15 @@ export const blogPosts: BlogPost[] = [
   },
   "tags": [
     "INI CET 2026",
-    "INICET Preparation",
+    "INI CET Preparation",
     "Medical PG Exams",
     "PG Preparation",
     "Exam Strategy"
   ],
-  "published_date": "2026-04-29",
+  "published_date": "2026-04-08",
   "read_time": 10,
-  "meta_title": "From Zero to Rank: How to Actually Prepare for INI-CET 2026",
-  "meta_description": "Start from basics and build strong concepts with daily revision, PYQs, and smart strategy to crack INI CET 2026 with confidence and consistency.",
+  "meta_title": "A Practical Guide to INI CET 2026 Preparation for MBBS Students",
+  "meta_description": "Master INI CET 2026 preparation for MBBS students with PYQs, smart revision, concept clarity, and daily practice for a top rank.",
   "keywords": [
     "ini cet 2026",
     "inicet exam",
@@ -59270,13 +59271,13 @@ export const blogPosts: BlogPost[] = [
     // {
     //   "id": "intro",
     //   "type": "heading",
-    //   "title": "A Practical Guide to INI-CET 2026 Preparation for MBBS Students",
+    //   "title": "A Practical Guide to INI CET 2026 Preparation for MBBS Students",
     //   "level": 1
     // },
     {
       "id": "intro-para1",
       "type": "paragraph",
-      "content": "If you're in MBBS and thinking about INI CET 2026, it’s normal to feel unsure about where to start. That confusion is normal—every student preparing for medical PG exams goes through it at some point. The key is not finding a perfect plan, but building a practical INI CET preparation strategy that you can actually follow."
+      "content": "If you're in MBBS and thinking about INI CET 2026, chances are you're a bit unsure where to begin. That confusion is normal—every student preparing for medical PG exams goes through it at some point. The key is not finding a perfect plan, but building a practical INI CET preparation strategy that you can actually follow."
     },
     {
       "id": "understand-prep",
@@ -59287,7 +59288,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "understand-prep-para1",
       "type": "paragraph",
-      "content": "The INICET exam isn't about how much you can memorize. It's more about whether you can connect concepts and apply them clinically—which is exactly what most medical PG preparation demands today."
+      "content": "The INI CET exam isn't about how much you can memorize. It's more about whether you can connect concepts and apply them clinically—which is exactly what most medical PG preparation demands today."
     },
     {
       "id": "understand-prep-para2",
@@ -59330,9 +59331,9 @@ export const blogPosts: BlogPost[] = [
       "caption": "This becomes the foundation of your PG preparation."
     },
     {
-      "id": "build-base-study-plan",
+      "id": "build-base-study-plan-para",
       "type": "paragraph",
-      "content": "Keep your INICET study plan simple:"
+      "content": "Keep your INI CET study plan simple:"
     },
     {
       "id": "build-base-list",
@@ -59371,7 +59372,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "mcqs-early-para3",
       "type": "paragraph",
-      "content": "This is where your INICET preparation actually becomes exam oriented. Over time, MCQs help you:"
+      "content": "This is where your INI CET preparation actually becomes exam oriented. Over time, MCQs help you:"
     },
     {
       "id": "mcqs-early-benefits-list",
@@ -59424,7 +59425,7 @@ export const blogPosts: BlogPost[] = [
         ["Second revision", "Within a month"],
         ["Final revision", "Closer to the exam"]
       ],
-      "caption": "Good revision habits separate average prep from strong INICET preparation strategy."
+      "caption": "Good revision habits separate average prep from a strong INI CET preparation strategy."
     },
     {
       "id": "revision-tools-para",
