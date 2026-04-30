@@ -59250,7 +59250,7 @@ export const blogPosts: BlogPost[] = [
     "PG Preparation",
     "Exam Strategy"
   ],
-  "published_date": "2026-04-08",
+  "published_date": "2026-04-29",
   "read_time": 10,
   "meta_title": "A Practical Guide to INI CET 2026 Preparation for MBBS Students",
   "meta_description": "Master INI CET 2026 preparation for MBBS students with PYQs, smart revision, concept clarity, and daily practice for a top rank.",
