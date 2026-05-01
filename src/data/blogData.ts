@@ -59682,12 +59682,12 @@ export const blogPosts: BlogPost[] = [
     "INI CET preparation"
   ],
   "sections": [
-    {
-      "id": "intro",
-      "type": "heading",
-      "title": "INI-CET Rank vs Branch: What You Can Actually Expect in 2026",
-      "level": 1
-    },
+    // {
+    //   "id": "intro",
+    //   "type": "heading",
+    //   "title": "INI-CET Rank vs Branch: What You Can Actually Expect in 2026",
+    //   "level": 1
+    // },
     {
       "id": "intro-para1",
       "type": "paragraph",
