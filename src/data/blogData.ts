@@ -60000,6 +60000,409 @@ export const blogPosts: BlogPost[] = [
       ]
     }
   ]
+},
+{
+  "id": 147,
+  "title": "INI-CET Prep Without Burnout: What Helps You Keep Going",
+  "slug": "ini-cet-prep-without-burnout-what-helps-you-keep-going",
+  "excerpt": "INI CET prep without burnout needs smart breaks, short goals, active recall, sleep, and consistency to keep motivation high till exam day.",
+  "featured_image": "https://cdn.dribbble.com/userupload/47607248/file/c3d04a526ceafd56a46f58e161c67168.jpg",
+  "featured_image_alt": "ini cet 2026",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-green-100 text-green-800"
+  },
+  "tags": [
+    "INI-CET 2026",
+    "INI-CET Preparation",
+    "Study Strategy",
+    "Exam Preparation",
+    "Burnout Prevention"
+  ],
+  "published_date": "2026-05-04",
+  "read_time": 9,
+  "meta_title": "INI-CET Prep Without Burnout: What Helps You Keep Going",
+  "meta_description": "INI CET prep without burnout needs smart breaks, short goals, active recall, sleep, and consistency to keep motivation high till exam day.",
+  "keywords": [
+    "ini cet",
+    "ini cet 2026",
+    "ini cet exam",
+    "inicet preparation",
+    "study strategy",
+    "inicet strategy",
+    "study material",
+    "preparation strategy",
+    "exam preparation",
+    "best strategy for inicet"
+  ],
+  "sections": [
+    {
+      "id": "intro-para1",
+      "type": "paragraph",
+      "content": "If you've started preparing for INI CET, you've probably already felt it—motivation isn't steady. Some days you're fully locked in, finishing topics, solving MCQs. Other days, even opening your notes feels like a task."
+    },
+    {
+      "id": "intro-para2",
+      "type": "paragraph",
+      "content": "That's normal. Honestly, nobody stays motivated throughout INI CET preparation. The difference is how you handle phases when motivation drops."
+    },
+    {
+      "id": "build-system",
+      "type": "heading",
+      "title": "Stop Chasing Motivation—Build a System Instead",
+      "level": 2
+    },
+    {
+      "id": "build-system-para1",
+      "type": "paragraph",
+      "content": "This might sound a bit blunt, but waiting to feel motivated before studying doesn't work, especially for something like the INI CET exam."
+    },
+    {
+      "id": "build-system-para2",
+      "type": "paragraph",
+      "content": "What actually works is having a simple, repeatable study strategy."
+    },
+    {
+      "id": "build-system-para3",
+      "type": "paragraph",
+      "content": "You wake up, you know what needs to be done:"
+    },
+    {
+      "id": "build-system-list",
+      "type": "list",
+      "items": [
+        "A fixed topic",
+        "A set number of MCQs",
+        "A quick revision slot"
+      ]
+    },
+    {
+      "id": "build-system-para4",
+      "type": "paragraph",
+      "content": "That's it. No overthinking."
+    },
+    {
+      "id": "build-system-conclusion",
+      "type": "paragraph",
+      "content": "On most days, you won't feel like studying. But once you start, momentum usually follows. That's how consistency builds—not from motivation, but from routine."
+    },
+    {
+      "id": "manageable-prep",
+      "type": "heading",
+      "title": "Make Your Preparation Feel Manageable",
+      "level": 2
+    },
+    {
+      "id": "manageable-prep-para1",
+      "type": "paragraph",
+      "content": "One big reason people lose motivation during INI CET 2026 prep is because everything feels too much."
+    },
+    {
+      "id": "manageable-prep-para2",
+      "type": "paragraph",
+      "content": "Too many subjects. Too many resources. Too many things left."
+    },
+    {
+      "id": "manageable-prep-para3",
+      "type": "paragraph",
+      "content": "Instead of thinking, \"I have to finish everything,\" shift it to:"
+    },
+    {
+      "id": "manageable-prep-list",
+      "type": "list",
+      "items": [
+        "\"I'll finish this one topic today\"",
+        "\"I'll understand these 30 MCQs properly\""
+      ]
+    },
+    {
+      "id": "manageable-prep-para4",
+      "type": "paragraph",
+      "content": "That small shift makes your preparation strategy feel doable."
+    },
+    {
+      "id": "manageable-prep-conclusion",
+      "type": "paragraph",
+      "content": "And when things feel doable, you're more likely to show up the next day"
+    },
+    {
+      "id": "use-mcqs",
+      "type": "heading",
+      "title": "Use MCQs to Stay Engaged",
+      "level": 2
+    },
+    {
+      "id": "use-mcqs-para1",
+      "type": "paragraph",
+      "content": "Reading theory for long hours can get draining. That's where MCQs help—not just for learning, but for keeping you mentally engaged."
+    },
+    {
+      "id": "use-mcqs-para2",
+      "type": "paragraph",
+      "content": "During exam preparation, MCQs:"
+    },
+    {
+      "id": "use-mcqs-list",
+      "type": "list",
+      "items": [
+        "Break monotony",
+        "Show you where you stand",
+        "Give quick feedback"
+      ]
+    },
+    {
+      "id": "use-mcqs-conclusion",
+      "type": "paragraph",
+      "content": "Even if your scores aren't great initially, they keep you involved. That matters more than you think."
+    },
+    {
+      "id": "track-progress",
+      "type": "heading",
+      "title": "Track Progress (Even Small Wins Count)",
+      "level": 2
+    },
+    {
+      "id": "track-progress-para1",
+      "type": "paragraph",
+      "content": "It's very easy to feel like you're not improving, especially during long prep cycles."
+    },
+    {
+      "id": "track-progress-para2",
+      "type": "paragraph",
+      "content": "So track something simple:"
+    },
+    {
+      "id": "track-progress-list",
+      "type": "list",
+      "items": [
+        "Topics completed",
+        "MCQs solved",
+        "Tests attempted"
+      ]
+    },
+    {
+      "id": "track-progress-conclusion",
+      "type": "paragraph",
+      "content": "When you look back after a couple of weeks, you'll see movement. That helps keep motivation alive during long phases of INI CET strategy execution."
+    },
+    {
+      "id": "dont-overload",
+      "type": "heading",
+      "title": "Don't Overload Your Resources",
+      "level": 2
+    },
+    {
+      "id": "dont-overload-para1",
+      "type": "paragraph",
+      "content": "This is a big one."
+    },
+    {
+      "id": "dont-overload-para2",
+      "type": "paragraph",
+      "content": "Switching between multiple books and platforms kills consistency. It feels productive, but it usually isn't."
+    },
+    {
+      "id": "dont-overload-para3",
+      "type": "paragraph",
+      "content": "Stick to:"
+    },
+    {
+      "id": "dont-overload-list",
+      "type": "list",
+      "items": [
+        "One main source",
+        "One MCQ bank",
+        "Your own notes"
+      ]
+    },
+    {
+      "id": "dont-overload-conclusion",
+      "type": "paragraph",
+      "content": "Good study material matters but using it properly matters more."
+    },
+    {
+      "id": "accept-off-days",
+      "type": "heading",
+      "title": "Accept That Some Days Will Be Off",
+      "level": 2
+    },
+    {
+      "id": "accept-off-days-para1",
+      "type": "paragraph",
+      "content": "You're not going to have perfect days every time. There will be days when:"
+    },
+    {
+      "id": "accept-off-days-list",
+      "type": "list",
+      "items": [
+        "You can't focus",
+        "You feel behind",
+        "You compare yourself to others"
+      ]
+    },
+    {
+      "id": "accept-off-days-para2",
+      "type": "paragraph",
+      "content": "That doesn't mean your best strategy for INI CET isn't working."
+    },
+    {
+      "id": "accept-off-days-conclusion",
+      "type": "paragraph",
+      "content": "It just means you're human. The key is not to let one bad day turn into a bad week."
+    },
+    {
+      "id": "tests-initially-bad",
+      "type": "heading",
+      "title": "Tests Will Feel Bad Initially—That's Okay",
+      "level": 2
+    },
+    {
+      "id": "tests-initially-bad-para1",
+      "type": "paragraph",
+      "content": "When you start grand tests, scores can hit your confidence."
+    },
+    {
+      "id": "tests-initially-bad-para2",
+      "type": "paragraph",
+      "content": "But here's the thing, tests are not there to validate you. They're there to guide you."
+    },
+    {
+      "id": "tests-initially-bad-para3",
+      "type": "paragraph",
+      "content": "Focus on:"
+    },
+    {
+      "id": "tests-initially-bad-list",
+      "type": "list",
+      "items": [
+        "What you got wrong",
+        "Why you got it wrong",
+        "What needs fixing"
+      ]
+    },
+    {
+      "id": "tests-initially-bad-conclusion",
+      "type": "paragraph",
+      "content": "That shift in mindset makes your INI CET preparation much more stable."
+    },
+    {
+      "id": "keep-goal-clear",
+      "type": "heading",
+      "title": "Keep Your End Goal Clear (But Not Overwhelming)",
+      "level": 2
+    },
+    {
+      "id": "keep-goal-clear-para1",
+      "type": "paragraph",
+      "content": "You don't need to constantly remind yourself of rank or results."
+    },
+    {
+      "id": "keep-goal-clear-para2",
+      "type": "paragraph",
+      "content": "Just keep it simple:"
+    },
+    {
+      "id": "keep-goal-clear-list",
+      "type": "list",
+      "items": [
+        "One exam",
+        "One attempt",
+        "One step at a time"
+      ]
+    },
+    {
+      "id": "keep-goal-clear-conclusion",
+      "type": "paragraph",
+      "content": "You're preparing for INI CET 2026, not trying to solve everything in one day."
+    },
+    {
+      "id": "final-thought",
+      "type": "heading",
+      "title": "Final Thought",
+      "level": 2
+    },
+    {
+      "id": "final-thought-para1",
+      "type": "paragraph",
+      "content": "Motivation comes and goes. That's just how it is."
+    },
+    {
+      "id": "final-thought-para2",
+      "type": "paragraph",
+      "content": "What actually carries you through INI CET exam prep is:"
+    },
+    {
+      "id": "final-thought-list",
+      "type": "list",
+      "items": [
+        "A simple routine",
+        "A realistic study strategy",
+        "Showing up even on low days"
+      ]
+    },
+    {
+      "id": "final-thought-conclusion",
+      "type": "paragraph",
+      "content": "If you get that part right, you don't need to chase motivation—it follows you."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Is it normal to lose motivation during INI-CET preparation?",
+          "answer": "Yes, it's common consistency matters more than constant motivation."
+        },
+        {
+          "question": "How can I stay consistent for INI-CET 2026 prep?",
+          "answer": "Follow a simple daily routine and focus on small, achievable goals."
+        },
+        {
+          "question": "What is the best strategy for INI-CET when motivation is low?",
+          "answer": "Stick to your study strategy and start with small tasks to build momentum."
+        },
+        {
+          "question": "Do MCQs help stay motivated during exam preparation?",
+          "answer": "Yes definitely, they will keep you engaged and give quick feedback on your progress."
+        }
+      ]
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "title": "Submit queries to BelieversConsultancy",
+      "content": "Have questions about INI-CET preparation without burnout? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/e/1FAIpQLSeIM6HYq_pg_mq6PK78YzdLn6KwaVQjyndn2CdJ8ThWWXvNOA/viewform"
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "ini cet",
+        "ini cet 2026",
+        "ini cet exam",
+        "inicet preparation",
+        "study strategy",
+        "inicet strategy",
+        "study material",
+        "preparation strategy",
+        "exam preparation",
+        "best strategy for inicet"
+      ]
+    }
+  ]
 }
 ];
 
