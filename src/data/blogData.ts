@@ -60403,6 +60403,355 @@ export const blogPosts: BlogPost[] = [
       ]
     }
   ]
+},
+{
+  "id": 148,
+  "title": "Common Mistakes in INI-CET Preparation (And How to Avoid Them)",
+  "slug": "common-mistakes-ini-cet-preparation-how-to-avoid-them",
+  "excerpt": "Avoid common INI CET preparation mistakes like random study plans, ignoring PYQs, and burnout by using smart strategy and consistent revision daily.",
+  "featured_image": "https://cdn.dribbble.com/userupload/47636033/file/dd37af4a565c51386ea1061a5431ad1c.jpg?w=1200&h=600&fit=crop",
+  "featured_image_alt": "ini cet 2026",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-blue-100 text-blue-800"
+  },
+  "tags": [
+    "INI CET 2026",
+    "INI CET Preparation",
+    "Exam Preparation",
+    "PG Preparation",
+    "Preparation Strategy"
+  ],
+  "published_date": "2026-05-06",
+  "read_time": 10,
+  "meta_title": "Common Mistakes in INI-CET Preparation (And How to Avoid Them)",
+  "meta_description": "Avoid common INI CET preparation mistakes like random study plans, ignoring PYQs, and burnout by using smart strategy and consistent revision daily.",
+  "keywords": [
+    "ini cet 2026",
+    "inicet exam",
+    "inicet preparation",
+    "pg preparation",
+    "preparation strategy",
+    "Exam Preparation",
+    "ini cet exam pattern",
+    "inicet admit card",
+    "inicet exam syllabus",
+    "ini cet exam preparation"
+  ],
+  "sections": [
+    {
+      "id": "intro",
+      "type": "heading",
+      "title": "Common Mistakes in INI-CET Preparation (And How to Avoid Them)",
+      "level": 1
+    },
+    {
+      "id": "intro-para1",
+      "type": "paragraph",
+      "content": "Preparing for INI-CET 2026 can get confusing at times."
+    },
+    {
+      "id": "intro-para2",
+      "type": "paragraph",
+      "content": "You'll see one person following a strict timetable, someone else solving hundreds of MCQs daily—and then there's you, wondering if your preparation is even going in the right direction."
+    },
+    {
+      "id": "intro-para3",
+      "type": "paragraph",
+      "content": "Almost everyone goes through this phase."
+    },
+    {
+      "id": "intro-para4",
+      "type": "paragraph",
+      "content": "But here's something worth understanding early—most students aren't struggling because they're not studying enough. The problem is usually how they're studying. Their approach doesn't match how the exam actually works."
+    },
+    {
+      "id": "intro-para5",
+      "type": "paragraph",
+      "content": "Fix that, and things start feeling a lot more manageable."
+    },
+    {
+      "id": "mistakes-overview-table",
+      "type": "table",
+      "headers": ["#", "Common Mistake", "Quick Fix"],
+      "rows": [
+        ["1", "Treating INI-CET like a memory game", "Focus on understanding why, not just what"],
+        ["2", "Not understanding the exam pattern", "Spend a day or two studying the syllabus and pattern first"],
+        ["3", "Using too many resources", "Stick to a few solid resources and revise them deeply"],
+        ["4", "Delaying MCQs", "Start MCQs early, alongside theory"],
+        ["5", "Skipping proper analysis", "Understand why correct answers work and why others don't"],
+        ["6", "Not revising enough", "Revise in cycles — weekly, monthly, and before the exam"],
+        ["7", "Avoiding grand tests", "Use tests to identify weak areas, not to prove performance"],
+        ["8", "Comparing yourself to others", "Focus on your own consistency, not others' progress"],
+        ["9", "Ignoring small but important details", "Stay updated with official notifications, admit card, and schedule"]
+      ],
+      "caption": "These are the most common mistakes that slow down INI-CET preparation. Each one is fixable with the right awareness."
+    },
+    {
+      "id": "mistake-1",
+      "type": "heading",
+      "title": "1. Treating INI-CET Like a Memory Game",
+      "level": 2
+    },
+    {
+      "id": "mistake-1-para1",
+      "type": "paragraph",
+      "content": "A lot of people prepare like this—read, underline, revise… and still get stuck in MCQs."
+    },
+    {
+      "id": "mistake-1-para2",
+      "type": "paragraph",
+      "content": "That's because INI-CET isn't a straight recall exam. It's more about connecting ideas and applying them."
+    },
+    {
+      "id": "mistake-1-para3",
+      "type": "paragraph",
+      "content": "If your prep is only based on memorizing facts, questions will keep feeling tricky."
+    },
+    {
+      "id": "mistake-1-fix",
+      "type": "paragraph",
+      "content": "What helps? Slow down a bit while studying. Try to understand why something happens, not just what happens. That small shift changes how you solve questions."
+    },
+    {
+      "id": "mistake-2",
+      "type": "heading",
+      "title": "2. Not Really Understanding the Exam Pattern",
+      "level": 2
+    },
+    {
+      "id": "mistake-2-para1",
+      "type": "paragraph",
+      "content": "Many students jump straight into studying without spending time understanding the exam itself."
+    },
+    {
+      "id": "mistake-2-para2",
+      "type": "paragraph",
+      "content": "It feels productive in the beginning—but later, it catches up. You might end up focusing on low-yield topics, missing important areas, or constantly feeling short on time."
+    },
+    {
+      "id": "mistake-2-fix",
+      "type": "paragraph",
+      "content": "Simple fix: Take a day or two just to understand the pattern and syllabus. It sounds basic, but it saves a lot of effort later."
+    },
+    {
+      "id": "mistake-3",
+      "type": "heading",
+      "title": "3. Using Too Many Resources",
+      "level": 2
+    },
+    {
+      "id": "mistake-3-para1",
+      "type": "paragraph",
+      "content": "This one is very common. New notes, new apps, new books—it feels like you're doing more. But in reality, you're just dividing your attention."
+    },
+    {
+      "id": "mistake-3-fix",
+      "type": "paragraph",
+      "content": "What actually works? Stick to a few solid resources and revise them properly. Depth matters more than variety here."
+    },
+    {
+      "id": "mistake-4",
+      "type": "heading",
+      "title": "4. Delaying MCQs",
+      "level": 2
+    },
+    {
+      "id": "mistake-4-para1",
+      "type": "paragraph",
+      "content": "\"I'll start MCQs once I finish theory.\" Most people think this way. The problem is—you never feel fully ready."
+    },
+    {
+      "id": "mistake-4-para2",
+      "type": "paragraph",
+      "content": "MCQs aren't just for testing. They're part of learning."
+    },
+    {
+      "id": "mistake-4-fix",
+      "type": "paragraph",
+      "content": "Better approach: Start early. You'll get things wrong—and that's fine. That's how you improve."
+    },
+    {
+      "id": "mistake-5",
+      "type": "heading",
+      "title": "5. Skipping Proper Analysis",
+      "level": 2
+    },
+    {
+      "id": "mistake-5-para1",
+      "type": "paragraph",
+      "content": "A very common pattern: solve questions → check answers → move on. It feels efficient, but you're missing the real learning."
+    },
+    {
+      "id": "mistake-5-fix",
+      "type": "paragraph",
+      "content": "What to do instead: Spend a little time understanding why the correct answer works—and why the others don't. That's what prevents repeat mistakes."
+    },
+    {
+      "id": "mistake-6",
+      "type": "heading",
+      "title": "6. Not Revising Enough",
+      "level": 2
+    },
+    {
+      "id": "mistake-6-para1",
+      "type": "paragraph",
+      "content": "You might feel like you've covered a subject well. Give it a couple of weeks—and suddenly it feels unfamiliar again. That's normal."
+    },
+    {
+      "id": "mistake-6-para2",
+      "type": "paragraph",
+      "content": "Without revision, things don't stick for long. Confidence drops, and performance follows."
+    },
+    {
+      "id": "mistake-6-fix",
+      "type": "paragraph",
+      "content": "Keep it simple: Revise in cycles—once within a week, again after a few weeks, and one final round closer to the exam."
+    },
+    {
+      "id": "mistake-7",
+      "type": "heading",
+      "title": "7. Avoiding Grand Tests",
+      "level": 2
+    },
+    {
+      "id": "mistake-7-para1",
+      "type": "paragraph",
+      "content": "A lot of students delay tests because low scores feel discouraging. But avoiding them doesn't help—it actually slows you down. You miss out on time management, exam feel, and identifying weak areas."
+    },
+    {
+      "id": "mistake-7-fix",
+      "type": "paragraph",
+      "content": "Shift your thinking: Tests aren't for proving how good you are. They're for showing you what needs work."
+    },
+    {
+      "id": "mistake-8",
+      "type": "heading",
+      "title": "8. Comparing Yourself to Others",
+      "level": 2
+    },
+    {
+      "id": "mistake-8-para1",
+      "type": "paragraph",
+      "content": "This one is exhausting. You see someone scoring well or finishing multiple revisions—and suddenly your own preparation feels inadequate. Even when it isn't."
+    },
+    {
+      "id": "mistake-8-fix",
+      "type": "paragraph",
+      "content": "Reality check: Everyone studies differently. Focus on your own consistency—that's what actually improves results."
+    },
+    {
+      "id": "mistake-9",
+      "type": "heading",
+      "title": "9. Ignoring Small but Important Details",
+      "level": 2
+    },
+    {
+      "id": "mistake-9-para1",
+      "type": "paragraph",
+      "content": "In the middle of your preparation, it's very easy to overlook basic things such as:"
+    },
+    {
+      "id": "mistake-9-list",
+      "type": "list",
+      "items": [
+        "Your updated admit card",
+        "Exam schedule",
+        "Valid required documents"
+      ]
+    },
+    {
+      "id": "mistake-9-para2",
+      "type": "paragraph",
+      "content": "Until the last moment, panic hits."
+    },
+    {
+      "id": "mistake-9-fix",
+      "type": "paragraph",
+      "content": "Easy fix: Stay updated with all official notifications. It's a small habit that saves unnecessary stress."
+    },
+    {
+      "id": "final-thought",
+      "type": "heading",
+      "title": "Final Thought",
+      "level": 2
+    },
+    {
+      "id": "final-thought-para1",
+      "type": "paragraph",
+      "content": "You don't need a perfect plan for INI-CET 2026. You just need one that you can follow consistently."
+    },
+    {
+      "id": "final-thought-para2",
+      "type": "paragraph",
+      "content": "If your preparation is:"
+    },
+    {
+      "id": "final-thought-list",
+      "type": "list",
+      "items": [
+        "Focused on understanding",
+        "Backed by regular revision",
+        "Consistent over time"
+      ]
+    },
+    {
+      "id": "final-thought-conclusion",
+      "type": "paragraph",
+      "content": "—you're already on the right track. At the end, it's not about doing more. It's about doing what actually works—and avoiding what doesn't."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Is memorization enough for INI-CET preparation?",
+          "answer": "Not really. Understanding concepts matters more because questions are application-based."
+        },
+        {
+          "question": "When should I start solving MCQs?",
+          "answer": "As early as possible—along with your theory."
+        },
+        {
+          "question": "How important is revision?",
+          "answer": "Very. Without it, retention drops faster than you expect."
+        },
+        {
+          "question": "Do mock test scores matter?",
+          "answer": "Less than you think. What matters more is what you learn from them."
+        }
+      ]
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "ini cet 2026",
+        "inicet exam",
+        "inicet preparation",
+        "pg preparation",
+        "preparation strategy",
+        "Exam Preparation",
+        "ini cet exam pattern",
+        "inicet admit card",
+        "inicet exam syllabus",
+        "ini cet exam preparation"
+      ]
+    }
+  ]
 }
 ];
 
