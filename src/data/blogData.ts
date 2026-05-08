@@ -60777,7 +60777,7 @@ export const blogPosts: BlogPost[] = [
     "Medical PG Entrance Exam",
     "Preparation Strategy"
   ],
-  "published_date": "2026-05-06",
+  "published_date": "2026-05-08",
   "read_time": 10,
   "meta_title": "INI-CET vs NEET PG: The Real Difference No One Tells You",
   "meta_description": "Know the real difference between INI CET vs NEET PG in exam pattern, difficulty, concepts, and strategy to prepare smarter and score higher.",
