@@ -60796,12 +60796,12 @@ export const blogPosts: BlogPost[] = [
     "pattern question paper"
   ],
   "sections": [
-    {
-      "id": "intro",
-      "type": "heading",
-      "title": "INI-CET vs NEET PG: The Real Difference No One Tells You",
-      "level": 1
-    },
+    // {
+    //   "id": "intro",
+    //   "type": "heading",
+    //   "title": "INI-CET vs NEET PG: The Real Difference No One Tells You",
+    //   "level": 1
+    // },
     {
       "id": "intro-para1",
       "type": "paragraph",
