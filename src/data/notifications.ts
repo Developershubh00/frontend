@@ -784,6 +784,7 @@ const rawNotifications: Omit<Notification, "isNew">[] = [
     time: "10:00 AM",
     read: false,
     icon: "🔔",
+    link: "https://www.aiimsexams.ac.in/landingpage/courses/sub-course/Postgraduate/68dbba73b7b0968176739766/68dbbb27b7b096817673976d",
   },
   // {
   //   id: 15,
