@@ -61117,6 +61117,304 @@ export const blogPosts: BlogPost[] = [
       ]
     }
   ]
+},
+{
+  "id": 150,
+  "title": "When Prep Starts Feeling Like Comparison: Staying Focused in the INI-CET Phase",
+  "slug": "when-prep-feels-like-comparison-staying-focused-ini-cet",
+  "excerpt": "When INI-CET prep feels like comparison, learn how to stay focused, manage pressure, build confidence, and follow your own study path.",
+  "featured_image": "https://cdn.dribbble.com/userupload/47685986/file/c3faaea7645505dd90b302e6b2b0d767.jpg?w=1200&h=600&fit=crop",
+  "featured_image_alt": "ini cet 2026",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-blue-100 text-blue-800"
+  },
+  "tags": [
+    "INI CET 2026",
+    "INI CET Preparation",
+    "Exam Preparation",
+    "PG Preparation",
+    "Preparation Strategy"
+  ],
+  "published_date": "2026-05-11",
+  "read_time": 10,
+  "meta_title": "When Prep Starts Feeling Like Comparison: Staying Focused in the INI-CET Phase",
+  "meta_description": "When INI-CET prep feels like comparison, learn how to stay focused, manage pressure, build confidence, and follow your own study path.",
+  "keywords": [
+    "ini cet",
+    "ini cet 2026",
+    "ini cet exam",
+    "inicet preparation",
+    "revision schedule",
+    "mock test scores",
+    "exam preparation",
+    "preparation strategy",
+    "pg preparation"
+  ],
+  "sections": [
+    // {
+    //   "id": "intro",
+    //   "type": "heading",
+    //   "title": "When Prep Starts Feeling Like Comparison: Staying Focused in the INI-CET Phase",
+    //   "level": 1
+    // },
+    {
+      "id": "intro-para1",
+      "type": "paragraph",
+      "content": "If you're in the middle of INI CET 2026 prep, chances are you've felt this already."
+    },
+    {
+      "id": "intro-para2",
+      "type": "paragraph",
+      "content": "You open your phone for a quick break… and suddenly you're looking at someone else's mock test scores, someone finishing their third revision, someone talking about a near-perfect percentile."
+    },
+    {
+      "id": "intro-para3",
+      "type": "paragraph",
+      "content": "And just like that, your own exam preparation starts feeling… not enough."
+    },
+    {
+      "id": "intro-para4",
+      "type": "paragraph",
+      "content": "It happens to almost everyone during PG preparation. The tricky part is, it doesn't look like a problem at first. It feels like \"staying informed.\" But slowly, it turns into comparison—and that's where things start going off track."
+    },
+    {
+      "id": "comparison-loop",
+      "type": "heading",
+      "title": "The Comparison Loop (You Don't Even Notice It)",
+      "level": 2
+    },
+    {
+      "id": "comparison-loop-para1",
+      "type": "paragraph",
+      "content": "It usually starts small."
+    },
+    {
+      "id": "comparison-loop-para2",
+      "type": "paragraph",
+      "content": "You check what others are doing \"just to see.\" Then you start measuring your progress against theirs. Then comes that quiet thought: \"Am I behind?\""
+    },
+    {
+      "id": "comparison-loop-para3",
+      "type": "paragraph",
+      "content": "The problem is, you're comparing:"
+    },
+    {
+      "id": "comparison-loop-table",
+      "type": "table",
+      "headers": ["What You See in Yourself", "What You See in Others"],
+      "rows": [
+        ["Your rough days", "Their highlight moments"],
+        ["Your struggles and doubts", "Their posted scores and milestones"],
+        ["Your entire journey", "A single snapshot of theirs"]
+      ],
+      "caption": "In INI CET preparation, consistency matters way more than how your prep looks on any given day."
+    },
+    {
+      "id": "rank-anxiety",
+      "type": "heading",
+      "title": "Rank Anxiety Is Real (And It Builds Quietly)",
+      "level": 2
+    },
+    {
+      "id": "rank-anxiety-para1",
+      "type": "paragraph",
+      "content": "No one talks about this enough, but rank anxiety doesn't suddenly appear before the INI CET exam—it builds slowly during preparation."
+    },
+    {
+      "id": "rank-anxiety-para2",
+      "type": "paragraph",
+      "content": "It shows up as:"
+    },
+    {
+      "id": "rank-anxiety-list",
+      "type": "list",
+      "items": [
+        "Overthinking your mock test scores",
+        "Changing your preparation strategy too often",
+        "Feeling restless even after a decent study day"
+      ]
+    },
+    {
+      "id": "rank-anxiety-conclusion",
+      "type": "paragraph",
+      "content": "You start chasing a number instead of focusing on the process. And the more you chase it, the more distracted you feel."
+    },
+    {
+      "id": "social-media",
+      "type": "heading",
+      "title": "Social Media: Helpful… Until It Isn't",
+      "level": 2
+    },
+    {
+      "id": "social-media-para1",
+      "type": "paragraph",
+      "content": "Let's be honest—social media can be useful. You find resources, strategies, updates."
+    },
+    {
+      "id": "social-media-para2",
+      "type": "paragraph",
+      "content": "But during serious INI CET prep, it can also:"
+    },
+    {
+      "id": "social-media-list",
+      "type": "list",
+      "items": [
+        "Break your focus",
+        "Trigger unnecessary comparison",
+        "Make your progress feel smaller than it actually is"
+      ]
+    },
+    {
+      "id": "social-media-conclusion",
+      "type": "paragraph",
+      "content": "You don't need to completely cut it off. But you do need boundaries. Sometimes, the best thing you can do for your preparation strategy is just… log out for a while."
+    },
+    {
+      "id": "stay-focused",
+      "type": "heading",
+      "title": "What Actually Helps You Stay Focused",
+      "level": 2
+    },
+    {
+      "id": "stay-focused-para1",
+      "type": "paragraph",
+      "content": "There's no perfect fix, but a few small shifts make a big difference."
+    },
+    {
+      "id": "stay-focused-table",
+      "type": "table",
+      "headers": ["Shift", "What to Do", "Why It Helps"],
+      "rows": [
+        ["1. Keep your world small", "Don't track 10 different people. Focus on your own plan.", "Reduces noise and keeps your energy on what you can control"],
+        ["2. Follow a simple revision schedule", "Not something complicated—just something you can repeat daily.", "Consistency beats intensity during long preparation phases"],
+        ["3. Treat mock tests as feedback, not judgment", "Your mock test scores tell you what to improve, not where you stand permanently.", "Removes fear around tests and turns them into learning tools"],
+        ["4. Limit unnecessary inputs", "Too many strategies = no strategy. Stick to what works for you.", "Prevents confusion and keeps your preparation strategy steady"]
+      ],
+      "caption": "Small daily shifts add up to big improvements over the course of INI CET preparation."
+    },
+    {
+      "id": "not-perfect-every-day",
+      "type": "heading",
+      "title": "You Don't Need to Be Perfect Every Day",
+      "level": 2
+    },
+    {
+      "id": "not-perfect-every-day-para1",
+      "type": "paragraph",
+      "content": "Some days will go well. Some won't."
+    },
+    {
+      "id": "not-perfect-every-day-para2",
+      "type": "paragraph",
+      "content": "You'll have days where your revision clicks, and days where nothing sticks. That's normal in long exam preparation phases like this."
+    },
+    {
+      "id": "not-perfect-every-day-conclusion",
+      "type": "paragraph",
+      "content": "What matters is not letting one off day turn into a week of doubt."
+    },
+    {
+      "id": "small-shift",
+      "type": "heading",
+      "title": "A Small Shift That Changes Everything",
+      "level": 2
+    },
+    {
+      "id": "small-shift-table",
+      "type": "table",
+      "headers": ["Instead of Asking", "Try Asking"],
+      "rows": [
+        ["Am I ahead or behind?", "Did I do what I planned today?"]
+      ],
+      "caption": "That one shift makes your INI CET preparation feel a lot more manageable."
+    },
+    {
+      "id": "final-thought",
+      "type": "heading",
+      "title": "Final Thought",
+      "level": 2
+    },
+    {
+      "id": "final-thought-para1",
+      "type": "paragraph",
+      "content": "Preparing for INI CET 2026 isn't just about covering the syllabus. It's also about managing your headspace."
+    },
+    {
+      "id": "final-thought-para2",
+      "type": "paragraph",
+      "content": "Comparison, rank anxiety, social media—they're all part of the journey now. You won't completely avoid them."
+    },
+    {
+      "id": "final-thought-para3",
+      "type": "paragraph",
+      "content": "But you can choose how much attention you give them."
+    },
+    {
+      "id": "final-thought-list",
+      "type": "list",
+      "items": [
+        "Keep your plan simple",
+        "Stick to your revision schedule",
+        "Show up even on low days"
+      ]
+    },
+    {
+      "id": "final-thought-conclusion",
+      "type": "paragraph",
+      "content": "That's usually enough to stay on track—even when everything around you feels noisy."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Is comparison normal during INI-CET preparation?",
+          "answer": "Yes, most aspirants experience comparison and self-doubt during their preparation journey."
+        },
+        {
+          "question": "How can I avoid getting distracted by others' progress?",
+          "answer": "Focus on your daily study goals instead of tracking others' mock scores and revisions."
+        },
+        {
+          "question": "Do mock test scores define my final INI-CET rank?",
+          "answer": "No, mock tests are meant to highlight your weak areas, not predict your exact rank."
+        },
+        {
+          "question": "Can social media affect my INI-CET preparation?",
+          "answer": "Yes, excessive social media use can increase comparison and reduce concentration."
+        }
+      ]
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "ini cet",
+        "ini cet 2026",
+        "ini cet exam",
+        "inicet preparation",
+        "revision schedule",
+        "mock test scores",
+        "exam preparation",
+        "preparation strategy",
+        "pg preparation"
+      ]
+    }
+  ]
 }
 ];
 
