@@ -1546,6 +1546,19 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "Medical Counselling Committee (MCC), NEET-PG Counselling",
     created_at: "2026-04-21T08:00:00Z",
   },
+  {
+    id: 117,
+    title: "INI CET Admit Card 2026",
+    content:
+      "AIIMS has officially released the admit card for PG medical entrance exams.",
+    date: "2026-05-11T08:00:00Z",
+    priority: "high",
+    category: "INICET",
+    link: "https://www.aiimsexams.ac.in/landingpage/courses/sub-course/Postgraduate/68dbba73b7b0968176739766/68dbbb27b7b096817673976d",
+    is_active: true,
+    source: "AIIMS INI CET 2026 Admit Card Released:",
+    created_at: "2026-05-11T08:00:00Z",
+  },
 ];
 
 /**
