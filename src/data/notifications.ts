@@ -775,16 +775,16 @@ const rawNotifications: Omit<Notification, "isNew">[] = [
     icon: "🔔",
     link: "/announcements",
   },
-  // {
-  //   id: 14,
-  //   title: "Provisional Counselling Seats Allotment - 2025 Round 3",
-  //   message: "Seat allotment for Round 3 counselling has been provisionally announced.",
-  //   type: "urgent",
-  //   date: "05.02.2026",
-  //   time: "10:00 AM",
-  //   read: false,
-  //   icon: "🔔",
-  // },
+  {
+    id: 15,
+    title: "INI CET Admit Card 2026",
+    message: "AIIMS has officially released the admit card for PG medical entrance exams.",
+    type: "urgent",
+    date: "11.05.2026",
+    time: "10:00 AM",
+    read: false,
+    icon: "🔔",
+  },
   // {
   //   id: 15,
   //   title: "Provisional Counselling Seats Allotment - 2025 Round 3",
@@ -794,6 +794,19 @@ const rawNotifications: Omit<Notification, "isNew">[] = [
   //   time: "10:00 AM",
   //   read: false,
   //   icon: "🔔",
+  // },
+  //  {
+  //   id: 117,
+  //   title: "INI CET Admit Card 2026",
+  //   content:
+  //     "AIIMS has officially released the admit card for PG medical entrance exams.",
+  //   date: "2026-05-11T08:00:00Z",
+  //   priority: "high",
+  //   category: "INICET",
+  //   link: "https://www.aiimsexams.ac.in/landingpage/courses/sub-course/Postgraduate/68dbba73b7b0968176739766/68dbbb27b7b096817673976d",
+  //   is_active: true,
+  //   source: "AIIMS INI CET 2026 Admit Card Released:",
+  //   created_at: "2026-05-11T08:00:00Z",
   // },
   
 
