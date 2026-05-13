@@ -61158,12 +61158,6 @@ export const blogPosts: BlogPost[] = [
     "pg preparation"
   ],
   "sections": [
-    // {
-    //   "id": "intro",
-    //   "type": "heading",
-    //   "title": "When Prep Starts Feeling Like Comparison: Staying Focused in the INI-CET Phase",
-    //   "level": 1
-    // },
     {
       "id": "intro-para1",
       "type": "paragraph",
@@ -61412,6 +61406,332 @@ export const blogPosts: BlogPost[] = [
         "exam preparation",
         "preparation strategy",
         "pg preparation"
+      ]
+    }
+  ]
+},
+{
+  "id": 151,
+  "title": "Sleep, Diet & Productivity: The Hidden Rank Boosters for INI-CET",
+  "slug": "sleep-diet-productivity-hidden-rank-boosters-ini-cet",
+  "excerpt": "Sleep, diet, and productivity can boost INI-CET rank by improving focus, memory, energy, and daily consistency during exam preparation.",
+  "featured_image": "https://cdn.dribbble.com/userupload/47711309/file/65d598ee5006bfe6463a40c032faf96e.jpg",
+  "featured_image_alt": "ini cet",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-blue-100 text-blue-800"
+  },
+  "tags": [
+    "INI CET 2026",
+    "INI CET Preparation",
+    "Exam Preparation",
+    "PG Preparation",
+    "Preparation Strategy"
+  ],
+  "published_date": "2026-05-13",
+  "read_time": 10,
+  "meta_title": "Sleep, Diet & Productivity: The Hidden Rank Boosters for INI-CET",
+  "meta_description": "Sleep, diet, and productivity can boost INI-CET rank by improving focus, memory, energy, and daily consistency during exam preparation.",
+  "keywords": [
+    "ini cet",
+    "ini cet 2026",
+    "ini cet exam",
+    "inicet preparation",
+    "exam preparation",
+    "preparation strategy",
+    "pg preparation",
+    "ini cet study plan",
+    "ini cet rank",
+    "ini cet score"
+  ],
+  "sections": [
+    {
+      "id": "intro-para1",
+      "type": "paragraph",
+      "content": "When people talk about cracking INI-CET, the conversation usually goes in one direction—study hours, resources, mock tests, revision plans."
+    },
+    {
+      "id": "intro-para2",
+      "type": "paragraph",
+      "content": "Fair enough. Those things matter."
+    },
+    {
+      "id": "intro-para3",
+      "type": "paragraph",
+      "content": "But there's another side to INI CET preparation that doesn't get enough attention—and it quietly affects everything else. Your sleep. Your diet. Your daily energy."
+    },
+    {
+      "id": "intro-para4",
+      "type": "paragraph",
+      "content": "Ignore these, and even the best INI CET study plan starts falling apart."
+    },
+    {
+      "id": "problem-no-one-talks-about",
+      "type": "heading",
+      "title": "The Problem No One Talks About",
+      "level": 2
+    },
+    {
+      "id": "problem-para1",
+      "type": "paragraph",
+      "content": "At some point during PG preparation, most people start cutting corners."
+    },
+    {
+      "id": "problem-para2",
+      "type": "paragraph",
+      "content": "Sleep gets reduced. Meals get irregular. Coffee intake goes up."
+    },
+    {
+      "id": "problem-para3",
+      "type": "paragraph",
+      "content": "It feels productive in the moment—like you're doing more. But after a few days, things start slipping:"
+    },
+    {
+      "id": "problem-list",
+      "type": "list",
+      "items": [
+        "You read but don't retain",
+        "You solve MCQs but make silly mistakes",
+        "Your focus drops halfway through study sessions"
+      ]
+    },
+    {
+      "id": "problem-conclusion",
+      "type": "paragraph",
+      "content": "And suddenly, your INI CET score doesn't reflect your effort."
+    },
+    {
+      "id": "sleep-section",
+      "type": "heading",
+      "title": "Sleep: The Most Underrated Strategy",
+      "level": 2
+    },
+    {
+      "id": "sleep-para1",
+      "type": "paragraph",
+      "content": "Let's be honest—most aspirants don't sleep enough during INI CET 2026 prep."
+    },
+    {
+      "id": "sleep-para2",
+      "type": "paragraph",
+      "content": "But here's the catch: Sleep isn't wasted time. It's when your brain actually processes what you studied."
+    },
+    {
+      "id": "sleep-para3",
+      "type": "paragraph",
+      "content": "Without proper sleep:"
+    },
+    {
+      "id": "sleep-list",
+      "type": "list",
+      "items": [
+        "Memory consolidation drops",
+        "Focus weakens",
+        "Decision-making gets slower"
+      ]
+    },
+    {
+      "id": "sleep-conclusion",
+      "type": "paragraph",
+      "content": "Which means even if you're studying longer, you're not studying better. You don't need a perfect routine. Just aim for consistent, decent sleep. That alone can improve your productivity more than an extra hour of tired studying."
+    },
+    {
+      "id": "diet-section",
+      "type": "heading",
+      "title": "Diet: Small Choices, Big Impact",
+      "level": 2
+    },
+    {
+      "id": "diet-para1",
+      "type": "paragraph",
+      "content": "Food doesn't feel like part of exam preparation, but it directly affects your energy."
+    },
+    {
+      "id": "diet-table",
+      "type": "table",
+      "headers": ["Habit", "Effect"],
+      "rows": [
+        ["Heavy, irregular meals", "Sluggish mind"],
+        ["Skipping meals", "Low concentration"]
+      ]
+    },
+    {
+      "id": "diet-para2",
+      "type": "paragraph",
+      "content": "You don't need a complicated diet plan. Just keep it practical:"
+    },
+    {
+      "id": "diet-list",
+      "type": "list",
+      "items": [
+        "Eat on time",
+        "Keep meals light and balanced",
+        "Stay hydrated"
+      ]
+    },
+    {
+      "id": "diet-conclusion",
+      "type": "paragraph",
+      "content": "That's it. Stable energy throughout the day makes your preparation strategy much easier to follow."
+    },
+    {
+      "id": "productivity-section",
+      "type": "heading",
+      "title": "Productivity Isn't About Studying More",
+      "level": 2
+    },
+    {
+      "id": "productivity-para1",
+      "type": "paragraph",
+      "content": "This is where most people get it wrong."
+    },
+    {
+      "id": "productivity-para2",
+      "type": "paragraph",
+      "content": "Productivity in INI CET preparation isn't about how many hours you sit—it's about how much you actually absorb."
+    },
+    {
+      "id": "productivity-para3",
+      "type": "paragraph",
+      "content": "On days when:"
+    },
+    {
+      "id": "productivity-list",
+      "type": "list",
+      "items": [
+        "You sleep well",
+        "You eat properly",
+        "You take short breaks"
+      ]
+    },
+    {
+      "id": "productivity-conclusion",
+      "type": "paragraph",
+      "content": "You'll notice something—you finish more in less time. That's real productivity."
+    },
+    {
+      "id": "rank-section",
+      "type": "heading",
+      "title": "How This Affects Your Rank",
+      "level": 2
+    },
+    {
+      "id": "rank-para1",
+      "type": "paragraph",
+      "content": "It may not feel obvious, but these small habits directly influence your INI CET rank."
+    },
+    {
+      "id": "rank-table",
+      "type": "table",
+      "headers": ["Habit", "Outcome"],
+      "rows": [
+        ["Better sleep", "Better retention"],
+        ["Better diet", "Better focus"],
+        ["Better energy", "Better performance in tests"]
+      ],
+      "caption": "And over weeks, that adds to a noticeable difference in your INI CET score."
+    },
+    {
+      "id": "keep-simple-section",
+      "type": "heading",
+      "title": "Keep It Simple (That's the Real Strategy)",
+      "level": 2
+    },
+    {
+      "id": "keep-simple-para1",
+      "type": "paragraph",
+      "content": "You don't need to overhaul your entire routine. Just a few basics:"
+    },
+    {
+      "id": "keep-simple-list",
+      "type": "list",
+      "items": [
+        "Fix a rough sleep window",
+        "Don't skip meals",
+        "Stay hydrated",
+        "Take short breaks between study blocks"
+      ]
+    },
+    {
+      "id": "keep-simple-conclusion",
+      "type": "paragraph",
+      "content": "That's enough to support your INI CET exam prep without making it complicated."
+    },
+    {
+      "id": "final-thought",
+      "type": "heading",
+      "title": "Final Thought",
+      "level": 2
+    },
+    {
+      "id": "final-thought-para1",
+      "type": "paragraph",
+      "content": "Most people focus only on what to study during INI CET 2026 preparation."
+    },
+    {
+      "id": "final-thought-para2",
+      "type": "paragraph",
+      "content": "But how you show up every day—your energy, focus, and consistency—that's what really shapes your outcome."
+    },
+    {
+      "id": "final-thought-para3",
+      "type": "paragraph",
+      "content": "Sleep, diet, and productivity aren't extra things to \"manage later.\" They're part of the plan."
+    },
+    {
+      "id": "final-thought-conclusion",
+      "type": "paragraph",
+      "content": "And if you get them right, they quietly give you an edge that others often miss."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Does sleep improve INI-CET preparation?",
+          "answer": "Yes, good sleep boosts memory and focus."
+        },
+        {
+          "question": "What should I eat during INI-CET prep?",
+          "answer": "Balanced meals and proper hydration work best."
+        },
+        {
+          "question": "Can diet affect my INI-CET score?",
+          "answer": "Yes, better nutrition supports concentration and accuracy."
+        },
+        {
+          "question": "How do I stay productive for INI-CET 2026?",
+          "answer": "Sleep well, eat on time, and take short breaks."
+        }
+      ]
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "ini cet",
+        "ini cet 2026",
+        "ini cet exam",
+        "inicet preparation",
+        "exam preparation",
+        "preparation strategy",
+        "pg preparation",
+        "ini cet study plan",
+        "ini cet rank",
+        "ini cet score"
       ]
     }
   ]
