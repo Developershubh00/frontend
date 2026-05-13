@@ -61701,19 +61701,19 @@ export const blogPosts: BlogPost[] = [
       "faqs": [
         {
           "question": "Does sleep improve INI-CET preparation?",
-          "answer": "Yes, good sleep boosts memory and focus."
+          "answer": "Honestly, yes. When you're sleep-deprived, nothing sticks — your brain just doesn't retain what you studied the night before. Getting 7–8 hours makes a real difference."
         },
         {
           "question": "What should I eat during INI-CET prep?",
-          "answer": "Balanced meals and proper hydration work best."
+          "answer": "Skip the junk and don't study on an empty stomach. Eat your regular meals, drink enough water, and you'll have the energy to actually get through a long study session without burning out by evening."
         },
         {
           "question": "Can diet affect my INI-CET score?",
-          "answer": "Yes, better nutrition supports concentration and accuracy."
+          "answer": "It can. If you're hungry or running on sugar the whole day, staying focused for 3 hours straight in the exam hall gets tough. Eating decently keeps you steady when it counts."
         },
         {
           "question": "How do I stay productive for INI-CET 2026?",
-          "answer": "Sleep well, eat on time, and take short breaks."
+          "answer": "Keep it simple: sleep at a consistent time, eat before you sit down to study, and step away every 90 minutes or so. Grinding non-stop sounds productive but usually isn't."
         }
       ]
     },
