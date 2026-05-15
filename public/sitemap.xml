@@ -1,75 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="
+  http://www.sitemaps.org/schemas/sitemap/0.9
+  http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
   <!-- Homepage -->
   <url>
     <loc>https://believersconsultancy.com/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-05-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
-  
-  <!-- Main Pages -->
+
+  <!-- Main Counselling Pages -->
   <url>
     <loc>https://believersconsultancy.com/neet-pg</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-  
+
   <url>
     <loc>https://believersconsultancy.com/inicet</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-  
+
   <url>
     <loc>https://believersconsultancy.com/predictor/pg</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  
+
+  <!-- Data Pages -->
   <url>
     <loc>https://believersconsultancy.com/medical-colleges</loc>
-    <lastmod>2025-10-29</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  
+
+  <url>
+    <loc>https://believersconsultancy.com/allotments</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://believersconsultancy.com/closing-ranks</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://believersconsultancy.com/seat-matrix</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog -->
   <url>
     <loc>https://believersconsultancy.com/blog</loc>
-    <lastmod>2025-10-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
   </url>
-  
-  <!-- Information Pages -->
+
+  <!-- Support -->
   <url>
     <loc>https://believersconsultancy.com/faq</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
-  
+
   <url>
     <loc>https://believersconsultancy.com/support</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
-  
+
+  <!-- Legal -->
   <url>
     <loc>https://believersconsultancy.com/privacy</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-05-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
-  
+
   <url>
     <loc>https://believersconsultancy.com/terms</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-05-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
+
 </urlset>

@@ -1,11 +1,24 @@
 User-agent: *
+
 Allow: /
 
-# Disallow admin/dashboard pages
+# Private / Auth Pages
 Disallow: /dashboard
 Disallow: /profile
 Disallow: /login
 Disallow: /signup
 
-# Sitemap
+# API & Internal
+Disallow: /api/
+
+# Prevent duplicate searches
+Disallow: /*?*
+
+# Crawl delay
+Crawl-delay: 5
+
+# Main Sitemap
 Sitemap: https://believersconsultancy.com/sitemap.xml
+
+# Preferred Host
+Host: https://believersconsultancy.com
