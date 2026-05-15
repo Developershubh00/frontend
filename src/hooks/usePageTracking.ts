@@ -1,18 +1,4 @@
-// import { useEffect } from 'react';
-// import { useLocation } from 'react-router-dom';
 
-// export const usePageTracking = () => {
-//   const location = useLocation();
-
-//   useEffect(() => {
-//     // Track page view in Google Analytics
-//     if (window.gtag) {
-//       window.gtag('config', 'G-WHDNY2WK54', {
-//         page_path: location.pathname + location.search,
-//       });
-//     }
-//   }, [location]);
-// };
 
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
