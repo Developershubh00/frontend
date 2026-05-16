@@ -61779,12 +61779,6 @@ export const blogPosts: BlogPost[] = [
   ],
   "sections": [
     {
-      "id": "intro",
-      "type": "heading",
-      "title": "Best PG Medical Branches After INI-CET: A Practical Guide to Choosing Your Medical Career",
-      "level": 1
-    },
-    {
       "id": "intro-para1",
       "type": "paragraph",
       "content": "Once your INI-CET result is out, the next thought hits almost immediately: \"Which branch should I actually go for?\""
@@ -62062,6 +62056,412 @@ export const blogPosts: BlogPost[] = [
         "career guidance and counselling",
         "career counselling program",
         "counselling career options"
+      ]
+    }
+  ]
+},
+{
+  "id": 153,
+  "title": "INI-CET Counselling Process Explained: What Actually Happens After the Result",
+  "slug": "ini-cet-counselling-process-explained-after-result",
+  "excerpt": "Understand the INI-CET counselling process after results, including registration, choice filling, seat allotment, document checks, and admission steps.",
+  "featured_image": "https://cdn.dribbble.com/userupload/47747001/file/de7d047bcd0da1e3d8fdca6be88c9921.jpg",
+  "featured_image_alt": "ini cet counselling process",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-blue-100 text-blue-800"
+  },
+  "tags": [
+    "INI CET 2026",
+    "INI CET Counselling",
+    "INI CET Seat Allocation",
+    "Exam Preparation",
+    "PG Preparation"
+  ],
+  "published_date": "2026-05-16",
+  "read_time": 10,
+  "meta_title": "INI-CET Counselling Process Explained: What Actually Happens After the Result",
+  "meta_description": "Understand the INI-CET counselling process after results, including registration, choice filling, seat allotment, document checks, and admission steps.",
+  "keywords": [
+    "ini cet counselling process",
+    "ini cet counselling",
+    "ini cet admit card",
+    "ini cet counselling 2025",
+    "ini cet 2025 counselling",
+    "ini cet",
+    "ini cet 2026",
+    "ini cet seat allocation"
+  ],
+  "sections": [
+    {
+      "id": "intro-para1",
+      "type": "paragraph",
+      "content": "The INI-CET result day brings a strange mix of emotions. Relief, excitement, confusion — sometimes all at once."
+    },
+    {
+      "id": "intro-para2",
+      "type": "paragraph",
+      "content": "You finally know your rank, but that's when a new set of questions starts running in your head:"
+    },
+    {
+      "id": "intro-list",
+      "type": "list",
+      "items": [
+        "Which branch should I choose?",
+        "Which college should I keep first?",
+        "Is it better to freeze the seat or wait for an upgrade?",
+        "What if I make the wrong decision?"
+      ]
+    },
+    {
+      "id": "intro-para3",
+      "type": "paragraph",
+      "content": "For many students, counselling feels more stressful than the exam itself. Not because it is difficult, but because nobody really explains it in a simple way."
+    },
+    {
+      "id": "intro-para4",
+      "type": "paragraph",
+      "content": "The truth is, the INI-CET counselling process becomes much easier once you understand the sequence properly. You just need clarity, patience, and a little planning."
+    },
+    {
+      "id": "intro-conclusion",
+      "type": "paragraph",
+      "content": "Here's a simple breakdown of how the process actually works."
+    },
+    {
+      "id": "step1-section",
+      "type": "heading",
+      "title": "Step 1: Registration Comes First",
+      "level": 2
+    },
+    {
+      "id": "step1-para1",
+      "type": "paragraph",
+      "content": "The counselling process starts with online registration."
+    },
+    {
+      "id": "step1-para2",
+      "type": "paragraph",
+      "content": "Process is given below:"
+    },
+    {
+      "id": "step1-list",
+      "type": "list",
+      "items": [
+        "Enter your details carefully",
+        "Upload the required information",
+        "Pay the counselling fee",
+        "Select your category correctly"
+      ]
+    },
+    {
+      "id": "step1-conclusion",
+      "type": "paragraph",
+      "content": "It sounds basic, but this is where many students make careless mistakes. Even small mismatches in details can create unnecessary trouble later during document verification. So don't rush this step just because everyone else is doing it quickly."
+    },
+    {
+      "id": "step2-section",
+      "type": "heading",
+      "title": "Step 2: Choice Filling — The Part That Matters the Most",
+      "level": 2
+    },
+    {
+      "id": "step2-para1",
+      "type": "paragraph",
+      "content": "This is probably the most important stage of the entire counselling process."
+    },
+    {
+      "id": "step2-para2",
+      "type": "paragraph",
+      "content": "Here, you'll fill:"
+    },
+    {
+      "id": "step2-list1",
+      "type": "list",
+      "items": [
+        "Your preferred branches",
+        "Your preferred colleges/institutes"
+      ]
+    },
+    {
+      "id": "step2-para3",
+      "type": "paragraph",
+      "content": "And honestly, this is where most students get confused. Some students only fill \"safe\" options because they are scared of missing a seat. Others blindly follow random preference lists shared online. That usually creates more confusion than clarity."
+    },
+    {
+      "id": "step2-para4",
+      "type": "paragraph",
+      "content": "A smarter approach is to divide your choices properly:"
+    },
+    {
+      "id": "step2-list2",
+      "type": "list",
+      "items": [
+        "Keep your dream options at the top",
+        "Add realistic choices in the middle",
+        "Keep backup options too"
+      ]
+    },
+    {
+      "id": "step2-conclusion",
+      "type": "paragraph",
+      "content": "Don't underestimate the importance of preference order. Sometimes a single change in sequence can completely change your final allotment. So take your time before locking choices."
+    },
+    {
+      "id": "step3-section",
+      "type": "heading",
+      "title": "Step 3: Seat Allotment",
+      "level": 2
+    },
+    {
+      "id": "step3-para1",
+      "type": "paragraph",
+      "content": "Once choice filling ends, seat allotment happens based on:"
+    },
+    {
+      "id": "step3-list",
+      "type": "list",
+      "items": [
+        "Your rank",
+        "Your category",
+        "Seat availability",
+        "The order of choices you filled"
+      ]
+    },
+    {
+      "id": "step3-conclusion",
+      "type": "paragraph",
+      "content": "If your rank matches a seat according to your preference list, that seat gets allotted to you. This is why counselling is not only about getting a good rank. It is also about making sensible decisions while filling choices."
+    },
+    {
+      "id": "step4-section",
+      "type": "heading",
+      "title": "Step 4: Freeze, Upgrade, or Exit",
+      "level": 2
+    },
+    {
+      "id": "step4-para1",
+      "type": "paragraph",
+      "content": "After allotment, you usually get a few options."
+    },
+    {
+      "id": "step4-table",
+      "type": "table",
+      "headers": ["Option", "What It Means"],
+      "rows": [
+        ["Freeze", "You accept the allotted seat and decide not to participate in further rounds."],
+        ["Upgrade", "You keep the current seat but stay eligible for a better option in the next round."],
+        ["Exit", "You leave the counselling process for that round."]
+      ]
+    },
+    {
+      "id": "step4-conclusion",
+      "type": "paragraph",
+      "content": "A lot of students panic here because everyone around them starts giving advice. But this decision should depend on your own priorities — not on pressure from friends, Telegram groups, or random opinions online."
+    },
+    {
+      "id": "step5-section",
+      "type": "heading",
+      "title": "Step 5: Document Verification",
+      "level": 2
+    },
+    {
+      "id": "step5-para1",
+      "type": "paragraph",
+      "content": "Once you accept a seat, the next important step is document verification."
+    },
+    {
+      "id": "step5-para2",
+      "type": "paragraph",
+      "content": "Usually, documents required include:"
+    },
+    {
+      "id": "step5-list",
+      "type": "list",
+      "items": [
+        "MBBS degree certificate",
+        "Internship completion proof",
+        "Category certificate (if applicable)",
+        "Identity proof",
+        "Other official documents"
+      ]
+    },
+    {
+      "id": "step5-conclusion",
+      "type": "paragraph",
+      "content": "Keep everything ready beforehand instead of searching for documents at the last moment. One missing certificate can create unnecessary stress during reporting."
+    },
+    {
+      "id": "step6-section",
+      "type": "heading",
+      "title": "Step 6: Further Rounds of Counselling",
+      "level": 2
+    },
+    {
+      "id": "step6-para1",
+      "type": "paragraph",
+      "content": "INI-CET counselling usually happens in multiple rounds."
+    },
+    {
+      "id": "step6-para2",
+      "type": "paragraph",
+      "content": "These may include:"
+    },
+    {
+      "id": "step6-list",
+      "type": "list",
+      "items": [
+        "Round 1",
+        "Round 2",
+        "Open/Spot rounds"
+      ]
+    },
+    {
+      "id": "step6-para3",
+      "type": "paragraph",
+      "content": "And this is important to understand — seats keep changing during every round. Some students resign from seats, some upgrade, and some leave counselling altogether. Because of this, better options can open up later as well."
+    },
+    {
+      "id": "step6-conclusion",
+      "type": "paragraph",
+      "content": "So if the first round does not go exactly the way you expected, don't assume everything is over. Many students get surprisingly better seats in later rounds."
+    },
+    {
+      "id": "common-mistakes-section",
+      "type": "heading",
+      "title": "Common Mistakes Students Often Make",
+      "level": 2
+    },
+    {
+      "id": "common-mistakes-para1",
+      "type": "paragraph",
+      "content": "A few mistakes are seen almost every year:"
+    },
+    {
+      "id": "common-mistakes-list",
+      "type": "list",
+      "items": [
+        "Filling very limited choices",
+        "Depending completely on previous-year cutoffs",
+        "Following someone else's preference order blindly",
+        "Ignoring backup options",
+        "Taking decisions in panic"
+      ]
+    },
+    {
+      "id": "common-mistakes-conclusion",
+      "type": "paragraph",
+      "content": "Counselling needs patience. Fear-based decisions usually don't help."
+    },
+    {
+      "id": "questions-section",
+      "type": "heading",
+      "title": "Before Filling Choices, Ask Yourself These Questions",
+      "level": 2
+    },
+    {
+      "id": "questions-para1",
+      "type": "paragraph",
+      "content": "Instead of focusing only on rank and cutoffs, try to think clearly about:"
+    },
+    {
+      "id": "questions-list",
+      "type": "list",
+      "items": [
+        "Which branch genuinely interests you?",
+        "What matters more to you — branch or institute?",
+        "What kind of career do you see yourself in long term?"
+      ]
+    },
+    {
+      "id": "questions-conclusion",
+      "type": "paragraph",
+      "content": "These answers make counselling decisions much easier."
+    },
+    {
+      "id": "final-thought",
+      "type": "heading",
+      "title": "Final Thoughts",
+      "level": 2
+    },
+    {
+      "id": "final-thought-para1",
+      "type": "paragraph",
+      "content": "The INI-CET counselling process may seem overwhelming in the beginning, but once you understand the flow, things start becoming clearer."
+    },
+    {
+      "id": "final-thought-para2",
+      "type": "paragraph",
+      "content": "Your rank definitely matters. But the decisions you make during counselling matter just as much."
+    },
+    {
+      "id": "final-thought-conclusion",
+      "type": "paragraph",
+      "content": "So don't rush. Don't panic. And don't choose something just because other people are choosing it. Take your time, think practically, and make choices that actually match your goals and interests."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "How many rounds are there in INI-CET counselling?",
+          "answer": "Usually, there are multiple rounds including Round 1, Round 2, and Open/Spot rounds. The exact number can vary depending on seat availability."
+        },
+        {
+          "question": "Can I change my choices after locking them?",
+          "answer": "In most cases, once choices are locked and the deadline is over, changes are not allowed. That's why it's better to double-check everything before final submission."
+        },
+        {
+          "question": "What happens if I don't accept the allotted seat?",
+          "answer": "If you do not accept the seat within the given timeline, you may lose that allotment for that round."
+        },
+        {
+          "question": "Is upgrading risky?",
+          "answer": "Not always. Upgrade can help if you are expecting a better option in later rounds. But students should think calmly before choosing it instead of making decisions emotionally."
+        },
+        {
+          "question": "Should I only focus on top colleges?",
+          "answer": "Not necessarily. Sometimes a branch you genuinely like can matter more than simply chasing a big institute name."
+        },
+        {
+          "question": "Do cutoffs remain the same every year?",
+          "answer": "No. Cutoffs change every year depending on factors like exam difficulty, seat availability, category, and student preferences. That's why previous-year cutoffs should only be treated as a rough reference."
+        },
+        {
+          "question": "Can I get a better seat in later rounds?",
+          "answer": "Yes, many students do. Seats keep shifting because candidates upgrade, resign, or leave counselling. That's why later rounds sometimes offer surprisingly good options."
+        },
+        {
+          "question": "What is the biggest mistake students make during counselling?",
+          "answer": "Rushing decisions. A lot of students start panicking after seeing ranks or reading random advice online. Counselling becomes much smoother when you stay patient and think clearly."
+        }
+      ]
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "ini cet counselling process",
+        "ini cet counselling",
+        "ini cet admit card",
+        "ini cet counselling 2025",
+        "ini cet 2025 counselling",
+        "ini cet",
+        "ini cet 2026",
+        "ini cet seat allocation"
       ]
     }
   ]
