@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect } from "react";
 
 interface SEOHeadProps {
   title?: string;
@@ -7,57 +7,122 @@ interface SEOHeadProps {
   canonical?: string;
   ogImage?: string;
   noindex?: boolean;
+
+  type?: string;
+  author?: string;
+  publishedTime?: string;
+  modifiedTime?: string;
 }
 
 export const SEOHead: React.FC<SEOHeadProps> = ({
-  title = 'Believers Consultancy - NEET PG Counselling & Medical College Admissions',
-  description = 'Your trusted partner for NEET PG Counselling, INICET, medical college admissions, and career guidance.',
-  keywords = 'NEET PG counselling, INICET counselling, medical college admissions, NEET PG predictor',
-  canonical = 'https://believersconsultancy.com/',
-  ogImage = 'https://cdn.dribbble.com/userupload/45206464/file/c3151a13076f702ddb0d22c8361a63bd.png',
+  title = "Believers Consultancy | Medical PG Counselling Platform",
+
+  description = "Believers Consultancy helps students with NEET PG counselling, INICET guidance, medical admissions, counselling analytics, and expert career support.",
+
+  keywords = "Medical PG Counselling, NEET PG Counselling, INICET Counselling",
+
+  canonical = window.location.href,
+
+  ogImage = "https://believersconsultancy.com/og-image.png",
+
   noindex = false,
+
+  type = "website",
+
+  author = "Believers Consultancy",
+
+  publishedTime,
+
+  modifiedTime,
 }) => {
   useEffect(() => {
-    // Update title
     document.title = title;
 
-    // Helper function to update or create meta tags
-    const updateMetaTag = (attribute: 'name' | 'property', value: string, content: string) => {
-      let element = document.querySelector(`meta[${attribute}="${value}"]`);
+    const updateMetaTag = (
+      attribute: "name" | "property",
+      value: string,
+      content: string
+    ) => {
+      if (!content) return;
+
+      let element = document.querySelector(
+        `meta[${attribute}="${value}"]`
+      );
+
       if (!element) {
-        element = document.createElement('meta');
+        element = document.createElement("meta");
         element.setAttribute(attribute, value);
         document.head.appendChild(element);
       }
-      element.setAttribute('content', content);
+
+      element.setAttribute("content", content);
     };
 
-    // Update meta tags
-    updateMetaTag('name', 'description', description);
-    updateMetaTag('name', 'keywords', keywords);
-    updateMetaTag('name', 'robots', noindex ? 'noindex, nofollow' : 'index, follow');
-    
-    // Open Graph
-    updateMetaTag('property', 'og:title', title);
-    updateMetaTag('property', 'og:description', description);
-    updateMetaTag('property', 'og:image', ogImage);
-    updateMetaTag('property', 'og:url', canonical);
-    
-    // Twitter
-    updateMetaTag('name', 'twitter:title', title);
-    updateMetaTag('name', 'twitter:description', description);
-    updateMetaTag('name', 'twitter:image', ogImage);
+    // Standard SEO
+    updateMetaTag("name", "description", description);
+    updateMetaTag("name", "keywords", keywords);
+    updateMetaTag(
+      "name",
+      "robots",
+      noindex ? "noindex, nofollow" : "index, follow"
+    );
 
-    // Update canonical
-    let canonicalLink = document.querySelector('link[rel="canonical"]') as HTMLLinkElement;
+    updateMetaTag("name", "author", author);
+
+    // Open Graph
+    updateMetaTag("property", "og:title", title);
+    updateMetaTag("property", "og:description", description);
+    updateMetaTag("property", "og:image", ogImage);
+    updateMetaTag("property", "og:url", canonical);
+    updateMetaTag("property", "og:type", type);
+
+    // Article Tags
+    if (publishedTime) {
+      updateMetaTag(
+        "property",
+        "article:published_time",
+        publishedTime
+      );
+    }
+
+    if (modifiedTime) {
+      updateMetaTag(
+        "property",
+        "article:modified_time",
+        modifiedTime
+      );
+    }
+
+    // Twitter
+    updateMetaTag("name", "twitter:card", "summary_large_image");
+    updateMetaTag("name", "twitter:title", title);
+    updateMetaTag("name", "twitter:description", description);
+    updateMetaTag("name", "twitter:image", ogImage);
+
+    // Canonical
+    let canonicalLink = document.querySelector(
+      'link[rel="canonical"]'
+    ) as HTMLLinkElement;
+
     if (!canonicalLink) {
-      canonicalLink = document.createElement('link');
-      canonicalLink.setAttribute('rel', 'canonical');
+      canonicalLink = document.createElement("link");
+      canonicalLink.setAttribute("rel", "canonical");
       document.head.appendChild(canonicalLink);
     }
-    canonicalLink.setAttribute('href', canonical);
 
-  }, [title, description, keywords, canonical, ogImage, noindex]);
+    canonicalLink.setAttribute("href", canonical);
+  }, [
+    title,
+    description,
+    keywords,
+    canonical,
+    ogImage,
+    noindex,
+    type,
+    author,
+    publishedTime,
+    modifiedTime,
+  ]);
 
   return null;
 };
