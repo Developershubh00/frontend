@@ -1559,6 +1559,19 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "AIIMS INI CET 2026 Admit Card Released:",
     created_at: "2026-05-11T08:00:00Z",
   },
+  {
+    id: 118,
+    title: "NEET UG 2026 Re-Exam ",
+    content:
+      "NEET UG 2026 Re-Exam Likely to Impact Result Dates and Counselling Schedule",
+    date: "2026-05-14T08:00:00Z",
+    priority: "high",
+    category: "NEET UG",
+    link: "https://www.msn.com/en-in/news/India/neet-ug-2026-paper-leak-how-re-exam-will-push-results-counselling-and-medical-admissions-timeline/ar-AA23405G?ocid=BingNewsSerp&utm_source=chatgpt.com",
+    is_active: true,
+    source: "NEET UG 2026 Re-Exam Likely to Impact",
+    created_at: "2026-05-14T08:00:00Z",
+  },
 ];
 
 /**
