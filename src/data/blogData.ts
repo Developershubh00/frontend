@@ -62101,12 +62101,12 @@ export const blogPosts: BlogPost[] = [
     "pg counselling"
   ],
   "sections": [
-    {
-      "id": "intro",
-      "type": "heading",
-      "title": "INI-CET Counselling Process Explained: What Actually Happens After the Result",
-      "level": 1
-    },
+    // {
+    //   "id": "intro",
+    //   "type": "heading",
+    //   "title": "INI-CET Counselling Process Explained: What Actually Happens After the Result",
+    //   "level": 1
+    // },
     {
       "id": "intro-para1",
       "type": "paragraph",
