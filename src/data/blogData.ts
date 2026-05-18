@@ -62060,12 +62060,11 @@ export const blogPosts: BlogPost[] = [
     }
   ]
 },
-
 {
   "id": 153,
-  "title": "When Prep Starts Feeling Like Comparison: Staying Focused in the INI-CET Phase",
-  "slug": "when-prep-feels-like-comparison-staying-focused-ini-cet",
-  "excerpt": "When INI-CET prep feels like comparison, learn how to stay focused, manage pressure, build confidence, and follow your own study path.",
+  "title": "INI-CET Counselling Process Explained: What Actually Happens After the Result",
+  "slug": "ini-cet-counselling-process-explained-what-happens-after-result",
+  "excerpt": "Understand the complete INI-CET counselling process step by step—from registration and choice filling to seat allotment and document verification—so you don't lose a seat your rank deserved.",
   "featured_image": "https://cdn.dribbble.com/userupload/47747001/file/de7d047bcd0da1e3d8fdca6be88c9921.jpg?w=1200&h=600&fit=crop",
   "featured_image_alt": "ini cet 2026",
   "author": {
@@ -62080,281 +62079,268 @@ export const blogPosts: BlogPost[] = [
   },
   "tags": [
     "INI CET 2026",
-    "INI CET Preparation",
-    "Exam Preparation",
-    "PG Preparation",
-    "Preparation Strategy"
+    "INI CET Counselling",
+    "Seat Allotment",
+    "Choice Filling",
+    "Medical PG Counselling"
   ],
   "published_date": "2026-05-16",
   "read_time": 10,
-  "meta_title": "When Prep Starts Feeling Like Comparison: Staying Focused in the INI-CET Phase",
-  "meta_description": "When INI-CET prep feels like comparison, learn how to stay focused, manage pressure, build confidence, and follow your own study path.",
+  "meta_title": "INI-CET Counselling Process Explained: What Actually Happens After the Result",
+  "meta_description": "Understand the complete INI-CET counselling process step by step—from registration and choice filling to seat allotment and document verification after your result.",
   "keywords": [
-    "ini cet",
+    "ini cet counselling",
     "ini cet 2026",
-    "ini cet exam",
-    "inicet preparation",
-    "revision schedule",
-    "mock test scores",
-    "exam preparation",
-    "preparation strategy",
-    "pg preparation"
+    "ini cet",
+    "ini cet seat allocation",
+    "ini cet counselling 2025",
+    "choice filling",
+    "seat allotment",
+    "document verification",
+    "medical pg counselling",
+    "pg counselling"
   ],
   "sections": [
     {
       "id": "intro",
       "type": "heading",
-      "title": "When Prep Starts Feeling Like Comparison: Staying Focused in the INI-CET Phase",
+      "title": "INI-CET Counselling Process Explained: What Actually Happens After the Result",
       "level": 1
     },
     {
       "id": "intro-para1",
       "type": "paragraph",
-      "content": "If you're in the middle of INI CET 2026 prep, chances are you've felt this already."
+      "content": "Getting your INI-CET result is one of those moments that hits differently. There's relief, obviously. But it doesn't take long before a new kind of anxiety sets in, because now you have to figure out counselling."
     },
     {
       "id": "intro-para2",
       "type": "paragraph",
-      "content": "You open your phone for a quick break… and suddenly you're looking at someone else's mock test scores, someone finishing their third revision, someone talking about a near-perfect percentile."
+      "content": "Most students spend months preparing for the exam and almost no time thinking about what comes next. Then the result drops and suddenly there's a portal, a deadline, a long list of choices to fill, and a nagging feeling that one wrong move could cost you a seat your rank was good enough to get."
     },
     {
       "id": "intro-para3",
       "type": "paragraph",
-      "content": "And just like that, your own exam preparation starts feeling… not enough."
+      "content": "That fear isn't irrational. But counselling is also not as unpredictable as it feels in the moment. Once you understand how each step works, it becomes considerably easier to navigate."
     },
     {
-      "id": "intro-para4",
-      "type": "paragraph",
-      "content": "It happens to almost everyone during PG preparation. The tricky part is, it doesn't look like a problem at first. It feels like \"staying informed.\" But slowly, it turns into comparison—and that's where things start going off track."
-    },
-    {
-      "id": "comparison-loop",
+      "id": "overall-structure",
       "type": "heading",
-      "title": "The Comparison Loop (You Don't Even Notice It)",
+      "title": "Understanding the Overall Structure",
       "level": 2
     },
     {
-      "id": "comparison-loop-para1",
+      "id": "overall-structure-para1",
       "type": "paragraph",
-      "content": "It usually starts small."
+      "content": "The INI-CET counselling process runs entirely online and follows a fixed sequence. You register, build a preference list, wait for seat allotment, then decide what to do with the result. The cycle repeats across multiple rounds until all seats are filled."
     },
     {
-      "id": "comparison-loop-para2",
+      "id": "overall-structure-para2",
       "type": "paragraph",
-      "content": "You check what others are doing \"just to see.\" Then you start measuring your progress against theirs. Then comes that quiet thought: \"Am I behind?\""
+      "content": "The logic is simple. The execution is where students run into trouble. A mismatched document, a carelessly ordered preference list, or a panicked post-allotment decision can undo weeks of effort. None of these mistakes are complicated to avoid, but they happen constantly."
     },
     {
-      "id": "comparison-loop-para3",
-      "type": "paragraph",
-      "content": "The problem is, you're comparing:"
-    },
-    {
-      "id": "comparison-loop-table",
+      "id": "overall-structure-table",
       "type": "table",
-      "headers": ["What You See in Yourself", "What You See in Others"],
+      "headers": ["Step", "Stage", "What Happens"],
       "rows": [
-        ["Your rough days", "Their highlight moments"],
-        ["Your struggles and doubts", "Their posted scores and milestones"],
-        ["Your entire journey", "A single snapshot of theirs"]
+        ["1", "Registration", "Enter personal and academic details, confirm category, pay counselling fee"],
+        ["2", "Choice Filling", "List every branch and institute combination in order of preference"],
+        ["3", "Seat Allotment", "System assigns the best available option based on rank, preferences, and reservation criteria"],
+        ["4", "Accept, Upgrade, or Exit", "Decide whether to freeze your seat, stay eligible for upgrades, or exit counselling"],
+        ["5", "Document Verification", "Submit all required documents matching your registration details exactly"],
+        ["6", "Additional Rounds", "Remaining seats are redistributed across Round 2 and open or spot rounds"]
       ],
-      "caption": "In INI CET preparation, consistency matters way more than how your prep looks on any given day."
+      "caption": "Each step builds on the previous one. Missing or mishandling any stage can affect your final outcome regardless of your rank."
     },
     {
-      "id": "rank-anxiety",
+      "id": "step-1",
       "type": "heading",
-      "title": "Rank Anxiety Is Real (And It Builds Quietly)",
+      "title": "Step 1: Registration",
       "level": 2
     },
     {
-      "id": "rank-anxiety-para1",
+      "id": "step-1-para1",
       "type": "paragraph",
-      "content": "No one talks about this enough, but rank anxiety doesn't suddenly appear before the INI CET exam—it builds slowly during preparation."
+      "content": "Everything begins with online registration on the official counselling portal. You'll enter your personal and academic information, confirm your category, and pay the counselling fee."
     },
     {
-      "id": "rank-anxiety-para2",
+      "id": "step-1-para2",
       "type": "paragraph",
-      "content": "It shows up as:"
+      "content": "It sounds routine, but this is where a surprising number of avoidable errors occur. Name spellings that don't match your documents, wrong category selection, blurry uploads. These issues create complications that are difficult to resolve later."
     },
     {
-      "id": "rank-anxiety-list",
+      "id": "step-1-conclusion",
+      "type": "paragraph",
+      "content": "Before you hit submit, cross-check every detail against your INI-CET admit card and original certificates. Five extra minutes here can save a lot of stress later."
+    },
+    {
+      "id": "step-2",
+      "type": "heading",
+      "title": "Step 2: Choice Filling",
+      "level": 2
+    },
+    {
+      "id": "step-2-para1",
+      "type": "paragraph",
+      "content": "This is the stage that deserves the most thought and often gets the least."
+    },
+    {
+      "id": "step-2-para2",
+      "type": "paragraph",
+      "content": "Choice filling is where you list every branch and institute combination you'd consider, covering MD, MS, DM, and MCh programs. The counselling software works through your list from top to bottom and assigns the first available option matching your rank and category."
+    },
+    {
+      "id": "step-2-para3",
+      "type": "paragraph",
+      "content": "A lot of students try to be strategic in ways that backfire. They leave out dream options assuming they won't get them, or limit choices while trying to predict cutoffs. Neither approach helps. If a seat opens up and your preference for it isn't on the list, you won't get it regardless of your rank."
+    },
+    {
+      "id": "step-2-table",
+      "type": "table",
+      "headers": ["Choice Position", "What to Fill", "Why"],
+      "rows": [
+        ["Top", "Your genuine first choice — what you actually want, not what seems realistic", "The system assigns the first available match from the top down"],
+        ["Middle", "Options you would seriously consider if your top choices aren't available", "Creates a realistic buffer zone between dream and backup"],
+        ["Bottom", "Backup options you'd genuinely be okay with", "Ensures you don't exit counselling without any seat"]
+      ],
+      "caption": "Think of the list as an honest expression of your priorities, not a forecasting exercise."
+    },
+    {
+      "id": "step-3",
+      "type": "heading",
+      "title": "Step 3: Seat Allotment",
+      "level": 2
+    },
+    {
+      "id": "step-3-para1",
+      "type": "paragraph",
+      "content": "Once the choice-filling window closes, the system begins processing every candidate's preferences at the same time."
+    },
+    {
+      "id": "step-3-para2",
+      "type": "paragraph",
+      "content": "Your INI CET seat allocation is determined by four factors: your rank, the order in which you've arranged your choices, seat availability, and the applicable reservation criteria. The algorithm simply works its way through your preference list and assigns the best available option based on those conditions."
+    },
+    {
+      "id": "step-3-table",
+      "type": "table",
+      "headers": ["Factor", "How It Affects Allotment"],
+      "rows": [
+        ["Your rank", "Determines how early you are processed relative to other candidates"],
+        ["Preference order", "The system assigns the first match from the top of your list downward"],
+        ["Seat availability", "Varies by institute, branch, and category at the time of processing"],
+        ["Reservation criteria", "Category-based seats are allocated separately within each quota"]
+      ],
+      "caption": "Two candidates with almost identical ranks can end up with very different results. Most of the time, the difference lies in how carefully they structured their preference lists."
+    },
+    {
+      "id": "step-4",
+      "type": "heading",
+      "title": "Step 4: Accept, Upgrade, or Exit",
+      "level": 2
+    },
+    {
+      "id": "step-4-para1",
+      "type": "paragraph",
+      "content": "After allotment results are announced, you need to decide quickly. Three options are available."
+    },
+    {
+      "id": "step-4-table",
+      "type": "table",
+      "headers": ["Option", "What It Means", "When to Choose It"],
+      "rows": [
+        ["Accept and Freeze", "You are done with further rounds and confirm the allotted seat", "When you are satisfied with what you got and don't want to risk losing it"],
+        ["Accept and Upgrade", "You hold your current seat while staying eligible for a better option in the next round", "When you got a decent seat but still have a higher preference unfulfilled"],
+        ["Exit", "You decline the allotted seat entirely and leave the counselling process", "Only when you are certain you will not take any available option this cycle"]
+      ],
+      "caption": "Make this decision with a clear head, not at midnight after reading conflicting opinions in WhatsApp groups. That information is often incomplete or just wrong."
+    },
+    {
+      "id": "step-5",
+      "type": "heading",
+      "title": "Step 5: Document Verification",
+      "level": 2
+    },
+    {
+      "id": "step-5-para1",
+      "type": "paragraph",
+      "content": "Once you accept a seat, the next step is document submission. Every document must be clear, valid, and exactly match the information you entered during registration."
+    },
+    {
+      "id": "step-6",
+      "type": "heading",
+      "title": "Step 6: Additional Rounds",
+      "level": 2
+    },
+    {
+      "id": "step-6-para1",
+      "type": "paragraph",
+      "content": "INI-CET counselling runs across multiple rounds, generally Round 1, Round 2, and open or spot rounds depending on availability. Between rounds, seats move. Candidates upgrade, withdraw, or don't report, and vacancies appear in places they weren't available before."
+    },
+    {
+      "id": "step-6-para2",
+      "type": "paragraph",
+      "content": "Students who didn't get their preferred option in the first round still have realistic chances later. This holds true for INI CET counselling 2025 and will apply equally to INI CET 2026. Counselling is more dynamic than most candidates expect."
+    },
+    {
+      "id": "mistakes",
+      "type": "heading",
+      "title": "Mistakes Worth Avoiding",
+      "level": 2
+    },
+    {
+      "id": "mistakes-table",
+      "type": "table",
+      "headers": ["Mistake", "Why It Hurts", "What to Do Instead"],
+      "rows": [
+        ["Filling too few choices", "You miss seats that open up and match your rank", "Fill every option you'd genuinely consider, including backups"],
+        ["Assuming your rank guarantees a specific seat", "Cutoffs shift every round based on candidate movement", "Build a range of options across all tiers of your preference"],
+        ["Copying a friend's preference list", "Their goals and priorities may be completely different from yours", "Build your list around your own branch and institute preferences"],
+        ["Over-relying on previous year cutoffs", "Seat movement varies every session and cutoffs are not fixed", "Use trends as a guide, not a guarantee"],
+        ["Making impulsive post-allotment decisions", "Panic-driven choices often lead to avoidable regret", "Decide calmly, ideally with a plan made before results were announced"]
+      ],
+      "caption": "Counselling rewards people who think ahead. Most of these mistakes are entirely avoidable with preparation."
+    },
+    {
+      "id": "approach-calmly",
+      "type": "heading",
+      "title": "How to Approach This More Calmly",
+      "level": 2
+    },
+    {
+      "id": "approach-calmly-para1",
+      "type": "paragraph",
+      "content": "Before opening the choice-filling portal, work through a few honest questions:"
+    },
+    {
+      "id": "approach-calmly-list",
       "type": "list",
       "items": [
-        "Overthinking your mock test scores",
-        "Changing your preparation strategy too often",
-        "Feeling restless even after a decent study day"
+        "Which specialty do you actually want?",
+        "How much does the institute name matter relative to the branch itself?",
+        "Which backup options would you genuinely be okay with?"
       ]
     },
     {
-      "id": "rank-anxiety-conclusion",
+      "id": "approach-calmly-conclusion",
       "type": "paragraph",
-      "content": "You start chasing a number instead of focusing on the process. And the more you chase it, the more distracted you feel."
-    },
-    {
-      "id": "social-media",
-      "type": "heading",
-      "title": "Social Media: Helpful… Until It Isn't",
-      "level": 2
-    },
-    {
-      "id": "social-media-para1",
-      "type": "paragraph",
-      "content": "Let's be honest—social media can be useful. You find resources, strategies, updates."
-    },
-    {
-      "id": "social-media-para2",
-      "type": "paragraph",
-      "content": "But during serious INI CET prep, it can also:"
-    },
-    {
-      "id": "social-media-list",
-      "type": "list",
-      "items": [
-        "Break your focus",
-        "Trigger unnecessary comparison",
-        "Make your progress feel smaller than it actually is"
-      ]
-    },
-    {
-      "id": "social-media-conclusion",
-      "type": "paragraph",
-      "content": "You don't need to completely cut it off. But you do need boundaries. Sometimes, the best thing you can do for your preparation strategy is just… log out for a while."
-    },
-    {
-      "id": "stay-focused",
-      "type": "heading",
-      "title": "What Actually Helps You Stay Focused",
-      "level": 2
-    },
-    {
-      "id": "stay-focused-para1",
-      "type": "paragraph",
-      "content": "There's no perfect fix, but a few small shifts make a big difference."
-    },
-    {
-      "id": "stay-focused-table",
-      "type": "table",
-      "headers": ["Shift", "What to Do", "Why It Helps"],
-      "rows": [
-        ["1. Keep your world small", "Don't track 10 different people. Focus on your own plan.", "Reduces noise and keeps your energy on what you can control"],
-        ["2. Follow a simple revision schedule", "Not something complicated—just something you can repeat daily.", "Consistency beats intensity during long preparation phases"],
-        ["3. Treat mock tests as feedback, not judgment", "Your mock test scores tell you what to improve, not where you stand permanently.", "Removes fear around tests and turns them into learning tools"],
-        ["4. Limit unnecessary inputs", "Too many strategies = no strategy. Stick to what works for you.", "Prevents confusion and keeps your preparation strategy steady"]
-      ],
-      "caption": "Small daily shifts add up to big improvements over the course of INI CET preparation."
-    },
-    {
-      "id": "not-perfect-every-day",
-      "type": "heading",
-      "title": "You Don't Need to Be Perfect Every Day",
-      "level": 2
-    },
-    {
-      "id": "not-perfect-every-day-para1",
-      "type": "paragraph",
-      "content": "Some days will go well. Some won't."
-    },
-    {
-      "id": "not-perfect-every-day-para2",
-      "type": "paragraph",
-      "content": "You'll have days where your revision clicks, and days where nothing sticks. That's normal in long exam preparation phases like this."
-    },
-    {
-      "id": "not-perfect-every-day-conclusion",
-      "type": "paragraph",
-      "content": "What matters is not letting one off day turn into a week of doubt."
-    },
-    {
-      "id": "small-shift",
-      "type": "heading",
-      "title": "A Small Shift That Changes Everything",
-      "level": 2
-    },
-    {
-      "id": "small-shift-table",
-      "type": "table",
-      "headers": ["Instead of Asking", "Try Asking"],
-      "rows": [
-        ["Am I ahead or behind?", "Did I do what I planned today?"]
-      ],
-      "caption": "That one shift makes your INI CET preparation feel a lot more manageable."
-    },
-    {
-      "id": "final-thought",
-      "type": "heading",
-      "title": "Final Thought",
-      "level": 2
-    },
-    {
-      "id": "final-thought-para1",
-      "type": "paragraph",
-      "content": "Preparing for INI CET 2026 isn't just about covering the syllabus. It's also about managing your headspace."
-    },
-    {
-      "id": "final-thought-para2",
-      "type": "paragraph",
-      "content": "Comparison, rank anxiety, social media—they're all part of the journey now. You won't completely avoid them."
-    },
-    {
-      "id": "final-thought-para3",
-      "type": "paragraph",
-      "content": "But you can choose how much attention you give them."
-    },
-    {
-      "id": "final-thought-list",
-      "type": "list",
-      "items": [
-        "Keep your plan simple",
-        "Stick to your revision schedule",
-        "Show up even on low days"
-      ]
-    },
-    {
-      "id": "final-thought-conclusion",
-      "type": "paragraph",
-      "content": "That's usually enough to stay on track—even when everything around you feels noisy."
-    },
-    {
-      "id": "faqs",
-      "type": "heading",
-      "title": "FAQs",
-      "level": 2
-    },
-    {
-      "id": "faqs-list",
-      "type": "faq",
-      "faqs": [
-        {
-          "question": "Is comparison normal during INI-CET preparation?",
-          "answer": "Yes, most aspirants experience comparison and self-doubt during their preparation journey."
-        },
-        {
-          "question": "How can I avoid getting distracted by others' progress?",
-          "answer": "Focus on your daily study goals instead of tracking others' mock scores and revisions."
-        },
-        {
-          "question": "Do mock test scores define my final INI-CET rank?",
-          "answer": "No, mock tests are meant to highlight your weak areas, not predict your exact rank."
-        },
-        {
-          "question": "Can social media affect my INI-CET preparation?",
-          "answer": "Yes, excessive social media use can increase comparison and reduce concentration."
-        }
-      ]
+      "content": "Getting clear on these things before you start makes every subsequent decision easier. Students who go into counselling knowing what they want consistently make better calls—including that high-pressure moment after allotment when you have to decide whether to hold or upgrade."
     },
     {
       "id": "keywords",
       "type": "keywords",
       "title": "Related Keywords",
       "keywords": [
-        "ini cet",
+        "ini cet counselling",
         "ini cet 2026",
-        "ini cet exam",
-        "inicet preparation",
-        "revision schedule",
-        "mock test scores",
-        "exam preparation",
-        "preparation strategy",
-        "pg preparation"
+        "ini cet",
+        "ini cet seat allocation",
+        "ini cet counselling 2025",
+        "choice filling",
+        "seat allotment",
+        "document verification",
+        "medical pg counselling",
+        "pg counselling"
       ]
     }
   ]
