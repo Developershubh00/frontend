@@ -62344,6 +62344,338 @@ export const blogPosts: BlogPost[] = [
       ]
     }
   ]
+},
+{
+  "id": 154,
+  "title": "NEET PG Preparation During Internship: A Realistic Strategy That Actually Works",
+  "slug": "neet-pg-preparation-during-internship-realistic-strategy",
+  "excerpt": "Balance duties and study with a focused plan, smart scheduling, high yield revision, and MCQ practice to crack NEET PG during internship.",
+  "featured_image": "https://cdn.dribbble.com/userupload/47766857/file/1c8f375fc5dfa4249dadceb4c643fe58.jpg?w=1200&h=600&fit=crop",
+  "featured_image_alt": "neet pg preparation",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-blue-100 text-blue-800"
+  },
+  "tags": [
+    "NEET PG",
+    "NEET PG Preparation",
+    "Internship",
+    "PG Preparation",
+    "Preparation Strategy"
+  ],
+  "published_date": "2026-05-18",
+  "read_time": 10,
+  "meta_title": "NEET PG Preparation During Internship: A Realistic Strategy That Actually Works",
+  "meta_description": "Balance duties and study with a focused plan, smart scheduling, high yield revision, and MCQ practice to crack NEET PG during internship.",
+  "keywords": [
+    "neet pg preparation",
+    "neet pg",
+    "postgraduate entrance exams",
+    "exam pattern",
+    "neet pg exam pattern",
+    "neet pg preparation strategy",
+    "preparation strategy",
+    "pg preparation"
+  ],
+  "sections": [
+    // {
+    //   "id": "intro",
+    //   "type": "heading",
+    //   "title": "NEET PG Preparation During Internship: A Realistic Strategy That Actually Works",
+    //   "level": 1
+    // },
+    {
+      "id": "intro-para1",
+      "type": "paragraph",
+      "content": "Nobody tells you how strange this phase feels until you're living it. You're finally a doctor — sort of — running between wards, taking calls, learning real clinical medicine for the first time. And somewhere in the middle of all that, you're supposed to be preparing for one of the most competitive postgraduate entrance exams in the country. It's a lot. No one who tells you otherwise hasn't done it."
+    },
+    {
+      "id": "intro-para2",
+      "type": "paragraph",
+      "content": "But here's what's also true: thousands of people have cracked NEET PG while doing exactly what you're doing right now. Not by studying 12 hours a day — that's a fantasy during internship — but by being smarter about the hours they actually had."
+    },
+    {
+      "id": "perfect-study-day",
+      "type": "heading",
+      "title": "Drop the Idea of a \"Perfect\" Study Day",
+      "level": 2
+    },
+    {
+      "id": "perfect-study-day-para1",
+      "type": "paragraph",
+      "content": "The biggest trap is waiting for ideal conditions. They won't come."
+    },
+    {
+      "id": "perfect-study-day-para2",
+      "type": "paragraph",
+      "content": "Your schedule will be unpredictable:"
+    },
+    {
+      "id": "perfect-study-day-list",
+      "type": "list",
+      "items": [
+        "ICU nights",
+        "Casualty weeks",
+        "Exhausting rotations",
+        "Occasional lighter postings"
+      ]
+    },
+    {
+      "id": "perfect-study-day-table",
+      "type": "table",
+      "headers": ["Day Type", "Realistic Expectation"],
+      "rows": [
+        ["Heavy duty days", "1 hour or less — and that's completely fine"],
+        ["Average days", "Decent productivity with focused sessions"],
+        ["Lighter postings", "Opportunity to cover new topics and do full MCQ sets"]
+      ],
+      "caption": "The goal is not perfection. It's consistency across months."
+    },
+    {
+      "id": "better-time",
+      "type": "heading",
+      "title": "You Don't Need More Time — You Need Better Time",
+      "level": 2
+    },
+    {
+      "id": "better-time-para1",
+      "type": "paragraph",
+      "content": "Three to five focused hours are enough—if used properly."
+    },
+    {
+      "id": "better-time-para2",
+      "type": "paragraph",
+      "content": "The real problem is half-studying, constant distractions, and being mentally still in the ward. Fix that by protecting study time, studying with full focus, and avoiding multitasking."
+    },
+    {
+      "id": "better-time-table",
+      "type": "table",
+      "headers": ["Time of Day", "Normal Days", "Heavy Days"],
+      "rows": [
+        ["Morning", "Revision (fresh mind)", "Quick revision only"],
+        ["Afternoon / Post-duty", "New topics + MCQs", "MCQs only"],
+        ["Night", "30 min quick revision", "Skip if exhausted — rest matters"]
+      ],
+      "caption": "On heavy days, don't push through exhaustion. Burnout will cost more than one skipped session."
+    },
+    {
+      "id": "small-time-pockets",
+      "type": "heading",
+      "title": "Use Small Time Pockets Smartly",
+      "level": 2
+    },
+    {
+      "id": "small-time-pockets-para1",
+      "type": "paragraph",
+      "content": "Internship gives you hidden study time:"
+    },
+    {
+      "id": "small-time-pockets-table",
+      "type": "table",
+      "headers": ["Hidden Time Pocket", "Best Use"],
+      "rows": [
+        ["Waiting during rounds", "10–15 MCQs"],
+        ["Quiet duty hours", "Quick note revision"],
+        ["Short breaks", "Flashcards or flagged question review"]
+      ],
+      "caption": "These micro-sessions add up significantly over the course of months."
+    },
+    {
+      "id": "mcqs",
+      "type": "heading",
+      "title": "MCQs Are Your Most Efficient Tool",
+      "level": 2
+    },
+    {
+      "id": "mcqs-para1",
+      "type": "paragraph",
+      "content": "When time is limited, MCQs give maximum return. Focus on active recall, understanding concepts, and learning from mistakes."
+    },
+    {
+      "id": "mcqs-table",
+      "type": "table",
+      "headers": ["What to Do", "Why It Matters"],
+      "rows": [
+        ["Analyze why you got it wrong", "Prevents the same mistake from repeating"],
+        ["Identify the concept you missed", "Fills gaps more efficiently than re-reading"],
+        ["Revisit flagged questions", "Targets weak areas with precision"],
+        ["Focus on understanding, not just solving", "Builds the application skill the exam tests"]
+      ],
+      "caption": "Improvement comes from analysis, not just volume. Solving without reviewing is wasted time."
+    },
+    {
+      "id": "fewer-resources",
+      "type": "heading",
+      "title": "Fewer Resources, Used Well",
+      "level": 2
+    },
+    {
+      "id": "fewer-resources-para1",
+      "type": "paragraph",
+      "content": "An internship is not the time to collect books. Every new resource you add feels like preparation but is often just a way of avoiding the harder work of actually mastering what you already have."
+    },
+    {
+      "id": "fewer-resources-para2",
+      "type": "paragraph",
+      "content": "Pick one solid source per subject, one MCQ platform, and your own short notes. That's it. The notes you've been building through your MBBS — the ones already in your handwriting and your words — are worth more than a shiny new book someone on a forum recommended."
+    },
+    {
+      "id": "fewer-resources-conclusion",
+      "type": "paragraph",
+      "content": "Familiarity with your material is an underrated advantage. When you've reviewed the same notes multiple times, retrieval becomes fast and reliable. That's what you want to walk into the exam with."
+    },
+    {
+      "id": "revision",
+      "type": "heading",
+      "title": "Build Revision Into Everything",
+      "level": 2
+    },
+    {
+      "id": "revision-para1",
+      "type": "paragraph",
+      "content": "Here's a hard truth about memory: without revision, most of what you study during a busy internship week will be significantly faded within days. It's not a willpower issue — it's just how memory works. And during internship, when your brain is also processing clinical experiences, new procedures, and sheer physical tiredness, forgetting happens even faster."
+    },
+    {
+      "id": "revision-table",
+      "type": "table",
+      "headers": ["Revision Tool", "When to Use It"],
+      "rows": [
+        ["Short notes", "Daily — fast to go through, high retention"],
+        ["Highlighted points", "Between rounds or on quick breaks"],
+        ["Flagged MCQs already done", "Every few days to reinforce weak areas"],
+        ["Rough revision cycle", "Within a few days of studying, then again within a week or two, then keep rotating"]
+      ],
+      "caption": "The goal isn't deep re-learning every time. It's keeping things accessible so they're there when you need them."
+    },
+    {
+      "id": "strategic-study",
+      "type": "heading",
+      "title": "Be Strategic About What You Study",
+      "level": 2
+    },
+    {
+      "id": "strategic-study-para1",
+      "type": "paragraph",
+      "content": "You don't have the bandwidth to go deep on everything — and trying to will only stretch you thin. Be honest about that and prioritize accordingly."
+    },
+    {
+      "id": "strategic-study-table",
+      "type": "table",
+      "headers": ["Priority", "What to Focus On", "Why"],
+      "rows": [
+        ["Highest", "Medicine, Surgery, Pathology, Pharmacology", "Core subjects with the highest concentration of marks"],
+        ["High", "Previous year questions — for pattern and concept understanding", "Best guide to what the exam actually keeps coming back to"],
+        ["Important", "Clinical and image-based questions", "Increasingly tested and shouldn't be an afterthought"],
+        ["Lower", "Minor subjects and peripheral topics", "Cover lightly; don't let them eat into core subject time"]
+      ],
+      "caption": "Strategic preparation during internship doesn't mean cutting corners — it means spending your limited time where it counts most."
+    },
+    {
+      "id": "tests",
+      "type": "heading",
+      "title": "Don't Skip Tests Entirely",
+      "level": 2
+    },
+    {
+      "id": "tests-para1",
+      "type": "paragraph",
+      "content": "Tests are important — even during internship. Use off days and lighter postings to take full tests. Focus on time management, decision-making, and stamina."
+    },
+    {
+      "id": "tests-para2",
+      "type": "paragraph",
+      "content": "The most important part is post-test analysis. A test gives you data; analysis turns that data into improvement."
+    },
+    {
+      "id": "traps",
+      "type": "heading",
+      "title": "Watch Out for These Specific Traps",
+      "level": 2
+    },
+    {
+      "id": "traps-table",
+      "type": "table",
+      "headers": ["Trap", "What It Looks Like", "What to Do Instead"],
+      "rows": [
+        ["Rigid timetables", "Looks great on paper, falls apart by day three", "Build flexible frameworks, not fixed schedules"],
+        ["Guilt on low-output days", "Treating rest as falling behind", "Accept that some days are hard — resting is not failure"],
+        ["Resource accumulation", "Adding a new book feels productive", "Stick to what you have and master it deeply"],
+        ["Skipping revision", "Studying without revisiting over weeks", "Build revision into every week without exception"],
+        ["Comparing yourself to full-time aspirants", "Their constraints are different from yours", "Design your preparation around your life, not theirs"]
+      ],
+      "caption": "These patterns derail a lot of internship candidates. Recognizing them early is half the fix."
+    },
+    {
+      "id": "mindset",
+      "type": "heading",
+      "title": "The Mindset That Carries You Through",
+      "level": 2
+    },
+    {
+      "id": "mindset-para1",
+      "type": "paragraph",
+      "content": "There will be weeks during internship where everything clicks and you feel genuinely good about your preparation. There will be other weeks that go completely sideways — a brutal posting, a personal rough patch, a stretch where you barely open your notes. Both are part of the process."
+    },
+    {
+      "id": "mindset-para2",
+      "type": "paragraph",
+      "content": "What matters is the long game. Consistency measured in months, not days. Small wins compounding over time. Showing up again after a hard week without spiraling into anxiety about how far behind you've fallen."
+    },
+    {
+      "id": "mindset-conclusion",
+      "type": "paragraph",
+      "content": "You're not behind. You're doing something genuinely difficult. The people who make it through this phase successfully aren't the ones who never had a bad week — they're the ones who kept going anyway. Stay consistent, stay strategic, and trust that the effort accumulates even when it doesn't feel like it."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "1. Can I crack NEET PG during my internship?",
+          "answer": "Yes, many students successfully prepare and clear NEET PG while completing internships."
+        },
+        {
+          "question": "2. How many hours should I study daily?",
+          "answer": "Three to five focused hours are usually enough."
+        },
+        {
+          "question": "3. Are MCQs essential for preparation?",
+          "answer": "Yes, MCQs are one of the most effective study tools."
+        },
+        {
+          "question": "4. Is revision really important?",
+          "answer": "Absolutely. Regular revision is what helps you retain what you study."
+        }
+      ]
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "neet pg preparation",
+        "neet pg",
+        "postgraduate entrance exams",
+        "exam pattern",
+        "neet pg exam pattern",
+        "neet pg preparation strategy",
+        "preparation strategy",
+        "pg preparation"
+      ]
+    }
+  ]
 }
 ];
 
