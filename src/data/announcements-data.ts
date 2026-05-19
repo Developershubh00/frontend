@@ -1572,6 +1572,19 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "NEET UG 2026 Re-Exam Likely to Impact",
     created_at: "2026-05-14T08:00:00Z",
   },
+  {
+    id: 119,
+    title: "INI CET 2026 Result Expected Soon ",
+    content:
+      "Check Counselling Process, Seat Allotment & Next Steps After Exam",
+    date: "2026-05-17T08:00:00Z",
+    priority: "high",
+    category: "INI CET",
+    link: "https://timesofindia.indiatimes.com/education/news/ini-cet-2026-when-will-result-be-declared-check-counselling-process-seat-allocation-details-and-next-steps-after-exam/articleshow/131134778.cms?utm_source=chatgpt.com",
+    is_active: true,
+    source: "NEET UG 2026 Re-Exam Likely to Impact",
+    created_at: "2026-05-17T08:00:00Z",
+  },
 ];
 
 /**
