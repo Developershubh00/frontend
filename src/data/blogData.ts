@@ -62957,12 +62957,12 @@ export const blogPosts: BlogPost[] = [
     "medical pg entrance exam"
   ],
   "sections": [
-    {
-      "id": "intro",
-      "type": "heading",
-      "title": "Running on Empty: Dealing with Burnout During Medical PG Preparation",
-      "level": 1
-    },
+    // {
+    //   "id": "intro",
+    //   "type": "heading",
+    //   "title": "Running on Empty: Dealing with Burnout During Medical PG Preparation",
+    //   "level": 1
+    // },
     {
       "id": "intro-para1",
       "type": "paragraph",
