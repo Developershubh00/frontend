@@ -63275,6 +63275,286 @@ export const blogPosts: BlogPost[] = [
       ]
     }
   ]
+},
+{
+  "id": 157,
+  "title": "FMGE 2026 Eligibility & Exam Rules: The Things That Can Make or Break Your Attempt",
+  "slug": "fmge-2026-eligibility-exam-rules-make-or-break-your-attempt",
+  "excerpt": "Know FMGE 2026 eligibility, key rules, attempt limits, and document requirements to avoid mistakes and secure a smooth exam attempt and better outcome.",
+  "featured_image": "https://cdn.dribbble.com/userupload/47819031/file/4f243ed76bb90cbff8c91356e4104410.jpg?w=1200&h=600&fit=crop",
+  "featured_image_alt": "fmge 2026",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "FMGE",
+    "slug": "fmge",
+    "color": "bg-purple-100 text-purple-800"
+  },
+  "tags": [
+    "FMGE 2026",
+    "FMGE Eligibility",
+    "FMGE Exam Rules",
+    "FMGE Preparation",
+    "Exam Preparation"
+  ],
+  "published_date": "2026-05-22",
+  "read_time": 8,
+  "meta_title": "FMGE 2026 Eligibility & Exam Rules: The Things That Can Make or Break Your Attempt",
+  "meta_description": "Know FMGE 2026 eligibility, key rules, attempt limits, and document requirements to avoid mistakes and secure a smooth exam attempt and better outcome.",
+  "keywords": [
+    "fmge exam",
+    "fmge preparation",
+    "fmge exam eligibility",
+    "fmge exam rules",
+    "exam preparation",
+    "preparation strategy",
+    "exam pattern"
+  ],
+  "sections": [
+    // {
+    //   "id": "intro",
+    //   "type": "heading",
+    //   "title": "FMGE 2026 Eligibility & Exam Rules: The Things That Can Make or Break Your Attempt",
+    //   "level": 1
+    // },
+    {
+      "id": "intro-para1",
+      "type": "paragraph",
+      "content": "Most students focus entirely on preparation—and that makes sense. But here's something people don't talk about enough."
+    },
+    {
+      "id": "intro-para2",
+      "type": "paragraph",
+      "content": "Every year, candidates are stopped from appearing in FMGE not because they weren't prepared, but because they didn't meet the eligibility rules properly."
+    },
+    {
+      "id": "intro-para3",
+      "type": "paragraph",
+      "content": "And the worst part? Many of them realize it too late. If you're planning for FMGE 2026, this is one area you don't want to figure out later."
+    },
+    {
+      "id": "eligibility",
+      "type": "heading",
+      "title": "First Things First: Are You Even Eligible?",
+      "level": 2
+    },
+    {
+      "id": "eligibility-para1",
+      "type": "paragraph",
+      "content": "Before you go deep into preparation, take a step back and check this honestly."
+    },
+    {
+      "id": "eligibility-table",
+      "type": "table",
+      "headers": ["Eligibility Criterion", "What It Means"],
+      "rows": [
+        ["Indian citizen or OCI", "You must hold Indian citizenship or Overseas Citizen of India status"],
+        ["Primary medical qualification from abroad", "You must have completed MBBS or an equivalent degree from a foreign institution"],
+        ["Result officially declared", "Your result must be officially declared — exams being over is not enough"]
+      ],
+      "caption": "That last point is where many students get stuck. If your result has not been officially declared, you will not be allowed to appear — regardless of whether your exams are over."
+    },
+    {
+      "id": "degree-verification",
+      "type": "heading",
+      "title": "Your Degree Isn't Enough — It Has to Be Verified",
+      "level": 2
+    },
+    {
+      "id": "degree-verification-para1",
+      "type": "paragraph",
+      "content": "A common assumption is: \"I've completed my MBBS abroad, so I'm eligible.\" Not exactly."
+    },
+    {
+      "id": "degree-verification-table",
+      "type": "table",
+      "headers": ["Requirement", "Detail"],
+      "rows": [
+        ["Degree must be recognized", "The institution and qualification must meet NMC recognition standards"],
+        ["Properly verified or apostilled", "Verification must be done by the Indian Embassy in the country where you studied"]
+      ],
+      "caption": "If your documents aren't in order, your application can be rejected — even if everything else is fine. This is one of those things students often delay, and it comes back to hurt them."
+    },
+    {
+      "id": "neet-requirement",
+      "type": "heading",
+      "title": "The NEET Requirement (Don't Overlook This)",
+      "level": 2
+    },
+    {
+      "id": "neet-requirement-para1",
+      "type": "paragraph",
+      "content": "If you started your medical education abroad after 2018, qualifying NEET is mandatory."
+    },
+    {
+      "id": "neet-requirement-para2",
+      "type": "paragraph",
+      "content": "No NEET qualification = no eligibility for FMGE. Many students assume this step doesn't matter once they're already studying abroad. It does. And it's non-negotiable."
+    },
+    {
+      "id": "ineligibility-reasons",
+      "type": "heading",
+      "title": "When Candidates Get Declared Ineligible",
+      "level": 2
+    },
+    {
+      "id": "ineligibility-reasons-para1",
+      "type": "paragraph",
+      "content": "This is where things get real. You can be declared ineligible if:"
+    },
+    {
+      "id": "ineligibility-reasons-table",
+      "type": "table",
+      "headers": ["Reason for Ineligibility", "How to Avoid It"],
+      "rows": [
+        ["Documents are incomplete", "Compile and verify every required document well before the application deadline"],
+        ["Degree isn't properly verified", "Get your degree apostilled and verified by the Indian Embassy early"],
+        ["Missed eligibility requirements", "Cross-check every criterion against the official NMC guidelines before applying"],
+        ["Incorrect or false information submitted", "Review your application carefully before submitting — errors are difficult to reverse"]
+      ],
+      "caption": "Once declared ineligible, there is no quick fix. Double-checking everything now is always better than dealing with problems later."
+    },
+    {
+      "id": "exam-rules",
+      "type": "heading",
+      "title": "Important Exam Rules You Shouldn't Ignore",
+      "level": 2
+    },
+    {
+      "id": "exam-rules-para1",
+      "type": "paragraph",
+      "content": "These might sound basic, but they matter more than you think."
+    },
+    {
+      "id": "exam-rules-table",
+      "type": "table",
+      "headers": ["Rule", "What It Means for You"],
+      "rows": [
+        ["Only one application allowed", "You cannot submit multiple applications — one submission is final"],
+        ["No change in exam center or date", "Whatever is assigned after application is confirmed — no exceptions"],
+        ["Electronic devices strictly prohibited", "Carrying any electronic device into the exam hall is not permitted under any circumstance"],
+        ["Admit card requires complete and correct application", "If your application has errors or gaps, your admit card will not be issued"]
+      ],
+      "caption": "These rules are strict with very little room for exceptions. Treat each one as a non-negotiable requirement, not a guideline."
+    },
+    {
+      "id": "reality-check",
+      "type": "heading",
+      "title": "A Reality Check Most Students Miss",
+      "level": 2
+    },
+    {
+      "id": "reality-check-para1",
+      "type": "paragraph",
+      "content": "Clearing FMGE is a big milestone — but it's not the final step. Passing the exam does not automatically mean you can start practicing."
+    },
+    {
+      "id": "reality-check-para2",
+      "type": "paragraph",
+      "content": "You still need to:"
+    },
+    {
+      "id": "reality-check-list",
+      "type": "list",
+      "items": [
+        "Complete the required formalities",
+        "Follow the guidelines set by the National Medical Commission"
+      ]
+    },
+    {
+      "id": "reality-check-conclusion",
+      "type": "paragraph",
+      "content": "Think of FMGE as a gateway — not the destination."
+    },
+    {
+      "id": "dont-wait",
+      "type": "heading",
+      "title": "Don't Wait Till the Last Moment to Figure This Out",
+      "level": 2
+    },
+    {
+      "id": "dont-wait-para1",
+      "type": "paragraph",
+      "content": "One pattern shows up every year — students checking eligibility just a few weeks before the exam. By then, if something is missing, there's hardly any time to fix it."
+    },
+    {
+      "id": "dont-wait-table",
+      "type": "table",
+      "headers": ["Smarter Approach", "Why It Matters"],
+      "rows": [
+        ["Verify your documents early, before the deadline", "Gives you time to correct errors, get re-verification, or arrange missing paperwork"],
+        ["Confirm your eligibility well in advance", "Removes uncertainty and lets you focus entirely on preparation"],
+        ["Keep everything ready before the application window opens", "Eliminates last-minute stress and reduces the risk of submission errors"]
+      ],
+      "caption": "This strategy removes unnecessary stress and lets you focus properly on preparation — which is where your real energy should go."
+    },
+    {
+      "id": "final-thoughts",
+      "type": "heading",
+      "title": "Final Thoughts",
+      "level": 2
+    },
+    {
+      "id": "final-thoughts-para1",
+      "type": "paragraph",
+      "content": "Preparing for FMGE takes a lot of effort, consistency, and patience. But none of that helps if your eligibility isn't clear."
+    },
+    {
+      "id": "final-thoughts-para2",
+      "type": "paragraph",
+      "content": "So before you go deeper into your study schedule, take some time to sort this out. Because in exams like this, it's not just about how well you prepare — it's also about whether you've taken care of the basics properly."
+    },
+    {
+      "id": "final-thoughts-conclusion",
+      "type": "paragraph",
+      "content": "Get this part right, and everything else becomes a lot smoother."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Q1. Is NEET mandatory for FMGE?",
+          "answer": "Yes, it is mandatory for all students who began their medical education abroad after 2018."
+        },
+        {
+          "question": "Q2. Can incomplete documents reject your application?",
+          "answer": "Absolutely. Incomplete or unverified documents are one of the most common reasons for application rejection."
+        },
+        {
+          "question": "Q3. Can the exam center or date be changed later?",
+          "answer": "No. No changes are allowed once your application has been submitted and processed."
+        },
+        {
+          "question": "Q4. Does passing FMGE mean direct practice?",
+          "answer": "No. Further formalities and compliance with NMC guidelines are still required before you can begin practicing."
+        }
+      ]
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "fmge exam",
+        "fmge preparation",
+        "fmge exam eligibility",
+        "fmge exam rules",
+        "exam preparation",
+        "preparation strategy",
+        "exam pattern"
+      ]
+    }
+  ]
 }
 ];
 
