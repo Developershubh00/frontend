@@ -726,7 +726,7 @@ function Homepage() {
               <div className="relative p-6">
                 {/* Desktop Image */}
                 <img
-                  src="https://cdn.dribbble.com/userupload/44858014/file/56d53c676b68c4180cdc94fbeba54656.png?auto=compress&cs=tinysrgb&w=1424&h=600&fit=crop"
+                  src="https://cdn.dribbble.com/userupload/47828308/file/096f4fed81b7a6ef11d4504fbfc973ae.png?auto=compress&cs=tinysrgb&w=1424&h=600&fit=crop"
                   alt="Believers Consultancy Dashboard Preview"
                   className="w-full h-auto rounded-[30px] shadow-lg hidden md:block"
                   style={{ aspectRatio: "16/10" }}
@@ -734,7 +734,7 @@ function Homepage() {
                 />
                 {/* Mobile Image */}
                 <img
-                  src="https://cdn.dribbble.com/userupload/44656684/file/cec64a8083e87908509e53b8db9b4121.png?auto=compress&cs=tinysrgb&w=600&h=1200&fit=crop"
+                  src="https://cdn.dribbble.com/userupload/47828334/file/9e57e2531f744217df30742423166d3e.png?auto=compress&cs=tinysrgb&w=600&h=1200&fit=crop"
                   alt="Believers Consultancy Dashboard Preview"
                   className="w-full h-auto rounded-[30px] shadow-lg md:hidden"
                   style={{ aspectRatio: "9/16" }}
