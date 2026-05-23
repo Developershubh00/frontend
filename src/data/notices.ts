@@ -231,6 +231,15 @@ const rawNotices: Omit<NoticeDocument, 'isNew'>[] = [
       "/data/inicet-admission.pdf",
     size: "External",
   },
+  {
+    id: 25,
+    title:
+      "The INI CET May 2026 result has been declared. Students can check their result on the AIIMS result page and also download the official result PDF from here. ",
+    date: "23.05.2026",
+    externalUrl:
+      "/data/inicet-2026.pdf",
+    size: "External",
+  },
   
 ];
 
