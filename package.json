@@ -17,6 +17,8 @@
     "axios": "^1.11.0",
     "lucide-react": "^0.344.0",
     "papaparse": "^5.5.3",
+    "pdf-parse": "^1.1.1",
+    "pdfreader": "^3.0.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-facebook-pixel": "^1.0.4",

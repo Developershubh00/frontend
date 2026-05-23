@@ -38,7 +38,6 @@ function Homepage() {
   const [reviewsVisible, setReviewsVisible] = useState(false);
   const [isCounsellingOpen, setIsCounsellingOpen] = useState(false);
 
-
   const heroRef = useRef<HTMLDivElement>(null);
   const dashboardRef = useRef<HTMLDivElement>(null);
   const chaosRef = useRef<HTMLDivElement>(null);
@@ -391,7 +390,7 @@ function Homepage() {
             <div className="hidden md:flex items-center space-x-8 ml-auto">
               <div className="flex items-center space-x-8">
                 <a
-                  onClick={() => navigate("/inicetdashboard")}
+                  onClick={() => navigate("/inicet-result")}
                   className="text-white bg-gradient-to-r from-blue-300 to-blue-600 hover:from-blue-600 hover:to-blue-700 px-4 py-2 rounded-full transition-all duration-300 font-bold relative group cursor-pointer "
                 >
                   INICET
@@ -501,7 +500,7 @@ function Homepage() {
               <div className="px-2 pt-2 pb-3 space-y-1">
                 <a
                   onClick={() => {
-                    navigate("/inicetdashboard");
+                    navigate("/inicet-result");
                     setIsMenuOpen(false);
                   }}
                   className="block px-3 py-3 text-white bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 rounded-xl transition-all duration-300 font-bold text-center cursor-pointer shadow-lg mb-2 animate-pulse"
@@ -646,7 +645,7 @@ function Homepage() {
               </button>
 
               <button
-                onClick={() => navigate("/inicetdashboard")}
+                onClick={() => navigate("/inicet-result")}
                 className={`w-full sm:w-auto bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-10 py-4 rounded-full text-xl font-bold inline-flex items-center justify-center space-x-3 transition-all duration-300 hover:scale-105 shadow-2xl animate-pulse relative ${
                   isVisible
                     ? "opacity-100 translate-y-0"
@@ -675,7 +674,7 @@ function Homepage() {
               <ArrowRight className="w-6 h-6" />
             </button>
             <button
-    onClick={() => navigate("/inicetdashboard")}
+    onClick={() => navigate("/inicet-result")}
     className="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-10 py-4 rounded-full text-xl font-bold inline-flex items-center justify-center space-x-3 transition-all duration-300 hover:scale-105 shadow-2xl animate-pulse relative"
   >
     <Award className="w-6 h-6" />
@@ -1354,4 +1353,3 @@ function Homepage() {
 }
 
 export default Homepage;
-
