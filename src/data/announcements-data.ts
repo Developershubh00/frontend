@@ -1585,6 +1585,19 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "NEET UG 2026 Re-Exam Likely to Impact",
     created_at: "2026-05-17T08:00:00Z",
   },
+  {
+    id: 120,
+    title: "The INI CET May 2026 result has been declared. ",
+    content:
+      "Students can check their result on the AIIMS result page and also download the official result PDF from here. Official AIIMS Result Website:",
+    date: "2026-05-23T08:00:00Z",
+    priority: "high",
+    category: "INI CET",
+    link: "https://www.aiimsexams.ac.in/ ",
+    is_active: true,
+    source: "INI CET May 2026 result OUT",
+    created_at: "2026-05-23T08:00:00Z",
+  },
 ];
 
 /**
