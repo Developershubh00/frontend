@@ -60756,7 +60756,7 @@ export const blogPosts: BlogPost[] = [
 {
   "id": 149,
   "title": "INI-CET vs NEET PG: The Real Difference No One Tells You",
-  "slug": "ini-cet-vs-neet-pg-real-difference-No-One-Tells-You",
+  "slug": "ini-cet-vs-neet-pg-real-difference-mo-one-tells-you",
   "excerpt": "Know the real difference between INI CET vs NEET PG in exam pattern, difficulty, concepts, and strategy to prepare smarter and score higher.",
   "featured_image": "https://cdn.dribbble.com/userupload/47658402/file/d9cfe7204e432c5cd8808f124f83b545.jpg?w=1200&h=600&fit=crop",
   "featured_image_alt": "ini cet",
@@ -61121,7 +61121,7 @@ export const blogPosts: BlogPost[] = [
 {
   "id": 150,
   "title": "When Prep Starts Feeling Like Comparison: Staying Focused in the INI-CET Phase",
-  "slug": "when-prep-feels-like-comparison-staying-focused-ini-cet-in-the-INI-CET-Phase",
+  "slug": "when-prep-feels-like-comparison-staying-focused-in-the-ini-cet-phase",
   "excerpt": "When INI-CET prep feels like comparison, learn how to stay focused, manage pressure, build confidence, and follow your own study path.",
   "featured_image": "https://cdn.dribbble.com/userupload/47685986/file/c3faaea7645505dd90b302e6b2b0d767.jpg?w=1200&h=600&fit=crop",
   "featured_image_alt": "ini cet 2026",
@@ -61739,7 +61739,7 @@ export const blogPosts: BlogPost[] = [
 {
   "id": 152,
   "title": "Best PG Medical Branches After INI-CET: A Practical Guide to Choosing Your Medical Career",
-  "slug": "best-pg-medical-branches-after-ini-cet-practical-guide-to-Choosing-Your-Medical-Career",
+  "slug": "best-pg-medical-branches-after-ini-cet-practical-guide-to-choosing-your-medical-career",
   "excerpt": "Explore the best PG medical branches after INI-CET with practical tips to choose the right specialty for your skills, goals, and future growth.",
   "featured_image": "https://cdn.dribbble.com/userupload/47737889/file/67b220d2cb7e9a4357d24176a20ae0bd.jpg?w=1200&h=600&fit=crop",
   "featured_image_alt": "ini cet 2026",
@@ -62348,7 +62348,7 @@ export const blogPosts: BlogPost[] = [
 {
   "id": 154,
   "title": "NEET PG Preparation During Internship: A Realistic Strategy That Actually Works",
-  "slug": "neet-pg-preparation-during-internship-realistic-strategy-That-Actually-Works",
+  "slug": "neet-pg-preparation-during-internship-realistic-strategy-that-actually-works",
   "excerpt": "Balance duties and study with a focused plan, smart scheduling, high yield revision, and MCQ practice to crack NEET PG during internship.",
   "featured_image": "https://cdn.dribbble.com/userupload/47766857/file/1c8f375fc5dfa4249dadceb4c643fe58.jpg?w=1200&h=600&fit=crop",
   "featured_image_alt": "neet pg preparation",
@@ -62680,7 +62680,7 @@ export const blogPosts: BlogPost[] = [
 {
   "id": 155,
   "title": "NEET UG 2026 Re-Examination Officially Announced: Complete Details for Students",
-  "slug": "neet-ug-2026-re-examination-officially-announced-complete-details-for-Students",
+  "slug": "neet-ug-2026-re-examination-officially-announced-complete-details-for-students",
   "excerpt": "NEET UG 2026 re-exam details are now out. Students can check eligibility, exam dates, guidelines, and important updates to stay fully prepared.",
   "featured_image": "https://cdn.dribbble.com/userupload/47780857/file/5ce6d3d40c5b8fe0332154f35f770f62.jpg?w=1200&h=600&fit=crop",
   "featured_image_alt": "neet ug 2026",
