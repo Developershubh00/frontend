@@ -62919,7 +62919,7 @@ export const blogPosts: BlogPost[] = [
 {
   "id": 156,
   "title": "Running on Empty: Dealing with Burnout During Medical PG Preparation",
-  "slug": "Running-on-Empty-dealing-with-burnout-during-medical-pg-preparation",
+  "slug": "running-on-rmpty-dealing-with-burnout-during-medical-pg-preparation",
   "excerpt": "Overcome burnout during medical PG prep with smart study plans, rest, and mindset shifts to stay consistent, focused, and perform at your best every day.",
   "featured_image": "https://cdn.dribbble.com/userupload/47793877/file/7bd256ab0fdc7fc72f7c071d08999690.jpg?w=1200&h=600&fit=crop",
   "featured_image_alt": "medical pg preparation",
