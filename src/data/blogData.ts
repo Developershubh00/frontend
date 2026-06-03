@@ -65418,7 +65418,7 @@ export const blogPosts: BlogPost[] = [
   "title": "Every NEET PG Aspirant Eventually Asks the Same Question at Some Point During Preparation",
   "slug": "every-neet-pg-aspirant-eventually-asks-the-same-question-at-some-point-during-preparation",
   "excerpt": "Every NEET PG aspirant eventually asks the same question during preparation: how to study smarter, revise faster, and boost rank with confidence.",
-  "featured_image": "https://cdn.dribbble.com/userupload/47847239/file/f64bc9949e4d24cffda8252d47142d2e.jpg?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/47935898/file/7962e584cb2d927e450840d9594aefe6.jpg?w=1200&h=600&fit=crop",
   "featured_image_alt": "neet pg subject weightage question distribution preparation strategy",
   "author": {
     "name": "Believers Team",
