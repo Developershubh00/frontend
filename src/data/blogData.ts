@@ -64143,8 +64143,8 @@ export const blogPosts: BlogPost[] = [
     "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
   "category": {
-    "name": "FMGE",
-    "slug": "fmge",
+    "name": "NEET",
+    "slug": "neet",
     "color": "bg-purple-100 text-purple-800"
   },
   "tags": [
@@ -64583,8 +64583,8 @@ export const blogPosts: BlogPost[] = [
     "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
   "category": {
-    "name": "FMGE",
-    "slug": "fmge",
+    "name": "NEET",
+    "slug": "neet",
     "color": "bg-purple-100 text-purple-800"
   },
   "tags": [
@@ -65103,8 +65103,8 @@ export const blogPosts: BlogPost[] = [
     "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
   "category": {
-    "name": "FMGE",
-    "slug": "fmge",
+    "name": "NEET",
+    "slug": "neet",
     "color": "bg-purple-100 text-purple-800"
   },
   "tags": [
@@ -65426,8 +65426,8 @@ export const blogPosts: BlogPost[] = [
     "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
   },
   "category": {
-    "name": "FMGE",
-    "slug": "fmge",
+    "name": "NEET",
+    "slug": "neet",
     "color": "bg-purple-100 text-purple-800"
   },
   "tags": [
