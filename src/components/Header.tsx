@@ -1,5 +1,3 @@
-
-
 import React, { useState, useEffect } from "react";
 import { useAuth } from "../contexts/AuthContext";
 import { useNavigate, useLocation } from "react-router-dom";
@@ -52,7 +50,12 @@ const Header: React.FC<HeaderProps> = ({
   useEffect(() => {
     if (location.pathname.includes("inicet")) {
       setCurrentSection("INICET");
-    } else if (location.pathname.includes("dashboard") || location.pathname === "/") {
+    } else if (location.pathname.includes("ug")) {
+      setCurrentSection("NEET UG");
+    } else if (
+      location.pathname.includes("dashboard") ||
+      location.pathname === "/"
+    ) {
       setCurrentSection("NEET PG");
     }
   }, [location.pathname]);
@@ -71,19 +74,40 @@ const Header: React.FC<HeaderProps> = ({
     window.open(
       "https://docs.google.com/forms/d/e/1FAIpQLSdwL6ERosbYYVBw5dUxQoVupLnzSDEtW8qe0UE-3FsptSB8sw/viewform",
       "_blank",
-      "noopener,noreferrer"
+      "noopener,noreferrer",
     );
   };
 
   // NEET dropdown options with navigation
   const neetOptions = [
-    { id: "neet-pg", label: "NEET PG", description: "Postgraduate Medical", path: "/dashboard" },
-    { id: "InicetMainContent", label: "INICET", description: "Institute of National Importance", path: "/inicetdashboard" },
+    {
+      id: "neet-pg",
+      label: "NEET PG",
+      description: "Postgraduate Medical",
+      path: "/dashboard",
+    },
+    {
+      id: "neet-ug",
+      label: "NEET UG",
+      description: "Undergraduate Medical",
+      path: "/neet-ug-dashboard", // change to your actual route
+    },
+    {
+      id: "InicetMainContent",
+      label: "INICET",
+      description: "Institute of National Importance",
+      path: "/inicetdashboard",
+    },
   ];
 
   // Predictor dropdown options
   const predictorOptions = [
-    { id: "pg-predictor", label: "PG Predictor", description: "NEET PG Specialty Predictor", path: "/predictor/pg" },
+    {
+      id: "pg-predictor",
+      label: "PG Predictor",
+      description: "NEET PG Specialty Predictor",
+      path: "/predictor/pg",
+    },
   ];
 
   return (
@@ -114,21 +138,21 @@ const Header: React.FC<HeaderProps> = ({
 
           <div className="flex items-center space-x-2">
             <button
-            onClick={onNotificationClick}
-            className="relative w-10 h-10 flex items-center justify-center rounded-lg hover:bg-slate-100 transition-all duration-200 group"
-          >
-            <Bell className="w-5 h-5 text-slate-700 group-hover:text-blue-600 transition-colors" />
-            {unreadCount > 0 && (
-              <>
-                {/* Badge */}
-                <span className="absolute top-1 right-1 w-5 h-5 bg-gradient-to-r from-red-500 to-rose-600 text-white text-xs font-bold rounded-full flex items-center justify-center shadow-lg animate-pulse">
-                  {unreadCount > 9 ? '9+' : unreadCount}
-                </span>
-                {/* Pulse effect */}
-                <span className="absolute top-1 right-1 w-5 h-5 bg-red-500 rounded-full animate-ping opacity-75"></span>
-              </>
-            )}
-          </button>
+              onClick={onNotificationClick}
+              className="relative w-10 h-10 flex items-center justify-center rounded-lg hover:bg-slate-100 transition-all duration-200 group"
+            >
+              <Bell className="w-5 h-5 text-slate-700 group-hover:text-blue-600 transition-colors" />
+              {unreadCount > 0 && (
+                <>
+                  {/* Badge */}
+                  <span className="absolute top-1 right-1 w-5 h-5 bg-gradient-to-r from-red-500 to-rose-600 text-white text-xs font-bold rounded-full flex items-center justify-center shadow-lg animate-pulse">
+                    {unreadCount > 9 ? "9+" : unreadCount}
+                  </span>
+                  {/* Pulse effect */}
+                  <span className="absolute top-1 right-1 w-5 h-5 bg-red-500 rounded-full animate-ping opacity-75"></span>
+                </>
+              )}
+            </button>
 
             <button
               onClick={() => navigate("/profile")}
@@ -183,15 +207,17 @@ const Header: React.FC<HeaderProps> = ({
                 <button
                   onClick={() => toggleDropdown("neet")}
                   className={`flex items-center space-x-2 px-4 py-2 rounded-xl transition-all duration-200 font-medium ${
-                    currentSection === "NEET PG"
-                      ? "bg-blue-100 text-blue-700"
-                      : currentSection === "INICET"
+                    currentSection === "NEET PG" ||
+                    currentSection === "NEET UG" ||
+                    currentSection === "INICET"
                       ? "bg-blue-100 text-blue-700"
                       : "text-blue-600 hover:bg-blue-50"
                   }`}
                 >
                   <span>{currentSection}</span>
-                  <ChevronDown className={`w-4 h-4 transition-transform ${activeDropdown === "neet" ? "rotate-180" : ""}`} />
+                  <ChevronDown
+                    className={`w-4 h-4 transition-transform ${activeDropdown === "neet" ? "rotate-180" : ""}`}
+                  />
                 </button>
                 {activeDropdown === "neet" && (
                   <div className="absolute top-full left-0 mt-2 w-64 bg-white/95 backdrop-blur-xl rounded-xl shadow-xl border border-slate-200/50 py-2 z-50 animate-in slide-in-from-top-2">
@@ -222,11 +248,11 @@ const Header: React.FC<HeaderProps> = ({
               {/* Predictor Dropdown */}
               <div className="relative">
                 <button
-                onClick={() => navigate("/predictor")}
-                 className="flex items-center space-x-2 px-4 py-2 text-blue-600 hover:bg-blue-50 rounded-xl transition-all duration-200 font-medium"
-                  >
-                 <span>Predictor</span>
-                  </button>
+                  onClick={() => navigate("/predictor")}
+                  className="flex items-center space-x-2 px-4 py-2 text-blue-600 hover:bg-blue-50 rounded-xl transition-all duration-200 font-medium"
+                >
+                  <span>Predictor</span>
+                </button>
                 {/* <button
                   onClick={() => toggleDropdown("predictor")}
                   className="flex items-center space-x-2 px-4 py-2 text-blue-600 hover:bg-blue-50 rounded-xl transition-all duration-200 font-medium"
@@ -265,9 +291,8 @@ const Header: React.FC<HeaderProps> = ({
                   <span>Blogs</span>
                 </button>
               </div>
-            </div> 
-          </div> 
-          
+            </div>
+          </div>
 
           <div className="flex items-center space-x-3 lg:space-x-4">
             <div className="relative">
@@ -297,23 +322,23 @@ const Header: React.FC<HeaderProps> = ({
               </button>
             </div>
 
-           {/* Notification Bell */}
-          <button
-            onClick={onNotificationClick}
-            className="relative w-10 h-10 flex items-center justify-center rounded-lg hover:bg-slate-100 transition-all duration-200 group"
-          >
-            <Bell className="w-5 h-5 text-slate-700 group-hover:text-blue-600 transition-colors" />
-            {unreadCount > 0 && (
-              <>
-                {/* Badge */}
-                <span className="absolute top-1 right-1 w-5 h-5 bg-gradient-to-r from-red-500 to-rose-600 text-white text-xs font-bold rounded-full flex items-center justify-center shadow-lg animate-pulse">
-                  {unreadCount > 9 ? '9+' : unreadCount}
-                </span>
-                {/* Pulse effect */}
-                <span className="absolute top-1 right-1 w-5 h-5 bg-red-500 rounded-full animate-ping opacity-75"></span>
-              </>
-            )}
-          </button>
+            {/* Notification Bell */}
+            <button
+              onClick={onNotificationClick}
+              className="relative w-10 h-10 flex items-center justify-center rounded-lg hover:bg-slate-100 transition-all duration-200 group"
+            >
+              <Bell className="w-5 h-5 text-slate-700 group-hover:text-blue-600 transition-colors" />
+              {unreadCount > 0 && (
+                <>
+                  {/* Badge */}
+                  <span className="absolute top-1 right-1 w-5 h-5 bg-gradient-to-r from-red-500 to-rose-600 text-white text-xs font-bold rounded-full flex items-center justify-center shadow-lg animate-pulse">
+                    {unreadCount > 9 ? "9+" : unreadCount}
+                  </span>
+                  {/* Pulse effect */}
+                  <span className="absolute top-1 right-1 w-5 h-5 bg-red-500 rounded-full animate-ping opacity-75"></span>
+                </>
+              )}
+            </button>
 
             <div className="relative">
               <button
@@ -324,7 +349,9 @@ const Header: React.FC<HeaderProps> = ({
                 <span className="font-medium">
                   {user?.name?.charAt(0).toUpperCase() || "U"}
                 </span>
-                <ChevronDown className={`w-4 h-4 transition-transform ${activeDropdown === "profile" ? "rotate-180" : ""}`} />
+                <ChevronDown
+                  className={`w-4 h-4 transition-transform ${activeDropdown === "profile" ? "rotate-180" : ""}`}
+                />
               </button>
               {activeDropdown === "profile" && (
                 <div className="absolute top-full right-0 mt-2 w-48 bg-white/95 backdrop-blur-xl rounded-xl shadow-xl border border-slate-200/50 py-2 z-50 animate-in slide-in-from-top-2">
@@ -336,7 +363,9 @@ const Header: React.FC<HeaderProps> = ({
                     className="block w-full text-left px-4 py-3 text-sm text-slate-700 hover:bg-slate-50 transition-colors"
                   >
                     <div className="font-medium">My Profile</div>
-                    <div className="text-xs text-slate-500">View and edit profile</div>
+                    <div className="text-xs text-slate-500">
+                      View and edit profile
+                    </div>
                   </button>
                   <button
                     onClick={() => {
@@ -346,7 +375,9 @@ const Header: React.FC<HeaderProps> = ({
                     className="block w-full text-left px-4 py-3 text-sm text-slate-700 hover:bg-slate-50 transition-colors"
                   >
                     <div className="font-medium">Dashboard</div>
-                    <div className="text-xs text-slate-500">Go to dashboard</div>
+                    <div className="text-xs text-slate-500">
+                      Go to dashboard
+                    </div>
                   </button>
                   <hr className="my-2 border-slate-200" />
                   <button
@@ -358,7 +389,9 @@ const Header: React.FC<HeaderProps> = ({
                     className="block w-full text-left px-4 py-3 text-sm text-red-600 hover:bg-red-50 transition-colors"
                   >
                     <div className="font-medium">Logout</div>
-                    <div className="text-xs text-red-500">Sign out of account</div>
+                    <div className="text-xs text-red-500">
+                      Sign out of account
+                    </div>
                   </button>
                 </div>
               )}

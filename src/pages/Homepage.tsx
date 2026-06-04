@@ -98,7 +98,7 @@ function Homepage() {
     { label: "NEET UG", path: "/neet-ug" },
     { label: "INICET", path: "/inicet" },
     { label: "NEET SS", path: "/neet-ss" },
-    { label: "DNB PDCET", path: "/dnb-pdcet" },
+    // { label: "DNB PDCET", path: "/dnb-pdcet" },
   ];
 
   const stats = [
@@ -1276,14 +1276,14 @@ function Homepage() {
                     INICET (Coming Soon)
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a
                     onClick={() => navigate("/login")}
                     className="hover:text-white transition-colors hover:text-blue-400 cursor-pointer"
                   >
                     DNB PDCET (Coming Soon)
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a
                     onClick={() => navigate("/login")}

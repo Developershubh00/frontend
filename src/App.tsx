@@ -88,6 +88,11 @@ import SeatMatrix2025Page from "./latest2025data/SeatMatrix2025Page";
 import FeesStipendBond2025Page from "./latest2025data/FeesStipendBond2025Page";
 import CollegePredictorPage from "./pages/CollegePredictorPage";
 import InicetResultChecker from "./pages/InicetResultChecker";
+import NEETUGDashboardPage from "./NEET_UG/NEETUGDashboardPage";
+import SeatMatrixUGPage from "./NEET_UG/latest2025data/SeatMatrixUGPage";
+import FeesStipendBond2025UGPage from "./NEET_UG/latest2025data/FeesStipendBond2025UGPage";
+import ClosingRanks2025UGPage from "./NEET_UG/latest2025data/ClosingRanks2025UGPage";
+import ComingSoonPage from "./pages/ComingSoonPage";
 
 /**
  * Main App Component with React Router
@@ -409,6 +414,50 @@ function AppContent() {
             element={
               <ProtectedRoute>
                 <NeetPGPage />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/neet-ug-dashboard"
+            element={
+              <ProtectedRoute>
+                <NEETUGDashboardPage />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/NEETUG/SEATMATRIX"
+            element={
+              <ProtectedRoute>
+                <SeatMatrixUGPage onBack={() => window.history.back()} />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/NEETUG/feessstipendbond2025"
+            element={
+              <ProtectedRoute>
+                <FeesStipendBond2025UGPage
+                  onBack={() => window.history.back()}
+                />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/NEETUG/closingranks2025"
+            element={
+              <ProtectedRoute>
+                <ClosingRanks2025UGPage onBack={() => window.history.back()} />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/comingsoonpage"
+            element={
+              <ProtectedRoute>
+                <ComingSoonPage
+                  onBackToDashboard={() => window.history.back()}
+                />
               </ProtectedRoute>
             }
           />
