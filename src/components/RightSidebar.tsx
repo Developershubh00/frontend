@@ -203,63 +203,63 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
   //   },
   // ];
   const neetPGUpdates = [
-  {
-    id: 1,
-    date: "March 2026 (Expected)",
-    event: "Registration / Application Form",
-    status: "upcoming",
-    isHighlight: true,
-  },
-  {
-    id: 2,
-    date: "Late March 2026 (Expected)",
-    event: "Last Date for Registration",
-    status: "upcoming",
-  },
-  {
-    id: 3,
-    date: "April 2026 (Expected)",
-    event: "Correction Window",
-    status: "upcoming",
-  },
-  {
-    id: 4,
-    date: "July 30, 2026 (Expected)",
-    event: "Admit Card Release",
-    status: "upcoming",
-  },
-  {
-    id: 5,
-    date: "August 30, 2026 (Confirmed)",
-    event: "NEET PG 2026 Exam",
-    status: "upcoming",
-    isHighlight: true,
-  },
-  {
-    id: 6,
-    date: "September 2026 (Tentative)",
-    event: "Result Declaration",
-    status: "upcoming",
-  },
-  {
-    id: 7,
-    date: "September–October 2026 (Tentative)",
-    event: "Round 1 Counselling",
-    status: "upcoming",
-  },
-  {
-    id: 8,
-    date: "October–November 2026 (Tentative)",
-    event: "Round 2 Counselling",
-    status: "upcoming",
-  },
-  {
-    id: 9,
-    date: "November–December 2026 (Tentative)",
-    event: "Round 3 & Stray Vacancy Round",
-    status: "upcoming",
-  },
-];
+    {
+      id: 1,
+      date: "March 2026 (Expected)",
+      event: "Registration / Application Form",
+      status: "upcoming",
+      isHighlight: true,
+    },
+    {
+      id: 2,
+      date: "Late March 2026 (Expected)",
+      event: "Last Date for Registration",
+      status: "upcoming",
+    },
+    {
+      id: 3,
+      date: "April 2026 (Expected)",
+      event: "Correction Window",
+      status: "upcoming",
+    },
+    {
+      id: 4,
+      date: "July 30, 2026 (Expected)",
+      event: "Admit Card Release",
+      status: "upcoming",
+    },
+    {
+      id: 5,
+      date: "August 30, 2026 (Confirmed)",
+      event: "NEET PG 2026 Exam",
+      status: "upcoming",
+      isHighlight: true,
+    },
+    {
+      id: 6,
+      date: "September 2026 (Tentative)",
+      event: "Result Declaration",
+      status: "upcoming",
+    },
+    {
+      id: 7,
+      date: "September–October 2026 (Tentative)",
+      event: "Round 1 Counselling",
+      status: "upcoming",
+    },
+    {
+      id: 8,
+      date: "October–November 2026 (Tentative)",
+      event: "Round 2 Counselling",
+      status: "upcoming",
+    },
+    {
+      id: 9,
+      date: "November–December 2026 (Tentative)",
+      event: "Round 3 & Stray Vacancy Round",
+      status: "upcoming",
+    },
+  ];
   const pdfUrl =
     "https://believersconsultancy.com/data/AIQ_and_State_Schedule_PG_2025_dated_25.11.25.pdf";
 
@@ -346,19 +346,26 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
         </div> */}
         {/* NEET PG Statistics */}
         <div className="mb-6">
-          <h3 className="text-sm font-bold text-slate-800 mb-3">Estimated Statistics For NEET PG 2026</h3>
+          <h3 className="text-sm font-bold text-slate-800 mb-3">
+            Estimated Statistics For NEET PG 2026
+          </h3>
           <div className="space-y-2">
             <div className="flex justify-between items-center p-2 bg-blue-50 rounded-lg">
               <span className="text-xs text-slate-600">Exam Date</span>
-              <span className="text-xs font-bold text-blue-700">May 03, 2026</span>
+              <span className="text-xs font-bold text-blue-700">
+                {" "}
+                August 30, 2026
+              </span>
             </div>
             <div className="flex justify-between items-center p-2 bg-blue-50 rounded-lg">
-              <span className="text-xs text-slate-600">Total Seats (2025 ref.)</span>
+              <span className="text-xs text-slate-600">
+                Total Seats (2025 ref.)
+              </span>
               <span className="text-xs font-bold text-blue-700">51,953+</span>
             </div>
             <div className="flex justify-between items-center p-2 bg-blue-50 rounded-lg">
               <span className="text-xs text-slate-600">Registration Opens</span>
-              <span className="text-xs font-bold text-blue-700">April 17, 2025</span>
+              <span className="text-xs font-bold text-blue-700">June 2026</span>
             </div>
           </div>
         </div>
