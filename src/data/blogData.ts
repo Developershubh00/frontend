@@ -65910,7 +65910,7 @@ export const blogPosts: BlogPost[] = [
   "title": "Why Pharmacology Remains One of the Highest-Scoring Subjects in NEET PG?",
   "slug": "why-pharmacology-remains-one-of-the-highest-scoring-subjects-in-neet-pg",
   "excerpt": "Pharmacology continues to be a high-scoring NEET PG subject because of its clinical relevance, repeated patterns, and easy revision approach.",
-  "featured_image": "https://cdn.dribbble.com/userupload/47958998/file/a08e975725240f31118a8915a161096d.jpg?w=1200&h=600&fit=crop",
+  "featured_image": "https://cdn.dribbble.com/userupload/47959163/file/50141b8c788443fd333d7cb0de42dc20.jpg?w=1200&h=600&fit=crop",
   "featured_image_alt": "pharmacology highest scoring subject neet pg preparation",
   "author": {
     "name": "Believers Team",
