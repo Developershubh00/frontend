@@ -65904,7 +65904,7 @@ export const blogPosts: BlogPost[] = [
       ]
     }
   ]
-}
+},
 {
   "id": 163,
   "title": "Why Pharmacology Remains One of the Highest-Scoring Subjects in NEET PG?",
