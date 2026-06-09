@@ -66460,7 +66460,7 @@ export const blogPosts: BlogPost[] = [
   ]
 },
 {
-  "id": 158,
+  "id": 164,
   "title": "Community Medicine and Its Expanding Weightage in Competitive Exams",
   "slug": "community-medicine-and-its-expanding-weightage-in-competitive-exams",
   "excerpt": "Community Medicine is gaining major importance in competitive exams due to its practical concepts, public health focus, and rising question weightage.",
