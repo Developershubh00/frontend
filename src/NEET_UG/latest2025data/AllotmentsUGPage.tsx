@@ -166,7 +166,7 @@ const AllotmentsUGPage: React.FC<AllotmentsPageProps> = ({ onBack }) => {
       queryParams.append("search", debouncedSearch.trim());
 
     const response = await fetch(
-      `http://127.0.0.1:8000/api/ug-allotment/?${queryParams.toString()}`,
+      `https://backend-fiwg.onrender.com/api/ug-allotment/?${queryParams.toString()}`,
     );
 
     const data = await response.json();
