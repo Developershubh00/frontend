@@ -93,6 +93,7 @@ import SeatMatrixUGPage from "./NEET_UG/latest2025data/SeatMatrixUGPage";
 import FeesStipendBond2025UGPage from "./NEET_UG/latest2025data/FeesStipendBond2025UGPage";
 import ClosingRanks2025UGPage from "./NEET_UG/latest2025data/ClosingRanks2025UGPage";
 import ComingSoonPage from "./pages/ComingSoonPage";
+import AllotmentsUGPage from "./NEET_UG/latest2025data/AllotmentsUGPage";
 
 /**
  * Main App Component with React Router
@@ -456,6 +457,16 @@ function AppContent() {
             element={
               <ProtectedRoute>
                 <ComingSoonPage
+                  onBackToDashboard={() => window.history.back()}
+                />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/allotments2025UG"
+            element={
+              <ProtectedRoute>
+                <AllotmentsUGPage
                   onBackToDashboard={() => window.history.back()}
                 />
               </ProtectedRoute>

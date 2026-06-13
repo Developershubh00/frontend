@@ -61,7 +61,7 @@ const NEETUGMainContent: React.FC<NEETUGMainContentProps> = ({
     setYearModal({ open: false, cardId: "", cardTitle: "" });
 
     if (year === "2025") {
-      if (cardId === "allotments") window.location.href = "/comingsoonpage"; ///NEETUG/allotments2025
+      if (cardId === "allotments") window.location.href = "/allotments2025UG"; ///NEETUG/allotments2025
       if (cardId === "closing-ranks")
         window.location.href = "/NEETUG/closingranks2025";
       if (cardId === "seat-matrix") window.location.href = "/NEETUG/SEATMATRIX";
