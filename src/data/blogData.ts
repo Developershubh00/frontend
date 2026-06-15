@@ -69965,17 +69965,17 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "intro-para1",
       "type": "paragraph",
-      "content": "Finishing the syllabus feels massive. You've spent months grinding through 19 subjects, and getting to the other side is a real achievement."
+      "content": "Finishing the NEET PG syllabus feels massive. You've spent months grinding through all 19 subjects included in the NEET PG exam syllabus, and getting to the other side is a real achievement."
     },
     {
       "id": "intro-para2",
       "type": "paragraph",
-      "content": "But then something unexpected happens. You expected mock scores to climb. You thought revision would feel smoother, that things would click. Instead, your scores are sitting in the same range they've been for weeks. You're putting in the hours, showing up every day — and nothing seems to move."
+      "content": "But then something unexpected happens. You expected mock scores to climb. You thought revision would feel smoother, that things would click. Instead, your scores are sitting in the same range they've been for weeks. You're putting in the hours, showing up every day and nothing seems to move."
     },
     {
       "id": "intro-para3",
       "type": "paragraph",
-      "content": "This is the plateau. Almost every serious NEET PG aspirant hits it, and it's one of the most demoralizing stretches of the entire journey — not because things are going wrong, but because it feels like they are."
+      "content": "This is the plateau. Almost every serious NEET PG aspirant hits it, and it's one of the most demoralizing stretches of the entire journey not because things are going wrong, but because it feels like they are."
     },
     {
       "id": "syllabus-not-ready",
@@ -69991,12 +69991,12 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "syllabus-not-ready-para2",
       "type": "paragraph",
-      "content": "The exam won't ask you to recognize something you vaguely remember reading. It'll put you under time pressure, give you four options that all look plausible, and expect you to retrieve the right answer fast. That skill isn't built during your first read-through — it's built afterward, through practice, repetition, and pressure."
+      "content": "The NEET PG exam won't ask you to recognize something you vaguely remember reading. It'll put you under time pressure, give you four options that all look plausible, and expect you to retrieve the right answer fast. That skill isn't built during your first read-through — it's built afterward, through practice, repetition, and pressure."
     },
     {
       "id": "syllabus-not-ready-conclusion",
       "type": "paragraph",
-      "content": "If you've covered everything and still struggle in mocks, that's not a sign something's broken. It's just where you actually are in the process."
+      "content": "If you've covered everything and still struggle in mocks, that's not a sign something's broken. It's just where you actually are in the NEET PG preparation process."
     },
     {
       "id": "passive-revision",
@@ -70043,7 +70043,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "mock-tests-conclusion",
       "type": "paragraph",
-      "content": "A lot of students are blindsided by this. They know the concept, understand it well, and still get it wrong — because the exam is also testing how you make decisions under pressure. That's a separate skill, and mocks are one of the few ways to actually train it."
+      "content": "A lot of students are blindsided by this. They know the concept, understand it well, and still get it wrong — because the exam is also testing how you make decisions under pressure. That's a separate skill, and mocks are one of the few ways to actually train it during competitive exam preparation."
     },
     {
       "id": "weak-areas",
@@ -70063,6 +70063,11 @@ export const blogPosts: BlogPost[] = [
     },
     {
       "id": "weak-areas-para3",
+      "type": "paragraph",
+      "content": "This becomes especially important when considering NEET PG subject weightage. Some students spend too much time on comfortable subjects while neglecting areas that carry significant marks in the exam. Understanding subject weightage in NEET PG can help prioritize revision more effectively."
+    },
+    {
+      "id": "weak-areas-para4",
       "type": "paragraph",
       "content": "Strengths keep improving while weak areas quietly sit there untouched."
     },
@@ -70106,7 +70111,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "burnout-para2",
       "type": "paragraph",
-      "content": "Months of continuous preparation wears people down quietly. Concentration drops. Motivation fluctuates. Things you understood well start feeling harder to recall. The common response is to study longer — but when your brain is fatigued, extra hours produce very little. You're at your desk, but nothing is landing."
+      "content": "Months of continuous NEET PG preparation wear people down quietly. Concentration drops. Motivation fluctuates. Things you understood well start feeling harder to recall. The common response is to study longer — but when your brain is fatigued, extra hours produce very little."
     },
     {
       "id": "burnout-conclusion",
@@ -70153,7 +70158,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "invisible-progress-conclusion",
       "type": "paragraph",
-      "content": "None of that feels significant in the moment. But across hundreds of questions and several months, those small improvements compound — and in a competitive exam, they often decide the rank."
+      "content": "None of that feels significant in the moment. But across hundreds of questions and several months, those small improvements compound — and in a medical PG entrance exam, they often make the difference between thousands of ranks."
     },
     {
       "id": "plateau-not-failing",
@@ -70174,7 +70179,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "plateau-not-failing-conclusion",
       "type": "paragraph",
-      "content": "The students who make it through this phase aren't always the ones who worked the hardest. They're the ones who paid attention to what their scores were telling them and adjusted."
+      "content": "Whether you're revising a high-weightage subject in NEET PG or working through weaker topics, the students who make it through this phase aren't always the ones who worked the hardest. They're the ones who paid attention to what their scores were telling them and adjusted."
     },
     {
       "id": "faqs",
