@@ -95,7 +95,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro-problem",
         type: "paragraph",
         content:
-          "Unfortunately, many students face confusion—some realise late that they belong to the OBC-NCL category and not the General category, while others discover that their state and central lists don't match.",
+          "Unfortunately, many students face confusion-some realise late that they belong to the OBC-NCL category and not the General category, while others discover that their state and central lists don't match.",
       },
       {
         id: "intro-purpose",
@@ -541,7 +541,7 @@ export const blogPosts: BlogPost[] = [
         type: "info-box",
         boxType: "info",
         content:
-          "Important Note:\nIf the admit card displays only 'GEN', rely on the category/PwD details captured in the NBEMS application—those are the details sent to the counselling portal.\n\nDuring registration, personal details are pre-filled from the exam records. Depending on the year's interface, reservation fields may be non-editable; opt-out to General is typically offered for certain categories.\n\nSo, your counselling identity is basically carried forward from your NBE application.",
+          "Important Note:\nIf the admit card displays only 'GEN', rely on the category/PwD details captured in the NBEMS application-those are the details sent to the counselling portal.\n\nDuring registration, personal details are pre-filled from the exam records. Depending on the year's interface, reservation fields may be non-editable; opt-out to General is typically offered for certain categories.\n\nSo, your counselling identity is basically carried forward from your NBE application.",
       },
       {
         id: "why-matters",
@@ -889,7 +889,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "section-2-sponsored",
         type: "heading",
-        title: "3. Sponsored Candidates (Relatives) — The Complicated Part",
+        title: "3. Sponsored Candidates (Relatives) - The Complicated Part",
         level: 3,
       },
       {
@@ -1504,7 +1504,7 @@ export const blogPosts: BlogPost[] = [
           ],
           [
             "Round 2",
-            "If allotted both in AIQ and State, you must pick one — dual retention isn't allowed.",
+            "If allotted both in AIQ and State, you must pick one - dual retention isn't allowed.",
           ],
           [
             "After Round 2",
@@ -3998,7 +3998,7 @@ export const blogPosts: BlogPost[] = [
             question:
               "Q1: What is the difference between local and non-local candidates in AP NEET PG CQ counselling?",
             answer:
-              "Local status is determined by the regional classification of the MBBS institution—candidates who completed MBBS from colleges under Andhra University (AU) or Sri Venkateswara University (SVU) regions are considered local, regardless of their domicile. Non-local candidates can qualify for 15% unreserved seats if they meet specific criteria such as 10 years of residency in AP (excluding education period), having a parent/spouse employed in AP government/PSU, or being married to a local candidate.",
+              "Local status is determined by the regional classification of the MBBS institution-candidates who completed MBBS from colleges under Andhra University (AU) or Sri Venkateswara University (SVU) regions are considered local, regardless of their domicile. Non-local candidates can qualify for 15% unreserved seats if they meet specific criteria such as 10 years of residency in AP (excluding education period), having a parent/spouse employed in AP government/PSU, or being married to a local candidate.",
           },
           {
             question:
@@ -5113,7 +5113,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro",
         type: "paragraph",
         content:
-          "Gujarat NEET PG 2025 counselling is now open, and this guide provides everything you need to know — including eligibility, seat types, reservation policies, fees, and essential documents. If you're planning to participate, read carefully to avoid mistakes. A thorough understanding of these guidelines is critical to a successful NEET PG counselling application.",
+          "Gujarat NEET PG 2025 counselling is now open, and this guide provides everything you need to know - including eligibility, seat types, reservation policies, fees, and essential documents. If you're planning to participate, read carefully to avoid mistakes. A thorough understanding of these guidelines is critical to a successful NEET PG counselling application.",
       },
       {
         id: "why-wait",
@@ -5143,7 +5143,7 @@ export const blogPosts: BlogPost[] = [
         id: "pin-purchase-content",
         type: "paragraph",
         content:
-          "Access the official ACPPGMEC portal and provide your NEET PG credentials, including roll number and verified contact details. Data accuracy is critical — verify that all information corresponds exactly to your NEET PG documentation to prevent processing issues. Pay via UPI, debit/credit card, or internet banking. Secure your login credentials (User ID and PIN) — essential for the Gujarat NEET PG counselling 2025 process.",
+          "Access the official ACPPGMEC portal and provide your NEET PG credentials, including roll number and verified contact details. Data accuracy is critical - verify that all information corresponds exactly to your NEET PG documentation to prevent processing issues. Pay via UPI, debit/credit card, or internet banking. Secure your login credentials (User ID and PIN) - essential for the Gujarat NEET PG counselling 2025 process.",
       },
       {
         id: "candidate-registration",
@@ -5216,7 +5216,7 @@ export const blogPosts: BlogPost[] = [
         id: "final-review-content",
         type: "paragraph",
         content:
-          "Review your application thoroughly before confirmation — once submitted, edits are not allowed. Save and print the final application form to use during NEET PG allotment and admission.",
+          "Review your application thoroughly before confirmation - once submitted, edits are not allowed. Save and print the final application form to use during NEET PG allotment and admission.",
       },
       {
         id: "key-facts",
@@ -5922,7 +5922,7 @@ export const blogPosts: BlogPost[] = [
           {
             question: "Q4: How many rounds of counselling are conducted?",
             answer:
-              "The DMER typically conducts multiple rounds under the MCC NEET PG counselling framework — including stray vacancy rounds.",
+              "The DMER typically conducts multiple rounds under the MCC NEET PG counselling framework - including stray vacancy rounds.",
           },
         ],
       },
@@ -7652,7 +7652,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro-content",
         type: "paragraph",
         content:
-          "The Directorate of Medical Education (DME), Tamil Nadu, has commenced the online application process for admission to PG Degree/Diploma courses for the 2025-2026 session under Tamil Nadu NEET PG counselling. This is part of the NEET PG 2025 State Quota counselling and covers both Government Quota and Management Quota seats, with separate application processes. All prospective applicants are strongly encouraged to review the official prospectus on the TN Medical Selection website before proceeding and to complete their applications within the prescribed timeline.\n\nHere's a clear, step-by-step guide to everything you need to know—from eligibility to NEET PG counselling registration—to ensure your application process is smooth and error-free.",
+          "The Directorate of Medical Education (DME), Tamil Nadu, has commenced the online application process for admission to PG Degree/Diploma courses for the 2025-2026 session under Tamil Nadu NEET PG counselling. This is part of the NEET PG 2025 State Quota counselling and covers both Government Quota and Management Quota seats, with separate application processes. All prospective applicants are strongly encouraged to review the official prospectus on the TN Medical Selection website before proceeding and to complete their applications within the prescribed timeline.\n\nHere's a clear, step-by-step guide to everything you need to know-from eligibility to NEET PG counselling registration-to ensure your application process is smooth and error-free.",
       },
       {
         id: "important-dates",
@@ -8149,7 +8149,7 @@ export const blogPosts: BlogPost[] = [
         items: [
           "Enter your personal details (name, gender, DOB, email, mobile number).",
           "Complete OTP verification on your Indian mobile number.",
-          "A temporary registration ID will be generated—save it for subsequent login.",
+          "A temporary registration ID will be generated-save it for subsequent login.",
         ],
       },
       {
@@ -8421,7 +8421,7 @@ export const blogPosts: BlogPost[] = [
         id: "june-15-content",
         type: "paragraph",
         content:
-          "As of now, the official exam date for the NEET PG 2025 exam remains June 15, 2025. However, the Court has permitted the NBE to request a deferment if required. Given the NBE's own statement about challenges in conducting a single shift exam, a NEET PG postpond (postponement appears possible — though candidates are advised to continue their NEET PG exam preparation for the announced date.",
+          "As of now, the official exam date for the NEET PG 2025 exam remains June 15, 2025. However, the Court has permitted the NBE to request a deferment if required. Given the NBE's own statement about challenges in conducting a single shift exam, a NEET PG postpond (postponement appears possible - though candidates are advised to continue their NEET PG exam preparation for the announced date.",
       },
       {
         id: "why-matters-aspirants",
@@ -8644,7 +8644,7 @@ export const blogPosts: BlogPost[] = [
         id: "overview-content",
         type: "paragraph",
         content:
-          "DME Tamil Nadu conducts two parallel counselling processes — one for the Government Quota (50% of government college seats) and another for the Tamil Nadu Management Quota (50% of private college seats). Candidates who wish to participate in both must register separately.\n\nThe management quota admission process covers seats in private medical colleges across Tamil Nadu, including a part of the quota at Christian Medical College (CMC), Vellore.\n\nAll candidates from India can apply under Tamil Nadu medical counselling management quota, which also includes subcategories like NRI, minority, and institutional preference seats.",
+          "DME Tamil Nadu conducts two parallel counselling processes - one for the Government Quota (50% of government college seats) and another for the Tamil Nadu Management Quota (50% of private college seats). Candidates who wish to participate in both must register separately.\n\nThe management quota admission process covers seats in private medical colleges across Tamil Nadu, including a part of the quota at Christian Medical College (CMC), Vellore.\n\nAll candidates from India can apply under Tamil Nadu medical counselling management quota, which also includes subcategories like NRI, minority, and institutional preference seats.",
       },
       {
         id: "key-dates",
@@ -8777,7 +8777,7 @@ export const blogPosts: BlogPost[] = [
         id: "application-intro",
         type: "paragraph",
         content:
-          "Candidates must apply online via the official DME portal — tnmedicalselection.net — for TN Management Quota counselling.",
+          "Candidates must apply online via the official DME portal - tnmedicalselection.net - for TN Management Quota counselling.",
       },
       {
         id: "application-steps",
@@ -9380,7 +9380,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro",
         type: "paragraph",
         content:
-          "It is a competitive medical education world where students feel immense pressure to secure a rank and choose the 'right' branch. There's a common belief that AIR 1 gets a perfect branch with limitless opportunities, work-life balance, and financial stability—the dream of all aspirants. But the truth is, no branch is perfect.\n\nEven when you are a high-ranked player, no role is without its difficulties. No niche remains untouched by overcrowding, no specialty offers guaranteed safety, and no route is without sacrifice. Every field of medicine has its own demands, concessions, and challenges to test your patience, your commitment, and your resilience.\n\nBut that's what makes the journey worthwhile.",
+          "It is a competitive medical education world where students feel immense pressure to secure a rank and choose the 'right' branch. There's a common belief that AIR 1 gets a perfect branch with limitless opportunities, work-life balance, and financial stability-the dream of all aspirants. But the truth is, no branch is perfect.\n\nEven when you are a high-ranked player, no role is without its difficulties. No niche remains untouched by overcrowding, no specialty offers guaranteed safety, and no route is without sacrifice. Every field of medicine has its own demands, concessions, and challenges to test your patience, your commitment, and your resilience.\n\nBut that's what makes the journey worthwhile.",
       },
       {
         id: "myth-perfect-branch",
@@ -9407,7 +9407,7 @@ export const blogPosts: BlogPost[] = [
         id: "myth-conclusion",
         type: "paragraph",
         content:
-          "Rather than chasing perfection, it's wise to understand that medicine isn't just a career—it's a lifelong commitment to learn, grow, and serve.",
+          "Rather than chasing perfection, it's wise to understand that medicine isn't just a career-it's a lifelong commitment to learn, grow, and serve.",
       },
       {
         id: "redefining-success",
@@ -9446,7 +9446,7 @@ export const blogPosts: BlogPost[] = [
         id: "shaping-intro",
         type: "paragraph",
         content:
-          "Your profound expertise isn't just a title—it's a platform to make an impact. You have the power to shape your own journey:",
+          "Your profound expertise isn't just a title-it's a platform to make an impact. You have the power to shape your own journey:",
       },
       {
         id: "shaping-list",
@@ -9488,7 +9488,7 @@ export const blogPosts: BlogPost[] = [
           {
             question: "Q1. Is there a 'best' specialty?",
             answer:
-              "No. Fit depends on interests, lifestyle, income goals, and training context—there's no single 'best' branch.",
+              "No. Fit depends on interests, lifestyle, income goals, and training context-there's no single 'best' branch.",
           },
           {
             question: "Q2. Is work-life balance realistic in medicine?",
@@ -9498,7 +9498,7 @@ export const blogPosts: BlogPost[] = [
           {
             question: "Q3. How important is mentorship?",
             answer:
-              "Crucial. Strong mentors improve skills, satisfaction, and career growth—start seeking guidance early.",
+              "Crucial. Strong mentors improve skills, satisfaction, and career growth-start seeking guidance early.",
           },
           {
             question: "Q4. What to ask before choosing a branch?",
@@ -9662,7 +9662,7 @@ export const blogPosts: BlogPost[] = [
           "Click on 'Apply' to start the registration process",
           "Required NEET PG details include roll number (11-digit format beginning with 25), All India Rank, score, and date of birth as per the official scorecard",
           "Enter date of completion of MBBS, total marks obtained, and maximum marks (sum of all MBBS examinations)",
-          "Select residence type — either Jammu & Kashmir or UT of Ladakh",
+          "Select residence type - either Jammu & Kashmir or UT of Ladakh",
           "Enter domicile certificate details, such as the date of issue",
           "Choose category (Open Merit, SC, ST, OBC, RBA, ALC/IB, EWS)",
         ],
@@ -10492,7 +10492,7 @@ export const blogPosts: BlogPost[] = [
   //         "Click the activation link sent via email.",
   //         "Create a new password and confirm it.",
   //         "Enter the OTP received on the same email to verify the account.",
-  //         "Once completed, the system will confirm — \"Account Activated Successfully.\""
+  //         "Once completed, the system will confirm - \"Account Activated Successfully.\""
   //       ]
   //     },
   //     {
@@ -10665,7 +10665,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro",
         type: "paragraph",
         content:
-          "The Directorate of Medical Education (DME) Tamil Nadu administers the Tamil Nadu NEET PG Counselling 2025 for MD/MS/Diploma admissions under both Government Quota Counselling and Management Quota Counselling across medical institutions in the state.\n\nIf you're planning to apply for NEET PG counselling in Tamil Nadu, it's essential to understand the counselling procedure for NEET PG, eligibility criteria, documentation, and registration process to secure your postgraduate seat successfully. This detailed guide provides complete NEET PG counselling guidance — covering both Tamil Nadu State NEET PG Counselling and the MCC counselling NEET PG process.",
+          "The Directorate of Medical Education (DME) Tamil Nadu administers the Tamil Nadu NEET PG Counselling 2025 for MD/MS/Diploma admissions under both Government Quota Counselling and Management Quota Counselling across medical institutions in the state.\n\nIf you're planning to apply for NEET PG counselling in Tamil Nadu, it's essential to understand the counselling procedure for NEET PG, eligibility criteria, documentation, and registration process to secure your postgraduate seat successfully. This detailed guide provides complete NEET PG counselling guidance - covering both Tamil Nadu State NEET PG Counselling and the MCC counselling NEET PG process.",
       },
       {
         id: "overview",
@@ -11389,7 +11389,7 @@ export const blogPosts: BlogPost[] = [
         id: "conclusion-content",
         type: "paragraph",
         content:
-          "The Gujarat NEET PG 2025 counselling process ensures a fair, transparent, and unified admission system across government, private, and NRI seats. Candidates are advised to complete registration within the deadline, ensure accurate documentation, and monitor all official announcements regularly.\n\nWith a streamlined procedure, clear eligibility norms, and well-defined verification steps, Gujarat remains one of the most organized states in postgraduate medical admissions — ensuring that every qualified aspirant has an equal opportunity to secure a seat based on merit and eligibility.",
+          "The Gujarat NEET PG 2025 counselling process ensures a fair, transparent, and unified admission system across government, private, and NRI seats. Candidates are advised to complete registration within the deadline, ensure accurate documentation, and monitor all official announcements regularly.\n\nWith a streamlined procedure, clear eligibility norms, and well-defined verification steps, Gujarat remains one of the most organized states in postgraduate medical admissions - ensuring that every qualified aspirant has an equal opportunity to secure a seat based on merit and eligibility.",
       },
       {
         id: "faqs",
@@ -11540,7 +11540,7 @@ export const blogPosts: BlogPost[] = [
         id: "categories-content",
         type: "paragraph",
         content:
-          "In Telangana’s private medical colleges, seats are divided into three categories: Category A, B, and C.\nCategory A (Government Quota/Competent Authority Quota) is administered separately by KNRUHS; Management Quota comprises Categories B and C exclusively.\nManagement Quota encompasses 50% of total private college seats: Category B (MQ1—all India eligible) and Category C (MQ2 NRI seats, MQ3 institutional seats).\nCategory B (MQ1) seats are open to candidates from across India, while Category C is split into:",
+          "In Telangana’s private medical colleges, seats are divided into three categories: Category A, B, and C.\nCategory A (Government Quota/Competent Authority Quota) is administered separately by KNRUHS; Management Quota comprises Categories B and C exclusively.\nManagement Quota encompasses 50% of total private college seats: Category B (MQ1-all India eligible) and Category C (MQ2 NRI seats, MQ3 institutional seats).\nCategory B (MQ1) seats are open to candidates from across India, while Category C is split into:",
       },
       {
         id: "categories-list",
@@ -11743,7 +11743,7 @@ export const blogPosts: BlogPost[] = [
           {
             question: "Q9: Is there a reservation in the Management Quota?",
             answer:
-              "A: No reservation or fee concessions by category. Category declaration determines eligibility only for candidates scoring 235-276 marks (40th-50th percentile)—such candidates qualify for general admission but receive no preference. All candidates compete on NEET merit.",
+              "A: No reservation or fee concessions by category. Category declaration determines eligibility only for candidates scoring 235-276 marks (40th-50th percentile)-such candidates qualify for general admission but receive no preference. All candidates compete on NEET merit.",
           },
           {
             question: "Q10: What happens after submission?",
@@ -11894,7 +11894,7 @@ export const blogPosts: BlogPost[] = [
         id: "old-rule-content",
         type: "paragraph",
         content:
-          "Earlier, as per the Supreme Court and the Consortium of Deemed Universities (Karnataka), first-degree relatives — including parents, siblings, uncles, aunts, and grandparents — could sponsor students for NRI quota admissions.\n\nCandidates needed:",
+          "Earlier, as per the Supreme Court and the Consortium of Deemed Universities (Karnataka), first-degree relatives - including parents, siblings, uncles, aunts, and grandparents - could sponsor students for NRI quota admissions.\n\nCandidates needed:",
       },
       {
         id: "old-rule-list",
@@ -11936,7 +11936,7 @@ export const blogPosts: BlogPost[] = [
         id: "new-rule-impact",
         type: "paragraph",
         content:
-          "This means that extended family sponsorships — a common route in earlier NEET PG counselling procedures — are no longer valid.\n\nAdult NEET PG aspirants can apply under the NRI quota only if they or their parents hold NRI status with valid embassy documentation.",
+          "This means that extended family sponsorships - a common route in earlier NEET PG counselling procedures - are no longer valid.\n\nAdult NEET PG aspirants can apply under the NRI quota only if they or their parents hold NRI status with valid embassy documentation.",
       },
       {
         id: "impact-counselling",
@@ -11966,7 +11966,7 @@ export const blogPosts: BlogPost[] = [
         id: "state-quota-content",
         type: "paragraph",
         content:
-          "In state quota counselling, each state medical authority has its own set of documentation requirements. Some states, such as Kerala, may accept alternate proofs, while others — like Tamil Nadu, Karnataka, and Maharashtra — strictly follow embassy certification norms.\n\nWithout a valid NRI certificate, applicants will be ineligible to apply under the NRI category during NEET PG state counselling.",
+          "In state quota counselling, each state medical authority has its own set of documentation requirements. Some states, such as Kerala, may accept alternate proofs, while others - like Tamil Nadu, Karnataka, and Maharashtra - strictly follow embassy certification norms.\n\nWithout a valid NRI certificate, applicants will be ineligible to apply under the NRI category during NEET PG state counselling.",
       },
       {
         id: "conversion-seats",
@@ -12051,7 +12051,7 @@ export const blogPosts: BlogPost[] = [
         id: "issue-2-content",
         type: "paragraph",
         content:
-          "Many embassies now require direct parental proof of NRI status and bona fide guardianship documents — valid only for minors.",
+          "Many embassies now require direct parental proof of NRI status and bona fide guardianship documents - valid only for minors.",
       },
       {
         id: "issue-3",
@@ -12113,11 +12113,11 @@ export const blogPosts: BlogPost[] = [
         id: "expert-advice-list",
         type: "list",
         items: [
-          "Start documentation early — embassy processing takes time.",
+          "Start documentation early - embassy processing takes time.",
           "Apply only through authentic NRI certificates.",
           "Monitor updates on MCC NEET PG counselling schedule and state quota counselling notifications.",
           "Ensure accuracy in every step of the NEET PG choice filling and NEET PG counseling procedure.",
-          "Avoid fraudulent documentation — MCC and MEA cross-verify all embassy records.",
+          "Avoid fraudulent documentation - MCC and MEA cross-verify all embassy records.",
         ],
       },
       {
@@ -12443,7 +12443,7 @@ export const blogPosts: BlogPost[] = [
           "Prioritize colleges based on rank, category, and location.",
           "Cross-check seat availability using the AIQ NEET PG seat matrix.",
           "Fill and lock choices before the deadline as per the schedule of NEET PG counselling.",
-          "Be strategic — include both aspirational and safe options.",
+          "Be strategic - include both aspirational and safe options.",
         ],
       },
       {
@@ -12842,7 +12842,7 @@ export const blogPosts: BlogPost[] = [
         id: "conclusion-content",
         type: "paragraph",
         content:
-          "The NEET PG 2025 counselling schedule, from AIQ NEET PG counselling to State Quota rounds, has been strategically designed by the NMC to allow transparent and efficient seat allocation.\n\nBy understanding the NEET PG counselling procedure, completing NEET PG counselling registration on time, and planning each choice filling phase carefully, you can confidently navigate through Round 1, Round 2, and even the NEET PG 3rd round counselling.\n\nThis is the final step toward your postgraduate medical dream — stay organized, stay informed, and make every decision strategically to secure your ideal seat in PG medical counselling 2025.",
+          "The NEET PG 2025 counselling schedule, from AIQ NEET PG counselling to State Quota rounds, has been strategically designed by the NMC to allow transparent and efficient seat allocation.\n\nBy understanding the NEET PG counselling procedure, completing NEET PG counselling registration on time, and planning each choice filling phase carefully, you can confidently navigate through Round 1, Round 2, and even the NEET PG 3rd round counselling.\n\nThis is the final step toward your postgraduate medical dream - stay organized, stay informed, and make every decision strategically to secure your ideal seat in PG medical counselling 2025.",
       },
       {
         id: "faqs",
@@ -13051,8 +13051,8 @@ export const blogPosts: BlogPost[] = [
         id: "step-3-list",
         type: "list",
         items: [
-          "Self-Certification Form (Appendix A) — declaring your disability type, UDID number, and functional abilities (communication, mobility, etc.).",
-          "Disability-Specific Affidavit (Appendix B–F) — depending on whether you have hearing, locomotor, visual, cognitive, or multiple disabilities.",
+          "Self-Certification Form (Appendix A) - declaring your disability type, UDID number, and functional abilities (communication, mobility, etc.).",
+          "Disability-Specific Affidavit (Appendix B–F) - depending on whether you have hearing, locomotor, visual, cognitive, or multiple disabilities.",
         ],
       },
       {
@@ -13150,7 +13150,7 @@ export const blogPosts: BlogPost[] = [
         id: "larger-impact-content",
         type: "paragraph",
         content:
-          "The Supreme Court judgment ensures that PWD candidates receive equitable treatment during medical PG counselling. It reinforces that disability is not a limitation but an attribute that requires fair accommodation through structured evaluation.\n\nThis uniform process, backed by MCC NEET PG and All India medical counselling PG protocols, upholds the principles of inclusivity and equal opportunity — vital pillars of medical education reform in India.",
+          "The Supreme Court judgment ensures that PWD candidates receive equitable treatment during medical PG counselling. It reinforces that disability is not a limitation but an attribute that requires fair accommodation through structured evaluation.\n\nThis uniform process, backed by MCC NEET PG and All India medical counselling PG protocols, upholds the principles of inclusivity and equal opportunity - vital pillars of medical education reform in India.",
       },
       {
         id: "conclusion",
@@ -14796,7 +14796,7 @@ export const blogPosts: BlogPost[] = [
           rows: [
             ["MD/MS/DNB (Govt Institute)", "2 Years", "₹40 lakh"],
             ["Diploma (Govt Institute)", "2 Years", "₹20 lakh"],
-            ["IMS BHU, AMU (Selective)", "No Bond", "—"],
+            ["IMS BHU, AMU (Selective)", "No Bond", "-"],
           ],
         },
       },
@@ -14825,7 +14825,7 @@ export const blogPosts: BlogPost[] = [
         id: "final-thoughts-content",
         type: "paragraph",
         content:
-          "The UP NEET PG counselling process is more than just a registration form — it's a structured pathway to your postgraduate dream seat. From mop-up round seat allotment to stray round vacancy filling, every phase matters.\n\nWhether you're exploring UP state NEET PG counselling or participating in MCC PG medical counselling, stay updated, make informed decisions, and fill your choices wisely. Your journey to specialization begins here.",
+          "The UP NEET PG counselling process is more than just a registration form - it's a structured pathway to your postgraduate dream seat. From mop-up round seat allotment to stray round vacancy filling, every phase matters.\n\nWhether you're exploring UP state NEET PG counselling or participating in MCC PG medical counselling, stay updated, make informed decisions, and fill your choices wisely. Your journey to specialization begins here.",
       },
       {
         id: "faqs",
@@ -17775,7 +17775,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "priority1",
         type: "heading",
-        title: "Priority 1 — Chhattisgarh Affiliated Graduates",
+        title: "Priority 1 - Chhattisgarh Affiliated Graduates",
         level: 3,
       },
       {
@@ -17792,7 +17792,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "priority2",
         type: "heading",
-        title: "Priority 2 — Other-State MBBS Graduates",
+        title: "Priority 2 - Other-State MBBS Graduates",
         level: 3,
       },
       {
@@ -18652,7 +18652,7 @@ export const blogPosts: BlogPost[] = [
           "Confirm and submit your registration form.",
           "Download the registration slip for future reference.",
           "Pay the refundable security fee (see below).",
-          "Save both receipts — registration slip and payment proof.",
+          "Save both receipts - registration slip and payment proof.",
         ],
       },
       {
@@ -19000,10 +19000,10 @@ export const blogPosts: BlogPost[] = [
           [
             "Management Quota",
             "All India Candidates",
-            "—",
+            "-",
             "50% (max 15% NRI)",
           ],
-          ["NRI Quota", "NRI or sponsored by NRI", "—", "15% (maximum)"],
+          ["NRI Quota", "NRI or sponsored by NRI", "-", "15% (maximum)"],
         ],
       },
       {
@@ -19495,8 +19495,8 @@ export const blogPosts: BlogPost[] = [
         id: "registration-fee-list",
         type: "list",
         items: [
-          "₹3,000 for Round 1, Round 2, and Round 3 — paid once during the first registration.",
-          "₹3,000 again for Stray Vacancy Round (Round 4) — if you wish to participate.",
+          "₹3,000 for Round 1, Round 2, and Round 3 - paid once during the first registration.",
+          "₹3,000 again for Stray Vacancy Round (Round 4) - if you wish to participate.",
         ],
       },
       {
@@ -19566,7 +19566,7 @@ export const blogPosts: BlogPost[] = [
           [
             "Service Bond",
             "₹40 Lakh (Degree) / ₹20 Lakh (Diploma)",
-            "—",
+            "-",
             "Payable if the course is discontinued",
           ],
         ],
@@ -20052,7 +20052,7 @@ export const blogPosts: BlogPost[] = [
         type: "table",
         headers: ["S.No.", "Course", "Candidates"],
         rows: [
-          // ["1", "—", "0"],
+          // ["1", "-", "0"],
           ["1", "(NBEMS–Diploma) Radio-Diagnosis", "1"],
           ["2", "(NBEMS) Dermatology, Venereology & Leprosy", "1"],
           ["3", "(NBEMS) Ophthalmology", "1"],
@@ -20075,7 +20075,7 @@ export const blogPosts: BlogPost[] = [
           ["16", "M.S. (ENT)", "1"],
           ["17", "M.S. (General Surgery)", "53"],
           ["18", "M.S. (Orthopaedics)", "14"],
-          ["—", "Grand Total", "928"],
+          ["-", "Grand Total", "928"],
         ],
       },
       {
@@ -20175,9 +20175,9 @@ export const blogPosts: BlogPost[] = [
         id: "md-medicine-colleges-list",
         type: "list",
         items: [
-          "PGIMER / Dr. RML Hospital, New Delhi — numerous occurrences.",
-          "Madras Medical College, Chennai — repeatedly chosen.",
-          "Sawai Man Singh Medical College, Jaipur — frequent picks.",
+          "PGIMER / Dr. RML Hospital, New Delhi - numerous occurrences.",
+          "Madras Medical College, Chennai - repeatedly chosen.",
+          "Sawai Man Singh Medical College, Jaipur - frequent picks.",
         ],
       },
       {
@@ -20195,9 +20195,9 @@ export const blogPosts: BlogPost[] = [
         id: "md-radiology-colleges-list",
         type: "list",
         items: [
-          "Vardhman Mahavir Medical College (VMMC), New Delhi — very frequent.",
-          "Maulana Azad Medical College (MAMC), Delhi — regularly chosen.",
-          "Seth GS Medical College / Grant Medical College (Mumbai) and other major Mumbai colleges — numerous selections.",
+          "Vardhman Mahavir Medical College (VMMC), New Delhi - very frequent.",
+          "Maulana Azad Medical College (MAMC), Delhi - regularly chosen.",
+          "Seth GS Medical College / Grant Medical College (Mumbai) and other major Mumbai colleges - numerous selections.",
         ],
       },
       {
@@ -22636,7 +22636,7 @@ export const blogPosts: BlogPost[] = [
             question:
               "Q1: Can candidates from other states apply for Haryana NEET PG counselling?",
             answer:
-              "Yes—only for Management Quota seats and seats in private universities; State/Govt Quota seats are only for Haryana domicile or MBBS-from-Haryana candidates.",
+              "Yes-only for Management Quota seats and seats in private universities; State/Govt Quota seats are only for Haryana domicile or MBBS-from-Haryana candidates.",
           },
           {
             question: "Q2: Is the registration fee refundable?",
@@ -24429,7 +24429,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "conclusion",
         type: "heading",
-        title: "Conclusion: The Issue Will Be Resolved—Just Stay Informed",
+        title: "Conclusion: The Issue Will Be Resolved-Just Stay Informed",
         level: 2,
       },
       {
@@ -26232,7 +26232,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro-purpose",
         type: "paragraph",
         content:
-          "This detailed guide covers every important aspect—eligibility, registration, NEET PG counselling process, document checklist, round-wise rules, choice filling, NEET PG seat allotment, and more.",
+          "This detailed guide covers every important aspect-eligibility, registration, NEET PG counselling process, document checklist, round-wise rules, choice filling, NEET PG seat allotment, and more.",
       },
       {
         id: "eligibility",
@@ -26494,7 +26494,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "important-dates",
         type: "heading",
-        title: "9. Important Dates — AP NEET-PG 2025 Management Quota",
+        title: "9. Important Dates - AP NEET-PG 2025 Management Quota",
         level: 2,
       },
       {
@@ -28037,7 +28037,7 @@ export const blogPosts: BlogPost[] = [
         id: "conclusion-advice",
         type: "paragraph",
         content:
-          "Stay aware of dates, understand exit rules clearly, and choose logically—not emotionally. For many candidates, NEET PG second counselling becomes the turning point of their journey.",
+          "Stay aware of dates, understand exit rules clearly, and choose logically-not emotionally. For many candidates, NEET PG second counselling becomes the turning point of their journey.",
       },
       {
         id: "faqs",
@@ -28295,12 +28295,12 @@ export const blogPosts: BlogPost[] = [
         id: "seniors-exposure",
         type: "paragraph",
         content:
-          "Residency exposes you to both. And you remember both forever—one for shaping you, and one for teaching you what never to become.",
+          "Residency exposes you to both. And you remember both forever-one for shaping you, and one for teaching you what never to become.",
       },
       {
         id: "burnout",
         type: "heading",
-        title: "PHYSICAL BURNOUT IS CONSTANT—AND REAL",
+        title: "PHYSICAL BURNOUT IS CONSTANT-AND REAL",
         level: 2,
       },
       {
@@ -28322,7 +28322,7 @@ export const blogPosts: BlogPost[] = [
         id: "burnout-care",
         type: "paragraph",
         content:
-          "This is why taking care of yourself is not optional. Drink water when you can. Eat when you get the chance. Sit whenever a chair is available. Sleep whenever possible. Your body is your most important tool—protect it fiercely.",
+          "This is why taking care of yourself is not optional. Drink water when you can. Eat when you get the chance. Sit whenever a chair is available. Sleep whenever possible. Your body is your most important tool-protect it fiercely.",
       },
       {
         id: "first-death",
@@ -28351,7 +28351,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "people",
         type: "heading",
-        title: "YOU NEED PEOPLE — DON'T TRY TO SURVIVE ALONE",
+        title: "YOU NEED PEOPLE - DON'T TRY TO SURVIVE ALONE",
         level: 2,
       },
       {
@@ -28384,7 +28384,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "growth",
         type: "heading",
-        title: "YOU WILL GROW—FASTER THAN YOU EVER IMAGINED",
+        title: "YOU WILL GROW-FASTER THAN YOU EVER IMAGINED",
         level: 2,
       },
       {
@@ -28486,7 +28486,7 @@ export const blogPosts: BlogPost[] = [
             question:
               "Q5: Will I actually grow as a clinician during residency?",
             answer:
-              "Yes. Daily patient care, emergencies, and repeated decision‑making rapidly build your clinical skills, confidence, and resilience—even if you don't notice it at first.",
+              "Yes. Daily patient care, emergencies, and repeated decision‑making rapidly build your clinical skills, confidence, and resilience-even if you don't notice it at first.",
           },
         ],
       },
@@ -28820,7 +28820,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "lesson-6",
         type: "heading",
-        title: "6. CONFIDENCE IS NOT PERFECTION—IT'S RECOVERY",
+        title: "6. CONFIDENCE IS NOT PERFECTION-IT'S RECOVERY",
         level: 2,
       },
       {
@@ -28868,7 +28868,7 @@ export const blogPosts: BlogPost[] = [
         id: "lesson-7-intro",
         type: "paragraph",
         content:
-          "Residency exposes us to hundreds of people—seniors, juniors, nurses, technicians, faculty.",
+          "Residency exposes us to hundreds of people-seniors, juniors, nurses, technicians, faculty.",
       },
       {
         id: "lesson-7-remember",
@@ -28901,7 +28901,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "lesson-8",
         type: "heading",
-        title: "8. WE CAN'T CURE EVERYONE—BUT WE CAN ALWAYS HEAL SOMETHING",
+        title: "8. WE CAN'T CURE EVERYONE-BUT WE CAN ALWAYS HEAL SOMETHING",
         level: 2,
       },
       {
@@ -29092,7 +29092,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "more-than-delivering",
         type: "heading",
-        title: 'OB-GYN — More than "Delivering Babies"',
+        title: 'OB-GYN - More than "Delivering Babies"',
         level: 2,
       },
       {
@@ -29849,7 +29849,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro",
         type: "paragraph",
         content:
-          "You know it's very important to choose a postgraduate specialty in medicine, which is one of the most defining decisions in a doctor's career. Among the rapidly rising fields—MD Nuclear Medicine and DNB Nuclear Medicine have gained tremendous popularity, not just for their diagnostic precision but also for their expanding therapeutic potential. For anyone evaluating a nuclear medicine residency, here is a complete, in-depth look at what this specialty truly offers.",
+          "You know it's very important to choose a postgraduate specialty in medicine, which is one of the most defining decisions in a doctor's career. Among the rapidly rising fields-MD Nuclear Medicine and DNB Nuclear Medicine have gained tremendous popularity, not just for their diagnostic precision but also for their expanding therapeutic potential. For anyone evaluating a nuclear medicine residency, here is a complete, in-depth look at what this specialty truly offers.",
       },
       {
         id: "why-consider",
@@ -30309,7 +30309,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 68,
     title:
-      "Top 3 Mistakes Students Make During NEET PG Counselling — And How to Avoid Them",
+      "Top 3 Mistakes Students Make During NEET PG Counselling - And How to Avoid Them",
     slug: "top-3-mistakes-students-make-during-neet-pg-counselling-how-to-avoid-them",
     excerpt:
       "Many lose seats by rushing choices ignoring data and skipping research. Learn the top NEET PG counselling mistakes and how to avoid them smartly.",
@@ -30396,7 +30396,7 @@ export const blogPosts: BlogPost[] = [
         id: "mistake-2",
         type: "heading",
         title:
-          "2. Filling Very Few Choices — Equivalent to Leaving Half Your Exam Blank",
+          "2. Filling Very Few Choices - Equivalent to Leaving Half Your Exam Blank",
         level: 2,
       },
       {
@@ -30454,7 +30454,7 @@ export const blogPosts: BlogPost[] = [
         id: "mistake-3-intro",
         type: "paragraph",
         content:
-          "This mistake is far more common than people admit. Students build their lists, make edits, plan improvements — but delay locking until the very last moment.",
+          "This mistake is far more common than people admit. Students build their lists, make edits, plan improvements - but delay locking until the very last moment.",
       },
       {
         id: "mistake-3-forgive",
@@ -30544,7 +30544,7 @@ export const blogPosts: BlogPost[] = [
             question:
               "Q3: What happens if I don't lock my choices before the deadline?",
             answer:
-              "If you fail to lock on time, the portal may auto‑lock your last saved order—or you may not be considered at all, depending on the rules for that round. In either case, you lose control over your final preferences.",
+              "If you fail to lock on time, the portal may auto‑lock your last saved order-or you may not be considered at all, depending on the rules for that round. In either case, you lose control over your final preferences.",
           },
           {
             question: "Q4: Can I change my choices after locking?",
@@ -30927,13 +30927,13 @@ export const blogPosts: BlogPost[] = [
       {
         id: "money",
         type: "heading",
-        title: "The Money Factor—Yes, It Matters",
+        title: "The Money Factor-Yes, It Matters",
         level: 2,
       },
       {
         id: "money-intro",
         type: "paragraph",
-        content: "Radiology is financially rewarding—no point denying it.",
+        content: "Radiology is financially rewarding-no point denying it.",
       },
       {
         id: "money-fresh",
@@ -31371,7 +31371,7 @@ export const blogPosts: BlogPost[] = [
         id: "rule-5-intro",
         type: "paragraph",
         content:
-          "This advice often sounds controversial—especially when financial pressure exists.",
+          "This advice often sounds controversial-especially when financial pressure exists.",
       },
       {
         id: "rule-5-senior-wisdom",
@@ -31401,7 +31401,7 @@ export const blogPosts: BlogPost[] = [
         id: "emotional-cost-content",
         type: "paragraph",
         content:
-          "Some days, you walk out without applause, without gratitude, without anyone knowing what you prevented. But you know. You carry the relief, the adrenaline, and the near misses silently. Anesthesia, and many other demanding residency programs—shape you into someone who finds meaning in what is unseen, undocumented, and uncredited, but always essential.",
+          "Some days, you walk out without applause, without gratitude, without anyone knowing what you prevented. But you know. You carry the relief, the adrenaline, and the near misses silently. Anesthesia, and many other demanding residency programs-shape you into someone who finds meaning in what is unseen, undocumented, and uncredited, but always essential.",
       },
       {
         id: "insights-heading",
@@ -31500,7 +31500,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "insight-g",
         type: "heading",
-        title: "G. The Process Is Mentally Draining — But Temporary",
+        title: "G. The Process Is Mentally Draining - But Temporary",
         level: 3,
       },
       {
@@ -31663,7 +31663,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "calmness-chaos",
         type: "heading",
-        title: "Anesthesia — Calmness in Chaos",
+        title: "Anesthesia - Calmness in Chaos",
         level: 2,
       },
       {
@@ -31910,7 +31910,7 @@ export const blogPosts: BlogPost[] = [
         id: "earnings-yes",
         type: "paragraph",
         content:
-          "And yes—freelancers often earn MORE than salaried consultants.",
+          "And yes-freelancers often earn MORE than salaried consultants.",
       },
       {
         id: "super-specialisation",
@@ -33223,7 +33223,7 @@ export const blogPosts: BlogPost[] = [
             question:
               "Q4: What should I look for in a Pediatrics residency program?",
             answer:
-              "Look for balanced exposure (wards, NICU/PICU, emergencies), approachable seniors, high case volume, and regular teaching on communication and counselling—not just protocols.",
+              "Look for balanced exposure (wards, NICU/PICU, emergencies), approachable seniors, high case volume, and regular teaching on communication and counselling-not just protocols.",
           },
         ],
       },
@@ -33585,7 +33585,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "perfect-list-2",
         type: "heading",
-        title: "2. Fill Broadly — But Not Blindly",
+        title: "2. Fill Broadly - But Not Blindly",
         level: 3,
       },
       {
@@ -34339,7 +34339,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "point-4",
         type: "heading",
-        title: "4. Medicine or Surgery? Evaluate Practicality — Not Romance",
+        title: "4. Medicine or Surgery? Evaluate Practicality - Not Romance",
         level: 2,
       },
       {
@@ -34771,7 +34771,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "point-2",
         type: "heading",
-        title: "2. Fill Maximum Choices — But Not Blindly",
+        title: "2. Fill Maximum Choices - But Not Blindly",
         level: 2,
       },
       {
@@ -34870,7 +34870,7 @@ export const blogPosts: BlogPost[] = [
         id: "point-4-conclusion",
         type: "paragraph",
         content:
-          "Think of Round 2 as a calculated push for improvement—not a reckless gamble.",
+          "Think of Round 2 as a calculated push for improvement-not a reckless gamble.",
       },
       {
         id: "point-5",
@@ -34982,7 +34982,7 @@ export const blogPosts: BlogPost[] = [
         id: "final-thought-content",
         type: "paragraph",
         content:
-          'NEET PG counselling is less about chasing a "perfect" outcome and more about making clear, calm, and realistic choices with the options you have. Smart choice filling for NEET PG, early clarity about branch vs college, and strategic use of each counselling round—from Round 1 to mop up counselling NEET PG—will protect you from panic and regret.',
+          'NEET PG counselling is less about chasing a "perfect" outcome and more about making clear, calm, and realistic choices with the options you have. Smart choice filling for NEET PG, early clarity about branch vs college, and strategic use of each counselling round-from Round 1 to mop up counselling NEET PG-will protect you from panic and regret.',
       },
       {
         id: "final-thought-conclusion",
@@ -35646,7 +35646,7 @@ export const blogPosts: BlogPost[] = [
         id: "section-1-conclusion",
         type: "paragraph",
         content:
-          "In today's world—where documentation, transparency, and evidence are constantly questioned—the role of a forensic expert has become more important, not less.",
+          "In today's world-where documentation, transparency, and evidence are constantly questioned-the role of a forensic expert has become more important, not less.",
       },
       {
         id: "section-2",
@@ -36388,7 +36388,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "section-5-reality",
         type: "paragraph",
-        content: "PSM is not saturated — it is underutilized.",
+        content: "PSM is not saturated - it is underutilized.",
       },
       {
         id: "section-5-shortage",
@@ -36486,7 +36486,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "section-8",
         type: "heading",
-        title: "Cons — Being Realistic",
+        title: "Cons - Being Realistic",
         level: 2,
       },
       {
@@ -38018,7 +38018,7 @@ export const blogPosts: BlogPost[] = [
         id: "section-3-conclusion",
         type: "paragraph",
         content:
-          "India's growing burden of chronic disease, aging population, and mental health challenges make Family Medicine indispensable—not optional.",
+          "India's growing burden of chronic disease, aging population, and mental health challenges make Family Medicine indispensable-not optional.",
       },
       {
         id: "section-4",
@@ -38117,7 +38117,7 @@ export const blogPosts: BlogPost[] = [
         id: "section-5-private-conclusion",
         type: "paragraph",
         content:
-          "Trust, continuity, and reputation drive growth—not procedure counts.",
+          "Trust, continuity, and reputation drive growth-not procedure counts.",
       },
       {
         id: "section-5-academics",
@@ -41940,7 +41940,7 @@ export const blogPosts: BlogPost[] = [
             answer: "Yes for earnings (₹8–15L vs ₹3–5L). Build volume fast.",
           },
           {
-            question: "Q4: MCh after ENT—how competitive?",
+            question: "Q4: MCh after ENT-how competitive?",
             answer: "Head-Neck/Skull Base: NEET-SS top 100–200. Growing seats.",
           },
         ],
@@ -42235,7 +42235,7 @@ export const blogPosts: BlogPost[] = [
         id: "item-8-intro",
         type: "paragraph",
         content:
-          "Hospitals don't feel like home—but a few personal items help.",
+          "Hospitals don't feel like home-but a few personal items help.",
       },
       {
         id: "item-8-pouch-intro",
@@ -42591,7 +42591,7 @@ export const blogPosts: BlogPost[] = [
         id: "section-6-reality",
         type: "paragraph",
         content:
-          "Branches like medicine and surgery can be deeply fulfilling—but they are also physically and emotionally demanding. If balance, flexibility, or predictable routines matter to you, your choice should align with those lifestyle goals rather than societal narratives.",
+          "Branches like medicine and surgery can be deeply fulfilling-but they are also physically and emotionally demanding. If balance, flexibility, or predictable routines matter to you, your choice should align with those lifestyle goals rather than societal narratives.",
       },
       {
         id: "section-7",
@@ -42614,7 +42614,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "section-8",
         type: "heading",
-        title: "8. PG Is Not Just Three Years—It Shapes Your Lifetime Career",
+        title: "8. PG Is Not Just Three Years-It Shapes Your Lifetime Career",
         level: 2,
       },
       {
@@ -42714,7 +42714,7 @@ export const blogPosts: BlogPost[] = [
             answer: "Yes. Many switch post-rotation reality vs theory love.",
           },
           {
-            question: "Q4: Family pressure—what to do?",
+            question: "Q4: Family pressure-what to do?",
             answer:
               "Show them earnings + lifestyle data. Surgery ₹10L vs Patho ₹8L + sleep. Data wins.",
           },
@@ -43093,7 +43093,7 @@ export const blogPosts: BlogPost[] = [
           {
             question: "1. How to get MD Transfusion Medicine via NEET PG?",
             answer:
-              "Clear NEET PG (cutoffs lower than big branches). Seats in AIIMS, PGI, select colleges—mid ranks often work due to fewer applicants. Go for MD Immunohematology & Blood Transfusion.",
+              "Clear NEET PG (cutoffs lower than big branches). Seats in AIIMS, PGI, select colleges-mid ranks often work due to fewer applicants. Go for MD Immunohematology & Blood Transfusion.",
           },
           {
             question:
@@ -43564,7 +43564,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "history-surprises",
         type: "heading",
-        title: "FMGE test series Has a History of Surprises—Both Good and Bad",
+        title: "FMGE test series Has a History of Surprises-Both Good and Bad",
         level: 2,
       },
       {
@@ -43577,7 +43577,7 @@ export const blogPosts: BlogPost[] = [
         id: "history-examples",
         type: "paragraph",
         content:
-          "Many candidates who walked out convinced they had failed later found their names on the pass list. At the same time, some who felt confident did not clear. This does not reflect intelligence, sincerity, or hard work—it reflects the complex nature of competitive licensing exams.",
+          "Many candidates who walked out convinced they had failed later found their names on the pass list. At the same time, some who felt confident did not clear. This does not reflect intelligence, sincerity, or hard work-it reflects the complex nature of competitive licensing exams.",
       },
       {
         id: "history-tests",
@@ -43672,7 +43672,7 @@ export const blogPosts: BlogPost[] = [
         id: "mental-health-intro",
         type: "paragraph",
         content:
-          "What you do during this waiting phase cannot change your result—but it can significantly affect your mental well-being.",
+          "What you do during this waiting phase cannot change your result-but it can significantly affect your mental well-being.",
       },
       {
         id: "mental-health-helps",
@@ -43698,7 +43698,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "result-outcome",
         type: "heading",
-        title: "If the Result Goes Your Way—or If It Doesn't",
+        title: "If the Result Goes Your Way-or If It Doesn't",
         level: 2,
       },
       {
@@ -43744,7 +43744,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "not-define-eligibility",
         type: "paragraph",
-        content: "It determines eligibility—not worth.",
+        content: "It determines eligibility-not worth.",
       },
       {
         id: "not-define-value",
@@ -44086,7 +44086,7 @@ export const blogPosts: BlogPost[] = [
           {
             question: "Q2: How many attempts are allowed for FMGE?",
             answer:
-              "There is no limit on attempts—you can appear for FMGE as many times as needed until you pass.",
+              "There is no limit on attempts-you can appear for FMGE as many times as needed until you pass.",
           },
           {
             question: "Q3: When is FMGE 2026 expected?",
@@ -46523,7 +46523,7 @@ export const blogPosts: BlogPost[] = [
         id: "mistake-5-conclusion",
         type: "paragraph",
         content:
-          "This exam tests mental stamina as much as knowledge. If you have not trained yourself to stay calm and focused for 300 questions, your accuracy will drop—no matter how well you studied.",
+          "This exam tests mental stamina as much as knowledge. If you have not trained yourself to stay calm and focused for 300 questions, your accuracy will drop-no matter how well you studied.",
       },
       {
         id: "myth-heading",
@@ -46640,7 +46640,7 @@ export const blogPosts: BlogPost[] = [
             question:
               "1. Why do academically strong students fail FMGE in the first attempt?",
             answer:
-              "Many good students prepare for FMGE like a university exam—focusing on extensive reading instead of exam strategy. FMGE is a screening test that rewards revision, MCQ application, time management, and pattern recognition, not just knowledge. Without an exam-oriented approach, effort often fails to convert into marks.",
+              "Many good students prepare for FMGE like a university exam-focusing on extensive reading instead of exam strategy. FMGE is a screening test that rewards revision, MCQ application, time management, and pattern recognition, not just knowledge. Without an exam-oriented approach, effort often fails to convert into marks.",
           },
           {
             question:
@@ -46802,7 +46802,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "step-1",
         type: "heading",
-        title: "Step 1: Result Declaration — The First Checkpoint",
+        title: "Step 1: Result Declaration - The First Checkpoint",
         level: 2,
       },
       {
@@ -46825,7 +46825,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "step-2",
         type: "heading",
-        title: "Step 2: FMGE Pass Certificate — The Most Testing Wait",
+        title: "Step 2: FMGE Pass Certificate - The Most Testing Wait",
         level: 2,
       },
       {
@@ -46893,7 +46893,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "step-4",
         type: "heading",
-        title: "Step 4: Internship Allotment — Where Expectations Meet Reality",
+        title: "Step 4: Internship Allotment - Where Expectations Meet Reality",
         level: 2,
       },
       {
@@ -48526,7 +48526,7 @@ export const blogPosts: BlogPost[] = [
         faqs: [
           {
             question:
-              "FAQ 1: MD/DNB Respiratory Medicine vs MD Medicine — which is better?",
+              "FAQ 1: MD/DNB Respiratory Medicine vs MD Medicine - which is better?",
             answer:
               "MD/DNB Respiratory Medicine has better scope in Tier 1 corporate hospitals, especially with fellowships. MD Medicine works better for broader practice and hospital ownership in smaller cities.",
           },
@@ -48542,7 +48542,7 @@ export const blogPosts: BlogPost[] = [
               "Most start as attending consultants at ₹1.5–2 lakh/month. Growth is gradual and depends on skills, referrals, and reputation.",
           },
           {
-            question: "FAQ 4: What matters more — degree or skills?",
+            question: "FAQ 4: What matters more - degree or skills?",
             answer:
               "Skills matter more. Bronchoscopy, thoracoscopy, PFTs, sleep medicine, and ICU experience drive long-term success.",
           },
@@ -49024,7 +49024,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "gts-purpose",
         type: "heading",
-        title: "Grand Tests Are Not for Marks — They Are for Training",
+        title: "Grand Tests Are Not for Marks - They Are for Training",
         level: 2,
       },
       {
@@ -49047,7 +49047,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "emotional-regulation",
         type: "heading",
-        title: "GTs Teach Emotional Regulation — The Skill No One Talks About",
+        title: "GTs Teach Emotional Regulation - The Skill No One Talks About",
         level: 2,
       },
       {
@@ -49066,7 +49066,7 @@ export const blogPosts: BlogPost[] = [
         id: "emotional-regulation-importance",
         type: "paragraph",
         content:
-          "These emotional skills are what separate an average rank from an excellent one. Many students don't lose ranks because they lack knowledge — they lose ranks because they lose control of their mindset inside the exam.",
+          "These emotional skills are what separate an average rank from an excellent one. Many students don't lose ranks because they lack knowledge - they lose ranks because they lose control of their mindset inside the exam.",
       },
       {
         id: "emotional-regulation-conclusion",
@@ -49258,7 +49258,7 @@ export const blogPosts: BlogPost[] = [
           {
             question: "Should I stop taking GTs if my score is very low?",
             answer:
-              "No, low scores are learning signals—regular GTs build stamina, accuracy, and confidence.",
+              "No, low scores are learning signals-regular GTs build stamina, accuracy, and confidence.",
           },
           {
             question: "What is more important: GT score or GT analysis?",
@@ -49383,7 +49383,7 @@ export const blogPosts: BlogPost[] = [
         id: "point-1-solution",
         type: "paragraph",
         content:
-          "A good counsellor helps you work through exactly that—through conversations, assessments, personality tools. And once you see yourself clearly, a lot of the noise falls away. You stop chasing things that look good on paper but would make you miserable in practice.",
+          "A good counsellor helps you work through exactly that-through conversations, assessments, personality tools. And once you see yourself clearly, a lot of the noise falls away. You stop chasing things that look good on paper but would make you miserable in practice.",
       },
       {
         id: "point-1-realities",
@@ -49416,7 +49416,7 @@ export const blogPosts: BlogPost[] = [
         id: "point-2-reality",
         type: "paragraph",
         content:
-          "None of these are fully true. Every career counselling has its own grind, its own ceiling, its own weird trade-offs. A good counsellor gives you the real picture—what qualifications you actually need, how competitive entry is, what the work-life balance honestly looks like, where the field is heading. Not the brochure version. The real one.",
+          "None of these are fully true. Every career counselling has its own grind, its own ceiling, its own weird trade-offs. A good counsellor gives you the real picture-what qualifications you actually need, how competitive entry is, what the work-life balance honestly looks like, where the field is heading. Not the brochure version. The real one.",
       },
       {
         id: "point-2-conclusion",
@@ -49440,7 +49440,7 @@ export const blogPosts: BlogPost[] = [
         id: "point-3-space",
         type: "paragraph",
         content:
-          "Career counselling gives you a genuinely neutral space. You can explore options your family might not approve of, talk about fears without being talked out of them, and actually figure out what you want—separate from what everyone else expects.",
+          "Career counselling gives you a genuinely neutral space. You can explore options your family might not approve of, talk about fears without being talked out of them, and actually figure out what you want-separate from what everyone else expects.",
       },
       {
         id: "point-3-balance",
@@ -49464,7 +49464,7 @@ export const blogPosts: BlogPost[] = [
         id: "point-4-aptitude",
         type: "paragraph",
         content:
-          "Aptitude matters too. Career counselling usually involves assessments that look at your logical reasoning, verbal ability, spatial thinking—skills that predict where you're likely to actually perform well, not just feel enthusiastic. This isn't about limiting you. It's about not setting you up to fail.",
+          "Aptitude matters too. Career counselling usually involves assessments that look at your logical reasoning, verbal ability, spatial thinking-skills that predict where you're likely to actually perform well, not just feel enthusiastic. This isn't about limiting you. It's about not setting you up to fail.",
       },
       {
         id: "point-4-overlap",
@@ -49560,7 +49560,7 @@ export const blogPosts: BlogPost[] = [
         id: "conclusion-final",
         type: "paragraph",
         content:
-          "Counselling doesn't make the choice for you. It just makes sure that when you do choose, you actually know what you're choosing—and why.",
+          "Counselling doesn't make the choice for you. It just makes sure that when you do choose, you actually know what you're choosing-and why.",
       },
       {
         id: "faqs",
@@ -49699,7 +49699,7 @@ export const blogPosts: BlogPost[] = [
         id: "point-1-fulfilled",
         type: "paragraph",
         content:
-          "Doctors who stay fulfilled over the long haul tend to have two things in common: they genuinely care about their patients, and they stay curious. Medical field careers keep evolving — new research, new treatments, new challenges. The doctors who embrace that rather than resist it tend to find their work far more rewarding over time.",
+          "Doctors who stay fulfilled over the long haul tend to have two things in common: they genuinely care about their patients, and they stay curious. Medical field careers keep evolving - new research, new treatments, new challenges. The doctors who embrace that rather than resist it tend to find their work far more rewarding over time.",
       },
       {
         id: "point-1-counselling",
@@ -49717,7 +49717,7 @@ export const blogPosts: BlogPost[] = [
         id: "point-2-culture",
         type: "paragraph",
         content:
-          "There's still a culture in medicine that treats exhaustion as a badge of honour. It isn't. Irregular hours, emotional demands, and high-stakes decisions day after day take a real toll — and pretending otherwise doesn't make anyone a better doctor. It just delays the burnout.",
+          "There's still a culture in medicine that treats exhaustion as a badge of honour. It isn't. Irregular hours, emotional demands, and high-stakes decisions day after day take a real toll - and pretending otherwise doesn't make anyone a better doctor. It just delays the burnout.",
       },
       {
         id: "point-2-necessities",
@@ -49771,13 +49771,13 @@ export const blogPosts: BlogPost[] = [
         id: "point-4-setbacks",
         type: "paragraph",
         content:
-          "Setbacks happen. Mistakes happen. That's not a sign that you chose the wrong path — it's just what a long career looks like up close.",
+          "Setbacks happen. Mistakes happen. That's not a sign that you chose the wrong path - it's just what a long career looks like up close.",
       },
       {
         id: "point-4-working-through",
         type: "paragraph",
         content:
-          "Working through that honestly whether through mindfulness, time management, or sitting down with a medical career counselor — makes a real difference. Counselling gives you a place to work through doubt and frustration without judgment, which is more valuable than most people expect until they actually try it.",
+          "Working through that honestly whether through mindfulness, time management, or sitting down with a medical career counselor - makes a real difference. Counselling gives you a place to work through doubt and frustration without judgment, which is more valuable than most people expect until they actually try it.",
       },
       {
         id: "point-5",
@@ -49837,7 +49837,7 @@ export const blogPosts: BlogPost[] = [
         id: "point-7-intro",
         type: "paragraph",
         content:
-          "Medicine doesn't let you coast. The field moves, expectations shift, and the skills that were sufficient five years ago may not be sufficient today. Doctors who stay engaged with their own development — through workshops, fellowships, advanced training — tend to find their careers feel dynamic rather than repetitive.",
+          "Medicine doesn't let you coast. The field moves, expectations shift, and the skills that were sufficient five years ago may not be sufficient today. Doctors who stay engaged with their own development - through workshops, fellowships, advanced training - tend to find their careers feel dynamic rather than repetitive.",
       },
       {
         id: "point-7-programme",
@@ -50028,13 +50028,13 @@ export const blogPosts: BlogPost[] = [
         id: "branch-reputation",
         type: "paragraph",
         content:
-          "Branch Reputation — Certain fields just carry a different weight in how they're perceived. Cardiology, neurosurgery, and dermatology come with high social and professional status, and everyone around you seems to know it.",
+          "Branch Reputation - Certain fields just carry a different weight in how they're perceived. Cardiology, neurosurgery, and dermatology come with high social and professional status, and everyone around you seems to know it.",
       },
       {
         id: "personal-satisfaction",
         type: "paragraph",
         content:
-          "Personal Satisfaction — This is quieter but arguably more important. It's about whether you're genuinely interested in the work, whether you have the right aptitude for it, and whether it's something you can actually see yourself doing every single day — not just for a year or two, but for decades.",
+          "Personal Satisfaction - This is quieter but arguably more important. It's about whether you're genuinely interested in the work, whether you have the right aptitude for it, and whether it's something you can actually see yourself doing every single day - not just for a year or two, but for decades.",
       },
       {
         id: "reality-check",
@@ -50052,7 +50052,7 @@ export const blogPosts: BlogPost[] = [
         id: "satisfaction-intro",
         type: "paragraph",
         content:
-          "Personal satisfaction isn't some soft, feel-good concept — it's deeply practical. When you're in a specialty you actually care about, everything changes:",
+          "Personal satisfaction isn't some soft, feel-good concept - it's deeply practical. When you're in a specialty you actually care about, everything changes:",
       },
       {
         id: "satisfaction-benefits",
@@ -50086,31 +50086,31 @@ export const blogPosts: BlogPost[] = [
         id: "understand-yourself",
         type: "paragraph",
         content:
-          "Understand Yourself — Aptitude tests, personality assessments, structured conversations — these help you see clearly which branches match your natural strengths and long-term goals, not just what you think you should want.",
+          "Understand Yourself - Aptitude tests, personality assessments, structured conversations - these help you see clearly which branches match your natural strengths and long-term goals, not just what you think you should want.",
       },
       {
         id: "separate-myths",
         type: "paragraph",
         content:
-          "Separate Myths from Reality — The gap between what students imagine a branch looks like and what it actually involves day-to-day is sometimes enormous. Counsellors cut through the noise and give you real information about competition, work patterns, and career trajectories.",
+          "Separate Myths from Reality - The gap between what students imagine a branch looks like and what it actually involves day-to-day is sometimes enormous. Counsellors cut through the noise and give you real information about competition, work patterns, and career trajectories.",
       },
       {
         id: "evaluate-fit",
         type: "paragraph",
         content:
-          "Evaluate Long-Term Fit — Your lifestyle preferences, work environment, personal priorities — these need to factor into the decision. Career counselling helps you think honestly about whether a branch suits your life, not just your ambitions.",
+          "Evaluate Long-Term Fit - Your lifestyle preferences, work environment, personal priorities - these need to factor into the decision. Career counselling helps you think honestly about whether a branch suits your life, not just your ambitions.",
       },
       {
         id: "balance-pressure",
         type: "paragraph",
         content:
-          'Balance External Pressure and Internal Desire — Family expectations, what your peers are choosing, what society considers "worth it" — all of this gets into your head. Career counselling sessions create a space where you can actually separate that noise from what you genuinely want.',
+          'Balance External Pressure and Internal Desire - Family expectations, what your peers are choosing, what society considers "worth it" - all of this gets into your head. Career counselling sessions create a space where you can actually separate that noise from what you genuinely want.',
       },
       {
         id: "plan-sustainable",
         type: "paragraph",
         content:
-          "Plan a Sustainable Career — Counselors also walk you through training pathways, fellowship opportunities, and growth strategies so the branch you pick doesn't just feel right now but holds up over the course of a career.",
+          "Plan a Sustainable Career - Counselors also walk you through training pathways, fellowship opportunities, and growth strategies so the branch you pick doesn't just feel right now but holds up over the course of a career.",
       },
       {
         id: "case-example",
@@ -50133,13 +50133,13 @@ export const blogPosts: BlogPost[] = [
         id: "student-b",
         type: "paragraph",
         content:
-          "Student B picks pediatrics — not the flashiest choice by social standards, but a branch they genuinely love. They show up engaged, they grow steadily, and years later they're building a career that feels meaningful, not just successful.",
+          "Student B picks pediatrics - not the flashiest choice by social standards, but a branch they genuinely love. They show up engaged, they grow steadily, and years later they're building a career that feels meaningful, not just successful.",
       },
       {
         id: "case-conclusion",
         type: "paragraph",
         content:
-          "Career counselling helps students recognize which story they're heading toward — and redirect before it's too late.",
+          "Career counselling helps students recognize which story they're heading toward - and redirect before it's too late.",
       },
       {
         id: "why-reputation-not-only",
@@ -50185,25 +50185,25 @@ export const blogPosts: BlogPost[] = [
         id: "self-awareness",
         type: "paragraph",
         content:
-          "Self-awareness — Be honest about your strengths, your interests, and how you actually work best.",
+          "Self-awareness - Be honest about your strengths, your interests, and how you actually work best.",
       },
       {
         id: "practical-knowledge",
         type: "paragraph",
         content:
-          "Practical knowledge — Understand what the branch genuinely demands, what opportunities exist, and what the challenges look like on the ground.",
+          "Practical knowledge - Understand what the branch genuinely demands, what opportunities exist, and what the challenges look like on the ground.",
       },
       {
         id: "guided-insight",
         type: "paragraph",
         content:
-          "Guided insight — This is where career counselling comes in. A good career consultation helps you process both of the above without letting bias or outside pressure tip the scales unfairly.",
+          "Guided insight - This is where career counselling comes in. A good career consultation helps you process both of the above without letting bias or outside pressure tip the scales unfairly.",
       },
       {
         id: "decision-conclusion",
         type: "paragraph",
         content:
-          "A structured career counselling program doesn't make the decision for you — it helps you make it clearly, with your eyes open.",
+          "A structured career counselling program doesn't make the decision for you - it helps you make it clearly, with your eyes open.",
       },
       {
         id: "conclusion",
@@ -50247,7 +50247,7 @@ export const blogPosts: BlogPost[] = [
           {
             question: "3. Is confusion during NEET PG counselling normal?",
             answer:
-              "Very. Rank pressure combined with having multiple options in front of you at once is genuinely overwhelming — you're not alone in that.",
+              "Very. Rank pressure combined with having multiple options in front of you at once is genuinely overwhelming - you're not alone in that.",
           },
           {
             question:
@@ -50383,7 +50383,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "about-identity",
         type: "heading",
-        title: "It's Not Just About Work — It's About Identity",
+        title: "It's Not Just About Work - It's About Identity",
         level: 2,
       },
       {
@@ -50455,7 +50455,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "use-structure",
         type: "heading",
-        title: "Stop Relying on Willpower — Use Structure",
+        title: "Stop Relying on Willpower - Use Structure",
         level: 2,
       },
       {
@@ -50575,7 +50575,7 @@ export const blogPosts: BlogPost[] = [
         id: "talk-to-people-conversation",
         type: "paragraph",
         content:
-          "If you're confused about different psych careers, try speaking to someone who's actually working in the field. A short, honest conversation can clear up doubts that hours of online research often can't. You get to hear what the work is really like — the challenges, the rewards, and the small details no brochure mentions.",
+          "If you're confused about different psych careers, try speaking to someone who's actually working in the field. A short, honest conversation can clear up doubts that hours of online research often can't. You get to hear what the work is really like - the challenges, the rewards, and the small details no brochure mentions.",
       },
       {
         id: "talk-to-people-counsellor",
@@ -50623,7 +50623,7 @@ export const blogPosts: BlogPost[] = [
         id: "uncertainty-profession-protects",
         type: "paragraph",
         content:
-          "What truly protects your future is adaptability — the willingness to keep learning and adjusting. Psychology itself is expanding into areas like digital therapy, corporate wellness, and interdisciplinary collaboration. New career opportunities in psychology continue to emerge as society becomes more aware of mental health.",
+          "What truly protects your future is adaptability - the willingness to keep learning and adjusting. Psychology itself is expanding into areas like digital therapy, corporate wellness, and interdisciplinary collaboration. New career opportunities in psychology continue to emerge as society becomes more aware of mental health.",
       },
       {
         id: "uncertainty-profession-conclusion",
@@ -50640,7 +50640,7 @@ export const blogPosts: BlogPost[] = [
         id: "closing-thought-standing",
         type: "paragraph",
         content:
-          "If you are standing at the edge of a decision — whether it is choosing among professional fields in psychology, starting a counselling career, or shaping your long-term counseling psychology career path — remember this:",
+          "If you are standing at the edge of a decision - whether it is choosing among professional fields in psychology, starting a counselling career, or shaping your long-term counseling psychology career path - remember this:",
       },
       {
         id: "closing-thought-fear",
@@ -50787,7 +50787,7 @@ export const blogPosts: BlogPost[] = [
         id: "expectation-1-intro",
         type: "paragraph",
         content:
-          "This is what career counsellors hear all the time. Students want a clean roadmap—which course to pick, which exams matter, how to get there without all the confusion.",
+          "This is what career counsellors hear all the time. Students want a clean roadmap-which course to pick, which exams matter, how to get there without all the confusion.",
       },
       {
         id: "expectation-1-desire",
@@ -50799,7 +50799,7 @@ export const blogPosts: BlogPost[] = [
         id: "expectation-1-reality",
         type: "paragraph",
         content:
-          "But here's the catch: a simple instruction manual doesn't prepare you for how careers actually work. Real professional paths almost never follow some neat, predictable script. Counselling isn't about just handing over answers—it's about teaching students how to weigh choices, figure out their strengths, and make smart calls on their own.",
+          "But here's the catch: a simple instruction manual doesn't prepare you for how careers actually work. Real professional paths almost never follow some neat, predictable script. Counselling isn't about just handing over answers-it's about teaching students how to weigh choices, figure out their strengths, and make smart calls on their own.",
       },
       {
         id: "expectation-1-skill",
@@ -50851,7 +50851,7 @@ export const blogPosts: BlogPost[] = [
         id: "expectation-3-reality",
         type: "paragraph",
         content:
-          "But obsessing only over marks can box you in long-term. The stuff that actually keeps a career going—how you think critically, how you communicate, emotional intelligence, planning ahead—none of that shows up on a marksheet.",
+          "But obsessing only over marks can box you in long-term. The stuff that actually keeps a career going-how you think critically, how you communicate, emotional intelligence, planning ahead-none of that shows up on a marksheet.",
       },
       {
         id: "expectation-3-guidance",
@@ -50887,7 +50887,7 @@ export const blogPosts: BlogPost[] = [
         id: "expectation-4-need",
         type: "paragraph",
         content:
-          "What students actually need are systems—study routines that work, time management that holds up, accountability that doesn't depend on feeling inspired. This is where the best career counselor puts in real effort. Instead of pumping you up temporarily, they help you build habits that function consistently.",
+          "What students actually need are systems-study routines that work, time management that holds up, accountability that doesn't depend on feeling inspired. This is where the best career counselor puts in real effort. Instead of pumping you up temporarily, they help you build habits that function consistently.",
       },
       {
         id: "expectation-4-later",
@@ -50938,7 +50938,7 @@ export const blogPosts: BlogPost[] = [
         id: "expectation-5-conclusion",
         type: "paragraph",
         content:
-          "The call still sits with the student—but at least it's based on real information.",
+          "The call still sits with the student-but at least it's based on real information.",
       },
       {
         id: "expectation-6",
@@ -50961,7 +50961,7 @@ export const blogPosts: BlogPost[] = [
         id: "expectation-6-resilience",
         type: "paragraph",
         content:
-          "Through working with structured career transition program frameworks and counselling, students slowly build up resilience. Instead of being terrified of failure, they start seeing setbacks as information—what worked, what didn't, what to adjust.",
+          "Through working with structured career transition program frameworks and counselling, students slowly build up resilience. Instead of being terrified of failure, they start seeing setbacks as information-what worked, what didn't, what to adjust.",
       },
       {
         id: "expectation-6-useful",
@@ -51002,7 +51002,7 @@ export const blogPosts: BlogPost[] = [
         id: "expectation-7-balance",
         type: "paragraph",
         content:
-          "When students work with the best career counselor, they figure out how to balance clear goals with flexibility—which helps when circumstances inevitably shift.",
+          "When students work with the best career counselor, they figure out how to balance clear goals with flexibility-which helps when circumstances inevitably shift.",
       },
       {
         id: "where-counselling-fits",
@@ -51025,7 +51025,7 @@ export const blogPosts: BlogPost[] = [
         id: "where-counselling-fits-help",
         type: "paragraph",
         content:
-          "They help students spot real strengths, look at realistic options, and get clear on goals. Effective career guidance for students doesn't just give answers—it builds self-awareness and teaches decision-making.",
+          "They help students spot real strengths, look at realistic options, and get clear on goals. Effective career guidance for students doesn't just give answers-it builds self-awareness and teaches decision-making.",
       },
       {
         id: "where-counselling-fits-clarity",
@@ -51049,7 +51049,7 @@ export const blogPosts: BlogPost[] = [
         id: "final-thought-stuck",
         type: "paragraph",
         content:
-          "If you're stuck right now—not sure about your next move, drowning in options, or just lacking confidence in your direction—you're not the only one.",
+          "If you're stuck right now-not sure about your next move, drowning in options, or just lacking confidence in your direction-you're not the only one.",
       },
       {
         id: "final-thought-common",
@@ -51091,7 +51091,7 @@ export const blogPosts: BlogPost[] = [
           {
             question: "4. What is the real purpose of career counselling?",
             answer:
-              "To build clarity, structure, and confidence—not to make decisions for the student.",
+              "To build clarity, structure, and confidence-not to make decisions for the student.",
           },
         ],
       },
@@ -51167,13 +51167,13 @@ export const blogPosts: BlogPost[] = [
         id: "intro",
         type: "paragraph",
         content:
-          "Picking a medical specialization? One of the toughest calls you'll make as a doctor. And for most medical students, this decision comes with a truckload of pressure—family, friends, society, everyone's got an opinion about what you \"should\" do based on what sounds impressive rather than what actually fits you.",
+          "Picking a medical specialization? One of the toughest calls you'll make as a doctor. And for most medical students, this decision comes with a truckload of pressure-family, friends, society, everyone's got an opinion about what you \"should\" do based on what sounds impressive rather than what actually fits you.",
       },
       {
         id: "intro-believers",
         type: "paragraph",
         content:
-          "At Believers Consultancy, we don't operate that way. Your choice has to come from actually understanding yourself, getting straight talk, and figuring out what'll keep you satisfied years down the line—not what makes other people smile and nod.",
+          "At Believers Consultancy, we don't operate that way. Your choice has to come from actually understanding yourself, getting straight talk, and figuring out what'll keep you satisfied years down the line-not what makes other people smile and nod.",
       },
       {
         id: "intro-motto",
@@ -51196,7 +51196,7 @@ export const blogPosts: BlogPost[] = [
         id: "real-problem-list",
         type: "list",
         items: [
-          'Cardiology, neurosurgery, dermatology—everyone calls these "prestigious"',
+          'Cardiology, neurosurgery, dermatology-everyone calls these "prestigious"',
           "Some specialties get labeled high-paying or ultra-competitive",
           "Family and friends pile on with their opinions about what you should pick",
         ],
@@ -51249,7 +51249,7 @@ export const blogPosts: BlogPost[] = [
         id: "personal-satisfaction-example",
         type: "paragraph",
         content:
-          'A student who genuinely loves pediatrics—even if society doesn\'t rank it as the "top" branch—usually performs better, enjoys the work more, and feels way more satisfied than someone trapped in a "prestigious" branch they can\'t stand.',
+          'A student who genuinely loves pediatrics-even if society doesn\'t rank it as the "top" branch-usually performs better, enjoys the work more, and feels way more satisfied than someone trapped in a "prestigious" branch they can\'t stand.',
       },
       {
         id: "how-we-help",
@@ -51261,7 +51261,7 @@ export const blogPosts: BlogPost[] = [
         id: "how-we-help-intro",
         type: "paragraph",
         content:
-          "Our approach? Real guidance, zero persuasion. We help you figure out what you're actually good at, understand what different career options demand every single day, and make decisions based on facts—not pressure from everyone breathing down your neck.",
+          "Our approach? Real guidance, zero persuasion. We help you figure out what you're actually good at, understand what different career options demand every single day, and make decisions based on facts-not pressure from everyone breathing down your neck.",
       },
       {
         id: "how-we-help-breakdown",
@@ -51278,7 +51278,7 @@ export const blogPosts: BlogPost[] = [
         id: "step-1-content",
         type: "paragraph",
         content:
-          "First thing we do is understand you—what gets you interested, what comes naturally, how you like working, what you're actually chasing in your career. We use personality tests, aptitude assessments, and real conversations (not some cookie-cutter questionnaire) to match branches with who you actually are.",
+          "First thing we do is understand you-what gets you interested, what comes naturally, how you like working, what you're actually chasing in your career. We use personality tests, aptitude assessments, and real conversations (not some cookie-cutter questionnaire) to match branches with who you actually are.",
       },
       {
         id: "step-2-heading",
@@ -51316,7 +51316,7 @@ export const blogPosts: BlogPost[] = [
         id: "step-3-content",
         type: "paragraph",
         content:
-          "Family expectations, peer advice, social norms—all of it creates noise. Our counselling sessions give you space to sort through these influences and make your own call with actual confidence.",
+          "Family expectations, peer advice, social norms-all of it creates noise. Our counselling sessions give you space to sort through these influences and make your own call with actual confidence.",
       },
       {
         id: "step-4-heading",
@@ -51353,8 +51353,8 @@ export const blogPosts: BlogPost[] = [
           ],
           [
             "Motivation",
-            "Low — struggles with stress",
-            "High — engaged and driven",
+            "Low - struggles with stress",
+            "High - engaged and driven",
           ],
           [
             "Daily Experience",
@@ -51377,7 +51377,7 @@ export const blogPosts: BlogPost[] = [
         id: "real-example-conclusion",
         type: "paragraph",
         content:
-          "Our guidance pushes students toward career choices like Student B—interest, aptitude, and sustainability beat prestige every time.",
+          "Our guidance pushes students toward career choices like Student B-interest, aptitude, and sustainability beat prestige every time.",
       },
       {
         id: "why-we-dont-push",
@@ -51430,7 +51430,7 @@ export const blogPosts: BlogPost[] = [
         id: "what-actually-works-conclusion",
         type: "paragraph",
         content:
-          "Get these three lined up, and you can choose a branch with confidence—one that fits who you are and where you're trying to take your career.",
+          "Get these three lined up, and you can choose a branch with confidence-one that fits who you are and where you're trying to take your career.",
       },
       {
         id: "bottom-line",
@@ -51454,7 +51454,7 @@ export const blogPosts: BlogPost[] = [
         id: "bottom-line-closing",
         type: "paragraph",
         content:
-          "Your career belongs to you. We're here to back your choices—not make them for you.",
+          "Your career belongs to you. We're here to back your choices-not make them for you.",
       },
       {
         id: "contact-form",
@@ -51729,7 +51729,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "not-behind",
         type: "heading",
-        title: "You Are Not Behind — You Are Processing",
+        title: "You Are Not Behind - You Are Processing",
         level: 2,
       },
       {
@@ -51796,7 +51796,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "right-decision",
         type: "heading",
-        title: "The Right Decision Isn't Instant — It's Informed",
+        title: "The Right Decision Isn't Instant - It's Informed",
         level: 2,
       },
       {
@@ -51933,7 +51933,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro-reality",
         type: "paragraph",
         content:
-          "For most students and professionals, the process doesn't happen in a vacuum. It happens surrounded by family expectations, society's timelines, and that quiet but persistent pressure you put on yourself. Deadlines sneak up. You start comparing yourself to everyone around you. Advice comes flying in from every direction — half of it contradicting the other half.",
+          "For most students and professionals, the process doesn't happen in a vacuum. It happens surrounded by family expectations, society's timelines, and that quiet but persistent pressure you put on yourself. Deadlines sneak up. You start comparing yourself to everyone around you. Advice comes flying in from every direction - half of it contradicting the other half.",
       },
       {
         id: "intro-decision",
@@ -51956,7 +51956,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro-why",
         type: "paragraph",
         content:
-          "Because good decisions rarely happen when you're panicking. They happen when you actually understand what you're doing — and why.",
+          "Because good decisions rarely happen when you're panicking. They happen when you actually understand what you're doing - and why.",
       },
       {
         id: "pressure-doesnt-work",
@@ -51974,7 +51974,7 @@ export const blogPosts: BlogPost[] = [
         id: "pressure-pushed",
         type: "paragraph",
         content:
-          "When someone feels pushed to choose fast, follow trends, or live up to what everyone else expects — they lose touch with their own strengths and what they genuinely care about. The decisions that come out of that place are usually about avoiding failure, not building something that actually fits.",
+          "When someone feels pushed to choose fast, follow trends, or live up to what everyone else expects - they lose touch with their own strengths and what they genuinely care about. The decisions that come out of that place are usually about avoiding failure, not building something that actually fits.",
       },
       {
         id: "pressure-belief",
@@ -52008,13 +52008,13 @@ export const blogPosts: BlogPost[] = [
         id: "clarity-lift",
         type: "paragraph",
         content:
-          "When you have that, confusion starts to lift. Not because everything suddenly becomes certain — uncertainty doesn't disappear — but because you know how to move through it without freezing.",
+          "When you have that, confusion starts to lift. Not because everything suddenly becomes certain - uncertainty doesn't disappear - but because you know how to move through it without freezing.",
       },
       {
         id: "clarity-question",
         type: "paragraph",
         content:
-          'Instead of asking "What should I choose?" we help you sit with a better question: "What actually fits me — and why?"',
+          'Instead of asking "What should I choose?" we help you sit with a better question: "What actually fits me - and why?"',
       },
       {
         id: "clarity-shift",
@@ -52043,7 +52043,7 @@ export const blogPosts: BlogPost[] = [
         id: "approach-1-content",
         type: "paragraph",
         content:
-          "Before we even start talking about career options, we spend time understanding who you are — your abilities, your preferences, the challenges you've faced, what you're actually hoping for. Skip this step and career guidance becomes little more than guesswork.",
+          "Before we even start talking about career options, we spend time understanding who you are - your abilities, your preferences, the challenges you've faced, what you're actually hoping for. Skip this step and career guidance becomes little more than guesswork.",
       },
       {
         id: "approach-2",
@@ -52055,7 +52055,7 @@ export const blogPosts: BlogPost[] = [
         id: "approach-2-content",
         type: "paragraph",
         content:
-          "We give you honest, realistic insights into different academic and career paths — what the growth actually looks like, what qualifications are genuinely required, what day-to-day life in that field tends to feel like, and what the long-term scope is. When you have real information, a lot of the fear loses its grip.",
+          "We give you honest, realistic insights into different academic and career paths - what the growth actually looks like, what qualifications are genuinely required, what day-to-day life in that field tends to feel like, and what the long-term scope is. When you have real information, a lot of the fear loses its grip.",
       },
       {
         id: "approach-3",
@@ -52079,7 +52079,7 @@ export const blogPosts: BlogPost[] = [
         id: "approach-4-content",
         type: "paragraph",
         content:
-          "Career decisions aren't purely practical — they're deeply emotional. Doubts, fears, confusion, the feeling that you should already have this figured out by now. All of that deserves space. Our sessions are a place where those feelings can come out without judgment attached.",
+          "Career decisions aren't purely practical - they're deeply emotional. Doubts, fears, confusion, the feeling that you should already have this figured out by now. All of that deserves space. Our sessions are a place where those feelings can come out without judgment attached.",
       },
       {
         id: "empowerment",
@@ -52102,7 +52102,7 @@ export const blogPosts: BlogPost[] = [
         id: "empowerment-real",
         type: "paragraph",
         content:
-          "Real counseling doesn't create dependency — it builds the kind of confidence that stays with you after the session ends. When you walk out, you should feel more aware, more informed, more capable of trusting your own judgment. Not more pressured than when you walked in.",
+          "Real counseling doesn't create dependency - it builds the kind of confidence that stays with you after the session ends. When you walk out, you should feel more aware, more informed, more capable of trusting your own judgment. Not more pressured than when you walked in.",
       },
       {
         id: "long-term",
@@ -52114,13 +52114,13 @@ export const blogPosts: BlogPost[] = [
         id: "long-term-shaped",
         type: "paragraph",
         content:
-          "A lot of decisions get shaped by short-term trends, what your peers seem to be doing, or immediate financial worries. Those things matter — there's no pretending they don't. But they shouldn't be the whole story.",
+          "A lot of decisions get shaped by short-term trends, what your peers seem to be doing, or immediate financial worries. Those things matter - there's no pretending they don't. But they shouldn't be the whole story.",
       },
       {
         id: "long-term-alignment",
         type: "paragraph",
         content:
-          "What we push for is long-term alignment — picking a path that genuinely fits your strengths, supports your growth, and keeps your motivation alive over time rather than burning it out within a few years.",
+          "What we push for is long-term alignment - picking a path that genuinely fits your strengths, supports your growth, and keeps your motivation alive over time rather than burning it out within a few years.",
       },
       {
         id: "long-term-benefits",
@@ -52161,7 +52161,7 @@ export const blogPosts: BlogPost[] = [
         id: "final-thought-decisions",
         type: "paragraph",
         content:
-          "Decisions shape direction — but they don't lock down your entire future. Careers evolve. Interests grow. Opportunities shift in ways you can't always predict from where you're standing right now.",
+          "Decisions shape direction - but they don't lock down your entire future. Careers evolve. Interests grow. Opportunities shift in ways you can't always predict from where you're standing right now.",
       },
       {
         id: "final-thought-matters",
@@ -52183,7 +52183,7 @@ export const blogPosts: BlogPost[] = [
         id: "final-thought-here",
         type: "paragraph",
         content:
-          "If you're feeling uncertain about your next academic or career guidance move, we're here — thoughtfully, patiently, and without any agenda other than helping you find your footing.",
+          "If you're feeling uncertain about your next academic or career guidance move, we're here - thoughtfully, patiently, and without any agenda other than helping you find your footing.",
       },
       {
         id: "faqs",
@@ -52300,7 +52300,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro-truth",
         type: "paragraph",
         content:
-          "Here's one of the most important truths about career guidance: it's not about handing over answers — it's about asking the right questions.",
+          "Here's one of the most important truths about career guidance: it's not about handing over answers - it's about asking the right questions.",
       },
       {
         id: "intro-help",
@@ -52318,7 +52318,7 @@ export const blogPosts: BlogPost[] = [
         id: "want-answers-intro",
         type: "paragraph",
         content:
-          "It makes total sense to want clear solutions when you're confused or overwhelmed. Whether it's picking a career path, dealing with academic stress, or working through a personal decision — uncertainty is genuinely uncomfortable.",
+          "It makes total sense to want clear solutions when you're confused or overwhelmed. Whether it's picking a career path, dealing with academic stress, or working through a personal decision - uncertainty is genuinely uncomfortable.",
       },
       {
         id: "want-answers-hope",
@@ -52345,7 +52345,7 @@ export const blogPosts: BlogPost[] = [
         id: "want-answers-reality",
         type: "paragraph",
         content:
-          "But life rarely deals in simple, guaranteed answers. Decisions that actually shape your future need more than quick advice — they need self-understanding and real thought behind them.",
+          "But life rarely deals in simple, guaranteed answers. Decisions that actually shape your future need more than quick advice - they need self-understanding and real thought behind them.",
       },
       {
         id: "want-answers-begins",
@@ -52383,7 +52383,7 @@ export const blogPosts: BlogPost[] = [
         id: "power-questions-deeper",
         type: "paragraph",
         content:
-          "These might sound straightforward on the surface, but they pull you toward thinking you probably haven't done before. They make you look honestly at your interests, your values, what you actually want — not what you think you should want.",
+          "These might sound straightforward on the surface, but they pull you toward thinking you probably haven't done before. They make you look honestly at your interests, your values, what you actually want - not what you think you should want.",
       },
       {
         id: "power-questions-own",
@@ -52413,7 +52413,7 @@ export const blogPosts: BlogPost[] = [
         id: "self-discovery-confident",
         type: "paragraph",
         content:
-          "You're more confident because it actually came from you. And that confidence holds up when things get hard — because you understood why you chose this path, you're more willing to push through the setbacks that come with it.",
+          "You're more confident because it actually came from you. And that confidence holds up when things get hard - because you understood why you chose this path, you're more willing to push through the setbacks that come with it.",
       },
       {
         id: "self-discovery-builds",
@@ -52431,13 +52431,13 @@ export const blogPosts: BlogPost[] = [
         id: "thinking-skills-intro",
         type: "paragraph",
         content:
-          "Another thing career counselling does that rarely gets talked about — it sharpens how you make decisions in general.",
+          "Another thing career counselling does that rarely gets talked about - it sharpens how you make decisions in general.",
       },
       {
         id: "thinking-skills-life",
         type: "paragraph",
         content:
-          "Life doesn't hand you one big choice and leave you alone after that. It keeps throwing decisions at you — academic paths, career directions, professional shifts, personal priorities. If you always rely on someone else to work it out for you, that dependency follows you everywhere.",
+          "Life doesn't hand you one big choice and leave you alone after that. It keeps throwing decisions at you - academic paths, career directions, professional shifts, personal priorities. If you always rely on someone else to work it out for you, that dependency follows you everywhere.",
       },
       {
         id: "thinking-skills-learn",
@@ -52466,7 +52466,7 @@ export const blogPosts: BlogPost[] = [
         id: "counsellor-does-space",
         type: "paragraph",
         content:
-          "They create a space where you can talk openly about your concerns, your goals, your doubts — without worrying about being judged for any of it. They listen carefully, ask questions that make you actually think, and offer perspectives that help you see your situation more clearly.",
+          "They create a space where you can talk openly about your concerns, your goals, your doubts - without worrying about being judged for any of it. They listen carefully, ask questions that make you actually think, and offer perspectives that help you see your situation more clearly.",
       },
       {
         id: "counsellor-does-not",
@@ -52514,7 +52514,7 @@ export const blogPosts: BlogPost[] = [
         id: "questions-work-from",
         type: "paragraph",
         content:
-          "The answer doesn't come from the counsellor — it comes from actually thinking it through yourself.",
+          "The answer doesn't come from the counsellor - it comes from actually thinking it through yourself.",
       },
       {
         id: "perplexity-guidance",
@@ -52556,7 +52556,7 @@ export const blogPosts: BlogPost[] = [
         id: "method-not-magic-understanding",
         type: "paragraph",
         content:
-          "Genuine understanding takes time to manifest. Patterns—how you think, what motivates you, and where your true abilities lie—begin to emerge via dialogue, introspection, and the appropriate questions posed at the appropriate times.",
+          "Genuine understanding takes time to manifest. Patterns-how you think, what motivates you, and where your true abilities lie-begin to emerge via dialogue, introspection, and the appropriate questions posed at the appropriate times.",
       },
       {
         id: "method-not-magic-perceive",
@@ -52568,7 +52568,7 @@ export const blogPosts: BlogPost[] = [
         id: "method-not-magic-builds",
         type: "paragraph",
         content:
-          "Counseling does just that—it builds awareness gradually until the correct route begins to make sense on its own, rather than giving you solutions right away.",
+          "Counseling does just that-it builds awareness gradually until the correct route begins to make sense on its own, rather than giving you solutions right away.",
       },
       {
         id: "final-thoughts",
@@ -52586,7 +52586,7 @@ export const blogPosts: BlogPost[] = [
         id: "final-thoughts-matter",
         type: "paragraph",
         content:
-          "But the decisions that actually matter rarely come from someone else telling you what to do. They come from understanding yourself — what you're good at, what you value, what you're genuinely working toward.",
+          "But the decisions that actually matter rarely come from someone else telling you what to do. They come from understanding yourself - what you're good at, what you value, what you're genuinely working toward.",
       },
       {
         id: "final-thoughts-creates",
@@ -52598,7 +52598,7 @@ export const blogPosts: BlogPost[] = [
         id: "final-thoughts-valuable",
         type: "paragraph",
         content:
-          "The most valuable thing you take away from it isn't one perfect answer. It's learning to ask better questions — and having enough trust in yourself to act on what comes from thinking them through.",
+          "The most valuable thing you take away from it isn't one perfect answer. It's learning to ask better questions - and having enough trust in yourself to act on what comes from thinking them through.",
       },
       {
         id: "faqs",
@@ -52742,7 +52742,7 @@ export const blogPosts: BlogPost[] = [
         id: "academic-pressure-content",
         type: "paragraph",
         content:
-          "Endless study hours. Clinical rotations that drain every bit of energy. Competitive exams that decide your entire future. Without some structure or someone showing you the ropes, burnout isn't a maybe—it's guaranteed.",
+          "Endless study hours. Clinical rotations that drain every bit of energy. Competitive exams that decide your entire future. Without some structure or someone showing you the ropes, burnout isn't a maybe-it's guaranteed.",
       },
       {
         id: "high-stakes",
@@ -52766,7 +52766,7 @@ export const blogPosts: BlogPost[] = [
         id: "everyone-knows-content",
         type: "paragraph",
         content:
-          'Family pushing cardiology or neurosurgery because it "sounds prestigious"—even when it\'s completely wrong for who you are. Society tells you what success means. Friends chiming in with their two cents. The noise gets deafening.',
+          'Family pushing cardiology or neurosurgery because it "sounds prestigious"-even when it\'s completely wrong for who you are. Society tells you what success means. Friends chiming in with their two cents. The noise gets deafening.',
       },
       {
         id: "mental-health",
@@ -52778,7 +52778,7 @@ export const blogPosts: BlogPost[] = [
         id: "mental-health-content",
         type: "paragraph",
         content:
-          "The workload crushes you. You're watching patient suffering daily. Performance pressure never lets up. Anxiety and depression aren't exceptions here—they're normal.",
+          "The workload crushes you. You're watching patient suffering daily. Performance pressure never lets up. Anxiety and depression aren't exceptions here-they're normal.",
       },
       {
         id: "nobody-mentions",
@@ -52825,7 +52825,7 @@ export const blogPosts: BlogPost[] = [
         id: "reason-1-content",
         type: "paragraph",
         content:
-          "A huge chunk of counseling is helping you understand your actual strengths, weaknesses, and what genuinely interests you—not what impresses other people. Through personality tests, aptitude assessments, and honest conversations, you get clarity about which specialties actually match who you are.",
+          "A huge chunk of counseling is helping you understand your actual strengths, weaknesses, and what genuinely interests you-not what impresses other people. Through personality tests, aptitude assessments, and honest conversations, you get clarity about which specialties actually match who you are.",
       },
       {
         id: "reason-1-stops",
@@ -52851,7 +52851,7 @@ export const blogPosts: BlogPost[] = [
         items: [
           "What specialization options actually exist (MD, MS, DM, MCh)",
           "Which competitive exams and fellowships matter",
-          "Real job opportunities—hospitals, research, private practice",
+          "Real job opportunities-hospitals, research, private practice",
           "What long-term growth looks like and whether work-life balance is even possible",
         ],
       },
@@ -52958,7 +52958,7 @@ export const blogPosts: BlogPost[] = [
         id: "reason-5-conclusion",
         type: "paragraph",
         content:
-          "This means you don't just hit success markers—you also find satisfaction and don't burn out in five years.",
+          "This means you don't just hit success markers-you also find satisfaction and don't burn out in five years.",
       },
       {
         id: "real-life",
@@ -53129,7 +53129,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro-para1",
         type: "paragraph",
         content:
-          "The moment most medical students see their INICET rank, their stomach drops. Whether it's higher or lower than expected, that number carries enormous emotional weight — relief, panic, pride, or the kind of despair that makes you question everything you've worked for.",
+          "The moment most medical students see their INICET rank, their stomach drops. Whether it's higher or lower than expected, that number carries enormous emotional weight - relief, panic, pride, or the kind of despair that makes you question everything you've worked for.",
       },
       {
         id: "intro-para2",
@@ -53147,13 +53147,13 @@ export const blogPosts: BlogPost[] = [
         id: "why-control-para1",
         type: "paragraph",
         content:
-          "It's not hard to understand why students treat these numbers like verdicts. Everyone around you — family, college seniors, that one relative who asks about your \"score\" before asking how you're doing — has tied the idea of success to rank for so long that it starts to feel true.",
+          "It's not hard to understand why students treat these numbers like verdicts. Everyone around you - family, college seniors, that one relative who asks about your \"score\" before asking how you're doing - has tied the idea of success to rank for so long that it starts to feel true.",
       },
       {
         id: "why-control-para2",
         type: "paragraph",
         content:
-          "Add to that the very real fear that a lower rank slams doors shut — to certain colleges, to competitive specialties, to the version of your future you had planned. The anxiety makes sense. But it's also built on a shaky assumption: that rank is the primary thing shaping your career.",
+          "Add to that the very real fear that a lower rank slams doors shut - to certain colleges, to competitive specialties, to the version of your future you had planned. The anxiety makes sense. But it's also built on a shaky assumption: that rank is the primary thing shaping your career.",
       },
       {
         id: "why-control-para3",
@@ -53182,13 +53182,13 @@ export const blogPosts: BlogPost[] = [
         id: "career-looks-like-para2",
         type: "paragraph",
         content:
-          "Postgraduate admissions, when you look closely, involve clinical exposure, research, internships, personal statements, and relationships — rank is one variable, not the whole equation. Medicine itself branches into more directions than most students realize while they're grinding through prep: clinical practice, public health, academic medicine, healthcare administration, research, policy. Students who didn't get their first-choice college have gone on to build careers that people genuinely respect — not in spite of that detour, but sometimes because of what they figured out along the way.",
+          "Postgraduate admissions, when you look closely, involve clinical exposure, research, internships, personal statements, and relationships - rank is one variable, not the whole equation. Medicine itself branches into more directions than most students realize while they're grinding through prep: clinical practice, public health, academic medicine, healthcare administration, research, policy. Students who didn't get their first-choice college have gone on to build careers that people genuinely respect - not in spite of that detour, but sometimes because of what they figured out along the way.",
       },
       {
         id: "career-looks-like-para3",
         type: "paragraph",
         content:
-          "The skills that determine whether you thrive — clinical judgment, communication, adaptability, perseverance — aren't captured by any entrance exam. They develop over time, with experience.",
+          "The skills that determine whether you thrive - clinical judgment, communication, adaptability, perseverance - aren't captured by any entrance exam. They develop over time, with experience.",
       },
       {
         id: "good-guidance",
@@ -53206,13 +53206,13 @@ export const blogPosts: BlogPost[] = [
         id: "good-guidance-para2",
         type: "paragraph",
         content:
-          "A good counsellor helps you map what your rank actually means in concrete terms — which colleges are realistic, which specialties are accessible, and where your specific strengths and interests intersect with real opportunities. They surface paths students often overlook: fellowships, alternative institutions, and specialties that might fit better than what you'd been chasing for prestige reasons.",
+          "A good counsellor helps you map what your rank actually means in concrete terms - which colleges are realistic, which specialties are accessible, and where your specific strengths and interests intersect with real opportunities. They surface paths students often overlook: fellowships, alternative institutions, and specialties that might fit better than what you'd been chasing for prestige reasons.",
       },
       {
         id: "good-guidance-para3",
         type: "paragraph",
         content:
-          "There's also the emotional side. High-stakes exams leave a mark, and processing that — honestly, without judgment — matters before you make major decisions. Decisions made from panic rarely age well.",
+          "There's also the emotional side. High-stakes exams leave a mark, and processing that - honestly, without judgment - matters before you make major decisions. Decisions made from panic rarely age well.",
       },
       {
         id: "two-students",
@@ -53224,7 +53224,7 @@ export const blogPosts: BlogPost[] = [
         id: "two-students-para1",
         type: "paragraph",
         content:
-          "One student scored well below what he'd expected. He was convinced his preferred specialty was finished as an option. With some guidance, he explored colleges he hadn't seriously considered, shifted focus toward building real clinical skills, and found his footing. He's now in a specialty he finds genuinely engaging — not his original plan, but a good life.",
+          "One student scored well below what he'd expected. He was convinced his preferred specialty was finished as an option. With some guidance, he explored colleges he hadn't seriously considered, shifted focus toward building real clinical skills, and found his footing. He's now in a specialty he finds genuinely engaging - not his original plan, but a good life.",
       },
       {
         id: "two-students-para2",
@@ -53253,7 +53253,7 @@ export const blogPosts: BlogPost[] = [
         id: "honest-takeaway-para2",
         type: "paragraph",
         content:
-          "What happens next depends on the choices you make, the guidance you seek, and how honestly you think about what you actually want — not just what looked good on a goal board during second year.",
+          "What happens next depends on the choices you make, the guidance you seek, and how honestly you think about what you actually want - not just what looked good on a goal board during second year.",
       },
       {
         id: "honest-takeaway-para3",
@@ -53333,7 +53333,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro",
         type: "paragraph",
         content:
-          "Preparing for INI-CET? It's one of the most brutal phases you'll go through as a medical student. Every year, thousands of MBBS grads sit for this exam hoping to grab postgrad seats in premier institutes. But here's something most people don't talk about—there's a huge difference in how first-timers tackle the exam versus students who've already been through the grinder once.",
+          "Preparing for INI-CET? It's one of the most brutal phases you'll go through as a medical student. Every year, thousands of MBBS grads sit for this exam hoping to grab postgrad seats in premier institutes. But here's something most people don't talk about-there's a huge difference in how first-timers tackle the exam versus students who've already been through the grinder once.",
       },
       {
         id: "intro-difference",
@@ -53363,7 +53363,7 @@ export const blogPosts: BlogPost[] = [
         id: "point-1-first-timers-content",
         type: "paragraph",
         content:
-          "Students who has already attempting INICET for the first time, usually think that piling on resources has equals success. They'll grab so many textbooks, binge-watch different lecture and series and download notes from every platform they fall across. Intentions are good, sure—but this usually spirals into confusion and information overload.",
+          "Students who has already attempting INICET for the first time, usually think that piling on resources has equals success. They'll grab so many textbooks, binge-watch different lecture and series and download notes from every platform they fall across. Intentions are good, sure-but this usually spirals into confusion and information overload.",
       },
       {
         id: "point-1-first-timers-logic",
@@ -53659,7 +53659,7 @@ export const blogPosts: BlogPost[] = [
         id: "conclusion-gap",
         type: "paragraph",
         content:
-          "The gap between first-timers and seniors preparing for INICET isn't about being smarter or working harder—it's about experience and strategy.",
+          "The gap between first-timers and seniors preparing for INICET isn't about being smarter or working harder-it's about experience and strategy.",
       },
       {
         id: "conclusion-difference",
@@ -53677,7 +53677,7 @@ export const blogPosts: BlogPost[] = [
         id: "conclusion-success",
         type: "paragraph",
         content:
-          "Success in INICET isn't about grinding yourself into the ground—it's about focused effort, smart strategy, and consistent revision.",
+          "Success in INICET isn't about grinding yourself into the ground-it's about focused effort, smart strategy, and consistent revision.",
       },
       {
         id: "faqs",
@@ -53693,7 +53693,7 @@ export const blogPosts: BlogPost[] = [
             question:
               "What's the biggest difference between first-timers and repeaters?",
             answer:
-              "First-timers chase coverage—trying to study everything. Repeaters chase quality—revision, strategy, high-yield focus.",
+              "First-timers chase coverage-trying to study everything. Repeaters chase quality-revision, strategy, high-yield focus.",
           },
           {
             question: "Why do seniors stick to fewer resources?",
@@ -53972,7 +53972,7 @@ export const blogPosts: BlogPost[] = [
         items: [
           "Talk to actual PG residents in that specialty",
           "Ask what their daily routine looks like",
-          "Find out about future opportunities—real ones",
+          "Find out about future opportunities-real ones",
           "Check what work-life balance actually means in that field",
         ],
       },
@@ -54112,7 +54112,7 @@ export const blogPosts: BlogPost[] = [
         id: "mistake-5-avoid-conclusion",
         type: "paragraph",
         content:
-          "Medicine has tons of fulfilling careers—not just the shiny trending ones.",
+          "Medicine has tons of fulfilling careers-not just the shiny trending ones.",
       },
       {
         id: "mistake-6",
@@ -54236,7 +54236,7 @@ export const blogPosts: BlogPost[] = [
         id: "what-matters-landing",
         type: "paragraph",
         content:
-          "Landing an INICET seat is huge—but picking the right one matters just as much.",
+          "Landing an INICET seat is huge-but picking the right one matters just as much.",
       },
       {
         id: "what-matters-remember",
@@ -54291,7 +54291,7 @@ export const blogPosts: BlogPost[] = [
           {
             question: "4. Is following trending branches a good strategy?",
             answer:
-              "No. Choose a branch based on your strengths, interests, and future goals—not trends.",
+              "No. Choose a branch based on your strengths, interests, and future goals-not trends.",
           },
         ],
       },
@@ -54369,7 +54369,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro",
         type: "paragraph",
         content:
-          "Picking the right academic path or career direction? One of the biggest calls you'll ever make. Career counselling is supposed to help—but when students half-ass it, they end up regretting their choices for years.",
+          "Picking the right academic path or career direction? One of the biggest calls you'll ever make. Career counselling is supposed to help-but when students half-ass it, they end up regretting their choices for years.",
       },
       {
         id: "intro-common",
@@ -54399,7 +54399,7 @@ export const blogPosts: BlogPost[] = [
         id: "mistake-1-instead",
         type: "paragraph",
         content:
-          "What to do instead:\nFigure yourself first—what you're good at, what you care about, where you see yourself heading. Let that drive your choices.",
+          "What to do instead:\nFigure yourself first-what you're good at, what you care about, where you see yourself heading. Let that drive your choices.",
       },
       {
         id: "mistake-2",
@@ -54423,7 +54423,7 @@ export const blogPosts: BlogPost[] = [
         id: "mistake-2-instead",
         type: "paragraph",
         content:
-          "What to do instead:\nFind certified career counsellors who use real tools—aptitude tests, psychometric assessments, not just opinions.",
+          "What to do instead:\nFind certified career counsellors who use real tools-aptitude tests, psychometric assessments, not just opinions.",
       },
       {
         id: "mistake-3",
@@ -54447,7 +54447,7 @@ export const blogPosts: BlogPost[] = [
         id: "mistake-3-instead",
         type: "paragraph",
         content:
-          "What to do instead:\nto overcome all these things you need to balance what excites you with what's realistic—you must pick something you genuinely care about that also has real opportunities.",
+          "What to do instead:\nto overcome all these things you need to balance what excites you with what's realistic-you must pick something you genuinely care about that also has real opportunities.",
       },
       {
         id: "mistake-4",
@@ -54578,7 +54578,7 @@ export const blogPosts: BlogPost[] = [
         id: "mistake-9-problem",
         type: "paragraph",
         content:
-          "Some students fixate on immediate wins—getting into college—instead of where their career goes after.",
+          "Some students fixate on immediate wins-getting into college-instead of where their career goes after.",
       },
       {
         id: "mistake-9-why",
@@ -54590,7 +54590,7 @@ export const blogPosts: BlogPost[] = [
         id: "mistake-9-instead",
         type: "paragraph",
         content:
-          "What to do instead:\nThink past graduation—where does this path put you in 5, 10 years?",
+          "What to do instead:\nThink past graduation-where does this path put you in 5, 10 years?",
       },
       {
         id: "mistake-10",
@@ -54626,7 +54626,7 @@ export const blogPosts: BlogPost[] = [
         id: "final-thoughts-decisions",
         type: "paragraph",
         content:
-          "Career decisions aren't just about picking a major—they shape your future, your lifestyle, whether you wake up happy or dreading the day. Avoiding these common counselling mistakes saves you from years of kicking yourself.",
+          "Career decisions aren't just about picking a major-they shape your future, your lifestyle, whether you wake up happy or dreading the day. Avoiding these common counselling mistakes saves you from years of kicking yourself.",
       },
       {
         id: "final-thoughts-solid",
@@ -54709,13 +54709,13 @@ export const blogPosts: BlogPost[] = [
         id: "intro-scene",
         type: "paragraph",
         content:
-          "When late-night anxiety hijacks your future decisions—and how to stay on track",
+          "When late-night anxiety hijacks your future decisions-and how to stay on track",
       },
       {
         id: "intro-scenario",
         type: "paragraph",
         content:
-          "It's 2 AM. You're staring at the ceiling, scrolling through endless career options, second-guessing every decision you've made—or haven't made yet.",
+          "It's 2 AM. You're staring at the ceiling, scrolling through endless career options, second-guessing every decision you've made-or haven't made yet.",
       },
       {
         id: "intro-questions",
@@ -54738,7 +54738,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro-cta",
         type: "paragraph",
         content:
-          "Let's break down the common counselling mistakes students make during these moments—and how to dodge them.",
+          "Let's break down the common counselling mistakes students make during these moments-and how to dodge them.",
       },
       {
         id: "mistake-1",
@@ -54798,7 +54798,7 @@ export const blogPosts: BlogPost[] = [
         id: "mistake-3-context",
         type: "paragraph",
         content:
-          'Scrolling through social media triggers comparison—"They have it all figured out, why don\'t I?"',
+          'Scrolling through social media triggers comparison-"They have it all figured out, why don\'t I?"',
       },
       {
         id: "mistake-3-error",
@@ -54822,7 +54822,7 @@ export const blogPosts: BlogPost[] = [
         id: "mistake-4-context",
         type: "paragraph",
         content:
-          'Overthinking will bust up with fear—of failure, rejection, and it\'s end up making the "wrong" choice.',
+          'Overthinking will bust up with fear-of failure, rejection, and it\'s end up making the "wrong" choice.',
       },
       {
         id: "mistake-4-error",
@@ -54917,7 +54917,7 @@ export const blogPosts: BlogPost[] = [
         id: "mistake-8-context",
         type: "paragraph",
         content:
-          "Overthinking fixates external stuff—salary, status, what other people think.",
+          "Overthinking fixates external stuff-salary, status, what other people think.",
       },
       {
         id: "mistake-8-error",
@@ -54953,13 +54953,13 @@ export const blogPosts: BlogPost[] = [
         id: "final-thoughts-1",
         type: "paragraph",
         content:
-          "Overthinking your career at 2 AM doesn't mean you're lost—it means you care about your future. But turning that anxiety into rushed or uninformed decisions leads to regret.",
+          "Overthinking your career at 2 AM doesn't mean you're lost-it means you care about your future. But turning that anxiety into rushed or uninformed decisions leads to regret.",
       },
       {
         id: "final-thoughts-2",
         type: "paragraph",
         content:
-          "Aspirants should have this idea that the right career choice isn't made during a panic attack—it's built through the utmost clarity, guidance, and self-awareness.",
+          "Aspirants should have this idea that the right career choice isn't made during a panic attack-it's built through the utmost clarity, guidance, and self-awareness.",
       },
       {
         id: "final-thoughts-3",
@@ -54999,7 +54999,7 @@ export const blogPosts: BlogPost[] = [
         type: "faq",
         question: '4. Is there really a "perfect" career choice?',
         answer:
-          "No. Careers evolve over time—focus on growth, skills, and adaptability instead.",
+          "No. Careers evolve over time-focus on growth, skills, and adaptability instead.",
       },
       {
         id: "contact-form",
@@ -55072,7 +55072,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro",
         type: "paragraph",
         content:
-          "Most students focus only on exams, but the real decisions begin after the results—during counselling.",
+          "Most students focus only on exams, but the real decisions begin after the results-during counselling.",
       },
       {
         id: "intro-reality",
@@ -55140,7 +55140,7 @@ export const blogPosts: BlogPost[] = [
         id: "wrong-choice-mistake",
         type: "paragraph",
         content:
-          "A single mistake you made—like wrong preference order or lack of information—can result in:",
+          "A single mistake you made-like wrong preference order or lack of information-can result in:",
       },
       {
         id: "wrong-choice-result-list",
@@ -55166,13 +55166,13 @@ export const blogPosts: BlogPost[] = [
       {
         id: "why-important-quote",
         type: "paragraph",
-        content: "\"That's why counselling is not optional — it's CRUCIAL.\"",
+        content: "\"That's why counselling is not optional - it's CRUCIAL.\"",
       },
       {
         id: "why-important-intro",
         type: "paragraph",
         content:
-          "Counselling is not just form filling—it's a strategic decision-making process.",
+          "Counselling is not just form filling-it's a strategic decision-making process.",
       },
       {
         id: "why-important-heres",
@@ -55313,7 +55313,7 @@ export const blogPosts: BlogPost[] = [
         id: "approach-1-content",
         type: "paragraph",
         content:
-          "You should know your options—colleges, branches, cut-offs, and future scope. Explore counselling career options available.",
+          "You should know your options-colleges, branches, cut-offs, and future scope. Explore counselling career options available.",
       },
       {
         id: "approach-2",
@@ -55399,7 +55399,7 @@ export const blogPosts: BlogPost[] = [
         id: "final-thoughts-spend",
         type: "paragraph",
         content:
-          "You might spend years on exam preparation—but just a few hours of poor counselling decisions can change your entire career path.",
+          "You might spend years on exam preparation-but just a few hours of poor counselling decisions can change your entire career path.",
       },
       {
         id: "final-thoughts-dont",
@@ -55845,7 +55845,7 @@ export const blogPosts: BlogPost[] = [
         id: "final-thoughts-para3",
         type: "paragraph",
         content:
-          "You can concentrate on what really matters, getting up the seat you've fought so hard for—if you are well-prepared and have the necessary paperwork.",
+          "You can concentrate on what really matters, getting up the seat you've fought so hard for-if you are well-prepared and have the necessary paperwork.",
       },
       {
         id: "faqs",
@@ -55964,7 +55964,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro-thing",
         type: "paragraph",
         content:
-          "But here's the thing—the NEET PG counselling process isn't as chaotic as it seems. There's actually a structure to it. Once you get what each step involves, the panic starts fading.",
+          "But here's the thing-the NEET PG counselling process isn't as chaotic as it seems. There's actually a structure to it. Once you get what each step involves, the panic starts fading.",
       },
       {
         id: "intro-break",
@@ -55980,7 +55980,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "step-1-intro",
         type: "paragraph",
-        content: "First thing—register on the official counselling website.",
+        content: "First thing-register on the official counselling website.",
       },
       {
         id: "step-1-process",
@@ -56061,7 +56061,7 @@ export const blogPosts: BlogPost[] = [
         id: "step-4-warning",
         type: "paragraph",
         content:
-          "Don't manually lock and the system might auto-lock whatever you last saved—even if you were still messing around with options.",
+          "Don't manually lock and the system might auto-lock whatever you last saved-even if you were still messing around with options.",
       },
       {
         id: "step-5",
@@ -56073,7 +56073,7 @@ export const blogPosts: BlogPost[] = [
         id: "step-5-process",
         type: "paragraph",
         content:
-          "They look at your rank, your category, what you picked—and allot you a seat.",
+          "They look at your rank, your category, what you picked-and allot you a seat.",
       },
       {
         id: "step-5-check",
@@ -56097,7 +56097,7 @@ export const blogPosts: BlogPost[] = [
         id: "step-6-process",
         type: "paragraph",
         content:
-          "Carry all your documents—originals and copies both. Get verification done. Pay admission fees.",
+          "Carry all your documents-originals and copies both. Get verification done. Pay admission fees.",
       },
       {
         id: "step-6-warning",
@@ -56212,7 +56212,7 @@ export const blogPosts: BlogPost[] = [
         id: "reality-matters",
         type: "paragraph",
         content:
-          "This matters as much as the exam—maybe more. Your rank means nothing if you mess up counselling. Don't wing it.",
+          "This matters as much as the exam-maybe more. Your rank means nothing if you mess up counselling. Don't wing it.",
       },
       {
         id: "reality-right",
@@ -56243,7 +56243,7 @@ export const blogPosts: BlogPost[] = [
           {
             question: "What documents do I need for reporting?",
             answer:
-              "Everything—originals plus copies. NEET PG admit card, scorecard, allotment letter, category certificate if you have one, ID, educational certificates, passport photos. Missing one thing can tank your admission instantly.",
+              "Everything-originals plus copies. NEET PG admit card, scorecard, allotment letter, category certificate if you have one, ID, educational certificates, passport photos. Missing one thing can tank your admission instantly.",
           },
           {
             question: "Should I take my Round 1 seat or gamble on Round 2?",
@@ -56304,7 +56304,7 @@ export const blogPosts: BlogPost[] = [
     ],
     published_date: "2026-04-06",
     read_time: 7,
-    meta_title: "You're Not Lazy—You're Burnt Out: The Reality of NEET PG Prep",
+    meta_title: "You're Not Lazy-You're Burnt Out: The Reality of NEET PG Prep",
     meta_description:
       "Struggling with NEET PG prep? It may be burnout, not laziness. Learn how stress, long study hours, and pressure affect focus and how to recover smartly.",
     keywords: [
@@ -56390,7 +56390,7 @@ export const blogPosts: BlogPost[] = [
         id: "studying-more-exhausted",
         type: "paragraph",
         content:
-          "When you're already mentally exhausted, adding more hours doesn't increase productivity—it drains whatever little energy you have left. You end up sitting longer, learning less, and feeling worse during your Neet PG preparation.",
+          "When you're already mentally exhausted, adding more hours doesn't increase productivity-it drains whatever little energy you have left. You end up sitting longer, learning less, and feeling worse during your Neet PG preparation.",
       },
       {
         id: "studying-more-loop",
@@ -56411,7 +56411,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "breaks-alone-sure",
         type: "paragraph",
-        content: "Sure, breaks help—but not in the way you think.",
+        content: "Sure, breaks help-but not in the way you think.",
       },
       {
         id: "breaks-alone-scrolling",
@@ -56456,7 +56456,7 @@ export const blogPosts: BlogPost[] = [
         id: "structure-heals-difference",
         type: "paragraph",
         content:
-          "Even a simple routine like fixed study slots, planned revisions, and scheduled downtime—can make a huge difference.",
+          "Even a simple routine like fixed study slots, planned revisions, and scheduled downtime-can make a huge difference.",
       },
       {
         id: "comparison-fuels",
@@ -56484,7 +56484,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "comparison-fuels-doesnt",
         type: "paragraph",
-        content: "Comparison doesn't motivate—it exhausts you.",
+        content: "Comparison doesn't motivate-it exhausts you.",
       },
       {
         id: "comparison-fuels-chasing",
@@ -56554,7 +56554,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "final-thoughts-need",
         type: "paragraph",
-        content: "You don't need to do more—you just need to do it smarter.",
+        content: "You don't need to do more-you just need to do it smarter.",
       },
       {
         id: "faqs",
@@ -56678,7 +56678,7 @@ export const blogPosts: BlogPost[] = [
         id: "core-difference-branch",
         type: "paragraph",
         content:
-          "Branch (Specialization): The field you choose—like Medicine, Surgery, Radiology, Dermatology, etc. This defines what you will become.",
+          "Branch (Specialization): The field you choose-like Medicine, Surgery, Radiology, Dermatology, etc. This defines what you will become.",
       },
       {
         id: "core-difference-college",
@@ -56689,7 +56689,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "core-difference-conclusion",
         type: "paragraph",
-        content: "Both matter—but not equally in every situation.",
+        content: "Both matter-but not equally in every situation.",
       },
       {
         id: "why-branch-first",
@@ -56763,7 +56763,7 @@ export const blogPosts: BlogPost[] = [
         id: "reason-3-intro",
         type: "paragraph",
         content:
-          "Patients rarely ask where you studied after a few years—they care about:",
+          "Patients rarely ask where you studied after a few years-they care about:",
       },
       {
         id: "reason-3-list",
@@ -57005,7 +57005,7 @@ export const blogPosts: BlogPost[] = [
         id: "closing-thoughts-para",
         type: "paragraph",
         content:
-          "NEET PG is not just about getting a seat—it's about choosing the life you'll live afterward. Take time to reflect, talk to seniors, and understand real-world experiences before making your choice.",
+          "NEET PG is not just about getting a seat-it's about choosing the life you'll live afterward. Take time to reflect, talk to seniors, and understand real-world experiences before making your choice.",
       },
       {
         id: "closing-thoughts-conclusion",
@@ -57036,7 +57036,7 @@ export const blogPosts: BlogPost[] = [
           },
           {
             question:
-              "3. Which matters more for clinical skills—branch or college?",
+              "3. Which matters more for clinical skills-branch or college?",
             answer:
               "Both will matter, but a good college with high patient flow can notably enhance your overall practical learning, especially in clinical branches.",
           },
@@ -57148,12 +57148,12 @@ export const blogPosts: BlogPost[] = [
         id: "be-real-para1",
         type: "paragraph",
         content:
-          'A drop year sounds powerful — "Next year, I\'ll crack it better."',
+          'A drop year sounds powerful - "Next year, I\'ll crack it better."',
       },
       {
         id: "be-real-para2",
         type: "paragraph",
-        content: 'Taking a seat sounds safe — "At least I\'m moving forward."',
+        content: 'Taking a seat sounds safe - "At least I\'m moving forward."',
       },
       {
         id: "be-real-para3",
@@ -57202,7 +57202,7 @@ export const blogPosts: BlogPost[] = [
         id: "taking-seat-reason-2-intro",
         type: "paragraph",
         content:
-          "Be very honest — are you also very burnt out? Another year means:",
+          "Be very honest - are you also very burnt out? Another year means:",
       },
       {
         id: "taking-seat-reason-2-list",
@@ -57427,7 +57427,7 @@ export const blogPosts: BlogPost[] = [
         id: "closing-thoughts-para2",
         type: "paragraph",
         content:
-          "Because at the end of the day — a well-thought decision will always beat an emotional one.",
+          "Because at the end of the day - a well-thought decision will always beat an emotional one.",
       },
       {
         id: "closing-thoughts-para3",
@@ -57572,7 +57572,7 @@ export const blogPosts: BlogPost[] = [
         id: "understanding-rounds-conclusion",
         type: "paragraph",
         content:
-          "These rounds have fewer seats but also less competition. Makes them unpredictable—and full of possibilities.",
+          "These rounds have fewer seats but also less competition. Makes them unpredictable-and full of possibilities.",
       },
       {
         id: "strategy-1",
@@ -57792,7 +57792,7 @@ export const blogPosts: BlogPost[] = [
         id: "real-talk-para1",
         type: "paragraph",
         content:
-          "Mop-Up and Stray Vacancy rounds aren't just scraps—they're opportunity rounds. Tons of students land excellent seats here simply because they stayed alert, stayed flexible, and stayed prepared during the counselling mop up round.",
+          "Mop-Up and Stray Vacancy rounds aren't just scraps-they're opportunity rounds. Tons of students land excellent seats here simply because they stayed alert, stayed flexible, and stayed prepared during the counselling mop up round.",
       },
       {
         id: "real-talk-para2",
@@ -57927,7 +57927,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro-para3",
         type: "paragraph",
         content:
-          "Your rank does not define your success—your decisions after the result and your counselling strategy do",
+          "Your rank does not define your success-your decisions after the result and your counselling strategy do",
       },
       {
         id: "intro-para4",
@@ -58110,7 +58110,7 @@ export const blogPosts: BlogPost[] = [
         id: "branch-6-intro",
         type: "paragraph",
         content:
-          "Many students usually ignore diploma routes—but they can be still very powerful, especially during the mop up round or counselling mop up round.",
+          "Many students usually ignore diploma routes-but they can be still very powerful, especially during the mop up round or counselling mop up round.",
       },
       {
         id: "branch-6-list",
@@ -58203,13 +58203,13 @@ export const blogPosts: BlogPost[] = [
         id: "final-thoughts-para1",
         type: "paragraph",
         content:
-          "A low NEET PG rank is not the end—it's just a different starting point.",
+          "A low NEET PG rank is not the end-it's just a different starting point.",
       },
       {
         id: "final-thoughts-para2",
         type: "paragraph",
         content:
-          "Many successful doctors today didn't get top ranks—but they made smart, informed decisions during counselling and built amazing careers in branches others ignored.",
+          "Many successful doctors today didn't get top ranks-but they made smart, informed decisions during counselling and built amazing careers in branches others ignored.",
       },
       {
         id: "final-thoughts-para3",
@@ -58241,7 +58241,7 @@ export const blogPosts: BlogPost[] = [
           {
             question: "Should I drop a year for a better branch?",
             answer:
-              "Only if you have a clear plan—otherwise, smart choices now can work well.",
+              "Only if you have a clear plan-otherwise, smart choices now can work well.",
           },
           {
             question: "Are diploma courses worth considering?",
@@ -58356,7 +58356,7 @@ export const blogPosts: BlogPost[] = [
         id: "reality-para1",
         type: "paragraph",
         content:
-          "It's not just about the next 3 years—it shapes your lifestyle",
+          "It's not just about the next 3 years-it shapes your lifestyle",
       },
       {
         id: "reality-quotes",
@@ -58368,7 +58368,7 @@ export const blogPosts: BlogPost[] = [
         id: "reality-para2",
         type: "paragraph",
         content:
-          "This regret doesn't happen overnight—it builds over time due to poor decisions during counselling.",
+          "This regret doesn't happen overnight-it builds over time due to poor decisions during counselling.",
       },
       {
         id: "top-reasons",
@@ -58608,7 +58608,7 @@ export const blogPosts: BlogPost[] = [
         id: "avoid-3-intro",
         type: "paragraph",
         content:
-          "There are trendy branches which may look very attractive now—but what about 10 years later?",
+          "There are trendy branches which may look very attractive now-but what about 10 years later?",
       },
       {
         id: "avoid-3-conclusion",
@@ -58701,19 +58701,19 @@ export const blogPosts: BlogPost[] = [
         id: "final-thoughts-para1",
         type: "paragraph",
         content:
-          'However, choosing a PG branch is not just about picking the "best" option—it\'s all about picking the right option for you.',
+          'However, choosing a PG branch is not just about picking the "best" option-it\'s all about picking the right option for you.',
       },
       {
         id: "final-thoughts-para2",
         type: "paragraph",
         content:
-          "Many students regret their decision not because they lacked options—but because they lacked clarity and guidance.",
+          "Many students regret their decision not because they lacked options-but because they lacked clarity and guidance.",
       },
       {
         id: "final-thoughts-para3",
         type: "paragraph",
         content:
-          "Remember:\nYou will live with this branch every day—so choose it with awareness, not pressure.",
+          "Remember:\nYou will live with this branch every day-so choose it with awareness, not pressure.",
       },
       {
         id: "faqs",
@@ -59202,7 +59202,7 @@ export const blogPosts: BlogPost[] = [
           {
             question: "2. How many choices should I fill?",
             answer:
-              "Fill as many relevant choices as possible—there is no penalty, and it improves your chances of getting a seat.",
+              "Fill as many relevant choices as possible-there is no penalty, and it improves your chances of getting a seat.",
           },
           {
             question: "3. Are safe choices more important than dream choices?",
@@ -59292,7 +59292,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro-para1",
         type: "paragraph",
         content:
-          "Choice filling is one of the most overlooked steps in counselling—but it plays a major role in your final seat. Many students spend months preparing for exams—but rush through the one step that actually decides their seat.",
+          "Choice filling is one of the most overlooked steps in counselling-but it plays a major role in your final seat. Many students spend months preparing for exams-but rush through the one step that actually decides their seat.",
       },
       {
         id: "intro-para2",
@@ -59316,7 +59316,7 @@ export const blogPosts: BlogPost[] = [
         id: "why-choice-filling-para1",
         type: "paragraph",
         content:
-          "Counselling isn't just about merit—it's about decision-making.",
+          "Counselling isn't just about merit-it's about decision-making.",
       },
       {
         id: "why-choice-filling-para2",
@@ -59414,7 +59414,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "safe-choices-why-para",
         type: "paragraph",
-        content: "This is your landing zone—your most probable outcome.",
+        content: "This is your landing zone-your most probable outcome.",
       },
       {
         id: "safe-choices-rule",
@@ -59497,10 +59497,10 @@ export const blogPosts: BlogPost[] = [
         id: "common-mistakes-list",
         type: "list",
         items: [
-          "Playing too safe — Only filling safe options means missing better opportunities",
-          "Being overconfident — Only filling dream choices creates a high risk of no allotment",
-          "Copying others' lists — Your rank, preferences, and goals are unique",
-          "Ignoring backup options — This is one of the biggest and most costly mistakes",
+          "Playing too safe - Only filling safe options means missing better opportunities",
+          "Being overconfident - Only filling dream choices creates a high risk of no allotment",
+          "Copying others' lists - Your rank, preferences, and goals are unique",
+          "Ignoring backup options - This is one of the biggest and most costly mistakes",
         ],
       },
       {
@@ -59544,7 +59544,7 @@ export const blogPosts: BlogPost[] = [
         id: "final-thoughts-para1",
         type: "paragraph",
         content:
-          "Choice filling is not about luck—it's about ultimate strategy.",
+          "Choice filling is not about luck-it's about ultimate strategy.",
       },
       {
         id: "final-thoughts-para2",
@@ -59561,7 +59561,7 @@ export const blogPosts: BlogPost[] = [
           ["Safe", "Stability"],
           ["Backup", "Security"],
         ],
-        caption: "Ignore any one of them—and your entire plan becomes risky.",
+        caption: "Ignore any one of them-and your entire plan becomes risky.",
       },
       {
         id: "faqs",
@@ -59588,7 +59588,7 @@ export const blogPosts: BlogPost[] = [
             question:
               "3. How many dream, safe, and backup choices should I fill?",
             answer:
-              "There's no fixed number, but maintain a balanced mix—enough dream options to aim high, sufficient safe choices for realistic chances, and multiple backups for security.",
+              "There's no fixed number, but maintain a balanced mix-enough dream options to aim high, sufficient safe choices for realistic chances, and multiple backups for security.",
           },
           {
             question: "4. Should I copy someone else's choice filling list?",
@@ -59856,7 +59856,7 @@ export const blogPosts: BlogPost[] = [
         id: "dont-mean-reason-4-para1",
         type: "paragraph",
         content:
-          "Cutoffs only show what you can get—not what is right for you. Your interests, strengths, and long-term goals matter just as much.",
+          "Cutoffs only show what you can get-not what is right for you. Your interests, strengths, and long-term goals matter just as much.",
       },
       {
         id: "common-mistakes",
@@ -59922,19 +59922,19 @@ export const blogPosts: BlogPost[] = [
         id: "final-thoughts-para1",
         type: "paragraph",
         content:
-          "Cutoff trends are highly useful—but only if used correctly. They help you understand the possibilities so you can plan your strategy and make the best-informed decisions. However, they cannot guarantee outcomes or replace thoughtful decision-making.",
+          "Cutoff trends are highly useful-but only if used correctly. They help you understand the possibilities so you can plan your strategy and make the best-informed decisions. However, they cannot guarantee outcomes or replace thoughtful decision-making.",
       },
       {
         id: "final-thoughts-para2",
         type: "paragraph",
         content:
-          "Many students with average ranks have secured excellent seats—not because of luck, but because they understood the trends and applied them wisely.",
+          "Many students with average ranks have secured excellent seats-not because of luck, but because they understood the trends and applied them wisely.",
       },
       {
         id: "final-thoughts-para3",
         type: "paragraph",
         content:
-          "In the end, success in counselling is not just about your rank—it's about how smartly you use the information available to you.",
+          "In the end, success in counselling is not just about your rank-it's about how smartly you use the information available to you.",
       },
       {
         id: "faqs",
@@ -60054,7 +60054,7 @@ export const blogPosts: BlogPost[] = [
         id: "understand-exam-para1",
         type: "paragraph",
         content:
-          "Most people treat INI-CET like an extended MBBS exam — just read more, memorize harder. That approach will exhaust you and still leave you underprepared.",
+          "Most people treat INI-CET like an extended MBBS exam - just read more, memorize harder. That approach will exhaust you and still leave you underprepared.",
       },
       {
         id: "understand-exam-para2",
@@ -60086,7 +60086,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "building-base",
         type: "heading",
-        title: "Building Your Base — Don't Rush This Part",
+        title: "Building Your Base - Don't Rush This Part",
         level: 2,
       },
       {
@@ -60113,7 +60113,7 @@ export const blogPosts: BlogPost[] = [
         id: "building-base-para3",
         type: "paragraph",
         content:
-          "These aren't just important—they're the base of everything else.",
+          "These aren't just important-they're the base of everything else.",
       },
       {
         id: "building-base-simple",
@@ -60178,7 +60178,7 @@ export const blogPosts: BlogPost[] = [
         id: "start-mcqs-conclusion",
         type: "paragraph",
         content:
-          "MCQs teach you how the exam thinks—and that's half the battle.",
+          "MCQs teach you how the exam thinks-and that's half the battle.",
       },
       {
         id: "routine",
@@ -60235,7 +60235,7 @@ export const blogPosts: BlogPost[] = [
         id: "revision-para1",
         type: "paragraph",
         content:
-          "You can have the best notes, the best resources, the best schedule — and still perform poorly if you're not revising. Memory doesn't work the way we wish it did. Without repeated retrieval, things fade fast, often within days.",
+          "You can have the best notes, the best resources, the best schedule - and still perform poorly if you're not revising. Memory doesn't work the way we wish it did. Without repeated retrieval, things fade fast, often within days.",
       },
       {
         id: "revision-para2",
@@ -60255,7 +60255,7 @@ export const blogPosts: BlogPost[] = [
         id: "revision-para3",
         type: "paragraph",
         content:
-          "Your revision tools don't need to be elaborate. Short notes, flagged MCQs, quick flashcards — whatever format lets you go through material quickly without re-reading everything from scratch. The goal is to keep things accessible in your memory, not to re-learn them every time.",
+          "Your revision tools don't need to be elaborate. Short notes, flagged MCQs, quick flashcards - whatever format lets you go through material quickly without re-reading everything from scratch. The goal is to keep things accessible in your memory, not to re-learn them every time.",
       },
       {
         id: "focus-repeats",
@@ -60300,7 +60300,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "focus-repeats-conclusion",
         type: "paragraph",
-        content: "This is not shortcutting—it's smart preparation.",
+        content: "This is not shortcutting-it's smart preparation.",
       },
       {
         id: "grand-tests",
@@ -60312,13 +60312,13 @@ export const blogPosts: BlogPost[] = [
         id: "grand-tests-para1",
         type: "paragraph",
         content:
-          "Once you've covered a reasonable chunk of the syllabus — not all of it, just enough to have something to work with — start taking full-length tests. Most people find a good rhythm a few months into preparation.",
+          "Once you've covered a reasonable chunk of the syllabus - not all of it, just enough to have something to work with - start taking full-length tests. Most people find a good rhythm a few months into preparation.",
       },
       {
         id: "grand-tests-para2",
         type: "paragraph",
         content:
-          "Your first few tests will probably feel rough. Time pressure, question fatigue, decision paralysis. That's expected. What matters most early on isn't your percentile — it's whether you're getting better at managing time, making smarter guesses, and staying calm through 200 questions.",
+          "Your first few tests will probably feel rough. Time pressure, question fatigue, decision paralysis. That's expected. What matters most early on isn't your percentile - it's whether you're getting better at managing time, making smarter guesses, and staying calm through 200 questions.",
       },
       {
         id: "grand-tests-conclusion",
@@ -60342,18 +60342,18 @@ export const blogPosts: BlogPost[] = [
         id: "mistakes-list",
         type: "list",
         items: [
-          "Hoarding resources — having five books for one subject is not preparation, it's procrastination dressed up nicely",
-          "Skipping revision — studying without revisiting is like filling a bucket with a hole in it",
-          "Avoiding MCQs until \"ready\" — you'll never feel ready, and that's fine",
-          "Ignoring your errors — getting a question wrong and moving on is wasted effort",
-          "Measuring yourself against others — someone else's timeline has nothing to do with yours",
+          "Hoarding resources - having five books for one subject is not preparation, it's procrastination dressed up nicely",
+          "Skipping revision - studying without revisiting is like filling a bucket with a hole in it",
+          "Avoiding MCQs until \"ready\" - you'll never feel ready, and that's fine",
+          "Ignoring your errors - getting a question wrong and moving on is wasted effort",
+          "Measuring yourself against others - someone else's timeline has nothing to do with yours",
         ],
       },
       {
         id: "mistakes-conclusion",
         type: "paragraph",
         content:
-          "Simple, focused, consistent — that's the combination that works.",
+          "Simple, focused, consistent - that's the combination that works.",
       },
       {
         id: "final-stretch",
@@ -60371,7 +60371,7 @@ export const blogPosts: BlogPost[] = [
         id: "final-stretch-para2",
         type: "paragraph",
         content:
-          "More revisions. More PYQs. Regular grand tests with honest analysis. Targeted work on your weakest areas. The goal in this phase is consolidation — going deeper into what you know, not wider.",
+          "More revisions. More PYQs. Regular grand tests with honest analysis. Targeted work on your weakest areas. The goal in this phase is consolidation - going deeper into what you know, not wider.",
       },
       {
         id: "final-stretch-conclusion",
@@ -60494,7 +60494,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro-para1",
         type: "paragraph",
         content:
-          "If you're in MBBS and thinking about INI CET 2026, chances are you're a bit unsure where to begin. That confusion is normal—every student preparing for medical PG exams goes through it at some point. The key is not finding a perfect plan, but building a practical INI CET preparation strategy that you can actually follow.",
+          "If you're in MBBS and thinking about INI CET 2026, chances are you're a bit unsure where to begin. That confusion is normal-every student preparing for medical PG exams goes through it at some point. The key is not finding a perfect plan, but building a practical INI CET preparation strategy that you can actually follow.",
       },
       {
         id: "understand-prep",
@@ -60506,7 +60506,7 @@ export const blogPosts: BlogPost[] = [
         id: "understand-prep-para1",
         type: "paragraph",
         content:
-          "The INI CET exam isn't about how much you can memorize. It's more about whether you can connect concepts and apply them clinically—which is exactly what most medical PG preparation demands today.",
+          "The INI CET exam isn't about how much you can memorize. It's more about whether you can connect concepts and apply them clinically-which is exactly what most medical PG preparation demands today.",
       },
       {
         id: "understand-prep-para2",
@@ -60538,7 +60538,7 @@ export const blogPosts: BlogPost[] = [
         id: "build-base-para1",
         type: "paragraph",
         content:
-          "If you're still in MBBS, this is your biggest advantage—you have time to build things properly.",
+          "If you're still in MBBS, this is your biggest advantage-you have time to build things properly.",
       },
       {
         id: "build-base-table",
@@ -60627,7 +60627,7 @@ export const blogPosts: BlogPost[] = [
           ["Evening", "Revision"],
         ],
         caption:
-          "This loop—Learn → Apply → Revise—is a solid preparation strategy for long-term consistency. Even 5–6 focused hours daily can be enough if done properly.",
+          "This loop-Learn → Apply → Revise-is a solid preparation strategy for long-term consistency. Even 5–6 focused hours daily can be enough if done properly.",
       },
       {
         id: "revision",
@@ -60693,7 +60693,7 @@ export const blogPosts: BlogPost[] = [
         id: "pyqs-conclusion",
         type: "paragraph",
         content:
-          "Don't just solve them—analyze them. That's where real improvement happens.",
+          "Don't just solve them-analyze them. That's where real improvement happens.",
       },
       {
         id: "grand-tests",
@@ -60781,7 +60781,7 @@ export const blogPosts: BlogPost[] = [
           ["Target weak areas", "Close remaining gaps before the exam"],
         ],
         caption:
-          "At this stage, your goal isn't to expand—it's to stabilize your preparation.",
+          "At this stage, your goal isn't to expand-it's to stabilize your preparation.",
       },
       {
         id: "final-thought",
@@ -60814,7 +60814,7 @@ export const blogPosts: BlogPost[] = [
         id: "final-thought-conclusion",
         type: "paragraph",
         content:
-          "If you get these basics right, your PG preparation is already on track—and that's what really matters in the long run.",
+          "If you get these basics right, your PG preparation is already on track-and that's what really matters in the long run.",
       },
       {
         id: "faqs",
@@ -60845,7 +60845,7 @@ export const blogPosts: BlogPost[] = [
           },
           {
             question:
-              "What matters more in the final phase—new topics or revision?",
+              "What matters more in the final phase-new topics or revision?",
             answer:
               "Revision matters more, as strengthening what you've already studied is key to scoring well.",
           },
@@ -60942,7 +60942,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro-para4",
         type: "paragraph",
         content:
-          "This blog will help you understand how rank actually translates into branches—and how to think about it without overcomplicating things.",
+          "This blog will help you understand how rank actually translates into branches-and how to think about it without overcomplicating things.",
       },
       {
         id: "rank-vs-branch",
@@ -60954,7 +60954,7 @@ export const blogPosts: BlogPost[] = [
         id: "rank-vs-branch-para1",
         type: "paragraph",
         content:
-          'Let\'s clear this first—there is no fixed formula like: "X rank = Y branch"',
+          'Let\'s clear this first-there is no fixed formula like: "X rank = Y branch"',
       },
       {
         id: "rank-vs-branch-para2",
@@ -61053,7 +61053,7 @@ export const blogPosts: BlogPost[] = [
         id: "beyond-1500-para1",
         type: "paragraph",
         content:
-          "But here's something important—this is not the end of the road. Many candidates at this stage:",
+          "But here's something important-this is not the end of the road. Many candidates at this stage:",
       },
       {
         id: "beyond-1500-list",
@@ -61114,7 +61114,7 @@ export const blogPosts: BlogPost[] = [
         id: "rank-during-prep-conclusion",
         type: "paragraph",
         content:
-          "Because here's the truth—a jump from rank 1200 to 400 changes your entire set of options. That shift doesn't come from prediction. It comes from preparation.",
+          "Because here's the truth-a jump from rank 1200 to 400 changes your entire set of options. That shift doesn't come from prediction. It comes from preparation.",
       },
       {
         id: "branch-passion-practicality",
@@ -61210,7 +61210,7 @@ export const blogPosts: BlogPost[] = [
         id: "final-thoughts-para1",
         type: "paragraph",
         content:
-          "Your INICET rank will definitely shape your options—but it doesn't define your entire career.",
+          "Your INICET rank will definitely shape your options-but it doesn't define your entire career.",
       },
       {
         id: "final-thoughts-para2",
@@ -61250,7 +61250,7 @@ export const blogPosts: BlogPost[] = [
           },
           {
             question: "4. Should I focus on rank or branch during preparation?",
-            answer: "Focus on improving your rank—branch options will follow.",
+            answer: "Focus on improving your rank-branch options will follow.",
           },
         ],
       },
@@ -61320,7 +61320,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro-para1",
         type: "paragraph",
         content:
-          "If you've started preparing for INI CET, you've probably already felt it—motivation isn't steady. Some days you're fully locked in, finishing topics, solving MCQs. Other days, even opening your notes feels like a task.",
+          "If you've started preparing for INI CET, you've probably already felt it-motivation isn't steady. Some days you're fully locked in, finishing topics, solving MCQs. Other days, even opening your notes feels like a task.",
       },
       {
         id: "intro-para2",
@@ -61331,7 +61331,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "build-system",
         type: "heading",
-        title: "Stop Chasing Motivation—Build a System Instead",
+        title: "Stop Chasing Motivation-Build a System Instead",
         level: 2,
       },
       {
@@ -61369,7 +61369,7 @@ export const blogPosts: BlogPost[] = [
         id: "build-system-conclusion",
         type: "paragraph",
         content:
-          "On most days, you won't feel like studying. But once you start, momentum usually follows. That's how consistency builds—not from motivation, but from routine.",
+          "On most days, you won't feel like studying. But once you start, momentum usually follows. That's how consistency builds-not from motivation, but from routine.",
       },
       {
         id: "manageable-prep",
@@ -61424,7 +61424,7 @@ export const blogPosts: BlogPost[] = [
         id: "use-mcqs-para1",
         type: "paragraph",
         content:
-          "Reading theory for long hours can get draining. That's where MCQs help—not just for learning, but for keeping you mentally engaged.",
+          "Reading theory for long hours can get draining. That's where MCQs help-not just for learning, but for keeping you mentally engaged.",
       },
       {
         id: "use-mcqs-para2",
@@ -61543,7 +61543,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "tests-initially-bad",
         type: "heading",
-        title: "Tests Will Feel Bad Initially—That's Okay",
+        title: "Tests Will Feel Bad Initially-That's Okay",
         level: 2,
       },
       {
@@ -61634,7 +61634,7 @@ export const blogPosts: BlogPost[] = [
         id: "final-thought-conclusion",
         type: "paragraph",
         content:
-          "If you get that part right, you don't need to chase motivation—it follows you.",
+          "If you get that part right, you don't need to chase motivation-it follows you.",
       },
       {
         id: "faqs",
@@ -61757,7 +61757,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro-para2",
         type: "paragraph",
         content:
-          "You'll see one person following a strict timetable, someone else solving hundreds of MCQs daily—and then there's you, wondering if your preparation is even going in the right direction.",
+          "You'll see one person following a strict timetable, someone else solving hundreds of MCQs daily-and then there's you, wondering if your preparation is even going in the right direction.",
       },
       {
         id: "intro-para3",
@@ -61768,7 +61768,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro-para4",
         type: "paragraph",
         content:
-          "But here's something worth understanding early—most students aren't struggling because they're not studying enough. The problem is usually how they're studying. Their approach doesn't match how the exam actually works.",
+          "But here's something worth understanding early-most students aren't struggling because they're not studying enough. The problem is usually how they're studying. Their approach doesn't match how the exam actually works.",
       },
       {
         id: "intro-para5",
@@ -61804,7 +61804,7 @@ export const blogPosts: BlogPost[] = [
           [
             "6",
             "Not revising enough",
-            "Revise in cycles — weekly, monthly, and before the exam",
+            "Revise in cycles - weekly, monthly, and before the exam",
           ],
           [
             "7",
@@ -61835,7 +61835,7 @@ export const blogPosts: BlogPost[] = [
         id: "mistake-1-para1",
         type: "paragraph",
         content:
-          "A lot of people prepare like this—read, underline, revise… and still get stuck in MCQs.",
+          "A lot of people prepare like this-read, underline, revise… and still get stuck in MCQs.",
       },
       {
         id: "mistake-1-para2",
@@ -61871,7 +61871,7 @@ export const blogPosts: BlogPost[] = [
         id: "mistake-2-para2",
         type: "paragraph",
         content:
-          "It feels productive in the beginning—but later, it catches up. You might end up focusing on low-yield topics, missing important areas, or constantly feeling short on time.",
+          "It feels productive in the beginning-but later, it catches up. You might end up focusing on low-yield topics, missing important areas, or constantly feeling short on time.",
       },
       {
         id: "mistake-2-fix",
@@ -61889,7 +61889,7 @@ export const blogPosts: BlogPost[] = [
         id: "mistake-3-para1",
         type: "paragraph",
         content:
-          "This one is very common. New notes, new apps, new books—it feels like you're doing more. But in reality, you're just dividing your attention.",
+          "This one is very common. New notes, new apps, new books-it feels like you're doing more. But in reality, you're just dividing your attention.",
       },
       {
         id: "mistake-3-fix",
@@ -61907,7 +61907,7 @@ export const blogPosts: BlogPost[] = [
         id: "mistake-4-para1",
         type: "paragraph",
         content:
-          '"I\'ll start MCQs once I finish theory." Most people think this way. The problem is—you never feel fully ready.',
+          '"I\'ll start MCQs once I finish theory." Most people think this way. The problem is-you never feel fully ready.',
       },
       {
         id: "mistake-4-para2",
@@ -61918,7 +61918,7 @@ export const blogPosts: BlogPost[] = [
         id: "mistake-4-fix",
         type: "paragraph",
         content:
-          "Better approach: Start early. You'll get things wrong—and that's fine. That's how you improve.",
+          "Better approach: Start early. You'll get things wrong-and that's fine. That's how you improve.",
       },
       {
         id: "mistake-5",
@@ -61936,7 +61936,7 @@ export const blogPosts: BlogPost[] = [
         id: "mistake-5-fix",
         type: "paragraph",
         content:
-          "What to do instead: Spend a little time understanding why the correct answer works—and why the others don't. That's what prevents repeat mistakes.",
+          "What to do instead: Spend a little time understanding why the correct answer works-and why the others don't. That's what prevents repeat mistakes.",
       },
       {
         id: "mistake-6",
@@ -61948,7 +61948,7 @@ export const blogPosts: BlogPost[] = [
         id: "mistake-6-para1",
         type: "paragraph",
         content:
-          "You might feel like you've covered a subject well. Give it a couple of weeks—and suddenly it feels unfamiliar again. That's normal.",
+          "You might feel like you've covered a subject well. Give it a couple of weeks-and suddenly it feels unfamiliar again. That's normal.",
       },
       {
         id: "mistake-6-para2",
@@ -61960,7 +61960,7 @@ export const blogPosts: BlogPost[] = [
         id: "mistake-6-fix",
         type: "paragraph",
         content:
-          "Keep it simple: Revise in cycles—once within a week, again after a few weeks, and one final round closer to the exam.",
+          "Keep it simple: Revise in cycles-once within a week, again after a few weeks, and one final round closer to the exam.",
       },
       {
         id: "mistake-7",
@@ -61972,7 +61972,7 @@ export const blogPosts: BlogPost[] = [
         id: "mistake-7-para1",
         type: "paragraph",
         content:
-          "A lot of students delay tests because low scores feel discouraging. But avoiding them doesn't help—it actually slows you down. You miss out on time management, exam feel, and identifying weak areas.",
+          "A lot of students delay tests because low scores feel discouraging. But avoiding them doesn't help-it actually slows you down. You miss out on time management, exam feel, and identifying weak areas.",
       },
       {
         id: "mistake-7-fix",
@@ -61990,13 +61990,13 @@ export const blogPosts: BlogPost[] = [
         id: "mistake-8-para1",
         type: "paragraph",
         content:
-          "This one is exhausting. You see someone scoring well or finishing multiple revisions—and suddenly your own preparation feels inadequate. Even when it isn't.",
+          "This one is exhausting. You see someone scoring well or finishing multiple revisions-and suddenly your own preparation feels inadequate. Even when it isn't.",
       },
       {
         id: "mistake-8-fix",
         type: "paragraph",
         content:
-          "Reality check: Everyone studies differently. Focus on your own consistency—that's what actually improves results.",
+          "Reality check: Everyone studies differently. Focus on your own consistency-that's what actually improves results.",
       },
       {
         id: "mistake-9",
@@ -62060,7 +62060,7 @@ export const blogPosts: BlogPost[] = [
         id: "final-thought-conclusion",
         type: "paragraph",
         content:
-          "—you're already on the right track. At the end, it's not about doing more. It's about doing what actually works—and avoiding what doesn't.",
+          "-you're already on the right track. At the end, it's not about doing more. It's about doing what actually works-and avoiding what doesn't.",
       },
       {
         id: "faqs",
@@ -62079,7 +62079,7 @@ export const blogPosts: BlogPost[] = [
           },
           {
             question: "When should I start solving MCQs?",
-            answer: "As early as possible—along with your theory.",
+            answer: "As early as possible-along with your theory.",
           },
           {
             question: "How important is revision?",
@@ -62232,7 +62232,7 @@ export const blogPosts: BlogPost[] = [
           ],
         ],
         caption:
-          "Both exams test the same core knowledge—but in very different ways.",
+          "Both exams test the same core knowledge-but in very different ways.",
       },
       {
         id: "what-preparing-for",
@@ -62250,7 +62250,7 @@ export const blogPosts: BlogPost[] = [
         id: "what-preparing-for-para2",
         type: "paragraph",
         content:
-          "INI-CET is your gateway to institutes like AIIMS, JIPMER, PGIMER, and NIMHANS. The focus here is pretty clear—how well you understand medicine, and how comfortably you can apply it in a clinical setting.",
+          "INI-CET is your gateway to institutes like AIIMS, JIPMER, PGIMER, and NIMHANS. The focus here is pretty clear-how well you understand medicine, and how comfortably you can apply it in a clinical setting.",
       },
       {
         id: "what-preparing-for-para3",
@@ -62325,7 +62325,7 @@ export const blogPosts: BlogPost[] = [
         id: "questions-feel-inicet-para2",
         type: "paragraph",
         content:
-          "You're not just answering—you're thinking through the question. And yes, sometimes it feels unpredictable.",
+          "You're not just answering-you're thinking through the question. And yes, sometimes it feels unpredictable.",
       },
       {
         id: "questions-feel-neetpg",
@@ -62337,7 +62337,7 @@ export const blogPosts: BlogPost[] = [
         id: "questions-feel-neetpg-para1",
         type: "paragraph",
         content:
-          "More direct. Not necessarily easy, but more straightforward. If you've done your PYQs properly, you'll start noticing patterns. A lot of questions feel familiar—not identical, but similar enough to trigger recall.",
+          "More direct. Not necessarily easy, but more straightforward. If you've done your PYQs properly, you'll start noticing patterns. A lot of questions feel familiar-not identical, but similar enough to trigger recall.",
       },
       {
         id: "questions-feel-conclusion",
@@ -62374,7 +62374,7 @@ export const blogPosts: BlogPost[] = [
           ],
         ],
         caption:
-          "It's not just which exam is tougher—it's when it feels tougher.",
+          "It's not just which exam is tougher-it's when it feels tougher.",
       },
       {
         id: "competition",
@@ -62386,7 +62386,7 @@ export const blogPosts: BlogPost[] = [
         id: "competition-para1",
         type: "paragraph",
         content:
-          "Another thing people don't talk about enough—who you're competing with.",
+          "Another thing people don't talk about enough-who you're competing with.",
       },
       {
         id: "competition-para2",
@@ -62455,7 +62455,7 @@ export const blogPosts: BlogPost[] = [
           ["INI-CET", "Thinking and application"],
           ["NEET PG", "Volume and retention"],
         ],
-        caption: "Both are challenging—just in different ways.",
+        caption: "Both are challenging-just in different ways.",
       },
       {
         id: "final-thought",
@@ -62609,7 +62609,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro-para4",
         type: "paragraph",
         content:
-          "It happens to almost everyone during PG preparation. The tricky part is, it doesn't look like a problem at first. It feels like \"staying informed.\" But slowly, it turns into comparison—and that's where things start going off track.",
+          "It happens to almost everyone during PG preparation. The tricky part is, it doesn't look like a problem at first. It feels like \"staying informed.\" But slowly, it turns into comparison-and that's where things start going off track.",
       },
       {
         id: "comparison-loop",
@@ -62655,7 +62655,7 @@ export const blogPosts: BlogPost[] = [
         id: "rank-anxiety-para1",
         type: "paragraph",
         content:
-          "No one talks about this enough, but rank anxiety doesn't suddenly appear before the INI CET exam—it builds slowly during preparation.",
+          "No one talks about this enough, but rank anxiety doesn't suddenly appear before the INI CET exam-it builds slowly during preparation.",
       },
       {
         id: "rank-anxiety-para2",
@@ -62687,7 +62687,7 @@ export const blogPosts: BlogPost[] = [
         id: "social-media-para1",
         type: "paragraph",
         content:
-          "Let's be honest—social media can be useful. You find resources, strategies, updates.",
+          "Let's be honest-social media can be useful. You find resources, strategies, updates.",
       },
       {
         id: "social-media-para2",
@@ -62733,7 +62733,7 @@ export const blogPosts: BlogPost[] = [
           ],
           [
             "2. Follow a simple revision schedule",
-            "Not something complicated—just something you can repeat daily.",
+            "Not something complicated-just something you can repeat daily.",
             "Consistency beats intensity during long preparation phases",
           ],
           [
@@ -62803,7 +62803,7 @@ export const blogPosts: BlogPost[] = [
         id: "final-thought-para2",
         type: "paragraph",
         content:
-          "Comparison, rank anxiety, social media—they're all part of the journey now. You won't completely avoid them.",
+          "Comparison, rank anxiety, social media-they're all part of the journey now. You won't completely avoid them.",
       },
       {
         id: "final-thought-para3",
@@ -62823,7 +62823,7 @@ export const blogPosts: BlogPost[] = [
         id: "final-thought-conclusion",
         type: "paragraph",
         content:
-          "That's usually enough to stay on track—even when everything around you feels noisy.",
+          "That's usually enough to stay on track-even when everything around you feels noisy.",
       },
       {
         id: "faqs",
@@ -62925,7 +62925,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro-para1",
         type: "paragraph",
         content:
-          "When people talk about cracking INI-CET, the conversation usually goes in one direction—study hours, resources, mock tests, revision plans.",
+          "When people talk about cracking INI-CET, the conversation usually goes in one direction-study hours, resources, mock tests, revision plans.",
       },
       {
         id: "intro-para2",
@@ -62936,7 +62936,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro-para3",
         type: "paragraph",
         content:
-          "But there's another side to INI CET preparation that doesn't get enough attention—and it quietly affects everything else. Your sleep. Your diet. Your daily energy.",
+          "But there's another side to INI CET preparation that doesn't get enough attention-and it quietly affects everything else. Your sleep. Your diet. Your daily energy.",
       },
       {
         id: "intro-para4",
@@ -62966,7 +62966,7 @@ export const blogPosts: BlogPost[] = [
         id: "problem-para3",
         type: "paragraph",
         content:
-          "It feels productive in the moment—like you're doing more. But after a few days, things start slipping:",
+          "It feels productive in the moment-like you're doing more. But after a few days, things start slipping:",
       },
       {
         id: "problem-list",
@@ -62993,7 +62993,7 @@ export const blogPosts: BlogPost[] = [
         id: "sleep-para1",
         type: "paragraph",
         content:
-          "Let's be honest—most aspirants don't sleep enough during INI CET 2026 prep.",
+          "Let's be honest-most aspirants don't sleep enough during INI CET 2026 prep.",
       },
       {
         id: "sleep-para2",
@@ -63078,7 +63078,7 @@ export const blogPosts: BlogPost[] = [
         id: "productivity-para2",
         type: "paragraph",
         content:
-          "Productivity in INI CET preparation isn't about how many hours you sit—it's about how much you actually absorb.",
+          "Productivity in INI CET preparation isn't about how many hours you sit-it's about how much you actually absorb.",
       },
       {
         id: "productivity-para3",
@@ -63094,7 +63094,7 @@ export const blogPosts: BlogPost[] = [
         id: "productivity-conclusion",
         type: "paragraph",
         content:
-          "You'll notice something—you finish more in less time. That's real productivity.",
+          "You'll notice something-you finish more in less time. That's real productivity.",
       },
       {
         id: "rank-section",
@@ -63164,7 +63164,7 @@ export const blogPosts: BlogPost[] = [
         id: "final-thought-para2",
         type: "paragraph",
         content:
-          "But how you show up every day—your energy, focus, and consistency—that's what really shapes your outcome.",
+          "But how you show up every day-your energy, focus, and consistency-that's what really shapes your outcome.",
       },
       {
         id: "final-thought-para3",
@@ -63191,7 +63191,7 @@ export const blogPosts: BlogPost[] = [
           {
             question: "Does sleep improve INI-CET preparation?",
             answer:
-              "Honestly, yes. When you're sleep-deprived, nothing sticks — your brain just doesn't retain what you studied the night before. Getting 7–8 hours makes a real difference.",
+              "Honestly, yes. When you're sleep-deprived, nothing sticks - your brain just doesn't retain what you studied the night before. Getting 7–8 hours makes a real difference.",
           },
           {
             question: "What should I eat during INI-CET prep?",
@@ -63287,7 +63287,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro-para2",
         type: "paragraph",
         content:
-          'And honestly, this is where things get messy. Everyone has advice—friends, seniors, rankers, and random people online. Some say "take Radiology if you can," others push Medicine, some say don\'t even think—just follow your INI CET rank.',
+          'And honestly, this is where things get messy. Everyone has advice-friends, seniors, rankers, and random people online. Some say "take Radiology if you can," others push Medicine, some say don\'t even think-just follow your INI CET rank.',
       },
       {
         id: "intro-para3",
@@ -63316,7 +63316,7 @@ export const blogPosts: BlogPost[] = [
           ["What toppers are choosing", "Where you see yourself long-term"],
         ],
         caption:
-          "Because once you pick a branch, you're not just choosing a subject—you're choosing your day-to-day life for years.",
+          "Because once you pick a branch, you're not just choosing a subject-you're choosing your day-to-day life for years.",
       },
       {
         id: "high-demand-clinical",
@@ -63402,7 +63402,7 @@ export const blogPosts: BlogPost[] = [
           ],
         ],
         caption:
-          "Choose surgery if you like doing things, not just diagnosing—and you're okay with the grind.",
+          "Choose surgery if you like doing things, not just diagnosing-and you're okay with the grind.",
       },
       {
         id: "pre-para-clinical",
@@ -63447,7 +63447,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "branch-vs-institute",
         type: "heading",
-        title: "Branch vs Institute — The Classic Confusion",
+        title: "Branch vs Institute - The Classic Confusion",
         level: 2,
       },
       {
@@ -63466,15 +63466,15 @@ export const blogPosts: BlogPost[] = [
           ],
           [
             "You are still unsure or exploring",
-            "Choose a good institute — it gives exposure and flexibility",
+            "Choose a good institute - it gives exposure and flexibility",
           ],
           [
             "Both branch and institute are strong",
-            "Ideal scenario — prioritize your long-term career goals",
+            "Ideal scenario - prioritize your long-term career goals",
           ],
         ],
         caption:
-          "This is where career guidance and counselling actually help—because it's not just about rank; it's about direction.",
+          "This is where career guidance and counselling actually help-because it's not just about rank; it's about direction.",
       },
       {
         id: "questions-to-ask",
@@ -63522,7 +63522,7 @@ export const blogPosts: BlogPost[] = [
         id: "common-mistake-conclusion",
         type: "paragraph",
         content:
-          "And then regret it later. Your INI CET rank gives you options—but it shouldn't decide everything for you.",
+          "And then regret it later. Your INI CET rank gives you options-but it shouldn't decide everything for you.",
       },
       {
         id: "career-counselling",
@@ -63539,7 +63539,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "career-counselling-para2",
         type: "paragraph",
-        content: "Not to tell you what to choose—but to help you understand:",
+        content: "Not to tell you what to choose-but to help you understand:",
       },
       {
         id: "career-counselling-list",
@@ -63583,7 +63583,7 @@ export const blogPosts: BlogPost[] = [
         id: "final-thought-conclusion",
         type: "paragraph",
         content:
-          "Pick something you can see yourself doing—even on a random Monday morning, years from now. That's usually a better indicator than any cutoff list.",
+          "Pick something you can see yourself doing-even on a random Monday morning, years from now. That's usually a better indicator than any cutoff list.",
       },
       {
         id: "faqs",
@@ -63643,7 +63643,7 @@ export const blogPosts: BlogPost[] = [
       "INI-CET Counselling Process Explained: What Actually Happens After the Result",
     slug: "ini-cet-counselling-process-explained-what-happens-after-result",
     excerpt:
-      "Understand the complete INI-CET counselling process step by step—from registration and choice filling to seat allotment and document verification—so you don't lose a seat your rank deserved.",
+      "Understand the complete INI-CET counselling process step by step-from registration and choice filling to seat allotment and document verification-so you don't lose a seat your rank deserved.",
     featured_image:
       "https://cdn.dribbble.com/userupload/47747001/file/de7d047bcd0da1e3d8fdca6be88c9921.jpg?w=1200&h=600&fit=crop",
     featured_image_alt: "ini cet 2026",
@@ -63670,7 +63670,7 @@ export const blogPosts: BlogPost[] = [
     meta_title:
       "INI-CET Counselling Process Explained: What Actually Happens After the Result",
     meta_description:
-      "Understand the complete INI-CET counselling process step by step—from registration and choice filling to seat allotment and document verification after your result.",
+      "Understand the complete INI-CET counselling process step by step-from registration and choice filling to seat allotment and document verification after your result.",
     keywords: [
       "ini cet counselling",
       "ini cet 2026",
@@ -63820,7 +63820,7 @@ export const blogPosts: BlogPost[] = [
         rows: [
           [
             "Top",
-            "Your genuine first choice — what you actually want, not what seems realistic",
+            "Your genuine first choice - what you actually want, not what seems realistic",
             "The system assigns the first available match from the top down",
           ],
           [
@@ -64011,7 +64011,7 @@ export const blogPosts: BlogPost[] = [
         id: "approach-calmly-conclusion",
         type: "paragraph",
         content:
-          "Getting clear on these things before you start makes every subsequent decision easier. Students who go into counselling knowing what they want consistently make better calls—including that high-pressure moment after allotment when you have to decide whether to hold or upgrade.",
+          "Getting clear on these things before you start makes every subsequent decision easier. Students who go into counselling knowing what they want consistently make better calls-including that high-pressure moment after allotment when you have to decide whether to hold or upgrade.",
       },
       {
         id: "keywords",
@@ -64087,13 +64087,13 @@ export const blogPosts: BlogPost[] = [
         id: "intro-para1",
         type: "paragraph",
         content:
-          "Nobody tells you how strange this phase feels until you're living it. You're finally a doctor — sort of — running between wards, taking calls, learning real clinical medicine for the first time. And somewhere in the middle of all that, you're supposed to be preparing for one of the most competitive postgraduate entrance exams in the country. It's a lot. No one who tells you otherwise hasn't done it.",
+          "Nobody tells you how strange this phase feels until you're living it. You're finally a doctor - sort of - running between wards, taking calls, learning real clinical medicine for the first time. And somewhere in the middle of all that, you're supposed to be preparing for one of the most competitive postgraduate entrance exams in the country. It's a lot. No one who tells you otherwise hasn't done it.",
       },
       {
         id: "intro-para2",
         type: "paragraph",
         content:
-          "But here's what's also true: thousands of people have cracked NEET PG while doing exactly what you're doing right now. Not by studying 12 hours a day — that's a fantasy during internship — but by being smarter about the hours they actually had.",
+          "But here's what's also true: thousands of people have cracked NEET PG while doing exactly what you're doing right now. Not by studying 12 hours a day - that's a fantasy during internship - but by being smarter about the hours they actually had.",
       },
       {
         id: "perfect-study-day",
@@ -64127,7 +64127,7 @@ export const blogPosts: BlogPost[] = [
         type: "table",
         headers: ["Day Type", "Realistic Expectation"],
         rows: [
-          ["Heavy duty days", "1 hour or less — and that's completely fine"],
+          ["Heavy duty days", "1 hour or less - and that's completely fine"],
           ["Average days", "Decent productivity with focused sessions"],
           [
             "Lighter postings",
@@ -64139,13 +64139,13 @@ export const blogPosts: BlogPost[] = [
       {
         id: "better-time",
         type: "heading",
-        title: "You Don't Need More Time — You Need Better Time",
+        title: "You Don't Need More Time - You Need Better Time",
         level: 2,
       },
       {
         id: "better-time-para1",
         type: "paragraph",
-        content: "Three to five focused hours are enough—if used properly.",
+        content: "Three to five focused hours are enough-if used properly.",
       },
       {
         id: "better-time-para2",
@@ -64163,7 +64163,7 @@ export const blogPosts: BlogPost[] = [
           [
             "Night",
             "30 min quick revision",
-            "Skip if exhausted — rest matters",
+            "Skip if exhausted - rest matters",
           ],
         ],
         caption:
@@ -64242,7 +64242,7 @@ export const blogPosts: BlogPost[] = [
         id: "fewer-resources-para2",
         type: "paragraph",
         content:
-          "Pick one solid source per subject, one MCQ platform, and your own short notes. That's it. The notes you've been building through your MBBS — the ones already in your handwriting and your words — are worth more than a shiny new book someone on a forum recommended.",
+          "Pick one solid source per subject, one MCQ platform, and your own short notes. That's it. The notes you've been building through your MBBS - the ones already in your handwriting and your words - are worth more than a shiny new book someone on a forum recommended.",
       },
       {
         id: "fewer-resources-conclusion",
@@ -64260,14 +64260,14 @@ export const blogPosts: BlogPost[] = [
         id: "revision-para1",
         type: "paragraph",
         content:
-          "Here's a hard truth about memory: without revision, most of what you study during a busy internship week will be significantly faded within days. It's not a willpower issue — it's just how memory works. And during internship, when your brain is also processing clinical experiences, new procedures, and sheer physical tiredness, forgetting happens even faster.",
+          "Here's a hard truth about memory: without revision, most of what you study during a busy internship week will be significantly faded within days. It's not a willpower issue - it's just how memory works. And during internship, when your brain is also processing clinical experiences, new procedures, and sheer physical tiredness, forgetting happens even faster.",
       },
       {
         id: "revision-table",
         type: "table",
         headers: ["Revision Tool", "When to Use It"],
         rows: [
-          ["Short notes", "Daily — fast to go through, high retention"],
+          ["Short notes", "Daily - fast to go through, high retention"],
           ["Highlighted points", "Between rounds or on quick breaks"],
           [
             "Flagged MCQs already done",
@@ -64291,7 +64291,7 @@ export const blogPosts: BlogPost[] = [
         id: "strategic-study-para1",
         type: "paragraph",
         content:
-          "You don't have the bandwidth to go deep on everything — and trying to will only stretch you thin. Be honest about that and prioritize accordingly.",
+          "You don't have the bandwidth to go deep on everything - and trying to will only stretch you thin. Be honest about that and prioritize accordingly.",
       },
       {
         id: "strategic-study-table",
@@ -64305,7 +64305,7 @@ export const blogPosts: BlogPost[] = [
           ],
           [
             "High",
-            "Previous year questions — for pattern and concept understanding",
+            "Previous year questions - for pattern and concept understanding",
             "Best guide to what the exam actually keeps coming back to",
           ],
           [
@@ -64320,7 +64320,7 @@ export const blogPosts: BlogPost[] = [
           ],
         ],
         caption:
-          "Strategic preparation during internship doesn't mean cutting corners — it means spending your limited time where it counts most.",
+          "Strategic preparation during internship doesn't mean cutting corners - it means spending your limited time where it counts most.",
       },
       {
         id: "tests",
@@ -64332,7 +64332,7 @@ export const blogPosts: BlogPost[] = [
         id: "tests-para1",
         type: "paragraph",
         content:
-          "Tests are important — even during internship. Use off days and lighter postings to take full tests. Focus on time management, decision-making, and stamina.",
+          "Tests are important - even during internship. Use off days and lighter postings to take full tests. Focus on time management, decision-making, and stamina.",
       },
       {
         id: "tests-para2",
@@ -64359,7 +64359,7 @@ export const blogPosts: BlogPost[] = [
           [
             "Guilt on low-output days",
             "Treating rest as falling behind",
-            "Accept that some days are hard — resting is not failure",
+            "Accept that some days are hard - resting is not failure",
           ],
           [
             "Resource accumulation",
@@ -64390,7 +64390,7 @@ export const blogPosts: BlogPost[] = [
         id: "mindset-para1",
         type: "paragraph",
         content:
-          "There will be weeks during internship where everything clicks and you feel genuinely good about your preparation. There will be other weeks that go completely sideways — a brutal posting, a personal rough patch, a stretch where you barely open your notes. Both are part of the process.",
+          "There will be weeks during internship where everything clicks and you feel genuinely good about your preparation. There will be other weeks that go completely sideways - a brutal posting, a personal rough patch, a stretch where you barely open your notes. Both are part of the process.",
       },
       {
         id: "mindset-para2",
@@ -64402,7 +64402,7 @@ export const blogPosts: BlogPost[] = [
         id: "mindset-conclusion",
         type: "paragraph",
         content:
-          "You're not behind. You're doing something genuinely difficult. The people who make it through this phase successfully aren't the ones who never had a bad week — they're the ones who kept going anyway. Stay consistent, stay strategic, and trust that the effort accumulates even when it doesn't feel like it.",
+          "You're not behind. You're doing something genuinely difficult. The people who make it through this phase successfully aren't the ones who never had a bad week - they're the ones who kept going anyway. Stay consistent, stay strategic, and trust that the effort accumulates even when it doesn't feel like it.",
       },
       {
         id: "faqs",
@@ -64541,7 +64541,7 @@ export const blogPosts: BlogPost[] = [
           ["Admit Card Release", "June 14, 2026"],
           [
             "Additional Charges",
-            "None — existing registration covers the re-exam",
+            "None - existing registration covers the re-exam",
           ],
         ],
         caption:
@@ -64563,7 +64563,7 @@ export const blogPosts: BlogPost[] = [
         id: "offline-format-para1",
         type: "paragraph",
         content:
-          "Nothing changes in terms of format. You'll get an OMR sheet, mark your answers by hand, and follow the same exam-day procedures. Anyone who was worried about a sudden shift to computer-based testing can put that concern to rest — the exam will continue in pen-and-paper mode this year. Computer-based testing is expected only from next year.",
+          "Nothing changes in terms of format. You'll get an OMR sheet, mark your answers by hand, and follow the same exam-day procedures. Anyone who was worried about a sudden shift to computer-based testing can put that concern to rest - the exam will continue in pen-and-paper mode this year. Computer-based testing is expected only from next year.",
       },
       {
         id: "offline-format-para2",
@@ -64654,7 +64654,7 @@ export const blogPosts: BlogPost[] = [
           ],
           [
             "Stay off social media rumor threads about cutoffs and paper patterns",
-            "Most speculation is noise — it costs focus without adding value",
+            "Most speculation is noise - it costs focus without adding value",
           ],
         ],
         caption:
@@ -64677,7 +64677,7 @@ export const blogPosts: BlogPost[] = [
           ["Exam Timing", "2:00 PM to 5:15 PM (IST)"],
         ],
         caption:
-          "Mark these dates and set reminders well in advance. Missing a deadline — especially the city change window — has no workaround once it passes.",
+          "Mark these dates and set reminders well in advance. Missing a deadline - especially the city change window - has no workaround once it passes.",
       },
       {
         id: "counselling-guidance",
@@ -64689,7 +64689,7 @@ export const blogPosts: BlogPost[] = [
         id: "counselling-guidance-para1",
         type: "paragraph",
         content:
-          "Clearing NEET UG is one part of the journey. Figuring out counselling, college choices, and admission strategy is a whole other thing — and it catches a lot of students off guard. If you need expert guidance and proper verified updates on NEET UG 2026 counselling, UG counselling, and official admission procedures, Believers Consultancy will help you make sense of the process.",
+          "Clearing NEET UG is one part of the journey. Figuring out counselling, college choices, and admission strategy is a whole other thing - and it catches a lot of students off guard. If you need expert guidance and proper verified updates on NEET UG 2026 counselling, UG counselling, and official admission procedures, Believers Consultancy will help you make sense of the process.",
       },
       {
         id: "where-things-stand",
@@ -64788,7 +64788,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro-para1",
         type: "paragraph",
         content:
-          "If you're preparing for medical PG exams, chances are you've felt it at some point—that constant tiredness that sleep doesn't fix, the lack of motivation even when the exam is getting closer, and the quiet frustration of knowing you should study but just… can't.",
+          "If you're preparing for medical PG exams, chances are you've felt it at some point-that constant tiredness that sleep doesn't fix, the lack of motivation even when the exam is getting closer, and the quiet frustration of knowing you should study but just… can't.",
       },
       {
         id: "intro-para2",
@@ -64806,7 +64806,7 @@ export const blogPosts: BlogPost[] = [
         id: "what-burnout-looks-like-para1",
         type: "paragraph",
         content:
-          "Burnout isn't just about long hours or a hectic schedule. It's more subtle—and more dangerous.",
+          "Burnout isn't just about long hours or a hectic schedule. It's more subtle-and more dangerous.",
       },
       {
         id: "what-burnout-looks-like-para2",
@@ -64860,7 +64860,7 @@ export const blogPosts: BlogPost[] = [
             "Turns learning into a performance loop with no real rest",
           ],
           [
-            "Peers who seem ahead — online or offline",
+            "Peers who seem ahead - online or offline",
             "Fuels comparison, self-doubt, and anxiety on top of study load",
           ],
         ],
@@ -64884,7 +64884,7 @@ export const blogPosts: BlogPost[] = [
         id: "hidden-mistake-para2",
         type: "paragraph",
         content:
-          "So you push harder. You extend your schedule. Cut down breaks. Ignore fatigue. It works—for a while. Then your efficiency drops. Focus weakens. And suddenly, 10 hours of study feel less productive than 5 used to.",
+          "So you push harder. You extend your schedule. Cut down breaks. Ignore fatigue. It works-for a while. Then your efficiency drops. Focus weakens. And suddenly, 10 hours of study feel less productive than 5 used to.",
       },
       {
         id: "hidden-mistake-conclusion",
@@ -64916,7 +64916,7 @@ export const blogPosts: BlogPost[] = [
           [
             "2. Stop hoarding resources",
             "Stick to limited, reliable study material",
-            "Clarity matters more than quantity — too many resources quietly overwhelm you",
+            "Clarity matters more than quantity - too many resources quietly overwhelm you",
           ],
           [
             "3. Bring structure back",
@@ -64926,7 +64926,7 @@ export const blogPosts: BlogPost[] = [
           [
             "4. Use MCQs as learning, not judgment",
             "Focus on what gaps they reveal, not the score itself",
-            "MCQs show you where you need work — that's their job in any medical PG entrance journey",
+            "MCQs show you where you need work - that's their job in any medical PG entrance journey",
           ],
         ],
         caption:
@@ -64943,7 +64943,7 @@ export const blogPosts: BlogPost[] = [
         id: "breaks-para1",
         type: "paragraph",
         content:
-          "Breaks are often misunderstood. You don't lose time by taking breaks—you recover focus.",
+          "Breaks are often misunderstood. You don't lose time by taking breaks-you recover focus.",
       },
       {
         id: "breaks-para2",
@@ -64961,7 +64961,7 @@ export const blogPosts: BlogPost[] = [
         id: "everything-stuck-para1",
         type: "paragraph",
         content:
-          "There will be days when nothing works. You sit down to study and feel disconnected from everything—your notes, your goals, even your reason for starting.",
+          "There will be days when nothing works. You sit down to study and feel disconnected from everything-your notes, your goals, even your reason for starting.",
       },
       {
         id: "everything-stuck-para2",
@@ -64999,7 +64999,7 @@ export const blogPosts: BlogPost[] = [
         id: "comparison-para2",
         type: "paragraph",
         content:
-          "But here's the problem — you're comparing your full journey to someone else's highlight. Your timeline is different. Your pace is different. And that's okay.",
+          "But here's the problem - you're comparing your full journey to someone else's highlight. Your timeline is different. Your pace is different. And that's okay.",
       },
       {
         id: "comparison-conclusion",
@@ -65025,7 +65025,7 @@ export const blogPosts: BlogPost[] = [
         rows: [
           [
             "Understanding concepts better than before",
-            "Your foundation is strengthening — not just your recall",
+            "Your foundation is strengthening - not just your recall",
           ],
           [
             "Making fewer repeated mistakes",
@@ -65033,11 +65033,11 @@ export const blogPosts: BlogPost[] = [
           ],
           [
             "Revision becoming faster and clearer",
-            "Familiarity is building — a key advantage on exam day",
+            "Familiarity is building - a key advantage on exam day",
           ],
         ],
         caption:
-          "These are real indicators of progress in PG preparation — more reliable than rank or score comparisons at any given moment.",
+          "These are real indicators of progress in PG preparation - more reliable than rank or score comparisons at any given moment.",
       },
       {
         id: "final-phase",
@@ -65082,7 +65082,7 @@ export const blogPosts: BlogPost[] = [
         id: "final-thoughts-para2",
         type: "paragraph",
         content:
-          "Preparing for medical PG exams is not just about how much you can study — it's about how well you can sustain that effort over time.",
+          "Preparing for medical PG exams is not just about how much you can study - it's about how well you can sustain that effort over time.",
       },
       {
         id: "final-thoughts-para3",
@@ -65204,7 +65204,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro-para1",
         type: "paragraph",
         content:
-          "Most students focus entirely on preparation—and that makes sense. But here's something people don't talk about enough.",
+          "Most students focus entirely on preparation-and that makes sense. But here's something people don't talk about enough.",
       },
       {
         id: "intro-para2",
@@ -65245,16 +65245,16 @@ export const blogPosts: BlogPost[] = [
           ],
           [
             "Result officially declared",
-            "Your result must be officially declared — exams being over is not enough",
+            "Your result must be officially declared - exams being over is not enough",
           ],
         ],
         caption:
-          "That last point is where many students get stuck. If your result has not been officially declared, you will not be allowed to appear — regardless of whether your exams are over.",
+          "That last point is where many students get stuck. If your result has not been officially declared, you will not be allowed to appear - regardless of whether your exams are over.",
       },
       {
         id: "degree-verification",
         type: "heading",
-        title: "Your Degree Isn't Enough — It Has to Be Verified",
+        title: "Your Degree Isn't Enough - It Has to Be Verified",
         level: 2,
       },
       {
@@ -65278,7 +65278,7 @@ export const blogPosts: BlogPost[] = [
           ],
         ],
         caption:
-          "If your documents aren't in order, your application can be rejected — even if everything else is fine. This is one of those things students often delay, and it comes back to hurt them.",
+          "If your documents aren't in order, your application can be rejected - even if everything else is fine. This is one of those things students often delay, and it comes back to hurt them.",
       },
       {
         id: "neet-requirement",
@@ -65329,7 +65329,7 @@ export const blogPosts: BlogPost[] = [
           ],
           [
             "Incorrect or false information submitted",
-            "Review your application carefully before submitting — errors are difficult to reverse",
+            "Review your application carefully before submitting - errors are difficult to reverse",
           ],
         ],
         caption:
@@ -65354,11 +65354,11 @@ export const blogPosts: BlogPost[] = [
         rows: [
           [
             "Only one application allowed",
-            "You cannot submit multiple applications — one submission is final",
+            "You cannot submit multiple applications - one submission is final",
           ],
           [
             "No change in exam center or date",
-            "Whatever is assigned after application is confirmed — no exceptions",
+            "Whatever is assigned after application is confirmed - no exceptions",
           ],
           [
             "Electronic devices strictly prohibited",
@@ -65382,7 +65382,7 @@ export const blogPosts: BlogPost[] = [
         id: "reality-check-para1",
         type: "paragraph",
         content:
-          "Clearing FMGE is a big milestone — but it's not the final step. Passing the exam does not automatically mean you can start practicing.",
+          "Clearing FMGE is a big milestone - but it's not the final step. Passing the exam does not automatically mean you can start practicing.",
       },
       {
         id: "reality-check-para2",
@@ -65400,7 +65400,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "reality-check-conclusion",
         type: "paragraph",
-        content: "Think of FMGE as a gateway — not the destination.",
+        content: "Think of FMGE as a gateway - not the destination.",
       },
       {
         id: "dont-wait",
@@ -65412,7 +65412,7 @@ export const blogPosts: BlogPost[] = [
         id: "dont-wait-para1",
         type: "paragraph",
         content:
-          "One pattern shows up every year — students checking eligibility just a few weeks before the exam. By then, if something is missing, there's hardly any time to fix it.",
+          "One pattern shows up every year - students checking eligibility just a few weeks before the exam. By then, if something is missing, there's hardly any time to fix it.",
       },
       {
         id: "dont-wait-table",
@@ -65433,7 +65433,7 @@ export const blogPosts: BlogPost[] = [
           ],
         ],
         caption:
-          "This strategy removes unnecessary stress and lets you focus properly on preparation — which is where your real energy should go.",
+          "This strategy removes unnecessary stress and lets you focus properly on preparation - which is where your real energy should go.",
       },
       {
         id: "final-thoughts",
@@ -65451,7 +65451,7 @@ export const blogPosts: BlogPost[] = [
         id: "final-thoughts-para2",
         type: "paragraph",
         content:
-          "So before you go deeper into your study schedule, take some time to sort this out. Because in exams like this, it's not just about how well you prepare — it's also about whether you've taken care of the basics properly.",
+          "So before you go deeper into your study schedule, take some time to sort this out. Because in exams like this, it's not just about how well you prepare - it's also about whether you've taken care of the basics properly.",
       },
       {
         id: "final-thoughts-conclusion",
@@ -65845,7 +65845,7 @@ export const blogPosts: BlogPost[] = [
         id: "revision-para4",
         type: "paragraph",
         content:
-          "Students often realize this very late — usually when they revisit a topic after a month and barely remember anything they studied earlier.",
+          "Students often realize this very late - usually when they revisit a topic after a month and barely remember anything they studied earlier.",
       },
       {
         id: "revision-para5",
@@ -66081,7 +66081,7 @@ export const blogPosts: BlogPost[] = [
         id: "final-thoughts-conclusion",
         type: "paragraph",
         content:
-          "And in the end, FMGE success is rarely about studying endlessly. More often, it comes from building a strategy that you can actually survive mentally — and follow consistently until exam day.",
+          "And in the end, FMGE success is rarely about studying endlessly. More often, it comes from building a strategy that you can actually survive mentally - and follow consistently until exam day.",
       },
       {
         id: "faqs",
@@ -66188,7 +66188,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro-para1",
         type: "paragraph",
         content:
-          "Every year, thousands of students begin their medical preparation journey with one dream — becoming a doctor.",
+          "Every year, thousands of students begin their medical preparation journey with one dream - becoming a doctor.",
       },
       {
         id: "intro-para2",
@@ -66308,7 +66308,7 @@ export const blogPosts: BlogPost[] = [
         id: "drop-year-para5",
         type: "paragraph",
         content:
-          "Many successful doctors once stood exactly in that position — uncertain, exhausted, and starting over.",
+          "Many successful doctors once stood exactly in that position - uncertain, exhausted, and starting over.",
       },
       {
         id: "bad-result",
@@ -66400,7 +66400,7 @@ export const blogPosts: BlogPost[] = [
         id: "cried-returned",
         type: "heading",
         title:
-          "The Students Who Cried After Mock Tests — But Returned the Next Morning",
+          "The Students Who Cried After Mock Tests - But Returned the Next Morning",
         level: 2,
       },
       {
@@ -66550,7 +66550,7 @@ export const blogPosts: BlogPost[] = [
         id: "final-thoughts-para3",
         type: "paragraph",
         content:
-          "Many doctors once stood exactly where you are now — confused, discouraged, and uncertain.",
+          "Many doctors once stood exactly where you are now - confused, discouraged, and uncertain.",
       },
       {
         id: "final-thoughts-para4",
@@ -66686,7 +66686,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro-para4",
         type: "paragraph",
         content:
-          "PG medical exams are increasingly moving toward clinically integrated questions — the kind that test not just memory but understanding. Students are now expected to connect concepts, interpret clinical scenarios, and think like future doctors rather than information machines.",
+          "PG medical exams are increasingly moving toward clinically integrated questions - the kind that test not just memory but understanding. Students are now expected to connect concepts, interpret clinical scenarios, and think like future doctors rather than information machines.",
       },
       {
         id: "intro-para5",
@@ -67236,7 +67236,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro-para1",
         type: "paragraph",
         content:
-          "For a long time, NEET PG preparation had a fairly clear formula. Memorize facts, revise one-liners, grind through MCQs. It wasn't glamorous, but it worked — scoring largely depended on how much information you could retain and reproduce quickly.",
+          "For a long time, NEET PG preparation had a fairly clear formula. Memorize facts, revise one-liners, grind through MCQs. It wasn't glamorous, but it worked - scoring largely depended on how much information you could retain and reproduce quickly.",
       },
       {
         id: "intro-para2",
@@ -67253,7 +67253,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro-para4",
         type: "paragraph",
         content:
-          "That's not a coincidence. There's a real and visible move toward concept-based questions — ones that test whether you understand something, not just whether you've read it.",
+          "That's not a coincidence. There's a real and visible move toward concept-based questions - ones that test whether you understand something, not just whether you've read it.",
       },
       {
         id: "whats-changing",
@@ -67271,7 +67271,7 @@ export const blogPosts: BlogPost[] = [
         id: "whats-changing-para2",
         type: "paragraph",
         content:
-          "It's not that the topics are unfamiliar. It's that the question isn't asking you to recall a fact — it's asking you to apply one. A slight twist in wording. An unusual clinical presentation. A lab finding that points somewhere unexpected. Suddenly, the memorized line from your notes doesn't directly help you.",
+          "It's not that the topics are unfamiliar. It's that the question isn't asking you to recall a fact - it's asking you to apply one. A slight twist in wording. An unusual clinical presentation. A lab finding that points somewhere unexpected. Suddenly, the memorized line from your notes doesn't directly help you.",
       },
       {
         id: "whats-changing-para3",
@@ -67289,7 +67289,7 @@ export const blogPosts: BlogPost[] = [
         id: "what-concept-questions-look-like-para1",
         type: "paragraph",
         content:
-          "Rather than asking an isolated fact, these questions put you in a situation. You get a patient history, some investigation findings, maybe imaging or drug-related clues — and you have to reason your way to an answer.",
+          "Rather than asking an isolated fact, these questions put you in a situation. You get a patient history, some investigation findings, maybe imaging or drug-related clues - and you have to reason your way to an answer.",
       },
       {
         id: "what-concept-questions-look-like-para2",
@@ -67301,7 +67301,7 @@ export const blogPosts: BlogPost[] = [
         id: "what-concept-questions-look-like-para3",
         type: "paragraph",
         content:
-          "The options are often intentionally close to each other. That's the point — the question is designed to separate students who genuinely understand the concept from those who vaguely recognize it.",
+          "The options are often intentionally close to each other. That's the point - the question is designed to separate students who genuinely understand the concept from those who vaguely recognize it.",
       },
       {
         id: "why-shift-happening",
@@ -67313,7 +67313,7 @@ export const blogPosts: BlogPost[] = [
         id: "why-shift-happening-para1",
         type: "paragraph",
         content:
-          "It's not arbitrary. Medical education globally has been moving toward competency-based learning for years — less emphasis on memorization, more emphasis on clinical thinking and decision-making.",
+          "It's not arbitrary. Medical education globally has been moving toward competency-based learning for years - less emphasis on memorization, more emphasis on clinical thinking and decision-making.",
       },
       {
         id: "why-shift-happening-para2",
@@ -67342,7 +67342,7 @@ export const blogPosts: BlogPost[] = [
         id: "memorizers-struggle-para2",
         type: "paragraph",
         content:
-          "You can spend months drilling notes, cover everything in the syllabus, and still find yourself stuck on questions where the topic feels familiar but the answer doesn't come. That happens because memorization and understanding aren't the same thing — and traditional preparation often reinforces one without the other.",
+          "You can spend months drilling notes, cover everything in the syllabus, and still find yourself stuck on questions where the topic feels familiar but the answer doesn't come. That happens because memorization and understanding aren't the same thing - and traditional preparation often reinforces one without the other.",
       },
       {
         id: "memorizers-struggle-para3",
@@ -67354,7 +67354,7 @@ export const blogPosts: BlogPost[] = [
         id: "memorizers-struggle-para4",
         type: "paragraph",
         content:
-          'If your preparation has been mostly compartmentalized, that kind of question feels disorienting — even when you technically "know" the content.',
+          'If your preparation has been mostly compartmentalized, that kind of question feels disorienting - even when you technically "know" the content.',
       },
       {
         id: "clinical-integration",
@@ -67372,7 +67372,7 @@ export const blogPosts: BlogPost[] = [
         id: "clinical-integration-para2",
         type: "paragraph",
         content:
-          "This integrated approach makes the paper less predictable and more analytical. Students who understand mechanisms — why a disease progresses the way it does, how a drug actually works, what a finding really means — tend to handle this better than those relying on isolated memorized points.",
+          "This integrated approach makes the paper less predictable and more analytical. Students who understand mechanisms - why a disease progresses the way it does, how a drug actually works, what a finding really means - tend to handle this better than those relying on isolated memorized points.",
       },
       {
         id: "clinical-integration-para3",
@@ -67401,7 +67401,7 @@ export const blogPosts: BlogPost[] = [
         id: "question-banks-para3",
         type: "paragraph",
         content:
-          "The students performing well consistently are spending more time on explanations — understanding why the right answer is right and why the wrong ones are wrong. They're identifying clinical patterns. They're revisiting the concept when a question reveals a gap, not just noting the answer and moving on.",
+          "The students performing well consistently are spending more time on explanations - understanding why the right answer is right and why the wrong ones are wrong. They're identifying clinical patterns. They're revisiting the concept when a question reveals a gap, not just noting the answer and moving on.",
       },
       {
         id: "question-banks-para4",
@@ -67425,7 +67425,7 @@ export const blogPosts: BlogPost[] = [
         id: "retention-advantage-para2",
         type: "paragraph",
         content:
-          "When you understand why something happens, it sticks. A disease mechanism that you've reasoned through — connecting the pathophysiology to the symptoms to the investigations to the treatment — tends to stay in memory far better than a list of facts memorized the night before an exam.",
+          "When you understand why something happens, it sticks. A disease mechanism that you've reasoned through - connecting the pathophysiology to the symptoms to the investigations to the treatment - tends to stay in memory far better than a list of facts memorized the night before an exam.",
       },
       {
         id: "retention-advantage-para3",
@@ -67456,7 +67456,7 @@ export const blogPosts: BlogPost[] = [
         items: [
           "Focus on mechanisms, not just facts. When you read about a condition, understand why the symptoms occur, not just what they are.",
           "Practice clinically oriented MCQs and spend real time on the explanations.",
-          "Revise subjects in correlation — see where pharmacology connects to physiology, where pathology connects to medicine.",
+          "Revise subjects in correlation - see where pharmacology connects to physiology, where pathology connects to medicine.",
           "When you get a question wrong, ask why you got it wrong, not just what the right answer was.",
         ],
       },
@@ -67464,7 +67464,7 @@ export const blogPosts: BlogPost[] = [
         id: "how-to-adapt-para3",
         type: "paragraph",
         content:
-          "Small questions during revision — why does this symptom occur? what mechanism explains this finding? why is this drug preferred over that one? — build the kind of thinking that concept-based questions actually reward.",
+          "Small questions during revision - why does this symptom occur? what mechanism explains this finding? why is this drug preferred over that one? - build the kind of thinking that concept-based questions actually reward.",
       },
       {
         id: "where-headed",
@@ -67488,7 +67488,7 @@ export const blogPosts: BlogPost[] = [
         id: "where-headed-para3",
         type: "paragraph",
         content:
-          "For students willing to adjust how they prepare, the change is actually an opportunity. Concept-based questions reward real understanding — and real understanding, once built, is harder to lose than memorized facts.",
+          "For students willing to adjust how they prepare, the change is actually an opportunity. Concept-based questions reward real understanding - and real understanding, once built, is harder to lose than memorized facts.",
       },
       {
         id: "faqs",
@@ -67508,18 +67508,18 @@ export const blogPosts: BlogPost[] = [
           {
             question: "Why is NEET PG moving in this direction?",
             answer:
-              "The exam is aligning with competency-based medical education — the goal is to assess clinical thinking and problem-solving, not just memory.",
+              "The exam is aligning with competency-based medical education - the goal is to assess clinical thinking and problem-solving, not just memory.",
           },
           {
             question: "Is memorization useless now?",
             answer:
-              "No — some factual recall is still necessary. But memorization alone, without conceptual understanding, is increasingly insufficient for scoring well.",
+              "No - some factual recall is still necessary. But memorization alone, without conceptual understanding, is increasingly insufficient for scoring well.",
           },
           {
             question:
               "How do you actually prepare for concept-based questions?",
             answer:
-              "Focus on mechanisms, practice analytical MCQs, revise subjects in correlation, and spend real time understanding why answers are right or wrong — not just what the answer is.",
+              "Focus on mechanisms, practice analytical MCQs, revise subjects in correlation, and spend real time understanding why answers are right or wrong - not just what the answer is.",
           },
         ],
       },
@@ -68967,7 +68967,7 @@ export const blogPosts: BlogPost[] = [
         type: "list",
         items: [
           "NEET PG and INI-CET regularly test national vaccination schedules, TB and HIV control programs, maternal and child health schemes, health indices, and government healthcare policies",
-          "Recent updates to these programs are often factored into questions — keeping track of current details is necessary, not optional",
+          "Recent updates to these programs are often factored into questions - keeping track of current details is necessary, not optional",
           "These topics reflect real public health practice in India, which is why examiners keep returning to them.",
         ],
       },
@@ -69185,11 +69185,11 @@ export const blogPosts: BlogPost[] = [
         id: "how-to-prepare-list",
         type: "list",
         items: [
-          "Start with PYQs — they show exactly which areas come up repeatedly",
+          "Start with PYQs - they show exactly which areas come up repeatedly",
           "Vaccines and national health programs need frequent revisits; details change and questions get specific",
-          "Practice epidemiology MCQs daily — the pattern becomes easier to handle over time",
+          "Practice epidemiology MCQs daily - the pattern becomes easier to handle over time",
           "Build biostatistics concepts gradually rather than cramming; it holds better under exam pressure",
-          "Make concise charts and tables for data-heavy topics — useful for quick revision closer to the exam",
+          "Make concise charts and tables for data-heavy topics - useful for quick revision closer to the exam",
           "Community Medicine doesn't respond well to sporadic studying; the details need regular exposure to actually stick",
         ],
       },
@@ -69360,7 +69360,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "intro-para4",
       "type": "paragraph",
-      "content": "That's what negative marking actually does in exams like NEET PG, INI-CET, and FMGE. It doesn't just test how much you've studied — it tests judgment, emotional control, confidence, and risk tolerance, all at the same time, all under pressure. Which is exactly why so many students struggle with it even after months of solid preparation."
+      "content": "That's what negative marking actually does in exams like NEET PG, INI-CET, and FMGE. It doesn't just test how much you've studied - it tests judgment, emotional control, confidence, and risk tolerance, all at the same time, all under pressure. Which is exactly why so many students struggle with it even after months of solid preparation."
     },
     {
       "id": "changes-what-tested",
@@ -69376,7 +69376,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "changes-what-tested-para2",
       "type": "paragraph",
-      "content": "The moment penalties enter the picture, the whole dynamic shifts. Now every question carries a second decision attached to it — not just \"what's the answer\" but \"should I even try.\" That mental calculation plays out hundreds of times across a single paper. And over the course of a long exam, that accumulation of micro-decisions creates its own kind of exhaustion."
+      "content": "The moment penalties enter the picture, the whole dynamic shifts. Now every question carries a second decision attached to it - not just \"what's the answer\" but \"should I even try.\" That mental calculation plays out hundreds of times across a single paper. And over the course of a long exam, that accumulation of micro-decisions creates its own kind of exhaustion."
     },
     {
       "id": "changes-what-tested-para3",
@@ -69392,7 +69392,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "fear-drowning-question-para1",
       "type": "paragraph",
-      "content": "A lot of mistakes in medical entrance exams aren't really knowledge failures. They're anxiety failures. Negative marking creates a loop that's hard to break out of — fear of silly mistakes, fear of losing rank, fear of attempting too much, fear of attempting too little."
+      "content": "A lot of mistakes in medical entrance exams aren't really knowledge failures. They're anxiety failures. Negative marking creates a loop that's hard to break out of - fear of silly mistakes, fear of losing rank, fear of attempting too much, fear of attempting too little."
     },
     {
       "id": "fear-drowning-question-para2",
@@ -69413,7 +69413,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "brain-under-risk-para2",
       "type": "paragraph",
-      "content": "The result is that students sometimes avoid questions they could have answered correctly. The brain shifts from \"how do I maximize my score\" to \"how do I avoid losing marks\" — and those two modes produce very different behavior."
+      "content": "The result is that students sometimes avoid questions they could have answered correctly. The brain shifts from \"how do I maximize my score\" to \"how do I avoid losing marks\" - and those two modes produce very different behavior."
     },
     {
       "id": "brain-under-risk-para3",
@@ -69460,7 +69460,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "mocks-psychological-patterns-para3",
       "type": "paragraph",
-      "content": "These patterns matter more than most students realize, because during the actual exam, emotional state influences performance in ways that are hard to account for. Students who regularly examine their own behavior during mocks — not just their scores — tend to improve faster and more consistently."
+      "content": "These patterns matter more than most students realize, because during the actual exam, emotional state influences performance in ways that are hard to account for. Students who regularly examine their own behavior during mocks - not just their scores - tend to improve faster and more consistently."
     },
     {
       "id": "emotional-discipline",
@@ -69476,7 +69476,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "emotional-discipline-para2",
       "type": "paragraph",
-      "content": "They've developed a feel for when partial elimination is enough to justify an attempt, when uncertainty is too high to risk it, and when their gut instinct is actually reliable versus when it's just noise. That kind of discipline doesn't come from reading about exam strategy — it comes from repeated exposure to MCQs and mocks over time."
+      "content": "They've developed a feel for when partial elimination is enough to justify an attempt, when uncertainty is too high to risk it, and when their gut instinct is actually reliable versus when it's just noise. That kind of discipline doesn't come from reading about exam strategy - it comes from repeated exposure to MCQs and mocks over time."
     },
     {
       "id": "confidence-vs-recklessness",
@@ -69503,12 +69503,12 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "clinical-parallel-para1",
       "type": "paragraph",
-      "content": "The decision-making required under negative marking isn't entirely unlike what doctors deal with — incomplete information, multiple possibilities, risk-benefit thinking, pressure to act. Competitive exams test a simplified version of that process."
+      "content": "The decision-making required under negative marking isn't entirely unlike what doctors deal with - incomplete information, multiple possibilities, risk-benefit thinking, pressure to act. Competitive exams test a simplified version of that process."
     },
     {
       "id": "clinical-parallel-para2",
       "type": "paragraph",
-      "content": "It's not a perfect parallel, but the underlying skill — making calculated decisions despite uncertainty — matters both in the exam hall and in clinical practice."
+      "content": "It's not a perfect parallel, but the underlying skill - making calculated decisions despite uncertainty - matters both in the exam hall and in clinical practice."
     },
     {
       "id": "what-actually-helps",
@@ -69524,7 +69524,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "what-actually-helps-para2",
       "type": "paragraph",
-      "content": "Taking full-length mocks regularly, reviewing risky attempts honestly rather than just checking the score, tracking how accurate your guesses actually are, building elimination habits, and practicing time management until it stops feeling stressful — these things compound. Students who do them consistently start recognizing their own patterns. And that self-awareness alone tends to move the needle."
+      "content": "Taking full-length mocks regularly, reviewing risky attempts honestly rather than just checking the score, tracking how accurate your guesses actually are, building elimination habits, and practicing time management until it stops feeling stressful - these things compound. Students who do them consistently start recognizing their own patterns. And that self-awareness alone tends to move the needle."
     },
     {
       "id": "faqs",
@@ -69641,7 +69641,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "intro-para6",
       "type": "paragraph",
-      "content": "This phase is far more common than most people admit. And it usually has less to do with intelligence and more to do with how preparation needs to change after the syllabus is done — because finishing the exam syllabus and actually improving performance in the NEET PG exam are two completely different things."
+      "content": "This phase is far more common than most people admit. And it usually has less to do with intelligence and more to do with how preparation needs to change after the syllabus is done - because finishing the exam syllabus and actually improving performance in the NEET PG exam are two completely different things."
     },
     {
       "id": "false-sense-progress",
@@ -69667,7 +69667,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "false-sense-progress-para4",
       "type": "paragraph",
-      "content": "That feeling creates anxiety — even when preparation is actually moving in the right direction."
+      "content": "That feeling creates anxiety - even when preparation is actually moving in the right direction."
     },
     {
       "id": "passive-revision",
@@ -69693,7 +69693,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "passive-revision-para4",
       "type": "paragraph",
-      "content": "Real improvement in medical PG entrance exams comes from active recall — solving exam MCQ questions regularly, recalling without notes, attacking weak areas, practicing mixed subjects, and training the brain to retrieve information quickly under pressure."
+      "content": "Real improvement in medical PG entrance exams comes from active recall - solving exam MCQ questions regularly, recalling without notes, attacking weak areas, practicing mixed subjects, and training the brain to retrieve information quickly under pressure."
     },
     {
       "id": "passive-revision-para5",
@@ -69709,7 +69709,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "mock-tests-weaknesses-para1",
       "type": "paragraph",
-      "content": "Before the syllabus is done, the focus is mostly on coverage. After completion, mock tests start surfacing a different set of problems — poor time management, weak recall under pressure, silly mistakes, overthinking, guessing errors, mental fatigue across long exams."
+      "content": "Before the syllabus is done, the focus is mostly on coverage. After completion, mock tests start surfacing a different set of problems - poor time management, weak recall under pressure, silly mistakes, overthinking, guessing errors, mental fatigue across long exams."
     },
     {
       "id": "mock-tests-weaknesses-para2",
@@ -69740,7 +69740,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "avoiding-weak-areas-para3",
       "type": "paragraph",
-      "content": "Over time this creates a quiet imbalance — strong subjects get stronger, weak subjects stay weak, and overall rank doesn't move."
+      "content": "Over time this creates a quiet imbalance - strong subjects get stronger, weak subjects stay weak, and overall rank doesn't move."
     },
     {
       "id": "avoiding-weak-areas-para4",
@@ -69761,12 +69761,12 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "brain-adapts-para2",
       "type": "paragraph",
-      "content": "When the same preparation strategy runs on repeat for months — reading notes in the same order, revising passively, solving predictable question patterns, studying without any timed pressure — the brain gradually disengages. Concentration drops even if the hours stay high. What was once active problem-solving starts feeling like routine."
+      "content": "When the same preparation strategy runs on repeat for months - reading notes in the same order, revising passively, solving predictable question patterns, studying without any timed pressure - the brain gradually disengages. Concentration drops even if the hours stay high. What was once active problem-solving starts feeling like routine."
     },
     {
       "id": "brain-adapts-para3",
       "type": "paragraph",
-      "content": "Small changes can break that pattern significantly. Mixed-subject revision, timed MCQ blocks, error notebook analysis, teaching concepts aloud, recalling memory instead of reading directly — these force active engagement again and often produce noticeable improvement without adding a single extra hour."
+      "content": "Small changes can break that pattern significantly. Mixed-subject revision, timed MCQ blocks, error notebook analysis, teaching concepts aloud, recalling memory instead of reading directly - these force active engagement again and often produce noticeable improvement without adding a single extra hour."
     },
     {
       "id": "burnout-plateau",
@@ -69782,7 +69782,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "burnout-plateau-para2",
       "type": "paragraph",
-      "content": "Long-term competitive preparation creates cognitive fatigue slowly and quietly — motivation becomes inconsistent, focus duration drops, memory retrieval slows, emotional frustration builds, confidence swings unpredictably. Because students keep showing up to study every day, they don't recognize what's actually happening."
+      "content": "Long-term competitive preparation creates cognitive fatigue slowly and quietly - motivation becomes inconsistent, focus duration drops, memory retrieval slows, emotional frustration builds, confidence swings unpredictably. Because students keep showing up to study every day, they don't recognize what's actually happening."
     },
     {
       "id": "burnout-plateau-para3",
@@ -69808,7 +69808,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "comparison-worse-para2",
       "type": "paragraph",
-      "content": "The assumption that follows — everyone else is progressing, I'm falling behind; my preparation isn't working is rarely accurate. Preparation doesn't improve in a straight line for anyone. Most students move in phases: long stagnant stretches, sudden jumps, temporary drops, recovery periods."
+      "content": "The assumption that follows - everyone else is progressing, I'm falling behind; my preparation isn't working is rarely accurate. Preparation doesn't improve in a straight line for anyone. Most students move in phases: long stagnant stretches, sudden jumps, temporary drops, recovery periods."
     },
     {
       "id": "comparison-worse-para3",
@@ -69876,7 +69876,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "final-thoughts-para3",
       "type": "paragraph",
-      "content": "In competitive medical PG exams, that phase — the uncomfortable, unrewarding, hard-to-measure phase — is often what ends up making the biggest difference in the final rank."
+      "content": "In competitive medical PG exams, that phase - the uncomfortable, unrewarding, hard-to-measure phase - is often what ends up making the biggest difference in the final rank."
     },
     {
       "id": "faqs",
@@ -69991,7 +69991,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "syllabus-not-ready-para2",
       "type": "paragraph",
-      "content": "The NEET PG exam won't ask you to recognize something you vaguely remember reading. It'll put you under time pressure, give you four options that all look plausible, and expect you to retrieve the right answer fast. That skill isn't built during your first read-through — it's built afterward, through practice, repetition, and pressure."
+      "content": "The NEET PG exam won't ask you to recognize something you vaguely remember reading. It'll put you under time pressure, give you four options that all look plausible, and expect you to retrieve the right answer fast. That skill isn't built during your first read-through - it's built afterward, through practice, repetition, and pressure."
     },
     {
       "id": "syllabus-not-ready-conclusion",
@@ -70007,7 +70007,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "passive-revision-para1",
       "type": "paragraph",
-      "content": "After the syllabus, most students shift into revision mode — rereading notes, going over highlighted sections, rewatching videos. It feels like studying. But passive review rarely does much for actual retention."
+      "content": "After the syllabus, most students shift into revision mode - rereading notes, going over highlighted sections, rewatching videos. It feels like studying. But passive review rarely does much for actual retention."
     },
     {
       "id": "passive-revision-para2",
@@ -70017,7 +70017,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "passive-revision-conclusion",
       "type": "paragraph",
-      "content": "Students who retain things well are usually solving questions, testing themselves without notes, and forcing their brain to work for the information. It's harder and less comfortable than passive revision — which is exactly why it works."
+      "content": "Students who retain things well are usually solving questions, testing themselves without notes, and forcing their brain to work for the information. It's harder and less comfortable than passive revision - which is exactly why it works."
     },
     {
       "id": "mock-tests",
@@ -70028,7 +70028,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "mock-tests-para1",
       "type": "paragraph",
-      "content": "When you were covering new content, the enemy was clear: material you hadn't studied yet. Mock tests after syllabus completion are different — they expose problems that have nothing to do with whether you've read the chapter."
+      "content": "When you were covering new content, the enemy was clear: material you hadn't studied yet. Mock tests after syllabus completion are different - they expose problems that have nothing to do with whether you've read the chapter."
     },
     {
       "id": "mock-tests-list",
@@ -70043,7 +70043,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "mock-tests-conclusion",
       "type": "paragraph",
-      "content": "A lot of students are blindsided by this. They know the concept, understand it well, and still get it wrong — because the exam is also testing how you make decisions under pressure. That's a separate skill, and mocks are one of the few ways to actually train it during competitive exam preparation."
+      "content": "A lot of students are blindsided by this. They know the concept, understand it well, and still get it wrong - because the exam is also testing how you make decisions under pressure. That's a separate skill, and mocks are one of the few ways to actually train it during competitive exam preparation."
     },
     {
       "id": "weak-areas",
@@ -70059,7 +70059,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "weak-areas-para2",
       "type": "paragraph",
-      "content": "For most students, it's the ones they're already good at. Strong subjects feel rewarding — questions get answered correctly, revision flows easily. Weak subjects feel like pushing against a wall. So the natural drift is toward comfort."
+      "content": "For most students, it's the ones they're already good at. Strong subjects feel rewarding - questions get answered correctly, revision flows easily. Weak subjects feel like pushing against a wall. So the natural drift is toward comfort."
     },
     {
       "id": "weak-areas-para3",
@@ -70074,7 +70074,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "weak-areas-conclusion",
       "type": "paragraph",
-      "content": "Students who break through plateaus are usually the ones who reverse this — who deliberately spend more time on the uncomfortable stuff, not less."
+      "content": "Students who break through plateaus are usually the ones who reverse this - who deliberately spend more time on the uncomfortable stuff, not less."
     },
     {
       "id": "more-resources",
@@ -70090,7 +70090,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "more-resources-para2",
       "type": "paragraph",
-      "content": "But this almost always backfires. Every new resource takes time away from revisiting what you already have — and repetition is what builds retention. Adding more material at this stage just spreads your attention thinner."
+      "content": "But this almost always backfires. Every new resource takes time away from revisiting what you already have - and repetition is what builds retention. Adding more material at this stage just spreads your attention thinner."
     },
     {
       "id": "more-resources-conclusion",
@@ -70111,7 +70111,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "burnout-para2",
       "type": "paragraph",
-      "content": "Months of continuous NEET PG preparation wear people down quietly. Concentration drops. Motivation fluctuates. Things you understood well start feeling harder to recall. The common response is to study longer — but when your brain is fatigued, extra hours produce very little."
+      "content": "Months of continuous NEET PG preparation wear people down quietly. Concentration drops. Motivation fluctuates. Things you understood well start feeling harder to recall. The common response is to study longer - but when your brain is fatigued, extra hours produce very little."
     },
     {
       "id": "burnout-conclusion",
@@ -70127,7 +70127,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "practice-without-review-para1",
       "type": "paragraph",
-      "content": "When scores stall, many students respond by doing more tests. More questions, more mocks, more attempts — hoping volume eventually becomes improvement."
+      "content": "When scores stall, many students respond by doing more tests. More questions, more mocks, more attempts - hoping volume eventually becomes improvement."
     },
     {
       "id": "practice-without-review-para2",
@@ -70158,7 +70158,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "invisible-progress-conclusion",
       "type": "paragraph",
-      "content": "None of that feels significant in the moment. But across hundreds of questions and several months, those small improvements compound — and in a medical PG entrance exam, they often make the difference between thousands of ranks."
+      "content": "None of that feels significant in the moment. But across hundreds of questions and several months, those small improvements compound - and in a medical PG entrance exam, they often make the difference between thousands of ranks."
     },
     {
       "id": "plateau-not-failing",
@@ -70174,7 +70174,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "plateau-not-failing-para2",
       "type": "paragraph",
-      "content": "It usually means you've hit the stage where raw effort needs to give way to smarter strategy — where passive review needs to become active recall, where weak areas need attention even when it's uncomfortable, where mock analysis matters more than mock volume."
+      "content": "It usually means you've hit the stage where raw effort needs to give way to smarter strategy - where passive review needs to become active recall, where weak areas need attention even when it's uncomfortable, where mock analysis matters more than mock volume."
     },
     {
       "id": "plateau-not-failing-conclusion",
@@ -70193,7 +70193,7 @@ export const blogPosts: BlogPost[] = [
       "faqs": [
         {
           "question": "Why are my NEET PG scores not improving?",
-          "answer": "Getting through the syllabus is only part of the work. Recall, speed, and exam-level application need to be built separately through active practice — and that takes time."
+          "answer": "Getting through the syllabus is only part of the work. Recall, speed, and exam-level application need to be built separately through active practice - and that takes time."
         },
         {
           "question": "How do I get out of a plateau?",
@@ -70201,7 +70201,7 @@ export const blogPosts: BlogPost[] = [
         },
         {
           "question": "Are mock tests important after finishing the syllabus?",
-          "answer": "Very. They reveal things routine studying can't — your actual exam habits, where your time management breaks down, and which gaps are costing you marks."
+          "answer": "Very. They reveal things routine studying can't - your actual exam habits, where your time management breaks down, and which gaps are costing you marks."
         },
         {
           "question": "Is hitting a plateau a bad sign?",
@@ -70224,6 +70224,301 @@ export const blogPosts: BlogPost[] = [
         "neet pg subject weightage",
         "subject in neet pg",
         "subject weightage in neet pg"
+      ]
+    }
+  ]
+},
+{
+  "id": 168,
+  "title": "Why Good Scores No Longer Guarantee Good Ranks: Understanding Rank Inflation in PG Medical Entrance Exams",
+  "slug": "why-good-scores-no-longer-guarantee-good-ranks-rank-inflation-pg-medical-entrance-exams",
+  "excerpt": "Rising competition and rank inflation mean strong scores may not secure top ranks. Understand the trend and refine your PG exam strategy.",
+  "featured_image": "https://cdn.dribbble.com/userupload/48089564/file/a92e0179f3094021696d2c7e4fd200da.jpg",
+  "featured_image_alt": "pg medical entrance exam rank inflation",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-blue-100 text-blue-800"
+  },
+  "tags": [
+    "NEET PG",
+    "INI CET",
+    "FMGE",
+    "Exam Preparation",
+    "Preparation Strategy"
+  ],
+  "published_date": "2026-06-17",
+  "read_time": 10,
+  "meta_title": "Why Good Scores No Longer Guarantee Good Ranks: Understanding Rank Inflation in PG Medical Entrance Exa",
+  "meta_description": "Rising competition and rank inflation mean strong scores may not secure top ranks. Understand the trend and refine your PG exam strategy.",
+  "keywords": [
+    "pg entrance exam",
+    "pg medical entrance exams",
+    "neet pg",
+    "ini cet",
+    "fmge",
+    "neet pg exam",
+    "fmge exam",
+    "inicet exam",
+    "community medicine"
+  ],
+  "sections": [
+    {
+      "id": "intro-para1",
+      "type": "paragraph",
+      "content": "Every year, students walk out of their PG entrance exam feeling like they did well."
+    },
+    {
+      "id": "intro-para2",
+      "type": "paragraph",
+      "content": "More correct answers than their mocks. Fewer silly mistakes. A score that actually went up."
+    },
+    {
+      "id": "intro-para3",
+      "type": "paragraph",
+      "content": "Then the results come out, and the rank doesn't match the feeling. Sometimes a student scores higher than toppers from previous years and still ends up with a worse rank. The branch they were targeting is out of reach. The institute they planned is now a stretch."
+    },
+    {
+      "id": "intro-conclusion",
+      "type": "paragraph",
+      "content": "This is rank inflation and if you're preparing for NEET PG, INI-CET, or FMGE right now, it's something you need to understand, not just the syllabus."
+    },
+    {
+      "id": "what-rank-inflation-means",
+      "type": "heading",
+      "title": "What Rank Inflation Means",
+      "level": 2
+    },
+    {
+      "id": "what-rank-inflation-para1",
+      "type": "paragraph",
+      "content": "Rank inflation happens when more candidates start scoring higher, which packs the competition tighter at the top."
+    },
+    {
+      "id": "what-rank-inflation-para2",
+      "type": "paragraph",
+      "content": "The math is simple but brutal: when hundreds of students answer most questions correctly, even one or two wrong answers can push your rank down by thousands. A small dip in accuracy doesn't just cost you a few spots - it can cost you a branch."
+    },
+    {
+      "id": "what-rank-inflation-conclusion",
+      "type": "paragraph",
+      "content": "Students often think rank reflects how well they did. It doesn't. Rank reflects how well you did compared to everyone else sitting that PG entrance exam. As the overall level rises, getting a strong rank gets harder - even if your preparation is genuinely better than it used to be."
+    },
+    {
+      "id": "why-competition-intense",
+      "type": "heading",
+      "title": "Why Competition Has Gotten This Intense",
+      "level": 2
+    },
+    {
+      "id": "why-competition-para1",
+      "type": "paragraph",
+      "content": "Ten years ago, preparation meant textbooks, coaching classes, and whatever test series your city had access to. Now every student has recorded lectures, online question banks, rapid revision modules, detailed analytics, and WhatsApp groups where high-yield topics get shared in real time."
+    },
+    {
+      "id": "why-competition-para2",
+      "type": "paragraph",
+      "content": "The gap between a well-prepared student and an average one has closed. Not because average students are working harder, but because the tools that used to give top students an edge are now available to everyone."
+    },
+    {
+      "id": "why-competition-conclusion",
+      "type": "paragraph",
+      "content": "The baseline has moved up - and it keeps moving."
+    },
+    {
+      "id": "margins-shrink",
+      "type": "heading",
+      "title": "When Everyone Studies the Same Way, Margins Shrink",
+      "level": 2
+    },
+    {
+      "id": "margins-shrink-para1",
+      "type": "paragraph",
+      "content": "Most serious aspirants today are pulling from similar resources, solving similar MCQs, and targeting the same high-yield topics. Which means large numbers of candidates are getting large numbers of questions right."
+    },
+    {
+      "id": "margins-shrink-para2",
+      "type": "paragraph",
+      "content": "When that happens, the exam stops separating students on broad knowledge. It starts separating them on tiny things - a misread clinical scenario, a half-second of hesitation, one overlooked detail in an image-based question."
+    },
+    {
+      "id": "margins-shrink-conclusion",
+      "type": "paragraph",
+      "content": "One wrong answer. That's sometimes the entire difference between a competitive rank and a disappointing one."
+    },
+    {
+      "id": "preparation-strategic",
+      "type": "heading",
+      "title": "Preparation Has Become More Strategic - Across the Board",
+      "level": 2
+    },
+    {
+      "id": "preparation-strategic-para1",
+      "type": "paragraph",
+      "content": "It's not just that resources improved. Students have gotten smarter about how they use them."
+    },
+    {
+      "id": "preparation-strategic-conclusion",
+      "type": "paragraph",
+      "content": "Previous-year trend analysis, topic-wise prioritization, structured revision schedules, performance tracking - this kind of exam-focused preparation used to be the exception. Now it's common. Which means the overall scores across the candidate pool have risen, and the margin you need to stand out has shrunk."
+    },
+    {
+      "id": "social-media-worse",
+      "type": "heading",
+      "title": "Social Media Makes All of This Feel Worse Than It Is",
+      "level": 2
+    },
+    {
+      "id": "social-media-worse-para1",
+      "type": "paragraph",
+      "content": "Rank announcements, topper stories, score discussions, cutoff predictions - it's constant now. And while some of that information is genuinely useful, a lot of it just warps expectations."
+    },
+    {
+      "id": "social-media-worse-para2",
+      "type": "paragraph",
+      "content": "Students end up comparing themselves only to the people at the very top rather than measuring their own actual progress. A rank that would have felt like a real win a few years ago starts to feel like a failure because the reference point has shifted."
+    },
+    {
+      "id": "social-media-worse-conclusion",
+      "type": "paragraph",
+      "content": "The psychological pressure from this kind of comparison is real, and it's worth being aware of."
+    },
+    {
+      "id": "what-this-means",
+      "type": "heading",
+      "title": "What This Means for Your Preparation",
+      "level": 2
+    },
+    {
+      "id": "what-this-means-para1",
+      "type": "paragraph",
+      "content": "Rank inflation doesn't mean you need to study more. If anything, it means quality of preparation matters more than quantity."
+    },
+    {
+      "id": "what-this-means-para2",
+      "type": "paragraph",
+      "content": "When differences come down to small margins, making fewer mistakes becomes just as important as learning more. The students who consistently perform well tend to focus on:"
+    },
+    {
+      "id": "what-this-means-list",
+      "type": "list",
+      "items": [
+        "Revision cycles done repeatedly, not once",
+        "MCQ practice followed by actual error analysis",
+        "Strong clinical application, not just factual recall",
+        "Time management treated as a skill to train, not an afterthought"
+      ]
+    },
+    {
+      "id": "what-this-means-conclusion",
+      "type": "paragraph",
+      "content": "The candidates scoring at the top aren't necessarily covering more ground. They're making fewer errors on the ground they've already covered."
+    },
+    {
+      "id": "consistency-separates",
+      "type": "heading",
+      "title": "Consistency Is What Actually Separates People Now",
+      "level": 2
+    },
+    {
+      "id": "consistency-separates-para1",
+      "type": "paragraph",
+      "content": "Dramatic last-minute jumps in rank are rare. The real gains come from months of systematic revision, repeated exposure to the same high-yield concepts, and gradually tightening your accuracy."
+    },
+    {
+      "id": "consistency-separates-para2",
+      "type": "paragraph",
+      "content": "Most students are looking for some edge that changes everything. Usually there isn't one. The edge is just doing the basics - revision, MCQs, test analysis, error correction - consistently and over a long enough period."
+    },
+    {
+      "id": "consistency-separates-conclusion",
+      "type": "paragraph",
+      "content": "That sounds unglamorous, but it's what the data on top performers actually shows."
+    },
+    {
+      "id": "bigger-picture",
+      "type": "heading",
+      "title": "The Bigger Picture",
+      "level": 2
+    },
+    {
+      "id": "bigger-picture-para1",
+      "type": "paragraph",
+      "content": "Rank inflation isn't proof that these exams have become impossible. It's proof that the candidate pool is stronger and better prepared than it used to be. That's a real shift and pretending otherwise doesn't help anyone."
+    },
+    {
+      "id": "bigger-picture-conclusion",
+      "type": "paragraph",
+      "content": "But the fundamentals haven't changed. Strong concepts, smart revision, honest error analysis, and showing consistently over time - these still work. They work better now, actually, because so many students are either avoiding them or doing them halfway."
+    },
+    {
+      "id": "final-thought",
+      "type": "heading",
+      "title": "Final Thought",
+      "level": 2
+    },
+    {
+      "id": "final-thought-para1",
+      "type": "paragraph",
+      "content": "The biggest mistake you can make right now is assuming that a good score will automatically translate to a good rank. That used to be roughly true. It isn't anymore."
+    },
+    {
+      "id": "final-thought-para2",
+      "type": "paragraph",
+      "content": "What matters today is how accurately and consistently you can apply what you know - under real exam conditions, against a much stronger field than existed even a few years ago."
+    },
+    {
+      "id": "final-thought-conclusion",
+      "type": "paragraph",
+      "content": "Understanding that shift doesn't make the competition easier. But it does make your preparation more honest, and that's usually where things start to turn around."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "What is rank inflation in PG medical entrance exams?",
+          "answer": "Rank inflation happens when more candidates score high, making competition tighter and ranks harder to secure."
+        },
+        {
+          "question": "Why doesn't a good score always guarantee a good rank?",
+          "answer": "Because rank depends on relative performance, not just your individual score."
+        },
+        {
+          "question": "Has competition increased in NEET PG, INI-CET, and FMGE?",
+          "answer": "Yes, better resources and structured preparation have significantly increased competition."
+        },
+        {
+          "question": "How can I improve my rank despite rank inflation?",
+          "answer": "Focus on revision, accuracy, error analysis, and consistent MCQ practice."
+        }
+      ]
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "pg entrance exam",
+        "pg medical entrance exams",
+        "neet pg",
+        "ini cet",
+        "fmge",
+        "neet pg exam",
+        "fmge exam",
+        "inicet exam",
+        "community medicine"
       ]
     }
   ]
