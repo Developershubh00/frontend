@@ -94,6 +94,8 @@ import FeesStipendBond2025UGPage from "./NEET_UG/latest2025data/FeesStipendBond2
 import ClosingRanks2025UGPage from "./NEET_UG/latest2025data/ClosingRanks2025UGPage";
 import ComingSoonPage from "./pages/ComingSoonPage";
 import AllotmentsUGPage from "./NEET_UG/latest2025data/AllotmentsUGPage";
+import Jan2026AllotmentPage from "./INICET/Jan2026AllotmentPage";
+import July2026AllotmentPage from "./INICET/July2026AllotmentPage";
 
 /**
  * Main App Component with React Router
@@ -380,6 +382,26 @@ function AppContent() {
             element={
               <ProtectedRoute>
                 <InicetAllotmentsSessionPage
+                  onBack={() => window.history.back()}
+                />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/inicet/allotments/january-2026-session"
+            element={
+              <ProtectedRoute>
+                <Jan2026AllotmentPage
+                  onBack={() => window.history.back()}
+                />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/inicet/allotments/july-2026-session"
+            element={
+              <ProtectedRoute>
+                <July2026AllotmentPage
                   onBack={() => window.history.back()}
                 />
               </ProtectedRoute>

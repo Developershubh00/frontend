@@ -158,7 +158,7 @@ const InicetAllotmentsSessionPage: React.FC<InicetAllotmentsSessionPageProps> = 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("/data/INICET_session.csv");
+        const response = await fetch("/data/inicetData/inicet_july_2025_session.csv");
 
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
