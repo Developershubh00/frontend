@@ -96,6 +96,8 @@ import ComingSoonPage from "./pages/ComingSoonPage";
 import AllotmentsUGPage from "./NEET_UG/latest2025data/AllotmentsUGPage";
 import Jan2026AllotmentPage from "./INICET/Jan2026AllotmentPage";
 import July2026AllotmentPage from "./INICET/July2026AllotmentPage";
+import InicetClosingRanks2025Page from "./INICET/InicetClosingRanks2025Page";
+import InicetClosingRanks2026Page from "./INICET/InicetClosingRanks2026Page";
 
 /**
  * Main App Component with React Router
@@ -402,6 +404,26 @@ function AppContent() {
             element={
               <ProtectedRoute>
                 <July2026AllotmentPage
+                  onBack={() => window.history.back()}
+                />
+              </ProtectedRoute>
+            }
+          />
+           <Route
+            path="/inicet/closing-ranks-2025"
+            element={
+              <ProtectedRoute>
+                <InicetClosingRanks2025Page
+                  onBack={() => window.history.back()}
+                />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/inicet/closing-ranks-2026"
+            element={
+              <ProtectedRoute>
+                <InicetClosingRanks2026Page
                   onBack={() => window.history.back()}
                 />
               </ProtectedRoute>

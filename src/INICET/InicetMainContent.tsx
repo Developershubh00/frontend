@@ -84,14 +84,12 @@ const InicetMainContent: React.FC = () => {
     {
       label: "Closing Ranks 2025 Data",
       color: "bg-purple-500",
-      // onClick: () => { navigate("/inicet/allotments"); setActiveModal(null); },
-       onClick: () => { navigate("#"); setActiveModal(null); },
+      onClick: () => { navigate("/inicet/closing-ranks-2025"); setActiveModal(null); },
     },
     {
       label: "Closing Ranks 2026 Data",
       color: "bg-blue-500",
-      // onClick: () => { navigate("/inicet/allotments/julysession"); setActiveModal(null); },
-      onClick: () => { navigate("#"); setActiveModal(null); },
+      onClick: () => { navigate("/inicet/closing-ranks-2026"); setActiveModal(null); },
     },
   ];
 
