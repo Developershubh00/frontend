@@ -141,9 +141,18 @@ const readTime = post?.read_time || 5;
   const articleSchema = post ? {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `https://believersconsultancy.com/blog/${post.slug}`
+    },
     "headline": post.title,
     "description": post.excerpt,
-    "image": post.featured_image,
+    "image": {
+      "@type": "ImageObject",
+      "url": post.featured_image,
+      "width": 1200,
+      "height": 630
+    },
     "author": {
       "@type": "Person",
       "name": post.author.name,
@@ -153,25 +162,25 @@ const readTime = post?.read_time || 5;
     "publisher": {
       "@type": "Organization",
       "name": "Believers Consultancy",
+      "url": "https://believersconsultancy.com/",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://cdn.dribbble.com/userupload/45206464/file/c3151a13076f702ddb0d22c361a63bd.png"
+        "url": "https://believersconsultancy.com/logo.png",
+        "width": 300,
+        "height": 60
       }
     },
     "datePublished": post.published_date,
     "dateModified": post.published_date,
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": `https://believersconsultancy.com/blog/${post.slug}`
-    },
+    "inLanguage": "en-IN",
     "keywords": post.tags.join(', '),
-    "articleSection": post.category.name,
+    "articleSection": post.category.name || 'Medical Education',
+    "url": `https://believersconsultancy.com/blog/${post.slug}`,
     "wordCount": post.sections.reduce((acc, section) => {
       const text = section.content || section.title || '';
       return acc + text.split(' ').length;
     }, 0),
-    "timeRequired": `PT${readTime}M`,
-    "inLanguage": "en-IN"
+    "timeRequired": `PT${readTime}M`
   } : null;
 
   // ✅ Generate FAQ schema if post has FAQs
