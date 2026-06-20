@@ -1598,6 +1598,19 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "INI CET May 2026 result OUT",
     created_at: "2026-05-23T08:00:00Z",
   },
+  {
+    id: 121,
+    title: "NEET UG 2026 Re-Exam on June 21",
+    content:
+      "NEET UG 2026 Re-Exam on June 21: NTA Announces Enhanced Security Measures and Candidate Support Arrangements",
+    date: "2026-06-19T08:00:00Z",
+    priority: "high",
+    category: "NEET UG",
+    link: "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/06/20260619440433404.pdf",
+    is_active: true,
+    source: "National Testing Agency (NTA)",
+    created_at: "2026-06-19T08:00:00Z",
+  },
 ];
 
 /**
