@@ -165,7 +165,7 @@ const readTime = post?.read_time || 5;
       "url": "https://believersconsultancy.com/",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://believersconsultancy.com/logo.png",
+        "url": "https://believersconsultancy.com/media/logo4.png",
         "width": 300,
         "height": 60
       }
