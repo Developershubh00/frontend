@@ -615,7 +615,7 @@ export const ANNOUNCEMENTS: Announcement[] = [
     id: 47,
     title: "NEET PG Counselling 2025:",
     content:
-      " MCC Schedule Expected Soon – Registration Process and Key Dates: The Medical Counselling Committee (MCC) is anticipated to announce the NEET PG 2025 counselling schedule shortly on mcc.nic.in. Candidates should prepare for registration, choice-filling, and seat allotment across four rounds including a stray vacancy round.",
+      " MCC Schedule Expected Soon - Registration Process and Key Dates: The Medical Counselling Committee (MCC) is anticipated to announce the NEET PG 2025 counselling schedule shortly on mcc.nic.in. Candidates should prepare for registration, choice-filling, and seat allotment across four rounds including a stray vacancy round.",
     date: "2025-10-13T08:00:00Z",
     priority: "high",
     category: "NEET PG",
@@ -836,7 +836,7 @@ export const ANNOUNCEMENTS: Announcement[] = [
     id: 64,
     title: "NEET PG Counselling 2025:",
     content:
-      "Supreme Court Orders NBE to Disclosure Answer Key Policy as NEET PG 2025 Round 1 Choice Filling Deadline Extended Until Further Notice – MCC Counselling Update",
+      "Supreme Court Orders NBE to Disclosure Answer Key Policy as NEET PG 2025 Round 1 Choice Filling Deadline Extended Until Further Notice - MCC Counselling Update",
     date: "2025-11-08T08:00:00Z",
     priority: "high",
     category: "NEET PG",
@@ -862,7 +862,7 @@ export const ANNOUNCEMENTS: Announcement[] = [
     id: 66,
     title: "NEET PG Counselling 2025:",
     content:
-      "Jharkhand NEET PG 2025 Round 1 Final Merit List Declared by JCECEB – Choice Filling Open for 267 Eligible Candidates",
+      "Jharkhand NEET PG 2025 Round 1 Final Merit List Declared by JCECEB - Choice Filling Open for 267 Eligible Candidates",
     date: "2025-11-11T08:00:00Z",
     priority: "high",
     category: "NEET PG",
@@ -875,7 +875,7 @@ export const ANNOUNCEMENTS: Announcement[] = [
     id: 67,
     title: "AIIMS Confirms INI CET November 2025:",
     content:
-      "AIIMS Confirms INI CET November 2025 tentative Result Date – January 2026 Session Scorecard to be tentatively Released Tomorrow (November 15)",
+      "AIIMS Confirms INI CET November 2025 tentative Result Date - January 2026 Session Scorecard to be tentatively Released Tomorrow (November 15)",
     date: "2025-11-11T08:00:00Z",
     priority: "high",
     category: "NEET PG",
@@ -888,7 +888,7 @@ export const ANNOUNCEMENTS: Announcement[] = [
     id: 68,
     title: "NEET PG Counselling 2025:",
     content:
-      "Haryana NEET PG Counselling 2025 Round 1: Registration and Choice Filling Open Until November 16 – Check Complete Schedule",
+      "Haryana NEET PG Counselling 2025 Round 1: Registration and Choice Filling Open Until November 16 - Check Complete Schedule",
     date: "2025-11-15T08:00:00Z",
     priority: "high",
     category: "NEET PG",
@@ -1083,7 +1083,7 @@ export const ANNOUNCEMENTS: Announcement[] = [
     id: 82,
     title: "NEET PG Counselling 2025:",
     content:
-      "MCC NEET PG Counselling 2025 Round 2 Choice Filling Halted Today 2 PM–6 PM for Seat Matrix Update; Fresh Vacant Seats to Be Added, Choice Filling and Locking Extended Till 11:55 PM on December 12 at mcc.nic.in",
+      "MCC NEET PG Counselling 2025 Round 2 Choice Filling Halted Today 2 PM-6 PM for Seat Matrix Update; Fresh Vacant Seats to Be Added, Choice Filling and Locking Extended Till 11:55 PM on December 12 at mcc.nic.in",
     date: "2025-12-10T08:00:00Z",
     priority: "high",
     category: "NEET PG",
@@ -1096,7 +1096,7 @@ export const ANNOUNCEMENTS: Announcement[] = [
     id: 83,
     title: "NEET PG Counselling 2025:",
     content:
-      "NEET PG 2025 Round 2 Choice Filling, Locking Available Till 1 PM on 13 December – Check Final Timings",
+      "NEET PG 2025 Round 2 Choice Filling, Locking Available Till 1 PM on 13 December - Check Final Timings",
     date: "2025-12-12T08:00:00Z",
     priority: "high",
     category: "NEET PG",
@@ -1610,6 +1610,19 @@ export const ANNOUNCEMENTS: Announcement[] = [
     is_active: true,
     source: "National Testing Agency (NTA)",
     created_at: "2026-06-19T08:00:00Z",
+  },
+   {
+    id: 122,
+    title: "NMC to Phase Out PG Diploma Courses After 2026-27",
+    content:
+      "NMC to Phase Out PG Diploma Courses After 2026-27, Encourages Conversion to MD/MS Programs",
+    date: "2026-06-23T08:00:00Z",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://timesofindia.indiatimes.com/education/news/nmc-to-end-pg-diploma-admissions-after-2027-pushes-conversion-to-md-ms-courses/articleshow/131906699.cms",
+    is_active: true,
+    source: "The Times of India",
+    created_at: "2026-06-23T08:00:00Z",
   },
 ];
 
