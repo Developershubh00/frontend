@@ -70839,8 +70839,8 @@ export const blogPosts: BlogPost[] = [
 },
 {
   "id": 170,
-  "title": "How Many MCQs Should You Solve Daily for NEET PG Preparation? Let's Talk About What Actually Works",
-  "slug": "how-many-mcqs-solve-daily-neet-pg-preparation-what-actually-works",
+  "title": "Why Retention Matters More Than Syllabus Completion in NEET PG Preparation",
+  "slug": "why-retention-matters-more-than-syllabus-completion-neet-pg-preparation",
   "excerpt": "Retaining concepts through revision and recall is more valuable than merely finishing the syllabus for achieving a strong NEET PG rank.",
   "featured_image": "https://cdn.dribbble.com/userupload/48140207/file/97c266a44539d92a1db1b3a3e1b6cc1e.jpg",
   "featured_image_alt": "NEET PG Preparation",
@@ -70862,7 +70862,7 @@ export const blogPosts: BlogPost[] = [
     "Exam Preparation",
     "Preparation Strategy"
   ],
-  "published_date": "2026-06-22",
+  "published_date": "2026-06-24",
   "read_time": 10,
   "meta_title": "Why Retention Matters More Than Syllabus Completion in NEET PG Preparation",
   "meta_description": "Retaining concepts through revision and recall is more valuable than merely finishing the syllabus for achieving a strong NEET PG rank.",
@@ -70886,233 +70886,285 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "intro-para1",
       "type": "paragraph",
-      "content": "If you're preparing for NEET PG 2026, chances are you've had this thought more than once:"
+      "content": "Ask any medical aspirant how their NEET PG prep is going, and you'll hear the same things."
+    },
+    {
+      "id": "intro-list",
+      "type": "list",
+      "items": [
+        "\"I've finished Medicine.\"",
+        "\"Only two subjects left.\"",
+        "\"First reading is almost done.\""
+      ]
     },
     {
       "id": "intro-para2",
       "type": "paragraph",
-      "content": "\"Am I solving enough MCQs?\""
+      "content": "These milestones feel huge because they give you something visible. You're checking things off, crossing topics, watching progress bars fill up. Feels like you're moving forward."
     },
     {
       "id": "intro-para3",
       "type": "paragraph",
-      "content": "Maybe a friend is doing 250 questions a day. Someone on Telegram claims they're solving 400. Another topper interview says 150 is enough. And suddenly, instead of focusing on your own preparation, you're wondering whether your MCQ count is too low."
-    },
-    {
-      "id": "intro-para4",
-      "type": "paragraph",
-      "content": "The truth is there is not a fixed calculation."
-    },
-    {
-      "id": "intro-para5",
-      "type": "paragraph",
-      "content": "What matters is not how many questions you solve but what you take away from them."
-    },
-    {
-      "id": "intro-para6",
-      "type": "paragraph",
-      "content": "A student who solves 100 questions and learns from every mistake is often in a much better position than someone who rushes through 300 questions just to hit a target."
+      "content": "But here's the question nobody really talks about. How much of that completed syllabus can you actually remember when the exam happens?"
     },
     {
       "id": "intro-conclusion",
       "type": "paragraph",
-      "content": "Let's understand how to approach MCQs in a way that actually helps your NEET PG preparation."
+      "content": "For exams like NEET PG, INI-CET, FMGE, retention beats completion every single time. Being able to recall information under pressure, apply it, and retrieve it when you need it? That determines your score. Not how many pages you've plowed through."
     },
     {
-      "id": "mcqs-more-than-practice",
+      "id": "completion-trap",
       "type": "heading",
-      "title": "MCQs Are More Than Just Practice Questions",
+      "title": "The Completion Trap",
       "level": 2
     },
     {
-      "id": "mcqs-more-than-practice-para1",
+      "id": "completion-trap-para1",
       "type": "paragraph",
-      "content": "Most students think of MCQs as a way to test what they've already studied. But good MCQ practice does much more than that."
+      "content": "Medical students love finishing things. There's satisfaction in completing a subject. Crossing topics off feels productive. Progress trackers filling up boost your motivation. All real."
     },
     {
-      "id": "mcqs-more-than-practice-para2",
+      "id": "completion-trap-para2",
       "type": "paragraph",
-      "content": "Every question forces your brain to recall information. It helps you identify gaps in your understanding, exposes weak areas, and teaches you how concepts are likely to be asked in the exam."
+      "content": "The problem? Completion and learning aren't the same thing."
     },
     {
-      "id": "mcqs-more-than-practice-conclusion",
+      "id": "completion-trap-para3",
       "type": "paragraph",
-      "content": "In many ways, MCQs are revision disguised as practice. That's why they should be a regular part of your preparation-not something you save only for the last few months."
+      "content": "You can finish an entire subject in a few weeks and forget half of it a month later. Another student moves slower but actually retains what they study through revision and repeated practice."
     },
     {
-      "id": "biggest-mistake",
+      "id": "completion-trap-conclusion",
+      "type": "paragraph",
+      "content": "When exam day hits, the second student usually wins. The exam doesn't reward what you once read. It rewards what you remember right now."
+    },
+    {
+      "id": "medical-prep-different",
       "type": "heading",
-      "title": "The Biggest Mistake Students Make",
+      "title": "Medical Prep Is a Different Beast",
       "level": 2
     },
     {
-      "id": "biggest-mistake-para1",
+      "id": "medical-prep-para1",
       "type": "paragraph",
-      "content": "Let's be honest. Many of us have had days where we proudly finished 200 or 300 questions, only to realize later that we barely remember what we solved."
+      "content": "Medical entrance exams have massive syllabi. Nineteen subjects. Basic sciences. Complex clinical stuff. You're expected to remember all of it."
     },
     {
-      "id": "biggest-mistake-para2",
+      "id": "medical-prep-para2",
       "type": "paragraph",
-      "content": "Why does that happen? Because we become too focused on the number. We start treating MCQs like a checklist."
+      "content": "The challenge isn't understanding concepts—it's keeping them in your head for months. You study something today. The exam might test it three months later. Without proper revision, most of it fades."
     },
     {
-      "id": "biggest-mistake-list",
-      "type": "list",
-      "items": [
-        "Finished 100 questions",
-        "Finished 200 questions",
-        "Target achieved"
+      "id": "medical-prep-conclusion",
+      "type": "paragraph",
+      "content": "This is why so many students experience the same frustrating moment: they clearly remember studying the topic, but during a mock test? Blank. It's not lack of effort. It's lack of retention."
+    },
+    {
+      "id": "what-happens-during-exam",
+      "type": "heading",
+      "title": "What Actually Happens During the Exam",
+      "level": 2
+    },
+    {
+      "id": "what-happens-para1",
+      "type": "paragraph",
+      "content": "Exams test retrieval. Pure retrieval. A clinical scenario pops up. You have seconds to recognize it, recall what you know, eliminate wrong answers, pick the right one. No chance to look at notes. No time to relearn forgotten concepts."
+    },
+    {
+      "id": "what-happens-conclusion",
+      "type": "paragraph",
+      "content": "Success depends entirely on how well you've retained the information. Students who prioritize retention answer faster and with confidence because the knowledge is right there. Students chasing completion? They waste time trying to remember things they already studied once."
+    },
+    {
+      "id": "brain-forgetting",
+      "type": "heading",
+      "title": "Why Your Brain Keeps Forgetting Things",
+      "level": 2
+    },
+    {
+      "id": "brain-forgetting-para1",
+      "type": "paragraph",
+      "content": "It's not because you're dumb or didn't try hard enough. Your brain naturally discards information it doesn't need. Reading something once? Doesn't stick. Not in a way that lasts."
+    },
+    {
+      "id": "brain-forgetting-conclusion",
+      "type": "paragraph",
+      "content": "Medical prep needs repeated exposure. Concepts get stronger through revision, MCQ practice, talking it through with people, applying it clinically, testing yourself. Skip that, and even well-understood topics become hard to recall later."
+    },
+    {
+      "id": "recognition-vs-recall",
+      "type": "heading",
+      "title": "Recognition Isn't the Same as Recall",
+      "level": 2
+    },
+    {
+      "id": "recognition-vs-recall-para1",
+      "type": "paragraph",
+      "content": "Biggest mistake students make? Thinking recognition equals retention. Read your notes repeatedly and they feel familiar. When you see a topic, you recognize it. Feels like you know it."
+    },
+    {
+      "id": "recognition-vs-recall-para2",
+      "type": "paragraph",
+      "content": "But in an exam, you have to produce answers from memory. Recognition doesn't help you there."
+    },
+    {
+      "id": "recognition-vs-recall-conclusion",
+      "type": "paragraph",
+      "content": "That's where active recall comes in. Solving MCQs, testing yourself without notes, revising from memory, explaining concepts out loud—these force your brain to actually retrieve information. That retrieval process builds retention way better than passive reading ever will."
+    },
+    {
+      "id": "revision-not-optional",
+      "type": "heading",
+      "title": "Revision Isn't Optional",
+      "level": 2
+    },
+    {
+      "id": "revision-not-optional-para1",
+      "type": "paragraph",
+      "content": "Every top ranker eventually figures this out. Revision isn't something you do if you have time. It's the core of retention."
+    },
+    {
+      "id": "revision-not-optional-para2",
+      "type": "paragraph",
+      "content": "First reading introduces concepts. Second reading reinforces them. Third, fourth, fifth revisions? That's when things actually stick and you get faster at recall."
+    },
+    {
+      "id": "revision-not-optional-conclusion",
+      "type": "paragraph",
+      "content": "Most students obsess over how fast they can finish the syllabus. Better question: how many times can you revise it before the exam? Multiple revision cycles almost always beat rushing through everything once."
+    },
+    {
+      "id": "mock-tests-more",
+      "type": "heading",
+      "title": "Mock Tests Do More Than Show Your Score",
+      "level": 2
+    },
+    {
+      "id": "mock-tests-para1",
+      "type": "paragraph",
+      "content": "Most students treat mocks as just assessment tools. They're way more than that."
+    },
+    {
+      "id": "mock-tests-para2",
+      "type": "paragraph",
+      "content": "Every question you solve forces your brain to retrieve information. Every wrong answer shows you what you forgot. Every review session strengthens concepts you might otherwise lose."
+    },
+    {
+      "id": "mock-tests-conclusion",
+      "type": "paragraph",
+      "content": "Mock tests are basically retention-building machines. The real value isn't the score—it's the learning that happens afterward."
+    },
+    {
+      "id": "retention-confidence",
+      "type": "heading",
+      "title": "Retention Builds Real Confidence",
+      "level": 2
+    },
+    {
+      "id": "retention-confidence-para1",
+      "type": "paragraph",
+      "content": "People think confidence comes from motivation or positive thinking. Nope. Confidence comes from memory strength."
+    },
+    {
+      "id": "retention-confidence-conclusion",
+      "type": "paragraph",
+      "content": "When you've revised consistently and actually retained the concepts, you trust yourself. You recognize patterns quickly. You make decisions with certainty. Strong retention means less hesitation, better accuracy, composure under pressure."
+    },
+    {
+      "id": "top-rankers",
+      "type": "heading",
+      "title": "What Actually Separates Top Rankers",
+      "level": 2
+    },
+    {
+      "id": "top-rankers-para1",
+      "type": "paragraph",
+      "content": "Top performers aren't necessarily the ones studying the most hours. They're the ones who retain more of what they study."
+    },
+    {
+      "id": "top-rankers-para2",
+      "type": "paragraph",
+      "content": "They prioritize revision. Solve MCQs regularly. Revisit weak areas. Focus on understanding and recall instead of just ticking off topics."
+    },
+    {
+      "id": "top-rankers-conclusion",
+      "type": "paragraph",
+      "content": "More of their preparation stays accessible on exam day. That difference usually shows directly in their scores."
+    },
+    {
+      "id": "real-point",
+      "type": "heading",
+      "title": "The Real Point of All This",
+      "level": 2
+    },
+    {
+      "id": "real-point-para1",
+      "type": "paragraph",
+      "content": "Medical entrance prep isn't a race to finish the syllabus first. It's building solid, long-term recall across a massive amount of knowledge."
+    },
+    {
+      "id": "real-point-para2",
+      "type": "paragraph",
+      "content": "Completion matters, you can't retain what you haven't covered. But completion alone? Not enough."
+    },
+    {
+      "id": "real-point-conclusion",
+      "type": "paragraph",
+      "content": "The real goal is making sure important concepts stay in your head when you need them. Because the exam isn't asking what you've studied. It's testing what you can remember."
+    },
+    {
+      "id": "bottom-line",
+      "type": "heading",
+      "title": "Bottom Line",
+      "level": 2
+    },
+    {
+      "id": "bottom-line-para1",
+      "type": "paragraph",
+      "content": "Every medical aspirant wants to complete the syllabus. That's important. But don't sacrifice retention to get there."
+    },
+    {
+      "id": "bottom-line-para2",
+      "type": "paragraph",
+      "content": "A smaller portion of the syllabus you've revised multiple times? Usually more valuable than a larger portion you've already forgotten."
+    },
+    {
+      "id": "bottom-line-para3",
+      "type": "paragraph",
+      "content": "Students who consistently improve their scores get this early. They stop obsessing over how many topics they've finished and start focusing on what they can reliably recall."
+    },
+    {
+      "id": "bottom-line-conclusion",
+      "type": "paragraph",
+      "content": "In medical exams, completion creates progress. Retention creates results."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Is finishing the entire NEET PG syllabus enough for a good rank?",
+          "answer": "No, not really. Completing the syllabus matters, but your rank depends on how well you can actually recall and apply those concepts under exam pressure."
+        },
+        {
+          "question": "How can I improve retention during NEET PG preparation?",
+          "answer": "Regular revision, active recall, MCQ practice, and mock tests go a long way — they help you figure out where you're slipping and fix those gaps before the exam."
+        },
+        {
+          "question": "Why do I forget topics even after studying them well?",
+          "answer": "Because without revisiting what you've studied, forgetting is inevitable — that's just how memory works. Revision and consistent practice are what make things stick."
+        },
+        {
+          "question": "What's more important before NEET PG: new topics or revision?",
+          "answer": "As the exam gets closer, revision takes priority. It sharpens recall and cuts down on the silly mistakes that cost marks."
+        }
       ]
-    },
-    {
-      "id": "biggest-mistake-conclusion",
-      "type": "paragraph",
-      "content": "But preparation doesn't work that way. The real benefit comes from understanding why an answer is correct, why the other options are wrong, and what concept the question is trying to test. If that part is missing, solving more questions doesn't necessarily mean learning more."
-    },
-    {
-      "id": "quality-beats-quantity",
-      "type": "heading",
-      "title": "Quality Always Beats Quantity",
-      "level": 2
-    },
-    {
-      "id": "quality-beats-quantity-para1",
-      "type": "paragraph",
-      "content": "Imagine two students. The first student solves 250 MCQs in a hurry and spends very little time reviewing explanations. The second student solves 120 MCQs but carefully analyses mistakes, revises weak concepts, and revisits important topics."
-    },
-    {
-      "id": "quality-beats-quantity-para2",
-      "type": "paragraph",
-      "content": "A few weeks later, who is more likely to remember those concepts? Most probably, the second student."
-    },
-    {
-      "id": "quality-beats-quantity-para3",
-      "type": "paragraph",
-      "content": "That's because learning happens during the review process-not while randomly clicking options."
-    },
-    {
-      "id": "quality-beats-quantity-conclusion",
-      "type": "paragraph",
-      "content": "So the next time you're worried about your MCQ count, remember this: The goal is not to finish questions. The goal is to improve your understanding."
-    },
-    {
-      "id": "better-way-practice",
-      "type": "heading",
-      "title": "A Better Way to Practice: Think Like You're Learning, Not Testing",
-      "level": 2
-    },
-    {
-      "id": "better-way-practice-para1",
-      "type": "paragraph",
-      "content": "Many educators recommend using Tutor Mode while solving MCQs, especially during the preparation phase."
-    },
-    {
-      "id": "better-way-practice-para2",
-      "type": "paragraph",
-      "content": "Instead of treating every session like a mock test, slow down a little."
-    },
-    {
-      "id": "better-way-practice-list",
-      "type": "list",
-      "items": [
-        "Read the question carefully",
-        "Think about the concept before selecting an answer",
-        "Go through the explanation even if you answered correctly"
-      ]
-    },
-    {
-      "id": "better-way-practice-conclusion",
-      "type": "paragraph",
-      "content": "Sometimes the biggest learning comes from questions you got right for the wrong reason. The more actively you engage with each question, the more likely you are to remember the concept later."
-    },
-    {
-      "id": "daily-mcq-target",
-      "type": "heading",
-      "title": "So, What's a Good Daily MCQ Target?",
-      "level": 2
-    },
-    {
-      "id": "daily-mcq-target-para1",
-      "type": "paragraph",
-      "content": "The answer depends on your current stage of preparation."
-    },
-    {
-      "id": "daily-mcq-target-table",
-      "type": "table",
-      "headers": ["Stage of Preparation", "Recommended Daily MCQ Target", "Focus"],
-      "rows": [
-        ["Still Building Concepts", "50–100 MCQs", "Learning is more important than speed. Take time with explanations."],
-        ["Actively Revising", "100–150 MCQs", "MCQs become a powerful revision tool. Identify areas needing another round."],
-        ["Final Stretch Before Exam", "150–200 MCQs", "Increase numbers only if understanding remains strong. Always review properly."]
-      ]
-    },
-    {
-      "id": "wrong-questions-gold",
-      "type": "heading",
-      "title": "Your Wrong Questions Are Gold",
-      "level": 2
-    },
-    {
-      "id": "wrong-questions-para1",
-      "type": "paragraph",
-      "content": "Most students celebrate correct answers. Few students pay attention to the wrong ones. But if there's one place where improvement happens, it's in your mistakes."
-    },
-    {
-      "id": "wrong-questions-para2",
-      "type": "paragraph",
-      "content": "Every incorrect answer is telling you something:"
-    },
-    {
-      "id": "wrong-questions-list",
-      "type": "list",
-      "items": [
-        "A concept isn't clear",
-        "A fact has been forgotten",
-        "A topic needs revision",
-        "An assumption was incorrect"
-      ]
-    },
-    {
-      "id": "wrong-questions-conclusion",
-      "type": "paragraph",
-      "content": "Instead of feeling frustrated by mistakes, start treating them as feedback. In fact, the questions you get wrong today are often the ones that save marks in the actual exam."
-    },
-    {
-      "id": "what-to-aim-for",
-      "type": "heading",
-      "title": "What Should Most Students Aim For?",
-      "level": 2
-    },
-    {
-      "id": "what-to-aim-for-para1",
-      "type": "paragraph",
-      "content": "For the majority of NEET PG aspirants, 100–200 MCQs daily is a practical range. Not because the number itself is special, but because it usually allows enough time for:"
-    },
-    {
-      "id": "what-to-aim-for-list",
-      "type": "list",
-      "items": [
-        "Concept building",
-        "Explanation review",
-        "Mistake analysis",
-        "Revision"
-      ]
-    },
-    {
-      "id": "what-to-aim-for-conclusion",
-      "type": "paragraph",
-      "content": "And that's where the real learning happens."
-    },
-    {
-      "id": "final-thought",
-      "type": "heading",
-      "title": "Final Thoughts",
-      "level": 2
-    },
-    {
-      "id": "final-thought-conclusion",
-      "type": "paragraph",
-      "content": "If you're constantly comparing your MCQ count with others, stop for a moment. Preparation isn't a competition of who solves the most questions. It's about who understands concepts better, remembers them longer, and applies them correctly on exam day."
     },
     {
       "id": "keywords",
