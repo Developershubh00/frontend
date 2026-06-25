@@ -71553,6 +71553,397 @@ export const blogPosts: BlogPost[] = [
       ]
     }
   ]
+},
+{
+  "id": 172,
+  "title": "INI CET July 2026 Counselling: Complete Guide to Rules, Rounds, and Seat Upgradation",
+  "slug": "ini-cet-july-2026-counselling-complete-guide-rules-rounds-seat-upgradation",
+  "excerpt": "INI CET July 2026 Counselling: Know counselling rules, round-wise seat allotment, choice filling, seat upgradation, and admission steps.",
+  "featured_image": "https://cdn.dribbble.com/userupload/48176087/file/91541735ec6e58161ed25e856d3a6193.jpg",
+  "featured_image_alt": "INI CET 2026 Counselling",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-blue-100 text-blue-800"
+  },
+  "tags": [
+    "INI CET",
+    "INI CET Counselling",
+    "INI CET 2026",
+    "NEET PG Counselling",
+    "PG Seat Allotment"
+  ],
+  "published_date": "2026-06-25",
+  "read_time": 10,
+  "meta_title": "INI CET July 2026 Counselling: Complete Guide to Rules, Rounds, and Seat Upgradation",
+  "meta_description": "INI CET July 2026 Counselling: Know counselling rules, round-wise seat allotment, choice filling, seat upgradation, and admission steps.",
+  "keywords": [
+    "ini cet counselling",
+    "ini cet counselling process",
+    "ini cet exam",
+    "ini cet preparation",
+    "neet pg counselling",
+    "ini cet counselling schedule",
+    "ini cet exam registration",
+    "neet pg exam",
+    "medical pg counselling",
+    "pg counselling",
+    "ini cet",
+    "ini cet exam preparation",
+    "pg seat allotment"
+  ],
+  "sections": [
+    {
+      "id": "intro-para1",
+      "type": "paragraph",
+      "content": "You know what, a good rank in the INI CET exam actually gets a candidate into the race, but the real decision start with counseling. One wrong choice of order or missing a reporting the deadline can have some consequences as well beyond just losing a seat. In some cases, it can even lead you to financial penalties."
+    },
+    {
+      "id": "intro-conclusion",
+      "type": "paragraph",
+      "content": "The INI CET 2026 counselling process works differently from NEET PG counselling. Round one and round two are linked together, and the open round follows a separate set of rules. Because of that, every stage of the INI CET counselling process needs careful attention before choices are locked."
+    },
+    {
+      "id": "schedule-section",
+      "type": "heading",
+      "title": "INI CET July 2026 Counselling Schedule",
+      "level": 2
+    },
+    {
+      "id": "schedule-para1",
+      "type": "paragraph",
+      "content": "After completing INI CET exam registration and participating in the mock round, candidates have to fill choices for round one between June 16 and June 17, 2026. The first allotment result is expected on June 24, followed by reporting and joining formalities until June 30. Classes are scheduled to begin on July 1."
+    },
+    {
+      "id": "schedule-para2",
+      "type": "paragraph",
+      "content": "Round two results are likely on July 10, and reporting is expected to continue until July 16. Admissions can continue till August 31, with the open round expected after round two concludes."
+    },
+    {
+      "id": "schedule-table",
+      "type": "table",
+      "headers": ["Event", "Expected Date"],
+      "rows": [
+        ["Round 1 Choice Filling", "June 16–17, 2026"],
+        ["Round 1 Allotment Result", "June 24, 2026"],
+        ["Reporting & Joining (Round 1)", "Until June 30, 2026"],
+        ["Classes Begin", "July 1, 2026"],
+        ["Round 2 Results", "July 10, 2026"],
+        ["Reporting & Joining (Round 2)", "Until July 16, 2026"],
+        ["Admissions Close", "August 31, 2026"],
+        ["Open Round", "After Round 2 concludes"]
+      ]
+    },
+    {
+      "id": "schedule-conclusion",
+      "type": "paragraph",
+      "content": "One advantage of the July session is that the overall process is expected to finish before the NEET PG exam. That gives aspirants enough room to plan their medical PG counselling options separately without worrying about stressful schedules."
+    },
+    {
+      "id": "mock-round",
+      "type": "heading",
+      "title": "Mock Round Results Are Not the Final Picture",
+      "level": 2
+    },
+    {
+      "id": "mock-round-para1",
+      "type": "paragraph",
+      "content": "The mock round mainly gives candidates an idea of how the INICET counseling system works. Since many candidates change or reorder their preferences before round one, the actual allotment list often looks very different."
+    },
+    {
+      "id": "mock-round-para2",
+      "type": "paragraph",
+      "content": "Candidates who missed the mock round but are part of the merit list can still register and participate in round one."
+    },
+    {
+      "id": "mock-round-conclusion",
+      "type": "paragraph",
+      "content": "Those who have decided against participating should remove all saved choices. Any choices left in the system are carried forward automatically, and allotments can happen based on them."
+    },
+    {
+      "id": "round-one-choice",
+      "type": "heading",
+      "title": "Why Round One Choice Filling Matters So Much",
+      "level": 2
+    },
+    {
+      "id": "round-one-choice-para1",
+      "type": "paragraph",
+      "content": "Most PG counselling systems allow fresh choice filling in later rounds. INI CET counselling does not. Whatever preferences are submitted in round one are carried forward directly to round two. There is no chance to rearrange or add choices later."
+    },
+    {
+      "id": "round-one-choice-para2",
+      "type": "paragraph",
+      "content": "That means:"
+    },
+    {
+      "id": "round-one-choice-list",
+      "type": "list",
+      "items": [
+        "Preferences should be arranged carefully",
+        "No changes are allowed after round one",
+        "Missing round one means losing round two eligibility",
+        "Candidates who skip round one can participate only in the open round"
+      ]
+    },
+    {
+      "id": "round-one-choice-conclusion",
+      "type": "paragraph",
+      "content": "The sequence of choices matters just as much as the choices themselves."
+    },
+    {
+      "id": "after-round-one",
+      "type": "heading",
+      "title": "What Happens After Round One Allotment?",
+      "level": 2
+    },
+    {
+      "id": "not-allotted",
+      "type": "heading",
+      "title": "Candidates Who Are Not Allotted",
+      "level": 3
+    },
+    {
+      "id": "not-allotted-para1",
+      "type": "paragraph",
+      "content": "Candidates who do not get a seat in round one do not have to complete any additional process. Their existing choices automatically move to round two. Fresh preferences or modifications are not permitted."
+    },
+    {
+      "id": "allotted",
+      "type": "heading",
+      "title": "Candidates Who Receive a Seat",
+      "level": 3
+    },
+    {
+      "id": "allotted-para1",
+      "type": "paragraph",
+      "content": "Once a seat is allotted, two options are available."
+    },
+    {
+      "id": "option1",
+      "type": "heading",
+      "title": "Option 1: Accept the Seat Without Upgradation",
+      "level": 3
+    },
+    {
+      "id": "option1-para1",
+      "type": "paragraph",
+      "content": "You're happy with what you got. No point in waiting around hoping for something better. Accept it and you're done. No more rounds, no more stress."
+    },
+    {
+      "id": "option1-para2",
+      "type": "paragraph",
+      "content": "Typical examples include:"
+    },
+    {
+      "id": "option1-list1",
+      "type": "list",
+      "items": [
+        "Candidates who receive their top preferences",
+        "Candidates who do not want to risk changing institutes or specialties"
+      ]
+    },
+    {
+      "id": "option1-para3",
+      "type": "paragraph",
+      "content": "Such candidates:"
+    },
+    {
+      "id": "option1-list2",
+      "type": "list",
+      "items": [
+        "Must report to the allotted institute",
+        "Have to submit original documents or a ₹3 lakh DD",
+        "Become ineligible for round two",
+        "Remain eligible for the open round"
+      ]
+    },
+    {
+      "id": "option2",
+      "type": "heading",
+      "title": "Option 2: Accept the Seat and Seek Upgradation",
+      "level": 3
+    },
+    {
+      "id": "option2-para1",
+      "type": "paragraph",
+      "content": "You got a seat but you're not completely satisfied. You want to try for something higher in round two. With this option, you keep your current seat as backup but still throw your hat in the ring for the next round. If something better comes up, great. If not, you've got what you already have."
+    },
+    {
+      "id": "option2-para2",
+      "type": "paragraph",
+      "content": "Only better choices are processed during round two. There is no possibility of moving down to a lower preference."
+    },
+    {
+      "id": "option2-para3",
+      "type": "paragraph",
+      "content": "These candidates:"
+    },
+    {
+      "id": "option2-list",
+      "type": "list",
+      "items": [
+        "Must report to the allotted institute",
+        "Can temporarily submit original certificates or a ₹3 lakh DD",
+        "Remain eligible for round two",
+        "Continue to be eligible for the open round later"
+      ]
+    },
+    {
+      "id": "round-two-eligibility",
+      "type": "heading",
+      "title": "Round Two Eligibility Rules",
+      "level": 2
+    },
+    {
+      "id": "round-two-para1",
+      "type": "paragraph",
+      "content": "Round two includes:"
+    },
+    {
+      "id": "round-two-list1",
+      "type": "list",
+      "items": [
+        "Candidates who filled choices but did not get a seat in round one",
+        "Candidates who accepted their round one seat under Option 2"
+      ]
+    },
+    {
+      "id": "round-two-para2",
+      "type": "paragraph",
+      "content": "The following candidates are not eligible:"
+    },
+    {
+      "id": "round-two-list2",
+      "type": "list",
+      "items": [
+        "Those who skipped choice filling in round one",
+        "Candidates who failed to join their allotted seat",
+        "Candidates who selected Option 1"
+      ]
+    },
+    {
+      "id": "round-two-conclusion",
+      "type": "paragraph",
+      "content": "There is no fresh choice filling in round two. The system processes previously submitted preferences automatically."
+    },
+    {
+      "id": "open-round",
+      "type": "heading",
+      "title": "Open Round Eligibility",
+      "level": 2
+    },
+    {
+      "id": "open-round-para1",
+      "type": "paragraph",
+      "content": "The open round has a separate set of rules and remains an important part of the INI CET counselling process. Every qualified INI CET July 2026 candidate can participate, including:"
+    },
+    {
+      "id": "open-round-list",
+      "type": "list",
+      "items": [
+        "Candidates who never participated earlier",
+        "Candidates who did not receive a seat",
+        "Candidates who chose Option 1",
+        "Candidates who joined seats in round one or round two"
+      ]
+    },
+    {
+      "id": "open-round-conclusion",
+      "type": "paragraph",
+      "content": "Participation requires an online security deposit of ₹3 lakh."
+    },
+    {
+      "id": "spot-rounds",
+      "type": "heading",
+      "title": "Spot Rounds Are Unlikely",
+      "level": 2
+    },
+    {
+      "id": "spot-rounds-para1",
+      "type": "paragraph",
+      "content": "Earlier sessions had spot rounds similar to stray vacancy rounds. That pattern has changed in recent sessions, and such rounds have largely disappeared."
+    },
+    {
+      "id": "spot-rounds-para2",
+      "type": "paragraph",
+      "content": "Seats that remain vacant after the open round are generally carried forward to the next session."
+    },
+    {
+      "id": "spot-rounds-conclusion",
+      "type": "paragraph",
+      "content": "Because of that, aspirants should avoid relying on a spot round while planning their medical PG counselling strategy."
+    },
+    {
+      "id": "final-thoughts",
+      "type": "heading",
+      "title": "Final Thoughts",
+      "level": 2
+    },
+    {
+      "id": "final-thoughts-para1",
+      "type": "paragraph",
+      "content": "The INI CET 2026 counselling process goes beyond rank and seat allotment. Round one choices continue into round two, and resigning from a seat later can involve substantial penalties. A rushed decision can become an expensive one."
+    },
+    {
+      "id": "final-thoughts-conclusion",
+      "type": "paragraph",
+      "content": "Students preparing for both the INI CET exam and the NEET PG exam should know the rules related to choice filling, reporting, seat upgradation, and the open round well in advance. Good INI CET exam preparation helps with the exam itself, but familiarity with NEET PG counselling, PG counselling, and the wider medical PG counselling process can make a big difference when the admission stage begins."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Can I change my choices in Round 2?",
+          "answer": "Nope. Once Round 1 choices are locked, that's it. Can't go back and modify them."
+        },
+        {
+          "question": "Is the mock round compulsory?",
+          "answer": "No. It's optional. Mainly there so you can figure out how the process actually works before the real thing."
+        },
+        {
+          "question": "Can I upgrade my seat after Round 1?",
+          "answer": "Yeah. If you want to try for something better, you can go for the upgradation option in the next round."
+        },
+        {
+          "question": "Who is eligible for the open round?",
+          "answer": "Anyone who qualified INI-CET can participate. Pretty straightforward."
+        }
+      ]
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "ini cet counselling",
+        "ini cet counselling process",
+        "ini cet exam",
+        "ini cet preparation",
+        "neet pg counselling",
+        "ini cet counselling schedule",
+        "ini cet exam registration",
+        "neet pg exam",
+        "medical pg counselling",
+        "pg counselling",
+        "ini cet",
+        "ini cet exam preparation",
+        "pg seat allotment"
+      ]
+    }
+  ]
 }
 ];
 
