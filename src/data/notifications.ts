@@ -776,7 +776,7 @@ const rawNotifications: Omit<Notification, "isNew">[] = [
     link: "/announcements",
   },
   {
-    id: 15,
+    id: 16,
     title: "INI CET Admit Card 2026",
     message: "AIIMS has officially released the admit card for PG medical entrance exams.",
     type: "urgent",
@@ -786,29 +786,18 @@ const rawNotifications: Omit<Notification, "isNew">[] = [
     icon: "🔔",
     link: "https://www.aiimsexams.ac.in/landingpage/courses/sub-course/Postgraduate/68dbba73b7b0968176739766/68dbbb27b7b096817673976d",
   },
-  // {
-  //   id: 15,
-  //   title: "Provisional Counselling Seats Allotment - 2025 Round 3",
-  //   message: "Seat allotment for Round 3 counselling has been provisionally announced.",
-  //   type: "urgent",
-  //   date: "05.02.2026",
-  //   time: "10:00 AM",
-  //   read: false,
-  //   icon: "🔔",
-  // },
-  //  {
-  //   id: 117,
-  //   title: "INI CET Admit Card 2026",
-  //   content:
-  //     "AIIMS has officially released the admit card for PG medical entrance exams.",
-  //   date: "2026-05-11T08:00:00Z",
-  //   priority: "high",
-  //   category: "INICET",
-  //   link: "https://www.aiimsexams.ac.in/landingpage/courses/sub-course/Postgraduate/68dbba73b7b0968176739766/68dbbb27b7b096817673976d",
-  //   is_active: true,
-  //   source: "AIIMS INI CET 2026 Admit Card Released:",
-  //   created_at: "2026-05-11T08:00:00Z",
-  // },
+   {
+    id: 17,
+    title: "INI-CET Counselling 2026",
+    message: "INI-CET Counselling 2026: Round 1 Seat Allotment PDF Now Available",
+    type: "urgent",
+    date: "25.06.2026",
+    time: "11:00 AM",
+    read: false,
+    icon: "🔔",
+    link: "https://rrpdocuments.aiimsexams.ac.in/1782302042465-78641957.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVRUVRLXWMSLVSAP7%2F20260625%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260625T064955Z&X-Amz-Expires=18000&X-Amz-Signature=b4989e5a8c3a8cebaafbf02ced49eb0d8883423ac22f672586ae7e0d03d05594&X-Amz-SignedHeaders=host&response-content-type=application%2Fpdf",
+  },
+
   
 
 ];

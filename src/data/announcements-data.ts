@@ -1624,6 +1624,19 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "The Times of India",
     created_at: "2026-06-23T08:00:00Z",
   },
+  {
+    id: 123,
+    title: "INI-CET Counselling 2026",
+    content:
+      "INI-CET Counselling 2026: Round 1 Seat Allotment PDF Now Available",
+    date: "2026-06-24T08:00:00Z",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://rrpdocuments.aiimsexams.ac.in/1782302042465-78641957.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVRUVRLXWMSLVSAP7%2F20260625%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260625T064955Z&X-Amz-Expires=18000&X-Amz-Signature=b4989e5a8c3a8cebaafbf02ced49eb0d8883423ac22f672586ae7e0d03d05594&X-Amz-SignedHeaders=host&response-content-type=application%2Fpdf",
+    is_active: true,
+    source: "AIIMS",
+    created_at: "2026-06-24T08:00:00Z",
+  },
 ];
 
 /**
