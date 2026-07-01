@@ -1552,3 +1552,1556 @@
 0,47417,Odisha,"AIIMS, Bhubaneswar",PATHOLOGY,AIIMS-All India,OBC-PwD
 0,47638,Uttarakhand,"AIIMS, Rishikesh",PHARMACOLOGY,AIIMS-All India,UR-PwD
 0,47925,Madhya Pradesh,"AIIMS, Bhopal",OBG,AIIMS-All India,UR-PwD
+1,1,Delhi,"AIIMS, Delhi",GENERAL MEDICINE,AIIMS-All India,UR
+1,2,Delhi,"AIIMS, Delhi",GENERAL MEDICINE,AIIMS-All India,UR
+1,3,Delhi,"AIIMS, Delhi",GENERAL MEDICINE,AIIMS-All India,UR
+1,4,Delhi,"AIIMS, Delhi",RADIO DIAGNOSIS,AIIMS-All India,UR
+1,5,Pondicherry,"JIPMER, Puducherry",PAEDIATRICS,JIPMER-All India,OBC
+1,6,Delhi,"AIIMS, Delhi",GENERAL MEDICINE,AIIMS-All India,OBC
+1,7,Delhi,"AIIMS, Delhi",GENERAL MEDICINE,AIIMS-All India,OBC
+1,8,Chandigarh,"PGIMER, Chandigarh",GENERAL MEDICINE,PGIMER-All India,UR
+1,9,Delhi,"AIIMS, Delhi",GENERAL MEDICINE,AIIMS-All India,OBC
+1,10,Delhi,"AIIMS, Delhi",PAEDIATRICS,AIIMS-All India,UR
+1,11,Chandigarh,"PGIMER, Chandigarh",GENERAL MEDICINE,PGIMER-All India,UR
+1,12,Chandigarh,"PGIMER, Chandigarh",RADIO DIAGNOSIS,PGIMER-All India,UR
+1,13,Pondicherry,"JIPMER, Puducherry",GENERAL MEDICINE,JIPMER-All India,UR
+1,14,Pondicherry,"JIPMER, Puducherry",GENERAL MEDICINE,JIPMER-All India,UR
+1,15,Pondicherry,"JIPMER, Puducherry",GENERAL MEDICINE,JIPMER-All India,UR
+1,16,Chandigarh,"PGIMER, Chandigarh",GENERAL MEDICINE,PGIMER-All India,UR
+1,17,Pondicherry,"JIPMER, Puducherry",GENERAL MEDICINE,JIPMER-All India,OBC
+1,19,Karnataka,"NIMHANS, Bangalore",NEUROLOGY 6 YRS,NIMHANS-All India,UR
+1,20,Chandigarh,"PGIMER, Chandigarh",RADIO DIAGNOSIS,PGIMER-All India,UR
+1,21,Delhi,"AIIMS, Delhi",NUCLEAR MEDICINE,AIIMS-All India,UR
+1,22,Delhi,"AIIMS, Delhi",GENERAL SURGERY,AIIMS-All India,UR
+1,23,Chandigarh,"PGIMER, Chandigarh",GENERAL MEDICINE,PGIMER-All India,UR
+1,24,Karnataka,"NIMHANS, Bangalore",NEUROLOGY 6 YRS,NIMHANS-All India,UR
+1,25,Chandigarh,"PGIMER, Chandigarh",RADIO DIAGNOSIS,PGIMER-All India,UR
+1,26,Chandigarh,"PGIMER, Chandigarh",GENERAL MEDICINE,PGIMER-All India,UR
+1,27,Delhi,"AIIMS, Delhi",RADIO DIAGNOSIS,AIIMS-All India,OBC
+1,28,Chandigarh,"PGIMER, Chandigarh",GENERAL MEDICINE,PGIMER-All India,UR
+1,29,Delhi,"AIIMS, Delhi",PAEDIATRICS,AIIMS-All India,UR
+1,30,Delhi,"AIIMS, Delhi",INECTIOUS DISEASES 6 YRS,AIIMS-All India,UR
+1,31,Delhi,"AIIMS, Delhi",PAEDIATRICS,AIIMS-All India,UR
+1,32,Uttarakhand,"AIIMS, Rishikesh",RADIO DIAGNOSIS,AIIMS-All India,UR
+1,33,Madhya Pradesh,"AIIMS, Bhopal",RADIO DIAGNOSIS,AIIMS-All India,UR
+1,34,Uttarakhand,"AIIMS, Rishikesh",RADIO DIAGNOSIS,AIIMS-All India,EWS
+1,35,Pondicherry,"JIPMER, Puducherry",RADIO DIAGNOSIS,JIMPER-Inst. Pref,INST (JIPMER)
+1,36,Maharashtra,"AIIMS, Nagpur",GENERAL MEDICINE,AIIMS-All India,UR
+1,37,Chandigarh,"PGIMER, Chandigarh",PAEDIATRICS,PGIMER-All India,UR
+1,38,Pondicherry,"JIPMER, Puducherry",DERMATOLOGY,JIPMER-All India,OBC
+1,39,Pondicherry,"JIPMER, Puducherry",GENERAL MEDICINE,JIPMER-All India,OBC
+1,40,Pondicherry,"JIPMER, Puducherry",RADIO DIAGNOSIS,JIPMER-All India,UR
+1,41,Chandigarh,"PGIMER, Chandigarh",GENERAL MEDICINE,PGIMER-All India,UR
+1,42,Rajasthan,"AIIMS, Jodhpur",RADIO DIAGNOSIS,AIIMS-All India,UR
+1,43,Uttarakhand,"AIIMS, Rishikesh",GENERAL MEDICINE,AIIMS-All India,UR
+1,44,Rajasthan,"AIIMS, Jodhpur",RADIO DIAGNOSIS,AIIMS-All India,UR
+1,45,Bihar,"AIIMS, Patna",GENERAL MEDICINE,AIIMS-All India,UR
+1,46,Delhi,"AIIMS, Delhi",GENERAL SURGERY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,47,Pondicherry,"JIPMER, Puducherry",GENERAL MEDICINE,JIPMER-All India,UR
+1,48,Rajasthan,"AIIMS, Jodhpur",RADIO DIAGNOSIS,AIIMS-All India,OBC
+1,49,Delhi,"AIIMS, Delhi",GENERAL MEDICINE,AIIMS-All India,EWS
+1,50,Rajasthan,"AIIMS, Jodhpur",GENERAL MEDICINE,AIIMS-All India,UR
+1,51,Pondicherry,"JIPMER, Puducherry",GENERAL MEDICINE,JIPMER-All India,UR
+1,52,Uttarakhand,"AIIMS, Rishikesh",GENERAL MEDICINE,AIIMS-All India,UR
+1,53,Pondicherry,"JIPMER, Puducherry",PAEDIATRICS,JIPMER-All India,UR
+1,54,Madhya Pradesh,"AIIMS, Bhopal",GENERAL MEDICINE,AIIMS-All India,UR
+1,55,Delhi,"AIIMS, Delhi",GENERAL MEDICINE,AIIMS-All India,EWS
+1,56,Rajasthan,"AIIMS, Jodhpur",RADIO DIAGNOSIS,AIIMS-All India,OBC
+1,57,Madhya Pradesh,"AIIMS, Bhopal",RADIO DIAGNOSIS,AIIMS-All India,UR
+1,58,Pondicherry,"JIPMER, Puducherry",PAEDIATRICS,JIPMER-All India,UR
+1,59,Uttarakhand,"AIIMS, Rishikesh",RADIO DIAGNOSIS,AIIMS-All India,OBC
+1,60,Pondicherry,"JIPMER, Puducherry",GENERAL MEDICINE,JIPMER-All India,OBC
+1,61,Madhya Pradesh,"AIIMS, Bhopal",GENERAL MEDICINE,AIIMS-All India,UR
+1,62,Chandigarh,"PGIMER, Chandigarh",GENERAL MEDICINE,PGIMER-All India,OBC
+1,63,Chandigarh,"PGIMER, Chandigarh",DERMATOLOGY,PGIMER-All India,UR
+1,64,Odisha,"AIIMS, Bhubaneswar",GENERAL MEDICINE,AIIMS-All India,UR
+1,65,Karnataka,"NIMHANS, Bangalore",NEUROSURGERY 6 YRS,NIMHANS-All India,UR
+1,67,Delhi,"AIIMS, Delhi",NUCLEAR MEDICINE,AIIMS-All India,OBC
+1,68,Madhya Pradesh,"AIIMS, Bhopal",RADIO DIAGNOSIS,AIIMS-All India,UR
+1,69,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-All India,UR
+1,70,Chhattisgarh,"AIIMS, Raipur",GENERAL MEDICINE,AIIMS-All India,UR
+1,71,Madhya Pradesh,"AIIMS, Bhopal",RADIO DIAGNOSIS,AIIMS-All India,OBC
+1,72,Delhi,"AIIMS, Delhi",OBG,AIIMS-All India,UR
+1,73,Odisha,"AIIMS, Bhubaneswar",RADIO DIAGNOSIS,AIIMS-All India,UR
+1,74,Karnataka,"NIMHANS, Bangalore",NEUROLOGY 6 YRS,NIMHANS-All India,UR
+1,75,Pondicherry,"JIPMER, Puducherry",RADIO DIAGNOSIS,JIPMER-All India,EWS
+1,76,Karnataka,"NIMHANS, Bangalore",NEUROSURGERY 6 YRS,NIMHANS-All India,UR
+1,77,Delhi,"AIIMS, Delhi",NEUROSURGERY 6 YRS,AIIMS-All India,UR
+1,78,Chhattisgarh,"AIIMS, Raipur",GENERAL MEDICINE,AIIMS-All India,UR
+1,79,Maharashtra,"AIIMS, Nagpur",GENERAL MEDICINE,AIIMS-All India,UR
+1,80,Bihar,"AIIMS, Patna",RADIO DIAGNOSIS,AIIMS-All India,UR
+1,81,Chandigarh,"PGIMER, Chandigarh",PAEDIATRICS,PGIMER-All India,UR
+1,82,Andhra Pradesh,"AIIMS, Mangalagiri",GENERAL MEDICINE,AIIMS-All India,UR
+1,83,Andhra Pradesh,"AIIMS, Mangalagiri",RADIO DIAGNOSIS,AIIMS-All India,UR
+1,84,Punjab,"AIIMS, Bathinda",RADIO DIAGNOSIS,AIIMS-All India,UR
+1,86,Maharashtra,"AIIMS, Nagpur",GENERAL MEDICINE,AIIMS-All India,UR
+1,87,Chandigarh,"PGIMER, Chandigarh",GENERAL SURGERY,PGIMER-All India,UR
+1,88,Pondicherry,"JIPMER, Puducherry",GENERAL SURGERY,JIPMER-All India,OBC
+1,89,Chandigarh,"PGIMER, Chandigarh",GENERAL SURGERY,PGIMER-All India,UR
+1,90,West Bengal,"AIIMS, Kalyani",RADIO DIAGNOSIS,AIIMS-All India,UR
+1,91,Andhra Pradesh,"AIIMS, Mangalagiri",GENERAL MEDICINE,AIIMS-All India,UR
+1,92,Chandigarh,"PGIMER, Chandigarh",PAEDIATRICS,PGIMER-All India,UR
+1,93,Odisha,"AIIMS, Bhubaneswar",RADIO DIAGNOSIS,AIIMS-All India,OBC
+1,94,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",GENERAL MEDICINE,AIIMS-All India,UR
+1,95,Chandigarh,"PGIMER, Chandigarh",ORTHOPAEDICS,PGIMER-All India,UR
+1,96,Delhi,"AIIMS, Delhi",OPHTHALMOLOGY,AIIMS-All India,UR
+1,97,Delhi,"AIIMS, Delhi",RADIO DIAGNOSIS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,98,Chandigarh,"PGIMER, Chandigarh",GENERAL SURGERY,PGIMER-All India,UR
+1,99,Chandigarh,"PGIMER, Chandigarh",DERMATOLOGY,PGIMER-All India,UR
+1,100,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",GENERAL MEDICINE,AIIMS-All India,UR
+1,102,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",RADIO DIAGNOSIS,AIIMS-All India,UR
+1,103,Chandigarh,"PGIMER, Chandigarh",GENERAL MEDICINE,PGIMER-All India,OBC
+1,104,Odisha,"AIIMS, Bhubaneswar",DERMATOLOGY,AIIMS-All India,UR
+1,106,Chandigarh,"PGIMER, Chandigarh",GENERAL MEDICINE,PGIMER-All India,OBC
+1,108,Chandigarh,"PGIMER, Chandigarh",ORTHOPAEDICS,PGIMER-All India,UR
+1,109,Uttar Pradesh,"AIIMS, Rai Bareli",GENERAL MEDICINE,AIIMS-All India,UR
+1,110,Karnataka,"NIMHANS, Bangalore",NEUROLOGY 6 YRS,NIMHANS-All India,UR
+1,111,Chandigarh,"PGIMER, Chandigarh",PAEDIATRICS,PGIMER-All India,UR
+1,112,Pondicherry,"JIPMER, Puducherry",DERMATOLOGY,JIPMER-All India,OBC
+1,113,Chandigarh,"PGIMER, Chandigarh",GENERAL MEDICINE,PGIMER-All India,OBC
+1,114,Chhattisgarh,"AIIMS, Raipur",RADIO DIAGNOSIS,AIIMS-All India,UR
+1,115,Chandigarh,"PGIMER, Chandigarh",GENERAL MEDICINE,PGIMER-All India,OBC
+1,116,Chandigarh,"PGIMER, Chandigarh",PAEDIATRICS,PGIMER-All India,UR
+1,117,Punjab,"AIIMS, Bathinda",GENERAL MEDICINE,AIIMS-All India,UR
+1,118,Andhra Pradesh,"AIIMS, Mangalagiri",RADIO DIAGNOSIS,AIIMS-All India,OBC
+1,119,Delhi,"AIIMS, Delhi",OBG,AIIMS-All India,UR
+1,120,Uttarakhand,"AIIMS, Rishikesh",GENERAL MEDICINE,AIIMS-All India,OBC
+1,121,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",RADIO DIAGNOSIS,AIIMS-All India,UR
+1,122,Delhi,"AIIMS, Delhi",OPHTHALMOLOGY,AIIMS-All India,UR
+1,123,Delhi,"AIIMS, Delhi",OPHTHALMOLOGY,AIIMS-All India,UR
+1,124,Madhya Pradesh,"AIIMS, Bhopal",GENERAL MEDICINE,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,125,Assam,"AIIMS, Guwahati",GENERAL MEDICINE,AIIMS-All India,UR
+1,127,Chandigarh,"PGIMER, Chandigarh",OPHTHALMOLOGY,PGIMER-All India,UR
+1,128,Uttarakhand,"AIIMS, Rishikesh",UROLOGY (6 YRS),AIIMS-All India,UR
+1,129,Chandigarh,"PGIMER, Chandigarh",PAEDIATRICS,PGIMER-All India,UR
+1,130,Chandigarh,"PGIMER, Chandigarh",PAEDIATRICS,PGIMER-All India,UR
+1,132,Chandigarh,"PGIMER, Chandigarh",PAEDIATRICS,PGIMER-All India,UR
+1,133,Chandigarh,"PGIMER, Chandigarh",PAEDIATRICS,PGIMER-All India,UR
+1,134,West Bengal,"AIIMS, Kalyani",RADIO DIAGNOSIS,AIIMS-All India,UR
+1,135,Chandigarh,"PGIMER, Chandigarh",NUCLEAR MEDICINE,PGIMER-All India,UR
+1,136,Uttarakhand,"AIIMS, Rishikesh",GENERAL MEDICINE,AIIMS-All India,EWS
+1,137,Pondicherry,"JIPMER, Puducherry",GENERAL MEDICINE,JIPMER-All India,EWS
+1,138,Gujarat,"AIIMS, Rajkot",GENERAL MEDICINE,AIIMS-All India,UR
+1,141,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-All India,UR
+1,142,Maharashtra,"AIIMS, Nagpur",RADIO DIAGNOSIS,AIIMS-All India,OBC
+1,143,Rajasthan,"AIIMS, Jodhpur",PAEDIATRICS,AIIMS-All India,UR
+1,144,Delhi,"AIIMS, Delhi",GENERAL SURGERY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,145,Chhattisgarh,"AIIMS, Raipur",DERMATOLOGY,AIIMS-All India,UR
+1,146,Chandigarh,"PGIMER, Chandigarh",OPHTHALMOLOGY,PGIMER-All India,UR
+1,148,Chandigarh,"PGIMER, Chandigarh",ORTHOPAEDICS,PGIMER-All India,UR
+1,149,Uttarakhand,"AIIMS, Rishikesh",ORTHOPAEDICS,AIIMS-All India,UR
+1,150,Rajasthan,"AIIMS, Jodhpur",NEUROSURGERY 6 YRS,AIIMS-All India,UR
+1,151,Pondicherry,"JIPMER, Puducherry",RADIO DIAGNOSIS,JIMPER-Inst. Pref,INST (JIPMER)
+1,152,Assam,"AIIMS, Guwahati",GENERAL MEDICINE,AIIMS-All India,UR
+1,153,Chandigarh,"PGIMER, Chandigarh",GENERAL SURGERY,PGIMER-All India,UR
+1,154,Pondicherry,"JIPMER, Puducherry",GENERAL SURGERY,JIPMER-All India,UR
+1,155,Maharashtra,"AIIMS, Nagpur",NUCLEAR MEDICINE,AIIMS-All India,UR
+1,156,Jammu and Kashmir,"AIIMS, Jammu",RADIO DIAGNOSIS,AIIMS-All India,UR
+1,157,Chhattisgarh,"AIIMS, Raipur",RADIO DIAGNOSIS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,158,Delhi,"AIIMS, Delhi",ENT,AIIMS-All India,UR
+1,159,Jammu and Kashmir,"AIIMS, Jammu",GENERAL MEDICINE,AIIMS-All India,UR
+1,160,Bihar,"AIIMS, Patna",GENERAL MEDICINE,AIIMS-All India,OBC
+1,161,Madhya Pradesh,"AIIMS, Bhopal",PAEDIATRICS,AIIMS-All India,UR
+1,162,Delhi,"AIIMS, Delhi",RADIATION ONCOLOGY,AIIMS-All India,UR
+1,164,Pondicherry,"JIPMER, Puducherry",PAEDIATRICS,JIPMER-All India,OBC
+1,165,Pondicherry,"JIPMER, Puducherry",OBG,JIPMER-All India,UR
+1,166,Uttarakhand,"AIIMS, Rishikesh",OBG,AIIMS-All India,UR
+1,167,Uttar Pradesh,"AIIMS, Gorakhpur",GENERAL MEDICINE,AIIMS-All India,UR
+1,168,Rajasthan,"AIIMS, Jodhpur",GENERAL MEDICINE,AIIMS-All India,OBC
+1,169,Madhya Pradesh,"AIIMS, Bhopal",GENERAL MEDICINE,AIIMS-All India,OBC
+1,170,Assam,"AIIMS, Guwahati",GENERAL MEDICINE,AIIMS-All India,UR
+1,172,Bihar,"AIIMS, Patna",RADIO DIAGNOSIS,AIIMS-All India,OBC
+1,174,Odisha,"AIIMS, Bhubaneswar",OBG,AIIMS-All India,UR
+1,177,Pondicherry,"JIPMER, Puducherry",PAEDIATRICS,JIPMER-All India,OBC
+1,178,Delhi,"AIIMS, Delhi",PSYCHIATRY,AIIMS-All India,UR
+1,179,Chandigarh,"PGIMER, Chandigarh",NUCLEAR MEDICINE,PGIMER-All India,OBC
+1,180,Madhya Pradesh,"AIIMS, Bhopal",GENERAL MEDICINE,AIIMS-All India,OBC
+1,181,Chandigarh,"PGIMER, Chandigarh",OBG,PGIMER-All India,UR
+1,182,Chhattisgarh,"AIIMS, Raipur",GENERAL MEDICINE,AIIMS-All India,OBC
+1,183,Pondicherry,"JIPMER, Puducherry",GENERAL MEDICINE,JIPMER-All India,SC
+1,184,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-All India,UR
+1,186,Punjab,"AIIMS, Bathinda",RADIO DIAGNOSIS,AIIMS-All India,EWS
+1,187,Rajasthan,"AIIMS, Jodhpur",NEUROSURGERY 6 YRS,AIIMS-All India,UR
+1,188,Chandigarh,"PGIMER, Chandigarh",GENERAL SURGERY,PGIMER-All India,UR
+1,189,Odisha,"AIIMS, Bhubaneswar",GENERAL MEDICINE,AIIMS-All India,EWS
+1,190,Madhya Pradesh,"AIIMS, Bhopal",PAEDIATRICS,AIIMS-All India,UR
+1,191,Uttar Pradesh,"AIIMS, Gorakhpur",DERMATOLOGY,AIIMS-All India,UR
+1,192,Chhattisgarh,"AIIMS, Raipur",PAEDIATRICS,AIIMS-All India,UR
+1,194,Jharkhand,"AIIMS, Deoghar",GENERAL MEDICINE,AIIMS-All India,UR
+1,196,Chhattisgarh,"AIIMS, Raipur",GENERAL MEDICINE,AIIMS-All India,OBC
+1,198,Delhi,"AIIMS, Delhi",OBG,AIIMS-All India,OBC
+1,199,Pondicherry,"JIPMER, Puducherry",RADIATION ONCOLOGY,JIPMER-All India,OBC
+1,200,Andhra Pradesh,"AIIMS, Mangalagiri",NUCLEAR MEDICINE,AIIMS-All India,UR
+1,201,Chhattisgarh,"AIIMS, Raipur",PAEDIATRICS,AIIMS-All India,UR
+1,202,Bihar,"AIIMS, Patna",DERMATOLOGY,AIIMS-All India,UR
+1,204,Pondicherry,"JIPMER, Puducherry",OPHTHALMOLOGY,JIPMER-All India,UR
+1,207,Delhi,"AIIMS, Delhi",GENERAL SURGERY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,208,Odisha,"AIIMS, Bhubaneswar",GENERAL MEDICINE,AIIMS-All India,OBC
+1,210,Chandigarh,"PGIMER, Chandigarh",GENERAL SURGERY,PGIMER-All India,UR
+1,211,Andhra Pradesh,"AIIMS, Mangalagiri",DERMATOLOGY,AIIMS-All India,UR
+1,212,Pondicherry,"JIPMER, Puducherry",GENERAL SURGERY,JIPMER-All India,UR
+1,214,Delhi,"AIIMS, Delhi",DERMATOLOGY,AIIMS-All India,OBC
+1,216,Maharashtra,"AIIMS, Nagpur",PAEDIATRICS,AIIMS-All India,UR
+1,217,Chandigarh,"PGIMER, Chandigarh",GENERAL SURGERY,PGIMER-All India,UR
+1,218,Uttarakhand,"AIIMS, Rishikesh",OPHTHALMOLOGY,AIIMS-All India,UR
+1,219,Chandigarh,"PGIMER, Chandigarh",PAEDIATRICS,PGIMER-All India,OBC
+1,220,Chhattisgarh,"AIIMS, Raipur",GENERAL MEDICINE,AIIMS-All India,OBC
+1,221,Pondicherry,"JIPMER, Puducherry",OPHTHALMOLOGY,JIPMER-All India,UR
+1,222,Delhi,"AIIMS, Delhi",PSYCHIATRY,AIIMS-All India,UR
+1,224,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",RADIO DIAGNOSIS,AIIMS-All India,EWS
+1,225,Delhi,"AIIMS, Delhi",DERMATOLOGY,AIIMS-All India,OBC
+1,226,Odisha,"AIIMS, Bhubaneswar",ORTHOPAEDICS,AIIMS-All India,UR
+1,227,Maharashtra,"AIIMS, Nagpur",GENERAL MEDICINE,AIIMS-All India,OBC
+1,230,Chhattisgarh,"AIIMS, Raipur",GENERAL MEDICINE,AIIMS-All India,EWS
+1,232,Andhra Pradesh,"AIIMS, Mangalagiri",DERMATOLOGY,AIIMS-All India,OBC
+1,233,Rajasthan,"AIIMS, Jodhpur",ORTHOPAEDICS,AIIMS-All India,UR
+1,234,Maharashtra,"AIIMS, Nagpur",GENERAL MEDICINE,AIIMS-All India,EWS
+1,236,Bihar,"AIIMS, Patna",GENERAL MEDICINE,AIIMS-All India,EWS
+1,237,Punjab,"AIIMS, Bathinda",PAEDIATRICS,AIIMS-All India,UR
+1,238,Uttar Pradesh,"AIIMS, Gorakhpur",GENERAL MEDICINE,AIIMS-All India,EWS
+1,239,Punjab,"AIIMS, Bathinda",PAEDIATRICS,AIIMS-All India,UR
+1,240,Delhi,"AIIMS, Delhi",DERMATOLOGY,AIIMS-All India,EWS
+1,241,Pondicherry,"JIPMER, Puducherry",OBG,JIPMER-All India,UR
+1,242,Uttarakhand,"AIIMS, Rishikesh",GENERAL SURGERY,AIIMS-All India,UR
+1,243,Uttarakhand,"AIIMS, Rishikesh",GENERAL MEDICINE,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,245,Gujarat,"AIIMS, Rajkot",RADIO DIAGNOSIS,AIIMS-All India,EWS
+1,247,Chandigarh,"PGIMER, Chandigarh",OBG,PGIMER-All India,UR
+1,249,Pondicherry,"JIPMER, Puducherry",RADIATION ONCOLOGY,JIPMER-All India,OBC
+1,250,Pondicherry,"JIPMER, Puducherry",RADIO DIAGNOSIS,JIMPER-Inst. Pref,INST (JIPMER)
+1,251,Delhi,"AIIMS, Delhi",GENERAL SURGERY,AIIMS-All India,OBC
+1,252,Uttarakhand,"AIIMS, Rishikesh",GENERAL SURGERY,AIIMS-All India,UR
+1,253,Uttarakhand,"AIIMS, Rishikesh",GENERAL SURGERY,AIIMS-All India,UR
+1,254,Maharashtra,"AIIMS, Nagpur",ORTHOPAEDICS,AIIMS-All India,UR
+1,256,Uttar Pradesh,"AIIMS, Rai Bareli",PAEDIATRICS,AIIMS-All India,UR
+1,258,Maharashtra,"AIIMS, Nagpur",DERMATOLOGY,AIIMS-All India,EWS
+1,259,Madhya Pradesh,"AIIMS, Bhopal",PAEDIATRICS,AIIMS-All India,OBC
+1,261,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-All India,UR
+1,263,Chhattisgarh,"AIIMS, Raipur",GENERAL SURGERY,AIIMS-All India,UR
+1,264,Delhi,"AIIMS, Delhi",PAEDIATRICS,AIIMS-All India,OBC
+1,267,Chandigarh,"PGIMER, Chandigarh",RADIATION ONCOLOGY,PGIMER-All India,UR
+1,268,Andhra Pradesh,"AIIMS, Mangalagiri",PAEDIATRICS,AIIMS-All India,OBC
+1,269,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",PAEDIATRICS,AIIMS-All India,UR
+1,270,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",RADIO DIAGNOSIS,AIIMS-All India,OBC
+1,272,Chhattisgarh,"AIIMS, Raipur",ORTHOPAEDICS,AIIMS-All India,UR
+1,273,Jammu and Kashmir,"AIIMS, Jammu",DERMATOLOGY,AIIMS-All India,UR
+1,274,Delhi,"AIIMS, Delhi",PAEDIATRICS,AIIMS-All India,EWS
+1,275,Pondicherry,"JIPMER, Puducherry",RADIATION ONCOLOGY,JIPMER-All India,UR
+1,276,Andhra Pradesh,"AIIMS, Mangalagiri",GENERAL SURGERY,AIIMS-All India,UR
+1,277,Delhi,"AIIMS, Delhi",INECTIOUS DISEASES 6 YRS,AIIMS-All India,UR
+1,278,Pondicherry,"JIPMER, Puducherry",ORTHOPAEDICS,JIPMER-All India,UR
+1,279,Pondicherry,"JIPMER, Puducherry",DERMATOLOGY,JIPMER-All India,EWS
+1,280,Uttar Pradesh,"AIIMS, Rai Bareli",PAEDIATRICS,AIIMS-All India,UR
+1,281,Maharashtra,"AIIMS, Nagpur",GENERAL MEDICINE,AIIMS-All India,OBC
+1,282,Bihar,"AIIMS, Patna",GENERAL SURGERY,AIIMS-All India,UR
+1,284,Pondicherry,"JIPMER, Puducherry",TBRD,JIPMER-All India,OBC
+1,285,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",GENERAL SURGERY,AIIMS-All India,UR
+1,286,Uttarakhand,"AIIMS, Rishikesh",NEUROSURGERY 6 YRS,AIIMS-All India,UR
+1,287,Rajasthan,"AIIMS, Jodhpur",OBG,AIIMS-All India,UR
+1,288,Delhi,"AIIMS, Delhi",OBG,AIIMS-All India,OBC
+1,290,Assam,"AIIMS, Guwahati",PAEDIATRICS,AIIMS-All India,UR
+1,292,Uttarakhand,"AIIMS, Rishikesh",NUCLEAR MEDICINE,AIIMS-All India,OBC
+1,293,Rajasthan,"AIIMS, Jodhpur",PAEDIATRICS,AIIMS-All India,EWS
+1,294,Delhi,"AIIMS, Delhi",PAEDIATRICS,AIIMS-All India,OBC
+1,295,Jharkhand,"AIIMS, Deoghar",PAEDIATRICS,AIIMS-All India,UR
+1,296,Maharashtra,"AIIMS, Nagpur",ORTHOPAEDICS,AIIMS-All India,UR
+1,297,Pondicherry,"JIPMER, Puducherry",ANAESTHESIOLOGY,JIPMER-All India,UR
+1,298,Punjab,"AIIMS, Bathinda",GENERAL MEDICINE,AIIMS-All India,OBC
+1,299,Pondicherry,"JIPMER, Puducherry",ORTHOPAEDICS,JIPMER-All India,UR
+1,300,Uttar Pradesh,"AIIMS, Rai Bareli",GENERAL SURGERY,AIIMS-All India,UR
+1,301,Assam,"AIIMS, Guwahati",GENERAL MEDICINE,AIIMS-All India,OBC
+1,302,Chandigarh,"PGIMER, Chandigarh",PAEDIATRICS,PGIMER-All India,OBC
+1,303,Punjab,"AIIMS, Bathinda",OPHTHALMOLOGY,AIIMS-All India,UR
+1,305,Madhya Pradesh,"AIIMS, Bhopal",NUCLEAR MEDICINE,AIIMS-All India,OBC
+1,306,Bihar,"AIIMS, Patna",GENERAL SURGERY,AIIMS-All India,UR
+1,307,Maharashtra,"AIIMS, Nagpur",RADIO DIAGNOSIS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,308,Pondicherry,"JIPMER, Puducherry",TBRD,JIPMER-All India,OBC
+1,310,Delhi,"AIIMS, Delhi",PSYCHIATRY,AIIMS-All India,UR
+1,311,Pondicherry,"JIPMER, Puducherry",RADIO DIAGNOSIS,JIPMER-All India,SC
+1,313,Chandigarh,"PGIMER, Chandigarh",PAEDIATRICS,PGIMER-All India,OBC
+1,314,Chandigarh,"PGIMER, Chandigarh",OBG,PGIMER-All India,UR
+1,315,Madhya Pradesh,"AIIMS, Bhopal",PAEDIATRIC SURGERY 6 YRS,AIIMS-All India,UR
+1,316,Delhi,"AIIMS, Delhi",ANAESTHESIOLOGY,AIIMS-All India,UR
+1,318,Rajasthan,"AIIMS, Jodhpur",DERMATOLOGY,AIIMS-All India,OBC
+1,319,Madhya Pradesh,"AIIMS, Bhopal",DERMATOLOGY,AIIMS-All India,OBC
+1,320,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-All India,UR
+1,321,Maharashtra,"AIIMS, Nagpur",ORTHOPAEDICS,AIIMS-All India,UR
+1,322,Punjab,"AIIMS, Bathinda",PLASTIC SURGERY 6 YRS,AIIMS-All India,UR
+1,323,Andhra Pradesh,"AIIMS, Mangalagiri",ORTHOPAEDICS,AIIMS-All India,UR
+1,325,Odisha,"AIIMS, Bhubaneswar",DERMATOLOGY,AIIMS-All India,OBC
+1,328,Chhattisgarh,"AIIMS, Raipur",OBG,AIIMS-All India,UR
+1,330,Chandigarh,"PGIMER, Chandigarh",ANAESTHESIOLOGY,PGIMER-All India,UR
+1,331,Madhya Pradesh,"AIIMS, Bhopal",EMERGENCY MEDICINE,AIIMS-All India,UR
+1,333,Chandigarh,"PGIMER, Chandigarh",PAEDIATRICS,PGIMER-All India,OBC
+1,334,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-All India,UR
+1,339,Uttarakhand,"AIIMS, Rishikesh",PAEDIATRICS,AIIMS-All India,EWS
+1,340,Rajasthan,"AIIMS, Jodhpur",INECTIOUS DISEASES 6 YRS,AIIMS-All India,UR
+1,341,Rajasthan,"AIIMS, Jodhpur",RADIOTHERAPY & ONCOLOGY 6 YRS,AIIMS-All India,UR
+1,342,Uttar Pradesh,"AIIMS, Rai Bareli",GENERAL MEDICINE,AIIMS-All India,OBC
+1,343,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-All India,UR
+1,344,Jharkhand,"AIIMS, Deoghar",GENERAL MEDICINE,AIIMS-All India,EWS
+1,346,Delhi,"AIIMS, Delhi",OBG,AIIMS-All India,EWS
+1,347,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-All India,UR
+1,348,Chandigarh,"PGIMER, Chandigarh",PAEDIATRICS,PGIMER-All India,OBC
+1,349,Maharashtra,"AIIMS, Nagpur",DERMATOLOGY,AIIMS-All India,OBC
+1,350,Pondicherry,"JIPMER, Puducherry",OBG,JIPMER-All India,OBC
+1,351,Maharashtra,"AIIMS, Nagpur",NEUROSURGERY 6 YRS,AIIMS-All India,UR
+1,353,Rajasthan,"AIIMS, Jodhpur",GENERAL SURGERY,AIIMS-All India,OBC
+1,354,Uttar Pradesh,"AIIMS, Gorakhpur",GENERAL SURGERY,AIIMS-All India,UR
+1,355,Uttarakhand,"AIIMS, Rishikesh",NEUROSURGERY 6 YRS,AIIMS-All India,UR
+1,357,Gujarat,"AIIMS, Rajkot",PAEDIATRICS,AIIMS-All India,UR
+1,360,Madhya Pradesh,"AIIMS, Bhopal",DERMATOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,362,Delhi,"AIIMS, Delhi",ANAESTHESIOLOGY,AIIMS-All India,UR
+1,363,Chandigarh,"PGIMER, Chandigarh",PSYCHIATRY,PGIMER-All India,UR
+1,367,Chhattisgarh,"AIIMS, Raipur",RADIATION ONCOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,368,Maharashtra,"AIIMS, Nagpur",NEUROSURGERY 6 YRS,AIIMS-All India,UR
+1,369,Madhya Pradesh,"AIIMS, Bhopal",EMERGENCY MEDICINE,AIIMS-All India,UR
+1,372,Jharkhand,"AIIMS, Deoghar",GENERAL MEDICINE,AIIMS-All India,OBC
+1,373,Bihar,"AIIMS, Patna",OBG,AIIMS-All India,UR
+1,374,Delhi,"AIIMS, Delhi",ORTHOPAEDICS,AIIMS-All India,OBC
+1,375,Chandigarh,"PGIMER, Chandigarh",PSYCHIATRY,PGIMER-All India,UR
+1,376,Chandigarh,"PGIMER, Chandigarh",ORTHOPAEDICS,PGIMER-All India,OBC
+1,377,Delhi,"AIIMS, Delhi",ENT,AIIMS-All India,UR
+1,379,Uttar Pradesh,"AIIMS, Gorakhpur",GENERAL SURGERY,AIIMS-All India,UR
+1,380,Pondicherry,"JIPMER, Puducherry",DERMATOLOGY,JIMPER-Inst. Pref,INST (JIPMER)
+1,381,Chandigarh,"PGIMER, Chandigarh",ANAESTHESIOLOGY,PGIMER-All India,UR
+1,382,Bihar,"AIIMS, Patna",OBG,AIIMS-All India,UR
+1,383,Delhi,"AIIMS, Delhi",GERIATRICS,AIIMS-All India,UR
+1,386,Delhi,"AIIMS, Delhi",GENERAL SURGERY,AIIMS-All India,OBC
+1,387,Rajasthan,"AIIMS, Jodhpur",OPHTHALMOLOGY,AIIMS-All India,UR
+1,388,Gujarat,"AIIMS, Rajkot",OPHTHALMOLOGY,AIIMS-All India,UR
+1,389,Delhi,"AIIMS, Delhi",GENERAL SURGERY,AIIMS-All India,OBC
+1,390,Pondicherry,"JIPMER, Puducherry",EMERGENCY MEDICINE,JIPMER-All India,OBC
+1,391,Uttarakhand,"AIIMS, Rishikesh",TBRD,AIIMS-All India,EWS
+1,392,Assam,"AIIMS, Guwahati",RADIO DIAGNOSIS,AIIMS-All India,OBC
+1,394,Rajasthan,"AIIMS, Jodhpur",DERMATOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,395,Madhya Pradesh,"AIIMS, Bhopal",CARDIO THORACIC AND VASCULAR SURGERY 6 YRS,AIIMS-All India,UR
+1,397,Jharkhand,"AIIMS, Deoghar",GENERAL SURGERY,AIIMS-All India,UR
+1,398,Uttar Pradesh,"AIIMS, Gorakhpur",RADIO DIAGNOSIS,AIIMS-All India,OBC
+1,399,Maharashtra,"AIIMS, Nagpur",OPHTHALMOLOGY,AIIMS-All India,UR
+1,401,Jammu and Kashmir,"AIIMS, Jammu",GENERAL MEDICINE,AIIMS-All India,OBC
+1,405,Uttar Pradesh,"AIIMS, Rai Bareli",NEUROSURGERY 6 YRS,AIIMS-All India,UR
+1,406,Odisha,"AIIMS, Bhubaneswar",PAEDIATRICS,AIIMS-All India,OBC
+1,407,Rajasthan,"AIIMS, Jodhpur",PAEDIATRICS,AIIMS-All India,OBC
+1,408,Uttarakhand,"AIIMS, Rishikesh",OBG,AIIMS-All India,EWS
+1,409,Uttarakhand,"AIIMS, Rishikesh",PAEDIATRICS,AIIMS-All India,OBC
+1,410,Chhattisgarh,"AIIMS, Raipur",PAEDIATRICS,AIIMS-All India,OBC
+1,412,Odisha,"AIIMS, Bhubaneswar",ORTHOPAEDICS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,416,Chandigarh,"PGIMER, Chandigarh",ENT,PGIMER-All India,UR
+1,417,Delhi,"AIIMS, Delhi",NUCLEAR MEDICINE,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,419,Bihar,"AIIMS, Patna",SURGGASTRO (6 YRS),AIIMS-Inst. Pref,UR-AIIMS-IP
+1,421,Delhi,"AIIMS, Delhi",GERIATRICS,AIIMS-All India,UR
+1,423,Uttarakhand,"AIIMS, Rishikesh",GERIATRICS,AIIMS-All India,UR
+1,424,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-All India,UR
+1,425,Uttar Pradesh,"AIIMS, Gorakhpur",OBG,AIIMS-All India,UR
+1,428,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-All India,UR
+1,429,Pondicherry,"JIPMER, Puducherry",GENERAL SURGERY,JIPMER-All India,OBC-PwD
+1,431,Delhi,"AIIMS, Delhi",DERMATOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,432,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-All India,UR
+1,434,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-All India,UR
+1,435,Delhi,"AIIMS, Delhi",GENERAL MEDICINE,AIIMS-All India,SC
+1,437,Chandigarh,"PGIMER, Chandigarh",PSYCHIATRY,PGIMER-All India,UR
+1,444,Uttarakhand,"AIIMS, Rishikesh",PAEDIATRIC SURGERY 6 YRS,AIIMS-All India,UR
+1,447,Delhi,"AIIMS, Delhi",OBG,AIIMS-All India,OBC
+1,450,Andhra Pradesh,"AIIMS, Mangalagiri",OBG,AIIMS-All India,UR
+1,451,Maharashtra,"AIIMS, Nagpur",PAEDIATRICS,AIIMS-All India,OBC
+1,452,Rajasthan,"AIIMS, Jodhpur",PAEDIATRIC SURGERY 6 YRS,AIIMS-All India,UR
+1,453,Delhi,"AIIMS, Delhi",DERMATOLOGY,AIIMS-All India,SC
+1,454,Punjab,"AIIMS, Bathinda",OBG,AIIMS-All India,UR
+1,455,Punjab,"AIIMS, Bathinda",PAEDIATRICS,AIIMS-All India,OBC
+1,456,Punjab,"AIIMS, Bathinda",DERMATOLOGY,AIIMS-All India,EWS
+1,457,Chhattisgarh,"AIIMS, Raipur",ENT,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,459,Delhi,"AIIMS, Delhi",OPHTHALMOLOGY,AIIMS-All India,OBC
+1,460,Punjab,"AIIMS, Bathinda",NEUROSURGERY 6 YRS,AIIMS-All India,UR
+1,461,Maharashtra,"AIIMS, Nagpur",PAEDIATRICS,AIIMS-All India,OBC
+1,463,Madhya Pradesh,"AIIMS, Bhopal",PAEDIATRICS,AIIMS-All India,EWS
+1,464,Delhi,"AIIMS, Delhi",RADIATION ONCOLOGY,AIIMS-All India,OBC
+1,465,Uttarakhand,"AIIMS, Rishikesh",PAEDIATRICS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,466,Chandigarh,"PGIMER, Chandigarh",GENERAL SURGERY,PGIMER-All India,OBC
+1,467,Telangana,"AIIMS, Bibinagar",RADIATION ONCOLOGY,AIIMS-All India,UR
+1,469,Odisha,"AIIMS, Bhubaneswar",EMERGENCY MEDICINE,AIIMS-All India,UR
+1,470,Uttar Pradesh,"AIIMS, Rai Bareli",OBG,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,471,Pondicherry,"JIPMER, Puducherry",GERIATRICS,JIPMER-All India,UR
+1,472,Pondicherry,"JIPMER, Puducherry",GENERAL SURGERY,JIPMER-All India,OBC
+1,474,Punjab,"AIIMS, Bathinda",OBG,AIIMS-All India,UR
+1,477,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",GENERAL MEDICINE,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,478,Chandigarh,"PGIMER, Chandigarh",ENT,PGIMER-All India,UR
+1,479,Gujarat,"AIIMS, Rajkot",ORTHOPAEDICS,AIIMS-All India,UR
+1,480,Pondicherry,"JIPMER, Puducherry",NUCLEAR MEDICINE,JIMPER-Inst. Pref,INST (JIPMER)
+1,481,West Bengal,"AIIMS, Kalyani",EMERGENCY MEDICINE,AIIMS-All India,UR
+1,483,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",PAEDIATRICS,AIIMS-All India,EWS
+1,487,Rajasthan,"AIIMS, Jodhpur",PAEDIATRICS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,488,Bihar,"AIIMS, Patna",PAEDIATRICS,AIIMS-All India,OBC
+1,489,Uttarakhand,"AIIMS, Rishikesh",ORTHOPAEDICS,AIIMS-All India,OBC
+1,491,Pondicherry,"JIPMER, Puducherry",GENERAL SURGERY,JIPMER-All India,OBC
+1,494,Delhi,"AIIMS, Delhi",OBG,AIIMS-All India,OBC
+1,497,Madhya Pradesh,"AIIMS, Bhopal",ORTHOPAEDICS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,499,Telangana,"AIIMS, Bibinagar",OBG,AIIMS-All India,UR
+1,501,Bihar,"AIIMS, Patna",TRAUMASURG&CC (6 YRS),AIIMS-All India,UR
+1,502,Punjab,"AIIMS, Bathinda",PAEDIATRICS,AIIMS-All India,OBC
+1,505,Delhi,"AIIMS, Delhi",PSYCHIATRY,AIIMS-All India,EWS
+1,506,Assam,"AIIMS, Guwahati",OBG,AIIMS-All India,UR
+1,508,Chandigarh,"PGIMER, Chandigarh",GENERAL SURGERY,PGIMER-All India,OBC
+1,509,Chandigarh,"PGIMER, Chandigarh",ANAESTHESIOLOGY,PGIMER-All India,UR
+1,510,Delhi,"AIIMS, Delhi",OPHTHALMOLOGY,AIIMS-All India,EWS
+1,511,Madhya Pradesh,"AIIMS, Bhopal",PAEDIATRICS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,515,Assam,"AIIMS, Guwahati",DERMATOLOGY,AIIMS-All India,OBC
+1,516,Delhi,"AIIMS, Delhi",ENT,AIIMS-All India,OBC
+1,517,Chhattisgarh,"AIIMS, Raipur",PAEDIATRICS,AIIMS-All India,EWS
+1,518,Bihar,"AIIMS, Patna",PAEDIATRICS,AIIMS-All India,EWS
+1,519,Uttarakhand,"AIIMS, Rishikesh",OPHTHALMOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,521,Assam,"AIIMS, Guwahati",OBG,AIIMS-All India,UR
+1,522,Andhra Pradesh,"AIIMS, Mangalagiri",OPHTHALMOLOGY,AIIMS-All India,UR
+1,524,Rajasthan,"AIIMS, Jodhpur",ORTHOPAEDICS,AIIMS-All India,EWS
+1,526,Andhra Pradesh,"AIIMS, Mangalagiri",RADIO DIAGNOSIS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,527,Pondicherry,"JIPMER, Puducherry",OBG,JIPMER-All India,OBC
+1,531,Jharkhand,"AIIMS, Deoghar",GENERAL SURGERY,AIIMS-All India,UR
+1,532,Odisha,"AIIMS, Bhubaneswar",ENT,AIIMS-All India,UR
+1,536,Uttar Pradesh,"AIIMS, Rai Bareli",PAEDIATRICS,AIIMS-All India,OBC
+1,537,Jammu and Kashmir,"AIIMS, Jammu",GENERAL SURGERY,AIIMS-All India,UR
+1,538,Odisha,"AIIMS, Bhubaneswar",ENT,AIIMS-All India,UR
+1,539,Delhi,"AIIMS, Delhi",GENERAL SURGERY,AIIMS-All India,EWS
+1,546,Bihar,"AIIMS, Patna",EMERGENCY MEDICINE,AIIMS-All India,UR
+1,547,Odisha,"AIIMS, Bhubaneswar",RADIATION ONCOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,550,Pondicherry,"JIPMER, Puducherry",CARDIO THORACIC AND VASCULAR SURGERY 6 YRS,JIPMER-All India,UR
+1,555,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",PAEDIATRICS,AIIMS-All India,OBC
+1,556,Uttarakhand,"AIIMS, Rishikesh",GENERAL SURGERY,AIIMS-All India,OBC
+1,557,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-All India,EWS
+1,558,Uttar Pradesh,"AIIMS, Gorakhpur",PAEDIATRICS,AIIMS-All India,OBC
+1,560,Delhi,"AIIMS, Delhi",OBG,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,567,Uttar Pradesh,"AIIMS, Gorakhpur",ENT,AIIMS-All India,UR
+1,568,Jharkhand,"AIIMS, Deoghar",OBG,AIIMS-All India,UR
+1,569,Maharashtra,"AIIMS, Nagpur",PATHOLOGY,AIIMS-All India,UR
+1,573,Punjab,"AIIMS, Bathinda",ORTHOPAEDICS,AIIMS-All India,UR
+1,574,Pondicherry,"JIPMER, Puducherry",OBG,JIPMER-All India,OBC
+1,575,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-All India,OBC
+1,577,Madhya Pradesh,"AIIMS, Bhopal",GENERAL SURGERY,AIIMS-All India,OBC
+1,578,Chandigarh,"PGIMER, Chandigarh",GENERAL SURGERY,PGIMER-All India,OBC
+1,580,Delhi,"AIIMS, Delhi",GENERAL MEDICINE,AIIMS-All India,SC
+1,582,Pondicherry,"JIPMER, Puducherry",RADIO DIAGNOSIS,JIPMER-All India,SC
+1,583,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-All India,EWS
+1,584,Chhattisgarh,"AIIMS, Raipur",OBG,AIIMS-All India,OBC
+1,589,Jharkhand,"AIIMS, Deoghar",PSYCHIATRY,AIIMS-All India,UR
+1,594,Bihar,"AIIMS, Patna",CARDIO THORACIC AND VASCULAR SURGERY 6 YRS,AIIMS-All India,UR
+1,596,Chandigarh,"PGIMER, Chandigarh",ANAESTHESIOLOGY,PGIMER-All India,UR
+1,604,Pondicherry,"JIPMER, Puducherry",NUCLEAR MEDICINE,JIMPER-Inst. Pref,INST (JIPMER)
+1,610,Punjab,"AIIMS, Bathinda",CARDIO THORACIC AND VASCULAR SURGERY 6 YRS,AIIMS-All India,UR
+1,611,Jammu and Kashmir,"AIIMS, Jammu",PAEDIATRICS,AIIMS-All India,OBC
+1,613,Pondicherry,"JIPMER, Puducherry",OBG,JIPMER-All India,OBC
+1,614,Maharashtra,"AIIMS, Nagpur",PSYCHIATRY,AIIMS-All India,UR
+1,618,Delhi,"AIIMS, Delhi",OBG,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,619,Chandigarh,"PGIMER, Chandigarh",GENERAL SURGERY,PGIMER-All India,OBC
+1,625,Jammu and Kashmir,"AIIMS, Jammu",GENERAL SURGERY,AIIMS-All India,UR
+1,626,Pondicherry,"JIPMER, Puducherry",PAEDIATRICS,JIMPER-Inst. Pref,INST (JIPMER)
+1,627,Rajasthan,"AIIMS, Jodhpur",ANAESTHESIOLOGY,AIIMS-All India,UR
+1,629,Andhra Pradesh,"AIIMS, Mangalagiri",GENERAL SURGERY,AIIMS-All India,OBC
+1,630,Jharkhand,"AIIMS, Deoghar",PAEDIATRICS,AIIMS-All India,OBC
+1,631,Bihar,"AIIMS, Patna",TRAUMASURG&CC (6 YRS),AIIMS-All India,UR
+1,632,Chhattisgarh,"AIIMS, Raipur",GENERAL SURGERY,AIIMS-All India,OBC
+1,633,Andhra Pradesh,"AIIMS, Mangalagiri",EMERGENCY MEDICINE,AIIMS-All India,UR
+1,636,Jammu and Kashmir,"AIIMS, Jammu",OBG,AIIMS-All India,UR
+1,637,Bihar,"AIIMS, Patna",GENERAL SURGERY,AIIMS-All India,OBC
+1,639,Rajasthan,"AIIMS, Jodhpur",ANAESTHESIOLOGY,AIIMS-All India,UR
+1,641,Chandigarh,"PGIMER, Chandigarh",ANAESTHESIOLOGY,PGIMER-All India,UR
+1,642,Maharashtra,"AIIMS, Nagpur",GENERAL SURGERY,AIIMS-All India,OBC
+1,647,Rajasthan,"AIIMS, Jodhpur",GENERAL SURGERY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,648,Rajasthan,"AIIMS, Jodhpur",OBG,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,654,Delhi,"AIIMS, Delhi",PMR,AIIMS-All India,UR
+1,657,West Bengal,"AIIMS, Kalyani",RADIO DIAGNOSIS,AIIMS-All India,SC
+1,658,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",PAEDIATRIC SURGERY 6 YRS,AIIMS-All India,UR
+1,661,Andhra Pradesh,"AIIMS, Mangalagiri",PAEDIATRICS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,665,Delhi,"AIIMS, Delhi",OPHTHALMOLOGY,AIIMS-All India,OBC
+1,666,Delhi,"AIIMS, Delhi",OPHTHALMOLOGY,AIIMS-All India,OBC
+1,667,Maharashtra,"AIIMS, Nagpur",EMERGENCY MEDICINE,AIIMS-All India,UR
+1,668,Delhi,"AIIMS, Delhi",ORTHOPAEDICS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,670,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",DERMATOLOGY,AIIMS-All India,EWS
+1,672,Madhya Pradesh,"AIIMS, Bhopal",OBG,AIIMS-All India,EWS
+1,675,Chandigarh,"PGIMER, Chandigarh",ANAESTHESIOLOGY,PGIMER-All India,UR
+1,676,Pondicherry,"JIPMER, Puducherry",OBG,JIPMER-All India,OBC
+1,679,Chandigarh,"PGIMER, Chandigarh",ANAESTHESIOLOGY,PGIMER-All India,UR
+1,686,Delhi,"AIIMS, Delhi",RADIO DIAGNOSIS,AIIMS-All India,SC
+1,692,Bihar,"AIIMS, Patna",PAEDIATRIC SURGERY 6 YRS,AIIMS-All India,UR
+1,698,Assam,"AIIMS, Guwahati",GENERAL SURGERY,AIIMS-All India,OBC
+1,699,Rajasthan,"AIIMS, Jodhpur",GENERAL SURGERY,AIIMS-All India,EWS
+1,700,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",ORTHOPAEDICS,AIIMS-All India,UR
+1,709,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",EMERGENCY MEDICINE,AIIMS-All India,UR
+1,710,Pondicherry,"JIPMER, Puducherry",ENT,JIPMER-All India,OBC
+1,711,Maharashtra,"AIIMS, Nagpur",GENERAL SURGERY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,712,Pondicherry,"JIPMER, Puducherry",ORTHOPAEDICS,JIPMER-All India,OBC
+1,713,Andhra Pradesh,"AIIMS, Mangalagiri",ENT,AIIMS-All India,UR
+1,719,Chandigarh,"PGIMER, Chandigarh",ANAESTHESIOLOGY,PGIMER-All India,UR
+1,721,Chandigarh,"PGIMER, Chandigarh",OBG,PGIMER-All India,OBC
+1,725,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-NE Domicile,UR-North East Domicile
+1,726,Bihar,"AIIMS, Patna",OBG,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,733,Rajasthan,"AIIMS, Jodhpur",ANAESTHESIOLOGY,AIIMS-All India,UR
+1,737,Chandigarh,"PGIMER, Chandigarh",GENERAL MEDICINE,PGIMER-All India,SC
+1,738,Jharkhand,"AIIMS, Deoghar",PAEDIATRIC SURGERY 6 YRS,AIIMS-All India,UR
+1,740,Delhi,"AIIMS, Delhi",ENT,AIIMS-All India,OBC
+1,746,Pondicherry,"JIPMER, Puducherry",TBRD,JIPMER-All India,EWS
+1,747,Pondicherry,"JIPMER, Puducherry",ANAESTHESIOLOGY,JIPMER-All India,OBC
+1,748,Pondicherry,"JIPMER, Puducherry",GENERAL MEDICINE,JIPMER-All India,SC
+1,751,Uttar Pradesh,"AIIMS, Gorakhpur",PAEDIATRICS,AIIMS-All India,EWS
+1,752,Pondicherry,"JIPMER, Puducherry",OBG,JIPMER-All India,EWS
+1,755,Chhattisgarh,"AIIMS, Raipur",GENERAL MEDICINE,AIIMS-All India,SC
+1,759,Uttar Pradesh,"AIIMS, Rai Bareli",PAEDIATRIC SURGERY 6 YRS,AIIMS-All India,UR
+1,761,Pondicherry,"JIPMER, Puducherry",PAEDIATRICS,JIMPER-Inst. Pref,INST (JIPMER)
+1,762,Pondicherry,"JIPMER, Puducherry",GENERAL SURGERY,JIPMER-All India,EWS
+1,766,Chhattisgarh,"AIIMS, Raipur",PSYCHIATRY,AIIMS-All India,UR
+1,767,Maharashtra,"AIIMS, Nagpur",GENERAL SURGERY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,771,Madhya Pradesh,"AIIMS, Bhopal",ORTHOPAEDICS,AIIMS-All India,OBC
+1,772,Maharashtra,"AIIMS, Nagpur",PSYCHIATRY,AIIMS-All India,UR
+1,773,Uttarakhand,"AIIMS, Rishikesh",OBG,AIIMS-All India,OBC
+1,780,Pondicherry,"JIPMER, Puducherry",ANAESTHESIOLOGY,JIPMER-All India,UR
+1,781,Chhattisgarh,"AIIMS, Raipur",CARDIO THORACIC AND VASCULAR SURGERY 6 YRS,AIIMS-All India,UR
+1,783,Maharashtra,"AIIMS, Nagpur",GENERAL SURGERY,AIIMS-All India,OBC
+1,786,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-All India,OBC
+1,787,Chandigarh,"PGIMER, Chandigarh",ANAESTHESIOLOGY,PGIMER-All India,UR
+1,797,Uttar Pradesh,"AIIMS, Rai Bareli",GENERAL SURGERY,AIIMS-All India,OBC
+1,801,Jharkhand,"AIIMS, Deoghar",PAEDIATRICS,AIIMS-All India,EWS
+1,802,Punjab,"AIIMS, Bathinda",EMERGENCY MEDICINE,AIIMS-All India,UR
+1,808,Rajasthan,"AIIMS, Jodhpur",PSYCHIATRY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,811,Uttar Pradesh,"AIIMS, Gorakhpur",GENERAL SURGERY,AIIMS-All India,OBC
+1,812,Pondicherry,"JIPMER, Puducherry",ANAESTHESIOLOGY,JIPMER-All India,UR
+1,814,Chandigarh,"PGIMER, Chandigarh",RADIATION ONCOLOGY,PGIMER-All India,OBC
+1,816,Pondicherry,"JIPMER, Puducherry",ENT,JIPMER-All India,OBC
+1,817,Delhi,"AIIMS, Delhi",NEUROSURGERY 6 YRS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,818,Rajasthan,"AIIMS, Jodhpur",ORTHOPAEDICS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,819,Delhi,"AIIMS, Delhi",PALLIATIVE MEDICINE,AIIMS-All India,UR
+1,822,Pondicherry,"JIPMER, Puducherry",ANAESTHESIOLOGY,JIPMER-All India,OBC
+1,823,Jammu and Kashmir,"AIIMS, Jammu",ANAESTHESIOLOGY,AIIMS-All India,UR
+1,824,Pondicherry,"JIPMER, Puducherry",ANAESTHESIOLOGY,JIPMER-All India,UR
+1,829,Delhi,"AIIMS, Delhi",GERIATRICS,AIIMS-All India,EWS
+1,833,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",ANAESTHESIOLOGY,AIIMS-All India,UR
+1,840,Chandigarh,"PGIMER, Chandigarh",OBG,PGIMER-All India,OBC
+1,841,Delhi,"AIIMS, Delhi",ENT,AIIMS-All India,OBC
+1,844,Chhattisgarh,"AIIMS, Raipur",GENERAL SURGERY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,845,Delhi,"AIIMS, Delhi",HOSPITAL ADMINISTRATION,AIIMS-All India,UR
+1,847,Chandigarh,"PGIMER, Chandigarh",RADIO DIAGNOSIS,PGIMER-All India,SC
+1,850,Chhattisgarh,"AIIMS, Raipur",OBG,AIIMS-All India,OBC
+1,851,Pondicherry,"JIPMER, Puducherry",GENERAL SURGERY,JIMPER-Inst. Pref,INST (JIPMER)
+1,852,Punjab,"AIIMS, Bathinda",GENERAL SURGERY,AIIMS-All India,OBC
+1,855,Delhi,"AIIMS, Delhi",RADIATION ONCOLOGY,AIIMS-All India,OBC
+1,856,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-All India,OBC
+1,858,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",EMERGENCY MEDICINE,AIIMS-All India,UR
+1,864,Pondicherry,"JIPMER, Puducherry",ANAESTHESIOLOGY,JIPMER-All India,OBC
+1,867,Chhattisgarh,"AIIMS, Raipur",OPHTHALMOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,870,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-All India,OBC
+1,872,Chandigarh,"PGIMER, Chandigarh",GENERAL MEDICINE,PGIMER-All India,SC
+1,879,Chhattisgarh,"AIIMS, Raipur",OBG,AIIMS-All India,EWS
+1,880,Pondicherry,"JIPMER, Puducherry",TBRD,JIPMER-All India,EWS
+1,881,Delhi,"AIIMS, Delhi",ANAESTHESIOLOGY,AIIMS-All India,EWS
+1,882,Odisha,"AIIMS, Bhubaneswar",ANAESTHESIOLOGY,AIIMS-All India,UR
+1,885,Pondicherry,"JIPMER, Puducherry",GENERAL SURGERY,JIMPER-Inst. Pref,INST (JIPMER)
+1,887,Rajasthan,"AIIMS, Jodhpur",RADIO DIAGNOSIS,AIIMS-All India,SC
+1,888,Jharkhand,"AIIMS, Deoghar",OPHTHALMOLOGY,AIIMS-All India,UR
+1,892,Rajasthan,"AIIMS, Jodhpur",OBG,AIIMS-All India,OBC
+1,893,Delhi,"AIIMS, Delhi",PSYCHIATRY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,896,Pondicherry,"JIPMER, Puducherry",FORENSIC MEDICINE,JIPMER-All India,UR
+1,897,Chandigarh,"PGIMER, Chandigarh",OBG,PGIMER-All India,OBC
+1,899,Delhi,"AIIMS, Delhi",RADIO DIAGNOSIS,AIIMS-All India,ST
+1,905,Rajasthan,"AIIMS, Jodhpur",RADIOTHERAPY & ONCOLOGY 6 YRS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,919,Madhya Pradesh,"AIIMS, Bhopal",ENT,AIIMS-All India,OBC
+1,921,Assam,"AIIMS, Guwahati",PSYCHIATRY,AIIMS-All India,UR
+1,923,Bihar,"AIIMS, Patna",EMERGENCY MEDICINE,AIIMS-All India,OBC
+1,924,Delhi,"AIIMS, Delhi",INECTIOUS DISEASES 6 YRS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,933,Pondicherry,"JIPMER, Puducherry",ORTHOPAEDICS,JIPMER-All India,EWS
+1,934,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",GENERAL SURGERY,AIIMS-All India,OBC
+1,935,Uttarakhand,"AIIMS, Rishikesh",EMERGENCY MEDICINE,AIIMS-All India,OBC
+1,936,Uttar Pradesh,"AIIMS, Gorakhpur",FAMILY MEDICINE,AIIMS-All India,UR
+1,940,Andhra Pradesh,"AIIMS, Mangalagiri",PSYCHIATRY,AIIMS-All India,UR
+1,942,Odisha,"AIIMS, Bhubaneswar",ANAESTHESIOLOGY,AIIMS-All India,UR
+1,943,Uttar Pradesh,"AIIMS, Rai Bareli",ANAESTHESIOLOGY,AIIMS-All India,UR
+1,944,Pondicherry,"JIPMER, Puducherry",OBG,JIMPER-Inst. Pref,INST (JIPMER)
+1,947,Andhra Pradesh,"AIIMS, Mangalagiri",GENERAL MEDICINE,AIIMS-All India,SC
+1,949,Delhi,"AIIMS, Delhi",OPHTHALMOLOGY,AIIMS-All India,OBC
+1,950,Bihar,"AIIMS, Patna",GENERAL MEDICINE,AIIMS-All India,SC
+1,952,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-All India,OBC
+1,954,Chandigarh,"PGIMER, Chandigarh",PATHOLOGY,PGIMER-All India,UR
+1,957,Delhi,"AIIMS, Delhi",RADIATION ONCOLOGY,AIIMS-All India,EWS
+1,959,Chhattisgarh,"AIIMS, Raipur",ORTHOPAEDICS,AIIMS-All India,OBC
+1,960,Punjab,"AIIMS, Bathinda",ORTHOPAEDICS,AIIMS-All India,OBC
+1,975,Delhi,"AIIMS, Delhi",GERIATRICS,AIIMS-All India,OBC
+1,978,Madhya Pradesh,"AIIMS, Bhopal",OBG,AIIMS-All India,OBC
+1,985,Maharashtra,"AIIMS, Nagpur",ORTHOPAEDICS,AIIMS-All India,OBC
+1,989,Delhi,"AIIMS, Delhi",COMMUNITY MEDICINE,AIIMS-All India,UR
+1,992,Madhya Pradesh,"AIIMS, Bhopal",RADIATION ONCOLOGY,AIIMS-All India,EWS
+1,993,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-All India,OBC
+1,997,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-KAR Domicile,UR-Karnataka Domicile
+1,1000,Chhattisgarh,"AIIMS, Raipur",ANAESTHESIOLOGY,AIIMS-All India,UR
+1,1001,Chandigarh,"PGIMER, Chandigarh",ENT,PGIMER-All India,OBC
+1,1004,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-NE Domicile,UR-North East Domicile
+1,1006,Andhra Pradesh,"AIIMS, Mangalagiri",EMERGENCY MEDICINE,AIIMS-All India,EWS
+1,1016,Uttarakhand,"AIIMS, Rishikesh",OBG,AIIMS-All India,OBC
+1,1026,Jharkhand,"AIIMS, Deoghar",GENERAL SURGERY,AIIMS-All India,OBC
+1,1030,Bihar,"AIIMS, Patna",ANAESTHESIOLOGY,AIIMS-All India,UR
+1,1034,Jharkhand,"AIIMS, Deoghar",GENERAL MEDICINE,AIIMS-All India,SC
+1,1036,Delhi,"AIIMS, Delhi",FORENSIC MEDICINE,AIIMS-All India,UR
+1,1039,Punjab,"AIIMS, Bathinda",PAEDIATRICS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,1042,Delhi,"AIIMS, Delhi",PSYCHIATRY,AIIMS-All India,OBC
+1,1046,Uttarakhand,"AIIMS, Rishikesh",EMERGENCY MEDICINE,AIIMS-All India,OBC
+1,1052,Chhattisgarh,"AIIMS, Raipur",OBG,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,1053,Andhra Pradesh,"AIIMS, Mangalagiri",OBG,AIIMS-All India,OBC
+1,1057,Pondicherry,"JIPMER, Puducherry",FORENSIC MEDICINE,JIPMER-All India,UR
+1,1059,Madhya Pradesh,"AIIMS, Bhopal",OPHTHALMOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,1060,Uttarakhand,"AIIMS, Rishikesh",ENT,AIIMS-All India,OBC
+1,1063,Uttarakhand,"AIIMS, Rishikesh",RADIO DIAGNOSIS,AIIMS-All India,SC
+1,1064,Madhya Pradesh,"AIIMS, Bhopal",RADIO DIAGNOSIS,AIIMS-All India,SC
+1,1067,Delhi,"AIIMS, Delhi",OPHTHALMOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,1068,Delhi,"AIIMS, Delhi",PSYCHIATRY,AIIMS-All India,OBC
+1,1075,Uttarakhand,"AIIMS, Rishikesh",FAMILY MEDICINE,AIIMS-All India,UR
+1,1076,Maharashtra,"AIIMS, Nagpur",OBG,AIIMS-All India,OBC
+1,1082,Punjab,"AIIMS, Bathinda",OBG,AIIMS-All India,OBC
+1,1083,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-KAR Domicile,UR-Karnataka Domicile
+1,1086,Jharkhand,"AIIMS, Deoghar",ANAESTHESIOLOGY,AIIMS-All India,UR
+1,1088,Bihar,"AIIMS, Patna",ORTHOPAEDICS,AIIMS-All India,OBC
+1,1093,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-KAR Domicile,UR-Karnataka Domicile
+1,1094,Kerala,"Sree Chirtra Thirunal, Triv.",IHBT,SCTIMST-All India,UR
+1,1097,Chandigarh,"PGIMER, Chandigarh",RADIO DIAGNOSIS,PGIMER-All India,ST
+1,1099,Jharkhand,"AIIMS, Deoghar",ANAESTHESIOLOGY,AIIMS-All India,UR
+1,1108,Delhi,"AIIMS, Delhi",LAB MEDICINE,AIIMS-All India,UR
+1,1112,Delhi,"AIIMS, Delhi",COMMUNITY MEDICINE,AIIMS-All India,UR
+1,1114,Delhi,"AIIMS, Delhi",ORTHOPAEDICS,AIIMS-All India,ST
+1,1115,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-NE Domicile,UR-North East Domicile
+1,1123,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-NE Domicile,UR-North East Domicile
+1,1124,Punjab,"AIIMS, Bathinda",ORTHOPAEDICS,AIIMS-All India,OBC
+1,1125,Delhi,"AIIMS, Delhi",PSYCHIATRY,AIIMS-All India,SC
+1,1126,Delhi,"AIIMS, Delhi",PSYCHIATRY,AIIMS-All India,OBC
+1,1131,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-KAR Domicile,UR-Karnataka Domicile
+1,1136,Chandigarh,"PGIMER, Chandigarh",OPHTHALMOLOGY,PGIMER-All India,OBC
+1,1137,Rajasthan,"AIIMS, Jodhpur",RADIOTHERAPY & ONCOLOGY 6 YRS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,1140,Gujarat,"AIIMS, Rajkot",ANAESTHESIOLOGY,AIIMS-All India,UR
+1,1145,Rajasthan,"AIIMS, Jodhpur",PSYCHIATRY,AIIMS-All India,EWS
+1,1148,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-NE Domicile,UR-North East Domicile
+1,1152,Andhra Pradesh,"AIIMS, Mangalagiri",OBG,AIIMS-All India,EWS
+1,1153,Pondicherry,"JIPMER, Puducherry",TBRD,JIMPER-Inst. Pref,INST (JIPMER)
+1,1154,Bihar,"AIIMS, Patna",RADIO DIAGNOSIS,AIIMS-All India,SC
+1,1155,Punjab,"AIIMS, Bathinda",OBG,AIIMS-All India,EWS
+1,1157,Bihar,"AIIMS, Patna",OBG,AIIMS-All India,OBC
+1,1158,Delhi,"AIIMS, Delhi",PAEDIATRIC SURGERY 6 YRS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,1166,Chandigarh,"PGIMER, Chandigarh",COMMUNITY MEDICINE,PGIMER-All India,UR
+1,1167,Uttar Pradesh,"AIIMS, Rai Bareli",GENERAL MEDICINE,AIIMS-All India,SC
+1,1185,Andhra Pradesh,"AIIMS, Mangalagiri",ORTHOPAEDICS,AIIMS-All India,OBC
+1,1188,Chandigarh,"PGIMER, Chandigarh",ANAESTHESIOLOGY,PGIMER-All India,OBC
+1,1191,Uttarakhand,"AIIMS, Rishikesh",RADIATION ONCOLOGY,AIIMS-All India,OBC
+1,1197,Uttar Pradesh,"AIIMS, Rai Bareli",OBG,AIIMS-All India,OBC
+1,1202,Chandigarh,"PGIMER, Chandigarh",PATHOLOGY,PGIMER-All India,UR
+1,1205,Maharashtra,"AIIMS, Nagpur",RADIATION ONCOLOGY,AIIMS-All India,EWS
+1,1208,Maharashtra,"AIIMS, Nagpur",GENERAL SURGERY,AIIMS-All India,EWS
+1,1212,Andhra Pradesh,"AIIMS, Mangalagiri",EMERGENCY MEDICINE,AIIMS-All India,OBC
+1,1215,Chandigarh,"PGIMER, Chandigarh",PATHOLOGY,PGIMER-All India,UR
+1,1218,Chandigarh,"PGIMER, Chandigarh",OPHTHALMOLOGY,PGIMER-All India,OBC
+1,1230,Chandigarh,"PGIMER, Chandigarh",PATHOLOGY,PGIMER-All India,UR
+1,1232,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",RADIATION ONCOLOGY,AIIMS-All India,OBC
+1,1233,Maharashtra,"AIIMS, Nagpur",EMERGENCY MEDICINE,AIIMS-All India,OBC
+1,1234,Chandigarh,"PGIMER, Chandigarh",PAEDIATRICS,PGIMER-All India,SC
+1,1236,Pondicherry,"JIPMER, Puducherry",PATHOLOGY,JIPMER-All India,UR
+1,1237,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",GENERAL SURGERY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,1242,Jammu and Kashmir,"AIIMS, Jammu",GENERAL SURGERY,AIIMS-All India,OBC
+1,1252,Uttar Pradesh,"AIIMS, Rai Bareli",GENERAL SURGERY,AIIMS-All India,EWS
+1,1255,Delhi,"AIIMS, Delhi",ANAESTHESIOLOGY,AIIMS-All India,SC
+1,1256,Chandigarh,"PGIMER, Chandigarh",DERMATOLOGY,PGIMER-All India,SC
+1,1262,Pondicherry,"JIPMER, Puducherry",EMERGENCY MEDICINE,JIPMER-All India,EWS
+1,1265,West Bengal,"AIIMS, Kalyani",PHARMACOLOGY,AIIMS-All India,UR
+1,1267,Chandigarh,"PGIMER, Chandigarh",HOSPITAL ADMINISTRATION,PGIMER-All India,UR
+1,1271,Delhi,"AIIMS, Delhi",PHARMACOLOGY,AIIMS-All India,UR
+1,1272,Uttar Pradesh,"AIIMS, Gorakhpur",GENERAL SURGERY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,1274,Pondicherry,"JIPMER, Puducherry",OBG,JIPMER-All India,SC
+1,1275,Punjab,"AIIMS, Bathinda",OBG,AIIMS-All India,OBC
+1,1276,Rajasthan,"AIIMS, Jodhpur",OPHTHALMOLOGY,AIIMS-All India,OBC
+1,1279,Pondicherry,"JIPMER, Puducherry",PATHOLOGY,JIPMER-All India,UR
+1,1280,Uttarakhand,"AIIMS, Rishikesh",OPHTHALMOLOGY,AIIMS-All India,OBC
+1,1281,Pondicherry,"JIPMER, Puducherry",ANAESTHESIOLOGY,JIPMER-All India,OBC
+1,1287,Pondicherry,"JIPMER, Puducherry",PATHOLOGY,JIPMER-All India,UR
+1,1293,Jammu and Kashmir,"AIIMS, Jammu",GENERAL MEDICINE,AIIMS-All India,SC
+1,1299,Delhi,"AIIMS, Delhi",RADIATION ONCOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,1306,Andhra Pradesh,"AIIMS, Mangalagiri",PATHOLOGY,AIIMS-All India,UR
+1,1309,Delhi,"AIIMS, Delhi",ANAESTHESIOLOGY,AIIMS-All India,OBC
+1,1310,Chandigarh,"PGIMER, Chandigarh",HOSPITAL ADMINISTRATION,PGIMER-All India,UR
+1,1312,Uttar Pradesh,"AIIMS, Rai Bareli",ORTHOPAEDICS,AIIMS-All India,OBC
+1,1315,Delhi,"AIIMS, Delhi",ANAESTHESIOLOGY,AIIMS-All India,OBC
+1,1324,Madhya Pradesh,"AIIMS, Bhopal",COMMUNITY MEDICINE,AIIMS-All India,UR
+1,1329,Uttarakhand,"AIIMS, Rishikesh",PATHOLOGY,AIIMS-All India,UR
+1,1335,Delhi,"AIIMS, Delhi",ANAESTHESIOLOGY,AIIMS-All India,OBC
+1,1338,Delhi,"AIIMS, Delhi",ANAESTHESIOLOGY,AIIMS-All India,OBC
+1,1342,Assam,"AIIMS, Guwahati",ORTHOPAEDICS,AIIMS-All India,OBC
+1,1345,Delhi,"AIIMS, Delhi",GERIATRICS,AIIMS-All India,OBC
+1,1348,Bihar,"AIIMS, Patna",OBG,AIIMS-All India,EWS
+1,1350,Delhi,"AIIMS, Delhi",GENERAL MEDICINE,AIIMS-All India,ST
+1,1351,Karnataka,"NIMHANS, Bangalore",PMR,NIMHANS-All India,UR
+1,1362,Chandigarh,"PGIMER, Chandigarh",RADIO DIAGNOSIS,PGIMER-Rural,OBC-RA
+1,1366,Madhya Pradesh,"AIIMS, Bhopal",ANAESTHESIOLOGY,AIIMS-All India,OBC
+1,1368,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",OBG,AIIMS-All India,OBC
+1,1372,Jammu and Kashmir,"AIIMS, Jammu",ORTHOPAEDICS,AIIMS-All India,OBC
+1,1373,Delhi,"AIIMS, Delhi",IHBT,AIIMS-All India,UR
+1,1376,Uttar Pradesh,"AIIMS, Gorakhpur",TRAUMATOLOGY AND SURGERY,AIIMS-All India,OBC
+1,1378,Delhi,"AIIMS, Delhi",ANAESTHESIOLOGY,AIIMS-All India,OBC
+1,1379,Uttarakhand,"AIIMS, Rishikesh",ANAESTHESIOLOGY,AIIMS-All India,OBC
+1,1380,Delhi,"AIIMS, Delhi",RADIATION ONCOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,1382,Delhi,"AIIMS, Delhi",RADIATION ONCOLOGY,AIIMS-All India,SC
+1,1389,Chandigarh,"PGIMER, Chandigarh",ANAESTHESIOLOGY,PGIMER-All India,OBC
+1,1390,Madhya Pradesh,"AIIMS, Bhopal",OPHTHALMOLOGY,AIIMS-All India,OBC
+1,1391,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",ORTHOPAEDICS,AIIMS-All India,OBC
+1,1393,Gujarat,"AIIMS, Rajkot",OBG,AIIMS-All India,OBC
+1,1398,Jharkhand,"AIIMS, Deoghar",ORTHOPAEDICS,AIIMS-All India,OBC
+1,1403,Bihar,"AIIMS, Patna",OPHTHALMOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,1415,Andhra Pradesh,"AIIMS, Mangalagiri",FAMILY MEDICINE,AIIMS-All India,UR
+1,1418,Uttarakhand,"AIIMS, Rishikesh",RADIATION ONCOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,1419,Maharashtra,"AIIMS, Nagpur",OPHTHALMOLOGY,AIIMS-All India,OBC
+1,1421,Chandigarh,"PGIMER, Chandigarh",ANAESTHESIOLOGY,PGIMER-All India,OBC
+1,1422,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-KAR Domicile,OBC-Karnataka Domicile
+1,1429,Delhi,"AIIMS, Delhi",ANAESTHESIOLOGY,AIIMS-All India,EWS
+1,1431,Rajasthan,"AIIMS, Jodhpur",DERMATOLOGY,AIIMS-All India,SC
+1,1435,Pondicherry,"JIPMER, Puducherry",ANAESTHESIOLOGY,JIMPER-Inst. Pref,INST (JIPMER)
+1,1436,Rajasthan,"AIIMS, Jodhpur",ANAESTHESIOLOGY,AIIMS-All India,EWS
+1,1448,Jharkhand,"AIIMS, Deoghar",OBG,AIIMS-All India,OBC
+1,1449,Andhra Pradesh,"AIIMS, Mangalagiri",OPHTHALMOLOGY,AIIMS-All India,OBC
+1,1451,Assam,"AIIMS, Guwahati",OBG,AIIMS-All India,OBC
+1,1454,Madhya Pradesh,"AIIMS, Bhopal",RADIATION ONCOLOGY,AIIMS-All India,OBC
+1,1458,Uttarakhand,"AIIMS, Rishikesh",TBRD,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,1465,Odisha,"AIIMS, Bhubaneswar",PATHOLOGY,AIIMS-All India,UR
+1,1471,Chandigarh,"PGIMER, Chandigarh",ANAESTHESIOLOGY,PGIMER-All India,OBC
+1,1473,Maharashtra,"AIIMS, Nagpur",RADIO DIAGNOSIS,AIIMS-All India,SC
+1,1481,Rajasthan,"AIIMS, Jodhpur",ENT,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,1489,Jammu and Kashmir,"AIIMS, Jammu",OBG,AIIMS-All India,OBC
+1,1496,Chandigarh,"PGIMER, Chandigarh",PSYCHIATRY,PGIMER-All India,OBC
+1,1500,Uttar Pradesh,"AIIMS, Gorakhpur",GENERAL MEDICINE,AIIMS-All India,SC
+1,1504,Chhattisgarh,"AIIMS, Raipur",ORTHOPAEDICS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,1508,Jammu and Kashmir,"AIIMS, Jammu",GENERAL SURGERY,AIIMS-All India,EWS
+1,1512,Delhi,"AIIMS, Delhi",PATHOLOGY,AIIMS-All India,OBC
+1,1529,Maharashtra,"AIIMS, Nagpur",RADIATION ONCOLOGY,AIIMS-All India,OBC
+1,1530,Chandigarh,"PGIMER, Chandigarh",ANAESTHESIOLOGY,PGIMER-All India,OBC
+1,1540,Andhra Pradesh,"AIIMS, Mangalagiri",RADIATION ONCOLOGY,AIIMS-All India,OBC
+1,1549,Andhra Pradesh,"AIIMS, Mangalagiri",GENERAL SURGERY,AIIMS-All India,EWS
+1,1552,Uttarakhand,"AIIMS, Rishikesh",ANAESTHESIOLOGY,AIIMS-All India,OBC
+1,1555,Assam,"AIIMS, Guwahati",ANATOMY,AIIMS-All India,UR
+1,1564,Uttarakhand,"AIIMS, Rishikesh",PSYCHIATRY,AIIMS-All India,OBC
+1,1569,Chhattisgarh,"AIIMS, Raipur",ANAESTHESIOLOGY,AIIMS-All India,OBC
+1,1570,Andhra Pradesh,"AIIMS, Mangalagiri",ANAESTHESIOLOGY,AIIMS-All India,OBC
+1,1576,Andhra Pradesh,"AIIMS, Mangalagiri",ANAESTHESIOLOGY,AIIMS-All India,OBC
+1,1581,Madhya Pradesh,"AIIMS, Bhopal",ANAESTHESIOLOGY,AIIMS-All India,OBC
+1,1588,Maharashtra,"AIIMS, Nagpur",ENT,AIIMS-All India,OBC
+1,1590,Madhya Pradesh,"AIIMS, Bhopal",OPHTHALMOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,1598,Chhattisgarh,"AIIMS, Raipur",EMERGENCY MEDICINE,AIIMS-All India,OBC
+1,1599,Delhi,"AIIMS, Delhi",ENT,AIIMS-All India,EWS
+1,1600,Delhi,"AIIMS, Delhi",IHBT,AIIMS-All India,EWS
+1,1601,Pondicherry,"JIPMER, Puducherry",IHBT,JIPMER-All India,UR
+1,1605,Maharashtra,"AIIMS, Nagpur",ANAESTHESIOLOGY,AIIMS-All India,OBC
+1,1613,Delhi,"AIIMS, Delhi",PAEDIATRICS,AIIMS-All India,SC
+1,1614,Madhya Pradesh,"AIIMS, Bhopal",PMR,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,1616,Chandigarh,"PGIMER, Chandigarh",IHBT,PGIMER-All India,UR
+1,1623,Punjab,"AIIMS, Bathinda",ANAESTHESIOLOGY,AIIMS-All India,OBC
+1,1626,Maharashtra,"AIIMS, Nagpur",PLASTIC SURGERY 6 YRS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,1629,Odisha,"AIIMS, Bhubaneswar",PSYCHIATRY,AIIMS-All India,OBC
+1,1635,Rajasthan,"AIIMS, Jodhpur",ENT,AIIMS-All India,OBC
+1,1636,Odisha,"AIIMS, Bhubaneswar",PATHOLOGY,AIIMS-All India,UR
+1,1638,Jharkhand,"AIIMS, Deoghar",PAEDIATRICS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,1641,Rajasthan,"AIIMS, Jodhpur",PMR,AIIMS-All India,UR
+1,1649,Telangana,"AIIMS, Bibinagar",RADIATION ONCOLOGY,AIIMS-All India,OBC
+1,1651,Odisha,"AIIMS, Bhubaneswar",ANAESTHESIOLOGY,AIIMS-All India,OBC
+1,1654,Chhattisgarh,"AIIMS, Raipur",RADIO DIAGNOSIS,AIIMS-All India,SC
+1,1662,Assam,"AIIMS, Guwahati",COMMUNITY & FAMILY MEDICINE,AIIMS-All India,UR
+1,1663,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-KAR Domicile,OBC-Karnataka Domicile
+1,1668,Telangana,"AIIMS, Bibinagar",ANAESTHESIOLOGY,AIIMS-All India,OBC
+1,1678,Delhi,"AIIMS, Delhi",PHYSIOLOGY,AIIMS-All India,UR
+1,1680,Delhi,"AIIMS, Delhi",PHARMACOLOGY,AIIMS-All India,EWS
+1,1693,Karnataka,"NIMHANS, Bangalore",PMR,NIMHANS-All India,UR
+1,1696,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",TRAUMATOLOGY AND SURGERY,AIIMS-All India,OBC
+1,1700,Delhi,"AIIMS, Delhi",PSYCHIATRY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,1701,Bihar,"AIIMS, Patna",ORTHOPAEDICS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,1710,Pondicherry,"JIPMER, Puducherry",PSYCHIATRY,JIPMER-All India,EWS
+1,1716,Madhya Pradesh,"AIIMS, Bhopal",PSYCHIATRY,AIIMS-All India,OBC
+1,1723,Jharkhand,"AIIMS, Deoghar",OBG,AIIMS-All India,EWS
+1,1727,Delhi,"AIIMS, Delhi",FORENSIC MEDICINE,AIIMS-All India,UR
+1,1735,Chandigarh,"PGIMER, Chandigarh",GENERAL MEDICINE,PGIMER-All India,ST
+1,1744,Punjab,"AIIMS, Bathinda",ORTHOPAEDICS,AIIMS-All India,EWS
+1,1748,Andhra Pradesh,"AIIMS, Mangalagiri",COMMUNITY MEDICINE,AIIMS-All India,UR
+1,1752,Rajasthan,"AIIMS, Jodhpur",ANAESTHESIOLOGY,AIIMS-All India,OBC
+1,1762,Pondicherry,"JIPMER, Puducherry",COMMUNITY MEDICINE,JIPMER-All India,OBC
+1,1768,Rajasthan,"AIIMS, Jodhpur",PATHOLOGY,AIIMS-All India,UR
+1,1775,Punjab,"AIIMS, Bathinda",OPHTHALMOLOGY,AIIMS-All India,OBC
+1,1783,Madhya Pradesh,"AIIMS, Bhopal",PATHOLOGY,AIIMS-All India,UR
+1,1787,Maharashtra,"AIIMS, Nagpur",OBG,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,1796,Delhi,"AIIMS, Delhi",PAEDIATRICS,AIIMS-All India,SC
+1,1797,Chhattisgarh,"AIIMS, Raipur",PAEDIATRIC SURGERY 6 YRS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,1803,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",EMERGENCY MEDICINE,AIIMS-All India,OBC
+1,1809,Pondicherry,"JIPMER, Puducherry",PAEDIATRICS,JIPMER-All India,SC
+1,1811,Maharashtra,"AIIMS, Nagpur",ANAESTHESIOLOGY,AIIMS-All India,EWS
+1,1813,Chandigarh,"PGIMER, Chandigarh",PHARMACOLOGY,PGIMER-All India,UR
+1,1815,Chhattisgarh,"AIIMS, Raipur",OPHTHALMOLOGY,AIIMS-All India,OBC
+1,1821,Chhattisgarh,"AIIMS, Raipur",PSYCHIATRY,AIIMS-All India,OBC
+1,1824,Rajasthan,"AIIMS, Jodhpur",ANAESTHESIOLOGY,AIIMS-All India,OBC
+1,1825,Rajasthan,"AIIMS, Jodhpur",COMMUNITY MEDICINE,AIIMS-All India,UR
+1,1826,Madhya Pradesh,"AIIMS, Bhopal",PATHOLOGY,AIIMS-All India,UR
+1,1828,Andhra Pradesh,"AIIMS, Mangalagiri",RADIO DIAGNOSIS,AIIMS-All India,SC
+1,1832,Madhya Pradesh,"AIIMS, Bhopal",FORENSIC MEDICINE,AIIMS-All India,UR
+1,1833,Chandigarh,"PGIMER, Chandigarh",MICROBIOLOGY,PGIMER-All India,UR
+1,1835,Pondicherry,"JIPMER, Puducherry",OPHTHALMOLOGY,JIMPER-Inst. Pref,INST (JIPMER)
+1,1836,Chandigarh,"PGIMER, Chandigarh",PAEDIATRICS,PGIMER-All India,SC
+1,1848,Bihar,"AIIMS, Patna",RADIATION ONCOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,1860,Rajasthan,"AIIMS, Jodhpur",ENT,AIIMS-All India,OBC
+1,1862,Pondicherry,"JIPMER, Puducherry",GENERAL MEDICINE,JIPMER-All India,ST
+1,1871,Chandigarh,"PGIMER, Chandigarh",BIOCHEMISTRY,PGIMER-All India,UR
+1,1884,Maharashtra,"AIIMS, Nagpur",HOSPITAL ADMINISTRATION,AIIMS-All India,UR
+1,1888,Odisha,"AIIMS, Bhubaneswar",ANAESTHESIOLOGY,AIIMS-All India,OBC
+1,1900,Delhi,"AIIMS, Delhi",PATHOLOGY,AIIMS-All India,OBC
+1,1903,Pondicherry,"JIPMER, Puducherry",PATHOLOGY,JIPMER-All India,OBC
+1,1905,Chhattisgarh,"AIIMS, Raipur",ENT,AIIMS-All India,OBC
+1,1908,Delhi,"AIIMS, Delhi",ENT,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,1909,Odisha,"AIIMS, Bhubaneswar",PSYCHIATRY,AIIMS-All India,OBC
+1,1910,Chhattisgarh,"AIIMS, Raipur",OPHTHALMOLOGY,AIIMS-All India,EWS
+1,1911,Chandigarh,"PGIMER, Chandigarh",IHBT,PGIMER-All India,UR
+1,1912,Telangana,"AIIMS, Bibinagar",PMR,AIIMS-All India,UR
+1,1917,Delhi,"AIIMS, Delhi",ORTHOPAEDICS,AIIMS-All India,SC
+1,1922,Madhya Pradesh,"AIIMS, Bhopal",ANAESTHESIOLOGY,AIIMS-All India,EWS
+1,1926,Uttar Pradesh,"AIIMS, Rai Bareli",PATHOLOGY,AIIMS-All India,UR
+1,1927,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",ANAESTHESIOLOGY,AIIMS-All India,EWS
+1,1928,Madhya Pradesh,"AIIMS, Bhopal",ANATOMY,AIIMS-All India,UR
+1,1931,Uttarakhand,"AIIMS, Rishikesh",DERMATOLOGY,AIIMS-All India,SC
+1,1938,Odisha,"AIIMS, Bhubaneswar",HOSPITAL ADMINISTRATION,AIIMS-All India,OBC
+1,1941,West Bengal,"AIIMS, Kalyani",RADIATION ONCOLOGY,AIIMS-All India,EWS
+1,1944,Chandigarh,"PGIMER, Chandigarh",PAEDIATRICS,PGIMER-All India,SC
+1,1951,Odisha,"AIIMS, Bhubaneswar",ANAESTHESIOLOGY,AIIMS-All India,EWS
+1,1954,Bihar,"AIIMS, Patna",PSYCHIATRY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,1955,Rajasthan,"AIIMS, Jodhpur",ANAESTHESIOLOGY,AIIMS-All India,OBC
+1,1957,Bihar,"AIIMS, Patna",ENT,AIIMS-All India,OBC
+1,1959,Pondicherry,"JIPMER, Puducherry",ORTHOPAEDICS,JIMPER-Inst. Pref,INST (JIPMER)
+1,1962,Bihar,"AIIMS, Patna",OPHTHALMOLOGY,AIIMS-All India,OBC
+1,1966,Jammu and Kashmir,"AIIMS, Jammu",PATHOLOGY,AIIMS-All India,UR
+1,1977,Jammu and Kashmir,"AIIMS, Jammu",PMR,AIIMS-All India,UR
+1,1995,Pondicherry,"JIPMER, Puducherry",RADIATION ONCOLOGY,JIMPER-Inst. Pref,INST (JIPMER)
+1,1997,Chhattisgarh,"AIIMS, Raipur",PATHOLOGY,AIIMS-All India,UR
+1,2006,Delhi,"AIIMS, Delhi",ANAESTHESIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,2009,Bihar,"AIIMS, Patna",EMERGENCY MEDICINE,AIIMS-All India,EWS
+1,2013,Delhi,"AIIMS, Delhi",OBG,AIIMS-All India,SC
+1,2018,Andhra Pradesh,"AIIMS, Mangalagiri",PAEDIATRICS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,2026,Jharkhand,"AIIMS, Deoghar",ENT,AIIMS-All India,OBC
+1,2035,Chhattisgarh,"AIIMS, Raipur",IHBT,AIIMS-All India,UR
+1,2044,Madhya Pradesh,"AIIMS, Bhopal",RADIO DIAGNOSIS,AIIMS-All India,ST
+1,2046,Maharashtra,"AIIMS, Nagpur",OBG,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,2049,Bihar,"AIIMS, Patna",ENT,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,2052,Delhi,"AIIMS, Delhi",PHYSIOLOGY,AIIMS-All India,UR
+1,2056,Rajasthan,"AIIMS, Jodhpur",ANAESTHESIOLOGY,AIIMS-All India,OBC
+1,2065,Punjab,"AIIMS, Bathinda",PATHOLOGY,AIIMS-All India,UR
+1,2078,Chhattisgarh,"AIIMS, Raipur",PATHOLOGY,AIIMS-All India,UR
+1,2081,Jharkhand,"AIIMS, Deoghar",PATHOLOGY,AIIMS-All India,UR
+1,2088,Telangana,"AIIMS, Bibinagar",IHBT,AIIMS-All India,UR
+1,2091,Pondicherry,"JIPMER, Puducherry",PSYCHIATRY,JIMPER-Inst. Pref,INST (JIPMER)-PwD
+1,2093,West Bengal,"AIIMS, Kalyani",PATHOLOGY,AIIMS-All India,UR
+1,2094,Delhi,"AIIMS, Delhi",GENERAL SURGERY,AIIMS-All India,UR-PwD
+1,2099,Punjab,"AIIMS, Bathinda",HOSPITAL ADMINISTRATION,AIIMS-All India,UR
+1,2102,Pondicherry,"JIPMER, Puducherry",PATHOLOGY,JIPMER-All India,OBC
+1,2106,Chandigarh,"PGIMER, Chandigarh",GENERAL MEDICINE,PGIMER-Rural,UR-RA
+1,2107,Rajasthan,"AIIMS, Jodhpur",ANAESTHESIOLOGY,AIIMS-All India,OBC
+1,2108,Andhra Pradesh,"AIIMS, Mangalagiri",PSYCHIATRY,AIIMS-All India,OBC
+1,2109,Punjab,"AIIMS, Bathinda",RADIO DIAGNOSIS,AIIMS-All India,SC
+1,2110,Chhattisgarh,"AIIMS, Raipur",PATHOLOGY,AIIMS-All India,OBC
+1,2112,Andhra Pradesh,"AIIMS, Mangalagiri",ORTHOPAEDICS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,2119,Bihar,"AIIMS, Patna",ANAESTHESIOLOGY,AIIMS-All India,OBC
+1,2120,Madhya Pradesh,"AIIMS, Bhopal",FORENSIC MEDICINE,AIIMS-All India,UR
+1,2127,Uttarakhand,"AIIMS, Rishikesh",ORTHOPAEDICS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,2128,Punjab,"AIIMS, Bathinda",PAEDIATRICS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,2143,Odisha,"AIIMS, Bhubaneswar",ENT,AIIMS-All India,EWS
+1,2149,Chandigarh,"PGIMER, Chandigarh",ORTHOPAEDICS,PGIMER-All India,SC
+1,2156,Chhattisgarh,"AIIMS, Raipur",EMERGENCY MEDICINE,AIIMS-All India,EWS
+1,2178,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",ANAESTHESIOLOGY,AIIMS-All India,OBC
+1,2210,Jammu and Kashmir,"AIIMS, Jammu",COMMUNITY MEDICINE,AIIMS-All India,UR
+1,2213,Assam,"AIIMS, Guwahati",RADIO DIAGNOSIS,AIIMS-All India,SC
+1,2224,Chandigarh,"PGIMER, Chandigarh",PAEDIATRICS,PGIMER-Rural,UR-RA
+1,2225,Jharkhand,"AIIMS, Deoghar",ANAESTHESIOLOGY,AIIMS-All India,OBC
+1,2230,Delhi,"AIIMS, Delhi",PALLIATIVE MEDICINE,AIIMS-All India,OBC
+1,2250,Pondicherry,"JIPMER, Puducherry",ORTHOPAEDICS,JIPMER-All India,SC
+1,2251,Bihar,"AIIMS, Patna",ANAESTHESIOLOGY,AIIMS-All India,OBC
+1,2263,Delhi,"AIIMS, Delhi",PALLIATIVE MEDICINE,AIIMS-All India,OBC
+1,2266,Jharkhand,"AIIMS, Deoghar",OPHTHALMOLOGY,AIIMS-All India,OBC
+1,2269,Delhi,"AIIMS, Delhi",BIOPHYSICS,AIIMS-All India,OBC
+1,2276,Rajasthan,"AIIMS, Jodhpur",PATHOLOGY,AIIMS-All India,OBC
+1,2278,Pondicherry,"JIPMER, Puducherry",EMERGENCY MEDICINE,JIMPER-Inst. Pref,INST (JIPMER)
+1,2279,Delhi,"AIIMS, Delhi",IHBT,AIIMS-All India,OBC
+1,2280,Punjab,"AIIMS, Bathinda",ANAESTHESIOLOGY,AIIMS-All India,OBC
+1,2284,Madhya Pradesh,"AIIMS, Bhopal",ANAESTHESIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,2302,Telangana,"AIIMS, Bibinagar",HOSPITAL ADMINISTRATION,AIIMS-All India,UR
+1,2303,Odisha,"AIIMS, Bhubaneswar",PAEDIATRIC SURGERY 6 YRS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,2304,Uttar Pradesh,"AIIMS, Rai Bareli",EMERGENCY MEDICINE,AIIMS-All India,OBC
+1,2313,Chandigarh,"PGIMER, Chandigarh",GENERAL SURGERY,PGIMER-All India,ST
+1,2330,Chandigarh,"PGIMER, Chandigarh",PATHOLOGY,PGIMER-All India,OBC
+1,2335,Pondicherry,"JIPMER, Puducherry",ANAESTHESIOLOGY,JIMPER-Inst. Pref,INST (JIPMER)
+1,2336,Chandigarh,"PGIMER, Chandigarh",PHARMACOLOGY,PGIMER-All India,UR
+1,2352,Pondicherry,"JIPMER, Puducherry",PATHOLOGY,JIPMER-All India,OBC
+1,2353,Andhra Pradesh,"AIIMS, Mangalagiri",GENERAL SURGERY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,2359,Assam,"AIIMS, Guwahati",ANAESTHESIOLOGY,AIIMS-All India,OBC
+1,2366,West Bengal,"AIIMS, Kalyani",OPHTHALMOLOGY,AIIMS-All India,OBC
+1,2373,Madhya Pradesh,"AIIMS, Bhopal",CARDIO THORACIC AND VASCULAR SURGERY 6 YRS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,2375,Jharkhand,"AIIMS, Deoghar",ANAESTHESIOLOGY,AIIMS-All India,OBC
+1,2377,Punjab,"AIIMS, Bathinda",OPHTHALMOLOGY,AIIMS-All India,EWS
+1,2381,Pondicherry,"JIPMER, Puducherry",GENERAL SURGERY,JIPMER-All India,SC
+1,2383,Chandigarh,"PGIMER, Chandigarh",RADIO DIAGNOSIS,PGIMER-All India,OBC-PwD
+1,2390,Uttar Pradesh,"AIIMS, Gorakhpur",RADIO DIAGNOSIS,AIIMS-All India,SC
+1,2403,Uttarakhand,"AIIMS, Rishikesh",ANAESTHESIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,2409,Uttar Pradesh,"AIIMS, Gorakhpur",ANAESTHESIOLOGY,AIIMS-All India,OBC
+1,2420,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",OBG,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,2421,Uttar Pradesh,"AIIMS, Gorakhpur",EMERGENCY MEDICINE,AIIMS-All India,EWS
+1,2429,Maharashtra,"AIIMS, Nagpur",IHBT,AIIMS-All India,UR
+1,2439,Bihar,"AIIMS, Patna",TRAUMASURG&CC (6 YRS),AIIMS-Inst. Pref,UR-AIIMS-IP
+1,2440,Delhi,"AIIMS, Delhi",NUCLEAR MEDICINE,AIIMS-All India,SC
+1,2442,Gujarat,"AIIMS, Rajkot",ANAESTHESIOLOGY,AIIMS-All India,OBC
+1,2445,Pondicherry,"JIPMER, Puducherry",OPHTHALMOLOGY,JIMPER-Inst. Pref,INST (JIPMER)
+1,2450,Jammu and Kashmir,"AIIMS, Jammu",ANAESTHESIOLOGY,AIIMS-All India,OBC
+1,2454,Uttar Pradesh,"AIIMS, Rai Bareli",NEUROSURGERY 6 YRS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,2455,Punjab,"AIIMS, Bathinda",PSYCHIATRY,AIIMS-All India,OBC
+1,2458,Bihar,"AIIMS, Patna",ANAESTHESIOLOGY,AIIMS-All India,EWS
+1,2464,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",OPHTHALMOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,2467,Jammu and Kashmir,"AIIMS, Jammu",ANAESTHESIOLOGY,AIIMS-All India,OBC
+1,2471,West Bengal,"AIIMS, Kalyani",ENT,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,2477,Bihar,"AIIMS, Patna",FORENSIC MEDICINE,AIIMS-All India,UR
+1,2483,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",PSYCHIATRY,AIIMS-All India,OBC
+1,2484,Madhya Pradesh,"AIIMS, Bhopal",FAMILY MEDICINE,AIIMS-All India,EWS
+1,2486,Chandigarh,"PGIMER, Chandigarh",GENERAL SURGERY,PGIMER-Rural,UR-RA
+1,2489,Chandigarh,"PGIMER, Chandigarh",IHBT,PGIMER-All India,OBC
+1,2496,Rajasthan,"AIIMS, Jodhpur",ENT,AIIMS-All India,EWS
+1,2506,Maharashtra,"AIIMS, Nagpur",COMMUNITY MEDICINE,AIIMS-All India,UR
+1,2508,Madhya Pradesh,"AIIMS, Bhopal",IHBT,AIIMS-All India,UR
+1,2522,Delhi,"AIIMS, Delhi",ENT,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,2536,Uttar Pradesh,"AIIMS, Gorakhpur",PSYCHIATRY,AIIMS-All India,OBC
+1,2538,Andhra Pradesh,"AIIMS, Mangalagiri",ENT,AIIMS-All India,EWS
+1,2557,Uttarakhand,"AIIMS, Rishikesh",ANAESTHESIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,2563,Maharashtra,"AIIMS, Nagpur",FAMILY MEDICINE,AIIMS-All India,OBC
+1,2568,Madhya Pradesh,"AIIMS, Bhopal",ANAESTHESIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,2569,Delhi,"AIIMS, Delhi",PMR,AIIMS-All India,OBC
+1,2575,Pondicherry,"JIPMER, Puducherry",PSYCHIATRY,JIMPER-Inst. Pref,INST (JIPMER)
+1,2583,Maharashtra,"AIIMS, Nagpur",ENT,AIIMS-All India,EWS
+1,2607,Punjab,"AIIMS, Bathinda",ANAESTHESIOLOGY,AIIMS-All India,EWS
+1,2608,Andhra Pradesh,"AIIMS, Mangalagiri",FORENSIC MEDICINE,AIIMS-All India,UR
+1,2613,Rajasthan,"AIIMS, Jodhpur",BIOCHEMISTRY,AIIMS-All India,UR
+1,2629,Delhi,"AIIMS, Delhi",COMMUNITY MEDICINE,AIIMS-All India,OBC
+1,2637,Odisha,"AIIMS, Bhubaneswar",PATHOLOGY,AIIMS-All India,OBC
+1,2642,Uttar Pradesh,"AIIMS, Gorakhpur",OPHTHALMOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,2652,Madhya Pradesh,"AIIMS, Bhopal",NUCLEAR MEDICINE,AIIMS-All India,SC
+1,2653,Uttarakhand,"AIIMS, Rishikesh",GERIATRICS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,2662,Pondicherry,"JIPMER, Puducherry",PHARMACOLOGY,JIPMER-All India,EWS
+1,2666,Punjab,"AIIMS, Bathinda",DERMATOLOGY,AIIMS-All India,SC
+1,2674,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-All India,SC
+1,2684,Delhi,"AIIMS, Delhi",COMMUNITY MEDICINE,AIIMS-All India,OBC
+1,2687,Madhya Pradesh,"AIIMS, Bhopal",COMMUNITY MEDICINE,AIIMS-All India,OBC
+1,2692,Rajasthan,"AIIMS, Jodhpur",PAEDIATRICS,AIIMS-All India,SC
+1,2701,Rajasthan,"AIIMS, Jodhpur",GENERAL MEDICINE,AIIMS-All India,ST
+1,2702,Uttar Pradesh,"AIIMS, Rai Bareli",OPHTHALMOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,2723,Chhattisgarh,"AIIMS, Raipur",DERMATOLOGY,AIIMS-All India,SC
+1,2730,Pondicherry,"JIPMER, Puducherry",TBRD,JIPMER-All India,SC
+1,2735,Uttarakhand,"AIIMS, Rishikesh",PLASTIC SURGERY 6 YRS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,2743,Chandigarh,"PGIMER, Chandigarh",OBG,PGIMER-All India,SC
+1,2745,Chhattisgarh,"AIIMS, Raipur",ANAESTHESIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,2746,Delhi,"AIIMS, Delhi",ANATOMY,AIIMS-All India,UR
+1,2753,Odisha,"AIIMS, Bhubaneswar",ENT,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,2782,Delhi,"AIIMS, Delhi",GENERAL SURGERY,AIIMS-All India,SC
+1,2793,Jharkhand,"AIIMS, Deoghar",ANAESTHESIOLOGY,AIIMS-All India,EWS
+1,2798,Pondicherry,"JIPMER, Puducherry",COMMUNITY MEDICINE,JIPMER-All India,OBC
+1,2800,Chandigarh,"PGIMER, Chandigarh",GENERAL SURGERY,PGIMER-All India,SC
+1,2821,Pondicherry,"JIPMER, Puducherry",PATHOLOGY,JIPMER-All India,OBC
+1,2823,Delhi,"AIIMS, Delhi",OPHTHALMOLOGY,AIIMS-All India,SC
+1,2832,Uttar Pradesh,"AIIMS, Rai Bareli",ENT,AIIMS-All India,EWS
+1,2853,Uttarakhand,"AIIMS, Rishikesh",NUCLEAR MEDICINE,AIIMS-All India,SC
+1,2862,Andhra Pradesh,"AIIMS, Mangalagiri",OBG,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,2890,Jharkhand,"AIIMS, Deoghar",ORTHOPAEDICS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,2914,Uttarakhand,"AIIMS, Rishikesh",GENERAL SURGERY,AIIMS-All India,SC
+1,2927,Chandigarh,"PGIMER, Chandigarh",MICROBIOLOGY,PGIMER-All India,UR
+1,2933,Pondicherry,"JIPMER, Puducherry",ANAESTHESIOLOGY,JIPMER-All India,SC
+1,2944,Punjab,"AIIMS, Bathinda",OBG,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,2946,Gujarat,"AIIMS, Rajkot",COMMUNITY & FAMILY MEDICINE,AIIMS-All India,UR
+1,2948,Pondicherry,"JIPMER, Puducherry",PHYSIOLOGY,JIPMER-All India,UR
+1,2950,Pondicherry,"JIPMER, Puducherry",EMERGENCY MEDICINE,JIPMER-All India,SC
+1,2962,Delhi,"AIIMS, Delhi",COMMUNITY MEDICINE,AIIMS-All India,SC
+1,2965,Pondicherry,"JIPMER, Puducherry",MICROBIOLOGY,JIPMER-All India,OBC
+1,2969,Telangana,"AIIMS, Bibinagar",PATHOLOGY,AIIMS-All India,OBC
+1,2970,Odisha,"AIIMS, Bhubaneswar",IHBT,AIIMS-All India,OBC
+1,2978,Pondicherry,"JIPMER, Puducherry",PAEDIATRICS,JIPMER-All India,ST
+1,2980,Pondicherry,"JIPMER, Puducherry",PHYSIOLOGY,JIPMER-All India,UR
+1,3001,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-NE Domicile,OBC-North East Domicile
+1,3007,Pondicherry,"JIPMER, Puducherry",ANAESTHESIOLOGY,JIMPER-Inst. Pref,INST (JIPMER)
+1,3017,Madhya Pradesh,"AIIMS, Bhopal",PATHOLOGY,AIIMS-All India,OBC
+1,3018,Uttarakhand,"AIIMS, Rishikesh",MICROBIOLOGY,AIIMS-All India,UR
+1,3021,Delhi,"AIIMS, Delhi",PAEDIATRICS,AIIMS-All India,ST
+1,3036,Chandigarh,"PGIMER, Chandigarh",PSYCHIATRY,PGIMER-All India,SC
+1,3037,Maharashtra,"AIIMS, Nagpur",PLASTIC SURGERY 6 YRS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,3038,Bihar,"AIIMS, Patna",PHARMACOLOGY,AIIMS-All India,UR
+1,3043,Bihar,"AIIMS, Patna",ANAESTHESIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,3050,Pondicherry,"JIPMER, Puducherry",ANAESTHESIOLOGY,JIPMER-All India,SC
+1,3066,Uttarakhand,"AIIMS, Rishikesh",PSYCHIATRY,AIIMS-All India,SC
+1,3067,Maharashtra,"AIIMS, Nagpur",DERMATOLOGY,AIIMS-All India,SC
+1,3088,Assam,"AIIMS, Guwahati",PMR,AIIMS-All India,OBC
+1,3095,Maharashtra,"AIIMS, Nagpur",PMR,AIIMS-All India,OBC
+1,3120,Assam,"AIIMS, Guwahati",COMMUNITY & FAMILY MEDICINE,AIIMS-All India,UR
+1,3138,Madhya Pradesh,"AIIMS, Bhopal",GENERAL SURGERY,AIIMS-All India,SC
+1,3150,Bihar,"AIIMS, Patna",PMR,AIIMS-All India,OBC
+1,3155,Pondicherry,"JIPMER, Puducherry",PMR,JIPMER-All India,EWS
+1,3156,Delhi,"AIIMS, Delhi",EMERGENCY MEDICINE,AIIMS-All India,SC
+1,3191,Delhi,"AIIMS, Delhi",FORENSIC MEDICINE,AIIMS-All India,OBC
+1,3198,Gujarat,"AIIMS, Rajkot",DERMATOLOGY,AIIMS-All India,SC
+1,3228,Uttar Pradesh,"AIIMS, Gorakhpur",PATHOLOGY,AIIMS-All India,OBC
+1,3249,Maharashtra,"AIIMS, Nagpur",OBG,AIIMS-All India,SC
+1,3256,Delhi,"AIIMS, Delhi",HOSPITAL ADMINISTRATION,AIIMS-All India,OBC
+1,3263,Pondicherry,"JIPMER, Puducherry",MICROBIOLOGY,JIPMER-All India,OBC
+1,3266,Chhattisgarh,"AIIMS, Raipur",PHARMACOLOGY,AIIMS-All India,UR
+1,3277,Punjab,"AIIMS, Bathinda",COMMUNITY & FAMILY MEDICINE,AIIMS-All India,OBC
+1,3286,Rajasthan,"AIIMS, Jodhpur",MICROBIOLOGY,AIIMS-All India,UR
+1,3298,Bihar,"AIIMS, Patna",CARDIO THORACIC AND VASCULAR SURGERY 6 YRS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,3356,Punjab,"AIIMS, Bathinda",RADIO DIAGNOSIS,AIIMS-All India,OBC-PwD
+1,3372,Bihar,"AIIMS, Patna",GENERAL MEDICINE,AIIMS-All India,ST
+1,3394,Delhi,"AIIMS, Delhi",COMMUNITY MEDICINE,AIIMS-All India,EWS
+1,3406,Uttarakhand,"AIIMS, Rishikesh",PAEDIATRICS,AIIMS-All India,SC
+1,3418,Delhi,"AIIMS, Delhi",ANAESTHESIOLOGY,AIIMS-All India,SC
+1,3438,Chhattisgarh,"AIIMS, Raipur",ANAESTHESIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,3465,Punjab,"AIIMS, Bathinda",ENT,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,3466,Delhi,"AIIMS, Delhi",ANAESTHESIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,3485,Maharashtra,"AIIMS, Nagpur",PATHOLOGY,AIIMS-All India,OBC
+1,3492,Maharashtra,"AIIMS, Nagpur",MICROBIOLOGY,AIIMS-All India,UR
+1,3496,Assam,"AIIMS, Guwahati",PATHOLOGY,AIIMS-All India,OBC
+1,3500,Bihar,"AIIMS, Patna",PATHOLOGY,AIIMS-All India,OBC
+1,3513,Chhattisgarh,"AIIMS, Raipur",MICROBIOLOGY,AIIMS-All India,UR
+1,3515,Assam,"AIIMS, Guwahati",COMMUNITY & FAMILY MEDICINE,AIIMS-All India,UR
+1,3526,Pondicherry,"JIPMER, Puducherry",ORTHOPAEDICS,JIPMER-All India,SC
+1,3553,Bihar,"AIIMS, Patna",PAEDIATRICS,AIIMS-All India,SC
+1,3555,Chandigarh,"PGIMER, Chandigarh",ANAESTHESIOLOGY,PGIMER-Rural,UR-RA
+1,3564,Madhya Pradesh,"AIIMS, Bhopal",PAEDIATRICS,AIIMS-All India,SC
+1,3575,Telangana,"AIIMS, Bibinagar",MICROBIOLOGY,AIIMS-All India,UR
+1,3586,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-All India,SC
+1,3595,Odisha,"AIIMS, Bhubaneswar",PAEDIATRICS,AIIMS-All India,SC
+1,3603,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-All India,SC
+1,3612,Chhattisgarh,"AIIMS, Raipur",ANAESTHESIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,3649,Delhi,"AIIMS, Delhi",GENERAL SURGERY,AIIMS-All India,SC
+1,3655,Odisha,"AIIMS, Bhubaneswar",PHARMACOLOGY,AIIMS-All India,UR
+1,3659,Maharashtra,"AIIMS, Nagpur",PATHOLOGY,AIIMS-All India,OBC
+1,3661,Punjab,"AIIMS, Bathinda",ORTHOPAEDICS,AIIMS-All India,SC
+1,3698,Telangana,"AIIMS, Bibinagar",PMR,AIIMS-All India,OBC
+1,3700,Uttar Pradesh,"AIIMS, Gorakhpur",ANAESTHESIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,3707,Uttar Pradesh,"AIIMS, Rai Bareli",PATHOLOGY,AIIMS-All India,OBC
+1,3735,Assam,"AIIMS, Guwahati",COMMUNITY & FAMILY MEDICINE,AIIMS-All India,OBC
+1,3736,Maharashtra,"AIIMS, Nagpur",ENT,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,3737,Andhra Pradesh,"AIIMS, Mangalagiri",ANAESTHESIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,3741,Assam,"AIIMS, Guwahati",PATHOLOGY,AIIMS-All India,OBC
+1,3745,Gujarat,"AIIMS, Rajkot",ENT,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,3746,Maharashtra,"AIIMS, Nagpur",PAEDIATRICS,AIIMS-All India,SC
+1,3747,Jharkhand,"AIIMS, Deoghar",ORTHOPAEDICS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,3754,Delhi,"AIIMS, Delhi",HOSPITAL ADMINISTRATION,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,3767,Delhi,"AIIMS, Delhi",OPHTHALMOLOGY,AIIMS-All India,SC
+1,3777,Jharkhand,"AIIMS, Deoghar",MICROBIOLOGY,AIIMS-All India,UR
+1,3778,Punjab,"AIIMS, Bathinda",MICROBIOLOGY,AIIMS-All India,UR
+1,3782,Odisha,"AIIMS, Bhubaneswar",RADIO DIAGNOSIS,AIIMS-All India,ST
+1,3797,Odisha,"AIIMS, Bhubaneswar",NUCLEAR MEDICINE,AIIMS-All India,SC
+1,3802,Maharashtra,"AIIMS, Nagpur",GENERAL MEDICINE,AIIMS-All India,ST
+1,3803,Assam,"AIIMS, Guwahati",PHYSIOLOGY,AIIMS-All India,UR
+1,3809,Delhi,"AIIMS, Delhi",PATHOLOGY,AIIMS-All India,EWS
+1,3823,Uttarakhand,"AIIMS, Rishikesh",RADIATION ONCOLOGY,AIIMS-All India,SC
+1,3851,Chhattisgarh,"AIIMS, Raipur",NUCLEAR MEDICINE,AIIMS-All India,UR-PwD
+1,3872,Andhra Pradesh,"AIIMS, Mangalagiri",COMMUNITY MEDICINE,AIIMS-All India,OBC
+1,3877,Andhra Pradesh,"AIIMS, Mangalagiri",NUCLEAR MEDICINE,AIIMS-All India,SC
+1,3887,West Bengal,"AIIMS, Kalyani",PHYSIOLOGY,AIIMS-All India,UR
+1,3910,Delhi,"AIIMS, Delhi",ENT,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,3911,Rajasthan,"AIIMS, Jodhpur",ANAESTHESIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,3943,Rajasthan,"AIIMS, Jodhpur",PSYCHIATRY,AIIMS-All India,SC
+1,3945,Rajasthan,"AIIMS, Jodhpur",PAEDIATRIC SURGERY 6 YRS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,3973,Chandigarh,"PGIMER, Chandigarh",ANAESTHESIOLOGY,PGIMER-All India,SC
+1,3993,Chandigarh,"PGIMER, Chandigarh",GENERAL SURGERY,PGIMER-All India,SC
+1,4007,Punjab,"AIIMS, Bathinda",GENERAL MEDICINE,AIIMS-All India,ST
+1,4015,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",PATHOLOGY,AIIMS-All India,OBC
+1,4024,Assam,"AIIMS, Guwahati",PHYSIOLOGY,AIIMS-All India,UR
+1,4025,Uttarakhand,"AIIMS, Rishikesh",IHBT,AIIMS-All India,OBC
+1,4027,Bihar,"AIIMS, Patna",GENERAL SURGERY,AIIMS-All India,SC
+1,4033,Pondicherry,"JIPMER, Puducherry",RADIATION ONCOLOGY,JIPMER-All India,SC
+1,4045,Bihar,"AIIMS, Patna",EMERGENCY MEDICINE,AIIMS-All India,SC
+1,4047,Assam,"AIIMS, Guwahati",PHARMACOLOGY,AIIMS-All India,UR
+1,4053,Telangana,"AIIMS, Bibinagar",ANATOMY,AIIMS-All India,OBC
+1,4067,Delhi,"AIIMS, Delhi",ANATOMY,AIIMS-All India,UR
+1,4082,Chandigarh,"PGIMER, Chandigarh",HOSPITAL ADMINISTRATION,PGIMER-All India,OBC
+1,4103,Chandigarh,"PGIMER, Chandigarh",GENERAL SURGERY,PGIMER-All India,SC
+1,4109,Delhi,"AIIMS, Delhi",LAB MEDICINE,AIIMS-All India,OBC
+1,4150,Pondicherry,"JIPMER, Puducherry",FORENSIC MEDICINE,JIMPER-Inst. Pref,INST (JIPMER)
+1,4153,Odisha,"AIIMS, Bhubaneswar",OPHTHALMOLOGY,AIIMS-All India,SC
+1,4158,Uttar Pradesh,"AIIMS, Rai Bareli",EMERGENCY MEDICINE,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,4162,Chandigarh,"PGIMER, Chandigarh",OBG,PGIMER-Rural,UR-RA
+1,4165,Pondicherry,"JIPMER, Puducherry",PHARMACOLOGY,JIPMER-All India,SC
+1,4177,Andhra Pradesh,"AIIMS, Mangalagiri",RADIO DIAGNOSIS,AIIMS-All India,ST
+1,4180,Uttar Pradesh,"AIIMS, Gorakhpur",ORTHOPAEDICS,AIIMS-All India,SC
+1,4182,Pondicherry,"JIPMER, Puducherry",ENT,JIPMER-All India,SC-PwD
+1,4187,Bihar,"AIIMS, Patna",ANAESTHESIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,4193,Andhra Pradesh,"AIIMS, Mangalagiri",OBG,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,4197,Andhra Pradesh,"AIIMS, Mangalagiri",GENERAL MEDICINE,AIIMS-All India,ST
+1,4202,Jharkhand,"AIIMS, Deoghar",MICROBIOLOGY,AIIMS-All India,OBC
+1,4211,West Bengal,"AIIMS, Kalyani",OPHTHALMOLOGY,AIIMS-All India,SC
+1,4216,Madhya Pradesh,"AIIMS, Bhopal",FORENSIC MEDICINE,AIIMS-All India,OBC
+1,4239,Rajasthan,"AIIMS, Jodhpur",PATHOLOGY,AIIMS-All India,EWS
+1,4252,Bihar,"AIIMS, Patna",ANAESTHESIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,4253,Chandigarh,"PGIMER, Chandigarh",ANAESTHESIOLOGY,PGIMER-All India,SC
+1,4268,Uttarakhand,"AIIMS, Rishikesh",OBG,AIIMS-All India,SC
+1,4269,Uttarakhand,"AIIMS, Rishikesh",EMERGENCY MEDICINE,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,4280,Rajasthan,"AIIMS, Jodhpur",ANAESTHESIOLOGY,AIIMS-All India,SC
+1,4284,Andhra Pradesh,"AIIMS, Mangalagiri",BIOCHEMISTRY,AIIMS-All India,UR
+1,4301,Bihar,"AIIMS, Patna",BIOCHEMISTRY,AIIMS-All India,UR
+1,4318,Pondicherry,"JIPMER, Puducherry",ANATOMY,JIPMER-All India,OBC-PwD
+1,4331,Madhya Pradesh,"AIIMS, Bhopal",ORTHOPAEDICS,AIIMS-All India,ST
+1,4340,Jharkhand,"AIIMS, Deoghar",PSYCHIATRY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,4354,Assam,"AIIMS, Guwahati",BIOCHEMISTRY,AIIMS-All India,UR
+1,4358,Bihar,"AIIMS, Patna",ANATOMY,AIIMS-All India,UR
+1,4377,Pondicherry,"JIPMER, Puducherry",BIOCHEMISTRY,JIPMER-All India,OBC
+1,4389,Chhattisgarh,"AIIMS, Raipur",IHBT,AIIMS-All India,OBC
+1,4394,Delhi,"AIIMS, Delhi",PHYSIOLOGY,AIIMS-All India,OBC
+1,4395,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",GENERAL MEDICINE,AIIMS-All India,ST
+1,4414,Rajasthan,"AIIMS, Jodhpur",PAEDIATRIC SURGERY 6 YRS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,4417,Pondicherry,"JIPMER, Puducherry",COMMUNITY MEDICINE,JIMPER-Inst. Pref,INST (JIPMER)
+1,4463,Chandigarh,"PGIMER, Chandigarh",PAEDIATRICS,PGIMER-All India,ST
+1,4468,Delhi,"AIIMS, Delhi",ANAESTHESIOLOGY,AIIMS-All India,SC
+1,4508,Delhi,"AIIMS, Delhi",PALLIATIVE MEDICINE,AIIMS-All India,EWS
+1,4521,Rajasthan,"AIIMS, Jodhpur",GENERAL SURGERY,AIIMS-All India,ST
+1,4593,Gujarat,"AIIMS, Rajkot",ANAESTHESIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,4604,Punjab,"AIIMS, Bathinda",ANATOMY,AIIMS-All India,UR
+1,4620,Bihar,"AIIMS, Patna",COMMUNITY & FAMILY MEDICINE,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,4632,Rajasthan,"AIIMS, Jodhpur",OBG,AIIMS-All India,SC
+1,4703,Chhattisgarh,"AIIMS, Raipur",PMR,AIIMS-All India,EWS
+1,4753,Pondicherry,"JIPMER, Puducherry",PATHOLOGY,JIPMER-All India,EWS
+1,4760,Jammu and Kashmir,"AIIMS, Jammu",FORENSIC MEDICINE,AIIMS-All India,OBC
+1,4768,Andhra Pradesh,"AIIMS, Mangalagiri",ANATOMY,AIIMS-All India,UR
+1,4781,Maharashtra,"AIIMS, Nagpur",PAEDIATRIC SURGERY 6 YRS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,4785,Odisha,"AIIMS, Bhubaneswar",PSYCHIATRY,AIIMS-All India,SC
+1,4786,Assam,"AIIMS, Guwahati",ANATOMY,AIIMS-All India,UR
+1,4795,Gujarat,"AIIMS, Rajkot",ANATOMY,AIIMS-All India,UR
+1,4799,Odisha,"AIIMS, Bhubaneswar",ANATOMY,AIIMS-All India,UR
+1,4811,Maharashtra,"AIIMS, Nagpur",GENERAL SURGERY,AIIMS-All India,SC
+1,4860,Andhra Pradesh,"AIIMS, Mangalagiri",GENERAL SURGERY,AIIMS-All India,SC
+1,4866,Delhi,"AIIMS, Delhi",PHARMACOLOGY,AIIMS-All India,OBC
+1,4869,Andhra Pradesh,"AIIMS, Mangalagiri",HOSPITAL ADMINISTRATION,AIIMS-All India,OBC
+1,4884,Andhra Pradesh,"AIIMS, Mangalagiri",OPHTHALMOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,4887,Odisha,"AIIMS, Bhubaneswar",ANAESTHESIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,4906,Pondicherry,"JIPMER, Puducherry",OBG,JIPMER-All India,ST
+1,4915,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",IHBT,AIIMS-All India,OBC
+1,4916,Bihar,"AIIMS, Patna",FORENSIC MEDICINE,AIIMS-All India,OBC
+1,4921,Rajasthan,"AIIMS, Jodhpur",ANAESTHESIOLOGY,AIIMS-All India,SC
+1,4947,Rajasthan,"AIIMS, Jodhpur",COMMUNITY MEDICINE,AIIMS-All India,OBC
+1,4958,Uttar Pradesh,"AIIMS, Gorakhpur",OBG,AIIMS-All India,SC
+1,4974,Telangana,"AIIMS, Bibinagar",PHYSIOLOGY,AIIMS-All India,OBC
+1,5034,Delhi,"AIIMS, Delhi",LAB MEDICINE,AIIMS-All India,EWS
+1,5039,Odisha,"AIIMS, Bhubaneswar",COMMUNITY MEDICINE,AIIMS-All India,OBC
+1,5043,Chhattisgarh,"AIIMS, Raipur",FORENSIC MEDICINE,AIIMS-All India,OBC
+1,5065,Bihar,"AIIMS, Patna",PATHOLOGY,AIIMS-All India,EWS
+1,5080,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",IHBT,AIIMS-All India,EWS
+1,5081,Rajasthan,"AIIMS, Jodhpur",BIOCHEMISTRY,AIIMS-All India,OBC
+1,5084,Chhattisgarh,"AIIMS, Raipur",ANATOMY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,5097,Punjab,"AIIMS, Bathinda",ORTHOPAEDICS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,5104,Maharashtra,"AIIMS, Nagpur",GENERAL SURGERY,AIIMS-All India,SC
+1,5125,Uttar Pradesh,"AIIMS, Gorakhpur",GENERAL SURGERY,AIIMS-All India,SC
+1,5140,Gujarat,"AIIMS, Rajkot",PHARMACOLOGY,AIIMS-All India,OBC
+1,5141,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",EMERGENCY MEDICINE,AIIMS-All India,SC
+1,5147,Uttar Pradesh,"AIIMS, Gorakhpur",GENERAL MEDICINE,AIIMS-All India,ST
+1,5153,Chhattisgarh,"AIIMS, Raipur",COMMUNITY MEDICINE,AIIMS-All India,OBC
+1,5160,Andhra Pradesh,"AIIMS, Mangalagiri",PATHOLOGY,AIIMS-All India,EWS
+1,5171,Gujarat,"AIIMS, Rajkot",RADIO DIAGNOSIS,AIIMS-All India,ST
+1,5198,Pondicherry,"JIPMER, Puducherry",ANATOMY,JIPMER-All India,OBC
+1,5200,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-KAR Domicile,SC-Karnataka Domicile
+1,5231,Jharkhand,"AIIMS, Deoghar",ORTHOPAEDICS,AIIMS-All India,SC
+1,5234,Odisha,"AIIMS, Bhubaneswar",ANAESTHESIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,5236,Uttar Pradesh,"AIIMS, Gorakhpur",COMMUNITY & FAMILY MEDICINE,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,5247,Punjab,"AIIMS, Bathinda",IHBT,AIIMS-All India,OBC
+1,5273,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",ORTHOPAEDICS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,5274,Madhya Pradesh,"AIIMS, Bhopal",PHARMACOLOGY,AIIMS-All India,EWS
+1,5300,Assam,"AIIMS, Guwahati",RADIO DIAGNOSIS,AIIMS-All India,ST
+1,5301,Odisha,"AIIMS, Bhubaneswar",FORENSIC MEDICINE,AIIMS-All India,OBC
+1,5327,Maharashtra,"AIIMS, Nagpur",EMERGENCY MEDICINE,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,5329,Uttar Pradesh,"AIIMS, Rai Bareli",ORTHOPAEDICS,AIIMS-All India,SC
+1,5343,Assam,"AIIMS, Guwahati",PATHOLOGY,AIIMS-All India,EWS
+1,5372,Pondicherry,"JIPMER, Puducherry",PATHOLOGY,JIPMER-All India,SC
+1,5403,Odisha,"AIIMS, Bhubaneswar",EMERGENCY MEDICINE,AIIMS-All India,SC
+1,5424,Delhi,"AIIMS, Delhi",PHYSIOLOGY,AIIMS-All India,OBC
+1,5453,Punjab,"AIIMS, Bathinda",PAEDIATRICS,AIIMS-All India,SC
+1,5516,Uttarakhand,"AIIMS, Rishikesh",ANAESTHESIOLOGY,AIIMS-All India,SC
+1,5527,Gujarat,"AIIMS, Rajkot",PATHOLOGY,AIIMS-All India,EWS
+1,5533,Andhra Pradesh,"AIIMS, Mangalagiri",FORENSIC MEDICINE,AIIMS-All India,OBC
+1,5550,Punjab,"AIIMS, Bathinda",OBG,AIIMS-All India,SC
+1,5552,Delhi,"AIIMS, Delhi",ANAESTHESIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,5573,Delhi,"AIIMS, Delhi",GERIATRICS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,5586,Delhi,"AIIMS, Delhi",PSYCHIATRY,AIIMS-All India,UR-PwD
+1,5615,Punjab,"AIIMS, Bathinda",BIOCHEMISTRY,AIIMS-All India,OBC
+1,5667,Madhya Pradesh,"AIIMS, Bhopal",BIOCHEMISTRY,AIIMS-All India,OBC
+1,5672,Uttarakhand,"AIIMS, Rishikesh",PAEDIATRICS,AIIMS-All India,ST
+1,5707,Odisha,"AIIMS, Bhubaneswar",COMMUNITY MEDICINE,AIIMS-All India,OBC
+1,5708,Punjab,"AIIMS, Bathinda",PAEDIATRICS,AIIMS-All India,SC
+1,5724,Maharashtra,"AIIMS, Nagpur",PAEDIATRIC SURGERY 6 YRS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,5739,Pondicherry,"JIPMER, Puducherry",COMMUNITY MEDICINE,JIMPER-Inst. Pref,INST (JIPMER)
+1,5773,Andhra Pradesh,"AIIMS, Mangalagiri",ENT,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,5804,Andhra Pradesh,"AIIMS, Mangalagiri",RADIATION ONCOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,5816,Madhya Pradesh,"AIIMS, Bhopal",ANAESTHESIOLOGY,AIIMS-All India,SC
+1,5824,Bihar,"AIIMS, Patna",COMMUNITY & FAMILY MEDICINE,AIIMS-All India,OBC
+1,5839,Madhya Pradesh,"AIIMS, Bhopal",COMMUNITY MEDICINE,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,5862,Delhi,"AIIMS, Delhi",OBG,AIIMS-All India,ST
+1,5884,West Bengal,"AIIMS, Kalyani",FORENSIC MEDICINE,AIIMS-All India,OBC
+1,5887,Madhya Pradesh,"AIIMS, Bhopal",OPHTHALMOLOGY,AIIMS-All India,SC
+1,5897,Assam,"AIIMS, Guwahati",GENERAL SURGERY,AIIMS-All India,SC
+1,5907,Chhattisgarh,"AIIMS, Raipur",ANAESTHESIOLOGY,AIIMS-All India,SC
+1,5913,Andhra Pradesh,"AIIMS, Mangalagiri",ANAESTHESIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,5916,Odisha,"AIIMS, Bhubaneswar",IHBT,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,5948,Chhattisgarh,"AIIMS, Raipur",FAMILY MEDICINE,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,5951,Telangana,"AIIMS, Bibinagar",GENERAL SURGERY,AIIMS-All India,SC
+1,5965,Pondicherry,"JIPMER, Puducherry",PATHOLOGY,JIMPER-Inst. Pref,INST (JIPMER)
+1,5988,Odisha,"AIIMS, Bhubaneswar",FORENSIC MEDICINE,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,5994,Jharkhand,"AIIMS, Deoghar",GENERAL SURGERY,AIIMS-All India,SC
+1,5997,Uttarakhand,"AIIMS, Rishikesh",BIOCHEMISTRY,AIIMS-All India,OBC
+1,6007,Jammu and Kashmir,"AIIMS, Jammu",ORTHOPAEDICS,AIIMS-All India,SC
+1,6036,Gujarat,"AIIMS, Rajkot",FORENSIC MEDICINE,AIIMS-All India,OBC
+1,6038,Gujarat,"AIIMS, Rajkot",COMMUNITY & FAMILY MEDICINE,AIIMS-All India,OBC
+1,6039,Andhra Pradesh,"AIIMS, Mangalagiri",ORTHOPAEDICS,AIIMS-All India,SC
+1,6058,Pondicherry,"JIPMER, Puducherry",GENERAL SURGERY,JIPMER-All India,ST
+1,6073,Jharkhand,"AIIMS, Deoghar",OBG,AIIMS-All India,SC
+1,6075,Punjab,"AIIMS, Bathinda",FORENSIC MEDICINE,AIIMS-All India,OBC
+1,6128,Delhi,"AIIMS, Delhi",ENT,AIIMS-All India,SC
+1,6137,Uttarakhand,"AIIMS, Rishikesh",ANAESTHESIOLOGY,AIIMS-All India,SC
+1,6149,Maharashtra,"AIIMS, Nagpur",ANAESTHESIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,6156,Jharkhand,"AIIMS, Deoghar",COMMUNITY & FAMILY MEDICINE,AIIMS-All India,OBC
+1,6157,Maharashtra,"AIIMS, Nagpur",EMERGENCY MEDICINE,AIIMS-All India,SC
+1,6223,Odisha,"AIIMS, Bhubaneswar",EMERGENCY MEDICINE,AIIMS-All India,SC
+1,6243,Delhi,"AIIMS, Delhi",ANATOMY,AIIMS-All India,OBC
+1,6254,Uttar Pradesh,"AIIMS, Rai Bareli",OBG,AIIMS-All India,SC
+1,6269,Jharkhand,"AIIMS, Deoghar",PATHOLOGY,AIIMS-All India,EWS
+1,6272,Madhya Pradesh,"AIIMS, Bhopal",PHARMACOLOGY,AIIMS-All India,OBC
+1,6296,Maharashtra,"AIIMS, Nagpur",ENT,AIIMS-All India,SC
+1,6308,Uttarakhand,"AIIMS, Rishikesh",ANATOMY,AIIMS-All India,OBC
+1,6341,Maharashtra,"AIIMS, Nagpur",ANAESTHESIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,6351,Andhra Pradesh,"AIIMS, Mangalagiri",ANAESTHESIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,6425,Maharashtra,"AIIMS, Nagpur",PAEDIATRICS,AIIMS-All India,ST
+1,6431,Delhi,"AIIMS, Delhi",HOSPITAL ADMINISTRATION,AIIMS-All India,SC
+1,6436,Pondicherry,"JIPMER, Puducherry",OBG,JIPMER-All India,ST
+1,6498,Chandigarh,"PGIMER, Chandigarh",OBG,PGIMER-All India,ST
+1,6499,Uttarakhand,"AIIMS, Rishikesh",EMERGENCY MEDICINE,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,6507,Andhra Pradesh,"AIIMS, Mangalagiri",EMERGENCY MEDICINE,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,6515,Gujarat,"AIIMS, Rajkot",ANATOMY,AIIMS-All India,OBC
+1,6560,Pondicherry,"JIPMER, Puducherry",MICROBIOLOGY,JIMPER-Inst. Pref,INST (JIPMER)
+1,6571,Delhi,"AIIMS, Delhi",GERIATRICS,AIIMS-All India,SC
+1,6588,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",PAEDIATRICS,AIIMS-All India,ST
+1,6726,Odisha,"AIIMS, Bhubaneswar",IHBT,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,6772,Uttarakhand,"AIIMS, Rishikesh",MICROBIOLOGY,AIIMS-All India,OBC
+1,6782,Jammu and Kashmir,"AIIMS, Jammu",OBG,AIIMS-All India,SC
+1,6812,Punjab,"AIIMS, Bathinda",CARDIO THORACIC AND VASCULAR SURGERY 6 YRS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,6890,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",PAEDIATRIC SURGERY 6 YRS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,6966,Jammu and Kashmir,"AIIMS, Jammu",OPHTHALMOLOGY,AIIMS-All India,SC
+1,6983,Rajasthan,"AIIMS, Jodhpur",COMMUNITY MEDICINE,AIIMS-All India,EWS
+1,7004,Madhya Pradesh,"AIIMS, Bhopal",PSYCHIATRY,AIIMS-All India,SC
+1,7035,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",ANAESTHESIOLOGY,AIIMS-All India,SC
+1,7143,Punjab,"AIIMS, Bathinda",ENT,AIIMS-All India,SC
+1,7184,Rajasthan,"AIIMS, Jodhpur",PHYSIOLOGY,AIIMS-All India,OBC
+1,7196,Maharashtra,"AIIMS, Nagpur",PMR,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,7227,Maharashtra,"AIIMS, Nagpur",PHYSIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,7231,Madhya Pradesh,"AIIMS, Bhopal",ENT,AIIMS-All India,SC
+1,7239,Jharkhand,"AIIMS, Deoghar",PHARMACOLOGY,AIIMS-All India,OBC
+1,7253,Pondicherry,"JIPMER, Puducherry",ANATOMY,JIPMER-All India,EWS
+1,7291,Chhattisgarh,"AIIMS, Raipur",EMERGENCY MEDICINE,AIIMS-All India,SC
+1,7320,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",PSYCHIATRY,AIIMS-All India,SC
+1,7326,Delhi,"AIIMS, Delhi",OPHTHALMOLOGY,AIIMS-All India,ST
+1,7407,Delhi,"AIIMS, Delhi",BIOPHYSICS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,7421,Delhi,"AIIMS, Delhi",BIOPHYSICS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,7472,Andhra Pradesh,"AIIMS, Mangalagiri",PAEDIATRICS,AIIMS-All India,ST
+1,7559,Madhya Pradesh,"AIIMS, Bhopal",ANATOMY,AIIMS-All India,SC
+1,7584,Gujarat,"AIIMS, Rajkot",OBG,AIIMS-All India,SC
+1,7590,West Bengal,"AIIMS, Kalyani",FORENSIC MEDICINE,AIIMS-All India,EWS
+1,7599,Chandigarh,"PGIMER, Chandigarh",MICROBIOLOGY,PGIMER-All India,OBC
+1,7606,Chhattisgarh,"AIIMS, Raipur",OPHTHALMOLOGY,AIIMS-All India,SC
+1,7607,Assam,"AIIMS, Guwahati",ANATOMY,AIIMS-All India,OBC
+1,7645,Telangana,"AIIMS, Bibinagar",FORENSIC MEDICINE,AIIMS-All India,EWS
+1,7658,Chhattisgarh,"AIIMS, Raipur",MICROBIOLOGY,AIIMS-All India,OBC
+1,7661,Punjab,"AIIMS, Bathinda",COMMUNITY & FAMILY MEDICINE,AIIMS-All India,EWS
+1,7685,Rajasthan,"AIIMS, Jodhpur",OBG,AIIMS-All India,ST
+1,7763,Bihar,"AIIMS, Patna",ANAESTHESIOLOGY,AIIMS-All India,SC
+1,7771,Delhi,"AIIMS, Delhi",PALLIATIVE MEDICINE,AIIMS-All India,SC
+1,7846,Andhra Pradesh,"AIIMS, Mangalagiri",MICROBIOLOGY,AIIMS-All India,OBC
+1,7859,Bihar,"AIIMS, Patna",ENT,AIIMS-All India,SC
+1,7863,Rajasthan,"AIIMS, Jodhpur",PATHOLOGY,AIIMS-All India,SC
+1,7876,Chandigarh,"PGIMER, Chandigarh",MICROBIOLOGY,PGIMER-All India,OBC
+1,7878,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",OBG,AIIMS-All India,SC
+1,7888,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",TRAUMATOLOGY AND SURGERY,AIIMS-All India,SC
+1,7892,Chhattisgarh,"AIIMS, Raipur",ENT,AIIMS-All India,SC
+1,7896,Delhi,"AIIMS, Delhi",PATHOLOGY,AIIMS-All India,SC
+1,7925,Bihar,"AIIMS, Patna",ANATOMY,AIIMS-All India,OBC
+1,8019,Rajasthan,"AIIMS, Jodhpur",MICROBIOLOGY,AIIMS-All India,EWS
+1,8049,Bihar,"AIIMS, Patna",IHBT,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,8089,Punjab,"AIIMS, Bathinda",ORTHOPAEDICS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,8117,Chandigarh,"PGIMER, Chandigarh",PATHOLOGY,PGIMER-All India,SC
+1,8230,Assam,"AIIMS, Guwahati",OPHTHALMOLOGY,AIIMS-All India,SC
+1,8247,Uttarakhand,"AIIMS, Rishikesh",ENT,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,8279,Madhya Pradesh,"AIIMS, Bhopal",PHYSIOLOGY,AIIMS-All India,OBC
+1,8318,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-All India,ST
+1,8321,Bihar,"AIIMS, Patna",BIOCHEMISTRY,AIIMS-All India,OBC
+1,8339,Assam,"AIIMS, Guwahati",PHYSIOLOGY,AIIMS-All India,EWS
+1,8363,Punjab,"AIIMS, Bathinda",ANAESTHESIOLOGY,AIIMS-All India,SC
+1,8417,Maharashtra,"AIIMS, Nagpur",COMMUNITY MEDICINE,AIIMS-All India,EWS
+1,8419,Bihar,"AIIMS, Patna",PAEDIATRICS,AIIMS-All India,ST
+1,8464,Chhattisgarh,"AIIMS, Raipur",ANATOMY,AIIMS-All India,OBC
+1,8472,Bihar,"AIIMS, Patna",OBG,AIIMS-All India,ST
+1,8481,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",ENT,AIIMS-All India,SC
+1,8483,Odisha,"AIIMS, Bhubaneswar",PMR,AIIMS-All India,SC
+1,8520,Madhya Pradesh,"AIIMS, Bhopal",GENERAL SURGERY,AIIMS-All India,ST
+1,8547,Rajasthan,"AIIMS, Jodhpur",MICROBIOLOGY,AIIMS-All India,OBC
+1,8556,Uttar Pradesh,"AIIMS, Rai Bareli",BIOCHEMISTRY,AIIMS-All India,OBC
+1,8583,Rajasthan,"AIIMS, Jodhpur",PHARMACOLOGY,AIIMS-All India,EWS
+1,8633,Gujarat,"AIIMS, Rajkot",ANATOMY,AIIMS-All India,EWS
+1,8650,Uttarakhand,"AIIMS, Rishikesh",PHYSIOLOGY,AIIMS-All India,OBC
+1,8725,Andhra Pradesh,"AIIMS, Mangalagiri",ANATOMY,AIIMS-All India,OBC
+1,8759,Odisha,"AIIMS, Bhubaneswar",MICROBIOLOGY,AIIMS-All India,EWS
+1,8782,Pondicherry,"JIPMER, Puducherry",BIOCHEMISTRY,JIMPER-Inst. Pref,INST (JIPMER)
+1,8822,Uttar Pradesh,"AIIMS, Rai Bareli",PSYCHIATRY,AIIMS-All India,SC
+1,8825,Delhi,"AIIMS, Delhi",PSYCHIATRY,AIIMS-All India,ST
+1,8831,Andhra Pradesh,"AIIMS, Mangalagiri",EMERGENCY MEDICINE,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,8832,Maharashtra,"AIIMS, Nagpur",OBG,AIIMS-All India,ST
+1,8840,Chhattisgarh,"AIIMS, Raipur",PSYCHIATRY,AIIMS-All India,ST
+1,8854,Pondicherry,"JIPMER, Puducherry",PAEDIATRICS,JIPMER-All India,UR-PwD
+1,8862,Pondicherry,"JIPMER, Puducherry",COMMUNITY MEDICINE,JIPMER-All India,SC
+1,8871,Uttarakhand,"AIIMS, Rishikesh",TRAUMASURG&CC (6 YRS),AIIMS-Inst. Pref,UR-AIIMS-IP
+1,8896,Maharashtra,"AIIMS, Nagpur",BIOCHEMISTRY,AIIMS-All India,OBC
+1,8904,Chandigarh,"PGIMER, Chandigarh",IHBT,PGIMER-All India,SC
+1,8921,Jharkhand,"AIIMS, Deoghar",PAEDIATRIC SURGERY 6 YRS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,8923,Jharkhand,"AIIMS, Deoghar",ANAESTHESIOLOGY,AIIMS-All India,SC
+1,8963,Assam,"AIIMS, Guwahati",ANAESTHESIOLOGY,AIIMS-All India,SC
+1,8997,Assam,"AIIMS, Guwahati",BIOCHEMISTRY,AIIMS-All India,OBC
+1,9011,Chhattisgarh,"AIIMS, Raipur",GENERAL SURGERY,AIIMS-All India,ST
+1,9058,Maharashtra,"AIIMS, Nagpur",ANATOMY,AIIMS-All India,OBC
+1,9061,Bihar,"AIIMS, Patna",PMR,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,9088,Assam,"AIIMS, Guwahati",ANATOMY,AIIMS-All India,OBC
+1,9097,West Bengal,"AIIMS, Kalyani",ANATOMY,AIIMS-All India,OBC
+1,9149,Madhya Pradesh,"AIIMS, Bhopal",MICROBIOLOGY,AIIMS-All India,EWS
+1,9166,Jammu and Kashmir,"AIIMS, Jammu",NEUROSURGERY 6 YRS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,9211,Jharkhand,"AIIMS, Deoghar",PHYSIOLOGY,AIIMS-All India,OBC
+1,9214,Madhya Pradesh,"AIIMS, Bhopal",COMMUNITY MEDICINE,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,9215,Chandigarh,"PGIMER, Chandigarh",OPHTHALMOLOGY,PGIMER-All India,ST
+1,9222,Chhattisgarh,"AIIMS, Raipur",PATHOLOGY,AIIMS-All India,SC
+1,9260,Jharkhand,"AIIMS, Deoghar",ANATOMY,AIIMS-All India,OBC
+1,9267,Jammu and Kashmir,"AIIMS, Jammu",ORTHOPAEDICS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,9287,Andhra Pradesh,"AIIMS, Mangalagiri",PMR,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,9292,Punjab,"AIIMS, Bathinda",PAEDIATRICS,AIIMS-All India,ST
+1,9314,Rajasthan,"AIIMS, Jodhpur",PSYCHIATRY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,9335,Delhi,"AIIMS, Delhi",PHYSIOLOGY,AIIMS-All India,EWS
+1,9348,Jharkhand,"AIIMS, Deoghar",ANAESTHESIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,9372,Assam,"AIIMS, Guwahati",PHYSIOLOGY,AIIMS-All India,OBC
+1,9378,Madhya Pradesh,"AIIMS, Bhopal",MICROBIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,9406,Uttar Pradesh,"AIIMS, Gorakhpur",FORENSIC MEDICINE,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,9423,Andhra Pradesh,"AIIMS, Mangalagiri",HOSPITAL ADMINISTRATION,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,9447,West Bengal,"AIIMS, Kalyani",ANATOMY,AIIMS-All India,OBC
+1,9470,Punjab,"AIIMS, Bathinda",OBG,AIIMS-All India,ST
+1,9595,Madhya Pradesh,"AIIMS, Bhopal",FORENSIC MEDICINE,AIIMS-All India,SC
+1,9689,Maharashtra,"AIIMS, Nagpur",ORTHOPAEDICS,AIIMS-All India,ST
+1,9740,Gujarat,"AIIMS, Rajkot",ORTHOPAEDICS,AIIMS-All India,ST
+1,9812,Delhi,"AIIMS, Delhi",ANAESTHESIOLOGY,AIIMS-All India,ST
+1,9868,Delhi,"AIIMS, Delhi",ANAESTHESIOLOGY,AIIMS-All India,ST
+1,9874,Delhi,"AIIMS, Delhi",PMR,AIIMS-All India,SC
+1,9996,Bihar,"AIIMS, Patna",PATHOLOGY,AIIMS-All India,SC
+1,10025,Rajasthan,"AIIMS, Jodhpur",OPHTHALMOLOGY,AIIMS-All India,ST
+1,10032,Punjab,"AIIMS, Bathinda",PAEDIATRIC SURGERY 6 YRS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,10036,Maharashtra,"AIIMS, Nagpur",GENERAL SURGERY,AIIMS-All India,ST
+1,10049,Jharkhand,"AIIMS, Deoghar",GENERAL SURGERY,AIIMS-All India,ST
+1,10085,Pondicherry,"JIPMER, Puducherry",PATHOLOGY,JIPMER-All India,SC
+1,10417,Madhya Pradesh,"AIIMS, Bhopal",ENT,AIIMS-All India,ST
+1,10478,Maharashtra,"AIIMS, Nagpur",IHBT,AIIMS-All India,SC
+1,10482,Rajasthan,"AIIMS, Jodhpur",COMMUNITY MEDICINE,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,10509,Chandigarh,"PGIMER, Chandigarh",ANAESTHESIOLOGY,PGIMER-All India,ST
+1,10555,Delhi,"AIIMS, Delhi",EMERGENCY MEDICINE,AIIMS-All India,ST
+1,10559,Pondicherry,"JIPMER, Puducherry",PSYCHIATRY,JIPMER-All India,ST
+1,10567,Uttarakhand,"AIIMS, Rishikesh",PHYSIOLOGY,AIIMS-All India,EWS
+1,10598,Rajasthan,"AIIMS, Jodhpur",ANAESTHESIOLOGY,AIIMS-All India,ST
+1,10814,Gujarat,"AIIMS, Rajkot",FAMILY MEDICINE,AIIMS-All India,SC
+1,10882,Chhattisgarh,"AIIMS, Raipur",IHBT,AIIMS-All India,SC
+1,10944,Odisha,"AIIMS, Bhubaneswar",OPHTHALMOLOGY,AIIMS-All India,ST
+1,10967,Uttarakhand,"AIIMS, Rishikesh",RADIATION ONCOLOGY,AIIMS-All India,ST
+1,10974,Chandigarh,"PGIMER, Chandigarh",GENERAL MEDICINE,PGIMER-All India,UR-PwD
+1,11031,Uttarakhand,"AIIMS, Rishikesh",PMR,AIIMS-All India,SC
+1,11045,Pondicherry,"JIPMER, Puducherry",IHBT,JIPMER-All India,SC
+1,11087,Punjab,"AIIMS, Bathinda",RADIATION ONCOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,11234,Delhi,"AIIMS, Delhi",BIOPHYSICS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,11239,Rajasthan,"AIIMS, Jodhpur",COMMUNITY MEDICINE,AIIMS-All India,SC
+1,11257,Pondicherry,"JIPMER, Puducherry",ENT,JIPMER-All India,ST
+1,11259,Uttarakhand,"AIIMS, Rishikesh",ANAESTHESIOLOGY,AIIMS-All India,ST
+1,11337,Bihar,"AIIMS, Patna",ANAESTHESIOLOGY,AIIMS-All India,ST
+1,11367,Uttarakhand,"AIIMS, Rishikesh",PAEDIATRIC SURGERY 6 YRS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,11453,Jammu and Kashmir,"AIIMS, Jammu",FAMILY MEDICINE,AIIMS-All India,SC
+1,11556,Andhra Pradesh,"AIIMS, Mangalagiri",PHARMACOLOGY,AIIMS-All India,SC
+1,11563,Maharashtra,"AIIMS, Nagpur",MICROBIOLOGY,AIIMS-All India,EWS
+1,11657,Uttarakhand,"AIIMS, Rishikesh",IHBT,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,11731,Jharkhand,"AIIMS, Deoghar",PMR,AIIMS-All India,SC
+1,11881,Bihar,"AIIMS, Patna",PATHOLOGY,AIIMS-All India,ST
+1,11981,Punjab,"AIIMS, Bathinda",GENERAL SURGERY,AIIMS-All India,ST
+1,12027,Odisha,"AIIMS, Bhubaneswar",PATHOLOGY,AIIMS-All India,SC
+1,12247,Odisha,"AIIMS, Bhubaneswar",PHYSIOLOGY,AIIMS-All India,EWS
+1,12330,Rajasthan,"AIIMS, Jodhpur",ANAESTHESIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,12427,Delhi,"AIIMS, Delhi",LAB MEDICINE,AIIMS-All India,ST
+1,12443,Madhya Pradesh,"AIIMS, Bhopal",PATHOLOGY,AIIMS-All India,SC
+1,12466,Andhra Pradesh,"AIIMS, Mangalagiri",PMR,AIIMS-All India,SC
+1,12576,Uttar Pradesh,"AIIMS, Rai Bareli",ANAESTHESIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,12600,Delhi,"AIIMS, Delhi",PALLIATIVE MEDICINE,AIIMS-All India,ST
+1,12610,Odisha,"AIIMS, Bhubaneswar",BIOCHEMISTRY,AIIMS-All India,EWS
+1,12627,Telangana,"AIIMS, Bibinagar",PATHOLOGY,AIIMS-All India,SC
+1,12635,Jharkhand,"AIIMS, Deoghar",GENERAL MEDICINE,AIIMS-All India,UR-PwD
+1,12654,Delhi,"AIIMS, Delhi",PMR,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,12718,Maharashtra,"AIIMS, Nagpur",PATHOLOGY,AIIMS-All India,SC
+1,12738,Chhattisgarh,"AIIMS, Raipur",COMMUNITY MEDICINE,AIIMS-All India,SC
+1,12864,Punjab,"AIIMS, Bathinda",ANAESTHESIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,12866,Chandigarh,"PGIMER, Chandigarh",HOSPITAL ADMINISTRATION,PGIMER-All India,SC
+1,12905,Pondicherry,"JIPMER, Puducherry",PHYSIOLOGY,JIPMER-All India,SC
+1,12943,Assam,"AIIMS, Guwahati",PATHOLOGY,AIIMS-All India,SC
+1,12948,West Bengal,"AIIMS, Kalyani",MICROBIOLOGY,AIIMS-All India,EWS
+1,12953,Assam,"AIIMS, Guwahati",MICROBIOLOGY,AIIMS-All India,EWS
+1,12964,Delhi,"AIIMS, Delhi",BIOPHYSICS,AIIMS-All India,SC
+1,13004,Pondicherry,"JIPMER, Puducherry",COMMUNITY MEDICINE,JIPMER-All India,ST
+1,13012,Rajasthan,"AIIMS, Jodhpur",COMMUNITY MEDICINE,AIIMS-All India,SC
+1,13059,Punjab,"AIIMS, Bathinda",COMMUNITY & FAMILY MEDICINE,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,13063,Punjab,"AIIMS, Bathinda",ANAESTHESIOLOGY,AIIMS-All India,ST
+1,13067,Delhi,"AIIMS, Delhi",PAEDIATRICS,AIIMS-All India,UR-PwD
+1,13089,Pondicherry,"JIPMER, Puducherry",BIOCHEMISTRY,JIMPER-Inst. Pref,INST (JIPMER)
+1,13212,Jharkhand,"AIIMS, Deoghar",ANAESTHESIOLOGY,AIIMS-All India,ST
+1,13260,Jammu and Kashmir,"AIIMS, Jammu",RADIATION ONCOLOGY,AIIMS-All India,ST
+1,13351,Assam,"AIIMS, Guwahati",FORENSIC MEDICINE,AIIMS-All India,SC
+1,13444,Jharkhand,"AIIMS, Deoghar",COMMUNITY & FAMILY MEDICINE,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,13506,Uttarakhand,"AIIMS, Rishikesh",IHBT,AIIMS-All India,ST
+1,13521,Punjab,"AIIMS, Bathinda",EMERGENCY MEDICINE,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,13557,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",COMMUNITY & FAMILY MEDICINE,AIIMS-All India,SC
+1,13684,Telangana,"AIIMS, Bibinagar",IHBT,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,13748,Maharashtra,"AIIMS, Nagpur",FORENSIC MEDICINE,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,13773,Andhra Pradesh,"AIIMS, Mangalagiri",IHBT,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,13815,Odisha,"AIIMS, Bhubaneswar",PHYSIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,13823,Pondicherry,"JIPMER, Puducherry",ANATOMY,JIMPER-Inst. Pref,INST (JIPMER)
+1,13836,Assam,"AIIMS, Guwahati",FORENSIC MEDICINE,AIIMS-All India,EWS
+1,13919,Rajasthan,"AIIMS, Jodhpur",ANAESTHESIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,13944,Rajasthan,"AIIMS, Jodhpur",ANATOMY,AIIMS-All India,SC
+1,14038,Odisha,"AIIMS, Bhubaneswar",ANATOMY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,14051,Punjab,"AIIMS, Bathinda",IHBT,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,14070,Bihar,"AIIMS, Patna",COMMUNITY & FAMILY MEDICINE,AIIMS-All India,SC
+1,14077,Jammu and Kashmir,"AIIMS, Jammu",ANAESTHESIOLOGY,AIIMS-All India,ST
+1,14123,Chhattisgarh,"AIIMS, Raipur",COMMUNITY MEDICINE,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,14207,Uttar Pradesh,"AIIMS, Gorakhpur",RADIATION ONCOLOGY,AIIMS-All India,ST
+1,14237,Bihar,"AIIMS, Patna",PHYSIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,14267,Chhattisgarh,"AIIMS, Raipur",BIOCHEMISTRY,AIIMS-All India,EWS
+1,14379,Jammu and Kashmir,"AIIMS, Jammu",MICROBIOLOGY,AIIMS-All India,EWS
+1,14409,Jharkhand,"AIIMS, Deoghar",PATHOLOGY,AIIMS-All India,SC
+1,14410,Odisha,"AIIMS, Bhubaneswar",MICROBIOLOGY,AIIMS-All India,SC
+1,14415,Delhi,"AIIMS, Delhi",LAB MEDICINE,AIIMS-All India,SC
+1,14445,Maharashtra,"AIIMS, Nagpur",PHARMACOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,14455,Jharkhand,"AIIMS, Deoghar",COMMUNITY & FAMILY MEDICINE,AIIMS-All India,SC
+1,14529,Rajasthan,"AIIMS, Jodhpur",BIOCHEMISTRY,AIIMS-All India,SC
+1,14570,Rajasthan,"AIIMS, Jodhpur",MICROBIOLOGY,AIIMS-All India,SC
+1,14640,Chhattisgarh,"AIIMS, Raipur",COMMUNITY MEDICINE,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,14715,Delhi,"AIIMS, Delhi",PHYSIOLOGY,AIIMS-All India,SC
+1,14753,Jharkhand,"AIIMS, Deoghar",ENT,AIIMS-All India,ST
+1,14762,Odisha,"AIIMS, Bhubaneswar",PHYSIOLOGY,AIIMS-All India,SC
+1,14798,Chhattisgarh,"AIIMS, Raipur",BIOCHEMISTRY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,14809,Chhattisgarh,"AIIMS, Raipur",PHYSIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,15196,Andhra Pradesh,"AIIMS, Mangalagiri",MICROBIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,15198,Jharkhand,"AIIMS, Deoghar",COMMUNITY & FAMILY MEDICINE,AIIMS-All India,ST
+1,15304,West Bengal,"AIIMS, Kalyani",BIOCHEMISTRY,AIIMS-All India,EWS
+1,15377,Assam,"AIIMS, Guwahati",ANATOMY,AIIMS-All India,EWS
+1,15484,Uttar Pradesh,"AIIMS, Rai Bareli",IHBT,AIIMS-All India,ST
+1,15511,Maharashtra,"AIIMS, Nagpur",MICROBIOLOGY,AIIMS-All India,SC
+1,15771,Delhi,"AIIMS, Delhi",PATHOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,15910,Telangana,"AIIMS, Bibinagar",HOSPITAL ADMINISTRATION,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,16023,Chhattisgarh,"AIIMS, Raipur",MICROBIOLOGY,AIIMS-All India,SC
+1,16030,Madhya Pradesh,"AIIMS, Bhopal",PHYSIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,16291,Punjab,"AIIMS, Bathinda",MICROBIOLOGY,AIIMS-All India,SC
+1,16468,Pondicherry,"JIPMER, Puducherry",ANATOMY,JIPMER-All India,SC
+1,16717,Uttar Pradesh,"AIIMS, Rai Bareli",ANAESTHESIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,16930,Rajasthan,"AIIMS, Jodhpur",PATHOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,16943,Rajasthan,"AIIMS, Jodhpur",COMMUNITY MEDICINE,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,17034,Madhya Pradesh,"AIIMS, Bhopal",MICROBIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,17457,West Bengal,"AIIMS, Kalyani",FORENSIC MEDICINE,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,17751,Punjab,"AIIMS, Bathinda",PHARMACOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,17771,West Bengal,"AIIMS, Kalyani",PHYSIOLOGY,AIIMS-All India,SC
+1,17777,Rajasthan,"AIIMS, Jodhpur",PATHOLOGY,AIIMS-All India,ST
+1,17858,Gujarat,"AIIMS, Rajkot",MICROBIOLOGY,AIIMS-All India,SC
+1,17996,Odisha,"AIIMS, Bhubaneswar",PATHOLOGY,AIIMS-All India,ST
+1,18226,Assam,"AIIMS, Guwahati",PHYSIOLOGY,AIIMS-All India,SC
+1,18301,Delhi,"AIIMS, Delhi",COMMUNITY MEDICINE,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,18902,Madhya Pradesh,"AIIMS, Bhopal",PATHOLOGY,AIIMS-All India,ST
+1,19011,Pondicherry,"JIPMER, Puducherry",PATHOLOGY,JIPMER-All India,ST
+1,19146,West Bengal,"AIIMS, Kalyani",ANATOMY,AIIMS-All India,SC
+1,19553,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",PATHOLOGY,AIIMS-All India,ST
+1,19569,Maharashtra,"AIIMS, Nagpur",PHARMACOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,19806,Delhi,"AIIMS, Delhi",COMMUNITY MEDICINE,AIIMS-All India,ST
+1,19817,Bihar,"AIIMS, Patna",PHYSIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,19836,Madhya Pradesh,"AIIMS, Bhopal",BIOCHEMISTRY,AIIMS-All India,ST
+1,19872,Maharashtra,"AIIMS, Nagpur",BIOCHEMISTRY,AIIMS-All India,SC
+1,20048,Delhi,"AIIMS, Delhi",COMMUNITY MEDICINE,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,20203,Andhra Pradesh,"AIIMS, Mangalagiri",IHBT,AIIMS-All India,ST
+1,20280,Uttarakhand,"AIIMS, Rishikesh",PATHOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,20355,Odisha,"AIIMS, Bhubaneswar",BIOCHEMISTRY,AIIMS-All India,SC
+1,20376,Assam,"AIIMS, Guwahati",BIOCHEMISTRY,AIIMS-All India,SC
+1,20609,West Bengal,"AIIMS, Kalyani",ANATOMY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,20639,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",TRAUMATOLOGY AND SURGERY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,20665,Odisha,"AIIMS, Bhubaneswar",PHARMACOLOGY,AIIMS-All India,ST
+1,20804,Telangana,"AIIMS, Bibinagar",MICROBIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,21077,Assam,"AIIMS, Guwahati",BIOCHEMISTRY,AIIMS-All India,SC
+1,21400,Delhi,"AIIMS, Delhi",PHYSIOLOGY,AIIMS-All India,ST
+1,21569,Delhi,"AIIMS, Delhi",MICROBIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,21579,Chandigarh,"PGIMER, Chandigarh",MICROBIOLOGY,PGIMER-All India,ST
+1,21904,Maharashtra,"AIIMS, Nagpur",GENERAL MEDICINE,AIIMS-All India,SC-PwD
+1,21928,Punjab,"AIIMS, Bathinda",BIOCHEMISTRY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,21969,Assam,"AIIMS, Guwahati",PAEDIATRICS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,22129,Punjab,"AIIMS, Bathinda",PHYSIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,22202,Chhattisgarh,"AIIMS, Raipur",PATHOLOGY,AIIMS-All India,ST
+1,23085,Uttarakhand,"AIIMS, Rishikesh",PATHOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,23579,Maharashtra,"AIIMS, Nagpur",PATHOLOGY,AIIMS-All India,ST
+1,23597,Assam,"AIIMS, Guwahati",PATHOLOGY,AIIMS-All India,ST
+1,23661,Bihar,"AIIMS, Patna",PSYCHIATRY,AIIMS-All India,UR-PwD
+1,23871,Madhya Pradesh,"AIIMS, Bhopal",IHBT,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,24202,Gujarat,"AIIMS, Rajkot",PHYSIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,24406,Pondicherry,"JIPMER, Puducherry",PHYSIOLOGY,JIPMER-All India,ST
+1,24472,Maharashtra,"AIIMS, Nagpur",MICROBIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,24610,Telangana,"AIIMS, Bibinagar",FORENSIC MEDICINE,AIIMS-All India,ST
+1,24956,Uttarakhand,"AIIMS, Rishikesh",BIOCHEMISTRY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,25206,Uttar Pradesh,"AIIMS, Rai Bareli",COMMUNITY MEDICINE,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,25818,Rajasthan,"AIIMS, Jodhpur",HOSPITAL ADMINISTRATION,AIIMS-All India,UR-PwD
+1,25934,Delhi,"AIIMS, Delhi",FORENSIC MEDICINE,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,25935,Bihar,"AIIMS, Patna",MICROBIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,26115,Rajasthan,"AIIMS, Jodhpur",COMMUNITY MEDICINE,AIIMS-All India,ST
+1,26291,West Bengal,"AIIMS, Kalyani",PATHOLOGY,AIIMS-All India,ST
+1,26413,Assam,"AIIMS, Guwahati",MICROBIOLOGY,AIIMS-All India,ST
+1,26477,Chandigarh,"PGIMER, Chandigarh",PAEDIATRICS,PGIMER-All India,UR-PwD
+1,26542,Himachal Pradesh,"AIIMS, Bilaspur, Himachal",TRAUMATOLOGY AND SURGERY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,26841,Chhattisgarh,"AIIMS, Raipur",PHARMACOLOGY,AIIMS-All India,ST
+1,26935,Chhattisgarh,"AIIMS, Raipur",PHYSIOLOGY,AIIMS-All India,ST
+1,28093,Rajasthan,"AIIMS, Jodhpur",PSYCHIATRY,AIIMS-All India,OBC-PwD
+1,28178,Rajasthan,"AIIMS, Jodhpur",COMMUNITY MEDICINE,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,28285,Punjab,"AIIMS, Bathinda",GENERAL MEDICINE,AIIMS-All India,SC-PwD
+1,28729,Andhra Pradesh,"AIIMS, Mangalagiri",GENERAL MEDICINE,AIIMS-All India,OBC-PwD
+1,29252,Odisha,"AIIMS, Bhubaneswar",ANATOMY,AIIMS-All India,ST
+1,29257,Assam,"AIIMS, Guwahati",RADIATION ONCOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,29259,Assam,"AIIMS, Guwahati",BIOCHEMISTRY,AIIMS-All India,ST
+1,29339,Bihar,"AIIMS, Patna",OBG,AIIMS-All India,SC-PwD
+1,29373,Jammu and Kashmir,"AIIMS, Jammu",ENT,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,29806,Jammu and Kashmir,"AIIMS, Jammu",PAEDIATRIC SURGERY 6 YRS,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,29957,Delhi,"AIIMS, Delhi",LAB MEDICINE,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,30659,Uttar Pradesh,"AIIMS, Rai Bareli",FORENSIC MEDICINE,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,30967,Uttarakhand,"AIIMS, Rishikesh",EMERGENCY MEDICINE,AIIMS-All India,UR-PwD
+1,31428,Telangana,"AIIMS, Bibinagar",PHYSIOLOGY,AIIMS-All India,ST
+1,31948,Uttar Pradesh,"AIIMS, Rai Bareli",MICROBIOLOGY,AIIMS-All India,ST
+1,31993,Rajasthan,"AIIMS, Jodhpur",COMMUNITY MEDICINE,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,32453,Uttarakhand,"AIIMS, Rishikesh",ANATOMY,AIIMS-All India,ST
+1,32826,Jharkhand,"AIIMS, Deoghar",PHARMACOLOGY,AIIMS-All India,ST
+1,32931,Rajasthan,"AIIMS, Jodhpur",PHARMACOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,33047,Punjab,"AIIMS, Bathinda",ORTHOPAEDICS,AIIMS-All India,UR-PwD
+1,33419,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-KAR Domicile,UR-PwD-Karnataka Domicile
+1,33441,Karnataka,"NIMHANS, Bangalore",PSYCHIATRY,NIMHANS-All India,UR-PwD
+1,33668,Assam,"AIIMS, Guwahati",ANAESTHESIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,33712,West Bengal,"AIIMS, Kalyani",ANATOMY,AIIMS-All India,ST
+1,33715,Delhi,"AIIMS, Delhi",OPHTHALMOLOGY,AIIMS-All India,UR-PwD
+1,34326,Maharashtra,"AIIMS, Nagpur",PAEDIATRICS,AIIMS-All India,UR-PwD
+1,34856,Jharkhand,"AIIMS, Deoghar",FORENSIC MEDICINE,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,35294,Chandigarh,"PGIMER, Chandigarh",GENERAL SURGERY,PGIMER-All India,UR-PwD
+1,35392,Gujarat,"AIIMS, Rajkot",PAEDIATRICS,AIIMS-All India,OBC-PwD
+1,35860,West Bengal,"AIIMS, Kalyani",ANAESTHESIOLOGY,AIIMS-All India,UR-PwD
+1,37059,Delhi,"AIIMS, Delhi",OBG,AIIMS-All India,UR-PwD
+1,37717,Delhi,"AIIMS, Delhi",BIOCHEMISTRY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,37915,Rajasthan,"AIIMS, Jodhpur",ENT,AIIMS-All India,UR-PwD
+1,38007,Assam,"AIIMS, Guwahati",ANAESTHESIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,38343,Delhi,"AIIMS, Delhi",PHARMACOLOGY,AIIMS-All India,UR-PwD
+1,38881,Pondicherry,"JIPMER, Puducherry",GENERAL MEDICINE,JIPMER-All India,ST-PwD
+1,39742,Uttarakhand,"AIIMS, Rishikesh",OBG,AIIMS-All India,UR-PwD
+1,39823,Chhattisgarh,"AIIMS, Raipur",ANAESTHESIOLOGY,AIIMS-All India,OBC-PwD
+1,41717,Jammu and Kashmir,"AIIMS, Jammu",EMERGENCY MEDICINE,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,42862,Assam,"AIIMS, Guwahati",PATHOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,42952,Uttar Pradesh,"AIIMS, Rai Bareli",MICROBIOLOGY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,43208,Jharkhand,"AIIMS, Deoghar",BIOCHEMISTRY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,44371,Jharkhand,"AIIMS, Deoghar",BIOCHEMISTRY,AIIMS-Inst. Pref,UR-AIIMS-IP
+1,45831,Chhattisgarh,"AIIMS, Raipur",EMERGENCY MEDICINE,AIIMS-All India,UR-PwD
+1,46240,West Bengal,"AIIMS, Kalyani",PSYCHIATRY,AIIMS-All India,OBC-PwD
+1,46834,Chandigarh,"PGIMER, Chandigarh",OBG,PGIMER-All India,UR-PwD
+1,47417,Rajasthan,"AIIMS, Jodhpur",COMMUNITY MEDICINE,AIIMS-All India,OBC-PwD
+1,47638,Uttarakhand,"AIIMS, Rishikesh",PHARMACOLOGY,AIIMS-All India,UR-PwD
+1,47925,Madhya Pradesh,"AIIMS, Bhopal",OBG,AIIMS-All India,UR-PwD
