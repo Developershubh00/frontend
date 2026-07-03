@@ -1,5 +1,3 @@
-
-
 import React, { useState, useEffect } from "react";
 import {
   ArrowLeft,
@@ -140,7 +138,7 @@ const InicetAllotmentPage: React.FC<InicetAllotmentPageProps> = ({
       values.push(current.trim());
 
       const cleanedValues = values.map((val) =>
-        val.replace(/^"(.*)"$/, "$1").trim()
+        val.replace(/^"(.*)"$/, "$1").trim(),
       );
 
       return {
@@ -158,7 +156,9 @@ const InicetAllotmentPage: React.FC<InicetAllotmentPageProps> = ({
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("/data/inicetData/inicet_jan_2025_session.csv");
+        const response = await fetch(
+          "/data/inicetData/inicet_jan_2025_session.csv",
+        );
 
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
@@ -176,8 +176,8 @@ const InicetAllotmentPage: React.FC<InicetAllotmentPageProps> = ({
           throw new Error("No valid data parsed from CSV");
         }
 
-        const cleanedData = parsedData.filter(item => 
-          item.Round !== "Round" && item.Round !== "ROUND"
+        const cleanedData = parsedData.filter(
+          (item) => item.Round !== "Round" && item.Round !== "ROUND",
         );
 
         setAllotmentData(cleanedData);
@@ -252,7 +252,7 @@ const InicetAllotmentPage: React.FC<InicetAllotmentPageProps> = ({
   const startIndex = (currentPage - 1) * itemsPerPage;
   const paginatedData = filteredData.slice(
     startIndex,
-    startIndex + itemsPerPage
+    startIndex + itemsPerPage,
   );
 
   // Get unique values for filters
@@ -386,7 +386,9 @@ const InicetAllotmentPage: React.FC<InicetAllotmentPageProps> = ({
                 <ArrowLeft className="w-4 h-4" />
               </button>
               <div>
-                <h1 className="text-lg font-semibold">INICET Allotments</h1>
+                <h1 className="text-lg font-semibold">
+                  January 2025 Allotments Data
+                </h1>
                 <p className="text-xs text-blue-100">
                   Institute of National Importance Combined Entrance Test
                 </p>
@@ -587,128 +589,128 @@ const InicetAllotmentPage: React.FC<InicetAllotmentPageProps> = ({
         {/* Table */}
         {/* Scrollable Table Container */}
         <div className="flex-1 overflow-hidden">
-        <div className="overflow-y-auto max-h-[calc(100vh-300px)]">
-         <table className="w-full">
-            <thead className="bg-gradient-to-r from-gray-100 to-gray-200 border-b border-gray-300 sticky top-0">
-              <tr>
-                {columnVisibility.Round && (
-                  <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">
-                    Round
-                  </th>
-                )}
-                {columnVisibility["AI Rank"] && (
-                  <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">
-                    AI Rank
-                  </th>
-                )}
-                {columnVisibility.State && (
-                  <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">
-                    State
-                  </th>
-                )}
-                {columnVisibility.Institute && (
-                  <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">
-                    Institute
-                  </th>
-                )}
-                {columnVisibility.Course && (
-                  <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">
-                    Course
-                  </th>
-                )}
-                {columnVisibility.Quota && (
-                  <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">
-                    Quota
-                  </th>
-                )}
-                {columnVisibility.Category && (
-                  <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">
-                    Category
-                  </th>
-                )}
-              </tr>
-            </thead>
-            <tbody className="bg-white divide-y divide-gray-100">
-              {paginatedData.length === 0 ? (
+          <div className="overflow-y-auto max-h-[calc(100vh-300px)]">
+            <table className="w-full">
+              <thead className="bg-gradient-to-r from-gray-100 to-gray-200 border-b border-gray-300 sticky top-0">
                 <tr>
-                  <td
-                    colSpan={
-                      Object.values(columnVisibility).filter(Boolean).length
-                    }
-                    className="px-6 py-8 text-center text-gray-500"
-                  >
-                    No data found. Try adjusting your filters.
-                  </td>
+                  {columnVisibility.Round && (
+                    <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">
+                      Round
+                    </th>
+                  )}
+                  {columnVisibility["AI Rank"] && (
+                    <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">
+                      AI Rank
+                    </th>
+                  )}
+                  {columnVisibility.State && (
+                    <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">
+                      State
+                    </th>
+                  )}
+                  {columnVisibility.Institute && (
+                    <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">
+                      Institute
+                    </th>
+                  )}
+                  {columnVisibility.Course && (
+                    <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">
+                      Course
+                    </th>
+                  )}
+                  {columnVisibility.Quota && (
+                    <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">
+                      Quota
+                    </th>
+                  )}
+                  {columnVisibility.Category && (
+                    <th className="px-2 py-2 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">
+                      Category
+                    </th>
+                  )}
                 </tr>
-              ) : (
-                paginatedData.map((item, index) => (
-                  <tr
-                    key={index}
-                    className="hover:bg-blue-50 transition-colors"
-                  >
-                    {columnVisibility.Round && (
-                      <td className="px-2 py-2 text-center text-xs text-gray-700 font-medium">
-                        {item.Round}
-                      </td>
-                    )}
-                    {columnVisibility["AI Rank"] && (
-                      <td className="px-2 py-2 text-center text-xs text-purple-600 font-semibold">
-                        {item["AI Rank"]}
-                      </td>
-                    )}
-                    {columnVisibility.State && (
-                      <td className="px-2 py-2 text-center text-xs text-gray-700 font-medium">
-                        {item.State}
-                      </td>
-                    )}
-                    {columnVisibility.Institute && (
-                      <td className="px-2 py-2 text-center text-xs text-blue-600 hover:text-blue-800 cursor-pointer font-medium">
-                        {item.Institute}
-                      </td>
-                    )}
-                    {columnVisibility.Course && (
-                      <td className="px-2 py-2 text-center text-xs text-gray-700">
-                        {item.Course}
-                      </td>
-                    )}
-                    {columnVisibility.Quota && (
-                      <td className="px-2 py-2 text-center text-xs">
-                        <span
-                          className={`px-2 py-1 rounded-full text-xs font-medium ${
-                            item.Quota.toLowerCase().includes("all india")
-                              ? "bg-blue-100 text-blue-800"
-                              : "bg-blue-100 text-blue-800"
-                          }`}
-                        >
-                          {item.Quota}
-                        </span>
-                      </td>
-                    )}
-                    {columnVisibility.Category && (
-                      <td className="px-2 py-2 text-center text-xs">
-                        <span
-                          className={`px-2 py-1 rounded-full text-xs font-medium ${
-                            item.Category.toLowerCase() === "general"
-                              ? "bg-gray-100 text-gray-800"
-                              : item.Category.toLowerCase() === "obc"
-                              ? "bg-yellow-100 text-yellow-800"
-                              : item.Category.toLowerCase() === "sc"
-                              ? "bg-blue-100 text-blue-800"
-                              : item.Category.toLowerCase() === "st"
-                              ? "bg-red-100 text-red-800"
-                              : "bg-purple-100 text-purple-800"
-                          }`}
-                        >
-                          {item.Category}
-                        </span>
-                      </td>
-                    )}
+              </thead>
+              <tbody className="bg-white divide-y divide-gray-100">
+                {paginatedData.length === 0 ? (
+                  <tr>
+                    <td
+                      colSpan={
+                        Object.values(columnVisibility).filter(Boolean).length
+                      }
+                      className="px-6 py-8 text-center text-gray-500"
+                    >
+                      No data found. Try adjusting your filters.
+                    </td>
                   </tr>
-                ))
-              )}
-            </tbody>
-          </table>
-        </div>
+                ) : (
+                  paginatedData.map((item, index) => (
+                    <tr
+                      key={index}
+                      className="hover:bg-blue-50 transition-colors"
+                    >
+                      {columnVisibility.Round && (
+                        <td className="px-2 py-2 text-center text-xs text-gray-700 font-medium">
+                          {item.Round}
+                        </td>
+                      )}
+                      {columnVisibility["AI Rank"] && (
+                        <td className="px-2 py-2 text-center text-xs text-purple-600 font-semibold">
+                          {item["AI Rank"]}
+                        </td>
+                      )}
+                      {columnVisibility.State && (
+                        <td className="px-2 py-2 text-center text-xs text-gray-700 font-medium">
+                          {item.State}
+                        </td>
+                      )}
+                      {columnVisibility.Institute && (
+                        <td className="px-2 py-2 text-center text-xs text-blue-600 hover:text-blue-800 cursor-pointer font-medium">
+                          {item.Institute}
+                        </td>
+                      )}
+                      {columnVisibility.Course && (
+                        <td className="px-2 py-2 text-center text-xs text-gray-700">
+                          {item.Course}
+                        </td>
+                      )}
+                      {columnVisibility.Quota && (
+                        <td className="px-2 py-2 text-center text-xs">
+                          <span
+                            className={`px-2 py-1 rounded-full text-xs font-medium ${
+                              item.Quota.toLowerCase().includes("all india")
+                                ? "bg-blue-100 text-blue-800"
+                                : "bg-blue-100 text-blue-800"
+                            }`}
+                          >
+                            {item.Quota}
+                          </span>
+                        </td>
+                      )}
+                      {columnVisibility.Category && (
+                        <td className="px-2 py-2 text-center text-xs">
+                          <span
+                            className={`px-2 py-1 rounded-full text-xs font-medium ${
+                              item.Category.toLowerCase() === "general"
+                                ? "bg-gray-100 text-gray-800"
+                                : item.Category.toLowerCase() === "obc"
+                                  ? "bg-yellow-100 text-yellow-800"
+                                  : item.Category.toLowerCase() === "sc"
+                                    ? "bg-blue-100 text-blue-800"
+                                    : item.Category.toLowerCase() === "st"
+                                      ? "bg-red-100 text-red-800"
+                                      : "bg-purple-100 text-purple-800"
+                            }`}
+                          >
+                            {item.Category}
+                          </span>
+                        </td>
+                      )}
+                    </tr>
+                  ))
+                )}
+              </tbody>
+            </table>
+          </div>
         </div>
 
         {/* Pagination */}
@@ -774,4 +776,3 @@ const InicetAllotmentPage: React.FC<InicetAllotmentPageProps> = ({
 };
 
 export default InicetAllotmentPage;
-
