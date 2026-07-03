@@ -375,7 +375,6 @@ const July2026AllotmentPage: React.FC<July2026AllotmentPageProps> = ({
 
       {/* Main Content */}
       <div className="flex-1 flex flex-col">
-        {/* Header */}
         <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-3">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
