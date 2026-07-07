@@ -70952,7 +70952,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "medical-prep-para2",
       "type": "paragraph",
-      "content": "The challenge isn't understanding concepts—it's keeping them in your head for months. You study something today. The exam might test it three months later. Without proper revision, most of it fades."
+      "content": "The challenge isn't understanding concepts-it's keeping them in your head for months. You study something today. The exam might test it three months later. Without proper revision, most of it fades."
     },
     {
       "id": "medical-prep-conclusion",
@@ -71010,7 +71010,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "recognition-vs-recall-conclusion",
       "type": "paragraph",
-      "content": "That's where active recall comes in. Solving MCQs, testing yourself without notes, revising from memory, explaining concepts out loud—these force your brain to actually retrieve information. That retrieval process builds retention way better than passive reading ever will."
+      "content": "That's where active recall comes in. Solving MCQs, testing yourself without notes, revising from memory, explaining concepts out loud-these force your brain to actually retrieve information. That retrieval process builds retention way better than passive reading ever will."
     },
     {
       "id": "revision-not-optional",
@@ -71052,7 +71052,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "mock-tests-conclusion",
       "type": "paragraph",
-      "content": "Mock tests are basically retention-building machines. The real value isn't the score—it's the learning that happens afterward."
+      "content": "Mock tests are basically retention-building machines. The real value isn't the score-it's the learning that happens afterward."
     },
     {
       "id": "retention-confidence",
@@ -71154,11 +71154,11 @@ export const blogPosts: BlogPost[] = [
         },
         {
           "question": "How can I improve retention during NEET PG preparation?",
-          "answer": "Regular revision, active recall, MCQ practice, and mock tests go a long way — they help you figure out where you're slipping and fix those gaps before the exam."
+          "answer": "Regular revision, active recall, MCQ practice, and mock tests go a long way - they help you figure out where you're slipping and fix those gaps before the exam."
         },
         {
           "question": "Why do I forget topics even after studying them well?",
-          "answer": "Because without revisiting what you've studied, forgetting is inevitable — that's just how memory works. Revision and consistent practice are what make things stick."
+          "answer": "Because without revisiting what you've studied, forgetting is inevitable - that's just how memory works. Revision and consistent practice are what make things stick."
         },
         {
           "question": "What's more important before NEET PG: new topics or revision?",
@@ -71216,7 +71216,7 @@ export const blogPosts: BlogPost[] = [
   ],
   "published_date": "2026-06-24",
   "read_time": 10,
-  "meta_title": "Completing the Syllabus Won't Get You a Rank—Retention Will",
+  "meta_title": "Completing the Syllabus Won't Get You a Rank-Retention Will",
   "meta_description": "Finishing the syllabus is only the first step. Consistent revision and strong retention are what truly drive top ranks in NEET PG.",
   "keywords": [
     "neet pg",
@@ -73165,7 +73165,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "intro-para1",
       "type": "paragraph",
-      "content": "Most medical graduates treat NEET PG as the finish line. Months of studying, endless revisions, mock tests, score anxiety, exam-day nerves — all of it aimed at one thing: securing a postgraduate seat."
+      "content": "Most medical graduates treat NEET PG as the finish line. Months of studying, endless revisions, mock tests, score anxiety, exam-day nerves - all of it aimed at one thing: securing a postgraduate seat."
     },
     {
       "id": "intro-para2",
@@ -73200,7 +73200,7 @@ export const blogPosts: BlogPost[] = [
       "rows": [
         ["Filling too few choices", "A short preference list shrinks your options during allotment rounds significantly. Casting a wider net is almost always smarter."],
         ["Ignoring lower-fee colleges", "Some institutions offer genuinely strong training at a fraction of the fees of more well-known names. Overlooking them purely on reputation is a financial decision dressed up as an academic one."],
-        ["Not understanding upgradation rules", "The rules around free exits, upgrades, and seat retention are genuinely confusing — and not understanding them means missing opportunities in later rounds that were yours to take."],
+        ["Not understanding upgradation rules", "The rules around free exits, upgrades, and seat retention are genuinely confusing - and not understanding them means missing opportunities in later rounds that were yours to take."],
         ["Missing deadlines", "Document submissions, reporting windows, payment deadlines. Every counselling cycle sees students lose seats over things that had nothing to do with their rank. In a competitive process, small oversights carry real consequences."],
         ["Ignoring bond and service obligations", "Some colleges and states come with mandatory service commitments. Finding out after you've accepted a seat is a very different experience from knowing beforehand."]
       ]
@@ -73224,7 +73224,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "financial-side-conclusion",
       "type": "paragraph",
-      "content": "Understanding how the rounds work, staying in the process when it makes sense to, and getting guidance from people who've been through it — these things genuinely matter."
+      "content": "Understanding how the rounds work, staying in the process when it makes sense to, and getting guidance from people who've been through it - these things genuinely matter."
     },
     {
       "id": "beyond-five-branches",
@@ -73240,12 +73240,12 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "beyond-five-para2",
       "type": "paragraph",
-      "content": "Several specialties are seeing real growth in demand and career opportunity — Anesthesiology, Psychiatry, Emergency Medicine, Nuclear Medicine, Radiology. As healthcare systems expand and patient needs change, these fields offer strong professional growth, solid academic paths, and genuine satisfaction for doctors who chose them thoughtfully rather than by default."
+      "content": "Several specialties are seeing real growth in demand and career opportunity - Anesthesiology, Psychiatry, Emergency Medicine, Nuclear Medicine, Radiology. As healthcare systems expand and patient needs change, these fields offer strong professional growth, solid academic paths, and genuine satisfaction for doctors who chose them thoughtfully rather than by default."
     },
     {
       "id": "beyond-five-conclusion",
       "type": "paragraph",
-      "content": "Students who explore specialties based on actual interest and future demand tend to make more confident decisions — and usually more settled ones too."
+      "content": "Students who explore specialties based on actual interest and future demand tend to make more confident decisions - and usually more settled ones too."
     },
     {
       "id": "closing-rank-obsession",
@@ -73261,7 +73261,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "closing-rank-para2",
       "type": "paragraph",
-      "content": "These numbers are useful. But they're not gospel. Closing ranks shift every year based on seat availability, candidate preferences, reservation policies, and exam difficulty. What closed at a certain number last year tells you something — it doesn't tell you everything."
+      "content": "These numbers are useful. But they're not gospel. Closing ranks shift every year based on seat availability, candidate preferences, reservation policies, and exam difficulty. What closed at a certain number last year tells you something - it doesn't tell you everything."
     },
     {
       "id": "closing-rank-conclusion",
@@ -73292,7 +73292,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "rank-not-verdict-conclusion",
       "type": "paragraph",
-      "content": "The qualities that build a long medical career — clinical judgment, empathy, professionalism, the ability to keep learning — have very little to do with where you placed on a single competitive exam."
+      "content": "The qualities that build a long medical career - clinical judgment, empathy, professionalism, the ability to keep learning - have very little to do with where you placed on a single competitive exam."
     },
     {
       "id": "result-disappoints",
@@ -73303,7 +73303,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "result-disappoints-para1",
       "type": "paragraph",
-      "content": "Some students will read this after a result that genuinely hurt. Months of effort, real sacrifice, and then a number that didn't reflect any of it — or at least didn't feel like it did."
+      "content": "Some students will read this after a result that genuinely hurt. Months of effort, real sacrifice, and then a number that didn't reflect any of it - or at least didn't feel like it did."
     },
     {
       "id": "result-disappoints-para2",
@@ -73324,7 +73324,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "bigger-picture-para1",
       "type": "paragraph",
-      "content": "Medical careers are built over decades. The counselling round, the branch selection, the college — these are real decisions with real consequences, but they are not the final word on anything."
+      "content": "Medical careers are built over decades. The counselling round, the branch selection, the college - these are real decisions with real consequences, but they are not the final word on anything."
     },
     {
       "id": "bigger-picture-para2",
@@ -73350,7 +73350,7 @@ export const blogPosts: BlogPost[] = [
     {
       "id": "one-last-para2",
       "type": "paragraph",
-      "content": "Understanding how counselling works, avoiding the common mistakes, staying open to emerging specialties, and not letting a rank become a story you tell yourself about your own worth — these things will matter in the years ahead more than the rank itself."
+      "content": "Understanding how counselling works, avoiding the common mistakes, staying open to emerging specialties, and not letting a rank become a story you tell yourself about your own worth - these things will matter in the years ahead more than the rank itself."
     },
     {
       "id": "one-last-conclusion",

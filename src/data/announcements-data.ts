@@ -1637,6 +1637,19 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "AIIMS",
     created_at: "2026-06-24T08:00:00Z",
   },
+  {
+    id: 124,
+    title: "FMGE June 2026",
+    content:
+      "FMGE June 2026 Result Declared: Check Your Result & Official Statistics",
+    date: "2026-07-07",
+    priority: "high",
+    category: "FMGE",
+    link: "https://drive.google.com/file/d/12hu--jPQORQLjdq-kElBDOVvrE8o_17M/view",
+    is_active: true,
+    source: "NAT Board",
+    created_at: "2026-07-07",
+  },
 ];
 
 /**
