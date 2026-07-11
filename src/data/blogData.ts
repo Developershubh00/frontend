@@ -74141,6 +74141,38 @@ export const blogPosts: BlogPost[] = [
       "content": "The countdown is on. Make every day count."
     },
     {
+      "id": "faqs",
+      "type": "heading",
+      "title": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "1. When is the NEET PG 2026 exam?",
+          "answer": "NEET PG 2026 will be conducted on 30 August 2026 (Sunday)."
+        },
+        {
+          "question": "2. When does NEET PG 2026 registration begin?",
+          "answer": "The registration window opens on 1 July 2026 at 5:00 PM."
+        },
+        {
+          "question": "3. What is the last date to apply for NEET PG 2026?",
+          "answer": "Candidates can submit their application until 21 July 2026 at 11:55 PM."
+        },
+        {
+          "question": "4. When will the NEET PG 2026 test city be announced?",
+          "answer": "NBEMS will release the test city intimation on 11 August 2026."
+        },
+        {
+          "question": "5. When is the NEET PG 2026 result expected?",
+          "answer": "The NEET PG 2026 result is expected to be declared by 30 September 2026."
+        }
+      ]
+    },
+    {
       "id": "keywords",
       "type": "keywords",
       "title": "Related Keywords",
