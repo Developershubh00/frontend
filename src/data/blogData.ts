@@ -74217,7 +74217,7 @@ export const blogPosts: BlogPost[] = [
     "NEET UG Result"
   ],
   "published_date": "2026-07-10",
-  "read_time": 10,
+  "read_time": 8,
   "meta_title": "NEET UG 2026 Result Coming Soon? Here's Where You Need to Register for Counselling",
   "meta_description": "NEET UG 2026 Result is expected soon. Stay ahead by registering for NEET UG 2026 Counselling through the right portal to secure your MBBS/BDS admission without delays.",
   "keywords": [
