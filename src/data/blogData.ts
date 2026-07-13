@@ -74191,6 +74191,417 @@ export const blogPosts: BlogPost[] = [
       ]
     }
   ]
+},
+{
+  "id": 180,
+  "title": "NEET UG 2026 Result Coming Soon? Here's Where You Need to Register for Counselling",
+  "slug": "neet-ug-2026-result-coming-soon-register-for-counselling",
+  "excerpt": "NEET UG 2026 Result is expected soon. Stay ahead by registering for NEET UG 2026 Counselling through the right portal to secure your MBBS/BDS admission without delays.",
+  "featured_image": "https://cdn.dribbble.com/userupload/48362424/file/0aa57b5ef9d2fef0fa4b7f3d65e2684e.jpg",
+  "featured_image_alt": "NEET UG 2026 Counselling Registration",
+  "author": {
+    "name": "Believers Team",
+    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+  },
+  "category": {
+    "name": "NEET PG",
+    "slug": "neet-pg",
+    "color": "bg-blue-100 text-blue-800"
+  },
+  "tags": [
+    "NEET UG",
+    "NEET UG 2026",
+    "NEET UG Counselling",
+    "Medical Entrance Exam",
+    "NEET UG Result"
+  ],
+  "published_date": "2026-07-10",
+  "read_time": 10,
+  "meta_title": "NEET UG 2026 Result Coming Soon? Here's Where You Need to Register for Counselling",
+  "meta_description": "NEET UG 2026 Result is expected soon. Stay ahead by registering for NEET UG 2026 Counselling through the right portal to secure your MBBS/BDS admission without delays.",
+  "keywords": [
+    "neet ug",
+    "neet ug result",
+    "neet ug 2026",
+    "neet ug 2026 result",
+    "medical entrance exam",
+    "neet ug admissions",
+    "neet ug counselling registration",
+    "neet exam",
+    "neet ug counselling schedule",
+    "neet ug counselling rounds",
+    "neet ug fee structure",
+    "neet ug entrance exam",
+    "eligibility for neet ug",
+    "neet ug re exam"
+  ],
+  "sections": [
+    {
+      "id": "intro-para1",
+      "type": "paragraph",
+      "content": "NEET UG 2026 result is coming. Once it's out, counselling registration happens next. And this is where most candidates get confused."
+    },
+    {
+      "id": "intro-conclusion",
+      "type": "paragraph",
+      "content": "People assume there's one counselling portal. There isn't. NEET UG admissions use three different counselling authorities depending on what course you want. This explains which portal you need, what each one does, fees, the process, and how they're different."
+    },
+    {
+      "id": "three-authorities",
+      "type": "heading",
+      "title": "One NEET Exam, Three Counselling Authorities",
+      "level": 2
+    },
+    {
+      "id": "three-authorities-table",
+      "type": "table",
+      "headers": ["Authority", "Courses", "Portal"],
+      "rows": [
+        ["Medical Counselling Committee (MCC)", "MBBS, BDS, BSc Nursing", "mcc.nic.in"],
+        ["Ayush Admissions Central Counselling Committee (AACCC)", "BAMS, BHMS, BUMS, BSMS", "aaccc.gov.in"],
+        ["Veterinary Council of India (VCI)", "BVSc & AH", "vci.admissions.nic.in"]
+      ],
+      "caption": "You need the right portal for your course. Each authority handles different admissions."
+    },
+    {
+      "id": "mcc-section",
+      "type": "heading",
+      "title": "Medical Counselling Committee (MCC)",
+      "level": 2
+    },
+    {
+      "id": "mcc-para1",
+      "type": "paragraph",
+      "content": "MCC handles admissions for MBBS, BDS, and BSc Nursing."
+    },
+    {
+      "id": "mcc-what-they-manage",
+      "type": "heading",
+      "title": "What They Manage",
+      "level": 3
+    },
+    {
+      "id": "mcc-manage-list",
+      "type": "list",
+      "items": [
+        "15% All India Quota (AIQ) seats in Government Medical Colleges",
+        "100% seats in AIIMS (all campuses)",
+        "JIPMER",
+        "Central Universities (BHU, AMU, DU, JMI)",
+        "ESIC Institutions",
+        "AFMC (separate admission process)"
+      ]
+    },
+    {
+      "id": "mcc-ministry",
+      "type": "paragraph",
+      "content": "Overseen by Ministry of Health & Family Welfare."
+    },
+    {
+      "id": "mcc-when",
+      "type": "heading",
+      "title": "When Counselling Happens",
+      "level": 3
+    },
+    {
+      "id": "mcc-when-para",
+      "type": "paragraph",
+      "content": "Due to NEET UG 2026 re-exam, counselling expected between July and September 2026."
+    },
+    {
+      "id": "mcc-rounds",
+      "type": "heading",
+      "title": "Counselling Rounds",
+      "level": 3
+    },
+    {
+      "id": "mcc-rounds-para",
+      "type": "paragraph",
+      "content": "Round 1, Round 2, Round 3, Round 4, plus Stray Vacancy Round."
+    },
+    {
+      "id": "mcc-how-to-register",
+      "type": "heading",
+      "title": "How to Register",
+      "level": 3
+    },
+    {
+      "id": "mcc-register-list",
+      "type": "list",
+      "items": [
+        "Sign up on MCC portal with your NEET Roll Number",
+        "Pay registration fee and security deposit",
+        "Fill college and course preferences",
+        "Lock your choices before deadline",
+        "Check seat allotment result online",
+        "Report to your college with documents"
+      ]
+    },
+    {
+      "id": "mcc-fees-aiq",
+      "type": "heading",
+      "title": "Registration Fees for AIQ & Central University Seats",
+      "level": 3
+    },
+    {
+      "id": "mcc-fees-aiq-table",
+      "type": "table",
+      "headers": ["Category", "Registration Fee", "Security Deposit"],
+      "rows": [
+        ["General / EWS", "₹1,000", "₹10,000"],
+        ["SC / ST / OBC / PwD", "₹500", "₹5,000"]
+      ]
+    },
+    {
+      "id": "mcc-fees-deemed",
+      "type": "heading",
+      "title": "For Deemed University Seats",
+      "level": 3
+    },
+    {
+      "id": "mcc-fees-deemed-table",
+      "type": "table",
+      "headers": ["Category", "Registration Fee", "Security Deposit"],
+      "rows": [
+        ["All categories", "₹5,000", "₹2,00,000"]
+      ]
+    },
+    {
+      "id": "aaccc-section",
+      "type": "heading",
+      "title": "Ayush Admissions Central Counselling Committee (AACCC)",
+      "level": 2
+    },
+    {
+      "id": "aaccc-para1",
+      "type": "paragraph",
+      "content": "AACCC handles AYUSH courses: BAMS, BHMS, BUMS, BSMS, and B.Pharm (Ayurveda). Overseen by National Commission for Indian System of Medicine (NCISM), Ministry of Ayush."
+    },
+    {
+      "id": "aaccc-what-they-manage",
+      "type": "heading",
+      "title": "What They Manage",
+      "level": 3
+    },
+    {
+      "id": "aaccc-manage-list",
+      "type": "list",
+      "items": [
+        "15% All India Quota seats in Government and Aided AYUSH colleges",
+        "100% seats in Deemed Universities",
+        "Central Universities",
+        "National Institutes",
+        "Over 900 AYUSH colleges participate"
+      ]
+    },
+    {
+      "id": "aaccc-when",
+      "type": "heading",
+      "title": "When Counselling Happens",
+      "level": 3
+    },
+    {
+      "id": "aaccc-when-para",
+      "type": "paragraph",
+      "content": "Expected to start August 2026 (tentative)."
+    },
+    {
+      "id": "aaccc-rounds",
+      "type": "heading",
+      "title": "Counselling Rounds",
+      "level": 3
+    },
+    {
+      "id": "aaccc-rounds-para",
+      "type": "paragraph",
+      "content": "Round 1, Round 2, Round 3, Stray Vacancy Round I, Stray Vacancy Round II."
+    },
+    {
+      "id": "aaccc-rules",
+      "type": "heading",
+      "title": "Important AACCC Rules",
+      "level": 3
+    },
+    {
+      "id": "aaccc-rules-list",
+      "type": "list",
+      "items": [
+        "Deemed University seats are unreserved. Central Government reservation policies don't apply.",
+        "Registration Fee: General ₹1,000, SC/ST ₹500.",
+        "No fresh registrations allowed during Stray Vacancy Round.",
+        "Candidates who don't join their allotted college lose security deposit and become ineligible for further rounds.",
+        "Foreign nationals applying under NRI quota in Deemed Universities don't need NEET for AYUSH UG courses."
+      ]
+    },
+    {
+      "id": "vci-section",
+      "type": "heading",
+      "title": "Veterinary Council of India (VCI)",
+      "level": 2
+    },
+    {
+      "id": "vci-para1",
+      "type": "paragraph",
+      "content": "VCI handles counselling for BVSc & AH (Bachelor of Veterinary Science & Animal Husbandry)."
+    },
+    {
+      "id": "vci-eligibility",
+      "type": "heading",
+      "title": "Eligibility",
+      "level": 3
+    },
+    {
+      "id": "vci-eligibility-list",
+      "type": "list",
+      "items": [
+        "Indian citizen",
+        "At least 17 years old by December 31, 2026",
+        "Qualified NEET UG 2026"
+      ]
+    },
+    {
+      "id": "vci-eligibility-note",
+      "type": "paragraph",
+      "content": "Note: Jammu & Kashmir domicile candidates aren't eligible for AIQ seats."
+    },
+    {
+      "id": "vci-fees",
+      "type": "heading",
+      "title": "Registration Fees",
+      "level": 3
+    },
+    {
+      "id": "vci-fees-table",
+      "type": "table",
+      "headers": ["Category", "Registration Fee"],
+      "rows": [
+        ["General", "₹1,000"],
+        ["EWS/OBC", "₹900"],
+        ["SC/ST/PwD", "₹500"]
+      ]
+    },
+    {
+      "id": "vci-when",
+      "type": "heading",
+      "title": "When Counselling Happens",
+      "level": 3
+    },
+    {
+      "id": "vci-when-para",
+      "type": "paragraph",
+      "content": "Expected September 2026."
+    },
+    {
+      "id": "vci-rounds",
+      "type": "heading",
+      "title": "Counselling Rounds",
+      "level": 3
+    },
+    {
+      "id": "vci-rounds-para",
+      "type": "paragraph",
+      "content": "Round 1, Round 2, Stray Vacancy Round."
+    },
+    {
+      "id": "comparison",
+      "type": "heading",
+      "title": "MCC vs AACCC vs VCI: Quick Comparison",
+      "level": 2
+    },
+    {
+      "id": "comparison-table",
+      "type": "table",
+      "headers": ["Feature", "MCC", "AACCC", "VCI"],
+      "rows": [
+        ["Courses", "MBBS, BDS, BSc Nursing", "BAMS, BHMS, BUMS, BSMS", "BVSc & AH"],
+        ["AIQ Seats", "15%", "15%", "15%"],
+        ["Deemed University Seats", "Yes (100%)", "Yes (100%)", "No"],
+        ["Counselling Rounds", "4 + Stray Vacancy", "3 + Stray Vacancy I & II", "2 + Stray Vacancy"],
+        ["Expected Start", "July–September 2026", "August 2026", "September 2026"],
+        ["Conducting Ministry", "Ministry of Health & Family Welfare", "Ministry of Ayush", "Department of Animal Husbandry & Dairying"],
+        ["Official Portal", "mcc.nic.in", "aaccc.gov.in", "vci.admissions.nic.in"]
+      ]
+    },
+    {
+      "id": "final-thoughts",
+      "type": "heading",
+      "title": "Final Thoughts",
+      "level": 2
+    },
+    {
+      "id": "final-thoughts-para1",
+      "type": "paragraph",
+      "content": "You passed NEET UG 2026. That's step one. Now comes registering with the right counselling body based on what you want to study."
+    },
+    {
+      "id": "final-thoughts-list",
+      "type": "list",
+      "items": [
+        "Want MBBS, BDS, or BSc Nursing? Go to MCC.",
+        "Interested in AYUSH - BAMS, BHMS, BUMS, BSMS? That's AACCC.",
+        "Looking at BVSc & AH? VCI is your place."
+      ]
+    },
+    {
+      "id": "final-thoughts-conclusion",
+      "type": "paragraph",
+      "content": "Get your documents together. Know the rules. Register before the deadlines close. This is where you actually secure a seat."
+    },
+    {
+      "id": "faqs",
+      "type": "heading",
+      "title": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "faqs-list",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Which portal for MBBS counselling after NEET UG 2026?",
+          "answer": "MCC handles it."
+        },
+        {
+          "question": "Where do AYUSH aspirants sign up?",
+          "answer": "AACCC."
+        },
+        {
+          "question": "Who runs BVSc & AH counselling?",
+          "answer": "VCI."
+        },
+        {
+          "question": "Can I register for multiple counselling authorities?",
+          "answer": "Yeah, if you're eligible for different courses."
+        },
+        {
+          "question": "Is passing NEET UG enough to get a seat?",
+          "answer": "No. You also have to register for counselling."
+        }
+      ]
+    },
+    {
+      "id": "keywords",
+      "type": "keywords",
+      "title": "Related Keywords",
+      "keywords": [
+        "neet ug",
+        "neet ug result",
+        "neet ug 2026",
+        "neet ug 2026 result",
+        "medical entrance exam",
+        "neet ug admissions",
+        "neet ug counselling registration",
+        "neet exam",
+        "neet ug counselling schedule",
+        "neet ug counselling rounds",
+        "neet ug fee structure",
+        "neet ug entrance exam",
+        "eligibility for neet ug",
+        "neet ug re exam"
+      ]
+    }
+  ]
 }
 ];
 
