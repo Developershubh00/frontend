@@ -1,5 +1,3 @@
-
-
 import React, { useEffect, useState } from "react";
 import {
   FileText,
@@ -75,30 +73,36 @@ const MainContent: React.FC<MainContentProps> = ({
     setYearModal({ open: false, cardId: "", cardTitle: "" });
 
     if (year === "2025") {
-  if (cardId === "allotments")        window.location.href = "/allotments2025";
-  if (cardId === "closing-ranks")     window.location.href = "/closingranks2025";
-  if (cardId === "seat-matrix")       window.location.href = "/seatmatrix2025";
-  if (cardId === "fees-stipend-bond") window.location.href = "/feesstipendbond2025";
-  return;
-}
+      if (cardId === "allotments") window.location.href = "/allotments2025";
+      if (cardId === "closing-ranks")
+        window.location.href = "/closingranks2025";
+      if (cardId === "seat-matrix") window.location.href = "/seatmatrix2025";
+      if (cardId === "fees-stipend-bond")
+        window.location.href = "fees-stipend-bond-2025";
+      return;
+    }
 
     // year === "2024" → go to existing pages
-    if (cardId === "allotments")         window.location.href = "/allotments";
-    if (cardId === "closing-ranks")      window.location.href = "/Closingranks";
-    if (cardId === "seat-matrix")        window.location.href = "/seat-matrix";
-    if (cardId === "fees-stipend-bond")  window.location.href = "/feesstipendbond";
+    if (cardId === "allotments") window.location.href = "/allotments";
+    if (cardId === "closing-ranks") window.location.href = "/Closingranks";
+    if (cardId === "seat-matrix") window.location.href = "/seat-matrix";
+    if (cardId === "fees-stipend-bond")
+      window.location.href = "/fees-stipend-bond-2024";
   };
 
   const [bgIndex, setBgIndex] = useState(0);
   const bgImages = [
-  "https://cdn.dribbble.com/userupload/47072483/file/4e241bcd05ff431236aefe3ca32de0b5.png",
-  // "https://cdn.dribbble.com/userupload/47072484/file/c4f9d53a79f4fe3a59f611bd51d832d0.png",
-];
+    "https://cdn.dribbble.com/userupload/47072483/file/4e241bcd05ff431236aefe3ca32de0b5.png",
+    // "https://cdn.dribbble.com/userupload/47072484/file/c4f9d53a79f4fe3a59f611bd51d832d0.png",
+  ];
 
-useEffect(() => {
-  const t = setInterval(() => setBgIndex(i => (i + 1) % bgImages.length), 4500);
-  return () => clearInterval(t);
-}, []);
+  useEffect(() => {
+    const t = setInterval(
+      () => setBgIndex((i) => (i + 1) % bgImages.length),
+      4500,
+    );
+    return () => clearInterval(t);
+  }, []);
   // ───────────────────────────────────────────────────────────────────────
 
   const actionButtons = [
@@ -121,7 +125,7 @@ useEffect(() => {
       onClick: () => {
         window.open(
           "https://mcc.admissions.nic.in/applicant/Root/Home.aspx?enc=yVQCIiq12npg+pcvNJRdczPF17I15Ol0NS9nSxDhDdGLAjT1f7ob/W1d83JxT5Jc",
-          "_blank"
+          "_blank",
         );
       },
     },
@@ -134,7 +138,7 @@ useEffect(() => {
       onClick: () => {
         window.open(
           "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2024/11/2024110615.pdf",
-          "_blank"
+          "_blank",
         );
       },
     },
@@ -192,25 +196,45 @@ useEffect(() => {
       subtitle: "",
       icon: Award,
       color: "bg-purple-600",
-      navLink: "/feesstipendbond",
+      navLink: "/fees-stipend-bond-2024",
     },
   ];
   // ───────────────────────────────────────────────────────────────────────
 
   const neetStats = dashboardData?.neetStats || [
     { label: "Registered", value: "2,42,493", year: "2025" },
-    { label: "Appeared",   value: "2,30,114", year: "2025" },
-    { label: "Qualified",  value: "1,28,116", year: "2025" },
+    { label: "Appeared", value: "2,30,114", year: "2025" },
+    { label: "Qualified", value: "1,28,116", year: "2025" },
     { label: "Registered", value: "2,28,540", year: "2024" },
-    { label: "Appeared",   value: "2,16,136", year: "2024" },
-    { label: "Qualified",  value: "1,28,532", year: "2024" },
+    { label: "Appeared", value: "2,16,136", year: "2024" },
+    { label: "Qualified", value: "1,28,532", year: "2024" },
   ];
 
   const timelineSteps = dashboardData?.timeline || [
-    { date: "NOV 20 2025", title: "Round 1 Seat Allotment", subtitle: "Result Declared", status: "Completed" },
-    { date: "DEC 2025",    title: "Round 2 Counselling",    subtitle: "Completed",        status: "Completed" },
-    { date: "FEB 5 2026",  title: "Round 3 Final Result",   subtitle: "Declared",         status: "Completed" },
-    { date: "FEB 21 2026", title: "Stray Round Result",     subtitle: "Declared",        status: "Completed" },
+    {
+      date: "NOV 20 2025",
+      title: "Round 1 Seat Allotment",
+      subtitle: "Result Declared",
+      status: "Completed",
+    },
+    {
+      date: "DEC 2025",
+      title: "Round 2 Counselling",
+      subtitle: "Completed",
+      status: "Completed",
+    },
+    {
+      date: "FEB 5 2026",
+      title: "Round 3 Final Result",
+      subtitle: "Declared",
+      status: "Completed",
+    },
+    {
+      date: "FEB 21 2026",
+      title: "Stray Round Result",
+      subtitle: "Declared",
+      status: "Completed",
+    },
   ];
 
   const handleStateTabChange = (tabId: string) => {
@@ -223,16 +247,27 @@ useEffect(() => {
     try {
       let data;
       switch (type) {
-        case "allotments":        data = await dataService.getCategoryAllotments(category); break;
-        case "closing-ranks":     data = await dataService.getCategoryClosingRanks(category); break;
-        case "seat-matrix":       data = await dataService.getCategorySeatMatrix(category); break;
-        case "fee-stipend-bond":  data = await dataService.getCategoryFeeStipendBond(category); break;
-        default:                  data = await dataService.getCategoryAllotments(category);
+        case "allotments":
+          data = await dataService.getCategoryAllotments(category);
+          break;
+        case "closing-ranks":
+          data = await dataService.getCategoryClosingRanks(category);
+          break;
+        case "seat-matrix":
+          data = await dataService.getCategorySeatMatrix(category);
+          break;
+        case "fee-stipend-bond":
+          data = await dataService.getCategoryFeeStipendBond(category);
+          break;
+        default:
+          data = await dataService.getCategoryAllotments(category);
       }
       let dataArray = [];
       if (Array.isArray(data)) dataArray = data;
-      else if (data && typeof data === "object" && Array.isArray(data.data)) dataArray = data.data;
-      else if (data && typeof data === "object" && data.data) dataArray = [data.data];
+      else if (data && typeof data === "object" && Array.isArray(data.data))
+        dataArray = data.data;
+      else if (data && typeof data === "object" && data.data)
+        dataArray = [data.data];
       setTableData(dataArray);
     } catch (error) {
       console.error("Error fetching data:", error);
@@ -255,55 +290,57 @@ useEffect(() => {
     switch (type) {
       case "allotments":
         return [
-          { key: "college",   label: "College Name",   sortable: true },
-          { key: "specialty", label: "Specialty",       sortable: true },
-          { key: "category",  label: "Category",        sortable: true },
-          { key: "quota",     label: "Quota",           sortable: true },
-          { key: "round",     label: "Round",           sortable: true },
-          { key: "rank",      label: "Closing Rank",    sortable: true },
+          { key: "college", label: "College Name", sortable: true },
+          { key: "specialty", label: "Specialty", sortable: true },
+          { key: "category", label: "Category", sortable: true },
+          { key: "quota", label: "Quota", sortable: true },
+          { key: "round", label: "Round", sortable: true },
+          { key: "rank", label: "Closing Rank", sortable: true },
         ];
       case "closing-ranks":
         return [
-          { key: "college",       label: "College Name",   sortable: true },
-          { key: "specialty",     label: "Specialty",      sortable: true },
-          { key: "category",      label: "Category",       sortable: true },
-          { key: "opening_rank",  label: "Opening Rank",   sortable: true },
-          { key: "closing_rank",  label: "Closing Rank",   sortable: true },
-          { key: "year",          label: "Year",           sortable: true },
+          { key: "college", label: "College Name", sortable: true },
+          { key: "specialty", label: "Specialty", sortable: true },
+          { key: "category", label: "Category", sortable: true },
+          { key: "opening_rank", label: "Opening Rank", sortable: true },
+          { key: "closing_rank", label: "Closing Rank", sortable: true },
+          { key: "year", label: "Year", sortable: true },
         ];
       case "seat-matrix":
         return [
-          { key: "college",           label: "College Name",      sortable: true },
-          { key: "specialty",         label: "Specialty",          sortable: true },
-          { key: "total_seats",       label: "Total Seats",        sortable: true },
-          { key: "aiq_seats",         label: "AIQ Seats",          sortable: true },
-          { key: "state_seats",       label: "State Seats",        sortable: true },
-          { key: "management_seats",  label: "Management Seats",   sortable: true },
+          { key: "college", label: "College Name", sortable: true },
+          { key: "specialty", label: "Specialty", sortable: true },
+          { key: "total_seats", label: "Total Seats", sortable: true },
+          { key: "aiq_seats", label: "AIQ Seats", sortable: true },
+          { key: "state_seats", label: "State Seats", sortable: true },
+          {
+            key: "management_seats",
+            label: "Management Seats",
+            sortable: true,
+          },
         ];
       case "fee-stipend-bond":
         return [
-          { key: "college",     label: "College Name",    sortable: true },
-          { key: "specialty",   label: "Specialty",       sortable: true },
-          { key: "fee",         label: "Fee (₹)",         sortable: true },
-          { key: "stipend",     label: "Stipend (₹)",     sortable: true },
-          { key: "bond",        label: "Bond Period",     sortable: true },
+          { key: "college", label: "College Name", sortable: true },
+          { key: "specialty", label: "Specialty", sortable: true },
+          { key: "fee", label: "Fee (₹)", sortable: true },
+          { key: "stipend", label: "Stipend (₹)", sortable: true },
+          { key: "bond", label: "Bond Period", sortable: true },
           { key: "bond_amount", label: "Bond Amount (₹)", sortable: true },
         ];
       default:
         return [
-          { key: "college",   label: "College Name", sortable: true },
-          { key: "specialty", label: "Specialty",    sortable: true },
-          { key: "category",  label: "Category",     sortable: true },
+          { key: "college", label: "College Name", sortable: true },
+          { key: "specialty", label: "Specialty", sortable: true },
+          { key: "category", label: "Category", sortable: true },
         ];
     }
   };
 
-  
   // ───────────────────────────────────────────────────────────────────────
 
   return (
     <div className="w-full bg-gradient-to-br from-rose-50 via-blue-50 to-indigo-50">
-
       {/* ── YEAR SELECTION MODAL — renders on top of everything ────────── */}
       <YearSelectionModal
         isOpen={yearModal.open}
@@ -319,12 +356,11 @@ useEffect(() => {
         <div className="absolute inset-0 bg-black/5"></div>
         {/* <div className="relative overflow-hidden rounded-2xl px-4 lg:px-6 pb-24 lg:pb-32 min-h-[280px] lg:min-h-[460px] flex flex-col justify-end">
           <div className="absolute inset-0 bg-cover transition-opacity duration-[1200ms]" style={{ backgroundImage: `url(${bgImages[0]})`,backgroundPosition: "center 20%", }} /> */}
-          {/* <div className="absolute inset-0 bg-cover transition-opacity duration-[1200ms]" style={{ backgroundImage: `url(${bgImages[1]})`, backgroundPosition: "center 30%", opacity: bgIndex === 1 ? 1 : 0 }} /> */}
-           <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-black/20 to-black/70" />
-          <div className="relative max-w-7xl mx-auto w-full">
+        {/* <div className="absolute inset-0 bg-cover transition-opacity duration-[1200ms]" style={{ backgroundImage: `url(${bgImages[1]})`, backgroundPosition: "center 30%", opacity: bgIndex === 1 ? 1 : 0 }} /> */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-black/20 to-black/70" />
+        <div className="relative max-w-7xl mx-auto w-full">
           {/* Mobile */}
           <div className="xl:hidden text-center">
-            
             <h1 className="text-xl font-bold text-white mb-4 [text-shadow:_1px_1px_2px_rgba(0,0,0,0.7)]">
               Check Your Results &amp; Start Counselling
             </h1>
@@ -348,7 +384,6 @@ useEffect(() => {
               <h1 className="text-3xl lg:text-4xl font-bold text-white [text-shadow:_1px_1px_2px_rgba(0,0,0,0.7)]">
                 Check Your Results &amp; Start Your Counselling Journey Today!
               </h1>
-              
             </div>
             <div className="flex flex-wrap items-center justify-center gap-4">
               {actionButtons.map((button) => (
@@ -367,7 +402,6 @@ useEffect(() => {
       </div>
 
       <div className="relative z-10 -mt-16 px-4 lg:px-6 py-6 lg:py-4 max-w-7xl mx-auto">
-
         {/* ── DATA CARDS ─────────────────────────────────────────────────── */}
         {/*
           CHANGE from original:
@@ -389,7 +423,9 @@ useEffect(() => {
               <h3 className="font-bold text-slate-800 mb-1 text-sm lg:text-base">
                 {card.title}
               </h3>
-              <p className="text-xs lg:text-sm text-slate-600">{card.subtitle}</p>
+              <p className="text-xs lg:text-sm text-slate-600">
+                {card.subtitle}
+              </p>
               {/* small "2025 NEW" badge to hint there's new data */}
               <div className="flex items-center gap-1 mt-2">
                 <span className="px-1.5 py-0.5 bg-blue-100 text-blue-700 text-xs font-semibold rounded-md">
@@ -401,104 +437,227 @@ useEffect(() => {
           ))}
         </div>
         {/* ────────────────────────────────────────────────────────────────── */}
-          <SeatCards />
+        <SeatCards />
 
-           <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
-           {/* ── COLLEGE PREDICTOR ENTRY CARD ── */}
-        <div
-          className="mb-8 lg:mb-12 rounded-2xl overflow-hidden cursor-pointer group"
-          onClick={() => window.location.href = "/predictor"}
-          style={{
-            background: "linear-gradient(135deg, #1e40af 0%, #1e40af 40%, #1447e6 70%,#51a2ff 100%)",
-            
-            position: "relative",
-          }}
-        >
-          {/* grid dots */}
-          <div style={{
-            position:"absolute",inset:0,pointerEvents:"none",
-            backgroundImage:"radial-gradient(circle,rgba(255,255,255,.07) 1px,transparent 1px)",
-            backgroundSize:"28px 28px",
-          }}/>
-          {/* blobs */}
-          <div style={{position:"absolute",top:-60,right:-60,width:220,height:220,borderRadius:"50%",background:"rgba(139,92,246,.25)",filter:"blur(60px)"}}/>
-          <div style={{position:"absolute",bottom:-40,left:"30%",width:160,height:160,borderRadius:"50%",background:"rgba(99,102,241,.2)",filter:"blur(50px)"}}/>
- 
-          <div style={{ position:"relative", padding:"32px 36px", display:"flex", alignItems:"center", justifyContent:"space-between", flexWrap:"wrap", gap:24 }}>
-            {/* Left */}
-            <div style={{ flex:1, minWidth:240 }}>
-              <div style={{
-                display:"inline-flex", alignItems:"center", gap:7,
-                background:"rgba(255,255,255,.12)", backdropFilter:"blur(8px)",
-                border:"1px solid rgba(255,255,255,.2)",
-                borderRadius:999, padding:"4px 14px", marginBottom:14,
-                color:"#c7d2fe", fontSize:12, fontWeight:700,
-              }}>
-                NEET PG 2025 — Live Data
-                <span style={{background:"#10b981",color:"#fff",borderRadius:999,padding:"1px 7px",fontSize:10,fontWeight:800}}>NEW</span>
+        <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
+          {/* ── COLLEGE PREDICTOR ENTRY CARD ── */}
+          <div
+            className="mb-8 lg:mb-12 rounded-2xl overflow-hidden cursor-pointer group"
+            onClick={() => (window.location.href = "/predictor")}
+            style={{
+              background:
+                "linear-gradient(135deg, #1e40af 0%, #1e40af 40%, #1447e6 70%,#51a2ff 100%)",
+
+              position: "relative",
+            }}
+          >
+            {/* grid dots */}
+            <div
+              style={{
+                position: "absolute",
+                inset: 0,
+                pointerEvents: "none",
+                backgroundImage:
+                  "radial-gradient(circle,rgba(255,255,255,.07) 1px,transparent 1px)",
+                backgroundSize: "28px 28px",
+              }}
+            />
+            {/* blobs */}
+            <div
+              style={{
+                position: "absolute",
+                top: -60,
+                right: -60,
+                width: 220,
+                height: 220,
+                borderRadius: "50%",
+                background: "rgba(139,92,246,.25)",
+                filter: "blur(60px)",
+              }}
+            />
+            <div
+              style={{
+                position: "absolute",
+                bottom: -40,
+                left: "30%",
+                width: 160,
+                height: 160,
+                borderRadius: "50%",
+                background: "rgba(99,102,241,.2)",
+                filter: "blur(50px)",
+              }}
+            />
+
+            <div
+              style={{
+                position: "relative",
+                padding: "32px 36px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-between",
+                flexWrap: "wrap",
+                gap: 24,
+              }}
+            >
+              {/* Left */}
+              <div style={{ flex: 1, minWidth: 240 }}>
+                <div
+                  style={{
+                    display: "inline-flex",
+                    alignItems: "center",
+                    gap: 7,
+                    background: "rgba(255,255,255,.12)",
+                    backdropFilter: "blur(8px)",
+                    border: "1px solid rgba(255,255,255,.2)",
+                    borderRadius: 999,
+                    padding: "4px 14px",
+                    marginBottom: 14,
+                    color: "#c7d2fe",
+                    fontSize: 12,
+                    fontWeight: 700,
+                  }}
+                >
+                  NEET PG 2025 — Live Data
+                  <span
+                    style={{
+                      background: "#10b981",
+                      color: "#fff",
+                      borderRadius: 999,
+                      padding: "1px 7px",
+                      fontSize: 10,
+                      fontWeight: 800,
+                    }}
+                  >
+                    NEW
+                  </span>
+                </div>
+                <h2
+                  style={{
+                    margin: "0 0 10px",
+                    fontSize: "clamp(20px,3vw,30px)",
+                    fontWeight: 900,
+                    color: "#fff",
+                    lineHeight: 1.2,
+                    fontFamily: "'DM Sans','Nunito',sans-serif",
+                    textShadow: "0 2px 12px rgba(0,0,0,.3)",
+                  }}
+                >
+                  Predict Your{" "}
+                  <span style={{ color: "#f5c506" }}>Dream College</span>
+                  <br />
+                  With Your NEET PG Rank
+                </h2>
+                <p
+                  style={{
+                    margin: "0 0 20px",
+                    color: "#c7d2fe",
+                    fontSize: 14,
+                    lineHeight: 1.6,
+                    maxWidth: 480,
+                  }}
+                >
+                  Instantly see which colleges &amp; specialties you qualify for
+                  — based on 28,000+ real 2025 allotment &amp; closing rank
+                  records.
+                </p>
+                {/* stats */}
+                <div style={{ display: "flex", gap: 22, flexWrap: "wrap" }}>
+                  {[
+                    ["4,200+", "Allotments"],
+                    ["14,500+", "Closing Ranks"],
+                    ["500+", "Colleges"],
+                    ["90+", "Specialties"],
+                  ].map(([v, l]) => (
+                    <div key={l} style={{ textAlign: "center" }}>
+                      <div
+                        style={{ fontSize: 18, fontWeight: 900, color: "#fff" }}
+                      >
+                        {v}
+                      </div>
+                      <div
+                        style={{
+                          fontSize: 11,
+                          color: "#a5b4fc",
+                          fontWeight: 600,
+                        }}
+                      >
+                        {l}
+                      </div>
+                    </div>
+                  ))}
+                </div>
               </div>
-              <h2 style={{
-                margin:"0 0 10px", fontSize:"clamp(20px,3vw,30px)", fontWeight:900,
-                color:"#fff", lineHeight:1.2,
-                fontFamily:"'DM Sans','Nunito',sans-serif",
-                textShadow:"0 2px 12px rgba(0,0,0,.3)",
-              }}>
-                Predict Your <span style={{color:"#f5c506"}}>Dream College</span><br/>
-                With Your NEET PG Rank
-              </h2>
-              <p style={{margin:"0 0 20px",color:"#c7d2fe",fontSize:14,lineHeight:1.6,maxWidth:480}}>
-                Instantly see which colleges &amp; specialties you qualify for —
-                based on 28,000+ real 2025 allotment &amp; closing rank records.
-              </p>
-              {/* stats */}
-              <div style={{display:"flex",gap:22,flexWrap:"wrap"}}>
-                {[["4,200+","Allotments"],["14,500+","Closing Ranks"],["500+","Colleges"],["90+","Specialties"]].map(([v,l])=>(
-                  <div key={l} style={{textAlign:"center"}}>
-                    <div style={{fontSize:18,fontWeight:900,color:"#fff"}}>{v}</div>
-                    <div style={{fontSize:11,color:"#a5b4fc",fontWeight:600}}>{l}</div>
-                  </div>
-                ))}
-              </div>
-            </div>
- 
-            {/* Right CTA */}
-            <div style={{ display:"flex", flexDirection:"column", alignItems:"center", gap:12 }}>
+
+              {/* Right CTA */}
               <div
                 style={{
-                  // background:"linear-gradient(135deg, #60a5fa, #3b82f6)",
-                  background:"white",
-                  color:"#004391", border:"none", borderRadius:16,
-                  padding:"12px 30px", fontSize:21, fontWeight:800,
-                  boxShadow:"0 8px 28px rgba(31, 157, 241, 0.45)",
-                  display:"flex", alignItems:"center", gap:10,
-                  transition:"transform .2s",
-                  whiteSpace:"nowrap",
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  gap: 12,
                 }}
-                className="group-hover:scale-105"
               >
-                Open Predictor
-                <span style={{fontSize:20}}>→</span>
-              </div>
-              <span style={{color:"#ececec",fontSize:12}}>Free · Instant Results</span>
- 
-              {/* Mode chips */}
-              <div style={{display:"flex",gap:8,flexWrap:"wrap",justifyContent:"center"}}>
-                {["Closing Ranks","Past Allotments","Seat Matrix"].map(l=>(
-                  <span key={l} style={{
-                    background:"rgba(255,255,255,.12)", color:"#c7d2fe",
-                    borderRadius:999, padding:"4px 12px", fontSize:11, fontWeight:700,
-                    border:"1px solid rgba(255,255,255,.15)",
-                  }}>{l}</span>
-                ))}
+                <div
+                  style={{
+                    // background:"linear-gradient(135deg, #60a5fa, #3b82f6)",
+                    background: "white",
+                    color: "#004391",
+                    border: "none",
+                    borderRadius: 16,
+                    padding: "12px 30px",
+                    fontSize: 21,
+                    fontWeight: 800,
+                    boxShadow: "0 8px 28px rgba(31, 157, 241, 0.45)",
+                    display: "flex",
+                    alignItems: "center",
+                    gap: 10,
+                    transition: "transform .2s",
+                    whiteSpace: "nowrap",
+                  }}
+                  className="group-hover:scale-105"
+                >
+                  Open Predictor
+                  <span style={{ fontSize: 20 }}>→</span>
+                </div>
+                <span style={{ color: "#ececec", fontSize: 12 }}>
+                  Free · Instant Results
+                </span>
+
+                {/* Mode chips */}
+                <div
+                  style={{
+                    display: "flex",
+                    gap: 8,
+                    flexWrap: "wrap",
+                    justifyContent: "center",
+                  }}
+                >
+                  {["Closing Ranks", "Past Allotments", "Seat Matrix"].map(
+                    (l) => (
+                      <span
+                        key={l}
+                        style={{
+                          background: "rgba(255,255,255,.12)",
+                          color: "#c7d2fe",
+                          borderRadius: 999,
+                          padding: "4px 12px",
+                          fontSize: 11,
+                          fontWeight: 700,
+                          border: "1px solid rgba(255,255,255,.15)",
+                        }}
+                      >
+                        {l}
+                      </span>
+                    ),
+                  )}
+                </div>
               </div>
             </div>
           </div>
         </div>
-        </div>
 
         {/* Trend Comparison Table */}
         <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
-        
           <div className="text-center mb-6 lg:mb-8">
             <h2 className="text-2xl lg:text-3xl font-bold text-slate-800 mb-2 bg-gradient-to-r from-blue-800 to-blue-600 text-transparent bg-clip-text">
               Trend Comparison: Top 100 Ranks Branch Preferences
@@ -513,31 +672,54 @@ useEffect(() => {
             <table className="w-full text-center border-collapse min-w-full">
               <thead className="bg-gradient-to-r from-slate-700 to-slate-800 text-white">
                 <tr>
-                  <th className="py-4 px-4 text-left font-bold text-base lg:text-lg border-r border-slate-600">Branch/Specialty</th>
-                  <th className="py-4 px-4 font-bold text-base lg:text-lg border-r border-slate-600">2025</th>
-                  <th className="py-4 px-4 font-bold text-base lg:text-lg border-r border-slate-600">2024</th>
-                  <th className="py-4 px-4 font-bold text-base lg:text-lg border-r border-slate-600">2022</th>
-                  <th className="py-4 px-4 font-bold text-base lg:text-lg">2021</th>
+                  <th className="py-4 px-4 text-left font-bold text-base lg:text-lg border-r border-slate-600">
+                    Branch/Specialty
+                  </th>
+                  <th className="py-4 px-4 font-bold text-base lg:text-lg border-r border-slate-600">
+                    2025
+                  </th>
+                  <th className="py-4 px-4 font-bold text-base lg:text-lg border-r border-slate-600">
+                    2024
+                  </th>
+                  <th className="py-4 px-4 font-bold text-base lg:text-lg border-r border-slate-600">
+                    2022
+                  </th>
+                  <th className="py-4 px-4 font-bold text-base lg:text-lg">
+                    2021
+                  </th>
                 </tr>
               </thead>
               <tbody className="bg-white">
-                {
-                
-                [
-  { branch: "Radiology",   years: [38, 40, 39, 36] },
-  { branch: "Medicine",    years: [34, 32, 35, 33] },
-  { branch: "Dermatology", years: [8, 7, 6, 7],   highlight: true },
-  { branch: "Pediatrics",  years: [6, 5, 5, 4],   highlight: true },
-  { branch: "ObGy",        years: [5, 6, 4, 5],   highlight: true },
-  { branch: "Surgery",     years: [5, 5, 6, 8] },
-  { branch: "Orthopedics", emoji: "🦴", years: [4, 3, 3, 4] },
-].map((row, idx) => (
-                  <tr key={idx} className={`hover:bg-blue-50 transition-colors ${idx % 2 === 0 ? "bg-slate-50" : "bg-white"}`}>
+                {[
+                  { branch: "Radiology", years: [38, 40, 39, 36] },
+                  { branch: "Medicine", years: [34, 32, 35, 33] },
+                  {
+                    branch: "Dermatology",
+                    years: [8, 7, 6, 7],
+                    highlight: true,
+                  },
+                  {
+                    branch: "Pediatrics",
+                    years: [6, 5, 5, 4],
+                    highlight: true,
+                  },
+                  { branch: "ObGy", years: [5, 6, 4, 5], highlight: true },
+                  { branch: "Surgery", years: [5, 5, 6, 8] },
+                  { branch: "Orthopedics", emoji: "🦴", years: [4, 3, 3, 4] },
+                ].map((row, idx) => (
+                  <tr
+                    key={idx}
+                    className={`hover:bg-blue-50 transition-colors ${idx % 2 === 0 ? "bg-slate-50" : "bg-white"}`}
+                  >
                     <td className="py-3 px-4 text-left font-semibold text-slate-800 border-r border-slate-200">
-                      <span className="mr-2">{row.emoji}</span>{row.branch}
+                      <span className="mr-2">{row.emoji}</span>
+                      {row.branch}
                     </td>
                     {row.years.map((value, yearIdx) => (
-                      <td key={yearIdx} className={`py-3 px-4 font-bold border-r border-slate-200 last:border-r-0 ${row.highlight && value <= 5 ? "text-blue-600 bg-blue-50" : value === 0 ? "text-red-600 bg-red-50" : "text-slate-700"}`}>
+                      <td
+                        key={yearIdx}
+                        className={`py-3 px-4 font-bold border-r border-slate-200 last:border-r-0 ${row.highlight && value <= 5 ? "text-blue-600 bg-blue-50" : value === 0 ? "text-red-600 bg-red-50" : "text-slate-700"}`}
+                      >
                         {value}
                       </td>
                     ))}
@@ -549,16 +731,35 @@ useEffect(() => {
 
           <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             <div className="bg-blue-50 border-l-4 border-blue-500 rounded-lg p-4">
-              <div className="flex items-center space-x-2 mb-2"><span className="text-2xl"></span><h4 className="font-bold text-slate-800">Most Preferred</h4></div>
-              <p className="text-sm text-slate-600">Radiology and General Medicine dominate &amp; Top 100 ranks consistently</p>
+              <div className="flex items-center space-x-2 mb-2">
+                <span className="text-2xl"></span>
+                <h4 className="font-bold text-slate-800">Most Preferred</h4>
+              </div>
+              <p className="text-sm text-slate-600">
+                Radiology and General Medicine dominate &amp; Top 100 ranks
+                consistently
+              </p>
             </div>
             <div className="bg-blue-50 border-l-4 border-blue-500 rounded-lg p-4">
-              <div className="flex items-center space-x-2 mb-2"><span className="text-2xl"></span><h4 className="font-bold text-slate-800">Stable Trends</h4></div>
-              <p className="text-sm text-slate-600">Radiology and Medicine remain the most stable and highest chosen branches across all years</p>
+              <div className="flex items-center space-x-2 mb-2">
+                <span className="text-2xl"></span>
+                <h4 className="font-bold text-slate-800">Stable Trends</h4>
+              </div>
+              <p className="text-sm text-slate-600">
+                Radiology and Medicine remain the most stable and highest chosen
+                branches across all years
+              </p>
             </div>
             <div className="bg-purple-50 border-l-4 border-purple-500 rounded-lg p-4">
-              <div className="flex items-center space-x-2 mb-2"><span className="text-2xl"></span><h4 className="font-bold text-slate-800">Key Insight</h4></div>
-              <p className="text-sm text-slate-600">Top rankers increasingly prefer lifestyle-friendly and high ROI branches like Radiology and Dermatology over traditionally demanding surgical fields</p>
+              <div className="flex items-center space-x-2 mb-2">
+                <span className="text-2xl"></span>
+                <h4 className="font-bold text-slate-800">Key Insight</h4>
+              </div>
+              <p className="text-sm text-slate-600">
+                Top rankers increasingly prefer lifestyle-friendly and high ROI
+                branches like Radiology and Dermatology over traditionally
+                demanding surgical fields
+              </p>
             </div>
           </div>
         </div>
@@ -593,59 +794,61 @@ useEffect(() => {
           </div>
         </div> */}
         {/* Cutoff Scores */}
-<div className="text-center mb-6 lg:mb-8">
-  <h3 className="text-xl lg:text-2xl font-bold text-slate-800 mb-2 bg-gradient-to-r from-blue-800 to-blue-400 text-transparent bg-clip-text">
-    NEET PG 2025 Cutoff Scores
-  </h3>
+        <div className="text-center mb-6 lg:mb-8">
+          <h3 className="text-xl lg:text-2xl font-bold text-slate-800 mb-2 bg-gradient-to-r from-blue-800 to-blue-400 text-transparent bg-clip-text">
+            NEET PG 2025 Cutoff Scores
+          </h3>
 
-  <p className="text-slate-600 text-sm mb-4 bg-blue-500 inline-block px-3 py-1 rounded-full text-white">
-    Cutoffs are based on percentile and vary each year depending on exam difficulty and normalization.
-  </p>
+          <p className="text-slate-600 text-sm mb-4 bg-blue-500 inline-block px-3 py-1 rounded-full text-white">
+            Cutoffs are based on percentile and vary each year depending on exam
+            difficulty and normalization.
+          </p>
 
-  <div className="overflow-x-auto">
-    <table className="w-full text-center table-fixed border-collapse min-w-full bg-blue-100 rounded-xl shadow-sm">
-      <thead>
-        <tr className="bg-slate-50">
-          <th className="border-b border-slate-200 py-2 px-3 text-slate-600 text-sm lg:text-base">
-            Category
-          </th>
-          <th className="border-b border-slate-200 py-2 px-3 text-slate-600 text-sm lg:text-base">
-            Qualifying Percentile
-          </th>
-          <th className="border-b border-slate-200 py-2 px-3 text-slate-600 text-sm lg:text-base">
-            Expected Score Range (2025)
-          </th>
-        </tr>
-      </thead>
+          <div className="overflow-x-auto">
+            <table className="w-full text-center table-fixed border-collapse min-w-full bg-blue-100 rounded-xl shadow-sm">
+              <thead>
+                <tr className="bg-slate-50">
+                  <th className="border-b border-slate-200 py-2 px-3 text-slate-600 text-sm lg:text-base">
+                    Category
+                  </th>
+                  <th className="border-b border-slate-200 py-2 px-3 text-slate-600 text-sm lg:text-base">
+                    Qualifying Percentile
+                  </th>
+                  <th className="border-b border-slate-200 py-2 px-3 text-slate-600 text-sm lg:text-base">
+                    Expected Score Range (2025)
+                  </th>
+                </tr>
+              </thead>
 
-      <tbody>
-        {[
-          ["Unreserved (UR) / EWS", "50th percentile", "280-340 marks"],
-          ["SC / ST / OBC", "40th percentile", "240-290 marks"],
-          ["UR-PwD", "45th percentile", "260-310 marks"],
-          ["SC/ST/OBC-PwD", "40th percentile", "240-290 marks"],
-        ].map(([cat, pct, range], i) => (
-          <tr key={i} className="hover:bg-slate-50">
-            <td className="border-b border-slate-200 py-2 px-3 text-slate-800">
-              {cat}
-            </td>
-            <td className="border-b border-slate-200 py-2 px-3 text-slate-800">
-              {pct}
-            </td>
-            <td className="border-b border-slate-200 py-2 px-3 text-slate-800">
-              {range}
-            </td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
-  </div>
+              <tbody>
+                {[
+                  ["Unreserved (UR) / EWS", "50th percentile", "280-340 marks"],
+                  ["SC / ST / OBC", "40th percentile", "240-290 marks"],
+                  ["UR-PwD", "45th percentile", "260-310 marks"],
+                  ["SC/ST/OBC-PwD", "40th percentile", "240-290 marks"],
+                ].map(([cat, pct, range], i) => (
+                  <tr key={i} className="hover:bg-slate-50">
+                    <td className="border-b border-slate-200 py-2 px-3 text-slate-800">
+                      {cat}
+                    </td>
+                    <td className="border-b border-slate-200 py-2 px-3 text-slate-800">
+                      {pct}
+                    </td>
+                    <td className="border-b border-slate-200 py-2 px-3 text-slate-800">
+                      {range}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
 
-  {/* Insight Box */}
-  <div className="mt-4 text-sm text-slate-500 italic bg-blue-50 inline-block px-3 py-2 rounded-md">
-    Cutoff marks change every year. Always rely on percentile rather than marks for eligibility.
-  </div>
-</div>
+          {/* Insight Box */}
+          <div className="mt-4 text-sm text-slate-500 italic bg-blue-50 inline-block px-3 py-2 rounded-md">
+            Cutoff marks change every year. Always rely on percentile rather
+            than marks for eligibility.
+          </div>
+        </div>
 
         {/* Marks vs Rank */}
         <div className="text-center mb-6 lg:mb-8">
@@ -653,60 +856,138 @@ useEffect(() => {
             NEET PG 2025 Marks vs Rank Analysis
           </h3>
           <p className="text-slate-600 text-sm lg:text-base mb-4 bg-blue-500 inline-block px-3 py-1 rounded-full text-white">
-            Here's how your marks may correspond to your All India Rank and admission prospects:
+            Here's how your marks may correspond to your All India Rank and
+            admission prospects:
           </p>
           <div className="overflow-x-auto max-h-[450px] rounded-xl border border-slate-200 shadow-sm bg-blue-50">
             <table className="w-full text-center table-fixed border-collapse min-w-full ">
               <thead className="bg-slate-50 ">
                 <tr>
-                  <th className="border-b border-slate-200 py-2 px-3 text-slate-600 text-sm lg:text-base">Score Range</th>
-                  <th className="border-b border-slate-200 py-2 px-3 text-slate-600 text-sm lg:text-base">All India Rank</th>
-                  <th className="border-b border-slate-200 py-2 px-3 text-slate-600 text-sm lg:text-base">Admission Prospects</th>
+                  <th className="border-b border-slate-200 py-2 px-3 text-slate-600 text-sm lg:text-base">
+                    Score Range
+                  </th>
+                  <th className="border-b border-slate-200 py-2 px-3 text-slate-600 text-sm lg:text-base">
+                    All India Rank
+                  </th>
+                  <th className="border-b border-slate-200 py-2 px-3 text-slate-600 text-sm lg:text-base">
+                    Admission Prospects
+                  </th>
                 </tr>
               </thead>
               <tbody>
                 {
-                // [
-                //   { score: "707",     rank: "1",                prospect: "Top AIIMS/PGI" },
-                //   { score: "705",     rank: "2–3",              prospect: "Top AIIMS/PGI" },
-                //   { score: "701",     rank: "4",                prospect: "Top Institutions" },
-                //   { score: "695",     rank: "5–6",              prospect: "Premium Colleges" },
-                //   { score: "690–678", rank: "12–28",            prospect: "Excellent Options" },
-                //   { score: "677–663", rank: "29–113",           prospect: "Very Good Colleges" },
-                //   { score: "638",     rank: "551",              prospect: "Good Government" },
-                //   { score: "627",     rank: "974",              prospect: "Good Options" },
-                //   { score: "620",     rank: "1356",             prospect: "Decent Choices" },
-                //   { score: "600",     rank: "3049",             prospect: "Moderate Options" },
-                //   { score: "591",     rank: "4100",             prospect: "Limited Government" },
-                //   { score: "576",     rank: "6278",             prospect: "Private Options" },
-                //   { score: "563",     rank: "8628",             prospect: "Competitive Private" },
-                //   { score: "555–499", rank: "10,001–25,000",    prospect: "Challenging" },
-                //   { score: "499–427", rank: "25,001–50,000",    prospect: "Very Challenging" },
-                //   { score: "427–363", rank: "50,001–75,000",    prospect: "Extremely Difficult" },
-                // ]
-                [
-                { score: "720–705", rank: "1–10",        prospect: "Top AIIMS (Delhi/Jodhpur/Bhopal), PGI Chandigarh" },
-                { score: "704–690", rank: "11–50",       prospect: "Top AIIMS + Elite Govt Colleges" },
-                { score: "689–670", rank: "51–200",      prospect: "Top Govt Medical Colleges (Clinical branches possible)" },
-                { score: "669–650", rank: "201–500",     prospect: "Excellent Govt Colleges" },
-                 { score: "649–630", rank: "501–1,200",   prospect: "Very Good Govt Colleges (Paraclinical/Some Clinical)" },
-                 { score: "629–610", rank: "1,201–2,500", prospect: "Good Govt + Deemed Universities" },
-               { score: "609–590", rank: "2,501–5,000", prospect: "Govt Colleges (Non-clinical) + Good Private" },
-                { score: "589–570", rank: "5,001–8,000", prospect: "Private + Some Govt (Low branches)" },
-  { score: "569–550", rank: "8,001–12,000", prospect: "Private Colleges (Decent options)" },
-  { score: "549–520", rank: "12,001–20,000", prospect: "Private / Deemed (Clinical difficult)" },
-  { score: "519–480", rank: "20,001–35,000", prospect: "Private Colleges (Management quota likely)" },
-  { score: "479–430", rank: "35,001–60,000", prospect: "Limited options (Mostly Private)" },
-  { score: "429–380", rank: "60,001–90,000", prospect: "Very Limited (High fees / low demand branches)" },
-  { score: "379–330", rank: "90,001–1,20,000", prospect: "Extremely Difficult" },
-  { score: "<330",     rank: "1,20,000+",      prospect: "Very Low Chances" },
-          ].map((row, idx) => (
-                  <tr key={idx} className="hover:bg-slate-50 transition">
-                    <td className="border-b border-slate-200 py-2 px-3 text-slate-800">{row.score}</td>
-                    <td className="border-b border-slate-200 py-2 px-3 text-slate-800">{row.rank}</td>
-                    <td className="border-b border-slate-200 py-2 px-3 text-slate-800">{row.prospect}</td>
-                  </tr>
-                ))}
+                  // [
+                  //   { score: "707",     rank: "1",                prospect: "Top AIIMS/PGI" },
+                  //   { score: "705",     rank: "2–3",              prospect: "Top AIIMS/PGI" },
+                  //   { score: "701",     rank: "4",                prospect: "Top Institutions" },
+                  //   { score: "695",     rank: "5–6",              prospect: "Premium Colleges" },
+                  //   { score: "690–678", rank: "12–28",            prospect: "Excellent Options" },
+                  //   { score: "677–663", rank: "29–113",           prospect: "Very Good Colleges" },
+                  //   { score: "638",     rank: "551",              prospect: "Good Government" },
+                  //   { score: "627",     rank: "974",              prospect: "Good Options" },
+                  //   { score: "620",     rank: "1356",             prospect: "Decent Choices" },
+                  //   { score: "600",     rank: "3049",             prospect: "Moderate Options" },
+                  //   { score: "591",     rank: "4100",             prospect: "Limited Government" },
+                  //   { score: "576",     rank: "6278",             prospect: "Private Options" },
+                  //   { score: "563",     rank: "8628",             prospect: "Competitive Private" },
+                  //   { score: "555–499", rank: "10,001–25,000",    prospect: "Challenging" },
+                  //   { score: "499–427", rank: "25,001–50,000",    prospect: "Very Challenging" },
+                  //   { score: "427–363", rank: "50,001–75,000",    prospect: "Extremely Difficult" },
+                  // ]
+                  [
+                    {
+                      score: "720–705",
+                      rank: "1–10",
+                      prospect:
+                        "Top AIIMS (Delhi/Jodhpur/Bhopal), PGI Chandigarh",
+                    },
+                    {
+                      score: "704–690",
+                      rank: "11–50",
+                      prospect: "Top AIIMS + Elite Govt Colleges",
+                    },
+                    {
+                      score: "689–670",
+                      rank: "51–200",
+                      prospect:
+                        "Top Govt Medical Colleges (Clinical branches possible)",
+                    },
+                    {
+                      score: "669–650",
+                      rank: "201–500",
+                      prospect: "Excellent Govt Colleges",
+                    },
+                    {
+                      score: "649–630",
+                      rank: "501–1,200",
+                      prospect:
+                        "Very Good Govt Colleges (Paraclinical/Some Clinical)",
+                    },
+                    {
+                      score: "629–610",
+                      rank: "1,201–2,500",
+                      prospect: "Good Govt + Deemed Universities",
+                    },
+                    {
+                      score: "609–590",
+                      rank: "2,501–5,000",
+                      prospect: "Govt Colleges (Non-clinical) + Good Private",
+                    },
+                    {
+                      score: "589–570",
+                      rank: "5,001–8,000",
+                      prospect: "Private + Some Govt (Low branches)",
+                    },
+                    {
+                      score: "569–550",
+                      rank: "8,001–12,000",
+                      prospect: "Private Colleges (Decent options)",
+                    },
+                    {
+                      score: "549–520",
+                      rank: "12,001–20,000",
+                      prospect: "Private / Deemed (Clinical difficult)",
+                    },
+                    {
+                      score: "519–480",
+                      rank: "20,001–35,000",
+                      prospect: "Private Colleges (Management quota likely)",
+                    },
+                    {
+                      score: "479–430",
+                      rank: "35,001–60,000",
+                      prospect: "Limited options (Mostly Private)",
+                    },
+                    {
+                      score: "429–380",
+                      rank: "60,001–90,000",
+                      prospect:
+                        "Very Limited (High fees / low demand branches)",
+                    },
+                    {
+                      score: "379–330",
+                      rank: "90,001–1,20,000",
+                      prospect: "Extremely Difficult",
+                    },
+                    {
+                      score: "<330",
+                      rank: "1,20,000+",
+                      prospect: "Very Low Chances",
+                    },
+                  ].map((row, idx) => (
+                    <tr key={idx} className="hover:bg-slate-50 transition">
+                      <td className="border-b border-slate-200 py-2 px-3 text-slate-800">
+                        {row.score}
+                      </td>
+                      <td className="border-b border-slate-200 py-2 px-3 text-slate-800">
+                        {row.rank}
+                      </td>
+                      <td className="border-b border-slate-200 py-2 px-3 text-slate-800">
+                        {row.prospect}
+                      </td>
+                    </tr>
+                  ))
+                }
               </tbody>
             </table>
           </div>
@@ -716,23 +997,65 @@ useEffect(() => {
       {/* Counselling Timeline */}
       <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
         <div className="text-center mb-6 lg:mb-8">
-          <h2 className="text-2xl lg:text-3xl font-bold text-slate-800 mb-2">NEET PG 2025 Counselling Timeline</h2>
-          <p className="text-slate-600 text-sm lg:text-base">Important dates and events for NEET PG 2025 counselling process</p>
+          <h2 className="text-2xl lg:text-3xl font-bold text-slate-800 mb-2">
+            NEET PG 2025 Counselling Timeline
+          </h2>
+          <p className="text-slate-600 text-sm lg:text-base">
+            Important dates and events for NEET PG 2025 counselling process
+          </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {[
-            { icon: Calendar,    bg: "bg-blue-800",  light: "bg-blue-50",  color: "text-blue-600",  label: "Registration",  status: "Started",     sub: "MCC Portal Open" },
-            { icon: CheckCircle, bg: "bg-blue-800",   light: "bg-blue-50",   color: "text-blue-600",   label: "Round 1",       status: "Coming Soon", sub: "Choice Filling" },
-            { icon: Award,       bg: "bg-blue-800", light: "bg-purple-50", color: "text-purple-600", label: "Seat Allotment",status: "Round 1",     sub: "Result Declaration" },
-            { icon: Users,       bg: "bg-blue-800",   light: "bg-blue-50",   color: "text-blue-600",   label: "Joining",       status: "Round 1",     sub: "Documentation" },
+            {
+              icon: Calendar,
+              bg: "bg-blue-800",
+              light: "bg-blue-50",
+              color: "text-blue-600",
+              label: "Registration",
+              status: "Started",
+              sub: "MCC Portal Open",
+            },
+            {
+              icon: CheckCircle,
+              bg: "bg-blue-800",
+              light: "bg-blue-50",
+              color: "text-blue-600",
+              label: "Round 1",
+              status: "Coming Soon",
+              sub: "Choice Filling",
+            },
+            {
+              icon: Award,
+              bg: "bg-blue-800",
+              light: "bg-purple-50",
+              color: "text-purple-600",
+              label: "Seat Allotment",
+              status: "Round 1",
+              sub: "Result Declaration",
+            },
+            {
+              icon: Users,
+              bg: "bg-blue-800",
+              light: "bg-blue-50",
+              color: "text-blue-600",
+              label: "Joining",
+              status: "Round 1",
+              sub: "Documentation",
+            },
           ].map((step, i) => (
             <div key={i} className="text-center">
-              <div className={`w-16 h-16 ${step.bg} rounded-full mx-auto mb-4 flex items-center justify-center`}>
+              <div
+                className={`w-16 h-16 ${step.bg} rounded-full mx-auto mb-4 flex items-center justify-center`}
+              >
                 <step.icon className="w-8 h-8 text-white" />
               </div>
               <div className={`${step.light} rounded-xl p-4`}>
-                <div className={`text-sm ${step.color} font-medium mb-1`}>{step.label}</div>
-                <div className="text-lg font-bold text-slate-800 mb-1">{step.status}</div>
+                <div className={`text-sm ${step.color} font-medium mb-1`}>
+                  {step.label}
+                </div>
+                <div className="text-lg font-bold text-slate-800 mb-1">
+                  {step.status}
+                </div>
                 <div className="text-sm text-slate-600">{step.sub}</div>
               </div>
             </div>
@@ -748,8 +1071,13 @@ useEffect(() => {
               <FileText className="w-5 h-5 lg:w-6 lg:h-6 text-blue-600" />
             </div>
             <div>
-              <h3 className="text-lg lg:text-2xl font-bold text-slate-800 mb-2">How to Check NEET PG 2025 Results?</h3>
-              <p className="text-slate-600 text-sm lg:text-base">Follow these steps to check your NEET PG 2025 results and download your scorecard.</p>
+              <h3 className="text-lg lg:text-2xl font-bold text-slate-800 mb-2">
+                How to Check NEET PG 2025 Results?
+              </h3>
+              <p className="text-slate-600 text-sm lg:text-base">
+                Follow these steps to check your NEET PG 2025 results and
+                download your scorecard.
+              </p>
             </div>
           </div>
           <div className="space-y-3 lg:space-y-4">
@@ -810,82 +1138,94 @@ useEffect(() => {
           </div>
         </div> */}
         {/* Popular Specialties */}
-<div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
-  <div className="flex items-start space-x-3 lg:space-x-4 mb-4 lg:mb-6">
-    <div className="w-10 h-10 lg:w-12 lg:h-12 bg-blue-100 rounded-xl flex items-center justify-center flex-shrink-0">
-      <Target className="w-5 h-5 lg:w-6 lg:h-6 text-blue-600" />
-    </div>
-    <div>
-      <h3 className="text-lg lg:text-2xl font-bold text-slate-800 mb-2">
-        Popular NEET PG 2025 Specialties
-      </h3>
-      <p className="text-slate-600 text-sm lg:text-base">
-        Top specialties with highest demand and career opportunities.
-      </p>
-    </div>
-  </div>
+        <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
+          <div className="flex items-start space-x-3 lg:space-x-4 mb-4 lg:mb-6">
+            <div className="w-10 h-10 lg:w-12 lg:h-12 bg-blue-100 rounded-xl flex items-center justify-center flex-shrink-0">
+              <Target className="w-5 h-5 lg:w-6 lg:h-6 text-blue-600" />
+            </div>
+            <div>
+              <h3 className="text-lg lg:text-2xl font-bold text-slate-800 mb-2">
+                Popular NEET PG 2025 Specialties
+              </h3>
+              <p className="text-slate-600 text-sm lg:text-base">
+                Top specialties with highest demand and career opportunities.
+              </p>
+            </div>
+          </div>
 
-  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-    {[
-      { name: "General Medicine",        seats: "3,600+", demand: "Very High"},
-      { name: "Radiology",               seats: "1,200+", demand: "Very High" },
-      { name: "Dermatology",             seats: "700+",   demand: "Very High" },
-      { name: "Pediatrics",              seats: "1,500+", demand: "High"     },
-      { name: "Obstetrics & Gynecology", seats: "1,400+", demand: "High"      },
-      { name: "Orthopedics",             seats: "1,200+", demand: "High"     },
-      { name: "Anesthesiology",          seats: "2,000+", demand: "High"       },
-      { name: "Psychiatry",              seats: "900+",   demand: "Rising"     },
-      { name: "Pathology",               seats: "1,000+", demand: "Moderate"  },
-    ].map((specialty, index) => (
-      <div
-        key={index}
-        className="bg-gradient-to-r from-blue-50 to-blue-100 rounded-xl p-4 border border-blue-100 hover:shadow-lg transition-all duration-300"
-      >
-        <div className="flex items-center space-x-3 mb-3">
-          <span className="text-2xl">{specialty.icon}</span>
-          <div>
-            <h4 className="font-bold text-slate-800">{specialty.name}</h4>
-            <p className="text-sm text-slate-600">{specialty.seats} seats</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              {
+                name: "General Medicine",
+                seats: "3,600+",
+                demand: "Very High",
+              },
+              { name: "Radiology", seats: "1,200+", demand: "Very High" },
+              { name: "Dermatology", seats: "700+", demand: "Very High" },
+              { name: "Pediatrics", seats: "1,500+", demand: "High" },
+              {
+                name: "Obstetrics & Gynecology",
+                seats: "1,400+",
+                demand: "High",
+              },
+              { name: "Orthopedics", seats: "1,200+", demand: "High" },
+              { name: "Anesthesiology", seats: "2,000+", demand: "High" },
+              { name: "Psychiatry", seats: "900+", demand: "Rising" },
+              { name: "Pathology", seats: "1,000+", demand: "Moderate" },
+            ].map((specialty, index) => (
+              <div
+                key={index}
+                className="bg-gradient-to-r from-blue-50 to-blue-100 rounded-xl p-4 border border-blue-100 hover:shadow-lg transition-all duration-300"
+              >
+                <div className="flex items-center space-x-3 mb-3">
+                  <span className="text-2xl">{specialty.icon}</span>
+                  <div>
+                    <h4 className="font-bold text-slate-800">
+                      {specialty.name}
+                    </h4>
+                    <p className="text-sm text-slate-600">
+                      {specialty.seats} seats
+                    </p>
+                  </div>
+                </div>
+
+                {/* Demand Badge */}
+                <span
+                  className={`px-2 py-1 rounded-full text-xs font-medium ${
+                    specialty.demand === "Very High"
+                      ? "bg-red-100 text-red-700"
+                      : specialty.demand === "High"
+                        ? "bg-blue-100 text-blue-700"
+                        : specialty.demand === "Rising"
+                          ? "bg-blue-100 text-blue-700"
+                          : "bg-blue-100 text-blue-700"
+                  }`}
+                >
+                  {specialty.demand} Demand
+                </span>
+
+                {/* Competition Bar */}
+                <div className="mt-3">
+                  <div className="w-full bg-slate-200 h-1 rounded-full">
+                    <div
+                      className="bg-blue-800 h-1 rounded-full transition-all duration-500"
+                      style={{
+                        width:
+                          specialty.demand === "Very High"
+                            ? "90%"
+                            : specialty.demand === "High"
+                              ? "70%"
+                              : specialty.demand === "Rising"
+                                ? "60%"
+                                : "40%",
+                      }}
+                    />
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
-
-        {/* Demand Badge */}
-        <span
-          className={`px-2 py-1 rounded-full text-xs font-medium ${
-            specialty.demand === "Very High"
-              ? "bg-red-100 text-red-700"
-              : specialty.demand === "High"
-              ? "bg-blue-100 text-blue-700"
-              : specialty.demand === "Rising"
-              ? "bg-blue-100 text-blue-700"
-              : "bg-blue-100 text-blue-700"
-          }`}
-        >
-          {specialty.demand} Demand
-        </span>
-
-        {/* Competition Bar */}
-        <div className="mt-3">
-          <div className="w-full bg-slate-200 h-1 rounded-full">
-            <div
-              className="bg-blue-800 h-1 rounded-full transition-all duration-500"
-              style={{
-                width:
-                  specialty.demand === "Very High"
-                    ? "90%"
-                    : specialty.demand === "High"
-                    ? "70%"
-                    : specialty.demand === "Rising"
-                    ? "60%"
-                    : "40%",
-              }}
-            />
-          </div>
-        </div>
-      </div>
-    ))}
-  </div>
-</div>
 
         {/* Counselling Process */}
         <div className="bg-white/80 backdrop-blur-xl rounded-2xl lg:rounded-3xl shadow-xl p-6 lg:p-8 mb-8 lg:mb-12 border border-white/20">
@@ -894,34 +1234,79 @@ useEffect(() => {
               <Calendar className="w-5 h-5 lg:w-6 lg:h-6 text-blue-600" />
             </div>
             <div>
-              <h3 className="text-lg lg:text-2xl font-bold text-slate-800 mb-2">NEET PG 2025 Counselling Process</h3>
-              <p className="text-slate-600 text-sm lg:text-base">Complete step-by-step guide for NEET PG 2025 counselling registration.</p>
+              <h3 className="text-lg lg:text-2xl font-bold text-slate-800 mb-2">
+                NEET PG 2025 Counselling Process
+              </h3>
+              <p className="text-slate-600 text-sm lg:text-base">
+                Complete step-by-step guide for NEET PG 2025 counselling
+                registration.
+              </p>
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="space-y-4">
               <h4 className="font-bold text-slate-800">Registration Phase</h4>
               {[
-                { n: 1, title: "Register on MCC Portal",  sub: "Create account with NEET PG credentials" },
-                { n: 2, title: "Pay Registration Fee",    sub: "Pay Rs. 5000 for AIQ and Rs. 2000 for Deemed Universities" },
-                { n: 3, title: "Upload Documents",        sub: "Upload all required certificates and documents" },
+                {
+                  n: 1,
+                  title: "Register on MCC Portal",
+                  sub: "Create account with NEET PG credentials",
+                },
+                {
+                  n: 2,
+                  title: "Pay Registration Fee",
+                  sub: "Pay Rs. 5000 for AIQ and Rs. 2000 for Deemed Universities",
+                },
+                {
+                  n: 3,
+                  title: "Upload Documents",
+                  sub: "Upload all required certificates and documents",
+                },
               ].map(({ n, title, sub }) => (
                 <div key={n} className="flex items-start space-x-3">
-                  <div className="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center text-white text-sm font-bold mt-0.5 flex-shrink-0">{n}</div>
-                  <div><p className="text-slate-700 text-sm font-medium">{title}</p><p className="text-slate-600 text-xs">{sub}</p></div>
+                  <div className="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center text-white text-sm font-bold mt-0.5 flex-shrink-0">
+                    {n}
+                  </div>
+                  <div>
+                    <p className="text-slate-700 text-sm font-medium">
+                      {title}
+                    </p>
+                    <p className="text-slate-600 text-xs">{sub}</p>
+                  </div>
                 </div>
               ))}
             </div>
             <div className="space-y-4">
-              <h4 className="font-bold text-slate-800">Choice Filling &amp; Allotment</h4>
+              <h4 className="font-bold text-slate-800">
+                Choice Filling &amp; Allotment
+              </h4>
               {[
-                { n: 4, title: "Fill Choices",       sub: "Select colleges and specialties in order of preference" },
-                { n: 5, title: "Seat Allotment",     sub: "MCC will allot seats based on rank and choices" },
-                { n: 6, title: "Report to College",  sub: "Complete admission formalities at allotted college" },
+                {
+                  n: 4,
+                  title: "Fill Choices",
+                  sub: "Select colleges and specialties in order of preference",
+                },
+                {
+                  n: 5,
+                  title: "Seat Allotment",
+                  sub: "MCC will allot seats based on rank and choices",
+                },
+                {
+                  n: 6,
+                  title: "Report to College",
+                  sub: "Complete admission formalities at allotted college",
+                },
               ].map(({ n, title, sub }) => (
                 <div key={n} className="flex items-start space-x-3">
-                  <div className="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center text-white text-sm font-bold mt-0.5 flex-shrink-0">{n}</div>
-                  <div><p className="text-slate-700 text-sm font-medium">{title}</p><p className="text-slate-600 text-xs">{sub}</p></div>
+                  <div className="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center text-white text-sm font-bold mt-0.5 flex-shrink-0">
+                    {n}
+                  </div>
+                  <div>
+                    <p className="text-slate-700 text-sm font-medium">
+                      {title}
+                    </p>
+                    <p className="text-slate-600 text-xs">{sub}</p>
+                  </div>
                 </div>
               ))}
             </div>
@@ -931,7 +1316,9 @@ useEffect(() => {
         {/* CTA */}
         <div className="bg-gradient-to-r from-blue-600 to-blue-600 rounded-2xl lg:rounded-3xl p-6 lg:p-8 text-center text-white shadow-2xl">
           <h3 className="text-xl lg:text-3xl font-bold mb-3 lg:mb-4">
-            Ready for <span className="text-blue-300">Specialty Selection?</span> Get Expert Guidance!
+            Ready for{" "}
+            <span className="text-blue-300">Specialty Selection?</span> Get
+            Expert Guidance!
           </h3>
           <p className="text-blue-100 mb-4 lg:mb-6 text-sm lg:text-lg">
             Choose the right specialty with our expert guidance.

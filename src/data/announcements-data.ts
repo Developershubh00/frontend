@@ -1650,6 +1650,19 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "NAT Board",
     created_at: "2026-07-07",
   },
+    {
+    id: 125,
+    title: "NEET UG 2026",
+    content:
+      "NEET UG 2026 OMR Sheets & Recorded Responses Released; Challenge Window Open Till July 15",
+    date: "2026-07-14",
+    priority: "high",
+    category: "NEET UG",
+    link: "https://neet.nta.nic.in/",
+    is_active: true,
+    source: "National Testing Agency (NTA)",
+    created_at: "2026-07-14",
+  },
 ];
 
 /**

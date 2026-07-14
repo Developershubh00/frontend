@@ -55,6 +55,8 @@ import ClinicalDataPage from "./components/ClinicalDataPage";
 import InstitutesPage from "./components/InstitutesPage";
 import AdmittedStudentsPage from "./components/AdmittedStudentsPage";
 import FeesStipendBondPage from "./pages/FeesStipendBondPage";
+import FeesStipendBondPage2024 from "./NeetPG/FeesStipendBondPage2024";
+import FeesStipendBondPage2025 from "./NeetPG/FeesStipendBondPage2025";
 
 import ClossingRanksPage from "./components/ClossingRanksPage";
 import AiSensyWidget from "./components/AiSensyWidget";
@@ -346,6 +348,22 @@ function AppContent() {
             }
           />
           <Route
+            path="/fees-stipend-bond-2024"
+            element={
+              <ProtectedRoute>
+                <FeesStipendBondPage2024 onBack={() => window.history.back()} />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/fees-stipend-bond-2025"
+            element={
+              <ProtectedRoute>
+                <FeesStipendBondPage2025 onBack={() => window.history.back()} />
+              </ProtectedRoute>
+            }
+          />
+          <Route
             path="/Closingranks"
             element={
               <ProtectedRoute>
@@ -393,9 +411,7 @@ function AppContent() {
             path="/inicet/allotments/january-2026-session"
             element={
               <ProtectedRoute>
-                <Jan2026AllotmentPage
-                  onBack={() => window.history.back()}
-                />
+                <Jan2026AllotmentPage onBack={() => window.history.back()} />
               </ProtectedRoute>
             }
           />
@@ -403,13 +419,11 @@ function AppContent() {
             path="/inicet/allotments/july-2026-session"
             element={
               <ProtectedRoute>
-                <July2026AllotmentPage
-                  onBack={() => window.history.back()}
-                />
+                <July2026AllotmentPage onBack={() => window.history.back()} />
               </ProtectedRoute>
             }
           />
-           <Route
+          <Route
             path="/inicet/closing-ranks-2025"
             element={
               <ProtectedRoute>
