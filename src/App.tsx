@@ -100,6 +100,7 @@ import Jan2026AllotmentPage from "./INICET/Jan2026AllotmentPage";
 import July2026AllotmentPage from "./INICET/July2026AllotmentPage";
 import InicetClosingRanks2025Page from "./INICET/InicetClosingRanks2025Page";
 import InicetClosingRanks2026Page from "./INICET/InicetClosingRanks2026Page";
+import AllotmentsPage2025 from "./NeetPG/AllotmentsPage2025";
 
 /**
  * Main App Component with React Router
@@ -211,6 +212,12 @@ function AppContent() {
             path="/allotments2025"
             element={
               <Allotments2025Page onBack={() => window.history.back()} />
+            }
+          />
+          <Route
+            path="/neet-pg-allotment-2025"
+            element={
+              <AllotmentsPage2025 onBack={() => window.history.back()} />
             }
           />
           <Route
