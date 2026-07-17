@@ -69303,5622 +69303,6666 @@ export const blogPosts: BlogPost[] = [
   },
 
   {
-  "id": 165,
-  "title": "Why Negative Marking Feels So Mentally Exhausting in Competitive Medical Exams",
-  "slug": "why-negative-marking-feels-so-mentally-exhausting-in-competitive-medical-exams",
-  "excerpt": "Negative marking increases stress, making every answer feel risky. The pressure to avoid mistakes can mentally drain medical aspirants.",
-  "featured_image": "https://cdn.dribbble.com/userupload/48011762/file/037325cc725fd604fb07c7f084088c0f.jpg?w=1200&h=600&fit=crop",
-  "featured_image_alt": "negative marking mentally exhausting competitive medical exams",
-  "author": {
-    "name": "Believers Team",
-    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
-    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+    id: 165,
+    title:
+      "Why Negative Marking Feels So Mentally Exhausting in Competitive Medical Exams",
+    slug: "why-negative-marking-feels-so-mentally-exhausting-in-competitive-medical-exams",
+    excerpt:
+      "Negative marking increases stress, making every answer feel risky. The pressure to avoid mistakes can mentally drain medical aspirants.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/48011762/file/037325cc725fd604fb07c7f084088c0f.jpg?w=1200&h=600&fit=crop",
+    featured_image_alt:
+      "negative marking mentally exhausting competitive medical exams",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+    },
+    category: {
+      name: "FMGE",
+      slug: "fmge",
+      color: "bg-purple-100 text-purple-800",
+    },
+    tags: [
+      "NEET PG Exam",
+      "INI CET Exam",
+      "Negative Marking",
+      "Medical Competitive Exams",
+      "Medical Entrance Preparation",
+    ],
+    published_date: "2026-06-10",
+    read_time: 8,
+    meta_title:
+      "Why Negative Marking Feels So Mentally Exhausting in Competitive Medical Exams?",
+    meta_description:
+      "Negative marking increases stress, making every answer feel risky. The pressure to avoid mistakes can mentally drain medical aspirants.",
+    keywords: [
+      "neet pg exam",
+      "ini cet exam",
+      "ini cet",
+      "neet pg",
+      "medical pg entrance exams",
+      "negative marking in exam",
+      "entrance exam",
+      "medical competitive exams",
+      "medical entrance preparation",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content:
+          "You read a question. Two options seem possible. One feels slightly more correct. And before you've even finished reading, your brain is already running the calculation.",
+      },
+      {
+        id: "intro-para2",
+        type: "paragraph",
+        content:
+          '"Should I attempt this? What if it\'s wrong? What if leaving it costs me rank?"',
+      },
+      {
+        id: "intro-para3",
+        type: "paragraph",
+        content:
+          "That's the moment the exam stops being purely about knowledge. It becomes psychological.",
+      },
+      {
+        id: "intro-para4",
+        type: "paragraph",
+        content:
+          "That's what negative marking actually does in exams like NEET PG, INI-CET, and FMGE. It doesn't just test how much you've studied - it tests judgment, emotional control, confidence, and risk tolerance, all at the same time, all under pressure. Which is exactly why so many students struggle with it even after months of solid preparation.",
+      },
+      {
+        id: "changes-what-tested",
+        type: "heading",
+        title: "Negative Marking Changes What the Exam Is Actually Testing",
+        level: 2,
+      },
+      {
+        id: "changes-what-tested-para1",
+        type: "paragraph",
+        content:
+          "Without negative marking, attempting every question is a no-brainer. The exam essentially measures recall.",
+      },
+      {
+        id: "changes-what-tested-para2",
+        type: "paragraph",
+        content:
+          'The moment penalties enter the picture, the whole dynamic shifts. Now every question carries a second decision attached to it - not just "what\'s the answer" but "should I even try." That mental calculation plays out hundreds of times across a single paper. And over the course of a long exam, that accumulation of micro-decisions creates its own kind of exhaustion.',
+      },
+      {
+        id: "changes-what-tested-para3",
+        type: "paragraph",
+        content:
+          "This is why two students with nearly identical preparation can end up with very different scores. One manages the pressure. The other gets stuck in their own head.",
+      },
+      {
+        id: "fear-drowning-question",
+        type: "heading",
+        title:
+          "The Fear of Losing Marks Starts Drowning Out the Question Itself",
+        level: 2,
+      },
+      {
+        id: "fear-drowning-question-para1",
+        type: "paragraph",
+        content:
+          "A lot of mistakes in medical entrance exams aren't really knowledge failures. They're anxiety failures. Negative marking creates a loop that's hard to break out of - fear of silly mistakes, fear of losing rank, fear of attempting too much, fear of attempting too little.",
+      },
+      {
+        id: "fear-drowning-question-para2",
+        type: "paragraph",
+        content:
+          "Some students respond by marking everything aggressively. Others become so cautious they leave far too many questions untouched. Both are costly. The sweet spot is somewhere in the middle, and that balance becomes genuinely hard to maintain when stress is climbing.",
+      },
+      {
+        id: "brain-under-risk",
+        type: "heading",
+        title: "The Brain Under Risk Doesn't Behave the Way You'd Want It To",
+        level: 2,
+      },
+      {
+        id: "brain-under-risk-para1",
+        type: "paragraph",
+        content:
+          "There's a well-documented psychological pattern where losses feel more painful than equivalent gains feel satisfying. Losing four marks stings more than gaining four marks feels good. Negative marking pushes directly on that nerve.",
+      },
+      {
+        id: "brain-under-risk-para2",
+        type: "paragraph",
+        content:
+          'The result is that students sometimes avoid questions they could have answered correctly. The brain shifts from "how do I maximize my score" to "how do I avoid losing marks" - and those two modes produce very different behavior.',
+      },
+      {
+        id: "brain-under-risk-para3",
+        type: "paragraph",
+        content:
+          "In mocks, this pattern shows up clearly. A student knows the concept, eliminates two options confidently, still doesn't attempt out of fear, and then realizes afterward that their first instinct was right. Repeat that enough times and it starts eating away at confidence.",
+      },
+      {
+        id: "overanalysis-trap",
+        type: "heading",
+        title: "Overanalysis Is Its Own Trap",
+        level: 2,
+      },
+      {
+        id: "overanalysis-trap-para1",
+        type: "paragraph",
+        content:
+          "Medical training teaches deep, careful analysis. That's a good thing clinically. In entrance exams, it can work against you.",
+      },
+      {
+        id: "overanalysis-trap-para2",
+        type: "paragraph",
+        content:
+          'Under stress, straightforward questions start feeling suspicious. "This seems too easy. Are they trying to trick me? What if the obvious answer is actually wrong?" The more anxious the student, the more even simple questions feel like potential traps.',
+      },
+      {
+        id: "overanalysis-trap-para3",
+        type: "paragraph",
+        content:
+          "That spiral leads to changing correct answers, burning time on questions that didn't need it, and arriving at the later sections of the paper already mentally drained. Most toppers, if they're being honest, will tell you that controlling the urge to overthink is one of the harder parts of doing well in competitive exams.",
+      },
+      {
+        id: "mocks-psychological-patterns",
+        type: "heading",
+        title: "Mocks Show Psychological Patterns More Than Knowledge Gaps",
+        level: 2,
+      },
+      {
+        id: "mocks-psychological-patterns-para1",
+        type: "paragraph",
+        content:
+          "Most students treat mock tests as score checks. But mocks are actually more useful as behavioral data.",
+      },
+      {
+        id: "mocks-psychological-patterns-para2",
+        type: "paragraph",
+        content:
+          "Do you panic after getting a few wrong in a row? Do you start rushing when time gets short? Do you make random guesses under stress? Do you lose your footing after a difficult section? Do you change answers impulsively in the final minutes?",
+      },
+      {
+        id: "mocks-psychological-patterns-para3",
+        type: "paragraph",
+        content:
+          "These patterns matter more than most students realize, because during the actual exam, emotional state influences performance in ways that are hard to account for. Students who regularly examine their own behavior during mocks - not just their scores - tend to improve faster and more consistently.",
+      },
+      {
+        id: "emotional-discipline",
+        type: "heading",
+        title:
+          "Emotional Discipline Is What Separates Similar-Scoring Students",
+        level: 2,
+      },
+      {
+        id: "emotional-discipline-para1",
+        type: "paragraph",
+        content:
+          "There's an assumption that high rankers attempt aggressively and leave nothing on the table. That's not always how it works. Many strong performers are simply very disciplined about which questions they take on and which ones they let go.",
+      },
+      {
+        id: "emotional-discipline-para2",
+        type: "paragraph",
+        content:
+          "They've developed a feel for when partial elimination is enough to justify an attempt, when uncertainty is too high to risk it, and when their gut instinct is actually reliable versus when it's just noise. That kind of discipline doesn't come from reading about exam strategy - it comes from repeated exposure to MCQs and mocks over time.",
+      },
+      {
+        id: "confidence-vs-recklessness",
+        type: "heading",
+        title: "Confidence and Recklessness Aren't the Same Thing",
+        level: 2,
+      },
+      {
+        id: "confidence-vs-recklessness-para1",
+        type: "paragraph",
+        content:
+          "Attempting everything isn't confidence. It's just aggression, and often it's expensive aggression.",
+      },
+      {
+        id: "confidence-vs-recklessness-para2",
+        type: "paragraph",
+        content:
+          "Real exam confidence looks more like: attempting questions where you can eliminate options meaningfully, skipping genuine guesses, managing time without watching the clock constantly, trusting your preparation enough to move on after a difficult question, and not letting one bad section derail the rest of the paper. Students who stay emotionally stable when things get uncertain tend to perform more consistently than those who are technically strong but mentally volatile.",
+      },
+      {
+        id: "clinical-parallel",
+        type: "heading",
+        title: "There's a Clinical Parallel Worth Noticing",
+        level: 2,
+      },
+      {
+        id: "clinical-parallel-para1",
+        type: "paragraph",
+        content:
+          "The decision-making required under negative marking isn't entirely unlike what doctors deal with - incomplete information, multiple possibilities, risk-benefit thinking, pressure to act. Competitive exams test a simplified version of that process.",
+      },
+      {
+        id: "clinical-parallel-para2",
+        type: "paragraph",
+        content:
+          "It's not a perfect parallel, but the underlying skill - making calculated decisions despite uncertainty - matters both in the exam hall and in clinical practice.",
+      },
+      {
+        id: "what-actually-helps",
+        type: "heading",
+        title: "What Actually Helps",
+        level: 2,
+      },
+      {
+        id: "what-actually-helps-para1",
+        type: "paragraph",
+        content:
+          "Getting better at negative marking isn't purely an academic problem. A large part of it is psychological conditioning built over time.",
+      },
+      {
+        id: "what-actually-helps-para2",
+        type: "paragraph",
+        content:
+          "Taking full-length mocks regularly, reviewing risky attempts honestly rather than just checking the score, tracking how accurate your guesses actually are, building elimination habits, and practicing time management until it stops feeling stressful - these things compound. Students who do them consistently start recognizing their own patterns. And that self-awareness alone tends to move the needle.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question:
+              "Why is negative marking stressful in NEET PG and INI-CET?",
+            answer:
+              "Because every question involves both knowledge and risk assessment.",
+          },
+          {
+            question: "Does negative marking affect exam performance?",
+            answer:
+              "Yes, it can influence confidence, decision-making, and accuracy.",
+          },
+          {
+            question: "Can mock tests help with negative marking?",
+            answer:
+              "Yes, they help improve judgment and reduce risky mistakes.",
+          },
+          {
+            question:
+              "Should students attempt every question in medical entrance exams?",
+            answer:
+              "Not always; smart attempts are usually better than blind guessing.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "neet pg exam",
+          "ini cet exam",
+          "ini cet",
+          "neet pg",
+          "medical pg entrance exams",
+          "negative marking in exam",
+          "entrance exam",
+          "medical competitive exams",
+          "medical entrance preparation",
+        ],
+      },
+    ],
   },
-  "category": {
-    "name": "FMGE",
-    "slug": "fmge",
-    "color": "bg-purple-100 text-purple-800"
+  {
+    id: 166,
+    title:
+      "Finished the Exam Syllabus but Scores Still Stuck? Here's Why It Happens in NEET PG Preparation",
+    slug: "finished-the-exam-syllabus-but-scores-still-stuck-heres-why-it-happens-in-neet-pg-preparation",
+    excerpt:
+      "Finished the syllabus but scores remain unchanged? Weak revision, poor test analysis, and recurring mistakes may be limiting progress.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/48036611/file/4928598a8e254b365d96e65a11fff949.jpg?w=1200&h=600&fit=crop",
+    featured_image_alt:
+      "neet pg scores stuck after finishing syllabus preparation plateau",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+    },
+    category: {
+      name: "FMGE",
+      slug: "fmge",
+      color: "bg-purple-100 text-purple-800",
+    },
+    tags: [
+      "NEET PG Exam",
+      "NEET PG Preparation",
+      "Exam Preparation",
+      "Medical PG Entrance Exams",
+      "Preparation Strategy",
+    ],
+    published_date: "2026-06-12",
+    read_time: 8,
+    meta_title:
+      "Finished the Syllabus but Scores Still Stuck? Here's Why It Happens",
+    meta_description:
+      "Finished the syllabus but scores remain unchanged? Weak revision, poor test analysis, and recurring mistakes may be limiting progress.",
+    keywords: [
+      "neet pg exam",
+      "neet pg",
+      "exam preparation",
+      "medical pg entrance exams",
+      "preparation strategy",
+      "medical pg",
+      "exam syllabus",
+      "exam mcq",
+      "competitive preparation",
+      "competitive exam preparation",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content:
+          "Almost every serious NEET PG aspirant hits a phase where preparation starts feeling strangely repetitive.",
+      },
+      {
+        id: "intro-para2",
+        type: "paragraph",
+        content:
+          "The syllabus is technically done. Notes are highlighted. Videos are completed. Multiple revisions may already be finished.",
+      },
+      {
+        id: "intro-para3",
+        type: "paragraph",
+        content: "And yet scores won't move.",
+      },
+      {
+        id: "intro-para4",
+        type: "paragraph",
+        content:
+          "Mock test scores often plateau for weeks and may occasionally decline despite consistent preparation",
+      },
+      {
+        id: "intro-para5",
+        type: "paragraph",
+        content:
+          '"Am I forgetting too much?" "Why are others improving faster?" "Have I actually reached my limit?"',
+      },
+      {
+        id: "intro-para6",
+        type: "paragraph",
+        content:
+          "This phase is far more common than most people admit. And it usually has less to do with intelligence and more to do with how preparation needs to change after the syllabus is done - because finishing the exam syllabus and actually improving performance in the NEET PG exam are two completely different things.",
+      },
+      {
+        id: "false-sense-progress",
+        type: "heading",
+        title: "Completing the Syllabus Creates a False Sense of Progress",
+        level: 2,
+      },
+      {
+        id: "false-sense-progress-para1",
+        type: "paragraph",
+        content:
+          "In the early months of competitive exam preparation, improvement feels real and visible. Every new topic studied feels productive. Finishing subjects feels satisfying. There's momentum.",
+      },
+      {
+        id: "false-sense-progress-para2",
+        type: "paragraph",
+        content: "Once the syllabus ends, all of that changes.",
+      },
+      {
+        id: "false-sense-progress-para3",
+        type: "paragraph",
+        content:
+          'Now the challenge shifts to retention, recall speed, application, MCQ accuracy, revision quality, and exam temperament. None of these are easy to measure daily. A student can study for ten hours and still feel like nothing happened because there\'s no obvious "completion" left to tick off.',
+      },
+      {
+        id: "false-sense-progress-para4",
+        type: "paragraph",
+        content:
+          "That feeling creates anxiety - even when preparation is actually moving in the right direction.",
+      },
+      {
+        id: "passive-revision",
+        type: "heading",
+        title: "Passive Revision Becomes the Biggest Problem",
+        level: 2,
+      },
+      {
+        id: "passive-revision-para1",
+        type: "paragraph",
+        content:
+          "After finishing the syllabus, many aspirants fall into a cycle that feels productive but isn't really.",
+      },
+      {
+        id: "passive-revision-para2",
+        type: "paragraph",
+        content:
+          "Reading notes repeatedly. Highlighting already-highlighted lines. Watching revision videos passively. Revisiting familiar topics because they feel comfortable.",
+      },
+      {
+        id: "passive-revision-para3",
+        type: "paragraph",
+        content:
+          "The content looks familiar, so it feels like revision is working. But familiarity isn't mastery.",
+      },
+      {
+        id: "passive-revision-para4",
+        type: "paragraph",
+        content:
+          "Real improvement in medical PG entrance exams comes from active recall - solving exam MCQ questions regularly, recalling without notes, attacking weak areas, practicing mixed subjects, and training the brain to retrieve information quickly under pressure.",
+      },
+      {
+        id: "passive-revision-para5",
+        type: "paragraph",
+        content:
+          "Without that active effort, memory weakens faster than most students realize.",
+      },
+      {
+        id: "mock-tests-weaknesses",
+        type: "heading",
+        title: "Mock Tests Start Exposing Deeper Weaknesses",
+        level: 2,
+      },
+      {
+        id: "mock-tests-weaknesses-para1",
+        type: "paragraph",
+        content:
+          "Before the syllabus is done, the focus is mostly on coverage. After completion, mock tests start surfacing a different set of problems - poor time management, weak recall under pressure, silly mistakes, overthinking, guessing errors, mental fatigue across long exams.",
+      },
+      {
+        id: "mock-tests-weaknesses-para2",
+        type: "paragraph",
+        content:
+          "This catches students off guard because most expect scores to rise automatically after finishing everything.",
+      },
+      {
+        id: "mock-tests-weaknesses-para3",
+        type: "paragraph",
+        content:
+          "But mock performance depends on far more than syllabus completion. A student can know a topic well and still perform badly when recall slows down under stress. That gap between knowing something and executing under pressure is exactly where plateau phases begin during medical PG preparation.",
+      },
+      {
+        id: "avoiding-weak-areas",
+        type: "heading",
+        title: "Students Often Avoid Their Real Weak Areas",
+        level: 2,
+      },
+      {
+        id: "avoiding-weak-areas-para1",
+        type: "paragraph",
+        content:
+          "One of the less obvious reasons behind stagnation is selective revision.",
+      },
+      {
+        id: "avoiding-weak-areas-para2",
+        type: "paragraph",
+        content:
+          "Most students naturally gravitate toward topics they already understand reasonably well. Revising those feels rewarding. Tackling weak subjects feels painful, scores may temporarily dip while fixing them, and that discomfort makes avoidance easy to justify.",
+      },
+      {
+        id: "avoiding-weak-areas-para3",
+        type: "paragraph",
+        content:
+          "Over time this creates a quiet imbalance - strong subjects get stronger, weak subjects stay weak, and overall rank doesn't move.",
+      },
+      {
+        id: "avoiding-weak-areas-para4",
+        type: "paragraph",
+        content:
+          "Toppers tend to do the opposite. They spend disproportionate time on uncomfortable areas because they understand that rank improvement comes from reducing weaknesses, not endlessly polishing what already works. A smart preparation strategy addresses weak areas before they become the main thing holding the score back.",
+      },
+      {
+        id: "brain-adapts",
+        type: "heading",
+        title: "The Brain Adapts to Repetitive Study Patterns",
+        level: 2,
+      },
+      {
+        id: "brain-adapts-para1",
+        type: "paragraph",
+        content:
+          "There's also a psychological dimension to plateaus that doesn't get talked about enough.",
+      },
+      {
+        id: "brain-adapts-para2",
+        type: "paragraph",
+        content:
+          "When the same preparation strategy runs on repeat for months - reading notes in the same order, revising passively, solving predictable question patterns, studying without any timed pressure - the brain gradually disengages. Concentration drops even if the hours stay high. What was once active problem-solving starts feeling like routine.",
+      },
+      {
+        id: "brain-adapts-para3",
+        type: "paragraph",
+        content:
+          "Small changes can break that pattern significantly. Mixed-subject revision, timed MCQ blocks, error notebook analysis, teaching concepts aloud, recalling memory instead of reading directly - these force active engagement again and often produce noticeable improvement without adding a single extra hour.",
+      },
+      {
+        id: "burnout-plateau",
+        type: "heading",
+        title: "Burnout Often Disguises Itself as a Plateau",
+        level: 2,
+      },
+      {
+        id: "burnout-plateau-para1",
+        type: "paragraph",
+        content: "Sometimes the problem isn't academic at all.",
+      },
+      {
+        id: "burnout-plateau-para2",
+        type: "paragraph",
+        content:
+          "Long-term competitive preparation creates cognitive fatigue slowly and quietly - motivation becomes inconsistent, focus duration drops, memory retrieval slows, emotional frustration builds, confidence swings unpredictably. Because students keep showing up to study every day, they don't recognize what's actually happening.",
+      },
+      {
+        id: "burnout-plateau-para3",
+        type: "paragraph",
+        content:
+          "At that point, adding more hours usually makes things worse, not better.",
+      },
+      {
+        id: "burnout-plateau-para4",
+        type: "paragraph",
+        content:
+          "What tends to help more is sleep consistency, structured revision instead of open-ended studying, short recovery breaks, realistic daily targets, and stepping back from constant comparison with others. Sustainable preparation almost always outperforms emotionally chaotic preparation over the length of a NEET PG exam cycle.",
+      },
+      {
+        id: "comparison-worse",
+        type: "heading",
+        title: "Comparison Makes Plateaus Feel Worse Than They Are",
+        level: 2,
+      },
+      {
+        id: "comparison-worse-para1",
+        type: "paragraph",
+        content:
+          "Watching others appear to improve rapidly is one of the more damaging habits during NEET PG exam preparation.",
+      },
+      {
+        id: "comparison-worse-para2",
+        type: "paragraph",
+        content:
+          "The assumption that follows - everyone else is progressing, I'm falling behind; my preparation isn't working is rarely accurate. Preparation doesn't improve in a straight line for anyone. Most students move in phases: long stagnant stretches, sudden jumps, temporary drops, recovery periods.",
+      },
+      {
+        id: "comparison-worse-para3",
+        type: "paragraph",
+        content:
+          "Many toppers describe extended periods where scores barely moved before things eventually clicked. Plateaus often mean the brain is consolidating information even when visible results feel slow. That's not a failure that's just how learning at this level actually works.",
+      },
+      {
+        id: "more-questions-not-fix",
+        type: "heading",
+        title: "Solving More Questions Alone Does Not Always Fix the Problem",
+        level: 2,
+      },
+      {
+        id: "more-questions-not-fix-para1",
+        type: "paragraph",
+        content:
+          "The instinctive response to stagnation is usually to dramatically increase exam MCQ volume. Sometimes that helps. More often, it just creates surface-level practice without any real analysis attached to it.",
+      },
+      {
+        id: "more-questions-not-fix-para2",
+        type: "paragraph",
+        content:
+          "The difference comes down to review quality. Students improve faster when they understand why mistakes happened, identify recurring error patterns, work on elimination logic, track careless mistakes separately, and revisit incorrect questions repeatedly.",
+      },
+      {
+        id: "more-questions-not-fix-para3",
+        type: "paragraph",
+        content:
+          "Without that reflection, thousands of MCQs can still produce minimal improvement.",
+      },
+      {
+        id: "plateau-normal",
+        type: "heading",
+        title: "Plateau Phases Are a Normal Part of Competitive Preparation",
+        level: 2,
+      },
+      {
+        id: "plateau-normal-para1",
+        type: "paragraph",
+        content:
+          "This is probably the thing students most need to hear and least believe when they're in the middle of it.",
+      },
+      {
+        id: "plateau-normal-para2",
+        type: "paragraph",
+        content:
+          "Plateaus aren't proof that something is broken. They're a normal part of competitive preparation and high-level medical PG entrance exams, where improvement becomes slower, subtler, and more skill-based.",
+      },
+      {
+        id: "plateau-normal-para3",
+        type: "paragraph",
+        content:
+          "Early preparation rewards effort quickly. Later preparation rewards refinement. And refinement takes patience.",
+      },
+      {
+        id: "final-thoughts",
+        type: "heading",
+        title: "Final Thoughts",
+        level: 2,
+      },
+      {
+        id: "final-thoughts-para1",
+        type: "paragraph",
+        content:
+          "Completing the exam syllabus feels like the biggest milestone in the whole process. In reality, it's usually the beginning of the harder phase of NEET PG and other medical PG entrance exams.",
+      },
+      {
+        id: "final-thoughts-para2",
+        type: "paragraph",
+        content:
+          "The students who eventually come through are rarely the ones who studied the most hours. They're the ones who adapted their strategy when it stopped working, analyzed their own patterns honestly, and stayed consistent even when visible improvement slowed to almost nothing.",
+      },
+      {
+        id: "final-thoughts-para3",
+        type: "paragraph",
+        content:
+          "In competitive medical PG exams, that phase - the uncomfortable, unrewarding, hard-to-measure phase - is often what ends up making the biggest difference in the final rank.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question:
+              "Why are my NEET PG scores stuck after finishing the syllabus?",
+            answer:
+              "It happens because completion and performance are basically two different things.",
+          },
+          {
+            question: "How do I break a preparation plateau?",
+            answer:
+              "It has switched from the passive revision to active recall and genuinely fixes the weak areas first.",
+          },
+          {
+            question: "Am I burnt out or just plateauing?",
+            answer:
+              "If more hours aren't helping and focus keeps dropping, it's likely burnout.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "neet pg exam",
+          "neet pg",
+          "exam preparation",
+          "medical pg entrance exams",
+          "preparation strategy",
+          "medical pg",
+          "exam syllabus",
+          "exam mcq",
+          "competitive preparation",
+          "competitive exam preparation",
+        ],
+      },
+    ],
   },
-  "tags": [
-    "NEET PG Exam",
-    "INI CET Exam",
-    "Negative Marking",
-    "Medical Competitive Exams",
-    "Medical Entrance Preparation"
-  ],
-  "published_date": "2026-06-10",
-  "read_time": 8,
-  "meta_title": "Why Negative Marking Feels So Mentally Exhausting in Competitive Medical Exams?",
-  "meta_description": "Negative marking increases stress, making every answer feel risky. The pressure to avoid mistakes can mentally drain medical aspirants.",
-  "keywords": [
-    "neet pg exam",
-    "ini cet exam",
-    "ini cet",
-    "neet pg",
-    "medical pg entrance exams",
-    "negative marking in exam",
-    "entrance exam",
-    "medical competitive exams",
-    "medical entrance preparation"
-  ],
-  "sections": [
-    {
-      "id": "intro-para1",
-      "type": "paragraph",
-      "content": "You read a question. Two options seem possible. One feels slightly more correct. And before you've even finished reading, your brain is already running the calculation."
+  {
+    id: 167,
+    title:
+      "Completed the Syllabus but Not Seeing Results? Understanding the Plateau Phase",
+    slug: "completed-syllabus-not-seeing-results-plateau-phase-neet-pg",
+    excerpt:
+      "Completed your syllabus but scores remain unchanged? Learn why plateaus happen and how targeted revision can unlock steady progress.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/48063526/file/b2c3a4fe3a28713102bde9091793ef7a.jpg",
+    featured_image_alt: "neet pg plateau phase preparation",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
     },
-    {
-      "id": "intro-para2",
-      "type": "paragraph",
-      "content": "\"Should I attempt this? What if it's wrong? What if leaving it costs me rank?\""
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
     },
-    {
-      "id": "intro-para3",
-      "type": "paragraph",
-      "content": "That's the moment the exam stops being purely about knowledge. It becomes psychological."
-    },
-    {
-      "id": "intro-para4",
-      "type": "paragraph",
-      "content": "That's what negative marking actually does in exams like NEET PG, INI-CET, and FMGE. It doesn't just test how much you've studied - it tests judgment, emotional control, confidence, and risk tolerance, all at the same time, all under pressure. Which is exactly why so many students struggle with it even after months of solid preparation."
-    },
-    {
-      "id": "changes-what-tested",
-      "type": "heading",
-      "title": "Negative Marking Changes What the Exam Is Actually Testing",
-      "level": 2
-    },
-    {
-      "id": "changes-what-tested-para1",
-      "type": "paragraph",
-      "content": "Without negative marking, attempting every question is a no-brainer. The exam essentially measures recall."
-    },
-    {
-      "id": "changes-what-tested-para2",
-      "type": "paragraph",
-      "content": "The moment penalties enter the picture, the whole dynamic shifts. Now every question carries a second decision attached to it - not just \"what's the answer\" but \"should I even try.\" That mental calculation plays out hundreds of times across a single paper. And over the course of a long exam, that accumulation of micro-decisions creates its own kind of exhaustion."
-    },
-    {
-      "id": "changes-what-tested-para3",
-      "type": "paragraph",
-      "content": "This is why two students with nearly identical preparation can end up with very different scores. One manages the pressure. The other gets stuck in their own head."
-    },
-    {
-      "id": "fear-drowning-question",
-      "type": "heading",
-      "title": "The Fear of Losing Marks Starts Drowning Out the Question Itself",
-      "level": 2
-    },
-    {
-      "id": "fear-drowning-question-para1",
-      "type": "paragraph",
-      "content": "A lot of mistakes in medical entrance exams aren't really knowledge failures. They're anxiety failures. Negative marking creates a loop that's hard to break out of - fear of silly mistakes, fear of losing rank, fear of attempting too much, fear of attempting too little."
-    },
-    {
-      "id": "fear-drowning-question-para2",
-      "type": "paragraph",
-      "content": "Some students respond by marking everything aggressively. Others become so cautious they leave far too many questions untouched. Both are costly. The sweet spot is somewhere in the middle, and that balance becomes genuinely hard to maintain when stress is climbing."
-    },
-    {
-      "id": "brain-under-risk",
-      "type": "heading",
-      "title": "The Brain Under Risk Doesn't Behave the Way You'd Want It To",
-      "level": 2
-    },
-    {
-      "id": "brain-under-risk-para1",
-      "type": "paragraph",
-      "content": "There's a well-documented psychological pattern where losses feel more painful than equivalent gains feel satisfying. Losing four marks stings more than gaining four marks feels good. Negative marking pushes directly on that nerve."
-    },
-    {
-      "id": "brain-under-risk-para2",
-      "type": "paragraph",
-      "content": "The result is that students sometimes avoid questions they could have answered correctly. The brain shifts from \"how do I maximize my score\" to \"how do I avoid losing marks\" - and those two modes produce very different behavior."
-    },
-    {
-      "id": "brain-under-risk-para3",
-      "type": "paragraph",
-      "content": "In mocks, this pattern shows up clearly. A student knows the concept, eliminates two options confidently, still doesn't attempt out of fear, and then realizes afterward that their first instinct was right. Repeat that enough times and it starts eating away at confidence."
-    },
-    {
-      "id": "overanalysis-trap",
-      "type": "heading",
-      "title": "Overanalysis Is Its Own Trap",
-      "level": 2
-    },
-    {
-      "id": "overanalysis-trap-para1",
-      "type": "paragraph",
-      "content": "Medical training teaches deep, careful analysis. That's a good thing clinically. In entrance exams, it can work against you."
-    },
-    {
-      "id": "overanalysis-trap-para2",
-      "type": "paragraph",
-      "content": "Under stress, straightforward questions start feeling suspicious. \"This seems too easy. Are they trying to trick me? What if the obvious answer is actually wrong?\" The more anxious the student, the more even simple questions feel like potential traps."
-    },
-    {
-      "id": "overanalysis-trap-para3",
-      "type": "paragraph",
-      "content": "That spiral leads to changing correct answers, burning time on questions that didn't need it, and arriving at the later sections of the paper already mentally drained. Most toppers, if they're being honest, will tell you that controlling the urge to overthink is one of the harder parts of doing well in competitive exams."
-    },
-    {
-      "id": "mocks-psychological-patterns",
-      "type": "heading",
-      "title": "Mocks Show Psychological Patterns More Than Knowledge Gaps",
-      "level": 2
-    },
-    {
-      "id": "mocks-psychological-patterns-para1",
-      "type": "paragraph",
-      "content": "Most students treat mock tests as score checks. But mocks are actually more useful as behavioral data."
-    },
-    {
-      "id": "mocks-psychological-patterns-para2",
-      "type": "paragraph",
-      "content": "Do you panic after getting a few wrong in a row? Do you start rushing when time gets short? Do you make random guesses under stress? Do you lose your footing after a difficult section? Do you change answers impulsively in the final minutes?"
-    },
-    {
-      "id": "mocks-psychological-patterns-para3",
-      "type": "paragraph",
-      "content": "These patterns matter more than most students realize, because during the actual exam, emotional state influences performance in ways that are hard to account for. Students who regularly examine their own behavior during mocks - not just their scores - tend to improve faster and more consistently."
-    },
-    {
-      "id": "emotional-discipline",
-      "type": "heading",
-      "title": "Emotional Discipline Is What Separates Similar-Scoring Students",
-      "level": 2
-    },
-    {
-      "id": "emotional-discipline-para1",
-      "type": "paragraph",
-      "content": "There's an assumption that high rankers attempt aggressively and leave nothing on the table. That's not always how it works. Many strong performers are simply very disciplined about which questions they take on and which ones they let go."
-    },
-    {
-      "id": "emotional-discipline-para2",
-      "type": "paragraph",
-      "content": "They've developed a feel for when partial elimination is enough to justify an attempt, when uncertainty is too high to risk it, and when their gut instinct is actually reliable versus when it's just noise. That kind of discipline doesn't come from reading about exam strategy - it comes from repeated exposure to MCQs and mocks over time."
-    },
-    {
-      "id": "confidence-vs-recklessness",
-      "type": "heading",
-      "title": "Confidence and Recklessness Aren't the Same Thing",
-      "level": 2
-    },
-    {
-      "id": "confidence-vs-recklessness-para1",
-      "type": "paragraph",
-      "content": "Attempting everything isn't confidence. It's just aggression, and often it's expensive aggression."
-    },
-    {
-      "id": "confidence-vs-recklessness-para2",
-      "type": "paragraph",
-      "content": "Real exam confidence looks more like: attempting questions where you can eliminate options meaningfully, skipping genuine guesses, managing time without watching the clock constantly, trusting your preparation enough to move on after a difficult question, and not letting one bad section derail the rest of the paper. Students who stay emotionally stable when things get uncertain tend to perform more consistently than those who are technically strong but mentally volatile."
-    },
-    {
-      "id": "clinical-parallel",
-      "type": "heading",
-      "title": "There's a Clinical Parallel Worth Noticing",
-      "level": 2
-    },
-    {
-      "id": "clinical-parallel-para1",
-      "type": "paragraph",
-      "content": "The decision-making required under negative marking isn't entirely unlike what doctors deal with - incomplete information, multiple possibilities, risk-benefit thinking, pressure to act. Competitive exams test a simplified version of that process."
-    },
-    {
-      "id": "clinical-parallel-para2",
-      "type": "paragraph",
-      "content": "It's not a perfect parallel, but the underlying skill - making calculated decisions despite uncertainty - matters both in the exam hall and in clinical practice."
-    },
-    {
-      "id": "what-actually-helps",
-      "type": "heading",
-      "title": "What Actually Helps",
-      "level": 2
-    },
-    {
-      "id": "what-actually-helps-para1",
-      "type": "paragraph",
-      "content": "Getting better at negative marking isn't purely an academic problem. A large part of it is psychological conditioning built over time."
-    },
-    {
-      "id": "what-actually-helps-para2",
-      "type": "paragraph",
-      "content": "Taking full-length mocks regularly, reviewing risky attempts honestly rather than just checking the score, tracking how accurate your guesses actually are, building elimination habits, and practicing time management until it stops feeling stressful - these things compound. Students who do them consistently start recognizing their own patterns. And that self-awareness alone tends to move the needle."
-    },
-    {
-      "id": "faqs",
-      "type": "heading",
-      "title": "FAQs",
-      "level": 2
-    },
-    {
-      "id": "faqs-list",
-      "type": "faq",
-      "faqs": [
-        {
-          "question": "Why is negative marking stressful in NEET PG and INI-CET?",
-          "answer": "Because every question involves both knowledge and risk assessment."
-        },
-        {
-          "question": "Does negative marking affect exam performance?",
-          "answer": "Yes, it can influence confidence, decision-making, and accuracy."
-        },
-        {
-          "question": "Can mock tests help with negative marking?",
-          "answer": "Yes, they help improve judgment and reduce risky mistakes."
-        },
-        {
-          "question": "Should students attempt every question in medical entrance exams?",
-          "answer": "Not always; smart attempts are usually better than blind guessing."
-        }
-      ]
-    },
-    {
-      "id": "keywords",
-      "type": "keywords",
-      "title": "Related Keywords",
-      "keywords": [
-        "neet pg exam",
-        "ini cet exam",
-        "ini cet",
-        "neet pg",
-        "medical pg entrance exams",
-        "negative marking in exam",
-        "entrance exam",
-        "medical competitive exams",
-        "medical entrance preparation"
-      ]
-    }
-  ]
-},
-{
-  "id": 166,
-  "title": "Finished the Exam Syllabus but Scores Still Stuck? Here's Why It Happens in NEET PG Preparation",
-  "slug": "finished-the-exam-syllabus-but-scores-still-stuck-heres-why-it-happens-in-neet-pg-preparation",
-  "excerpt": "Finished the syllabus but scores remain unchanged? Weak revision, poor test analysis, and recurring mistakes may be limiting progress.",
-  "featured_image": "https://cdn.dribbble.com/userupload/48036611/file/4928598a8e254b365d96e65a11fff949.jpg?w=1200&h=600&fit=crop",
-  "featured_image_alt": "neet pg scores stuck after finishing syllabus preparation plateau",
-  "author": {
-    "name": "Believers Team",
-    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
-    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+    tags: [
+      "NEET PG",
+      "NEET PG Preparation",
+      "NEET PG Syllabus",
+      "Exam Preparation",
+      "Preparation Strategy",
+    ],
+    published_date: "2026-06-15",
+    read_time: 10,
+    meta_title:
+      "Completed the Syllabus but Not Seeing Results? Understanding the Plateau Phase",
+    meta_description:
+      "Completed your syllabus but scores remain unchanged? Learn why plateaus happen and how targeted revision can unlock steady progress.",
+    keywords: [
+      "neet pg preparation",
+      "neet pg",
+      "neet pg exam",
+      "competitive exam preparation",
+      "medical pg entrance exam",
+      "neet pg syllabus",
+      "neet pg exam syllabus",
+      "neet pg subject weightage",
+      "subject in neet pg",
+      "subject weightage in neet pg",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content:
+          "Finishing the NEET PG syllabus feels massive. You've spent months grinding through all 19 subjects included in the NEET PG exam syllabus, and getting to the other side is a real achievement.",
+      },
+      {
+        id: "intro-para2",
+        type: "paragraph",
+        content:
+          "But then something unexpected happens. You expected mock scores to climb. You thought revision would feel smoother, that things would click. Instead, your scores are sitting in the same range they've been for weeks. You're putting in the hours, showing up every day and nothing seems to move.",
+      },
+      {
+        id: "intro-para3",
+        type: "paragraph",
+        content:
+          "This is the plateau. Almost every serious NEET PG aspirant hits it, and it's one of the most demoralizing stretches of the entire journey not because things are going wrong, but because it feels like they are.",
+      },
+      {
+        id: "syllabus-not-ready",
+        type: "heading",
+        title: "Finishing the Syllabus Isn't the Same as Being Ready",
+        level: 2,
+      },
+      {
+        id: "syllabus-not-ready-para1",
+        type: "paragraph",
+        content:
+          "Completing the syllabus just means you've seen the material. It doesn't mean you own it.",
+      },
+      {
+        id: "syllabus-not-ready-para2",
+        type: "paragraph",
+        content:
+          "The NEET PG exam won't ask you to recognize something you vaguely remember reading. It'll put you under time pressure, give you four options that all look plausible, and expect you to retrieve the right answer fast. That skill isn't built during your first read-through - it's built afterward, through practice, repetition, and pressure.",
+      },
+      {
+        id: "syllabus-not-ready-conclusion",
+        type: "paragraph",
+        content:
+          "If you've covered everything and still struggle in mocks, that's not a sign something's broken. It's just where you actually are in the NEET PG preparation process.",
+      },
+      {
+        id: "passive-revision",
+        type: "heading",
+        title: "Revision That Looks Productive Often Isn't",
+        level: 2,
+      },
+      {
+        id: "passive-revision-para1",
+        type: "paragraph",
+        content:
+          "After the syllabus, most students shift into revision mode - rereading notes, going over highlighted sections, rewatching videos. It feels like studying. But passive review rarely does much for actual retention.",
+      },
+      {
+        id: "passive-revision-para2",
+        type: "paragraph",
+        content:
+          "Reading something familiar gives you a sense that you know it. But recognizing something on a page is very different from pulling it up under exam conditions.",
+      },
+      {
+        id: "passive-revision-conclusion",
+        type: "paragraph",
+        content:
+          "Students who retain things well are usually solving questions, testing themselves without notes, and forcing their brain to work for the information. It's harder and less comfortable than passive revision - which is exactly why it works.",
+      },
+      {
+        id: "mock-tests",
+        type: "heading",
+        title: "Mock Tests Start Showing You Uncomfortable Things",
+        level: 2,
+      },
+      {
+        id: "mock-tests-para1",
+        type: "paragraph",
+        content:
+          "When you were covering new content, the enemy was clear: material you hadn't studied yet. Mock tests after syllabus completion are different - they expose problems that have nothing to do with whether you've read the chapter.",
+      },
+      {
+        id: "mock-tests-list",
+        type: "list",
+        items: [
+          "Time management",
+          "Second-guessing",
+          "Misreading questions",
+          "Negative marking turning a borderline attempt into a net loss",
+        ],
+      },
+      {
+        id: "mock-tests-conclusion",
+        type: "paragraph",
+        content:
+          "A lot of students are blindsided by this. They know the concept, understand it well, and still get it wrong - because the exam is also testing how you make decisions under pressure. That's a separate skill, and mocks are one of the few ways to actually train it during competitive exam preparation.",
+      },
+      {
+        id: "weak-areas",
+        type: "heading",
+        title: "You're Probably Avoiding Your Weakest Areas",
+        level: 2,
+      },
+      {
+        id: "weak-areas-para1",
+        type: "paragraph",
+        content:
+          "Be honest: which subjects are you spending the most time on right now?",
+      },
+      {
+        id: "weak-areas-para2",
+        type: "paragraph",
+        content:
+          "For most students, it's the ones they're already good at. Strong subjects feel rewarding - questions get answered correctly, revision flows easily. Weak subjects feel like pushing against a wall. So the natural drift is toward comfort.",
+      },
+      {
+        id: "weak-areas-para3",
+        type: "paragraph",
+        content:
+          "This becomes especially important when considering NEET PG subject weightage. Some students spend too much time on comfortable subjects while neglecting areas that carry significant marks in the exam. Understanding subject weightage in NEET PG can help prioritize revision more effectively.",
+      },
+      {
+        id: "weak-areas-para4",
+        type: "paragraph",
+        content:
+          "Strengths keep improving while weak areas quietly sit there untouched.",
+      },
+      {
+        id: "weak-areas-conclusion",
+        type: "paragraph",
+        content:
+          "Students who break through plateaus are usually the ones who reverse this - who deliberately spend more time on the uncomfortable stuff, not less.",
+      },
+      {
+        id: "more-resources",
+        type: "heading",
+        title: "More Resources Won't Fix It",
+        level: 2,
+      },
+      {
+        id: "more-resources-para1",
+        type: "paragraph",
+        content:
+          "When scores stall, the instinct is to look for something new. A different question bank. Another set of notes. A fresh video series.",
+      },
+      {
+        id: "more-resources-para2",
+        type: "paragraph",
+        content:
+          "But this almost always backfires. Every new resource takes time away from revisiting what you already have - and repetition is what builds retention. Adding more material at this stage just spreads your attention thinner.",
+      },
+      {
+        id: "more-resources-conclusion",
+        type: "paragraph",
+        content:
+          "Many high-rankers say the same thing: they didn't use more resources than others. They just went back to the right ones repeatedly until it stuck.",
+      },
+      {
+        id: "burnout",
+        type: "heading",
+        title: "Sometimes It's Just Burnout",
+        level: 2,
+      },
+      {
+        id: "burnout-para1",
+        type: "paragraph",
+        content:
+          "Not every plateau is a strategy problem. Sometimes the issue is simpler: you're exhausted.",
+      },
+      {
+        id: "burnout-para2",
+        type: "paragraph",
+        content:
+          "Months of continuous NEET PG preparation wear people down quietly. Concentration drops. Motivation fluctuates. Things you understood well start feeling harder to recall. The common response is to study longer - but when your brain is fatigued, extra hours produce very little.",
+      },
+      {
+        id: "burnout-conclusion",
+        type: "paragraph",
+        content:
+          "Sleep, real breaks, and sustainable daily targets aren't luxuries. They're what allow the studying you do to actually stick.",
+      },
+      {
+        id: "practice-without-review",
+        type: "heading",
+        title: "Practice Without Review Is Just Going Through the Motions",
+        level: 2,
+      },
+      {
+        id: "practice-without-review-para1",
+        type: "paragraph",
+        content:
+          "When scores stall, many students respond by doing more tests. More questions, more mocks, more attempts - hoping volume eventually becomes improvement.",
+      },
+      {
+        id: "practice-without-review-para2",
+        type: "paragraph",
+        content:
+          "But solving questions without analyzing them afterward is one of the least efficient habits in this phase.",
+      },
+      {
+        id: "practice-without-review-conclusion",
+        type: "paragraph",
+        content:
+          "Every wrong answer is useful if you stop and figure out why. Was it a knowledge gap? Did you misread the question? Did you know the answer but second-guess yourself? Students who build in proper review time after every mock improve far faster than those who just move straight to the next test.",
+      },
+      {
+        id: "invisible-progress",
+        type: "heading",
+        title: "You're Making Progress You Can't See",
+        level: 2,
+      },
+      {
+        id: "invisible-progress-para1",
+        type: "paragraph",
+        content:
+          "Early in prep, progress is obvious. New chapters get covered, unfamiliar topics become familiar, and the change is visible.",
+      },
+      {
+        id: "invisible-progress-para2",
+        type: "paragraph",
+        content:
+          "Later, the gains are smaller. You eliminated one extra option you'd have guessed on before. You caught a mistake you'd usually miss. You finished a paper with five minutes to spare instead of rushing.",
+      },
+      {
+        id: "invisible-progress-conclusion",
+        type: "paragraph",
+        content:
+          "None of that feels significant in the moment. But across hundreds of questions and several months, those small improvements compound - and in a medical PG entrance exam, they often make the difference between thousands of ranks.",
+      },
+      {
+        id: "plateau-not-failing",
+        type: "heading",
+        title: "A Plateau Doesn't Mean You're Failing",
+        level: 2,
+      },
+      {
+        id: "plateau-not-failing-para1",
+        type: "paragraph",
+        content:
+          "If you're stuck right now, it doesn't mean your preparation has stopped working.",
+      },
+      {
+        id: "plateau-not-failing-para2",
+        type: "paragraph",
+        content:
+          "It usually means you've hit the stage where raw effort needs to give way to smarter strategy - where passive review needs to become active recall, where weak areas need attention even when it's uncomfortable, where mock analysis matters more than mock volume.",
+      },
+      {
+        id: "plateau-not-failing-conclusion",
+        type: "paragraph",
+        content:
+          "Whether you're revising a high-weightage subject in NEET PG or working through weaker topics, the students who make it through this phase aren't always the ones who worked the hardest. They're the ones who paid attention to what their scores were telling them and adjusted.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "Why are my NEET PG scores not improving?",
+            answer:
+              "Getting through the syllabus is only part of the work. Recall, speed, and exam-level application need to be built separately through active practice - and that takes time.",
+          },
+          {
+            question: "How do I get out of a plateau?",
+            answer:
+              "Focus on your weakest areas first. Replace passive reading with active recall. Analyze your mock tests properly instead of just taking more of them.",
+          },
+          {
+            question: "Are mock tests important after finishing the syllabus?",
+            answer:
+              "Very. They reveal things routine studying can't - your actual exam habits, where your time management breaks down, and which gaps are costing you marks.",
+          },
+          {
+            question: "Is hitting a plateau a bad sign?",
+            answer:
+              "No. It's a normal part of the process for most serious aspirants, and it often comes right before a meaningful jump in scores.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "neet pg preparation",
+          "neet pg",
+          "neet pg exam",
+          "competitive exam preparation",
+          "medical pg entrance exam",
+          "neet pg syllabus",
+          "neet pg exam syllabus",
+          "neet pg subject weightage",
+          "subject in neet pg",
+          "subject weightage in neet pg",
+        ],
+      },
+    ],
   },
-  "category": {
-    "name": "FMGE",
-    "slug": "fmge",
-    "color": "bg-purple-100 text-purple-800"
+  {
+    id: 168,
+    title:
+      "Why Good Scores No Longer Guarantee Good Ranks: Understanding Rank Inflation in PG Medical Entrance Exams",
+    slug: "why-good-scores-no-longer-guarantee-good-ranks-rank-inflation-pg-medical-entrance-exams",
+    excerpt:
+      "Rising competition and rank inflation mean strong scores may not secure top ranks. Understand the trend and refine your PG exam strategy.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/48089564/file/a92e0179f3094021696d2c7e4fd200da.jpg",
+    featured_image_alt: "pg medical entrance exam rank inflation",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+    },
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
+    },
+    tags: [
+      "NEET PG",
+      "INI CET",
+      "FMGE",
+      "Exam Preparation",
+      "Preparation Strategy",
+    ],
+    published_date: "2026-06-17",
+    read_time: 10,
+    meta_title:
+      "Why Good Scores No Longer Guarantee Good Ranks: Understanding Rank Inflation in PG Medical Entrance Exa",
+    meta_description:
+      "Rising competition and rank inflation mean strong scores may not secure top ranks. Understand the trend and refine your PG exam strategy.",
+    keywords: [
+      "pg entrance exam",
+      "pg medical entrance exams",
+      "neet pg",
+      "ini cet",
+      "fmge",
+      "neet pg exam",
+      "fmge exam",
+      "inicet exam",
+      "community medicine",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content:
+          "Every year, students walk out of their PG entrance exam feeling like they did well.",
+      },
+      {
+        id: "intro-para2",
+        type: "paragraph",
+        content:
+          "More correct answers than their mocks. Fewer silly mistakes. A score that actually went up.",
+      },
+      {
+        id: "intro-para3",
+        type: "paragraph",
+        content:
+          "Then the results come out, and the rank doesn't match the feeling. Sometimes a student scores higher than toppers from previous years and still ends up with a worse rank. The branch they were targeting is out of reach. The institute they planned is now a stretch.",
+      },
+      {
+        id: "intro-conclusion",
+        type: "paragraph",
+        content:
+          "This is rank inflation and if you're preparing for NEET PG, INI-CET, or FMGE right now, it's something you need to understand, not just the syllabus.",
+      },
+      {
+        id: "what-rank-inflation-means",
+        type: "heading",
+        title: "What Rank Inflation Means",
+        level: 2,
+      },
+      {
+        id: "what-rank-inflation-para1",
+        type: "paragraph",
+        content:
+          "Rank inflation happens when more candidates start scoring higher, which packs the competition tighter at the top.",
+      },
+      {
+        id: "what-rank-inflation-para2",
+        type: "paragraph",
+        content:
+          "The math is simple but brutal: when hundreds of students answer most questions correctly, even one or two wrong answers can push your rank down by thousands. A small dip in accuracy doesn't just cost you a few spots - it can cost you a branch.",
+      },
+      {
+        id: "what-rank-inflation-conclusion",
+        type: "paragraph",
+        content:
+          "Students often think rank reflects how well they did. It doesn't. Rank reflects how well you did compared to everyone else sitting that PG entrance exam. As the overall level rises, getting a strong rank gets harder - even if your preparation is genuinely better than it used to be.",
+      },
+      {
+        id: "why-competition-intense",
+        type: "heading",
+        title: "Why Competition Has Gotten This Intense",
+        level: 2,
+      },
+      {
+        id: "why-competition-para1",
+        type: "paragraph",
+        content:
+          "Ten years ago, preparation meant textbooks, coaching classes, and whatever test series your city had access to. Now every student has recorded lectures, online question banks, rapid revision modules, detailed analytics, and WhatsApp groups where high-yield topics get shared in real time.",
+      },
+      {
+        id: "why-competition-para2",
+        type: "paragraph",
+        content:
+          "The gap between a well-prepared student and an average one has closed. Not because average students are working harder, but because the tools that used to give top students an edge are now available to everyone.",
+      },
+      {
+        id: "why-competition-conclusion",
+        type: "paragraph",
+        content: "The baseline has moved up - and it keeps moving.",
+      },
+      {
+        id: "margins-shrink",
+        type: "heading",
+        title: "When Everyone Studies the Same Way, Margins Shrink",
+        level: 2,
+      },
+      {
+        id: "margins-shrink-para1",
+        type: "paragraph",
+        content:
+          "Most serious aspirants today are pulling from similar resources, solving similar MCQs, and targeting the same high-yield topics. Which means large numbers of candidates are getting large numbers of questions right.",
+      },
+      {
+        id: "margins-shrink-para2",
+        type: "paragraph",
+        content:
+          "When that happens, the exam stops separating students on broad knowledge. It starts separating them on tiny things - a misread clinical scenario, a half-second of hesitation, one overlooked detail in an image-based question.",
+      },
+      {
+        id: "margins-shrink-conclusion",
+        type: "paragraph",
+        content:
+          "One wrong answer. That's sometimes the entire difference between a competitive rank and a disappointing one.",
+      },
+      {
+        id: "preparation-strategic",
+        type: "heading",
+        title: "Preparation Has Become More Strategic - Across the Board",
+        level: 2,
+      },
+      {
+        id: "preparation-strategic-para1",
+        type: "paragraph",
+        content:
+          "It's not just that resources improved. Students have gotten smarter about how they use them.",
+      },
+      {
+        id: "preparation-strategic-conclusion",
+        type: "paragraph",
+        content:
+          "Previous-year trend analysis, topic-wise prioritization, structured revision schedules, performance tracking - this kind of exam-focused preparation used to be the exception. Now it's common. Which means the overall scores across the candidate pool have risen, and the margin you need to stand out has shrunk.",
+      },
+      {
+        id: "social-media-worse",
+        type: "heading",
+        title: "Social Media Makes All of This Feel Worse Than It Is",
+        level: 2,
+      },
+      {
+        id: "social-media-worse-para1",
+        type: "paragraph",
+        content:
+          "Rank announcements, topper stories, score discussions, cutoff predictions - it's constant now. And while some of that information is genuinely useful, a lot of it just warps expectations.",
+      },
+      {
+        id: "social-media-worse-para2",
+        type: "paragraph",
+        content:
+          "Students end up comparing themselves only to the people at the very top rather than measuring their own actual progress. A rank that would have felt like a real win a few years ago starts to feel like a failure because the reference point has shifted.",
+      },
+      {
+        id: "social-media-worse-conclusion",
+        type: "paragraph",
+        content:
+          "The psychological pressure from this kind of comparison is real, and it's worth being aware of.",
+      },
+      {
+        id: "what-this-means",
+        type: "heading",
+        title: "What This Means for Your Preparation",
+        level: 2,
+      },
+      {
+        id: "what-this-means-para1",
+        type: "paragraph",
+        content:
+          "Rank inflation doesn't mean you need to study more. If anything, it means quality of preparation matters more than quantity.",
+      },
+      {
+        id: "what-this-means-para2",
+        type: "paragraph",
+        content:
+          "When differences come down to small margins, making fewer mistakes becomes just as important as learning more. The students who consistently perform well tend to focus on:",
+      },
+      {
+        id: "what-this-means-list",
+        type: "list",
+        items: [
+          "Revision cycles done repeatedly, not once",
+          "MCQ practice followed by actual error analysis",
+          "Strong clinical application, not just factual recall",
+          "Time management treated as a skill to train, not an afterthought",
+        ],
+      },
+      {
+        id: "what-this-means-conclusion",
+        type: "paragraph",
+        content:
+          "The candidates scoring at the top aren't necessarily covering more ground. They're making fewer errors on the ground they've already covered.",
+      },
+      {
+        id: "consistency-separates",
+        type: "heading",
+        title: "Consistency Is What Actually Separates People Now",
+        level: 2,
+      },
+      {
+        id: "consistency-separates-para1",
+        type: "paragraph",
+        content:
+          "Dramatic last-minute jumps in rank are rare. The real gains come from months of systematic revision, repeated exposure to the same high-yield concepts, and gradually tightening your accuracy.",
+      },
+      {
+        id: "consistency-separates-para2",
+        type: "paragraph",
+        content:
+          "Most students are looking for some edge that changes everything. Usually there isn't one. The edge is just doing the basics - revision, MCQs, test analysis, error correction - consistently and over a long enough period.",
+      },
+      {
+        id: "consistency-separates-conclusion",
+        type: "paragraph",
+        content:
+          "That sounds unglamorous, but it's what the data on top performers actually shows.",
+      },
+      {
+        id: "bigger-picture",
+        type: "heading",
+        title: "The Bigger Picture",
+        level: 2,
+      },
+      {
+        id: "bigger-picture-para1",
+        type: "paragraph",
+        content:
+          "Rank inflation isn't proof that these exams have become impossible. It's proof that the candidate pool is stronger and better prepared than it used to be. That's a real shift and pretending otherwise doesn't help anyone.",
+      },
+      {
+        id: "bigger-picture-conclusion",
+        type: "paragraph",
+        content:
+          "But the fundamentals haven't changed. Strong concepts, smart revision, honest error analysis, and showing consistently over time - these still work. They work better now, actually, because so many students are either avoiding them or doing them halfway.",
+      },
+      {
+        id: "final-thought",
+        type: "heading",
+        title: "Final Thought",
+        level: 2,
+      },
+      {
+        id: "final-thought-para1",
+        type: "paragraph",
+        content:
+          "The biggest mistake you can make right now is assuming that a good score will automatically translate to a good rank. That used to be roughly true. It isn't anymore.",
+      },
+      {
+        id: "final-thought-para2",
+        type: "paragraph",
+        content:
+          "What matters today is how accurately and consistently you can apply what you know - under real exam conditions, against a much stronger field than existed even a few years ago.",
+      },
+      {
+        id: "final-thought-conclusion",
+        type: "paragraph",
+        content:
+          "Understanding that shift doesn't make the competition easier. But it does make your preparation more honest, and that's usually where things start to turn around.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "What is rank inflation in PG medical entrance exams?",
+            answer:
+              "Rank inflation happens when more candidates score high, making competition tighter and ranks harder to secure.",
+          },
+          {
+            question: "Why doesn't a good score always guarantee a good rank?",
+            answer:
+              "Because rank depends on relative performance, not just your individual score.",
+          },
+          {
+            question:
+              "Has competition increased in NEET PG, INI-CET, and FMGE?",
+            answer:
+              "Yes, better resources and structured preparation have significantly increased competition.",
+          },
+          {
+            question: "How can I improve my rank despite rank inflation?",
+            answer:
+              "Focus on revision, accuracy, error analysis, and consistent MCQ practice.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "pg entrance exam",
+          "pg medical entrance exams",
+          "neet pg",
+          "ini cet",
+          "fmge",
+          "neet pg exam",
+          "fmge exam",
+          "inicet exam",
+          "community medicine",
+        ],
+      },
+    ],
   },
-  "tags": [
-    "NEET PG Exam",
-    "NEET PG Preparation",
-    "Exam Preparation",
-    "Medical PG Entrance Exams",
-    "Preparation Strategy"
-  ],
-  "published_date": "2026-06-12",
-  "read_time": 8,
-  "meta_title": "Finished the Syllabus but Scores Still Stuck? Here's Why It Happens",
-  "meta_description": "Finished the syllabus but scores remain unchanged? Weak revision, poor test analysis, and recurring mistakes may be limiting progress.",
-  "keywords": [
-    "neet pg exam",
-    "neet pg",
-    "exam preparation",
-    "medical pg entrance exams",
-    "preparation strategy",
-    "medical pg",
-    "exam syllabus",
-    "exam mcq",
-    "competitive preparation",
-    "competitive exam preparation"
-  ],
-  "sections": [
-    {
-      "id": "intro-para1",
-      "type": "paragraph",
-      "content": "Almost every serious NEET PG aspirant hits a phase where preparation starts feeling strangely repetitive."
+  {
+    id: 169,
+    title:
+      "Why Consistency Beats Intensity in NEET PG Preparation and Long-Term Exam Success",
+    slug: "why-consistency-beats-intensity-neet-pg-preparation-long-term-exam-success",
+    excerpt:
+      "Consistent daily effort builds stronger retention, reduces burnout, and delivers lasting results, making it the key to NEET PG success.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/48112900/file/9e2c48c2ed417f18354ab62a5a74fc00.jpg",
+    featured_image_alt: "neet pg preparation consistency",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
     },
-    {
-      "id": "intro-para2",
-      "type": "paragraph",
-      "content": "The syllabus is technically done. Notes are highlighted. Videos are completed. Multiple revisions may already be finished."
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
     },
-    {
-      "id": "intro-para3",
-      "type": "paragraph",
-      "content": "And yet scores won't move."
-    },
-    {
-      "id": "intro-para4",
-      "type": "paragraph",
-      "content": "Mock test scores often plateau for weeks and may occasionally decline despite consistent preparation"
-    },
-    {
-      "id": "intro-para5",
-      "type": "paragraph",
-      "content": "\"Am I forgetting too much?\" \"Why are others improving faster?\" \"Have I actually reached my limit?\""
-    },
-    {
-      "id": "intro-para6",
-      "type": "paragraph",
-      "content": "This phase is far more common than most people admit. And it usually has less to do with intelligence and more to do with how preparation needs to change after the syllabus is done - because finishing the exam syllabus and actually improving performance in the NEET PG exam are two completely different things."
-    },
-    {
-      "id": "false-sense-progress",
-      "type": "heading",
-      "title": "Completing the Syllabus Creates a False Sense of Progress",
-      "level": 2
-    },
-    {
-      "id": "false-sense-progress-para1",
-      "type": "paragraph",
-      "content": "In the early months of competitive exam preparation, improvement feels real and visible. Every new topic studied feels productive. Finishing subjects feels satisfying. There's momentum."
-    },
-    {
-      "id": "false-sense-progress-para2",
-      "type": "paragraph",
-      "content": "Once the syllabus ends, all of that changes."
-    },
-    {
-      "id": "false-sense-progress-para3",
-      "type": "paragraph",
-      "content": "Now the challenge shifts to retention, recall speed, application, MCQ accuracy, revision quality, and exam temperament. None of these are easy to measure daily. A student can study for ten hours and still feel like nothing happened because there's no obvious \"completion\" left to tick off."
-    },
-    {
-      "id": "false-sense-progress-para4",
-      "type": "paragraph",
-      "content": "That feeling creates anxiety - even when preparation is actually moving in the right direction."
-    },
-    {
-      "id": "passive-revision",
-      "type": "heading",
-      "title": "Passive Revision Becomes the Biggest Problem",
-      "level": 2
-    },
-    {
-      "id": "passive-revision-para1",
-      "type": "paragraph",
-      "content": "After finishing the syllabus, many aspirants fall into a cycle that feels productive but isn't really."
-    },
-    {
-      "id": "passive-revision-para2",
-      "type": "paragraph",
-      "content": "Reading notes repeatedly. Highlighting already-highlighted lines. Watching revision videos passively. Revisiting familiar topics because they feel comfortable."
-    },
-    {
-      "id": "passive-revision-para3",
-      "type": "paragraph",
-      "content": "The content looks familiar, so it feels like revision is working. But familiarity isn't mastery."
-    },
-    {
-      "id": "passive-revision-para4",
-      "type": "paragraph",
-      "content": "Real improvement in medical PG entrance exams comes from active recall - solving exam MCQ questions regularly, recalling without notes, attacking weak areas, practicing mixed subjects, and training the brain to retrieve information quickly under pressure."
-    },
-    {
-      "id": "passive-revision-para5",
-      "type": "paragraph",
-      "content": "Without that active effort, memory weakens faster than most students realize."
-    },
-    {
-      "id": "mock-tests-weaknesses",
-      "type": "heading",
-      "title": "Mock Tests Start Exposing Deeper Weaknesses",
-      "level": 2
-    },
-    {
-      "id": "mock-tests-weaknesses-para1",
-      "type": "paragraph",
-      "content": "Before the syllabus is done, the focus is mostly on coverage. After completion, mock tests start surfacing a different set of problems - poor time management, weak recall under pressure, silly mistakes, overthinking, guessing errors, mental fatigue across long exams."
-    },
-    {
-      "id": "mock-tests-weaknesses-para2",
-      "type": "paragraph",
-      "content": "This catches students off guard because most expect scores to rise automatically after finishing everything."
-    },
-    {
-      "id": "mock-tests-weaknesses-para3",
-      "type": "paragraph",
-      "content": "But mock performance depends on far more than syllabus completion. A student can know a topic well and still perform badly when recall slows down under stress. That gap between knowing something and executing under pressure is exactly where plateau phases begin during medical PG preparation."
-    },
-    {
-      "id": "avoiding-weak-areas",
-      "type": "heading",
-      "title": "Students Often Avoid Their Real Weak Areas",
-      "level": 2
-    },
-    {
-      "id": "avoiding-weak-areas-para1",
-      "type": "paragraph",
-      "content": "One of the less obvious reasons behind stagnation is selective revision."
-    },
-    {
-      "id": "avoiding-weak-areas-para2",
-      "type": "paragraph",
-      "content": "Most students naturally gravitate toward topics they already understand reasonably well. Revising those feels rewarding. Tackling weak subjects feels painful, scores may temporarily dip while fixing them, and that discomfort makes avoidance easy to justify."
-    },
-    {
-      "id": "avoiding-weak-areas-para3",
-      "type": "paragraph",
-      "content": "Over time this creates a quiet imbalance - strong subjects get stronger, weak subjects stay weak, and overall rank doesn't move."
-    },
-    {
-      "id": "avoiding-weak-areas-para4",
-      "type": "paragraph",
-      "content": "Toppers tend to do the opposite. They spend disproportionate time on uncomfortable areas because they understand that rank improvement comes from reducing weaknesses, not endlessly polishing what already works. A smart preparation strategy addresses weak areas before they become the main thing holding the score back."
-    },
-    {
-      "id": "brain-adapts",
-      "type": "heading",
-      "title": "The Brain Adapts to Repetitive Study Patterns",
-      "level": 2
-    },
-    {
-      "id": "brain-adapts-para1",
-      "type": "paragraph",
-      "content": "There's also a psychological dimension to plateaus that doesn't get talked about enough."
-    },
-    {
-      "id": "brain-adapts-para2",
-      "type": "paragraph",
-      "content": "When the same preparation strategy runs on repeat for months - reading notes in the same order, revising passively, solving predictable question patterns, studying without any timed pressure - the brain gradually disengages. Concentration drops even if the hours stay high. What was once active problem-solving starts feeling like routine."
-    },
-    {
-      "id": "brain-adapts-para3",
-      "type": "paragraph",
-      "content": "Small changes can break that pattern significantly. Mixed-subject revision, timed MCQ blocks, error notebook analysis, teaching concepts aloud, recalling memory instead of reading directly - these force active engagement again and often produce noticeable improvement without adding a single extra hour."
-    },
-    {
-      "id": "burnout-plateau",
-      "type": "heading",
-      "title": "Burnout Often Disguises Itself as a Plateau",
-      "level": 2
-    },
-    {
-      "id": "burnout-plateau-para1",
-      "type": "paragraph",
-      "content": "Sometimes the problem isn't academic at all."
-    },
-    {
-      "id": "burnout-plateau-para2",
-      "type": "paragraph",
-      "content": "Long-term competitive preparation creates cognitive fatigue slowly and quietly - motivation becomes inconsistent, focus duration drops, memory retrieval slows, emotional frustration builds, confidence swings unpredictably. Because students keep showing up to study every day, they don't recognize what's actually happening."
-    },
-    {
-      "id": "burnout-plateau-para3",
-      "type": "paragraph",
-      "content": "At that point, adding more hours usually makes things worse, not better."
-    },
-    {
-      "id": "burnout-plateau-para4",
-      "type": "paragraph",
-      "content": "What tends to help more is sleep consistency, structured revision instead of open-ended studying, short recovery breaks, realistic daily targets, and stepping back from constant comparison with others. Sustainable preparation almost always outperforms emotionally chaotic preparation over the length of a NEET PG exam cycle."
-    },
-    {
-      "id": "comparison-worse",
-      "type": "heading",
-      "title": "Comparison Makes Plateaus Feel Worse Than They Are",
-      "level": 2
-    },
-    {
-      "id": "comparison-worse-para1",
-      "type": "paragraph",
-      "content": "Watching others appear to improve rapidly is one of the more damaging habits during NEET PG exam preparation."
-    },
-    {
-      "id": "comparison-worse-para2",
-      "type": "paragraph",
-      "content": "The assumption that follows - everyone else is progressing, I'm falling behind; my preparation isn't working is rarely accurate. Preparation doesn't improve in a straight line for anyone. Most students move in phases: long stagnant stretches, sudden jumps, temporary drops, recovery periods."
-    },
-    {
-      "id": "comparison-worse-para3",
-      "type": "paragraph",
-      "content": "Many toppers describe extended periods where scores barely moved before things eventually clicked. Plateaus often mean the brain is consolidating information even when visible results feel slow. That's not a failure that's just how learning at this level actually works."
-    },
-    {
-      "id": "more-questions-not-fix",
-      "type": "heading",
-      "title": "Solving More Questions Alone Does Not Always Fix the Problem",
-      "level": 2
-    },
-    {
-      "id": "more-questions-not-fix-para1",
-      "type": "paragraph",
-      "content": "The instinctive response to stagnation is usually to dramatically increase exam MCQ volume. Sometimes that helps. More often, it just creates surface-level practice without any real analysis attached to it."
-    },
-    {
-      "id": "more-questions-not-fix-para2",
-      "type": "paragraph",
-      "content": "The difference comes down to review quality. Students improve faster when they understand why mistakes happened, identify recurring error patterns, work on elimination logic, track careless mistakes separately, and revisit incorrect questions repeatedly."
-    },
-    {
-      "id": "more-questions-not-fix-para3",
-      "type": "paragraph",
-      "content": "Without that reflection, thousands of MCQs can still produce minimal improvement."
-    },
-    {
-      "id": "plateau-normal",
-      "type": "heading",
-      "title": "Plateau Phases Are a Normal Part of Competitive Preparation",
-      "level": 2
-    },
-    {
-      "id": "plateau-normal-para1",
-      "type": "paragraph",
-      "content": "This is probably the thing students most need to hear and least believe when they're in the middle of it."
-    },
-    {
-      "id": "plateau-normal-para2",
-      "type": "paragraph",
-      "content": "Plateaus aren't proof that something is broken. They're a normal part of competitive preparation and high-level medical PG entrance exams, where improvement becomes slower, subtler, and more skill-based."
-    },
-    {
-      "id": "plateau-normal-para3",
-      "type": "paragraph",
-      "content": "Early preparation rewards effort quickly. Later preparation rewards refinement. And refinement takes patience."
-    },
-    {
-      "id": "final-thoughts",
-      "type": "heading",
-      "title": "Final Thoughts",
-      "level": 2
-    },
-    {
-      "id": "final-thoughts-para1",
-      "type": "paragraph",
-      "content": "Completing the exam syllabus feels like the biggest milestone in the whole process. In reality, it's usually the beginning of the harder phase of NEET PG and other medical PG entrance exams."
-    },
-    {
-      "id": "final-thoughts-para2",
-      "type": "paragraph",
-      "content": "The students who eventually come through are rarely the ones who studied the most hours. They're the ones who adapted their strategy when it stopped working, analyzed their own patterns honestly, and stayed consistent even when visible improvement slowed to almost nothing."
-    },
-    {
-      "id": "final-thoughts-para3",
-      "type": "paragraph",
-      "content": "In competitive medical PG exams, that phase - the uncomfortable, unrewarding, hard-to-measure phase - is often what ends up making the biggest difference in the final rank."
-    },
-    {
-      "id": "faqs",
-      "type": "heading",
-      "title": "FAQs",
-      "level": 2
-    },
-    {
-      "id": "faqs-list",
-      "type": "faq",
-      "faqs": [
-        {
-          "question": "Why are my NEET PG scores stuck after finishing the syllabus?",
-          "answer": "It happens because completion and performance are basically two different things."
-        },
-        {
-          "question": "How do I break a preparation plateau?",
-          "answer": "It has switched from the passive revision to active recall and genuinely fixes the weak areas first."
-        },
-        {
-          "question": "Am I burnt out or just plateauing?",
-          "answer": "If more hours aren't helping and focus keeps dropping, it's likely burnout."
-        }
-      ]
-    },
-    {
-      "id": "keywords",
-      "type": "keywords",
-      "title": "Related Keywords",
-      "keywords": [
-        "neet pg exam",
-        "neet pg",
-        "exam preparation",
-        "medical pg entrance exams",
-        "preparation strategy",
-        "medical pg",
-        "exam syllabus",
-        "exam mcq",
-        "competitive preparation",
-        "competitive exam preparation"
-      ]
-    }
-  ]
-},
-{
-  "id": 167,
-  "title": "Completed the Syllabus but Not Seeing Results? Understanding the Plateau Phase",
-  "slug": "completed-syllabus-not-seeing-results-plateau-phase-neet-pg",
-  "excerpt": "Completed your syllabus but scores remain unchanged? Learn why plateaus happen and how targeted revision can unlock steady progress.",
-  "featured_image": "https://cdn.dribbble.com/userupload/48063526/file/b2c3a4fe3a28713102bde9091793ef7a.jpg",
-  "featured_image_alt": "neet pg plateau phase preparation",
-  "author": {
-    "name": "Believers Team",
-    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
-    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+    tags: [
+      "NEET PG",
+      "NEET PG Preparation",
+      "INI CET",
+      "FMGE",
+      "Exam Preparation",
+      "Preparation Strategy",
+    ],
+    published_date: "2026-06-19",
+    read_time: 10,
+    meta_title:
+      "Why Consistency Beats Intensity in NEET PG Preparation and Long-Term Exam Success?",
+    meta_description:
+      "Consistent daily effort builds stronger retention, reduces burnout, and delivers lasting results, making it the key to NEET PG success.",
+    keywords: [
+      "neet pg",
+      "ini cet",
+      "fmge",
+      "neet pg preparation",
+      "neet pg exam",
+      "neet pg syllabus",
+      "medical pg entrance exam",
+      "entrance exam",
+      "neet pg preparation online",
+      "neet pg study material",
+      "medical pg entrance preparation",
+      "medical pg exam",
+      "medical pg preparation",
+      "neet pg examination",
+      "neet pg online preparation",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content: "Most medical aspirants know this feeling well.",
+      },
+      {
+        id: "intro-para2",
+        type: "paragraph",
+        content:
+          "Motivation hits. A fresh study plan is made. The targets are ambitious, the hours go up, and for a few days maybe even a couple of weeks everything feels like it's finally clicking.",
+      },
+      {
+        id: "intro-para3",
+        type: "paragraph",
+        content:
+          "Then the internship gets hectic. Postings pile up. Energy drops. The plan quietly falls apart.",
+      },
+      {
+        id: "intro-para4",
+        type: "paragraph",
+        content: "And then, a few weeks later, the cycle starts again.",
+      },
+      {
+        id: "intro-conclusion",
+        type: "paragraph",
+        content:
+          "This pattern is one of the main reasons capable students don't reach their potential in NEET PG, INI-CET, or FMGE. Not lack of intelligence, not lack of effort, just the wrong kind of effort, delivered inconsistently.",
+      },
+      {
+        id: "hours-myth",
+        type: "heading",
+        title: "The Hours Myth",
+        level: 2,
+      },
+      {
+        id: "hours-myth-para1",
+        type: "paragraph",
+        content:
+          "There's a persistent belief that success comes down to studying for as many hours as possible. Grind harder. Sleep less. Do more.",
+      },
+      {
+        id: "hours-myth-para2",
+        type: "paragraph",
+        content:
+          "But long-term exam performance isn't built in a few brutal weeks. It's built on what you do repeatedly over months.",
+      },
+      {
+        id: "hours-myth-conclusion",
+        type: "paragraph",
+        content:
+          "A student putting in five focused hours daily for six months will almost always outperform someone who does twelve-hour sessions for a few weeks and then crashes. Competitive exams reward accumulated learning. And accumulation requires consistency, not just intensity.",
+      },
+      {
+        id: "brain-retains",
+        type: "heading",
+        title: "How the Brain Actually Retains Things",
+        level: 2,
+      },
+      {
+        id: "brain-retains-para1",
+        type: "paragraph",
+        content:
+          "The NEET PG syllabus is enormous - nineteen subjects, thousands of concepts, endless clinical scenarios, images, investigations, and drug lists. Nobody retains all of that after reading it once.",
+      },
+      {
+        id: "brain-retains-para2",
+        type: "paragraph",
+        content:
+          "Memory strengthens through repeated exposure. Every revision cycle makes recall faster and more reliable. Concepts that once needed effort to remember start coming automatically. Clinical reasoning sharpens. Information moves from short-term memory into something that actually sticks.",
+      },
+      {
+        id: "brain-retains-conclusion",
+        type: "paragraph",
+        content:
+          "That process takes time, and it can't be shortcut. Students who engage with material consistently - even in short sessions - build stronger recall than those who rely on occasional marathon cramming.",
+      },
+      {
+        id: "confidence",
+        type: "heading",
+        title: "Confidence Comes from Evidence, Not Motivation",
+        level: 2,
+      },
+      {
+        id: "confidence-para1",
+        type: "paragraph",
+        content:
+          "A lot of students think exam confidence comes from feeling ready. It doesn't. It comes from knowing you've done the work.",
+      },
+      {
+        id: "confidence-conclusion",
+        type: "paragraph",
+        content:
+          "When you revise regularly, solve MCQs daily, and track your progress, you build actual evidence that you've improved. You've seen the topics multiple times. You've corrected your mistakes. You know where you stand. That's a different kind of confidence than the one that comes from a motivational video the night before the exam - and it holds up a lot better under pressure.",
+      },
+      {
+        id: "small-actions",
+        type: "heading",
+        title: "Small Actions, Compounded",
+        level: 2,
+      },
+      {
+        id: "small-actions-para1",
+        type: "paragraph",
+        content:
+          "Ten new concepts a day doesn't feel like much. Fifty MCQs a day seems ordinary. Revisiting one difficult topic every evening looks insufficient.",
+      },
+      {
+        id: "small-actions-para2",
+        type: "paragraph",
+        content:
+          "But run those habits for six months and the picture changes completely. Thousands of questions solved. Multiple revision cycles completed. Weak areas tracked and addressed. The progress looks dramatic from the outside, but it was built through hundreds of completely ordinary study sessions.",
+      },
+      {
+        id: "small-actions-conclusion",
+        type: "paragraph",
+        content: "That's how it works. There's no other way.",
+      },
+      {
+        id: "burnout",
+        type: "heading",
+        title: "Intensity Without Sustainability Leads to Burnout",
+        level: 2,
+      },
+      {
+        id: "burnout-para1",
+        type: "paragraph",
+        content:
+          "Pushing yourself to maximum capacity for weeks at a stretch catches up with you. Sleep gets worse. Stress compounds. Concentration drops. Eventually the preparation itself starts to suffer.",
+      },
+      {
+        id: "burnout-para2",
+        type: "paragraph",
+        content:
+          "Consistency creates a rhythm you can actually maintain. Not every session has to be heroic. You just have to show up and do the work, day after day, at a pace that doesn't destroy you by month three.",
+      },
+      {
+        id: "burnout-conclusion",
+        type: "paragraph",
+        content:
+          "For exams that require a year or more of sustained preparation, sustainability isn't a luxury - it's a strategy.",
+      },
+      {
+        id: "mock-tests",
+        type: "heading",
+        title: "Why Mock Test Scores Reflect Habits, Not Just Knowledge",
+        level: 2,
+      },
+      {
+        id: "mock-tests-para1",
+        type: "paragraph",
+        content:
+          "Students tend to look at mock scores as a snapshot of what they know. But scores are really a reflection of how they've been preparing.",
+      },
+      {
+        id: "mock-tests-conclusion",
+        type: "paragraph",
+        content:
+          "Students who revise consistently tend to recognize patterns faster, get through clinical scenarios more efficiently, and make fewer careless errors - not because they're smarter, but because they've practiced under exam conditions repeatedly. When preparation is a daily habit, test performance tends to follow naturally.",
+      },
+      {
+        id: "toppers-disciplined",
+        type: "heading",
+        title: "Toppers Aren't Always Motivated. They're Disciplined.",
+        level: 2,
+      },
+      {
+        id: "toppers-disciplined-para1",
+        type: "paragraph",
+        content:
+          "There's a myth that high-performers stay fired up throughout their entire preparation. They don't. Top rankers get tired, frustrated, and doubtful like everyone else.",
+      },
+      {
+        id: "toppers-disciplined-para2",
+        type: "paragraph",
+        content:
+          "The difference is they keep going anyway. Their preparation isn't dependent on how they feel on a given day. It runs on discipline and routine - things that survive on the days when motivation has completely disappeared.",
+      },
+      {
+        id: "toppers-disciplined-conclusion",
+        type: "paragraph",
+        content:
+          "Motivation is useful when it shows up. Consistency is what carries you when it doesn't.",
+      },
+      {
+        id: "revision-ongoing",
+        type: "heading",
+        title: "Revision Works Best When It's Ongoing",
+        level: 2,
+      },
+      {
+        id: "revision-ongoing-para1",
+        type: "paragraph",
+        content:
+          "Students who revise regularly don't panic in the final stretch before the exam. Their notes are familiar territory. Key concepts have been seen multiple times. Weak spots were identified and worked on months ago.",
+      },
+      {
+        id: "revision-ongoing-conclusion",
+        type: "paragraph",
+        content:
+          "Students who put off revision discover that the syllabus feels just as overwhelming at the end as it did at the beginning. Regular revision prevents that from happening - not dramatically, just steadily, one session at a time.",
+      },
+      {
+        id: "exam-day-composure",
+        type: "heading",
+        title: "What Exam-Day Composure Actually Looks Like",
+        level: 2,
+      },
+      {
+        id: "exam-day-composure-para1",
+        type: "paragraph",
+        content:
+          "Doing well on exam day isn't just about what you know. Concentration, decision-making, time management, and composure under pressure all play a role.",
+      },
+      {
+        id: "exam-day-composure-conclusion",
+        type: "paragraph",
+        content:
+          "These things develop gradually through consistent practice. Students who've spent months solving questions, analyzing tests, and revising systematically tend to feel more settled walking into the exam. Their performance becomes less dependent on luck and more a reflection of preparation. In a competitive exam where margins are small, that stability matters.",
+      },
+      {
+        id: "honest-truth",
+        type: "heading",
+        title: "The Honest Truth",
+        level: 2,
+      },
+      {
+        id: "honest-truth-para1",
+        type: "paragraph",
+        content:
+          "There's no perfect timetable. No single resource that changes everything. No shortcut that replaces months of structured work.",
+      },
+      {
+        id: "honest-truth-para2",
+        type: "paragraph",
+        content:
+          "The students who keep improving aren't doing anything extraordinary. They're revising. Solving questions. Analyzing mistakes. Coming back the next day and doing it again.",
+      },
+      {
+        id: "honest-truth-conclusion",
+        type: "paragraph",
+        content:
+          "Over time, those repeated ordinary actions produce results that look extraordinary. That's not inspiration - that's just how preparation works.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "Why does consistency matter so much in NEET PG prep?",
+            answer:
+              "Because the syllabus is too large to retain through sporadic effort. Regular revision is what moves information into long-term memory and keeps it there.",
+          },
+          {
+            question:
+              "Is daily study actually better than occasional long sessions?",
+            answer:
+              "For most students, yes. Shorter, regular sessions beat infrequent marathons for retention and sustainable energy.",
+          },
+          {
+            question: "Can being consistent improve mock test scores?",
+            answer:
+              "It usually does. Repeated revision and daily MCQ practice build the kind of accuracy and pattern recognition that shows up on tests.",
+          },
+          {
+            question: "Do toppers just have better motivation?",
+            answer:
+              "Rarely. Most of them talk about discipline and routine, not motivation. Motivation fluctuates. Habits don't.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "neet pg",
+          "ini cet",
+          "fmge",
+          "neet pg preparation",
+          "neet pg exam",
+          "neet pg syllabus",
+          "medical pg entrance exam",
+          "entrance exam",
+          "neet pg preparation online",
+          "neet pg study material",
+          "medical pg entrance preparation",
+          "medical pg exam",
+          "medical pg preparation",
+          "neet pg examination",
+          "neet pg online preparation",
+        ],
+      },
+    ],
   },
-  "category": {
-    "name": "NEET PG",
-    "slug": "neet-pg",
-    "color": "bg-blue-100 text-blue-800"
+  {
+    id: 170,
+    title:
+      "Why Retention Matters More Than Syllabus Completion in NEET PG Preparation",
+    slug: "why-retention-matters-more-than-syllabus-completion-neet-pg-preparation",
+    excerpt:
+      "Retaining concepts through revision and recall is more valuable than merely finishing the syllabus for achieving a strong NEET PG rank.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/48140207/file/97c266a44539d92a1db1b3a3e1b6cc1e.jpg",
+    featured_image_alt: "NEET PG Preparation",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+    },
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
+    },
+    tags: [
+      "NEET PG",
+      "NEET PG Preparation",
+      "INI CET",
+      "FMGE",
+      "Exam Preparation",
+      "Preparation Strategy",
+    ],
+    published_date: "2026-06-22",
+    read_time: 10,
+    meta_title:
+      "Why Retention Matters More Than Syllabus Completion in NEET PG Preparation",
+    meta_description:
+      "Retaining concepts through revision and recall is more valuable than merely finishing the syllabus for achieving a strong NEET PG rank.",
+    keywords: [
+      "NEET PG Preparation",
+      "neet pg",
+      "ini cet",
+      "fmge",
+      "neet pg preparation",
+      "neet pg exam",
+      "medical pg entrance exam",
+      "entrance exam",
+      "medical pg entrance preparation",
+      "medical pg exam",
+      "neet pg preparation online",
+      "neet pg study material",
+      "neet pg examination",
+      "neet pg online preparation",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content:
+          "Ask any medical aspirant how their NEET PG prep is going, and you'll hear the same things.",
+      },
+      {
+        id: "intro-list",
+        type: "list",
+        items: [
+          '"I\'ve finished Medicine."',
+          '"Only two subjects left."',
+          '"First reading is almost done."',
+        ],
+      },
+      {
+        id: "intro-para2",
+        type: "paragraph",
+        content:
+          "These milestones feel huge because they give you something visible. You're checking things off, crossing topics, watching progress bars fill up. Feels like you're moving forward.",
+      },
+      {
+        id: "intro-para3",
+        type: "paragraph",
+        content:
+          "But here's the question nobody really talks about. How much of that completed syllabus can you actually remember when the exam happens?",
+      },
+      {
+        id: "intro-conclusion",
+        type: "paragraph",
+        content:
+          "For exams like NEET PG, INI-CET, FMGE, retention beats completion every single time. Being able to recall information under pressure, apply it, and retrieve it when you need it? That determines your score. Not how many pages you've plowed through.",
+      },
+      {
+        id: "completion-trap",
+        type: "heading",
+        title: "The Completion Trap",
+        level: 2,
+      },
+      {
+        id: "completion-trap-para1",
+        type: "paragraph",
+        content:
+          "Medical students love finishing things. There's satisfaction in completing a subject. Crossing topics off feels productive. Progress trackers filling up boost your motivation. All real.",
+      },
+      {
+        id: "completion-trap-para2",
+        type: "paragraph",
+        content: "The problem? Completion and learning aren't the same thing.",
+      },
+      {
+        id: "completion-trap-para3",
+        type: "paragraph",
+        content:
+          "You can finish an entire subject in a few weeks and forget half of it a month later. Another student moves slower but actually retains what they study through revision and repeated practice.",
+      },
+      {
+        id: "completion-trap-conclusion",
+        type: "paragraph",
+        content:
+          "When exam day hits, the second student usually wins. The exam doesn't reward what you once read. It rewards what you remember right now.",
+      },
+      {
+        id: "medical-prep-different",
+        type: "heading",
+        title: "Medical Prep Is a Different Beast",
+        level: 2,
+      },
+      {
+        id: "medical-prep-para1",
+        type: "paragraph",
+        content:
+          "Medical entrance exams have massive syllabi. Nineteen subjects. Basic sciences. Complex clinical stuff. You're expected to remember all of it.",
+      },
+      {
+        id: "medical-prep-para2",
+        type: "paragraph",
+        content:
+          "The challenge isn't understanding concepts-it's keeping them in your head for months. You study something today. The exam might test it three months later. Without proper revision, most of it fades.",
+      },
+      {
+        id: "medical-prep-conclusion",
+        type: "paragraph",
+        content:
+          "This is why so many students experience the same frustrating moment: they clearly remember studying the topic, but during a mock test? Blank. It's not lack of effort. It's lack of retention.",
+      },
+      {
+        id: "what-happens-during-exam",
+        type: "heading",
+        title: "What Actually Happens During the Exam",
+        level: 2,
+      },
+      {
+        id: "what-happens-para1",
+        type: "paragraph",
+        content:
+          "Exams test retrieval. Pure retrieval. A clinical scenario pops up. You have seconds to recognize it, recall what you know, eliminate wrong answers, pick the right one. No chance to look at notes. No time to relearn forgotten concepts.",
+      },
+      {
+        id: "what-happens-conclusion",
+        type: "paragraph",
+        content:
+          "Success depends entirely on how well you've retained the information. Students who prioritize retention answer faster and with confidence because the knowledge is right there. Students chasing completion? They waste time trying to remember things they already studied once.",
+      },
+      {
+        id: "brain-forgetting",
+        type: "heading",
+        title: "Why Your Brain Keeps Forgetting Things",
+        level: 2,
+      },
+      {
+        id: "brain-forgetting-para1",
+        type: "paragraph",
+        content:
+          "It's not because you're dumb or didn't try hard enough. Your brain naturally discards information it doesn't need. Reading something once? Doesn't stick. Not in a way that lasts.",
+      },
+      {
+        id: "brain-forgetting-conclusion",
+        type: "paragraph",
+        content:
+          "Medical prep needs repeated exposure. Concepts get stronger through revision, MCQ practice, talking it through with people, applying it clinically, testing yourself. Skip that, and even well-understood topics become hard to recall later.",
+      },
+      {
+        id: "recognition-vs-recall",
+        type: "heading",
+        title: "Recognition Isn't the Same as Recall",
+        level: 2,
+      },
+      {
+        id: "recognition-vs-recall-para1",
+        type: "paragraph",
+        content:
+          "Biggest mistake students make? Thinking recognition equals retention. Read your notes repeatedly and they feel familiar. When you see a topic, you recognize it. Feels like you know it.",
+      },
+      {
+        id: "recognition-vs-recall-para2",
+        type: "paragraph",
+        content:
+          "But in an exam, you have to produce answers from memory. Recognition doesn't help you there.",
+      },
+      {
+        id: "recognition-vs-recall-conclusion",
+        type: "paragraph",
+        content:
+          "That's where active recall comes in. Solving MCQs, testing yourself without notes, revising from memory, explaining concepts out loud-these force your brain to actually retrieve information. That retrieval process builds retention way better than passive reading ever will.",
+      },
+      {
+        id: "revision-not-optional",
+        type: "heading",
+        title: "Revision Isn't Optional",
+        level: 2,
+      },
+      {
+        id: "revision-not-optional-para1",
+        type: "paragraph",
+        content:
+          "Every top ranker eventually figures this out. Revision isn't something you do if you have time. It's the core of retention.",
+      },
+      {
+        id: "revision-not-optional-para2",
+        type: "paragraph",
+        content:
+          "First reading introduces concepts. Second reading reinforces them. Third, fourth, fifth revisions? That's when things actually stick and you get faster at recall.",
+      },
+      {
+        id: "revision-not-optional-conclusion",
+        type: "paragraph",
+        content:
+          "Most students obsess over how fast they can finish the syllabus. Better question: how many times can you revise it before the exam? Multiple revision cycles almost always beat rushing through everything once.",
+      },
+      {
+        id: "mock-tests-more",
+        type: "heading",
+        title: "Mock Tests Do More Than Show Your Score",
+        level: 2,
+      },
+      {
+        id: "mock-tests-para1",
+        type: "paragraph",
+        content:
+          "Most students treat mocks as just assessment tools. They're way more than that.",
+      },
+      {
+        id: "mock-tests-para2",
+        type: "paragraph",
+        content:
+          "Every question you solve forces your brain to retrieve information. Every wrong answer shows you what you forgot. Every review session strengthens concepts you might otherwise lose.",
+      },
+      {
+        id: "mock-tests-conclusion",
+        type: "paragraph",
+        content:
+          "Mock tests are basically retention-building machines. The real value isn't the score-it's the learning that happens afterward.",
+      },
+      {
+        id: "retention-confidence",
+        type: "heading",
+        title: "Retention Builds Real Confidence",
+        level: 2,
+      },
+      {
+        id: "retention-confidence-para1",
+        type: "paragraph",
+        content:
+          "People think confidence comes from motivation or positive thinking. Nope. Confidence comes from memory strength.",
+      },
+      {
+        id: "retention-confidence-conclusion",
+        type: "paragraph",
+        content:
+          "When you've revised consistently and actually retained the concepts, you trust yourself. You recognize patterns quickly. You make decisions with certainty. Strong retention means less hesitation, better accuracy, composure under pressure.",
+      },
+      {
+        id: "top-rankers",
+        type: "heading",
+        title: "What Actually Separates Top Rankers",
+        level: 2,
+      },
+      {
+        id: "top-rankers-para1",
+        type: "paragraph",
+        content:
+          "Top performers aren't necessarily the ones studying the most hours. They're the ones who retain more of what they study.",
+      },
+      {
+        id: "top-rankers-para2",
+        type: "paragraph",
+        content:
+          "They prioritize revision. Solve MCQs regularly. Revisit weak areas. Focus on understanding and recall instead of just ticking off topics.",
+      },
+      {
+        id: "top-rankers-conclusion",
+        type: "paragraph",
+        content:
+          "More of their preparation stays accessible on exam day. That difference usually shows directly in their scores.",
+      },
+      {
+        id: "real-point",
+        type: "heading",
+        title: "The Real Point of All This",
+        level: 2,
+      },
+      {
+        id: "real-point-para1",
+        type: "paragraph",
+        content:
+          "Medical entrance prep isn't a race to finish the syllabus first. It's building solid, long-term recall across a massive amount of knowledge.",
+      },
+      {
+        id: "real-point-para2",
+        type: "paragraph",
+        content:
+          "Completion matters, you can't retain what you haven't covered. But completion alone? Not enough.",
+      },
+      {
+        id: "real-point-conclusion",
+        type: "paragraph",
+        content:
+          "The real goal is making sure important concepts stay in your head when you need them. Because the exam isn't asking what you've studied. It's testing what you can remember.",
+      },
+      {
+        id: "bottom-line",
+        type: "heading",
+        title: "Bottom Line",
+        level: 2,
+      },
+      {
+        id: "bottom-line-para1",
+        type: "paragraph",
+        content:
+          "Every medical aspirant wants to complete the syllabus. That's important. But don't sacrifice retention to get there.",
+      },
+      {
+        id: "bottom-line-para2",
+        type: "paragraph",
+        content:
+          "A smaller portion of the syllabus you've revised multiple times? Usually more valuable than a larger portion you've already forgotten.",
+      },
+      {
+        id: "bottom-line-para3",
+        type: "paragraph",
+        content:
+          "Students who consistently improve their scores get this early. They stop obsessing over how many topics they've finished and start focusing on what they can reliably recall.",
+      },
+      {
+        id: "bottom-line-conclusion",
+        type: "paragraph",
+        content:
+          "In medical exams, completion creates progress. Retention creates results.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question:
+              "Is finishing the entire NEET PG syllabus enough for a good rank?",
+            answer:
+              "No, not really. Completing the syllabus matters, but your rank depends on how well you can actually recall and apply those concepts under exam pressure.",
+          },
+          {
+            question: "How can I improve retention during NEET PG preparation?",
+            answer:
+              "Regular revision, active recall, MCQ practice, and mock tests go a long way - they help you figure out where you're slipping and fix those gaps before the exam.",
+          },
+          {
+            question: "Why do I forget topics even after studying them well?",
+            answer:
+              "Because without revisiting what you've studied, forgetting is inevitable - that's just how memory works. Revision and consistent practice are what make things stick.",
+          },
+          {
+            question:
+              "What's more important before NEET PG: new topics or revision?",
+            answer:
+              "As the exam gets closer, revision takes priority. It sharpens recall and cuts down on the silly mistakes that cost marks.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "NEET PG Preparation",
+          "neet pg",
+          "ini cet",
+          "fmge",
+          "neet pg preparation",
+          "neet pg exam",
+          "medical pg entrance exam",
+          "entrance exam",
+          "medical pg entrance preparation",
+          "medical pg exam",
+          "neet pg preparation online",
+          "neet pg study material",
+          "neet pg examination",
+          "neet pg online preparation",
+        ],
+      },
+    ],
   },
-  "tags": [
-    "NEET PG",
-    "NEET PG Preparation",
-    "NEET PG Syllabus",
-    "Exam Preparation",
-    "Preparation Strategy"
-  ],
-  "published_date": "2026-06-15",
-  "read_time": 10,
-  "meta_title": "Completed the Syllabus but Not Seeing Results? Understanding the Plateau Phase",
-  "meta_description": "Completed your syllabus but scores remain unchanged? Learn why plateaus happen and how targeted revision can unlock steady progress.",
-  "keywords": [
-    "neet pg preparation",
-    "neet pg",
-    "neet pg exam",
-    "competitive exam preparation",
-    "medical pg entrance exam",
-    "neet pg syllabus",
-    "neet pg exam syllabus",
-    "neet pg subject weightage",
-    "subject in neet pg",
-    "subject weightage in neet pg"
-  ],
-  "sections": [
-    {
-      "id": "intro-para1",
-      "type": "paragraph",
-      "content": "Finishing the NEET PG syllabus feels massive. You've spent months grinding through all 19 subjects included in the NEET PG exam syllabus, and getting to the other side is a real achievement."
+  {
+    id: 171,
+    title: "Completing the Syllabus Won't Get You a Rank-Retention Will",
+    slug: "completing-syllabus-wont-get-you-rank-retention-will",
+    excerpt:
+      "Finishing the syllabus is only the first step. Consistent revision and strong retention are what truly drive top ranks in NEET PG.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/48162943/file/a8972bfc81529bcc98efb5bc24484b50.jpg",
+    featured_image_alt: "neet pg retention vs completion",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
     },
-    {
-      "id": "intro-para2",
-      "type": "paragraph",
-      "content": "But then something unexpected happens. You expected mock scores to climb. You thought revision would feel smoother, that things would click. Instead, your scores are sitting in the same range they've been for weeks. You're putting in the hours, showing up every day and nothing seems to move."
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
     },
-    {
-      "id": "intro-para3",
-      "type": "paragraph",
-      "content": "This is the plateau. Almost every serious NEET PG aspirant hits it, and it's one of the most demoralizing stretches of the entire journey not because things are going wrong, but because it feels like they are."
-    },
-    {
-      "id": "syllabus-not-ready",
-      "type": "heading",
-      "title": "Finishing the Syllabus Isn't the Same as Being Ready",
-      "level": 2
-    },
-    {
-      "id": "syllabus-not-ready-para1",
-      "type": "paragraph",
-      "content": "Completing the syllabus just means you've seen the material. It doesn't mean you own it."
-    },
-    {
-      "id": "syllabus-not-ready-para2",
-      "type": "paragraph",
-      "content": "The NEET PG exam won't ask you to recognize something you vaguely remember reading. It'll put you under time pressure, give you four options that all look plausible, and expect you to retrieve the right answer fast. That skill isn't built during your first read-through - it's built afterward, through practice, repetition, and pressure."
-    },
-    {
-      "id": "syllabus-not-ready-conclusion",
-      "type": "paragraph",
-      "content": "If you've covered everything and still struggle in mocks, that's not a sign something's broken. It's just where you actually are in the NEET PG preparation process."
-    },
-    {
-      "id": "passive-revision",
-      "type": "heading",
-      "title": "Revision That Looks Productive Often Isn't",
-      "level": 2
-    },
-    {
-      "id": "passive-revision-para1",
-      "type": "paragraph",
-      "content": "After the syllabus, most students shift into revision mode - rereading notes, going over highlighted sections, rewatching videos. It feels like studying. But passive review rarely does much for actual retention."
-    },
-    {
-      "id": "passive-revision-para2",
-      "type": "paragraph",
-      "content": "Reading something familiar gives you a sense that you know it. But recognizing something on a page is very different from pulling it up under exam conditions."
-    },
-    {
-      "id": "passive-revision-conclusion",
-      "type": "paragraph",
-      "content": "Students who retain things well are usually solving questions, testing themselves without notes, and forcing their brain to work for the information. It's harder and less comfortable than passive revision - which is exactly why it works."
-    },
-    {
-      "id": "mock-tests",
-      "type": "heading",
-      "title": "Mock Tests Start Showing You Uncomfortable Things",
-      "level": 2
-    },
-    {
-      "id": "mock-tests-para1",
-      "type": "paragraph",
-      "content": "When you were covering new content, the enemy was clear: material you hadn't studied yet. Mock tests after syllabus completion are different - they expose problems that have nothing to do with whether you've read the chapter."
-    },
-    {
-      "id": "mock-tests-list",
-      "type": "list",
-      "items": [
-        "Time management",
-        "Second-guessing",
-        "Misreading questions",
-        "Negative marking turning a borderline attempt into a net loss"
-      ]
-    },
-    {
-      "id": "mock-tests-conclusion",
-      "type": "paragraph",
-      "content": "A lot of students are blindsided by this. They know the concept, understand it well, and still get it wrong - because the exam is also testing how you make decisions under pressure. That's a separate skill, and mocks are one of the few ways to actually train it during competitive exam preparation."
-    },
-    {
-      "id": "weak-areas",
-      "type": "heading",
-      "title": "You're Probably Avoiding Your Weakest Areas",
-      "level": 2
-    },
-    {
-      "id": "weak-areas-para1",
-      "type": "paragraph",
-      "content": "Be honest: which subjects are you spending the most time on right now?"
-    },
-    {
-      "id": "weak-areas-para2",
-      "type": "paragraph",
-      "content": "For most students, it's the ones they're already good at. Strong subjects feel rewarding - questions get answered correctly, revision flows easily. Weak subjects feel like pushing against a wall. So the natural drift is toward comfort."
-    },
-    {
-      "id": "weak-areas-para3",
-      "type": "paragraph",
-      "content": "This becomes especially important when considering NEET PG subject weightage. Some students spend too much time on comfortable subjects while neglecting areas that carry significant marks in the exam. Understanding subject weightage in NEET PG can help prioritize revision more effectively."
-    },
-    {
-      "id": "weak-areas-para4",
-      "type": "paragraph",
-      "content": "Strengths keep improving while weak areas quietly sit there untouched."
-    },
-    {
-      "id": "weak-areas-conclusion",
-      "type": "paragraph",
-      "content": "Students who break through plateaus are usually the ones who reverse this - who deliberately spend more time on the uncomfortable stuff, not less."
-    },
-    {
-      "id": "more-resources",
-      "type": "heading",
-      "title": "More Resources Won't Fix It",
-      "level": 2
-    },
-    {
-      "id": "more-resources-para1",
-      "type": "paragraph",
-      "content": "When scores stall, the instinct is to look for something new. A different question bank. Another set of notes. A fresh video series."
-    },
-    {
-      "id": "more-resources-para2",
-      "type": "paragraph",
-      "content": "But this almost always backfires. Every new resource takes time away from revisiting what you already have - and repetition is what builds retention. Adding more material at this stage just spreads your attention thinner."
-    },
-    {
-      "id": "more-resources-conclusion",
-      "type": "paragraph",
-      "content": "Many high-rankers say the same thing: they didn't use more resources than others. They just went back to the right ones repeatedly until it stuck."
-    },
-    {
-      "id": "burnout",
-      "type": "heading",
-      "title": "Sometimes It's Just Burnout",
-      "level": 2
-    },
-    {
-      "id": "burnout-para1",
-      "type": "paragraph",
-      "content": "Not every plateau is a strategy problem. Sometimes the issue is simpler: you're exhausted."
-    },
-    {
-      "id": "burnout-para2",
-      "type": "paragraph",
-      "content": "Months of continuous NEET PG preparation wear people down quietly. Concentration drops. Motivation fluctuates. Things you understood well start feeling harder to recall. The common response is to study longer - but when your brain is fatigued, extra hours produce very little."
-    },
-    {
-      "id": "burnout-conclusion",
-      "type": "paragraph",
-      "content": "Sleep, real breaks, and sustainable daily targets aren't luxuries. They're what allow the studying you do to actually stick."
-    },
-    {
-      "id": "practice-without-review",
-      "type": "heading",
-      "title": "Practice Without Review Is Just Going Through the Motions",
-      "level": 2
-    },
-    {
-      "id": "practice-without-review-para1",
-      "type": "paragraph",
-      "content": "When scores stall, many students respond by doing more tests. More questions, more mocks, more attempts - hoping volume eventually becomes improvement."
-    },
-    {
-      "id": "practice-without-review-para2",
-      "type": "paragraph",
-      "content": "But solving questions without analyzing them afterward is one of the least efficient habits in this phase."
-    },
-    {
-      "id": "practice-without-review-conclusion",
-      "type": "paragraph",
-      "content": "Every wrong answer is useful if you stop and figure out why. Was it a knowledge gap? Did you misread the question? Did you know the answer but second-guess yourself? Students who build in proper review time after every mock improve far faster than those who just move straight to the next test."
-    },
-    {
-      "id": "invisible-progress",
-      "type": "heading",
-      "title": "You're Making Progress You Can't See",
-      "level": 2
-    },
-    {
-      "id": "invisible-progress-para1",
-      "type": "paragraph",
-      "content": "Early in prep, progress is obvious. New chapters get covered, unfamiliar topics become familiar, and the change is visible."
-    },
-    {
-      "id": "invisible-progress-para2",
-      "type": "paragraph",
-      "content": "Later, the gains are smaller. You eliminated one extra option you'd have guessed on before. You caught a mistake you'd usually miss. You finished a paper with five minutes to spare instead of rushing."
-    },
-    {
-      "id": "invisible-progress-conclusion",
-      "type": "paragraph",
-      "content": "None of that feels significant in the moment. But across hundreds of questions and several months, those small improvements compound - and in a medical PG entrance exam, they often make the difference between thousands of ranks."
-    },
-    {
-      "id": "plateau-not-failing",
-      "type": "heading",
-      "title": "A Plateau Doesn't Mean You're Failing",
-      "level": 2
-    },
-    {
-      "id": "plateau-not-failing-para1",
-      "type": "paragraph",
-      "content": "If you're stuck right now, it doesn't mean your preparation has stopped working."
-    },
-    {
-      "id": "plateau-not-failing-para2",
-      "type": "paragraph",
-      "content": "It usually means you've hit the stage where raw effort needs to give way to smarter strategy - where passive review needs to become active recall, where weak areas need attention even when it's uncomfortable, where mock analysis matters more than mock volume."
-    },
-    {
-      "id": "plateau-not-failing-conclusion",
-      "type": "paragraph",
-      "content": "Whether you're revising a high-weightage subject in NEET PG or working through weaker topics, the students who make it through this phase aren't always the ones who worked the hardest. They're the ones who paid attention to what their scores were telling them and adjusted."
-    },
-    {
-      "id": "faqs",
-      "type": "heading",
-      "title": "FAQs",
-      "level": 2
-    },
-    {
-      "id": "faqs-list",
-      "type": "faq",
-      "faqs": [
-        {
-          "question": "Why are my NEET PG scores not improving?",
-          "answer": "Getting through the syllabus is only part of the work. Recall, speed, and exam-level application need to be built separately through active practice - and that takes time."
-        },
-        {
-          "question": "How do I get out of a plateau?",
-          "answer": "Focus on your weakest areas first. Replace passive reading with active recall. Analyze your mock tests properly instead of just taking more of them."
-        },
-        {
-          "question": "Are mock tests important after finishing the syllabus?",
-          "answer": "Very. They reveal things routine studying can't - your actual exam habits, where your time management breaks down, and which gaps are costing you marks."
-        },
-        {
-          "question": "Is hitting a plateau a bad sign?",
-          "answer": "No. It's a normal part of the process for most serious aspirants, and it often comes right before a meaningful jump in scores."
-        }
-      ]
-    },
-    {
-      "id": "keywords",
-      "type": "keywords",
-      "title": "Related Keywords",
-      "keywords": [
-        "neet pg preparation",
-        "neet pg",
-        "neet pg exam",
-        "competitive exam preparation",
-        "medical pg entrance exam",
-        "neet pg syllabus",
-        "neet pg exam syllabus",
-        "neet pg subject weightage",
-        "subject in neet pg",
-        "subject weightage in neet pg"
-      ]
-    }
-  ]
-},
-{
-  "id": 168,
-  "title": "Why Good Scores No Longer Guarantee Good Ranks: Understanding Rank Inflation in PG Medical Entrance Exams",
-  "slug": "why-good-scores-no-longer-guarantee-good-ranks-rank-inflation-pg-medical-entrance-exams",
-  "excerpt": "Rising competition and rank inflation mean strong scores may not secure top ranks. Understand the trend and refine your PG exam strategy.",
-  "featured_image": "https://cdn.dribbble.com/userupload/48089564/file/a92e0179f3094021696d2c7e4fd200da.jpg",
-  "featured_image_alt": "pg medical entrance exam rank inflation",
-  "author": {
-    "name": "Believers Team",
-    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
-    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+    tags: [
+      "NEET PG",
+      "NEET PG Preparation",
+      "INI CET",
+      "FMGE",
+      "Exam Preparation",
+      "Preparation Strategy",
+    ],
+    published_date: "2026-06-24",
+    read_time: 10,
+    meta_title: "Completing the Syllabus Won't Get You a Rank-Retention Will",
+    meta_description:
+      "Finishing the syllabus is only the first step. Consistent revision and strong retention are what truly drive top ranks in NEET PG.",
+    keywords: [
+      "neet pg",
+      "ini cet",
+      "fmge",
+      "medical pg entrance exam",
+      "entrance exam",
+      "medical pg entrance preparation",
+      "medical pg exam",
+      "medical pg preparation",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content:
+          "Ask medical aspirants how their prep is going, and you'll hear the same thing.",
+      },
+      {
+        id: "intro-para2",
+        type: "paragraph",
+        content: '"How much of the syllabus have you completed?"',
+      },
+      {
+        id: "intro-para3",
+        type: "paragraph",
+        content:
+          "It's become the default measure of progress. Students proudly talk about finishing Medicine, completing Surgery, wrapping up first reading of all nineteen subjects. Study plans get built around completion targets. Every finished subject feels like a major achievement.",
+      },
+      {
+        id: "intro-para4",
+        type: "paragraph",
+        content:
+          "But here's the thing, competitive exams don't reward completion. They reward retention.",
+      },
+      {
+        id: "intro-para5",
+        type: "paragraph",
+        content:
+          "A student who's completed the entire syllabus but remembers only half of it? Usually at a disadvantage compared to someone who revised fewer topics multiple times and can recall them instantly during the exam.",
+      },
+      {
+        id: "intro-para6",
+        type: "paragraph",
+        content:
+          "This is one of the biggest lessons aspirants learn while preparing for NEET PG, INI-CET, FMGE, and other medical entrance exams.",
+      },
+      {
+        id: "intro-conclusion",
+        type: "paragraph",
+        content:
+          "The goal isn't studying everything. It's remembering enough when it matters.",
+      },
+      {
+        id: "completion-feels-good",
+        type: "heading",
+        title: "Why Completion Feels Good But Doesn't Help",
+        level: 2,
+      },
+      {
+        id: "completion-feels-good-para1",
+        type: "paragraph",
+        content:
+          "Finishing a subject feels incredible. Video lecture series is done. Notes read. Some MCQs were solved. The checklist moves forward. Naturally, it feels like prep is actually progressing.",
+      },
+      {
+        id: "completion-feels-good-para2",
+        type: "paragraph",
+        content: "Except learning and remembering aren't the same thing.",
+      },
+      {
+        id: "completion-feels-good-para3",
+        type: "paragraph",
+        content:
+          "Student A finishes an entire subject in three weeks and forgets half of it by next month. Student B takes longer but revises regularly, practices questions, actively recalls concepts.",
+      },
+      {
+        id: "completion-feels-good-conclusion",
+        type: "paragraph",
+        content:
+          "When the exam comes, Student B usually wins. Because the exam tests recall, not exposure. Seeing information once doesn't mean it'll be there months later when you're under pressure.",
+      },
+      {
+        id: "reality-of-exams",
+        type: "heading",
+        title: "The Reality of These Exams",
+        level: 2,
+      },
+      {
+        id: "reality-para1",
+        type: "paragraph",
+        content:
+          "Medical entrance exams demand retention on a massive scale. Anatomy. Physiology. Biochemistry. Pathology. Pharmacology. Microbiology. Medicine. Surgery. Pediatrics. OBG. And more. You're expected to remember all of this simultaneously.",
+      },
+      {
+        id: "reality-para2",
+        type: "paragraph",
+        content:
+          "Understanding concepts is one thing. Retaining them across months of prep? That's the actual challenge. You study something today. The exam might test it six months later. Without repeated reinforcement, most of it disappears.",
+      },
+      {
+        id: "reality-para3",
+        type: "paragraph",
+        content:
+          "This is why so many students hit that frustrating moment during mocks. The question looks familiar. The topic seems familiar. But the answer? Doesn't come.",
+      },
+      {
+        id: "reality-conclusion",
+        type: "paragraph",
+        content:
+          "It's not that you never studied it. It's that you never retained it properly.",
+      },
+      {
+        id: "retention-exam-performance",
+        type: "heading",
+        title: "Retention Actually Changes Your Exam Performance",
+        level: 2,
+      },
+      {
+        id: "retention-exam-para1",
+        type: "paragraph",
+        content:
+          "Strong retention does way more than just improve memory. It directly impacts how you perform.",
+      },
+      {
+        id: "retention-exam-para2",
+        type: "paragraph",
+        content:
+          "Students who retain concepts well solve questions faster. Less second-guessing. They recognize clinical patterns quicker and eliminate wrong answers with confidence.",
+      },
+      {
+        id: "retention-exam-para3",
+        type: "paragraph",
+        content:
+          "In exams where you're solving hundreds of questions in limited time, this matters. A student who remembers key concepts instantly gains a real advantage over someone reconstructing information during the exam.",
+      },
+      {
+        id: "retention-exam-conclusion",
+        type: "paragraph",
+        content:
+          "In competitive exams, those extra seconds per question can swing your entire rank.",
+      },
+      {
+        id: "revision-beats-first-reading",
+        type: "heading",
+        title: "Revision Beats First Reading Every Time",
+        level: 2,
+      },
+      {
+        id: "revision-beats-para1",
+        type: "paragraph",
+        content:
+          "Most students chase first reading completion. They rush through subjects because finishing feels urgent. But real learning happens during revision.",
+      },
+      {
+        id: "revision-beats-para2",
+        type: "paragraph",
+        content:
+          "First reading introduces stuff. Second reading strengthens it. Third, fourth, fifth revisions? That's when recall improves, understanding deepens, speed increases.",
+      },
+      {
+        id: "revision-beats-para3",
+        type: "paragraph",
+        content:
+          "Students who do multiple revision cycles usually outperform those who spend all their energy on completion. This is why toppers constantly say: revision over expansion.",
+      },
+      {
+        id: "revision-beats-conclusion",
+        type: "paragraph",
+        content:
+          "At some point, remembering what you've already studied becomes way more valuable than constantly adding new information.",
+      },
+      {
+        id: "brain-retains",
+        type: "heading",
+        title: "How Your Brain Actually Retains Things",
+        level: 2,
+      },
+      {
+        id: "brain-retains-para1",
+        type: "paragraph",
+        content:
+          "Reading notes repeatedly feels productive but creates an illusion. You recognize information and assume you know it. That's not the same as actually knowing it.",
+      },
+      {
+        id: "brain-retains-para2",
+        type: "paragraph",
+        content:
+          "The real test? Can you recall it without looking? That's where active recall comes in.",
+      },
+      {
+        id: "brain-retains-list",
+        type: "list",
+        items: [
+          "Solving MCQs",
+          "Taking mocks",
+          "Revising without notes",
+          "Teaching concepts to others",
+          "Writing down key points from memory",
+        ],
+      },
+      {
+        id: "brain-retains-conclusion",
+        type: "paragraph",
+        content:
+          "All of these force your brain to actually retrieve information. Each retrieval strengthens the memory. The more you recall something, the easier it becomes to access during the exam.",
+      },
+      {
+        id: "mock-tests",
+        type: "heading",
+        title: "Mock Tests Aren't Just Score Checks",
+        level: 2,
+      },
+      {
+        id: "mock-tests-para1",
+        type: "paragraph",
+        content:
+          "Most students treat mocks as performance assessments. They're actually one of the most effective retention tools available.",
+      },
+      {
+        id: "mock-tests-para2",
+        type: "paragraph",
+        content:
+          "Every question requires you to retrieve information. Every wrong answer shows you what you forgot. Every test review reinforces concepts that were slipping away.",
+      },
+      {
+        id: "mock-tests-conclusion",
+        type: "paragraph",
+        content:
+          "Students who analyze their tests consistently improve retention way faster than those just reading notes. The score matters. But the learning afterward often matters more.",
+      },
+      {
+        id: "confidence-from-remembering",
+        type: "heading",
+        title: "Confidence Comes from Remembering Things",
+        level: 2,
+      },
+      {
+        id: "confidence-para1",
+        type: "paragraph",
+        content:
+          "People think exam confidence comes from motivation or positive thinking. Wrong. It comes from familiarity.",
+      },
+      {
+        id: "confidence-conclusion",
+        type: "paragraph",
+        content:
+          "When you've revised repeatedly, practiced extensively, and actually retained important concepts? You trust yourself. Questions feel manageable. Clinical scenarios feel familiar. Decision-making gets faster. That confidence is earned through repetition, not motivation.",
+      },
+      {
+        id: "top-rankers",
+        type: "heading",
+        title: "What Top Rankers Actually Do",
+        level: 2,
+      },
+      {
+        id: "top-rankers-para1",
+        type: "paragraph",
+        content:
+          "One thing most top-performing students realize early: preparation isn't a race to finish first. It's a process of building reliable recall.",
+      },
+      {
+        id: "top-rankers-para2",
+        type: "paragraph",
+        content:
+          "They revise heavily. Revisit important topics repeatedly. Solve MCQs consistently. They prioritize retention over the satisfaction of checking subjects off a list.",
+      },
+      {
+        id: "top-rankers-conclusion",
+        type: "paragraph",
+        content:
+          "More of their prep stays accessible when the exam comes. That difference usually shows directly in their scores and ranks.",
+      },
+      {
+        id: "better-measure",
+        type: "heading",
+        title: "A Better Way to Measure Progress",
+        level: 2,
+      },
+      {
+        id: "better-measure-para1",
+        type: "paragraph",
+        content:
+          'Stop asking: "How much of the syllabus have I completed?" Instead ask: "How much of what I\'ve studied can I still recall?"',
+      },
+      {
+        id: "better-measure-para2",
+        type: "paragraph",
+        content:
+          "That gives you an actual picture of exam readiness. Completion measures activity. Retention measures preparedness.",
+      },
+      {
+        id: "better-measure-conclusion",
+        type: "paragraph",
+        content: "Preparedness is what determines performance.",
+      },
+      {
+        id: "bottom-line",
+        type: "heading",
+        title: "Bottom Line",
+        level: 2,
+      },
+      {
+        id: "bottom-line-para1",
+        type: "paragraph",
+        content:
+          "Syllabus completion matters. You can't retain what you haven't covered. But completion alone? Not enough.",
+      },
+      {
+        id: "bottom-line-para2",
+        type: "paragraph",
+        content:
+          "Medical entrance exams reward students who can remember, apply, and retrieve information under pressure. A topic studied once and forgotten doesn't help your score. A topic revised multiple times and retained effectively? That's the difference between an average rank and a top one.",
+      },
+      {
+        id: "bottom-line-para3",
+        type: "paragraph",
+        content:
+          "The best performers aren't the ones studying the most. They're the ones remembering the most.",
+      },
+      {
+        id: "bottom-line-conclusion",
+        type: "paragraph",
+        content:
+          "And that's why retention will always matter more than completion.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "Is completing the syllabus enough for a good rank?",
+            answer:
+              "Absolutely no, recall and repeated revision matter the most more than completion alone.",
+          },
+          {
+            question: "Why is retention important in medical entrance exams?",
+            answer:
+              "Repeated revision will help you recall the core concepts quickly during the exam.",
+          },
+          {
+            question: "How can I improve retention during preparation?",
+            answer:
+              "You can use the active recall, MCQs, and multiple revision cycles.",
+          },
+          {
+            question: "Are mock tests useful beyond score assessment?",
+            answer:
+              "Yes, it helps to strengthen core memory and highlight your weak areas.",
+          },
+          {
+            question: "What should I focus on more: completion or revision?",
+            answer:
+              "Prioritize revision and retention over rushing to finish the syllabus.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "neet pg",
+          "ini cet",
+          "fmge",
+          "medical pg entrance exam",
+          "entrance exam",
+          "medical pg entrance preparation",
+          "medical pg exam",
+          "medical pg preparation",
+        ],
+      },
+    ],
   },
-  "category": {
-    "name": "NEET PG",
-    "slug": "neet-pg",
-    "color": "bg-blue-100 text-blue-800"
+  {
+    id: 172,
+    title:
+      "INI CET July 2026 Counselling: Complete Guide to Rules, Rounds, and Seat Upgradation",
+    slug: "ini-cet-july-2026-counselling-complete-guide-rules-rounds-seat-upgradation",
+    excerpt:
+      "INI CET July 2026 Counselling: Know counselling rules, round-wise seat allotment, choice filling, seat upgradation, and admission steps.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/48176087/file/91541735ec6e58161ed25e856d3a6193.jpg",
+    featured_image_alt: "INI CET 2026 Counselling",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+    },
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
+    },
+    tags: [
+      "INI CET",
+      "INI CET Counselling",
+      "INI CET 2026",
+      "NEET PG Counselling",
+      "PG Seat Allotment",
+    ],
+    published_date: "2026-06-25",
+    read_time: 10,
+    meta_title:
+      "INI CET July 2026 Counselling: Complete Guide to Rules, Rounds, and Seat Upgradation",
+    meta_description:
+      "INI CET July 2026 Counselling: Know counselling rules, round-wise seat allotment, choice filling, seat upgradation, and admission steps.",
+    keywords: [
+      "ini cet counselling",
+      "ini cet counselling process",
+      "ini cet exam",
+      "ini cet preparation",
+      "neet pg counselling",
+      "ini cet counselling schedule",
+      "ini cet exam registration",
+      "neet pg exam",
+      "medical pg counselling",
+      "pg counselling",
+      "ini cet",
+      "ini cet exam preparation",
+      "pg seat allotment",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content:
+          "You know what, a good rank in the INI CET exam actually gets a candidate into the race, but the real decision start with counseling. One wrong choice of order or missing a reporting the deadline can have some consequences as well beyond just losing a seat. In some cases, it can even lead you to financial penalties.",
+      },
+      {
+        id: "intro-conclusion",
+        type: "paragraph",
+        content:
+          "The INI CET 2026 counselling process works differently from NEET PG counselling. Round one and round two are linked together, and the open round follows a separate set of rules. Because of that, every stage of the INI CET counselling process needs careful attention before choices are locked.",
+      },
+      {
+        id: "schedule-section",
+        type: "heading",
+        title: "INI CET July 2026 Counselling Schedule",
+        level: 2,
+      },
+      {
+        id: "schedule-para1",
+        type: "paragraph",
+        content:
+          "After completing INI CET exam registration and participating in the mock round, candidates have to fill choices for round one between June 16 and June 17, 2026. The first allotment result is expected on June 24, followed by reporting and joining formalities until June 30. Classes are scheduled to begin on July 1.",
+      },
+      {
+        id: "schedule-para2",
+        type: "paragraph",
+        content:
+          "Round two results are likely on July 10, and reporting is expected to continue until July 16. Admissions can continue till August 31, with the open round expected after round two concludes.",
+      },
+      {
+        id: "schedule-table",
+        type: "table",
+        headers: ["Event", "Expected Date"],
+        rows: [
+          ["Round 1 Choice Filling", "June 16–17, 2026"],
+          ["Round 1 Allotment Result", "June 24, 2026"],
+          ["Reporting & Joining (Round 1)", "Until June 30, 2026"],
+          ["Classes Begin", "July 1, 2026"],
+          ["Round 2 Results", "July 10, 2026"],
+          ["Reporting & Joining (Round 2)", "Until July 16, 2026"],
+          ["Admissions Close", "August 31, 2026"],
+          ["Open Round", "After Round 2 concludes"],
+        ],
+      },
+      {
+        id: "schedule-conclusion",
+        type: "paragraph",
+        content:
+          "One advantage of the July session is that the overall process is expected to finish before the NEET PG exam. That gives aspirants enough room to plan their medical PG counselling options separately without worrying about stressful schedules.",
+      },
+      {
+        id: "mock-round",
+        type: "heading",
+        title: "Mock Round Results Are Not the Final Picture",
+        level: 2,
+      },
+      {
+        id: "mock-round-para1",
+        type: "paragraph",
+        content:
+          "The mock round mainly gives candidates an idea of how the INICET counseling system works. Since many candidates change or reorder their preferences before round one, the actual allotment list often looks very different.",
+      },
+      {
+        id: "mock-round-para2",
+        type: "paragraph",
+        content:
+          "Candidates who missed the mock round but are part of the merit list can still register and participate in round one.",
+      },
+      {
+        id: "mock-round-conclusion",
+        type: "paragraph",
+        content:
+          "Those who have decided against participating should remove all saved choices. Any choices left in the system are carried forward automatically, and allotments can happen based on them.",
+      },
+      {
+        id: "round-one-choice",
+        type: "heading",
+        title: "Why Round One Choice Filling Matters So Much",
+        level: 2,
+      },
+      {
+        id: "round-one-choice-para1",
+        type: "paragraph",
+        content:
+          "Most PG counselling systems allow fresh choice filling in later rounds. INI CET counselling does not. Whatever preferences are submitted in round one are carried forward directly to round two. There is no chance to rearrange or add choices later.",
+      },
+      {
+        id: "round-one-choice-para2",
+        type: "paragraph",
+        content: "That means:",
+      },
+      {
+        id: "round-one-choice-list",
+        type: "list",
+        items: [
+          "Preferences should be arranged carefully",
+          "No changes are allowed after round one",
+          "Missing round one means losing round two eligibility",
+          "Candidates who skip round one can participate only in the open round",
+        ],
+      },
+      {
+        id: "round-one-choice-conclusion",
+        type: "paragraph",
+        content:
+          "The sequence of choices matters just as much as the choices themselves.",
+      },
+      {
+        id: "after-round-one",
+        type: "heading",
+        title: "What Happens After Round One Allotment?",
+        level: 2,
+      },
+      {
+        id: "not-allotted",
+        type: "heading",
+        title: "Candidates Who Are Not Allotted",
+        level: 3,
+      },
+      {
+        id: "not-allotted-para1",
+        type: "paragraph",
+        content:
+          "Candidates who do not get a seat in round one do not have to complete any additional process. Their existing choices automatically move to round two. Fresh preferences or modifications are not permitted.",
+      },
+      {
+        id: "allotted",
+        type: "heading",
+        title: "Candidates Who Receive a Seat",
+        level: 3,
+      },
+      {
+        id: "allotted-para1",
+        type: "paragraph",
+        content: "Once a seat is allotted, two options are available.",
+      },
+      {
+        id: "option1",
+        type: "heading",
+        title: "Option 1: Accept the Seat Without Upgradation",
+        level: 3,
+      },
+      {
+        id: "option1-para1",
+        type: "paragraph",
+        content:
+          "You're happy with what you got. No point in waiting around hoping for something better. Accept it and you're done. No more rounds, no more stress.",
+      },
+      {
+        id: "option1-para2",
+        type: "paragraph",
+        content: "Typical examples include:",
+      },
+      {
+        id: "option1-list1",
+        type: "list",
+        items: [
+          "Candidates who receive their top preferences",
+          "Candidates who do not want to risk changing institutes or specialties",
+        ],
+      },
+      {
+        id: "option1-para3",
+        type: "paragraph",
+        content: "Such candidates:",
+      },
+      {
+        id: "option1-list2",
+        type: "list",
+        items: [
+          "Must report to the allotted institute",
+          "Have to submit original documents or a ₹3 lakh DD",
+          "Become ineligible for round two",
+          "Remain eligible for the open round",
+        ],
+      },
+      {
+        id: "option2",
+        type: "heading",
+        title: "Option 2: Accept the Seat and Seek Upgradation",
+        level: 3,
+      },
+      {
+        id: "option2-para1",
+        type: "paragraph",
+        content:
+          "You got a seat but you're not completely satisfied. You want to try for something higher in round two. With this option, you keep your current seat as backup but still throw your hat in the ring for the next round. If something better comes up, great. If not, you've got what you already have.",
+      },
+      {
+        id: "option2-para2",
+        type: "paragraph",
+        content:
+          "Only better choices are processed during round two. There is no possibility of moving down to a lower preference.",
+      },
+      {
+        id: "option2-para3",
+        type: "paragraph",
+        content: "These candidates:",
+      },
+      {
+        id: "option2-list",
+        type: "list",
+        items: [
+          "Must report to the allotted institute",
+          "Can temporarily submit original certificates or a ₹3 lakh DD",
+          "Remain eligible for round two",
+          "Continue to be eligible for the open round later",
+        ],
+      },
+      {
+        id: "round-two-eligibility",
+        type: "heading",
+        title: "Round Two Eligibility Rules",
+        level: 2,
+      },
+      {
+        id: "round-two-para1",
+        type: "paragraph",
+        content: "Round two includes:",
+      },
+      {
+        id: "round-two-list1",
+        type: "list",
+        items: [
+          "Candidates who filled choices but did not get a seat in round one",
+          "Candidates who accepted their round one seat under Option 2",
+        ],
+      },
+      {
+        id: "round-two-para2",
+        type: "paragraph",
+        content: "The following candidates are not eligible:",
+      },
+      {
+        id: "round-two-list2",
+        type: "list",
+        items: [
+          "Those who skipped choice filling in round one",
+          "Candidates who failed to join their allotted seat",
+          "Candidates who selected Option 1",
+        ],
+      },
+      {
+        id: "round-two-conclusion",
+        type: "paragraph",
+        content:
+          "There is no fresh choice filling in round two. The system processes previously submitted preferences automatically.",
+      },
+      {
+        id: "open-round",
+        type: "heading",
+        title: "Open Round Eligibility",
+        level: 2,
+      },
+      {
+        id: "open-round-para1",
+        type: "paragraph",
+        content:
+          "The open round has a separate set of rules and remains an important part of the INI CET counselling process. Every qualified INI CET July 2026 candidate can participate, including:",
+      },
+      {
+        id: "open-round-list",
+        type: "list",
+        items: [
+          "Candidates who never participated earlier",
+          "Candidates who did not receive a seat",
+          "Candidates who chose Option 1",
+          "Candidates who joined seats in round one or round two",
+        ],
+      },
+      {
+        id: "open-round-conclusion",
+        type: "paragraph",
+        content:
+          "Participation requires an online security deposit of ₹3 lakh.",
+      },
+      {
+        id: "spot-rounds",
+        type: "heading",
+        title: "Spot Rounds Are Unlikely",
+        level: 2,
+      },
+      {
+        id: "spot-rounds-para1",
+        type: "paragraph",
+        content:
+          "Earlier sessions had spot rounds similar to stray vacancy rounds. That pattern has changed in recent sessions, and such rounds have largely disappeared.",
+      },
+      {
+        id: "spot-rounds-para2",
+        type: "paragraph",
+        content:
+          "Seats that remain vacant after the open round are generally carried forward to the next session.",
+      },
+      {
+        id: "spot-rounds-conclusion",
+        type: "paragraph",
+        content:
+          "Because of that, aspirants should avoid relying on a spot round while planning their medical PG counselling strategy.",
+      },
+      {
+        id: "final-thoughts",
+        type: "heading",
+        title: "Final Thoughts",
+        level: 2,
+      },
+      {
+        id: "final-thoughts-para1",
+        type: "paragraph",
+        content:
+          "The INI CET 2026 counselling process goes beyond rank and seat allotment. Round one choices continue into round two, and resigning from a seat later can involve substantial penalties. A rushed decision can become an expensive one.",
+      },
+      {
+        id: "final-thoughts-conclusion",
+        type: "paragraph",
+        content:
+          "Students preparing for both the INI CET exam and the NEET PG exam should know the rules related to choice filling, reporting, seat upgradation, and the open round well in advance. Good INI CET exam preparation helps with the exam itself, but familiarity with NEET PG counselling, PG counselling, and the wider medical PG counselling process can make a big difference when the admission stage begins.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "Can I change my choices in Round 2?",
+            answer:
+              "Nope. Once Round 1 choices are locked, that's it. Can't go back and modify them.",
+          },
+          {
+            question: "Is the mock round compulsory?",
+            answer:
+              "No. It's optional. Mainly there so you can figure out how the process actually works before the real thing.",
+          },
+          {
+            question: "Can I upgrade my seat after Round 1?",
+            answer:
+              "Yeah. If you want to try for something better, you can go for the upgradation option in the next round.",
+          },
+          {
+            question: "Who is eligible for the open round?",
+            answer:
+              "Anyone who qualified INI-CET can participate. Pretty straightforward.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "ini cet counselling",
+          "ini cet counselling process",
+          "ini cet exam",
+          "ini cet preparation",
+          "neet pg counselling",
+          "ini cet counselling schedule",
+          "ini cet exam registration",
+          "neet pg exam",
+          "medical pg counselling",
+          "pg counselling",
+          "ini cet",
+          "ini cet exam preparation",
+          "pg seat allotment",
+        ],
+      },
+    ],
   },
-  "tags": [
-    "NEET PG",
-    "INI CET",
-    "FMGE",
-    "Exam Preparation",
-    "Preparation Strategy"
-  ],
-  "published_date": "2026-06-17",
-  "read_time": 10,
-  "meta_title": "Why Good Scores No Longer Guarantee Good Ranks: Understanding Rank Inflation in PG Medical Entrance Exa",
-  "meta_description": "Rising competition and rank inflation mean strong scores may not secure top ranks. Understand the trend and refine your PG exam strategy.",
-  "keywords": [
-    "pg entrance exam",
-    "pg medical entrance exams",
-    "neet pg",
-    "ini cet",
-    "fmge",
-    "neet pg exam",
-    "fmge exam",
-    "inicet exam",
-    "community medicine"
-  ],
-  "sections": [
-    {
-      "id": "intro-para1",
-      "type": "paragraph",
-      "content": "Every year, students walk out of their PG entrance exam feeling like they did well."
+  {
+    id: 173,
+    title:
+      "How Medical Interns Are Managing Hospital Duties and Competitive Exam Preparation at the Same Time",
+    slug: "how-medical-interns-managing-hospital-duties-competitive-exam-preparation",
+    excerpt:
+      "Every NEET PG aspirant faces moments of doubt. The key is staying focused, trusting the process, and continuing consistent preparation.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/48187310/file/7f4f620bc825151055fc28149ebed0e5.jpg",
+    featured_image_alt: "NEET PG",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
     },
-    {
-      "id": "intro-para2",
-      "type": "paragraph",
-      "content": "More correct answers than their mocks. Fewer silly mistakes. A score that actually went up."
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
     },
-    {
-      "id": "intro-para3",
-      "type": "paragraph",
-      "content": "Then the results come out, and the rank doesn't match the feeling. Sometimes a student scores higher than toppers from previous years and still ends up with a worse rank. The branch they were targeting is out of reach. The institute they planned is now a stretch."
-    },
-    {
-      "id": "intro-conclusion",
-      "type": "paragraph",
-      "content": "This is rank inflation and if you're preparing for NEET PG, INI-CET, or FMGE right now, it's something you need to understand, not just the syllabus."
-    },
-    {
-      "id": "what-rank-inflation-means",
-      "type": "heading",
-      "title": "What Rank Inflation Means",
-      "level": 2
-    },
-    {
-      "id": "what-rank-inflation-para1",
-      "type": "paragraph",
-      "content": "Rank inflation happens when more candidates start scoring higher, which packs the competition tighter at the top."
-    },
-    {
-      "id": "what-rank-inflation-para2",
-      "type": "paragraph",
-      "content": "The math is simple but brutal: when hundreds of students answer most questions correctly, even one or two wrong answers can push your rank down by thousands. A small dip in accuracy doesn't just cost you a few spots - it can cost you a branch."
-    },
-    {
-      "id": "what-rank-inflation-conclusion",
-      "type": "paragraph",
-      "content": "Students often think rank reflects how well they did. It doesn't. Rank reflects how well you did compared to everyone else sitting that PG entrance exam. As the overall level rises, getting a strong rank gets harder - even if your preparation is genuinely better than it used to be."
-    },
-    {
-      "id": "why-competition-intense",
-      "type": "heading",
-      "title": "Why Competition Has Gotten This Intense",
-      "level": 2
-    },
-    {
-      "id": "why-competition-para1",
-      "type": "paragraph",
-      "content": "Ten years ago, preparation meant textbooks, coaching classes, and whatever test series your city had access to. Now every student has recorded lectures, online question banks, rapid revision modules, detailed analytics, and WhatsApp groups where high-yield topics get shared in real time."
-    },
-    {
-      "id": "why-competition-para2",
-      "type": "paragraph",
-      "content": "The gap between a well-prepared student and an average one has closed. Not because average students are working harder, but because the tools that used to give top students an edge are now available to everyone."
-    },
-    {
-      "id": "why-competition-conclusion",
-      "type": "paragraph",
-      "content": "The baseline has moved up - and it keeps moving."
-    },
-    {
-      "id": "margins-shrink",
-      "type": "heading",
-      "title": "When Everyone Studies the Same Way, Margins Shrink",
-      "level": 2
-    },
-    {
-      "id": "margins-shrink-para1",
-      "type": "paragraph",
-      "content": "Most serious aspirants today are pulling from similar resources, solving similar MCQs, and targeting the same high-yield topics. Which means large numbers of candidates are getting large numbers of questions right."
-    },
-    {
-      "id": "margins-shrink-para2",
-      "type": "paragraph",
-      "content": "When that happens, the exam stops separating students on broad knowledge. It starts separating them on tiny things - a misread clinical scenario, a half-second of hesitation, one overlooked detail in an image-based question."
-    },
-    {
-      "id": "margins-shrink-conclusion",
-      "type": "paragraph",
-      "content": "One wrong answer. That's sometimes the entire difference between a competitive rank and a disappointing one."
-    },
-    {
-      "id": "preparation-strategic",
-      "type": "heading",
-      "title": "Preparation Has Become More Strategic - Across the Board",
-      "level": 2
-    },
-    {
-      "id": "preparation-strategic-para1",
-      "type": "paragraph",
-      "content": "It's not just that resources improved. Students have gotten smarter about how they use them."
-    },
-    {
-      "id": "preparation-strategic-conclusion",
-      "type": "paragraph",
-      "content": "Previous-year trend analysis, topic-wise prioritization, structured revision schedules, performance tracking - this kind of exam-focused preparation used to be the exception. Now it's common. Which means the overall scores across the candidate pool have risen, and the margin you need to stand out has shrunk."
-    },
-    {
-      "id": "social-media-worse",
-      "type": "heading",
-      "title": "Social Media Makes All of This Feel Worse Than It Is",
-      "level": 2
-    },
-    {
-      "id": "social-media-worse-para1",
-      "type": "paragraph",
-      "content": "Rank announcements, topper stories, score discussions, cutoff predictions - it's constant now. And while some of that information is genuinely useful, a lot of it just warps expectations."
-    },
-    {
-      "id": "social-media-worse-para2",
-      "type": "paragraph",
-      "content": "Students end up comparing themselves only to the people at the very top rather than measuring their own actual progress. A rank that would have felt like a real win a few years ago starts to feel like a failure because the reference point has shifted."
-    },
-    {
-      "id": "social-media-worse-conclusion",
-      "type": "paragraph",
-      "content": "The psychological pressure from this kind of comparison is real, and it's worth being aware of."
-    },
-    {
-      "id": "what-this-means",
-      "type": "heading",
-      "title": "What This Means for Your Preparation",
-      "level": 2
-    },
-    {
-      "id": "what-this-means-para1",
-      "type": "paragraph",
-      "content": "Rank inflation doesn't mean you need to study more. If anything, it means quality of preparation matters more than quantity."
-    },
-    {
-      "id": "what-this-means-para2",
-      "type": "paragraph",
-      "content": "When differences come down to small margins, making fewer mistakes becomes just as important as learning more. The students who consistently perform well tend to focus on:"
-    },
-    {
-      "id": "what-this-means-list",
-      "type": "list",
-      "items": [
-        "Revision cycles done repeatedly, not once",
-        "MCQ practice followed by actual error analysis",
-        "Strong clinical application, not just factual recall",
-        "Time management treated as a skill to train, not an afterthought"
-      ]
-    },
-    {
-      "id": "what-this-means-conclusion",
-      "type": "paragraph",
-      "content": "The candidates scoring at the top aren't necessarily covering more ground. They're making fewer errors on the ground they've already covered."
-    },
-    {
-      "id": "consistency-separates",
-      "type": "heading",
-      "title": "Consistency Is What Actually Separates People Now",
-      "level": 2
-    },
-    {
-      "id": "consistency-separates-para1",
-      "type": "paragraph",
-      "content": "Dramatic last-minute jumps in rank are rare. The real gains come from months of systematic revision, repeated exposure to the same high-yield concepts, and gradually tightening your accuracy."
-    },
-    {
-      "id": "consistency-separates-para2",
-      "type": "paragraph",
-      "content": "Most students are looking for some edge that changes everything. Usually there isn't one. The edge is just doing the basics - revision, MCQs, test analysis, error correction - consistently and over a long enough period."
-    },
-    {
-      "id": "consistency-separates-conclusion",
-      "type": "paragraph",
-      "content": "That sounds unglamorous, but it's what the data on top performers actually shows."
-    },
-    {
-      "id": "bigger-picture",
-      "type": "heading",
-      "title": "The Bigger Picture",
-      "level": 2
-    },
-    {
-      "id": "bigger-picture-para1",
-      "type": "paragraph",
-      "content": "Rank inflation isn't proof that these exams have become impossible. It's proof that the candidate pool is stronger and better prepared than it used to be. That's a real shift and pretending otherwise doesn't help anyone."
-    },
-    {
-      "id": "bigger-picture-conclusion",
-      "type": "paragraph",
-      "content": "But the fundamentals haven't changed. Strong concepts, smart revision, honest error analysis, and showing consistently over time - these still work. They work better now, actually, because so many students are either avoiding them or doing them halfway."
-    },
-    {
-      "id": "final-thought",
-      "type": "heading",
-      "title": "Final Thought",
-      "level": 2
-    },
-    {
-      "id": "final-thought-para1",
-      "type": "paragraph",
-      "content": "The biggest mistake you can make right now is assuming that a good score will automatically translate to a good rank. That used to be roughly true. It isn't anymore."
-    },
-    {
-      "id": "final-thought-para2",
-      "type": "paragraph",
-      "content": "What matters today is how accurately and consistently you can apply what you know - under real exam conditions, against a much stronger field than existed even a few years ago."
-    },
-    {
-      "id": "final-thought-conclusion",
-      "type": "paragraph",
-      "content": "Understanding that shift doesn't make the competition easier. But it does make your preparation more honest, and that's usually where things start to turn around."
-    },
-    {
-      "id": "faqs",
-      "type": "heading",
-      "title": "FAQs",
-      "level": 2
-    },
-    {
-      "id": "faqs-list",
-      "type": "faq",
-      "faqs": [
-        {
-          "question": "What is rank inflation in PG medical entrance exams?",
-          "answer": "Rank inflation happens when more candidates score high, making competition tighter and ranks harder to secure."
-        },
-        {
-          "question": "Why doesn't a good score always guarantee a good rank?",
-          "answer": "Because rank depends on relative performance, not just your individual score."
-        },
-        {
-          "question": "Has competition increased in NEET PG, INI-CET, and FMGE?",
-          "answer": "Yes, better resources and structured preparation have significantly increased competition."
-        },
-        {
-          "question": "How can I improve my rank despite rank inflation?",
-          "answer": "Focus on revision, accuracy, error analysis, and consistent MCQ practice."
-        }
-      ]
-    },
-    {
-      "id": "keywords",
-      "type": "keywords",
-      "title": "Related Keywords",
-      "keywords": [
-        "pg entrance exam",
-        "pg medical entrance exams",
-        "neet pg",
-        "ini cet",
-        "fmge",
-        "neet pg exam",
-        "fmge exam",
-        "inicet exam",
-        "community medicine"
-      ]
-    }
-  ]
-},
-{
-  "id": 169,
-  "title": "Why Consistency Beats Intensity in NEET PG Preparation and Long-Term Exam Success",
-  "slug": "why-consistency-beats-intensity-neet-pg-preparation-long-term-exam-success",
-  "excerpt": "Consistent daily effort builds stronger retention, reduces burnout, and delivers lasting results, making it the key to NEET PG success.",
-  "featured_image": "https://cdn.dribbble.com/userupload/48112900/file/9e2c48c2ed417f18354ab62a5a74fc00.jpg",
-  "featured_image_alt": "neet pg preparation consistency",
-  "author": {
-    "name": "Believers Team",
-    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
-    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+    tags: [
+      "NEET PG",
+      "INI CET",
+      "FMGE",
+      "Exam Preparation",
+      "Medical Internship",
+    ],
+    published_date: "2026-06-26",
+    read_time: 10,
+    meta_title:
+      "Every NEET PG aspirant eventually asks the same question at some point during preparation",
+    meta_description:
+      "Every NEET PG aspirant faces moments of doubt. The key is staying focused, trusting the process, and continuing consistent preparation.",
+    keywords: [
+      "neet pg",
+      "ini cet",
+      "fmge",
+      "competitive exams",
+      "medical pg entrance exam",
+      "entrance exam",
+      "medical pg entrance preparation",
+      "medical pg exam",
+      "medical pg preparation",
+      "exam preparation",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content:
+          "For many medical graduates, an internship is one of the most demanding phases of their journey.",
+      },
+      {
+        id: "intro-list",
+        type: "list",
+        items: [
+          "Long duty hours",
+          "Emergency calls",
+          "Ward responsibilities",
+          "Patient documentation",
+          "Night shifts",
+          "Unpredictable schedules",
+        ],
+      },
+      {
+        id: "intro-para2",
+        type: "paragraph",
+        content:
+          "On the other side, an internship is also the period when many students begin preparing seriously for competitive exams such as NEET PG, INI-CET, and FMGE.",
+      },
+      {
+        id: "intro-para3",
+        type: "paragraph",
+        content:
+          "On paper, balancing both seems nearly impossible. After all, how does someone study after a 12-hour shift? How do you revise Medicine when you've spent the entire day in the labor room? How do you stay consistent when your schedule changes every week?",
+      },
+      {
+        id: "intro-para4",
+        type: "paragraph",
+        content:
+          "Yet every year, thousands of aspirants successfully manage internships and exam preparation simultaneously.",
+      },
+      {
+        id: "intro-conclusion",
+        type: "paragraph",
+        content:
+          "It is learning how to use the available time more effectively.",
+      },
+      {
+        id: "biggest-challenge",
+        type: "heading",
+        title: "The Biggest Challenge Isn't Lack of Time",
+        level: 2,
+      },
+      {
+        id: "biggest-challenge-para1",
+        type: "paragraph",
+        content:
+          "Most interns begin preparation believing their biggest problem is insufficient study hours. In reality, the bigger challenge is inconsistency.",
+      },
+      {
+        id: "biggest-challenge-para2",
+        type: "paragraph",
+        content:
+          "Some days offer five hours for studying. Other days offer only one. Certain postings are relatively lighter. Others leave students exhausted before they even reach their hostel rooms.",
+      },
+      {
+        id: "biggest-challenge-para3",
+        type: "paragraph",
+        content:
+          "Because schedules keep changing, most interns can't stick to rigid study plans. It doesn't work.",
+      },
+      {
+        id: "biggest-challenge-conclusion",
+        type: "paragraph",
+        content:
+          "The ones who do well? They stop obsessing over perfect schedules. Instead they build systems that bend with whatever workload hits that day.",
+      },
+      {
+        id: "small-time-blocks",
+        type: "heading",
+        title: "Learning to Study in Small Time Blocks",
+        level: 2,
+      },
+      {
+        id: "small-time-blocks-para1",
+        type: "paragraph",
+        content:
+          "Successful interns figure out something fast: you don't need long, uninterrupted stretches. Short sessions work. Actually work.",
+      },
+      {
+        id: "small-time-blocks-list",
+        type: "list",
+        items: [
+          "Breaks between duties",
+          "Waiting around in OPDs",
+          "Commute time",
+          "Gaps after rounds",
+          "Quick revision at night when you're winding down",
+        ],
+      },
+      {
+        id: "small-time-blocks-conclusion",
+        type: "paragraph",
+        content:
+          "A 30-minute session doesn't feel like much. But add several throughout the day and suddenly you've covered material. Over months, these small sessions add up to real progress.",
+      },
+      {
+        id: "internship-learning-tool",
+        type: "heading",
+        title: "Internship Itself Becomes a Learning Tool",
+        level: 2,
+      },
+      {
+        id: "internship-learning-para1",
+        type: "paragraph",
+        content:
+          "Here's the thing interns often miss: your clinical exposure is helping you study.",
+      },
+      {
+        id: "internship-learning-para2",
+        type: "paragraph",
+        content:
+          "Every patient teaches you something. Heart failure case strengthens your Medicine knowledge. Labor room rotation reinforces Obstetrics. Pediatric admissions teach growth, development, neonatal care. You're learning while you work.",
+      },
+      {
+        id: "internship-learning-conclusion",
+        type: "paragraph",
+        content:
+          "Students who connect what they're seeing clinically with what they're studying actually retain stuff better. It sticks.",
+      },
+      {
+        id: "consistency-matters",
+        type: "heading",
+        title: "Why Consistency Matters More Than Long Study Hours",
+        level: 2,
+      },
+      {
+        id: "consistency-para1",
+        type: "paragraph",
+        content:
+          "Many aspirants compare themselves to students preparing full-time and become discouraged. The comparison is rarely helpful.",
+      },
+      {
+        id: "consistency-para2",
+        type: "paragraph",
+        content:
+          "Internship preparation is different. The goal is not to study twelve hours every day. The goal is to maintain continuity.",
+      },
+      {
+        id: "consistency-conclusion",
+        type: "paragraph",
+        content:
+          "Even two to four productive hours daily can create significant progress if maintained consistently over several months. Students who remain connected to preparation throughout internship often enter dedicated study periods with a strong foundation already in place.",
+      },
+      {
+        id: "smart-resources",
+        type: "heading",
+        title: "Smart Resource Selection Makes a Huge Difference",
+        level: 2,
+      },
+      {
+        id: "smart-resources-para1",
+        type: "paragraph",
+        content:
+          "One of the most common mistakes interns make is collecting too many resources. There will be limited study time which gradually demands efficiency.",
+      },
+      {
+        id: "smart-resources-para2",
+        type: "paragraph",
+        content: "Successful aspirants usually rely on:",
+      },
+      {
+        id: "smart-resources-list",
+        type: "list",
+        items: [
+          "A primary study source",
+          "A well-defined revision note",
+          "MCQ practice platforms",
+          "Previous-year questions",
+          "Mock tests",
+        ],
+      },
+      {
+        id: "smart-resources-conclusion",
+        type: "paragraph",
+        content:
+          "The more streamlined the resources, the easier it becomes to revise repeatedly. And revision is where most of the learning happens.",
+      },
+      {
+        id: "mcqs-fit",
+        type: "heading",
+        title: "MCQs Fit Internship Schedules Well",
+        level: 2,
+      },
+      {
+        id: "mcqs-fit-para1",
+        type: "paragraph",
+        content:
+          "Among all preparation tools, MCQs are particularly useful during internship. Unlike lengthy reading sessions, question practice can be done in shorter time blocks.",
+      },
+      {
+        id: "mcqs-fit-para2",
+        type: "paragraph",
+        content: "MCQs help students:",
+      },
+      {
+        id: "mcqs-fit-list",
+        type: "list",
+        items: [
+          "Stay connected to multiple subjects",
+          "Identify weak areas quickly",
+          "Improve recall",
+          "Build exam temperament",
+          "Reinforce concepts through active learning",
+        ],
+      },
+      {
+        id: "mcqs-fit-conclusion",
+        type: "paragraph",
+        content:
+          "Many successful candidates solve at least a small number of questions daily, even during their busiest rotations. That consistency helps prevent long gaps in preparation.",
+      },
+      {
+        id: "managing-fatigue",
+        type: "heading",
+        title: "Managing Fatigue Is Part of the Strategy",
+        level: 2,
+      },
+      {
+        id: "managing-fatigue-para1",
+        type: "paragraph",
+        content:
+          "Internship is physically and mentally demanding. Ignoring fatigue often leads to burnout.",
+      },
+      {
+        id: "managing-fatigue-conclusion",
+        type: "paragraph",
+        content:
+          "Students who begin early get multiple chances to revisit topics before the exam. Knowledge actually sinks in. Less panic when exam time arrives. Instead of cramming everything at the end, you build gradually over months. By the time serious prep starts, half the foundation is already there.",
+      },
+      {
+        id: "revision-role",
+        type: "heading",
+        title: "The Role of Revision During Internship",
+        level: 2,
+      },
+      {
+        id: "revision-role-para1",
+        type: "paragraph",
+        content:
+          "One major advantage of starting preparation during internship is the opportunity for multiple revision cycles. Students who begin early get multiple chances to revisit topics before the exam. Knowledge actually sinks in. Less panic when exam time arrives.",
+      },
+      {
+        id: "revision-role-conclusion",
+        type: "paragraph",
+        content:
+          "Instead of cramming everything at the end, you build gradually over months. By the time serious prep starts, half the foundation is already there.",
+      },
+      {
+        id: "final-thoughts",
+        type: "heading",
+        title: "Final Thoughts",
+        level: 2,
+      },
+      {
+        id: "final-thoughts-para1",
+        type: "paragraph",
+        content:
+          "Balancing internship with competitive exam prep is hard. The workload is brutal. Schedules are all over the place. You're exhausted constantly.",
+      },
+      {
+        id: "final-thoughts-para2",
+        type: "paragraph",
+        content:
+          "But thousands of students do it every year. Make it work. The trick isn't waiting for perfect conditions. It's using whatever time exists consistently. Focus on stuff that actually matters. Revise regularly. Stay connected to prep even when you're drowning in clinical work.",
+      },
+      {
+        id: "final-thoughts-para3",
+        type: "paragraph",
+        content:
+          "Internship eats your study time. But it doesn't have to kill your chances.",
+      },
+      {
+        id: "final-thoughts-conclusion",
+        type: "paragraph",
+        content:
+          "Most aspirants who get through this phase find that the habits they built during internship become how they study for everything after. That matters way more than the actual exam scores.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "Can I prepare for NEET PG during internship?",
+            answer:
+              "Yeah. Many interns do it with consistent study and smart time management.",
+          },
+          {
+            question: "How many hours should I study daily?",
+            answer:
+              "Even 2-4 focused hours daily makes a real difference over time.",
+          },
+          {
+            question: "Are MCQs useful?",
+            answer:
+              "Yes. They reinforce concepts and fit into busy schedules better than long reading sessions.",
+          },
+          {
+            question: "Should I use multiple study resources?",
+            answer:
+              "No. Stick with a few reliable ones. Makes revision easier and more effective.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "neet pg",
+          "ini cet",
+          "fmge",
+          "competitive exams",
+          "medical pg entrance exam",
+          "entrance exam",
+          "medical pg entrance preparation",
+          "medical pg exam",
+          "medical pg preparation",
+          "exam preparation",
+        ],
+      },
+    ],
   },
-  "category": {
-    "name": "NEET PG",
-    "slug": "neet-pg",
-    "color": "bg-blue-100 text-blue-800"
+  {
+    id: 174,
+    title:
+      "From Wards to Rank Lists: Balancing Internship with Competitive Exam Preparation",
+    slug: "from-wards-to-rank-lists-balancing-internship-competitive-exam-preparation",
+    excerpt:
+      "Managing internship duties while preparing for competitive exams requires smart planning, disciplined study, and consistent daily revision.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/48213643/file/3dca466517edba7ebb40e713cfc9e03c.jpg",
+    featured_image_alt: "internship competitive exam preparation neet pg",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+    },
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
+    },
+    tags: [
+      "NEET PG",
+      "INI CET",
+      "FMGE",
+      "Exam Preparation",
+      "Medical Internship",
+    ],
+    published_date: "2026-06-29",
+    read_time: 10,
+    meta_title:
+      "From Wards to Rank Lists: Balancing Internship with Competitive Exam Preparation",
+    meta_description:
+      "Managing internship duties while preparing for competitive exams requires smart planning, disciplined study, and consistent daily revision.",
+    keywords: [
+      "neet pg",
+      "ini cet",
+      "fmge",
+      "competitive exam preparation",
+      "medical pg entrance exam",
+      "entrance exam",
+      "medical pg entrance preparation",
+      "medical pg exam",
+      "medical pg preparation",
+      "exam preparation",
+      "study materials",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content: "The internship is brutal. There's no way around it.",
+      },
+      {
+        id: "intro-para2",
+        type: "paragraph",
+        content:
+          "You're working long shifts. Emergency calls at 2 AM. Ward rounds that never end. Paperwork piling up. Patient care consuming your energy. And somewhere in there, you're trying to prepare for NEET PG, INI CET, FMGE.",
+      },
+      {
+        id: "intro-conclusion",
+        type: "paragraph",
+        content:
+          "Everyone talks about how hard this phase is. But thousands of interns manage it every year and get solid ranks. They're not superhuman. They're just smarter about how they use the little time they have.",
+      },
+      {
+        id: "internship-reality",
+        type: "heading",
+        title: "The Internship Reality",
+        level: 2,
+      },
+      {
+        id: "internship-reality-para1",
+        type: "paragraph",
+        content:
+          "Unlike MBBS, you're actually doing clinical work now. Schedules are unpredictable. One week you're in a light rotation; next week you're drowning in emergency calls.",
+      },
+      {
+        id: "internship-reality-para2",
+        type: "paragraph",
+        content: "Interns deal with:",
+      },
+      {
+        id: "internship-reality-list",
+        type: "list",
+        items: [
+          "Shifts that run past their end time",
+          "Night postings that destroy your sleep",
+          "Exhaustion that makes studying impossible",
+          "No continuous study time ever",
+          "Losing momentum constantly",
+        ],
+      },
+      {
+        id: "internship-reality-conclusion",
+        type: "paragraph",
+        content:
+          "Most interns walk in thinking they'll have tons of time to prep. Then reality hits and they realize they're completely wrong. The ones who succeed? They figure out a different way to approach this.",
+      },
+      {
+        id: "stop-waiting",
+        type: "heading",
+        title: "Stop Waiting for the Perfect Study Time",
+        level: 2,
+      },
+      {
+        id: "stop-waiting-para1",
+        type: "paragraph",
+        content:
+          "Forget about sitting down for six uninterrupted hours. That's not happening during internship.",
+      },
+      {
+        id: "stop-waiting-para2",
+        type: "paragraph",
+        content: "What actually works is using whatever time exists:",
+      },
+      {
+        id: "stop-waiting-list",
+        type: "list",
+        items: [
+          "Between ward rounds, there's 20 minutes. Use it.",
+          "Sitting in the duty room waiting for something? 15 minutes. Learn something.",
+          "Commuting to the hospital? Listen to something.",
+          "Post-duty when you're exhausted but awake? Even 30 focused minutes counts.",
+        ],
+      },
+      {
+        id: "stop-waiting-conclusion",
+        type: "paragraph",
+        content:
+          "Add these up over weeks and you've actually studied a decent amount.",
+      },
+      {
+        id: "stop-covering-everything",
+        type: "heading",
+        title: "Stop Trying to Cover Everything",
+        level: 2,
+      },
+      {
+        id: "stop-covering-para1",
+        type: "paragraph",
+        content:
+          "Real talk: you can't study everything equally during internship. So don't.",
+      },
+      {
+        id: "stop-covering-para2",
+        type: "paragraph",
+        content: "Focus on:",
+      },
+      {
+        id: "stop-covering-list",
+        type: "list",
+        items: [
+          "Stuff that shows up repeatedly in exams",
+          "Topics with high weightage",
+          "What was asked in previous years",
+          "Things you actually see clinically",
+          "High-yield revision materials",
+        ],
+      },
+      {
+        id: "stop-covering-conclusion",
+        type: "paragraph",
+        content:
+          "Forget trying to master every textbook chapter. Concentrate on topics that consistently appear in actual exams. You'll get way more done this way.",
+      },
+      {
+        id: "stop-collecting",
+        type: "heading",
+        title: "Stop Collecting New Books",
+        level: 2,
+      },
+      {
+        id: "stop-collecting-para1",
+        type: "paragraph",
+        content:
+          "This is a big one. During internship, aspirants often keep buying new resources, switching platforms, starting fresh study materials. That's the opposite of what works.",
+      },
+      {
+        id: "stop-collecting-para2",
+        type: "paragraph",
+        content:
+          "What actually works? Pick trustworthy materials and revise them multiple times. Not different materials. Same ones.",
+      },
+      {
+        id: "stop-collecting-list",
+        type: "list",
+        items: [
+          "Your memory strengthens",
+          "You recall faster",
+          "You actually retain things",
+          "You build confidence",
+        ],
+      },
+      {
+        id: "stop-collecting-conclusion",
+        type: "paragraph",
+        content:
+          "Most toppers revise the same notes repeatedly instead of constantly switching.",
+      },
+      {
+        id: "clinical-work-helps",
+        type: "heading",
+        title: "Your Clinical Work Is Actually Helping",
+        level: 2,
+      },
+      {
+        id: "clinical-work-para1",
+        type: "paragraph",
+        content:
+          "Here's something people overlook: your internship postings are teaching you stuff for the exam.",
+      },
+      {
+        id: "clinical-work-para2",
+        type: "paragraph",
+        content:
+          "Medicine rotation? You're seeing diagnosis and management in real time. Surgery? Clinical reasoning improves naturally. Emergency duties? You learn to make decisions fast.",
+      },
+      {
+        id: "clinical-work-conclusion",
+        type: "paragraph",
+        content:
+          "These experiences stick way better than just reading about them. Connect what you're seeing in wards with what you're studying. That creates actual understanding.",
+      },
+      {
+        id: "use-phone",
+        type: "heading",
+        title: "Use Your Phone to Study",
+        level: 2,
+      },
+      {
+        id: "use-phone-para1",
+        type: "paragraph",
+        content:
+          "You probably have your phone on you constantly anyway. Use it.",
+      },
+      {
+        id: "use-phone-list",
+        type: "list",
+        items: [
+          "Watch short concept videos",
+          "Solve question banks on it",
+          "Listen to discussions during commutes",
+          "Take quick practice tests when you have 10 minutes free",
+          "Use learning apps designed for revision",
+        ],
+      },
+      {
+        id: "use-phone-conclusion",
+        type: "paragraph",
+        content: "Your phone is always there. Use it.",
+      },
+      {
+        id: "exhaustion",
+        type: "heading",
+        title: "You're Going to Be Exhausted",
+        level: 2,
+      },
+      {
+        id: "exhaustion-para1",
+        type: "paragraph",
+        content:
+          "Let's be honest: studying after a 12-hour shift sucks. Some interns try to compensate by cutting sleep. That doesn't work. You get slower, less productive, more frustrated.",
+      },
+      {
+        id: "exhaustion-para2",
+        type: "paragraph",
+        content: "What actually helps:",
+      },
+      {
+        id: "exhaustion-list",
+        type: "list",
+        items: [
+          'Sleep when you can, even if it\'s not "ideal"',
+          "Take short breaks between study sessions",
+          "Set realistic daily goals",
+          "Move your body sometimes",
+          "Drink water",
+          "Keep a routine that's sustainable",
+        ],
+      },
+      {
+        id: "exhaustion-conclusion",
+        type: "paragraph",
+        content:
+          "This is a marathon. You'll burn out if you treat it like a sprint.",
+      },
+      {
+        id: "daily-consistency",
+        type: "heading",
+        title: "Daily Consistency Beats Weekend Cramming",
+        level: 2,
+      },
+      {
+        id: "daily-consistency-para1",
+        type: "paragraph",
+        content:
+          "A lot of interns stress when they can't study for hours every day. That's not actually the problem.",
+      },
+      {
+        id: "daily-consistency-para2",
+        type: "paragraph",
+        content:
+          "Two hours of focused study daily beats ten hours scattered sporadically. Consistency compounds over time. Momentum matters more than intensity.",
+      },
+      {
+        id: "daily-consistency-conclusion",
+        type: "paragraph",
+        content:
+          "Even on your busiest days, spending 30 minutes on prep keeps you moving forward.",
+      },
+      {
+        id: "top-rankers",
+        type: "heading",
+        title: "What Actually Happened With Top Rankers",
+        level: 2,
+      },
+      {
+        id: "top-rankers-para1",
+        type: "paragraph",
+        content:
+          "Look at recent NEET PG and INI CET toppers. Many were balancing internship. They didn't do anything magical.",
+      },
+      {
+        id: "top-rankers-list",
+        type: "list",
+        items: [
+          "Had a structured schedule they could actually follow",
+          "Revised regularly without getting new materials constantly",
+          "Learned from questions, not just reading",
+          "Picked resources and stuck with them",
+          "Focused on high-yield topics",
+        ],
+      },
+      {
+        id: "top-rankers-conclusion",
+        type: "paragraph",
+        content:
+          "They adapted around real life instead of waiting for ideal conditions.",
+      },
+      {
+        id: "plan-that-fits",
+        type: "heading",
+        title: "Make a Plan That Actually Fits Your Life",
+        level: 2,
+      },
+      {
+        id: "plan-that-fits-para1",
+        type: "paragraph",
+        content:
+          "There's no universal formula that works for everyone. Depending on your posting, you'll have different amounts of time. Some rotations are lighter. Others are brutal. Weekends might be free or you might be on call.",
+      },
+      {
+        id: "plan-that-fits-para2",
+        type: "paragraph",
+        content:
+          "Create a plan that fits your actual schedule, not some ideal version.",
+      },
+      {
+        id: "plan-that-fits-list",
+        type: "list",
+        items: [
+          "Set goals you can realistically hit",
+          "Track what's working",
+          "Revise often",
+          "Prioritize smartly",
+          "Adjust when things aren't working",
+        ],
+      },
+      {
+        id: "plan-that-fits-conclusion",
+        type: "paragraph",
+        content: "Personalized plans are way more sustainable than rigid ones.",
+      },
+      {
+        id: "real-talk",
+        type: "heading",
+        title: "The Real Talk",
+        level: 2,
+      },
+      {
+        id: "real-talk-para1",
+        type: "paragraph",
+        content:
+          "Balancing internship with competitive exam prep isn't easy. Thousands of interns do it though. Every year. And they land good ranks.",
+      },
+      {
+        id: "real-talk-para2",
+        type: "paragraph",
+        content:
+          "It's not about having more time or being smarter. It's about using whatever time you have more effectively. Focused revision. Smart resource selection. Showing up consistently. Intelligent time management. That's what moves the needle.",
+      },
+      {
+        id: "real-talk-conclusion",
+        type: "paragraph",
+        content:
+          "Internship is demanding. But if you approach it right, it becomes a phase where you're actually learning clinically and preparing for exams at the same time. That's the win.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "Can I prepare for NEET PG during internship?",
+            answer:
+              "Yeah, you can. Lots of interns do it. Just need to plan and manage your time smartly.",
+          },
+          {
+            question: "Should I study new resources during internship?",
+            answer:
+              "No. Stick with materials you already trust. Just revise them repeatedly instead of chasing new stuff.",
+          },
+          {
+            question: "Are mock tests important during internship?",
+            answer:
+              "Definitely. They help you remember what you've studied and get ready for the actual exam.",
+          },
+          {
+            question: "How much should I study daily during internship?",
+            answer:
+              "Even 30 to 60 minutes of actual focused study works. Doesn't have to be hours.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "neet pg",
+          "ini cet",
+          "fmge",
+          "competitive exam preparation",
+          "medical pg entrance exam",
+          "entrance exam",
+          "medical pg entrance preparation",
+          "medical pg exam",
+          "medical pg preparation",
+          "exam preparation",
+          "study materials",
+        ],
+      },
+    ],
   },
-  "tags": [
-    "NEET PG",
-    "NEET PG Preparation",
-    "INI CET",
-    "FMGE",
-    "Exam Preparation",
-    "Preparation Strategy"
-  ],
-  "published_date": "2026-06-19",
-  "read_time": 10,
-  "meta_title": "Why Consistency Beats Intensity in NEET PG Preparation and Long-Term Exam Success?",
-  "meta_description": "Consistent daily effort builds stronger retention, reduces burnout, and delivers lasting results, making it the key to NEET PG success.",
-  "keywords": [
-    "neet pg",
-    "ini cet",
-    "fmge",
-    "neet pg preparation",
-    "neet pg exam",
-    "neet pg syllabus",
-    "medical pg entrance exam",
-    "entrance exam",
-    "neet pg preparation online",
-    "neet pg study material",
-    "medical pg entrance preparation",
-    "medical pg exam",
-    "medical pg preparation",
-    "neet pg examination",
-    "neet pg online preparation"
-  ],
-  "sections": [
-    {
-      "id": "intro-para1",
-      "type": "paragraph",
-      "content": "Most medical aspirants know this feeling well."
+  {
+    id: 175,
+    title:
+      "Beyond Knowledge: The Role of Exam Temperament in Medical Entrance Exams",
+    slug: "beyond-knowledge-role-exam-temperament-medical-entrance-exams",
+    excerpt:
+      "Success in medical entrance exams demands more than knowledge. Strong exam temperament improves focus, accuracy, confidence, and ranks.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/48239138/file/4eab19830c2899634f073c89a879427c.jpg",
+    featured_image_alt: "exam temperament medical entrance exams",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
     },
-    {
-      "id": "intro-para2",
-      "type": "paragraph",
-      "content": "Motivation hits. A fresh study plan is made. The targets are ambitious, the hours go up, and for a few days maybe even a couple of weeks everything feels like it's finally clicking."
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
     },
-    {
-      "id": "intro-para3",
-      "type": "paragraph",
-      "content": "Then the internship gets hectic. Postings pile up. Energy drops. The plan quietly falls apart."
-    },
-    {
-      "id": "intro-para4",
-      "type": "paragraph",
-      "content": "And then, a few weeks later, the cycle starts again."
-    },
-    {
-      "id": "intro-conclusion",
-      "type": "paragraph",
-      "content": "This pattern is one of the main reasons capable students don't reach their potential in NEET PG, INI-CET, or FMGE. Not lack of intelligence, not lack of effort, just the wrong kind of effort, delivered inconsistently."
-    },
-    {
-      "id": "hours-myth",
-      "type": "heading",
-      "title": "The Hours Myth",
-      "level": 2
-    },
-    {
-      "id": "hours-myth-para1",
-      "type": "paragraph",
-      "content": "There's a persistent belief that success comes down to studying for as many hours as possible. Grind harder. Sleep less. Do more."
-    },
-    {
-      "id": "hours-myth-para2",
-      "type": "paragraph",
-      "content": "But long-term exam performance isn't built in a few brutal weeks. It's built on what you do repeatedly over months."
-    },
-    {
-      "id": "hours-myth-conclusion",
-      "type": "paragraph",
-      "content": "A student putting in five focused hours daily for six months will almost always outperform someone who does twelve-hour sessions for a few weeks and then crashes. Competitive exams reward accumulated learning. And accumulation requires consistency, not just intensity."
-    },
-    {
-      "id": "brain-retains",
-      "type": "heading",
-      "title": "How the Brain Actually Retains Things",
-      "level": 2
-    },
-    {
-      "id": "brain-retains-para1",
-      "type": "paragraph",
-      "content": "The NEET PG syllabus is enormous - nineteen subjects, thousands of concepts, endless clinical scenarios, images, investigations, and drug lists. Nobody retains all of that after reading it once."
-    },
-    {
-      "id": "brain-retains-para2",
-      "type": "paragraph",
-      "content": "Memory strengthens through repeated exposure. Every revision cycle makes recall faster and more reliable. Concepts that once needed effort to remember start coming automatically. Clinical reasoning sharpens. Information moves from short-term memory into something that actually sticks."
-    },
-    {
-      "id": "brain-retains-conclusion",
-      "type": "paragraph",
-      "content": "That process takes time, and it can't be shortcut. Students who engage with material consistently - even in short sessions - build stronger recall than those who rely on occasional marathon cramming."
-    },
-    {
-      "id": "confidence",
-      "type": "heading",
-      "title": "Confidence Comes from Evidence, Not Motivation",
-      "level": 2
-    },
-    {
-      "id": "confidence-para1",
-      "type": "paragraph",
-      "content": "A lot of students think exam confidence comes from feeling ready. It doesn't. It comes from knowing you've done the work."
-    },
-    {
-      "id": "confidence-conclusion",
-      "type": "paragraph",
-      "content": "When you revise regularly, solve MCQs daily, and track your progress, you build actual evidence that you've improved. You've seen the topics multiple times. You've corrected your mistakes. You know where you stand. That's a different kind of confidence than the one that comes from a motivational video the night before the exam - and it holds up a lot better under pressure."
-    },
-    {
-      "id": "small-actions",
-      "type": "heading",
-      "title": "Small Actions, Compounded",
-      "level": 2
-    },
-    {
-      "id": "small-actions-para1",
-      "type": "paragraph",
-      "content": "Ten new concepts a day doesn't feel like much. Fifty MCQs a day seems ordinary. Revisiting one difficult topic every evening looks insufficient."
-    },
-    {
-      "id": "small-actions-para2",
-      "type": "paragraph",
-      "content": "But run those habits for six months and the picture changes completely. Thousands of questions solved. Multiple revision cycles completed. Weak areas tracked and addressed. The progress looks dramatic from the outside, but it was built through hundreds of completely ordinary study sessions."
-    },
-    {
-      "id": "small-actions-conclusion",
-      "type": "paragraph",
-      "content": "That's how it works. There's no other way."
-    },
-    {
-      "id": "burnout",
-      "type": "heading",
-      "title": "Intensity Without Sustainability Leads to Burnout",
-      "level": 2
-    },
-    {
-      "id": "burnout-para1",
-      "type": "paragraph",
-      "content": "Pushing yourself to maximum capacity for weeks at a stretch catches up with you. Sleep gets worse. Stress compounds. Concentration drops. Eventually the preparation itself starts to suffer."
-    },
-    {
-      "id": "burnout-para2",
-      "type": "paragraph",
-      "content": "Consistency creates a rhythm you can actually maintain. Not every session has to be heroic. You just have to show up and do the work, day after day, at a pace that doesn't destroy you by month three."
-    },
-    {
-      "id": "burnout-conclusion",
-      "type": "paragraph",
-      "content": "For exams that require a year or more of sustained preparation, sustainability isn't a luxury - it's a strategy."
-    },
-    {
-      "id": "mock-tests",
-      "type": "heading",
-      "title": "Why Mock Test Scores Reflect Habits, Not Just Knowledge",
-      "level": 2
-    },
-    {
-      "id": "mock-tests-para1",
-      "type": "paragraph",
-      "content": "Students tend to look at mock scores as a snapshot of what they know. But scores are really a reflection of how they've been preparing."
-    },
-    {
-      "id": "mock-tests-conclusion",
-      "type": "paragraph",
-      "content": "Students who revise consistently tend to recognize patterns faster, get through clinical scenarios more efficiently, and make fewer careless errors - not because they're smarter, but because they've practiced under exam conditions repeatedly. When preparation is a daily habit, test performance tends to follow naturally."
-    },
-    {
-      "id": "toppers-disciplined",
-      "type": "heading",
-      "title": "Toppers Aren't Always Motivated. They're Disciplined.",
-      "level": 2
-    },
-    {
-      "id": "toppers-disciplined-para1",
-      "type": "paragraph",
-      "content": "There's a myth that high-performers stay fired up throughout their entire preparation. They don't. Top rankers get tired, frustrated, and doubtful like everyone else."
-    },
-    {
-      "id": "toppers-disciplined-para2",
-      "type": "paragraph",
-      "content": "The difference is they keep going anyway. Their preparation isn't dependent on how they feel on a given day. It runs on discipline and routine - things that survive on the days when motivation has completely disappeared."
-    },
-    {
-      "id": "toppers-disciplined-conclusion",
-      "type": "paragraph",
-      "content": "Motivation is useful when it shows up. Consistency is what carries you when it doesn't."
-    },
-    {
-      "id": "revision-ongoing",
-      "type": "heading",
-      "title": "Revision Works Best When It's Ongoing",
-      "level": 2
-    },
-    {
-      "id": "revision-ongoing-para1",
-      "type": "paragraph",
-      "content": "Students who revise regularly don't panic in the final stretch before the exam. Their notes are familiar territory. Key concepts have been seen multiple times. Weak spots were identified and worked on months ago."
-    },
-    {
-      "id": "revision-ongoing-conclusion",
-      "type": "paragraph",
-      "content": "Students who put off revision discover that the syllabus feels just as overwhelming at the end as it did at the beginning. Regular revision prevents that from happening - not dramatically, just steadily, one session at a time."
-    },
-    {
-      "id": "exam-day-composure",
-      "type": "heading",
-      "title": "What Exam-Day Composure Actually Looks Like",
-      "level": 2
-    },
-    {
-      "id": "exam-day-composure-para1",
-      "type": "paragraph",
-      "content": "Doing well on exam day isn't just about what you know. Concentration, decision-making, time management, and composure under pressure all play a role."
-    },
-    {
-      "id": "exam-day-composure-conclusion",
-      "type": "paragraph",
-      "content": "These things develop gradually through consistent practice. Students who've spent months solving questions, analyzing tests, and revising systematically tend to feel more settled walking into the exam. Their performance becomes less dependent on luck and more a reflection of preparation. In a competitive exam where margins are small, that stability matters."
-    },
-    {
-      "id": "honest-truth",
-      "type": "heading",
-      "title": "The Honest Truth",
-      "level": 2
-    },
-    {
-      "id": "honest-truth-para1",
-      "type": "paragraph",
-      "content": "There's no perfect timetable. No single resource that changes everything. No shortcut that replaces months of structured work."
-    },
-    {
-      "id": "honest-truth-para2",
-      "type": "paragraph",
-      "content": "The students who keep improving aren't doing anything extraordinary. They're revising. Solving questions. Analyzing mistakes. Coming back the next day and doing it again."
-    },
-    {
-      "id": "honest-truth-conclusion",
-      "type": "paragraph",
-      "content": "Over time, those repeated ordinary actions produce results that look extraordinary. That's not inspiration - that's just how preparation works."
-    },
-    {
-      "id": "faqs",
-      "type": "heading",
-      "title": "FAQs",
-      "level": 2
-    },
-    {
-      "id": "faqs-list",
-      "type": "faq",
-      "faqs": [
-        {
-          "question": "Why does consistency matter so much in NEET PG prep?",
-          "answer": "Because the syllabus is too large to retain through sporadic effort. Regular revision is what moves information into long-term memory and keeps it there."
-        },
-        {
-          "question": "Is daily study actually better than occasional long sessions?",
-          "answer": "For most students, yes. Shorter, regular sessions beat infrequent marathons for retention and sustainable energy."
-        },
-        {
-          "question": "Can being consistent improve mock test scores?",
-          "answer": "It usually does. Repeated revision and daily MCQ practice build the kind of accuracy and pattern recognition that shows up on tests."
-        },
-        {
-          "question": "Do toppers just have better motivation?",
-          "answer": "Rarely. Most of them talk about discipline and routine, not motivation. Motivation fluctuates. Habits don't."
-        }
-      ]
-    },
-    {
-      "id": "keywords",
-      "type": "keywords",
-      "title": "Related Keywords",
-      "keywords": [
-        "neet pg",
-        "ini cet",
-        "fmge",
-        "neet pg preparation",
-        "neet pg exam",
-        "neet pg syllabus",
-        "medical pg entrance exam",
-        "entrance exam",
-        "neet pg preparation online",
-        "neet pg study material",
-        "medical pg entrance preparation",
-        "medical pg exam",
-        "medical pg preparation",
-        "neet pg examination",
-        "neet pg online preparation"
-      ]
-    }
-  ]
-},
-{
-  "id": 170,
-  "title": "Why Retention Matters More Than Syllabus Completion in NEET PG Preparation",
-  "slug": "why-retention-matters-more-than-syllabus-completion-neet-pg-preparation",
-  "excerpt": "Retaining concepts through revision and recall is more valuable than merely finishing the syllabus for achieving a strong NEET PG rank.",
-  "featured_image": "https://cdn.dribbble.com/userupload/48140207/file/97c266a44539d92a1db1b3a3e1b6cc1e.jpg",
-  "featured_image_alt": "NEET PG Preparation",
-  "author": {
-    "name": "Believers Team",
-    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
-    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+    tags: [
+      "NEET PG",
+      "INI CET",
+      "FMGE",
+      "Exam Preparation",
+      "Postgraduate Entrance Exams",
+    ],
+    published_date: "2026-07-01",
+    read_time: 10,
+    meta_title:
+      "Beyond Knowledge: The Role of Exam Temperament in Medical Entrance Exams",
+    meta_description:
+      "Success in medical entrance exams demands more than knowledge. Strong exam temperament improves focus, accuracy, confidence, and ranks.",
+    keywords: [
+      "neet pg",
+      "ini cet",
+      "fmge",
+      "postgraduate entrance exams",
+      "competitive exam preparation",
+      "medical pg entrance exam",
+      "entrance exam",
+      "medical pg entrance preparation",
+      "medical pg exam",
+      "medical pg preparation",
+      "exam preparation",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content:
+          "Every year thousands of medical aspirants begin their medical PG entrance preparation for NEET PG, INI-CET, FMGE and other postgraduate entrance exams. They study for months. Solve questions. Take practice tests. Then results come out.",
+      },
+      {
+        id: "intro-para2",
+        type: "paragraph",
+        content:
+          "Some students score what they expected. Others bomb. Usually not because they don't know the stuff. They just fell apart during the exam.",
+      },
+      {
+        id: "intro-conclusion",
+        type: "paragraph",
+        content: "That's exam temperament. And almost nobody talks about it.",
+      },
+      {
+        id: "what-temperament-is",
+        type: "heading",
+        title: "What Exam Temperament Actually Is",
+        level: 2,
+      },
+      {
+        id: "what-temperament-para1",
+        type: "paragraph",
+        content: "It's staying composed when pressure hits.",
+      },
+      {
+        id: "what-temperament-para2",
+        type: "paragraph",
+        content: "It means:",
+      },
+      {
+        id: "what-temperament-list",
+        type: "list",
+        items: [
+          "Not freaking out on a hard question",
+          "Handling surprises without losing it",
+          "Managing time without rushing",
+          "Keeping your head when you're unsure",
+          "Moving past mistakes instead of dwelling on them",
+          "Making smart choices instead of panicking",
+        ],
+      },
+      {
+        id: "what-temperament-conclusion",
+        type: "paragraph",
+        content:
+          "Students with strong temperament perform like they studied. Students without it? They underperform badly.",
+      },
+      {
+        id: "knowledge-alone",
+        type: "heading",
+        title: "Why Knowledge Alone Doesn't Cut It",
+        level: 2,
+      },
+      {
+        id: "knowledge-alone-para1",
+        type: "paragraph",
+        content:
+          "A medical PG entrance exam isn't just about memorization. You're processing information fast. Interpreting clinical scenarios. Making calls under time pressure. Dealing with uncertainty. Working through long papers.",
+      },
+      {
+        id: "knowledge-alone-para2",
+        type: "paragraph",
+        content:
+          "You might know the answer but still get it wrong because you panicked or rushed.",
+      },
+      {
+        id: "knowledge-alone-conclusion",
+        type: "paragraph",
+        content:
+          "This is why two equally prepared students get different scores. One stays calm. The other doesn't.",
+      },
+      {
+        id: "what-pressure-does",
+        type: "heading",
+        title: "What Pressure Actually Does",
+        level: 2,
+      },
+      {
+        id: "what-pressure-para1",
+        type: "paragraph",
+        content: "Every high-pressure entrance exam messes with your head.",
+      },
+      {
+        id: "what-pressure-para2",
+        type: "paragraph",
+        content: "You get:",
+      },
+      {
+        id: "what-pressure-list",
+        type: "list",
+        items: [
+          "Racing thoughts",
+          "Anxiety spiking",
+          "Can't focus",
+          "Doubting answers you knew",
+          "Time management crumbling",
+          "Confidence tanking after a hard question",
+        ],
+      },
+      {
+        id: "what-pressure-conclusion",
+        type: "paragraph",
+        content:
+          "These are normal. The problem is when they run your exam. Students with strong temperament manage these without letting emotions take over.",
+      },
+      {
+        id: "common-mistakes",
+        type: "heading",
+        title: "Common Exam Mistakes",
+        level: 2,
+      },
+      {
+        id: "stuck-question",
+        type: "heading",
+        title: "Stuck on One Difficult Question",
+        level: 3,
+      },
+      {
+        id: "stuck-question-para",
+        type: "paragraph",
+        content:
+          "A hard question early eats your time and creates stress for nothing. Smart candidates skip it, move on, come back later.",
+      },
+      {
+        id: "frustrated-mistake",
+        type: "heading",
+        title: "Getting Frustrated Over One Wrong Answer",
+        level: 3,
+      },
+      {
+        id: "frustrated-mistake-para",
+        type: "paragraph",
+        content:
+          "One mistake and your concentration tanks. The rest of the exam suffers. Strong temperament means moving on fast and staying focused.",
+      },
+      {
+        id: "changing-answers",
+        type: "heading",
+        title: "Changing Answers Obsessively",
+        level: 3,
+      },
+      {
+        id: "changing-answers-para",
+        type: "paragraph",
+        content:
+          "Revising answers is fine. Changing them constantly because you doubt yourself usually creates unnecessary mistakes. Good temperament means trusting your preparation.",
+      },
+      {
+        id: "watching-others",
+        type: "heading",
+        title: "Watching What Others Are Doing",
+        level: 3,
+      },
+      {
+        id: "watching-others-para",
+        type: "paragraph",
+        content:
+          "Looking around wondering if others are faster just distracts you. Best candidates focus only on themselves.",
+      },
+      {
+        id: "mock-tests-temperament",
+        type: "heading",
+        title: "Mock Tests Build Temperament",
+        level: 2,
+      },
+      {
+        id: "mock-tests-para1",
+        type: "paragraph",
+        content:
+          "During competitive exam preparation, most people treat mocks as just score checks. They're actually where you build temperament.",
+      },
+      {
+        id: "mock-tests-para2",
+        type: "paragraph",
+        content: "Mocks help you:",
+      },
+      {
+        id: "mock-tests-list",
+        type: "list",
+        items: [
+          "Experience real exam pressure",
+          "Figure out time management",
+          "Develop a question strategy",
+          "Practice staying focused",
+          "Get used to exam conditions",
+        ],
+      },
+      {
+        id: "mock-tests-conclusion",
+        type: "paragraph",
+        content:
+          "The more mocks you take, the less nervous you get. Confidence builds naturally. Top rankers do this consistently.",
+      },
+      {
+        id: "confidence-built",
+        type: "heading",
+        title: "Confidence Isn't Built on Exam Day",
+        level: 2,
+      },
+      {
+        id: "confidence-para1",
+        type: "paragraph",
+        content:
+          "Confidence doesn't just show up on exam day. You build it over time.",
+      },
+      {
+        id: "confidence-para2",
+        type: "paragraph",
+        content: "Confidence comes from:",
+      },
+      {
+        id: "confidence-list",
+        type: "list",
+        items: [
+          "Revising consistently",
+          "Fixing what you're weak in",
+          "Looking at what you got wrong",
+          "Going through material multiple times",
+          "Seeing yourself improve",
+        ],
+      },
+      {
+        id: "confidence-conclusion",
+        type: "paragraph",
+        content:
+          "Consistent medical PG preparation genuinely builds confidence without forcing it. That matters a lot when you are facing questions you didn't expect.",
+      },
+      {
+        id: "emotional-control",
+        type: "heading",
+        title: "Emotional Control Matters",
+        level: 2,
+      },
+      {
+        id: "emotional-control-para1",
+        type: "paragraph",
+        content:
+          "High-pressure exams test your mental toughness as much as your knowledge.",
+      },
+      {
+        id: "emotional-control-para2",
+        type: "paragraph",
+        content: "The candidates who do well understand:",
+      },
+      {
+        id: "emotional-control-list",
+        type: "list",
+        items: [
+          "That all hard questions hit everyone",
+          "Nobody knows all the answers",
+          "Not being sure about something is normal",
+          "A few wrong answers don't affect your rank",
+        ],
+      },
+      {
+        id: "emotional-control-conclusion",
+        type: "paragraph",
+        content:
+          "This mindset keeps them level-headed throughout the whole exam.",
+      },
+      {
+        id: "learning-from-experience",
+        type: "heading",
+        title: "Learning From Experience",
+        level: 2,
+      },
+      {
+        id: "learning-para1",
+        type: "paragraph",
+        content:
+          "Most successful candidates credit previous exams and mocks for better temperament.",
+      },
+      {
+        id: "learning-para2",
+        type: "paragraph",
+        content: "Each attempt teaches:",
+      },
+      {
+        id: "learning-list",
+        type: "list",
+        items: [
+          "How to allocate time",
+          "How to manage stress",
+          "Which questions to do",
+          "How long you can focus",
+          "How to bounce back from mistakes",
+        ],
+      },
+      {
+        id: "learning-conclusion",
+        type: "paragraph",
+        content:
+          "Temperament isn't something you're born with. It's a skill that improves with practice throughout your exam preparation.",
+      },
+      {
+        id: "temperament-separates",
+        type: "heading",
+        title: "Why Temperament Separates Good Ranks From Great Ranks",
+        level: 2,
+      },
+      {
+        id: "temperament-separates-para1",
+        type: "paragraph",
+        content:
+          "At competitive levels, knowledge gaps between candidates are small. Most well-prepared aspirants know the material.",
+      },
+      {
+        id: "temperament-separates-para2",
+        type: "paragraph",
+        content: "What creates separation? Who executes best under pressure.",
+      },
+      {
+        id: "temperament-separates-conclusion",
+        type: "paragraph",
+        content:
+          "Candidates who stay calm, think clearly, and stick to strategy convert their preparation into actual performance. Often success comes down to who managed the exam process best, not who studied the most.",
+      },
+      {
+        id: "conclusion",
+        type: "heading",
+        title: "Conclusion",
+        level: 2,
+      },
+      {
+        id: "conclusion-para1",
+        type: "paragraph",
+        content:
+          "NEET PG, INI-CET, and FMGE are medical PG exams that test more than knowledge. They test decision-making, focus, resilience, composure.",
+      },
+      {
+        id: "conclusion-para2",
+        type: "paragraph",
+        content:
+          "Mastering subjects matters. But temperament matters equally. Staying composed. Recovering from mistakes. Managing your time. Keeping confidence. These things shift how you perform.",
+      },
+      {
+        id: "conclusion-para3",
+        type: "paragraph",
+        content:
+          "As competition gets tougher, aspirants who build temperament alongside academics do better when it actually matters.",
+      },
+      {
+        id: "conclusion-closing",
+        type: "paragraph",
+        content:
+          "Success isn't memorizing everything. It's how well you use what you know when the pressure's on.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "Can exam temperament be developed?",
+            answer:
+              "Yeah. It gets better with every mock and every exam you take.",
+          },
+          {
+            question: "Do mock tests actually help with temperament?",
+            answer:
+              "They do. Mocks prepare you for real medical PG entrance exam pressure and teach your brain to stay calm.",
+          },
+          {
+            question: "What's the biggest mistake people make during exams?",
+            answer:
+              "Getting stuck on one hard question and wasting time on it instead of moving forward.",
+          },
+          {
+            question: "How do I stop second-guessing my answers?",
+            answer:
+              "Trust your prep. Only change an answer if you're actually sure you got it wrong.",
+          },
+          {
+            question: "Does exam temperament matter more than knowledge?",
+            answer:
+              "Both matter. But temperament decides how well you actually use what you studied.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "neet pg",
+          "ini cet",
+          "fmge",
+          "postgraduate entrance exams",
+          "competitive exam preparation",
+          "medical pg entrance exam",
+          "entrance exam",
+          "medical pg entrance preparation",
+          "medical pg exam",
+          "medical pg preparation",
+          "exam preparation",
+        ],
+      },
+    ],
   },
-  "category": {
-    "name": "NEET PG",
-    "slug": "neet-pg",
-    "color": "bg-blue-100 text-blue-800"
+  {
+    id: 176,
+    title:
+      "NEET PG Counselling and Career Choices: The Mistakes, Myths, and Mindset Shifts Every Aspirant Should Know",
+    slug: "neet-pg-counselling-and-career-choices-the-mistakes-myths-and-mindset-shifts-every-aspirant-should-know",
+    excerpt:
+      "Avoid common NEET PG counselling mistakes, break career myths, and develop the mindset needed for smarter specialty choices.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/48261918/file/5d28602e4715ce36aba67bb208ee2ea1.jpg",
+    featured_image_alt: "neet pg counselling career choices",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+    },
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
+    },
+    tags: [
+      "NEET PG",
+      "NEET PG Counselling",
+      "PG Counselling",
+      "Career Choices",
+      "Medical PG Preparation",
+    ],
+    published_date: "2026-07-03",
+    read_time: 8,
+    meta_title:
+      "NEET PG Counselling and Career Choices: The Mistakes, Myths, and Mindset Shifts Every Aspirant Should Know",
+    meta_description:
+      "Avoid common NEET PG counselling mistakes, break career myths, and develop the mindset needed for smarter specialty choices.",
+    keywords: [
+      "neet pg counselling",
+      "pg counselling",
+      "neet pg preparation",
+      "neet pg exam",
+      "neet pg entrance exam",
+      "neet pg counselling schedule",
+      "apply for neet pg counselling",
+      "career counselling neet pg",
+      "choice filling neet pg",
+      "counselling for neet pg",
+      "medical pg preparation",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content:
+          "Most medical graduates treat NEET PG as the finish line. Months of studying, endless revisions, mock tests, score anxiety, exam-day nerves - all of it aimed at one thing: securing a postgraduate seat.",
+      },
+      {
+        id: "intro-para2",
+        type: "paragraph",
+        content: "But getting the rank is only half the story.",
+      },
+      {
+        id: "intro-para3",
+        type: "paragraph",
+        content:
+          "What happens after results can be just as consequential. Every year, students miss seats they could have had, make counselling errors that are completely avoidable, pick branches without really thinking them through, and sometimes carry a confidence wound for months because their rank didn't match what they'd hoped for.",
+      },
+      {
+        id: "intro-conclusion",
+        type: "paragraph",
+        content:
+          "A good medical career is shaped by far more than a single exam result. But the decisions made in the weeks right after that result matter more than most students realize going in.",
+      },
+      {
+        id: "counselling-mistakes",
+        type: "heading",
+        title: "The Counselling Mistakes That Quietly Cost Aspirants Seats",
+        level: 2,
+      },
+      {
+        id: "counselling-mistakes-para1",
+        type: "paragraph",
+        content:
+          "Students spend months on NEET PG preparation and then rush through counselling in a few days. Those few days can have consequences that last years.",
+      },
+      {
+        id: "counselling-mistakes-table",
+        type: "table",
+        headers: ["Mistake", "Why It Costs You"],
+        rows: [
+          [
+            "Filling too few choices",
+            "A short preference list shrinks your options during allotment rounds significantly. Casting a wider net is almost always smarter.",
+          ],
+          [
+            "Ignoring lower-fee colleges",
+            "Some institutions offer genuinely strong training at a fraction of the fees of more well-known names. Overlooking them purely on reputation is a financial decision dressed up as an academic one.",
+          ],
+          [
+            "Not understanding upgradation rules",
+            "The rules around free exits, upgrades, and seat retention are genuinely confusing - and not understanding them means missing opportunities in later rounds that were yours to take.",
+          ],
+          [
+            "Missing deadlines",
+            "Document submissions, reporting windows, payment deadlines. Every counselling cycle sees students lose seats over things that had nothing to do with their rank. In a competitive process, small oversights carry real consequences.",
+          ],
+          [
+            "Ignoring bond and service obligations",
+            "Some colleges and states come with mandatory service commitments. Finding out after you've accepted a seat is a very different experience from knowing beforehand.",
+          ],
+        ],
+      },
+      {
+        id: "financial-side",
+        type: "heading",
+        title: "The Financial Side That Doesn't Get Talked About Enough",
+        level: 2,
+      },
+      {
+        id: "financial-side-para1",
+        type: "paragraph",
+        content:
+          "The decisions made during counselling can have financial implications that stretch well beyond tuition fees.",
+      },
+      {
+        id: "financial-side-para2",
+        type: "paragraph",
+        content:
+          "There have been cases where students accepted expensive management-quota seats early, only to find out later that government-seat opportunities were still available through subsequent rounds. This isn't an argument that one path is always right and another is always wrong. It's an argument for being informed before you commit.",
+      },
+      {
+        id: "financial-side-conclusion",
+        type: "paragraph",
+        content:
+          "Understanding how the rounds work, staying in the process when it makes sense to, and getting guidance from people who've been through it - these things genuinely matter.",
+      },
+      {
+        id: "beyond-five-branches",
+        type: "heading",
+        title: "Looking Beyond the Usual Five Branches",
+        level: 2,
+      },
+      {
+        id: "beyond-five-para1",
+        type: "paragraph",
+        content:
+          "Every year, thousands of students compete for a small number of seats in the same handful of specialties. There's nothing wrong with wanting a popular branch. But when your entire career plan depends on landing in one of three fields, you've already narrowed your options in ways that might not serve you well.",
+      },
+      {
+        id: "beyond-five-para2",
+        type: "paragraph",
+        content:
+          "Several specialties are seeing real growth in demand and career opportunity - Anesthesiology, Psychiatry, Emergency Medicine, Nuclear Medicine, Radiology. As healthcare systems expand and patient needs change, these fields offer strong professional growth, solid academic paths, and genuine satisfaction for doctors who chose them thoughtfully rather than by default.",
+      },
+      {
+        id: "beyond-five-conclusion",
+        type: "paragraph",
+        content:
+          "Students who explore specialties based on actual interest and future demand tend to make more confident decisions - and usually more settled ones too.",
+      },
+      {
+        id: "closing-rank-obsession",
+        type: "heading",
+        title: "The Closing Rank Obsession",
+        level: 2,
+      },
+      {
+        id: "closing-rank-para1",
+        type: "paragraph",
+        content:
+          "After results come out, the conversations almost immediately turn to numbers. Closing ranks from last year, predicted cutoffs, what rank gets what branch in which college.",
+      },
+      {
+        id: "closing-rank-para2",
+        type: "paragraph",
+        content:
+          "These numbers are useful. But they're not gospel. Closing ranks shift every year based on seat availability, candidate preferences, reservation policies, and exam difficulty. What closed at a certain number last year tells you something - it doesn't tell you everything.",
+      },
+      {
+        id: "closing-rank-conclusion",
+        type: "paragraph",
+        content:
+          "Using them as a rough guide is sensible. Building your entire counselling strategy around them is not.",
+      },
+      {
+        id: "rank-not-verdict",
+        type: "heading",
+        title: "Your Rank Is Not a Verdict on You",
+        level: 2,
+      },
+      {
+        id: "rank-not-verdict-para1",
+        type: "paragraph",
+        content:
+          "This is probably the most important thing in this piece, and the hardest one to actually believe when you're sitting with a result that disappointed you.",
+      },
+      {
+        id: "rank-not-verdict-para2",
+        type: "paragraph",
+        content: "NEET PG is an important exam. It is still just an exam.",
+      },
+      {
+        id: "rank-not-verdict-para3",
+        type: "paragraph",
+        content:
+          "Across hospitals, clinics, academic institutions, and healthcare systems, successful doctors come from every possible rank range. Patients don't ask where you ranked. They care whether you can listen, think clearly, communicate honestly, and show up for them when it matters.",
+      },
+      {
+        id: "rank-not-verdict-conclusion",
+        type: "paragraph",
+        content:
+          "The qualities that build a long medical career - clinical judgment, empathy, professionalism, the ability to keep learning - have very little to do with where you placed on a single competitive exam.",
+      },
+      {
+        id: "result-disappoints",
+        type: "heading",
+        title: "When the Result Doesn't Match What You Worked For",
+        level: 2,
+      },
+      {
+        id: "result-disappoints-para1",
+        type: "paragraph",
+        content:
+          "Some students will read this after a result that genuinely hurt. Months of effort, real sacrifice, and then a number that didn't reflect any of it - or at least didn't feel like it did.",
+      },
+      {
+        id: "result-disappoints-para2",
+        type: "paragraph",
+        content:
+          "That's a hard place to sit in. The competition is intense, self-doubt at this stage is almost universal, and progress through preparation often feels invisible until long after the fact.",
+      },
+      {
+        id: "result-disappoints-conclusion",
+        type: "paragraph",
+        content:
+          "What's worth remembering: an exam result captures how you performed on one particular day. It doesn't measure the full range of what you know, what you're capable of, or what kind of doctor you'll actually be. A difficult result doesn't erase years of clinical learning, patient interactions, or everything you've developed as a professional.",
+      },
+      {
+        id: "bigger-picture",
+        type: "heading",
+        title: "The Bigger Picture",
+        level: 2,
+      },
+      {
+        id: "bigger-picture-para1",
+        type: "paragraph",
+        content:
+          "Medical careers are built over decades. The counselling round, the branch selection, the college - these are real decisions with real consequences, but they are not the final word on anything.",
+      },
+      {
+        id: "bigger-picture-para2",
+        type: "paragraph",
+        content:
+          "Students who make informed counselling choices, stay open to opportunities they hadn't originally considered, and keep some perspective during the harder moments tend to come through this phase better. Not because they had better ranks, but because they approached it more clearly.",
+      },
+      {
+        id: "bigger-picture-conclusion",
+        type: "paragraph",
+        content:
+          "The goal was never just to secure a seat. The goal is a career in medicine that actually means something to you. That journey can start from a lot of different places.",
+      },
+      {
+        id: "one-last-thing",
+        type: "heading",
+        title: "One Last Thing",
+        level: 2,
+      },
+      {
+        id: "one-last-para1",
+        type: "paragraph",
+        content:
+          "NEET PG results feel like a culmination. Really, they're the beginning of a new set of decisions.",
+      },
+      {
+        id: "one-last-para2",
+        type: "paragraph",
+        content:
+          "Understanding how counselling works, avoiding the common mistakes, staying open to emerging specialties, and not letting a rank become a story you tell yourself about your own worth - these things will matter in the years ahead more than the rank itself.",
+      },
+      {
+        id: "one-last-conclusion",
+        type: "paragraph",
+        content:
+          "A rank can shape your next step. It cannot determine the kind of doctor you become. That part is still entirely up to you.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question:
+              "What are the most common mistakes during NEET PG counselling?",
+            answer:
+              "People fill too few choices. They miss deadlines. They don't actually understand how the rules work. That's it. Avoid those three things and you're ahead of most.",
+          },
+          {
+            question: "Should I choose a branch based only on my NEET PG rank?",
+            answer:
+              "No way. Your rank gets you in the door. What actually matters is what you want to do, where you want your career to go, and what opportunities exist in that field. Don't let rank make the decision for you.",
+          },
+          {
+            question:
+              "Are closing ranks from previous years reliable for counselling?",
+            answer:
+              "They're useful for getting an idea. But they change every counselling cycle. Use them as reference, not gospel. Each year is different.",
+          },
+          {
+            question:
+              "Can a low NEET PG rank still lead to a successful medical career?",
+            answer:
+              "Absolutely. Your rank isn't your destiny. How you make counselling decisions and how you grow professionally after that matters way more. People with lower ranks get ahead all the time.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "neet pg counselling",
+          "pg counselling",
+          "neet pg preparation",
+          "neet pg exam",
+          "neet pg entrance exam",
+          "neet pg counselling schedule",
+          "apply for neet pg counselling",
+          "career counselling neet pg",
+          "choice filling neet pg",
+          "counselling for neet pg",
+          "medical pg preparation",
+        ],
+      },
+    ],
   },
-  "tags": [
-    "NEET PG",
-    "NEET PG Preparation",
-    "INI CET",
-    "FMGE",
-    "Exam Preparation",
-    "Preparation Strategy"
-  ],
-  "published_date": "2026-06-22",
-  "read_time": 10,
-  "meta_title": "Why Retention Matters More Than Syllabus Completion in NEET PG Preparation",
-  "meta_description": "Retaining concepts through revision and recall is more valuable than merely finishing the syllabus for achieving a strong NEET PG rank.",
-  "keywords": [
-    "NEET PG Preparation",
-    "neet pg",
-    "ini cet",
-    "fmge",
-    "neet pg preparation",
-    "neet pg exam",
-    "medical pg entrance exam",
-    "entrance exam",
-    "medical pg entrance preparation",
-    "medical pg exam",
-    "neet pg preparation online",
-    "neet pg study material",
-    "neet pg examination",
-    "neet pg online preparation"
-  ],
-  "sections": [
-    {
-      "id": "intro-para1",
-      "type": "paragraph",
-      "content": "Ask any medical aspirant how their NEET PG prep is going, and you'll hear the same things."
+  {
+    id: 177,
+    title:
+      "Why Connecting Subjects Has Become Essential in Modern Medical Entrance Exams",
+    slug: "why-connecting-subjects-essential-modern-medical-entrance-exams",
+    excerpt:
+      "Modern medical entrance exams reward integrated thinking. Learn why connecting subjects improves accuracy, recall, and scores.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/48312485/file/3364f2657d7fea29878d3f4804709930.jpg",
+    featured_image_alt: "connecting subjects medical entrance exams",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
     },
-    {
-      "id": "intro-list",
-      "type": "list",
-      "items": [
-        "\"I've finished Medicine.\"",
-        "\"Only two subjects left.\"",
-        "\"First reading is almost done.\""
-      ]
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
     },
-    {
-      "id": "intro-para2",
-      "type": "paragraph",
-      "content": "These milestones feel huge because they give you something visible. You're checking things off, crossing topics, watching progress bars fill up. Feels like you're moving forward."
-    },
-    {
-      "id": "intro-para3",
-      "type": "paragraph",
-      "content": "But here's the question nobody really talks about. How much of that completed syllabus can you actually remember when the exam happens?"
-    },
-    {
-      "id": "intro-conclusion",
-      "type": "paragraph",
-      "content": "For exams like NEET PG, INI-CET, FMGE, retention beats completion every single time. Being able to recall information under pressure, apply it, and retrieve it when you need it? That determines your score. Not how many pages you've plowed through."
-    },
-    {
-      "id": "completion-trap",
-      "type": "heading",
-      "title": "The Completion Trap",
-      "level": 2
-    },
-    {
-      "id": "completion-trap-para1",
-      "type": "paragraph",
-      "content": "Medical students love finishing things. There's satisfaction in completing a subject. Crossing topics off feels productive. Progress trackers filling up boost your motivation. All real."
-    },
-    {
-      "id": "completion-trap-para2",
-      "type": "paragraph",
-      "content": "The problem? Completion and learning aren't the same thing."
-    },
-    {
-      "id": "completion-trap-para3",
-      "type": "paragraph",
-      "content": "You can finish an entire subject in a few weeks and forget half of it a month later. Another student moves slower but actually retains what they study through revision and repeated practice."
-    },
-    {
-      "id": "completion-trap-conclusion",
-      "type": "paragraph",
-      "content": "When exam day hits, the second student usually wins. The exam doesn't reward what you once read. It rewards what you remember right now."
-    },
-    {
-      "id": "medical-prep-different",
-      "type": "heading",
-      "title": "Medical Prep Is a Different Beast",
-      "level": 2
-    },
-    {
-      "id": "medical-prep-para1",
-      "type": "paragraph",
-      "content": "Medical entrance exams have massive syllabi. Nineteen subjects. Basic sciences. Complex clinical stuff. You're expected to remember all of it."
-    },
-    {
-      "id": "medical-prep-para2",
-      "type": "paragraph",
-      "content": "The challenge isn't understanding concepts-it's keeping them in your head for months. You study something today. The exam might test it three months later. Without proper revision, most of it fades."
-    },
-    {
-      "id": "medical-prep-conclusion",
-      "type": "paragraph",
-      "content": "This is why so many students experience the same frustrating moment: they clearly remember studying the topic, but during a mock test? Blank. It's not lack of effort. It's lack of retention."
-    },
-    {
-      "id": "what-happens-during-exam",
-      "type": "heading",
-      "title": "What Actually Happens During the Exam",
-      "level": 2
-    },
-    {
-      "id": "what-happens-para1",
-      "type": "paragraph",
-      "content": "Exams test retrieval. Pure retrieval. A clinical scenario pops up. You have seconds to recognize it, recall what you know, eliminate wrong answers, pick the right one. No chance to look at notes. No time to relearn forgotten concepts."
-    },
-    {
-      "id": "what-happens-conclusion",
-      "type": "paragraph",
-      "content": "Success depends entirely on how well you've retained the information. Students who prioritize retention answer faster and with confidence because the knowledge is right there. Students chasing completion? They waste time trying to remember things they already studied once."
-    },
-    {
-      "id": "brain-forgetting",
-      "type": "heading",
-      "title": "Why Your Brain Keeps Forgetting Things",
-      "level": 2
-    },
-    {
-      "id": "brain-forgetting-para1",
-      "type": "paragraph",
-      "content": "It's not because you're dumb or didn't try hard enough. Your brain naturally discards information it doesn't need. Reading something once? Doesn't stick. Not in a way that lasts."
-    },
-    {
-      "id": "brain-forgetting-conclusion",
-      "type": "paragraph",
-      "content": "Medical prep needs repeated exposure. Concepts get stronger through revision, MCQ practice, talking it through with people, applying it clinically, testing yourself. Skip that, and even well-understood topics become hard to recall later."
-    },
-    {
-      "id": "recognition-vs-recall",
-      "type": "heading",
-      "title": "Recognition Isn't the Same as Recall",
-      "level": 2
-    },
-    {
-      "id": "recognition-vs-recall-para1",
-      "type": "paragraph",
-      "content": "Biggest mistake students make? Thinking recognition equals retention. Read your notes repeatedly and they feel familiar. When you see a topic, you recognize it. Feels like you know it."
-    },
-    {
-      "id": "recognition-vs-recall-para2",
-      "type": "paragraph",
-      "content": "But in an exam, you have to produce answers from memory. Recognition doesn't help you there."
-    },
-    {
-      "id": "recognition-vs-recall-conclusion",
-      "type": "paragraph",
-      "content": "That's where active recall comes in. Solving MCQs, testing yourself without notes, revising from memory, explaining concepts out loud-these force your brain to actually retrieve information. That retrieval process builds retention way better than passive reading ever will."
-    },
-    {
-      "id": "revision-not-optional",
-      "type": "heading",
-      "title": "Revision Isn't Optional",
-      "level": 2
-    },
-    {
-      "id": "revision-not-optional-para1",
-      "type": "paragraph",
-      "content": "Every top ranker eventually figures this out. Revision isn't something you do if you have time. It's the core of retention."
-    },
-    {
-      "id": "revision-not-optional-para2",
-      "type": "paragraph",
-      "content": "First reading introduces concepts. Second reading reinforces them. Third, fourth, fifth revisions? That's when things actually stick and you get faster at recall."
-    },
-    {
-      "id": "revision-not-optional-conclusion",
-      "type": "paragraph",
-      "content": "Most students obsess over how fast they can finish the syllabus. Better question: how many times can you revise it before the exam? Multiple revision cycles almost always beat rushing through everything once."
-    },
-    {
-      "id": "mock-tests-more",
-      "type": "heading",
-      "title": "Mock Tests Do More Than Show Your Score",
-      "level": 2
-    },
-    {
-      "id": "mock-tests-para1",
-      "type": "paragraph",
-      "content": "Most students treat mocks as just assessment tools. They're way more than that."
-    },
-    {
-      "id": "mock-tests-para2",
-      "type": "paragraph",
-      "content": "Every question you solve forces your brain to retrieve information. Every wrong answer shows you what you forgot. Every review session strengthens concepts you might otherwise lose."
-    },
-    {
-      "id": "mock-tests-conclusion",
-      "type": "paragraph",
-      "content": "Mock tests are basically retention-building machines. The real value isn't the score-it's the learning that happens afterward."
-    },
-    {
-      "id": "retention-confidence",
-      "type": "heading",
-      "title": "Retention Builds Real Confidence",
-      "level": 2
-    },
-    {
-      "id": "retention-confidence-para1",
-      "type": "paragraph",
-      "content": "People think confidence comes from motivation or positive thinking. Nope. Confidence comes from memory strength."
-    },
-    {
-      "id": "retention-confidence-conclusion",
-      "type": "paragraph",
-      "content": "When you've revised consistently and actually retained the concepts, you trust yourself. You recognize patterns quickly. You make decisions with certainty. Strong retention means less hesitation, better accuracy, composure under pressure."
-    },
-    {
-      "id": "top-rankers",
-      "type": "heading",
-      "title": "What Actually Separates Top Rankers",
-      "level": 2
-    },
-    {
-      "id": "top-rankers-para1",
-      "type": "paragraph",
-      "content": "Top performers aren't necessarily the ones studying the most hours. They're the ones who retain more of what they study."
-    },
-    {
-      "id": "top-rankers-para2",
-      "type": "paragraph",
-      "content": "They prioritize revision. Solve MCQs regularly. Revisit weak areas. Focus on understanding and recall instead of just ticking off topics."
-    },
-    {
-      "id": "top-rankers-conclusion",
-      "type": "paragraph",
-      "content": "More of their preparation stays accessible on exam day. That difference usually shows directly in their scores."
-    },
-    {
-      "id": "real-point",
-      "type": "heading",
-      "title": "The Real Point of All This",
-      "level": 2
-    },
-    {
-      "id": "real-point-para1",
-      "type": "paragraph",
-      "content": "Medical entrance prep isn't a race to finish the syllabus first. It's building solid, long-term recall across a massive amount of knowledge."
-    },
-    {
-      "id": "real-point-para2",
-      "type": "paragraph",
-      "content": "Completion matters, you can't retain what you haven't covered. But completion alone? Not enough."
-    },
-    {
-      "id": "real-point-conclusion",
-      "type": "paragraph",
-      "content": "The real goal is making sure important concepts stay in your head when you need them. Because the exam isn't asking what you've studied. It's testing what you can remember."
-    },
-    {
-      "id": "bottom-line",
-      "type": "heading",
-      "title": "Bottom Line",
-      "level": 2
-    },
-    {
-      "id": "bottom-line-para1",
-      "type": "paragraph",
-      "content": "Every medical aspirant wants to complete the syllabus. That's important. But don't sacrifice retention to get there."
-    },
-    {
-      "id": "bottom-line-para2",
-      "type": "paragraph",
-      "content": "A smaller portion of the syllabus you've revised multiple times? Usually more valuable than a larger portion you've already forgotten."
-    },
-    {
-      "id": "bottom-line-para3",
-      "type": "paragraph",
-      "content": "Students who consistently improve their scores get this early. They stop obsessing over how many topics they've finished and start focusing on what they can reliably recall."
-    },
-    {
-      "id": "bottom-line-conclusion",
-      "type": "paragraph",
-      "content": "In medical exams, completion creates progress. Retention creates results."
-    },
-    {
-      "id": "faqs",
-      "type": "heading",
-      "title": "FAQs",
-      "level": 2
-    },
-    {
-      "id": "faqs-list",
-      "type": "faq",
-      "faqs": [
-        {
-          "question": "Is finishing the entire NEET PG syllabus enough for a good rank?",
-          "answer": "No, not really. Completing the syllabus matters, but your rank depends on how well you can actually recall and apply those concepts under exam pressure."
-        },
-        {
-          "question": "How can I improve retention during NEET PG preparation?",
-          "answer": "Regular revision, active recall, MCQ practice, and mock tests go a long way - they help you figure out where you're slipping and fix those gaps before the exam."
-        },
-        {
-          "question": "Why do I forget topics even after studying them well?",
-          "answer": "Because without revisiting what you've studied, forgetting is inevitable - that's just how memory works. Revision and consistent practice are what make things stick."
-        },
-        {
-          "question": "What's more important before NEET PG: new topics or revision?",
-          "answer": "As the exam gets closer, revision takes priority. It sharpens recall and cuts down on the silly mistakes that cost marks."
-        }
-      ]
-    },
-    {
-      "id": "keywords",
-      "type": "keywords",
-      "title": "Related Keywords",
-      "keywords": [
-        "NEET PG Preparation",
-        "neet pg",
-        "ini cet",
-        "fmge",
-        "neet pg preparation",
-        "neet pg exam",
-        "medical pg entrance exam",
-        "entrance exam",
-        "medical pg entrance preparation",
-        "medical pg exam",
-        "neet pg preparation online",
-        "neet pg study material",
-        "neet pg examination",
-        "neet pg online preparation"
-      ]
-    }
-  ]
-},
-{
-  "id": 171,
-  "title": "Completing the Syllabus Won't Get You a Rank-Retention Will",
-  "slug": "completing-syllabus-wont-get-you-rank-retention-will",
-  "excerpt": "Finishing the syllabus is only the first step. Consistent revision and strong retention are what truly drive top ranks in NEET PG.",
-  "featured_image": "https://cdn.dribbble.com/userupload/48162943/file/a8972bfc81529bcc98efb5bc24484b50.jpg",
-  "featured_image_alt": "neet pg retention vs completion",
-  "author": {
-    "name": "Believers Team",
-    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
-    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+    tags: [
+      "NEET PG",
+      "INI CET",
+      "Exam Preparation",
+      "Postgraduate Entrance Exams",
+      "Medical PG Preparation",
+    ],
+    published_date: "2026-07-08",
+    read_time: 10,
+    meta_title:
+      "Why Connecting Subjects Has Become Essential in Modern Medical Entrance Exams",
+    meta_description:
+      "Modern medical entrance exams reward integrated thinking. Learn why connecting subjects improves accuracy, recall, and scores.",
+    keywords: [
+      "neet pg",
+      "ini cet",
+      "postgraduate entrance exams",
+      "competitive exam preparation",
+      "medical pg entrance exam",
+      "entrance exam",
+      "medical pg entrance preparation",
+      "medical pg exam",
+      "medical pg preparation",
+      "exam preparation",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content:
+          "There was a time when medical students could prepare for entrance exams by studying each subject in isolation. Anatomy was Anatomy. Pharmacology stayed within Pharmacology. Pathology had its own notes, its own MCQs, its own revision schedule. The boundaries felt clear, and that approach worked well enough.",
+      },
+      {
+        id: "intro-conclusion",
+        type: "paragraph",
+        content:
+          "It doesn't anymore. Over the past few years, exams like NEET PG and INI-CET have quietly but steadily moved toward clinically integrated questions. Instead of testing isolated facts, they present real-world scenarios where you need to pull from multiple subjects at once. That shift has changed what good preparation actually looks like.",
+      },
+      {
+        id: "clinical-questions",
+        type: "heading",
+        title: "Clinical Questions Don't Respect Subject Boundaries",
+        level: 2,
+      },
+      {
+        id: "clinical-questions-para1",
+        type: "paragraph",
+        content:
+          "Think about how a typical patient-based question works. A patient walks in with symptoms. You think through the underlying physiology. You identify the pathology. You interpret the investigations. You pick a treatment. That's Physiology, Pathology, Medicine, and Pharmacology all in one question - and the exam doesn't warn you in advance which subject it \"belongs to.\"",
+      },
+      {
+        id: "clinical-questions-para2",
+        type: "paragraph",
+        content:
+          "A question that looks like Medicine might hinge on Pathology. A Surgery question might fall apart without solid Anatomy. Pediatrics regularly pulls from Physiology, Genetics, and Biochemistry in the same breath.",
+      },
+      {
+        id: "clinical-questions-conclusion",
+        type: "paragraph",
+        content:
+          "The exam isn't asking you to think subject-wise. It's asking you to think like a doctor.",
+      },
+      {
+        id: "basics-matter-differently",
+        type: "heading",
+        title:
+          "This Doesn't Mean Basics Matter Less - It Means They Matter Differently",
+        level: 2,
+      },
+      {
+        id: "basics-matter-para1",
+        type: "paragraph",
+        content:
+          "Some students assume that a clinically oriented exam has reduced the importance of first-year subjects. The opposite is usually true. Anatomy, Physiology, and Biochemistry haven't disappeared - they just show up differently now.",
+      },
+      {
+        id: "basics-matter-para2",
+        type: "paragraph",
+        content:
+          "Anatomy comes through nerve injuries, surgical anatomy, and imaging. Physiology explains why a patient presents the way they do. Biochemistry surfaces in metabolic disorders and lab interpretation.",
+      },
+      {
+        id: "basics-matter-conclusion",
+        type: "paragraph",
+        content:
+          "Students with genuinely strong fundamentals often find integrated questions less intimidating, because they understand the reasoning behind the clinical picture rather than just memorizing the surface facts.",
+      },
+      {
+        id: "why-questions-feel-hard",
+        type: "heading",
+        title: "Why These Questions Feel Hard at First",
+        level: 2,
+      },
+      {
+        id: "why-questions-para1",
+        type: "paragraph",
+        content:
+          "Most students who struggle with integrated questions aren't underprepared - they've just been storing information in separate compartments. You might know a disease perfectly from your notes, but when that same concept shows up inside a complex patient scenario, the connection doesn't fire. That's not a content problem. It's a wiring problem.",
+      },
+      {
+        id: "why-questions-conclusion",
+        type: "paragraph",
+        content:
+          "Studying more of the same material won't fix it. What helps is learning how subjects talk to each other.",
+      },
+      {
+        id: "connected-learning",
+        type: "heading",
+        title: "Connected Learning Also Helps With Retention",
+        level: 2,
+      },
+      {
+        id: "connected-learning-para1",
+        type: "paragraph",
+        content:
+          "When you understand how concepts relate, they stick better. Learning a disease alongside its pathology, its clinical features, its investigations, and its treatment creates several memory anchors instead of one. You're not memorizing a fact - you're building a picture.",
+      },
+      {
+        id: "connected-learning-conclusion",
+        type: "paragraph",
+        content: "And pictures are much harder to forget under exam pressure.",
+      },
+      {
+        id: "how-strong-performers-prepare",
+        type: "heading",
+        title: "How Students Who Do Well Actually Prepare",
+        level: 2,
+      },
+      {
+        id: "how-strong-performers-para1",
+        type: "paragraph",
+        content:
+          'The difference in how strong performers approach revision is subtle but significant. They\'re not asking "which subject is this from?" - they\'re asking "what\'s actually being tested here?" Over time, they stop treating subjects as separate territories and start seeing them as parts of one system.',
+      },
+      {
+        id: "how-strong-performers-conclusion",
+        type: "paragraph",
+        content:
+          "That means solving integrated MCQs regularly, thinking through the logic behind answers rather than just marking the right option, and making deliberate connections during revision - linking Pharmacology back to Pathology, Anatomy forward to Surgery, Physiology across to clinical findings.",
+      },
+      {
+        id: "where-things-headed",
+        type: "heading",
+        title: "Where Things Are Headed",
+        level: 2,
+      },
+      {
+        id: "where-things-para1",
+        type: "paragraph",
+        content:
+          "This isn't a passing trend. Medical education is moving toward clinical decision-making over recall, and entrance exams are following. The skills that get rewarded - reasoning through a scenario, connecting concepts across subjects, arriving at a logical answer under uncertainty - are also the skills that make a good doctor.",
+      },
+      {
+        id: "where-things-conclusion",
+        type: "paragraph",
+        content:
+          "Students who build that kind of integrated understanding early don't just perform better in exams. They're also better prepared for what comes after.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "Why is integrated learning important?",
+            answer: "It improves your ability to solve clinical MCQs.",
+          },
+          {
+            question: "Do first-year subjects still matter?",
+            answer: "Yes, they form the foundation of clinical reasoning.",
+          },
+          {
+            question: "How can I prepare for integrated questions?",
+            answer: "Practice case-based and integrated MCQs regularly.",
+          },
+          {
+            question: "What do modern entrance exams test?",
+            answer: "Clinical reasoning and concept application.",
+          },
+          {
+            question: "Does connecting subjects improve retention?",
+            answer: "Yes, it makes concepts easier to understand and remember.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "neet pg",
+          "ini cet",
+          "postgraduate entrance exams",
+          "competitive exam preparation",
+          "medical pg entrance exam",
+          "entrance exam",
+          "medical pg entrance preparation",
+          "medical pg exam",
+          "medical pg preparation",
+          "exam preparation",
+        ],
+      },
+    ],
   },
-  "category": {
-    "name": "NEET PG",
-    "slug": "neet-pg",
-    "color": "bg-blue-100 text-blue-800"
+  {
+    id: 178,
+    title:
+      "When Consistency Starts Feeling Heavy: Understanding Performance Fatigue in Long-Term Exam Preparation",
+    slug: "when-consistency-starts-feeling-heavy-performance-fatigue-long-term-exam-preparation",
+    excerpt:
+      "Long-term exam preparation can lead to performance fatigue. Learn how to stay consistent, manage stress, and maintain peak focus.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/48324004/file/aa47605e0074034c93cf1ce41db87eeb.jpg",
+    featured_image_alt: "Exam Preparation",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+    },
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
+    },
+    tags: [
+      "NEET PG",
+      "Exam Preparation",
+      "Competitive Exam Preparation",
+      "Postgraduate Medical Exams",
+      "Preparation Strategy",
+    ],
+    published_date: "2026-07-09",
+    read_time: 10,
+    meta_title:
+      "When Consistency Starts Feeling Heavy: Understanding Performance Fatigue in Long-Term Exam Preparation",
+    meta_description:
+      "Long-term exam preparation can lead to performance fatigue. Learn how to stay consistent, manage stress, and maintain peak focus.",
+    keywords: [
+      "exam preparation",
+      "competitive exam preparation",
+      "neet pg",
+      "postgraduate medical entrance exams",
+      "postgraduate medical exams",
+      "neet pg exam",
+      "medical entrance exam",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content:
+          "Competitive exam prep gets described as testing knowledge. Honestly, it's more about testing endurance.",
+      },
+      {
+        id: "intro-para2",
+        type: "paragraph",
+        content:
+          "Most NEET PG aspirants start with a plan. They're motivated. They think hard work pays off and they'll be fine.",
+      },
+      {
+        id: "intro-para3",
+        type: "paragraph",
+        content:
+          "Early on, it works. Subjects get done. Concepts make sense. Every study session feels like progress.",
+      },
+      {
+        id: "intro-para4",
+        type: "paragraph",
+        content:
+          "Then something changes. You're still studying. Still going to classes. Still solving MCQs. But everything feels harder now.",
+      },
+      {
+        id: "intro-conclusion",
+        type: "paragraph",
+        content:
+          "It's not laziness. You're not lacking discipline. What's actually happening is performance fatigue. Your brain's getting tired from months of the same grind.",
+      },
+      {
+        id: "long-prep-cycles",
+        type: "heading",
+        title: "Why Long Preparation Cycles Destroy You Differently",
+        level: 2,
+      },
+      {
+        id: "long-prep-para1",
+        type: "paragraph",
+        content: "University exams? Study hard for a few weeks. Done.",
+      },
+      {
+        id: "long-prep-para2",
+        type: "paragraph",
+        content:
+          "Postgraduate medical exams? Months. Constant revisiting. Medicine, Surgery, Pharmacology, Pathology, Community Medicine. The cycle never stops. Finish one revision and another one's waiting.",
+      },
+      {
+        id: "long-prep-conclusion",
+        type: "paragraph",
+        content:
+          "Over time your brain gets tired from this repetition. The effort stays the same but efficiency drops. You're working hard but not getting the same output.",
+      },
+      {
+        id: "quiet-signs",
+        type: "heading",
+        title: "The Quiet Signs of Burnout",
+        level: 2,
+      },
+      {
+        id: "quiet-signs-para1",
+        type: "paragraph",
+        content:
+          "Performance fatigue doesn't announce itself loudly. It creeps in. You notice small things.",
+      },
+      {
+        id: "quiet-signs-list",
+        type: "list",
+        items: [
+          "Topics that took an hour to revise now take three hours",
+          "MCQs feel like they require more mental effort",
+          "Mock tests drain you even when your score's the same",
+          "You get frustrated over mistakes you wouldn't have cared about before",
+        ],
+      },
+      {
+        id: "quiet-signs-para2",
+        type: "paragraph",
+        content:
+          "Some students think their preparation's failing. They blame themselves.",
+      },
+      {
+        id: "quiet-signs-conclusion",
+        type: "paragraph",
+        content:
+          "The truth? Your knowledge is still there. Your brain's just exhausted.",
+      },
+      {
+        id: "more-hours-worse",
+        type: "heading",
+        title: "Adding More Hours Usually Makes It Worse",
+        level: 2,
+      },
+      {
+        id: "more-hours-para1",
+        type: "paragraph",
+        content:
+          "When scores stall, the obvious move is studying longer. Seems logical. Slower progress means work harder, right?",
+      },
+      {
+        id: "more-hours-para2",
+        type: "paragraph",
+        content:
+          "Wrong. Performance fatigue isn't always about working too little. Sometimes it's about working hard without actually recovering.",
+      },
+      {
+        id: "more-hours-para3",
+        type: "paragraph",
+        content:
+          "Throwing more hours at an already tired schedule kills concentration. Frustration builds. Revision becomes pointless.",
+      },
+      {
+        id: "more-hours-conclusion",
+        type: "paragraph",
+        content:
+          "Productivity isn't just about time. It's about the quality of attention you have during those hours.",
+      },
+      {
+        id: "mental-toll",
+        type: "heading",
+        title: "The Mental Toll Nobody Talks About",
+        level: 2,
+      },
+      {
+        id: "mental-toll-para1",
+        type: "paragraph",
+        content: "Academic prep is one thing. The emotional side is another.",
+      },
+      {
+        id: "mental-toll-para2",
+        type: "paragraph",
+        content:
+          "You live with uncertainty for months. Every mock test feels critical. Every rank predictor stresses you out. Every conversation about cutoffs creates new anxiety.",
+      },
+      {
+        id: "mental-toll-conclusion",
+        type: "paragraph",
+        content:
+          "This mental pressure drains energy constantly. Even when you're not studying. Eventually the emotional exhaustion matches the academic workload.",
+      },
+      {
+        id: "social-media",
+        type: "heading",
+        title: "Social Media Makes It Worse",
+        level: 2,
+      },
+      {
+        id: "social-media-para1",
+        type: "paragraph",
+        content:
+          "Everyone's on social media now. Makes preparation more connected. Also makes comparison unavoidable.",
+      },
+      {
+        id: "social-media-para2",
+        type: "paragraph",
+        content:
+          "You see rank screenshots. Mock scores. Success stories. Study hour updates. Looks motivating. Actually creates unrealistic expectations.",
+      },
+      {
+        id: "social-media-para3",
+        type: "paragraph",
+        content:
+          "Preparation isn't a straight line. Everyone has slow weeks. Everyone doubts themselves. Difference is people share wins way more than struggles.",
+      },
+      {
+        id: "social-media-conclusion",
+        type: "paragraph",
+        content:
+          "Constant comparison turns normal fatigue into feeling like failure.",
+      },
+      {
+        id: "recover-without-losing",
+        type: "heading",
+        title: "How to Recover Without Losing Progress",
+        level: 2,
+      },
+      {
+        id: "recover-para1",
+        type: "paragraph",
+        content:
+          "Managing fatigue doesn't mean stopping. Small adjustments work better than big changes.",
+      },
+      {
+        id: "recover-table",
+        type: "table",
+        headers: ["Strategy", "What to Do"],
+        rows: [
+          [
+            "Prioritize Recovery",
+            "Sleep, exercise, breaks. These aren't distractions. They're part of prep.",
+          ],
+          [
+            "Change How You Study",
+            "Mix it up. Active recall. MCQs. Flashcards. Discussions. Reduces monotony.",
+          ],
+          [
+            "Measure Differently",
+            "Stop obsessing over scores. Track accuracy improvements. How fast you recall. Consistency.",
+          ],
+          [
+            "Accept Slow Weeks",
+            "Not every week produces breakthroughs. Long-term improvement usually happens gradually.",
+          ],
+        ],
+      },
+      {
+        id: "top-performers",
+        type: "heading",
+        title: "Top Performers Aren't Studying Harder",
+        level: 2,
+      },
+      {
+        id: "top-performers-para1",
+        type: "paragraph",
+        content:
+          "Common misconception: successful people just work harder. Actually, they manage energy better. Know when to push. Know when to rest. Recognize fatigue early before it tanks performance.",
+      },
+      {
+        id: "top-performers-conclusion",
+        type: "paragraph",
+        content:
+          "Most importantly, they build routines they can actually maintain for months. Not sprints. That sustainability is the real advantage.",
+      },
+      {
+        id: "final-thoughts",
+        type: "heading",
+        title: "Final Thoughts",
+        level: 2,
+      },
+      {
+        id: "final-thoughts-para1",
+        type: "paragraph",
+        content:
+          "Preparation for competitive medical exams isn't just about rushing through the syllabus. It's also about keeping your brain sharp for months.",
+      },
+      {
+        id: "final-thoughts-para2",
+        type: "paragraph",
+        content:
+          "If studying feels harder than it did a few months ago? Doesn't mean your prep is broken. Might mean your mind is adapting to something that demands patience, recovery, consistency.",
+      },
+      {
+        id: "final-thoughts-para3",
+        type: "paragraph",
+        content:
+          "Success isn't about staying motivated every day. It's about moving forward without destroying yourself.",
+      },
+      {
+        id: "final-thoughts-conclusion",
+        type: "paragraph",
+        content:
+          "In long preparation cycles, the person who wins isn't the one who studies hardest for a short burst. It's the one who can perform steadily for the longest.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "What is performance fatigue during exam preparation?",
+            answer:
+              "It's your mental efficiency gradually dropping after months of intense studying.",
+          },
+          {
+            question: "How do I know if I have performance fatigue?",
+            answer:
+              "Slower recall. Hard to focus. Getting frustrated easily. Mental exhaustion even though you're studying regularly.",
+          },
+          {
+            question: "Can performance fatigue affect mock test scores?",
+            answer:
+              "Yeah. Reduces focus, decision-making, overall performance.",
+          },
+          {
+            question: "How do I manage performance fatigue?",
+            answer:
+              "Get proper sleep. Take structured breaks. Change your study methods. Follow a routine you can actually sustain.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "exam preparation",
+          "competitive exam preparation",
+          "neet pg",
+          "postgraduate medical entrance exams",
+          "postgraduate medical exams",
+          "neet pg exam",
+          "medical entrance exam",
+        ],
+      },
+    ],
   },
-  "tags": [
-    "NEET PG",
-    "NEET PG Preparation",
-    "INI CET",
-    "FMGE",
-    "Exam Preparation",
-    "Preparation Strategy"
-  ],
-  "published_date": "2026-06-24",
-  "read_time": 10,
-  "meta_title": "Completing the Syllabus Won't Get You a Rank-Retention Will",
-  "meta_description": "Finishing the syllabus is only the first step. Consistent revision and strong retention are what truly drive top ranks in NEET PG.",
-  "keywords": [
-    "neet pg",
-    "ini cet",
-    "fmge",
-    "medical pg entrance exam",
-    "entrance exam",
-    "medical pg entrance preparation",
-    "medical pg exam",
-    "medical pg preparation"
-  ],
-  "sections": [
-    {
-      "id": "intro-para1",
-      "type": "paragraph",
-      "content": "Ask medical aspirants how their prep is going, and you'll hear the same thing."
+  {
+    id: 179,
+    title:
+      "NEET PG 2026 Official Notification Released: Exam Date, Registration Schedule & Important Dates",
+    slug: "neet-pg-2026-official-notification-exam-date-registration-schedule-important-dates",
+    excerpt:
+      "NEET PG 2026 Official Notification is out. Check the exam date, registration schedule, important dates, and start your preparation with complete updates.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/48336162/file/f457c39a936daf1a62b5cf2f2a4dce10.jpg",
+    featured_image_alt: "NEET PG 2026",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
     },
-    {
-      "id": "intro-para2",
-      "type": "paragraph",
-      "content": "\"How much of the syllabus have you completed?\""
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
     },
-    {
-      "id": "intro-para3",
-      "type": "paragraph",
-      "content": "It's become the default measure of progress. Students proudly talk about finishing Medicine, completing Surgery, wrapping up first reading of all nineteen subjects. Study plans get built around completion targets. Every finished subject feels like a major achievement."
-    },
-    {
-      "id": "intro-para4",
-      "type": "paragraph",
-      "content": "But here's the thing, competitive exams don't reward completion. They reward retention."
-    },
-    {
-      "id": "intro-para5",
-      "type": "paragraph",
-      "content": "A student who's completed the entire syllabus but remembers only half of it? Usually at a disadvantage compared to someone who revised fewer topics multiple times and can recall them instantly during the exam."
-    },
-    {
-      "id": "intro-para6",
-      "type": "paragraph",
-      "content": "This is one of the biggest lessons aspirants learn while preparing for NEET PG, INI-CET, FMGE, and other medical entrance exams."
-    },
-    {
-      "id": "intro-conclusion",
-      "type": "paragraph",
-      "content": "The goal isn't studying everything. It's remembering enough when it matters."
-    },
-    {
-      "id": "completion-feels-good",
-      "type": "heading",
-      "title": "Why Completion Feels Good But Doesn't Help",
-      "level": 2
-    },
-    {
-      "id": "completion-feels-good-para1",
-      "type": "paragraph",
-      "content": "Finishing a subject feels incredible. Video lecture series is done. Notes read. Some MCQs were solved. The checklist moves forward. Naturally, it feels like prep is actually progressing."
-    },
-    {
-      "id": "completion-feels-good-para2",
-      "type": "paragraph",
-      "content": "Except learning and remembering aren't the same thing."
-    },
-    {
-      "id": "completion-feels-good-para3",
-      "type": "paragraph",
-      "content": "Student A finishes an entire subject in three weeks and forgets half of it by next month. Student B takes longer but revises regularly, practices questions, actively recalls concepts."
-    },
-    {
-      "id": "completion-feels-good-conclusion",
-      "type": "paragraph",
-      "content": "When the exam comes, Student B usually wins. Because the exam tests recall, not exposure. Seeing information once doesn't mean it'll be there months later when you're under pressure."
-    },
-    {
-      "id": "reality-of-exams",
-      "type": "heading",
-      "title": "The Reality of These Exams",
-      "level": 2
-    },
-    {
-      "id": "reality-para1",
-      "type": "paragraph",
-      "content": "Medical entrance exams demand retention on a massive scale. Anatomy. Physiology. Biochemistry. Pathology. Pharmacology. Microbiology. Medicine. Surgery. Pediatrics. OBG. And more. You're expected to remember all of this simultaneously."
-    },
-    {
-      "id": "reality-para2",
-      "type": "paragraph",
-      "content": "Understanding concepts is one thing. Retaining them across months of prep? That's the actual challenge. You study something today. The exam might test it six months later. Without repeated reinforcement, most of it disappears."
-    },
-    {
-      "id": "reality-para3",
-      "type": "paragraph",
-      "content": "This is why so many students hit that frustrating moment during mocks. The question looks familiar. The topic seems familiar. But the answer? Doesn't come."
-    },
-    {
-      "id": "reality-conclusion",
-      "type": "paragraph",
-      "content": "It's not that you never studied it. It's that you never retained it properly."
-    },
-    {
-      "id": "retention-exam-performance",
-      "type": "heading",
-      "title": "Retention Actually Changes Your Exam Performance",
-      "level": 2
-    },
-    {
-      "id": "retention-exam-para1",
-      "type": "paragraph",
-      "content": "Strong retention does way more than just improve memory. It directly impacts how you perform."
-    },
-    {
-      "id": "retention-exam-para2",
-      "type": "paragraph",
-      "content": "Students who retain concepts well solve questions faster. Less second-guessing. They recognize clinical patterns quicker and eliminate wrong answers with confidence."
-    },
-    {
-      "id": "retention-exam-para3",
-      "type": "paragraph",
-      "content": "In exams where you're solving hundreds of questions in limited time, this matters. A student who remembers key concepts instantly gains a real advantage over someone reconstructing information during the exam."
-    },
-    {
-      "id": "retention-exam-conclusion",
-      "type": "paragraph",
-      "content": "In competitive exams, those extra seconds per question can swing your entire rank."
-    },
-    {
-      "id": "revision-beats-first-reading",
-      "type": "heading",
-      "title": "Revision Beats First Reading Every Time",
-      "level": 2
-    },
-    {
-      "id": "revision-beats-para1",
-      "type": "paragraph",
-      "content": "Most students chase first reading completion. They rush through subjects because finishing feels urgent. But real learning happens during revision."
-    },
-    {
-      "id": "revision-beats-para2",
-      "type": "paragraph",
-      "content": "First reading introduces stuff. Second reading strengthens it. Third, fourth, fifth revisions? That's when recall improves, understanding deepens, speed increases."
-    },
-    {
-      "id": "revision-beats-para3",
-      "type": "paragraph",
-      "content": "Students who do multiple revision cycles usually outperform those who spend all their energy on completion. This is why toppers constantly say: revision over expansion."
-    },
-    {
-      "id": "revision-beats-conclusion",
-      "type": "paragraph",
-      "content": "At some point, remembering what you've already studied becomes way more valuable than constantly adding new information."
-    },
-    {
-      "id": "brain-retains",
-      "type": "heading",
-      "title": "How Your Brain Actually Retains Things",
-      "level": 2
-    },
-    {
-      "id": "brain-retains-para1",
-      "type": "paragraph",
-      "content": "Reading notes repeatedly feels productive but creates an illusion. You recognize information and assume you know it. That's not the same as actually knowing it."
-    },
-    {
-      "id": "brain-retains-para2",
-      "type": "paragraph",
-      "content": "The real test? Can you recall it without looking? That's where active recall comes in."
-    },
-    {
-      "id": "brain-retains-list",
-      "type": "list",
-      "items": [
-        "Solving MCQs",
-        "Taking mocks",
-        "Revising without notes",
-        "Teaching concepts to others",
-        "Writing down key points from memory"
-      ]
-    },
-    {
-      "id": "brain-retains-conclusion",
-      "type": "paragraph",
-      "content": "All of these force your brain to actually retrieve information. Each retrieval strengthens the memory. The more you recall something, the easier it becomes to access during the exam."
-    },
-    {
-      "id": "mock-tests",
-      "type": "heading",
-      "title": "Mock Tests Aren't Just Score Checks",
-      "level": 2
-    },
-    {
-      "id": "mock-tests-para1",
-      "type": "paragraph",
-      "content": "Most students treat mocks as performance assessments. They're actually one of the most effective retention tools available."
-    },
-    {
-      "id": "mock-tests-para2",
-      "type": "paragraph",
-      "content": "Every question requires you to retrieve information. Every wrong answer shows you what you forgot. Every test review reinforces concepts that were slipping away."
-    },
-    {
-      "id": "mock-tests-conclusion",
-      "type": "paragraph",
-      "content": "Students who analyze their tests consistently improve retention way faster than those just reading notes. The score matters. But the learning afterward often matters more."
-    },
-    {
-      "id": "confidence-from-remembering",
-      "type": "heading",
-      "title": "Confidence Comes from Remembering Things",
-      "level": 2
-    },
-    {
-      "id": "confidence-para1",
-      "type": "paragraph",
-      "content": "People think exam confidence comes from motivation or positive thinking. Wrong. It comes from familiarity."
-    },
-    {
-      "id": "confidence-conclusion",
-      "type": "paragraph",
-      "content": "When you've revised repeatedly, practiced extensively, and actually retained important concepts? You trust yourself. Questions feel manageable. Clinical scenarios feel familiar. Decision-making gets faster. That confidence is earned through repetition, not motivation."
-    },
-    {
-      "id": "top-rankers",
-      "type": "heading",
-      "title": "What Top Rankers Actually Do",
-      "level": 2
-    },
-    {
-      "id": "top-rankers-para1",
-      "type": "paragraph",
-      "content": "One thing most top-performing students realize early: preparation isn't a race to finish first. It's a process of building reliable recall."
-    },
-    {
-      "id": "top-rankers-para2",
-      "type": "paragraph",
-      "content": "They revise heavily. Revisit important topics repeatedly. Solve MCQs consistently. They prioritize retention over the satisfaction of checking subjects off a list."
-    },
-    {
-      "id": "top-rankers-conclusion",
-      "type": "paragraph",
-      "content": "More of their prep stays accessible when the exam comes. That difference usually shows directly in their scores and ranks."
-    },
-    {
-      "id": "better-measure",
-      "type": "heading",
-      "title": "A Better Way to Measure Progress",
-      "level": 2
-    },
-    {
-      "id": "better-measure-para1",
-      "type": "paragraph",
-      "content": "Stop asking: \"How much of the syllabus have I completed?\" Instead ask: \"How much of what I've studied can I still recall?\""
-    },
-    {
-      "id": "better-measure-para2",
-      "type": "paragraph",
-      "content": "That gives you an actual picture of exam readiness. Completion measures activity. Retention measures preparedness."
-    },
-    {
-      "id": "better-measure-conclusion",
-      "type": "paragraph",
-      "content": "Preparedness is what determines performance."
-    },
-    {
-      "id": "bottom-line",
-      "type": "heading",
-      "title": "Bottom Line",
-      "level": 2
-    },
-    {
-      "id": "bottom-line-para1",
-      "type": "paragraph",
-      "content": "Syllabus completion matters. You can't retain what you haven't covered. But completion alone? Not enough."
-    },
-    {
-      "id": "bottom-line-para2",
-      "type": "paragraph",
-      "content": "Medical entrance exams reward students who can remember, apply, and retrieve information under pressure. A topic studied once and forgotten doesn't help your score. A topic revised multiple times and retained effectively? That's the difference between an average rank and a top one."
-    },
-    {
-      "id": "bottom-line-para3",
-      "type": "paragraph",
-      "content": "The best performers aren't the ones studying the most. They're the ones remembering the most."
-    },
-    {
-      "id": "bottom-line-conclusion",
-      "type": "paragraph",
-      "content": "And that's why retention will always matter more than completion."
-    },
-    {
-      "id": "faqs",
-      "type": "heading",
-      "title": "FAQs",
-      "level": 2
-    },
-    {
-      "id": "faqs-list",
-      "type": "faq",
-      "faqs": [
-        {
-          "question": "Is completing the syllabus enough for a good rank?",
-          "answer": "Absolutely no, recall and repeated revision matter the most more than completion alone."
-        },
-        {
-          "question": "Why is retention important in medical entrance exams?",
-          "answer": "Repeated revision will help you recall the core concepts quickly during the exam."
-        },
-        {
-          "question": "How can I improve retention during preparation?",
-          "answer": "You can use the active recall, MCQs, and multiple revision cycles."
-        },
-        {
-          "question": "Are mock tests useful beyond score assessment?",
-          "answer": "Yes, it helps to strengthen core memory and highlight your weak areas."
-        },
-        {
-          "question": "What should I focus on more: completion or revision?",
-          "answer": "Prioritize revision and retention over rushing to finish the syllabus."
-        }
-      ]
-    },
-    {
-      "id": "keywords",
-      "type": "keywords",
-      "title": "Related Keywords",
-      "keywords": [
-        "neet pg",
-        "ini cet",
-        "fmge",
-        "medical pg entrance exam",
-        "entrance exam",
-        "medical pg entrance preparation",
-        "medical pg exam",
-        "medical pg preparation"
-      ]
-    }
-  ]
-},
-{
-  "id": 172,
-  "title": "INI CET July 2026 Counselling: Complete Guide to Rules, Rounds, and Seat Upgradation",
-  "slug": "ini-cet-july-2026-counselling-complete-guide-rules-rounds-seat-upgradation",
-  "excerpt": "INI CET July 2026 Counselling: Know counselling rules, round-wise seat allotment, choice filling, seat upgradation, and admission steps.",
-  "featured_image": "https://cdn.dribbble.com/userupload/48176087/file/91541735ec6e58161ed25e856d3a6193.jpg",
-  "featured_image_alt": "INI CET 2026 Counselling",
-  "author": {
-    "name": "Believers Team",
-    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
-    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+    tags: [
+      "NEET PG",
+      "NEET PG 2026",
+      "NEET PG Exam Date",
+      "Medical Entrance Exam",
+      "NEET PG Preparation",
+    ],
+    published_date: "2026-07-10",
+    read_time: 7,
+    meta_title:
+      "NEET PG 2026 Official Notification Released: Exam Date, Registration Schedule & Important Dates",
+    meta_description:
+      "NEET PG 2026 Official Notification is out. Check the exam date, registration schedule, important dates, and start your preparation with complete updates.",
+    keywords: [
+      "neet pg 2026",
+      "neet pg",
+      "neet pg exam date",
+      "medical entrance exam",
+      "neet pg exam",
+      "neet pg preparation strategy",
+      "neet pg preparation",
+      "neet pg 2026 registration",
+      "neet pg result date",
+      "neet pg 2026 result date",
+      "neet pg official notification",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content: "It's here. Finally.",
+      },
+      {
+        id: "intro-para2",
+        type: "paragraph",
+        content:
+          "The National Board of Examinations in Medical Sciences (NBEMS) announced the schedule for NEET PG 2026. Thousands of postgraduate aspirants now know what they're working toward.",
+      },
+      {
+        id: "intro-para3",
+        type: "paragraph",
+        content:
+          "If you're taking NEET PG 2026, stop guessing. The dates are locked. Now it's time to actually prepare.",
+      },
+      {
+        id: "intro-conclusion",
+        type: "paragraph",
+        content:
+          "NBEMS released registration timelines, the exam date, when test cities get announced, when results come out. Everything. Here's what matters.",
+      },
+      {
+        id: "exam-date",
+        type: "heading",
+        title: "NEET PG 2026 Is August 30",
+        level: 2,
+      },
+      {
+        id: "exam-date-para1",
+        type: "paragraph",
+        content:
+          "The exam happens on August 30, 2026. Sunday. It's a computer-based test at various centers across India.",
+      },
+      {
+        id: "exam-date-conclusion",
+        type: "paragraph",
+        content:
+          "You've got a fixed target date now. Time to plan your revision, mocks, final prep.",
+      },
+      {
+        id: "information-bulletin",
+        type: "heading",
+        title: "Information Bulletin Comes July 1",
+        level: 2,
+      },
+      {
+        id: "information-bulletin-para1",
+        type: "paragraph",
+        content:
+          "NBEMS drops the Information Bulletin on July 1, 2026 at 4:00 PM.",
+      },
+      {
+        id: "information-bulletin-para2",
+        type: "paragraph",
+        content: "It'll have:",
+      },
+      {
+        id: "information-bulletin-list",
+        type: "list",
+        items: [
+          "Eligibility criteria",
+          "Exam scheme",
+          "Fee structure",
+          "Instructions",
+          "Application process",
+          "Documents you need",
+        ],
+      },
+      {
+        id: "information-bulletin-conclusion",
+        type: "paragraph",
+        content: "Read it carefully before you apply. No skimming.",
+      },
+      {
+        id: "registration-window",
+        type: "heading",
+        title: "Registration Window: July 1 to July 21",
+        level: 2,
+      },
+      {
+        id: "registration-window-para1",
+        type: "paragraph",
+        content:
+          "Applications open July 1 at 5:00 PM. They close July 21 at 11:55 PM.",
+      },
+      {
+        id: "registration-window-para2",
+        type: "paragraph",
+        content:
+          "Don't wait until the last day. Seriously. Last-minute registrations hit server issues. You might miss the deadline over something stupid.",
+      },
+      {
+        id: "registration-window-conclusion",
+        type: "paragraph",
+        content: "Apply early. Double-check everything. Then you're done.",
+      },
+      {
+        id: "test-city",
+        type: "heading",
+        title: "Test City Notification: August 11",
+        level: 2,
+      },
+      {
+        id: "test-city-para1",
+        type: "paragraph",
+        content:
+          "August 11 is when you find out which city your exam center is in. The exact center address comes later with your admit card.",
+      },
+      {
+        id: "result-date",
+        type: "heading",
+        title: "Result Date: By September 30",
+        level: 2,
+      },
+      {
+        id: "result-date-para1",
+        type: "paragraph",
+        content:
+          "Results drop by September 30, 2026. You download your scorecard from the NBEMS portal once they announce results.",
+      },
+      {
+        id: "important-dates",
+        type: "heading",
+        title: "Important Dates Summary",
+        level: 2,
+      },
+      {
+        id: "important-dates-table",
+        type: "table",
+        headers: ["Event", "Date"],
+        rows: [
+          ["Information Bulletin Released", "July 1, 2026 at 4:00 PM"],
+          ["Registration Starts", "July 1, 2026 at 5:00 PM"],
+          ["Registration Closes", "July 21, 2026 at 11:55 PM"],
+          ["Test City Intimation", "August 11, 2026"],
+          ["NEET PG 2026 Exam", "August 30, 2026"],
+          ["Result Declaration", "By September 30, 2026"],
+        ],
+      },
+      {
+        id: "what-to-do",
+        type: "heading",
+        title: "What You Should Do Right Now",
+        level: 2,
+      },
+      {
+        id: "what-to-do-para1",
+        type: "paragraph",
+        content:
+          "The dates are out. You know when everything happens. Use that.",
+      },
+      {
+        id: "what-to-do-para2",
+        type: "paragraph",
+        content: "Here's what matters:",
+      },
+      {
+        id: "what-to-do-list",
+        type: "list",
+        items: [
+          "Register as soon as the window opens on July 1",
+          "Gather all required documents before you apply",
+          "Keep solving mocks and previous year questions",
+          "Revise high-yield topics instead of starting new stuff",
+          "Watch NBEMS announcements for admit card and exam guidelines",
+        ],
+      },
+      {
+        id: "what-to-do-conclusion",
+        type: "paragraph",
+        content:
+          "Good planning in the final weeks actually changes your score.",
+      },
+      {
+        id: "final-thoughts",
+        type: "heading",
+        title: "Final Thoughts",
+        level: 2,
+      },
+      {
+        id: "final-thoughts-para1",
+        type: "paragraph",
+        content:
+          "The schedule is official. NEET PG 2026 happens August 30. You've got a timeline.",
+      },
+      {
+        id: "final-thoughts-para2",
+        type: "paragraph",
+        content: "Stop worrying about dates. Start using them.",
+      },
+      {
+        id: "final-thoughts-para3",
+        type: "paragraph",
+        content:
+          "Register on time. Stay updated with NBEMS. Use the remaining weeks for actual focused prep.",
+      },
+      {
+        id: "final-thoughts-conclusion",
+        type: "paragraph",
+        content: "The countdown is on. Make every day count.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "1. When is the NEET PG 2026 exam?",
+            answer:
+              "NEET PG 2026 will be conducted on 30 August 2026 (Sunday).",
+          },
+          {
+            question: "2. When does NEET PG 2026 registration begin?",
+            answer: "The registration window opens on 1 July 2026 at 5:00 PM.",
+          },
+          {
+            question: "3. What is the last date to apply for NEET PG 2026?",
+            answer:
+              "Candidates can submit their application until 21 July 2026 at 11:55 PM.",
+          },
+          {
+            question: "4. When will the NEET PG 2026 test city be announced?",
+            answer:
+              "NBEMS will release the test city intimation on 11 August 2026.",
+          },
+          {
+            question: "5. When is the NEET PG 2026 result expected?",
+            answer:
+              "The NEET PG 2026 result is expected to be declared by 30 September 2026.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "neet pg 2026",
+          "neet pg",
+          "neet pg exam date",
+          "medical entrance exam",
+          "neet pg exam",
+          "neet pg preparation strategy",
+          "neet pg preparation",
+          "neet pg 2026 registration",
+          "neet pg result date",
+          "neet pg 2026 result date",
+          "neet pg official notification",
+        ],
+      },
+    ],
   },
-  "category": {
-    "name": "NEET PG",
-    "slug": "neet-pg",
-    "color": "bg-blue-100 text-blue-800"
+  {
+    id: 180,
+    title:
+      "NEET UG 2026 Result Coming Soon? Here's Where You Need to Register for Counselling",
+    slug: "neet-ug-2026-result-coming-soon-register-for-counselling",
+    excerpt:
+      "NEET UG 2026 Result is expected soon. Stay ahead by registering for NEET UG 2026 Counselling through the right portal to secure your MBBS/BDS admission without delays.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/48362424/file/0aa57b5ef9d2fef0fa4b7f3d65e2684e.jpg",
+    featured_image_alt: "NEET UG 2026 Counselling Registration",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+    },
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
+    },
+    tags: [
+      "NEET UG",
+      "NEET UG 2026",
+      "NEET UG Counselling",
+      "Medical Entrance Exam",
+      "NEET UG Result",
+    ],
+    published_date: "2026-07-13",
+    read_time: 8,
+    meta_title:
+      "NEET UG 2026 Result Coming Soon? Here's Where You Need to Register for Counselling",
+    meta_description:
+      "NEET UG 2026 Result is expected soon. Stay ahead by registering for NEET UG 2026 Counselling through the right portal to secure your MBBS/BDS admission without delays.",
+    keywords: [
+      "neet ug",
+      "neet ug result",
+      "neet ug 2026",
+      "neet ug 2026 result",
+      "medical entrance exam",
+      "neet ug admissions",
+      "neet ug counselling registration",
+      "neet exam",
+      "neet ug counselling schedule",
+      "neet ug counselling rounds",
+      "neet ug fee structure",
+      "neet ug entrance exam",
+      "eligibility for neet ug",
+      "neet ug re exam",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content:
+          "NEET UG 2026 result is coming. Once it's out, counselling registration happens next. And this is where most candidates get confused.",
+      },
+      {
+        id: "intro-conclusion",
+        type: "paragraph",
+        content:
+          "People assume there's one counselling portal. There isn't. NEET UG admissions use three different counselling authorities depending on what course you want. This explains which portal you need, what each one does, fees, the process, and how they're different.",
+      },
+      {
+        id: "three-authorities",
+        type: "heading",
+        title: "One NEET Exam, Three Counselling Authorities",
+        level: 2,
+      },
+      {
+        id: "three-authorities-table",
+        type: "table",
+        headers: ["Authority", "Courses", "Portal"],
+        rows: [
+          [
+            "Medical Counselling Committee (MCC)",
+            "MBBS, BDS, BSc Nursing",
+            "mcc.nic.in",
+          ],
+          [
+            "Ayush Admissions Central Counselling Committee (AACCC)",
+            "BAMS, BHMS, BUMS, BSMS",
+            "aaccc.gov.in",
+          ],
+          [
+            "Veterinary Council of India (VCI)",
+            "BVSc & AH",
+            "vci.admissions.nic.in",
+          ],
+        ],
+        caption:
+          "You need the right portal for your course. Each authority handles different admissions.",
+      },
+      {
+        id: "mcc-section",
+        type: "heading",
+        title: "Medical Counselling Committee (MCC)",
+        level: 2,
+      },
+      {
+        id: "mcc-para1",
+        type: "paragraph",
+        content: "MCC handles admissions for MBBS, BDS, and BSc Nursing.",
+      },
+      {
+        id: "mcc-what-they-manage",
+        type: "heading",
+        title: "What They Manage",
+        level: 3,
+      },
+      {
+        id: "mcc-manage-list",
+        type: "list",
+        items: [
+          "15% All India Quota (AIQ) seats in Government Medical Colleges",
+          "100% seats in AIIMS (all campuses)",
+          "JIPMER",
+          "Central Universities (BHU, AMU, DU, JMI)",
+          "ESIC Institutions",
+          "AFMC (separate admission process)",
+        ],
+      },
+      {
+        id: "mcc-ministry",
+        type: "paragraph",
+        content: "Overseen by Ministry of Health & Family Welfare.",
+      },
+      {
+        id: "mcc-when",
+        type: "heading",
+        title: "When Counselling Happens",
+        level: 3,
+      },
+      {
+        id: "mcc-when-para",
+        type: "paragraph",
+        content:
+          "Due to NEET UG 2026 re-exam, counselling expected between July and September 2026.",
+      },
+      {
+        id: "mcc-rounds",
+        type: "heading",
+        title: "Counselling Rounds",
+        level: 3,
+      },
+      {
+        id: "mcc-rounds-para",
+        type: "paragraph",
+        content:
+          "Round 1, Round 2, Round 3, Round 4, plus Stray Vacancy Round.",
+      },
+      {
+        id: "mcc-how-to-register",
+        type: "heading",
+        title: "How to Register",
+        level: 3,
+      },
+      {
+        id: "mcc-register-list",
+        type: "list",
+        items: [
+          "Sign up on MCC portal with your NEET Roll Number",
+          "Pay registration fee and security deposit",
+          "Fill college and course preferences",
+          "Lock your choices before deadline",
+          "Check seat allotment result online",
+          "Report to your college with documents",
+        ],
+      },
+      {
+        id: "mcc-fees-aiq",
+        type: "heading",
+        title: "Registration Fees for AIQ & Central University Seats",
+        level: 3,
+      },
+      {
+        id: "mcc-fees-aiq-table",
+        type: "table",
+        headers: ["Category", "Registration Fee", "Security Deposit"],
+        rows: [
+          ["General / EWS", "₹1,000", "₹10,000"],
+          ["SC / ST / OBC / PwD", "₹500", "₹5,000"],
+        ],
+      },
+      {
+        id: "mcc-fees-deemed",
+        type: "heading",
+        title: "For Deemed University Seats",
+        level: 3,
+      },
+      {
+        id: "mcc-fees-deemed-table",
+        type: "table",
+        headers: ["Category", "Registration Fee", "Security Deposit"],
+        rows: [["All categories", "₹5,000", "₹2,00,000"]],
+      },
+      {
+        id: "aaccc-section",
+        type: "heading",
+        title: "Ayush Admissions Central Counselling Committee (AACCC)",
+        level: 2,
+      },
+      {
+        id: "aaccc-para1",
+        type: "paragraph",
+        content:
+          "AACCC handles AYUSH courses: BAMS, BHMS, BUMS, BSMS, and B.Pharm (Ayurveda). Overseen by National Commission for Indian System of Medicine (NCISM), Ministry of Ayush.",
+      },
+      {
+        id: "aaccc-what-they-manage",
+        type: "heading",
+        title: "What They Manage",
+        level: 3,
+      },
+      {
+        id: "aaccc-manage-list",
+        type: "list",
+        items: [
+          "15% All India Quota seats in Government and Aided AYUSH colleges",
+          "100% seats in Deemed Universities",
+          "Central Universities",
+          "National Institutes",
+          "Over 900 AYUSH colleges participate",
+        ],
+      },
+      {
+        id: "aaccc-when",
+        type: "heading",
+        title: "When Counselling Happens",
+        level: 3,
+      },
+      {
+        id: "aaccc-when-para",
+        type: "paragraph",
+        content: "Expected to start August 2026 (tentative).",
+      },
+      {
+        id: "aaccc-rounds",
+        type: "heading",
+        title: "Counselling Rounds",
+        level: 3,
+      },
+      {
+        id: "aaccc-rounds-para",
+        type: "paragraph",
+        content:
+          "Round 1, Round 2, Round 3, Stray Vacancy Round I, Stray Vacancy Round II.",
+      },
+      {
+        id: "aaccc-rules",
+        type: "heading",
+        title: "Important AACCC Rules",
+        level: 3,
+      },
+      {
+        id: "aaccc-rules-list",
+        type: "list",
+        items: [
+          "Deemed University seats are unreserved. Central Government reservation policies don't apply.",
+          "Registration Fee: General ₹1,000, SC/ST ₹500.",
+          "No fresh registrations allowed during Stray Vacancy Round.",
+          "Candidates who don't join their allotted college lose security deposit and become ineligible for further rounds.",
+          "Foreign nationals applying under NRI quota in Deemed Universities don't need NEET for AYUSH UG courses.",
+        ],
+      },
+      {
+        id: "vci-section",
+        type: "heading",
+        title: "Veterinary Council of India (VCI)",
+        level: 2,
+      },
+      {
+        id: "vci-para1",
+        type: "paragraph",
+        content:
+          "VCI handles counselling for BVSc & AH (Bachelor of Veterinary Science & Animal Husbandry).",
+      },
+      {
+        id: "vci-eligibility",
+        type: "heading",
+        title: "Eligibility",
+        level: 3,
+      },
+      {
+        id: "vci-eligibility-list",
+        type: "list",
+        items: [
+          "Indian citizen",
+          "At least 17 years old by December 31, 2026",
+          "Qualified NEET UG 2026",
+        ],
+      },
+      {
+        id: "vci-eligibility-note",
+        type: "paragraph",
+        content:
+          "Note: Jammu & Kashmir domicile candidates aren't eligible for AIQ seats.",
+      },
+      {
+        id: "vci-fees",
+        type: "heading",
+        title: "Registration Fees",
+        level: 3,
+      },
+      {
+        id: "vci-fees-table",
+        type: "table",
+        headers: ["Category", "Registration Fee"],
+        rows: [
+          ["General", "₹1,000"],
+          ["EWS/OBC", "₹900"],
+          ["SC/ST/PwD", "₹500"],
+        ],
+      },
+      {
+        id: "vci-when",
+        type: "heading",
+        title: "When Counselling Happens",
+        level: 3,
+      },
+      {
+        id: "vci-when-para",
+        type: "paragraph",
+        content: "Expected September 2026.",
+      },
+      {
+        id: "vci-rounds",
+        type: "heading",
+        title: "Counselling Rounds",
+        level: 3,
+      },
+      {
+        id: "vci-rounds-para",
+        type: "paragraph",
+        content: "Round 1, Round 2, Stray Vacancy Round.",
+      },
+      {
+        id: "comparison",
+        type: "heading",
+        title: "MCC vs AACCC vs VCI: Quick Comparison",
+        level: 2,
+      },
+      {
+        id: "comparison-table",
+        type: "table",
+        headers: ["Feature", "MCC", "AACCC", "VCI"],
+        rows: [
+          [
+            "Courses",
+            "MBBS, BDS, BSc Nursing",
+            "BAMS, BHMS, BUMS, BSMS",
+            "BVSc & AH",
+          ],
+          ["AIQ Seats", "15%", "15%", "15%"],
+          ["Deemed University Seats", "Yes (100%)", "Yes (100%)", "No"],
+          [
+            "Counselling Rounds",
+            "4 + Stray Vacancy",
+            "3 + Stray Vacancy I & II",
+            "2 + Stray Vacancy",
+          ],
+          [
+            "Expected Start",
+            "July–September 2026",
+            "August 2026",
+            "September 2026",
+          ],
+          [
+            "Conducting Ministry",
+            "Ministry of Health & Family Welfare",
+            "Ministry of Ayush",
+            "Department of Animal Husbandry & Dairying",
+          ],
+          [
+            "Official Portal",
+            "mcc.nic.in",
+            "aaccc.gov.in",
+            "vci.admissions.nic.in",
+          ],
+        ],
+      },
+      {
+        id: "final-thoughts",
+        type: "heading",
+        title: "Final Thoughts",
+        level: 2,
+      },
+      {
+        id: "final-thoughts-para1",
+        type: "paragraph",
+        content:
+          "You passed NEET UG 2026. That's step one. Now comes registering with the right counselling body based on what you want to study.",
+      },
+      {
+        id: "final-thoughts-list",
+        type: "list",
+        items: [
+          "Want MBBS, BDS, or BSc Nursing? Go to MCC.",
+          "Interested in AYUSH - BAMS, BHMS, BUMS, BSMS? That's AACCC.",
+          "Looking at BVSc & AH? VCI is your place.",
+        ],
+      },
+      {
+        id: "final-thoughts-conclusion",
+        type: "paragraph",
+        content:
+          "Get your documents together. Know the rules. Register before the deadlines close. This is where you actually secure a seat.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "Which portal for MBBS counselling after NEET UG 2026?",
+            answer: "MCC handles it.",
+          },
+          {
+            question: "Where do AYUSH aspirants sign up?",
+            answer: "AACCC.",
+          },
+          {
+            question: "Who runs BVSc & AH counselling?",
+            answer: "VCI.",
+          },
+          {
+            question: "Can I register for multiple counselling authorities?",
+            answer: "Yeah, if you're eligible for different courses.",
+          },
+          {
+            question: "Is passing NEET UG enough to get a seat?",
+            answer: "No. You also have to register for counselling.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "neet ug",
+          "neet ug result",
+          "neet ug 2026",
+          "neet ug 2026 result",
+          "medical entrance exam",
+          "neet ug admissions",
+          "neet ug counselling registration",
+          "neet exam",
+          "neet ug counselling schedule",
+          "neet ug counselling rounds",
+          "neet ug fee structure",
+          "neet ug entrance exam",
+          "eligibility for neet ug",
+          "neet ug re exam",
+        ],
+      },
+    ],
   },
-  "tags": [
-    "INI CET",
-    "INI CET Counselling",
-    "INI CET 2026",
-    "NEET PG Counselling",
-    "PG Seat Allotment"
-  ],
-  "published_date": "2026-06-25",
-  "read_time": 10,
-  "meta_title": "INI CET July 2026 Counselling: Complete Guide to Rules, Rounds, and Seat Upgradation",
-  "meta_description": "INI CET July 2026 Counselling: Know counselling rules, round-wise seat allotment, choice filling, seat upgradation, and admission steps.",
-  "keywords": [
-    "ini cet counselling",
-    "ini cet counselling process",
-    "ini cet exam",
-    "ini cet preparation",
-    "neet pg counselling",
-    "ini cet counselling schedule",
-    "ini cet exam registration",
-    "neet pg exam",
-    "medical pg counselling",
-    "pg counselling",
-    "ini cet",
-    "ini cet exam preparation",
-    "pg seat allotment"
-  ],
-  "sections": [
-    {
-      "id": "intro-para1",
-      "type": "paragraph",
-      "content": "You know what, a good rank in the INI CET exam actually gets a candidate into the race, but the real decision start with counseling. One wrong choice of order or missing a reporting the deadline can have some consequences as well beyond just losing a seat. In some cases, it can even lead you to financial penalties."
+  {
+    id: 181,
+    title:
+      "NEET PG 2026 Registration: How to Fill the Correspondence Address Correctly and Avoid Test Centre Mistakes",
+    slug: "neet-pg-2026-registration-correspondence-address-test-centre-mistakes",
+    excerpt:
+      "Filling the NEET PG 2026 correspondence address correctly can help avoid test centre issues. Follow this simple guide to register accurately and confidently.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/48388272/file/90a0cbcfbec9171fde4ac73e45f3b830.jpg",
+    featured_image_alt: "NEET PG 2026 Registration",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
     },
-    {
-      "id": "intro-conclusion",
-      "type": "paragraph",
-      "content": "The INI CET 2026 counselling process works differently from NEET PG counselling. Round one and round two are linked together, and the open round follows a separate set of rules. Because of that, every stage of the INI CET counselling process needs careful attention before choices are locked."
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
     },
-    {
-      "id": "schedule-section",
-      "type": "heading",
-      "title": "INI CET July 2026 Counselling Schedule",
-      "level": 2
-    },
-    {
-      "id": "schedule-para1",
-      "type": "paragraph",
-      "content": "After completing INI CET exam registration and participating in the mock round, candidates have to fill choices for round one between June 16 and June 17, 2026. The first allotment result is expected on June 24, followed by reporting and joining formalities until June 30. Classes are scheduled to begin on July 1."
-    },
-    {
-      "id": "schedule-para2",
-      "type": "paragraph",
-      "content": "Round two results are likely on July 10, and reporting is expected to continue until July 16. Admissions can continue till August 31, with the open round expected after round two concludes."
-    },
-    {
-      "id": "schedule-table",
-      "type": "table",
-      "headers": ["Event", "Expected Date"],
-      "rows": [
-        ["Round 1 Choice Filling", "June 16–17, 2026"],
-        ["Round 1 Allotment Result", "June 24, 2026"],
-        ["Reporting & Joining (Round 1)", "Until June 30, 2026"],
-        ["Classes Begin", "July 1, 2026"],
-        ["Round 2 Results", "July 10, 2026"],
-        ["Reporting & Joining (Round 2)", "Until July 16, 2026"],
-        ["Admissions Close", "August 31, 2026"],
-        ["Open Round", "After Round 2 concludes"]
-      ]
-    },
-    {
-      "id": "schedule-conclusion",
-      "type": "paragraph",
-      "content": "One advantage of the July session is that the overall process is expected to finish before the NEET PG exam. That gives aspirants enough room to plan their medical PG counselling options separately without worrying about stressful schedules."
-    },
-    {
-      "id": "mock-round",
-      "type": "heading",
-      "title": "Mock Round Results Are Not the Final Picture",
-      "level": 2
-    },
-    {
-      "id": "mock-round-para1",
-      "type": "paragraph",
-      "content": "The mock round mainly gives candidates an idea of how the INICET counseling system works. Since many candidates change or reorder their preferences before round one, the actual allotment list often looks very different."
-    },
-    {
-      "id": "mock-round-para2",
-      "type": "paragraph",
-      "content": "Candidates who missed the mock round but are part of the merit list can still register and participate in round one."
-    },
-    {
-      "id": "mock-round-conclusion",
-      "type": "paragraph",
-      "content": "Those who have decided against participating should remove all saved choices. Any choices left in the system are carried forward automatically, and allotments can happen based on them."
-    },
-    {
-      "id": "round-one-choice",
-      "type": "heading",
-      "title": "Why Round One Choice Filling Matters So Much",
-      "level": 2
-    },
-    {
-      "id": "round-one-choice-para1",
-      "type": "paragraph",
-      "content": "Most PG counselling systems allow fresh choice filling in later rounds. INI CET counselling does not. Whatever preferences are submitted in round one are carried forward directly to round two. There is no chance to rearrange or add choices later."
-    },
-    {
-      "id": "round-one-choice-para2",
-      "type": "paragraph",
-      "content": "That means:"
-    },
-    {
-      "id": "round-one-choice-list",
-      "type": "list",
-      "items": [
-        "Preferences should be arranged carefully",
-        "No changes are allowed after round one",
-        "Missing round one means losing round two eligibility",
-        "Candidates who skip round one can participate only in the open round"
-      ]
-    },
-    {
-      "id": "round-one-choice-conclusion",
-      "type": "paragraph",
-      "content": "The sequence of choices matters just as much as the choices themselves."
-    },
-    {
-      "id": "after-round-one",
-      "type": "heading",
-      "title": "What Happens After Round One Allotment?",
-      "level": 2
-    },
-    {
-      "id": "not-allotted",
-      "type": "heading",
-      "title": "Candidates Who Are Not Allotted",
-      "level": 3
-    },
-    {
-      "id": "not-allotted-para1",
-      "type": "paragraph",
-      "content": "Candidates who do not get a seat in round one do not have to complete any additional process. Their existing choices automatically move to round two. Fresh preferences or modifications are not permitted."
-    },
-    {
-      "id": "allotted",
-      "type": "heading",
-      "title": "Candidates Who Receive a Seat",
-      "level": 3
-    },
-    {
-      "id": "allotted-para1",
-      "type": "paragraph",
-      "content": "Once a seat is allotted, two options are available."
-    },
-    {
-      "id": "option1",
-      "type": "heading",
-      "title": "Option 1: Accept the Seat Without Upgradation",
-      "level": 3
-    },
-    {
-      "id": "option1-para1",
-      "type": "paragraph",
-      "content": "You're happy with what you got. No point in waiting around hoping for something better. Accept it and you're done. No more rounds, no more stress."
-    },
-    {
-      "id": "option1-para2",
-      "type": "paragraph",
-      "content": "Typical examples include:"
-    },
-    {
-      "id": "option1-list1",
-      "type": "list",
-      "items": [
-        "Candidates who receive their top preferences",
-        "Candidates who do not want to risk changing institutes or specialties"
-      ]
-    },
-    {
-      "id": "option1-para3",
-      "type": "paragraph",
-      "content": "Such candidates:"
-    },
-    {
-      "id": "option1-list2",
-      "type": "list",
-      "items": [
-        "Must report to the allotted institute",
-        "Have to submit original documents or a ₹3 lakh DD",
-        "Become ineligible for round two",
-        "Remain eligible for the open round"
-      ]
-    },
-    {
-      "id": "option2",
-      "type": "heading",
-      "title": "Option 2: Accept the Seat and Seek Upgradation",
-      "level": 3
-    },
-    {
-      "id": "option2-para1",
-      "type": "paragraph",
-      "content": "You got a seat but you're not completely satisfied. You want to try for something higher in round two. With this option, you keep your current seat as backup but still throw your hat in the ring for the next round. If something better comes up, great. If not, you've got what you already have."
-    },
-    {
-      "id": "option2-para2",
-      "type": "paragraph",
-      "content": "Only better choices are processed during round two. There is no possibility of moving down to a lower preference."
-    },
-    {
-      "id": "option2-para3",
-      "type": "paragraph",
-      "content": "These candidates:"
-    },
-    {
-      "id": "option2-list",
-      "type": "list",
-      "items": [
-        "Must report to the allotted institute",
-        "Can temporarily submit original certificates or a ₹3 lakh DD",
-        "Remain eligible for round two",
-        "Continue to be eligible for the open round later"
-      ]
-    },
-    {
-      "id": "round-two-eligibility",
-      "type": "heading",
-      "title": "Round Two Eligibility Rules",
-      "level": 2
-    },
-    {
-      "id": "round-two-para1",
-      "type": "paragraph",
-      "content": "Round two includes:"
-    },
-    {
-      "id": "round-two-list1",
-      "type": "list",
-      "items": [
-        "Candidates who filled choices but did not get a seat in round one",
-        "Candidates who accepted their round one seat under Option 2"
-      ]
-    },
-    {
-      "id": "round-two-para2",
-      "type": "paragraph",
-      "content": "The following candidates are not eligible:"
-    },
-    {
-      "id": "round-two-list2",
-      "type": "list",
-      "items": [
-        "Those who skipped choice filling in round one",
-        "Candidates who failed to join their allotted seat",
-        "Candidates who selected Option 1"
-      ]
-    },
-    {
-      "id": "round-two-conclusion",
-      "type": "paragraph",
-      "content": "There is no fresh choice filling in round two. The system processes previously submitted preferences automatically."
-    },
-    {
-      "id": "open-round",
-      "type": "heading",
-      "title": "Open Round Eligibility",
-      "level": 2
-    },
-    {
-      "id": "open-round-para1",
-      "type": "paragraph",
-      "content": "The open round has a separate set of rules and remains an important part of the INI CET counselling process. Every qualified INI CET July 2026 candidate can participate, including:"
-    },
-    {
-      "id": "open-round-list",
-      "type": "list",
-      "items": [
-        "Candidates who never participated earlier",
-        "Candidates who did not receive a seat",
-        "Candidates who chose Option 1",
-        "Candidates who joined seats in round one or round two"
-      ]
-    },
-    {
-      "id": "open-round-conclusion",
-      "type": "paragraph",
-      "content": "Participation requires an online security deposit of ₹3 lakh."
-    },
-    {
-      "id": "spot-rounds",
-      "type": "heading",
-      "title": "Spot Rounds Are Unlikely",
-      "level": 2
-    },
-    {
-      "id": "spot-rounds-para1",
-      "type": "paragraph",
-      "content": "Earlier sessions had spot rounds similar to stray vacancy rounds. That pattern has changed in recent sessions, and such rounds have largely disappeared."
-    },
-    {
-      "id": "spot-rounds-para2",
-      "type": "paragraph",
-      "content": "Seats that remain vacant after the open round are generally carried forward to the next session."
-    },
-    {
-      "id": "spot-rounds-conclusion",
-      "type": "paragraph",
-      "content": "Because of that, aspirants should avoid relying on a spot round while planning their medical PG counselling strategy."
-    },
-    {
-      "id": "final-thoughts",
-      "type": "heading",
-      "title": "Final Thoughts",
-      "level": 2
-    },
-    {
-      "id": "final-thoughts-para1",
-      "type": "paragraph",
-      "content": "The INI CET 2026 counselling process goes beyond rank and seat allotment. Round one choices continue into round two, and resigning from a seat later can involve substantial penalties. A rushed decision can become an expensive one."
-    },
-    {
-      "id": "final-thoughts-conclusion",
-      "type": "paragraph",
-      "content": "Students preparing for both the INI CET exam and the NEET PG exam should know the rules related to choice filling, reporting, seat upgradation, and the open round well in advance. Good INI CET exam preparation helps with the exam itself, but familiarity with NEET PG counselling, PG counselling, and the wider medical PG counselling process can make a big difference when the admission stage begins."
-    },
-    {
-      "id": "faqs",
-      "type": "heading",
-      "title": "FAQs",
-      "level": 2
-    },
-    {
-      "id": "faqs-list",
-      "type": "faq",
-      "faqs": [
-        {
-          "question": "Can I change my choices in Round 2?",
-          "answer": "Nope. Once Round 1 choices are locked, that's it. Can't go back and modify them."
-        },
-        {
-          "question": "Is the mock round compulsory?",
-          "answer": "No. It's optional. Mainly there so you can figure out how the process actually works before the real thing."
-        },
-        {
-          "question": "Can I upgrade my seat after Round 1?",
-          "answer": "Yeah. If you want to try for something better, you can go for the upgradation option in the next round."
-        },
-        {
-          "question": "Who is eligible for the open round?",
-          "answer": "Anyone who qualified INI-CET can participate. Pretty straightforward."
-        }
-      ]
-    },
-    {
-      "id": "keywords",
-      "type": "keywords",
-      "title": "Related Keywords",
-      "keywords": [
-        "ini cet counselling",
-        "ini cet counselling process",
-        "ini cet exam",
-        "ini cet preparation",
-        "neet pg counselling",
-        "ini cet counselling schedule",
-        "ini cet exam registration",
-        "neet pg exam",
-        "medical pg counselling",
-        "pg counselling",
-        "ini cet",
-        "ini cet exam preparation",
-        "pg seat allotment"
-      ]
-    }
-  ]
-},
-{
-  "id": 173,
-  "title": "How Medical Interns Are Managing Hospital Duties and Competitive Exam Preparation at the Same Time",
-  "slug": "how-medical-interns-managing-hospital-duties-competitive-exam-preparation",
-  "excerpt": "Every NEET PG aspirant faces moments of doubt. The key is staying focused, trusting the process, and continuing consistent preparation.",
-  "featured_image": "https://cdn.dribbble.com/userupload/48187310/file/7f4f620bc825151055fc28149ebed0e5.jpg",
-  "featured_image_alt": "NEET PG",
-  "author": {
-    "name": "Believers Team",
-    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
-    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+    tags: [
+      "NEET PG",
+      "NEET PG 2026",
+      "NEET PG Registration",
+      "NEET PG Application Form",
+      "Medical Entrance Exam",
+    ],
+    published_date: "2026-07-15",
+    read_time: 10,
+    meta_title:
+      "NEET PG 2026 Registration: How to Fill the Correspondence Address Correctly and Avoid Test Centre Mistakes",
+    meta_description:
+      "Filling the NEET PG 2026 correspondence address correctly can help avoid test centre issues. Follow this simple guide to register accurately and confidently.",
+    keywords: [
+      "neet pg registration",
+      "neet pg 2026",
+      "neet pg",
+      "neet pg 2026 registration",
+      "neet pg application form",
+      "neet pg 2026 application form",
+      "neet pg 2026 application",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content:
+          "NEET PG 2026 registration changed something major that's confusing a lot of candidates. The correspondence address.",
+      },
+      {
+        id: "intro-para2",
+        type: "paragraph",
+        content:
+          "Used to be: register early, get the center you want. Not anymore. System's completely different.",
+      },
+      {
+        id: "intro-conclusion",
+        type: "paragraph",
+        content:
+          "Your correspondence address is now critical for test center allocation. Get it wrong and you might end up somewhere inconvenient. Here's what you actually need to know before you submit.",
+      },
+      {
+        id: "not-first-come",
+        type: "heading",
+        title: "Test Centers Aren't First-Come, First-Served Anymore",
+        level: 2,
+      },
+      {
+        id: "not-first-come-para1",
+        type: "paragraph",
+        content:
+          "This is the biggest change. Registering on day one? Doesn't matter. Registering on the last day? Doesn't matter either.",
+      },
+      {
+        id: "not-first-come-conclusion",
+        type: "paragraph",
+        content:
+          "When you register has zero impact on your test center allocation now. So stop rushing. Focus on getting the details right instead.",
+      },
+      {
+        id: "how-selection-works",
+        type: "heading",
+        title: "How Test Center Selection Works Now",
+        level: 2,
+      },
+      {
+        id: "how-selection-para1",
+        type: "paragraph",
+        content:
+          "Old system: you picked specific cities. New system: you pick states only.",
+      },
+      {
+        id: "how-selection-para2",
+        type: "paragraph",
+        content: "You'll choose:",
+      },
+      {
+        id: "how-selection-list",
+        type: "list",
+        items: [
+          "State Preference 1",
+          "State Preference 2",
+          "State Preference 3",
+        ],
+      },
+      {
+        id: "how-selection-conclusion",
+        type: "paragraph",
+        content:
+          "That's it. No picking individual cities. Which is why your correspondence address matters way more now.",
+      },
+      {
+        id: "why-address-matters",
+        type: "heading",
+        title: "Why Your Correspondence Address Actually Matters",
+        level: 2,
+      },
+      {
+        id: "why-address-para1",
+        type: "paragraph",
+        content:
+          "Your first state preference links directly to the state in your correspondence address. Basically, the address you put down should match where you're actually planning to be during the exam.",
+      },
+      {
+        id: "why-address-para2",
+        type: "paragraph",
+        content: "Real examples:",
+      },
+      {
+        id: "why-address-list",
+        type: "list",
+        items: [
+          "You're doing coaching in another state? Use that address if that's where you'll be.",
+          "Staying with relatives somewhere else before the exam? Put their address.",
+          "Right address means you're more likely to get a test center nearby.",
+        ],
+      },
+      {
+        id: "pin-code",
+        type: "heading",
+        title: "Don't Mess Up Your PIN Code",
+        level: 2,
+      },
+      {
+        id: "pin-code-para1",
+        type: "paragraph",
+        content:
+          "This matters more than people realize. One wrong digit in your PIN code changes your entire location. Test centers are based on your correspondence address plus PIN code. Get it wrong and you end up somewhere inconvenient.",
+      },
+      {
+        id: "pin-code-para2",
+        type: "paragraph",
+        content: "Before you submit:",
+      },
+      {
+        id: "pin-code-list",
+        type: "list",
+        items: [
+          "Check every single digit of the PIN code",
+          "Verify the locality and state match",
+          "Make sure the address is where you'll actually be",
+        ],
+      },
+      {
+        id: "pin-code-conclusion",
+        type: "paragraph",
+        content: "One small mistake creates real problems.",
+      },
+      {
+        id: "state-preferences",
+        type: "heading",
+        title: "Picking Your State Preferences",
+        level: 2,
+      },
+      {
+        id: "state-preferences-para1",
+        type: "paragraph",
+        content:
+          "After your first state, you need two more. Think practically. Pick nearby states that make travel sense.",
+      },
+      {
+        id: "state-preferences-para2",
+        type: "paragraph",
+        content: "Examples:",
+      },
+      {
+        id: "state-preferences-list",
+        type: "list",
+        items: [
+          "First preference Kerala? Pick Tamil Nadu or Karnataka. They're close by.",
+          "Same logic everywhere. Choose states that are actually reachable.",
+        ],
+      },
+      {
+        id: "state-preferences-conclusion",
+        type: "paragraph",
+        content:
+          "If your first choice doesn't work out, you've still got somewhere accessible.",
+      },
+      {
+        id: "documents-ready",
+        type: "heading",
+        title: "Have Documents Ready",
+        level: 2,
+      },
+      {
+        id: "documents-para1",
+        type: "paragraph",
+        content:
+          "Get proof of your correspondence address before you register. A document that matches that address.",
+      },
+      {
+        id: "documents-para2",
+        type: "paragraph",
+        content: "Before you finish your application:",
+      },
+      {
+        id: "documents-list",
+        type: "list",
+        items: [
+          "Your address is accurate",
+          "PIN code is correct",
+          "You have documents supporting that address",
+        ],
+      },
+      {
+        id: "documents-conclusion",
+        type: "paragraph",
+        content: "Keeps problems from popping up later.",
+      },
+      {
+        id: "cannot-change",
+        type: "heading",
+        title: "You Can't Change This Afterward",
+        level: 2,
+      },
+      {
+        id: "cannot-change-para1",
+        type: "paragraph",
+        content:
+          "This is important. Your correspondence address can't be edited during the edit window. Some details you can fix later. Not this one.",
+      },
+      {
+        id: "cannot-change-conclusion",
+        type: "paragraph",
+        content:
+          "Everything matters here. Address, state, PIN code. Verify it all before you submit. Don't assume you'll fix it later. You absolutely cannot.",
+      },
+      {
+        id: "checklist",
+        type: "heading",
+        title: "Checklist Before You Submit",
+        level: 2,
+      },
+      {
+        id: "checklist-para1",
+        type: "paragraph",
+        content: "Before you click submit:",
+      },
+      {
+        id: "checklist-list",
+        type: "list",
+        items: [
+          "Pick the state where you'll actually take the exam",
+          "Your correspondence address is completely correct",
+          "Every digit of the PIN code is right",
+          "Your second and third state preferences make sense",
+          "You have proof of your address",
+          "You've reviewed everything because you can't change it later",
+        ],
+      },
+      {
+        id: "final-thoughts",
+        type: "heading",
+        title: "Final Thoughts",
+        level: 2,
+      },
+      {
+        id: "final-thoughts-para1",
+        type: "paragraph",
+        content:
+          "The correspondence address isn't just another form field anymore. New system means it actually matters.",
+      },
+      {
+        id: "final-thoughts-conclusion",
+        type: "paragraph",
+        content:
+          "Take an extra few minutes. Verify everything carefully. Get the address and PIN code right. This keeps you from getting stuck with a test center nowhere near where you'll be.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question:
+              "Is NEET PG 2026 test centre allotment first come, first served?",
+            answer: "No. When you register doesn't affect anything anymore.",
+          },
+          {
+            question: "Can I choose my exam city?",
+            answer: "No. You pick three states. That's all you get.",
+          },
+          {
+            question: "Why is the correspondence address important?",
+            answer: "It determines what test center you get.",
+          },
+          {
+            question: "Can I edit my correspondence address later?",
+            answer: "Nope. Can't change it during the edit window.",
+          },
+          {
+            question: "Should I verify my PIN code before submitting?",
+            answer:
+              "Yeah. One wrong digit messes up your test center allocation.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "neet pg registration",
+          "neet pg 2026",
+          "neet pg",
+          "neet pg 2026 registration",
+          "neet pg application form",
+          "neet pg 2026 application form",
+          "neet pg 2026 application",
+        ],
+      },
+    ],
   },
-  "category": {
-    "name": "NEET PG",
-    "slug": "neet-pg",
-    "color": "bg-blue-100 text-blue-800"
+  {
+    id: 182,
+    title:
+      "Why Consistency Beats Last-Minute Marathon Study Sessions for Medical Entrance Exams",
+    slug: "why-consistency-beats-last-minute-marathon-study-sessions-medical-entrance-exams",
+    excerpt:
+      "Discover why consistent daily study outperforms last-minute cramming for medical entrance exams, improving retention, confidence, and exam-day performance.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/48411413/file/50d9ec771d06aa664bd1226a8c798d11.jpg",
+    featured_image_alt: "medical entrance exam consistency study",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+    },
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
+    },
+    tags: [
+      "NEET PG",
+      "INI CET",
+      "FMGE",
+      "Medical Entrance Exams",
+      "Exam Preparation",
+    ],
+    published_date: "2026-07-17",
+    read_time: 10,
+    meta_title:
+      "Why Consistency Beats Last-Minute Marathon Study Sessions for Medical Entrance Exams",
+    meta_description:
+      "Discover why consistent daily study outperforms last-minute cramming for medical entrance exams, improving retention, confidence, and exam-day performance.",
+    keywords: [
+      "medical entrance exams",
+      "neet pg",
+      "ini cet",
+      "fmge",
+      "neet pg exam",
+      "inicet exam",
+      "fmge exam",
+      "neet pg preparation",
+      "fmge preparation",
+      "inicet preparation",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content: "You've seen it happen.",
+      },
+      {
+        id: "intro-para2",
+        type: "paragraph",
+        content:
+          "Someone coasts for months. Then suddenly they're pulling all-nighters, solving hundreds of MCQs, living on coffee. Looks productive. Feels like hard work.",
+      },
+      {
+        id: "intro-conclusion",
+        type: "paragraph",
+        content:
+          "But when results come out? The people who studied consistently usually score higher. NEET PG, INI-CET, FMGE prep isn't about how many hours you cram in the final month. It's about building knowledge that actually sticks.",
+      },
+      {
+        id: "memory-not-desperation",
+        type: "heading",
+        title: "Medical Exams Test Memory, Not Desperation",
+        level: 2,
+      },
+      {
+        id: "memory-para1",
+        type: "paragraph",
+        content:
+          "The syllabus is massive. Nineteen subjects. Thousands of concepts. Clinical stuff. Image-based questions. Case scenarios. You can't master this in a few weeks.",
+      },
+      {
+        id: "memory-para2",
+        type: "paragraph",
+        content: "Study consistently and:",
+      },
+      {
+        id: "memory-list",
+        type: "list",
+        items: [
+          "Concepts stay in your memory",
+          "Revision gets easier",
+          "Clinical reasoning builds naturally",
+          "You're not relearning the same stuff over and over",
+        ],
+      },
+      {
+        id: "memory-conclusion",
+        type: "paragraph",
+        content:
+          "Marathon cramming? Usually just short-term memorization that disappears after the exam.",
+      },
+      {
+        id: "small-daily-work",
+        type: "heading",
+        title: "Small Daily Work Compounds",
+        level: 2,
+      },
+      {
+        id: "small-daily-para1",
+        type: "paragraph",
+        content:
+          "People don't realize what a few focused hours does every day.",
+      },
+      {
+        id: "small-daily-list",
+        type: "list",
+        items: [
+          "One topic daily? Over 300 topics a year.",
+          "Fifty MCQs daily? More than 18,000 questions.",
+          "Thirty minutes of revision each night? Every subject gets reviewed multiple times before the exam.",
+        ],
+      },
+      {
+        id: "small-daily-conclusion",
+        type: "paragraph",
+        content:
+          "Progress feels slow at first. Months in, it's obvious. Consistency builds momentum.",
+      },
+      {
+        id: "brain-needs-repetition",
+        type: "heading",
+        title: "Your Brain Needs Repetition",
+        level: 2,
+      },
+      {
+        id: "brain-para1",
+        type: "paragraph",
+        content:
+          "Medical prep isn't memorization. You need to recognize patterns, understand protocols, interpret tests, apply concepts to real cases.",
+      },
+      {
+        id: "brain-para2",
+        type: "paragraph",
+        content:
+          "Repeated exposure builds stronger connections in your brain. Reading one topic for six hours straight? Not as effective as going back to it for one hour over multiple days.",
+      },
+      {
+        id: "brain-conclusion",
+        type: "paragraph",
+        content: "This is why spaced revision actually works for medical prep.",
+      },
+      {
+        id: "cramming-destroys",
+        type: "heading",
+        title: "Last-Minute Cramming Destroys You",
+        level: 2,
+      },
+      {
+        id: "cramming-para1",
+        type: "paragraph",
+        content:
+          "Marathon sessions happen because students panic about time running out. That pressure causes:",
+      },
+      {
+        id: "cramming-list",
+        type: "list",
+        items: [
+          "Information overload",
+          "Difficulty focusing",
+          "Mental exhaustion",
+          "Confidence drops",
+          "You forget what you already studied",
+        ],
+      },
+      {
+        id: "cramming-conclusion",
+        type: "paragraph",
+        content:
+          "Instead of improving your performance, it just increases your anxiety before the exam. Consistent studying keeps you in control.",
+      },
+      {
+        id: "integrated-learning",
+        type: "heading",
+        title: "Integrated Learning Takes Time",
+        level: 2,
+      },
+      {
+        id: "integrated-para1",
+        type: "paragraph",
+        content:
+          "NEET PG and INI-CET questions mix concepts from different subjects. One case needs Pathology, Pharmacology, Medicine, Microbiology, Radiology all at once.",
+      },
+      {
+        id: "integrated-conclusion",
+        type: "paragraph",
+        content:
+          "This integrated thinking doesn't happen overnight. It builds slowly as you revise repeatedly and solve questions steadily.",
+      },
+      {
+        id: "revision-gets-fast",
+        type: "heading",
+        title: "Revision Gets Fast",
+        level: 2,
+      },
+      {
+        id: "revision-para1",
+        type: "paragraph",
+        content:
+          "Students who study regularly don't restart from zero during revision. Each revision gets faster because you already know the concepts. By exam time, you're strengthening what you know, not relearning forgotten chapters.",
+      },
+      {
+        id: "revision-conclusion",
+        type: "paragraph",
+        content: "That's the real advantage of consistent prep.",
+      },
+      {
+        id: "mcqs-better",
+        type: "heading",
+        title: "MCQs Work Better with Regular Study",
+        level: 2,
+      },
+      {
+        id: "mcqs-para1",
+        type: "paragraph",
+        content:
+          "Question banks aren't just for checking your score. They're learning tools. Solving a reasonable number daily helps you:",
+      },
+      {
+        id: "mcqs-list",
+        type: "list",
+        items: [
+          "Spot weak areas early",
+          "Build clinical reasoning",
+          "Understand how questions work",
+          "Get comfortable with exams",
+          "Get faster and more accurate",
+        ],
+      },
+      {
+        id: "mcqs-conclusion",
+        type: "paragraph",
+        content:
+          "Trying to solve thousands in the final weeks doesn't give the same benefit.",
+      },
+      {
+        id: "prevents-burnout",
+        type: "heading",
+        title: "Consistency Prevents Burnout",
+        level: 2,
+      },
+      {
+        id: "burnout-para1",
+        type: "paragraph",
+        content:
+          "Preparing for medical exams is long. Really long. If you study 12-14 hours one day and barely study the next, your motivation keeps crashing. A realistic daily routine is way easier to maintain.",
+      },
+      {
+        id: "burnout-conclusion",
+        type: "paragraph",
+        content: "Plus you actually see progress, which builds confidence.",
+      },
+      {
+        id: "how-to-stay-consistent",
+        type: "heading",
+        title: "How to Actually Stay Consistent",
+        level: 2,
+      },
+      {
+        id: "how-to-para1",
+        type: "paragraph",
+        content:
+          "Consistency doesn't mean studying all day. It means showing up every day, even with limited time.",
+      },
+      {
+        id: "how-to-para2",
+        type: "paragraph",
+        content: "Try:",
+      },
+      {
+        id: "how-to-list",
+        type: "list",
+        items: [
+          "Go for the same study time daily",
+          "Finish one topic before moving on to another",
+          "Review yesterday's stuff before starting new material",
+          "Set your MCQ targets daily",
+          "Check your mistakes regularly for better understanding",
+          "Always take breaks to avoid burnout",
+        ],
+      },
+      {
+        id: "how-to-conclusion",
+        type: "paragraph",
+        content: "Simple routines beat unrealistic schedules every time.",
+      },
+      {
+        id: "final-thoughts",
+        type: "heading",
+        title: "Final Thoughts",
+        level: 2,
+      },
+      {
+        id: "final-thoughts-para1",
+        type: "paragraph",
+        content:
+          "NEET PG, INI-CET, FMGE success usually comes from months of steady work, regular revision, and consistent practice. It doesn't come from exhausting study marathons right before the exam.",
+      },
+      {
+        id: "final-thoughts-para2",
+        type: "paragraph",
+        content:
+          "Marathon sessions feel productive. Consistency builds actual knowledge, better recall, real confidence on exam day.",
+      },
+      {
+        id: "final-thoughts-conclusion",
+        type: "paragraph",
+        content:
+          "Your goal isn't studying hardest for one week. It's studying smart enough to improve every single day. Those small daily efforts become your biggest advantage when it matters.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "Is daily study better than last-minute cramming?",
+            answer:
+              "Yeah. Studying consistently sticks information in your head. Cramming doesn't.",
+          },
+          {
+            question:
+              "Why is consistency so important for NEET PG preparation?",
+            answer:
+              "Consistency keeps your concepts fresh, makes you think better clinically, and regular revision matters more than anything.",
+          },
+          {
+            question: "How much should I study every day?",
+            answer:
+              "A few focused hours daily works better than 12-hour marathons. Quality beats quantity.",
+          },
+          {
+            question:
+              "Do regular MCQs help to improve overall exam performance?",
+            answer:
+              "Absolutely. Solving questions daily makes you faster, more accurate, more confident.",
+          },
+          {
+            question: "Can last-minute studying improve my rank?",
+            answer:
+              "Not really. It might help you revise last-minute stuff but it can't replace months of actual prep.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "medical entrance exams",
+          "neet pg",
+          "ini cet",
+          "fmge",
+          "neet pg exam",
+          "inicet exam",
+          "fmge exam",
+          "neet pg preparation",
+          "fmge preparation",
+          "inicet preparation",
+        ],
+      },
+    ],
   },
-  "tags": [
-    "NEET PG",
-    "INI CET",
-    "FMGE",
-    "Exam Preparation",
-    "Medical Internship"
-  ],
-  "published_date": "2026-06-26",
-  "read_time": 10,
-  "meta_title": "Every NEET PG aspirant eventually asks the same question at some point during preparation",
-  "meta_description": "Every NEET PG aspirant faces moments of doubt. The key is staying focused, trusting the process, and continuing consistent preparation.",
-  "keywords": [
-    "neet pg",
-    "ini cet",
-    "fmge",
-    "competitive exams",
-    "medical pg entrance exam",
-    "entrance exam",
-    "medical pg entrance preparation",
-    "medical pg exam",
-    "medical pg preparation",
-    "exam preparation"
-  ],
-  "sections": [
-    {
-      "id": "intro-para1",
-      "type": "paragraph",
-      "content": "For many medical graduates, an internship is one of the most demanding phases of their journey."
-    },
-    {
-      "id": "intro-list",
-      "type": "list",
-      "items": [
-        "Long duty hours",
-        "Emergency calls",
-        "Ward responsibilities",
-        "Patient documentation",
-        "Night shifts",
-        "Unpredictable schedules"
-      ]
-    },
-    {
-      "id": "intro-para2",
-      "type": "paragraph",
-      "content": "On the other side, an internship is also the period when many students begin preparing seriously for competitive exams such as NEET PG, INI-CET, and FMGE."
-    },
-    {
-      "id": "intro-para3",
-      "type": "paragraph",
-      "content": "On paper, balancing both seems nearly impossible. After all, how does someone study after a 12-hour shift? How do you revise Medicine when you've spent the entire day in the labor room? How do you stay consistent when your schedule changes every week?"
-    },
-    {
-      "id": "intro-para4",
-      "type": "paragraph",
-      "content": "Yet every year, thousands of aspirants successfully manage internships and exam preparation simultaneously."
-    },
-    {
-      "id": "intro-conclusion",
-      "type": "paragraph",
-      "content": "It is learning how to use the available time more effectively."
-    },
-    {
-      "id": "biggest-challenge",
-      "type": "heading",
-      "title": "The Biggest Challenge Isn't Lack of Time",
-      "level": 2
-    },
-    {
-      "id": "biggest-challenge-para1",
-      "type": "paragraph",
-      "content": "Most interns begin preparation believing their biggest problem is insufficient study hours. In reality, the bigger challenge is inconsistency."
-    },
-    {
-      "id": "biggest-challenge-para2",
-      "type": "paragraph",
-      "content": "Some days offer five hours for studying. Other days offer only one. Certain postings are relatively lighter. Others leave students exhausted before they even reach their hostel rooms."
-    },
-    {
-      "id": "biggest-challenge-para3",
-      "type": "paragraph",
-      "content": "Because schedules keep changing, most interns can't stick to rigid study plans. It doesn't work."
-    },
-    {
-      "id": "biggest-challenge-conclusion",
-      "type": "paragraph",
-      "content": "The ones who do well? They stop obsessing over perfect schedules. Instead they build systems that bend with whatever workload hits that day."
-    },
-    {
-      "id": "small-time-blocks",
-      "type": "heading",
-      "title": "Learning to Study in Small Time Blocks",
-      "level": 2
-    },
-    {
-      "id": "small-time-blocks-para1",
-      "type": "paragraph",
-      "content": "Successful interns figure out something fast: you don't need long, uninterrupted stretches. Short sessions work. Actually work."
-    },
-    {
-      "id": "small-time-blocks-list",
-      "type": "list",
-      "items": [
-        "Breaks between duties",
-        "Waiting around in OPDs",
-        "Commute time",
-        "Gaps after rounds",
-        "Quick revision at night when you're winding down"
-      ]
-    },
-    {
-      "id": "small-time-blocks-conclusion",
-      "type": "paragraph",
-      "content": "A 30-minute session doesn't feel like much. But add several throughout the day and suddenly you've covered material. Over months, these small sessions add up to real progress."
-    },
-    {
-      "id": "internship-learning-tool",
-      "type": "heading",
-      "title": "Internship Itself Becomes a Learning Tool",
-      "level": 2
-    },
-    {
-      "id": "internship-learning-para1",
-      "type": "paragraph",
-      "content": "Here's the thing interns often miss: your clinical exposure is helping you study."
-    },
-    {
-      "id": "internship-learning-para2",
-      "type": "paragraph",
-      "content": "Every patient teaches you something. Heart failure case strengthens your Medicine knowledge. Labor room rotation reinforces Obstetrics. Pediatric admissions teach growth, development, neonatal care. You're learning while you work."
-    },
-    {
-      "id": "internship-learning-conclusion",
-      "type": "paragraph",
-      "content": "Students who connect what they're seeing clinically with what they're studying actually retain stuff better. It sticks."
-    },
-    {
-      "id": "consistency-matters",
-      "type": "heading",
-      "title": "Why Consistency Matters More Than Long Study Hours",
-      "level": 2
-    },
-    {
-      "id": "consistency-para1",
-      "type": "paragraph",
-      "content": "Many aspirants compare themselves to students preparing full-time and become discouraged. The comparison is rarely helpful."
-    },
-    {
-      "id": "consistency-para2",
-      "type": "paragraph",
-      "content": "Internship preparation is different. The goal is not to study twelve hours every day. The goal is to maintain continuity."
-    },
-    {
-      "id": "consistency-conclusion",
-      "type": "paragraph",
-      "content": "Even two to four productive hours daily can create significant progress if maintained consistently over several months. Students who remain connected to preparation throughout internship often enter dedicated study periods with a strong foundation already in place."
-    },
-    {
-      "id": "smart-resources",
-      "type": "heading",
-      "title": "Smart Resource Selection Makes a Huge Difference",
-      "level": 2
-    },
-    {
-      "id": "smart-resources-para1",
-      "type": "paragraph",
-      "content": "One of the most common mistakes interns make is collecting too many resources. There will be limited study time which gradually demands efficiency."
-    },
-    {
-      "id": "smart-resources-para2",
-      "type": "paragraph",
-      "content": "Successful aspirants usually rely on:"
-    },
-    {
-      "id": "smart-resources-list",
-      "type": "list",
-      "items": [
-        "A primary study source",
-        "A well-defined revision note",
-        "MCQ practice platforms",
-        "Previous-year questions",
-        "Mock tests"
-      ]
-    },
-    {
-      "id": "smart-resources-conclusion",
-      "type": "paragraph",
-      "content": "The more streamlined the resources, the easier it becomes to revise repeatedly. And revision is where most of the learning happens."
-    },
-    {
-      "id": "mcqs-fit",
-      "type": "heading",
-      "title": "MCQs Fit Internship Schedules Well",
-      "level": 2
-    },
-    {
-      "id": "mcqs-fit-para1",
-      "type": "paragraph",
-      "content": "Among all preparation tools, MCQs are particularly useful during internship. Unlike lengthy reading sessions, question practice can be done in shorter time blocks."
-    },
-    {
-      "id": "mcqs-fit-para2",
-      "type": "paragraph",
-      "content": "MCQs help students:"
-    },
-    {
-      "id": "mcqs-fit-list",
-      "type": "list",
-      "items": [
-        "Stay connected to multiple subjects",
-        "Identify weak areas quickly",
-        "Improve recall",
-        "Build exam temperament",
-        "Reinforce concepts through active learning"
-      ]
-    },
-    {
-      "id": "mcqs-fit-conclusion",
-      "type": "paragraph",
-      "content": "Many successful candidates solve at least a small number of questions daily, even during their busiest rotations. That consistency helps prevent long gaps in preparation."
-    },
-    {
-      "id": "managing-fatigue",
-      "type": "heading",
-      "title": "Managing Fatigue Is Part of the Strategy",
-      "level": 2
-    },
-    {
-      "id": "managing-fatigue-para1",
-      "type": "paragraph",
-      "content": "Internship is physically and mentally demanding. Ignoring fatigue often leads to burnout."
-    },
-    {
-      "id": "managing-fatigue-conclusion",
-      "type": "paragraph",
-      "content": "Students who begin early get multiple chances to revisit topics before the exam. Knowledge actually sinks in. Less panic when exam time arrives. Instead of cramming everything at the end, you build gradually over months. By the time serious prep starts, half the foundation is already there."
-    },
-    {
-      "id": "revision-role",
-      "type": "heading",
-      "title": "The Role of Revision During Internship",
-      "level": 2
-    },
-    {
-      "id": "revision-role-para1",
-      "type": "paragraph",
-      "content": "One major advantage of starting preparation during internship is the opportunity for multiple revision cycles. Students who begin early get multiple chances to revisit topics before the exam. Knowledge actually sinks in. Less panic when exam time arrives."
-    },
-    {
-      "id": "revision-role-conclusion",
-      "type": "paragraph",
-      "content": "Instead of cramming everything at the end, you build gradually over months. By the time serious prep starts, half the foundation is already there."
-    },
-    {
-      "id": "final-thoughts",
-      "type": "heading",
-      "title": "Final Thoughts",
-      "level": 2
-    },
-    {
-      "id": "final-thoughts-para1",
-      "type": "paragraph",
-      "content": "Balancing internship with competitive exam prep is hard. The workload is brutal. Schedules are all over the place. You're exhausted constantly."
-    },
-    {
-      "id": "final-thoughts-para2",
-      "type": "paragraph",
-      "content": "But thousands of students do it every year. Make it work. The trick isn't waiting for perfect conditions. It's using whatever time exists consistently. Focus on stuff that actually matters. Revise regularly. Stay connected to prep even when you're drowning in clinical work."
-    },
-    {
-      "id": "final-thoughts-para3",
-      "type": "paragraph",
-      "content": "Internship eats your study time. But it doesn't have to kill your chances."
-    },
-    {
-      "id": "final-thoughts-conclusion",
-      "type": "paragraph",
-      "content": "Most aspirants who get through this phase find that the habits they built during internship become how they study for everything after. That matters way more than the actual exam scores."
-    },
-    {
-      "id": "faqs",
-      "type": "heading",
-      "title": "FAQs",
-      "level": 2
-    },
-    {
-      "id": "faqs-list",
-      "type": "faq",
-      "faqs": [
-        {
-          "question": "Can I prepare for NEET PG during internship?",
-          "answer": "Yeah. Many interns do it with consistent study and smart time management."
-        },
-        {
-          "question": "How many hours should I study daily?",
-          "answer": "Even 2-4 focused hours daily makes a real difference over time."
-        },
-        {
-          "question": "Are MCQs useful?",
-          "answer": "Yes. They reinforce concepts and fit into busy schedules better than long reading sessions."
-        },
-        {
-          "question": "Should I use multiple study resources?",
-          "answer": "No. Stick with a few reliable ones. Makes revision easier and more effective."
-        }
-      ]
-    },
-    {
-      "id": "keywords",
-      "type": "keywords",
-      "title": "Related Keywords",
-      "keywords": [
-        "neet pg",
-        "ini cet",
-        "fmge",
-        "competitive exams",
-        "medical pg entrance exam",
-        "entrance exam",
-        "medical pg entrance preparation",
-        "medical pg exam",
-        "medical pg preparation",
-        "exam preparation"
-      ]
-    }
-  ]
-},
-{
-  "id": 174,
-  "title": "From Wards to Rank Lists: Balancing Internship with Competitive Exam Preparation",
-  "slug": "from-wards-to-rank-lists-balancing-internship-competitive-exam-preparation",
-  "excerpt": "Managing internship duties while preparing for competitive exams requires smart planning, disciplined study, and consistent daily revision.",
-  "featured_image": "https://cdn.dribbble.com/userupload/48213643/file/3dca466517edba7ebb40e713cfc9e03c.jpg",
-  "featured_image_alt": "internship competitive exam preparation neet pg",
-  "author": {
-    "name": "Believers Team",
-    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
-    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
-  },
-  "category": {
-    "name": "NEET PG",
-    "slug": "neet-pg",
-    "color": "bg-blue-100 text-blue-800"
-  },
-  "tags": [
-    "NEET PG",
-    "INI CET",
-    "FMGE",
-    "Exam Preparation",
-    "Medical Internship"
-  ],
-  "published_date": "2026-06-29",
-  "read_time": 10,
-  "meta_title": "From Wards to Rank Lists: Balancing Internship with Competitive Exam Preparation",
-  "meta_description": "Managing internship duties while preparing for competitive exams requires smart planning, disciplined study, and consistent daily revision.",
-  "keywords": [
-    "neet pg",
-    "ini cet",
-    "fmge",
-    "competitive exam preparation",
-    "medical pg entrance exam",
-    "entrance exam",
-    "medical pg entrance preparation",
-    "medical pg exam",
-    "medical pg preparation",
-    "exam preparation",
-    "study materials"
-  ],
-  "sections": [
-    {
-      "id": "intro-para1",
-      "type": "paragraph",
-      "content": "The internship is brutal. There's no way around it."
-    },
-    {
-      "id": "intro-para2",
-      "type": "paragraph",
-      "content": "You're working long shifts. Emergency calls at 2 AM. Ward rounds that never end. Paperwork piling up. Patient care consuming your energy. And somewhere in there, you're trying to prepare for NEET PG, INI CET, FMGE."
-    },
-    {
-      "id": "intro-conclusion",
-      "type": "paragraph",
-      "content": "Everyone talks about how hard this phase is. But thousands of interns manage it every year and get solid ranks. They're not superhuman. They're just smarter about how they use the little time they have."
-    },
-    {
-      "id": "internship-reality",
-      "type": "heading",
-      "title": "The Internship Reality",
-      "level": 2
-    },
-    {
-      "id": "internship-reality-para1",
-      "type": "paragraph",
-      "content": "Unlike MBBS, you're actually doing clinical work now. Schedules are unpredictable. One week you're in a light rotation; next week you're drowning in emergency calls."
-    },
-    {
-      "id": "internship-reality-para2",
-      "type": "paragraph",
-      "content": "Interns deal with:"
-    },
-    {
-      "id": "internship-reality-list",
-      "type": "list",
-      "items": [
-        "Shifts that run past their end time",
-        "Night postings that destroy your sleep",
-        "Exhaustion that makes studying impossible",
-        "No continuous study time ever",
-        "Losing momentum constantly"
-      ]
-    },
-    {
-      "id": "internship-reality-conclusion",
-      "type": "paragraph",
-      "content": "Most interns walk in thinking they'll have tons of time to prep. Then reality hits and they realize they're completely wrong. The ones who succeed? They figure out a different way to approach this."
-    },
-    {
-      "id": "stop-waiting",
-      "type": "heading",
-      "title": "Stop Waiting for the Perfect Study Time",
-      "level": 2
-    },
-    {
-      "id": "stop-waiting-para1",
-      "type": "paragraph",
-      "content": "Forget about sitting down for six uninterrupted hours. That's not happening during internship."
-    },
-    {
-      "id": "stop-waiting-para2",
-      "type": "paragraph",
-      "content": "What actually works is using whatever time exists:"
-    },
-    {
-      "id": "stop-waiting-list",
-      "type": "list",
-      "items": [
-        "Between ward rounds, there's 20 minutes. Use it.",
-        "Sitting in the duty room waiting for something? 15 minutes. Learn something.",
-        "Commuting to the hospital? Listen to something.",
-        "Post-duty when you're exhausted but awake? Even 30 focused minutes counts."
-      ]
-    },
-    {
-      "id": "stop-waiting-conclusion",
-      "type": "paragraph",
-      "content": "Add these up over weeks and you've actually studied a decent amount."
-    },
-    {
-      "id": "stop-covering-everything",
-      "type": "heading",
-      "title": "Stop Trying to Cover Everything",
-      "level": 2
-    },
-    {
-      "id": "stop-covering-para1",
-      "type": "paragraph",
-      "content": "Real talk: you can't study everything equally during internship. So don't."
-    },
-    {
-      "id": "stop-covering-para2",
-      "type": "paragraph",
-      "content": "Focus on:"
-    },
-    {
-      "id": "stop-covering-list",
-      "type": "list",
-      "items": [
-        "Stuff that shows up repeatedly in exams",
-        "Topics with high weightage",
-        "What was asked in previous years",
-        "Things you actually see clinically",
-        "High-yield revision materials"
-      ]
-    },
-    {
-      "id": "stop-covering-conclusion",
-      "type": "paragraph",
-      "content": "Forget trying to master every textbook chapter. Concentrate on topics that consistently appear in actual exams. You'll get way more done this way."
-    },
-    {
-      "id": "stop-collecting",
-      "type": "heading",
-      "title": "Stop Collecting New Books",
-      "level": 2
-    },
-    {
-      "id": "stop-collecting-para1",
-      "type": "paragraph",
-      "content": "This is a big one. During internship, aspirants often keep buying new resources, switching platforms, starting fresh study materials. That's the opposite of what works."
-    },
-    {
-      "id": "stop-collecting-para2",
-      "type": "paragraph",
-      "content": "What actually works? Pick trustworthy materials and revise them multiple times. Not different materials. Same ones."
-    },
-    {
-      "id": "stop-collecting-list",
-      "type": "list",
-      "items": [
-        "Your memory strengthens",
-        "You recall faster",
-        "You actually retain things",
-        "You build confidence"
-      ]
-    },
-    {
-      "id": "stop-collecting-conclusion",
-      "type": "paragraph",
-      "content": "Most toppers revise the same notes repeatedly instead of constantly switching."
-    },
-    {
-      "id": "clinical-work-helps",
-      "type": "heading",
-      "title": "Your Clinical Work Is Actually Helping",
-      "level": 2
-    },
-    {
-      "id": "clinical-work-para1",
-      "type": "paragraph",
-      "content": "Here's something people overlook: your internship postings are teaching you stuff for the exam."
-    },
-    {
-      "id": "clinical-work-para2",
-      "type": "paragraph",
-      "content": "Medicine rotation? You're seeing diagnosis and management in real time. Surgery? Clinical reasoning improves naturally. Emergency duties? You learn to make decisions fast."
-    },
-    {
-      "id": "clinical-work-conclusion",
-      "type": "paragraph",
-      "content": "These experiences stick way better than just reading about them. Connect what you're seeing in wards with what you're studying. That creates actual understanding."
-    },
-    {
-      "id": "use-phone",
-      "type": "heading",
-      "title": "Use Your Phone to Study",
-      "level": 2
-    },
-    {
-      "id": "use-phone-para1",
-      "type": "paragraph",
-      "content": "You probably have your phone on you constantly anyway. Use it."
-    },
-    {
-      "id": "use-phone-list",
-      "type": "list",
-      "items": [
-        "Watch short concept videos",
-        "Solve question banks on it",
-        "Listen to discussions during commutes",
-        "Take quick practice tests when you have 10 minutes free",
-        "Use learning apps designed for revision"
-      ]
-    },
-    {
-      "id": "use-phone-conclusion",
-      "type": "paragraph",
-      "content": "Your phone is always there. Use it."
-    },
-    {
-      "id": "exhaustion",
-      "type": "heading",
-      "title": "You're Going to Be Exhausted",
-      "level": 2
-    },
-    {
-      "id": "exhaustion-para1",
-      "type": "paragraph",
-      "content": "Let's be honest: studying after a 12-hour shift sucks. Some interns try to compensate by cutting sleep. That doesn't work. You get slower, less productive, more frustrated."
-    },
-    {
-      "id": "exhaustion-para2",
-      "type": "paragraph",
-      "content": "What actually helps:"
-    },
-    {
-      "id": "exhaustion-list",
-      "type": "list",
-      "items": [
-        "Sleep when you can, even if it's not \"ideal\"",
-        "Take short breaks between study sessions",
-        "Set realistic daily goals",
-        "Move your body sometimes",
-        "Drink water",
-        "Keep a routine that's sustainable"
-      ]
-    },
-    {
-      "id": "exhaustion-conclusion",
-      "type": "paragraph",
-      "content": "This is a marathon. You'll burn out if you treat it like a sprint."
-    },
-    {
-      "id": "daily-consistency",
-      "type": "heading",
-      "title": "Daily Consistency Beats Weekend Cramming",
-      "level": 2
-    },
-    {
-      "id": "daily-consistency-para1",
-      "type": "paragraph",
-      "content": "A lot of interns stress when they can't study for hours every day. That's not actually the problem."
-    },
-    {
-      "id": "daily-consistency-para2",
-      "type": "paragraph",
-      "content": "Two hours of focused study daily beats ten hours scattered sporadically. Consistency compounds over time. Momentum matters more than intensity."
-    },
-    {
-      "id": "daily-consistency-conclusion",
-      "type": "paragraph",
-      "content": "Even on your busiest days, spending 30 minutes on prep keeps you moving forward."
-    },
-    {
-      "id": "top-rankers",
-      "type": "heading",
-      "title": "What Actually Happened With Top Rankers",
-      "level": 2
-    },
-    {
-      "id": "top-rankers-para1",
-      "type": "paragraph",
-      "content": "Look at recent NEET PG and INI CET toppers. Many were balancing internship. They didn't do anything magical."
-    },
-    {
-      "id": "top-rankers-list",
-      "type": "list",
-      "items": [
-        "Had a structured schedule they could actually follow",
-        "Revised regularly without getting new materials constantly",
-        "Learned from questions, not just reading",
-        "Picked resources and stuck with them",
-        "Focused on high-yield topics"
-      ]
-    },
-    {
-      "id": "top-rankers-conclusion",
-      "type": "paragraph",
-      "content": "They adapted around real life instead of waiting for ideal conditions."
-    },
-    {
-      "id": "plan-that-fits",
-      "type": "heading",
-      "title": "Make a Plan That Actually Fits Your Life",
-      "level": 2
-    },
-    {
-      "id": "plan-that-fits-para1",
-      "type": "paragraph",
-      "content": "There's no universal formula that works for everyone. Depending on your posting, you'll have different amounts of time. Some rotations are lighter. Others are brutal. Weekends might be free or you might be on call."
-    },
-    {
-      "id": "plan-that-fits-para2",
-      "type": "paragraph",
-      "content": "Create a plan that fits your actual schedule, not some ideal version."
-    },
-    {
-      "id": "plan-that-fits-list",
-      "type": "list",
-      "items": [
-        "Set goals you can realistically hit",
-        "Track what's working",
-        "Revise often",
-        "Prioritize smartly",
-        "Adjust when things aren't working"
-      ]
-    },
-    {
-      "id": "plan-that-fits-conclusion",
-      "type": "paragraph",
-      "content": "Personalized plans are way more sustainable than rigid ones."
-    },
-    {
-      "id": "real-talk",
-      "type": "heading",
-      "title": "The Real Talk",
-      "level": 2
-    },
-    {
-      "id": "real-talk-para1",
-      "type": "paragraph",
-      "content": "Balancing internship with competitive exam prep isn't easy. Thousands of interns do it though. Every year. And they land good ranks."
-    },
-    {
-      "id": "real-talk-para2",
-      "type": "paragraph",
-      "content": "It's not about having more time or being smarter. It's about using whatever time you have more effectively. Focused revision. Smart resource selection. Showing up consistently. Intelligent time management. That's what moves the needle."
-    },
-    {
-      "id": "real-talk-conclusion",
-      "type": "paragraph",
-      "content": "Internship is demanding. But if you approach it right, it becomes a phase where you're actually learning clinically and preparing for exams at the same time. That's the win."
-    },
-    {
-      "id": "faqs",
-      "type": "heading",
-      "title": "FAQs",
-      "level": 2
-    },
-    {
-      "id": "faqs-list",
-      "type": "faq",
-      "faqs": [
-        {
-          "question": "Can I prepare for NEET PG during internship?",
-          "answer": "Yeah, you can. Lots of interns do it. Just need to plan and manage your time smartly."
-        },
-        {
-          "question": "Should I study new resources during internship?",
-          "answer": "No. Stick with materials you already trust. Just revise them repeatedly instead of chasing new stuff."
-        },
-        {
-          "question": "Are mock tests important during internship?",
-          "answer": "Definitely. They help you remember what you've studied and get ready for the actual exam."
-        },
-        {
-          "question": "How much should I study daily during internship?",
-          "answer": "Even 30 to 60 minutes of actual focused study works. Doesn't have to be hours."
-        }
-      ]
-    },
-    {
-      "id": "keywords",
-      "type": "keywords",
-      "title": "Related Keywords",
-      "keywords": [
-        "neet pg",
-        "ini cet",
-        "fmge",
-        "competitive exam preparation",
-        "medical pg entrance exam",
-        "entrance exam",
-        "medical pg entrance preparation",
-        "medical pg exam",
-        "medical pg preparation",
-        "exam preparation",
-        "study materials"
-      ]
-    }
-  ]
-},
-{
-  "id": 175,
-  "title": "Beyond Knowledge: The Role of Exam Temperament in Medical Entrance Exams",
-  "slug": "beyond-knowledge-role-exam-temperament-medical-entrance-exams",
-  "excerpt": "Success in medical entrance exams demands more than knowledge. Strong exam temperament improves focus, accuracy, confidence, and ranks.",
-  "featured_image": "https://cdn.dribbble.com/userupload/48239138/file/4eab19830c2899634f073c89a879427c.jpg",
-  "featured_image_alt": "exam temperament medical entrance exams",
-  "author": {
-    "name": "Believers Team",
-    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
-    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
-  },
-  "category": {
-    "name": "NEET PG",
-    "slug": "neet-pg",
-    "color": "bg-blue-100 text-blue-800"
-  },
-  "tags": [
-    "NEET PG",
-    "INI CET",
-    "FMGE",
-    "Exam Preparation",
-    "Postgraduate Entrance Exams"
-  ],
-  "published_date": "2026-07-01",
-  "read_time": 10,
-  "meta_title": "Beyond Knowledge: The Role of Exam Temperament in Medical Entrance Exams",
-  "meta_description": "Success in medical entrance exams demands more than knowledge. Strong exam temperament improves focus, accuracy, confidence, and ranks.",
-  "keywords": [
-    "neet pg",
-    "ini cet",
-    "fmge",
-    "postgraduate entrance exams",
-    "competitive exam preparation",
-    "medical pg entrance exam",
-    "entrance exam",
-    "medical pg entrance preparation",
-    "medical pg exam",
-    "medical pg preparation",
-    "exam preparation"
-  ],
-  "sections": [
-    {
-      "id": "intro-para1",
-      "type": "paragraph",
-      "content": "Every year thousands of medical aspirants begin their medical PG entrance preparation for NEET PG, INI-CET, FMGE and other postgraduate entrance exams. They study for months. Solve questions. Take practice tests. Then results come out."
-    },
-    {
-      "id": "intro-para2",
-      "type": "paragraph",
-      "content": "Some students score what they expected. Others bomb. Usually not because they don't know the stuff. They just fell apart during the exam."
-    },
-    {
-      "id": "intro-conclusion",
-      "type": "paragraph",
-      "content": "That's exam temperament. And almost nobody talks about it."
-    },
-    {
-      "id": "what-temperament-is",
-      "type": "heading",
-      "title": "What Exam Temperament Actually Is",
-      "level": 2
-    },
-    {
-      "id": "what-temperament-para1",
-      "type": "paragraph",
-      "content": "It's staying composed when pressure hits."
-    },
-    {
-      "id": "what-temperament-para2",
-      "type": "paragraph",
-      "content": "It means:"
-    },
-    {
-      "id": "what-temperament-list",
-      "type": "list",
-      "items": [
-        "Not freaking out on a hard question",
-        "Handling surprises without losing it",
-        "Managing time without rushing",
-        "Keeping your head when you're unsure",
-        "Moving past mistakes instead of dwelling on them",
-        "Making smart choices instead of panicking"
-      ]
-    },
-    {
-      "id": "what-temperament-conclusion",
-      "type": "paragraph",
-      "content": "Students with strong temperament perform like they studied. Students without it? They underperform badly."
-    },
-    {
-      "id": "knowledge-alone",
-      "type": "heading",
-      "title": "Why Knowledge Alone Doesn't Cut It",
-      "level": 2
-    },
-    {
-      "id": "knowledge-alone-para1",
-      "type": "paragraph",
-      "content": "A medical PG entrance exam isn't just about memorization. You're processing information fast. Interpreting clinical scenarios. Making calls under time pressure. Dealing with uncertainty. Working through long papers."
-    },
-    {
-      "id": "knowledge-alone-para2",
-      "type": "paragraph",
-      "content": "You might know the answer but still get it wrong because you panicked or rushed."
-    },
-    {
-      "id": "knowledge-alone-conclusion",
-      "type": "paragraph",
-      "content": "This is why two equally prepared students get different scores. One stays calm. The other doesn't."
-    },
-    {
-      "id": "what-pressure-does",
-      "type": "heading",
-      "title": "What Pressure Actually Does",
-      "level": 2
-    },
-    {
-      "id": "what-pressure-para1",
-      "type": "paragraph",
-      "content": "Every high-pressure entrance exam messes with your head."
-    },
-    {
-      "id": "what-pressure-para2",
-      "type": "paragraph",
-      "content": "You get:"
-    },
-    {
-      "id": "what-pressure-list",
-      "type": "list",
-      "items": [
-        "Racing thoughts",
-        "Anxiety spiking",
-        "Can't focus",
-        "Doubting answers you knew",
-        "Time management crumbling",
-        "Confidence tanking after a hard question"
-      ]
-    },
-    {
-      "id": "what-pressure-conclusion",
-      "type": "paragraph",
-      "content": "These are normal. The problem is when they run your exam. Students with strong temperament manage these without letting emotions take over."
-    },
-    {
-      "id": "common-mistakes",
-      "type": "heading",
-      "title": "Common Exam Mistakes",
-      "level": 2
-    },
-    {
-      "id": "stuck-question",
-      "type": "heading",
-      "title": "Stuck on One Difficult Question",
-      "level": 3
-    },
-    {
-      "id": "stuck-question-para",
-      "type": "paragraph",
-      "content": "A hard question early eats your time and creates stress for nothing. Smart candidates skip it, move on, come back later."
-    },
-    {
-      "id": "frustrated-mistake",
-      "type": "heading",
-      "title": "Getting Frustrated Over One Wrong Answer",
-      "level": 3
-    },
-    {
-      "id": "frustrated-mistake-para",
-      "type": "paragraph",
-      "content": "One mistake and your concentration tanks. The rest of the exam suffers. Strong temperament means moving on fast and staying focused."
-    },
-    {
-      "id": "changing-answers",
-      "type": "heading",
-      "title": "Changing Answers Obsessively",
-      "level": 3
-    },
-    {
-      "id": "changing-answers-para",
-      "type": "paragraph",
-      "content": "Revising answers is fine. Changing them constantly because you doubt yourself usually creates unnecessary mistakes. Good temperament means trusting your preparation."
-    },
-    {
-      "id": "watching-others",
-      "type": "heading",
-      "title": "Watching What Others Are Doing",
-      "level": 3
-    },
-    {
-      "id": "watching-others-para",
-      "type": "paragraph",
-      "content": "Looking around wondering if others are faster just distracts you. Best candidates focus only on themselves."
-    },
-    {
-      "id": "mock-tests-temperament",
-      "type": "heading",
-      "title": "Mock Tests Build Temperament",
-      "level": 2
-    },
-    {
-      "id": "mock-tests-para1",
-      "type": "paragraph",
-      "content": "During competitive exam preparation, most people treat mocks as just score checks. They're actually where you build temperament."
-    },
-    {
-      "id": "mock-tests-para2",
-      "type": "paragraph",
-      "content": "Mocks help you:"
-    },
-    {
-      "id": "mock-tests-list",
-      "type": "list",
-      "items": [
-        "Experience real exam pressure",
-        "Figure out time management",
-        "Develop a question strategy",
-        "Practice staying focused",
-        "Get used to exam conditions"
-      ]
-    },
-    {
-      "id": "mock-tests-conclusion",
-      "type": "paragraph",
-      "content": "The more mocks you take, the less nervous you get. Confidence builds naturally. Top rankers do this consistently."
-    },
-    {
-      "id": "confidence-built",
-      "type": "heading",
-      "title": "Confidence Isn't Built on Exam Day",
-      "level": 2
-    },
-    {
-      "id": "confidence-para1",
-      "type": "paragraph",
-      "content": "Confidence doesn't just show up on exam day. You build it over time."
-    },
-    {
-      "id": "confidence-para2",
-      "type": "paragraph",
-      "content": "Confidence comes from:"
-    },
-    {
-      "id": "confidence-list",
-      "type": "list",
-      "items": [
-        "Revising consistently",
-        "Fixing what you're weak in",
-        "Looking at what you got wrong",
-        "Going through material multiple times",
-        "Seeing yourself improve"
-      ]
-    },
-    {
-      "id": "confidence-conclusion",
-      "type": "paragraph",
-      "content": "Consistent medical PG preparation genuinely builds confidence without forcing it. That matters a lot when you are facing questions you didn't expect."
-    },
-    {
-      "id": "emotional-control",
-      "type": "heading",
-      "title": "Emotional Control Matters",
-      "level": 2
-    },
-    {
-      "id": "emotional-control-para1",
-      "type": "paragraph",
-      "content": "High-pressure exams test your mental toughness as much as your knowledge."
-    },
-    {
-      "id": "emotional-control-para2",
-      "type": "paragraph",
-      "content": "The candidates who do well understand:"
-    },
-    {
-      "id": "emotional-control-list",
-      "type": "list",
-      "items": [
-        "That all hard questions hit everyone",
-        "Nobody knows all the answers",
-        "Not being sure about something is normal",
-        "A few wrong answers don't affect your rank"
-      ]
-    },
-    {
-      "id": "emotional-control-conclusion",
-      "type": "paragraph",
-      "content": "This mindset keeps them level-headed throughout the whole exam."
-    },
-    {
-      "id": "learning-from-experience",
-      "type": "heading",
-      "title": "Learning From Experience",
-      "level": 2
-    },
-    {
-      "id": "learning-para1",
-      "type": "paragraph",
-      "content": "Most successful candidates credit previous exams and mocks for better temperament."
-    },
-    {
-      "id": "learning-para2",
-      "type": "paragraph",
-      "content": "Each attempt teaches:"
-    },
-    {
-      "id": "learning-list",
-      "type": "list",
-      "items": [
-        "How to allocate time",
-        "How to manage stress",
-        "Which questions to do",
-        "How long you can focus",
-        "How to bounce back from mistakes"
-      ]
-    },
-    {
-      "id": "learning-conclusion",
-      "type": "paragraph",
-      "content": "Temperament isn't something you're born with. It's a skill that improves with practice throughout your exam preparation."
-    },
-    {
-      "id": "temperament-separates",
-      "type": "heading",
-      "title": "Why Temperament Separates Good Ranks From Great Ranks",
-      "level": 2
-    },
-    {
-      "id": "temperament-separates-para1",
-      "type": "paragraph",
-      "content": "At competitive levels, knowledge gaps between candidates are small. Most well-prepared aspirants know the material."
-    },
-    {
-      "id": "temperament-separates-para2",
-      "type": "paragraph",
-      "content": "What creates separation? Who executes best under pressure."
-    },
-    {
-      "id": "temperament-separates-conclusion",
-      "type": "paragraph",
-      "content": "Candidates who stay calm, think clearly, and stick to strategy convert their preparation into actual performance. Often success comes down to who managed the exam process best, not who studied the most."
-    },
-    {
-      "id": "conclusion",
-      "type": "heading",
-      "title": "Conclusion",
-      "level": 2
-    },
-    {
-      "id": "conclusion-para1",
-      "type": "paragraph",
-      "content": "NEET PG, INI-CET, and FMGE are medical PG exams that test more than knowledge. They test decision-making, focus, resilience, composure."
-    },
-    {
-      "id": "conclusion-para2",
-      "type": "paragraph",
-      "content": "Mastering subjects matters. But temperament matters equally. Staying composed. Recovering from mistakes. Managing your time. Keeping confidence. These things shift how you perform."
-    },
-    {
-      "id": "conclusion-para3",
-      "type": "paragraph",
-      "content": "As competition gets tougher, aspirants who build temperament alongside academics do better when it actually matters."
-    },
-    {
-      "id": "conclusion-closing",
-      "type": "paragraph",
-      "content": "Success isn't memorizing everything. It's how well you use what you know when the pressure's on."
-    },
-    {
-      "id": "faqs",
-      "type": "heading",
-      "title": "FAQs",
-      "level": 2
-    },
-    {
-      "id": "faqs-list",
-      "type": "faq",
-      "faqs": [
-        {
-          "question": "Can exam temperament be developed?",
-          "answer": "Yeah. It gets better with every mock and every exam you take."
-        },
-        {
-          "question": "Do mock tests actually help with temperament?",
-          "answer": "They do. Mocks prepare you for real medical PG entrance exam pressure and teach your brain to stay calm."
-        },
-        {
-          "question": "What's the biggest mistake people make during exams?",
-          "answer": "Getting stuck on one hard question and wasting time on it instead of moving forward."
-        },
-        {
-          "question": "How do I stop second-guessing my answers?",
-          "answer": "Trust your prep. Only change an answer if you're actually sure you got it wrong."
-        },
-        {
-          "question": "Does exam temperament matter more than knowledge?",
-          "answer": "Both matter. But temperament decides how well you actually use what you studied."
-        }
-      ]
-    },
-    {
-      "id": "keywords",
-      "type": "keywords",
-      "title": "Related Keywords",
-      "keywords": [
-        "neet pg",
-        "ini cet",
-        "fmge",
-        "postgraduate entrance exams",
-        "competitive exam preparation",
-        "medical pg entrance exam",
-        "entrance exam",
-        "medical pg entrance preparation",
-        "medical pg exam",
-        "medical pg preparation",
-        "exam preparation"
-      ]
-    }
-  ]
-},
-{
-  "id": 176,
-  "title": "NEET PG Counselling and Career Choices: The Mistakes, Myths, and Mindset Shifts Every Aspirant Should Know",
-  "slug": "neet-pg-counselling-and-career-choices-the-mistakes-myths-and-mindset-shifts-every-aspirant-should-know",
-  "excerpt": "Avoid common NEET PG counselling mistakes, break career myths, and develop the mindset needed for smarter specialty choices.",
-  "featured_image": "https://cdn.dribbble.com/userupload/48261918/file/5d28602e4715ce36aba67bb208ee2ea1.jpg",
-  "featured_image_alt": "neet pg counselling career choices",
-  "author": {
-    "name": "Believers Team",
-    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
-    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
-  },
-  "category": {
-    "name": "NEET PG",
-    "slug": "neet-pg",
-    "color": "bg-blue-100 text-blue-800"
-  },
-  "tags": [
-    "NEET PG",
-    "NEET PG Counselling",
-    "PG Counselling",
-    "Career Choices",
-    "Medical PG Preparation"
-  ],
-  "published_date": "2026-07-03",
-  "read_time": 8,
-  "meta_title": "NEET PG Counselling and Career Choices: The Mistakes, Myths, and Mindset Shifts Every Aspirant Should Know",
-  "meta_description": "Avoid common NEET PG counselling mistakes, break career myths, and develop the mindset needed for smarter specialty choices.",
-  "keywords": [
-    "neet pg counselling",
-    "pg counselling",
-    "neet pg preparation",
-    "neet pg exam",
-    "neet pg entrance exam",
-    "neet pg counselling schedule",
-    "apply for neet pg counselling",
-    "career counselling neet pg",
-    "choice filling neet pg",
-    "counselling for neet pg",
-    "medical pg preparation"
-  ],
-  "sections": [
-    {
-      "id": "intro-para1",
-      "type": "paragraph",
-      "content": "Most medical graduates treat NEET PG as the finish line. Months of studying, endless revisions, mock tests, score anxiety, exam-day nerves - all of it aimed at one thing: securing a postgraduate seat."
-    },
-    {
-      "id": "intro-para2",
-      "type": "paragraph",
-      "content": "But getting the rank is only half the story."
-    },
-    {
-      "id": "intro-para3",
-      "type": "paragraph",
-      "content": "What happens after results can be just as consequential. Every year, students miss seats they could have had, make counselling errors that are completely avoidable, pick branches without really thinking them through, and sometimes carry a confidence wound for months because their rank didn't match what they'd hoped for."
-    },
-    {
-      "id": "intro-conclusion",
-      "type": "paragraph",
-      "content": "A good medical career is shaped by far more than a single exam result. But the decisions made in the weeks right after that result matter more than most students realize going in."
-    },
-    {
-      "id": "counselling-mistakes",
-      "type": "heading",
-      "title": "The Counselling Mistakes That Quietly Cost Aspirants Seats",
-      "level": 2
-    },
-    {
-      "id": "counselling-mistakes-para1",
-      "type": "paragraph",
-      "content": "Students spend months on NEET PG preparation and then rush through counselling in a few days. Those few days can have consequences that last years."
-    },
-    {
-      "id": "counselling-mistakes-table",
-      "type": "table",
-      "headers": ["Mistake", "Why It Costs You"],
-      "rows": [
-        ["Filling too few choices", "A short preference list shrinks your options during allotment rounds significantly. Casting a wider net is almost always smarter."],
-        ["Ignoring lower-fee colleges", "Some institutions offer genuinely strong training at a fraction of the fees of more well-known names. Overlooking them purely on reputation is a financial decision dressed up as an academic one."],
-        ["Not understanding upgradation rules", "The rules around free exits, upgrades, and seat retention are genuinely confusing - and not understanding them means missing opportunities in later rounds that were yours to take."],
-        ["Missing deadlines", "Document submissions, reporting windows, payment deadlines. Every counselling cycle sees students lose seats over things that had nothing to do with their rank. In a competitive process, small oversights carry real consequences."],
-        ["Ignoring bond and service obligations", "Some colleges and states come with mandatory service commitments. Finding out after you've accepted a seat is a very different experience from knowing beforehand."]
-      ]
-    },
-    {
-      "id": "financial-side",
-      "type": "heading",
-      "title": "The Financial Side That Doesn't Get Talked About Enough",
-      "level": 2
-    },
-    {
-      "id": "financial-side-para1",
-      "type": "paragraph",
-      "content": "The decisions made during counselling can have financial implications that stretch well beyond tuition fees."
-    },
-    {
-      "id": "financial-side-para2",
-      "type": "paragraph",
-      "content": "There have been cases where students accepted expensive management-quota seats early, only to find out later that government-seat opportunities were still available through subsequent rounds. This isn't an argument that one path is always right and another is always wrong. It's an argument for being informed before you commit."
-    },
-    {
-      "id": "financial-side-conclusion",
-      "type": "paragraph",
-      "content": "Understanding how the rounds work, staying in the process when it makes sense to, and getting guidance from people who've been through it - these things genuinely matter."
-    },
-    {
-      "id": "beyond-five-branches",
-      "type": "heading",
-      "title": "Looking Beyond the Usual Five Branches",
-      "level": 2
-    },
-    {
-      "id": "beyond-five-para1",
-      "type": "paragraph",
-      "content": "Every year, thousands of students compete for a small number of seats in the same handful of specialties. There's nothing wrong with wanting a popular branch. But when your entire career plan depends on landing in one of three fields, you've already narrowed your options in ways that might not serve you well."
-    },
-    {
-      "id": "beyond-five-para2",
-      "type": "paragraph",
-      "content": "Several specialties are seeing real growth in demand and career opportunity - Anesthesiology, Psychiatry, Emergency Medicine, Nuclear Medicine, Radiology. As healthcare systems expand and patient needs change, these fields offer strong professional growth, solid academic paths, and genuine satisfaction for doctors who chose them thoughtfully rather than by default."
-    },
-    {
-      "id": "beyond-five-conclusion",
-      "type": "paragraph",
-      "content": "Students who explore specialties based on actual interest and future demand tend to make more confident decisions - and usually more settled ones too."
-    },
-    {
-      "id": "closing-rank-obsession",
-      "type": "heading",
-      "title": "The Closing Rank Obsession",
-      "level": 2
-    },
-    {
-      "id": "closing-rank-para1",
-      "type": "paragraph",
-      "content": "After results come out, the conversations almost immediately turn to numbers. Closing ranks from last year, predicted cutoffs, what rank gets what branch in which college."
-    },
-    {
-      "id": "closing-rank-para2",
-      "type": "paragraph",
-      "content": "These numbers are useful. But they're not gospel. Closing ranks shift every year based on seat availability, candidate preferences, reservation policies, and exam difficulty. What closed at a certain number last year tells you something - it doesn't tell you everything."
-    },
-    {
-      "id": "closing-rank-conclusion",
-      "type": "paragraph",
-      "content": "Using them as a rough guide is sensible. Building your entire counselling strategy around them is not."
-    },
-    {
-      "id": "rank-not-verdict",
-      "type": "heading",
-      "title": "Your Rank Is Not a Verdict on You",
-      "level": 2
-    },
-    {
-      "id": "rank-not-verdict-para1",
-      "type": "paragraph",
-      "content": "This is probably the most important thing in this piece, and the hardest one to actually believe when you're sitting with a result that disappointed you."
-    },
-    {
-      "id": "rank-not-verdict-para2",
-      "type": "paragraph",
-      "content": "NEET PG is an important exam. It is still just an exam."
-    },
-    {
-      "id": "rank-not-verdict-para3",
-      "type": "paragraph",
-      "content": "Across hospitals, clinics, academic institutions, and healthcare systems, successful doctors come from every possible rank range. Patients don't ask where you ranked. They care whether you can listen, think clearly, communicate honestly, and show up for them when it matters."
-    },
-    {
-      "id": "rank-not-verdict-conclusion",
-      "type": "paragraph",
-      "content": "The qualities that build a long medical career - clinical judgment, empathy, professionalism, the ability to keep learning - have very little to do with where you placed on a single competitive exam."
-    },
-    {
-      "id": "result-disappoints",
-      "type": "heading",
-      "title": "When the Result Doesn't Match What You Worked For",
-      "level": 2
-    },
-    {
-      "id": "result-disappoints-para1",
-      "type": "paragraph",
-      "content": "Some students will read this after a result that genuinely hurt. Months of effort, real sacrifice, and then a number that didn't reflect any of it - or at least didn't feel like it did."
-    },
-    {
-      "id": "result-disappoints-para2",
-      "type": "paragraph",
-      "content": "That's a hard place to sit in. The competition is intense, self-doubt at this stage is almost universal, and progress through preparation often feels invisible until long after the fact."
-    },
-    {
-      "id": "result-disappoints-conclusion",
-      "type": "paragraph",
-      "content": "What's worth remembering: an exam result captures how you performed on one particular day. It doesn't measure the full range of what you know, what you're capable of, or what kind of doctor you'll actually be. A difficult result doesn't erase years of clinical learning, patient interactions, or everything you've developed as a professional."
-    },
-    {
-      "id": "bigger-picture",
-      "type": "heading",
-      "title": "The Bigger Picture",
-      "level": 2
-    },
-    {
-      "id": "bigger-picture-para1",
-      "type": "paragraph",
-      "content": "Medical careers are built over decades. The counselling round, the branch selection, the college - these are real decisions with real consequences, but they are not the final word on anything."
-    },
-    {
-      "id": "bigger-picture-para2",
-      "type": "paragraph",
-      "content": "Students who make informed counselling choices, stay open to opportunities they hadn't originally considered, and keep some perspective during the harder moments tend to come through this phase better. Not because they had better ranks, but because they approached it more clearly."
-    },
-    {
-      "id": "bigger-picture-conclusion",
-      "type": "paragraph",
-      "content": "The goal was never just to secure a seat. The goal is a career in medicine that actually means something to you. That journey can start from a lot of different places."
-    },
-    {
-      "id": "one-last-thing",
-      "type": "heading",
-      "title": "One Last Thing",
-      "level": 2
-    },
-    {
-      "id": "one-last-para1",
-      "type": "paragraph",
-      "content": "NEET PG results feel like a culmination. Really, they're the beginning of a new set of decisions."
-    },
-    {
-      "id": "one-last-para2",
-      "type": "paragraph",
-      "content": "Understanding how counselling works, avoiding the common mistakes, staying open to emerging specialties, and not letting a rank become a story you tell yourself about your own worth - these things will matter in the years ahead more than the rank itself."
-    },
-    {
-      "id": "one-last-conclusion",
-      "type": "paragraph",
-      "content": "A rank can shape your next step. It cannot determine the kind of doctor you become. That part is still entirely up to you."
-    },
-    {
-      "id": "faqs",
-      "type": "heading",
-      "title": "FAQs",
-      "level": 2
-    },
-    {
-      "id": "faqs-list",
-      "type": "faq",
-      "faqs": [
-        {
-          "question": "What are the most common mistakes during NEET PG counselling?",
-          "answer": "People fill too few choices. They miss deadlines. They don't actually understand how the rules work. That's it. Avoid those three things and you're ahead of most."
-        },
-        {
-          "question": "Should I choose a branch based only on my NEET PG rank?",
-          "answer": "No way. Your rank gets you in the door. What actually matters is what you want to do, where you want your career to go, and what opportunities exist in that field. Don't let rank make the decision for you."
-        },
-        {
-          "question": "Are closing ranks from previous years reliable for counselling?",
-          "answer": "They're useful for getting an idea. But they change every counselling cycle. Use them as reference, not gospel. Each year is different."
-        },
-        {
-          "question": "Can a low NEET PG rank still lead to a successful medical career?",
-          "answer": "Absolutely. Your rank isn't your destiny. How you make counselling decisions and how you grow professionally after that matters way more. People with lower ranks get ahead all the time."
-        }
-      ]
-    },
-    {
-      "id": "keywords",
-      "type": "keywords",
-      "title": "Related Keywords",
-      "keywords": [
-        "neet pg counselling",
-        "pg counselling",
-        "neet pg preparation",
-        "neet pg exam",
-        "neet pg entrance exam",
-        "neet pg counselling schedule",
-        "apply for neet pg counselling",
-        "career counselling neet pg",
-        "choice filling neet pg",
-        "counselling for neet pg",
-        "medical pg preparation"
-      ]
-    }
-  ]
-},
-{
-  "id": 177,
-  "title": "Why Connecting Subjects Has Become Essential in Modern Medical Entrance Exams",
-  "slug": "why-connecting-subjects-essential-modern-medical-entrance-exams",
-  "excerpt": "Modern medical entrance exams reward integrated thinking. Learn why connecting subjects improves accuracy, recall, and scores.",
-  "featured_image": "https://cdn.dribbble.com/userupload/48312485/file/3364f2657d7fea29878d3f4804709930.jpg",
-  "featured_image_alt": "connecting subjects medical entrance exams",
-  "author": {
-    "name": "Believers Team",
-    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
-    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
-  },
-  "category": {
-    "name": "NEET PG",
-    "slug": "neet-pg",
-    "color": "bg-blue-100 text-blue-800"
-  },
-  "tags": [
-    "NEET PG",
-    "INI CET",
-    "Exam Preparation",
-    "Postgraduate Entrance Exams",
-    "Medical PG Preparation"
-  ],
-  "published_date": "2026-07-08",
-  "read_time": 10,
-  "meta_title": "Why Connecting Subjects Has Become Essential in Modern Medical Entrance Exams",
-  "meta_description": "Modern medical entrance exams reward integrated thinking. Learn why connecting subjects improves accuracy, recall, and scores.",
-  "keywords": [
-    "neet pg",
-    "ini cet",
-    "postgraduate entrance exams",
-    "competitive exam preparation",
-    "medical pg entrance exam",
-    "entrance exam",
-    "medical pg entrance preparation",
-    "medical pg exam",
-    "medical pg preparation",
-    "exam preparation"
-  ],
-  "sections": [
-    {
-      "id": "intro-para1",
-      "type": "paragraph",
-      "content": "There was a time when medical students could prepare for entrance exams by studying each subject in isolation. Anatomy was Anatomy. Pharmacology stayed within Pharmacology. Pathology had its own notes, its own MCQs, its own revision schedule. The boundaries felt clear, and that approach worked well enough."
-    },
-    {
-      "id": "intro-conclusion",
-      "type": "paragraph",
-      "content": "It doesn't anymore. Over the past few years, exams like NEET PG and INI-CET have quietly but steadily moved toward clinically integrated questions. Instead of testing isolated facts, they present real-world scenarios where you need to pull from multiple subjects at once. That shift has changed what good preparation actually looks like."
-    },
-    {
-      "id": "clinical-questions",
-      "type": "heading",
-      "title": "Clinical Questions Don't Respect Subject Boundaries",
-      "level": 2
-    },
-    {
-      "id": "clinical-questions-para1",
-      "type": "paragraph",
-      "content": "Think about how a typical patient-based question works. A patient walks in with symptoms. You think through the underlying physiology. You identify the pathology. You interpret the investigations. You pick a treatment. That's Physiology, Pathology, Medicine, and Pharmacology all in one question - and the exam doesn't warn you in advance which subject it \"belongs to.\""
-    },
-    {
-      "id": "clinical-questions-para2",
-      "type": "paragraph",
-      "content": "A question that looks like Medicine might hinge on Pathology. A Surgery question might fall apart without solid Anatomy. Pediatrics regularly pulls from Physiology, Genetics, and Biochemistry in the same breath."
-    },
-    {
-      "id": "clinical-questions-conclusion",
-      "type": "paragraph",
-      "content": "The exam isn't asking you to think subject-wise. It's asking you to think like a doctor."
-    },
-    {
-      "id": "basics-matter-differently",
-      "type": "heading",
-      "title": "This Doesn't Mean Basics Matter Less - It Means They Matter Differently",
-      "level": 2
-    },
-    {
-      "id": "basics-matter-para1",
-      "type": "paragraph",
-      "content": "Some students assume that a clinically oriented exam has reduced the importance of first-year subjects. The opposite is usually true. Anatomy, Physiology, and Biochemistry haven't disappeared - they just show up differently now."
-    },
-    {
-      "id": "basics-matter-para2",
-      "type": "paragraph",
-      "content": "Anatomy comes through nerve injuries, surgical anatomy, and imaging. Physiology explains why a patient presents the way they do. Biochemistry surfaces in metabolic disorders and lab interpretation."
-    },
-    {
-      "id": "basics-matter-conclusion",
-      "type": "paragraph",
-      "content": "Students with genuinely strong fundamentals often find integrated questions less intimidating, because they understand the reasoning behind the clinical picture rather than just memorizing the surface facts."
-    },
-    {
-      "id": "why-questions-feel-hard",
-      "type": "heading",
-      "title": "Why These Questions Feel Hard at First",
-      "level": 2
-    },
-    {
-      "id": "why-questions-para1",
-      "type": "paragraph",
-      "content": "Most students who struggle with integrated questions aren't underprepared - they've just been storing information in separate compartments. You might know a disease perfectly from your notes, but when that same concept shows up inside a complex patient scenario, the connection doesn't fire. That's not a content problem. It's a wiring problem."
-    },
-    {
-      "id": "why-questions-conclusion",
-      "type": "paragraph",
-      "content": "Studying more of the same material won't fix it. What helps is learning how subjects talk to each other."
-    },
-    {
-      "id": "connected-learning",
-      "type": "heading",
-      "title": "Connected Learning Also Helps With Retention",
-      "level": 2
-    },
-    {
-      "id": "connected-learning-para1",
-      "type": "paragraph",
-      "content": "When you understand how concepts relate, they stick better. Learning a disease alongside its pathology, its clinical features, its investigations, and its treatment creates several memory anchors instead of one. You're not memorizing a fact - you're building a picture."
-    },
-    {
-      "id": "connected-learning-conclusion",
-      "type": "paragraph",
-      "content": "And pictures are much harder to forget under exam pressure."
-    },
-    {
-      "id": "how-strong-performers-prepare",
-      "type": "heading",
-      "title": "How Students Who Do Well Actually Prepare",
-      "level": 2
-    },
-    {
-      "id": "how-strong-performers-para1",
-      "type": "paragraph",
-      "content": "The difference in how strong performers approach revision is subtle but significant. They're not asking \"which subject is this from?\" - they're asking \"what's actually being tested here?\" Over time, they stop treating subjects as separate territories and start seeing them as parts of one system."
-    },
-    {
-      "id": "how-strong-performers-conclusion",
-      "type": "paragraph",
-      "content": "That means solving integrated MCQs regularly, thinking through the logic behind answers rather than just marking the right option, and making deliberate connections during revision - linking Pharmacology back to Pathology, Anatomy forward to Surgery, Physiology across to clinical findings."
-    },
-    {
-      "id": "where-things-headed",
-      "type": "heading",
-      "title": "Where Things Are Headed",
-      "level": 2
-    },
-    {
-      "id": "where-things-para1",
-      "type": "paragraph",
-      "content": "This isn't a passing trend. Medical education is moving toward clinical decision-making over recall, and entrance exams are following. The skills that get rewarded - reasoning through a scenario, connecting concepts across subjects, arriving at a logical answer under uncertainty - are also the skills that make a good doctor."
-    },
-    {
-      "id": "where-things-conclusion",
-      "type": "paragraph",
-      "content": "Students who build that kind of integrated understanding early don't just perform better in exams. They're also better prepared for what comes after."
-    },
-    {
-      "id": "faqs",
-      "type": "heading",
-      "title": "FAQs",
-      "level": 2
-    },
-    {
-      "id": "faqs-list",
-      "type": "faq",
-      "faqs": [
-        {
-          "question": "Why is integrated learning important?",
-          "answer": "It improves your ability to solve clinical MCQs."
-        },
-        {
-          "question": "Do first-year subjects still matter?",
-          "answer": "Yes, they form the foundation of clinical reasoning."
-        },
-        {
-          "question": "How can I prepare for integrated questions?",
-          "answer": "Practice case-based and integrated MCQs regularly."
-        },
-        {
-          "question": "What do modern entrance exams test?",
-          "answer": "Clinical reasoning and concept application."
-        },
-        {
-          "question": "Does connecting subjects improve retention?",
-          "answer": "Yes, it makes concepts easier to understand and remember."
-        }
-      ]
-    },
-    {
-      "id": "keywords",
-      "type": "keywords",
-      "title": "Related Keywords",
-      "keywords": [
-        "neet pg",
-        "ini cet",
-        "postgraduate entrance exams",
-        "competitive exam preparation",
-        "medical pg entrance exam",
-        "entrance exam",
-        "medical pg entrance preparation",
-        "medical pg exam",
-        "medical pg preparation",
-        "exam preparation"
-      ]
-    }
-  ]
-},
-{
-  "id": 178,
-  "title": "When Consistency Starts Feeling Heavy: Understanding Performance Fatigue in Long-Term Exam Preparation",
-  "slug": "when-consistency-starts-feeling-heavy-performance-fatigue-long-term-exam-preparation",
-  "excerpt": "Long-term exam preparation can lead to performance fatigue. Learn how to stay consistent, manage stress, and maintain peak focus.",
-  "featured_image": "https://cdn.dribbble.com/userupload/48324004/file/aa47605e0074034c93cf1ce41db87eeb.jpg",
-  "featured_image_alt": "Exam Preparation",
-  "author": {
-    "name": "Believers Team",
-    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
-    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
-  },
-  "category": {
-    "name": "NEET PG",
-    "slug": "neet-pg",
-    "color": "bg-blue-100 text-blue-800"
-  },
-  "tags": [
-    "NEET PG",
-    "Exam Preparation",
-    "Competitive Exam Preparation",
-    "Postgraduate Medical Exams",
-    "Preparation Strategy"
-  ],
-  "published_date": "2026-07-09",
-  "read_time": 10,
-  "meta_title": "When Consistency Starts Feeling Heavy: Understanding Performance Fatigue in Long-Term Exam Preparation",
-  "meta_description": "Long-term exam preparation can lead to performance fatigue. Learn how to stay consistent, manage stress, and maintain peak focus.",
-  "keywords": [
-    "exam preparation",
-    "competitive exam preparation",
-    "neet pg",
-    "postgraduate medical entrance exams",
-    "postgraduate medical exams",
-    "neet pg exam",
-    "medical entrance exam"
-  ],
-  "sections": [
-    {
-      "id": "intro-para1",
-      "type": "paragraph",
-      "content": "Competitive exam prep gets described as testing knowledge. Honestly, it's more about testing endurance."
-    },
-    {
-      "id": "intro-para2",
-      "type": "paragraph",
-      "content": "Most NEET PG aspirants start with a plan. They're motivated. They think hard work pays off and they'll be fine."
-    },
-    {
-      "id": "intro-para3",
-      "type": "paragraph",
-      "content": "Early on, it works. Subjects get done. Concepts make sense. Every study session feels like progress."
-    },
-    {
-      "id": "intro-para4",
-      "type": "paragraph",
-      "content": "Then something changes. You're still studying. Still going to classes. Still solving MCQs. But everything feels harder now."
-    },
-    {
-      "id": "intro-conclusion",
-      "type": "paragraph",
-      "content": "It's not laziness. You're not lacking discipline. What's actually happening is performance fatigue. Your brain's getting tired from months of the same grind."
-    },
-    {
-      "id": "long-prep-cycles",
-      "type": "heading",
-      "title": "Why Long Preparation Cycles Destroy You Differently",
-      "level": 2
-    },
-    {
-      "id": "long-prep-para1",
-      "type": "paragraph",
-      "content": "University exams? Study hard for a few weeks. Done."
-    },
-    {
-      "id": "long-prep-para2",
-      "type": "paragraph",
-      "content": "Postgraduate medical exams? Months. Constant revisiting. Medicine, Surgery, Pharmacology, Pathology, Community Medicine. The cycle never stops. Finish one revision and another one's waiting."
-    },
-    {
-      "id": "long-prep-conclusion",
-      "type": "paragraph",
-      "content": "Over time your brain gets tired from this repetition. The effort stays the same but efficiency drops. You're working hard but not getting the same output."
-    },
-    {
-      "id": "quiet-signs",
-      "type": "heading",
-      "title": "The Quiet Signs of Burnout",
-      "level": 2
-    },
-    {
-      "id": "quiet-signs-para1",
-      "type": "paragraph",
-      "content": "Performance fatigue doesn't announce itself loudly. It creeps in. You notice small things."
-    },
-    {
-      "id": "quiet-signs-list",
-      "type": "list",
-      "items": [
-        "Topics that took an hour to revise now take three hours",
-        "MCQs feel like they require more mental effort",
-        "Mock tests drain you even when your score's the same",
-        "You get frustrated over mistakes you wouldn't have cared about before"
-      ]
-    },
-    {
-      "id": "quiet-signs-para2",
-      "type": "paragraph",
-      "content": "Some students think their preparation's failing. They blame themselves."
-    },
-    {
-      "id": "quiet-signs-conclusion",
-      "type": "paragraph",
-      "content": "The truth? Your knowledge is still there. Your brain's just exhausted."
-    },
-    {
-      "id": "more-hours-worse",
-      "type": "heading",
-      "title": "Adding More Hours Usually Makes It Worse",
-      "level": 2
-    },
-    {
-      "id": "more-hours-para1",
-      "type": "paragraph",
-      "content": "When scores stall, the obvious move is studying longer. Seems logical. Slower progress means work harder, right?"
-    },
-    {
-      "id": "more-hours-para2",
-      "type": "paragraph",
-      "content": "Wrong. Performance fatigue isn't always about working too little. Sometimes it's about working hard without actually recovering."
-    },
-    {
-      "id": "more-hours-para3",
-      "type": "paragraph",
-      "content": "Throwing more hours at an already tired schedule kills concentration. Frustration builds. Revision becomes pointless."
-    },
-    {
-      "id": "more-hours-conclusion",
-      "type": "paragraph",
-      "content": "Productivity isn't just about time. It's about the quality of attention you have during those hours."
-    },
-    {
-      "id": "mental-toll",
-      "type": "heading",
-      "title": "The Mental Toll Nobody Talks About",
-      "level": 2
-    },
-    {
-      "id": "mental-toll-para1",
-      "type": "paragraph",
-      "content": "Academic prep is one thing. The emotional side is another."
-    },
-    {
-      "id": "mental-toll-para2",
-      "type": "paragraph",
-      "content": "You live with uncertainty for months. Every mock test feels critical. Every rank predictor stresses you out. Every conversation about cutoffs creates new anxiety."
-    },
-    {
-      "id": "mental-toll-conclusion",
-      "type": "paragraph",
-      "content": "This mental pressure drains energy constantly. Even when you're not studying. Eventually the emotional exhaustion matches the academic workload."
-    },
-    {
-      "id": "social-media",
-      "type": "heading",
-      "title": "Social Media Makes It Worse",
-      "level": 2
-    },
-    {
-      "id": "social-media-para1",
-      "type": "paragraph",
-      "content": "Everyone's on social media now. Makes preparation more connected. Also makes comparison unavoidable."
-    },
-    {
-      "id": "social-media-para2",
-      "type": "paragraph",
-      "content": "You see rank screenshots. Mock scores. Success stories. Study hour updates. Looks motivating. Actually creates unrealistic expectations."
-    },
-    {
-      "id": "social-media-para3",
-      "type": "paragraph",
-      "content": "Preparation isn't a straight line. Everyone has slow weeks. Everyone doubts themselves. Difference is people share wins way more than struggles."
-    },
-    {
-      "id": "social-media-conclusion",
-      "type": "paragraph",
-      "content": "Constant comparison turns normal fatigue into feeling like failure."
-    },
-    {
-      "id": "recover-without-losing",
-      "type": "heading",
-      "title": "How to Recover Without Losing Progress",
-      "level": 2
-    },
-    {
-      "id": "recover-para1",
-      "type": "paragraph",
-      "content": "Managing fatigue doesn't mean stopping. Small adjustments work better than big changes."
-    },
-    {
-      "id": "recover-table",
-      "type": "table",
-      "headers": ["Strategy", "What to Do"],
-      "rows": [
-        ["Prioritize Recovery", "Sleep, exercise, breaks. These aren't distractions. They're part of prep."],
-        ["Change How You Study", "Mix it up. Active recall. MCQs. Flashcards. Discussions. Reduces monotony."],
-        ["Measure Differently", "Stop obsessing over scores. Track accuracy improvements. How fast you recall. Consistency."],
-        ["Accept Slow Weeks", "Not every week produces breakthroughs. Long-term improvement usually happens gradually."]
-      ]
-    },
-    {
-      "id": "top-performers",
-      "type": "heading",
-      "title": "Top Performers Aren't Studying Harder",
-      "level": 2
-    },
-    {
-      "id": "top-performers-para1",
-      "type": "paragraph",
-      "content": "Common misconception: successful people just work harder. Actually, they manage energy better. Know when to push. Know when to rest. Recognize fatigue early before it tanks performance."
-    },
-    {
-      "id": "top-performers-conclusion",
-      "type": "paragraph",
-      "content": "Most importantly, they build routines they can actually maintain for months. Not sprints. That sustainability is the real advantage."
-    },
-    {
-      "id": "final-thoughts",
-      "type": "heading",
-      "title": "Final Thoughts",
-      "level": 2
-    },
-    {
-      "id": "final-thoughts-para1",
-      "type": "paragraph",
-      "content": "Preparation for competitive medical exams isn't just about rushing through the syllabus. It's also about keeping your brain sharp for months."
-    },
-    {
-      "id": "final-thoughts-para2",
-      "type": "paragraph",
-      "content": "If studying feels harder than it did a few months ago? Doesn't mean your prep is broken. Might mean your mind is adapting to something that demands patience, recovery, consistency."
-    },
-    {
-      "id": "final-thoughts-para3",
-      "type": "paragraph",
-      "content": "Success isn't about staying motivated every day. It's about moving forward without destroying yourself."
-    },
-    {
-      "id": "final-thoughts-conclusion",
-      "type": "paragraph",
-      "content": "In long preparation cycles, the person who wins isn't the one who studies hardest for a short burst. It's the one who can perform steadily for the longest."
-    },
-    {
-      "id": "faqs",
-      "type": "heading",
-      "title": "FAQs",
-      "level": 2
-    },
-    {
-      "id": "faqs-list",
-      "type": "faq",
-      "faqs": [
-        {
-          "question": "What is performance fatigue during exam preparation?",
-          "answer": "It's your mental efficiency gradually dropping after months of intense studying."
-        },
-        {
-          "question": "How do I know if I have performance fatigue?",
-          "answer": "Slower recall. Hard to focus. Getting frustrated easily. Mental exhaustion even though you're studying regularly."
-        },
-        {
-          "question": "Can performance fatigue affect mock test scores?",
-          "answer": "Yeah. Reduces focus, decision-making, overall performance."
-        },
-        {
-          "question": "How do I manage performance fatigue?",
-          "answer": "Get proper sleep. Take structured breaks. Change your study methods. Follow a routine you can actually sustain."
-        }
-      ]
-    },
-    {
-      "id": "keywords",
-      "type": "keywords",
-      "title": "Related Keywords",
-      "keywords": [
-        "exam preparation",
-        "competitive exam preparation",
-        "neet pg",
-        "postgraduate medical entrance exams",
-        "postgraduate medical exams",
-        "neet pg exam",
-        "medical entrance exam"
-      ]
-    }
-  ]
-},
-{
-  "id": 179,
-  "title": "NEET PG 2026 Official Notification Released: Exam Date, Registration Schedule & Important Dates",
-  "slug": "neet-pg-2026-official-notification-exam-date-registration-schedule-important-dates",
-  "excerpt": "NEET PG 2026 Official Notification is out. Check the exam date, registration schedule, important dates, and start your preparation with complete updates.",
-  "featured_image": "https://cdn.dribbble.com/userupload/48336162/file/f457c39a936daf1a62b5cf2f2a4dce10.jpg",
-  "featured_image_alt": "NEET PG 2026",
-  "author": {
-    "name": "Believers Team",
-    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
-    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
-  },
-  "category": {
-    "name": "NEET PG",
-    "slug": "neet-pg",
-    "color": "bg-blue-100 text-blue-800"
-  },
-  "tags": [
-    "NEET PG",
-    "NEET PG 2026",
-    "NEET PG Exam Date",
-    "Medical Entrance Exam",
-    "NEET PG Preparation"
-  ],
-  "published_date": "2026-07-10",
-  "read_time": 7,
-  "meta_title": "NEET PG 2026 Official Notification Released: Exam Date, Registration Schedule & Important Dates",
-  "meta_description": "NEET PG 2026 Official Notification is out. Check the exam date, registration schedule, important dates, and start your preparation with complete updates.",
-  "keywords": [
-    "neet pg 2026",
-    "neet pg",
-    "neet pg exam date",
-    "medical entrance exam",
-    "neet pg exam",
-    "neet pg preparation strategy",
-    "neet pg preparation",
-    "neet pg 2026 registration",
-    "neet pg result date",
-    "neet pg 2026 result date",
-    "neet pg official notification"
-  ],
-  "sections": [
-    {
-      "id": "intro-para1",
-      "type": "paragraph",
-      "content": "It's here. Finally."
-    },
-    {
-      "id": "intro-para2",
-      "type": "paragraph",
-      "content": "The National Board of Examinations in Medical Sciences (NBEMS) announced the schedule for NEET PG 2026. Thousands of postgraduate aspirants now know what they're working toward."
-    },
-    {
-      "id": "intro-para3",
-      "type": "paragraph",
-      "content": "If you're taking NEET PG 2026, stop guessing. The dates are locked. Now it's time to actually prepare."
-    },
-    {
-      "id": "intro-conclusion",
-      "type": "paragraph",
-      "content": "NBEMS released registration timelines, the exam date, when test cities get announced, when results come out. Everything. Here's what matters."
-    },
-    {
-      "id": "exam-date",
-      "type": "heading",
-      "title": "NEET PG 2026 Is August 30",
-      "level": 2
-    },
-    {
-      "id": "exam-date-para1",
-      "type": "paragraph",
-      "content": "The exam happens on August 30, 2026. Sunday. It's a computer-based test at various centers across India."
-    },
-    {
-      "id": "exam-date-conclusion",
-      "type": "paragraph",
-      "content": "You've got a fixed target date now. Time to plan your revision, mocks, final prep."
-    },
-    {
-      "id": "information-bulletin",
-      "type": "heading",
-      "title": "Information Bulletin Comes July 1",
-      "level": 2
-    },
-    {
-      "id": "information-bulletin-para1",
-      "type": "paragraph",
-      "content": "NBEMS drops the Information Bulletin on July 1, 2026 at 4:00 PM."
-    },
-    {
-      "id": "information-bulletin-para2",
-      "type": "paragraph",
-      "content": "It'll have:"
-    },
-    {
-      "id": "information-bulletin-list",
-      "type": "list",
-      "items": [
-        "Eligibility criteria",
-        "Exam scheme",
-        "Fee structure",
-        "Instructions",
-        "Application process",
-        "Documents you need"
-      ]
-    },
-    {
-      "id": "information-bulletin-conclusion",
-      "type": "paragraph",
-      "content": "Read it carefully before you apply. No skimming."
-    },
-    {
-      "id": "registration-window",
-      "type": "heading",
-      "title": "Registration Window: July 1 to July 21",
-      "level": 2
-    },
-    {
-      "id": "registration-window-para1",
-      "type": "paragraph",
-      "content": "Applications open July 1 at 5:00 PM. They close July 21 at 11:55 PM."
-    },
-    {
-      "id": "registration-window-para2",
-      "type": "paragraph",
-      "content": "Don't wait until the last day. Seriously. Last-minute registrations hit server issues. You might miss the deadline over something stupid."
-    },
-    {
-      "id": "registration-window-conclusion",
-      "type": "paragraph",
-      "content": "Apply early. Double-check everything. Then you're done."
-    },
-    {
-      "id": "test-city",
-      "type": "heading",
-      "title": "Test City Notification: August 11",
-      "level": 2
-    },
-    {
-      "id": "test-city-para1",
-      "type": "paragraph",
-      "content": "August 11 is when you find out which city your exam center is in. The exact center address comes later with your admit card."
-    },
-    {
-      "id": "result-date",
-      "type": "heading",
-      "title": "Result Date: By September 30",
-      "level": 2
-    },
-    {
-      "id": "result-date-para1",
-      "type": "paragraph",
-      "content": "Results drop by September 30, 2026. You download your scorecard from the NBEMS portal once they announce results."
-    },
-    {
-      "id": "important-dates",
-      "type": "heading",
-      "title": "Important Dates Summary",
-      "level": 2
-    },
-    {
-      "id": "important-dates-table",
-      "type": "table",
-      "headers": ["Event", "Date"],
-      "rows": [
-        ["Information Bulletin Released", "July 1, 2026 at 4:00 PM"],
-        ["Registration Starts", "July 1, 2026 at 5:00 PM"],
-        ["Registration Closes", "July 21, 2026 at 11:55 PM"],
-        ["Test City Intimation", "August 11, 2026"],
-        ["NEET PG 2026 Exam", "August 30, 2026"],
-        ["Result Declaration", "By September 30, 2026"]
-      ]
-    },
-    {
-      "id": "what-to-do",
-      "type": "heading",
-      "title": "What You Should Do Right Now",
-      "level": 2
-    },
-    {
-      "id": "what-to-do-para1",
-      "type": "paragraph",
-      "content": "The dates are out. You know when everything happens. Use that."
-    },
-    {
-      "id": "what-to-do-para2",
-      "type": "paragraph",
-      "content": "Here's what matters:"
-    },
-    {
-      "id": "what-to-do-list",
-      "type": "list",
-      "items": [
-        "Register as soon as the window opens on July 1",
-        "Gather all required documents before you apply",
-        "Keep solving mocks and previous year questions",
-        "Revise high-yield topics instead of starting new stuff",
-        "Watch NBEMS announcements for admit card and exam guidelines"
-      ]
-    },
-    {
-      "id": "what-to-do-conclusion",
-      "type": "paragraph",
-      "content": "Good planning in the final weeks actually changes your score."
-    },
-    {
-      "id": "final-thoughts",
-      "type": "heading",
-      "title": "Final Thoughts",
-      "level": 2
-    },
-    {
-      "id": "final-thoughts-para1",
-      "type": "paragraph",
-      "content": "The schedule is official. NEET PG 2026 happens August 30. You've got a timeline."
-    },
-    {
-      "id": "final-thoughts-para2",
-      "type": "paragraph",
-      "content": "Stop worrying about dates. Start using them."
-    },
-    {
-      "id": "final-thoughts-para3",
-      "type": "paragraph",
-      "content": "Register on time. Stay updated with NBEMS. Use the remaining weeks for actual focused prep."
-    },
-    {
-      "id": "final-thoughts-conclusion",
-      "type": "paragraph",
-      "content": "The countdown is on. Make every day count."
-    },
-    {
-      "id": "faqs",
-      "type": "heading",
-      "title": "FAQs",
-      "level": 2
-    },
-    {
-      "id": "faqs-list",
-      "type": "faq",
-      "faqs": [
-        {
-          "question": "1. When is the NEET PG 2026 exam?",
-          "answer": "NEET PG 2026 will be conducted on 30 August 2026 (Sunday)."
-        },
-        {
-          "question": "2. When does NEET PG 2026 registration begin?",
-          "answer": "The registration window opens on 1 July 2026 at 5:00 PM."
-        },
-        {
-          "question": "3. What is the last date to apply for NEET PG 2026?",
-          "answer": "Candidates can submit their application until 21 July 2026 at 11:55 PM."
-        },
-        {
-          "question": "4. When will the NEET PG 2026 test city be announced?",
-          "answer": "NBEMS will release the test city intimation on 11 August 2026."
-        },
-        {
-          "question": "5. When is the NEET PG 2026 result expected?",
-          "answer": "The NEET PG 2026 result is expected to be declared by 30 September 2026."
-        }
-      ]
-    },
-    {
-      "id": "keywords",
-      "type": "keywords",
-      "title": "Related Keywords",
-      "keywords": [
-        "neet pg 2026",
-        "neet pg",
-        "neet pg exam date",
-        "medical entrance exam",
-        "neet pg exam",
-        "neet pg preparation strategy",
-        "neet pg preparation",
-        "neet pg 2026 registration",
-        "neet pg result date",
-        "neet pg 2026 result date",
-        "neet pg official notification"
-      ]
-    }
-  ]
-},
-{
-  "id": 180,
-  "title": "NEET UG 2026 Result Coming Soon? Here's Where You Need to Register for Counselling",
-  "slug": "neet-ug-2026-result-coming-soon-register-for-counselling",
-  "excerpt": "NEET UG 2026 Result is expected soon. Stay ahead by registering for NEET UG 2026 Counselling through the right portal to secure your MBBS/BDS admission without delays.",
-  "featured_image": "https://cdn.dribbble.com/userupload/48362424/file/0aa57b5ef9d2fef0fa4b7f3d65e2684e.jpg",
-  "featured_image_alt": "NEET UG 2026 Counselling Registration",
-  "author": {
-    "name": "Believers Team",
-    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
-    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
-  },
-  "category": {
-    "name": "NEET PG",
-    "slug": "neet-pg",
-    "color": "bg-blue-100 text-blue-800"
-  },
-  "tags": [
-    "NEET UG",
-    "NEET UG 2026",
-    "NEET UG Counselling",
-    "Medical Entrance Exam",
-    "NEET UG Result"
-  ],
-  "published_date": "2026-07-13",
-  "read_time": 8,
-  "meta_title": "NEET UG 2026 Result Coming Soon? Here's Where You Need to Register for Counselling",
-  "meta_description": "NEET UG 2026 Result is expected soon. Stay ahead by registering for NEET UG 2026 Counselling through the right portal to secure your MBBS/BDS admission without delays.",
-  "keywords": [
-    "neet ug",
-    "neet ug result",
-    "neet ug 2026",
-    "neet ug 2026 result",
-    "medical entrance exam",
-    "neet ug admissions",
-    "neet ug counselling registration",
-    "neet exam",
-    "neet ug counselling schedule",
-    "neet ug counselling rounds",
-    "neet ug fee structure",
-    "neet ug entrance exam",
-    "eligibility for neet ug",
-    "neet ug re exam"
-  ],
-  "sections": [
-    {
-      "id": "intro-para1",
-      "type": "paragraph",
-      "content": "NEET UG 2026 result is coming. Once it's out, counselling registration happens next. And this is where most candidates get confused."
-    },
-    {
-      "id": "intro-conclusion",
-      "type": "paragraph",
-      "content": "People assume there's one counselling portal. There isn't. NEET UG admissions use three different counselling authorities depending on what course you want. This explains which portal you need, what each one does, fees, the process, and how they're different."
-    },
-    {
-      "id": "three-authorities",
-      "type": "heading",
-      "title": "One NEET Exam, Three Counselling Authorities",
-      "level": 2
-    },
-    {
-      "id": "three-authorities-table",
-      "type": "table",
-      "headers": ["Authority", "Courses", "Portal"],
-      "rows": [
-        ["Medical Counselling Committee (MCC)", "MBBS, BDS, BSc Nursing", "mcc.nic.in"],
-        ["Ayush Admissions Central Counselling Committee (AACCC)", "BAMS, BHMS, BUMS, BSMS", "aaccc.gov.in"],
-        ["Veterinary Council of India (VCI)", "BVSc & AH", "vci.admissions.nic.in"]
-      ],
-      "caption": "You need the right portal for your course. Each authority handles different admissions."
-    },
-    {
-      "id": "mcc-section",
-      "type": "heading",
-      "title": "Medical Counselling Committee (MCC)",
-      "level": 2
-    },
-    {
-      "id": "mcc-para1",
-      "type": "paragraph",
-      "content": "MCC handles admissions for MBBS, BDS, and BSc Nursing."
-    },
-    {
-      "id": "mcc-what-they-manage",
-      "type": "heading",
-      "title": "What They Manage",
-      "level": 3
-    },
-    {
-      "id": "mcc-manage-list",
-      "type": "list",
-      "items": [
-        "15% All India Quota (AIQ) seats in Government Medical Colleges",
-        "100% seats in AIIMS (all campuses)",
-        "JIPMER",
-        "Central Universities (BHU, AMU, DU, JMI)",
-        "ESIC Institutions",
-        "AFMC (separate admission process)"
-      ]
-    },
-    {
-      "id": "mcc-ministry",
-      "type": "paragraph",
-      "content": "Overseen by Ministry of Health & Family Welfare."
-    },
-    {
-      "id": "mcc-when",
-      "type": "heading",
-      "title": "When Counselling Happens",
-      "level": 3
-    },
-    {
-      "id": "mcc-when-para",
-      "type": "paragraph",
-      "content": "Due to NEET UG 2026 re-exam, counselling expected between July and September 2026."
-    },
-    {
-      "id": "mcc-rounds",
-      "type": "heading",
-      "title": "Counselling Rounds",
-      "level": 3
-    },
-    {
-      "id": "mcc-rounds-para",
-      "type": "paragraph",
-      "content": "Round 1, Round 2, Round 3, Round 4, plus Stray Vacancy Round."
-    },
-    {
-      "id": "mcc-how-to-register",
-      "type": "heading",
-      "title": "How to Register",
-      "level": 3
-    },
-    {
-      "id": "mcc-register-list",
-      "type": "list",
-      "items": [
-        "Sign up on MCC portal with your NEET Roll Number",
-        "Pay registration fee and security deposit",
-        "Fill college and course preferences",
-        "Lock your choices before deadline",
-        "Check seat allotment result online",
-        "Report to your college with documents"
-      ]
-    },
-    {
-      "id": "mcc-fees-aiq",
-      "type": "heading",
-      "title": "Registration Fees for AIQ & Central University Seats",
-      "level": 3
-    },
-    {
-      "id": "mcc-fees-aiq-table",
-      "type": "table",
-      "headers": ["Category", "Registration Fee", "Security Deposit"],
-      "rows": [
-        ["General / EWS", "₹1,000", "₹10,000"],
-        ["SC / ST / OBC / PwD", "₹500", "₹5,000"]
-      ]
-    },
-    {
-      "id": "mcc-fees-deemed",
-      "type": "heading",
-      "title": "For Deemed University Seats",
-      "level": 3
-    },
-    {
-      "id": "mcc-fees-deemed-table",
-      "type": "table",
-      "headers": ["Category", "Registration Fee", "Security Deposit"],
-      "rows": [
-        ["All categories", "₹5,000", "₹2,00,000"]
-      ]
-    },
-    {
-      "id": "aaccc-section",
-      "type": "heading",
-      "title": "Ayush Admissions Central Counselling Committee (AACCC)",
-      "level": 2
-    },
-    {
-      "id": "aaccc-para1",
-      "type": "paragraph",
-      "content": "AACCC handles AYUSH courses: BAMS, BHMS, BUMS, BSMS, and B.Pharm (Ayurveda). Overseen by National Commission for Indian System of Medicine (NCISM), Ministry of Ayush."
-    },
-    {
-      "id": "aaccc-what-they-manage",
-      "type": "heading",
-      "title": "What They Manage",
-      "level": 3
-    },
-    {
-      "id": "aaccc-manage-list",
-      "type": "list",
-      "items": [
-        "15% All India Quota seats in Government and Aided AYUSH colleges",
-        "100% seats in Deemed Universities",
-        "Central Universities",
-        "National Institutes",
-        "Over 900 AYUSH colleges participate"
-      ]
-    },
-    {
-      "id": "aaccc-when",
-      "type": "heading",
-      "title": "When Counselling Happens",
-      "level": 3
-    },
-    {
-      "id": "aaccc-when-para",
-      "type": "paragraph",
-      "content": "Expected to start August 2026 (tentative)."
-    },
-    {
-      "id": "aaccc-rounds",
-      "type": "heading",
-      "title": "Counselling Rounds",
-      "level": 3
-    },
-    {
-      "id": "aaccc-rounds-para",
-      "type": "paragraph",
-      "content": "Round 1, Round 2, Round 3, Stray Vacancy Round I, Stray Vacancy Round II."
-    },
-    {
-      "id": "aaccc-rules",
-      "type": "heading",
-      "title": "Important AACCC Rules",
-      "level": 3
-    },
-    {
-      "id": "aaccc-rules-list",
-      "type": "list",
-      "items": [
-        "Deemed University seats are unreserved. Central Government reservation policies don't apply.",
-        "Registration Fee: General ₹1,000, SC/ST ₹500.",
-        "No fresh registrations allowed during Stray Vacancy Round.",
-        "Candidates who don't join their allotted college lose security deposit and become ineligible for further rounds.",
-        "Foreign nationals applying under NRI quota in Deemed Universities don't need NEET for AYUSH UG courses."
-      ]
-    },
-    {
-      "id": "vci-section",
-      "type": "heading",
-      "title": "Veterinary Council of India (VCI)",
-      "level": 2
-    },
-    {
-      "id": "vci-para1",
-      "type": "paragraph",
-      "content": "VCI handles counselling for BVSc & AH (Bachelor of Veterinary Science & Animal Husbandry)."
-    },
-    {
-      "id": "vci-eligibility",
-      "type": "heading",
-      "title": "Eligibility",
-      "level": 3
-    },
-    {
-      "id": "vci-eligibility-list",
-      "type": "list",
-      "items": [
-        "Indian citizen",
-        "At least 17 years old by December 31, 2026",
-        "Qualified NEET UG 2026"
-      ]
-    },
-    {
-      "id": "vci-eligibility-note",
-      "type": "paragraph",
-      "content": "Note: Jammu & Kashmir domicile candidates aren't eligible for AIQ seats."
-    },
-    {
-      "id": "vci-fees",
-      "type": "heading",
-      "title": "Registration Fees",
-      "level": 3
-    },
-    {
-      "id": "vci-fees-table",
-      "type": "table",
-      "headers": ["Category", "Registration Fee"],
-      "rows": [
-        ["General", "₹1,000"],
-        ["EWS/OBC", "₹900"],
-        ["SC/ST/PwD", "₹500"]
-      ]
-    },
-    {
-      "id": "vci-when",
-      "type": "heading",
-      "title": "When Counselling Happens",
-      "level": 3
-    },
-    {
-      "id": "vci-when-para",
-      "type": "paragraph",
-      "content": "Expected September 2026."
-    },
-    {
-      "id": "vci-rounds",
-      "type": "heading",
-      "title": "Counselling Rounds",
-      "level": 3
-    },
-    {
-      "id": "vci-rounds-para",
-      "type": "paragraph",
-      "content": "Round 1, Round 2, Stray Vacancy Round."
-    },
-    {
-      "id": "comparison",
-      "type": "heading",
-      "title": "MCC vs AACCC vs VCI: Quick Comparison",
-      "level": 2
-    },
-    {
-      "id": "comparison-table",
-      "type": "table",
-      "headers": ["Feature", "MCC", "AACCC", "VCI"],
-      "rows": [
-        ["Courses", "MBBS, BDS, BSc Nursing", "BAMS, BHMS, BUMS, BSMS", "BVSc & AH"],
-        ["AIQ Seats", "15%", "15%", "15%"],
-        ["Deemed University Seats", "Yes (100%)", "Yes (100%)", "No"],
-        ["Counselling Rounds", "4 + Stray Vacancy", "3 + Stray Vacancy I & II", "2 + Stray Vacancy"],
-        ["Expected Start", "July–September 2026", "August 2026", "September 2026"],
-        ["Conducting Ministry", "Ministry of Health & Family Welfare", "Ministry of Ayush", "Department of Animal Husbandry & Dairying"],
-        ["Official Portal", "mcc.nic.in", "aaccc.gov.in", "vci.admissions.nic.in"]
-      ]
-    },
-    {
-      "id": "final-thoughts",
-      "type": "heading",
-      "title": "Final Thoughts",
-      "level": 2
-    },
-    {
-      "id": "final-thoughts-para1",
-      "type": "paragraph",
-      "content": "You passed NEET UG 2026. That's step one. Now comes registering with the right counselling body based on what you want to study."
-    },
-    {
-      "id": "final-thoughts-list",
-      "type": "list",
-      "items": [
-        "Want MBBS, BDS, or BSc Nursing? Go to MCC.",
-        "Interested in AYUSH - BAMS, BHMS, BUMS, BSMS? That's AACCC.",
-        "Looking at BVSc & AH? VCI is your place."
-      ]
-    },
-    {
-      "id": "final-thoughts-conclusion",
-      "type": "paragraph",
-      "content": "Get your documents together. Know the rules. Register before the deadlines close. This is where you actually secure a seat."
-    },
-    {
-      "id": "faqs",
-      "type": "heading",
-      "title": "FAQs",
-      "level": 2
-    },
-    {
-      "id": "faqs-list",
-      "type": "faq",
-      "faqs": [
-        {
-          "question": "Which portal for MBBS counselling after NEET UG 2026?",
-          "answer": "MCC handles it."
-        },
-        {
-          "question": "Where do AYUSH aspirants sign up?",
-          "answer": "AACCC."
-        },
-        {
-          "question": "Who runs BVSc & AH counselling?",
-          "answer": "VCI."
-        },
-        {
-          "question": "Can I register for multiple counselling authorities?",
-          "answer": "Yeah, if you're eligible for different courses."
-        },
-        {
-          "question": "Is passing NEET UG enough to get a seat?",
-          "answer": "No. You also have to register for counselling."
-        }
-      ]
-    },
-    {
-      "id": "keywords",
-      "type": "keywords",
-      "title": "Related Keywords",
-      "keywords": [
-        "neet ug",
-        "neet ug result",
-        "neet ug 2026",
-        "neet ug 2026 result",
-        "medical entrance exam",
-        "neet ug admissions",
-        "neet ug counselling registration",
-        "neet exam",
-        "neet ug counselling schedule",
-        "neet ug counselling rounds",
-        "neet ug fee structure",
-        "neet ug entrance exam",
-        "eligibility for neet ug",
-        "neet ug re exam"
-      ]
-    }
-  ]
-},
-{
-  "id": 181,
-  "title": "NEET PG 2026 Registration: How to Fill the Correspondence Address Correctly and Avoid Test Centre Mistakes",
-  "slug": "neet-pg-2026-registration-correspondence-address-test-centre-mistakes",
-  "excerpt": "Filling the NEET PG 2026 correspondence address correctly can help avoid test centre issues. Follow this simple guide to register accurately and confidently.",
-  "featured_image": "https://cdn.dribbble.com/userupload/48388272/file/90a0cbcfbec9171fde4ac73e45f3b830.jpg",
-  "featured_image_alt": "NEET PG 2026 Registration",
-  "author": {
-    "name": "Believers Team",
-    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
-    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
-  },
-  "category": {
-    "name": "NEET PG",
-    "slug": "neet-pg",
-    "color": "bg-blue-100 text-blue-800"
-  },
-  "tags": [
-    "NEET PG",
-    "NEET PG 2026",
-    "NEET PG Registration",
-    "NEET PG Application Form",
-    "Medical Entrance Exam"
-  ],
-  "published_date": "2026-07-15",
-  "read_time": 10,
-  "meta_title": "NEET PG 2026 Registration: How to Fill the Correspondence Address Correctly and Avoid Test Centre Mistakes",
-  "meta_description": "Filling the NEET PG 2026 correspondence address correctly can help avoid test centre issues. Follow this simple guide to register accurately and confidently.",
-  "keywords": [
-    "neet pg registration",
-    "neet pg 2026",
-    "neet pg",
-    "neet pg 2026 registration",
-    "neet pg application form",
-    "neet pg 2026 application form",
-    "neet pg 2026 application"
-  ],
-  "sections": [
-    {
-      "id": "intro-para1",
-      "type": "paragraph",
-      "content": "NEET PG 2026 registration changed something major that's confusing a lot of candidates. The correspondence address."
-    },
-    {
-      "id": "intro-para2",
-      "type": "paragraph",
-      "content": "Used to be: register early, get the center you want. Not anymore. System's completely different."
-    },
-    {
-      "id": "intro-conclusion",
-      "type": "paragraph",
-      "content": "Your correspondence address is now critical for test center allocation. Get it wrong and you might end up somewhere inconvenient. Here's what you actually need to know before you submit."
-    },
-    {
-      "id": "not-first-come",
-      "type": "heading",
-      "title": "Test Centers Aren't First-Come, First-Served Anymore",
-      "level": 2
-    },
-    {
-      "id": "not-first-come-para1",
-      "type": "paragraph",
-      "content": "This is the biggest change. Registering on day one? Doesn't matter. Registering on the last day? Doesn't matter either."
-    },
-    {
-      "id": "not-first-come-conclusion",
-      "type": "paragraph",
-      "content": "When you register has zero impact on your test center allocation now. So stop rushing. Focus on getting the details right instead."
-    },
-    {
-      "id": "how-selection-works",
-      "type": "heading",
-      "title": "How Test Center Selection Works Now",
-      "level": 2
-    },
-    {
-      "id": "how-selection-para1",
-      "type": "paragraph",
-      "content": "Old system: you picked specific cities. New system: you pick states only."
-    },
-    {
-      "id": "how-selection-para2",
-      "type": "paragraph",
-      "content": "You'll choose:"
-    },
-    {
-      "id": "how-selection-list",
-      "type": "list",
-      "items": [
-        "State Preference 1",
-        "State Preference 2",
-        "State Preference 3"
-      ]
-    },
-    {
-      "id": "how-selection-conclusion",
-      "type": "paragraph",
-      "content": "That's it. No picking individual cities. Which is why your correspondence address matters way more now."
-    },
-    {
-      "id": "why-address-matters",
-      "type": "heading",
-      "title": "Why Your Correspondence Address Actually Matters",
-      "level": 2
-    },
-    {
-      "id": "why-address-para1",
-      "type": "paragraph",
-      "content": "Your first state preference links directly to the state in your correspondence address. Basically, the address you put down should match where you're actually planning to be during the exam."
-    },
-    {
-      "id": "why-address-para2",
-      "type": "paragraph",
-      "content": "Real examples:"
-    },
-    {
-      "id": "why-address-list",
-      "type": "list",
-      "items": [
-        "You're doing coaching in another state? Use that address if that's where you'll be.",
-        "Staying with relatives somewhere else before the exam? Put their address.",
-        "Right address means you're more likely to get a test center nearby."
-      ]
-    },
-    {
-      "id": "pin-code",
-      "type": "heading",
-      "title": "Don't Mess Up Your PIN Code",
-      "level": 2
-    },
-    {
-      "id": "pin-code-para1",
-      "type": "paragraph",
-      "content": "This matters more than people realize. One wrong digit in your PIN code changes your entire location. Test centers are based on your correspondence address plus PIN code. Get it wrong and you end up somewhere inconvenient."
-    },
-    {
-      "id": "pin-code-para2",
-      "type": "paragraph",
-      "content": "Before you submit:"
-    },
-    {
-      "id": "pin-code-list",
-      "type": "list",
-      "items": [
-        "Check every single digit of the PIN code",
-        "Verify the locality and state match",
-        "Make sure the address is where you'll actually be"
-      ]
-    },
-    {
-      "id": "pin-code-conclusion",
-      "type": "paragraph",
-      "content": "One small mistake creates real problems."
-    },
-    {
-      "id": "state-preferences",
-      "type": "heading",
-      "title": "Picking Your State Preferences",
-      "level": 2
-    },
-    {
-      "id": "state-preferences-para1",
-      "type": "paragraph",
-      "content": "After your first state, you need two more. Think practically. Pick nearby states that make travel sense."
-    },
-    {
-      "id": "state-preferences-para2",
-      "type": "paragraph",
-      "content": "Examples:"
-    },
-    {
-      "id": "state-preferences-list",
-      "type": "list",
-      "items": [
-        "First preference Kerala? Pick Tamil Nadu or Karnataka. They're close by.",
-        "Same logic everywhere. Choose states that are actually reachable."
-      ]
-    },
-    {
-      "id": "state-preferences-conclusion",
-      "type": "paragraph",
-      "content": "If your first choice doesn't work out, you've still got somewhere accessible."
-    },
-    {
-      "id": "documents-ready",
-      "type": "heading",
-      "title": "Have Documents Ready",
-      "level": 2
-    },
-    {
-      "id": "documents-para1",
-      "type": "paragraph",
-      "content": "Get proof of your correspondence address before you register. A document that matches that address."
-    },
-    {
-      "id": "documents-para2",
-      "type": "paragraph",
-      "content": "Before you finish your application:"
-    },
-    {
-      "id": "documents-list",
-      "type": "list",
-      "items": [
-        "Your address is accurate",
-        "PIN code is correct",
-        "You have documents supporting that address"
-      ]
-    },
-    {
-      "id": "documents-conclusion",
-      "type": "paragraph",
-      "content": "Keeps problems from popping up later."
-    },
-    {
-      "id": "cannot-change",
-      "type": "heading",
-      "title": "You Can't Change This Afterward",
-      "level": 2
-    },
-    {
-      "id": "cannot-change-para1",
-      "type": "paragraph",
-      "content": "This is important. Your correspondence address can't be edited during the edit window. Some details you can fix later. Not this one."
-    },
-    {
-      "id": "cannot-change-conclusion",
-      "type": "paragraph",
-      "content": "Everything matters here. Address, state, PIN code. Verify it all before you submit. Don't assume you'll fix it later. You absolutely cannot."
-    },
-    {
-      "id": "checklist",
-      "type": "heading",
-      "title": "Checklist Before You Submit",
-      "level": 2
-    },
-    {
-      "id": "checklist-para1",
-      "type": "paragraph",
-      "content": "Before you click submit:"
-    },
-    {
-      "id": "checklist-list",
-      "type": "list",
-      "items": [
-        "Pick the state where you'll actually take the exam",
-        "Your correspondence address is completely correct",
-        "Every digit of the PIN code is right",
-        "Your second and third state preferences make sense",
-        "You have proof of your address",
-        "You've reviewed everything because you can't change it later"
-      ]
-    },
-    {
-      "id": "final-thoughts",
-      "type": "heading",
-      "title": "Final Thoughts",
-      "level": 2
-    },
-    {
-      "id": "final-thoughts-para1",
-      "type": "paragraph",
-      "content": "The correspondence address isn't just another form field anymore. New system means it actually matters."
-    },
-    {
-      "id": "final-thoughts-conclusion",
-      "type": "paragraph",
-      "content": "Take an extra few minutes. Verify everything carefully. Get the address and PIN code right. This keeps you from getting stuck with a test center nowhere near where you'll be."
-    },
-    {
-      "id": "faqs",
-      "type": "heading",
-      "title": "FAQs",
-      "level": 2
-    },
-    {
-      "id": "faqs-list",
-      "type": "faq",
-      "faqs": [
-        {
-          "question": "Is NEET PG 2026 test centre allotment first come, first served?",
-          "answer": "No. When you register doesn't affect anything anymore."
-        },
-        {
-          "question": "Can I choose my exam city?",
-          "answer": "No. You pick three states. That's all you get."
-        },
-        {
-          "question": "Why is the correspondence address important?",
-          "answer": "It determines what test center you get."
-        },
-        {
-          "question": "Can I edit my correspondence address later?",
-          "answer": "Nope. Can't change it during the edit window."
-        },
-        {
-          "question": "Should I verify my PIN code before submitting?",
-          "answer": "Yeah. One wrong digit messes up your test center allocation."
-        }
-      ]
-    },
-    {
-      "id": "keywords",
-      "type": "keywords",
-      "title": "Related Keywords",
-      "keywords": [
-        "neet pg registration",
-        "neet pg 2026",
-        "neet pg",
-        "neet pg 2026 registration",
-        "neet pg application form",
-        "neet pg 2026 application form",
-        "neet pg 2026 application"
-      ]
-    }
-  ]
-}
 ];
 
 // Helper function to get blog by slug
