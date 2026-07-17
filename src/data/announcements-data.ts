@@ -1457,7 +1457,8 @@ export const ANNOUNCEMENTS: Announcement[] = [
   },
   {
     id: 110,
-    title: "Supreme Court Issues Notice in PIL Challenging Reduced NEET-PG 2025 Cut-Off; Hearing on Feb 6",
+    title:
+      "Supreme Court Issues Notice in PIL Challenging Reduced NEET-PG 2025 Cut-Off; Hearing on Feb 6",
     content:
       "Supreme Court Issues Notice in PIL Challenging Reduced NEET-PG 2025 Cut-Off; Hearing on Feb 6",
     date: "2026-02-04T08:00:00Z",
@@ -1496,7 +1497,8 @@ export const ANNOUNCEMENTS: Announcement[] = [
   },
   {
     id: 113,
-    title: "INI-CET January 2026 Open Round Seat Allocation Result Released for MD/MS/MCh/DM Courses",
+    title:
+      "INI-CET January 2026 Open Round Seat Allocation Result Released for MD/MS/MCh/DM Courses",
     content:
       "INI-CET January 2026 Open Round Seat Allocation Result Released for MD/MS/MCh/DM Courses",
     date: "2026-02-21T08:00:00Z",
@@ -1504,12 +1506,14 @@ export const ANNOUNCEMENTS: Announcement[] = [
     category: "INI CET",
     link: "https://believersdestination1-my.sharepoint.com/:b:/g/personal/ishita_agarwal_believersdestination_com/IQDbQbLfJ6T9RLJOiJZ8Ul7fAfmFFauRyJbNF_wGLZsEdPI?e=LJES9c",
     is_active: true,
-    source: "All India Institute of Medical Sciences (AIIMS), Examination Section",
+    source:
+      "All India Institute of Medical Sciences (AIIMS), Examination Section",
     created_at: "2026-02-21T08:00:00Z",
   },
   {
     id: 114,
-    title: "NEET PG 2025 Provisional Stray Vacancy Round Seat Allotment Released; Quota & Category Details Notified",
+    title:
+      "NEET PG 2025 Provisional Stray Vacancy Round Seat Allotment Released; Quota & Category Details Notified",
     content:
       "NEET PG 2025 Provisional Stray Vacancy Round Seat Allotment Released; Quota & Category Details Notified",
     date: "2026-02-21T08:00:00Z",
@@ -1522,7 +1526,8 @@ export const ANNOUNCEMENTS: Announcement[] = [
   },
   {
     id: 115,
-    title: "MCC Withdraws Select PG Counselling Seats Ahead of Stray Vacancy Round",
+    title:
+      "MCC Withdraws Select PG Counselling Seats Ahead of Stray Vacancy Round",
     content:
       "MCC Withdraws Select PG Counselling Seats Ahead of Stray Vacancy Round: What NEET PG Aspirants Should Know 23 Feb 2026",
     date: "2026-02-23T08:00:00Z",
@@ -1611,7 +1616,7 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "National Testing Agency (NTA)",
     created_at: "2026-06-19T08:00:00Z",
   },
-   {
+  {
     id: 122,
     title: "NMC to Phase Out PG Diploma Courses After 2026-27",
     content:
@@ -1650,7 +1655,7 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "NAT Board",
     created_at: "2026-07-07",
   },
-    {
+  {
     id: 125,
     title: "NEET UG 2026",
     content:
@@ -1662,6 +1667,19 @@ export const ANNOUNCEMENTS: Announcement[] = [
     is_active: true,
     source: "National Testing Agency (NTA)",
     created_at: "2026-07-14",
+  },
+  {
+    id: 126,
+    title: "NEET UG 2026",
+    content:
+      "NEET UG 2026 Re-Exam Results Declared: More Than 11.21 Lakh Candidates Qualify",
+    date: "2026-07-17",
+    priority: "high",
+    category: "NEET UG",
+    link: "https://neet.nta.nic.in/",
+    is_active: true,
+    source: "NATIONAL ELIGIBILITY CUM ENTRANCE TEST",
+    created_at: "2026-07-17",
   },
 ];
 
