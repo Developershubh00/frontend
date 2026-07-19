@@ -1681,6 +1681,19 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "NATIONAL ELIGIBILITY CUM ENTRANCE TEST",
     created_at: "2026-07-17",
   },
+  {
+    id: 127,
+    title: "NEET UG 2026",
+    content:
+      "NEET UG 2026: NTA Flags AI-Generated OMR Sheets, Issues Warning to Candidates",
+    date: "2026-07-19",
+    priority: "high",
+    category: "NEET UG",
+    link: "https://timesofindia.indiatimes.com/education/news/neet-ug-2026-omr-row-deepens-as-nta-flags-ai-generated-sheets-candidates-raise-fresh-claims/articleshow/132489318.cms",
+    is_active: true,
+    source: "The Times of India",
+    created_at: "2026-07-19",
+  },
 ];
 
 /**
