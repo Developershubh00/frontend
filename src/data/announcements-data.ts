@@ -1694,6 +1694,19 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "The Times of India",
     created_at: "2026-07-19",
   },
+  {
+    id: 128,
+    title: "NEET PG 2026",
+    content:
+      "NEET PG 2026 Registration Closes Today: Candidates Must Complete NBEMS Application Before Deadline",
+    date: "2026-07-21",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://www.jagranjosh.com/news/neet-pg-2026-registration-last-date-submit-applications-at-natboard-edu-in-185780",
+    is_active: true,
+    source: "Jagran Josh",
+    created_at: "2026-07-21",
+  },
 ];
 
 /**
