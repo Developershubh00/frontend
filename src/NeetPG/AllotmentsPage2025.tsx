@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useMemo } from "react";
+import { ENV } from "../config";
 import {
   ArrowLeft,
   Search,
@@ -50,6 +51,7 @@ const AllotmentsPage2025: React.FC<AllotmentsPage2025Props> = ({ onBack }) => {
   const [data, setData] = useState<AllotmentData[]>([]);
   const [loading, setLoading] = useState(true);
   const [dataError, setDataError] = useState(false);
+  const [apiError, setApiError] = useState<string | null>(null);
 
   // Filters
   const [searchTerm, setSearchTerm] = useState("");
@@ -111,75 +113,79 @@ const AllotmentsPage2025: React.FC<AllotmentsPage2025Props> = ({ onBack }) => {
       ),
     );
 
-  // ─── CSV Parser ────────────────────────────────────────────────────────────
-  const parseCSV = (text: string): AllotmentData[] => {
-    if (text.includes("<html") || text.includes("<!DOCTYPE"))
-      throw new Error("HTML received");
-    const lines = text
-      .trim()
-      .split(/\r?\n/)
-      .filter((l) => l.trim());
-    if (lines.length < 2) throw new Error("No data rows");
-
-    return lines.slice(1).map((line) => {
-      const vals: string[] = [];
-      let cur = "";
-      let inQ = false;
-      for (const ch of line) {
-        if (ch === '"') {
-          inQ = !inQ;
-        } else if (ch === "," && !inQ) {
-          vals.push(cur.trim());
-          cur = "";
-        } else cur += ch;
-      }
-      vals.push(cur.trim());
-      const v = vals.map((x) => x.replace(/^"(.*)"$/, "$1").trim());
-      const num = (s: string) => {
-        const n = parseFloat(s.replace(/[^0-9.-]/g, ""));
-        return isNaN(n) ? 0 : n;
-      };
-
-      return {
-        Round: parseInt(v[0].replace(/\D/g, "")) || 0,
-        ai_rank: v[1] || "0",
-        State: v[2] || "",
-        Institute: v[3] || "",
-        Course: v[4] || "",
-        Quota: v[5] || "",
-        Category: v[6] || "",
-        Fee: v[7] ? `₹${v[7]}` : "₹0",
-        Stipend_Year_1: v[8] ? `₹${v[8]}` : "₹0",
-        Bond_Years: num(v[9]),
-        Bond_Penalty: v[10] ? `₹${v[10]}` : "₹0",
-        Beds: parseInt(v[11]) || 0,
-      };
-    });
-  };
-
-  // ─── Fetch CSV ──────────────────────────────────────────────────────────────
+  // ─── Fetch PG allotment data from backend API ────────────────────────────
   useEffect(() => {
-    setLoading(true);
-    fetch("/data/allotments2025.csv")
-      .then((r) => {
-        if (!r.ok) throw new Error(`HTTP ${r.status}`);
-        return r.text();
-      })
-      .then((t) => {
-        const parsed = parseCSV(t);
-        // Debug: log unique Round values to console
-        const roundValues = [...new Set(parsed.map((d) => d.Round))].sort();
-        console.log("✅ CSV loaded:", parsed.length, "rows");
-        console.log("📋 Unique Round values found:", roundValues);
-        console.log("🔍 Sample row[0]:", parsed[0]);
+    const apiBaseUrl = ENV.VITE_API_URL.replace(/\/$/, "");
+    const isLocalhost =
+      typeof window !== "undefined" &&
+      ["localhost", "127.0.0.1", "0.0.0.0"].includes(window.location.hostname);
+    const apiUrl = apiBaseUrl.endsWith("/api")
+      ? `${apiBaseUrl}/neet-pg-allotments/`
+      : `${apiBaseUrl}/api/neet-pg-allotments/`;
+    const fallbackUrl = "http://127.0.0.1:8000/api/neet-pg-allotments/";
+
+    const fetchData = async (url: string) => {
+      const response = await fetch(url);
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status} ${response.statusText}`);
+      }
+      return response.json();
+    };
+
+    const parsePayload = (payload: unknown) => {
+      const rows = Array.isArray(payload)
+        ? payload
+        : ((payload as any)?.results ?? []);
+      return (rows as Record<string, unknown>[]).map((item) => ({
+        Round: Number(item.Round ?? item.round ?? 0),
+        ai_rank: String(item.ai_rank ?? item.aiRank ?? "0"),
+        State: String(item.State ?? item.state ?? ""),
+        Institute: String(item.Institute ?? item.institute ?? ""),
+        Course: String(item.Course ?? item.course ?? ""),
+        Quota: String(item.Quota ?? item.quota ?? ""),
+        Category: String(item.Category ?? item.category ?? ""),
+        Fee: String(item.Fee ?? item.fee ?? "₹0"),
+        Stipend_Year_1: String(
+          item.Stipend_Year_1 ?? item.stipend_year1 ?? "₹0",
+        ),
+        Bond_Years: Number(item.Bond_Years ?? item.bond_years ?? 0),
+        Bond_Penalty: String(item.Bond_Penalty ?? item.bond_penalty ?? "₹0"),
+        Beds: Number(item.Beds ?? item.beds ?? 0),
+      }));
+    };
+
+    const loadAllotments = async () => {
+      setLoading(true);
+      setApiError(null);
+      try {
+        const payload = await fetchData(apiUrl);
+        const parsed = parsePayload(payload);
         setData(parsed);
         setDataError(false);
-      })
-      .catch(() => {
+      } catch (primaryError: any) {
+        console.error("Primary NEET PG fetch failed:", primaryError);
+        if (isLocalhost && apiUrl !== fallbackUrl) {
+          try {
+            const payload = await fetchData(fallbackUrl);
+            const parsed = parsePayload(payload);
+            setData(parsed);
+            setDataError(false);
+            return;
+          } catch (fallbackError: any) {
+            console.error("Fallback NEET PG fetch failed:", fallbackError);
+            setApiError(String(fallbackError.message ?? fallbackError));
+          }
+        } else {
+          setApiError(String(primaryError.message ?? primaryError));
+        }
         setDataError(true);
         setData([]);
-      })
-      .finally(() => setLoading(false));
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    loadAllotments();
   }, []);
 
   // ─── Derived filter options (from full dataset) ─────────────────────────────
@@ -409,8 +415,15 @@ const AllotmentsPage2025: React.FC<AllotmentsPage2025Props> = ({ onBack }) => {
         {/* ── Error banner ── */}
         {dataError && (
           <div className="bg-amber-50 border-b border-amber-200 px-4 py-2 text-xs text-amber-700 text-center">
-            ⚠️ 2025 data not yet available. Add{" "}
-            <code>/public/data/allotments2025.csv</code> to enable this page.
+            ⚠️ Unable to load NEET PG allotment data.
+            {apiError ? (
+              <span> {apiError}</span>
+            ) : (
+              <span>
+                Add <code>/public/data/allotments2025.csv</code> to enable this
+                page.
+              </span>
+            )}
           </div>
         )}
 
