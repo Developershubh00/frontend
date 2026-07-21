@@ -73,7 +73,8 @@ const MainContent: React.FC<MainContentProps> = ({
     setYearModal({ open: false, cardId: "", cardTitle: "" });
 
     if (year === "2025") {
-      if (cardId === "allotments") window.location.href = "/allotments2025";
+      if (cardId === "allotments")
+        window.location.href = "/neet-pg-allotment-2025";
       if (cardId === "closing-ranks")
         window.location.href = "/closingranks2025";
       if (cardId === "seat-matrix") window.location.href = "/seatmatrix2025";
