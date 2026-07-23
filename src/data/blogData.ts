@@ -75964,336 +75964,740 @@ export const blogPosts: BlogPost[] = [
     ],
   },
   {
-  "id": 183,
-  "title": "Feeling Stuck During NEET PG Preparation? Here's What You Need to Remember",
-  "slug": "feeling-stuck-during-neet-pg-preparation-what-you-need-to-remember",
-  "excerpt": "Feeling stuck during NEET PG preparation? Discover practical tips to overcome burnout, regain focus, stay motivated, and keep your preparation on track.",
-  "featured_image": "https://cdn.dribbble.com/userupload/48434964/file/69adb66f472be4ccc7840604c16e3d2b.jpg",
-  "featured_image_alt": "neet pg preparation stuck motivated",
-  "author": {
-    "name": "Believers Team",
-    "avatar": "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
-    "bio": "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions."
+    id: 183,
+    title:
+      "Feeling Stuck During NEET PG Preparation? Here's What You Need to Remember",
+    slug: "feeling-stuck-during-neet-pg-preparation-what-you-need-to-remember",
+    excerpt:
+      "Feeling stuck during NEET PG preparation? Discover practical tips to overcome burnout, regain focus, stay motivated, and keep your preparation on track.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/48434964/file/69adb66f472be4ccc7840604c16e3d2b.jpg",
+    featured_image_alt: "neet pg preparation stuck motivated",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+    },
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
+    },
+    tags: ["NEET PG", "NEET PG 2026", "NEET PG Preparation", "INI CET", "FMGE"],
+    published_date: "2026-07-20",
+    read_time: 10,
+    meta_title:
+      "Feeling Stuck During NEET PG Preparation? Here's What You Need to Remember",
+    meta_description:
+      "Feeling stuck during NEET PG preparation? Discover practical tips to overcome burnout, regain focus, stay motivated, and keep your preparation on track.",
+    keywords: [
+      "neet pg preparation",
+      "neet pg",
+      "neet pg 2026",
+      "neet pg exam",
+      "medical entrance exam",
+      "ini cet",
+      "fmge",
+      "neet pg preparation online",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content: "Medical entrance exam prep messes with your head.",
+      },
+      {
+        id: "intro-para2",
+        type: "paragraph",
+        content:
+          "You're on social media and someone's already done three revisions. A friend says they've solved 20,000 MCQs. Another person posts a mock score that seems impossible.",
+      },
+      {
+        id: "intro-para3",
+        type: "paragraph",
+        content:
+          "Suddenly you're not focused on your own prep. You're wondering if you've already lost.",
+      },
+      {
+        id: "intro-para4",
+        type: "paragraph",
+        content:
+          "Here's the reality: Almost every aspirant feels this way at some point. And most of the time? They're doing way better than they think.",
+      },
+      {
+        id: "intro-conclusion",
+        type: "paragraph",
+        content:
+          "If you're prepping for NEET PG, INI-CET, or FMGE, here's why feeling behind doesn't mean you actually are.",
+      },
+      {
+        id: "wins-not-struggles",
+        type: "heading",
+        title: "Everyone Shows Their Wins, Not Their Struggles",
+        level: 2,
+      },
+      {
+        id: "wins-para1",
+        type: "paragraph",
+        content:
+          "Students post achievements. Good Grand Test scores. Completed revisions. Study hour screenshots.",
+      },
+      {
+        id: "wins-para2",
+        type: "paragraph",
+        content: "What they don't post:",
+      },
+      {
+        id: "wins-list",
+        type: "list",
+        items: [
+          "Mocks that went terrible",
+          "Chapters they haven't started",
+          "Days they didn't study",
+          "Topics they keep forgetting",
+        ],
+      },
+      {
+        id: "wins-conclusion",
+        type: "paragraph",
+        content:
+          "You're comparing your entire journey with someone else's highlight reel. That creates fake pressure. You're only seeing a fraction of their actual prep.",
+      },
+      {
+        id: "doesnt-have-to-match",
+        type: "heading",
+        title: "Your Prep Doesn't Have to Match Someone Else's",
+        level: 2,
+      },
+      {
+        id: "match-para1",
+        type: "paragraph",
+        content:
+          "Some people study six hours. Others manage ten. Some prep during internship. Others balance residency, work, or family stuff.",
+      },
+      {
+        id: "match-para2",
+        type: "paragraph",
+        content: "Different schedules don't mean different commitment.",
+      },
+      {
+        id: "match-conclusion",
+        type: "paragraph",
+        content:
+          "The best prep is one you can actually stick to. Not the one that looks most impressive on Instagram.",
+      },
+      {
+        id: "progress-sneaks",
+        type: "heading",
+        title: "Progress Sneaks Up on You",
+        level: 2,
+      },
+      {
+        id: "progress-para1",
+        type: "paragraph",
+        content:
+          "This part sucks about medical prep. Improvement feels invisible. For weeks you think you're forgetting everything. Then suddenly:",
+      },
+      {
+        id: "progress-list",
+        type: "list",
+        items: [
+          "MCQs feel easier",
+          "Clinical cases make sense",
+          "You're faster at solving",
+          "Grand Test scores jump up",
+        ],
+      },
+      {
+        id: "progress-conclusion",
+        type: "paragraph",
+        content:
+          "Learning happens slowly. Small gains pile up before you notice them.",
+      },
+      {
+        id: "revising-beats-new",
+        type: "heading",
+        title: "Revising What You Know Beats Starting New Topics",
+        level: 2,
+      },
+      {
+        id: "revising-para1",
+        type: "paragraph",
+        content:
+          "Lots of aspirants panic because they haven't finished every subject. Instead of solidifying what they know, they jump to new topics. Result? Tons of reading. Almost no retention.",
+      },
+      {
+        id: "revising-conclusion",
+        type: "paragraph",
+        content:
+          "Someone who actually understands Medicine, Pharmacology, and Pathology will score higher than someone who rushed through everything once. Going deep matters more than covering everything.",
+      },
+      {
+        id: "mock-scores",
+        type: "heading",
+        title: "Mock Test Scores Aren't Your Final Rank",
+        level: 2,
+      },
+      {
+        id: "mock-para1",
+        type: "paragraph",
+        content:
+          "A bad Grand Test score hurts. But these aren't predictions. They're roadmaps for what needs work.",
+      },
+      {
+        id: "mock-para2",
+        type: "paragraph",
+        content: "Use them to figure out:",
+      },
+      {
+        id: "mock-list",
+        type: "list",
+        items: [
+          "Which subjects need more revision",
+          "Where you make stupid mistakes",
+          "If time management is broken",
+        ],
+      },
+      {
+        id: "mock-conclusion",
+        type: "paragraph",
+        content:
+          "Most students improve significantly in the final weeks because they actually learn from mocks.",
+      },
+      {
+        id: "panic-studying",
+        type: "heading",
+        title: "Panic Studying Doesn't Work",
+        level: 2,
+      },
+      {
+        id: "panic-para1",
+        type: "paragraph",
+        content:
+          "When aspirants feel behind, they start studying 14-15 hours a day. Lasts three days. Then exhaustion hits.",
+      },
+      {
+        id: "panic-para2",
+        type: "paragraph",
+        content: "Instead focus on:",
+      },
+      {
+        id: "panic-list",
+        type: "list",
+        items: [
+          "Today's study plan",
+          "Yesterday's topics",
+          "Daily MCQ targets",
+          "Learning from tests",
+        ],
+      },
+      {
+        id: "panic-conclusion",
+        type: "paragraph",
+        content: "Small steady progress beats trying to do everything at once.",
+      },
+      {
+        id: "stop-comparing",
+        type: "heading",
+        title: "Stop Comparing Your Timeline with Someone Else's",
+        level: 2,
+      },
+      {
+        id: "comparing-para1",
+        type: "paragraph",
+        content:
+          "Every aspirant starts differently. Some have strong basics. Some prepped after the internship. Some are balancing hospital shifts. Some are taking the exam for the second or third time.",
+      },
+      {
+        id: "comparing-conclusion",
+        type: "paragraph",
+        content:
+          "Measure yourself against where you were last month. Not where someone else is today. That's the only comparison that matters.",
+      },
+      {
+        id: "keep-it-simple",
+        type: "heading",
+        title: "When You Feel Overwhelmed, Keep It Simple",
+        level: 2,
+      },
+      {
+        id: "simple-para1",
+        type: "paragraph",
+        content: "Ask yourself:",
+      },
+      {
+        id: "simple-list",
+        type: "list",
+        items: [
+          "Did I study today?",
+          "Did I revise something I learned before?",
+          "Did I solve MCQs?",
+          "Did I understand at least one concept better than yesterday?",
+        ],
+      },
+      {
+        id: "simple-conclusion",
+        type: "paragraph",
+        content:
+          "Answer yes to any of those? You're moving forward. That's progress.",
+      },
+      {
+        id: "final-thoughts",
+        type: "heading",
+        title: "Final Thoughts",
+        level: 2,
+      },
+      {
+        id: "final-thoughts-para1",
+        type: "paragraph",
+        content:
+          "NEET PG, INI-CET, FMGE prep isn't about keeping pace with everyone else. It's about steadily getting better at your own knowledge, confidence, exam skills.",
+      },
+      {
+        id: "final-thoughts-para2",
+        type: "paragraph",
+        content:
+          "Feeling behind happens. Especially when you're around other ambitious people. But feelings lie sometimes.",
+      },
+      {
+        id: "final-thoughts-conclusion",
+        type: "paragraph",
+        content:
+          "Stay consistent. Keep revising. Trust what you're building. Your rank won't depend on who seemed ahead during prep. It'll depend on what you actually know on exam day.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "Is it normal to feel behind during NEET PG preparation?",
+            answer:
+              "Yes, there are so many aspirants who have experienced this.",
+          },
+          {
+            question: "Should I compare my preparation with others?",
+            answer: "No, you need to focus only on your own progress.",
+          },
+          {
+            question: "Do mock test scores define my final rank?",
+            answer: "No, they help to identify your core improvement areas.",
+          },
+          {
+            question: "Is revision more important than covering new topics?",
+            answer: "Yes, having a strong revision improves retention.",
+          },
+          {
+            question: "How can I stay motivated during preparation?",
+            answer:
+              "Stay consistent and track your daily progress for better understanding.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "neet pg preparation",
+          "neet pg",
+          "neet pg 2026",
+          "neet pg exam",
+          "medical entrance exam",
+          "ini cet",
+          "fmge",
+          "neet pg preparation online",
+        ],
+      },
+    ],
   },
-  "category": {
-    "name": "NEET PG",
-    "slug": "neet-pg",
-    "color": "bg-blue-100 text-blue-800"
+  {
+    id: 184,
+    title:
+      "The Final Month Before NEET PG: Focus on Confidence, Not Perfection",
+    slug: "final-month-before-neet-pg-focus-confidence-not-perfection",
+    excerpt:
+      "The final month before NEET PG is about smart revision, confidence, and consistency. Avoid perfectionism, strengthen weak areas, and stay exam-ready.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/48469852/file/a2595a4200748f2c2e522398a916dbcb.jpg",
+    featured_image_alt: "neet pg final month preparation confidence",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+    },
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
+    },
+    tags: [
+      "NEET PG",
+      "NEET PG Preparation",
+      "INI CET",
+      "FMGE",
+      "Exam Preparation",
+    ],
+    published_date: "2026-07-23",
+    read_time: 9,
+    meta_title:
+      "The Final Month Before NEET PG: Focus on Confidence, Not Perfection",
+    meta_description:
+      "The final month before NEET PG is about smart revision, confidence, and consistency. Avoid perfectionism, strengthen weak areas, and stay exam-ready.",
+    keywords: [
+      "neet pg",
+      "neet pg exam",
+      "neet pg preparation",
+      "neet pg exam preparation",
+      "fmge",
+      "inicet",
+      "neet pg preparation strategy",
+      "medical entrance exam",
+      "exam preparation",
+      "preparation strategy",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content:
+          "As NEET PG, INI-CET, or FMGE gets closer, your brain does something weird.",
+      },
+      {
+        id: "intro-para2",
+        type: "paragraph",
+        content:
+          "You stop thinking about what you know. You start obsessing over everything you don't. Unfinished subjects feel massive. Every mock score feels like a verdict. Other people's prep talks stress you out.",
+      },
+      {
+        id: "intro-para3",
+        type: "paragraph",
+        content: "The final month doesn't have to be like this.",
+      },
+      {
+        id: "intro-conclusion",
+        type: "paragraph",
+        content:
+          "Right now your goal isn't perfection. It's walking into that exam with confidence in what you've already done.",
+      },
+      {
+        id: "dont-need-everything",
+        type: "heading",
+        title: "You Don't Need to Know Everything",
+        level: 2,
+      },
+      {
+        id: "dont-need-para1",
+        type: "paragraph",
+        content:
+          "The syllabus is massive. Nineteen subjects. Thousands of topics. No one enters these exams knowing every single fact. Even top rankers skip some topics or don't prepare them thoroughly.",
+      },
+      {
+        id: "dont-need-conclusion",
+        type: "paragraph",
+        content:
+          "The difference? They don't spend the last month stressing about what they missed. They build on what they know. Confidence comes from solidifying your strengths. Not chasing every remaining chapter.",
+      },
+      {
+        id: "revision-matters",
+        type: "heading",
+        title: "Revision Matters Way More Than New Learning",
+        level: 2,
+      },
+      {
+        id: "revision-para1",
+        type: "paragraph",
+        content:
+          "The final month isn't for starting new resources or completely changing your study plan.",
+      },
+      {
+        id: "revision-para2",
+        type: "paragraph",
+        content: "Focus on:",
+      },
+      {
+        id: "revision-list",
+        type: "list",
+        items: [
+          "Revising your notes",
+          "Going through questions you marked before",
+          "Solving high-yield MCQs",
+          "Previous years' questions",
+          "Strengthening topics you know but forgot",
+        ],
+      },
+      {
+        id: "revision-conclusion",
+        type: "paragraph",
+        content:
+          "Each revision makes your recall faster. That matters way more than reading something for the first time.",
+      },
+      {
+        id: "trust-what-built",
+        type: "heading",
+        title: "Trust What You've Already Built",
+        level: 2,
+      },
+      {
+        id: "trust-para1",
+        type: "paragraph",
+        content:
+          "Lots of aspirants panic thinking others are studying more. So they switch books. Change their schedule. Try new resources. This usually just creates confusion.",
+      },
+      {
+        id: "trust-conclusion",
+        type: "paragraph",
+        content:
+          "If you've prepped for months, trust that work. The final month is about refining. Not rebuilding.",
+      },
+      {
+        id: "grand-tests",
+        type: "heading",
+        title: "Grand Tests Are Feedback, Not Predictions",
+        level: 2,
+      },
+      {
+        id: "grand-tests-para1",
+        type: "paragraph",
+        content:
+          "A bad mock score close to the exam sucks. But that's not what mocks are for.",
+      },
+      {
+        id: "grand-tests-para2",
+        type: "paragraph",
+        content: "They show you:",
+      },
+      {
+        id: "grand-tests-list",
+        type: "list",
+        items: [
+          "Mistakes you keep making",
+          "Time management issues",
+          "Frequently tested topics",
+          "How you handle pressure",
+        ],
+      },
+      {
+        id: "grand-tests-conclusion",
+        type: "paragraph",
+        content: "Use them as feedback. Not as doom.",
+      },
+      {
+        id: "confidence-from-knowing",
+        type: "heading",
+        title: "Confidence Comes From Knowing Your Stuff",
+        level: 2,
+      },
+      {
+        id: "confidence-para1",
+        type: "paragraph",
+        content:
+          "When you revise concepts repeatedly, your brain recognizes them faster. Clinical cases get easier to read. You second-guess yourself less. Simple questions take less time.",
+      },
+      {
+        id: "confidence-conclusion",
+        type: "paragraph",
+        content:
+          "This familiarity builds confidence. That's why revisiting the same material beats rushing through new topics.",
+      },
+      {
+        id: "stop-perfection",
+        type: "heading",
+        title: "Stop Chasing Perfection",
+        level: 2,
+      },
+      {
+        id: "perfection-para1",
+        type: "paragraph",
+        content:
+          "The final month creates ridiculous expectations. You think you should:",
+      },
+      {
+        id: "perfection-list",
+        type: "list",
+        items: [
+          "Finish every subject",
+          "Solve every MCQ",
+          "Read every update",
+          "Remember every detail",
+        ],
+      },
+      {
+        id: "perfection-conclusion",
+        type: "paragraph",
+        content:
+          "None of that's realistic. Trying for perfection just increases stress. Aim to perform well with what you already know. That's enough.",
+      },
+      {
+        id: "mental-energy",
+        type: "heading",
+        title: "Protect Your Mental Energy",
+        level: 2,
+      },
+      {
+        id: "mental-energy-para1",
+        type: "paragraph",
+        content:
+          "Prep isn't just about studying. Staying calm affects your performance too.",
+      },
+      {
+        id: "mental-energy-para2",
+        type: "paragraph",
+        content: "During the final month:",
+      },
+      {
+        id: "mental-energy-list",
+        type: "list",
+        items: [
+          "Sleep properly",
+          "Take breaks",
+          "Don't compare yourself to others",
+          "Stay active",
+          "Avoid negative prep talk",
+        ],
+      },
+      {
+        id: "mental-energy-conclusion",
+        type: "paragraph",
+        content: "A clear brain remembers things better than a burned-out one.",
+      },
+      {
+        id: "simple-strategy",
+        type: "heading",
+        title: "Keep Your Strategy Simple",
+        level: 2,
+      },
+      {
+        id: "simple-strategy-para1",
+        type: "paragraph",
+        content: "Don't make major changes now. Just go with:",
+      },
+      {
+        id: "simple-strategy-list",
+        type: "list",
+        items: [
+          "Your already trusted materials",
+          "Regular revision routine",
+          "Daily MCQ practice",
+          "Reviewing your common or complex mistakes",
+        ],
+      },
+      {
+        id: "simple-strategy-conclusion",
+        type: "paragraph",
+        content: "Keep your routines simple to stay focused and reduce stress.",
+      },
+      {
+        id: "confidence-builds",
+        type: "heading",
+        title: "Confidence Builds Day By Day",
+        level: 2,
+      },
+      {
+        id: "confidence-builds-para1",
+        type: "paragraph",
+        content:
+          "It doesn't suddenly appear on exam mornings. It builds every time you:",
+      },
+      {
+        id: "confidence-builds-list",
+        type: "list",
+        items: [
+          "Complete your daily targets",
+          "Revise something difficult",
+          "Improve on a mock",
+          "Learn from a mistake instead of repeating it",
+        ],
+      },
+      {
+        id: "confidence-builds-conclusion",
+        type: "paragraph",
+        content: "Each productive day adds confidence.",
+      },
+      {
+        id: "final-thoughts",
+        type: "heading",
+        title: "Final Thoughts",
+        level: 2,
+      },
+      {
+        id: "final-thoughts-para1",
+        type: "paragraph",
+        content:
+          "The final month before NEET PG, INI-CET, or FMGE isn't about becoming perfect. It's about becoming confident.",
+      },
+      {
+        id: "final-thoughts-para2",
+        type: "paragraph",
+        content:
+          "You don't need to know everything. You need to remember what you studied. Trust your prep. Stay calm and focused.",
+      },
+      {
+        id: "final-thoughts-conclusion",
+        type: "paragraph",
+        content:
+          "Keep revising. Keep practicing. Stay consistent. On exam day, confidence not perfection is what helps you make the right calls under pressure.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "Should I start new topics in the last month?",
+            answer:
+              "No not at all. You just must revise what you know instead.",
+          },
+          {
+            question: "Are Grand Test scores your final rank?",
+            answer: "No. They're just important to improve your preparation.",
+          },
+          {
+            question: "Is revision more important than perfection?",
+            answer:
+              "Strong revision helps to build your confidence and yes, it is more important than perfection.",
+          },
+          {
+            question: "How do I stay confident before the exam?",
+            answer: "Just revise everything consistently. Trust your work.",
+          },
+          {
+            question: "What should I prioritize in the final month?",
+            answer: "Revision, MCQs, and keeping your mind calm.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "neet pg",
+          "neet pg exam",
+          "neet pg preparation",
+          "neet pg exam preparation",
+          "fmge",
+          "inicet",
+          "neet pg preparation strategy",
+          "medical entrance exam",
+          "exam preparation",
+          "preparation strategy",
+        ],
+      },
+    ],
   },
-  "tags": [
-    "NEET PG",
-    "NEET PG 2026",
-    "NEET PG Preparation",
-    "INI CET",
-    "FMGE"
-  ],
-  "published_date": "2026-07-20",
-  "read_time": 10,
-  "meta_title": "Feeling Stuck During NEET PG Preparation? Here's What You Need to Remember",
-  "meta_description": "Feeling stuck during NEET PG preparation? Discover practical tips to overcome burnout, regain focus, stay motivated, and keep your preparation on track.",
-  "keywords": [
-    "neet pg preparation",
-    "neet pg",
-    "neet pg 2026",
-    "neet pg exam",
-    "medical entrance exam",
-    "ini cet",
-    "fmge",
-    "neet pg preparation online"
-  ],
-  "sections": [
-    {
-      "id": "intro-para1",
-      "type": "paragraph",
-      "content": "Medical entrance exam prep messes with your head."
-    },
-    {
-      "id": "intro-para2",
-      "type": "paragraph",
-      "content": "You're on social media and someone's already done three revisions. A friend says they've solved 20,000 MCQs. Another person posts a mock score that seems impossible."
-    },
-    {
-      "id": "intro-para3",
-      "type": "paragraph",
-      "content": "Suddenly you're not focused on your own prep. You're wondering if you've already lost."
-    },
-    {
-      "id": "intro-para4",
-      "type": "paragraph",
-      "content": "Here's the reality: Almost every aspirant feels this way at some point. And most of the time? They're doing way better than they think."
-    },
-    {
-      "id": "intro-conclusion",
-      "type": "paragraph",
-      "content": "If you're prepping for NEET PG, INI-CET, or FMGE, here's why feeling behind doesn't mean you actually are."
-    },
-    {
-      "id": "wins-not-struggles",
-      "type": "heading",
-      "title": "Everyone Shows Their Wins, Not Their Struggles",
-      "level": 2
-    },
-    {
-      "id": "wins-para1",
-      "type": "paragraph",
-      "content": "Students post achievements. Good Grand Test scores. Completed revisions. Study hour screenshots."
-    },
-    {
-      "id": "wins-para2",
-      "type": "paragraph",
-      "content": "What they don't post:"
-    },
-    {
-      "id": "wins-list",
-      "type": "list",
-      "items": [
-        "Mocks that went terrible",
-        "Chapters they haven't started",
-        "Days they didn't study",
-        "Topics they keep forgetting"
-      ]
-    },
-    {
-      "id": "wins-conclusion",
-      "type": "paragraph",
-      "content": "You're comparing your entire journey with someone else's highlight reel. That creates fake pressure. You're only seeing a fraction of their actual prep."
-    },
-    {
-      "id": "doesnt-have-to-match",
-      "type": "heading",
-      "title": "Your Prep Doesn't Have to Match Someone Else's",
-      "level": 2
-    },
-    {
-      "id": "match-para1",
-      "type": "paragraph",
-      "content": "Some people study six hours. Others manage ten. Some prep during internship. Others balance residency, work, or family stuff."
-    },
-    {
-      "id": "match-para2",
-      "type": "paragraph",
-      "content": "Different schedules don't mean different commitment."
-    },
-    {
-      "id": "match-conclusion",
-      "type": "paragraph",
-      "content": "The best prep is one you can actually stick to. Not the one that looks most impressive on Instagram."
-    },
-    {
-      "id": "progress-sneaks",
-      "type": "heading",
-      "title": "Progress Sneaks Up on You",
-      "level": 2
-    },
-    {
-      "id": "progress-para1",
-      "type": "paragraph",
-      "content": "This part sucks about medical prep. Improvement feels invisible. For weeks you think you're forgetting everything. Then suddenly:"
-    },
-    {
-      "id": "progress-list",
-      "type": "list",
-      "items": [
-        "MCQs feel easier",
-        "Clinical cases make sense",
-        "You're faster at solving",
-        "Grand Test scores jump up"
-      ]
-    },
-    {
-      "id": "progress-conclusion",
-      "type": "paragraph",
-      "content": "Learning happens slowly. Small gains pile up before you notice them."
-    },
-    {
-      "id": "revising-beats-new",
-      "type": "heading",
-      "title": "Revising What You Know Beats Starting New Topics",
-      "level": 2
-    },
-    {
-      "id": "revising-para1",
-      "type": "paragraph",
-      "content": "Lots of aspirants panic because they haven't finished every subject. Instead of solidifying what they know, they jump to new topics. Result? Tons of reading. Almost no retention."
-    },
-    {
-      "id": "revising-conclusion",
-      "type": "paragraph",
-      "content": "Someone who actually understands Medicine, Pharmacology, and Pathology will score higher than someone who rushed through everything once. Going deep matters more than covering everything."
-    },
-    {
-      "id": "mock-scores",
-      "type": "heading",
-      "title": "Mock Test Scores Aren't Your Final Rank",
-      "level": 2
-    },
-    {
-      "id": "mock-para1",
-      "type": "paragraph",
-      "content": "A bad Grand Test score hurts. But these aren't predictions. They're roadmaps for what needs work."
-    },
-    {
-      "id": "mock-para2",
-      "type": "paragraph",
-      "content": "Use them to figure out:"
-    },
-    {
-      "id": "mock-list",
-      "type": "list",
-      "items": [
-        "Which subjects need more revision",
-        "Where you make stupid mistakes",
-        "If time management is broken"
-      ]
-    },
-    {
-      "id": "mock-conclusion",
-      "type": "paragraph",
-      "content": "Most students improve significantly in the final weeks because they actually learn from mocks."
-    },
-    {
-      "id": "panic-studying",
-      "type": "heading",
-      "title": "Panic Studying Doesn't Work",
-      "level": 2
-    },
-    {
-      "id": "panic-para1",
-      "type": "paragraph",
-      "content": "When aspirants feel behind, they start studying 14-15 hours a day. Lasts three days. Then exhaustion hits."
-    },
-    {
-      "id": "panic-para2",
-      "type": "paragraph",
-      "content": "Instead focus on:"
-    },
-    {
-      "id": "panic-list",
-      "type": "list",
-      "items": [
-        "Today's study plan",
-        "Yesterday's topics",
-        "Daily MCQ targets",
-        "Learning from tests"
-      ]
-    },
-    {
-      "id": "panic-conclusion",
-      "type": "paragraph",
-      "content": "Small steady progress beats trying to do everything at once."
-    },
-    {
-      "id": "stop-comparing",
-      "type": "heading",
-      "title": "Stop Comparing Your Timeline with Someone Else's",
-      "level": 2
-    },
-    {
-      "id": "comparing-para1",
-      "type": "paragraph",
-      "content": "Every aspirant starts differently. Some have strong basics. Some prepped after the internship. Some are balancing hospital shifts. Some are taking the exam for the second or third time."
-    },
-    {
-      "id": "comparing-conclusion",
-      "type": "paragraph",
-      "content": "Measure yourself against where you were last month. Not where someone else is today. That's the only comparison that matters."
-    },
-    {
-      "id": "keep-it-simple",
-      "type": "heading",
-      "title": "When You Feel Overwhelmed, Keep It Simple",
-      "level": 2
-    },
-    {
-      "id": "simple-para1",
-      "type": "paragraph",
-      "content": "Ask yourself:"
-    },
-    {
-      "id": "simple-list",
-      "type": "list",
-      "items": [
-        "Did I study today?",
-        "Did I revise something I learned before?",
-        "Did I solve MCQs?",
-        "Did I understand at least one concept better than yesterday?"
-      ]
-    },
-    {
-      "id": "simple-conclusion",
-      "type": "paragraph",
-      "content": "Answer yes to any of those? You're moving forward. That's progress."
-    },
-    {
-      "id": "final-thoughts",
-      "type": "heading",
-      "title": "Final Thoughts",
-      "level": 2
-    },
-    {
-      "id": "final-thoughts-para1",
-      "type": "paragraph",
-      "content": "NEET PG, INI-CET, FMGE prep isn't about keeping pace with everyone else. It's about steadily getting better at your own knowledge, confidence, exam skills."
-    },
-    {
-      "id": "final-thoughts-para2",
-      "type": "paragraph",
-      "content": "Feeling behind happens. Especially when you're around other ambitious people. But feelings lie sometimes."
-    },
-    {
-      "id": "final-thoughts-conclusion",
-      "type": "paragraph",
-      "content": "Stay consistent. Keep revising. Trust what you're building. Your rank won't depend on who seemed ahead during prep. It'll depend on what you actually know on exam day."
-    },
-    {
-      "id": "faqs",
-      "type": "heading",
-      "title": "FAQs",
-      "level": 2
-    },
-    {
-      "id": "faqs-list",
-      "type": "faq",
-      "faqs": [
-        {
-          "question": "Is it normal to feel behind during NEET PG preparation?",
-          "answer": "Yes, there are so many aspirants who have experienced this."
-        },
-        {
-          "question": "Should I compare my preparation with others?",
-          "answer": "No, you need to focus only on your own progress."
-        },
-        {
-          "question": "Do mock test scores define my final rank?",
-          "answer": "No, they help to identify your core improvement areas."
-        },
-        {
-          "question": "Is revision more important than covering new topics?",
-          "answer": "Yes, having a strong revision improves retention."
-        },
-        {
-          "question": "How can I stay motivated during preparation?",
-          "answer": "Stay consistent and track your daily progress for better understanding."
-        }
-      ]
-    },
-    {
-      "id": "keywords",
-      "type": "keywords",
-      "title": "Related Keywords",
-      "keywords": [
-        "neet pg preparation",
-        "neet pg",
-        "neet pg 2026",
-        "neet pg exam",
-        "medical entrance exam",
-        "ini cet",
-        "fmge",
-        "neet pg preparation online"
-      ]
-    }
-  ]
-}
 ];
 
 // Helper function to get blog by slug
