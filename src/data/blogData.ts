@@ -76698,6 +76698,313 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    id: 185,
+    title:
+      "Why Doubting Your NEET PG Preparation Is More Common Than You Think",
+    slug: "why-doubting-neet-pg-preparation-more-common-than-you-think",
+    excerpt:
+      "Feeling unsure about your NEET PG preparation? Discover why self-doubt is common, what causes it, and practical ways to stay focused until exam day.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/48488890/file/52ea9640f11547df8d5cba57ccd434b1.jpg",
+    featured_image_alt: "neet pg preparation self doubt confidence",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+    },
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
+    },
+    tags: [
+      "NEET PG",
+      "NEET PG 2026",
+      "NEET PG Preparation",
+      "Medical Entrance Exam",
+      "Exam Preparation",
+    ],
+    published_date: "2026-07-24",
+    read_time: 8,
+    meta_title:
+      "Why Doubting Your NEET PG Preparation Is More Common Than You Think",
+    meta_description:
+      "Feeling unsure about your NEET PG preparation? Discover why self-doubt is common, what causes it, and practical ways to stay focused until exam day.",
+    keywords: [
+      "neet pg preparation",
+      "neet pg",
+      "neet pg 2026",
+      "neet pg exam preparation",
+      "medical entrance exam",
+      "neet pg preparation online",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content:
+          'As NEET PG gets close, you start asking: "Did I study enough?"',
+      },
+      {
+        id: "intro-para2",
+        type: "paragraph",
+        content:
+          "Even people who've revised multiple times feel like they've forgotten things or didn't solve enough questions. It sucks, especially when the exam is coming up soon.",
+      },
+      {
+        id: "intro-conclusion",
+        type: "paragraph",
+        content:
+          "Here's the thing: this feeling is normal. Really normal. Feeling unprepared doesn't automatically mean you are. Let's tackle the biggest questions students stress about in the final weeks.",
+      },
+      {
+        id: "why-feel-unprepared",
+        type: "heading",
+        title: "Why Do I Feel Unprepared After Studying for Months?",
+        level: 2,
+      },
+      {
+        id: "why-feel-para1",
+        type: "paragraph",
+        content:
+          "The syllabus is massive. 19 subjects. Thousands of concepts. Clinical scenarios. Image-based questions. It's nearly impossible to feel like you've covered everything.",
+      },
+      {
+        id: "why-feel-conclusion",
+        type: "paragraph",
+        content:
+          "No matter how much you study, there's always another topic waiting. That's why even well-prepared candidates feel like they haven't done enough.",
+      },
+      {
+        id: "forgetting-during-revision",
+        type: "heading",
+        title: "Does Forgetting Stuff During Revision Mean I'm Not Ready?",
+        level: 2,
+      },
+      {
+        id: "forgetting-para1",
+        type: "paragraph",
+        content:
+          "Nah. Revision helps you figure out what you've forgotten. When you struggle to recall something, your brain is actually strengthening that memory. That's how learning actually works.",
+      },
+      {
+        id: "forgetting-conclusion",
+        type: "paragraph",
+        content:
+          "Use revision to fill those gaps before the exam. Don't stress about forgotten details.",
+      },
+      {
+        id: "everyone-better-prepared",
+        type: "heading",
+        title: "Why Does Everyone Else Seem Better Prepared?",
+        level: 2,
+      },
+      {
+        id: "everyone-para1",
+        type: "paragraph",
+        content:
+          "It just feels that way. You see high mock scores, completed revisions, long study hours. You don't see their weak subjects, their bad mocks, their hard study days.",
+      },
+      {
+        id: "everyone-conclusion",
+        type: "paragraph",
+        content:
+          "Comparing yourself to other people's highlights stresses you out for no reason. Focus on your own progress.",
+      },
+      {
+        id: "low-mock-scores",
+        type: "heading",
+        title: "Do Low Mock Test Scores Mean I'll Bomb the Exam?",
+        level: 2,
+      },
+      {
+        id: "low-mock-para1",
+        type: "paragraph",
+        content:
+          "No. Mocks are designed to improve your prep, not predict your rank. Every mock helps:",
+      },
+      {
+        id: "low-mock-list",
+        type: "list",
+        items: [
+          "Find weak topics",
+          "Fix time management",
+          "Stop making silly mistakes",
+          "Build exam confidence",
+        ],
+      },
+      {
+        id: "low-mock-conclusion",
+        type: "paragraph",
+        content:
+          "A bad score today can lead to much better performance on exam day if you actually learn from it.",
+      },
+      {
+        id: "confidence-crash",
+        type: "heading",
+        title: "Why Does Confidence Crash as Exam Day Approaches?",
+        level: 2,
+      },
+      {
+        id: "confidence-crash-para1",
+        type: "paragraph",
+        content:
+          "When the exam gets close, your brain does something weird. You stop thinking about all the chapters you've already revised. Instead you focus on the few topics you haven't touched.",
+      },
+      {
+        id: "confidence-crash-conclusion",
+        type: "paragraph",
+        content:
+          "Suddenly it feels like you're way less prepared than you actually are.",
+      },
+      {
+        id: "rush-finish",
+        type: "heading",
+        title: "Should I Rush to Finish Every Topic?",
+        level: 2,
+      },
+      {
+        id: "rush-para1",
+        type: "paragraph",
+        content:
+          "Not really. Final weeks work better for strengthening what you know than cramming new chapters. A subject you've revised well beats a subject you've only read once.",
+      },
+      {
+        id: "rush-para2",
+        type: "paragraph",
+        content: "Focus on:",
+      },
+      {
+        id: "rush-list",
+        type: "list",
+        items: [
+          "High-yield topics",
+          "Previous year questions",
+          "Daily MCQs",
+          "Regular revision",
+        ],
+      },
+      {
+        id: "rush-conclusion",
+        type: "paragraph",
+        content:
+          "These matter more than trying to finish every page of every book.",
+      },
+      {
+        id: "unprepared-fail",
+        type: "heading",
+        title: "Does Feeling Unprepared Mean I'll Fail?",
+        level: 2,
+      },
+      {
+        id: "unprepared-para1",
+        type: "paragraph",
+        content:
+          "No way. Tons of successful candidates walk into NEET PG thinking they could've studied more.",
+      },
+      {
+        id: "unprepared-para2",
+        type: "paragraph",
+        content:
+          "What separates them isn't feeling confident the night before. It's how consistently they prepared over months.",
+      },
+      {
+        id: "unprepared-conclusion",
+        type: "paragraph",
+        content:
+          "Your prep is built on hundreds of study sessions. Not on how you feel at the end.",
+      },
+      {
+        id: "stay-calm",
+        type: "heading",
+        title: "How Do I Actually Stay Calm in the Final Days?",
+        level: 2,
+      },
+      {
+        id: "stay-calm-para1",
+        type: "paragraph",
+        content:
+          "Stop focusing on what's left. Focus on what you can do today.",
+      },
+      {
+        id: "stay-calm-conclusion",
+        type: "paragraph",
+        content:
+          "Revise your notes. Solve a reasonable number of questions. Review mistakes. Keep your routine normal. Small, consistent efforts beat last-minute panic every time.",
+      },
+      {
+        id: "final-thoughts",
+        type: "heading",
+        title: "Final Thoughts",
+        level: 2,
+      },
+      {
+        id: "final-thoughts-para1",
+        type: "paragraph",
+        content:
+          "Feeling unprepared before NEET PG happens to almost everyone. It doesn't mean your prep failed or your chances are bad.",
+      },
+      {
+        id: "final-thoughts-para2",
+        type: "paragraph",
+        content:
+          "Keep revising. Trust the work you've already done. Stop comparing yourself to others.",
+      },
+      {
+        id: "final-thoughts-conclusion",
+        type: "paragraph",
+        content:
+          "Success in NEET PG isn't about feeling perfectly prepared. It's about staying consistent, making smart calls during the exam, and performing when it matters.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "Is it normal to feel unprepared before NEET PG?",
+            answer: "Yeah. Most people feel this way.",
+          },
+          {
+            question: "Do low mock test scores predict my NEET PG rank?",
+            answer: "No. They're there to improve your prep.",
+          },
+          {
+            question: "Should I start new topics in the final weeks?",
+            answer: "Revise first. New learning later.",
+          },
+          {
+            question: "Why do I forget topics during revision?",
+            answer: "Normal part of learning.",
+          },
+          {
+            question: "How do I improve confidence before NEET PG?",
+            answer: "Revise consistently. Trust your work.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "neet pg preparation",
+          "neet pg",
+          "neet pg 2026",
+          "neet pg exam preparation",
+          "medical entrance exam",
+          "neet pg preparation online",
+        ],
+      },
+    ],
+  },
 ];
 
 // Helper function to get blog by slug
