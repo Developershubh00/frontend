@@ -76,7 +76,7 @@ const MainContent: React.FC<MainContentProps> = ({
       if (cardId === "allotments")
         window.location.href = "/neet-pg-allotment-2025";
       if (cardId === "closing-ranks")
-        window.location.href = "/closingranks2025";
+        window.location.href = "/neetpg-closing-ranks-2025";
       if (cardId === "seat-matrix") window.location.href = "/seatmatrix2025";
       if (cardId === "fees-stipend-bond")
         window.location.href = "fees-stipend-bond-2025";
@@ -84,8 +84,10 @@ const MainContent: React.FC<MainContentProps> = ({
     }
 
     // year === "2024" → go to existing pages
-    if (cardId === "allotments") window.location.href = "/allotments";
-    if (cardId === "closing-ranks") window.location.href = "/Closingranks";
+    if (cardId === "allotments")
+      window.location.href = "/neet-pg-allotment-2025";
+    if (cardId === "closing-ranks")
+      window.location.href = "/neetpg-closing-ranks-2025";
     if (cardId === "seat-matrix") window.location.href = "/seat-matrix";
     if (cardId === "fees-stipend-bond")
       window.location.href = "/fees-stipend-bond-2024";
@@ -173,7 +175,7 @@ const MainContent: React.FC<MainContentProps> = ({
       subtitle: "",
       icon: Users,
       color: "bg-purple-500",
-      navLink: "/allotments",
+      navLink: "/neet-pg-allotment-2025",
     },
     {
       id: "closing-ranks",
@@ -181,7 +183,7 @@ const MainContent: React.FC<MainContentProps> = ({
       subtitle: "",
       icon: TrendingUp,
       color: "bg-blue-500",
-      navLink: "/Closingranks",
+      navLink: "/neetpg-closing-ranks-2025",
     },
     {
       id: "seat-matrix",

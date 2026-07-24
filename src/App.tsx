@@ -85,7 +85,7 @@ import NeetPGPages from "./Homepages/Neetpgpage";
 import NeetUGPage from "./Homepages/Neetugpage";
 import DnbPdcetPage from "./Homepages/Dnbpdcetpage";
 import Allotments2025Page from "./latest2025data/Allotments2025Page";
-import ClosingRanks2025Page from "./latest2025data/ClosingRanks2025Page";
+// import ClosingRanks2025Page from "./latest2025data/ClosingRanks2025Page";
 import SeatMatrix2025Page from "./latest2025data/SeatMatrix2025Page";
 import FeesStipendBond2025Page from "./latest2025data/FeesStipendBond2025Page";
 import CollegePredictorPage from "./pages/CollegePredictorPage";
@@ -101,6 +101,7 @@ import July2026AllotmentPage from "./INICET/July2026AllotmentPage";
 import InicetClosingRanks2025Page from "./INICET/InicetClosingRanks2025Page";
 import InicetClosingRanks2026Page from "./INICET/InicetClosingRanks2026Page";
 import AllotmentsPage2025 from "./NeetPG/AllotmentsPage2025";
+import ClosingRanks2025Page from "./NeetPG/ClosingRanks2025Page";
 
 /**
  * Main App Component with React Router
@@ -221,7 +222,7 @@ function AppContent() {
             }
           />
           <Route
-            path="/closingranks2025"
+            path="/neetpg-closing-ranks-2025"
             element={
               <ClosingRanks2025Page onBack={() => window.history.back()} />
             }

@@ -52,7 +52,7 @@ const Sidebar: React.FC<SidebarProps> = ({
       setExpandedSections((prev) =>
         prev.includes(section)
           ? prev.filter((s) => s !== section)
-          : [...prev, section]
+          : [...prev, section],
       );
     }
   };
@@ -67,6 +67,30 @@ const Sidebar: React.FC<SidebarProps> = ({
       color: "text-blue-600",
       onClick: () => navigate("/dashboard"),
     },
+    {
+      id: "allotments",
+      icon: Award,
+      label: "Allotments",
+      hasSubmenu: false,
+      color: "text-cyan-600",
+      onClick: () => navigate("/neet-pg-allotment-2025"),
+    },
+    {
+      id: "Feesstipendbond",
+      icon: GraduationCap,
+      label: "Fees Stipend & bond",
+      hasSubmenu: false,
+      color: "text-cyan-600",
+      onClick: () => navigate("/Feesstipendbonds"),
+    },
+    {
+      id: "closingranks",
+      icon: UserCheck,
+      label: "Closing Ranks ",
+      hasSubmenu: false,
+      color: "text-cyan-600",
+      onClick: () => navigate("/neetpg-closing-ranks-2025"),
+    },
     // {
     //   id: "universities",
     //   icon: GraduationCap,
@@ -75,38 +99,38 @@ const Sidebar: React.FC<SidebarProps> = ({
     //   color: "text-cyan-600",
     //   onClick: () => navigate("/universities"),
     // },
-    {
-      id: "counselling",
-      icon: UserCheck,
-      label: "Counselling",
-      hasSubmenu: false,
-      color: "text-pink-600",
-      onClick: () => navigate("/counselling"),
-    },
-    {
-      id: "courses",
-      icon: GraduationCap,
-      label: "Courses",
-      hasSubmenu: false,
-      color: "text-pink-600",
-      onClick: () => navigate("/courses"),
-    },
-    {
-      id: "Admitted Students",
-      icon: UserCheck,
-      label: "Admitted Students",
-      hasSubmenu: false,
-      color: "text-cyan-600",
-      onClick: () => navigate("/Admitted_Students"),
-    },
-    {
-      id: "results",
-      icon: Award,
-      label: "Results & Rankings",
-      hasSubmenu: false,
-      color: "text-blue-600",
-      onClick: () => navigate("/rankings"),
-    },
+    // {
+    //   id: "counselling",
+    //   icon: UserCheck,
+    //   label: "Counselling",
+    //   hasSubmenu: false,
+    //   color: "text-pink-600",
+    //   onClick: () => navigate("/counselling"),
+    // },
+    // {
+    //   id: "courses",
+    //   icon: GraduationCap,
+    //   label: "Courses",
+    //   hasSubmenu: false,
+    //   color: "text-pink-600",
+    //   onClick: () => navigate("/courses"),
+    // },
+    // {
+    //   id: "Admitted Students",
+    //   icon: UserCheck,
+    //   label: "Admitted Students",
+    //   hasSubmenu: false,
+    //   color: "text-cyan-600",
+    //   onClick: () => navigate("/Admitted_Students"),
+    // },
+    // {
+    //   id: "results",
+    //   icon: Award,
+    //   label: "Results & Rankings",
+    //   hasSubmenu: false,
+    //   color: "text-blue-600",
+    //   onClick: () => navigate("/rankings"),
+    // },
     // {
     //   id: "PG Predictor",
     //   icon: GraduationCap,
@@ -131,57 +155,41 @@ const Sidebar: React.FC<SidebarProps> = ({
     //   color: "text-indigo-600",
     //   onClick: () => navigate("/choicelists"),
     // },
-    {
-      id: "Clinical Data",
-      icon: GraduationCap,
-      label: "Clinical Data",
-      hasSubmenu: false,
-      color: "text-indigo-600",
-      onClick: () => navigate("/Clinicaldata"),
-    },
-    {
-      id: "Institutes",
-      icon: GraduationCap,
-      label: "Institutes",
-      hasSubmenu: false,
-      color: "text-indigo-600",
-      onClick: () => navigate("/Institutes"),
-    },
-    {
-      id: "Feesstipendbond",
-      icon: GraduationCap,
-      label: "Fees Stipend & bond",
-      hasSubmenu: false,
-      color: "text-cyan-600",
-      onClick: () => navigate("/Feesstipendbonds"),
-    },
-    {
-      id: "closingranks",
-      icon: UserCheck,
-      label: "Closing Ranks ",
-      hasSubmenu: false,
-      color: "text-cyan-600",
-      onClick: () => navigate("/Closingranks"),
-    },
-    {
-      id: "universities",
-      icon: GraduationCap,
-      label: "Seat Allotment 2025 (Round 1)",
-      hasSubmenu: false,
-      color: "text-cyan-600",
-      onClick: () => {
-        const win = window.open("/data/neetpground1.pdf", " NEET-PG Round-1");
-        if (win) win.focus();
-      },
-    },
-    {
-      id: "universities",
-      icon: GraduationCap,
-      label: "Schedule",
-      hasSubmenu: false,
-      color: "text-cyan-600",
-      onClick: () => navigate("/schedule"),
-    },
+    // {
+    //   id: "Clinical Data",
+    //   icon: GraduationCap,
+    //   label: "Clinical Data",
+    //   hasSubmenu: false,
+    //   color: "text-indigo-600",
+    //   onClick: () => navigate("/Clinicaldata"),
+    // },
+    // {
+    //   id: "Institutes",
+    //   icon: GraduationCap,
+    //   label: "Institutes",
+    //   hasSubmenu: false,
+    //   color: "text-indigo-600",
+    //   onClick: () => navigate("/Institutes"),
+    // },
+    // {
+    //   id: "universities",
+    //   icon: GraduationCap,
+    //   label: "Seat Allotment 2025 (Round 1)",
+    //   hasSubmenu: false,
+    //   color: "text-cyan-600",
+    //   onClick: () => {
+    //     const win = window.open("/data/neetpground1.pdf", " NEET-PG Round-1");
+    //     if (win) win.focus();
+    //   },
+    // },
+    // {
+    //   id: "universities",
+    //   icon: GraduationCap,
+    //   label: "Schedule",
+    //   hasSubmenu: false,
+    //   color: "text-cyan-600",
+    //   onClick: () => navigate("/schedule"),
+    // },
     // {
     //   id: "MyChoicelist",
     //   icon: Heart,
@@ -190,7 +198,6 @@ const Sidebar: React.FC<SidebarProps> = ({
     //   color: "text-indigo-600",
     //   onClick: () => navigate("/choicelists"),
     // },
-    
     // {
     //   id: "explore",
     //   icon: Compass,
@@ -218,14 +225,15 @@ const Sidebar: React.FC<SidebarProps> = ({
     // },
   ];
 
-  
-              {/* <button
+  {
+    /* <button
                 className="flex items-center space-x-2 px-4 py-2 text-pink-600 hover:bg-pink-50 rounded-xl transition-all duration-200 font-medium"
                 onClick={() => navigate("/choice-lists")}
               >
                 <Heart className="w-4 h-4" />
                 <span>My Choice Lists</span>
-              </button> */}
+              </button> */
+  }
   return (
     <div
       className={`${
@@ -300,26 +308,28 @@ const Sidebar: React.FC<SidebarProps> = ({
 
               {/* Submenu items */}
               {item.hasSubmenu &&
-  expandedSections.includes(item.id) &&
-  !isCollapsed && (
-    <div className="ml-6 mt-2 space-y-1 animate-in slide-in-from-top-2">
-      {item.submenu?.map((subItem) => (
-        <button
-          key={subItem.label}
-          onClick={() => {
-            onSectionChange(`${item.id}-${subItem.label.toLowerCase()}`);
-            subItem.onClick?.(); // <--- FIXED
-          }}
-          className="w-full text-left px-4 py-2.5 text-sm text-slate-600 hover:bg-slate-50 hover:text-slate-800 rounded-lg transition-all duration-200 hover:translate-x-1"
-        >
-          <div className="flex items-center space-x-2">
-            <div className="w-1.5 h-1.5 bg-slate-400 rounded-full"></div>
-            <span>{subItem.label}</span>
-          </div>
-        </button>
-      ))}
-    </div>
-)}
+                expandedSections.includes(item.id) &&
+                !isCollapsed && (
+                  <div className="ml-6 mt-2 space-y-1 animate-in slide-in-from-top-2">
+                    {item.submenu?.map((subItem) => (
+                      <button
+                        key={subItem.label}
+                        onClick={() => {
+                          onSectionChange(
+                            `${item.id}-${subItem.label.toLowerCase()}`,
+                          );
+                          subItem.onClick?.(); // <--- FIXED
+                        }}
+                        className="w-full text-left px-4 py-2.5 text-sm text-slate-600 hover:bg-slate-50 hover:text-slate-800 rounded-lg transition-all duration-200 hover:translate-x-1"
+                      >
+                        <div className="flex items-center space-x-2">
+                          <div className="w-1.5 h-1.5 bg-slate-400 rounded-full"></div>
+                          <span>{subItem.label}</span>
+                        </div>
+                      </button>
+                    ))}
+                  </div>
+                )}
             </div>
           ))}
         </nav>
