@@ -1707,6 +1707,19 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "Jagran Josh",
     created_at: "2026-07-21",
   },
+  {
+    id: 129,
+    title: "NEET PG 2026",
+    content:
+      "NEET PG 2026 Application Correction Window Opens Today: Check Editable and Non-Editable Details",
+    date: "2026-07-25",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://www.jagranjosh.com/news/neet-pg-2026-application-form-correction-window-opens-today-heres-what-can-and-cannot-be-changed-185920",
+    is_active: true,
+    source: "Jagran Josh",
+    created_at: "2026-07-25",
+  },
 ];
 
 /**
