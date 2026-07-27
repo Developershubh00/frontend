@@ -77005,6 +77005,373 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    id: 186,
+    title: "Stop Comparing Your NEET PG Preparation: Focus on Your Own Journey",
+    slug: "stop-comparing-neet-pg-preparation-focus-your-own-journey",
+    excerpt:
+      "Stop comparing your NEET PG preparation with others. Stay focused on your goals, follow a smart study plan, and build confidence to achieve success.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/48515501/file/bfd5c66b8a5e19bd9157f5d84f7176f8.jpg",
+    featured_image_alt: "neet pg preparation focus your own journey",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+    },
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
+    },
+    tags: ["NEET PG", "NEET PG 2026", "NEET PG Preparation", "INI CET", "FMGE"],
+    published_date: "2026-07-27",
+    read_time: 9,
+    meta_title:
+      "Stop Comparing Your NEET PG Preparation: Focus on Your Own Journey",
+    meta_description:
+      "Stop comparing your NEET PG preparation with others. Stay focused on your goals, follow a smart study plan, and build confidence to achieve success.",
+    keywords: [
+      "neet pg preparation",
+      "neet pg",
+      "neet pg 2026",
+      "neet pg exam preparation",
+      "medical entrance exam",
+      "neet pg preparation online",
+      "ini cet",
+      "fmge",
+      "inicet exam",
+      "fmge exam",
+      "inicet preparation",
+      "fmge preparation",
+      "exam preparation",
+      "preparation strategy",
+      "neet pg study plan",
+      "fmge study plan",
+      "inicet study plan",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content:
+          "The fastest way to lose confidence during NEET PG, INI-CET, or FMGE prep is comparing yourself to everyone else.",
+      },
+      {
+        id: "intro-para2",
+        type: "paragraph",
+        content:
+          "A friend finishes their fourth revision. Someone posts a crazy mock score. Another person claims they study 12 hours daily.",
+      },
+      {
+        id: "intro-para3",
+        type: "paragraph",
+        content: "Next thing you know you're spiraling:",
+      },
+      {
+        id: "intro-list",
+        type: "list",
+        items: [
+          '"Am I falling behind?"',
+          '"Should I be studying more?"',
+          '"Will I even pass?"',
+        ],
+      },
+      {
+        id: "intro-conclusion",
+        type: "paragraph",
+        content:
+          "Comparing your prep with others almost never helps. Usually just stresses you out and pulls your focus away from what actually matters.",
+      },
+      {
+        id: "everyone-prepared",
+        type: "heading",
+        title: "Why Does Everyone Seem Prepared?",
+        level: 2,
+      },
+      {
+        id: "everyone-para1",
+        type: "paragraph",
+        content:
+          "Feels like everyone around you is doing better and moving faster. But here's what's actually happening: you only see what people choose to share.",
+      },
+      {
+        id: "everyone-para2",
+        type: "paragraph",
+        content: "People post:",
+      },
+      {
+        id: "everyone-list1",
+        type: "list",
+        items: [
+          "Their good mock scores",
+          "Completed revisions",
+          "Long study hours",
+          "Daily wins",
+        ],
+      },
+      {
+        id: "everyone-para3",
+        type: "paragraph",
+        content: "They don't post:",
+      },
+      {
+        id: "everyone-list2",
+        type: "list",
+        items: [
+          "Bad Grand Tests",
+          "Missed study targets",
+          "Weak subjects",
+          "Days they didn't study",
+        ],
+      },
+      {
+        id: "everyone-conclusion",
+        type: "paragraph",
+        content:
+          "You're comparing your entire journey to someone else's Instagram. Of course it looks bad.",
+      },
+      {
+        id: "same-way",
+        type: "heading",
+        title: "Does Every Student Study the Same Way?",
+        level: 2,
+      },
+      {
+        id: "same-way-para1",
+        type: "paragraph",
+        content:
+          "Nope. Everyone's got different stuff going on. Some prep full-time. Some juggle internship. Some work in hospitals. Some are repeating the exam. Different schedules. Different strengths. Different lives.",
+      },
+      {
+        id: "same-way-conclusion",
+        type: "paragraph",
+        content:
+          "Comparing study hours or revision counts doesn't make sense when your situations are completely different. The best strategy is one you can actually stick with.",
+      },
+      {
+        id: "more-hours",
+        type: "heading",
+        title: "Does More Study Hours Equal Better Rank?",
+        level: 2,
+      },
+      {
+        id: "more-hours-para1",
+        type: "paragraph",
+        content:
+          "Not really. Four focused hours beats ten distracted hours. Always.",
+      },
+      {
+        id: "more-hours-para2",
+        type: "paragraph",
+        content:
+          'Stop asking yourself "how many hours did that person study?" Instead ask:',
+      },
+      {
+        id: "more-hours-list",
+        type: "list",
+        items: [
+          "Did I actually understand today's topic?",
+          "Did I review what I learned yesterday?",
+          "Did I solve enough questions?",
+        ],
+      },
+      {
+        id: "more-hours-conclusion",
+        type: "paragraph",
+        content: "Those questions matter.",
+      },
+      {
+        id: "comparison-kills",
+        type: "heading",
+        title: "Why Does Constant Comparison Kill Your Confidence?",
+        level: 2,
+      },
+      {
+        id: "comparison-para1",
+        type: "paragraph",
+        content:
+          "It shifts your focus away from your own progress. Instead of feeling good about finishing a topic, you're worried about someone else's revision count. Instead of fixing your weak areas, you're copying their study plan.",
+      },
+      {
+        id: "comparison-conclusion",
+        type: "paragraph",
+        content:
+          "Just creates stress and messes up your prep. Confidence builds when you track your own improvement. Not someone else's.",
+      },
+      {
+        id: "change-plan",
+        type: "heading",
+        title:
+          "Should I Change My Study Plan Because Others Are Doing Something Different?",
+        level: 2,
+      },
+      {
+        id: "change-plan-para1",
+        type: "paragraph",
+        content:
+          "Probably not. A lot of students panic near the end and suddenly switch everything. New resources. New schedule. Someone else's strategy. Keeps changing things just makes things confusing.",
+      },
+      {
+        id: "change-plan-conclusion",
+        type: "paragraph",
+        content:
+          "If your current plan works - you're revising, mocks are improving - stick with it. Consistency beats constantly switching.",
+      },
+      {
+        id: "what-to-compare",
+        type: "heading",
+        title: "What Should I Actually Compare?",
+        level: 2,
+      },
+      {
+        id: "what-to-compare-para1",
+        type: "paragraph",
+        content: "Only compare yourself to who you were before. Ask:",
+      },
+      {
+        id: "what-to-compare-list",
+        type: "list",
+        items: [
+          "Am I solving questions faster than last month?",
+          "Are my mock scores getting better?",
+          "Do clinical cases make more sense now?",
+          "Have I revised more than I did before?",
+        ],
+      },
+      {
+        id: "what-to-compare-conclusion",
+        type: "paragraph",
+        content: "That shows real progress.",
+      },
+      {
+        id: "stay-focused",
+        type: "heading",
+        title: "How Do I Stay Focused on My Own Prep?",
+        level: 2,
+      },
+      {
+        id: "stay-focused-para1",
+        type: "paragraph",
+        content: "Control what you can control. Work on:",
+      },
+      {
+        id: "stay-focused-list",
+        type: "list",
+        items: [
+          "Your daily study targets",
+          "High-yield topics",
+          "Regular MCQ practice",
+          "Learning from mocks",
+          "Keeping consistent",
+        ],
+      },
+      {
+        id: "stay-focused-conclusion",
+        type: "paragraph",
+        content:
+          "Small actions matter way more than obsessing over what others are doing.",
+      },
+      {
+        id: "feel-behind",
+        type: "heading",
+        title: "Does Everyone Feel Behind at Some Point?",
+        level: 2,
+      },
+      {
+        id: "feel-behind-para1",
+        type: "paragraph",
+        content:
+          "Yeah. Even top-ranking candidates feel like they could've studied more. The difference is they don't let comparison mess with their prep. They keep going. Improve gradually. Trust their work.",
+      },
+      {
+        id: "feel-behind-conclusion",
+        type: "paragraph",
+        content: "That's what shows up in the results.",
+      },
+      {
+        id: "final-thoughts",
+        type: "heading",
+        title: "Final Thoughts",
+        level: 2,
+      },
+      {
+        id: "final-thoughts-para1",
+        type: "paragraph",
+        content:
+          "NEET PG, INI-CET, FMGE prep isn't a race during preparation. Only becomes one on exam day.",
+      },
+      {
+        id: "final-thoughts-para2",
+        type: "paragraph",
+        content:
+          "Right now your job is just getting slightly better than yesterday. Someone else's study hours, revision count, mock score - none of that changes your rank.",
+      },
+      {
+        id: "final-thoughts-conclusion",
+        type: "paragraph",
+        content:
+          "Your consistency does. Stop comparing. Focus on your own progress. Trust your plan. Move forward.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "Is comparing my prep with others helpful?",
+            answer: "Nah. Usually just stresses you out.",
+          },
+          {
+            question: "Do longer study hours guarantee better rank?",
+            answer: "No. How well you study matters more.",
+          },
+          {
+            question: "Should I copy someone else's study plan?",
+            answer: "No. Use a plan that actually works for you.",
+          },
+          {
+            question: "What should I compare during prep?",
+            answer: "Your progress compared to yourself last month.",
+          },
+          {
+            question: "How do I stay focused on my own prep?",
+            answer: "Set daily goals. Revise. Avoid unnecessary comparisons.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "neet pg preparation",
+          "neet pg",
+          "neet pg 2026",
+          "neet pg exam preparation",
+          "medical entrance exam",
+          "neet pg preparation online",
+          "ini cet",
+          "fmge",
+          "inicet exam",
+          "fmge exam",
+          "inicet preparation",
+          "fmge preparation",
+          "exam preparation",
+          "preparation strategy",
+          "neet pg study plan",
+          "fmge study plan",
+          "inicet study plan",
+        ],
+      },
+    ],
+  },
 ];
 
 // Helper function to get blog by slug
