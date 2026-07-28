@@ -1720,6 +1720,18 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "Jagran Josh",
     created_at: "2026-07-25",
   },
+  {
+    id: 130,
+    title: "NEET PG 2026",
+    content: "NEET PG 2026 Application Correction Window Closes Today",
+    date: "2026-07-28",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://timesofindia.indiatimes.com/education/news/neet-pg-application-correction-window-closing-today-check-direct-link-to-rectify-form-errors-before-deadline/articleshow/132676394.cms",
+    is_active: true,
+    source: "The Times Of India",
+    created_at: "2026-07-28",
+  },
 ];
 
 /**
