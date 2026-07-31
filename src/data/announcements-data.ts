@@ -1732,6 +1732,19 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "The Times Of India",
     created_at: "2026-07-28",
   },
+  {
+    id: 131,
+    title: "NEET PG 2026",
+    content:
+      "NEET PG 2026 Selective Edit Window Opens Today: Correct Photograph, Signature & Thumb Impression by August 10",
+    date: "2026-07-31",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://timesofindia.indiatimes.com/education/news/neet-pg-2026-selective-edit-window-opens-today-correct-application-images-by-august-10/articleshow/132754296.cms",
+    is_active: true,
+    source: "The Times Of India",
+    created_at: "2026-07-31",
+  },
 ];
 
 /**
