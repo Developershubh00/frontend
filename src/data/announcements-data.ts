@@ -1745,6 +1745,19 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "The Times Of India",
     created_at: "2026-07-31",
   },
+  {
+    id: 132,
+    title: "NEET PG 2026",
+    content:
+      "NEET PG 2026: Single-Shift Exam, Fewer Questions & More Test Centres Announced",
+    date: "2026-08-01",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://timesofindia.indiatimes.com/india/neet-pg-2026-gets-major-overhaul-centres-closer-to-home-single-shift-exam-less-questions-with-no-change-in-test-duration/articleshow/132793694.cms",
+    is_active: true,
+    source: "The Times Of India",
+    created_at: "2026-08-01",
+  },
 ];
 
 /**
