@@ -77718,6 +77718,294 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    id: 188,
+    title:
+      "Branch or College: What Should You Prioritize During NEET PG Counselling?",
+    slug: "branch-or-college-what-to-prioritize-neet-pg-counselling",
+    excerpt:
+      "Confused between branch or college in NEET PG counselling? Compare career goals, learning opportunities, and future prospects to make the right choice.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/48594123/file/12acd5185667921d09e4b18b90a9b6ed.jpeg",
+    featured_image_alt: "neet pg counselling branch or college",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+    },
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
+    },
+    tags: [
+      "NEET PG",
+      "NEET PG Counselling",
+      "INI CET",
+      "INI CET Counselling",
+      "NEET PG Results",
+    ],
+    published_date: "2026-08-03",
+    read_time: 6,
+    meta_title:
+      "Branch or College: What Should You Prioritize During NEET PG Counselling?",
+    meta_description:
+      "Confused between branch or college in NEET PG counselling? Compare career goals, learning opportunities, and future prospects to make the right choice.",
+    keywords: [
+      "neet pg counselling",
+      "neet pg",
+      "ini cet results",
+      "ini cet",
+      "neet pg results",
+      "ini cet counselling",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content:
+          "After NEET PG or INI-CET results, everyone asks the same thing during counselling:",
+      },
+      {
+        id: "intro-para2",
+        type: "paragraph",
+        content: "Should I pick a better branch or a better college?",
+      },
+      {
+        id: "intro-conclusion",
+        type: "paragraph",
+        content:
+          "There's no one answer that works for everyone. Depends on what you actually want to do, what interests you, and where you see yourself in the future. Before you lock your preferences, think through this.",
+      },
+      {
+        id: "branch-vs-college",
+        type: "heading",
+        title: "Does the Branch Matter More Than the College?",
+        level: 2,
+      },
+      {
+        id: "branch-vs-college-para1",
+        type: "paragraph",
+        content:
+          "Usually, yeah. Your branch is what you'll do for the rest of your career. It determines your daily work. Your future options for super-specialization. How your work-life balance looks. How satisfied you'll be long-term.",
+      },
+      {
+        id: "branch-vs-college-para2",
+        type: "paragraph",
+        content:
+          "Even if your branch is at a less famous college, it might still be better if you actually want to do that specialty.",
+      },
+      {
+        id: "branch-vs-college-conclusion",
+        type: "paragraph",
+        content: "A college is three years. Your specialty is forever.",
+      },
+      {
+        id: "when-college-makes-sense",
+        type: "heading",
+        title: "When Does Choosing the College Make Sense?",
+        level: 2,
+      },
+      {
+        id: "when-college-para1",
+        type: "paragraph",
+        content:
+          "Some situations call for picking the better institute. A good college usually has:",
+      },
+      {
+        id: "when-college-list",
+        type: "list",
+        items: [
+          "More patients to learn from",
+          "Experienced teachers",
+          "Better study environment",
+          "Research opportunities",
+          "Modern equipment",
+          "Good connections in the field",
+        ],
+      },
+      {
+        id: "when-college-conclusion",
+        type: "paragraph",
+        content:
+          "If you're stuck between similar branches, then the college becomes the tiebreaker.",
+      },
+      {
+        id: "patient-exposure",
+        type: "heading",
+        title: "Why Does Patient Exposure Matter So Much?",
+        level: 2,
+      },
+      {
+        id: "patient-exposure-para1",
+        type: "paragraph",
+        content:
+          "Most real learning happens during residency. A college with lots of patients means you see different cases. You do more procedures. You get confident faster. You're actually ready to work independently after.",
+      },
+      {
+        id: "patient-exposure-conclusion",
+        type: "paragraph",
+        content:
+          "Don't just look at college rankings when comparing. Check if they actually have good clinical exposure.",
+      },
+      {
+        id: "famous-college",
+        type: "heading",
+        title: "Does a Famous College Really Help?",
+        level: 2,
+      },
+      {
+        id: "famous-college-para1",
+        type: "paragraph",
+        content:
+          "A well-known medical college looks good on paper. Definitely helps if you want to teach or do higher studies later. But reputation alone doesn't mean much if you hate the specialty you picked.",
+      },
+      {
+        id: "famous-college-conclusion",
+        type: "paragraph",
+        content:
+          "A doctor who likes their field performs better than someone who picked a specialty just for the college name.",
+      },
+      {
+        id: "stuck-between-branches",
+        type: "heading",
+        title: "If You're Stuck Between Two Branches, Ask Yourself:",
+        level: 2,
+      },
+      {
+        id: "stuck-list",
+        type: "list",
+        items: [
+          "Do I actually want this specialty?",
+          "Can I see myself doing this for years?",
+          "What lifestyle do I want?",
+          "Do I like surgeries, medicines, diagnostics, or non-clinical work?",
+          "Where do I see my career going?",
+        ],
+      },
+      {
+        id: "stuck-conclusion",
+        type: "paragraph",
+        content:
+          "These questions usually clear things up better than comparing college rankings.",
+      },
+      {
+        id: "future-career",
+        type: "heading",
+        title: "Does the College Affect Your Future Career?",
+        level: 2,
+      },
+      {
+        id: "future-career-para1",
+        type: "paragraph",
+        content:
+          "Yeah, but not as much as you think. A good college during residency helps. But your actual skills, knowledge, how much you learn, how hard you work — that's what builds your career.",
+      },
+      {
+        id: "future-career-para2",
+        type: "paragraph",
+        content:
+          "Good doctors come from famous colleges and unknown colleges both.",
+      },
+      {
+        id: "future-career-conclusion",
+        type: "paragraph",
+        content:
+          "What you do during residency matters way more than the name on your degree.",
+      },
+      {
+        id: "how-to-decide",
+        type: "heading",
+        title: "How to Actually Decide During Counselling",
+        level: 2,
+      },
+      {
+        id: "how-to-decide-list",
+        type: "list",
+        items: [
+          "Pick your preferred branch if you're sure about it",
+          "Compare colleges if the branches are similar",
+          "Look at patient load, teachers, academics, facilities",
+          "Think long-term, not about looking impressive right now",
+          "Don't just follow what's ranked high or what your friends are doing",
+        ],
+      },
+      {
+        id: "final-thoughts",
+        type: "heading",
+        title: "Final Thoughts",
+        level: 2,
+      },
+      {
+        id: "final-thoughts-para1",
+        type: "paragraph",
+        content: "Branch vs college isn't a debate with one right answer.",
+      },
+      {
+        id: "final-thoughts-para2",
+        type: "paragraph",
+        content:
+          "If you're genuinely interested in a specialty, go with that branch. If you're picking between the same branch at different colleges, then clinical exposure, faculty, infrastructure, and reputation matter.",
+      },
+      {
+        id: "final-thoughts-conclusion",
+        type: "paragraph",
+        content:
+          "During NEET PG and INI-CET counselling, don't chase a college name. Pick what fits your interests, your career goals, the doctor you want to become.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question:
+              "Is branch more important than college in NEET PG counselling?",
+            answer: "Usually. Your branch shapes your whole career.",
+          },
+          {
+            question: "Does a reputed college improve residency training?",
+            answer:
+              "Yeah. Usually it gives better academics and proper clinical exposure.",
+          },
+          {
+            question:
+              "Should I choose a better college over my preferred branch?",
+            answer: "Only if you're equally interested in both branches.",
+          },
+          {
+            question: "Does patient exposure matter during residency?",
+            answer:
+              "Absolutely. It helps to build your overall clinical skills.",
+          },
+          {
+            question: "What should I prioritize during counseling process?",
+            answer:
+              "You should pick what truly matches your career goals and what you actually want to do in your life.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "neet pg counselling",
+          "neet pg",
+          "ini cet results",
+          "ini cet",
+          "neet pg results",
+          "ini cet counselling",
+        ],
+      },
+    ],
+  },
 ];
 
 // Helper function to get blog by slug
