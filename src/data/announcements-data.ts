@@ -1758,6 +1758,19 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "The Times Of India",
     created_at: "2026-08-01",
   },
+  {
+    id: 133,
+    title: "NEET UG 2026",
+    content:
+      "NEET UG Counselling 2026: MCC Revises Round 1 Choice Filling Schedule, Begins on August 8 at 12 Noon Published Date",
+    date: "2026-08-07",
+    priority: "high",
+    category: "NEET UG",
+    link: "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/08/202608071497344176.pdf",
+    is_active: true,
+    source: "Medical Counselling Committee",
+    created_at: "2026-08-07",
+  },
 ];
 
 /**
