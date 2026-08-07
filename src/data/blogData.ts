@@ -78373,6 +78373,341 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    id: 190,
+    title:
+      "NEET PG Counselling 2026: How to Fill College Preferences the Smart Way",
+    slug: "neet-pg-counselling-2026-how-to-fill-college-preferences-smart-way",
+    excerpt:
+      "Learn how to fill NEET PG Counselling 2026 college preferences strategically. Maximize your admission chances with smart choice filling and expert tips.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/48642499/file/eeeb83dac07f439c843b034ebd9fa350.jpg",
+    featured_image_alt: "neet pg counselling 2026 college preferences",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+    },
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
+    },
+    tags: [
+      "NEET PG",
+      "NEET PG Counselling",
+      "NEET PG 2026",
+      "PG Counselling",
+      "Medical PG Counselling",
+    ],
+    published_date: "2026-08-07",
+    read_time: 10,
+    meta_title:
+      "NEET PG Counselling 2026: How to Fill College Preferences the Smart Way",
+    meta_description:
+      "Learn how to fill NEET PG Counselling 2026 college preferences strategically. Maximize your admission chances with smart choice filling and expert tips.",
+    keywords: [
+      "neet pg counselling",
+      "neet pg",
+      "neet pg counselling 2026",
+      "neet pg 2026 counselling",
+      "pg counselling",
+      "mcc neet pg counselling",
+      "counselling for neet pg",
+      "medical pg counselling",
+      "medical pg exam",
+      "neet pg allotment list",
+      "choice filling in neet pg",
+      "neet pg counselling seat matrix",
+      "neet pg counselling services",
+      "neet pg rank wise branch allotment",
+      "neet pg rank wise seat allotment",
+      "seat matrix neet pg",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content:
+          "You spent months studying for NEET PG. Now comes the part most people don't think much about: filling your college preferences.",
+      },
+      {
+        id: "intro-para2",
+        type: "paragraph",
+        content:
+          "Spend hours planning for the exam. Spend five minutes on preferences. That's backwards.",
+      },
+      {
+        id: "intro-conclusion",
+        type: "paragraph",
+        content:
+          "A smart preference list changes your chances of getting a seat you actually want. A bad one? You could miss opportunities you didn't even realize existed. Here's how to actually do this right.",
+      },
+      {
+        id: "why-matters",
+        type: "heading",
+        title: "Why Does This Preference List Matter?",
+        level: 2,
+      },
+      {
+        id: "why-matters-para1",
+        type: "paragraph",
+        content:
+          "Your preference list controls what happens during counselling. Once your rank comes out, the system goes through your choices from top to bottom. If a seat exists in your top choice college and branch, you get it. If not, it moves to your next preference.",
+      },
+      {
+        id: "why-matters-conclusion",
+        type: "paragraph",
+        content:
+          "Your list determines everything. Which is why it should reflect what you actually want. Not what everyone else is picking.",
+      },
+      {
+        id: "branch-or-college",
+        type: "heading",
+        title: "Branch or College First?",
+        level: 2,
+      },
+      {
+        id: "branch-or-college-para1",
+        type: "paragraph",
+        content: "There's no universal answer. Think about it:",
+      },
+      {
+        id: "branch-or-college-list",
+        type: "list",
+        items: [
+          "Is your dream branch what matters most?",
+          "Would you take a different branch at a top college?",
+          "Would you move far away for the right specialty?",
+        ],
+      },
+      {
+        id: "branch-or-college-conclusion",
+        type: "paragraph",
+        content:
+          "Your preference list should match your actual career goals. Not what's trendy.",
+      },
+      {
+        id: "research-colleges",
+        type: "heading",
+        title: "Actually Research the Colleges",
+        level: 2,
+      },
+      {
+        id: "research-para1",
+        type: "paragraph",
+        content:
+          "Don't just pick colleges because you've heard their names. Look at:",
+      },
+      {
+        id: "research-list",
+        type: "list",
+        items: [
+          "How many patients they see",
+          "Who's teaching there",
+          "What equipment they have",
+          "How the academics work",
+          "Where the college is located",
+          "What the hostel is like",
+        ],
+      },
+      {
+        id: "research-conclusion",
+        type: "paragraph",
+        content:
+          "Spend a bit of time now. Your residency will be better for it.",
+      },
+      {
+        id: "real-order",
+        type: "heading",
+        title: "Put Colleges in Your Real Order",
+        level: 2,
+      },
+      {
+        id: "real-order-para1",
+        type: "paragraph",
+        content:
+          "People worry: if I put my dream college first, will I lose other options? No. That's not how this works.",
+      },
+      {
+        id: "real-order-para2",
+        type: "paragraph",
+        content:
+          "Put colleges in the order you actually prefer them. System doesn't work against you. It just goes down your list if your top choices don't work out.",
+      },
+      {
+        id: "real-order-conclusion",
+        type: "paragraph",
+        content: "No penalty for aiming high.",
+      },
+      {
+        id: "mix-choices",
+        type: "heading",
+        title: "Mix Your Choices",
+        level: 2,
+      },
+      {
+        id: "mix-choices-para1",
+        type: "paragraph",
+        content: "A smart list looks like this:",
+      },
+      {
+        id: "mix-choices-list",
+        type: "list",
+        items: [
+          "Dream colleges (long shot but worth trying)",
+          "Realistic options (where your rank probably fits)",
+          "Safe choices (probably will get something here)",
+        ],
+      },
+      {
+        id: "mix-choices-conclusion",
+        type: "paragraph",
+        content:
+          "This balances your chances. Keeps good options available. Prevents ending up with nothing.",
+      },
+      {
+        id: "where-you-live",
+        type: "heading",
+        title: "Don't Ignore Where You'll Actually Live",
+        level: 2,
+      },
+      {
+        id: "where-you-live-para1",
+        type: "paragraph",
+        content:
+          "Residency is years of your life. Before you pick a college, think:",
+      },
+      {
+        id: "where-you-live-list",
+        type: "list",
+        items: [
+          "How far from home?",
+          "How expensive to live there?",
+          "Will the language be a problem?",
+          "Will I have family support?",
+        ],
+      },
+      {
+        id: "where-you-live-conclusion",
+        type: "paragraph",
+        content:
+          "A college needs to work for your studying and your actual life during residency.",
+      },
+      {
+        id: "last-year-cutoffs",
+        type: "heading",
+        title: "Use Last Year's Cutoffs, But Don't Rely on Them",
+        level: 2,
+      },
+      {
+        id: "cutoffs-para1",
+        type: "paragraph",
+        content:
+          "Previous year data shows you where your rank might land. Cutoffs change every year. But they still help you make a realistic list instead of just guessing.",
+      },
+      {
+        id: "panic-change",
+        type: "heading",
+        title: "Don't Panic-Change Your List",
+        level: 2,
+      },
+      {
+        id: "panic-para1",
+        type: "paragraph",
+        content:
+          "Last-minute panic hits. Friends say different things. Social media starts talking. Then you change your whole list.",
+      },
+      {
+        id: "panic-conclusion",
+        type: "paragraph",
+        content:
+          "Don't. Sit with your preferences. If you want, talk to someone you trust. But make the decision and stick with it.",
+      },
+      {
+        id: "final-thoughts",
+        type: "heading",
+        title: "Final Thoughts",
+        level: 2,
+      },
+      {
+        id: "final-thoughts-para1",
+        type: "paragraph",
+        content:
+          "Filling your college preferences is huge. It's one of the most important parts of counselling.",
+      },
+      {
+        id: "final-thoughts-para2",
+        type: "paragraph",
+        content:
+          "Think about what you actually want. Research your options. Make a list that balances your dreams with reality. Avoid following the crowd.",
+      },
+      {
+        id: "final-thoughts-conclusion",
+        type: "paragraph",
+        content:
+          "Smart counselling decisions come from planning. Not from pressure or last-minute changes.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "How should I arrange my college preferences?",
+            answer: "Put them in the order you actually prefer them.",
+          },
+          {
+            question: "Should I include dream colleges?",
+            answer: "Yeah. No penalty for aiming high.",
+          },
+          {
+            question: "Do previous year cutoffs help?",
+            answer:
+              "Yeah. They give you an idea of where your rank might land.",
+          },
+          {
+            question: "Should I think about location?",
+            answer: "Absolutely. You're living there for years. It matters.",
+          },
+          {
+            question: "Can I change my preference list later?",
+            answer:
+              "Only if the counselling authority gives an edit window. Check the rules.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "neet pg counselling",
+          "neet pg",
+          "neet pg counselling 2026",
+          "neet pg 2026 counselling",
+          "pg counselling",
+          "mcc neet pg counselling",
+          "counselling for neet pg",
+          "medical pg counselling",
+          "medical pg exam",
+          "neet pg allotment list",
+          "choice filling in neet pg",
+          "neet pg counselling seat matrix",
+          "neet pg counselling services",
+          "neet pg rank wise branch allotment",
+          "neet pg rank wise seat allotment",
+          "seat matrix neet pg",
+        ],
+      },
+    ],
+  },
 ];
 
 // Helper function to get blog by slug
