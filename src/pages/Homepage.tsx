@@ -1265,7 +1265,7 @@ function Homepage() {
                     onClick={() => navigate("/login")}
                     className="hover:text-white transition-colors hover:text-blue-400 cursor-pointer"
                   >
-                    NEET UG (Coming Soon)
+                    NEET UG
                   </a>
                 </li>
                 <li>
@@ -1273,7 +1273,7 @@ function Homepage() {
                     onClick={() => navigate("/login")}
                     className="hover:text-white transition-colors hover:text-blue-400 cursor-pointer"
                   >
-                    INICET (Coming Soon)
+                    INICET
                   </a>
                 </li>
                 {/* <li>

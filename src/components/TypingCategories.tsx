@@ -1,10 +1,9 @@
-
 import React, { useEffect, useState } from "react";
 
 const categories = [
   { text: "NEET PG", comingSoon: false },
   { text: "INICET", comingSoon: false },
-  { text: "NEET UG", comingSoon: true },
+  { text: "NEET UG", comingSoon: false },
   { text: "NEET SS", comingSoon: true },
 ];
 
