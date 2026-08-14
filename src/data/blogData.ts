@@ -79393,6 +79393,429 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    id: 193,
+    title: "Last 15 Days Strategy for NEET PG 2026: Revise, Don't Restart",
+    slug: "last-15-days-strategy-neet-pg-2026-revise-dont-restart",
+    excerpt:
+      "Master the last 15 days before NEET PG 2026 with a smart revision plan. Focus on high-yield topics, PYQs, mock tests, and avoid starting new subjects.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/48711930/file/0872d864877b78d26508c9d52b885956.jpg",
+    featured_image_alt: "neet pg 2026 last 15 days revision strategy",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+    },
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
+    },
+    tags: [
+      "NEET PG",
+      "NEET PG 2026",
+      "NEET PG Preparation",
+      "NEET PG Revision",
+      "Medical Entrance Exam",
+    ],
+    published_date: "2026-08-14",
+    read_time: 6,
+    meta_title: "Last 15 Days Strategy for NEET PG 2026: Revise, Don't Restart",
+    meta_description:
+      "Master the last 15 days before NEET PG 2026 with a smart revision plan. Focus on high-yield topics, PYQs, mock tests, and avoid starting new subjects.",
+    keywords: [
+      "neet pg preparation",
+      "neet pg 2026",
+      "neet pg",
+      "neet pg exam",
+      "neet pg preparation strategy",
+      "medical entrance exam",
+      "neet pg revision schedule",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content:
+          "The last 15 days before NEET PG 2026 feel different. Everything does.",
+      },
+      {
+        id: "intro-para2",
+        type: "paragraph",
+        content:
+          "You've studied for months. Notes are done. MCQs are solved. Grand tests taken. Revised high-yield topics. Worried yourself silly.",
+      },
+      {
+        id: "intro-para3",
+        type: "paragraph",
+        content: "Then a panic thought hits:",
+      },
+      {
+        id: "intro-list",
+        type: "list",
+        items: [
+          '"Should I start that subject I never touched?"',
+          '"Everyone\'s talking about this new book. Maybe I need it."',
+          '"What if the questions come from topics I skipped?"',
+        ],
+      },
+      {
+        id: "intro-conclusion",
+        type: "paragraph",
+        content:
+          "This is when most aspirants sabotage themselves. The last two weeks aren't for starting fresh. They're for locking in what you already know.",
+      },
+      {
+        id: "starting-new-destroys",
+        type: "heading",
+        title: "Starting Something New Usually Destroys You",
+        level: 2,
+      },
+      {
+        id: "starting-new-para1",
+        type: "paragraph",
+        content:
+          "You want to cover everything before the exam. Makes sense. But picking up a brand new subject or textbook this late usually messes things up. Your brain gets confused learning unfamiliar stuff while forgetting what you already revised.",
+      },
+      {
+        id: "starting-new-conclusion",
+        type: "paragraph",
+        content:
+          "Remember: NEET PG isn't won by studying the most books. It's won by recalling the right answer when it matters.",
+      },
+      {
+        id: "not-learning-anymore",
+        type: "heading",
+        title: "This Isn't About Learning Anymore",
+        level: 2,
+      },
+      {
+        id: "not-learning-para1",
+        type: "paragraph",
+        content:
+          "Your goal changed. Before? Learning new stuff. Now? Actually remembering what you studied.",
+      },
+      {
+        id: "not-learning-para2",
+        type: "paragraph",
+        content: "Real questions to ask yourself:",
+      },
+      {
+        id: "not-learning-list",
+        type: "list",
+        items: [
+          "Can I quickly recall how to manage common emergencies?",
+          "Can I identify image-based questions without hesitation?",
+          "Do I remember the frequently asked pharmacology drugs?",
+          "Can I solve clinical scenarios without doubting myself?",
+        ],
+      },
+      {
+        id: "not-learning-conclusion",
+        type: "paragraph",
+        content:
+          "If you're saying no to any of these, you need to revise. Not start something new.",
+      },
+      {
+        id: "revision-schedule",
+        type: "heading",
+        title: "Build a Structured Revision Schedule",
+        level: 2,
+      },
+      {
+        id: "revision-para1",
+        type: "paragraph",
+        content:
+          "Stop randomly opening subjects. Create an actual plan. Focus on:",
+      },
+      {
+        id: "revision-list",
+        type: "list",
+        items: [
+          "High-yield notes",
+          "Previously highlighted concepts",
+          "Important flowcharts",
+          "Frequently asked clinical conditions",
+          "Previous Year Questions (PYQs)",
+          "Mistakes from Grand Tests",
+        ],
+      },
+      {
+        id: "revision-conclusion",
+        type: "paragraph",
+        content:
+          "Don't waste hours on topics you've already nailed. Spend extra time on things you keep getting wrong.",
+      },
+      {
+        id: "wrong-mcqs",
+        type: "heading",
+        title: "Revisit Your Wrong MCQs",
+        level: 2,
+      },
+      {
+        id: "wrong-mcqs-para1",
+        type: "paragraph",
+        content:
+          "Most students keep solving new question banks until exam day. Stupid strategy. Better idea: go through the questions you answered incorrectly.",
+      },
+      {
+        id: "wrong-mcqs-para2",
+        type: "paragraph",
+        content:
+          "Every wrong answer teaches something. Figure out why you got it wrong:",
+      },
+      {
+        id: "wrong-mcqs-list",
+        type: "list",
+        items: [
+          "Knowledge gap?",
+          "Misread the question?",
+          "Got confused between options?",
+        ],
+      },
+      {
+        id: "wrong-mcqs-conclusion",
+        type: "paragraph",
+        content:
+          "Fixing these errors matters more than solving 500 new questions.",
+      },
+      {
+        id: "grand-tests",
+        type: "heading",
+        title: "Grand Tests: Analyze, Don't Chase Scores",
+        level: 2,
+      },
+      {
+        id: "grand-tests-para1",
+        type: "paragraph",
+        content:
+          "If you're still taking mocks, ignore the rank for now. The real value is in analyzing what went wrong:",
+      },
+      {
+        id: "grand-tests-list",
+        type: "list",
+        items: [
+          "Which topics do you keep missing?",
+          "Which subjects have dropping accuracy?",
+          "Which questions did you guess on?",
+          "What silly mistakes can you actually avoid?",
+        ],
+      },
+      {
+        id: "grand-tests-conclusion",
+        type: "paragraph",
+        content:
+          "Stop chasing a perfect score. Start avoiding the same mistakes.",
+      },
+      {
+        id: "dont-switch",
+        type: "heading",
+        title: "Don't Switch Resources Mid-Way",
+        level: 2,
+      },
+      {
+        id: "dont-switch-para1",
+        type: "paragraph",
+        content:
+          "This is where most people panic. They jump between different notes, different faculty books, new PDFs, fresh question banks, random Telegram material.",
+      },
+      {
+        id: "dont-switch-conclusion",
+        type: "paragraph",
+        content:
+          "Stop. You're just stressing yourself out. Trust the resources that got you here. Revision works faster when you're reading familiar material.",
+      },
+      {
+        id: "what-gets-asked",
+        type: "heading",
+        title: "Focus on What Actually Gets Asked",
+        level: 2,
+      },
+      {
+        id: "what-gets-para1",
+        type: "paragraph",
+        content: "You can't study everything. That's fine. Priorities:",
+      },
+      {
+        id: "what-gets-list",
+        type: "list",
+        items: [
+          "Frequently asked clinical scenarios",
+          "Image-based questions",
+          "Drug mechanisms and side effects",
+          "High-yield pathology and microbiology",
+          "Emergency medicine",
+          "Common radiology images",
+          "Important anatomy and physiology",
+        ],
+      },
+      {
+        id: "what-gets-conclusion",
+        type: "paragraph",
+        content: "Better to master these than dabble in everything.",
+      },
+      {
+        id: "take-care",
+        type: "heading",
+        title: "Actually Take Care of Yourself",
+        level: 2,
+      },
+      {
+        id: "take-care-para1",
+        type: "paragraph",
+        content:
+          "Late nights. Skipped meals. No sleep. This is where people crash. Irony: this is exactly when you need your brain working best.",
+      },
+      {
+        id: "take-care-para2",
+        type: "paragraph",
+        content: "These next two weeks:",
+      },
+      {
+        id: "take-care-list",
+        type: "list",
+        items: [
+          "Get consistent sleep",
+          "Drink water",
+          "Eat actual meals",
+          "Take breaks",
+          "Don't experiment with new routines",
+        ],
+      },
+      {
+        id: "take-care-conclusion",
+        type: "paragraph",
+        content:
+          "An exhausted brain forgets things. The rested brain recalls them.",
+      },
+      {
+        id: "exam-anxiety",
+        type: "heading",
+        title: "Exam Anxiety Is Normal",
+        level: 2,
+      },
+      {
+        id: "exam-anxiety-para1",
+        type: "paragraph",
+        content:
+          "You'll be anxious. Everyone is. Stop worrying about what you haven't studied. Think about everything you've actually completed.",
+      },
+      {
+        id: "exam-anxiety-conclusion",
+        type: "paragraph",
+        content:
+          "Months of preparation already happened. That work is done. Now trust it.",
+      },
+      {
+        id: "fifteen-day-plan",
+        type: "heading",
+        title: "Your 15-Day Plan",
+        level: 2,
+      },
+      {
+        id: "fifteen-day-para1",
+        type: "paragraph",
+        content: "Keep it simple:",
+      },
+      {
+        id: "fifteen-day-list",
+        type: "list",
+        items: [
+          "Revise your main notes daily",
+          "Review previous mistakes from MCQs and mocks",
+          "Solve some quality questions but not hundreds",
+          "Focus on remembering, not reading passively",
+          "Avoid new books and resources",
+          "Keep your routine balanced",
+        ],
+      },
+      {
+        id: "fifteen-day-conclusion",
+        type: "paragraph",
+        content: "Consistency beats marathon cramming sessions.",
+      },
+      {
+        id: "final-thoughts",
+        type: "heading",
+        title: "Final Thoughts",
+        level: 2,
+      },
+      {
+        id: "final-thoughts-para1",
+        type: "paragraph",
+        content:
+          "The last 15 days aren't about learning everything. They're about remembering what you already know.",
+      },
+      {
+        id: "final-thoughts-para2",
+        type: "paragraph",
+        content:
+          "Every hour revising familiar concepts makes recall faster. Every hour chasing new material just adds stress.",
+      },
+      {
+        id: "final-thoughts-para3",
+        type: "paragraph",
+        content:
+          "Your preparation is built. Now it needs polish. When exam day comes, you won't get points for opening the most books. You get points for recalling concepts and applying them correctly under pressure.",
+      },
+      {
+        id: "final-thoughts-conclusion",
+        type: "paragraph",
+        content: "One rule for the final stretch: Revise. Don't restart.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question:
+              "Should I start a new subject in the last 15 days before NEET PG 2026?",
+            answer: "No. Focus on what you already studied.",
+          },
+          {
+            question: "What should I prioritize during the last 15 days?",
+            answer:
+              "Revise high-yield topics, previous year questions, and your weak areas.",
+          },
+          {
+            question: "Should I solve new MCQs or review old mistakes?",
+            answer: "Review wrong MCQs. Learn why you got them wrong.",
+          },
+          {
+            question: "Are Grand Tests useful in the final two weeks?",
+            answer: "Yeah, but analyze your mistakes more than your score.",
+          },
+          {
+            question: "How important is sleep during the last 15 days?",
+            answer:
+              "Critical. Sleep improves recall, focus, exam performance. Don't skip it.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "neet pg preparation",
+          "neet pg 2026",
+          "neet pg",
+          "neet pg exam",
+          "neet pg preparation strategy",
+          "medical entrance exam",
+          "neet pg revision schedule",
+        ],
+      },
+    ],
+  },
 ];
 
 // Helper function to get blog by slug
