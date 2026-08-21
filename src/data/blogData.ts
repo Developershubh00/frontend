@@ -339,7 +339,7 @@ export const blogPosts: BlogPost[] = [
             "Disability certificate",
             "Issued by an approved medical board",
           ],
-          ["General", "No certificate required", "–"],
+          ["General", "No certificate required", "-"],
         ],
       },
       {
@@ -469,7 +469,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -752,7 +752,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to Believers Consultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours.",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours.",
       },
     ],
   },
@@ -1062,7 +1062,7 @@ export const blogPosts: BlogPost[] = [
         id: "section-7-list",
         type: "list",
         items: [
-          "Missions now issue NRI certificates strictly as per the new format – only to the NRI themselves or their children.",
+          "Missions now issue NRI certificates strictly as per the new format - only to the NRI themselves or their children.",
           "Educational sponsorship for PG candidates by relatives is not accepted due to the adult ward restriction.",
           "Embassies require all their original documentation verification for passports, residence proof, and relationship documents as well.",
           "Certificates are only valid for one academic year, and they must be renewed before each admission cycle happens.",
@@ -1231,7 +1231,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -1779,7 +1779,7 @@ export const blogPosts: BlogPost[] = [
             question:
               "Q6. Is switching between AIQ and State allowed after Round 2?",
             answer:
-              "No. Post–Supreme Court directives restrict round 2, switching/upgradation across AIQ and State to prevent seat blocking; choices must be finalized by then.",
+              "No. Post-Supreme Court directives restrict round 2, switching/upgradation across AIQ and State to prevent seat blocking; choices must be finalized by then.",
           },
           {
             question:
@@ -1791,7 +1791,7 @@ export const blogPosts: BlogPost[] = [
             question:
               "Q8. How should a rank-based strategy be planned across rounds?",
             answer:
-              "Prioritize safer options in Rounds 1–2, use Round 3 for targeted upgrades, and treat mop-up/stray rounds as high-risk fallback; reference past closing ranks, seat matrix, and applicable security deposit/exit rules.",
+              "Prioritize safer options in Rounds 1-2, use Round 3 for targeted upgrades, and treat mop-up/stray rounds as high-risk fallback; reference past closing ranks, seat matrix, and applicable security deposit/exit rules.",
           },
         ],
       },
@@ -1800,7 +1800,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -2202,7 +2202,7 @@ export const blogPosts: BlogPost[] = [
           {
             question: "Q1. Who is eligible for AIQ counselling?",
             answer:
-              "Candidates which gone through NEET PG cutoffs: General/EWS – who have 50th percentile, and have the category OBC/SC/ST/PwD 40th percentile, and in General-PwD/EWS-PwD – 45th percentile. The eligible candidates who can participate in MCC AIQ rounds, Deemed/Central Universities, ESIC/AFMS, and DNB counselling. State counselling is separate.",
+              "Candidates which gone through NEET PG cutoffs: General/EWS - who have 50th percentile, and have the category OBC/SC/ST/PwD 40th percentile, and in General-PwD/EWS-PwD - 45th percentile. The eligible candidates who can participate in MCC AIQ rounds, Deemed/Central Universities, ESIC/AFMS, and DNB counselling. State counselling is separate.",
           },
           {
             question:
@@ -2228,7 +2228,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -2335,7 +2335,7 @@ export const blogPosts: BlogPost[] = [
         items: [
           "Offered in hospitals (including private hospitals, government hospitals, and district hospitals).",
           "Introduced to expand training opportunities, especially in smaller institutions.",
-          "About 3,500 seats are available, with roughly 2,700–2,800 filled annually.",
+          "About 3,500 seats are available, with roughly 2,700-2,800 filled annually.",
           "Accredited by NBEMS (National Board of Examinations in Medical Sciences) and recognized under the NMC Act's First Schedule.",
           "Currently offered in 9 specialties, including the relatively new Diploma in Emergency Medicine.",
         ],
@@ -2482,7 +2482,7 @@ export const blogPosts: BlogPost[] = [
         id: "section-5-fees-list",
         type: "list",
         items: [
-          "PG Diplomas vary widely (₹1–6 lakh annually in some deemed institutes).",
+          "PG Diplomas vary widely (₹1-6 lakh annually in some deemed institutes).",
           "NBE Diplomas are fixed at ₹1.25 lakh/year, making them a more affordable choice.",
         ],
       },
@@ -2601,7 +2601,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -2993,7 +2993,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
@@ -3053,13 +3053,13 @@ export const blogPosts: BlogPost[] = [
         id: "intro",
         type: "paragraph",
         content:
-          "The OBC-NCL (Other Backward Class – Non-Creamy Layer) certificate is mandatory for medical graduates seeking admission under the 27% OBC quota in All India Quota (AIQ) seats for NEET PG 2025. This explainer clarifies purpose, eligibility, validity, and the application pathway for claiming OBC‑NCL under AIQ.",
+          "The OBC-NCL (Other Backward Class - Non-Creamy Layer) certificate is mandatory for medical graduates seeking admission under the 27% OBC quota in All India Quota (AIQ) seats for NEET PG 2025. This explainer clarifies purpose, eligibility, validity, and the application pathway for claiming OBC‑NCL under AIQ.",
       },
       {
         id: "intro-purpose",
         type: "paragraph",
         content:
-          "The OBC-NCL (Other Backward Class – Non-Creamy Layer) certificate is very important for NEET PG 2025 aspirants applying through All India Quota (AIQ). This guide explains eligibility, benefits, the application process, and common queries.",
+          "The OBC-NCL (Other Backward Class - Non-Creamy Layer) certificate is very important for NEET PG 2025 aspirants applying through All India Quota (AIQ). This guide explains eligibility, benefits, the application process, and common queries.",
       },
       {
         id: "intro-explanation",
@@ -3184,7 +3184,7 @@ export const blogPosts: BlogPost[] = [
         type: "list",
         items: [
           "Parents' combined annual income (excluding salary and agricultural income) must be below ₹8 lakh for the last three financial years.",
-          "For NEET PG 2025, income is assessed for the years 2022–2023, 2023–2024, and 2024–2025 for NEET PG 2025.",
+          "For NEET PG 2025, income is assessed for the years 2022-2023, 2023-2024, and 2024-2025 for NEET PG 2025.",
         ],
       },
       {
@@ -3434,7 +3434,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit",
       },
       {
         id: "keywords",
@@ -3467,7 +3467,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 8,
     title:
-      "Andhra Pradesh NEET PG 2025: Competent Authority Quota (State Government Quota) – Complete Guide",
+      "Andhra Pradesh NEET PG 2025: Competent Authority Quota (State Government Quota) - Complete Guide",
     slug: "andhra-pradesh-neet-pg-2025-competent-authority-quota-complete-guide",
     excerpt:
       "This overview addresses key aspects of Andhra Pradesh NEET PG 2025 Competent Authority Quota (CQ) counselling, including eligibility, seat distribution, and application procedures for both local and non-local candidates.",
@@ -3540,7 +3540,7 @@ export const blogPosts: BlogPost[] = [
         id: "management-quota",
         type: "paragraph",
         content:
-          "Management Quota Counseling (for Category B, C, and NRI seats) – To be conducted separately.\n\nThe CQ counselling is conducted for candidates classified as local or those non-local candidates meeting specified residency or employment criteria, distinct from All India Quota eligibility.",
+          "Management Quota Counseling (for Category B, C, and NRI seats) - To be conducted separately.\n\nThe CQ counselling is conducted for candidates classified as local or those non-local candidates meeting specified residency or employment criteria, distinct from All India Quota eligibility.",
       },
       {
         id: "seats-covered",
@@ -3587,7 +3587,7 @@ export const blogPosts: BlogPost[] = [
         items: [
           "UR/EWS: 50th percentile",
           "UR-PwD: 45th percentile",
-          "SC/ST/OBC (BCA–BCE): 40th percentile",
+          "SC/ST/OBC (BCA-BCE): 40th percentile",
         ],
       },
       {
@@ -3698,14 +3698,14 @@ export const blogPosts: BlogPost[] = [
       {
         id: "sc-subcategories-list",
         type: "list",
-        items: ["SC1 – 6.5%", "SC2 – 7.5%", "SC3 – 1%"],
+        items: ["SC1 - 6.5%", "SC2 - 7.5%", "SC3 - 1%"],
       },
       {
         id: "other-categories",
         type: "list",
         items: [
           "ST: As per existing norms",
-          "BC (BCA–BCE): Category-wise as before",
+          "BC (BCA-BCE): Category-wise as before",
           "Women: 33.3% across all categories",
           "PwD: 5% horizontal reservation",
           "EWS: Not applicable unless approved officially",
@@ -3816,7 +3816,7 @@ export const blogPosts: BlogPost[] = [
           "MBBS study certificates (year-wise)",
           "Passport-size photo & signature",
           "Migration/Transfer certificate (or affidavit)",
-          "6th–12th class certificates (for local status)",
+          "6th-12th class certificates (for local status)",
           "Caste certificate (latest, integrated)",
           "PWD certificate (if applicable)",
         ],
@@ -3879,7 +3879,7 @@ export const blogPosts: BlogPost[] = [
         items: [
           "Government Colleges (Govt. Quota): ₹30,000 per year",
           "SVIMS Tirupati: ₹1,75,000 per year",
-          "Private Colleges (Category A – Clinical): ₹4.96 lakhs per year",
+          "Private Colleges (Category A - Clinical): ₹4.96 lakhs per year",
           "Pre/Para-clinical in Private Colleges: Fee varies (typically lesser than clinical branches)",
         ],
       },
@@ -4046,7 +4046,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
@@ -4132,7 +4132,7 @@ export const blogPosts: BlogPost[] = [
         items: [
           "Results: the result would be expected within just 10 days, which is based on past trends.",
           "Counselling Start Date: It is likely to be from mid-September (provisional)",
-          "Preparation Window: 1–1.5 months to get fully ready",
+          "Preparation Window: 1-1.5 months to get fully ready",
         ],
       },
       {
@@ -4200,11 +4200,11 @@ export const blogPosts: BlogPost[] = [
         id: "types-of-seats-list",
         type: "list",
         items: [
-          "All India Quota (AIQ) – There will be 50% seats from government medical colleges across India.",
-          "State Quota – Seats which are reserved for domicile candidates in respective states.",
-          "Deemed Universities – there are well-renowned private institutions like Kasturba, Amrita, JSS Mysore, KIMS, IMS, etc. These institutions offer quality education, but it often comes with higher fees.",
-          "Private Colleges & Management Quota – there are also Institutes like CMC Vellore, which may have government-linked seats as well as open management quota seats.",
-          "DNB Courses – the DNB Courses, which are available in government and private hospitals, especially in departments where MD/MS is not offered.",
+          "All India Quota (AIQ) - There will be 50% seats from government medical colleges across India.",
+          "State Quota - Seats which are reserved for domicile candidates in respective states.",
+          "Deemed Universities - there are well-renowned private institutions like Kasturba, Amrita, JSS Mysore, KIMS, IMS, etc. These institutions offer quality education, but it often comes with higher fees.",
+          "Private Colleges & Management Quota - there are also Institutes like CMC Vellore, which may have government-linked seats as well as open management quota seats.",
+          "DNB Courses - the DNB Courses, which are available in government and private hospitals, especially in departments where MD/MS is not offered.",
         ],
       },
       {
@@ -4463,7 +4463,7 @@ export const blogPosts: BlogPost[] = [
             question:
               "Q5. How soon after results does counselling usually begin?",
             answer:
-              "The official counselling typically starts within 4–6 weeks after the result declaration, as it is notified by MCC on mcc.nic.in.",
+              "The official counselling typically starts within 4-6 weeks after the result declaration, as it is notified by MCC on mcc.nic.in.",
           },
           {
             question:
@@ -4513,7 +4513,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
@@ -4934,7 +4934,7 @@ export const blogPosts: BlogPost[] = [
           "Government Colleges: ₹57,890 + caution deposit ₹23,160",
           "Private Colleges: Varies (approx. ₹3 lakhs for RCC Trivandrum, 2024)",
           "NRI Quota: Approx. ₹38 lakhs",
-          "Clinical Fees: ₹17–19 lakhs",
+          "Clinical Fees: ₹17-19 lakhs",
         ],
       },
       {
@@ -5026,7 +5026,7 @@ export const blogPosts: BlogPost[] = [
             question:
               "Q4: What are the tuition fees under Kerala NEET PG counselling?",
             answer:
-              "all the government colleges who have charged ₹57,890/year (along with ₹23,160 caution deposit). The private colleges charge around ₹3 lakh/year, which have clinical branches of ₹17–19 lakh, and NRI seats ~₹38 lakh. On the other hand the Security deposit: ₹10,000 (General) / ₹5,000 (SC/ST).",
+              "all the government colleges who have charged ₹57,890/year (along with ₹23,160 caution deposit). The private colleges charge around ₹3 lakh/year, which have clinical branches of ₹17-19 lakh, and NRI seats ~₹38 lakh. On the other hand the Security deposit: ₹10,000 (General) / ₹5,000 (SC/ST).",
           },
           {
             question:
@@ -5053,7 +5053,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit",
       },
       {
         id: "keywords",
@@ -5268,17 +5268,17 @@ export const blogPosts: BlogPost[] = [
         headers: ["Seat Type", "Description", "Eligibility"],
         rows: [
           [
-            "GQ – Gujarat Quota",
+            "GQ - Gujarat Quota",
             "75% of seats in government & private colleges",
             "All Gujarat-eligible candidates",
           ],
           [
-            "UQ – University Quota",
+            "UQ - University Quota",
             "Reserved for same-university students",
             "Same university only",
           ],
           [
-            "MQ – Management Quota",
+            "MQ - Management Quota",
             "25% of private seats (higher fee)",
             "Gujarat-eligible candidates",
           ],
@@ -5408,11 +5408,11 @@ export const blogPosts: BlogPost[] = [
         type: "table",
         headers: ["Seat Type", "Fee Range"],
         rows: [
-          ["Govt Quota", "₹30k–₹46L"],
-          ["Private MQ", "₹12L–₹59L"],
-          ["NRI Quota", "$23k–$65k"],
-          ["Pre-Clinical", "₹1k–₹12.5L"],
-          ["Para-Clinical", "₹1k–₹32.5L"],
+          ["Govt Quota", "₹30k-₹46L"],
+          ["Private MQ", "₹12L-₹59L"],
+          ["NRI Quota", "$23k-$65k"],
+          ["Pre-Clinical", "₹1k-₹12.5L"],
+          ["Para-Clinical", "₹1k-₹32.5L"],
         ],
       },
       {
@@ -5546,7 +5546,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
@@ -5623,8 +5623,8 @@ export const blogPosts: BlogPost[] = [
         id: "streams-list",
         type: "list",
         items: [
-          "Government Quota Counselling – For Tamil Nadu natives and eligible MBBS graduates.",
-          "Management Quota Counselling – For open category seats and non-natives.",
+          "Government Quota Counselling - For Tamil Nadu natives and eligible MBBS graduates.",
+          "Management Quota Counselling - For open category seats and non-natives.",
         ],
       },
       {
@@ -5705,12 +5705,12 @@ export const blogPosts: BlogPost[] = [
         id: "reservation-list",
         type: "list",
         items: [
-          "Backward Class (BC) – 30%",
-          "Most Backward Class (MBC) – 20%",
-          "Scheduled Caste (SC) – 18%",
-          "Within SC, SC(A) – 16% of SC seats (~3% overall)",
-          "Backward Class Muslim (BCM) – 3.5%",
-          "Scheduled Tribe (ST) – 1%",
+          "Backward Class (BC) - 30%",
+          "Most Backward Class (MBC) - 20%",
+          "Scheduled Caste (SC) - 18%",
+          "Within SC, SC(A) - 16% of SC seats (~3% overall)",
+          "Backward Class Muslim (BCM) - 3.5%",
+          "Scheduled Tribe (ST) - 1%",
         ],
       },
       {
@@ -5777,9 +5777,9 @@ export const blogPosts: BlogPost[] = [
         items: [
           "Registration Fee: ₹1000",
           "Security Deposit:",
-          "  • Government Colleges – ₹30,000",
-          "  • Private Colleges – ₹1,00,000",
-          "  • Both – ₹1,30,000",
+          "  • Government Colleges - ₹30,000",
+          "  • Private Colleges - ₹1,00,000",
+          "  • Both - ₹1,30,000",
           "(Refundable within 3 months if not forfeited)",
         ],
       },
@@ -5793,8 +5793,8 @@ export const blogPosts: BlogPost[] = [
         id: "fee-tuition-list",
         type: "list",
         items: [
-          "Government Colleges – ₹50,000/year",
-          "Private Colleges – ₹3.5 lakh/year (excluding additional charges)",
+          "Government Colleges - ₹50,000/year",
+          "Private Colleges - ₹3.5 lakh/year (excluding additional charges)",
         ],
       },
       {
@@ -5958,7 +5958,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
@@ -6036,12 +6036,12 @@ export const blogPosts: BlogPost[] = [
         id: "courses-list",
         type: "list",
         items: [
-          "MD/MS (3 years) – Traditional postgraduate medical degrees.",
-          "PG Diploma (2 years) – Shorter programs; eligible for DNB upgrades via post-diploma CET.",
-          "DNB (3 years) – Hospital-based programs recognized as equivalent to MD/MS.",
-          "NBEMS Diploma (2 years) – Offered in private and government hospitals.",
-          "Direct 6-Year Super-specialty Programs – e.g., Neurosurgery, Pediatric Surgery.",
-          "CPS Programs – Available in Maharashtra and Gujarat with variable recognition.",
+          "MD/MS (3 years) - Traditional postgraduate medical degrees.",
+          "PG Diploma (2 years) - Shorter programs; eligible for DNB upgrades via post-diploma CET.",
+          "DNB (3 years) - Hospital-based programs recognized as equivalent to MD/MS.",
+          "NBEMS Diploma (2 years) - Offered in private and government hospitals.",
+          "Direct 6-Year Super-specialty Programs - e.g., Neurosurgery, Pediatric Surgery.",
+          "CPS Programs - Available in Maharashtra and Gujarat with variable recognition.",
         ],
       },
       {
@@ -6060,13 +6060,13 @@ export const blogPosts: BlogPost[] = [
         id: "institutes-list",
         type: "list",
         items: [
-          "State Government Medical Colleges – Largest pool; 50% AIQ, 50% state counselling for NEET PG quota.",
-          "Central Universities / Institutes – Managed under the Ministry of Health & Family Welfare.",
-          "Deemed Universities – Autonomous with variable fee structures; some reserve seats for state candidates.",
-          "Private Medical Colleges – Controlled by state quotas; some allow all-India candidates.",
-          "AFMS Institutes – Armed Forces Medical Services; additional medical fitness required.",
-          "NBE-Accredited Hospitals – Offer DNB and NBEMS diploma seats.",
-          "PG-Teaching Institutes – Only postgraduate courses.",
+          "State Government Medical Colleges - Largest pool; 50% AIQ, 50% state counselling for NEET PG quota.",
+          "Central Universities / Institutes - Managed under the Ministry of Health & Family Welfare.",
+          "Deemed Universities - Autonomous with variable fee structures; some reserve seats for state candidates.",
+          "Private Medical Colleges - Controlled by state quotas; some allow all-India candidates.",
+          "AFMS Institutes - Armed Forces Medical Services; additional medical fitness required.",
+          "NBE-Accredited Hospitals - Offer DNB and NBEMS diploma seats.",
+          "PG-Teaching Institutes - Only postgraduate courses.",
         ],
       },
       {
@@ -6079,10 +6079,10 @@ export const blogPosts: BlogPost[] = [
         id: "authorities-list",
         type: "list",
         items: [
-          "All India Quota (AIQ) – Conducted via MCC NEET PG, open to all eligible candidates.",
-          "State Counselling – Managed by individual states under state counselling for NEET PG, based on domicile or MBBS education.",
-          "AFMS Counselling – Requires medical fitness and priority-based allocation.",
-          "DNB Counselling (NBE) – For hospital-based DNB seats, including in-service candidates.",
+          "All India Quota (AIQ) - Conducted via MCC NEET PG, open to all eligible candidates.",
+          "State Counselling - Managed by individual states under state counselling for NEET PG, based on domicile or MBBS education.",
+          "AFMS Counselling - Requires medical fitness and priority-based allocation.",
+          "DNB Counselling (NBE) - For hospital-based DNB seats, including in-service candidates.",
         ],
       },
       {
@@ -6119,10 +6119,10 @@ export const blogPosts: BlogPost[] = [
         id: "factors-list",
         type: "list",
         items: [
-          "Category Rotations – Single-seat shifts across categories.",
-          "Seat Changes – Minimal year-on-year adjustments.",
-          "Counselling Policy Changes – Rules vary by state and round.",
-          "Fees, Stipends, Bonds – Check tuition, hostel charges, stipend reliability, and service bonds.",
+          "Category Rotations - Single-seat shifts across categories.",
+          "Seat Changes - Minimal year-on-year adjustments.",
+          "Counselling Policy Changes - Rules vary by state and round.",
+          "Fees, Stipends, Bonds - Check tuition, hostel charges, stipend reliability, and service bonds.",
         ],
       },
       {
@@ -6318,7 +6318,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
@@ -6575,7 +6575,7 @@ export const blogPosts: BlogPost[] = [
         id: "document-upload-list",
         type: "list",
         items: [
-          "Photo: 50–80 KB, JPG, 200 DPI, white background, 70–80% face visible, no spectacles.",
+          "Photo: 50-80 KB, JPG, 200 DPI, white background, 70-80% face visible, no spectacles.",
           "Signature: Max 80 KB, scanned at 200 DPI.",
           "Thumb Impression: Left thumb, clear scan.",
           "Medical Council Registration: PDF 1 MB.",
@@ -6609,7 +6609,7 @@ export const blogPosts: BlogPost[] = [
         id: "payment-note2",
         type: "paragraph",
         content:
-          "If it's been deducted but pending, you need to wait 2–3 days OR repay to secure a city slot. Refunds are processed later.",
+          "If it's been deducted but pending, you need to wait 2-3 days OR repay to secure a city slot. Refunds are processed later.",
       },
       {
         id: "payment-confirmation",
@@ -6676,13 +6676,13 @@ export const blogPosts: BlogPost[] = [
             question:
               "Q1: Can I edit my application after submission and payment?",
             answer:
-              "There will be only limited fields that can be edited during the correction window which is going to start from (May 9–13). Whereas the important details like name, email, and mobile number cannot be changed.",
+              "There will be only limited fields that can be edited during the correction window which is going to start from (May 9-13). Whereas the important details like name, email, and mobile number cannot be changed.",
           },
           {
             question:
               "Q2: What if my payment is deducted but the application is incomplete?",
             answer:
-              "You have to just wait for 2–3 days for processing. But if it still shows incomplete, then you have to make a fresh payment just to confirm registration. If there's any extra amount will be refunded by NBE.",
+              "You have to just wait for 2-3 days for processing. But if it still shows incomplete, then you have to make a fresh payment just to confirm registration. If there's any extra amount will be refunded by NBE.",
           },
           {
             question:
@@ -6697,7 +6697,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtFDDQx-kLQ496dPZVYrcKdkE/edit",
       },
       {
         id: "keywords",
@@ -6979,7 +6979,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
@@ -7099,7 +7099,7 @@ export const blogPosts: BlogPost[] = [
         type: "info-box",
         boxType: "info",
         content:
-          "While deemed universities generally offer seats only through All India Counselling, five Karnataka-based deemed universities (JSS, K.S. Hegde, Kasturba Manipal, Kasturba Mangalore, Yenepoya) also allocate a small percentage of seats through Karnataka's state quota at significantly lower fees (as low as ₹1.5–7 lakh per year compared to ₹26 lakh).\n\nIf you are eligible under Karnataka's domicile or reserved categories, these seats are worth exploring.",
+          "While deemed universities generally offer seats only through All India Counselling, five Karnataka-based deemed universities (JSS, K.S. Hegde, Kasturba Manipal, Kasturba Mangalore, Yenepoya) also allocate a small percentage of seats through Karnataka's state quota at significantly lower fees (as low as ₹1.5-7 lakh per year compared to ₹26 lakh).\n\nIf you are eligible under Karnataka's domicile or reserved categories, these seats are worth exploring.",
       },
       {
         id: "identification",
@@ -7197,7 +7197,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
@@ -7405,7 +7405,7 @@ export const blogPosts: BlogPost[] = [
         items: [
           "50% of total seats reserved for In-service candidates",
           "Additional weightage marks based on years and place of service",
-          "Bonus marks: 2.5%, 5%, 7.5%, or 10% based on the category of healthcare center (V1–V4)",
+          "Bonus marks: 2.5%, 5%, 7.5%, or 10% based on the category of healthcare center (V1-V4)",
           "Maternity leave counts toward service duration for weightage",
           "Diploma holders are not eligible for incentives",
           "Weightage affects only the service merit list and not the direct merit list.",
@@ -7606,7 +7606,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
@@ -7954,7 +7954,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
@@ -8009,7 +8009,7 @@ export const blogPosts: BlogPost[] = [
           "Application Fee: ₹1,500",
           "Last Date to Apply: June 5, 2025",
           "Last Date to Send Documents:\n  - General Merit candidates: June 7, 2025\n  - Minority/Service category candidates: June 17, 2025",
-          "Timings: 8:00 AM – 4:00 PM",
+          "Timings: 8:00 AM - 4:00 PM",
         ],
       },
       {
@@ -8338,7 +8338,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
@@ -8593,7 +8593,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
@@ -8632,7 +8632,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro",
         type: "paragraph",
         content:
-          "The Directorate of Medical Education (DME) Tamil Nadu administers Tamil Nadu Management Quota counselling for 50% of postgraduate medical seats in private institutions for the 2025–26 academic session. This guide explains eligibility, documentation, Tamil Nadu management quota registration, Tamil Nadu management quota fees, and step-by-step procedures for Tamil Nadu PG Management Quota counselling.",
+          "The Directorate of Medical Education (DME) Tamil Nadu administers Tamil Nadu Management Quota counselling for 50% of postgraduate medical seats in private institutions for the 2025-26 academic session. This guide explains eligibility, documentation, Tamil Nadu management quota registration, Tamil Nadu management quota fees, and step-by-step procedures for Tamil Nadu PG Management Quota counselling.",
       },
       {
         id: "overview",
@@ -8980,7 +8980,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
@@ -9091,7 +9091,7 @@ export const blogPosts: BlogPost[] = [
         items: [
           "Available in private medical colleges for Karnataka and non-Karnataka candidates.",
           "Includes minority quota, open seats, and management quota options.",
-          "Fees vary by institution, often ranging from ₹10–15 lakh per year.",
+          "Fees vary by institution, often ranging from ₹10-15 lakh per year.",
         ],
       },
       {
@@ -9198,8 +9198,8 @@ export const blogPosts: BlogPost[] = [
         type: "list",
         items: [
           "Application Fee (KEA): ₹1,000 (General/OBC), ₹500 (SC/ST/PwD)",
-          "Security Deposit: ₹25,000 (General), ₹10,000 (SC/ST) – refundable upon joining",
-          "Tuition Fees:\n  - Government quota: ₹75,000–₹1.25 lakh per year\n  - Private quota: ₹10–15 lakh per year\n  - NRI/Management seats: ₹30–45 lakh per year",
+          "Security Deposit: ₹25,000 (General), ₹10,000 (SC/ST) - refundable upon joining",
+          "Tuition Fees:\n  - Government quota: ₹75,000-₹1.25 lakh per year\n  - Private quota: ₹10-15 lakh per year\n  - NRI/Management seats: ₹30-45 lakh per year",
         ],
       },
       {
@@ -9341,7 +9341,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
@@ -9530,7 +9530,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
@@ -9796,7 +9796,7 @@ export const blogPosts: BlogPost[] = [
         id: "upload-intro",
         type: "paragraph",
         content:
-          "After logging in, proceed to 'Upload Documents' by entering your application number and date of birth. The following documents are generally required (in PDF format, 100–200 KB each):",
+          "After logging in, proceed to 'Upload Documents' by entering your application number and date of birth. The following documents are generally required (in PDF format, 100-200 KB each):",
       },
       {
         id: "upload-documents",
@@ -9892,7 +9892,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
@@ -10161,7 +10161,7 @@ export const blogPosts: BlogPost[] = [
             "₹57,890 + ₹23,160 (caution & annual fee)",
           ],
           ["RCC Trivandrum", "Clinical Courses", "₹3,00,000"],
-          ["Private Self-Financing", "Clinical Courses", "₹17–19 lakh"],
+          ["Private Self-Financing", "Clinical Courses", "₹17-19 lakh"],
           ["NRI Quota", "Clinical Courses", "₹38 lakh"],
         ],
       },
@@ -10302,7 +10302,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
@@ -10509,7 +10509,7 @@ export const blogPosts: BlogPost[] = [
   //     {
   //       "id": "step7-content",
   //       "type": "list",
-  //       "title": "The following documents must be uploaded in PDF format (100–200 KB) each:",
+  //       "title": "The following documents must be uploaded in PDF format (100-200 KB) each:",
   //       "items": [
   //         "NEET PG 2025 Scorecard",
   //         "MBBS Degree Certificate",
@@ -10624,7 +10624,7 @@ export const blogPosts: BlogPost[] = [
   //       "id": "contact-form",
   //       "type": "contact-form",
   //       "title": "Submit queries to BelieversConsultancy",
-  //       "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8"
+  //       "content": "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8"
   //     }
   //   ]
   // },
@@ -11054,7 +11054,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtF",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours: https://docs.google.com/forms/d/1uE2R_rzlOv-3LA-L3VJtF",
       },
     ],
   },
@@ -11359,12 +11359,12 @@ export const blogPosts: BlogPost[] = [
         type: "table",
         headers: ["Institute Type", "Quota", "Approx. Annual Fee (₹)"],
         rows: [
-          ["Government College", "GQ", "30,000 – 70,000"],
-          ["Private College", "GQ", "1 lakh – 12.5 lakh"],
-          ["Private College", "MQ", "12 lakh – 59 lakh"],
-          ["Private College", "NRI", "23 lakh – 65 lakh"],
-          ["Pre-clinical Courses", "All Quotas", "1,000 – 7 lakh"],
-          ["Paraclinical Courses", "All Quotas", "1.3 – 32.5 lakh"],
+          ["Government College", "GQ", "30,000 - 70,000"],
+          ["Private College", "GQ", "1 lakh - 12.5 lakh"],
+          ["Private College", "MQ", "12 lakh - 59 lakh"],
+          ["Private College", "NRI", "23 lakh - 65 lakh"],
+          ["Pre-clinical Courses", "All Quotas", "1,000 - 7 lakh"],
+          ["Paraclinical Courses", "All Quotas", "1.3 - 32.5 lakh"],
         ],
       },
       {
@@ -11460,14 +11460,14 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours: https://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
   {
     id: 28,
     title:
-      "Telangana NEET PG 2025 Management Quota – Complete Application Guide",
+      "Telangana NEET PG 2025 Management Quota - Complete Application Guide",
     slug: "telangana-neet-pg-2025-management-quota-complete-application-guide",
     excerpt:
       "Complete guide to Telangana NEET PG 2025 Management Quota counselling covering seat categories (MQ1, MQ2, MQ3), eligibility criteria, application timeline, fee structure, step-by-step process, and FAQs for MD/MS/Diploma admissions in private medical colleges.",
@@ -11516,7 +11516,7 @@ export const blogPosts: BlogPost[] = [
         id: "seat-structure-content",
         type: "paragraph",
         content:
-          "Private medical college seats in Telangana are divided into three categories – Cat A, Cat B, and Cat C. Cat A seats fall under the Telangana Government Quota, also known as the Competent Authority Quota, with an approximate fee of 7.5 lakh per annum. Management Quota encompasses Cat B and Cat C seats.",
+          "Private medical college seats in Telangana are divided into three categories - Cat A, Cat B, and Cat C. Cat A seats fall under the Telangana Government Quota, also known as the Competent Authority Quota, with an approximate fee of 7.5 lakh per annum. Management Quota encompasses Cat B and Cat C seats.",
       },
       {
         id: "cat-b",
@@ -11546,8 +11546,8 @@ export const blogPosts: BlogPost[] = [
         id: "categories-list",
         type: "list",
         items: [
-          "MQ2 – NRI seats (open to NRI/OCI and NRI-sponsored candidates)",
-          "MQ3 – Institutional Quota, available to students or employees associated with a particular institution.",
+          "MQ2 - NRI seats (open to NRI/OCI and NRI-sponsored candidates)",
+          "MQ3 - Institutional Quota, available to students or employees associated with a particular institution.",
         ],
       },
       {
@@ -11656,7 +11656,7 @@ export const blogPosts: BlogPost[] = [
         id: "notes-content",
         type: "paragraph",
         content:
-          "Candidates should regularly check their emails and the application portal for any requests for document verification or updates.\n\nTelangana Management Quota does not offer reservation benefits based on caste or category for most candidates. Only those in the 40th–50th percentile range with specific social status may have advantages.\n\nAny changes or grievances will be addressed after the merit list is published, although the timeframe is often short.",
+          "Candidates should regularly check their emails and the application portal for any requests for document verification or updates.\n\nTelangana Management Quota does not offer reservation benefits based on caste or category for most candidates. Only those in the 40th-50th percentile range with specific social status may have advantages.\n\nAny changes or grievances will be addressed after the merit list is published, although the timeframe is often short.",
       },
       {
         id: "nri-institutional-key-points",
@@ -11783,7 +11783,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
@@ -12213,7 +12213,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
@@ -12578,7 +12578,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
@@ -12699,7 +12699,7 @@ export const blogPosts: BlogPost[] = [
         id: "result-publication",
         type: "list",
         items: [
-          "6th–7th November: Processing of NEET PG counselling allotment",
+          "6th-7th November: Processing of NEET PG counselling allotment",
           "7th or 8th November: Provisional result publication",
           "8th November: Final result declaration after corrections",
         ],
@@ -12714,7 +12714,7 @@ export const blogPosts: BlogPost[] = [
         id: "admission-reporting-content",
         type: "paragraph",
         content:
-          "Once the Round 1 allotment is released, candidates must report to their allotted institute between 9th–15th November 2025.\n\nThe NEET PG counselling procedure for reporting includes:",
+          "Once the Round 1 allotment is released, candidates must report to their allotted institute between 9th-15th November 2025.\n\nThe NEET PG counselling procedure for reporting includes:",
       },
       {
         id: "reporting-steps",
@@ -12729,7 +12729,7 @@ export const blogPosts: BlogPost[] = [
         id: "reporting-advice",
         type: "paragraph",
         content:
-          "It's recommended to report 1–2 days before the deadline to avoid last-minute issues. Institutions will then verify data with the MCC PG medical counselling portal to confirm admissions.",
+          "It's recommended to report 1-2 days before the deadline to avoid last-minute issues. Institutions will then verify data with the MCC PG medical counselling portal to confirm admissions.",
       },
       {
         id: "course-commencement",
@@ -12760,7 +12760,7 @@ export const blogPosts: BlogPost[] = [
         type: "list",
         items: [
           "All India Round 1 results on 8th November → Reporting till 15th November",
-          "State Round 1 choice filling between 6th–10th November → Results around 14th–15th November",
+          "State Round 1 choice filling between 6th-10th November → Results around 14th-15th November",
         ],
       },
       {
@@ -12783,12 +12783,12 @@ export const blogPosts: BlogPost[] = [
           [
             "All India Round 1",
             "Registration & Choice Filling",
-            "17 Oct – 5 Nov 2025",
+            "17 Oct - 5 Nov 2025",
           ],
           ["", "Result Publication", "8 Nov 2025"],
-          ["", "Reporting", "9 – 15 Nov 2025"],
-          ["State Round 1", "Registration & Choice Filling", "6 – 10 Nov 2025"],
-          ["", "Result Publication", "14 – 15 Nov 2025"],
+          ["", "Reporting", "9 - 15 Nov 2025"],
+          ["State Round 1", "Registration & Choice Filling", "6 - 10 Nov 2025"],
+          ["", "Result Publication", "14 - 15 Nov 2025"],
           ["", "Reporting", "Till 20 Nov 2025"],
           ["All India Round 2", "Choice Filling Begins", "19 Nov 2025"],
           ["", "Course Commencement", "8 Dec 2025"],
@@ -12828,7 +12828,7 @@ export const blogPosts: BlogPost[] = [
           "Plan: Don't wait for the last minute for choice filling in NEET PG.",
           "Keep documents ready: Ensure originals and photocopies are verified beforehand.",
           "Stay informed: Check the MCC counselling NEET PG and state websites for updates.",
-          "Manage time: Maintain a 1–2 day buffer for every round of NEET PG 2025 counselling.",
+          "Manage time: Maintain a 1-2 day buffer for every round of NEET PG 2025 counselling.",
           "Monitor transitions: Keep track of both AIQ and State timelines for smooth switching between rounds.",
         ],
       },
@@ -12914,7 +12914,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
@@ -13006,7 +13006,7 @@ export const blogPosts: BlogPost[] = [
         id: "step-1-content",
         type: "paragraph",
         content:
-          "There are 33 recognized disability centers across India for the All India medical counselling PG process. Candidates should locate their nearest center through the MCC NEET PG portal, schedule an appointment, and confirm by phone.\n\nSince evaluation may take 2–3 days, depending on the type of disability, plan your visit well before the NEET PG counselling schedule begins.",
+          "There are 33 recognized disability centers across India for the All India medical counselling PG process. Candidates should locate their nearest center through the MCC NEET PG portal, schedule an appointment, and confirm by phone.\n\nSince evaluation may take 2-3 days, depending on the type of disability, plan your visit well before the NEET PG counselling schedule begins.",
       },
       {
         id: "step-2",
@@ -13026,7 +13026,7 @@ export const blogPosts: BlogPost[] = [
           "NEET PG 2025 result card (proof of qualification)",
           "Valid UDID card",
           "Self-Certification Form (Appendix A)",
-          "Disability-specific affidavit (Appendix B–F as applicable)",
+          "Disability-specific affidavit (Appendix B-F as applicable)",
           "Supporting disability assessment reports (optional but helpful)",
         ],
       },
@@ -13052,7 +13052,7 @@ export const blogPosts: BlogPost[] = [
         type: "list",
         items: [
           "Self-Certification Form (Appendix A) - declaring your disability type, UDID number, and functional abilities (communication, mobility, etc.).",
-          "Disability-Specific Affidavit (Appendix B–F) - depending on whether you have hearing, locomotor, visual, cognitive, or multiple disabilities.",
+          "Disability-Specific Affidavit (Appendix B-F) - depending on whether you have hearing, locomotor, visual, cognitive, or multiple disabilities.",
         ],
       },
       {
@@ -13235,7 +13235,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
@@ -13308,7 +13308,7 @@ export const blogPosts: BlogPost[] = [
         id: "clause-a-documents-list",
         type: "list",
         items: [
-          "Qualifying Degree Certificate – MBBS/BDS from a Karnataka institution",
+          "Qualifying Degree Certificate - MBBS/BDS from a Karnataka institution",
           "For 2025 graduates, Provisional Degree Certificate (PDC), Pass Certificate, or Completion Certificate",
           "Caste/Caste Income Certificate (if applicable): SC/ST: Form D, Category-1: Form E, Categories 2A, 2B, 3A, 3B: Form F",
           "Married female candidates must submit caste certificates reflecting both maiden (father's) and marital (husband's) details as per Form D/E/F specifications.",
@@ -13350,8 +13350,8 @@ export const blogPosts: BlogPost[] = [
         id: "clause-b-documents-list",
         type: "list",
         items: [
-          "Study Certificate (Annexure 11) – countersigned by BEO/DDPI",
-          "SSLC/PUC Marks Card – proof of study in Karnataka",
+          "Study Certificate (Annexure 11) - countersigned by BEO/DDPI",
+          "SSLC/PUC Marks Card - proof of study in Karnataka",
           "MBBS/BDS Degree Certificate",
           "Caste/Caste Income Certificate (Form D/E/F)",
           "For NRI Ward: Annexure 17 + Embassy Certificate",
@@ -13380,7 +13380,7 @@ export const blogPosts: BlogPost[] = [
         id: "clause-c-eligibility-content",
         type: "paragraph",
         content:
-          "Candidates who studied in Karnataka for 10 years (1st–12th standard, including 10th or 12th) but completed MBBS/BDS outside Karnataka.",
+          "Candidates who studied in Karnataka for 10 years (1st-12th standard, including 10th or 12th) but completed MBBS/BDS outside Karnataka.",
       },
       {
         id: "clause-c-documents",
@@ -13433,7 +13433,7 @@ export const blogPosts: BlogPost[] = [
         id: "clause-d-documents-list",
         type: "list",
         items: [
-          "10-Year Study Certificate (1st–12th)",
+          "10-Year Study Certificate (1st-12th)",
           "Certificate from DPAR/Head of Department",
           "Caste/Caste Income Certificate (Form D/E/F)",
           "NRI Ward documents (Annexure 17 + Embassy Certificate)",
@@ -13758,7 +13758,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
@@ -13814,7 +13814,7 @@ export const blogPosts: BlogPost[] = [
         id: "understanding-counselling-content",
         type: "paragraph",
         content:
-          "The NEET PG counselling is the official process through which qualified candidates are allotted postgraduate medical seats across India. The process is supervised by:\n\n• MCC (Medical Counselling Committee) – for All India Quota (AIQ) 50% seats, Central Universities, AFMS, and Deemed Universities.\n\n• State Counselling Authorities – for the remaining 50% state quota seats in government and private colleges within the state.\n\nKey Keywords: NEET PG 2025, MCC NEET PG, all India counselling, state quota counselling, NEET PG seat allotment.",
+          "The NEET PG counselling is the official process through which qualified candidates are allotted postgraduate medical seats across India. The process is supervised by:\n\n• MCC (Medical Counselling Committee) - for All India Quota (AIQ) 50% seats, Central Universities, AFMS, and Deemed Universities.\n\n• State Counselling Authorities - for the remaining 50% state quota seats in government and private colleges within the state.\n\nKey Keywords: NEET PG 2025, MCC NEET PG, all India counselling, state quota counselling, NEET PG seat allotment.",
       },
       {
         id: "two-authorities",
@@ -14002,7 +14002,7 @@ export const blogPosts: BlogPost[] = [
         id: "nri-quota-content",
         type: "paragraph",
         content:
-          "If you are applying under the NRI quota, you must:\n\n• Produce an NRI certificate from the Indian Embassy.\n\n• Provide valid proof of relationship (parent/sibling/guardian).\n\n• Submit passport copies, visa details, and sponsor declaration.\n\nDeemed universities reserve 15%–20% seats for NRI candidates. The MCC NEET PG counselling handles the NRI quota for these colleges, so make sure all documents are uploaded before the verification deadline.",
+          "If you are applying under the NRI quota, you must:\n\n• Produce an NRI certificate from the Indian Embassy.\n\n• Provide valid proof of relationship (parent/sibling/guardian).\n\n• Submit passport copies, visa details, and sponsor declaration.\n\nDeemed universities reserve 15%-20% seats for NRI candidates. The MCC NEET PG counselling handles the NRI quota for these colleges, so make sure all documents are uploaded before the verification deadline.",
       },
       {
         id: "common-mistakes",
@@ -14198,7 +14198,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
@@ -14266,7 +14266,7 @@ export const blogPosts: BlogPost[] = [
         id: "step-1-content",
         type: "paragraph",
         content:
-          'NEET PG counselling takes place in four key rounds, which are:\n\n• "Round 1" – in this round, the primary choice filling and allotment.\n\n• "Round 2" – there is an upgrade for those already allotted in Round 1.\n\n• "Mop-up Round" – Fresh registration for unfilled seats.\n\n• "Stray Vacancy Round" – Final opportunity for vacant seats.\n\nEach round has a distinct timeline under MCC NEET PG counselling. Make sure to follow the NEET PG counselling schedule on the official MCC portal and keep all your documents ready before you lock choices.',
+          'NEET PG counselling takes place in four key rounds, which are:\n\n• "Round 1" - in this round, the primary choice filling and allotment.\n\n• "Round 2" - there is an upgrade for those already allotted in Round 1.\n\n• "Mop-up Round" - Fresh registration for unfilled seats.\n\n• "Stray Vacancy Round" - Final opportunity for vacant seats.\n\nEach round has a distinct timeline under MCC NEET PG counselling. Make sure to follow the NEET PG counselling schedule on the official MCC portal and keep all your documents ready before you lock choices.',
       },
       {
         id: "step-2",
@@ -14429,7 +14429,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
@@ -14518,7 +14518,7 @@ export const blogPosts: BlogPost[] = [
         id: "percentile-note",
         type: "paragraph",
         content:
-          "Candidates who have 40–50 percentiles are eligible only for reserved category seats.",
+          "Candidates who have 40-50 percentiles are eligible only for reserved category seats.",
       },
       {
         id: "educational-qualification",
@@ -14918,7 +14918,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
@@ -15287,7 +15287,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
@@ -15606,7 +15606,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "part-b-heading",
         type: "heading",
-        title: "Part B: How to Apply Online – Step-by-Step Guide",
+        title: "Part B: How to Apply Online - Step-by-Step Guide",
         level: 2,
       },
       {
@@ -15750,7 +15750,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
@@ -16057,7 +16057,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
@@ -16172,7 +16172,7 @@ export const blogPosts: BlogPost[] = [
         type: "table",
         headers: ["Activity", "Dates (Tentative)"],
         rows: [
-          ["Online Registration", "November 2 – 5, 2025"],
+          ["Online Registration", "November 2 - 5, 2025"],
           ["Provisional Merit List", "November 7, 2025"],
           ["Choice Filling and Locking", "November 12-14, 2025"],
           ["Seat Allotment Result", "November 16, 2025"],
@@ -16259,8 +16259,8 @@ export const blogPosts: BlogPost[] = [
         id: "seat-matrix-list",
         type: "list",
         items: [
-          "All India State Quota (50%) – for eligible Jharkhand-domicile candidates, which is managed by the MCC official portal.",
-          "All India Quota (50%) – managed by MCC",
+          "All India State Quota (50%) - for eligible Jharkhand-domicile candidates, which is managed by the MCC official portal.",
+          "All India Quota (50%) - managed by MCC",
           "Category-wise reservation applies to state government percentages as per norms for SC, ST, OBC, and EWS candidates.",
         ],
       },
@@ -16395,7 +16395,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
@@ -16695,7 +16695,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -17001,7 +17001,7 @@ export const blogPosts: BlogPost[] = [
   //       "id": "contact-form",
   //       "type": "contact-form",
   //       "title": "Submit queries to BelieversConsultancy",
-  //       "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
+  //       "content": "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8"
   //     }
   //   ]
   // },
@@ -17354,7 +17354,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
@@ -17673,7 +17673,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
@@ -17741,7 +17741,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "schedule",
         type: "heading",
-        title: "Round 1 Tentative Schedule (MD/MS – State Quota)",
+        title: "Round 1 Tentative Schedule (MD/MS - State Quota)",
         level: 2,
       },
       {
@@ -17751,7 +17751,7 @@ export const blogPosts: BlogPost[] = [
         rows: [
           [
             "Online Registration & Fee Submission",
-            "13 November – 18 November 2025",
+            "13 November - 18 November 2025",
           ],
           ["Choice Filling & Locking", "6-day window after registration"],
           ["Merit List Publication", "To be notified"],
@@ -17981,7 +17981,7 @@ export const blogPosts: BlogPost[] = [
           {
             question: "Q3: What are the registration dates for Round 1?",
             answer:
-              "The registration dates for round 1 are 13–18 November 2025, 11:59 PM.",
+              "The registration dates for round 1 are 13-18 November 2025, 11:59 PM.",
           },
           {
             question: "Q4: How is the choice-filling process structured?",
@@ -18019,7 +18019,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
@@ -18112,10 +18112,10 @@ export const blogPosts: BlogPost[] = [
         id: "govt-quota-list",
         type: "list",
         items: [
-          "Category 1 – Those who have completed MBBS from the State of West Bengal.",
-          "Category 2 – Those whose permanent residence is in West Bengal (must be clearly mentioned in their official documents).",
-          "In-Service Category – Medical professionals who have completed 3 years of continuous government service and have also worked in rural/remote/difficult areas for a minimum of 3 years.",
-          "Other Service Category – Regular service candidates working under WB Government, Central Government, or Semi-Government organizations (not under WBHS/WBMES/WBPHAS/DoHFW) are also eligible, but only for NEET PG counselling state quota seats, Open Category seats.",
+          "Category 1 - Those who have completed MBBS from the State of West Bengal.",
+          "Category 2 - Those whose permanent residence is in West Bengal (must be clearly mentioned in their official documents).",
+          "In-Service Category - Medical professionals who have completed 3 years of continuous government service and have also worked in rural/remote/difficult areas for a minimum of 3 years.",
+          "Other Service Category - Regular service candidates working under WB Government, Central Government, or Semi-Government organizations (not under WBHS/WBMES/WBPHAS/DoHFW) are also eligible, but only for NEET PG counselling state quota seats, Open Category seats.",
         ],
       },
       {
@@ -18306,7 +18306,7 @@ export const blogPosts: BlogPost[] = [
         id: "step7-content",
         type: "paragraph",
         content:
-          "In the next step, you have to upload the following in JPG format (20–100 KB):",
+          "In the next step, you have to upload the following in JPG format (20-100 KB):",
       },
       {
         id: "step7-list",
@@ -18416,7 +18416,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
@@ -18918,7 +18918,7 @@ export const blogPosts: BlogPost[] = [
         type: "info-box",
         boxType: "info",
         content:
-          "Note:\nOBC-A and OBC-B candidates who are scoring ranks in between 40th–50th percentiles may not qualify for AIQ counselling until and unless they are listed under the Central OBC list or Non-Creamy Layer, but they remain eligible for State Quota seats.",
+          "Note:\nOBC-A and OBC-B candidates who are scoring ranks in between 40th-50th percentiles may not qualify for AIQ counselling until and unless they are listed under the Central OBC list or Non-Creamy Layer, but they remain eligible for State Quota seats.",
       },
       {
         id: "eligibility-criteria",
@@ -18941,10 +18941,10 @@ export const blogPosts: BlogPost[] = [
         id: "govt-quota-list",
         type: "list",
         items: [
-          "MBBS from West Bengal – A Candidate who has passed their MBBS exam from a medical college in West Bengal.",
-          "Permanent Residence in West Bengal – West Bengal must have been mentioned as their permanent address by all the fellow candidates.",
-          "In-Service Candidates – They must have completed 3 years of regular service, which includes at least 3 years in rural/remote/difficult areas. Eligible only for In-Service Quota Seats.",
-          "Other Service Candidates – Regular service employees of the West Bengal Government, Government of India, or Semi-Govt. Organizations. Eligible only under the Open Category.",
+          "MBBS from West Bengal - A Candidate who has passed their MBBS exam from a medical college in West Bengal.",
+          "Permanent Residence in West Bengal - West Bengal must have been mentioned as their permanent address by all the fellow candidates.",
+          "In-Service Candidates - They must have completed 3 years of regular service, which includes at least 3 years in rural/remote/difficult areas. Eligible only for In-Service Quota Seats.",
+          "Other Service Candidates - Regular service employees of the West Bengal Government, Government of India, or Semi-Govt. Organizations. Eligible only under the Open Category.",
         ],
       },
       {
@@ -19308,9 +19308,9 @@ export const blogPosts: BlogPost[] = [
         id: "stipend-list",
         type: "list",
         items: [
-          "1st Year – ₹61,634/month",
-          "2nd Year – ₹65,606/month",
-          "3rd Year – ₹69,578/month",
+          "1st Year - ₹61,634/month",
+          "2nd Year - ₹65,606/month",
+          "3rd Year - ₹69,578/month",
           "ESIC Joka: ₹1,00,980/month",
         ],
       },
@@ -19559,7 +19559,7 @@ export const blogPosts: BlogPost[] = [
           ],
           [
             "Tuition Fee",
-            "₹30,000–₹40,000 (Govt), Varies (Private)",
+            "₹30,000-₹40,000 (Govt), Varies (Private)",
             "Bank Draft / Institute Payment",
             "Pay the full first-year fee",
           ],
@@ -19917,7 +19917,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
@@ -20031,7 +20031,7 @@ export const blogPosts: BlogPost[] = [
         type: "list",
         items: [
           "Paediatrics, Anaesthesia, Pathology, Dermatology, Obstetrics & Gynaecology, Psychiatry, etc.",
-          "Each specialty individually ranges from single-digit numbers to about 30–40 seats.",
+          "Each specialty individually ranges from single-digit numbers to about 30-40 seats.",
           "These collectively make up the rest of the placements.",
         ],
       },
@@ -20053,7 +20053,7 @@ export const blogPosts: BlogPost[] = [
         headers: ["S.No.", "Course", "Candidates"],
         rows: [
           // ["1", "-", "0"],
-          ["1", "(NBEMS–Diploma) Radio-Diagnosis", "1"],
+          ["1", "(NBEMS-Diploma) Radio-Diagnosis", "1"],
           ["2", "(NBEMS) Dermatology, Venereology & Leprosy", "1"],
           ["3", "(NBEMS) Ophthalmology", "1"],
           ["4", "(NBEMS) General Medicine", "15"],
@@ -20433,7 +20433,7 @@ export const blogPosts: BlogPost[] = [
         id: "percentile-note",
         type: "paragraph",
         content:
-          "Note: OBC/MOBC candidates with the rank of 40–50 percentiles are eligible for Assam State Quota seats, but they are not eligible for All India Quota unless listed under the Central OBC-NCL list.",
+          "Note: OBC/MOBC candidates with the rank of 40-50 percentiles are eligible for Assam State Quota seats, but they are not eligible for All India Quota unless listed under the Central OBC-NCL list.",
       },
       {
         id: "eligibility-criteria",
@@ -20700,7 +20700,7 @@ export const blogPosts: BlogPost[] = [
         type: "table",
         headers: ["Institute", "Annual Fee"],
         rows: [
-          ["Govt Institutes", "₹25,900 – ₹27,300"],
+          ["Govt Institutes", "₹25,900 - ₹27,300"],
           ["LGBRIMH", "₹50,000"],
           ["Dr. B Borooah Cancer Institute", "1st Year ₹1,05,000"],
         ],
@@ -20811,7 +20811,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -20893,8 +20893,8 @@ export const blogPosts: BlogPost[] = [
         type: "list",
         items: [
           "Prospectus availability: 07 November 2025",
-          "Application submission: 07–10 November 2025 (till 5 PM)",
-          "Deficient document list: 11–12 November 2025",
+          "Application submission: 07-10 November 2025 (till 5 PM)",
+          "Deficient document list: 11-12 November 2025",
           "Submission of deficient documents: till 13 November 2025, 10 PM",
           "Eligible candidate list: 15 November 2025",
           "Choice filling & Counselling rounds (including NEET PG counselling round 2 & NEET PG counselling round 3): To be announced on the GMCH website",
@@ -21103,7 +21103,7 @@ export const blogPosts: BlogPost[] = [
         type: "list",
         items: [
           "Indian citizen (OCI pre-04.03.2021 allowed under the General category).",
-          "Must have scored: 50th percentile – General/EWS/OCI, 45th percentile – General PwBD, 40th percentile – SC/OBC (including PwBD)",
+          "Must have scored: 50th percentile - General/EWS/OCI, 45th percentile - General PwBD, 40th percentile - SC/OBC (including PwBD)",
           "Must complete internship by 31 July 2025.",
           "Must have NMC/State Medical Council registration.",
         ],
@@ -21472,7 +21472,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -21649,7 +21649,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "general-medicine",
         type: "heading",
-        title: "General Medicine – The New Favourite of Toppers",
+        title: "General Medicine - The New Favourite of Toppers",
         level: 4,
       },
       {
@@ -21664,7 +21664,7 @@ export const blogPosts: BlogPost[] = [
         items: [
           "9 out of the top 10 and 48 of top 100 chose Medicine.",
           "General Closing Rank: 3822 (+394 shift from 3428 in 2024)",
-          'Even though the closing rank moved positively, experts note an 800–1000 rank "negative shift" in demand at the top end, indicating high competition among toppers.',
+          'Even though the closing rank moved positively, experts note an 800-1000 rank "negative shift" in demand at the top end, indicating high competition among toppers.',
         ],
       },
       {
@@ -21849,7 +21849,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "physiology-content",
         type: "paragraph",
-        content: "General: ~35,839. LHMC closing range around 32,687–37,274.",
+        content: "General: ~35,839. LHMC closing range around 32,687-37,274.",
       },
       {
         id: "biochemistry",
@@ -21873,7 +21873,7 @@ export const blogPosts: BlogPost[] = [
         id: "community-medicine-content",
         type: "paragraph",
         content:
-          "This has typically, 30,000–35,000 closing range. This has been more and more chosen for research and public health careers.",
+          "This has typically, 30,000-35,000 closing range. This has been more and more chosen for research and public health careers.",
       },
       {
         id: "pharmacology-forensic",
@@ -21885,7 +21885,7 @@ export const blogPosts: BlogPost[] = [
         id: "pharmacology-forensic-content",
         type: "paragraph",
         content:
-          "There are premier colleges for Pharmacology & Forensic Medicine, like MAMC and LHMC, which continue to attract those candidates with ranks that range from 7,000–22,000, depending on the specialty.",
+          "There are premier colleges for Pharmacology & Forensic Medicine, like MAMC and LHMC, which continue to attract those candidates with ranks that range from 7,000-22,000, depending on the specialty.",
       },
       {
         id: "dnb-seats",
@@ -22010,7 +22010,7 @@ export const blogPosts: BlogPost[] = [
         id: "round-2-expectations-intro",
         type: "paragraph",
         content:
-          "Round 2 (Dec 2–10, 2025) of NEET PG counselling round 2 is expected to bring even better opportunities due to:",
+          "Round 2 (Dec 2-10, 2025) of NEET PG counselling round 2 is expected to bring even better opportunities due to:",
       },
       {
         id: "round-2-expectations-list",
@@ -22018,7 +22018,7 @@ export const blogPosts: BlogPost[] = [
         items: [
           "Additional MD/MS seats from NMC",
           "Upgradation/Non-joining vacancies from Round-1",
-          "INI-CET movement freeing 1000–1200 seats",
+          "INI-CET movement freeing 1000-1200 seats",
           "Improved accessibility for SC/ST categories",
           "More movement in mid-competition branches (Ortho, Paeds, Ophthalmology, PSM, Pathology)",
           "High-competition branches like Radiology and Dermatology may not see significant shifts in Round 2.",
@@ -22434,7 +22434,7 @@ export const blogPosts: BlogPost[] = [
         type: "list",
         items: [
           "Choose the NRI Type",
-          "Select the correct sub-category (1–6) Example: Actual NRI from Haryana, child of NRI from other Indian state, nearest relative of NRI, etc.",
+          "Select the correct sub-category (1-6) Example: Actual NRI from Haryana, child of NRI from other Indian state, nearest relative of NRI, etc.",
         ],
       },
       {
@@ -22544,7 +22544,7 @@ export const blogPosts: BlogPost[] = [
         id: "upload-documents-content",
         type: "paragraph",
         content:
-          "All documents must be uploaded (JPG/JPEG/PNG/PDF, 4 KB–500 KB):",
+          "All documents must be uploaded (JPG/JPEG/PNG/PDF, 4 KB-500 KB):",
       },
       {
         id: "upload-documents-list",
@@ -22668,7 +22668,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -22787,7 +22787,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "category-1",
         type: "heading",
-        title: "Category 1 – MBBS from Haryana",
+        title: "Category 1 - MBBS from Haryana",
         level: 4,
       },
       {
@@ -22799,7 +22799,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "category-2",
         type: "heading",
-        title: "Category 2 – Haryana Resident Certificate Holders",
+        title: "Category 2 - Haryana Resident Certificate Holders",
         level: 4,
       },
       {
@@ -22981,13 +22981,13 @@ export const blogPosts: BlogPost[] = [
       {
         id: "sgt-reservation",
         type: "heading",
-        title: "SGT University (State Quota – 25% seats only)",
+        title: "SGT University (State Quota - 25% seats only)",
         level: 3,
       },
       {
         id: "sgt-reservation-list",
         type: "list",
-        items: ["Open – 10%", "SC – 10%", "PwD – 5%"],
+        items: ["Open - 10%", "SC - 10%", "PwD - 5%"],
       },
       {
         id: "application-process",
@@ -23022,9 +23022,9 @@ export const blogPosts: BlogPost[] = [
         type: "table",
         headers: ["Step", "Dates"],
         rows: [
-          ["Registration", "13–16 Nov 2025 (11:59 PM)"],
-          ["Editing Window", "13–16 Nov 2025"],
-          ["Choice Filling & Locking", "13–16 Nov 2025"],
+          ["Registration", "13-16 Nov 2025 (11:59 PM)"],
+          ["Editing Window", "13-16 Nov 2025"],
+          ["Choice Filling & Locking", "13-16 Nov 2025"],
           ["Upcoming Rounds", "Will be announced later"],
         ],
       },
@@ -23099,7 +23099,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "registration-fee-list",
         type: "list",
-        items: ["₹2500 – Unreserved", "₹1250 – SC/BC/EWS/PwD (Haryana)"],
+        items: ["₹2500 - Unreserved", "₹1250 - SC/BC/EWS/PwD (Haryana)"],
       },
       {
         id: "security-deposit",
@@ -23140,7 +23140,7 @@ export const blogPosts: BlogPost[] = [
         items: [
           "Pre-clinical: ₹1,00,000",
           "Para-clinical: ₹1,25,000",
-          "Clinical: ₹1,00,000 – ₹14,00,000",
+          "Clinical: ₹1,00,000 - ₹14,00,000",
         ],
       },
       {
@@ -23153,9 +23153,9 @@ export const blogPosts: BlogPost[] = [
         id: "tuition-fee-private-list",
         type: "list",
         items: [
-          "Clinical: ₹20–45 lakhs",
+          "Clinical: ₹20-45 lakhs",
           "Pre-clinical: ₹10 lakhs",
-          "Para-clinical: ₹5.5–10 lakhs",
+          "Para-clinical: ₹5.5-10 lakhs",
         ],
       },
       {
@@ -23170,7 +23170,7 @@ export const blogPosts: BlogPost[] = [
         items: [
           "Pre-clinical: ₹2.4 lakhs",
           "Para-clinical: ₹7.2 lakhs",
-          "Clinical: ₹17.9–32.9 lakhs",
+          "Clinical: ₹17.9-32.9 lakhs",
         ],
       },
       {
@@ -23317,7 +23317,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
     ],
   },
@@ -23439,7 +23439,7 @@ export const blogPosts: BlogPost[] = [
         id: "seat-affect",
         type: "paragraph",
         content:
-          "No. It will only shift the counselling timeline by 10–15 days, not your chances.",
+          "No. It will only shift the counselling timeline by 10-15 days, not your chances.",
       },
       {
         id: "mcc-process",
@@ -23878,7 +23878,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "outcome-4",
         type: "heading",
-        title: "4. Expect a 10–15-day delay",
+        title: "4. Expect a 10-15-day delay",
         level: 3,
       },
       {
@@ -23960,7 +23960,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -23987,7 +23987,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 56,
     title:
-      "MCC Seat Matrix Confusion Explained: Understanding the DNB–MD/MS Duplication Issue in NEET PG 2025",
+      "MCC Seat Matrix Confusion Explained: Understanding the DNB-MD/MS Duplication Issue in NEET PG 2025",
     slug: "mcc-seat-matrix-confusion-explained-understanding-the-dnb-md-ms-duplication-issue-in-neet-pg-2025",
     excerpt:
       "Clear insight into how duplicated DNB and MD/MS seats impact choices, cut-offs, and counselling clarity for NEET PG 2025 aspirants.",
@@ -24239,8 +24239,8 @@ export const blogPosts: BlogPost[] = [
         id: "institute-structure-list",
         type: "list",
         items: [
-          "Medical College – MD/MS seats",
-          "Attached Hospital – DNB/NB Diploma seats",
+          "Medical College - MD/MS seats",
+          "Attached Hospital - DNB/NB Diploma seats",
         ],
       },
       {
@@ -24304,7 +24304,7 @@ export const blogPosts: BlogPost[] = [
         items: [
           "Most NB Diploma seats have already been removed.",
           "Several DNB seats have been withdrawn as well.",
-          "A final small batch (around 30–70 seats) is still pending removal.",
+          "A final small batch (around 30-70 seats) is still pending removal.",
           "MD/MS seats are expected to be added either in NEET PG counselling round 1 or NEET PG counselling round 2.",
         ],
       },
@@ -24333,8 +24333,8 @@ export const blogPosts: BlogPost[] = [
         id: "conversions-example-earlier-list",
         type: "list",
         items: [
-          "DNB Anesthesiology – 3 seats",
-          "NB Diploma in Anesthesia – 1 seat",
+          "DNB Anesthesiology - 3 seats",
+          "NB Diploma in Anesthesia - 1 seat",
         ],
       },
       {
@@ -24493,7 +24493,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -24813,14 +24813,14 @@ export const blogPosts: BlogPost[] = [
       {
         id: "kurnool-medical-college",
         type: "heading",
-        title: "Kurnool Medical College – MD General Medicine",
+        title: "Kurnool Medical College - MD General Medicine",
         level: 3,
       },
       {
         id: "kurnool-medical-college-list",
         type: "list",
         items: [
-          "Actual approved seats: 29 (approved in 2024–25)",
+          "Actual approved seats: 29 (approved in 2024-25)",
           "Last year, MCC assumed 20",
           "Surrendered seats were incorrectly distributed",
           "This year: 29 is correct",
@@ -24885,7 +24885,7 @@ export const blogPosts: BlogPost[] = [
         id: "government-colleges-list",
         type: "list",
         items: [
-          "Minor increases of 15–30 seats may still happen later",
+          "Minor increases of 15-30 seats may still happen later",
           "NCC updates sometimes come late due to representations",
         ],
       },
@@ -24914,7 +24914,7 @@ export const blogPosts: BlogPost[] = [
           "New seat increases will definitely reflect in Round 2",
           "AFMS will come after priority allotments",
           "Hamdard is permanently removed (unless a legal order)",
-          "Deemed increases already approved will appear in 9–15 days",
+          "Deemed increases already approved will appear in 9-15 days",
           "Private college seat increases affect state counselling only",
         ],
       },
@@ -24970,7 +24970,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -25047,7 +25047,7 @@ export const blogPosts: BlogPost[] = [
         id: "important-dates-intro",
         type: "paragraph",
         content:
-          "CENTAC has officially released the admission notification on its official portal for MD/MS programs for the academic year 2025–26. Here's what you must remember during NEET PG 2025 counselling:",
+          "CENTAC has officially released the admission notification on its official portal for MD/MS programs for the academic year 2025-26. Here's what you must remember during NEET PG 2025 counselling:",
       },
       {
         id: "key-dates",
@@ -25100,8 +25100,8 @@ export const blogPosts: BlogPost[] = [
         type: "table",
         headers: ["Applicant Type", "Fee"],
         rows: [
-          ["Puducherry Residents – Government Quota (SC/ST/PwD)", "₹1500"],
-          ["Puducherry Residents – Government Quota (Others)", "₹3000"],
+          ["Puducherry Residents - Government Quota (SC/ST/PwD)", "₹1500"],
+          ["Puducherry Residents - Government Quota (Others)", "₹3000"],
           ["Management Quota (All Candidates Eligible)", "₹5000"],
           ["Govt + Management Quota (Puducherry Residents)", "₹5000"],
           ["Other State Candidates / NRI / OCI (Management Only)", "₹5000"],
@@ -25455,8 +25455,8 @@ export const blogPosts: BlogPost[] = [
         id: "file-size-format-list",
         type: "list",
         items: [
-          "Photos & Signatures: 20–50 KB (JPEG/JPG)",
-          "Other documents: 100–500 KB (JPEG/JPG)",
+          "Photos & Signatures: 20-50 KB (JPEG/JPG)",
+          "Other documents: 100-500 KB (JPEG/JPG)",
           "Scorecard & Degree Certificate: PDF accepted",
         ],
       },
@@ -25580,7 +25580,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -25729,7 +25729,7 @@ export const blogPosts: BlogPost[] = [
           "Total",
         ],
         rows: [
-          ["OC/BC/SC/ST", "Within Andhra Pradesh", "₹6,000", "–", "₹6,000"],
+          ["OC/BC/SC/ST", "Within Andhra Pradesh", "₹6,000", "-", "₹6,000"],
           [
             "OC/BC/SC/ST",
             "Outside Andhra Pradesh",
@@ -25795,7 +25795,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "category-b-all-india",
         type: "heading",
-        title: "A. Category B Seats – 25% (Open to All India)",
+        title: "A. Category B Seats - 25% (Open to All India)",
         level: 3,
       },
       {
@@ -25810,7 +25810,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "category-b-local",
         type: "heading",
-        title: "B. Category B Seats – 85% (Local AP Candidates Only)",
+        title: "B. Category B Seats - 85% (Local AP Candidates Only)",
         level: 3,
       },
       {
@@ -25824,7 +25824,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "category-c-nri",
         type: "heading",
-        title: "C. Category C Seats – NRI Quota (15%)",
+        title: "C. Category C Seats - NRI Quota (15%)",
         level: 3,
       },
       {
@@ -25836,7 +25836,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "category-c-institutional",
         type: "heading",
-        title: "D. Category C Seats – Institutional Preference (10%)",
+        title: "D. Category C Seats - Institutional Preference (10%)",
         level: 3,
       },
       {
@@ -26164,7 +26164,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -26251,7 +26251,7 @@ export const blogPosts: BlogPost[] = [
         type: "list",
         items: [
           "Candidates from all over India can apply if they meet the NEET-PG percentile cut-off: General (50th), General PwD (45th), BC/SC/ST (40th).",
-          "Candidates between 40–50th percentiles in BC may not qualify for AIQ unless they fall under OBC-NCL, but remain eligible for the state quota",
+          "Candidates between 40-50th percentiles in BC may not qualify for AIQ unless they fall under OBC-NCL, but remain eligible for the state quota",
           "There will be no reservation within the Management Quota, as the cut-off percentile is only for qualification.",
         ],
       },
@@ -26415,7 +26415,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "category-b",
         type: "heading",
-        title: "Category B (S1A/S1B) – 25% of Total Seats",
+        title: "Category B (S1A/S1B) - 25% of Total Seats",
         level: 3,
       },
       {
@@ -26429,7 +26429,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "category-c",
         type: "heading",
-        title: "Category C (S2/S3) – 15% Seats",
+        title: "Category C (S2/S3) - 15% Seats",
         level: 3,
       },
       {
@@ -26503,8 +26503,8 @@ export const blogPosts: BlogPost[] = [
         headers: ["Event", "Schedule"],
         rows: [
           ["Notification Release", "18 Nov 2025"],
-          ["Application (No Late Fee)", "18 Nov 3 PM – 23 Nov 3 PM"],
-          ["Application (With Late Fee)", "24 Nov 11 AM – 26 Nov 11 AM"],
+          ["Application (No Late Fee)", "18 Nov 3 PM - 23 Nov 3 PM"],
+          ["Application (With Late Fee)", "24 Nov 11 AM - 26 Nov 11 AM"],
           ["Provisional Merit List", "To be updated"],
           ["Final Merit List", "To be updated"],
           ["Web Options", "To be notified"],
@@ -26642,7 +26642,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -27031,7 +27031,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -27169,7 +27169,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "step-2",
         type: "heading",
-        title: "Step 2: OPJR Candidate Login – How to Access Your Dashboard",
+        title: "Step 2: OPJR Candidate Login - How to Access Your Dashboard",
         level: 2,
       },
       {
@@ -27274,7 +27274,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "step-5",
         type: "heading",
-        title: "Step 5: Document Upload – What You Must Keep Ready",
+        title: "Step 5: Document Upload - What You Must Keep Ready",
         level: 2,
       },
       {
@@ -27352,7 +27352,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "step-7",
         type: "heading",
-        title: "Step 7: After Submission – Final Confirmation Page",
+        title: "Step 7: After Submission - Final Confirmation Page",
         level: 2,
       },
       {
@@ -27534,7 +27534,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -27759,7 +27759,7 @@ export const blogPosts: BlogPost[] = [
         id: "step-5-note",
         type: "paragraph",
         content:
-          "NOTE – registration doesn't guarantee a seat. You MUST complete the choice filling.",
+          "NOTE - registration doesn't guarantee a seat. You MUST complete the choice filling.",
       },
       {
         id: "choice-filling",
@@ -27867,7 +27867,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "after-allotment",
         type: "heading",
-        title: "After Round 2 Seat Allotment – Your Options",
+        title: "After Round 2 Seat Allotment - Your Options",
         level: 2,
       },
       {
@@ -28042,7 +28042,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "faqs",
         type: "heading",
-        title: "FAQs – NEET PG 2025 MCC Round 2",
+        title: "FAQs - NEET PG 2025 MCC Round 2",
         level: 2,
       },
       {
@@ -28079,7 +28079,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -28174,7 +28174,7 @@ export const blogPosts: BlogPost[] = [
         id: "sleep-shock",
         type: "paragraph",
         content:
-          "The first shock of residency is not how little you sleep, but how you sleep. Gone are the days of 6–8 hours of continuous rest. Instead, you'll get:",
+          "The first shock of residency is not how little you sleep, but how you sleep. Gone are the days of 6-8 hours of continuous rest. Instead, you'll get:",
       },
       {
         id: "sleep-list",
@@ -28495,7 +28495,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -28977,7 +28977,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "faqs",
         type: "heading",
-        title: "FAQs – What Residency Really Teaches",
+        title: "FAQs - What Residency Really Teaches",
         level: 2,
       },
       {
@@ -29015,7 +29015,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -29043,7 +29043,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 64,
     title:
-      "Work–Life Balance in OB-GYN: Myth or Reality? Here's the Truth Every Aspirant Should Know",
+      "Work-Life Balance in OB-GYN: Myth or Reality? Here's the Truth Every Aspirant Should Know",
     slug: "work-life-balance-ob-gyn-myth-or-reality-truth-every-aspirant-should-know",
     excerpt:
       "Discover the real OB GYN lifestyle, the workload, and how smart planning helps you build balance without losing passion.",
@@ -29110,8 +29110,8 @@ export const blogPosts: BlogPost[] = [
         id: "more-than-delivering-list",
         type: "list",
         items: [
-          "Obstetrics – antenatal care, pregnancy, labour, complications",
-          "Gynecology – reproductive health, hormonal care, diagnostic and surgical management",
+          "Obstetrics - antenatal care, pregnancy, labour, complications",
+          "Gynecology - reproductive health, hormonal care, diagnostic and surgical management",
         ],
       },
       {
@@ -29347,7 +29347,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "faqs",
         type: "heading",
-        title: "FAQs – Work–Life Balance in Obstetrics & Gynecology",
+        title: "FAQs - Work-Life Balance in Obstetrics & Gynecology",
         level: 2,
       },
       {
@@ -29356,7 +29356,7 @@ export const blogPosts: BlogPost[] = [
         faqs: [
           {
             question:
-              "Q1: Is work–life balance realistically possible in OB‑GYN?",
+              "Q1: Is work-life balance realistically possible in OB‑GYN?",
             answer:
               "Yes. Residency years are intense, but later you can choose sub‑specialties and practice setups (OPD‑based, academic, IVF, menopausal clinics, etc.) that offer far more predictable hours and better balance.",
           },
@@ -29391,7 +29391,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -29419,7 +29419,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 65,
     title:
-      "General Surgery in 2025 – The Branch That Creates Legends and Breaks Many Along the Way",
+      "General Surgery in 2025 - The Branch That Creates Legends and Breaks Many Along the Way",
     slug: "general-surgery-2025-branch-creates-legends-breaks-many-along-way",
     excerpt:
       "A demanding path that tests skill and grit yet shapes bold surgeons ready to lead with precision and purpose.",
@@ -29593,26 +29593,26 @@ export const blogPosts: BlogPost[] = [
       {
         id: "initial-phase",
         type: "heading",
-        title: "Initial phase (0–5 years)",
+        title: "Initial phase (0-5 years)",
         level: 3,
       },
       {
         id: "initial-phase-content",
         type: "paragraph",
         content:
-          "₹1.2–2.5 lakh per month (during residency, junior consultant phase, or training)",
+          "₹1.2-2.5 lakh per month (during residency, junior consultant phase, or training)",
       },
       {
         id: "growth-phase",
         type: "heading",
-        title: "Growth phase (5–10 years)",
+        title: "Growth phase (5-10 years)",
         level: 3,
       },
       {
         id: "growth-phase-content",
         type: "paragraph",
         content:
-          "₹3–6 lakh per month (depending on skill, location & surgical exposure)",
+          "₹3-6 lakh per month (depending on skill, location & surgical exposure)",
       },
       {
         id: "senior-consultant",
@@ -29624,7 +29624,7 @@ export const blogPosts: BlogPost[] = [
         id: "senior-consultant-content",
         type: "paragraph",
         content:
-          "₹8–18 lakh per month (with advanced skills or niche specialization)",
+          "₹8-18 lakh per month (with advanced skills or niche specialization)",
       },
       {
         id: "independent-practice",
@@ -29636,7 +29636,7 @@ export const blogPosts: BlogPost[] = [
         id: "independent-practice-content",
         type: "paragraph",
         content:
-          "₹10–30 lakh+ possible depending on surgery type, city tier, and patient volume",
+          "₹10-30 lakh+ possible depending on surgery type, city tier, and patient volume",
       },
       {
         id: "earning-trajectory-conclusion",
@@ -29743,7 +29743,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "faqs",
         type: "heading",
-        title: "FAQs – General Surgery in 2025",
+        title: "FAQs - General Surgery in 2025",
         level: 2,
       },
       {
@@ -29757,15 +29757,15 @@ export const blogPosts: BlogPost[] = [
               "General Surgery suits doctors who enjoy hands‑on work, anatomy, acute decision‑making, and can tolerate long hours, emergencies, and delayed financial rewards. If you crave quick stability, fixed timings, or minimal stress, it may not be the best fit.",
           },
           {
-            question: "Q2: Is work–life balance possible in General Surgery?",
+            question: "Q2: Is work-life balance possible in General Surgery?",
             answer:
-              "In residency and early consultant years, work–life balance is usually poor because of long OTs, emergencies, and calls. Balance improves gradually once skills, reputation, and a stable practice or team are established.",
+              "In residency and early consultant years, work-life balance is usually poor because of long OTs, emergencies, and calls. Balance improves gradually once skills, reputation, and a stable practice or team are established.",
           },
           {
             question:
               "Q3: How does the earning pattern of a surgeon usually progress?",
             answer:
-              'Income is modest in residency and early consultant years, then typically grows sharply after 5–10 years as operative volume, sub‑specialisation, and patient trust increase. Surgery is a "slow start, strong finish" branch.',
+              'Income is modest in residency and early consultant years, then typically grows sharply after 5-10 years as operative volume, sub‑specialisation, and patient trust increase. Surgery is a "slow start, strong finish" branch.',
           },
           {
             question:
@@ -29780,7 +29780,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -29906,7 +29906,7 @@ export const blogPosts: BlogPost[] = [
         id: "demand-salary-fresh",
         type: "paragraph",
         content:
-          "Fresh MDs/DNBs residents who typically start with their ₹2.5–3.5 lakhs per month, which are often higher in the tier-2 cities, where demand for nuclear medicine services is rising faster than their supply. Along with the utmost experience, especially in nuclear medicine therapy, if you finally develop the expertise in therapy, then finally your earning potential can grow significantly.",
+          "Fresh MDs/DNBs residents who typically start with their ₹2.5-3.5 lakhs per month, which are often higher in the tier-2 cities, where demand for nuclear medicine services is rising faster than their supply. Along with the utmost experience, especially in nuclear medicine therapy, if you finally develop the expertise in therapy, then finally your earning potential can grow significantly.",
       },
       {
         id: "demand-salary-saturation",
@@ -29930,7 +29930,7 @@ export const blogPosts: BlogPost[] = [
         id: "opening-ranks-change",
         type: "paragraph",
         content:
-          "In the last 2–3 counselling cycles, the opening ranks have climbed higher, which means candidates are choosing this branch early and not as a last alternative. This clearly shows two trends:",
+          "In the last 2-3 counselling cycles, the opening ranks have climbed higher, which means candidates are choosing this branch early and not as a last alternative. This clearly shows two trends:",
       },
       {
         id: "opening-ranks-trends",
@@ -30035,7 +30035,7 @@ export const blogPosts: BlogPost[] = [
         id: "career-advancement-dm",
         type: "paragraph",
         content:
-          "DM (Nuclear Medicine or related specialisations) – which has highly limited seats but is highly valuable",
+          "DM (Nuclear Medicine or related specialisations) - which has highly limited seats but is highly valuable",
       },
       {
         id: "career-advancement-fellowships",
@@ -30243,7 +30243,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "faqs",
         type: "heading",
-        title: "FAQs – Nuclear Medicine as a Career",
+        title: "FAQs - Nuclear Medicine as a Career",
         level: 2,
       },
       {
@@ -30258,9 +30258,9 @@ export const blogPosts: BlogPost[] = [
           },
           {
             question:
-              "Q2: How is the work–life balance compared to other clinical branches?",
+              "Q2: How is the work-life balance compared to other clinical branches?",
             answer:
-              "Most Nuclear Medicine jobs have predictable daytime hours, limited night emergencies, and fewer acute crises than core medicine or surgery branches, so overall work–life balance tends to be better.",
+              "Most Nuclear Medicine jobs have predictable daytime hours, limited night emergencies, and fewer acute crises than core medicine or surgery branches, so overall work-life balance tends to be better.",
           },
           {
             question:
@@ -30270,7 +30270,7 @@ export const blogPosts: BlogPost[] = [
           },
           {
             question:
-              "Q4: Is there a real risk of saturation in the next 5–10 years?",
+              "Q4: Is there a real risk of saturation in the next 5-10 years?",
             answer:
               "Current trends suggest low saturation risk: PET‑CT and theranostic services are expanding faster than training capacity, especially in tier‑2 cities, so demand for skilled Nuclear Medicine specialists is likely to stay strong.",
           },
@@ -30281,7 +30281,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -30522,7 +30522,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "faqs",
         type: "heading",
-        title: "FAQs – NEET PG Counselling Mistakes",
+        title: "FAQs - NEET PG Counselling Mistakes",
         level: 2,
       },
       {
@@ -30538,7 +30538,7 @@ export const blogPosts: BlogPost[] = [
           {
             question: "Q2: How many choices should I ideally fill?",
             answer:
-              "Add every branch–college combination you are genuinely willing to join, ordered from most to least preferred. Very short lists unnecessarily reduce your chances of getting a good seat.",
+              "Add every branch-college combination you are genuinely willing to join, ordered from most to least preferred. Very short lists unnecessarily reduce your chances of getting a good seat.",
           },
           {
             question:
@@ -30558,7 +30558,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -30960,7 +30960,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "work-life",
         type: "heading",
-        title: "Work–Life Balance",
+        title: "Work-Life Balance",
         level: 2,
       },
       {
@@ -31125,7 +31125,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "faqs",
         type: "heading",
-        title: "FAQs – General Radiology in 2025",
+        title: "FAQs - General Radiology in 2025",
         level: 2,
       },
       {
@@ -31140,7 +31140,7 @@ export const blogPosts: BlogPost[] = [
           },
           {
             question:
-              "Q2: What kind of work–life balance can a radiologist expect?",
+              "Q2: What kind of work-life balance can a radiologist expect?",
             answer:
               "During residency, duties and night calls can be heavy, especially in busy centres. After training, many jobs offer more predictable hours, fewer emergencies than core clinical branches, and options like teleradiology or part‑time work.",
           },
@@ -31163,7 +31163,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -31542,7 +31542,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "faqs",
         type: "heading",
-        title: "FAQs – Residency Rulebook for NEET PG",
+        title: "FAQs - Residency Rulebook for NEET PG",
         level: 2,
       },
       {
@@ -31564,7 +31564,7 @@ export const blogPosts: BlogPost[] = [
             question:
               "Q3: How close to home should I try to stay for residency?",
             answer:
-              "If possible, choose the best branch–college combination within a region where language, culture, and family support feel familiar, without compromising heavily on the branch.",
+              "If possible, choose the best branch-college combination within a region where language, culture, and family support feel familiar, without compromising heavily on the branch.",
           },
           {
             question:
@@ -31579,7 +31579,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -31607,7 +31607,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 70,
     title:
-      "Anesthesia: The Silent Guardian of Every Surgery – What You Must Know Before Choosing This Branch",
+      "Anesthesia: The Silent Guardian of Every Surgery - What You Must Know Before Choosing This Branch",
     slug: "anesthesia-silent-guardian-every-surgery-what-you-must-know-before-choosing-branch",
     excerpt:
       "A precise and powerful specialty that protects patients, demands calm focus and builds strong clinical mastery.",
@@ -31889,22 +31889,22 @@ export const blogPosts: BlogPost[] = [
       {
         id: "earnings-tier1",
         type: "paragraph",
-        content: "Tier 1 cities: ₹1–2L/month → ₹5–12L/month",
+        content: "Tier 1 cities: ₹1-2L/month → ₹5-12L/month",
       },
       {
         id: "earnings-tier2",
         type: "paragraph",
-        content: "Tier 2: ₹2–6L/month",
+        content: "Tier 2: ₹2-6L/month",
       },
       {
         id: "earnings-tier3",
         type: "paragraph",
-        content: "Tier 3: ₹3–8L/month + freelance ₹5k–₹20k per case",
+        content: "Tier 3: ₹3-8L/month + freelance ₹5k-₹20k per case",
       },
       {
         id: "earnings-freelance",
         type: "paragraph",
-        content: "Freelance OT practice can reach ₹15k–40k/day.",
+        content: "Freelance OT practice can reach ₹15k-40k/day.",
       },
       {
         id: "earnings-yes",
@@ -31963,10 +31963,10 @@ export const blogPosts: BlogPost[] = [
         id: "global-opportunities-list",
         type: "list",
         items: [
-          "UK – FRCA, structured, high respect",
-          "Australia/New Zealand – excellent lifestyle",
-          "Gulf – very high earnings",
-          "USA – competitive but possible",
+          "UK - FRCA, structured, high respect",
+          "Australia/New Zealand - excellent lifestyle",
+          "Gulf - very high earnings",
+          "USA - competitive but possible",
         ],
       },
       {
@@ -32101,7 +32101,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "faqs",
         type: "heading",
-        title: "FAQs – Anaesthesia as a Career (For NEET PG Students)",
+        title: "FAQs - Anaesthesia as a Career (For NEET PG Students)",
         level: 2,
       },
       {
@@ -32115,7 +32115,7 @@ export const blogPosts: BlogPost[] = [
           },
           {
             question:
-              "Q2: How is the work–life balance in anaesthesia compared to surgical branches?",
+              "Q2: How is the work-life balance in anaesthesia compared to surgical branches?",
             answer:
               "Residency duties are heavy and nights are unpredictable, similar to many surgical branches. As a consultant, OT lists are planned, ICU/pain work can be chosen, and freelancing allows good control over the schedule.",
           },
@@ -32137,7 +32137,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -32294,12 +32294,12 @@ export const blogPosts: BlogPost[] = [
         id: "emergency-medicine-counselling-content",
         type: "paragraph",
         content:
-          "The candidates who have ranked 10,000–12,000 and traditionally depend on Emergency Medicine as a fallback must rotate to all the alternatives, such as Surgery or Pathology.",
+          "The candidates who have ranked 10,000-12,000 and traditionally depend on Emergency Medicine as a fallback must rotate to all the alternatives, such as Surgery or Pathology.",
       },
       {
         id: "general-medicine",
         type: "heading",
-        title: "2. General Medicine – Intensifying at the Top",
+        title: "2. General Medicine - Intensifying at the Top",
         level: 3,
       },
       {
@@ -32345,7 +32345,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "psychiatry",
         type: "heading",
-        title: "3. Psychiatry – The Emerging Mid-Tier Surge",
+        title: "3. Psychiatry - The Emerging Mid-Tier Surge",
         level: 3,
       },
       {
@@ -32391,7 +32391,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "orthopedics",
         type: "heading",
-        title: "4. Orthopedics – Gradual but Consistent Tightening",
+        title: "4. Orthopedics - Gradual but Consistent Tightening",
         level: 3,
       },
       {
@@ -32423,7 +32423,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "pathology-gynae",
         type: "heading",
-        title: "5. Pathology and Obstetrics & Gynaecology – Relative Stability",
+        title: "5. Pathology and Obstetrics & Gynaecology - Relative Stability",
         level: 3,
       },
       {
@@ -32449,7 +32449,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "radio-diagnosis",
         type: "heading",
-        title: "1. Radio-Diagnosis – The Unexpected Opportunity",
+        title: "1. Radio-Diagnosis - The Unexpected Opportunity",
         level: 3,
       },
       {
@@ -32458,7 +32458,7 @@ export const blogPosts: BlogPost[] = [
         items: [
           "2024: 2,514",
           "2025: 2,200",
-          "Shift: –314 ranks (–12.5% easier)",
+          "Shift: -314 ranks (-12.5% easier)",
         ],
       },
       {
@@ -32494,7 +32494,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "general-surgery",
         type: "heading",
-        title: "2. General Surgery – Slight Relaxation",
+        title: "2. General Surgery - Slight Relaxation",
         level: 3,
       },
       {
@@ -32503,7 +32503,7 @@ export const blogPosts: BlogPost[] = [
         items: [
           "2024: 4,500",
           "2025: - 4,200",
-          "Shift: –300 ranks (–6.7% easier)",
+          "Shift: -300 ranks (-6.7% easier)",
         ],
       },
       {
@@ -32540,8 +32540,8 @@ export const blogPosts: BlogPost[] = [
         type: "list",
         items: [
           "Tier 1 (2,500): General Medicine, and Gynae",
-          "Tier 2 (2,500–6,000): Radiology, Surgery, Pathology",
-          "Tier 3 (6,000–12,000): Psychiatry, Emergency Medicine",
+          "Tier 2 (2,500-6,000): Radiology, Surgery, Pathology",
+          "Tier 3 (6,000-12,000): Psychiatry, Emergency Medicine",
           "Tier 4 (12,000): it comes with Orthopedics",
         ],
       },
@@ -32601,7 +32601,7 @@ export const blogPosts: BlogPost[] = [
         id: "critical-takeaways-list",
         type: "list",
         items: [
-          "Emergency Medicine that affects the ranks 10,000–12,000, most importantly",
+          "Emergency Medicine that affects the ranks 10,000-12,000, most importantly",
           "Radiology basically offers the best upside opportunity in 2025",
           'Psychiatry is no longer a "safe backup."',
           "Preference attentiveness is increasing, not expanding",
@@ -32635,7 +32635,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "faqs",
         type: "heading",
-        title: "FAQs – NEET PG 2025 vs 2024 Round 2 Analysis",
+        title: "FAQs - NEET PG 2025 vs 2024 Round 2 Analysis",
         level: 2,
       },
       {
@@ -32661,7 +32661,7 @@ export const blogPosts: BlogPost[] = [
           },
           {
             question:
-              "Q4: I'm around rank 8,000–10,000. What's the main change for me in 2025?",
+              "Q4: I'm around rank 8,000-10,000. What's the main change for me in 2025?",
             answer:
               'Psychiatry and Emergency Medicine are both tighter than before, so they cannot be treated as "certain backups." You should add solid options in Surgery, Pathology, and state‑quota seats rather than counting on a single branch.',
           },
@@ -32672,7 +32672,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -33195,7 +33195,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "faqs",
         type: "heading",
-        title: "FAQs – Pediatrics as a Career (For NEET PG Students)",
+        title: "FAQs - Pediatrics as a Career (For NEET PG Students)",
         level: 2,
       },
       {
@@ -33232,7 +33232,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -33718,7 +33718,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "faqs",
         type: "heading",
-        title: "FAQs – NEET PG 2025 Choice Filling for Mid‑Rankers",
+        title: "FAQs - NEET PG 2025 Choice Filling for Mid‑Rankers",
         level: 2,
       },
       {
@@ -33735,7 +33735,7 @@ export const blogPosts: BlogPost[] = [
             question:
               "Q2: How many choices should I fill in on the MCC portal?",
             answer:
-              "Include every branch–college combination you are genuinely willing to join, arranged from aspirational to safe. Very short lists increase your risk of going unallotted or getting an avoidable paid seat.",
+              "Include every branch-college combination you are genuinely willing to join, arranged from aspirational to safe. Very short lists increase your risk of going unallotted or getting an avoidable paid seat.",
           },
           {
             question:
@@ -33756,7 +33756,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -33892,7 +33892,7 @@ export const blogPosts: BlogPost[] = [
         id: "passing-rates-intro",
         type: "paragraph",
         content:
-          "Passing rates for NBEMS Diploma examinations vary across specialties. Based on the recent 2023–2024 data:",
+          "Passing rates for NBEMS Diploma examinations vary across specialties. Based on the recent 2023-2024 data:",
       },
       {
         id: "passing-rates-practical",
@@ -34138,7 +34138,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "faqs",
         type: "heading",
-        title: "FAQs – NBEMS Diploma for NEET PG Aspirants",
+        title: "FAQs - NBEMS Diploma for NEET PG Aspirants",
         level: 2,
       },
       {
@@ -34174,7 +34174,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -34269,7 +34269,7 @@ export const blogPosts: BlogPost[] = [
         items: [
           "The work environment",
           "Toxicity levels",
-          "Senior–junior culture",
+          "Senior-junior culture",
           "Workload and team dynamics",
         ],
       },
@@ -34419,7 +34419,7 @@ export const blogPosts: BlogPost[] = [
         id: "point-6-list",
         type: "list",
         items: [
-          "After 8–10 years, stagnation can happen if you don't start your own centre.",
+          "After 8-10 years, stagnation can happen if you don't start your own centre.",
           "Setting up a radiology centre requires a massive investment.",
           "Artificial Intelligence will transform radiology, helpful for efficiency, but challenging for general radiologists.",
           "Interventional Radiology will boom; plain radiology may feel the pressure.",
@@ -34591,7 +34591,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "faqs",
         type: "heading",
-        title: "FAQs – Choosing a NEET PG Branch (2025)",
+        title: "FAQs - Choosing a NEET PG Branch (2025)",
         level: 2,
       },
       {
@@ -34627,7 +34627,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -34993,7 +34993,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "faqs",
         type: "heading",
-        title: "FAQs – NEET PG Choice List & Rounds",
+        title: "FAQs - NEET PG Choice List & Rounds",
         level: 2,
       },
       {
@@ -35003,7 +35003,7 @@ export const blogPosts: BlogPost[] = [
           {
             question: "Q1: How many choices should I ideally fill?",
             answer:
-              "Fill as many branch–college combinations as you are genuinely willing to join, in correct priority order. Too few choices increase the risk of no allotment or only very late options.",
+              "Fill as many branch-college combinations as you are genuinely willing to join, in correct priority order. Too few choices increase the risk of no allotment or only very late options.",
           },
           {
             question:
@@ -35030,7 +35030,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -35560,7 +35560,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -35781,7 +35781,7 @@ export const blogPosts: BlogPost[] = [
         id: "section-4-govt-list",
         type: "list",
         items: [
-          "Assistant Professors earn around ₹1.2–1.3 lakh per month",
+          "Assistant Professors earn around ₹1.2-1.3 lakh per month",
           "Promotions are steady and predictable",
           "Job security is strong, especially in new medical colleges",
         ],
@@ -36022,7 +36022,7 @@ export const blogPosts: BlogPost[] = [
           {
             question: "Q.4 What is the salary after MD forensic medicine?",
             answer:
-              "Government roles start around ₹6–10 LPA. Income increases steadily with experience and consultancy work.",
+              "Government roles start around ₹6-10 LPA. Income increases steadily with experience and consultancy work.",
           },
         ],
       },
@@ -36031,7 +36031,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -36592,7 +36592,7 @@ export const blogPosts: BlogPost[] = [
           {
             question: "Q3: What is the salary after MD PSM in India?",
             answer:
-              "Government jobs start around ₹50,000–1 lakh/month, while NGOs and the private sector can pay ₹1.5–2.5 lakh/month or more with experience.",
+              "Government jobs start around ₹50,000-1 lakh/month, while NGOs and the private sector can pay ₹1.5-2.5 lakh/month or more with experience.",
           },
           {
             question: "Q4: Can MD PSM graduates work clinically?",
@@ -36606,7 +36606,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -36673,7 +36673,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro",
         type: "paragraph",
         content:
-          "Choosing a postgraduate branch after MBBS is not just about ranks and seat availability during NEET PG counselling. It is about understanding how you want to practice medicine for the next 30–40 years. Some branches promise adrenaline and immediate gratification. Others offer stability, intellectual depth, and long-term relevance. Microbiology after MBBS is one such specialty that offers stability, intellectual depth, and long-term relevance, rather than instant fame.",
+          "Choosing a postgraduate branch after MBBS is not just about ranks and seat availability during NEET PG counselling. It is about understanding how you want to practice medicine for the next 30-40 years. Some branches promise adrenaline and immediate gratification. Others offer stability, intellectual depth, and long-term relevance. Microbiology after MBBS is one such specialty that offers stability, intellectual depth, and long-term relevance, rather than instant fame.",
       },
       {
         id: "intro-perception",
@@ -37037,7 +37037,7 @@ export const blogPosts: BlogPost[] = [
           {
             question: "Q3: What is the salary after MD Microbiology in India?",
             answer:
-              "Government jobs start around ₹6–10 lakh per annum, while private labs and hospitals offer ₹8–15 lakh per annum, depending on experience and skills.",
+              "Government jobs start around ₹6-10 lakh per annum, while private labs and hospitals offer ₹8-15 lakh per annum, depending on experience and skills.",
           },
           {
             question:
@@ -37052,7 +37052,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -37179,9 +37179,9 @@ export const blogPosts: BlogPost[] = [
         id: "section-2-list",
         type: "list",
         items: [
-          "Histopathology – the heart of pathology",
-          "Cytology & FNAC – early, minimally invasive diagnosis",
-          "Hematopathology – peripheral smears and bone marrow evaluation",
+          "Histopathology - the heart of pathology",
+          "Cytology & FNAC - early, minimally invasive diagnosis",
+          "Hematopathology - peripheral smears and bone marrow evaluation",
           "Immunohistochemistry (IHC) & Molecular Testing",
           "Flow Cytometry",
           "Grossing of specimens",
@@ -37293,7 +37293,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "section-6",
         type: "heading",
-        title: "Work–Life Balance: One of Pathology's Strongest Advantages",
+        title: "Work-Life Balance: One of Pathology's Strongest Advantages",
         level: 2,
       },
       {
@@ -37334,9 +37334,9 @@ export const blogPosts: BlogPost[] = [
         id: "section-7-list",
         type: "list",
         items: [
-          "Medical colleges: ₹75,000 – ₹4.5 lakh/month",
-          "Private hospitals & labs: ₹1.5 – ₹6 lakh/month",
-          "Lab ownership: ₹4 – ₹40+ lakh/month",
+          "Medical colleges: ₹75,000 - ₹4.5 lakh/month",
+          "Private hospitals & labs: ₹1.5 - ₹6 lakh/month",
+          "Lab ownership: ₹4 - ₹40+ lakh/month",
         ],
       },
       {
@@ -37475,7 +37475,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "faqs",
         type: "heading",
-        title: "FAQs – MD Pathology for NEET PG Students",
+        title: "FAQs - MD Pathology for NEET PG Students",
         level: 2,
       },
       {
@@ -37498,7 +37498,7 @@ export const blogPosts: BlogPost[] = [
             question:
               "Q3: Can I earn well as a pathologist without owning a lab?",
             answer:
-              "Yes, in the private hospitals/labs, pay at least 1–4L/month, which is the starting salary, medical colleges, 75k–2L. The own lab unlocks the maximum potential (₹5L+), but salaried roles are very stable.",
+              "Yes, in the private hospitals/labs, pay at least 1-4L/month, which is the starting salary, medical colleges, 75k-2L. The own lab unlocks the maximum potential (₹5L+), but salaried roles are very stable.",
           },
           {
             question:
@@ -37513,7 +37513,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -37762,7 +37762,7 @@ export const blogPosts: BlogPost[] = [
         id: "faqs",
         type: "heading",
         title:
-          "FAQs – What Residency Really Does to You (For NEET PG Students)",
+          "FAQs - What Residency Really Does to You (For NEET PG Students)",
         level: 2,
       },
       {
@@ -37800,7 +37800,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -38195,9 +38195,9 @@ export const blogPosts: BlogPost[] = [
         id: "section-6-list",
         type: "list",
         items: [
-          "Hospital jobs: ₹1.2–3.5 lakh/month (varies widely)",
+          "Hospital jobs: ₹1.2-3.5 lakh/month (varies widely)",
           "Private practice: grows steadily with patient base",
-          "Established clinics: ₹4–10+ lakh/month over time",
+          "Established clinics: ₹4-10+ lakh/month over time",
           "Abroad: significantly higher earning potential",
         ],
       },
@@ -38305,7 +38305,7 @@ export const blogPosts: BlogPost[] = [
         items: [
           "Enjoy seeing the whole patient",
           "Value continuity over episodic care",
-          "Want long-term doctor–patient relationships",
+          "Want long-term doctor-patient relationships",
           "Prefer balanced, sustainable careers",
           "Are comfortable with uncertainty and responsibility",
         ],
@@ -38370,7 +38370,7 @@ export const blogPosts: BlogPost[] = [
             question:
               "Q3: What is the salary after MD Family Medicine in India?",
             answer:
-              "Entry-level salaries are around ₹9–12 lakh per year, with significant growth as you gain experience and build a patient base.",
+              "Entry-level salaries are around ₹9-12 lakh per year, with significant growth as you gain experience and build a patient base.",
           },
           {
             question: "Q4: Can MD Family Medicine graduates work abroad?",
@@ -38384,7 +38384,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -38753,7 +38753,7 @@ export const blogPosts: BlogPost[] = [
             question:
               "Q2: What is the timeline for NEET PG Round 3 counselling?",
             answer:
-              "Choice filling: 30 Dec–4 Jan, Result: 4–5 Jan, Reporting: 5–14 Jan. State results may come between 6–9 Jan.",
+              "Choice filling: 30 Dec-4 Jan, Result: 4-5 Jan, Reporting: 5-14 Jan. State results may come between 6-9 Jan.",
           },
           {
             question: "Q3: What happens if I leave an All India seat?",
@@ -38778,7 +38778,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -39329,7 +39329,7 @@ export const blogPosts: BlogPost[] = [
           {
             question: "Q3: What is the salary after MD Dermatology in India?",
             answer:
-              "You know the entry-level salary of any dermatologist is: ₹6–12 lakh per annum; Mid-level income would be: ₹12–20 lpa; Senior-level income is: ₹20–40 lpa, especially when you are in private practice.",
+              "You know the entry-level salary of any dermatologist is: ₹6-12 lakh per annum; Mid-level income would be: ₹12-20 lpa; Senior-level income is: ₹20-40 lpa, especially when you are in private practice.",
           },
           {
             question: "Q4: Can MD Dermatology graduates work abroad?",
@@ -39343,7 +39343,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -39460,7 +39460,7 @@ export const blogPosts: BlogPost[] = [
           "Genetics and molecular biology",
           "Biochemistry of nutrition",
           "Biomarkers and clinical enzymology",
-          "Acid–base balance and electrolyte disorders",
+          "Acid-base balance and electrolyte disorders",
           "Laboratory diagnostics and quality assurance",
         ],
       },
@@ -39708,7 +39708,7 @@ export const blogPosts: BlogPost[] = [
         id: "saturation-content",
         type: "paragraph",
         content:
-          "No. The real issue is under-recognition, not oversupply. India faces a shortage of skilled biochemists who can interpret complex data rather than merely generate reports. As diagnostics become more advanced, demand among medical residency–trained professionals continues to rise.",
+          "No. The real issue is under-recognition, not oversupply. India faces a shortage of skilled biochemists who can interpret complex data rather than merely generate reports. As diagnostics become more advanced, demand among medical residency-trained professionals continues to rise.",
       },
       {
         id: "misconceptions",
@@ -39753,7 +39753,7 @@ export const blogPosts: BlogPost[] = [
         type: "list",
         items: [
           "Love pathways/reactions from 1st MBBS",
-          "Want 9–6 job (no calls)",
+          "Want 9-6 job (no calls)",
           "Enjoy teaching MBBS",
           "Plan research/PhD",
           "Seek stability over glamour",
@@ -39795,7 +39795,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "faqs",
         type: "heading",
-        title: "4 FAQs – MD Biochemistry for NEET PG Students",
+        title: "4 FAQs - MD Biochemistry for NEET PG Students",
         level: 2,
       },
       {
@@ -39806,7 +39806,7 @@ export const blogPosts: BlogPost[] = [
             question:
               "Q1: Can I get MD Biochemistry with a decent rank (under 20k)?",
             answer:
-              "Yes, seats may be available in good colleges. Whereas the Govt seats need 15–25k rank, the private easier. The strong subject knowledge helps you in the interviews.",
+              "Yes, seats may be available in good colleges. Whereas the Govt seats need 15-25k rank, the private easier. The strong subject knowledge helps you in the interviews.",
           },
           {
             question:
@@ -39831,7 +39831,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -40081,7 +40081,7 @@ export const blogPosts: BlogPost[] = [
         id: "day-includes-list",
         type: "list",
         items: [
-          "NICU rounds with 20–40 babies",
+          "NICU rounds with 20-40 babies",
           "Continuous alarms and desaturation episodes",
           "Endless fluid and electrolyte calculations",
           "Reassuring anxious parents repeatedly",
@@ -40155,9 +40155,9 @@ export const blogPosts: BlogPost[] = [
         id: "earning-tier1-list",
         type: "list",
         items: [
-          "Junior Consultant: ₹1.2–2 lakh/month",
-          "Senior Pediatrician: ₹3–6 lakh/month",
-          "Neonatologist: ₹6–15 lakh/month",
+          "Junior Consultant: ₹1.2-2 lakh/month",
+          "Senior Pediatrician: ₹3-6 lakh/month",
+          "Neonatologist: ₹6-15 lakh/month",
         ],
       },
       {
@@ -40169,7 +40169,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "earning-tier2-content",
         type: "paragraph",
-        content: "₹2–6 lakh/month with stable growth",
+        content: "₹2-6 lakh/month with stable growth",
       },
       {
         id: "earning-tier3",
@@ -40180,7 +40180,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "earning-tier3-content",
         type: "paragraph",
-        content: "₹3–8 lakh/month due to high demand and trust",
+        content: "₹3-8 lakh/month due to high demand and trust",
       },
       {
         id: "earning-private",
@@ -40192,8 +40192,8 @@ export const blogPosts: BlogPost[] = [
         id: "earning-private-list",
         type: "list",
         items: [
-          "OPD: ₹3,000–15,000/day",
-          "With NICU setup: ₹30,000–1 lakh/day",
+          "OPD: ₹3,000-15,000/day",
+          "With NICU setup: ₹30,000-1 lakh/day",
         ],
       },
       {
@@ -40376,7 +40376,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "faqs",
         type: "heading",
-        title: "4 FAQs – MD Pediatrics for NEET PG Aspirants",
+        title: "4 FAQs - MD Pediatrics for NEET PG Aspirants",
         level: 2,
       },
       {
@@ -40386,7 +40386,7 @@ export const blogPosts: BlogPost[] = [
           {
             question: "Q1: Pediatrics rank needed for a good govt seat?",
             answer:
-              "8k–15k All India for top colleges. State quotas easier (15–25k). Neonatology DM needs top 1k + NEET-SS.",
+              "8k-15k All India for top colleges. State quotas easier (15-25k). Neonatology DM needs top 1k + NEET-SS.",
           },
           {
             question: "Q2: Is Pediatrics too emotional for me?",
@@ -40396,12 +40396,12 @@ export const blogPosts: BlogPost[] = [
           {
             question: "Q3: Private practice starts fast after PG?",
             answer:
-              "Yes, parents trust fresh MDs. Tier 3 cities: Full OPD in 6 months. Metro: 1–2 yrs to build.",
+              "Yes, parents trust fresh MDs. Tier 3 cities: Full OPD in 6 months. Metro: 1-2 yrs to build.",
           },
           {
             question: "Q4: Neonatology vs General Pediatrics, which pays more?",
             answer:
-              "Neonatology (₹8–20L after exp). General (₹4–10L). Neo has more stress + NICU shifts.",
+              "Neonatology (₹8-20L after exp). General (₹4-10L). Neo has more stress + NICU shifts.",
           },
         ],
       },
@@ -40410,7 +40410,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\nhttps://forms.gle/24RzkmeNreNikpJA8",
       },
       {
         id: "keywords",
@@ -40706,7 +40706,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "faqs",
         type: "heading",
-        title: "4 FAQs – Internship to NEET PG Guide",
+        title: "4 FAQs - Internship to NEET PG Guide",
         level: 2,
       },
       {
@@ -40742,7 +40742,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\n",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\n",
       },
       {
         id: "keywords",
@@ -41086,7 +41086,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "faqs",
         type: "heading",
-        title: "4 FAQs – PG Residency Program Mindset for NEET PG Students",
+        title: "4 FAQs - PG Residency Program Mindset for NEET PG Students",
         level: 2,
       },
       {
@@ -41121,7 +41121,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\n.",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\n.",
       },
       {
         id: "keywords",
@@ -41271,8 +41271,8 @@ export const blogPosts: BlogPost[] = [
         id: "section-3-salary-list",
         type: "list",
         items: [
-          "Although the salary expectation of entry-level consultants without any advanced machine submission is typically around ₹1.5–2 lakh per month in metro cities",
-          "If we talk about the senior residency and they have 1–2 years of experience, the salaries commonly rise to ₹2–3 lakh per month",
+          "Although the salary expectation of entry-level consultants without any advanced machine submission is typically around ₹1.5-2 lakh per month in metro cities",
+          "If we talk about the senior residency and they have 1-2 years of experience, the salaries commonly rise to ₹2-3 lakh per month",
           "In Tier-2 cities, which often offer higher packages than metros, because of the workforce shortages",
         ],
       },
@@ -41527,7 +41527,7 @@ export const blogPosts: BlogPost[] = [
             question:
               "FAQ 3: What salary can one expect after Radiation Oncology residency?",
             answer:
-              "Some fresh consultants earn in their field around ₹1.5–2 lakh/month, which can absolutely rise to ₹2–3 lakh/month after they done senior residency and a few years of experience.",
+              "Some fresh consultants earn in their field around ₹1.5-2 lakh/month, which can absolutely rise to ₹2-3 lakh/month after they done senior residency and a few years of experience.",
           },
           {
             question:
@@ -41542,7 +41542,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\n.",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\n.",
       },
       {
         id: "keywords",
@@ -41672,7 +41672,7 @@ export const blogPosts: BlogPost[] = [
         id: "section-2-conclusion",
         type: "paragraph",
         content:
-          "Such exposure builds strong surgical judgment during residency training programs, even if hands-on opportunities are limited initially. Graduates from premier institutes often have an edge during fellowships, senior residency selection, academic careers, and even plastic surgery residency application–linked fellowships.",
+          "Such exposure builds strong surgical judgment during residency training programs, even if hands-on opportunities are limited initially. Graduates from premier institutes often have an edge during fellowships, senior residency selection, academic careers, and even plastic surgery residency application-linked fellowships.",
       },
       {
         id: "section-3",
@@ -41718,7 +41718,7 @@ export const blogPosts: BlogPost[] = [
         id: "section-4-list",
         type: "list",
         items: [
-          "In residency, there will be 12–14-hour daily duties that are common",
+          "In residency, there will be 12-14-hour daily duties that are common",
           "Their work includes OPD, admissions, surgeries, emergency calls, and post-operative care of patients as well.",
           "Night duties and emergencies are very repetitive.",
         ],
@@ -41727,7 +41727,7 @@ export const blogPosts: BlogPost[] = [
         id: "section-4-conclusion",
         type: "paragraph",
         content:
-          "During your PG, the work-life balance is virtually nonexistent. However, it helps to improve remarkably during the senior residency, as junior residents handle most routine work. At the consultant level, ENT often becomes a manageable 9–5 specialty, with emergencies usually managed by residents.",
+          "During your PG, the work-life balance is virtually nonexistent. However, it helps to improve remarkably during the senior residency, as junior residents handle most routine work. At the consultant level, ENT often becomes a manageable 9-5 specialty, with emergencies usually managed by residents.",
       },
       {
         id: "section-5",
@@ -41778,7 +41778,7 @@ export const blogPosts: BlogPost[] = [
         id: "section-6-list",
         type: "list",
         items: [
-          "Starting salary: ₹1.5–2 lakhs per month (fixed)",
+          "Starting salary: ₹1.5-2 lakhs per month (fixed)",
           "Stable work hours",
           "Permission for private practice as per norms",
         ],
@@ -41850,7 +41850,7 @@ export const blogPosts: BlogPost[] = [
         id: "section-9-list",
         type: "list",
         items: [
-          "Modular OT setup: ₹60–80 lakhs",
+          "Modular OT setup: ₹60-80 lakhs",
           "Advanced endoscopes, microscopes, lasers: can cost crores",
         ],
       },
@@ -41919,7 +41919,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "faqs",
         type: "heading",
-        title: "4 FAQs – ENT for NEET PG Counselling",
+        title: "4 FAQs - ENT for NEET PG Counselling",
         level: 2,
       },
       {
@@ -41928,7 +41928,7 @@ export const blogPosts: BlogPost[] = [
         faqs: [
           {
             question: "Q1: ENT rank cutoff for good govt seat?",
-            answer: "AIQ: 10–25k. State: 15–40k. DNB: 20–50k.",
+            answer: "AIQ: 10-25k. State: 15-40k. DNB: 20-50k.",
           },
           {
             question: "Q2: PG hands-on surgery guaranteed?",
@@ -41937,11 +41937,11 @@ export const blogPosts: BlogPost[] = [
           },
           {
             question: "Q3: Tier 3 private > Metro corporate?",
-            answer: "Yes for earnings (₹8–15L vs ₹3–5L). Build volume fast.",
+            answer: "Yes for earnings (₹8-15L vs ₹3-5L). Build volume fast.",
           },
           {
             question: "Q4: MCh after ENT-how competitive?",
-            answer: "Head-Neck/Skull Base: NEET-SS top 100–200. Growing seats.",
+            answer: "Head-Neck/Skull Base: NEET-SS top 100-200. Growing seats.",
           },
         ],
       },
@@ -41950,7 +41950,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\n",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\n",
       },
       {
         id: "keywords",
@@ -42022,7 +42022,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro-context",
         type: "paragraph",
         content:
-          "While medical textbooks and clinical skills are essential, there is a different kind of preparation no one warns you about: the everyday survival essentials that help you function during 36–48-hour duties. This blog is a realistic guide to the residency survival kit, built not from theory, but from experience.",
+          "While medical textbooks and clinical skills are essential, there is a different kind of preparation no one warns you about: the everyday survival essentials that help you function during 36-48-hour duties. This blog is a realistic guide to the residency survival kit, built not from theory, but from experience.",
       },
       {
         id: "why-survival-kit",
@@ -42397,7 +42397,7 @@ export const blogPosts: BlogPost[] = [
           {
             question: "Q2: Best shoes under ₹5k for PG?",
             answer:
-              "Bata Power/Asian cushioned. ₹2.5–4k. Ortho-approved for Indian wards.",
+              "Bata Power/Asian cushioned. ₹2.5-4k. Ortho-approved for Indian wards.",
           },
           {
             question: "Q3: How to pack for 48-hr duty?",
@@ -42416,7 +42416,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\n.",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\n.",
       },
       {
         id: "keywords",
@@ -42725,7 +42725,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\n.",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\n.",
       },
       {
         id: "keywords",
@@ -43118,7 +43118,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\n.",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\n.",
       },
       {
         id: "keywords",
@@ -43136,7 +43136,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     id: 102,
-    title: "FMGE Exam Guide – Part 1: Eligibility, Purpose & Basics",
+    title: "FMGE Exam Guide - Part 1: Eligibility, Purpose & Basics",
     slug: "fmge-exam-guide-part-1-eligibility-purpose-basics",
     excerpt:
       "Starting FMGE preparation? Learn eligibility rules, exam purpose, format, and key basics every foreign medical graduate must know before applying.",
@@ -43422,7 +43422,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM–7 PM support hours:\n\n.",
+          "Have a question beyond these FAQs? Submit the Google Form and the team will respond during 9 AM-7 PM support hours:\n\n.",
       },
       {
         id: "keywords",
@@ -43839,7 +43839,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\n",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\n",
       },
       {
         id: "keywords",
@@ -43863,7 +43863,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     id: 104,
-    title: "FMGE Exam Guide – Part 2: Exam Pattern, Challenges & Career Path",
+    title: "FMGE Exam Guide - Part 2: Exam Pattern, Challenges & Career Path",
     slug: "fmge-exam-guide-part-2-exam-pattern-challenges-career-path",
     excerpt:
       "This guide explains the FMGE exam pattern, common challenges, preparation strategy, and career paths for foreign medical graduates in India.",
@@ -43890,7 +43890,7 @@ export const blogPosts: BlogPost[] = [
     published_date: "2026-01-21",
     read_time: 8,
     meta_title:
-      "FMGE Exam Guide – Part 2: Exam Pattern, Challenges & Career Path",
+      "FMGE Exam Guide - Part 2: Exam Pattern, Challenges & Career Path",
     meta_description:
       "This guide explains the FMGE exam pattern, common challenges, preparation strategy, and career paths for foreign medical graduates in India.",
     keywords: [
@@ -44071,7 +44071,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "faqs",
         type: "heading",
-        title: "4 FMGE FAQs – NEET PG Aspirants",
+        title: "4 FMGE FAQs - NEET PG Aspirants",
         level: 2,
       },
       {
@@ -44105,7 +44105,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\n.",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\n.",
       },
       {
         id: "keywords",
@@ -44244,7 +44244,7 @@ export const blogPosts: BlogPost[] = [
         id: "point-2-para2",
         type: "paragraph",
         content:
-          "Most ophthalmologists training typically finish their official workday by 6–7 PM, which perfectly allows time for their family, for their hobbies, and personal well-being. This utmost predictability is barely rare in the overall surgical field.",
+          "Most ophthalmologists training typically finish their official workday by 6-7 PM, which perfectly allows time for their family, for their hobbies, and personal well-being. This utmost predictability is barely rare in the overall surgical field.",
       },
       {
         id: "point-2-para3",
@@ -44384,7 +44384,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "point-6-fellowships",
         type: "paragraph",
-        content: "Fellowships (1–2 years) are available in:",
+        content: "Fellowships (1-2 years) are available in:",
       },
       {
         id: "point-6-fellowships-list",
@@ -44426,9 +44426,9 @@ export const blogPosts: BlogPost[] = [
         id: "point-7-earnings-list",
         type: "list",
         items: [
-          "Freshers in Tier-1 cities earn around ₹1.5–2 lakh/month",
-          "With a good fellowship, income can rise to ₹2–3 lakh/month",
-          "Senior consultants with strong patient volume and reputation may earn ₹10–20 lakh/month, but this is not the norm",
+          "Freshers in Tier-1 cities earn around ₹1.5-2 lakh/month",
+          "With a good fellowship, income can rise to ₹2-3 lakh/month",
+          "Senior consultants with strong patient volume and reputation may earn ₹10-20 lakh/month, but this is not the norm",
         ],
       },
       {
@@ -44465,8 +44465,8 @@ export const blogPosts: BlogPost[] = [
         type: "list",
         items: [
           "Fundamental OPD infrastructure: ₹20 lakh",
-          "Operating theater setup: minimum ₹60–70 lakh",
-          "Comprehensive eye care facility (LASIK, retina services): ₹5–6 crore",
+          "Operating theater setup: minimum ₹60-70 lakh",
+          "Comprehensive eye care facility (LASIK, retina services): ₹5-6 crore",
         ],
       },
       {
@@ -44513,7 +44513,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "faqs",
         type: "heading",
-        title: "Ophthalmology residency FAQs – NEET PG Counselling",
+        title: "Ophthalmology residency FAQs - NEET PG Counselling",
         level: 2,
       },
       {
@@ -44522,12 +44522,12 @@ export const blogPosts: BlogPost[] = [
         faqs: [
           {
             question: "Q1: Ophthalmology rank cutoff?",
-            answer: "AIQ: 12–28k govt. State: 20–45k. DNB: 25–60k.",
+            answer: "AIQ: 12-28k govt. State: 20-45k. DNB: 25-60k.",
           },
           {
             question: "Q2: PG surgery hands-on?",
             answer:
-              "Limited. 50–100 cataracts max. Fellowship essential for volume.",
+              "Limited. 50-100 cataracts max. Fellowship essential for volume.",
           },
           {
             question: "Q3: Tier 3 > Metro for earnings?",
@@ -44536,7 +44536,7 @@ export const blogPosts: BlogPost[] = [
           {
             question: "Q4: Corporate chain vs private clinic?",
             answer:
-              "Chains = stability (₹3–5L). Clinic = uncapped (₹15L+) after 3 yrs.",
+              "Chains = stability (₹3-5L). Clinic = uncapped (₹15L+) after 3 yrs.",
           },
         ],
       },
@@ -44545,7 +44545,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\n",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\n",
       },
       {
         id: "keywords",
@@ -44909,7 +44909,7 @@ export const blogPosts: BlogPost[] = [
           },
           {
             question: "Q3: Average FMG wait time?",
-            answer: "Govt: 2–4 months. Private: 15 days.",
+            answer: "Govt: 2-4 months. Private: 15 days.",
           },
           {
             question: "Q4: Study NEET PG during internship?",
@@ -44922,7 +44922,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\n",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\n",
       },
       {
         id: "keywords",
@@ -44998,7 +44998,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "intro-subtitle",
         type: "heading",
-        title: "NEET PG Counselling 2026 – A Reality-Based Career Guide",
+        title: "NEET PG Counselling 2026 - A Reality-Based Career Guide",
         level: 2,
       },
       {
@@ -45067,7 +45067,7 @@ export const blogPosts: BlogPost[] = [
         id: "point-3-para",
         type: "paragraph",
         content:
-          "In Tier-1 corporate hospitals, which have the starting salaries which range between ₹1.5–2.5 lakh per month. You know what along With 2–3 years of experience, it may increase to ₹2.5 -- 3 lakh, specifically in North India.",
+          "In Tier-1 corporate hospitals, which have the starting salaries which range between ₹1.5-2.5 lakh per month. You know what along With 2-3 years of experience, it may increase to ₹2.5 -- 3 lakh, specifically in North India.",
       },
       {
         id: "point-3-para2",
@@ -45111,7 +45111,7 @@ export const blogPosts: BlogPost[] = [
         id: "point-5-para",
         type: "paragraph",
         content:
-          "EM follows a shift-based system, usually 8–12 hours per shift. While on duty, stress levels are extremely high, but once the shift ends, you are completely off duty.",
+          "EM follows a shift-based system, usually 8-12 hours per shift. While on duty, stress levels are extremely high, but once the shift ends, you are completely off duty.",
       },
       {
         id: "point-5-para2",
@@ -45308,7 +45308,7 @@ export const blogPosts: BlogPost[] = [
         id: "point-15-list",
         type: "list",
         items: [
-          "9–5 or 12–8 shifts",
+          "9-5 or 12-8 shifts",
           "They do have mandatory night duties, balanced with off days",
         ],
       },
@@ -45465,7 +45465,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "faqs",
         type: "heading",
-        title: "4 EM FAQs – NEET PG Students",
+        title: "4 EM FAQs - NEET PG Students",
         level: 2,
       },
       {
@@ -45482,7 +45482,7 @@ export const blogPosts: BlogPost[] = [
             question:
               "2. What is the NEET PG rank required for Emergency Medicine?",
             answer:
-              "Government MD seats usually close around 5,000–12,000 rank (General category), while private seats may be available at much higher ranks.",
+              "Government MD seats usually close around 5,000-12,000 rank (General category), while private seats may be available at much higher ranks.",
           },
           {
             question:
@@ -45493,7 +45493,7 @@ export const blogPosts: BlogPost[] = [
           {
             question: "4. Fresh EM salary realistic?",
             answer:
-              "₹1.5–2.5L metro corporate. Tier 2: ₹2–3L. Plateaus at ₹4–6L.",
+              "₹1.5-2.5L metro corporate. Tier 2: ₹2-3L. Plateaus at ₹4-6L.",
           },
         ],
       },
@@ -45502,7 +45502,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\n",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\n",
       },
       {
         id: "keywords",
@@ -45622,7 +45622,7 @@ export const blogPosts: BlogPost[] = [
         id: "point-2-para1",
         type: "paragraph",
         content:
-          "Earlier, completing your MS Orthopedics residency was considered as much as sufficient to establish a stable career. That landscape has changed. Today, most surgeons need 3–4 additional years after postgraduation, usually through senior residency and fellowships, before gaining confidence for independent practice.",
+          "Earlier, completing your MS Orthopedics residency was considered as much as sufficient to establish a stable career. That landscape has changed. Today, most surgeons need 3-4 additional years after postgraduation, usually through senior residency and fellowships, before gaining confidence for independent practice.",
       },
       {
         id: "point-2-para2",
@@ -45664,7 +45664,7 @@ export const blogPosts: BlogPost[] = [
         id: "point-4-metro-content",
         type: "paragraph",
         content:
-          "Fresh consultants usually start with the salaries which are around ₹1.5–2 lakhs per month in all the corporate hospitals. It is for several years, where most of the surgeons work under the senior consultants, and make independent decisions which come gradually. Establishing yourself in cities like Delhi or Mumbai takes time.",
+          "Fresh consultants usually start with the salaries which are around ₹1.5-2 lakhs per month in all the corporate hospitals. It is for several years, where most of the surgeons work under the senior consultants, and make independent decisions which come gradually. Establishing yourself in cities like Delhi or Mumbai takes time.",
       },
       {
         id: "point-4-tier23",
@@ -45676,7 +45676,7 @@ export const blogPosts: BlogPost[] = [
         id: "point-4-tier23-content",
         type: "paragraph",
         content:
-          "Opportunities are significantly better. Salaries of ₹4–5 lakhs per month are possible, and surgeons can become independent much earlier. Corporate hospitals are expanding into these regions, increasing demand for trained Orthopedics residency surgeons.",
+          "Opportunities are significantly better. Salaries of ₹4-5 lakhs per month are possible, and surgeons can become independent much earlier. Corporate hospitals are expanding into these regions, increasing demand for trained Orthopedics residency surgeons.",
       },
       {
         id: "point-4-govt",
@@ -45849,7 +45849,7 @@ export const blogPosts: BlogPost[] = [
           {
             question: "FAQ 3: What is the salary after MS Orthopedics?",
             answer:
-              "You know the starting salary has ranged from ₹1.5–2 lakh/month in metros and ₹3–5 lakh/month especially in Tier 2/3 cities. Where the income increases with experience, skills, and location.",
+              "You know the starting salary has ranged from ₹1.5-2 lakh/month in metros and ₹3-5 lakh/month especially in Tier 2/3 cities. Where the income increases with experience, skills, and location.",
           },
           {
             question:
@@ -45864,7 +45864,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\n.",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\n.",
       },
       {
         id: "keywords",
@@ -46248,7 +46248,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\n.",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\n.",
       },
       {
         id: "keywords",
@@ -46667,7 +46667,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\n.",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\n.",
       },
       {
         id: "keywords",
@@ -47051,7 +47051,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "faqs",
         type: "heading",
-        title: "Frequently Asked Questions (FAQs) – After Clearing FMGE",
+        title: "Frequently Asked Questions (FAQs) - After Clearing FMGE",
         level: 2,
       },
       {
@@ -47086,7 +47086,7 @@ export const blogPosts: BlogPost[] = [
         id: "contact-form",
         type: "paragraph",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours: https://docs.google.com/forms/",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours: https://docs.google.com/forms/",
       },
 
       {
@@ -47436,7 +47436,7 @@ export const blogPosts: BlogPost[] = [
             question:
               "FAQ 2: How much time should I take before my second attempt?",
             answer:
-              "There are so many candidates who need 3–6 months of focused preparation strategy. You know what matters structured revision is and MCQ practice, not rushing into the next exam.",
+              "There are so many candidates who need 3-6 months of focused preparation strategy. You know what matters structured revision is and MCQ practice, not rushing into the next exam.",
           },
           {
             question:
@@ -47457,7 +47457,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://docs.google.com/forms",
       },
       {
         id: "keywords",
@@ -47857,7 +47857,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\n.",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\n.",
       },
       {
         id: "keywords",
@@ -47930,7 +47930,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro",
         type: "paragraph",
         content:
-          "Opting a postgraduate branch during NEET PG Counselling 2026 is not just about the rank, cut-offs, or the college names. It is just about imagining your daily life for the next 30–40 years as a doctor. Psychiatry has steadily emerged as a preferred choice for many MBBS graduates, especially those looking for meaningful patient interactions, mental well-being, and a balanced professional life.",
+          "Opting a postgraduate branch during NEET PG Counselling 2026 is not just about the rank, cut-offs, or the college names. It is just about imagining your daily life for the next 30-40 years as a doctor. Psychiatry has steadily emerged as a preferred choice for many MBBS graduates, especially those looking for meaningful patient interactions, mental well-being, and a balanced professional life.",
       },
       {
         id: "intro-reality",
@@ -48097,8 +48097,8 @@ export const blogPosts: BlogPost[] = [
         id: "point-7-salary-list",
         type: "list",
         items: [
-          "Tier 1 cities: ₹2–3 lakh per month",
-          "Tier 2 and Tier 3 cities: ₹3–4 lakh per month",
+          "Tier 1 cities: ₹2-3 lakh per month",
+          "Tier 2 and Tier 3 cities: ₹3-4 lakh per month",
         ],
       },
       {
@@ -48135,7 +48135,7 @@ export const blogPosts: BlogPost[] = [
         id: "point-9-para2",
         type: "paragraph",
         content:
-          "It usually takes 8–10 years to become well-established. For private practice, 6 months to 1 year of senior residency is often sufficient, while academic careers require 3 years of SRship.",
+          "It usually takes 8-10 years to become well-established. For private practice, 6 months to 1 year of senior residency is often sufficient, while academic careers require 3 years of SRship.",
       },
       {
         id: "point-9-need",
@@ -48211,7 +48211,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\n.",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\n.",
       },
       {
         id: "keywords",
@@ -48346,7 +48346,7 @@ export const blogPosts: BlogPost[] = [
         id: "factor-2-salary",
         type: "paragraph",
         content:
-          "After completing MD Respiratory Medicine, most private hospitals initially appoint you as an attending consultant, with a starting salary of around ₹1.5–2 lakh per month. Progressing to an independent consultant role in large hospitals takes years of experience, networking, referrals, and procedural credibility.",
+          "After completing MD Respiratory Medicine, most private hospitals initially appoint you as an attending consultant, with a starting salary of around ₹1.5-2 lakh per month. Progressing to an independent consultant role in large hospitals takes years of experience, networking, referrals, and procedural credibility.",
       },
       {
         id: "factor-2-conclusion",
@@ -48404,7 +48404,7 @@ export const blogPosts: BlogPost[] = [
         type: "list",
         items: [
           "AIIMS New Delhi",
-          "VMMC–Safdarjung Hospital",
+          "VMMC-Safdarjung Hospital",
           "Patel Chest Institute",
           "PGI Chandigarh",
         ],
@@ -48539,7 +48539,7 @@ export const blogPosts: BlogPost[] = [
             question:
               "FAQ 3: What is the starting salary after MD/DNB Respiratory Medicine?",
             answer:
-              "Most start as attending consultants at ₹1.5–2 lakh/month. Growth is gradual and depends on skills, referrals, and reputation.",
+              "Most start as attending consultants at ₹1.5-2 lakh/month. Growth is gradual and depends on skills, referrals, and reputation.",
           },
           {
             question: "FAQ 4: What matters more - degree or skills?",
@@ -48553,7 +48553,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\n.",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\n.",
       },
       {
         id: "keywords",
@@ -48927,7 +48927,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\n.",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\n.",
       },
       {
         id: "keywords",
@@ -49272,7 +49272,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\n.",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\n.",
       },
       {
         id: "keywords",
@@ -49600,7 +49600,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\n.",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\n.",
       },
       {
         id: "keywords",
@@ -49909,7 +49909,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\n.",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\n.",
       },
       {
         id: "keywords",
@@ -50262,7 +50262,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\n.",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\n.",
       },
       {
         id: "keywords",
@@ -50663,7 +50663,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "faqs",
         type: "heading",
-        title: "FAQs – Career Decision Making",
+        title: "FAQs - Career Decision Making",
         level: 2,
       },
       {
@@ -50697,7 +50697,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\n.",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\n.",
       },
       {
         id: "keywords",
@@ -51100,7 +51100,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\n.",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\n.",
       },
       {
         id: "keywords",
@@ -51461,7 +51461,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\n.",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\n.",
       },
       {
         id: "keywords",
@@ -51863,7 +51863,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\n.",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\n.",
       },
       {
         id: "keywords",
@@ -52225,7 +52225,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\n.",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\n.",
       },
       {
         id: "keywords",
@@ -52640,7 +52640,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\n.",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\n.",
       },
       {
         id: "keywords",
@@ -53055,7 +53055,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\n.",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\n.",
       },
       {
         id: "keywords",
@@ -53265,7 +53265,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have questions about navigating your INICET rank or choosing the right specialty? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\n.",
+          "Have questions about navigating your INICET rank or choosing the right specialty? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\n.",
       },
       {
         id: "keywords",
@@ -53717,7 +53717,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\n.",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\n.",
       },
       {
         id: "keywords",
@@ -54300,7 +54300,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\n",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\n",
       },
       {
         id: "keywords",
@@ -54639,7 +54639,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\n",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\n",
       },
       {
         id: "keywords",
@@ -55006,7 +55006,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\n",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\n",
       },
       {
         id: "keywords",
@@ -55448,7 +55448,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/e/1FAIpQLSeIM6HYq_pg_mq6PK78YzdLn6KwaVQjyndn2CdJ8ThWWXvNOA/viewform",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://docs.google.com/forms/d/e/1FAIpQLSeIM6HYq_pg_mq6PK78YzdLn6KwaVQjyndn2CdJ8ThWWXvNOA/viewform",
       },
       {
         id: "keywords",
@@ -55793,7 +55793,7 @@ export const blogPosts: BlogPost[] = [
         id: "tips-list",
         type: "list",
         items: [
-          "Keep both originals documents and 2–3 sets of photocopies with you.",
+          "Keep both originals documents and 2-3 sets of photocopies with you.",
           "Arrange all the documents in an order and make sure it should be a proper file",
           "Check all the details and spelling twice before submitting all your documents.",
           "Make sure that the certificates are updated and valid",
@@ -55884,7 +55884,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\n",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\n",
       },
       {
         id: "keywords",
@@ -56257,7 +56257,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/e/1FAIpQLSeIM6HYq_pg_mq6PK78YzdLn6KwaVQjyndn2CdJ8ThWWXvNOA/viewform",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://docs.google.com/forms/d/e/1FAIpQLSeIM6HYq_pg_mq6PK78YzdLn6KwaVQjyndn2CdJ8ThWWXvNOA/viewform",
       },
       {
         id: "keywords",
@@ -56379,7 +56379,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "studying-more-maybe",
         type: "paragraph",
-        content: "Maybe I just need to study 12–14 hours.",
+        content: "Maybe I just need to study 12-14 hours.",
       },
       {
         id: "studying-more-backfires",
@@ -56593,7 +56593,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/e/1FAIpQLSeIM6HYq_pg_mq6PK78YzdLn6KwaVQjyndn2CdJ8ThWWXvNOA/viewform",
+          "Have a question beyond these FAQs? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://docs.google.com/forms/d/e/1FAIpQLSeIM6HYq_pg_mq6PK78YzdLn6KwaVQjyndn2CdJ8ThWWXvNOA/viewform",
       },
       {
         id: "keywords",
@@ -57053,7 +57053,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have questions about choosing between branch and college in NEET PG? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/e/1FAIpQLSeIM6HYq_pg_mq6PK78YzdLn6KwaVQjyndn2CdJ8ThWWXvNOA/viewform",
+          "Have questions about choosing between branch and college in NEET PG? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://docs.google.com/forms/d/e/1FAIpQLSeIM6HYq_pg_mq6PK78YzdLn6KwaVQjyndn2CdJ8ThWWXvNOA/viewform",
       },
       {
         id: "keywords",
@@ -57131,7 +57131,7 @@ export const blogPosts: BlogPost[] = [
         id: "intro-para3",
         type: "paragraph",
         content:
-          "This isn't just a decision. It's a crossroad that can shape your next 5–10 years overall career option. And honestly, there's no one-size-fits-all answer.",
+          "This isn't just a decision. It's a crossroad that can shape your next 5-10 years overall career option. And honestly, there's no one-size-fits-all answer.",
       },
       {
         id: "intro-para4",
@@ -57843,7 +57843,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have questions about Mop-Up or Stray Vacancy rounds? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/e/1FAIpQLSeIM6HYq_pg_mq6PK78YzdLn6KwaVQjyndn2CdJ8ThWWXvNOA/viewform",
+          "Have questions about Mop-Up or Stray Vacancy rounds? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://docs.google.com/forms/d/e/1FAIpQLSeIM6HYq_pg_mq6PK78YzdLn6KwaVQjyndn2CdJ8ThWWXvNOA/viewform",
       },
       {
         id: "keywords",
@@ -58255,7 +58255,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have questions about choosing the right branch with your NEET PG rank? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/e/1FAIpQLSeIM6HYq_pg_mq6PK78YzdLn6KwaVQjyndn2CdJ8ThWWXvNOA/viewform",
+          "Have questions about choosing the right branch with your NEET PG rank? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://docs.google.com/forms/d/e/1FAIpQLSeIM6HYq_pg_mq6PK78YzdLn6KwaVQjyndn2CdJ8ThWWXvNOA/viewform",
       },
       {
         id: "keywords",
@@ -58753,7 +58753,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have questions about choosing the right PG branch? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/e/1FAIpQLSeIM6HYq_pg_mq6PK78YzdLn6KwaVQjyndn2CdJ8ThWWXvNOA/viewform",
+          "Have questions about choosing the right PG branch? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://docs.google.com/forms/d/e/1FAIpQLSeIM6HYq_pg_mq6PK78YzdLn6KwaVQjyndn2CdJ8ThWWXvNOA/viewform",
       },
       {
         id: "keywords",
@@ -58905,8 +58905,8 @@ export const blogPosts: BlogPost[] = [
         id: "pillar-1-approach-list",
         type: "list",
         items: [
-          "Add 5–10 dream options",
-          "Base them on last 2–3 years' cutoff trends",
+          "Add 5-10 dream options",
+          "Base them on last 2-3 years' cutoff trends",
           "Keep them realistic, not extreme",
         ],
       },
@@ -59059,7 +59059,7 @@ export const blogPosts: BlogPost[] = [
         id: "tip-1-list",
         type: "list",
         items: [
-          "Last 3–5 years' cutoffs",
+          "Last 3-5 years' cutoffs",
           "Round-wise trends (Round 1 vs Mop-Up)",
         ],
       },
@@ -59221,7 +59221,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have questions about choice filling strategy? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/e/1FAIpQLSeIM6HYq_pg_mq6PK78YzdLn6KwaVQjyndn2CdJ8ThWWXvNOA/viewform",
+          "Have questions about choice filling strategy? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://docs.google.com/forms/d/e/1FAIpQLSeIM6HYq_pg_mq6PK78YzdLn6KwaVQjyndn2CdJ8ThWWXvNOA/viewform",
       },
       {
         id: "keywords",
@@ -59700,7 +59700,7 @@ export const blogPosts: BlogPost[] = [
         id: "understanding-cutoff-conclusion",
         type: "paragraph",
         content:
-          "Most students analyze the last 3–5 years of data to estimate their chances. While this is a smart step, the interpretation is where things often go wrong.",
+          "Most students analyze the last 3-5 years of data to estimate their chances. While this is a smart step, the interpretation is where things often go wrong.",
       },
       {
         id: "what-trends-mean",
@@ -59903,7 +59903,7 @@ export const blogPosts: BlogPost[] = [
         type: "table",
         headers: ["Step", "Action"],
         rows: [
-          ["1", "Analyze at least 3–5 years of trends, not just one year"],
+          ["1", "Analyze at least 3-5 years of trends, not just one year"],
           ["2", "Focus on patterns, not just exact ranks"],
           ["3", "Create a balanced choice list (safe, target, dream)"],
           ["4", "Combine data with self-awareness and career goals"],
@@ -59955,7 +59955,7 @@ export const blogPosts: BlogPost[] = [
           {
             question: "2. How many years of cutoff trends should I analyze?",
             answer:
-              "Ideally, you should analyze at least 3–5 years to understand the overall patterns better.",
+              "Ideally, you should analyze at least 3-5 years to understand the overall patterns better.",
           },
           {
             question: "3. Can cutoff trends guarantee my seat in NEET PG?",
@@ -60220,7 +60220,7 @@ export const blogPosts: BlogPost[] = [
         id: "routine-stick-list",
         type: "list",
         items: [
-          "6–8 focused hours daily",
+          "6-8 focused hours daily",
           "Distraction-free study sessions",
           "Consistency over intensity",
         ],
@@ -60403,7 +60403,7 @@ export const blogPosts: BlogPost[] = [
             question:
               "How many hours should I study daily for INI-CET preparation?",
             answer:
-              "Around 6–8 focused hours daily with consistency is more effective than long, irregular study sessions.",
+              "Around 6-8 focused hours daily with consistency is more effective than long, irregular study sessions.",
           },
           {
             question: "What matters more in the final months before INI-CET?",
@@ -60417,7 +60417,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have questions about INI-CET 2026 preparation? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/e/1FAIpQLSeIM6HYq_pg_mq6PK78YzdLn6KwaVQjyndn2CdJ8ThWWXvNOA/viewform",
+          "Have questions about INI-CET 2026 preparation? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://docs.google.com/forms/d/e/1FAIpQLSeIM6HYq_pg_mq6PK78YzdLn6KwaVQjyndn2CdJ8ThWWXvNOA/viewform",
       },
       {
         id: "keywords",
@@ -60627,7 +60627,7 @@ export const blogPosts: BlogPost[] = [
           ["Evening", "Revision"],
         ],
         caption:
-          "This loop-Learn → Apply → Revise-is a solid preparation strategy for long-term consistency. Even 5–6 focused hours daily can be enough if done properly.",
+          "This loop-Learn → Apply → Revise-is a solid preparation strategy for long-term consistency. Even 5-6 focused hours daily can be enough if done properly.",
       },
       {
         id: "revision",
@@ -60996,17 +60996,17 @@ export const blogPosts: BlogPost[] = [
         headers: ["Rank Range", "Typical Branch Options", "Key Insight"],
         rows: [
           [
-            "Top 50–100",
+            "Top 50-100",
             "Radiology, Dermatology, General Medicine, Pediatrics",
             "Freedom to choose between top branches and top institutes",
           ],
           [
-            "100–500",
+            "100-500",
             "General Surgery, Orthopedics, Obstetrics & Gynecology, some Medicine seats",
             "Branch vs institute becomes a real decision here",
           ],
           [
-            "500–1500",
+            "500-1500",
             "Pre-clinical, para-clinical, non-clinical specialties (Pathology, Microbiology, Pharmacology), some clinical seats in newer institutes",
             "Clarity about long-term goals matters more than rank",
           ],
@@ -61022,7 +61022,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "rank-100-500",
         type: "heading",
-        title: "Ranks Between 100–500",
+        title: "Ranks Between 100-500",
         level: 3,
       },
       {
@@ -61034,7 +61034,7 @@ export const blogPosts: BlogPost[] = [
       {
         id: "rank-500-1500",
         type: "heading",
-        title: "Ranks Between 500–1500",
+        title: "Ranks Between 500-1500",
         level: 3,
       },
       {
@@ -61246,7 +61246,7 @@ export const blogPosts: BlogPost[] = [
           },
           {
             question: "3. What rank is needed for top clinical branches?",
-            answer: "Usually higher ranks (top 100–500) have better chances.",
+            answer: "Usually higher ranks (top 100-500) have better chances.",
           },
           {
             question: "4. Should I focus on rank or branch during preparation?",
@@ -61675,7 +61675,7 @@ export const blogPosts: BlogPost[] = [
         type: "contact-form",
         title: "Submit queries to BelieversConsultancy",
         content:
-          "Have questions about INI-CET preparation without burnout? Submit the Google Form, and the team will respond during 9 AM–7 PM support hours:\n\nhttps://docs.google.com/forms/d/e/1FAIpQLSeIM6HYq_pg_mq6PK78YzdLn6KwaVQjyndn2CdJ8ThWWXvNOA/viewform",
+          "Have questions about INI-CET preparation without burnout? Submit the Google Form, and the team will respond during 9 AM-7 PM support hours:\n\nhttps://docs.google.com/forms/d/e/1FAIpQLSeIM6HYq_pg_mq6PK78YzdLn6KwaVQjyndn2CdJ8ThWWXvNOA/viewform",
       },
       {
         id: "keywords",
@@ -63191,7 +63191,7 @@ export const blogPosts: BlogPost[] = [
           {
             question: "Does sleep improve INI-CET preparation?",
             answer:
-              "Honestly, yes. When you're sleep-deprived, nothing sticks - your brain just doesn't retain what you studied the night before. Getting 7–8 hours makes a real difference.",
+              "Honestly, yes. When you're sleep-deprived, nothing sticks - your brain just doesn't retain what you studied the night before. Getting 7-8 hours makes a real difference.",
           },
           {
             question: "What should I eat during INI-CET prep?",
@@ -64185,7 +64185,7 @@ export const blogPosts: BlogPost[] = [
         type: "table",
         headers: ["Hidden Time Pocket", "Best Use"],
         rows: [
-          ["Waiting during rounds", "10–15 MCQs"],
+          ["Waiting during rounds", "10-15 MCQs"],
           ["Quiet duty hours", "Quick note revision"],
           ["Short breaks", "Flashcards or flagged question review"],
         ],
@@ -64910,7 +64910,7 @@ export const blogPosts: BlogPost[] = [
         rows: [
           [
             "1. Make study sessions more realistic",
-            "Aim for 6–8 quality hours instead of 10–12",
+            "Aim for 6-8 quality hours instead of 10-12",
             "Deep focused work beats long distracted sessions every time",
           ],
           [
@@ -71942,7 +71942,7 @@ export const blogPosts: BlogPost[] = [
         type: "table",
         headers: ["Event", "Expected Date"],
         rows: [
-          ["Round 1 Choice Filling", "June 16–17, 2026"],
+          ["Round 1 Choice Filling", "June 16-17, 2026"],
           ["Round 1 Allotment Result", "June 24, 2026"],
           ["Reporting & Joining (Round 1)", "Until June 30, 2026"],
           ["Classes Begin", "July 1, 2026"],
@@ -75150,7 +75150,7 @@ export const blogPosts: BlogPost[] = [
           ],
           [
             "Expected Start",
-            "July–September 2026",
+            "July-September 2026",
             "August 2026",
             "September 2026",
           ],
@@ -80415,6 +80415,403 @@ export const blogPosts: BlogPost[] = [
           "Medical PG Preparation",
           "Medical PG Exam Preparation",
           "medical entrance exam preparation",
+        ],
+      },
+    ],
+  },
+  {
+    id: 196,
+    title: "NEET PG in 9 Days: The Smartest Way to Revise PYQs",
+    slug: "neet-pg-in-9-days-the-smartest-way-to-revise-pyqs",
+    excerpt:
+      "With just 9 days left for NEET PG, revise PYQs strategically to identify high-yield topics, strengthen concepts, and avoid repeating mistakes before exam day.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/48785618/file/341d86809a77e000d061756e96ae2238.png",
+    featured_image_alt: "neet pg 9 days pyq revision strategy",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+    },
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
+    },
+    tags: [
+      "NEET PG",
+      "NEET PG 2026",
+      "NEET PG Preparation",
+      "NEET PG PYQs",
+      "NEET PG Revision",
+    ],
+    published_date: "2026-08-21",
+    read_time: 6,
+    meta_title: "NEET PG in 9 Days: The Smartest Way to Revise PYQs",
+    meta_description:
+      "With just 9 days left for NEET PG, revise PYQs strategically to identify high-yield topics, strengthen concepts, and avoid repeating mistakes before exam day.",
+    keywords: [
+      "neet pg 2026",
+      "neet pg exam",
+      "neet pg preparation",
+      "neet pg 2026 exam",
+      "neet pg 2026 preparation",
+      "neet pg 2026 study plan",
+      "neet pg study material",
+      "neet pg preparation online",
+      "best for neet pg preparation",
+      "best strategy for neet pg preparation",
+      "neet pg exam preparation",
+      "neet pg online preparation",
+      "neet pg quick revision",
+      "neet pg revision plan",
+      "neet pg pyqs",
+      "pyq for neet pg",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content:
+          "You've got 9 days left before NEET PG 2026. That's not the time to pick up a new book, start a video series you haven't touched, or open a topic from scratch. What's left is revision, recall, and solving questions — and PYQs, something you've almost certainly already used, are probably your single best tool for that final stretch.",
+      },
+      {
+        id: "intro-para2",
+        type: "paragraph",
+        content:
+          "Solving them on repeat isn't enough by itself, though. What actually moves the needle is understanding the concept behind each question, noticing where you keep slipping up, and giving those weak spots one last real look before the exam.",
+      },
+      {
+        id: "intro-conclusion",
+        type: "paragraph",
+        content: "Here's a plan for the last 9 days.",
+      },
+      {
+        id: "why-pyqs-priority",
+        type: "heading",
+        title: "Why Should PYQs Be a Priority in the Last 9 Days?",
+        level: 2,
+      },
+      {
+        id: "why-pyqs-para1",
+        type: "paragraph",
+        content:
+          "PYQs show you, in concrete terms, what's actually been asked before. Just as useful — they surface the stuff you've technically studied but can't pull up fast enough when it counts.",
+      },
+      {
+        id: "why-pyqs-para2",
+        type: "paragraph",
+        content:
+          "PYQ revision at this stage isn't about covering everything again. It narrows things down to:",
+      },
+      {
+        id: "why-pyqs-list",
+        type: "list",
+        items: [
+          "Frequently tested concepts",
+          "Repeated themes and topics",
+          "Image-based questions",
+          "Clinical correlations",
+          "Volatile information",
+          "Topics you keep getting wrong",
+        ],
+      },
+      {
+        id: "why-pyqs-conclusion",
+        type: "paragraph",
+        content:
+          "This isn't an attempt to guess what will show up on the paper. Think of it as a filter — a way to sort through everything you've studied and see what still needs work.",
+      },
+      {
+        id: "days-1-3",
+        type: "heading",
+        title: "Days 1-3: Cover PYQs Subject-Wise",
+        level: 2,
+      },
+      {
+        id: "days-1-3-para1",
+        type: "paragraph",
+        content:
+          "Spend the first three days working through PYQs subject by subject, not jumping around at random. Break your day into study blocks and start with the major subjects. If you already know a question cold, don't linger on it.",
+      },
+      {
+        id: "days-1-3-para2",
+        type: "paragraph",
+        content: "A simple three-way split works well:",
+      },
+      {
+        id: "days-1-3-table",
+        type: "table",
+        headers: ["Category", "Action"],
+        rows: [
+          ["Correct + Confident", "Move on"],
+          ["Correct + Guess", "Quickly revisit the concept"],
+          ["Wrong", "Understand it properly and flag it for revision"],
+        ],
+      },
+      {
+        id: "what-to-note",
+        type: "heading",
+        title: "What to Note While Revising?",
+        level: 2,
+      },
+      {
+        id: "what-to-note-para1",
+        type: "paragraph",
+        content:
+          "Don't create another huge notebook at this stage. Instead, mark only:",
+      },
+      {
+        id: "what-to-note-list",
+        type: "list",
+        items: [
+          "Concepts you forgot",
+          "Questions you repeatedly get wrong",
+          "Important images",
+          "Confusing differentials",
+          "One-liners and volatile facts",
+          "Important clinical associations",
+        ],
+      },
+      {
+        id: "what-to-note-conclusion",
+        type: "paragraph",
+        content:
+          "Your goal is to create a small, high-yield revision list — not another set of notes.",
+      },
+      {
+        id: "days-4-6",
+        type: "heading",
+        title: "Days 4-6: Focus on Mistakes and Repeated Concepts",
+        level: 2,
+      },
+      {
+        id: "days-4-6-para1",
+        type: "paragraph",
+        content:
+          "By now, you should have identified the areas where you are losing marks. Spend these three days going back to your incorrect and doubtful PYQs. This is where NEET PG quick revision becomes more useful than simply solving hundreds of questions again.",
+      },
+      {
+        id: "days-4-6-para2",
+        type: "paragraph",
+        content:
+          "For every incorrect question, ask yourself: Why did I get this wrong? Was it because you:",
+      },
+      {
+        id: "days-4-6-list",
+        type: "list",
+        items: [
+          "Didn't know the concept?",
+          "Forgot an important fact?",
+          "Misread the question?",
+          "Confused two similar options?",
+          "Changed a correct answer unnecessarily?",
+        ],
+      },
+      {
+        id: "days-4-6-conclusion",
+        type: "paragraph",
+        content:
+          "Understanding the reason behind the mistake is important because not every wrong answer represents a knowledge gap. If the concept is weak, revise it from your existing NEET PG study material or trusted revision source. Avoid opening an entirely new resource.",
+      },
+      {
+        id: "days-7-8",
+        type: "heading",
+        title: "Days 7-8: Rapid PYQ Revision + Mixed Practice",
+        level: 2,
+      },
+      {
+        id: "days-7-8-para1",
+        type: "paragraph",
+        content:
+          "The last two days of active PYQ revision should be faster. Instead of solving everything from the beginning, go through:",
+      },
+      {
+        id: "days-7-8-list",
+        type: "list",
+        items: [
+          "Marked questions",
+          "Incorrect PYQs",
+          "Frequently repeated concepts",
+          "Image-based questions",
+          "High-yield clinical questions",
+          "Questions you previously guessed correctly",
+        ],
+      },
+      {
+        id: "days-7-8-conclusion",
+        type: "paragraph",
+        content:
+          "You can also mix subjects during these two days. This pulls you out of the comfort of subject-wise studying and gets you practising the kind of topic-switching you'll need to do in the actual examination. If you have already been taking Grand Tests, review your mistakes from them as well. Your incorrect GT questions complement your PYQ revision because they show you where you are currently making mistakes.",
+      },
+      {
+        id: "day-9",
+        type: "heading",
+        title: "Day 9: Don't Try to Finish Everything",
+        level: 2,
+      },
+      {
+        id: "day-9-para1",
+        type: "paragraph",
+        content:
+          "The final day should be about confidence and recall, not completing a massive checklist. Go through your short revision material and marked PYQs. Focus on things that are easy to forget but important to remember.",
+      },
+      {
+        id: "day-9-para2",
+        type: "paragraph",
+        content: "Keep the Final Revision Limited To:",
+      },
+      {
+        id: "day-9-list",
+        type: "list",
+        items: [
+          "Your mistake list",
+          "Marked PYQs",
+          "High-yield images",
+          "Important tables and differentials",
+          "Volatile topics",
+          "Frequently confused concepts",
+          "Personal short notes",
+        ],
+      },
+      {
+        id: "day-9-conclusion",
+        type: "paragraph",
+        content:
+          "Avoid taking up difficult new topics simply because you haven't studied them yet. At this point, strengthening what you already know is more useful than trying to build knowledge from scratch.",
+      },
+      {
+        id: "how-to-revise",
+        type: "heading",
+        title: "How to Revise a PYQ Properly?",
+        level: 2,
+      },
+      {
+        id: "how-to-para1",
+        type: "paragraph",
+        content:
+          "Don't treat PYQs as an answer-reading exercise. For every important question, try to understand:",
+      },
+      {
+        id: "how-to-para2",
+        type: "paragraph",
+        content:
+          "Question → Correct Answer → Why? → Why Not the Other Options? → Related Concept",
+      },
+      {
+        id: "how-to-conclusion",
+        type: "paragraph",
+        content:
+          "For example, if a question tests a clinical sign, don't stop after remembering the answer. Quickly revise the condition associated with it, the relevant differential, and any commonly confused clinical finding. This turns one PYQ into a small revision opportunity and makes your NEET PG exam preparation more active.",
+      },
+      {
+        id: "what-to-avoid",
+        type: "heading",
+        title: "What Should You Avoid in the Last 9 Days?",
+        level: 2,
+      },
+      {
+        id: "what-to-avoid-para1",
+        type: "paragraph",
+        content:
+          "The final days can easily become chaotic if you keep changing your strategy. Avoid:",
+      },
+      {
+        id: "what-to-avoid-list",
+        type: "list",
+        items: [
+          "Starting new major resources",
+          "Watching lengthy untouched lecture series",
+          "Making elaborate new notes",
+          "Solving questions without analysing mistakes",
+          "Comparing your preparation with others",
+          "Studying late into the night every day",
+          "Taking multiple tests without reviewing them",
+        ],
+      },
+      {
+        id: "what-to-avoid-conclusion",
+        type: "paragraph",
+        content:
+          "Most importantly, don't mistake more study hours for better revision. A focused NEET PG 2026 study plan is more useful than constantly changing your routine.",
+      },
+      {
+        id: "final-rule",
+        type: "heading",
+        title: "Final 9-Day Rule: Revise More, Restart Less",
+        level: 2,
+      },
+      {
+        id: "final-rule-para1",
+        type: "paragraph",
+        content:
+          "Your NEET PG preparation doesn't need a complete reset nine days before the exam. You need to consolidate what you have already studied.",
+      },
+      {
+        id: "final-rule-para2",
+        type: "paragraph",
+        content:
+          "Use PYQs to identify what matters, your mistakes to identify what needs attention, and your existing notes to close those gaps. Solve. Analyse. Revise. Repeat.",
+      },
+      {
+        id: "final-rule-conclusion",
+        type: "paragraph",
+        content:
+          "The objective of these final nine days is not to know everything. It is to remember the maximum possible from the preparation you have already put in. Stay consistent, keep your resources limited, and let your final revision strengthen your confidence rather than create more confusion.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "Should I revise NEET PG PYQs in the last 9 days?",
+            answer: "Yes — make them a core part of your final revision.",
+          },
+          {
+            question: "Should I start new study material now?",
+            answer:
+              "No. Stick with your existing notes and the revision resources you already trust.",
+          },
+          {
+            question: "How should I revise incorrect PYQs?",
+            answer:
+              "Figure out why you got each one wrong, then revise that concept briefly.",
+          },
+          {
+            question: "What should I focus on on the last day?",
+            answer:
+              "Your marked PYQs, past mistakes, high-yield topics, key images, and short notes.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "neet pg 2026",
+          "neet pg exam",
+          "neet pg preparation",
+          "neet pg 2026 exam",
+          "neet pg 2026 preparation",
+          "neet pg 2026 study plan",
+          "neet pg study material",
+          "neet pg preparation online",
+          "best for neet pg preparation",
+          "best strategy for neet pg preparation",
+          "neet pg exam preparation",
+          "neet pg online preparation",
+          "neet pg quick revision",
+          "neet pg revision plan",
+          "neet pg pyqs",
+          "pyq for neet pg",
         ],
       },
     ],
