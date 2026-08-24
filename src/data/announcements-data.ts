@@ -1784,6 +1784,19 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "National Board of Examinations",
     created_at: "2026-08-12",
   },
+  {
+    id: 135,
+    title: "NEET PG 2026",
+    content:
+      "NEET PG 2026 Admit Card, NBEMS Admit Card 2026, NEET PG Hall Ticket, NEET PG Exam Date 2026, natboard.edu.in, NBEMS News, Medical Entrance Exam",
+    date: "2026-08-24",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://indianexpress.com/article/education/neet-pg-2026-admit-cards-released-nbems-candidate-portal-download-link-exam-schedule-natboard-edu-in-10846858/?utm_source=chatgpt.com",
+    is_active: true,
+    source: "The Indian Express",
+    created_at: "2026-08-24",
+  },
 ];
 
 /**
