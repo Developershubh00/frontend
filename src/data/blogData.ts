@@ -81254,6 +81254,821 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    id: 198,
+    title: "NEET PG 2026 Exam Pressure: How to Stay Calm in the Final Days",
+    slug: "neet-pg-2026-exam-pressure-how-to-stay-calm-in-the-final-days",
+    excerpt:
+      "Manage NEET PG 2026 exam pressure with practical tips to stay calm, focused, confident, and productive during the final days of preparation.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/48832307/file/9ab67bb5610241c2610dabc63544acbc.jpg",
+    featured_image_alt: "neet pg 2026 exam pressure stay calm final days",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+    },
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
+    },
+    tags: [
+      "NEET PG",
+      "NEET PG 2026",
+      "NEET PG Preparation",
+      "NEET PG Revision",
+      "Exam Preparation",
+    ],
+    published_date: "2026-08-26",
+    read_time: 4,
+    meta_title:
+      "NEET PG 2026 Exam Pressure: How to Stay Calm in the Final Days",
+    meta_description:
+      "Manage NEET PG 2026 exam pressure with practical tips to stay calm, focused, confident, and productive during the final days of preparation.",
+    keywords: [
+      "neet pg 2026",
+      "neet pg",
+      "neet pg exam",
+      "neet pg preparation",
+      "neet pg preparation strategy",
+      "pg preparation",
+      "neet pg study material",
+      "neet pg study plan",
+      "neet pg revision",
+      "neet pg preparation online",
+      "best for neet pg preparation",
+      "best strategy for neet pg preparation",
+      "neet pg preparation plan",
+      "neet pg quick revision",
+      "neet pg revision plan",
+      "neet pg revision timetable",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content:
+          "The last few days hit different. Suddenly you're questioning everything. Did you revise enough? Forgot important stuff? Should you be studying more?",
+      },
+      {
+        id: "intro-para2",
+        type: "paragraph",
+        content:
+          "This is when staying calm actually matters. NEET PG 2026 is August 30, 2026. That's coming.",
+      },
+      {
+        id: "intro-conclusion",
+        type: "paragraph",
+        content:
+          "You don't need to become a different student now. You need to protect what you've already done. Walk in with a clear head.",
+      },
+      {
+        id: "why-pressure-high",
+        type: "heading",
+        title: "Why Does Exam Pressure Feel So High Before NEET PG?",
+        level: 2,
+      },
+      {
+        id: "why-pressure-para1",
+        type: "paragraph",
+        content:
+          "When a big exam is close, your mind naturally starts fixating on everything you haven't done yet. You might catch yourself thinking:",
+      },
+      {
+        id: "why-pressure-list",
+        type: "list",
+        items: [
+          '"I haven\'t revised this subject properly."',
+          '"What if I blank out during the exam?"',
+          '"Everyone else seems way more prepared than me."',
+          '"Should I squeeze in another Grand Test?"',
+          '"Maybe I need a different revision source."',
+        ],
+      },
+      {
+        id: "why-pressure-conclusion",
+        type: "paragraph",
+        content:
+          "Thoughts like these can make it feel like your preparation has fallen short, even when you've actually covered a lot of ground. Here's the thing worth remembering: feeling underprepared and actually being underprepared aren't the same thing.",
+      },
+      {
+        id: "dont-measure",
+        type: "heading",
+        title: "Don't Measure Your Preparation Every Few Hours",
+        level: 2,
+      },
+      {
+        id: "dont-measure-para1",
+        type: "paragraph",
+        content:
+          "One of the easiest ways to increase exam pressure is to constantly evaluate yourself. You check how much you've completed, compare your revision speed with your friends, look at someone else's study schedule, and then change your own plan.",
+      },
+      {
+        id: "dont-measure-para2",
+        type: "paragraph",
+        content:
+          "Don't. Your preparation cannot be accurately measured by how many pages you revise in one day.",
+      },
+      {
+        id: "dont-measure-conclusion",
+        type: "paragraph",
+        content:
+          "Instead, ask yourself: What can I revise today that will help me perform better on exam day? That question keeps your attention on what you can control.",
+      },
+      {
+        id: "stop-finishing",
+        type: "heading",
+        title: "Stop Trying to Finish Everything",
+        level: 2,
+      },
+      {
+        id: "stop-finishing-para1",
+        type: "paragraph",
+        content:
+          'There will always be another topic to revise. There will always be another PDF, another question bank, another video, or another "must-do" list circulating among aspirants. You cannot cover everything in the final days.',
+      },
+      {
+        id: "stop-finishing-para2",
+        type: "paragraph",
+        content: "Your priority should be:",
+      },
+      {
+        id: "stop-finishing-list",
+        type: "list",
+        items: [
+          "High-yield topics",
+          "Frequently revised concepts",
+          "Previous Year Questions",
+          "Important images",
+          "Mistakes from Grand Tests",
+          "Short notes and volatile information",
+        ],
+      },
+      {
+        id: "stop-finishing-conclusion",
+        type: "paragraph",
+        content:
+          "The aim now is not to complete your entire syllabus again. It is to strengthen what you already know.",
+      },
+      {
+        id: "mock-scores",
+        type: "heading",
+        title: "Don't Let Mock Test Scores Define You",
+        level: 2,
+      },
+      {
+        id: "mock-scores-para1",
+        type: "paragraph",
+        content:
+          "A poor Grand Test score close to the exam can feel extremely discouraging. You may start thinking that your preparation has gone wrong or that you won't perform well in the actual exam.",
+      },
+      {
+        id: "mock-scores-para2",
+        type: "paragraph",
+        content:
+          "Take a step back. A mock test is a practice tool. Use it to identify:",
+      },
+      {
+        id: "mock-scores-list",
+        type: "list",
+        items: [
+          "Topics you repeatedly get wrong",
+          "Silly mistakes",
+          "Time-management problems",
+          "Questions you misread",
+          "Areas where you tend to overthink",
+        ],
+      },
+      {
+        id: "mock-scores-conclusion",
+        type: "paragraph",
+        content:
+          "Don't spend the final days chasing a particular score. Focus on learning from the mistakes.",
+      },
+      {
+        id: "avoid-comparing",
+        type: "heading",
+        title: "Avoid Comparing Yourself With Other Aspirants",
+        level: 2,
+      },
+      {
+        id: "avoid-comparing-para1",
+        type: "paragraph",
+        content:
+          "Someone may tell you they've completed five revisions. Someone else may say they've solved thousands of questions. Another person may be studying for 16 hours a day. None of that tells you how you'll perform on the actual exam.",
+      },
+      {
+        id: "avoid-comparing-para2",
+        type: "paragraph",
+        content:
+          "Comparison creates pressure without improving your preparation. Stay with your own plan. If your friend is studying something you haven't touched, that doesn't automatically mean you need to start it.",
+      },
+      {
+        id: "avoid-comparing-conclusion",
+        type: "paragraph",
+        content: "Your preparation is your own race.",
+      },
+      {
+        id: "forgotten-everything",
+        type: "heading",
+        title: "What If You Suddenly Feel You've Forgotten Everything?",
+        level: 2,
+      },
+      {
+        id: "forgotten-para1",
+        type: "paragraph",
+        content:
+          "This is one of the most common fears before a major examination. You revise a topic you've studied several times and still struggle to recall a few details. Suddenly, it feels like everything has disappeared.",
+      },
+      {
+        id: "forgotten-para2",
+        type: "paragraph",
+        content:
+          "Don't panic. Recognition and recall can feel different under pressure. Give yourself a few minutes, move to another topic, and come back later.",
+      },
+      {
+        id: "forgotten-conclusion",
+        type: "paragraph",
+        content:
+          'Instead of repeatedly testing yourself with "Do I remember everything?", ask: "Can I recognize and apply what I\'ve studied when I see the question?" This shift can prevent unnecessary panic.',
+      },
+      {
+        id: "protect-sleep",
+        type: "heading",
+        title: "Protect Your Sleep",
+        level: 2,
+      },
+      {
+        id: "sleep-para1",
+        type: "paragraph",
+        content:
+          "Studying till late feels like you're doing something when you're anxious about the exam. But lack of sleep messes you up. You get tired. Can't focus. Brain doesn't work.",
+      },
+      {
+        id: "sleep-para2",
+        type: "paragraph",
+        content:
+          "In the final days, actually sleep. Don't turn every night into panic revision. You don't need to destroy yourself to pass this exam.",
+      },
+      {
+        id: "sleep-conclusion",
+        type: "paragraph",
+        content: "A good night's sleep is part of your prep. Seriously.",
+      },
+      {
+        id: "simple-plan",
+        type: "heading",
+        title: "Have a Simple Plan for Each Day",
+        level: 2,
+      },
+      {
+        id: "simple-plan-para1",
+        type: "paragraph",
+        content:
+          "You don't need a complicated timetable anymore. Keep your daily targets realistic. Try something like:",
+      },
+      {
+        id: "simple-plan-table",
+        type: "table",
+        headers: ["Time of Day", "Focus"],
+        rows: [
+          ["Morning", "Go through high-yield topics"],
+          ["Afternoon", "Solve previous year questions and review mistakes"],
+          ["Evening", "Quick review of important notes and tricky topics"],
+          ["Night", "Light revision, then sleep"],
+        ],
+      },
+      {
+        id: "simple-plan-conclusion",
+        type: "paragraph",
+        content:
+          "Your schedule can be different. Just have one. Make a plan and stick with it.",
+      },
+      {
+        id: "dont-change",
+        type: "heading",
+        title: "Don't Make Big Changes Now",
+        level: 2,
+      },
+      {
+        id: "dont-change-para1",
+        type: "paragraph",
+        content:
+          "The final days are not the right time to completely change your strategy. Avoid suddenly:",
+      },
+      {
+        id: "dont-change-list",
+        type: "list",
+        items: [
+          "Starting multiple new resources",
+          "Taking every new test available",
+          "Following someone else's timetable",
+          "Studying topics only because they are trending",
+          "Staying awake all night",
+          "Comparing your preparation constantly",
+        ],
+      },
+      {
+        id: "dont-change-conclusion",
+        type: "paragraph",
+        content:
+          "If a resource has worked for you throughout your preparation, trust it.",
+      },
+      {
+        id: "when-anxiety-hits",
+        type: "heading",
+        title: "What Should You Do When Anxiety Hits?",
+        level: 2,
+      },
+      {
+        id: "anxiety-para1",
+        type: "paragraph",
+        content:
+          'You don\'t have to force yourself to "stop being nervous." Instead, pause. Take a few slow breaths. Step away from your desk for a few minutes. Drink some water. Walk around. Then return to the task in front of you.',
+      },
+      {
+        id: "anxiety-conclusion",
+        type: "paragraph",
+        content:
+          "More importantly, don't turn one anxious moment into an entire anxious day. Feeling nervous does not mean you are going to perform badly. It simply means the examination matters to you.",
+      },
+      {
+        id: "exam-day",
+        type: "heading",
+        title: "On the Day of the Exam",
+        level: 2,
+      },
+      {
+        id: "exam-day-para1",
+        type: "paragraph",
+        content:
+          "Your preparation doesn't end when you enter the examination center. Read questions carefully. Don't let one difficult question shake your confidence. If you don't know something, move ahead and protect your time.",
+      },
+      {
+        id: "exam-day-para2",
+        type: "paragraph",
+        content:
+          "The paper may contain questions that feel unfamiliar. That's normal. Don't judge your performance based on the first few questions.",
+      },
+      {
+        id: "exam-day-conclusion",
+        type: "paragraph",
+        content:
+          "Stay focused on the question in front of you. Read. Think. Decide. Move on.",
+      },
+      {
+        id: "final-thoughts",
+        type: "heading",
+        title: "Final Thoughts",
+        level: 2,
+      },
+      {
+        id: "final-thoughts-para1",
+        type: "paragraph",
+        content:
+          "The final days before NEET PG 2026 are not about proving how much more you can study. They're about staying steady.",
+      },
+      {
+        id: "final-thoughts-para2",
+        type: "paragraph",
+        content:
+          "You have already spent months building your preparation. Now, protect that effort. Revise what matters, avoid unnecessary distractions, sleep properly, and stop measuring yourself against everyone around you.",
+      },
+      {
+        id: "final-thoughts-para3",
+        type: "paragraph",
+        content:
+          "You don't need to feel completely fearless before the exam. Just make sure exam stress doesn't mess with the confidence you've already built.",
+      },
+      {
+        id: "final-thoughts-conclusion",
+        type: "paragraph",
+        content:
+          "Walk into that exam thinking: I don't know everything. But I know enough to do this.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "How can I stay calm before NEET PG 2026?",
+            answer: "Stick to your plan. Stop comparing yourself to others.",
+          },
+          {
+            question: "Should I study new topics now?",
+            answer:
+              "Nah. Focus on what actually gets tested and previous year questions.",
+          },
+          {
+            question: "What if I feel underprepared?",
+            answer: "You've prepped for months. Trust that work.",
+          },
+          {
+            question: "Should I sacrifice sleep for revision?",
+            answer: "No. Sleep matters more than extra study hours right now.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "neet pg 2026",
+          "neet pg",
+          "neet pg exam",
+          "neet pg preparation",
+          "neet pg preparation strategy",
+          "pg preparation",
+          "neet pg study material",
+          "neet pg study plan",
+          "neet pg revision",
+          "neet pg preparation online",
+          "best for neet pg preparation",
+          "best strategy for neet pg preparation",
+          "neet pg preparation plan",
+          "neet pg quick revision",
+          "neet pg revision plan",
+          "neet pg revision timetable",
+        ],
+      },
+    ],
+  },
+  // {
+  //   id: 199,
+  //   title:
+  //     "Night Before NEET PG 2026: Dos and Don'ts for a Calm and Confident Exam Day",
+  //   slug: "night-before-neet-pg-2026-dos-and-donts-for-a-calm-and-confident-exam-day",
+  //   excerpt:
+  //     "Prepare for NEET PG 2026 with the right night-before strategy. Follow essential dos and don'ts to stay calm, sleep well, and perform your best on exam day.",
+  //   featured_image:
+  //     "https://cdn.dribbble.com/userupload/48832306/file/1ed2f5c3efee35ec7bff84706cf1dfb3.jpg",
+  //   featured_image_alt: "neet pg 2026 night before exam dos donts",
+  //   author: {
+  //     name: "Believers Team",
+  //     avatar:
+  //       "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+  //     bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+  //   },
+  //   category: {
+  //     name: "NEET PG",
+  //     slug: "neet-pg",
+  //     color: "bg-blue-100 text-blue-800",
+  //   },
+  //   tags: [
+  //     "NEET PG",
+  //     "NEET PG 2026",
+  //     "NEET PG Preparation",
+  //     "NEET PG Exam",
+  //     "Exam Preparation",
+  //   ],
+  //   published_date: "2026-08-27",
+  //   read_time: 5,
+  //   meta_title:
+  //     "Night Before NEET PG 2026: Dos and Don'ts for a Calm and Confident Exam Day",
+  //   meta_description:
+  //     "Prepare for NEET PG 2026 with the right night-before strategy. Follow essential dos and don'ts to stay calm, sleep well, and perform your best on exam day.",
+  //   keywords: [
+  //     "neet pg",
+  //     "neet pg 2026",
+  //     "neet pg exam",
+  //     "neet pg preparation",
+  //     "neet pg preparation strategy",
+  //   ],
+  //   sections: [
+  //     {
+  //       id: "intro-para1",
+  //       type: "paragraph",
+  //       content:
+  //         "You've studied for months. Solved thousands of MCQs. Revised high-yield topics. Taken endless Grand Tests. Now there are just a few hours left and you're anxious as hell.",
+  //     },
+  //     {
+  //       id: "intro-para2",
+  //       type: "paragraph",
+  //       content:
+  //         "Most aspirants make stupid mistakes this night. Try to study everything one last time. Scroll through social media. Compare their prep with friends.",
+  //     },
+  //     {
+  //       id: "intro-conclusion",
+  //       type: "paragraph",
+  //       content:
+  //         "Here's the thing: what you do tonight actually matters for how you feel tomorrow morning.",
+  //     },
+  //     {
+  //       id: "do-short-notes",
+  //       type: "heading",
+  //       title: "DO: Revise Only Your Short Notes",
+  //       level: 2,
+  //     },
+  //     {
+  //       id: "do-short-notes-para1",
+  //       type: "paragraph",
+  //       content: "Not learning time. Refresh time. Quick revision of:",
+  //     },
+  //     {
+  //       id: "do-short-notes-list",
+  //       type: "list",
+  //       items: [
+  //         "High-yield notes",
+  //         "Short revision sheets",
+  //         "Important flowcharts",
+  //         "Frequently revised tables",
+  //         "Personal notes you made",
+  //       ],
+  //     },
+  //     {
+  //       id: "do-short-notes-conclusion",
+  //       type: "paragraph",
+  //       content:
+  //         "Skip detailed textbooks. Skip long videos. Goal is reminding yourself, not overloading your brain.",
+  //     },
+  //     {
+  //       id: "dont-start-new",
+  //       type: "heading",
+  //       title: "DON'T: Start Something New",
+  //       level: 2,
+  //     },
+  //     {
+  //       id: "dont-start-para1",
+  //       type: "paragraph",
+  //       content:
+  //         "You'll suddenly think: \"What if I read that PDF everyone's talking about?\"",
+  //     },
+  //     {
+  //       id: "dont-start-conclusion",
+  //       type: "paragraph",
+  //       content:
+  //         "Don't. Starting new stuff this late creates panic. Messes with your head. You've already prepared for months. That work is done. Trust it.",
+  //     },
+  //     {
+  //       id: "do-exam-stuff",
+  //       type: "heading",
+  //       title: "DO: Get Your Exam Stuff Ready",
+  //       level: 2,
+  //     },
+  //     {
+  //       id: "do-exam-para1",
+  //       type: "paragraph",
+  //       content:
+  //         "Pack everything tonight so you're not scrambling in the morning. You need:",
+  //     },
+  //     {
+  //       id: "do-exam-list",
+  //       type: "list",
+  //       items: [
+  //         "Admit card",
+  //         "Valid photo ID",
+  //         "Passport-size photos (if required)",
+  //         "Any documents mentioned in the official instructions",
+  //       ],
+  //     },
+  //     {
+  //       id: "do-exam-conclusion",
+  //       type: "paragraph",
+  //       content: "One place. Organized. Done.",
+  //     },
+  //     {
+  //       id: "dont-others",
+  //       type: "heading",
+  //       title: "DON'T: Listen to What Others Are Doing",
+  //       level: 2,
+  //     },
+  //     {
+  //       id: "dont-others-para1",
+  //       type: "paragraph",
+  //       content: "You'll get messages:",
+  //     },
+  //     {
+  //       id: "dont-others-list",
+  //       type: "list",
+  //       items: [
+  //         '"I\'ve revised everything twice already."',
+  //         '"Taking one more mock test."',
+  //         '"Studying till 3 AM."',
+  //       ],
+  //     },
+  //     {
+  //       id: "dont-others-conclusion",
+  //       type: "paragraph",
+  //       content:
+  //         "Ignore them. Everyone preps differently. Comparing yourself just raises your anxiety. Nothing else.",
+  //     },
+  //     {
+  //       id: "do-eat-normal",
+  //       type: "heading",
+  //       title: "DO: Eat Normal Food",
+  //       level: 2,
+  //     },
+  //     {
+  //       id: "do-eat-para1",
+  //       type: "paragraph",
+  //       content: "Keep dinner simple and familiar. Skip:",
+  //     },
+  //     {
+  //       id: "do-eat-list",
+  //       type: "list",
+  //       items: [
+  //         "Heavy oily stuff",
+  //         "Tons of caffeine",
+  //         "Sugary junk",
+  //         "Food from outside",
+  //       ],
+  //     },
+  //     {
+  //       id: "do-eat-conclusion",
+  //       type: "paragraph",
+  //       content: "A normal meal and water. Sleep better. Feel fresh tomorrow.",
+  //     },
+  //     {
+  //       id: "dont-stay-up",
+  //       type: "heading",
+  //       title: "DON'T: Stay Up All Night",
+  //       level: 2,
+  //     },
+  //     {
+  //       id: "dont-stay-para1",
+  //       type: "paragraph",
+  //       content:
+  //         "Some students think less sleep means more study time. Wrong. No sleep destroys:",
+  //     },
+  //     {
+  //       id: "dont-stay-list",
+  //       type: "list",
+  //       items: [
+  //         "Concentration",
+  //         "Memory recall",
+  //         "Decision-making",
+  //         "Accuracy",
+  //       ],
+  //     },
+  //     {
+  //       id: "dont-stay-conclusion",
+  //       type: "paragraph",
+  //       content: "Get a full night's sleep. Your brain needs it.",
+  //     },
+  //     {
+  //       id: "do-route",
+  //       type: "heading",
+  //       title: "DO: Know Your Route",
+  //       level: 2,
+  //     },
+  //     {
+  //       id: "do-route-para1",
+  //       type: "paragraph",
+  //       content: "Figure out:",
+  //     },
+  //     {
+  //       id: "do-route-list",
+  //       type: "list",
+  //       items: [
+  //         "Where your exam center actually is",
+  //         "How long travel takes",
+  //         "What time to leave",
+  //         "Alternative routes just in case",
+  //       ],
+  //     },
+  //     {
+  //       id: "do-route-conclusion",
+  //       type: "paragraph",
+  //       content: "One less thing to worry about tomorrow morning.",
+  //     },
+  //     {
+  //       id: "dont-social-media",
+  //       type: "heading",
+  //       title: "DON'T: Get Stuck on Social Media",
+  //       level: 2,
+  //     },
+  //     {
+  //       id: "dont-social-conclusion",
+  //       type: "paragraph",
+  //       content:
+  //         'No discussion groups. No prediction videos. No "last-minute expected questions." These create confusion, not confidence. Stay away from it.',
+  //     },
+  //     {
+  //       id: "do-relax",
+  //       type: "heading",
+  //       title: "DO: Actually Relax",
+  //       level: 2,
+  //     },
+  //     {
+  //       id: "do-relax-para1",
+  //       type: "paragraph",
+  //       content:
+  //         "Feeling nervous before NEET PG 2026 is normal. Happens to everyone. Instead of thinking about chapters you missed, remember what you actually accomplished. Months of prep. Real work. Real progress.",
+  //     },
+  //     {
+  //       id: "dont-lost-thoughts",
+  //       type: "heading",
+  //       title: "DON'T: Get Lost in Thoughts",
+  //       level: 2,
+  //     },
+  //     {
+  //       id: "dont-thoughts-para1",
+  //       type: "paragraph",
+  //       content:
+  //         'There will be thoughts like "What if I forget everything?" or "What if the paper is impossible?" They don\'t help. Focus on what you can actually control. Your prep. Your attitude. Your performance is tomorrow.',
+  //     },
+  //     {
+  //       id: "checklist",
+  //       type: "heading",
+  //       title: "Your Checklist Before Sleep",
+  //       level: 2,
+  //     },
+  //     {
+  //       id: "checklist-para1",
+  //       type: "paragraph",
+  //       content: "Before bed, make sure:",
+  //     },
+  //     {
+  //       id: "checklist-list",
+  //       type: "list",
+  //       items: [
+  //         "Revised only short notes",
+  //         "Packed all necessary and required documents",
+  //         "Planned your route",
+  //         "Ate a decent dinner",
+  //         "Turned off distractions",
+  //         "Going to bed on time",
+  //       ],
+  //     },
+  //     {
+  //       id: "final-thoughts",
+  //       type: "heading",
+  //       title: "Final Thoughts",
+  //       level: 2,
+  //     },
+  //     {
+  //       id: "final-thoughts-para1",
+  //       type: "paragraph",
+  //       content:
+  //         "The night before NEET PG 2026 isn't about cramming one more chapter. It's about setting yourself up to perform well tomorrow.",
+  //     },
+  //     {
+  //       id: "final-thoughts-para2",
+  //       type: "paragraph",
+  //       content:
+  //         "Skip the panic studying. Trust what you've prepared. Get actual rest. Your exam score won't depend on tonight. It reflects the months of work you have already put in.",
+  //     },
+  //     {
+  //       id: "final-thoughts-conclusion",
+  //       type: "paragraph",
+  //       content:
+  //         "Tonight? Keep it simple. Revise a little. Relax a little. Get good sleep. Walk into NEET PG 2026 with confidence.",
+  //     },
+  //     {
+  //       id: "faqs",
+  //       type: "heading",
+  //       title: "FAQs",
+  //       level: 2,
+  //     },
+  //     {
+  //       id: "faqs-list",
+  //       type: "faq",
+  //       faqs: [
+  //         {
+  //           question: "Should I study late at night before NEET PG 2026?",
+  //           answer:
+  //             "Nah. If you want to quickly go over notes, fine. But sleep is way more important.",
+  //         },
+  //         {
+  //           question: "Should I take a Grand Test the night before NEET PG?",
+  //           answer:
+  //             "No. Don't do a new mock. Don't do heavy practice. Just keep it relaxed.",
+  //         },
+  //         {
+  //           question: "What should I revise on the night before NEET PG?",
+  //           answer:
+  //             "Go through your short notes. Important tables. Flowcharts. High-yield stuff. Basically what you made during prep.",
+  //         },
+  //         {
+  //           question: "What should I prepare before going to sleep?",
+  //           answer:
+  //             "Get your admit card, ID, all required documents, and everything exam-related ready so you don't get stressed in the morning.",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       id: "keywords",
+  //       type: "keywords",
+  //       title: "Related Keywords",
+  //       keywords: [
+  //         "neet pg",
+  //         "neet pg 2026",
+  //         "neet pg exam",
+  //         "neet pg preparation",
+  //         "neet pg preparation strategy",
+  //       ],
+  //     },
+  //   ],
+  // },
 ];
 
 // Helper function to get blog by slug
