@@ -1797,6 +1797,19 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "The Indian Express",
     created_at: "2026-08-24",
   },
+  {
+    id: 136,
+    title: "NEET PG 2026",
+    content:
+      "NEET PG 2026 Admit Card Released: Candidates Can Download Admit Card Online",
+    date: "2026-08-26",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://cdn3.digialm.com//EForms/configuredHtml/1815/94357/Index.html",
+    is_active: true,
+    source: "NBEMS",
+    created_at: "2026-08-26",
+  },
 ];
 
 /**

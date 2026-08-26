@@ -81665,7 +81665,7 @@ export const blogPosts: BlogPost[] = [
           {
             question: "Should I study new topics now?",
             answer:
-              "Nah. Focus on what actually gets tested and previous year questions.",
+              "No. Focus on what actually gets tested and previous year questions.",
           },
           {
             question: "What if I feel underprepared?",
@@ -82036,7 +82036,7 @@ export const blogPosts: BlogPost[] = [
   //         {
   //           question: "Should I study late at night before NEET PG 2026?",
   //           answer:
-  //             "Nah. If you want to quickly go over notes, fine. But sleep is way more important.",
+  //             "No. If you want to quickly go over notes, fine. But sleep is way more important.",
   //         },
   //         {
   //           question: "Should I take a Grand Test the night before NEET PG?",
