@@ -1823,6 +1823,18 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "NBEMS",
     created_at: "2026-08-30",
   },
+  {
+    id: 138,
+    title: "NEET PG 2026",
+    content: "NEET PG 2026 Answer Key Expected in Second Week of September",
+    date: "2026-08-31",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://timesofindia.indiatimes.com/education/news/when-will-neet-pg-2026-answer-key-be-released-heres-what-you-need-to-know/articleshow/133647155.cms",
+    is_active: true,
+    source: "The Times of India",
+    created_at: "2026-08-31",
+  },
 ];
 
 /**
