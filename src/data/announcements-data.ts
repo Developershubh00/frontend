@@ -1810,6 +1810,19 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "NBEMS",
     created_at: "2026-08-26",
   },
+  {
+    id: 137,
+    title: "NEET PG 2026",
+    content:
+      "NEET PG 2026 Re-Exam on September 5 for Affected Jaipur Candidates; Revised Admit Cards to Be Issued",
+    date: "2026-08-30",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://natboard.edu.in/viewNotice.php?NBE=OHl3RmZZSVdZc3NVUVJEVkxtODJoUT09",
+    is_active: true,
+    source: "NBEMS",
+    created_at: "2026-08-30",
+  },
 ];
 
 /**
