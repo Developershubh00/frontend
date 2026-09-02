@@ -82378,6 +82378,301 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    id: 201,
+    title:
+      "FMGE 2026 to Be Conducted Thrice a Year: What the New Update Means for Aspirants",
+    slug: "fmge-2026-to-be-conducted-thrice-a-year-what-the-new-update-means-for-aspirants",
+    excerpt:
+      "FMGE 2026 brings a major update with three exam sessions annually. Learn how the change may affect attempts, preparation timelines and aspirant strategy.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/48898656/file/2d39cffc83dcb3f4382808bce292ca8c.jpg",
+    featured_image_alt: "fmge 2026 three exam sessions update aspirants",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+    },
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
+    },
+    tags: [
+      "FMGE",
+      "FMGE 2026",
+      "FMGE Exam",
+      "FMGE Preparation",
+      "Medical Entrance Exam",
+    ],
+    published_date: "2026-09-02",
+    read_time: 4,
+    meta_title:
+      "FMGE 2026: Three Exam Sessions a Year & What Changes for Aspirants",
+    meta_description:
+      "FMGE 2026 brings a major update with three exam sessions annually. Learn how the change may affect attempts, preparation timelines and aspirant strategy.",
+    keywords: [
+      "fmge exam date",
+      "fmge",
+      "fmge exam",
+      "fmge preparation",
+      "fmge preparation strategy",
+      "about fmge exam",
+      "date of fmge exam",
+      "fmge admit card",
+      "fmge entrance exam",
+      "fmge exam application",
+      "fmge exam information",
+      "fmge exam official website",
+      "fmge exam papers",
+      "fmge exam preparation",
+      "fmge exam preparation tips",
+      "fmge exam updates",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content:
+          "Big news for anyone prepping for the Foreign Medical Graduate Examination (FMGE) — the National Board of Examinations in Medical Sciences (NBEMS) just announced that FMGE will now run three times a year instead of twice.",
+      },
+      {
+        id: "intro-para2",
+        type: "paragraph",
+        content:
+          "If you're one of the thousands of foreign medical graduates waiting for your shot at clearing this screening test before starting your medical career in India, this is genuinely good news. The cycle just got a lot more forgiving.",
+      },
+      {
+        id: "intro-conclusion",
+        type: "paragraph",
+        content:
+          "There's a date change tucked into the notice too. An additional FMGE sitting has been added for 31 October 2026. Meanwhile, the exam that was originally supposed to happen on 9 January 2027 is getting pushed — it'll now land sometime in January or February 2027, with NBEMS promising the exact date soon.",
+      },
+      {
+        id: "three-exams",
+        type: "heading",
+        title: "Three Exams a Year Now, Not Two",
+        level: 2,
+      },
+      {
+        id: "three-exams-para1",
+        type: "paragraph",
+        content:
+          "FMGE used to run twice annually, more or less like clockwork. That's changing — NBEMS has bumped it up to three sittings a year.",
+      },
+      {
+        id: "three-exams-para2",
+        type: "paragraph",
+        content:
+          "What that actually means for you: one more shot at the screening test within any given year, instead of sitting around waiting for the next scheduled cycle to roll around.",
+      },
+      {
+        id: "three-exams-conclusion",
+        type: "paragraph",
+        content:
+          "If you're eligible and ready to go, this just opens up more room to plan both your prep and your attempt around a date that actually works for you.",
+      },
+      {
+        id: "date-matters",
+        type: "heading",
+        title: "The Date That Matters Right Now",
+        level: 2,
+      },
+      {
+        id: "date-matters-para1",
+        type: "paragraph",
+        content:
+          "Here's the update that affects you most immediately — there's an extra FMGE exam now.",
+      },
+      {
+        id: "date-matters-para2",
+        type: "paragraph",
+        content: "FMGE 2026 – 31 October 2026. That's the date. Mark it.",
+      },
+      {
+        id: "date-matters-conclusion",
+        type: "paragraph",
+        content:
+          "Keep checking the official NBEMS FMGE portal for the information bulletin, application steps, eligibility details, and anything else that comes up. Everything — application links, bulletins, notices, results — lives on that official page.",
+      },
+      {
+        id: "january-exam",
+        type: "heading",
+        title: "What About the January 2027 Exam?",
+        level: 2,
+      },
+      {
+        id: "january-para1",
+        type: "paragraph",
+        content:
+          "Short answer: it's not happening on 9 January anymore. The notice says it'll be rescheduled to sometime later in January or February 2027, and NBEMS is going to announce the exact date separately when it's ready.",
+      },
+      {
+        id: "january-conclusion",
+        type: "paragraph",
+        content:
+          "So don't hold onto that 9 January date. Wait for the official word instead.",
+      },
+      {
+        id: "what-it-means",
+        type: "heading",
+        title: "What This Actually Means If You're Prepping",
+        level: 2,
+      },
+      {
+        id: "what-it-means-para1",
+        type: "paragraph",
+        content:
+          "An extra exam is an extra opportunity — sure. But it's not a reason to push your prep further down the road.",
+      },
+      {
+        id: "what-it-means-para2",
+        type: "paragraph",
+        content:
+          "If you're already deep into studying, this gives you a real, fixed target to aim for. Going for October? Build your plan around 31 October 2026. Need more runway? The next cycle becomes your backup once NBEMS locks in the revised date.",
+      },
+      {
+        id: "what-it-means-conclusion",
+        type: "paragraph",
+        content:
+          "The real question isn't whether another attempt exists — it's whether you're actually ready. Be honest with yourself about that.",
+      },
+      {
+        id: "studying-change",
+        type: "heading",
+        title: "Do You Need to Change How You're Studying?",
+        level: 2,
+      },
+      {
+        id: "studying-para1",
+        type: "paragraph",
+        content:
+          "Not really. The exam schedule shifted, but what it actually takes to clear FMGE hasn't changed one bit. Candidates should focus on:",
+      },
+      {
+        id: "studying-list",
+        type: "list",
+        items: [
+          "Building strong concepts",
+          "Revising high-yield topics regularly",
+          "Solving previous-year questions",
+          "Practicing MCQs consistently",
+          "Analyzing mistakes",
+          "Taking mock tests",
+          "Revising weak subjects repeatedly",
+        ],
+      },
+      {
+        id: "studying-conclusion",
+        type: "paragraph",
+        content:
+          "Just don't let the extra attempt turn into an excuse to keep delaying. If October's realistic for you, treat it as your line in the sand.",
+      },
+      {
+        id: "trust-source",
+        type: "heading",
+        title: "Don't Trust Random Updates — Go Straight to the Source",
+        level: 2,
+      },
+      {
+        id: "trust-para1",
+        type: "paragraph",
+        content:
+          "Whenever something changes this much, half-true dates and rumors start floating around social media and student WhatsApp groups almost instantly.",
+      },
+      {
+        id: "trust-para2",
+        type: "paragraph",
+        content:
+          "Stick to NBEMS notifications and the official FMGE portal for anything confirmed. NBEMS has said clearly that all further details — including the information bulletin — will go out through its website.",
+      },
+      {
+        id: "trust-conclusion",
+        type: "paragraph",
+        content:
+          "Keep an eye out for updates on the application window, eligibility, exam city, and admit card too.",
+      },
+      {
+        id: "bottom-line",
+        type: "heading",
+        title: "Bottom Line",
+        level: 2,
+      },
+      {
+        id: "bottom-line-para1",
+        type: "paragraph",
+        content:
+          "Three FMGE exams a year is a real shift, and it works in your favor — more chances to get through the screening test and move your career forward.",
+      },
+      {
+        id: "bottom-line-para2",
+        type: "paragraph",
+        content:
+          "Right now, though, there's one date that matters: FMGE 2026: 31 October 2026. Use it. Turn it into an actual deadline instead of just another headline you scrolled past.",
+      },
+      {
+        id: "bottom-line-conclusion",
+        type: "paragraph",
+        content:
+          "More attempts mean more opportunities — but at the end of the day, preparation is still what decides the outcome.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "How many times will FMGE be conducted in 2026?",
+            answer: "Three times now, instead of the usual twice.",
+          },
+          {
+            question: "What is the FMGE 2026 exam date?",
+            answer: "The additional FMGE 2026 exam is set for 31 October 2026.",
+          },
+          {
+            question: "What happened to the January 2027 FMGE exam?",
+            answer:
+              "It's been postponed — the 9 January 2027 date is now pushed to sometime in January or February 2027.",
+          },
+          {
+            question:
+              "Does the new schedule give FMGE aspirants more opportunities?",
+            answer:
+              "Yes. With three cycles a year instead of two, aspirants get an extra shot at clearing FMGE.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "fmge exam date",
+          "fmge",
+          "fmge exam",
+          "fmge preparation",
+          "fmge preparation strategy",
+          "about fmge exam",
+          "date of fmge exam",
+          "fmge admit card",
+          "fmge entrance exam",
+          "fmge exam application",
+          "fmge exam information",
+          "fmge exam official website",
+          "fmge exam papers",
+          "fmge exam preparation",
+          "fmge exam preparation tips",
+          "fmge exam updates",
+        ],
+      },
+    ],
+  },
 ];
 
 // Helper function to get blog by slug
