@@ -1,0 +1,474 @@
+/* ===========================================================
+   Believers — Counselling Sections
+   Scoped entirely under .believers — no root/global resets,
+   no font-family declared (inherits from the app).
+=========================================================== */
+
+.believers {
+  --ink: #032c7b;
+  --blue: #0464de;
+  --body: #3f3f3f;
+  --accent: #e85002;
+  --line: #dbe4f2;
+  --bg: #f6f9fd;
+  --bg-alt: #ffffff;
+
+  background: var(--bg);
+  color: var(--body);
+  overflow-x: hidden;
+}
+
+.believers,
+.believers *,
+.believers *::before,
+.believers *::after {
+  box-sizing: border-box;
+}
+
+.believers button {
+  font: inherit;
+}
+
+/* ---------- shared type ---------- */
+
+.b-heading {
+  font-size: 38px;
+  color: var(--ink);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  margin: 0 0 20px;
+}
+
+.b-subheading {
+  font-size: 28px;
+  color: var(--blue);
+  font-weight: 600;
+  line-height: 1.25;
+  margin: 0 0 16px;
+}
+
+.b-para {
+  font-size: 18px;
+  color: var(--body);
+  line-height: 1.65;
+  margin: 0 0 12px;
+  max-width: 640px;
+}
+
+.b-para--strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.b-note {
+  font-size: 14px;
+  color: #7c7c7c;
+  font-style: italic;
+  margin-top: 18px;
+  max-width: 620px;
+}
+
+.b-list {
+  list-style: none;
+  margin: 0 0 24px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.b-list--two-col {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px 40px;
+}
+
+.b-list-item {
+  position: relative;
+  padding-left: 22px;
+  font-size: 18px;
+  color: var(--body);
+  line-height: 1.5;
+}
+
+.b-list-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.65em;
+  width: 8px;
+  height: 2px;
+  background: var(--accent);
+}
+
+.b-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--accent);
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.b-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px -8px rgba(232, 80, 2, 0.55);
+}
+
+.b-cta:hover .icon-arrow {
+  transform: translateX(3px);
+}
+
+.b-cta--large {
+  padding: 18px 40px;
+  font-size: 18px;
+}
+
+.icon-arrow {
+  transition: transform 0.25s ease;
+}
+
+/* helper used pre-animation so content isn't visible before GSAP runs */
+.reveal,
+.reveal-item {
+  visibility: hidden;
+}
+
+/* ---------- layout scaffolding ---------- */
+
+.b-section {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 80px 32px;
+  border-top: 1px solid var(--line);
+}
+
+.process-section {
+  border-top: none;
+}
+
+/* ---------- 01 process ---------- */
+
+.process-track {
+  position: relative;
+  margin-top: 48px;
+}
+
+.process-line,
+.process-line-fill {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  height: 2px;
+  background: var(--line);
+}
+
+.process-line-fill {
+  background: var(--accent);
+  transform: scaleX(0);
+  transform-origin: left center;
+}
+
+.process-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+}
+
+.process-step {
+  position: relative;
+  padding-top: 56px;
+}
+
+.process-num {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid var(--blue);
+  background: var(--bg-alt);
+  color: var(--blue);
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.process-tag {
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+
+.process-title {
+  font-size: 20px;
+  color: var(--ink);
+  font-weight: 700;
+  margin: 0 0 8px;
+  line-height: 1.3;
+}
+
+.process-desc {
+  font-size: 15px;
+  color: var(--body);
+  line-height: 1.55;
+  margin: 0;
+}
+
+/* ---------- 02 why ---------- */
+
+.why-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 56px;
+  align-items: start;
+}
+
+.why-statement {
+  background: var(--bg-alt);
+  border-left: 3px solid var(--accent);
+  padding: 32px 36px;
+}
+
+.why-statement .b-cta {
+  margin-top: 12px;
+}
+
+/* ---------- 03 data advantage ---------- */
+
+.data-section .b-list {
+  margin-top: 8px;
+}
+
+.data-statement {
+  margin-top: 8px;
+  padding-top: 8px;
+}
+
+/* ---------- 04 find colleges ---------- */
+
+.find-panel {
+  background: var(--bg-alt);
+  border: 1px solid var(--line);
+  padding: 48px;
+}
+
+.find-panel .b-heading,
+.find-panel .b-subheading {
+  margin-bottom: 14px;
+}
+
+.filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.filter-chip {
+  padding: 8px 18px;
+  border: 1px solid var(--blue);
+  border-radius: 999px;
+  color: var(--blue);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.filter-divider {
+  width: 1px;
+  height: 18px;
+  background: var(--line);
+}
+
+/* ---------- 05 journey ---------- */
+
+.journey-track {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  overflow-x: auto;
+  padding: 16px 4px 32px;
+  margin-bottom: 8px;
+  scrollbar-width: thin;
+}
+
+.journey-node {
+  flex: 0 0 auto;
+  padding: 10px 18px;
+  border: 1px solid var(--blue);
+  border-radius: 6px;
+  background: var(--bg-alt);
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.journey-arrow {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  color: var(--accent);
+  margin: 0 8px;
+}
+
+/* ---------- 06 resources ---------- */
+
+.resources-section .b-list {
+  margin-top: 8px;
+}
+
+/* ---------- 07 core promise ---------- */
+
+.promise-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px 32px;
+  margin-top: 12px;
+}
+
+.promise-card {
+  padding-top: 20px;
+  border-top: 2px solid var(--accent);
+}
+
+.promise-icon {
+  display: inline-flex;
+  color: var(--blue);
+  margin-bottom: 14px;
+}
+
+.promise-title {
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: var(--ink);
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+
+.promise-desc {
+  font-size: 15px;
+  color: var(--body);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ---------- 08 final cta ---------- */
+
+.final-section {
+  text-align: center;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.final-section .b-para {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.final-section .b-cta {
+  margin-top: 12px;
+}
+
+/* ===========================================================
+   Responsive — 868px breakpoint from the design spec
+=========================================================== */
+
+@media (max-width: 868px) {
+  .b-heading {
+    font-size: 32px;
+  }
+
+  .b-subheading {
+    font-size: 24px;
+  }
+
+  .b-para,
+  .b-list-item {
+    font-size: 16px;
+  }
+
+  .b-section {
+    padding: 56px 22px;
+  }
+
+  .why-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .b-list--two-col {
+    grid-template-columns: 1fr;
+  }
+
+  .process-grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .process-line,
+  .process-line-fill {
+    display: none;
+  }
+
+  .process-step {
+    padding-top: 0;
+    padding-left: 56px;
+  }
+
+  .process-step::after {
+    content: "";
+    position: absolute;
+    left: 19px;
+    top: 44px;
+    bottom: -36px;
+    width: 2px;
+    background: var(--line);
+  }
+
+  .process-step:last-child::after {
+    display: none;
+  }
+
+  .process-num {
+    top: 0;
+    left: 0;
+  }
+
+  .find-panel {
+    padding: 32px 24px;
+  }
+
+  .promise-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .journey-track {
+    flex-direction: column;
+    align-items: flex-start;
+    overflow-x: visible;
+    gap: 4px;
+  }
+
+  .journey-arrow {
+    transform: rotate(90deg);
+    margin: 2px 0 2px 18px;
+  }
+}
