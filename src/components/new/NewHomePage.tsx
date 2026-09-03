@@ -9,6 +9,7 @@ function NewHomePage() {
       <Marquee />
       <EverythingSection />
     </div>
+    // gsap installed
   );
 }
 
