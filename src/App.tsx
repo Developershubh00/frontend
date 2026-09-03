@@ -102,6 +102,7 @@ import InicetClosingRanks2025Page from "./INICET/InicetClosingRanks2025Page";
 import InicetClosingRanks2026Page from "./INICET/InicetClosingRanks2026Page";
 import AllotmentsPage2025 from "./NeetPG/AllotmentsPage2025";
 import ClosingRanks2025Page from "./NeetPG/ClosingRanks2025Page";
+import NewHomePage from "./components/new/NewHomePage";
 
 /**
  * Main App Component with React Router
@@ -127,6 +128,7 @@ function AppContent() {
 ───────────────────────────────────────────────── */}
           {/* Homepage */}
           <Route path="/" element={<Homepage />} />
+          <Route path="/home" element={<NewHomePage />} />
           {/* Auth */}
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<SignupPage />} />
