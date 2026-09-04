@@ -1,7 +1,10 @@
 import HeroSection from "./HeroSection";
 import MentorSection from "./MentorSection";
 import EverythingSection from "./EverythingSection";
-import Chaos from "./Chaos";
+import RankDecision from "./RankDecision";
+import WhyBelievers from "./WhyBelievers";
+import DataAdvantage from "./DataAdvantage";
+import FindCollegesSection from "./FindCollegesSection";
 import BelieversSections from "./BelieversSections";
 
 function NewHomePage() {
@@ -10,10 +13,12 @@ function NewHomePage() {
       <HeroSection />
       <MentorSection />
       <EverythingSection />
-      {/* <Chaos /> */}
+      <RankDecision />
+      <WhyBelievers />
+      <DataAdvantage />
+      <FindCollegesSection />
       <BelieversSections />
     </div>
-    // gsap installed
   );
 }
 

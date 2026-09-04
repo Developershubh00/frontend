@@ -1,0 +1,361 @@
+.college-finder-section {
+  --cfs-navy: #032c7b;
+  --cfs-blue: #0464de;
+  --cfs-text: #3f3f3f;
+  --cfs-orange: #ff732d;
+  --cfs-bg: #effff4;
+  --cfs-app: #f7faff;
+  background: var(--cfs-bg);
+  padding: 96px 24px;
+  font-family: Montserrat, "Avenir Next", Arial, sans-serif;
+  overflow: hidden;
+}
+.college-finder-section *,
+.college-finder-section *::before,
+.college-finder-section *::after {
+  box-sizing: border-box;
+}
+.college-finder-section__container {
+  display: grid;
+  grid-template-columns: minmax(0, 0.82fr) minmax(500px, 1.18fr);
+  max-width: 1400px;
+  gap: 64px;
+  align-items: center;
+  margin: auto;
+}
+.college-finder-section__content {
+  max-width: 480px;
+}
+.college-finder-section__eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 17px;
+  color: var(--cfs-blue);
+  font-size: 12px;
+  font-weight: 750;
+  letter-spacing: 0.12em;
+}
+.college-finder-section__eyebrow::before {
+  width: 29px;
+  height: 2px;
+  content: "";
+  background: var(--cfs-orange);
+}
+.college-finder-section h2 {
+  margin: 0;
+  color: var(--cfs-navy);
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  line-height: 1.2;
+}
+.college-finder-section__subheading {
+  margin: 24px 0 9px;
+  color: var(--cfs-blue);
+  font-size: 28px;
+  font-weight: 650;
+  line-height: 1.3;
+}
+.college-finder-section__filters {
+  margin: 0;
+  color: var(--cfs-navy);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+.college-finder-section__description {
+  margin: 24px 0 27px;
+  color: var(--cfs-text);
+  font-size: 18px;
+  line-height: 1.65;
+}
+.college-finder-section__cta {
+  min-height: 51px;
+  padding: 0 23px;
+  border: 0;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  font-size: 16px;
+  font-weight: 650;
+  background: var(--cfs-orange);
+  box-shadow: 0 8px 18px rgba(255, 115, 45, 0.2);
+}
+.college-finder-section__cta:focus-visible,
+.college-finder-app button:focus-visible,
+.college-finder-app select:focus-visible,
+.college-finder-app input:focus-visible {
+  outline: 3px solid rgba(4, 100, 222, 0.35);
+  outline-offset: 2px;
+}
+.college-finder-app {
+  position: relative;
+  padding: 0 22px 22px;
+  border: 1px solid rgba(3, 44, 123, 0.11);
+  border-radius: 19px;
+  background: var(--cfs-app);
+  box-shadow: 0 18px 42px rgba(3, 44, 123, 0.11);
+}
+.college-finder-app::before {
+  position: absolute;
+  z-index: 0;
+  right: -66px;
+  bottom: -72px;
+  width: 190px;
+  height: 190px;
+  border: 1px solid rgba(4, 100, 222, 0.11);
+  border-radius: 50%;
+  content: "";
+}
+.college-finder-app__header,
+.college-finder-app__form,
+.college-finder-app__results {
+  position: relative;
+  z-index: 1;
+}
+.college-finder-app__header {
+  display: flex;
+  min-height: 69px;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid rgba(3, 44, 123, 0.1);
+  color: var(--cfs-navy);
+  font-size: 15px;
+}
+.college-finder-app__mark {
+  display: grid;
+  width: 31px;
+  height: 31px;
+  border-radius: 8px;
+  color: #fff;
+  place-items: center;
+  background: var(--cfs-blue);
+}
+.college-finder-app__status {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: auto;
+  color: #697995;
+  font-size: 11px;
+  font-weight: 650;
+}
+.college-finder-app__status i {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #4ead70;
+}
+.college-finder-app__form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 15px;
+  padding-top: 21px;
+}
+.college-finder-app__field {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.college-finder-app__field--full {
+  grid-column: 1 / -1;
+}
+.college-finder-app label {
+  color: #53627c;
+  font-size: 10px;
+  font-weight: 750;
+  letter-spacing: 0.08em;
+}
+.college-finder-app input,
+.college-finder-app select {
+  width: 100%;
+  min-height: 46px;
+  padding: 0 12px;
+  border: 1px solid #d5e0f1;
+  border-radius: 8px;
+  color: var(--cfs-text);
+  font: inherit;
+  font-size: 13px;
+  background: #fff;
+}
+.college-finder-app input::placeholder {
+  color: #9aa8bc;
+}
+.college-finder-app__submit {
+  display: inline-flex;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  grid-column: 1 / -1;
+  margin-top: 4px;
+  border: 0;
+  border-radius: 9px;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 650;
+  background: var(--cfs-orange);
+  box-shadow: 0 7px 15px rgba(255, 115, 45, 0.2);
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease;
+}
+.college-finder-app__submit:hover {
+  box-shadow: 0 10px 18px rgba(255, 115, 45, 0.28);
+  transform: translateY(-2px);
+}
+.college-finder-app__results {
+  padding-top: 21px;
+}
+.college-finder-app__results-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  color: var(--cfs-blue);
+}
+.college-finder-app__results-heading p {
+  margin: 0 0 3px;
+  color: var(--cfs-navy);
+  font-size: 17px;
+  font-weight: 700;
+}
+.college-finder-app__results-heading span {
+  color: #687993;
+  font-size: 11px;
+}
+.college-finder-app__result-list {
+  display: grid;
+  gap: 9px;
+}
+.college-finder-app__result {
+  display: grid;
+  grid-template-columns: 38px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 10px;
+  padding: 11px;
+  border: 1px solid #dce5f2;
+  border-radius: 10px;
+  background: #fff;
+}
+.college-finder-app__result-icon {
+  display: grid;
+  width: 38px;
+  height: 38px;
+  border-radius: 8px;
+  color: var(--cfs-blue);
+  place-items: center;
+  background: #eef5ff;
+}
+.college-finder-app__result-copy h3 {
+  overflow: hidden;
+  margin: 0 0 3px;
+  color: var(--cfs-navy);
+  font-size: 13px;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.college-finder-app__result-copy p {
+  margin: 0;
+  color: #667690;
+  font-size: 10px;
+  line-height: 1.45;
+}
+.college-finder-app__result-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.college-finder-app__result-actions span {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  color: #358451;
+  font-size: 9px;
+  font-weight: 700;
+}
+.college-finder-app__result-actions button {
+  display: grid;
+  width: 29px;
+  height: 29px;
+  border: 1px solid #d9e5f6;
+  border-radius: 7px;
+  color: var(--cfs-blue);
+  cursor: pointer;
+  place-items: center;
+  background: #fff;
+}
+.college-finder-app__back {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin: 17px 0 1px;
+  padding: 0;
+  border: 0;
+  color: var(--cfs-blue);
+  cursor: pointer;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 650;
+  background: transparent;
+}
+@media (max-width: 868px) {
+  .college-finder-section {
+    padding: 70px 20px;
+  }
+  .college-finder-section__container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .college-finder-section__content {
+    max-width: 650px;
+  }
+  .college-finder-section h2 {
+    font-size: 32px;
+  }
+  .college-finder-section__subheading {
+    font-size: 24px;
+  }
+  .college-finder-section__description {
+    font-size: 16px;
+  }
+  .college-finder-app {
+    max-width: 650px;
+  }
+}
+@media (max-width: 560px) {
+  .college-finder-section {
+    padding: 58px 16px;
+  }
+  .college-finder-section__filters {
+    font-size: 15px;
+  }
+  .college-finder-section__cta {
+    width: 100%;
+  }
+  .college-finder-app {
+    padding: 0 15px 15px;
+  }
+  .college-finder-app__form {
+    grid-template-columns: 1fr;
+  }
+  .college-finder-app__field--full,
+  .college-finder-app__submit {
+    grid-column: auto;
+  }
+  .college-finder-app__result {
+    grid-template-columns: 35px minmax(0, 1fr);
+  }
+  .college-finder-app__result-actions {
+    grid-column: 2;
+    justify-content: space-between;
+  }
+  .college-finder-app__result-copy h3 {
+    white-space: normal;
+  }
+}

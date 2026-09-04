@@ -1,7 +1,7 @@
 .questions-section {
   width: 100%;
   padding: 100px 20px;
-  background: #ffffff;
+  background: #effff4;
   overflow: hidden;
 }
 
@@ -16,9 +16,13 @@
   color: #032c7b;
   margin-bottom: 20px;
   line-height: 1.25;
+  text-align: center;
 }
 
-.questions-container h2 span {
+.questions-content h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  line-height: 1.25;
   color: #0464de;
 }
 
@@ -92,8 +96,7 @@
 /* -------------------------------- Responsive Styles ------------------------------ */
 
 @media (max-width: 1024px) {
-  .questions-section,
-  .everything-section {
+  .questions-section {
     padding: 80px 20px;
   }
 
@@ -117,14 +120,16 @@
 }
 
 @media (max-width: 868px) {
-  .questions-section,
-  .everything-section {
+  .questions-section {
     padding: 60px 16px;
   }
 
-  .questions-container h2,
-  .everything-header h2 {
+  .questions-container h2 {
     font-size: 32px;
+  }
+
+  .questions-content h3 {
+    font-size: 24px;
   }
 
   .questions-content {
@@ -142,21 +147,6 @@
     height: 450px;
     margin: 45px 0 0;
   }
-
-  .everything-header {
-    align-items: flex-start;
-    flex-direction: column;
-    margin-bottom: 35px;
-  }
-
-  .everything-carousel-controls {
-    align-self: flex-end;
-  }
-
-  .everything-card {
-    flex: 0 0 80%;
-    min-height: 300px;
-  }
 }
 
 @media (max-width: 568px) {
@@ -172,20 +162,5 @@
     height: 350px;
     margin-top: 35px;
     border-radius: 18px;
-  }
-
-  .everything-card {
-    flex: 0 0 88%;
-    min-height: 290px;
-    padding: 24px;
-  }
-
-  .everything-card-content h3 {
-    font-size: 22px;
-  }
-
-  .everything-carousel-controls button {
-    width: 46px;
-    height: 46px;
   }
 }

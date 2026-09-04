@@ -1,0 +1,554 @@
+.data-advantage {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: #ffffff;
+  color: #3f3f3f;
+}
+
+/* =========================================
+   BACKGROUND
+========================================= */
+
+.data-bg-grid {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.35;
+
+  background-image:
+    linear-gradient(rgba(4, 100, 222, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(4, 100, 222, 0.045) 1px, transparent 1px);
+
+  background-size: 60px 60px;
+
+  mask-image: linear-gradient(to bottom, black, transparent 85%);
+}
+
+.data-orb {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  filter: blur(2px);
+}
+
+.data-orb-one {
+  width: 260px;
+  height: 260px;
+  top: 80px;
+  right: -120px;
+
+  background: radial-gradient(circle, rgba(4, 100, 222, 0.12), transparent 68%);
+}
+
+.data-orb-two {
+  width: 220px;
+  height: 220px;
+  bottom: 80px;
+  left: -120px;
+
+  background: radial-gradient(
+    circle,
+    rgba(255, 115, 45, 0.11),
+    transparent 68%
+  );
+}
+
+.data-dot-decoration {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+
+  border-radius: 50%;
+  background: #ff732d;
+
+  pointer-events: none;
+}
+
+.dot-one {
+  top: 16%;
+  right: 12%;
+}
+
+.dot-two {
+  top: 48%;
+  left: 7%;
+}
+
+.dot-three {
+  bottom: 17%;
+  right: 8%;
+}
+
+/* =========================================
+   CONTAINER
+========================================= */
+
+.data-wrapper {
+  position: relative;
+  z-index: 2;
+
+  max-width: 1400px;
+  margin: 0 auto;
+
+  padding: 100px 32px;
+}
+
+/* =========================================
+   HEADER
+========================================= */
+
+.data-header {
+  max-width: 800px;
+}
+
+.data-label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  margin-bottom: 14px;
+
+  color: #ff732d;
+
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+}
+
+.data-label-line {
+  width: 36px;
+  height: 2px;
+
+  background: #ff732d;
+}
+
+.data-heading {
+  margin: 0 0 32px;
+
+  color: #032c7b;
+
+  font-size: 38px;
+  font-weight: 700;
+
+  line-height: 1.1;
+  letter-spacing: -0.025em;
+}
+
+.data-heading-line {
+  display: block;
+}
+
+.data-heading-highlight {
+  color: #0464de;
+}
+
+.data-subheading {
+  margin: 0 0 22px;
+
+  color: #0464de;
+
+  font-size: 28px;
+  font-weight: 600;
+
+  line-height: 1.25;
+}
+
+.data-intro {
+  margin: 0;
+
+  color: #3f3f3f;
+
+  font-size: 18px;
+  line-height: 1.65;
+}
+
+/* =========================================
+   ANALYSIS
+========================================= */
+
+.analysis-section {
+  position: relative;
+
+  margin-top: 75px;
+}
+
+.analysis-heading {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  margin-bottom: 28px;
+}
+
+.analysis-heading-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+
+  background: #032c7b;
+  color: #ffffff;
+
+  font-size: 13px;
+  font-weight: 700;
+
+  box-shadow: 0 8px 24px rgba(3, 44, 123, 0.18);
+}
+
+.analysis-heading-text {
+  color: #0464de;
+
+  font-size: 28px;
+  font-weight: 600;
+}
+
+/* =========================================
+   ANALYSIS GRID
+========================================= */
+
+.analysis-layout {
+  position: relative;
+}
+
+.analysis-line {
+  position: absolute;
+
+  left: 50%;
+  top: 0;
+  bottom: 0;
+
+  width: 1px;
+
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    #0464de 10%,
+    #0464de 90%,
+    transparent
+  );
+
+  transform-origin: top center;
+}
+
+.analysis-grid {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 16px 70px;
+}
+
+/* =========================================
+   ANALYSIS CARD
+========================================= */
+
+.analysis-card {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+
+  min-height: 78px;
+
+  padding: 18px 22px 18px 72px;
+
+  border: 1px solid rgba(4, 100, 222, 0.12);
+  border-radius: 12px;
+
+  background: rgba(255, 255, 255, 0.88);
+
+  box-shadow: 0 8px 30px rgba(3, 44, 123, 0.055);
+
+  backdrop-filter: blur(8px);
+
+  transition:
+    transform 0.35s ease,
+    border-color 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+.analysis-card:hover {
+  transform: translateY(-5px);
+
+  border-color: rgba(255, 115, 45, 0.4);
+
+  box-shadow: 0 15px 35px rgba(3, 44, 123, 0.1);
+}
+
+.analysis-number {
+  position: absolute;
+
+  left: 20px;
+
+  color: #0464de;
+
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.analysis-card-dot {
+  position: absolute;
+
+  left: 48px;
+
+  width: 7px;
+  height: 7px;
+
+  border-radius: 50%;
+
+  background: #ff732d;
+
+  box-shadow: 0 0 0 5px rgba(255, 115, 45, 0.08);
+}
+
+.analysis-card p {
+  margin: 0;
+
+  color: #3f3f3f;
+
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* =========================================
+   STATEMENT
+========================================= */
+
+.data-statement {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+
+  margin-top: 70px;
+
+  padding: 38px 45px;
+
+  border: 1px solid rgba(4, 100, 222, 0.12);
+  border-radius: 16px;
+
+  background: linear-gradient(110deg, #f7faff 0%, #ffffff 65%);
+
+  box-shadow: 0 18px 45px rgba(3, 44, 123, 0.07);
+
+  overflow: hidden;
+}
+
+.statement-accent {
+  position: absolute;
+
+  left: 0;
+  top: 0;
+  bottom: 0;
+
+  width: 4px;
+
+  background: #ff732d;
+}
+
+.statement-content {
+  position: relative;
+  z-index: 2;
+}
+
+.statement-main {
+  margin: 0 0 7px;
+
+  color: #032c7b;
+
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.statement-main strong {
+  font-weight: 700;
+}
+
+.statement-final {
+  margin: 18px 0 0;
+
+  color: #3f3f3f;
+
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.statement-mark {
+  position: absolute;
+
+  right: 35px;
+  top: 50%;
+
+  transform: translateY(-50%);
+
+  color: rgba(4, 100, 222, 0.07);
+
+  font-size: 150px;
+  font-weight: 700;
+
+  line-height: 1;
+}
+
+/* =========================================
+   CTA
+========================================= */
+
+.data-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+
+  margin-top: 32px;
+
+  padding: 16px 28px;
+
+  border: 0;
+  border-radius: 5px;
+
+  background: #ff732d;
+  color: #ffffff;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  box-shadow: 0 10px 25px rgba(255, 115, 45, 0.2);
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.data-cta:hover {
+  transform: translateY(-3px);
+
+  box-shadow: 0 15px 35px rgba(255, 115, 45, 0.3);
+}
+
+.data-cta-arrow {
+  display: flex;
+  align-items: center;
+
+  transition: transform 0.3s ease;
+}
+
+.data-cta:hover .data-cta-arrow {
+  transform: translateX(5px);
+}
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 868px) {
+  .data-wrapper {
+    padding: 70px 22px;
+  }
+
+  .data-heading {
+    font-size: 32px;
+  }
+
+  .data-subheading,
+  .analysis-heading-text {
+    font-size: 24px;
+  }
+
+  .data-intro,
+  .analysis-card p,
+  .statement-final {
+    font-size: 16px;
+  }
+
+  .analysis-section {
+    margin-top: 55px;
+  }
+
+  .analysis-grid {
+    gap: 12px 25px;
+  }
+
+  .analysis-card {
+    min-height: 72px;
+    padding-left: 65px;
+  }
+
+  .data-statement {
+    margin-top: 55px;
+    padding: 30px;
+  }
+
+  .statement-main {
+    font-size: 19px;
+  }
+}
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 600px) {
+  .data-wrapper {
+    padding: 55px 18px;
+  }
+
+  .data-heading {
+    font-size: 32px;
+  }
+
+  .data-subheading,
+  .analysis-heading-text {
+    font-size: 24px;
+  }
+
+  .data-intro br {
+    display: none;
+  }
+
+  .analysis-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .analysis-line {
+    display: none;
+  }
+
+  .analysis-card {
+    min-height: 68px;
+  }
+
+  .data-statement {
+    padding: 26px 24px;
+  }
+
+  .statement-mark {
+    right: 10px;
+    font-size: 100px;
+  }
+
+  .statement-main {
+    font-size: 18px;
+  }
+
+  .data-cta {
+    width: 100%;
+  }
+
+  .data-orb-one {
+    width: 180px;
+    height: 180px;
+  }
+
+  .data-orb-two {
+    width: 160px;
+    height: 160px;
+  }
+}

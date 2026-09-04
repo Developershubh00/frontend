@@ -86,9 +86,9 @@ const EverythingSection = () => {
     <section>
       <div className="questions-section">
         <div className="questions-container">
-          {/* <h2>After NEET PG, the questions begin…</h2> */}
+          <h2>The Student’s Real Questions</h2>
           <div className="questions-content">
-            <h2>After NEET PG, the questions begin…</h2>
+            <h3>After NEET PG, the questions begin…</h3>
             <div className="questions-list">
               <p>Can I get MD Medicine?</p>
               <p>Can I get Radiology?</p>
