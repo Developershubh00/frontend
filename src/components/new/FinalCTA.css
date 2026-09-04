@@ -1,0 +1,487 @@
+/* =========================================================
+   FINAL CTA
+   Fully Scoped
+   ========================================================= */
+
+.fcta-section {
+  --fcta-blue: #032c7b;
+  --fcta-light-blue: #0464de;
+  --fcta-orange: #ff732d;
+  --fcta-text: #3f3f3f;
+  --fcta-green: #effff4;
+
+  width: 100%;
+  padding: 90px 20px;
+
+  background: #ffffff;
+
+  overflow: hidden;
+}
+
+.fcta-section *,
+.fcta-section *::before,
+.fcta-section *::after {
+  box-sizing: border-box;
+}
+
+/* =========================================================
+   CONTAINER
+   ========================================================= */
+
+.fcta-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* =========================================================
+   MAIN PANEL
+   ========================================================= */
+
+.fcta-panel {
+  position: relative;
+
+  width: 100%;
+  max-width: 1100px;
+
+  min-height: 480px;
+
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 75px 40px;
+
+  background: #effff4;
+
+  border: 1px solid rgba(3, 44, 123, 0.08);
+
+  border-radius: 28px;
+
+  overflow: hidden;
+
+  box-shadow: 0 15px 45px rgba(3, 44, 123, 0.055);
+}
+
+/* =========================================================
+   DECORATIVE CIRCLES
+   ========================================================= */
+
+.fcta-circle {
+  position: absolute;
+
+  border: 1px solid rgba(4, 100, 222, 0.08);
+
+  border-radius: 50%;
+
+  pointer-events: none;
+}
+
+.fcta-circle-one {
+  width: 330px;
+  height: 330px;
+
+  top: -190px;
+  left: -130px;
+}
+
+.fcta-circle-two {
+  width: 260px;
+  height: 260px;
+
+  right: -120px;
+  bottom: -150px;
+
+  border-color: rgba(255, 115, 45, 0.09);
+}
+
+/* =========================================================
+   DOTS
+   ========================================================= */
+
+.fcta-dot {
+  position: absolute;
+
+  width: 6px;
+  height: 6px;
+
+  border-radius: 50%;
+
+  pointer-events: none;
+}
+
+.fcta-dot-one {
+  top: 80px;
+  left: 18%;
+
+  background: #0464de;
+
+  opacity: 0.18;
+}
+
+.fcta-dot-two {
+  right: 17%;
+  top: 105px;
+
+  background: #ff732d;
+
+  opacity: 0.2;
+}
+
+.fcta-dot-three {
+  bottom: 75px;
+  left: 12%;
+
+  background: #0464de;
+
+  opacity: 0.13;
+}
+
+/* =========================================================
+   ACCENT
+   ========================================================= */
+
+.fcta-accent {
+  position: relative;
+  z-index: 2;
+
+  display: flex;
+  align-items: center;
+  gap: 9px;
+
+  margin-bottom: 15px;
+
+  color: #ff732d;
+}
+
+.fcta-accent span {
+  width: 27px;
+  height: 1px;
+
+  background: #ff732d;
+}
+
+/* =========================================================
+   EYEBROW
+   ========================================================= */
+
+.fcta-eyebrow {
+  position: relative;
+  z-index: 2;
+
+  margin-bottom: 17px;
+
+  color: #0464de;
+
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 700;
+
+  letter-spacing: 2px;
+}
+
+/* =========================================================
+   CONTENT
+   ========================================================= */
+
+.fcta-content {
+  position: relative;
+  z-index: 2;
+
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+}
+
+/* =========================================================
+   MAIN TITLE
+   ========================================================= */
+
+.fcta-title {
+  max-width: 850px;
+
+  margin: 0;
+
+  color: #032c7b;
+
+  font-size: 42px;
+  line-height: 1.15;
+  font-weight: 700;
+
+  letter-spacing: -0.8px;
+}
+
+/* =========================================================
+   SUBTITLE
+   ========================================================= */
+
+.fcta-subtitle {
+  max-width: 800px;
+
+  margin: 12px 0 0;
+
+  color: #0464de;
+
+  font-size: 34px;
+  line-height: 1.2;
+  font-weight: 700;
+
+  letter-spacing: -0.4px;
+}
+
+/* =========================================================
+   TRUST LINE
+   ========================================================= */
+
+.fcta-trust {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  gap: 13px;
+
+  margin-top: 28px;
+
+  color: #3f3f3f;
+
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.fcta-trust i {
+  width: 5px;
+  height: 5px;
+
+  display: block;
+
+  background: #ff732d;
+
+  border-radius: 50%;
+}
+
+/* =========================================================
+   CTA BUTTON
+   ========================================================= */
+
+.fcta-button {
+  position: relative;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 13px;
+
+  min-height: 56px;
+
+  margin-top: 32px;
+
+  padding: 0 12px 0 28px;
+
+  color: #ffffff;
+  background: #ff732d;
+
+  border: 0;
+  border-radius: 11px;
+
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+
+  text-decoration: none;
+
+  box-shadow: 0 10px 22px rgba(255, 115, 45, 0.2);
+
+  transition:
+    transform 0.25s ease,
+    background 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.fcta-button:hover {
+  color: #ffffff;
+  background: #e96020;
+
+  transform: translateY(-3px);
+
+  box-shadow: 0 14px 28px rgba(255, 115, 45, 0.27);
+}
+
+.fcta-button:focus-visible {
+  outline: 3px solid rgba(4, 100, 222, 0.35);
+  outline-offset: 4px;
+}
+
+/* =========================================================
+   ARROW
+   ========================================================= */
+
+.fcta-arrow {
+  width: 36px;
+  height: 36px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(255, 255, 255, 0.18);
+
+  border-radius: 8px;
+
+  transition: transform 0.25s ease;
+}
+
+.fcta-button:hover .fcta-arrow {
+  transform: translateX(3px);
+}
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 868px) {
+  .fcta-section {
+    padding: 65px 18px;
+  }
+
+  .fcta-panel {
+    min-height: 430px;
+
+    padding: 60px 30px;
+
+    border-radius: 24px;
+  }
+
+  .fcta-title {
+    font-size: 34px;
+  }
+
+  .fcta-subtitle {
+    font-size: 28px;
+  }
+
+  .fcta-trust {
+    font-size: 16px;
+  }
+}
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 600px) {
+  .fcta-section {
+    padding: 55px 15px;
+  }
+
+  .fcta-panel {
+    min-height: 0;
+
+    padding: 48px 20px;
+
+    border-radius: 20px;
+  }
+
+  .fcta-circle-one {
+    width: 220px;
+    height: 220px;
+
+    top: -120px;
+    left: -110px;
+  }
+
+  .fcta-circle-two {
+    width: 190px;
+    height: 190px;
+
+    right: -100px;
+    bottom: -120px;
+  }
+
+  .fcta-eyebrow {
+    font-size: 10px;
+
+    letter-spacing: 1.6px;
+  }
+
+  .fcta-title {
+    font-size: 32px;
+    line-height: 1.18;
+  }
+
+  .fcta-subtitle {
+    margin-top: 14px;
+
+    font-size: 26px;
+    line-height: 1.22;
+  }
+
+  .fcta-trust {
+    max-width: 300px;
+
+    margin-top: 25px;
+
+    gap: 8px;
+
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .fcta-trust i {
+    width: 4px;
+    height: 4px;
+  }
+
+  .fcta-button {
+    width: 100%;
+    max-width: 320px;
+
+    margin-top: 28px;
+
+    min-height: 55px;
+
+    padding-left: 20px;
+
+    font-size: 15px;
+  }
+}
+
+/* =========================================================
+   SMALL MOBILE
+   ========================================================= */
+
+@media (max-width: 380px) {
+  .fcta-section {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .fcta-panel {
+    padding: 42px 17px;
+  }
+
+  .fcta-title {
+    font-size: 29px;
+  }
+
+  .fcta-subtitle {
+    font-size: 23px;
+  }
+
+  .fcta-trust {
+    font-size: 14px;
+  }
+
+  .fcta-button {
+    font-size: 14px;
+  }
+}

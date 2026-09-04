@@ -5,7 +5,10 @@ import RankDecision from "./RankDecision";
 import WhyBelievers from "./WhyBelievers";
 import DataAdvantage from "./DataAdvantage";
 import FindCollegesSection from "./FindCollegesSection";
-import BelieversSections from "./BelieversSections";
+import CounsellingJourney from "./CounsellingJourney";
+import FreeResourcesSection from "./FreeResourcesSection";
+import CorePromise from "./CorePromise";
+import FinalCTA from "./FinalCTA";
 
 function NewHomePage() {
   return (
@@ -17,7 +20,10 @@ function NewHomePage() {
       <WhyBelievers />
       <DataAdvantage />
       <FindCollegesSection />
-      <BelieversSections />
+      <CounsellingJourney />
+      <FreeResourcesSection />
+      <CorePromise />
+      <FinalCTA />
     </div>
   );
 }

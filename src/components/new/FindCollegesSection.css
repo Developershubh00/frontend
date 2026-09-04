@@ -7,7 +7,6 @@
   --cfs-app: #f7faff;
   background: var(--cfs-bg);
   padding: 96px 24px;
-  font-family: Montserrat, "Avenir Next", Arial, sans-serif;
   overflow: hidden;
 }
 .college-finder-section *,

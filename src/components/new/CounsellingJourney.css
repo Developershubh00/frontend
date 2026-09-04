@@ -1,0 +1,564 @@
+/* =========================================================
+   COUNSELLING JOURNEY
+   Fully Scoped
+   ========================================================= */
+
+.cj-section {
+  --cj-blue: #032c7b;
+  --cj-light-blue: #0464de;
+  --cj-orange: #ff732d;
+  --cj-text: #3f3f3f;
+  --cj-border: rgba(3, 44, 123, 0.13);
+
+  width: 100%;
+  padding: 90px 20px;
+  background: #ffffff;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.cj-section *,
+.cj-section *::before,
+.cj-section *::after {
+  box-sizing: border-box;
+}
+
+.cj-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+.cj-header {
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+.cj-eyebrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+
+  margin-bottom: 18px;
+
+  color: var(--cj-light-blue);
+
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+}
+
+.cj-eyebrow-line {
+  width: 32px;
+  height: 2px;
+
+  background: var(--cj-orange);
+  border-radius: 2px;
+}
+
+.cj-title {
+  max-width: 850px;
+  margin: 0 auto;
+
+  color: var(--cj-blue);
+
+  font-size: 38px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: -0.7px;
+}
+
+/* =========================================================
+   DESKTOP JOURNEY
+   ========================================================= */
+
+.cj-desktop-journey {
+  width: 100%;
+}
+
+.cj-journey-row {
+  display: grid;
+  grid-template-columns:
+    1fr 55px
+    1fr 55px
+    1fr 55px
+    1fr 55px
+    1fr;
+
+  align-items: center;
+}
+
+.cj-stage {
+  position: relative;
+
+  min-height: 145px;
+  padding: 22px 12px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  background: #ffffff;
+
+  border: 1px solid var(--cj-border);
+  border-radius: 16px;
+
+  transition:
+    transform 0.25s ease,
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.cj-stage:hover {
+  transform: translateY(-4px);
+
+  border-color: rgba(4, 100, 222, 0.3);
+
+  box-shadow: 0 12px 28px rgba(3, 44, 123, 0.08);
+}
+
+.cj-stage-highlight {
+  border-color: rgba(255, 115, 45, 0.3);
+}
+
+.cj-stage-number {
+  position: absolute;
+
+  top: 10px;
+  left: 12px;
+
+  color: rgba(3, 44, 123, 0.35);
+
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.cj-icon {
+  width: 48px;
+  height: 48px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 13px;
+
+  color: var(--cj-light-blue);
+  background: #f2f7ff;
+
+  border: 1px solid rgba(4, 100, 222, 0.1);
+  border-radius: 13px;
+
+  transition:
+    background 0.25s ease,
+    color 0.25s ease;
+}
+
+.cj-stage:hover .cj-icon {
+  color: #ffffff;
+  background: var(--cj-light-blue);
+}
+
+.cj-stage-highlight .cj-icon {
+  color: var(--cj-orange);
+  background: #fff5ef;
+  border-color: rgba(255, 115, 45, 0.14);
+}
+
+.cj-stage-highlight:hover .cj-icon {
+  color: #ffffff;
+  background: var(--cj-orange);
+}
+
+.cj-stage-title {
+  max-width: 150px;
+
+  color: var(--cj-blue);
+
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 650;
+}
+
+/* =========================================================
+   CONNECTORS
+   ========================================================= */
+
+.cj-connector {
+  position: relative;
+
+  height: 2px;
+
+  background: var(--cj-light-blue);
+}
+
+.cj-connector::after {
+  content: "";
+
+  position: absolute;
+
+  right: -1px;
+  top: 50%;
+
+  width: 8px;
+  height: 8px;
+
+  border-top: 2px solid var(--cj-light-blue);
+  border-right: 2px solid var(--cj-light-blue);
+
+  transform: translateY(-50%) rotate(45deg);
+}
+
+/* =========================================================
+   TURN
+   ========================================================= */
+
+.cj-turn {
+  position: relative;
+
+  height: 55px;
+  width: 100%;
+}
+
+.cj-turn-line {
+  position: absolute;
+
+  right: 9.1%;
+
+  top: 0;
+
+  width: 55px;
+  height: 55px;
+
+  border-right: 2px solid var(--cj-light-blue);
+  border-bottom: 2px solid var(--cj-light-blue);
+
+  border-radius: 0 0 18px 0;
+}
+
+.cj-turn-arrow {
+  position: absolute;
+
+  right: calc(9.1% - 7px);
+  bottom: -8px;
+
+  width: 20px;
+  height: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--cj-light-blue);
+  background: #ffffff;
+}
+
+/* =========================================================
+   SECOND ROW
+   ========================================================= */
+
+.cj-second-row {
+  direction: rtl;
+}
+
+.cj-second-row .cj-stage,
+.cj-second-row .cj-connector {
+  direction: ltr;
+}
+
+.cj-second-row .cj-connector::after {
+  left: -1px;
+  right: auto;
+
+  border-top: 0;
+  border-right: 2px solid var(--cj-light-blue);
+  border-bottom: 2px solid var(--cj-light-blue);
+
+  transform: translateY(-50%) rotate(45deg);
+}
+
+/* =========================================================
+   BOTTOM MESSAGE
+   ========================================================= */
+
+.cj-message {
+  max-width: 720px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+
+  margin: 58px auto 0;
+  padding: 20px 25px;
+
+  background: #f8fbff;
+
+  border: 1px solid rgba(4, 100, 222, 0.1);
+  border-radius: 14px;
+
+  text-align: center;
+}
+
+.cj-message-dot {
+  flex: 0 0 8px;
+
+  width: 8px;
+  height: 8px;
+
+  border-radius: 50%;
+
+  background: var(--cj-orange);
+}
+
+.cj-message p {
+  margin: 0;
+
+  color: var(--cj-text);
+
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.cj-message strong {
+  color: var(--cj-blue);
+  font-weight: 700;
+}
+
+/* =========================================================
+   MOBILE JOURNEY
+   ========================================================= */
+
+.cj-mobile-journey {
+  display: none;
+}
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 1000px) {
+  .cj-section {
+    padding: 75px 18px;
+  }
+
+  .cj-header {
+    margin-bottom: 50px;
+  }
+
+  .cj-title {
+    font-size: 34px;
+  }
+
+  .cj-journey-row {
+    grid-template-columns:
+      1fr 30px
+      1fr 30px
+      1fr 30px
+      1fr 30px
+      1fr;
+  }
+
+  .cj-stage {
+    min-height: 135px;
+    padding: 20px 8px;
+  }
+
+  .cj-stage-title {
+    font-size: 12px;
+  }
+
+  .cj-icon {
+    width: 43px;
+    height: 43px;
+  }
+}
+
+/* =========================================================
+   868px
+   ========================================================= */
+
+@media (max-width: 868px) {
+  .cj-section {
+    padding: 65px 18px;
+  }
+
+  .cj-title {
+    font-size: 32px;
+  }
+
+  .cj-message p {
+    font-size: 16px;
+  }
+}
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 680px) {
+  .cj-section {
+    padding: 58px 16px;
+  }
+
+  .cj-header {
+    margin-bottom: 40px;
+  }
+
+  .cj-eyebrow {
+    gap: 8px;
+
+    font-size: 9px;
+    letter-spacing: 1.2px;
+  }
+
+  .cj-eyebrow-line {
+    width: 22px;
+  }
+
+  .cj-title {
+    font-size: 32px;
+    line-height: 1.22;
+  }
+
+  .cj-desktop-journey {
+    display: none;
+  }
+
+  .cj-mobile-journey {
+    position: relative;
+
+    display: block;
+
+    width: 100%;
+    max-width: 430px;
+
+    margin: 0 auto;
+  }
+
+  .cj-mobile-stage {
+    position: relative;
+
+    display: grid;
+    grid-template-columns: 60px 1fr;
+
+    min-height: 76px;
+  }
+
+  .cj-mobile-line-wrap {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cj-mobile-number {
+    margin-bottom: 5px;
+
+    color: rgba(3, 44, 123, 0.35);
+
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+
+  .cj-mobile-icon {
+    position: relative;
+    z-index: 2;
+
+    width: 43px;
+    height: 43px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--cj-light-blue);
+    background: #f2f7ff;
+
+    border: 1px solid rgba(4, 100, 222, 0.12);
+    border-radius: 12px;
+  }
+
+  .cj-mobile-highlight .cj-mobile-icon {
+    color: var(--cj-orange);
+    background: #fff5ef;
+    border-color: rgba(255, 115, 45, 0.15);
+  }
+
+  .cj-mobile-line {
+    position: absolute;
+
+    top: 58px;
+    bottom: -1px;
+
+    width: 2px;
+
+    background: var(--cj-light-blue);
+  }
+
+  .cj-mobile-content {
+    display: flex;
+    align-items: center;
+
+    padding: 20px 0 12px 14px;
+  }
+
+  .cj-mobile-content span {
+    color: var(--cj-blue);
+
+    font-size: 15px;
+    line-height: 1.4;
+    font-weight: 650;
+  }
+
+  .cj-message {
+    margin-top: 40px;
+    padding: 18px 16px;
+
+    text-align: left;
+  }
+
+  .cj-message p {
+    font-size: 15px;
+  }
+}
+
+/* =========================================================
+   SMALL MOBILE
+   ========================================================= */
+
+@media (max-width: 380px) {
+  .cj-section {
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+
+  .cj-title {
+    font-size: 29px;
+  }
+
+  .cj-mobile-stage {
+    grid-template-columns: 55px 1fr;
+  }
+
+  .cj-mobile-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .cj-mobile-content span {
+    font-size: 14px;
+  }
+}
