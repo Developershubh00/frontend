@@ -6,9 +6,7 @@ const FinalCTA: React.FC = () => {
   return (
     <section className="fcta-section">
       <div className="fcta-container">
-
         <div className="fcta-panel">
-
           {/* Decorative Elements */}
           <span className="fcta-circle fcta-circle-one"></span>
           <span className="fcta-circle fcta-circle-two"></span>
@@ -24,17 +22,9 @@ const FinalCTA: React.FC = () => {
             <span></span>
           </div>
 
-          {/* Eyebrow */}
-          <div className="fcta-eyebrow">
-            FINAL CTA
-          </div>
-
           {/* Main Content */}
           <div className="fcta-content">
-
-            <h2 className="fcta-title">
-              Your Preparation Got You Here.
-            </h2>
+            <h2 className="fcta-title">Your Preparation Got You Here.</h2>
 
             <h3 className="fcta-subtitle">
               Let the Right Guidance Take You Forward.
@@ -53,7 +43,7 @@ const FinalCTA: React.FC = () => {
             <a
               href="#counselling"
               className="fcta-button"
-              aria-label="Book Your 1:1 Counselling"
+              aria-label="Book Your Free Counselling"
             >
               <span>Book Your Free Counselling</span>
 
@@ -61,11 +51,8 @@ const FinalCTA: React.FC = () => {
                 <ArrowRight size={18} strokeWidth={2.2} />
               </span>
             </a>
-
           </div>
-
         </div>
-
       </div>
     </section>
   );

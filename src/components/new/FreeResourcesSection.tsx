@@ -3,7 +3,7 @@ import {
   BookOpen,
   Building2,
   CalendarDays,
-  FileChartColumn,
+  BarChart3,
   FileText,
   Info,
   ShieldCheck,
@@ -13,7 +13,7 @@ import "./FreeResourcesSection.css";
 const resources = [
   { title: "Choice Filling Guide", icon: BookOpen },
   { title: "Counselling Calendar", icon: CalendarDays },
-  { title: "Previous-Year Seat Matrix", icon: FileChartColumn },
+  { title: "Previous-Year Seat Matrix", icon: BarChart3 },
   { title: "College Fee Structure", icon: Building2 },
   { title: "Bond Information", icon: ShieldCheck },
   { title: "State-wise Counselling PDFs", icon: FileText },
