@@ -1,0 +1,215 @@
+.animated-page {
+  position: relative;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+/* One background covering all sections */
+.animated-bg {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Make every section sit above background */
+.page-section {
+  position: relative;
+  z-index: 2;
+}
+
+/* =========================
+   MESH-GRADIENT BLOBS
+   Blend into each other + the white base like ink in water,
+   instead of a repeating banded gradient.
+========================= */
+
+.animated-bg__blob {
+  position: absolute;
+  border-radius: 50%;
+  mix-blend-mode: multiply;
+  will-change: transform;
+}
+
+.animated-bg__blob--navy {
+  width: 1100px;
+  height: 1100px;
+  top: -350px;
+  right: -300px;
+
+  background: radial-gradient(
+    circle,
+    rgba(3, 44, 123, 0.55) 0%,
+    rgba(3, 44, 123, 0.25) 45%,
+    transparent 72%
+  );
+
+  filter: blur(90px);
+
+  animation: navyFlow 28s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+}
+
+.animated-bg__blob--blue {
+  width: 950px;
+  height: 950px;
+  top: 5%;
+  right: -450px;
+
+  background: radial-gradient(
+    circle,
+    rgba(4, 100, 222, 0.55) 0%,
+    rgba(4, 100, 222, 0.22) 45%,
+    transparent 72%
+  );
+
+  filter: blur(85px);
+
+  animation: blueFlow 24s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+}
+
+.animated-bg__blob--blue-2 {
+  width: 800px;
+  height: 800px;
+  top: 45%;
+  right: 5%;
+
+  background: radial-gradient(
+    circle,
+    rgba(4, 100, 222, 0.4) 0%,
+    rgba(4, 100, 222, 0.15) 45%,
+    transparent 72%
+  );
+
+  filter: blur(90px);
+
+  animation: blueFlow2 32s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+}
+
+.animated-bg__blob--grey {
+  width: 750px;
+  height: 750px;
+  top: 20%;
+  right: 15%;
+
+  background: radial-gradient(
+    circle,
+    rgba(63, 63, 63, 0.18) 0%,
+    rgba(63, 63, 63, 0.06) 45%,
+    transparent 70%
+  );
+
+  filter: blur(90px);
+
+  animation: greyFlow 20s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+}
+
+.animated-bg__blob--white {
+  width: 700px;
+  height: 700px;
+  top: 30%;
+  right: -100px;
+
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.95) 0%,
+    rgba(255, 255, 255, 0.5) 40%,
+    transparent 70%
+  );
+
+  filter: blur(80px);
+  mix-blend-mode: normal;
+
+  animation: whiteFlow 22s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+}
+
+/* =========================
+   ANIMATIONS
+   Multi-point, non-repeating-looking paths (loops seamlessly
+   back to 0% but feels organic because each blob has a
+   different rhythm and route).
+========================= */
+
+@keyframes navyFlow {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  20% {
+    transform: translate(-180px, 220px) scale(1.1);
+  }
+  45% {
+    transform: translate(-320px, 80px) scale(0.95);
+  }
+  70% {
+    transform: translate(-150px, -100px) scale(1.05);
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+}
+
+@keyframes blueFlow {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  25% {
+    transform: translate(-260px, 150px) scale(1.12);
+  }
+  50% {
+    transform: translate(-120px, 380px) scale(0.92);
+  }
+  75% {
+    transform: translate(150px, 200px) scale(1.05);
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+}
+
+@keyframes blueFlow2 {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  30% {
+    transform: translate(200px, -150px) scale(1.1);
+  }
+  60% {
+    transform: translate(-100px, -280px) scale(0.9);
+  }
+  85% {
+    transform: translate(-220px, -50px) scale(1.05);
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+}
+
+@keyframes greyFlow {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  35% {
+    transform: translate(-150px, 200px) scale(1.15);
+  }
+  65% {
+    transform: translate(100px, 320px) scale(0.9);
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+}
+
+@keyframes whiteFlow {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  30% {
+    transform: translate(-200px, -180px) scale(1.15);
+  }
+  60% {
+    transform: translate(100px, -300px) scale(0.9);
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+}

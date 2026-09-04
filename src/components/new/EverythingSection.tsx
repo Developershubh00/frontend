@@ -1,114 +1,96 @@
-import { useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
+import { ArrowRight } from "lucide-react";
 import "./EverythingSection.css";
 
-interface Feature {
-  number: string;
-  title: string;
-  description: string;
-}
-
-const features: Feature[] = [
-  {
-    number: "01",
-    title: "College Predictor",
-    description:
-      "Estimate the colleges you can realistically expect based on your rank, category and previous counselling trends.",
-  },
-  {
-    number: "02",
-    title: "Rank Predictor",
-    description:
-      "Estimate your expected NEET PG rank using your exam performance.",
-  },
-  {
-    number: "03",
-    title: "AIQ Counselling",
-    description:
-      "Complete guidance for All India Quota counselling—from registration to admission.",
-  },
-  {
-    number: "04",
-    title: "State Counselling",
-    description:
-      "Stay updated with counselling schedules, eligibility criteria and state-specific rules.",
-  },
-  {
-    number: "05",
-    title: "Previous Year Closing Ranks",
-    description:
-      "Understand realistic admission possibilities using verified previous years' data.",
-  },
-  {
-    number: "06",
-    title: "College Comparison",
-    description:
-      "Compare colleges based on academics, fees, stipends, bond conditions and opportunities.",
-  },
-  {
-    number: "07",
-    title: "Fee Structure",
-    description: "Know the complete fee details before making your choices.",
-  },
-  {
-    number: "08",
-    title: "Bond Information",
-    description:
-      "Understand service bonds, penalties and state obligations before locking your seat.",
-  },
-  {
-    number: "09",
-    title: "Stipend Details",
-    description: "Compare stipends offered across institutions and states.",
-  },
-  {
-    number: "10",
-    title: "Expert Counselling",
-    description:
-      "Personalized guidance from experienced counselling experts who understand every counselling round.",
-  },
+const questions = [
+  "Can I get MD Medicine?",
+  "Can I get Radiology?",
+  "Should I wait for Round 2?",
+  "Should I choose DNB?",
+  "Should I upgrade?",
+  "Will I get a Government Seat?",
 ];
 
-const EverythingSection = () => {
-  const carouselRef = useRef<HTMLDivElement>(null);
+const EverythingSection: React.FC = () => {
+  const sectionRef = useRef<HTMLElement | null>(null);
+  const [isVisible, setIsVisible] = useState(false);
 
-  const scroll = (direction: "next" | "prev") => {
-    if (!carouselRef.current) return;
+  useEffect(() => {
+    const section = sectionRef.current;
 
-    const scrollAmount = carouselRef.current.offsetWidth * 0.75;
+    if (!section) return;
 
-    carouselRef.current.scrollBy({
-      left: direction === "next" ? scrollAmount : -scrollAmount,
-      behavior: "smooth",
-    });
-  };
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.unobserve(section);
+        }
+      },
+      {
+        threshold: 0.12,
+      },
+    );
+
+    observer.observe(section);
+
+    return () => observer.disconnect();
+  }, []);
 
   return (
-    <section>
-      <div className="questions-section">
-        <div className="questions-container">
-          <h2>The Student’s Real Questions</h2>
-          <div className="questions-content">
-            <h3>After NEET PG, the questions begin…</h3>
-            <div className="questions-list">
-              <p>Can I get MD Medicine?</p>
-              <p>Can I get Radiology?</p>
-              <p>Should I wait for Round 2?</p>
-              <p>Should I choose DNB?</p>
-              <p>Should I upgrade?</p>
-              <p>Will I get a Government Seat?</p>
+    <section
+      ref={sectionRef}
+      className={`everything-section ${
+        isVisible ? "everything-section-visible" : ""
+      }`}
+    >
+      <div className="everything-container">
+        <header className="everything-header">
+          <div className="everything-eyebrow">
+            <span className="everything-eyebrow-line" />
+
+            <span>THE STUDENT’S REAL QUESTIONS</span>
+          </div>
+
+          <h2 className="everything-title">
+            After NEET PG, the questions begin…
+          </h2>
+        </header>
+
+        <div className="everything-list">
+          {questions.map((question, index) => (
+            <div
+              className="everything-row"
+              key={question}
+              style={
+                {
+                  "--row-delay": `${0.1 + index * 0.08}s`,
+                } as React.CSSProperties
+              }
+            >
+              <div className="everything-row-content">
+                <span className="everything-question-number" aria-hidden="true">
+                  {String(index + 1).padStart(2, "0")}
+                </span>
+
+                <span className="everything-question">{question}</span>
+
+                <span className="everything-arrow" aria-hidden="true">
+                  <ArrowRight size={19} strokeWidth={1.7} />
+                </span>
+              </div>
             </div>
-            <p className="questions-intro">
-              These are not just counselling questions.
-              <br />
-              They are career decisions.
-            </p>
+          ))}
+        </div>
+
+        <div className="everything-bottom">
+          <div className="everything-bottom-text">
+            <p>These are not just counselling questions.</p>
+
+            <strong>They are career decisions.</strong>
           </div>
-          <div className="questions-image">
-            <img
-              src="https://cdn.dribbble.com/userupload/48907217/file/ab6a06e9e7679c7d4c665efa83f7098f.webp"
-              alt="Medical counselling"
-            />
-          </div>
+
+          <span className="everything-bottom-accent" aria-hidden="true" />
         </div>
       </div>
     </section>

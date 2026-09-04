@@ -26,10 +26,14 @@ const mentors: Mentor[] = [
 const MentorSection = () => {
   return (
     <section className="mentor-section">
-      <div className="mentor-container">
-        <div className="mentor-intro">
-          <h2>Career Decisions Need More Than Data.</h2>
+      <div className="mentor-header">
+        <div>
+          <h2 className="mentor-heading">
+            Career Decisions Need <br /> More Than Data.
+          </h2>
+        </div>
 
+        <div>
           <p className="mentor-description">
             Rank predictors, cut-offs and college
             <br />
@@ -38,29 +42,39 @@ const MentorSection = () => {
             But they cannot always tell you:
           </p>
 
-          <h3>What is right for YOU.</h3>
+          <h3 className="mentor-sub-heading">What is right for YOU.</h3>
         </div>
+      </div>
 
+      <div className="mentor-container">
         <div className="mentor-content">
           <div className="mentor-heading">
-            <h2>Guidance & Mentorship From</h2>
+            <h3>Guidance & Mentorship From</h3>
           </div>
 
           <div className="mentor-grid">
-            {mentors.map((mentor) => (
-              <div className="mentor-card" key={mentor.name}>
-                <div className="mentor-image-wrap">
-                  <div className="mentor-gradient"></div>
+            {mentors.map((mentor, index) => (
+              <>
+                {index !== 0 && (
+                  <div className="mentor-divider" key={`divider-${index}`}>
+                    ×
+                  </div>
+                )}
 
-                  <img
-                    src={mentor.image}
-                    alt={mentor.name}
-                    className="mentor-image"
-                  />
+                <div className="mentor-card" key={mentor.name}>
+                  <div className="mentor-image-wrap">
+                    <div className="mentor-gradient"></div>
+
+                    <img
+                      src={mentor.image}
+                      alt={mentor.name}
+                      className="mentor-image"
+                    />
+                  </div>
+
+                  <h4>{mentor.name}</h4>
                 </div>
-
-                <h4>{mentor.name}</h4>
-              </div>
+              </>
             ))}
           </div>
 

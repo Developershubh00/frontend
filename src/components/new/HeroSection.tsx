@@ -54,15 +54,6 @@ const HeroSection = () => {
             duration: 0.7,
           },
           "-=0.4",
-        )
-        .from(
-          ".hero-image",
-          {
-            opacity: 0,
-            x: 80,
-            duration: 1,
-          },
-          "-=0.7",
         );
     }, heroRef);
 
@@ -72,15 +63,17 @@ const HeroSection = () => {
   return (
     <section className="hero-section" ref={heroRef}>
       <div className="hero-content">
-        <h1>BELIEVERS CONSULTANCY</h1>
+        <h1>
+          CoreBTR’s Trusted
+          <br />
+          Career Counselling Partner
+        </h1>
 
-        <h3>CoreBTR’s Trusted Career Counselling Partner</h3>
-
-        <h4>
+        <h2>
           Your NEET PG Exam Is Over
           <br />
           Now Every Choice Matters
-        </h4>
+        </h2>
 
         <p>
           Your rank doesn't decide your future.
@@ -102,14 +95,6 @@ const HeroSection = () => {
             Book Free Counselling
           </a>
         </div>
-      </div>
-
-      <div className="hero-image-wrapper">
-        <img
-          className="hero-image"
-          src="https://cdn.dribbble.com/userupload/48909905/file/29da357ef4f06d5755b46cec2ee54658.webp"
-          alt=""
-        />
       </div>
     </section>
   );
