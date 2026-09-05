@@ -5,7 +5,7 @@
   --cfs-orange: #ff732d;
   --cfs-bg: #effff4;
   --cfs-app: #f7faff;
-  background: var(--cfs-bg);
+  background: #f4f8fe;
   padding: 96px 24px;
   overflow: hidden;
 }

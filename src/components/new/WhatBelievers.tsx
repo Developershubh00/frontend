@@ -8,6 +8,7 @@ type BelieverItem = {
   label: string;
   title: string;
   description: string;
+  image: string;
 };
 
 const believerItems: BelieverItem[] = [
@@ -17,27 +18,36 @@ const believerItems: BelieverItem[] = [
     title: "Your Rank & Realistic Options",
     description:
       "Previous-year closing ranks, cut-offs and realistic possibilities.",
+    image:
+      "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1400&q=85",
   },
+
   {
     number: "02",
     label: "EVALUATE",
     title: "Colleges & Branches",
-    description:
-      "Compare what each option actually means for your career.",
+    description: "Compare what each option actually means for your career.",
+    image:
+      "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1400&q=85",
   },
+
   {
     number: "03",
     label: "PLAN",
     title: "Your Counselling Strategy",
     description:
       "AIQ, State counselling, quotas, upgrades and preference planning.",
+    image:
+      "https://cdn.dribbble.com/userupload/48925883/file/5a9b5b751b7d31a98fca622a9b14b9ca.jpg?resize=1024x819&vertical=center",
   },
+
   {
     number: "04",
     label: "DECIDE",
     title: "With Confidence",
-    description:
-      "Move forward with clarity — not confusion or guesswork.",
+    description: "Move forward with clarity — not confusion or guesswork.",
+    image:
+      "https://cdn.dribbble.com/userupload/48925911/file/8e05b03f0739fe1f03d9992ef05dda16.webp?resize=752x&vertical=center",
   },
 ];
 
@@ -58,7 +68,7 @@ export default function WhatBelievers() {
     setDirection("next");
 
     setActiveIndex((current) =>
-      current === believerItems.length - 1 ? 0 : current + 1
+      current === believerItems.length - 1 ? 0 : current + 1,
     );
   };
 
@@ -66,7 +76,7 @@ export default function WhatBelievers() {
     setDirection("prev");
 
     setActiveIndex((current) =>
-      current === 0 ? believerItems.length - 1 : current - 1
+      current === 0 ? believerItems.length - 1 : current - 1,
     );
   };
 
@@ -89,12 +99,13 @@ export default function WhatBelievers() {
   }, []);
 
   return (
-    <section className="what-believers" id="what-believers">
+    <section className="what-believers">
       <div className="what-believers__container">
+        {/* =====================================================
+            HEADER
+            ===================================================== */}
 
-        {/* HEADER */}
         <div className="what-believers__header">
-
           <div className="what-believers__eyebrow">
             WHAT BELIEVERS HELPS YOU DO
           </div>
@@ -103,10 +114,12 @@ export default function WhatBelievers() {
             <span>From</span>
             <strong>Rank to the Right Decision.</strong>
           </h2>
-
         </div>
 
-        {/* TABS */}
+        {/* =====================================================
+            TABS
+            ===================================================== */}
+
         <div
           className="what-believers__tabs"
           role="tablist"
@@ -119,28 +132,28 @@ export default function WhatBelievers() {
               role="tab"
               aria-selected={activeIndex === index}
               className={`what-believers__tab ${
-                activeIndex === index
-                  ? "what-believers__tab--active"
-                  : ""
+                activeIndex === index ? "what-believers__tab--active" : ""
               }`}
               onClick={() => goToSlide(index)}
             >
               <span>{item.number}</span>
-             
               <span>{item.label}</span>
             </button>
           ))}
         </div>
 
-        {/* SLIDER AREA */}
-        <div className="what-believers__slider">
+        {/* =====================================================
+            SLIDER
+            ===================================================== */}
 
-          {/* PREVIOUS */}
+        <div className="what-believers__slider">
+          {/* PREVIOUS ARROW */}
+
           <button
             type="button"
             className="what-believers__arrow what-believers__arrow--prev"
             onClick={goPrev}
-            aria-label="Previous"
+            aria-label="Previous slide"
           >
             <svg
               viewBox="0 0 70 50"
@@ -152,22 +165,38 @@ export default function WhatBelievers() {
             </svg>
           </button>
 
-          {/* SLIDE */}
-          <div className="what-believers__slide">
+          {/* ===================================================
+              SLIDE
+              =================================================== */}
 
-            {/* LEFT VISUAL */}
+          <div className="what-believers__slide">
+            {/* =================================================
+                LEFT IMAGE
+                ================================================= */}
+
             <div
               key={`visual-${activeIndex}`}
               className={`what-believers__visual what-believers__visual--${direction}`}
             >
-              <div className="what-believers__visual-bg" />
+              {/* CURRENT ITEM IMAGE */}
+              <img
+                key={activeItem.image}
+                src={activeItem.image}
+                alt={activeItem.title}
+                className="what-believers__visual-image"
+              />
 
+              {/* IMAGE OVERLAY */}
+              <div className="what-believers__visual-overlay" />
+
+              {/* DECORATIVE ORBIT */}
               <div className="what-believers__visual-orbit">
                 <span />
                 <span />
                 <span />
               </div>
 
+              {/* LEFT IMAGE CONTENT */}
               <div className="what-believers__visual-content">
                 <div className="what-believers__visual-number">
                   {activeItem.number}
@@ -179,46 +208,43 @@ export default function WhatBelievers() {
 
                 <div className="what-believers__visual-line" />
 
-                <p>
-                  {activeItem.title}
-                </p>
+                <p>{activeItem.title}</p>
               </div>
             </div>
 
-            {/* RIGHT CONTENT */}
+            {/* =================================================
+                RIGHT CONTENT
+                ================================================= */}
+
             <div
               key={`content-${activeIndex}`}
               className={`what-believers__content what-believers__content--${direction}`}
             >
               <div className="what-believers__content-inner">
-
                 <div className="what-believers__content-number">
-                  {activeItem.number} 
+                  {activeItem.number}
                 </div>
 
                 <div className="what-believers__content-label">
                   {activeItem.label}
                 </div>
 
-                <h3>
-                  {activeItem.title}
-                </h3>
+                <h3>{activeItem.title}</h3>
 
-                <p>
-                  {activeItem.description}
-                </p>
-
+                <p>{activeItem.description}</p>
               </div>
             </div>
-
           </div>
 
-          {/* NEXT */}
+          {/* =================================================
+              NEXT ARROW
+              ================================================= */}
+
           <button
             type="button"
             className="what-believers__arrow what-believers__arrow--next"
             onClick={goNext}
-            aria-label="Next"
+            aria-label="Next slide"
           >
             <svg
               viewBox="0 0 70 50"
@@ -229,9 +255,7 @@ export default function WhatBelievers() {
               <path d="M50 8L67 25L50 42" />
             </svg>
           </button>
-
         </div>
-
       </div>
     </section>
   );

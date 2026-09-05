@@ -1,21 +1,46 @@
+/* =========================================================
+   WHAT BELIEVERS
+   FULLY SCOPED
+   REACT / TYPESCRIPT SAFE
+   RESPONSIVE CAROUSEL
+   ========================================================= */
+
 .what-believers {
   --wb-heading: #032c7b;
   --wb-subheading: #0464de;
   --wb-text: #3f3f3f;
   --wb-cta: #ff732d;
-  --wb-bg: #effff4;
   --wb-white: #ffffff;
   --wb-blue-light: #eaf5ff;
   --wb-blue-soft: #dceefe;
   --wb-border: rgba(4, 100, 222, 0.14);
   --wb-radius: 100px;
+
   width: 100%;
   position: relative;
+
   overflow: hidden;
+
   padding: 110px 0 150px;
-  color: var(--wb-text);
+
+  /* WHITE BACKGROUND */
+  background: #ffffff;
+
+  color: #3f3f3f;
+
   font-family: "Montserrat", "Inter", Arial, sans-serif;
+
   -webkit-font-smoothing: antialiased;
+}
+
+/* =========================================================
+   RESET
+   ========================================================= */
+
+.what-believers *,
+.what-believers *::before,
+.what-believers *::after {
+  box-sizing: border-box;
 }
 
 .what-believers h1,
@@ -31,80 +56,136 @@
   font-family: inherit;
 }
 
+/* =========================================================
+   CONTAINER
+   ========================================================= */
+
 .what-believers__container {
   width: min(1240px, calc(100% - 80px));
   margin: 0 auto;
 }
 
+/* =========================================================
+   HEADER
+   ========================================================= */
+
 .what-believers__header {
   width: 100%;
+
   text-align: center;
+
   margin-bottom: 48px;
 }
 
+/* =========================================================
+   EYEBROW
+   ========================================================= */
+
 .what-believers__eyebrow {
   margin: 0 0 24px;
+
   color: #0464de;
+
   font-size: 28px;
   font-weight: 700;
+
   line-height: 1.25;
+
   letter-spacing: normal;
-  text-transform: none;
 }
+
+/* =========================================================
+   MAIN HEADING
+   ========================================================= */
 
 .what-believers__heading {
   margin: 0;
+
   display: flex;
   flex-direction: column;
   align-items: center;
+
   color: #032c7b;
+
   font-size: 38px;
   font-weight: 700;
+
   line-height: 1.15;
+
   letter-spacing: normal;
 }
 
 .what-believers__heading span {
   display: block;
+
   color: #032c7b;
+
   font-weight: 700;
 }
 
 .what-believers__heading strong {
   display: block;
+
   color: #032c7b;
+
   font-weight: 700;
 }
 
+/* =========================================================
+   TABS
+   ========================================================= */
+
 .what-believers__tabs {
   width: 100%;
+
   display: flex;
+
   justify-content: center;
   align-items: center;
+
   gap: 10px;
+
   margin: 0 0 42px;
+
   flex-wrap: wrap;
 }
 
 .what-believers__tab {
   appearance: none;
+
   position: relative;
+
   display: inline-flex;
+
   align-items: center;
   justify-content: center;
+
   gap: 5px;
+
   min-height: 42px;
+
   padding: 11px 19px;
+
   border: 1px solid rgba(4, 100, 222, 0.14);
+
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.88);
+
+  background: #ffffff;
+
   color: #032c7b;
+
   font-family: inherit;
+
   font-size: 14px;
+
   font-weight: 600;
+
   line-height: 1;
+
   cursor: pointer;
+
   white-space: nowrap;
+
   transition:
     background 0.35s ease,
     color 0.35s ease,
@@ -115,85 +196,170 @@
 
 .what-believers__tab:hover {
   color: #0464de;
+
   background: #ffffff;
+
   border-color: rgba(4, 100, 222, 0.3);
+
   transform: translateY(-2px);
+
   box-shadow: 0 8px 20px rgba(4, 100, 222, 0.08);
 }
 
 .what-believers__tab--active {
   color: #ffffff;
+
   background: #0464de;
+
   border-color: #0464de;
+
   box-shadow: 0 8px 24px rgba(4, 100, 222, 0.18);
 }
 
 .what-believers__tab--active:hover {
   color: #ffffff;
+
   background: #ff732d;
+
   border-color: #ff732d;
+
   transform: translateY(-2px);
 }
 
+/* =========================================================
+   SLIDER
+   ========================================================= */
+
 .what-believers__slider {
   width: 100%;
+
   position: relative;
+
   display: flex;
+
   align-items: center;
 }
 
+/* =========================================================
+   SLIDE
+   ========================================================= */
+
 .what-believers__slide {
   width: 100%;
+
   min-height: 500px;
+
   display: grid;
+
   grid-template-columns: 50% 50%;
+
   position: relative;
+
   overflow: visible;
 }
 
+/* =========================================================
+   LEFT IMAGE PANEL
+   ========================================================= */
+
 .what-believers__visual {
   position: relative;
+
   min-height: 500px;
+
   overflow: hidden;
+
   border-radius: 28px 0 0 28px;
+
   background: #eaf5ff;
+
   isolation: isolate;
 }
 
-.what-believers__visual-bg {
+/* =========================================================
+   DIFFERENT IMAGE
+   ========================================================= */
+
+.what-believers__visual-image {
   position: absolute;
+
   inset: 0;
-  background:
-    radial-gradient(
-      circle at 25% 30%,
-      rgba(255, 255, 255, 0.95) 0,
-      rgba(255, 255, 255, 0.55) 18%,
-      transparent 45%
-    ),
-    radial-gradient(circle at 80% 75%, rgba(4, 100, 222, 0.15), transparent 42%);
-  z-index: -2;
+
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+
+  object-position: center;
+
+  z-index: -4;
+
+  transition:
+    transform 0.7s ease,
+    opacity 0.5s ease;
 }
+
+/* =========================================================
+   IMAGE OVERLAY
+   ========================================================= */
+
+.what-believers__visual-overlay {
+  position: absolute;
+
+  inset: 0;
+
+  background: linear-gradient(
+    180deg,
+    rgba(3, 44, 123, 0.08) 0%,
+    rgba(3, 44, 123, 0.2) 40%,
+    rgba(3, 44, 123, 0.82) 100%
+  );
+
+  z-index: -3;
+
+  pointer-events: none;
+}
+
+/* =========================================================
+   ORBIT
+   ========================================================= */
 
 .what-believers__visual-orbit {
   position: absolute;
+
   width: 470px;
   height: 470px;
+
   left: 50%;
   top: 50%;
+
   transform: translate(-50%, -50%);
-  border: 1px solid rgba(4, 100, 222, 0.15);
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
   border-radius: 50%;
+
   pointer-events: none;
+
+  z-index: 1;
 }
 
 .what-believers__visual-orbit span {
   position: absolute;
+
   display: block;
+
   width: 14px;
   height: 14px;
+
   border-radius: 50%;
-  background: #0464de;
-  box-shadow: 0 0 0 8px rgba(4, 100, 222, 0.08);
+
+  background: #ffffff;
+
+  box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.12);
+
   animation: wbOrbit 6s linear infinite;
 }
 
@@ -205,14 +371,20 @@
 .what-believers__visual-orbit span:nth-child(2) {
   bottom: 23%;
   left: 15%;
+
   animation-delay: -2s;
 }
 
 .what-believers__visual-orbit span:nth-child(3) {
   right: 8%;
   top: 58%;
+
   animation-delay: -4s;
 }
+
+/* =========================================================
+   ORBIT ANIMATION
+   ========================================================= */
 
 @keyframes wbOrbit {
   from {
@@ -224,125 +396,228 @@
   }
 }
 
+/* =========================================================
+   LEFT IMAGE CONTENT
+   ========================================================= */
+
 .what-believers__visual-content {
   position: absolute;
+
   left: 55px;
   bottom: 50px;
+
   max-width: 420px;
+
   z-index: 2;
 }
 
+/* =========================================================
+   IMAGE NUMBER
+   ========================================================= */
+
 .what-believers__visual-number {
   margin: 0 0 12px;
-  color: #032c7b;
+
+  color: #ffffff;
+
   font-size: 38px;
+
   font-weight: 700;
+
   line-height: 1.15;
-  letter-spacing: normal;
 }
+
+/* =========================================================
+   IMAGE LABEL
+   ========================================================= */
 
 .what-believers__visual-label {
   margin: 0;
-  color: #0464de;
+
+  color: #ffffff;
+
   font-size: 28px;
+
   font-weight: 700;
+
   line-height: 1.25;
-  letter-spacing: normal;
-  text-transform: none;
 }
+
+/* =========================================================
+   IMAGE LINE
+   ========================================================= */
 
 .what-believers__visual-line {
   width: 70px;
+
   height: 3px;
+
   margin: 22px 0;
+
   background: #ff732d;
+
   border-radius: 5px;
 }
 
+/* =========================================================
+   IMAGE TITLE
+   ========================================================= */
+
 .what-believers__visual-content p {
   max-width: 330px;
+
   margin: 0;
-  color: #3f3f3f;
+
+  color: #ffffff;
+
   font-size: 18px;
+
   font-weight: 400;
+
   line-height: 1.55;
 }
 
+/* =========================================================
+   RIGHT CONTENT
+   ========================================================= */
+
 .what-believers__content {
   min-height: 500px;
+
   position: relative;
+
   z-index: 3;
+
   margin-left: -1px;
+
   overflow: hidden;
+
   border-radius: 0 var(--wb-radius) 32px 0;
-  background: rgba(255, 255, 255, 0.72);
+
+  background: #ffffff;
+
   box-shadow: 0 20px 60px rgba(23, 50, 77, 0.08);
+
   transition:
     border-radius 0.6s cubic-bezier(0.4, 0, 0.2, 1),
     transform 0.4s ease,
     box-shadow 0.4s ease;
 }
 
+/* =========================================================
+   RIGHT DECORATION
+   ========================================================= */
+
 .what-believers__content::before {
   content: "";
+
   position: absolute;
+
   width: 360px;
   height: 360px;
+
   right: -80px;
   top: -90px;
+
   border-radius: 50%;
+
   background: radial-gradient(circle, rgba(4, 100, 222, 0.1), transparent 68%);
+
   pointer-events: none;
 }
 
+/* =========================================================
+   CONTENT INNER
+   ========================================================= */
+
 .what-believers__content-inner {
   min-height: 500px;
+
   position: relative;
+
   display: flex;
+
   flex-direction: column;
+
   padding: 55px 65px;
 }
 
+/* =========================================================
+   CONTENT NUMBER
+   ========================================================= */
+
 .what-believers__content-number {
   margin: 0 0 8px;
+
   color: #0464de;
+
   font-size: 18px;
+
   font-weight: 700;
+
   line-height: 1.3;
 }
 
+/* =========================================================
+   CONTENT LABEL
+   ========================================================= */
+
 .what-believers__content-label {
   margin: 0 0 24px;
+
   color: #0464de;
+
   font-size: 28px;
+
   font-weight: 700;
+
   line-height: 1.25;
-  letter-spacing: normal;
-  text-transform: none;
 }
+
+/* =========================================================
+   CONTENT HEADING
+   ========================================================= */
 
 .what-believers__content h3 {
   max-width: 520px;
+
   margin: 0;
+
   color: #032c7b;
+
   font-size: 38px;
+
   font-weight: 700;
+
   line-height: 1.15;
-  letter-spacing: normal;
 }
+
+/* =========================================================
+   CONTENT DESCRIPTION
+   ========================================================= */
 
 .what-believers__content p {
   max-width: 510px;
+
   margin: auto 0 0;
+
   color: #3f3f3f;
+
   font-size: 18px;
+
   font-weight: 400;
+
   line-height: 1.55;
 }
+
+/* =========================================================
+   CTA
+   ========================================================= */
 
 .what-believers a,
 .what-believers .what-believers__cta {
   color: #ff732d;
+
   transition:
     color 0.3s ease,
     transform 0.3s ease;
@@ -352,6 +627,10 @@
 .what-believers .what-believers__cta:hover {
   color: #e85f20;
 }
+
+/* =========================================================
+   SLIDE ANIMATION
+   ========================================================= */
 
 .what-believers__visual--next,
 .what-believers__content--next {
@@ -363,90 +642,152 @@
   animation: wbSlidePrev 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
+/* =========================================================
+   NEXT
+   ========================================================= */
+
 @keyframes wbSlideNext {
   from {
     opacity: 0;
+
     transform: translateX(45px);
   }
 
   to {
     opacity: 1;
+
     transform: translateX(0);
   }
 }
 
+/* =========================================================
+   PREVIOUS
+   ========================================================= */
+
 @keyframes wbSlidePrev {
   from {
     opacity: 0;
+
     transform: translateX(-45px);
   }
 
   to {
     opacity: 1;
+
     transform: translateX(0);
   }
 }
 
+/* =========================================================
+   ARROWS
+   ========================================================= */
+
 .what-believers__arrow {
   position: absolute;
+
   top: 50%;
+
   z-index: 10;
+
   width: 70px;
   height: 70px;
+
   display: flex;
+
   align-items: center;
   justify-content: center;
+
   padding: 0;
+
   border: 0;
+
   background: transparent;
+
   color: #0464de;
+
   cursor: pointer;
+
   transform: translateY(-50%);
+
   transition:
     transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
     color 0.35s ease;
 }
 
+/* =========================================================
+   ARROW SVG
+   ========================================================= */
+
 .what-believers__arrow svg {
   width: 58px;
+
   height: auto;
+
   display: block;
+
   overflow: visible;
 }
 
 .what-believers__arrow svg path {
   fill: none;
+
   stroke: currentColor;
+
   stroke-width: 2.5;
+
   stroke-linecap: round;
+
   stroke-linejoin: round;
 }
+
+/* =========================================================
+   PREVIOUS
+   ========================================================= */
 
 .what-believers__arrow--prev {
   left: -92px;
 }
 
+/* =========================================================
+   NEXT
+   ========================================================= */
+
 .what-believers__arrow--next {
   right: -92px;
 }
 
+/* =========================================================
+   ARROW HOVER
+   ========================================================= */
+
 .what-believers__arrow--prev:hover {
   color: #ff732d;
+
   transform: translateY(-50%) translateX(-6px);
 }
 
 .what-believers__arrow--next:hover {
   color: #ff732d;
+
   transform: translateY(-50%) translateX(6px);
 }
 
+/* =========================================================
+   FOCUS
+   ========================================================= */
+
 .what-believers__arrow:focus-visible {
   outline: 2px solid #0464de;
+
   outline-offset: 6px;
+
   border-radius: 50%;
 }
 
-/* ========================= Responsive ===================== */
+/* =========================================================
+   TABLET
+   <= 1100px
+   ========================================================= */
 
 @media (max-width: 1100px) {
   .what-believers {
@@ -473,6 +814,7 @@
 
   .what-believers__visual-content {
     left: 40px;
+
     bottom: 40px;
   }
 
@@ -485,42 +827,71 @@
   }
 }
 
+/* =========================================================
+   TABLET / MOBILE
+   <= 868px
+   ========================================================= */
+
 @media (max-width: 868px) {
   .what-believers {
     padding: 70px 0 90px;
+
     overflow: hidden;
   }
 
+  /* CONTAINER */
+
   .what-believers__container {
     width: calc(100% - 30px);
+
     margin: 0 auto;
   }
 
+  /* HEADER */
+
   .what-believers__header {
     text-align: left;
+
     margin-bottom: 32px;
   }
 
+  /* EYEBROW */
+
   .what-believers__eyebrow {
     margin-bottom: 18px;
+
     font-size: 24px;
+
     line-height: 1.25;
   }
 
+  /* MAIN HEADING */
+
   .what-believers__heading {
     align-items: flex-start;
+
     font-size: 32px;
+
     line-height: 1.15;
   }
 
+  /* TABS */
+
   .what-believers__tabs {
     justify-content: flex-start;
+
     flex-wrap: nowrap;
+
     overflow-x: auto;
+
     margin: 0 -15px 30px;
+
     padding: 4px 15px 8px;
+
     gap: 7px;
+
     scrollbar-width: none;
+
     -ms-overflow-style: none;
   }
 
@@ -530,98 +901,159 @@
 
   .what-believers__tab {
     min-height: 38px;
+
     padding: 9px 13px;
+
     font-size: 12px;
+
     flex: 0 0 auto;
   }
 
+  /* SLIDE */
+
   .what-believers__slide {
     min-height: auto;
+
     display: flex;
+
     flex-direction: column;
   }
 
+  /* IMAGE */
+
   .what-believers__visual {
     width: 100%;
+
     min-height: 270px;
+
     border-radius: 25px 25px 0 0;
   }
 
-  .what-believers__visual-orbit {
-    width: 250px;
-    height: 250px;
-  }
+  /* IMAGE CONTENT */
 
   .what-believers__visual-content {
     left: 28px;
+
     bottom: 28px;
   }
 
+  /* ORBIT */
+
+  .what-believers__visual-orbit {
+    width: 250px;
+
+    height: 250px;
+  }
+
+  /* IMAGE NUMBER */
+
   .what-believers__visual-number {
     margin-bottom: 8px;
+
     font-size: 32px;
+
     line-height: 1.15;
   }
 
+  /* IMAGE LABEL */
+
   .what-believers__visual-label {
     font-size: 24px;
+
     line-height: 1.25;
   }
 
+  /* LINE */
+
   .what-believers__visual-line {
     width: 50px;
+
     height: 2px;
+
     margin: 12px 0;
   }
 
+  /* IMAGE TITLE */
+
   .what-believers__visual-content p {
     max-width: 240px;
+
     font-size: 16px;
+
     line-height: 1.5;
   }
 
+  /* RIGHT CONTENT */
+
   .what-believers__content {
     width: 100%;
+
     min-height: 360px;
+
     margin-left: 0;
+
     border-radius: 0 0 55px 55px;
+
     box-shadow: 0 15px 40px rgba(23, 50, 77, 0.07);
   }
 
   .what-believers__content-inner {
     min-height: 360px;
+
     padding: 30px 28px 32px;
   }
 
+  /* NUMBER */
+
   .what-believers__content-number {
     font-size: 16px;
+
     line-height: 1.3;
   }
 
+  /* LABEL */
+
   .what-believers__content-label {
     margin-bottom: 18px;
+
     font-size: 24px;
+
     line-height: 1.25;
   }
 
+  /* HEADING */
+
   .what-believers__content h3 {
     font-size: 32px;
+
     line-height: 1.15;
   }
 
+  /* DESCRIPTION */
+
   .what-believers__content p {
     margin-top: 35px;
+
     font-size: 16px;
+
     line-height: 1.5;
   }
 
+  /* ARROWS */
+
   .what-believers__arrow {
     width: 48px;
+
     height: 48px;
+
     top: 270px;
+
     background: rgba(255, 255, 255, 0.94);
+
     border-radius: 50%;
+
     box-shadow: 0 8px 24px rgba(23, 50, 77, 0.12);
+
     backdrop-filter: blur(8px);
   }
 
@@ -643,18 +1075,29 @@
   }
 }
 
-@media (max-width: 568px) {
+/* =========================================================
+   SMALL MOBILE
+   <= 420px
+   ========================================================= */
+
+@media (max-width: 420px) {
   .what-believers {
     padding-top: 55px;
   }
+
+  /* HEADING */
 
   .what-believers__heading {
     font-size: 32px;
   }
 
+  /* EYEBROW */
+
   .what-believers__eyebrow {
     font-size: 24px;
   }
+
+  /* IMAGE */
 
   .what-believers__visual {
     min-height: 240px;
@@ -662,6 +1105,7 @@
 
   .what-believers__visual-content {
     left: 22px;
+
     bottom: 22px;
   }
 
@@ -673,12 +1117,15 @@
     font-size: 24px;
   }
 
+  /* CONTENT */
+
   .what-believers__content {
     min-height: 340px;
   }
 
   .what-believers__content-inner {
     min-height: 340px;
+
     padding: 27px 22px 28px;
   }
 
@@ -694,10 +1141,71 @@
     font-size: 16px;
   }
 
+  /* ARROWS */
+
   .what-believers__arrow {
     top: 240px;
   }
 }
+
+/* =========================================================
+   VERY SMALL MOBILE
+   <= 360px
+   ========================================================= */
+
+@media (max-width: 360px) {
+  .what-believers__container {
+    width: calc(100% - 24px);
+  }
+
+  .what-believers__heading {
+    font-size: 30px;
+  }
+
+  .what-believers__eyebrow {
+    font-size: 22px;
+  }
+
+  .what-believers__visual-content {
+    left: 18px;
+
+    bottom: 20px;
+  }
+
+  .what-believers__visual-number {
+    font-size: 30px;
+  }
+
+  .what-believers__visual-label {
+    font-size: 22px;
+  }
+
+  .what-believers__visual-content p {
+    max-width: 210px;
+
+    font-size: 16px;
+  }
+
+  .what-believers__content-inner {
+    padding: 25px 20px 27px;
+  }
+
+  .what-believers__content-label {
+    font-size: 22px;
+  }
+
+  .what-believers__content h3 {
+    font-size: 30px;
+  }
+
+  .what-believers__content p {
+    font-size: 16px;
+  }
+}
+
+/* =========================================================
+   REDUCED MOTION
+   ========================================================= */
 
 @media (prefers-reduced-motion: reduce) {
   .what-believers__visual--next,
@@ -709,6 +1217,10 @@
 
   .what-believers__visual-orbit span {
     animation: none;
+  }
+
+  .what-believers__visual-image {
+    transition: none;
   }
 
   .what-believers__tab,

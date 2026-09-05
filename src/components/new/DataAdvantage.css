@@ -1,97 +1,125 @@
+/* =========================================
+   DATA ADVANTAGE SECTION
+========================================= */
+
 .data-advantage {
   position: relative;
   width: 100%;
+  min-height: 100vh;
   overflow: hidden;
   background: #ffffff;
-  color: #3f3f3f;
+  color: #082d6b;
+  padding: 80px 0 80px;
 }
 
 /* =========================================
-   BACKGROUND
+   BACKGROUND GRID
 ========================================= */
 
 .data-bg-grid {
   position: absolute;
   inset: 0;
   pointer-events: none;
-  opacity: 0.35;
+  z-index: 0;
 
   background-image:
-    linear-gradient(rgba(4, 100, 222, 0.045) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(4, 100, 222, 0.045) 1px, transparent 1px);
+    linear-gradient(rgba(10, 77, 160, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(10, 77, 160, 0.045) 1px, transparent 1px);
 
-  background-size: 60px 60px;
+  background-size: 55px 55px;
 
-  mask-image: linear-gradient(to bottom, black, transparent 85%);
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0.25)
+  );
+
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0.25)
+  );
 }
+
+/* =========================================
+   DECORATIVE ORBS
+========================================= */
 
 .data-orb {
   position: absolute;
   border-radius: 50%;
   pointer-events: none;
-  filter: blur(2px);
+  z-index: 0;
 }
 
 .data-orb-one {
-  width: 260px;
-  height: 260px;
-  top: 80px;
-  right: -120px;
-
-  background: radial-gradient(circle, rgba(4, 100, 222, 0.12), transparent 68%);
-}
-
-.data-orb-two {
-  width: 220px;
-  height: 220px;
-  bottom: 80px;
-  left: -120px;
+  width: 280px;
+  height: 280px;
+  top: 8%;
+  left: -160px;
 
   background: radial-gradient(
     circle,
-    rgba(255, 115, 45, 0.11),
-    transparent 68%
+    rgba(0, 103, 255, 0.09) 0%,
+    rgba(0, 103, 255, 0.025) 55%,
+    transparent 72%
   );
 }
 
-.data-dot-decoration {
-  position: absolute;
-  width: 6px;
-  height: 6px;
+.data-orb-two {
+  width: 360px;
+  height: 360px;
+  right: -200px;
+  top: 42%;
 
-  border-radius: 50%;
-  background: #ff732d;
-
-  pointer-events: none;
-}
-
-.dot-one {
-  top: 16%;
-  right: 12%;
-}
-
-.dot-two {
-  top: 48%;
-  left: 7%;
-}
-
-.dot-three {
-  bottom: 17%;
-  right: 8%;
+  background: radial-gradient(
+    circle,
+    rgba(0, 103, 255, 0.08) 0%,
+    rgba(0, 103, 255, 0.025) 55%,
+    transparent 72%
+  );
 }
 
 /* =========================================
-   CONTAINER
+   DECORATIVE DOTS
+========================================= */
+
+.data-dot-decoration {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #0967df;
+  opacity: 0.2;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.dot-one {
+  top: 18%;
+  left: 8%;
+}
+
+.dot-two {
+  top: 35%;
+  right: 9%;
+}
+
+.dot-three {
+  bottom: 18%;
+  left: 13%;
+}
+
+/* =========================================
+   MAIN WRAPPER
 ========================================= */
 
 .data-wrapper {
   position: relative;
   z-index: 2;
 
-  max-width: 1400px;
+  width: min(1400px, calc(100% - 48px));
   margin: 0 auto;
-
-  padding: 100px 32px;
 }
 
 /* =========================================
@@ -99,148 +127,153 @@
 ========================================= */
 
 .data-header {
-  max-width: 800px;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
-.data-label {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-
-  margin-bottom: 14px;
-
-  color: #ff732d;
-
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 0.18em;
-}
-
-.data-label-line {
-  width: 36px;
-  height: 2px;
-
-  background: #ff732d;
-}
+/* Main heading */
 
 .data-heading {
-  margin: 0 0 32px;
-
-  color: #032c7b;
-
-  font-size: 38px;
-  font-weight: 700;
-
-  line-height: 1.1;
-  letter-spacing: -0.025em;
-}
-
-.data-heading-line {
-  display: block;
-}
-
-.data-heading-highlight {
-  color: #0464de;
-}
-
-.data-subheading {
-  margin: 0 0 22px;
-
-  color: #0464de;
-
-  font-size: 28px;
-  font-weight: 600;
-
-  line-height: 1.25;
-}
-
-.data-intro {
   margin: 0;
 
-  color: #3f3f3f;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: clamp(38px, 5vw, 64px);
+  line-height: 1.05;
+  font-weight: 800;
+  letter-spacing: -2.5px;
 
-  font-size: 18px;
-  line-height: 1.65;
+  color: #07367f;
+}
+
+/*
+   IMPORTANT:
+   Adds visual spacing between
+   "DATA" and "ADVANTAGE"
+*/
+
+.data-heading-highlight {
+  display: inline-block;
+  margin-left: 14px;
+
+  color: #0769e6;
+}
+
+/* Subheading */
+
+.data-subheading {
+  margin: 28px 0 0;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: clamp(24px, 3vw, 34px);
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: -0.6px;
+
+  color: #0868df;
+}
+
+/* Intro text */
+
+.data-intro {
+  margin: 24px auto 0;
+
+  max-width: 650px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 1.8;
+  font-weight: 400;
+
+  color: #475569;
 }
 
 /* =========================================
-   ANALYSIS
+   ANALYSIS SECTION
 ========================================= */
 
 .analysis-section {
-  position: relative;
-
-  margin-top: 75px;
+  margin-top: 105px;
 }
+
+/* Analysis heading */
 
 .analysis-heading {
   display: flex;
   align-items: center;
-  gap: 16px;
+  justify-content: center;
+  gap: 14px;
 
-  margin-bottom: 28px;
+  margin-bottom: 48px;
 }
 
 .analysis-heading-number {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
 
-  width: 44px;
-  height: 44px;
+  width: 42px;
+  height: 42px;
 
   border-radius: 50%;
 
-  background: #032c7b;
+  background: #0769e6;
   color: #ffffff;
 
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 700;
-
-  box-shadow: 0 8px 24px rgba(3, 44, 123, 0.18);
+  letter-spacing: 0.5px;
 }
 
 .analysis-heading-text {
-  color: #0464de;
+  font-size: 27px;
+  font-weight: 700;
+  color: #092f6d;
+}
 
-  font-size: 28px;
-  font-weight: 600;
+/* =========================================
+   ANALYSIS LAYOUT
+========================================= */
+
+.analysis-layout {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Center vertical line */
+
+.analysis-line {
+  position: absolute;
+
+  top: 0;
+  bottom: 0;
+  left: 50%;
+
+  width: 2px;
+
+  transform-origin: top center;
+  transform: translateX(-50%);
+
+  background: linear-gradient(
+    to bottom,
+    rgba(7, 105, 230, 0),
+    rgba(7, 105, 230, 0.3) 10%,
+    rgba(7, 105, 230, 0.3) 90%,
+    rgba(7, 105, 230, 0)
+  );
+
+  pointer-events: none;
 }
 
 /* =========================================
    ANALYSIS GRID
 ========================================= */
 
-.analysis-layout {
-  position: relative;
-}
-
-.analysis-line {
-  position: absolute;
-
-  left: 50%;
-  top: 0;
-  bottom: 0;
-
-  width: 1px;
-
-  background: linear-gradient(
-    to bottom,
-    transparent,
-    #0464de 10%,
-    #0464de 90%,
-    transparent
-  );
-
-  transform-origin: top center;
-}
-
 .analysis-grid {
   display: grid;
-
   grid-template-columns: repeat(2, 1fr);
-
-  gap: 16px 70px;
+  gap: 18px 70px;
 }
 
 /* =========================================
@@ -254,66 +287,73 @@
   align-items: center;
 
   min-height: 78px;
+  padding: 18px 22px;
 
-  padding: 18px 22px 18px 72px;
+  border: 1px solid rgba(7, 105, 230, 0.1);
+  border-radius: 14px;
 
-  border: 1px solid rgba(4, 100, 222, 0.12);
-  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.86);
 
-  background: rgba(255, 255, 255, 0.88);
-
-  box-shadow: 0 8px 30px rgba(3, 44, 123, 0.055);
-
-  backdrop-filter: blur(8px);
+  box-shadow:
+    0 8px 30px rgba(6, 54, 127, 0.045),
+    0 1px 3px rgba(6, 54, 127, 0.03);
 
   transition:
-    transform 0.35s ease,
-    border-color 0.35s ease,
-    box-shadow 0.35s ease;
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
 }
 
 .analysis-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-4px);
 
-  border-color: rgba(255, 115, 45, 0.4);
+  border-color: rgba(7, 105, 230, 0.25);
 
-  box-shadow: 0 15px 35px rgba(3, 44, 123, 0.1);
+  box-shadow:
+    0 14px 35px rgba(6, 54, 127, 0.09),
+    0 2px 5px rgba(6, 54, 127, 0.04);
 }
 
+/* Card number */
+
 .analysis-number {
-  position: absolute;
+  flex-shrink: 0;
 
-  left: 20px;
-
-  color: #0464de;
+  width: 38px;
 
   font-size: 13px;
   font-weight: 700;
-  letter-spacing: 0.04em;
+
+  color: #0769e6;
 }
 
-.analysis-card-dot {
-  position: absolute;
+/* Card dot */
 
-  left: 48px;
+.analysis-card-dot {
+  flex-shrink: 0;
 
   width: 7px;
   height: 7px;
 
+  margin-right: 15px;
+
   border-radius: 50%;
 
-  background: #ff732d;
+  background: #0769e6;
 
-  box-shadow: 0 0 0 5px rgba(255, 115, 45, 0.08);
+  box-shadow: 0 0 0 5px rgba(7, 105, 230, 0.08);
 }
+
+/* Card text */
 
 .analysis-card p {
   margin: 0;
 
-  color: #3f3f3f;
+  font-size: 15px;
+  line-height: 1.45;
+  font-weight: 500;
 
-  font-size: 18px;
-  line-height: 1.5;
+  color: #334155;
 }
 
 /* =========================================
@@ -324,75 +364,79 @@
   position: relative;
 
   display: flex;
-  align-items: center;
+  align-items: stretch;
 
-  margin-top: 70px;
+  max-width: 950px;
+  margin: 110px auto 0;
 
-  padding: 38px 45px;
+  padding: 38px 48px;
 
-  border: 1px solid rgba(4, 100, 222, 0.12);
-  border-radius: 16px;
+  border: 1px solid rgba(7, 105, 230, 0.12);
+  border-radius: 20px;
 
-  background: linear-gradient(110deg, #f7faff 0%, #ffffff 65%);
+  background: linear-gradient(
+    135deg,
+    rgba(7, 105, 230, 0.055),
+    rgba(255, 255, 255, 0.9)
+  );
 
-  box-shadow: 0 18px 45px rgba(3, 44, 123, 0.07);
-
-  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(6, 54, 127, 0.07);
 }
+
+/* Accent */
 
 .statement-accent {
-  position: absolute;
+  width: 5px;
+  flex-shrink: 0;
 
-  left: 0;
-  top: 0;
-  bottom: 0;
+  margin-right: 28px;
 
-  width: 4px;
+  border-radius: 10px;
 
-  background: #ff732d;
+  background: linear-gradient(to bottom, #0769e6, #0b4da5);
 }
 
+/* Content */
+
 .statement-content {
-  position: relative;
-  z-index: 2;
+  flex: 1;
 }
 
 .statement-main {
-  margin: 0 0 7px;
-
-  color: #032c7b;
+  margin: 0;
 
   font-size: 22px;
-  line-height: 1.5;
+  line-height: 1.55;
+
+  color: #092f6d;
 }
 
-.statement-main strong {
-  font-weight: 700;
+.statement-main + .statement-main {
+  margin-top: 4px;
 }
 
 .statement-final {
   margin: 18px 0 0;
 
-  color: #3f3f3f;
-
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.6;
+
+  color: #64748b;
 }
+
+/* Plus mark */
 
 .statement-mark {
   position: absolute;
 
-  right: 35px;
-  top: 50%;
+  top: 24px;
+  right: 30px;
 
-  transform: translateY(-50%);
-
-  color: rgba(4, 100, 222, 0.07);
-
-  font-size: 150px;
-  font-weight: 700;
-
+  font-size: 32px;
   line-height: 1;
+  font-weight: 300;
+
+  color: rgba(7, 105, 230, 0.3);
 }
 
 /* =========================================
@@ -400,94 +444,95 @@
 ========================================= */
 
 .data-cta {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   gap: 14px;
 
-  margin-top: 32px;
+  margin: 45px auto 0;
+  padding: 15px 22px 15px 26px;
 
-  padding: 16px 28px;
+  border: none;
+  border-radius: 50px;
 
-  border: 0;
-  border-radius: 5px;
-
-  background: #ff732d;
+  background: #0769e6;
   color: #ffffff;
 
-  font-size: 16px;
+  font-family: inherit;
+  font-size: 15px;
   font-weight: 600;
 
   cursor: pointer;
 
-  box-shadow: 0 10px 25px rgba(255, 115, 45, 0.2);
+  box-shadow: 0 10px 25px rgba(7, 105, 230, 0.22);
 
   transition:
     transform 0.3s ease,
+    background 0.3s ease,
     box-shadow 0.3s ease;
 }
 
 .data-cta:hover {
   transform: translateY(-3px);
 
-  box-shadow: 0 15px 35px rgba(255, 115, 45, 0.3);
+  background: #055ac8;
+
+  box-shadow: 0 15px 30px rgba(7, 105, 230, 0.28);
 }
 
+.data-cta:active {
+  transform: translateY(-1px);
+}
+
+/* CTA arrow */
+
 .data-cta-arrow {
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  justify-content: center;
+
+  width: 30px;
+  height: 30px;
+
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.15);
 
   transition: transform 0.3s ease;
 }
 
 .data-cta:hover .data-cta-arrow {
-  transform: translateX(5px);
+  transform: translateX(4px);
 }
 
 /* =========================================
    TABLET
 ========================================= */
 
-@media (max-width: 868px) {
+@media (max-width: 900px) {
+  .data-advantage {
+    padding: 80px 0 90px;
+  }
+
   .data-wrapper {
-    padding: 70px 22px;
+    width: min(100% - 36px, 720px);
   }
 
   .data-heading {
-    font-size: 32px;
-  }
-
-  .data-subheading,
-  .analysis-heading-text {
-    font-size: 24px;
-  }
-
-  .data-intro,
-  .analysis-card p,
-  .statement-final {
-    font-size: 16px;
+    font-size: clamp(34px, 7vw, 52px);
   }
 
   .analysis-section {
-    margin-top: 55px;
+    margin-top: 80px;
   }
 
   .analysis-grid {
-    gap: 12px 25px;
-  }
-
-  .analysis-card {
-    min-height: 72px;
-    padding-left: 65px;
+    gap: 15px 30px;
   }
 
   .data-statement {
-    margin-top: 55px;
-    padding: 30px;
-  }
-
-  .statement-main {
-    font-size: 19px;
+    margin-top: 85px;
+    padding: 32px 35px;
   }
 }
 
@@ -495,60 +540,182 @@
    MOBILE
 ========================================= */
 
-@media (max-width: 600px) {
-  .data-wrapper {
-    padding: 55px 18px;
+@media (max-width: 650px) {
+  .data-advantage {
+    min-height: auto;
+    padding: 65px 0 75px;
   }
+
+  .data-wrapper {
+    width: calc(100% - 30px);
+  }
+
+  /* Header */
 
   .data-heading {
-    font-size: 32px;
+    font-size: clamp(30px, 9vw, 42px);
+    line-height: 1.08;
+    letter-spacing: -1.5px;
   }
 
-  .data-subheading,
+  .data-heading-highlight {
+    margin-left: 8px;
+  }
+
+  .data-subheading {
+    margin-top: 20px;
+    font-size: 22px;
+  }
+
+  .data-intro {
+    margin-top: 18px;
+
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  /* Analysis */
+
+  .analysis-section {
+    margin-top: 65px;
+  }
+
+  .analysis-heading {
+    justify-content: flex-start;
+    margin-bottom: 28px;
+  }
+
+  .analysis-heading-number {
+    width: 36px;
+    height: 36px;
+    font-size: 12px;
+  }
+
   .analysis-heading-text {
-    font-size: 24px;
+    font-size: 22px;
   }
 
-  .data-intro br {
-    display: none;
-  }
-
-  .analysis-grid {
-    grid-template-columns: 1fr;
-  }
+  /* Remove center line on mobile */
 
   .analysis-line {
     display: none;
   }
 
+  .analysis-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
   .analysis-card {
     min-height: 68px;
+    padding: 15px 17px;
   }
+
+  .analysis-number {
+    width: 32px;
+    font-size: 12px;
+  }
+
+  .analysis-card-dot {
+    width: 6px;
+    height: 6px;
+
+    margin-right: 12px;
+
+    box-shadow: 0 0 0 4px rgba(7, 105, 230, 0.08);
+  }
+
+  .analysis-card p {
+    font-size: 14px;
+  }
+
+  /* Statement */
 
   .data-statement {
-    padding: 26px 24px;
+    margin-top: 65px;
+    padding: 28px 24px;
+
+    border-radius: 16px;
   }
 
-  .statement-mark {
-    right: 10px;
-    font-size: 100px;
+  .statement-accent {
+    width: 4px;
+    margin-right: 20px;
   }
 
   .statement-main {
-    font-size: 18px;
+    font-size: 17px;
+    line-height: 1.5;
   }
+
+  .statement-final {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+
+  .statement-mark {
+    top: 18px;
+    right: 18px;
+    font-size: 25px;
+  }
+
+  /* CTA */
 
   .data-cta {
     width: 100%;
+    max-width: 330px;
+
+    margin-top: 32px;
+
+    font-size: 14px;
   }
 
+  /* Decorative elements */
+
   .data-orb-one {
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
+    left: -130px;
   }
 
   .data-orb-two {
-    width: 160px;
-    height: 160px;
+    width: 250px;
+    height: 250px;
+    right: -150px;
+  }
+
+  .data-dot-decoration {
+    width: 5px;
+    height: 5px;
+  }
+}
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 400px) {
+  .data-heading {
+    font-size: 29px;
+  }
+
+  .data-heading-highlight {
+    margin-left: 5px;
+  }
+
+  .data-subheading {
+    font-size: 20px;
+  }
+
+  .data-intro {
+    font-size: 14px;
+  }
+
+  .analysis-heading-text {
+    font-size: 20px;
+  }
+
+  .statement-main {
+    font-size: 16px;
   }
 }

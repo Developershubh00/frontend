@@ -71,24 +71,20 @@ const CounsellingJourney: React.FC = () => {
   return (
     <section className="cj-section">
       <div className="cj-container">
-
         {/* Header */}
         <div className="cj-header">
           <div className="cj-eyebrow">
             <span className="cj-eyebrow-line"></span>
-            <span>08. THE COUNSELLING JOURNEY</span>
+            <span>THE COUNSELLING JOURNEY</span>
             <span className="cj-eyebrow-line"></span>
           </div>
 
-          <h2 className="cj-title">
-            You Don't Have to Figure It Out Alone.
-          </h2>
+          <h2 className="cj-title">You Don't Have to Figure It Out Alone.</h2>
         </div>
 
         {/* Desktop / Tablet Journey */}
         <div className="cj-desktop-journey">
           <div className="cj-journey-row">
-
             {journeyItems.slice(0, 5).map((item, index) => {
               const Icon = item.icon;
 
@@ -107,9 +103,7 @@ const CounsellingJourney: React.FC = () => {
                       <Icon size={22} strokeWidth={1.8} />
                     </div>
 
-                    <div className="cj-stage-title">
-                      {item.title}
-                    </div>
+                    <div className="cj-stage-title">{item.title}</div>
                   </div>
 
                   {index < 4 && (
@@ -120,7 +114,6 @@ const CounsellingJourney: React.FC = () => {
                 </React.Fragment>
               );
             })}
-
           </div>
 
           {/* Turning Connector */}
@@ -132,7 +125,6 @@ const CounsellingJourney: React.FC = () => {
           </div>
 
           <div className="cj-journey-row cj-second-row">
-
             {journeyItems.slice(5).map((item, index) => {
               const Icon = item.icon;
               const actualIndex = index + 5;
@@ -152,9 +144,7 @@ const CounsellingJourney: React.FC = () => {
                       <Icon size={22} strokeWidth={1.8} />
                     </div>
 
-                    <div className="cj-stage-title">
-                      {item.title}
-                    </div>
+                    <div className="cj-stage-title">{item.title}</div>
                   </div>
 
                   {index < 4 && (
@@ -165,7 +155,6 @@ const CounsellingJourney: React.FC = () => {
                 </React.Fragment>
               );
             })}
-
           </div>
         </div>
 
@@ -182,7 +171,6 @@ const CounsellingJourney: React.FC = () => {
                 key={item.title}
               >
                 <div className="cj-mobile-line-wrap">
-
                   <div className="cj-mobile-number">
                     {String(index + 1).padStart(2, "0")}
                   </div>
@@ -194,7 +182,6 @@ const CounsellingJourney: React.FC = () => {
                   {index < journeyItems.length - 1 && (
                     <div className="cj-mobile-line"></div>
                   )}
-
                 </div>
 
                 <div className="cj-mobile-content">
@@ -210,11 +197,10 @@ const CounsellingJourney: React.FC = () => {
           <span className="cj-message-dot"></span>
 
           <p>
-            <strong>Believers</strong> is here to help you understand,
-            evaluate and decide.
+            <strong>Believers</strong> is here to help you understand, evaluate
+            and decide.
           </p>
         </div>
-
       </div>
     </section>
   );

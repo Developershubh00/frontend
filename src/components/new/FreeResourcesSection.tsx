@@ -27,7 +27,7 @@ export default function FreeResourcesSection() {
           <div className="fr-section__content">
             <p className="fr-section__eyebrow">
               <span aria-hidden="true" />
-              09. FREE RESOURCES
+              FREE RESOURCES
             </p>
             <h2 id="free-resources-title">
               Everything You Need Before Counselling Begins.

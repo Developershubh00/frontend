@@ -9,7 +9,7 @@
   width: 100%;
   padding: 90px 20px;
   overflow: hidden;
-  background: var(--wb-bg);
+  background: #f4f8fe;
   color: var(--wb-text);
 }
 .wb-section *,
@@ -62,7 +62,7 @@
 }
 .wb-main {
   display: grid;
-  grid-template-columns: minmax(0, 1.55fr) minmax(310px, 0.75fr);
+  grid-template-columns: minmax(0, 1.15fr) minmax(310px, 0.75fr);
   gap: 28px;
   align-items: stretch;
 }

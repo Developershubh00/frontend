@@ -45,17 +45,25 @@ const EverythingSection: React.FC = () => {
       }`}
     >
       <div className="everything-container">
+        {/* =========================================
+            HEADER
+        ========================================= */}
+
         <header className="everything-header">
           <div className="everything-eyebrow">
             <span className="everything-eyebrow-line" />
 
-            <span>THE STUDENT’S REAL QUESTIONS</span>
+            <span>03. THE STUDENT’S REAL QUESTIONS</span>
           </div>
 
           <h2 className="everything-title">
             After NEET PG, the questions begin…
           </h2>
         </header>
+
+        {/* =========================================
+            QUESTIONS
+        ========================================= */}
 
         <div className="everything-list">
           {questions.map((question, index) => (
@@ -69,11 +77,17 @@ const EverythingSection: React.FC = () => {
               }
             >
               <div className="everything-row-content">
+                {/* Number */}
+
                 <span className="everything-question-number" aria-hidden="true">
                   {String(index + 1).padStart(2, "0")}
                 </span>
 
+                {/* Question */}
+
                 <span className="everything-question">{question}</span>
+
+                {/* Arrow */}
 
                 <span className="everything-arrow" aria-hidden="true">
                   <ArrowRight size={19} strokeWidth={1.7} />
@@ -82,6 +96,10 @@ const EverythingSection: React.FC = () => {
             </div>
           ))}
         </div>
+
+        {/* =========================================
+            BOTTOM MESSAGE
+        ========================================= */}
 
         <div className="everything-bottom">
           <div className="everything-bottom-text">

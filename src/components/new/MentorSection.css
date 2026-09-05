@@ -1,175 +1,408 @@
+/* =========================================
+   MAIN SECTION
+========================================= */
+
 .mentor-section {
   width: 100%;
-  padding: 40px 20px 100px;
+  padding: 40px 20px 80px;
   overflow: hidden;
 }
+
+/* =========================================
+   TOP HEADER
+========================================= */
 
 .mentor-header {
   width: 100%;
   max-width: 1400px;
+
   margin: 0 auto;
+
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
+
+  gap: 80px;
 }
 
+.mentor-header-left,
+.mentor-header-right {
+  flex: 1;
+}
+
+.mentor-header-left {
+  text-align: center;
+}
+
+.mentor-header-right {
+  text-align: center;
+}
+
+/* =========================================
+   MAIN HEADING
+========================================= */
+
 .mentor-heading {
+  margin: 0 0 20px;
+
   font-size: 52px;
-  color: #032c7b;
-  margin-bottom: 20px;
   line-height: 1.25;
   font-weight: 700;
+
+  color: #032c7b;
+
+  text-align: center;
 }
+
+/* =========================================
+   DESCRIPTION
+========================================= */
 
 .mentor-description {
   margin: 24px 0;
+
   font-size: 18px;
   line-height: 1.7;
+
   color: #3f3f3f;
+
+  text-align: center;
 }
+
+/* =========================================
+   SUB HEADING
+========================================= */
+
+.mentor-sub-heading {
+  margin: 0;
+
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 700;
+
+  color: #0464de;
+
+  text-align: center;
+}
+
+/* =========================================
+   MENTOR CONTAINER
+========================================= */
 
 .mentor-container {
   width: 100%;
   max-width: 1400px;
-  margin: 0 auto;
-  padding-top: 4rem;
-}
 
-.mentor-sub-heading {
-  font-size: 28px;
-  line-height: 1;
-  font-weight: 700;
-  color: #0464de;
+  margin: 0 auto;
+
+  padding-top: 4rem;
 }
 
 .mentor-content {
   width: 100%;
 }
 
-.mentor-heading {
-  margin-bottom: 24px;
-}
+/* =========================================
+   MENTOR SECTION HEADING
+========================================= */
 
-.mentor-heading h3 {
-  font-size: 42px;
-  color: #032c7b;
-  margin-bottom: 20px;
-  line-height: 1.25;
+.mentor-section-heading {
+  width: 100%;
+
+  margin-bottom: 24px;
+
   text-align: center;
 }
 
+.mentor-section-heading h3 {
+  margin: 0 0 20px;
+
+  font-size: 42px;
+  line-height: 1.25;
+  font-weight: 700;
+
+  color: #032c7b;
+
+  text-align: center;
+}
+
+/* =========================================
+   MENTOR GRID
+========================================= */
+
 .mentor-grid {
   display: grid;
-  grid-template-columns: 1fr auto 1fr auto 1fr;
+
+  grid-template-columns:
+    1fr
+    auto
+    1fr
+    auto
+    1fr;
+
   align-items: center;
+
   gap: 22px;
+
   width: 100%;
 }
+
+/* =========================================
+   MENTOR GRID ITEM
+========================================= */
+
+.mentor-grid-item {
+  width: 100%;
+  display: contents;
+}
+
+/* =========================================
+   MENTOR DIVIDER
+========================================= */
 
 .mentor-divider {
   display: flex;
+
   align-items: center;
   justify-content: center;
-  flex-shrink: 0;
+
   width: 40px;
   height: 40px;
+
+  flex-shrink: 0;
+
   font-size: 48px;
   font-weight: 400;
+
   color: #032c7b;
 }
 
+/* =========================================
+   MENTOR CARD
+========================================= */
+
 .mentor-card {
   width: 100%;
+
   position: relative;
+
   padding: 28px 24px 24px;
+
   border-radius: 24px 90px 24px 24px;
+
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
+
   border: 1px solid rgba(255, 255, 255, 0.4);
+
   box-shadow: 0 8px 32px rgba(3, 44, 123, 0.08);
+
   transition:
     border-radius 0.6s cubic-bezier(0.4, 0, 0.2, 1),
     transform 0.4s ease,
     box-shadow 0.4s ease;
 }
 
+/* =========================================
+   CARD HOVER
+========================================= */
+
 .mentor-card:hover {
   border-radius: 24px;
+
   padding: 24px;
+
   box-shadow: 0 16px 40px rgba(3, 44, 123, 0.14);
 }
 
+/* =========================================
+   IMAGE WRAPPER
+========================================= */
+
 .mentor-image-wrap {
   position: relative;
+
   width: 100%;
   height: 400px;
+
   overflow: hidden;
+
   isolation: isolate;
 }
 
+/* =========================================
+   IMAGE GRADIENT
+========================================= */
+
+.mentor-gradient {
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 1;
+
+  pointer-events: none;
+
+  background: linear-gradient(to top, rgba(3, 44, 123, 0.08), transparent 40%);
+}
+
+/* =========================================
+   MENTOR IMAGE
+========================================= */
+
 .mentor-image {
   position: absolute;
+
   left: 50%;
   bottom: 0;
+
   width: 100%;
   height: 100%;
+
   object-fit: cover;
   object-position: center bottom;
+
   transform: translateX(-50%);
+
   transition: transform 0.5s ease;
 }
+
+/* =========================================
+   IMAGE HOVER
+========================================= */
 
 .mentor-card:hover .mentor-image {
   transform: translateX(-50%) scale(1.04);
 }
 
+/* =========================================
+   MENTOR NAME
+========================================= */
+
 .mentor-card h4 {
   margin: 18px 0 0;
+
   font-size: 22px;
   line-height: 1.2;
   font-weight: 700;
+
   color: #032c7b;
 }
 
+/* =========================================
+   BOTTOM CONTENT
+   EVERYTHING CENTERED
+========================================= */
+
 .mentor-bottom {
-  display: flex;
-  justify-content: space-between;
-  gap: 60px;
+  width: 100%;
+
   margin-top: 50px;
   padding-top: 30px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
   border-top: 1px solid rgba(3, 44, 123, 0.15);
 }
 
-.mentor-bottom > p {
-  margin: 0;
-  font-size: 17px;
-  line-height: 1.7;
+/* =========================================
+   BOTTOM INTRO TEXT
+========================================= */
+
+.mentor-bottom-intro {
+  margin: 0 0 28px;
+
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 400;
+
   color: #3f3f3f;
+
+  text-align: center;
 }
 
+/* =========================================
+   STATEMENTS
+========================================= */
+
 .mentor-statements {
-  padding-left: 25px;
-  border-left: 3px solid #ff732d;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
 }
 
 .mentor-statements p {
+  width: 100%;
+
   margin: 0 0 10px;
+
   font-size: 16px;
   line-height: 1.5;
+
   color: #032c7b;
+
+  text-align: center;
 }
 
 .mentor-statements p:last-child {
   margin-bottom: 0;
+
   color: #3f3f3f;
 }
 
-/* ========================= Responsive ===================== */
+/* =========================================
+   TABLET
+========================================= */
 
 @media (max-width: 1024px) {
   .mentor-section {
     padding: 40px 20px 80px;
   }
+
+  .mentor-header {
+    gap: 40px;
+  }
+
+  .mentor-heading {
+    font-size: 46px;
+  }
+
+  .mentor-section-heading h3 {
+    font-size: 38px;
+  }
+
+  .mentor-grid {
+    gap: 14px;
+  }
+
+  .mentor-card {
+    padding: 22px 18px 20px;
+  }
+
+  .mentor-image-wrap {
+    height: 340px;
+  }
+
+  .mentor-bottom-intro {
+    font-size: 21px;
+  }
 }
+
+/* =========================================
+   SMALL TABLET
+========================================= */
 
 @media (max-width: 868px) {
   .mentor-section {
@@ -178,15 +411,28 @@
 
   .mentor-header {
     flex-direction: column;
+
+    align-items: center;
+
     text-align: center;
+
+    gap: 10px;
+  }
+
+  .mentor-header-left,
+  .mentor-header-right {
+    width: 100%;
   }
 
   .mentor-heading {
     font-size: 42px;
+
     margin-bottom: 0;
+
+    text-align: center;
   }
 
-  .mentor-heading h3 {
+  .mentor-section-heading h3 {
     font-size: 32px;
   }
 
@@ -202,28 +448,72 @@
     height: 360px;
   }
 
-  .mentor-heading span:last-child {
-    font-size: 36px;
+  .mentor-bottom-intro {
+    font-size: 20px;
   }
 
-  .mentor-bottom {
-    gap: 30px;
+  .mentor-statements p {
+    font-size: 15px;
   }
 }
+
+/* =========================================
+   MOBILE
+========================================= */
 
 @media (max-width: 568px) {
   .mentor-section {
     padding: 70px 20px;
   }
 
+  /* Header */
+
+  .mentor-heading {
+    font-size: 34px;
+
+    line-height: 1.2;
+  }
+
+  .mentor-description {
+    font-size: 15px;
+
+    line-height: 1.6;
+  }
+
+  .mentor-sub-heading {
+    font-size: 22px;
+  }
+
+  /* Section heading */
+
+  .mentor-section-heading h3 {
+    font-size: 28px;
+
+    line-height: 1.2;
+  }
+
+  /* Mentor grid */
+
   .mentor-grid {
     display: flex;
+
     flex-direction: column;
+
     gap: 35px;
+  }
+
+  .mentor-grid-item {
+    width: 100%;
+
+    display: block;
   }
 
   .mentor-divider {
     display: none;
+  }
+
+  .mentor-card {
+    width: 100%;
   }
 
   .mentor-image-wrap {
@@ -234,8 +524,61 @@
     font-size: 21px;
   }
 
+  /* Bottom */
+
   .mentor-bottom {
+    width: 100%;
+
+    margin-top: 40px;
+    padding-top: 25px;
+
+    display: flex;
+
     flex-direction: column;
-    gap: 30px;
+
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+  }
+
+  .mentor-bottom-intro {
+    width: 100%;
+
+    margin: 0 0 25px;
+
+    font-size: 19px;
+    line-height: 1.5;
+
+    text-align: center;
+  }
+
+  .mentor-statements {
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+  }
+
+  .mentor-statements p {
+    width: 100%;
+
+    margin: 0 0 10px;
+
+    font-size: 15px;
+
+    line-height: 1.5;
+
+    text-align: center;
+  }
+
+  .mentor-statements p:last-child {
+    margin-bottom: 0;
   }
 }

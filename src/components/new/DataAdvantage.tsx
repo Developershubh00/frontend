@@ -21,6 +21,7 @@ const DataAdvantage: React.FC = () => {
 
   useLayoutEffect(() => {
     const ctx = gsap.context(() => {
+      // Header animation
       const introTl = gsap.timeline({
         scrollTrigger: {
           trigger: sectionRef.current,
@@ -30,23 +31,12 @@ const DataAdvantage: React.FC = () => {
       });
 
       introTl
-        .from(".data-label", {
+        .from(".data-heading", {
           opacity: 0,
-          x: -30,
-          duration: 0.6,
-          ease: "power3.out",
+          y: 45,
+          duration: 0.8,
+          ease: "power4.out",
         })
-        .from(
-          ".data-heading-line",
-          {
-            opacity: 0,
-            y: 45,
-            duration: 0.8,
-            stagger: 0.12,
-            ease: "power4.out",
-          },
-          "-=0.3",
-        )
         .from(
           ".data-subheading",
           {
@@ -180,24 +170,12 @@ const DataAdvantage: React.FC = () => {
         ========================= */}
 
         <div className="data-header">
-          <div className="data-label">
-            <span className="data-label-line" />
-            <span>THE</span>
-          </div>
-
           <h2 className="data-heading">
-            <span className="data-heading-line">BELIEVERS DATA</span>
-
-            <span className="data-heading-line data-heading-highlight">
-              ADVANTAGE
-            </span>
+            THE BELIEVERS DATA{" "}
+            <span className="data-heading-highlight">ADVANTAGE</span>
           </h2>
 
-          <h3 className="data-subheading">
-            Reliable
-            <br />
-            Data. Better Decisions.
-          </h3>
+          <h3 className="data-subheading">Reliable Data. Better Decisions.</h3>
 
           <p className="data-intro">
             Every recommendation is supported by data,
