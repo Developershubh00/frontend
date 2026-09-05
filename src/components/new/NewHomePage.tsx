@@ -1,3 +1,4 @@
+import Navbar from "./Navbar";
 import WhyBelievers from "./WhyBelievers";
 import DataAdvantage from "./DataAdvantage";
 import FindCollegesSection from "./FindCollegesSection";
@@ -10,6 +11,7 @@ import LightBackground from "./LightBackground";
 function NewHomePage() {
   return (
     <div>
+      <Navbar />
       <LightBackground />
       <WhyBelievers />
       <DataAdvantage />

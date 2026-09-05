@@ -1,0 +1,615 @@
+/* =========================================================
+   BELIEVERS CONSULTANCY NAVBAR
+   Fully Scoped
+   ========================================================= */
+
+.bc-navbar {
+  --bc-blue: #032c7b;
+  --bc-light-blue: #0464de;
+  --bc-orange: #ff732d;
+  --bc-text: #3f3f3f;
+  --bc-green: #effff4;
+
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+
+  width: 100%;
+
+  background: rgba(255, 255, 255, 0.97);
+
+  border-bottom: 1px solid rgba(3, 44, 123, 0.08);
+
+  font-family: "Montserrat", Arial, sans-serif;
+}
+
+.bc-navbar *,
+.bc-navbar *::before,
+.bc-navbar *::after {
+  box-sizing: border-box;
+}
+
+/* =========================================================
+   CONTAINER
+   ========================================================= */
+
+.bc-navbar-container {
+  width: 100%;
+  max-width: 1400px;
+
+  height: 72px;
+
+  margin: 0 auto;
+
+  padding: 0 28px;
+
+  display: flex;
+  align-items: center;
+}
+
+/* =========================================================
+   LOGO
+   ========================================================= */
+
+.bc-navbar-logo {
+  display: flex;
+  align-items: center;
+
+  flex-shrink: 0;
+
+  text-decoration: none;
+}
+
+.bc-navbar-logo img {
+  width: auto;
+  height: 62px;
+
+  display: block;
+
+  object-fit: contain;
+}
+
+/* =========================================================
+   DESKTOP NAV
+   ========================================================= */
+
+.bc-navbar-nav {
+  margin-left: auto;
+
+  display: flex;
+  align-items: center;
+
+  gap: 7px;
+}
+
+/* =========================================================
+   NORMAL NAV LINKS
+   ========================================================= */
+
+.bc-nav-link {
+  position: relative;
+
+  display: inline-flex;
+  align-items: center;
+
+  gap: 6px;
+
+  min-height: 40px;
+
+  padding: 0 13px;
+
+  color: var(--bc-text);
+
+  background: transparent;
+
+  border: 0;
+
+  font-family: inherit;
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  text-decoration: none;
+
+  white-space: nowrap;
+
+  cursor: pointer;
+
+  transition:
+    color 0.25s ease,
+    background 0.25s ease;
+}
+
+.bc-nav-link::after {
+  content: "";
+
+  position: absolute;
+
+  left: 13px;
+  right: 13px;
+  bottom: 3px;
+
+  height: 2px;
+
+  background: var(--bc-light-blue);
+
+  transform: scaleX(0);
+
+  transform-origin: left;
+
+  transition: transform 0.25s ease;
+}
+
+.bc-nav-link:hover {
+  color: var(--bc-light-blue);
+}
+
+.bc-nav-link:hover::after {
+  transform: scaleX(1);
+}
+
+/* =========================================================
+   INICET
+   ========================================================= */
+
+.bc-nav-inicet {
+  position: relative;
+
+  min-height: 40px;
+
+  display: inline-flex;
+  align-items: center;
+
+  padding: 0 17px;
+
+  color: #ffffff;
+
+  background: linear-gradient(90deg, #8cc7ff, #0464de);
+
+  border-radius: 999px;
+
+  font-family: inherit;
+
+  font-size: 13px;
+
+  font-weight: 700;
+
+  text-decoration: none;
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.bc-nav-inicet:hover {
+  color: #ffffff;
+
+  transform: translateY(-1px);
+
+  box-shadow: 0 7px 18px rgba(4, 100, 222, 0.2);
+}
+
+/* =========================================================
+   INICET DOT
+   ========================================================= */
+
+.bc-nav-dot {
+  position: absolute;
+
+  top: -2px;
+  right: -2px;
+
+  width: 11px;
+  height: 11px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.bc-nav-dot::before {
+  content: "";
+
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+
+  background: #0464de;
+
+  border-radius: 50%;
+
+  opacity: 0.35;
+
+  animation: bc-dot-pulse 1.8s infinite;
+}
+
+.bc-nav-dot span {
+  position: relative;
+
+  width: 7px;
+  height: 7px;
+
+  background: #0464de;
+
+  border-radius: 50%;
+}
+
+@keyframes bc-dot-pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+
+  70% {
+    transform: scale(1.7);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1.7);
+    opacity: 0;
+  }
+}
+
+/* =========================================================
+   DROPDOWN
+   ========================================================= */
+
+.bc-nav-dropdown {
+  position: relative;
+}
+
+.bc-counselling-btn svg {
+  transition: transform 0.2s ease;
+}
+
+.bc-chevron-active {
+  transform: rotate(180deg);
+}
+
+/* =========================================================
+   DROPDOWN MENU
+   ========================================================= */
+
+.bc-dropdown-menu {
+  position: absolute;
+
+  top: calc(100% + 9px);
+  left: 0;
+
+  width: 245px;
+
+  padding: 7px;
+
+  background: #ffffff;
+
+  border: 1px solid rgba(3, 44, 123, 0.08);
+
+  border-radius: 13px;
+
+  box-shadow: 0 15px 40px rgba(3, 44, 123, 0.13);
+}
+
+.bc-dropdown-menu a {
+  display: flex;
+  flex-direction: column;
+
+  gap: 3px;
+
+  padding: 12px;
+
+  color: var(--bc-text);
+
+  border-radius: 9px;
+
+  text-decoration: none;
+
+  transition:
+    background 0.2s ease,
+    color 0.2s ease;
+}
+
+.bc-dropdown-menu a:hover {
+  background: var(--bc-green);
+
+  color: var(--bc-light-blue);
+}
+
+.bc-dropdown-menu strong {
+  font-size: 13px;
+
+  font-weight: 700;
+}
+
+.bc-dropdown-menu span {
+  color: #777777;
+
+  font-size: 11px;
+
+  font-weight: 400;
+}
+
+/* =========================================================
+   LOGIN
+   ========================================================= */
+
+.bc-login-button {
+  margin-left: 18px;
+
+  min-height: 42px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0 21px;
+
+  color: #ffffff;
+
+  background: linear-gradient(90deg, #8cc7ff, #0464de);
+
+  border-radius: 999px;
+
+  font-family: inherit;
+
+  font-size: 13px;
+
+  font-weight: 700;
+
+  text-decoration: none;
+
+  white-space: nowrap;
+
+  box-shadow: 0 7px 18px rgba(4, 100, 222, 0.16);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.bc-login-button:hover {
+  color: #ffffff;
+
+  transform: translateY(-2px);
+
+  box-shadow: 0 10px 23px rgba(4, 100, 222, 0.23);
+}
+
+/* =========================================================
+   MOBILE TOGGLE
+   ========================================================= */
+
+.bc-mobile-toggle {
+  display: none;
+
+  width: 42px;
+  height: 42px;
+
+  align-items: center;
+  justify-content: center;
+
+  margin-left: auto;
+
+  color: var(--bc-blue);
+
+  background: var(--bc-green);
+
+  border: 1px solid rgba(4, 100, 222, 0.1);
+
+  border-radius: 10px;
+
+  cursor: pointer;
+}
+
+/* =========================================================
+   MOBILE MENU
+   ========================================================= */
+
+.bc-mobile-menu {
+  display: none;
+}
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 1100px) {
+  .bc-navbar-container {
+    padding: 0 20px;
+  }
+
+  .bc-navbar-nav {
+    gap: 2px;
+  }
+
+  .bc-nav-link {
+    padding: 0 9px;
+
+    font-size: 13px;
+  }
+
+  .bc-nav-inicet {
+    padding: 0 13px;
+
+    font-size: 12px;
+  }
+
+  .bc-login-button {
+    margin-left: 8px;
+
+    padding: 0 15px;
+
+    font-size: 12px;
+  }
+}
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 868px) {
+  .bc-navbar-container {
+    height: 68px;
+
+    padding: 0 16px;
+  }
+
+  .bc-navbar-logo img {
+    height: 56px;
+  }
+
+  .bc-navbar-nav,
+  .bc-login-button {
+    display: none;
+  }
+
+  .bc-mobile-toggle {
+    display: flex;
+  }
+
+  /* MOBILE MENU */
+
+  .bc-mobile-menu {
+    display: flex;
+
+    flex-direction: column;
+
+    width: 100%;
+
+    padding: 10px 16px 18px;
+
+    background: #ffffff;
+
+    border-top: 1px solid rgba(3, 44, 123, 0.06);
+
+    box-shadow: 0 12px 25px rgba(3, 44, 123, 0.08);
+  }
+
+  .bc-mobile-menu > a,
+  .bc-mobile-menu > button {
+    width: 100%;
+
+    min-height: 46px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 0 12px;
+
+    color: var(--bc-text);
+
+    background: transparent;
+
+    border: 0;
+
+    border-radius: 9px;
+
+    font-family: inherit;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    text-decoration: none;
+
+    text-align: left;
+
+    cursor: pointer;
+  }
+
+  .bc-mobile-menu > a:hover,
+  .bc-mobile-menu > button:hover {
+    color: var(--bc-light-blue);
+
+    background: var(--bc-green);
+  }
+
+  /* MOBILE INICET */
+
+  .bc-mobile-menu > a:first-child {
+    color: #ffffff;
+
+    background: linear-gradient(90deg, #8cc7ff, #0464de);
+
+    margin-bottom: 5px;
+  }
+
+  /* MOBILE DROPDOWN */
+
+  .bc-mobile-dropdown {
+    display: flex;
+
+    flex-direction: column;
+
+    margin: 0 0 5px 10px;
+
+    padding-left: 10px;
+
+    border-left: 2px solid #effff4;
+  }
+
+  .bc-mobile-dropdown a {
+    min-height: 40px;
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 0 12px;
+
+    color: #3f3f3f;
+
+    font-size: 13px;
+
+    font-weight: 500;
+
+    text-decoration: none;
+
+    border-radius: 7px;
+  }
+
+  .bc-mobile-dropdown a:hover {
+    color: #0464de;
+
+    background: #effff4;
+  }
+
+  /* MOBILE LOGIN */
+
+  .bc-mobile-login {
+    justify-content: center !important;
+
+    margin-top: 10px;
+
+    color: #ffffff !important;
+
+    background: #ff732d !important;
+
+    border-radius: 9px !important;
+  }
+}
+
+/* =========================================================
+   SMALL MOBILE
+   ========================================================= */
+
+@media (max-width: 480px) {
+  .bc-navbar-container {
+    padding: 0 13px;
+  }
+
+  .bc-navbar-logo img {
+    height: 52px;
+  }
+
+  .bc-mobile-toggle {
+    width: 40px;
+    height: 40px;
+  }
+}
