@@ -60,52 +60,6 @@
 }
 
 /* =========================================================
-   EYEBROW
-   ========================================================= */
-
-.everything-eyebrow {
-  display: flex;
-  align-items: center;
-
-  width: fit-content;
-
-  margin-bottom: 18px;
-
-  color: #0464de;
-
-  font-size: 12px;
-  line-height: 1;
-
-  font-weight: 700;
-
-  letter-spacing: 1.8px;
-
-  text-transform: uppercase;
-}
-
-.everything-eyebrow-line {
-  display: block;
-
-  width: 32px;
-  height: 2px;
-
-  margin-right: 11px;
-
-  background: #ff732d;
-
-  border-radius: 20px;
-
-  transform-origin: left center;
-  transform: scaleX(0);
-
-  transition: transform 0.75s cubic-bezier(0.22, 1, 0.36, 1);
-}
-
-.everything-section-visible .everything-eyebrow-line {
-  transform: scaleX(1);
-}
-
-/* =========================================================
    MAIN HEADING
    ========================================================= */
 
@@ -536,20 +490,6 @@
 
   .everything-header {
     margin-bottom: 32px;
-  }
-
-  .everything-eyebrow {
-    margin-bottom: 15px;
-
-    font-size: 9px;
-
-    letter-spacing: 1.2px;
-  }
-
-  .everything-eyebrow-line {
-    width: 20px;
-
-    margin-right: 8px;
   }
 
   .everything-title {

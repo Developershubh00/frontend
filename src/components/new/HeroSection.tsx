@@ -80,8 +80,8 @@ const HeroSection = () => {
           <br />
           Your counselling decisions do.
           <br />
-          Helping medical aspirants make confident career decisions through:
           <br />
+          Helping medical aspirants make confident career decisions through:
           <br />
           <b>Genuine Mentorship | Transparent Guidance | Reliable Data</b>
         </p>
@@ -92,7 +92,7 @@ const HeroSection = () => {
           </a>
 
           <a href="#free-counselling" className="secondary-btn">
-            Book Free Counselling
+            Book 1:1 Counselling
           </a>
         </div>
       </div>

@@ -8,7 +8,7 @@
   --fcta-light-blue: #0464de;
   --fcta-orange: #ff732d;
   --fcta-text: #3f3f3f;
-  --fcta-green: #effff4;
+  --fcta-green: #ebf3fd;
 
   width: 100%;
   padding: 90px 20px;
@@ -55,7 +55,7 @@
 
   padding: 75px 40px;
 
-  background: #effff4;
+  background: #ebf3fd;
 
   border: 1px solid rgba(3, 44, 123, 0.08);
 

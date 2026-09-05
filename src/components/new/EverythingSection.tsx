@@ -50,12 +50,6 @@ const EverythingSection: React.FC = () => {
         ========================================= */}
 
         <header className="everything-header">
-          <div className="everything-eyebrow">
-            <span className="everything-eyebrow-line" />
-
-            <span>03. THE STUDENT’S REAL QUESTIONS</span>
-          </div>
-
           <h2 className="everything-title">
             After NEET PG, the questions begin…
           </h2>

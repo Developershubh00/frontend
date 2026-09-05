@@ -313,7 +313,7 @@
 }
 
 .bc-dropdown-menu a:hover {
-  background: var(--bc-green);
+  background: #ebf3fd;
 
   color: var(--bc-light-blue);
 }

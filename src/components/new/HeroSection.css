@@ -22,7 +22,7 @@
   margin: 0 0 24px;
   font-size: 72px;
   line-height: 1.05;
-  letter-spacing: -3px;
+  letter-spacing: -1px;
   font-weight: 700;
   color: #032c7b;
 }
@@ -32,7 +32,7 @@
   font-size: 32px;
   line-height: 1.2;
   font-weight: 700;
-  color: #0464de;
+  color: #032c7b;
 }
 
 .hero-content p {

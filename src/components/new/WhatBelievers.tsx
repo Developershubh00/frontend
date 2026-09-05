@@ -106,8 +106,11 @@ export default function WhatBelievers() {
             ===================================================== */}
 
         <div className="what-believers__header">
+          {/* ORANGE LINE ABOVE EYEBROW */}
           <div className="what-believers__eyebrow">
+            <span className="what-believers__eyebrow-line-top"></span>
             WHAT BELIEVERS HELPS YOU DO
+            <span className="what-believers__eyebrow-line-top"></span>
           </div>
 
           <h2 className="what-believers__heading">
