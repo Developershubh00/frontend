@@ -20,29 +20,29 @@ const HeroSection = () => {
           duration: 1,
         })
         .from(
-          ".hero-content h3",
+          ".hero-content h2",
           {
             opacity: 0,
-            y: 35,
+            y: 40,
             duration: 0.8,
           },
-          "-=0.5",
-        )
-        .from(
-          ".hero-content h4",
-          {
-            opacity: 0,
-            y: 35,
-            duration: 0.8,
-          },
-          "-=0.45",
+          "-=0.55",
         )
         .from(
           ".hero-content p",
           {
             opacity: 0,
-            y: 30,
-            duration: 0.8,
+            y: 35,
+            duration: 0.9,
+          },
+          "-=0.45",
+        )
+        .from(
+          ".hero-content p b",
+          {
+            opacity: 0,
+            y: 20,
+            duration: 0.7,
           },
           "-=0.45",
         )
@@ -50,10 +50,10 @@ const HeroSection = () => {
           ".hero-actions",
           {
             opacity: 0,
-            y: 25,
-            duration: 0.7,
+            y: 30,
+            duration: 0.8,
           },
-          "-=0.4",
+          "-=0.35",
         );
     }, heroRef);
 
@@ -92,7 +92,7 @@ const HeroSection = () => {
           </a>
 
           <a href="#free-counselling" className="secondary-btn">
-            Book 1:1 Counselling
+            Book Free Counselling
           </a>
         </div>
       </div>

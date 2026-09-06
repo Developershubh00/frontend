@@ -28,6 +28,7 @@ export default function FreeResourcesSection() {
             <p className="fr-section__eyebrow">
               <span aria-hidden="true" />
               FREE RESOURCES
+              <span aria-hidden="true" />
             </p>
             <h2 id="free-resources-title">
               Everything You Need Before Counselling Begins.

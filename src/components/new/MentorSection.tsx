@@ -93,21 +93,13 @@ const MentorSection = () => {
 
           <div className="mentor-bottom">
             <p className="mentor-bottom-intro">
-              Along with our experienced career
-              <br />
-              counselling team.
+              Along with our experienced career counselling team.
             </p>
 
             <div className="mentor-statements">
               <p>People who understand the journey.</p>
-
               <p>People who understand the choices.</p>
-
-              <p>
-                People who genuinely care about
-                <br />
-                getting them right.
-              </p>
+              <p>People who genuinely care about getting them right.</p>
             </div>
           </div>
         </div>

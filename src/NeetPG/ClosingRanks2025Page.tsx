@@ -530,9 +530,7 @@ const ClosingRanks2025Page: React.FC<ClosingRanks2025PageProps> = ({
 
         {dataError && (
           <div className="bg-amber-50 border-b border-amber-200 px-4 py-2 text-xs text-amber-700 text-center">
-            ⚠️ Data not yet available. Add{" "}
-            <code>/data/neetPgData/neetpg_2025_closing_rank.csv</code> to enable
-            this page.
+            ⚠️ Data not found. Check the data Place.
           </div>
         )}
 
@@ -759,8 +757,8 @@ const ClosingRanks2025Page: React.FC<ClosingRanks2025PageProps> = ({
                     className="px-6 py-12 text-center text-gray-500"
                   >
                     {dataError
-                      ? "CSV not found — add /data/neetPgData/neetpg_2025_closing_rank.csv to enable."
-                      : "No data found. Try adjusting your filters."}
+                      ? "Unable to load the data. Please refresh the page and try again."
+                      : "No records found for the selected filters."}
                   </td>
                 </tr>
               ) : (

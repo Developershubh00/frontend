@@ -316,14 +316,11 @@
 ========================================= */
 
 .mentor-bottom-intro {
-  margin: 0 0 28px;
-
-  font-size: 24px;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color: #3f3f3f;
-
+  margin-bottom: 1rem;
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #0464de;
   text-align: center;
 }
 
@@ -394,10 +391,6 @@
   .mentor-image-wrap {
     height: 340px;
   }
-
-  .mentor-bottom-intro {
-    font-size: 21px;
-  }
 }
 
 /* =========================================
@@ -449,7 +442,7 @@
   }
 
   .mentor-bottom-intro {
-    font-size: 20px;
+    font-size: 24px;
   }
 
   .mentor-statements p {
@@ -538,17 +531,6 @@
 
     align-items: center;
     justify-content: center;
-
-    text-align: center;
-  }
-
-  .mentor-bottom-intro {
-    width: 100%;
-
-    margin: 0 0 25px;
-
-    font-size: 19px;
-    line-height: 1.5;
 
     text-align: center;
   }

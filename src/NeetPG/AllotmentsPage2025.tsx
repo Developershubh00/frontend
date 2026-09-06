@@ -419,10 +419,7 @@ const AllotmentsPage2025: React.FC<AllotmentsPage2025Props> = ({ onBack }) => {
             {apiError ? (
               <span> {apiError}</span>
             ) : (
-              <span>
-                Add <code>/public/data/allotments2025.csv</code> to enable this
-                page.
-              </span>
+              <span>⚠️ Data not found. Check the data Place.</span>
             )}
           </div>
         )}
@@ -639,8 +636,8 @@ const AllotmentsPage2025: React.FC<AllotmentsPage2025Props> = ({ onBack }) => {
                     className="px-6 py-12 text-center text-gray-500"
                   >
                     {dataError
-                      ? "2025 CSV not found — add /public/data/allotments2025.csv to enable this page."
-                      : "No data found. Try adjusting your filters."}
+                      ? "Unable to load the data. Please refresh the page and try again."
+                      : "No records found for the selected filters."}
                   </td>
                 </tr>
               ) : (

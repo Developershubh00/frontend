@@ -41,6 +41,12 @@
   content: "";
   background: var(--cfs-orange);
 }
+.college-finder-section__eyebrow::after {
+  width: 29px;
+  height: 2px;
+  content: "";
+  background: var(--cfs-orange);
+}
 .college-finder-section h2 {
   margin: 0;
   color: var(--cfs-navy);

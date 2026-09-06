@@ -24,7 +24,7 @@
   line-height: 1.05;
   letter-spacing: -1px;
   font-weight: 700;
-  color: #032c7b;
+  color: #ff732d;
 }
 
 .hero-content h2 {
@@ -96,7 +96,7 @@
   transform: translateY(-3px);
 }
 
-/* ============================   Responsive ================================ */
+/* -------------------------- Responsive Style --------------------------- */
 
 @media (max-width: 1024px) {
   .hero-content {

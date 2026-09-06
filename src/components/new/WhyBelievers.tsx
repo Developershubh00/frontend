@@ -25,6 +25,7 @@ export default function WhyBelievers() {
           <p className="wb-eyebrow">
             <span className="wb-eyebrow-line" />
             WHY BELIEVERS
+            <span className="wb-eyebrow-line" />
           </p>
           <h1 className="wb-title" id="why-believers-title">
             Medical Career Decisions Need More Than Data.

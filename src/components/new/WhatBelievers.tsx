@@ -114,8 +114,7 @@ export default function WhatBelievers() {
           </div>
 
           <h2 className="what-believers__heading">
-            <span>From</span>
-            <strong>Rank to the Right Decision.</strong>
+            From Rank to the Right Decision.
           </h2>
         </div>
 
