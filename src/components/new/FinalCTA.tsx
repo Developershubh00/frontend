@@ -45,7 +45,7 @@ const FinalCTA: React.FC = () => {
               className="fcta-button"
               aria-label="Book Your Free Counselling"
             >
-              <span>Book Your Free Counselling</span>
+              <span>Book Your 1:1 Counselling</span>
 
               <span className="fcta-arrow">
                 <ArrowRight size={18} strokeWidth={2.2} />

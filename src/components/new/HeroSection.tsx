@@ -87,12 +87,12 @@ const HeroSection = () => {
         </p>
 
         <div className="hero-actions">
-          <a href="#predict-college" className="primary-btn">
+          <a href="#" className="primary-btn">
             Predict My College
           </a>
 
-          <a href="#free-counselling" className="secondary-btn">
-            Book Free Counselling
+          <a href="#" className="secondary-btn">
+            Book 1:1 Counselling
           </a>
         </div>
       </div>
