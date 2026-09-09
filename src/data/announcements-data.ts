@@ -1835,6 +1835,19 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "The Times of India",
     created_at: "2026-08-31",
   },
+  {
+    id: 139,
+    title: "NEET PG 2026",
+    content:
+      "NEET PG 2026 Answer Key Expected Soon; NBEMS Likely to Release Provisional Key and Response Sheet",
+    date: "2026-09-09",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://www.ndtv.com/education/neet-pg-2026-answer-key-expected-soon-heres-what-candidates-to-know-12023311",
+    is_active: true,
+    source: "NDTV Education",
+    created_at: "2026-09-09",
+  },
 ];
 
 /**
