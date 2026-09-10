@@ -225,13 +225,13 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
       id: 4,
       date: "August 27, 2026",
       event: "Admit Card Release",
-      status: "upcoming",
+      isHighlight: true,
     },
     {
       id: 5,
       date: "August 30, 2026",
       event: "NEET PG 2026 Exam",
-      status: "upcoming",
+      isHighlight: true,
     },
     {
       id: 6,

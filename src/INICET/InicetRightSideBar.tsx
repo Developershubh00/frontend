@@ -72,8 +72,7 @@ const InicetRightSideBar: React.FC<InicetRightSideBarProps> = ({
       id: 7,
       date: "November–December 2025",
       event: "Counselling & Seat Allotment",
-      status: "upcoming",
-      isHighlight: true,
+      status: "completed",
     },
   ];
   const pdfUrl = "https://example.com/neet-pg-counselling-schedule.pdf"; // Replace with actual PDF URL
@@ -153,8 +152,8 @@ const InicetRightSideBar: React.FC<InicetRightSideBarProps> = ({
                       item.status === "completed"
                         ? "text-slate-600"
                         : item.isHighlight
-                        ? "text-blue-900"
-                        : "text-slate-800"
+                          ? "text-blue-900"
+                          : "text-slate-800"
                     }`}
                   >
                     {item.event}
@@ -164,8 +163,8 @@ const InicetRightSideBar: React.FC<InicetRightSideBarProps> = ({
                       item.status === "completed"
                         ? "text-slate-400"
                         : item.isHighlight
-                        ? "text-blue-700"
-                        : "text-slate-500"
+                          ? "text-blue-700"
+                          : "text-slate-500"
                     }`}
                   >
                     {item.date}
