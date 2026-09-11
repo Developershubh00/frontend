@@ -83777,6 +83777,315 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    id: 205,
+    title: "NEET PG 2026 Result Date: When Can You Expect Your Scorecard?",
+    slug: "neet-pg-2026-result-date-when-can-you-expect-your-scorecard",
+    excerpt:
+      "NEET PG 2026 result date, expected timeline, and scorecard details explained with key updates to help aspirants plan their next steps after results.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/48989133/file/9d46af1fb1552927bfe4b18a00b3e913.jpg",
+    featured_image_alt: "neet pg 2026 result date scorecard details",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+    },
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
+    },
+    tags: [
+      "NEET PG",
+      "NEET PG 2026",
+      "NEET PG Result",
+      "NEET PG Scorecard",
+      "Medical Entrance Exam",
+    ],
+    published_date: "2026-09-11",
+    read_time: 5,
+    meta_title:
+      "NEET PG 2026 Result Date: Expected Timeline and Scorecard Details",
+    meta_description:
+      "NEET PG 2026 result date, expected timeline, and scorecard details explained with key updates to help aspirants plan their next steps after results.",
+    keywords: [
+      "neet pg 2026",
+      "neet pg",
+      "neet pg result date",
+      "neet pg exam",
+      "neet pg examination",
+      "neet pg results",
+      "neet pg counselling process",
+      "medical entrance exam",
+      "neet pg preparation",
+      "neet pg entrance exam",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content:
+          "So the exam's finally over. And now you're sitting around wondering when you'll actually get your result.",
+      },
+      {
+        id: "intro-para2",
+        type: "paragraph",
+        content:
+          "You've been prepping for months. Studied constantly. Took a bunch of practice tests. Dealt with exam day jitters. Now you just want to know your score and rank so you can figure out what's next.",
+      },
+      {
+        id: "intro-conclusion",
+        type: "paragraph",
+        content:
+          'NBEMS says the result comes by September 30, 2026. But they haven\'t said exactly when. Just "by" that date.',
+      },
+      {
+        id: "timeline",
+        type: "heading",
+        title: "What's Actually Going On With the Timeline",
+        level: 2,
+      },
+      {
+        id: "timeline-para1",
+        type: "paragraph",
+        content:
+          "The exam was August 30, 2026. Pretty straightforward. But here's the thing: NBEMS had to reschedule a re-exam for some candidates whose test got messed up at two centers in Jaipur. That re-exam is happening September 5.",
+      },
+      {
+        id: "timeline-para2",
+        type: "paragraph",
+        content:
+          "So don't believe random people on social media claiming they know when the result's coming. Wait for NBEMS to actually announce it.",
+      },
+      {
+        id: "timeline-table",
+        type: "table",
+        headers: ["Event", "Date"],
+        rows: [
+          ["Exam", "August 30, 2026"],
+          ["Re-exam", "September 5, 2026"],
+          ["Result", "Sometime by September 30, 2026"],
+          ["Exact date", "Still waiting"],
+        ],
+      },
+      {
+        id: "earlier",
+        type: "heading",
+        title: "Could It Come Earlier?",
+        level: 2,
+      },
+      {
+        id: "earlier-para1",
+        type: "paragraph",
+        content:
+          "Maybe. September 30 is the deadline they gave, not necessarily the actual date. Sometimes results come out earlier than the deadline. Sometimes they don't.",
+      },
+      {
+        id: "earlier-conclusion",
+        type: "paragraph",
+        content:
+          "But the re-exam complicates things. NBEMS has to finish testing those candidates first before they can finalize all the results.",
+      },
+      {
+        id: "between-now-then",
+        type: "heading",
+        title: "What Happens Between Now and Then",
+        level: 2,
+      },
+      {
+        id: "between-para1",
+        type: "paragraph",
+        content:
+          "NBEMS usually puts out a provisional answer key. You get to look at it and object if something doesn't seem right. That at least lets you get a rough idea of how you did.",
+      },
+      {
+        id: "between-conclusion",
+        type: "paragraph",
+        content:
+          "But here's the thing: any score you calculate yourself is just a guess. The real deal comes when NBEMS actually releases your official score and rank.",
+      },
+      {
+        id: "how-to-get",
+        type: "heading",
+        title: "How to Get Your Result",
+        level: 2,
+      },
+      {
+        id: "how-to-para1",
+        type: "paragraph",
+        content:
+          "When the result finally drops, go to the official NBEMS website. That's it. That's where you get it.",
+      },
+      {
+        id: "how-to-para2",
+        type: "paragraph",
+        content: "Steps:",
+      },
+      {
+        id: "how-to-list",
+        type: "list",
+        items: [
+          "Go to NBEMS official website",
+          "Find NEET PG section",
+          "Look for the result notification",
+          "Click the link",
+          "Log in if needed",
+          "Download your scorecard",
+          "Save it for counselling",
+        ],
+      },
+      {
+        id: "how-to-conclusion",
+        type: "paragraph",
+        content: "Skip the unofficial websites. They're useless.",
+      },
+      {
+        id: "what-you-get",
+        type: "heading",
+        title: "What You Actually Get in the Result",
+        level: 2,
+      },
+      {
+        id: "what-you-get-para1",
+        type: "paragraph",
+        content:
+          "Your result shows your score. Your rank. Whether you qualified. Where you stand for admissions. Once you have this, start thinking about counselling. Your rank matters now.",
+      },
+      {
+        id: "what-you-get-conclusion",
+        type: "paragraph",
+        content:
+          "From here you need to figure out your options. What specialties you want. What colleges you're interested in. What seats might be available. Plan your choices carefully.",
+      },
+      {
+        id: "stop-obsessing",
+        type: "heading",
+        title: "Stop Obsessing While You Wait",
+        level: 2,
+      },
+      {
+        id: "stop-obsessing-para1",
+        type: "paragraph",
+        content:
+          "Waiting sucks. Sometimes it feels harder than the actual exam. You start comparing answers with friends. Recalculating your score every day. Watching YouTube videos about rank predictions. Checking expected cutoffs constantly.",
+      },
+      {
+        id: "stop-obsessing-para2",
+        type: "paragraph",
+        content:
+          "Just stop. The exam's done. You can't change anything now. NBEMS has your answer sheet. That's it.",
+      },
+      {
+        id: "stop-obsessing-conclusion",
+        type: "paragraph",
+        content:
+          "Use this waiting time to actually think about what comes next instead. If you're pretty sure you did okay, start looking at specialties and colleges you actually want. If you're not confident, keep your options open. Don't bet your entire future on a score you predicted. You might be wrong.",
+      },
+      {
+        id: "planning-counselling",
+        type: "heading",
+        title: "Start Planning for Counselling",
+        level: 2,
+      },
+      {
+        id: "planning-para1",
+        type: "paragraph",
+        content:
+          "The result is just the start of the next thing. Once you get your rank, you'll make decisions based on what you scored, your category, what you prefer, what seats exist, and what closed last year.",
+      },
+      {
+        id: "planning-para2",
+        type: "paragraph",
+        content:
+          "If you know how counselling works before the result comes out, you won't make dumb decisions later. Make a list now:",
+      },
+      {
+        id: "planning-list",
+        type: "list",
+        items: [
+          "Specialties you actually care about",
+          "Colleges you'd be happy at",
+          "Backup options",
+          "Last year's closing ranks",
+          "Government colleges",
+          "Private colleges",
+          "Deemed universities",
+        ],
+      },
+      {
+        id: "real-deal",
+        type: "heading",
+        title: "The Real Deal",
+        level: 2,
+      },
+      {
+        id: "real-deal-para1",
+        type: "paragraph",
+        content:
+          "When's the NEET PG result coming? By September 30, 2026. That's all we know for sure.",
+      },
+      {
+        id: "real-deal-para2",
+        type: "paragraph",
+        content:
+          "Stop stressing about the result. The exam's finished. Nothing changes that now.",
+      },
+      {
+        id: "real-deal-conclusion",
+        type: "paragraph",
+        content:
+          "Wait for NBEMS to make the official announcement. Get your counselling strategy ready. Understand that the result isn't the end. It's where everything actually starts.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "When's the NEET PG 2026 result coming?",
+            answer: "By September 30, 2026. Exact date to be announced.",
+          },
+          {
+            question: "Can I trust unofficial websites for the result?",
+            answer: "No. Only check the official NBEMS site.",
+          },
+          {
+            question: "Can I disagree with the answer key?",
+            answer:
+              "Yeah. NBEMS shows the answers before finalizing your result. You can object if you think they got something wrong. They check objections and fix mistakes.",
+          },
+          {
+            question: "Should I keep calculating my rank while waiting?",
+            answer: "No. It's just a guess anyway.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "neet pg 2026",
+          "neet pg",
+          "neet pg result date",
+          "neet pg exam",
+          "neet pg examination",
+          "neet pg results",
+          "neet pg counselling process",
+          "medical entrance exam",
+          "neet pg preparation",
+          "neet pg entrance exam",
+        ],
+      },
+    ],
+  },
 ];
 
 // Helper function to get blog by slug

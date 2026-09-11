@@ -1848,6 +1848,32 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "NDTV Education",
     created_at: "2026-09-09",
   },
+  {
+    id: 140,
+    title: "FMGE",
+    content:
+      "FMGE October 2026 Registration Begins: NBEMS Releases Application Dates, Exam Schedule and Result Timeline",
+    date: "2026-09-09",
+    priority: "high",
+    category: "FMGE",
+    link: "https://natboard.edu.in/",
+    is_active: true,
+    source: "NBEMS",
+    created_at: "2026-09-10",
+  },
+  {
+    id: 141,
+    title: "NEET PG 2026",
+    content:
+      "NEET PG 2026 Answer Key Expected Soon: NBEMS to Release Answer Key and Response Sheet; Check Download Details",
+    date: "2026-09-11",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://indianexpress.com/article/education/neet-pg-answer-key-2026-live-updates-nbems-to-upload-response-sheet-answers-soon-at-nbe-edu-in-check-how-to-download-10869440",
+    is_active: true,
+    source: "The Indian Express",
+    created_at: "2026-09-11",
+  },
 ];
 
 /**

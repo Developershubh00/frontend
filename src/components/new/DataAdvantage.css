@@ -8,7 +8,7 @@
   min-height: 100vh;
   overflow: hidden;
   background: #ffffff;
-  color: #082d6b;
+  color: #032c7b;
   padding: 80px 0 80px;
 }
 
@@ -89,7 +89,7 @@
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: #0967df;
+  background: #0464de;
   opacity: 0.2;
   pointer-events: none;
   z-index: 1;
@@ -140,14 +140,14 @@
   line-height: 1.05;
   font-weight: 800;
   letter-spacing: -2.5px;
-  color: #07367f;
+  color: #032c7b;
 }
 
 .data-heading-highlight {
   display: inline-block;
   margin-left: 14px;
 
-  color: #0769e6;
+  color: #0464de;
 }
 
 /* Subheading */
@@ -205,7 +205,7 @@
 
   border-radius: 50%;
 
-  background: #0769e6;
+  background: #0464de;
   color: #ffffff;
 
   font-size: 14px;
@@ -312,7 +312,7 @@
   font-size: 13px;
   font-weight: 700;
 
-  color: #0769e6;
+  color: #0464de;
 }
 
 /* Card dot */
@@ -327,7 +327,7 @@
 
   border-radius: 50%;
 
-  background: #0769e6;
+  background: #0464de;
 
   box-shadow: 0 0 0 5px rgba(7, 105, 230, 0.08);
 }
@@ -381,7 +381,7 @@
 
   border-radius: 10px;
 
-  background: linear-gradient(to bottom, #0769e6, #0b4da5);
+  background: linear-gradient(to bottom, #0464de, #0b4da5);
 }
 
 /* Content */
@@ -443,7 +443,7 @@
   border: none;
   border-radius: 50px;
 
-  background: #0769e6;
+  background: #0464de;
   color: #ffffff;
 
   font-family: inherit;
