@@ -84086,6 +84086,380 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    id: 206,
+    title:
+      "NEET PG 2026: Your Result Is Coming, But Is Your Counselling Strategy Ready?",
+    slug: "neet-pg-2026-your-result-is-coming-but-is-your-counselling-strategy-ready",
+    excerpt:
+      "NEET PG 2026 results are near. Prepare your counselling strategy now and take the next step toward your desired medical seat.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/49012462/file/ccd0ce1c1e9015f4f39733922bac5008.jpg",
+    featured_image_alt: "neet pg 2026 counselling strategy result",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+    },
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
+    },
+    tags: [
+      "NEET PG",
+      "NEET PG 2026",
+      "NEET PG Counselling",
+      "NEET PG Result",
+      "PG Medical Counselling",
+    ],
+    published_date: "2026-09-14",
+    read_time: 6,
+    meta_title:
+      "NEET PG 2026 Results: Prepare Your Counselling Strategy Before the Result",
+    meta_description:
+      "NEET PG 2026 results are near. Prepare your counselling strategy now and take the next step toward your desired medical seat.",
+    keywords: [
+      "neet pg 2026",
+      "neet pg",
+      "neet pg exam",
+      "neet pg counselling",
+      "neet pg counselling process",
+      "neet pg result",
+      "neet pg preparation",
+      "best for neet pg preparation",
+      "career counselling neet pg",
+      "counselling process of neet pg",
+      "neet pg seat allotment",
+      "neet pg choice filling",
+      "neet pg counselling choice filling",
+      "neet pg medical counselling",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content: "The exam's done. Now you're waiting for your result.",
+      },
+      {
+        id: "intro-para2",
+        type: "paragraph",
+        content:
+          "But here's what most students don't think about: while you're checking your phone every five minutes for the result, counselling is about to hit. And it moves fast.",
+      },
+      {
+        id: "intro-para3",
+        type: "paragraph",
+        content:
+          "A lot of people don't start thinking about counselling until after the result drops. By then it's too late. Everything's moving quickly. You're scrambling to understand your options. Gathering documents. Figuring out what to pick.",
+      },
+      {
+        id: "intro-conclusion",
+        type: "paragraph",
+        content:
+          "So instead of obsessing over when the result comes, use this waiting time to actually prepare for counselling. You don't even need your rank to start.",
+      },
+      {
+        id: "what-you-can-do",
+        type: "heading",
+        title: "What You Can Do Right Now",
+        level: 2,
+      },
+      {
+        id: "what-you-can-do-para1",
+        type: "paragraph",
+        content:
+          "You don't need to know your exact rank to start getting ready. Actually, now's the perfect time.",
+      },
+      {
+        id: "get-documents",
+        type: "heading",
+        title: "1. Get Your Documents Organized",
+        level: 3,
+      },
+      {
+        id: "get-documents-para1",
+        type: "paragraph",
+        content:
+          "Start pulling together everything you might need for counselling.",
+      },
+      {
+        id: "get-documents-list",
+        type: "list",
+        items: [
+          "Certificates",
+          "Educational records",
+          "Identity proof",
+          "Caste certificate if applicable",
+          "Medical fitness documents",
+        ],
+      },
+      {
+        id: "get-documents-conclusion",
+        type: "paragraph",
+        content:
+          "Keep copies both physical and digital. Make sure everything's filled out correctly. Dates are right. Nothing's expired. Requirements vary depending on your category and which counselling you're doing. Check the official counselling authority's latest instructions. Don't guess.",
+      },
+      {
+        id: "understand-options",
+        type: "heading",
+        title: "2. Actually Understand Your Counselling Options",
+        level: 3,
+      },
+      {
+        id: "understand-para1",
+        type: "paragraph",
+        content:
+          "Counselling isn't just filling out a form with college names. You need to know what counselling you're eligible for. What seats you can actually get.",
+      },
+      {
+        id: "understand-para2",
+        type: "paragraph",
+        content:
+          "MCC handles All India Quota seats. State authorities handle state-specific stuff. Then there's deemed universities. Government colleges. Private colleges. Understand the differences between:",
+      },
+      {
+        id: "understand-list",
+        type: "list",
+        items: [
+          "All India counselling",
+          "State counselling",
+          "Deemed university options",
+          "Government and private medical colleges",
+          "Different seat categories and quotas",
+        ],
+      },
+      {
+        id: "understand-conclusion",
+        type: "paragraph",
+        content:
+          "Knowing this now makes everything easier when your rank comes out.",
+      },
+      {
+        id: "college-branch-list",
+        type: "heading",
+        title: "3. Make a College and Branch List",
+        level: 3,
+      },
+      {
+        id: "college-branch-para1",
+        type: "paragraph",
+        content:
+          "This matters more than you think. Don't just pick colleges because they sound famous. Think about what actually matters to you:",
+      },
+      {
+        id: "college-branch-list",
+        type: "list",
+        items: [
+          "What branch do you want?",
+          "Where do you want to study?",
+          "Government college or private?",
+          "Can you afford it?",
+          "Do they have lots of patients to learn from?",
+          "Is the academic environment good?",
+          "What bonds do they have?",
+          "How much does living there cost?",
+          "Where do you see your career going?",
+        ],
+      },
+      {
+        id: "college-branch-conclusion",
+        type: "paragraph",
+        content:
+          "Make three lists: dream colleges, realistic colleges, backup colleges. You'll adjust this once you know your rank. But having it thought through now saves time.",
+      },
+      {
+        id: "last-year-data",
+        type: "heading",
+        title: "4. Look at Last Year's Data",
+        level: 3,
+      },
+      {
+        id: "last-year-para1",
+        type: "paragraph",
+        content:
+          "Previous year data shows you what's possible. Check closing ranks. See which seats were available. Watch how colleges and branches moved.",
+      },
+      {
+        id: "last-year-conclusion",
+        type: "paragraph",
+        content:
+          "But don't treat last year's closing rank as a prediction for this year. Things change. Seat availability changes. What candidates prefer changes. Everything shifts. The point isn't to guess your exact college. It's to understand what's possible for your rank range.",
+      },
+      {
+        id: "after-result",
+        type: "heading",
+        title: "After the Result Comes Out",
+        level: 2,
+      },
+      {
+        id: "after-result-para1",
+        type: "paragraph",
+        content: "Once you get your rank, the real counselling starts.",
+      },
+      {
+        id: "analyze-rank",
+        type: "heading",
+        title: "5. Actually Analyze Your Rank",
+        level: 3,
+      },
+      {
+        id: "analyze-para1",
+        type: "paragraph",
+        content:
+          "Don't start filling choices the second you see your rank. First figure out:",
+      },
+      {
+        id: "analyze-list",
+        type: "list",
+        items: [
+          "Your rank",
+          "Your category",
+          "Your state",
+          "What you're eligible for",
+          "What branch you want",
+          "Your budget",
+        ],
+      },
+      {
+        id: "analyze-conclusion",
+        type: "paragraph",
+        content:
+          "Then compare this with what seats are available and what happened last year. This gives you a realistic preference list. Not just random colleges.",
+      },
+      {
+        id: "dont-copy",
+        type: "heading",
+        title: "6. Don't Copy Someone Else's List",
+        level: 3,
+      },
+      {
+        id: "dont-copy-para1",
+        type: "paragraph",
+        content:
+          "Your friend's preference list works for them. Probably won't work for you. Two people with the same rank want completely different things. One cares about the specialty. Another cares about location. Someone else cares about fees.",
+      },
+      {
+        id: "dont-copy-conclusion",
+        type: "paragraph",
+        content:
+          "Your list should match what you actually want. Not what someone else picked.",
+      },
+      {
+        id: "official-updates",
+        type: "heading",
+        title: "7. Keep Watching Official Updates",
+        level: 3,
+      },
+      {
+        id: "official-para1",
+        type: "paragraph",
+        content:
+          "Counselling schedules change. Seat matrices change. Rules change. MCC updates their stuff regularly on the official website. Check there.",
+      },
+      {
+        id: "official-conclusion",
+        type: "paragraph",
+        content:
+          "Don't rely on WhatsApp groups. Don't trust random Telegram messages. Don't believe what you see on social media. Use the official notifications to verify anything important.",
+      },
+      {
+        id: "waiting-matters",
+        type: "heading",
+        title: "The Waiting Time Actually Matters",
+        level: 2,
+      },
+      {
+        id: "waiting-para1",
+        type: "paragraph",
+        content:
+          "The gap between the exam and the result feels stressful. But it's actually useful. Instead of sitting around calculating your predicted rank for the millionth time, use this time productively.",
+      },
+      {
+        id: "waiting-conclusion",
+        type: "paragraph",
+        content:
+          "Organize your documents. Research colleges. Understand how counselling works. Build a preliminary preference list. By the time the result comes out, you're ready. You're not starting from scratch.",
+      },
+      {
+        id: "final-takeaway",
+        type: "heading",
+        title: "Final Takeaway",
+        level: 2,
+      },
+      {
+        id: "final-takeaway-para1",
+        type: "paragraph",
+        content:
+          "NEET PG prep doesn't end when the exam ends. Counselling comes next. And it's important.",
+      },
+      {
+        id: "final-takeaway-para2",
+        type: "paragraph",
+        content:
+          "Start early. Know your options. Research colleges. Get your documents ready. Make your preference list.",
+      },
+      {
+        id: "final-takeaway-conclusion",
+        type: "paragraph",
+        content:
+          "Your rank tells you where you stand. A smart strategy tells you where to go next. For official stuff, check the MCC PG Medical Counselling portal.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "Do I need my rank to start counselling preparation?",
+            answer:
+              "No. Start organizing documents and researching colleges now.",
+          },
+          {
+            question: "Can I use last year's closing ranks to predict mine?",
+            answer:
+              "Use them as a guide, not as a guarantee. Things change every year.",
+          },
+          {
+            question: "Should I follow my friend's preference list?",
+            answer: "No. Your priorities are different. Make your own list.",
+          },
+          {
+            question: "Where do I get official counselling updates?",
+            answer:
+              "Check the MCC PG Medical Counselling portal. Don't trust social media.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "neet pg 2026",
+          "neet pg",
+          "neet pg exam",
+          "neet pg counselling",
+          "neet pg counselling process",
+          "neet pg result",
+          "neet pg preparation",
+          "best for neet pg preparation",
+          "career counselling neet pg",
+          "counselling process of neet pg",
+          "neet pg seat allotment",
+          "neet pg choice filling",
+          "neet pg counselling choice filling",
+          "neet pg medical counselling",
+        ],
+      },
+    ],
+  },
 ];
 
 // Helper function to get blog by slug
