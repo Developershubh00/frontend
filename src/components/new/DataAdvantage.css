@@ -1,7 +1,3 @@
-/* =========================================
-   DATA ADVANTAGE SECTION
-========================================= */
-
 .data-advantage {
   position: relative;
   width: 100%;
@@ -12,38 +8,26 @@
   padding: 80px 0 80px;
 }
 
-/* =========================================
-   BACKGROUND GRID
-========================================= */
-
 .data-bg-grid {
   position: absolute;
   inset: 0;
   pointer-events: none;
   z-index: 0;
-
   background-image:
     linear-gradient(rgba(10, 77, 160, 0.045) 1px, transparent 1px),
     linear-gradient(90deg, rgba(10, 77, 160, 0.045) 1px, transparent 1px);
-
   background-size: 55px 55px;
-
   mask-image: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.9),
     rgba(0, 0, 0, 0.25)
   );
-
   -webkit-mask-image: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.9),
     rgba(0, 0, 0, 0.25)
   );
 }
-
-/* =========================================
-   DECORATIVE ORBS
-========================================= */
 
 .data-orb {
   position: absolute;
@@ -57,7 +41,6 @@
   height: 280px;
   top: 8%;
   left: -160px;
-
   background: radial-gradient(
     circle,
     rgba(0, 103, 255, 0.09) 0%,
@@ -71,7 +54,6 @@
   height: 360px;
   right: -200px;
   top: 42%;
-
   background: radial-gradient(
     circle,
     rgba(0, 103, 255, 0.08) 0%,
@@ -79,10 +61,6 @@
     transparent 72%
   );
 }
-
-/* =========================================
-   DECORATIVE DOTS
-========================================= */
 
 .data-dot-decoration {
   position: absolute;
@@ -110,21 +88,12 @@
   left: 13%;
 }
 
-/* =========================================
-   MAIN WRAPPER
-========================================= */
-
 .data-wrapper {
   position: relative;
   z-index: 2;
-
   width: min(1400px, calc(100% - 48px));
   margin: 0 auto;
 }
-
-/* =========================================
-   HEADER
-========================================= */
 
 .data-header {
   text-align: center;
@@ -132,25 +101,19 @@
   margin: 0 auto;
 }
 
-/* Main heading */
-
 .data-heading {
-  margin: 0;
   font-size: 38px;
-  line-height: 1.05;
-  font-weight: 800;
-  letter-spacing: -2.5px;
+  font-weight: 700;
+  letter-spacing: -0.8px;
+  line-height: 1.2;
   color: #032c7b;
 }
 
 .data-heading-highlight {
   display: inline-block;
   margin-left: 14px;
-
   color: #0464de;
 }
-
-/* Subheading */
 
 .data-subheading {
   margin: 28px 0 0;
@@ -158,40 +121,27 @@
   line-height: 1.2;
   font-weight: 700;
   letter-spacing: -0.6px;
-
-  color: #0868df;
+  color: #0464de;
 }
-
-/* Intro text */
 
 .data-intro {
   margin: 24px auto 0;
-
   max-width: 650px;
-
   font-size: 17px;
   line-height: 1.8;
   font-weight: 400;
-
   color: #475569;
 }
-
-/* =========================================
-   ANALYSIS SECTION
-========================================= */
 
 .analysis-section {
   margin-top: 105px;
 }
-
-/* Analysis heading */
 
 .analysis-heading {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 14px;
-
   margin-bottom: 48px;
 }
 
@@ -199,15 +149,11 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-
   width: 42px;
   height: 42px;
-
   border-radius: 50%;
-
   background: #0464de;
   color: #ffffff;
-
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.5px;
@@ -216,12 +162,8 @@
 .analysis-heading-text {
   font-size: 27px;
   font-weight: 700;
-  color: #092f6d;
+  color: #032c7b;
 }
-
-/* =========================================
-   ANALYSIS LAYOUT
-========================================= */
 
 .analysis-layout {
   position: relative;
@@ -229,20 +171,14 @@
   margin: 0 auto;
 }
 
-/* Center vertical line */
-
 .analysis-line {
   position: absolute;
-
   top: 0;
   bottom: 0;
   left: 50%;
-
   width: 2px;
-
   transform-origin: top center;
   transform: translateX(-50%);
-
   background: linear-gradient(
     to bottom,
     rgba(7, 105, 230, 0),
@@ -250,13 +186,8 @@
     rgba(7, 105, 230, 0.3) 90%,
     rgba(7, 105, 230, 0)
   );
-
   pointer-events: none;
 }
-
-/* =========================================
-   ANALYSIS GRID
-========================================= */
 
 .analysis-grid {
   display: grid;
@@ -264,28 +195,18 @@
   gap: 18px 70px;
 }
 
-/* =========================================
-   ANALYSIS CARD
-========================================= */
-
 .analysis-card {
   position: relative;
-
   display: flex;
   align-items: center;
-
   min-height: 78px;
   padding: 18px 22px;
-
   border: 1px solid rgba(7, 105, 230, 0.1);
   border-radius: 14px;
-
   background: rgba(255, 255, 255, 0.86);
-
   box-shadow:
     0 8px 30px rgba(6, 54, 127, 0.045),
     0 1px 3px rgba(6, 54, 127, 0.03);
-
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease,
@@ -294,97 +215,52 @@
 
 .analysis-card:hover {
   transform: translateY(-4px);
-
   border-color: rgba(7, 105, 230, 0.25);
-
   box-shadow:
     0 14px 35px rgba(6, 54, 127, 0.09),
     0 2px 5px rgba(6, 54, 127, 0.04);
 }
 
-/* Card number */
-
 .analysis-number {
   flex-shrink: 0;
-
   width: 38px;
-
   font-size: 13px;
   font-weight: 700;
-
   color: #0464de;
 }
 
-/* Card dot */
-
-.analysis-card-dot {
-  flex-shrink: 0;
-
-  width: 7px;
-  height: 7px;
-
-  margin-right: 15px;
-
-  border-radius: 50%;
-
-  background: #0464de;
-
-  box-shadow: 0 0 0 5px rgba(7, 105, 230, 0.08);
-}
-
-/* Card text */
-
 .analysis-card p {
   margin: 0;
-
   font-size: 15px;
   line-height: 1.45;
   font-weight: 500;
-
   color: #334155;
 }
 
-/* =========================================
-   STATEMENT
-========================================= */
-
 .data-statement {
   position: relative;
-
   display: flex;
   align-items: stretch;
-
   max-width: 950px;
   margin: 110px auto 0;
-
   padding: 38px 48px;
-
   border: 1px solid rgba(7, 105, 230, 0.12);
   border-radius: 20px;
-
   background: linear-gradient(
     135deg,
     rgba(7, 105, 230, 0.055),
     rgba(255, 255, 255, 0.9)
   );
-
   box-shadow: 0 20px 60px rgba(6, 54, 127, 0.07);
 }
-
-/* Accent */
 
 .statement-accent {
   width: 5px;
   flex-shrink: 0;
-
   margin-right: 28px;
-
   border-radius: 10px;
-
   background: linear-gradient(to bottom, #0464de, #0b4da5);
 }
-
-/* Content */
 
 .statement-content {
   flex: 1;
@@ -392,11 +268,9 @@
 
 .statement-main {
   margin: 0;
-
   font-size: 22px;
   line-height: 1.55;
-
-  color: #092f6d;
+  color: #032c7b;
 }
 
 .statement-main + .statement-main {
@@ -405,55 +279,37 @@
 
 .statement-final {
   margin: 18px 0 0;
-
   font-size: 16px;
   line-height: 1.6;
-
   color: #64748b;
 }
 
-/* Plus mark */
-
 .statement-mark {
   position: absolute;
-
   top: 24px;
   right: 30px;
-
   font-size: 32px;
   line-height: 1;
   font-weight: 300;
-
   color: rgba(7, 105, 230, 0.3);
 }
-
-/* =========================================
-   CTA
-========================================= */
 
 .data-cta {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 14px;
-
   margin: 45px auto 0;
   padding: 15px 22px 15px 26px;
-
   border: none;
   border-radius: 50px;
-
   background: #0464de;
   color: #ffffff;
-
   font-family: inherit;
   font-size: 15px;
   font-weight: 600;
-
   cursor: pointer;
-
   box-shadow: 0 10px 25px rgba(7, 105, 230, 0.22);
-
   transition:
     transform 0.3s ease,
     background 0.3s ease,
@@ -462,9 +318,7 @@
 
 .data-cta:hover {
   transform: translateY(-3px);
-
   background: #055ac8;
-
   box-shadow: 0 15px 30px rgba(7, 105, 230, 0.28);
 }
 
@@ -472,20 +326,14 @@
   transform: translateY(-1px);
 }
 
-/* CTA arrow */
-
 .data-cta-arrow {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-
   width: 30px;
   height: 30px;
-
   border-radius: 50%;
-
   background: rgba(255, 255, 255, 0.15);
-
   transition: transform 0.3s ease;
 }
 
@@ -493,9 +341,7 @@
   transform: translateX(4px);
 }
 
-/* =========================================
-   TABLET
-========================================= */
+/* --------------------------------- Responsive -------------------------- */
 
 @media (max-width: 900px) {
   .data-advantage {
@@ -528,10 +374,6 @@
   }
 }
 
-/* =========================================
-   MOBILE
-========================================= */
-
 @media (max-width: 650px) {
   .data-advantage {
     min-height: auto;
@@ -542,20 +384,15 @@
     width: calc(100% - 30px);
   }
 
-  /* Header */
-
   .data-heading-highlight {
     margin-left: 8px;
   }
 
   .data-intro {
     margin-top: 18px;
-
     font-size: 15px;
     line-height: 1.7;
   }
-
-  /* Analysis */
 
   .analysis-section {
     margin-top: 65px;
@@ -576,8 +413,6 @@
     font-size: 22px;
   }
 
-  /* Remove center line on mobile */
-
   .analysis-line {
     display: none;
   }
@@ -597,25 +432,13 @@
     font-size: 12px;
   }
 
-  .analysis-card-dot {
-    width: 6px;
-    height: 6px;
-
-    margin-right: 12px;
-
-    box-shadow: 0 0 0 4px rgba(7, 105, 230, 0.08);
-  }
-
   .analysis-card p {
     font-size: 14px;
   }
 
-  /* Statement */
-
   .data-statement {
     margin-top: 65px;
     padding: 28px 24px;
-
     border-radius: 16px;
   }
 
@@ -640,18 +463,12 @@
     font-size: 25px;
   }
 
-  /* CTA */
-
   .data-cta {
     width: 100%;
     max-width: 330px;
-
     margin-top: 32px;
-
     font-size: 14px;
   }
-
-  /* Decorative elements */
 
   .data-orb-one {
     width: 200px;
@@ -670,10 +487,6 @@
     height: 5px;
   }
 }
-
-/* =========================================
-   SMALL MOBILE
-========================================= */
 
 @media (max-width: 400px) {
   .data-heading-highlight {

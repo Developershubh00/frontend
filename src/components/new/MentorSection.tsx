@@ -1,4 +1,10 @@
+import { useRef } from "react";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "./MentorSection.css";
+
+gsap.registerPlugin(ScrollTrigger);
 
 interface Mentor {
   name: string;
@@ -24,12 +30,117 @@ const mentors: Mentor[] = [
 ];
 
 const MentorSection = () => {
-  return (
-    <section className="mentor-section">
-      {/* =========================================
-          TOP HEADER
-      ========================================= */}
+  const sectionRef = useRef<HTMLElement | null>(null);
 
+  useGSAP(
+    () => {
+      const section = sectionRef.current;
+
+      if (!section) return;
+
+      const ctx = gsap.context(() => {
+        // Header animation
+        gsap.from(".mentor-header-left", {
+          x: -100,
+          opacity: 0,
+          duration: 1,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: ".mentor-header",
+            start: "top 80%",
+            toggleActions: "play none none reverse",
+          },
+        });
+
+        gsap.from(".mentor-header-right", {
+          x: 100,
+          opacity: 0,
+          duration: 1,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: ".mentor-header",
+            start: "top 80%",
+            toggleActions: "play none none reverse",
+          },
+        });
+
+        // Section heading
+        gsap.from(".mentor-section-heading", {
+          y: 60,
+          opacity: 0,
+          duration: 0.9,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: ".mentor-section-heading",
+            start: "top 85%",
+            toggleActions: "play none none reverse",
+          },
+        });
+
+        // Mentor cards
+        gsap.from(".mentor-grid-item", {
+          y: 100,
+          opacity: 0,
+          scale: 0.92,
+          duration: 1,
+          stagger: 0.2,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: ".mentor-grid",
+            start: "top 80%",
+            toggleActions: "play none none reverse",
+          },
+        });
+
+        // Dividers
+        gsap.from(".mentor-divider", {
+          scale: 0,
+          opacity: 0,
+          duration: 0.6,
+          stagger: 0.2,
+          ease: "back.out(1.7)",
+          scrollTrigger: {
+            trigger: ".mentor-grid",
+            start: "top 75%",
+            toggleActions: "play none none reverse",
+          },
+        });
+
+        // Bottom intro
+        gsap.from(".mentor-bottom-intro", {
+          y: 50,
+          opacity: 0,
+          duration: 0.8,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: ".mentor-bottom",
+            start: "top 85%",
+            toggleActions: "play none none reverse",
+          },
+        });
+
+        // Bottom statements
+        gsap.from(".mentor-statements p", {
+          y: 40,
+          opacity: 0,
+          duration: 0.7,
+          stagger: 0.15,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: ".mentor-statements",
+            start: "top 85%",
+            toggleActions: "play none none reverse",
+          },
+        });
+      }, section);
+
+      return () => ctx.revert();
+    },
+    { scope: sectionRef },
+  );
+
+  return (
+    <section className="mentor-section" ref={sectionRef}>
       <div className="mentor-header">
         <div className="mentor-header-left">
           <h2 className="mentor-heading">
@@ -51,19 +162,11 @@ const MentorSection = () => {
         </div>
       </div>
 
-      {/* =========================================
-          MENTOR CONTENT
-      ========================================= */}
-
       <div className="mentor-container">
         <div className="mentor-content">
-          {/* SECTION HEADING */}
-
           <div className="mentor-section-heading">
             <h3>Guidance &amp; Mentorship From</h3>
           </div>
-
-          {/* MENTOR CARDS */}
 
           <div className="mentor-grid">
             {mentors.map((mentor, index) => (
@@ -86,10 +189,6 @@ const MentorSection = () => {
               </div>
             ))}
           </div>
-
-          {/* =========================================
-              BOTTOM CENTER CONTENT
-          ========================================= */}
 
           <div className="mentor-bottom">
             <p className="mentor-bottom-intro">

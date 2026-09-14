@@ -165,10 +165,6 @@ const DataAdvantage: React.FC = () => {
       <span className="data-dot-decoration dot-three" />
 
       <div className="data-wrapper">
-        {/* =========================
-            HEADER
-        ========================= */}
-
         <div className="data-header">
           <h2 className="data-heading">
             The Believers Data
@@ -183,10 +179,6 @@ const DataAdvantage: React.FC = () => {
             analysis and experience.
           </p>
         </div>
-
-        {/* =========================
-            ANALYSIS SECTION
-        ========================= */}
 
         <div className="analysis-section">
           <div className="analysis-heading">
@@ -205,18 +197,12 @@ const DataAdvantage: React.FC = () => {
                     {String(index + 1).padStart(2, "0")}
                   </span>
 
-                  <span className="analysis-card-dot" />
-
                   <p>{item}</p>
                 </div>
               ))}
             </div>
           </div>
         </div>
-
-        {/* =========================
-            STATEMENT
-        ========================= */}
 
         <div className="data-statement">
           <div className="statement-accent" />
@@ -237,10 +223,6 @@ const DataAdvantage: React.FC = () => {
 
           <div className="statement-mark">+</div>
         </div>
-
-        {/* =========================
-            CTA
-        ========================= */}
 
         <button className="data-cta" type="button">
           <span>Explore Counselling Insights</span>

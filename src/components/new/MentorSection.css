@@ -1,27 +1,16 @@
-/* =========================================
-   MAIN SECTION
-========================================= */
-
 .mentor-section {
   width: 100%;
   padding: 40px 20px 80px;
   overflow: hidden;
 }
 
-/* =========================================
-   TOP HEADER
-========================================= */
-
 .mentor-header {
   width: 100%;
   max-width: 1400px;
-
   margin: 0 auto;
-
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-
   gap: 80px;
 }
 
@@ -30,71 +19,35 @@
   flex: 1;
 }
 
-.mentor-header-left {
-  text-align: center;
-}
-
-.mentor-header-right {
-  text-align: center;
-}
-
-/* =========================================
-   MAIN HEADING
-========================================= */
-
 .mentor-heading {
   margin: 0 0 20px;
-
   font-size: 52px;
   line-height: 1.25;
   font-weight: 700;
-
   color: #032c7b;
-
-  text-align: center;
 }
-
-/* =========================================
-   DESCRIPTION
-========================================= */
 
 .mentor-description {
   margin: 24px 0;
-
   font-size: 18px;
   line-height: 1.7;
-
   color: #3f3f3f;
-
-  text-align: center;
+  text-align: end;
 }
-
-/* =========================================
-   SUB HEADING
-========================================= */
 
 .mentor-sub-heading {
   margin: 0;
-
   font-size: 28px;
   line-height: 1.2;
   font-weight: 700;
-
   color: #0464de;
-
-  text-align: center;
+  text-align: end;
 }
-
-/* =========================================
-   MENTOR CONTAINER
-========================================= */
 
 .mentor-container {
   width: 100%;
   max-width: 1400px;
-
   margin: 0 auto;
-
   padding-top: 4rem;
 }
 
@@ -102,218 +55,122 @@
   width: 100%;
 }
 
-/* =========================================
-   MENTOR SECTION HEADING
-========================================= */
-
 .mentor-section-heading {
   width: 100%;
-
   margin-bottom: 24px;
-
   text-align: center;
 }
 
 .mentor-section-heading h3 {
   margin: 0 0 20px;
-
   font-size: 42px;
   line-height: 1.25;
   font-weight: 700;
-
   color: #032c7b;
-
   text-align: center;
 }
 
-/* =========================================
-   MENTOR GRID
-========================================= */
-
 .mentor-grid {
   display: grid;
-
   grid-template-columns:
     1fr
     auto
     1fr
     auto
     1fr;
-
   align-items: center;
-
   gap: 22px;
-
   width: 100%;
 }
-
-/* =========================================
-   MENTOR GRID ITEM
-========================================= */
 
 .mentor-grid-item {
   width: 100%;
   display: contents;
 }
 
-/* =========================================
-   MENTOR DIVIDER
-========================================= */
-
 .mentor-divider {
   display: flex;
-
   align-items: center;
   justify-content: center;
-
   width: 40px;
   height: 40px;
-
   flex-shrink: 0;
-
   font-size: 48px;
   font-weight: 400;
-
   color: #032c7b;
 }
 
-/* =========================================
-   MENTOR CARD
-========================================= */
-
 .mentor-card {
   width: 100%;
-
   position: relative;
-
   padding: 28px 24px 24px;
-
   border-radius: 24px 90px 24px 24px;
-
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-
   border: 1px solid rgba(255, 255, 255, 0.4);
-
   box-shadow: 0 8px 32px rgba(3, 44, 123, 0.08);
-
   transition:
     border-radius 0.6s cubic-bezier(0.4, 0, 0.2, 1),
     transform 0.4s ease,
     box-shadow 0.4s ease;
 }
 
-/* =========================================
-   CARD HOVER
-========================================= */
-
 .mentor-card:hover {
   border-radius: 24px;
-
   padding: 24px;
-
   box-shadow: 0 16px 40px rgba(3, 44, 123, 0.14);
 }
 
-/* =========================================
-   IMAGE WRAPPER
-========================================= */
-
 .mentor-image-wrap {
   position: relative;
-
   width: 100%;
   height: 400px;
-
   overflow: hidden;
-
   isolation: isolate;
 }
 
-/* =========================================
-   IMAGE GRADIENT
-========================================= */
-
 .mentor-gradient {
   position: absolute;
-
   inset: 0;
-
   z-index: 1;
-
   pointer-events: none;
-
-  background: linear-gradient(to top, rgba(3, 44, 123, 0.08), transparent 40%);
 }
-
-/* =========================================
-   MENTOR IMAGE
-========================================= */
 
 .mentor-image {
   position: absolute;
-
   left: 50%;
   bottom: 0;
-
   width: 100%;
   height: 100%;
-
   object-fit: cover;
   object-position: center bottom;
-
   transform: translateX(-50%);
-
   transition: transform 0.5s ease;
 }
-
-/* =========================================
-   IMAGE HOVER
-========================================= */
 
 .mentor-card:hover .mentor-image {
   transform: translateX(-50%) scale(1.04);
 }
 
-/* =========================================
-   MENTOR NAME
-========================================= */
-
 .mentor-card h4 {
   margin: 18px 0 0;
-
   font-size: 22px;
   line-height: 1.2;
   font-weight: 700;
-
   color: #032c7b;
 }
 
-/* =========================================
-   BOTTOM CONTENT
-   EVERYTHING CENTERED
-========================================= */
-
 .mentor-bottom {
   width: 100%;
-
   margin-top: 50px;
   padding-top: 30px;
-
   display: flex;
   flex-direction: column;
-
   align-items: center;
   justify-content: center;
-
   text-align: center;
-
   border-top: 1px solid rgba(3, 44, 123, 0.15);
 }
-
-/* =========================================
-   BOTTOM INTRO TEXT
-========================================= */
 
 .mentor-bottom-intro {
   margin-bottom: 1rem;
@@ -324,44 +181,30 @@
   text-align: center;
 }
 
-/* =========================================
-   STATEMENTS
-========================================= */
-
 .mentor-statements {
   width: 100%;
-
   display: flex;
   flex-direction: column;
-
   align-items: center;
   justify-content: center;
-
   text-align: center;
 }
 
 .mentor-statements p {
   width: 100%;
-
   margin: 0 0 10px;
-
   font-size: 16px;
   line-height: 1.5;
-
   color: #032c7b;
-
   text-align: center;
 }
 
 .mentor-statements p:last-child {
   margin-bottom: 0;
-
   color: #3f3f3f;
 }
 
-/* =========================================
-   TABLET
-========================================= */
+/* --------------------------------- Responsive -------------------------- */
 
 @media (max-width: 1024px) {
   .mentor-section {
@@ -393,10 +236,6 @@
   }
 }
 
-/* =========================================
-   SMALL TABLET
-========================================= */
-
 @media (max-width: 868px) {
   .mentor-section {
     padding: 40px 16px 60px;
@@ -404,11 +243,8 @@
 
   .mentor-header {
     flex-direction: column;
-
     align-items: center;
-
     text-align: center;
-
     gap: 10px;
   }
 
@@ -419,9 +255,7 @@
 
   .mentor-heading {
     font-size: 42px;
-
     margin-bottom: 0;
-
     text-align: center;
   }
 
@@ -450,10 +284,6 @@
   }
 }
 
-/* =========================================
-   MOBILE
-========================================= */
-
 @media (max-width: 568px) {
   .mentor-section {
     padding: 70px 20px;
@@ -463,13 +293,11 @@
 
   .mentor-heading {
     font-size: 34px;
-
     line-height: 1.2;
   }
 
   .mentor-description {
     font-size: 15px;
-
     line-height: 1.6;
   }
 
@@ -481,7 +309,6 @@
 
   .mentor-section-heading h3 {
     font-size: 28px;
-
     line-height: 1.2;
   }
 
@@ -489,15 +316,12 @@
 
   .mentor-grid {
     display: flex;
-
     flex-direction: column;
-
     gap: 35px;
   }
 
   .mentor-grid-item {
     width: 100%;
-
     display: block;
   }
 
@@ -521,42 +345,29 @@
 
   .mentor-bottom {
     width: 100%;
-
     margin-top: 40px;
     padding-top: 25px;
-
     display: flex;
-
     flex-direction: column;
-
     align-items: center;
     justify-content: center;
-
     text-align: center;
   }
 
   .mentor-statements {
     width: 100%;
-
     display: flex;
-
     flex-direction: column;
-
     align-items: center;
     justify-content: center;
-
     text-align: center;
   }
 
   .mentor-statements p {
     width: 100%;
-
     margin: 0 0 10px;
-
     font-size: 15px;
-
     line-height: 1.5;
-
     text-align: center;
   }
 
