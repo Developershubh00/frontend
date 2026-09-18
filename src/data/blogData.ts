@@ -84736,6 +84736,273 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    id: 208,
+    title: "NEET PG Is Over: What Should You Do Next?",
+    slug: "neet-pg-is-over-what-should-you-do-next",
+    excerpt:
+      "NEET PG is finally over. Discover what comes next, from results and counselling to choosing your specialty and planning the next step in your medical career.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/49059166/file/8e6d3442da8c98db6bc54e100012b875.jpg",
+    featured_image_alt: "neet pg over what comes next counselling result",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+    },
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
+    },
+    tags: [
+      "NEET PG",
+      "NEET PG 2026",
+      "NEET PG Result",
+      "NEET PG Counselling",
+      "AIQ Counselling",
+    ],
+    published_date: "2026-09-18",
+    read_time: 4,
+    meta_title: "NEET PG Is Finally Over: What Comes Next for You?",
+    meta_description:
+      "NEET PG is finally over. Discover what comes next, from results and counselling to choosing your specialty and planning the next step in your medical career.",
+    keywords: [
+      "neet pg exam",
+      "neet pg",
+      "neet pg 2026",
+      "neet pg result",
+      "neet pg counselling",
+      "neet pg counselling documents",
+      "neet pg state counselling",
+      "neet pg aiq counselling",
+      "neet pg counselling choice filling",
+      "aiq neet pg counselling",
+      "career counselling neet pg",
+      "choice filling neet pg",
+      "documents required for neet pg counselling",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content:
+          "NEET PG is finally behind you. After months of studying, revising, solving question after question and managing exam stress, you're probably relieved it's done. But almost immediately, a new thought creeps in: \"I've given the exam. Now what?\"",
+      },
+      {
+        id: "intro-para2",
+        type: "paragraph",
+        content: "The short answer: don't rush into counselling decisions yet.",
+      },
+      {
+        id: "intro-conclusion",
+        type: "paragraph",
+        content:
+          "The stretch between the exam and the result is a confusing one — rank predictors, expected scores and counselling chatter show up everywhere you look. Rather than acting on half-formed information, this is a good time to prepare for what's coming instead of trying to lock in decisions you don't have the data for yet.",
+      },
+      {
+        id: "dont-panic",
+        type: "heading",
+        title: "Don't Panic About Counselling Yet",
+        level: 2,
+      },
+      {
+        id: "dont-panic-para1",
+        type: "paragraph",
+        content:
+          "Counselling matters, but there's no reason to start finalising anything right after the exam. Your actual rank, category, seat availability and counselling rules are what will shape your real options — and until the official result is out, everything else is just an estimate. Try not to compare your expected rank with everyone else's or pick a branch based on early guesswork. Your counselling journey hasn't really started yet, so there's room to breathe.",
+      },
+      {
+        id: "wait-official",
+        type: "heading",
+        title: "Wait for the Official Result",
+        level: 2,
+      },
+      {
+        id: "wait-official-para1",
+        type: "paragraph",
+        content:
+          "The official result is what actually tells you where you stand. Before that, you'll run into all kinds of rank predictors giving you different numbers — fine for a rough sense of things, but not something to treat as gospel. Once the real result is out, you'll have something solid to plan around. Until then, prep beats speculation.",
+      },
+      {
+        id: "likely-options",
+        type: "heading",
+        title: "Get a Sense of Your Likely Options",
+        level: 2,
+      },
+      {
+        id: "likely-options-para1",
+        type: "paragraph",
+        content:
+          "Once you have a rough score or rank range, you can start exploring what's realistically within reach — and it's worth looking beyond just one branch or one college. Check out possible branches at your expected rank, colleges you might be eligible for, how previous years' counselling played out, and how AIQ compares to your state's opportunities. Weigh your preferred branch against a few backups too.",
+      },
+      {
+        id: "likely-options-conclusion",
+        type: "paragraph",
+        content:
+          "You're not finalising anything at this stage — you're just getting a feel for the landscape, which makes the actual choice-filling process far less stressful when it arrives.",
+      },
+      {
+        id: "documents",
+        type: "heading",
+        title: "Start Organising Your Documents Now",
+        level: 2,
+      },
+      {
+        id: "documents-para1",
+        type: "paragraph",
+        content:
+          "This one's simple and very doable right now. Counselling involves a stack of certificates and paperwork, and hunting for everything at the last minute is a stress you can easily avoid. Go through the official counselling requirements for your category and state, and get your documents together — a folder, physical or digital, will save you a lot of grief later.",
+      },
+      {
+        id: "aiq-vs-state",
+        type: "heading",
+        title: "Learn the Difference Between AIQ and State Counselling",
+        level: 2,
+      },
+      {
+        id: "aiq-vs-state-para1",
+        type: "paragraph",
+        content:
+          "This is one of the more important things to get clear on before counselling starts. AIQ and state counselling run on different eligibility rules, seat distributions, reservations and choice-filling processes. Knowing these differences ahead of time puts you in a much stronger position to plan your choices — don't wait for the choice-filling window to figure this out on the fly.",
+      },
+      {
+        id: "rank-branch",
+        type: "heading",
+        title: "Don't Let Your Rank Alone Pick Your Branch",
+        level: 2,
+      },
+      {
+        id: "rank-branch-para1",
+        type: "paragraph",
+        content:
+          "Your rank matters, sure, but it shouldn't be the only thing steering your career. A common trap is thinking \"I got this rank, so I have to take this branch.\" Your actual interests, long-term goals, preferred way of working, lifestyle expectations, and genuine willingness to pursue a specialty matter just as much. A branch that looks good purely because of its cutoff isn't automatically the right one for you.",
+      },
+      {
+        id: "rank-branch-conclusion",
+        type: "paragraph",
+        content:
+          "Let your rank show you what's available — not dictate what you have to pick.",
+      },
+      {
+        id: "rank-predictors",
+        type: "heading",
+        title: "Take Rank Predictors With a Grain of Salt",
+        level: 2,
+      },
+      {
+        id: "rank-predictors-para1",
+        type: "paragraph",
+        content:
+          "They're useful for a ballpark idea, but they're still predictions, and different platforms often give you different numbers depending on their own data and methods. Don't make anything irreversible based on a predicted rank alone — and the same goes for social media chatter and unofficial counselling talk. Treat predictions as a reference point, not your final answer.",
+      },
+      {
+        id: "what-to-do",
+        type: "heading",
+        title: "What Should You Actually Do Right Now?",
+        level: 2,
+      },
+      {
+        id: "what-to-do-para1",
+        type: "paragraph",
+        content:
+          "You don't need to have your entire counselling journey figured out today. For now, just focus on four things:",
+      },
+      {
+        id: "what-to-do-list",
+        type: "list",
+        items: [
+          "Wait for the official result",
+          "Get a sense of your realistic options",
+          "Sort out your documents",
+          "Understand how the counselling process actually works",
+        ],
+      },
+      {
+        id: "what-to-do-conclusion",
+        type: "paragraph",
+        content:
+          "Once your official rank comes through, you'll be able to look at branches and colleges realistically and build your choices from there.",
+      },
+      {
+        id: "final-thoughts",
+        type: "heading",
+        title: "Final Thoughts",
+        level: 2,
+      },
+      {
+        id: "final-thoughts-para1",
+        type: "paragraph",
+        content:
+          "The stretch after NEET PG can feel just as unsettling as the prep itself, but it doesn't have to be. You've already done the hard part — the exam. Instead of refreshing predictors or comparing yourself to everyone else, use this time to get organised and informed.",
+      },
+      {
+        id: "final-thoughts-para2",
+        type: "paragraph",
+        content:
+          "Know your rank. Understand your options. Learn how counselling works. Then decide.",
+      },
+      {
+        id: "final-thoughts-conclusion",
+        type: "paragraph",
+        content:
+          "And remember — one rank doesn't decide your entire career. Understanding your options properly is what helps you land on a choice that actually fits both your rank and where you want to go long-term.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "What should I do right after NEET PG?",
+            answer:
+              "Wait for your official result, and use the time to get your counselling documents in order.",
+          },
+          {
+            question: "Can I trust NEET PG rank predictors?",
+            answer:
+              "Treat them as a rough estimate, not your actual rank — they vary a lot between platforms.",
+          },
+          {
+            question: "When should I start prepping for counselling?",
+            answer:
+              "Right away, actually. You can start learning the rules and exploring options even before the result is out.",
+          },
+          {
+            question: "Should my rank alone decide my branch?",
+            answer:
+              "No, factor in your interests, career goals and realistic options along with where your rank lands you.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "neet pg exam",
+          "neet pg",
+          "neet pg 2026",
+          "neet pg result",
+          "neet pg counselling",
+          "neet pg counselling documents",
+          "neet pg state counselling",
+          "neet pg aiq counselling",
+          "neet pg counselling choice filling",
+          "aiq neet pg counselling",
+          "career counselling neet pg",
+          "choice filling neet pg",
+          "documents required for neet pg counselling",
+        ],
+      },
+    ],
+  },
 ];
 
 // Helper function to get blog by slug
