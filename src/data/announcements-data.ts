@@ -1874,6 +1874,19 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "The Indian Express",
     created_at: "2026-09-11",
   },
+  {
+    id: 142,
+    title: "NEET PG 2026",
+    content:
+      "NEET PG 2026 Answer Key and Response Sheet Expected Soon; Result Scheduled by September 30 Date: 20 September 2026",
+    date: "2026-09-20",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://www.jagranjosh.com/news/neet-pg-2026-live-updates-answer-key-response-sheet-at-natboardeduin-check-official-notice-latest-updates-lb-206768",
+    is_active: true,
+    source: "Jagran Josh",
+    created_at: "2026-09-20",
+  },
 ];
 
 /**
