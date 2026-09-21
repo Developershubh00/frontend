@@ -85003,6 +85003,350 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    id: 209,
+    title:
+      "NEET PG Results Are Not Out Yet: 7 Things You Should NOT Do While Waiting",
+    slug: "neet-pg-results-are-not-out-yet-7-things-you-should-not-do-while-waiting",
+    excerpt:
+      "NEET PG results not out yet? Discover 7 things to avoid while waiting, from result rumours to rank anxiety, and stay focused on your next step.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/49080428/file/00bde46c131e3ce97487db4b4419e57c.jpg",
+    featured_image_alt: "neet pg results waiting what not to do",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+    },
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
+    },
+    tags: [
+      "NEET PG",
+      "NEET PG 2026",
+      "NEET PG Results",
+      "NEET PG Counselling",
+      "Medical Entrance Exam",
+    ],
+    published_date: "2026-09-21",
+    read_time: 5,
+    meta_title:
+      "NEET PG Results Not Out Yet? 7 Things You Should Avoid Doing While Waiting",
+    meta_description:
+      "NEET PG results not out yet? Discover 7 things to avoid while waiting, from result rumours to rank anxiety, and stay focused on your next step.",
+    keywords: [
+      "neet pg results",
+      "neet pg 2026",
+      "neet pg",
+      "neet pg exam",
+      "neet pg counselling",
+      "medical entrance exam",
+      "neet pg preparation",
+      "neet pg entrance exam",
+      "neet pg result date",
+      "neet pg exam result",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content: "You have finished NEET PG. Now comes the waiting.",
+      },
+      {
+        id: "intro-para2",
+        type: "paragraph",
+        content:
+          "And for many students, this waiting period can feel more stressful than the exam itself. You start checking Telegram groups, Instagram pages, unofficial answer keys, rank predictions and counselling discussions. One prediction changes your mood, another makes you rethink your branch, and suddenly you are planning your entire career before the official result is even out.",
+      },
+      {
+        id: "intro-conclusion",
+        type: "paragraph",
+        content:
+          "Take a step back. The result will come when it comes. Until then, there are a few things you should avoid doing.",
+      },
+      {
+        id: "dont-1",
+        type: "heading",
+        title: "1. Don't Obsess Over Unofficial Answer Keys",
+        level: 2,
+      },
+      {
+        id: "dont-1-para1",
+        type: "paragraph",
+        content:
+          "It is tempting to keep checking different answer keys and calculate your score again and again. But unofficial keys can vary, and repeatedly calculating your expected score will not change your final result.",
+      },
+      {
+        id: "dont-1-conclusion",
+        type: "paragraph",
+        content:
+          "Once you have a reasonable idea of how your exam went, let it go. You don't need to check your score ten times a day.",
+      },
+      {
+        id: "dont-2",
+        type: "heading",
+        title:
+          "2. Don't Compare Your Score With Telegram or Instagram Predictions",
+        level: 2,
+      },
+      {
+        id: "dont-2-para1",
+        type: "paragraph",
+        content:
+          '"Someone got this score and is expecting AIR 2,000." "Someone else says this score will get Radiology." You will see plenty of such predictions.',
+      },
+      {
+        id: "dont-2-conclusion",
+        type: "paragraph",
+        content:
+          "The problem is that these are not your official rank or counselling results. Comparing yourself with random predictions can create unnecessary anxiety and unrealistic expectations. Wait for the official result before drawing conclusions.",
+      },
+      {
+        id: "dont-3",
+        type: "heading",
+        title: "3. Don't Decide Your Branch Today",
+        level: 2,
+      },
+      {
+        id: "dont-3-para1",
+        type: "paragraph",
+        content:
+          'You may already be thinking: "Should I take Medicine?" "Can I get Radiology?" "Should I choose Surgery?" "Maybe I should go for a branch with a better lifestyle." It is completely fine to explore your options. But don\'t lock yourself into a branch before knowing your actual rank and realistic choices.',
+      },
+      {
+        id: "dont-3-conclusion",
+        type: "paragraph",
+        content:
+          "Your preferences can change once you understand which branches and colleges are actually available to you.",
+      },
+      {
+        id: "dont-4",
+        type: "heading",
+        title: "4. Don't Assume Your Career Is Over",
+        level: 2,
+      },
+      {
+        id: "dont-4-para1",
+        type: "paragraph",
+        content:
+          "Maybe the exam didn't go exactly as you expected. Maybe you are worried about your score. Maybe you think your dream branch is now out of reach. Don't let one exam immediately become a judgement about your entire career.",
+      },
+      {
+        id: "dont-4-conclusion",
+        type: "paragraph",
+        content:
+          "NEET PG is an important milestone, but your career is much bigger than one rank or one counselling round. Don't decide your future on your worst day of uncertainty.",
+      },
+      {
+        id: "dont-5",
+        type: "heading",
+        title: "5. Don't Pay Anyone Before Understanding Counselling",
+        level: 2,
+      },
+      {
+        id: "dont-5-para1",
+        type: "paragraph",
+        content:
+          'The post-result period can bring a lot of confusion around counselling, seats, colleges and admission processes. This is also when students can become vulnerable to people promising "guaranteed" seats or claiming they can arrange a particular college or branch.',
+      },
+      {
+        id: "dont-5-conclusion",
+        type: "paragraph",
+        content:
+          'Before paying anyone, understand the official counselling process, eligibility, choice filling and seat allotment rules yourself. Never make a rushed financial decision simply because someone says, "You have to do it now."',
+      },
+      {
+        id: "dont-6",
+        type: "heading",
+        title: "6. Don't Fill Choices Randomly When Counselling Opens",
+        level: 2,
+      },
+      {
+        id: "dont-6-para1",
+        type: "paragraph",
+        content:
+          "Choice filling is not something you should complete in a hurry just because the portal has opened. You may have multiple branches and colleges to consider, along with fees, location, bond conditions, stipend, infrastructure and other factors.",
+      },
+      {
+        id: "dont-6-conclusion",
+        type: "paragraph",
+        content:
+          "A random preference list can create problems later. Your choice list needs thought, not speed.",
+      },
+      {
+        id: "dont-7",
+        type: "heading",
+        title: "7. Don't Copy Another Student's Choice List",
+        level: 2,
+      },
+      {
+        id: "dont-7-para1",
+        type: "paragraph",
+        content:
+          "Your friend may have a completely different rank, budget, location preference, career goal and branch preference. So copying their choice list simply because they seem confident about it doesn't make sense.",
+      },
+      {
+        id: "dont-7-conclusion",
+        type: "paragraph",
+        content:
+          "A choice that is perfect for them may not be right for you. Take guidance, but make your own decision.",
+      },
+      {
+        id: "what-to-do",
+        type: "heading",
+        title: "So, What Should You Do While Waiting?",
+        level: 2,
+      },
+      {
+        id: "what-to-do-para1",
+        type: "paragraph",
+        content:
+          "Instead of spending the entire waiting period refreshing prediction pages, use this time productively.",
+      },
+      {
+        id: "keep-documents",
+        type: "heading",
+        title: "Keep Your Documents Ready",
+        level: 3,
+      },
+      {
+        id: "keep-documents-para1",
+        type: "paragraph",
+        content:
+          "You have to start checking all the documents you may need for counselling and keep them safe and organized. This saves unnecessary stress when the process begins.",
+      },
+      {
+        id: "understand-aiq",
+        type: "heading",
+        title: "Understand AIQ and State Counselling",
+        level: 3,
+      },
+      {
+        id: "understand-aiq-para1",
+        type: "paragraph",
+        content:
+          "You should know the basic difference between All India Quota (AIQ) and State counselling, including where you are eligible to participate and how the processes work.",
+      },
+      {
+        id: "research-branches",
+        type: "heading",
+        title: "Start Researching Branches",
+        level: 3,
+      },
+      {
+        id: "research-branches-para1",
+        type: "paragraph",
+        content:
+          "Don't just look at which branch has the highest demand. Understand the actual work, residency experience, lifestyle, patient interaction and long-term career options associated with the branches you are considering.",
+      },
+      {
+        id: "research-colleges",
+        type: "heading",
+        title: "Research Colleges",
+        level: 3,
+      },
+      {
+        id: "research-colleges-para1",
+        type: "paragraph",
+        content:
+          "Look beyond the college name. Explore factors such as clinical exposure, workload, fees, stipend, bond conditions, infrastructure, location and overall residency environment.",
+      },
+      {
+        id: "understand-budget",
+        type: "heading",
+        title: "Understand Your Budget",
+        level: 3,
+      },
+      {
+        id: "understand-budget-para1",
+        type: "paragraph",
+        content:
+          "Private, deemed and government options can have very different financial implications. Knowing your realistic budget early can make your counselling decisions much clearer.",
+      },
+      {
+        id: "preference-list",
+        type: "heading",
+        title: "Start Building a Preference List",
+        level: 3,
+      },
+      {
+        id: "preference-list-para1",
+        type: "paragraph",
+        content:
+          "You don't need a final list today. Just start making a rough list of dream, realistic and backup options. You can refine it once your official rank and counselling details are available.",
+      },
+      {
+        id: "result-coming",
+        type: "heading",
+        title: "The Result Will Come. Be Ready When It Does.",
+        level: 2,
+      },
+      {
+        id: "result-coming-para1",
+        type: "paragraph",
+        content:
+          "The waiting period is not the time to make panic-driven decisions. Don't spend every day calculating unofficial scores. Don't let social media predictions decide your expectations. And don't choose a branch just because someone else says it is the \"best.\"",
+      },
+      {
+        id: "result-coming-conclusion",
+        type: "paragraph",
+        content:
+          "Use this time to prepare, research, and understand your options. Because once the result is out, you won't just need a rank. You'll need a plan for what to do with it.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "Frequently Asked Questions",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "Should I trust unofficial NEET PG rank predictions?",
+            answer:
+              "No, you need to wait for your official result before making any kind of major decisions.",
+          },
+          {
+            question: "Should I decide my branch before the result?",
+            answer:
+              "You can explore options but you need to wait for your rank before finalizing your choice.",
+          },
+          {
+            question: "What should I do while waiting for the result?",
+            answer:
+              "Keep documents ready and research branches, colleges, and counselling.",
+          },
+          {
+            question: "Should I copy someone else's counselling choices?",
+            answer:
+              "Absolutely no, your preference list should match your own goals and priorities.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "neet pg results",
+          "neet pg 2026",
+          "neet pg",
+          "neet pg exam",
+          "neet pg counselling",
+          "medical entrance exam",
+          "neet pg preparation",
+          "neet pg entrance exam",
+          "neet pg result date",
+          "neet pg exam result",
+        ],
+      },
+    ],
+  },
 ];
 
 // Helper function to get blog by slug
