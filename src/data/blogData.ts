@@ -85347,6 +85347,494 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    id: 210,
+    title:
+      "NEET PG Counselling Explained: Your Complete Guide to Understanding Courses, Institutes, and the Seat Allocation Process",
+    slug: "neet-pg-counselling-explained-your-complete-guide-to-understanding-courses-institutes-and-the-seat-allocation-process",
+    excerpt:
+      "Understand NEET PG Counselling 2026, including courses, institutes, eligibility, choice filling, seat allocation, and key steps to secure your preferred seat.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/49107346/file/11cd2364d771cca741ddc4dfc3889ef3.jpg",
+    featured_image_alt:
+      "neet pg counselling courses institutes seat allocation process",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+    },
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
+    },
+    tags: [
+      "NEET PG",
+      "NEET PG Counselling",
+      "MCC NEET PG",
+      "AIQ Counselling",
+      "PG Medical Courses",
+    ],
+    published_date: "2026-09-23",
+    read_time: 6,
+    meta_title:
+      "NEET PG Counselling 2026 Explained: Courses, Institutes & Seat Process",
+    meta_description:
+      "Understand NEET PG Counselling 2026, including courses, institutes, eligibility, choice filling, seat allocation, and key steps to secure your preferred seat.",
+    keywords: [
+      "neet pg counselling",
+      "neet pg",
+      "md course",
+      "ms course",
+      "pg diploma course",
+      "mch courses",
+      "dnb courses",
+      "mcc neet pg",
+      "neet pg entrance exam",
+      "neet pg counselling schedule",
+      "pg counselling",
+      "mcc neet pg counselling",
+      "aiq neet pg",
+      "aiq neet pg counselling",
+      "apply for neet pg counselling",
+      "choice filling in neet pg",
+      "neet pg deemed university counselling",
+      "neet pg state counselling",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content:
+          "After you clear the NEET PG and get your rank, the next phase hits hard. Counselling. And honestly, it's more confusing than the exam itself.",
+      },
+      {
+        id: "intro-para2",
+        type: "paragraph",
+        content:
+          "You have thousands of seats across different institutes. Different types of courses. Multiple counselling processes happen simultaneously. And if you don't understand how this works, you could end up making decisions that affect your entire career.",
+      },
+      {
+        id: "intro-conclusion",
+        type: "paragraph",
+        content:
+          "So let's break this down. Everything you need to know about NEET PG counselling.",
+      },
+      {
+        id: "course-options",
+        type: "heading",
+        title: "First Thing First: What Actually Are Your Course Options?",
+        level: 2,
+      },
+      {
+        id: "course-options-para1",
+        type: "paragraph",
+        content:
+          "When you clear NEET PG, you're not just choosing between different colleges. You're choosing between different types of courses altogether. And that matters.",
+      },
+      {
+        id: "md-ms",
+        type: "heading",
+        title: "MD and MS Courses",
+        level: 3,
+      },
+      {
+        id: "md-ms-para1",
+        type: "paragraph",
+        content:
+          "These are three-year courses. Everyone knows about these. MD is for medical specialties (General Medicine, Pediatrics, etc.); MS is for surgical specialties (General Surgery, ENT, etc.). These courses happen in medical colleges or PG teaching institutes. You'll study for three years, complete your course, and then you can practice or go for super-specialization if you want.",
+      },
+      {
+        id: "pg-diplomas",
+        type: "heading",
+        title: "PG Diplomas",
+        level: 3,
+      },
+      {
+        id: "pg-diplomas-para1",
+        type: "paragraph",
+        content:
+          "These are two-year courses. And they're becoming rare. There used to be around 3,000 of these seats. Now there are only about 300.",
+      },
+      {
+        id: "pg-diplomas-para2",
+        type: "paragraph",
+        content:
+          "Here's the thing: if you complete a PG Diploma (like Diploma in Obstetrics and Gynecology), you can actually practice without doing an MD. You get registered and start working. But if you later want to do an MD in the same specialty, you only study for two more years instead of three.",
+      },
+      {
+        id: "pg-diplomas-conclusion",
+        type: "paragraph",
+        content:
+          "Most people don't go for diplomas anymore because there are so few seats. But if you can't get an MD seat in your desired specialty and a diploma is available, it's still a valid option.",
+      },
+      {
+        id: "mch-6year",
+        type: "heading",
+        title: "MCH Direct 6-Year Courses",
+        level: 3,
+      },
+      {
+        id: "mch-para1",
+        type: "paragraph",
+        content:
+          "These are newer. Instead of doing MS General Surgery for 3 years and then going for super-specialization, you can directly do a 6-year course in your chosen super-specialty.",
+      },
+      {
+        id: "mch-para2",
+        type: "paragraph",
+        content:
+          "But here's the catch: under NEET PG, only one MCH 6-year course is available. MCH Neurosurgery. And it's available in only two colleges: Christian Medical College Vellore and SRMC Chennai.",
+      },
+      {
+        id: "mch-conclusion",
+        type: "paragraph",
+        content:
+          "If you want other 6-year DM or MCH courses, you have to go through INICET, not NEET PG.",
+      },
+      {
+        id: "dnb",
+        type: "heading",
+        title: "DNB Courses",
+        level: 3,
+      },
+      {
+        id: "dnb-para1",
+        type: "paragraph",
+        content:
+          "DNB stands for Diplomate in National Board. These are run by the National Board of Examinations in private and government hospitals. DNB post-MBBS courses are 3-year courses, almost identical to MD/MS courses. The only difference? They're conducted in hospitals instead of medical colleges.",
+      },
+      {
+        id: "dnb-para2",
+        type: "paragraph",
+        content:
+          "There are also NBE Diploma courses (2-year courses) which are similar to PG diplomas.",
+      },
+      {
+        id: "dnb-conclusion",
+        type: "paragraph",
+        content:
+          "Here's what surprises people: some of the best DNB institutes are actually better than some MDMS colleges. Top candidates get DNB seats in places like Sir Gangaram Hospital Delhi because the experience and facilities are genuinely better.",
+      },
+      {
+        id: "institute-types",
+        type: "heading",
+        title: "Now, What Types of Institutes Offer These Courses?",
+        level: 2,
+      },
+      {
+        id: "institute-types-para1",
+        type: "paragraph",
+        content:
+          "This is where it gets complicated. Because the type of institute determines everything: which counselling you attend, who you're competing with, what the fees are.",
+      },
+      {
+        id: "institute-table",
+        type: "table",
+        headers: ["Institute Type", "Description"],
+        rows: [
+          [
+            "Government Medical Colleges",
+            "Run by state governments. Every state has them. Affordable. Quality varies, but many are genuinely good.",
+          ],
+          [
+            "Central Universities and Central Institutes",
+            "Run by the central government. Examples: Delhi University medical colleges, AMU, BHU.",
+          ],
+          [
+            "Deemed Universities",
+            "Private institutes with special government status. Not controlled by any state. Examples: Sri Ramachandra, D.Y. Patil, Santosh Medical College.",
+          ],
+          [
+            "Private Medical Colleges",
+            "Run by trusts or private organizations under state authority. Come under state counselling.",
+          ],
+          [
+            "Private Hospitals",
+            "Hospitals offering DNB courses. All DNB seats in private hospitals come under All India Counselling.",
+          ],
+          [
+            "Armed Forces Medical Services",
+            "AFMC Pune and other Armed Forces institutes. Age limit 30 years. 5-year bond after completing the course.",
+          ],
+        ],
+      },
+      {
+        id: "seat-split",
+        type: "heading",
+        title:
+          "Here's Where Counselling Gets Confusing: How Are Seats Actually Split?",
+        level: 2,
+      },
+      {
+        id: "seat-split-para1",
+        type: "paragraph",
+        content:
+          "This is the critical part. Same institute, same course, but different seats go to different counselling processes.",
+      },
+      {
+        id: "state-govt-colleges",
+        type: "heading",
+        title: "State Government Medical Colleges",
+        level: 3,
+      },
+      {
+        id: "state-govt-para1",
+        type: "paragraph",
+        content:
+          "Let's say a state government medical college has 100 MS General Surgery seats. 50 seats go to All India Quota — every NEET PG qualified candidate across India, regardless of where they're from, can apply through All India Counselling. The other 50 seats go to State Quota — only for candidates with some attachment to that state.",
+      },
+      {
+        id: "state-govt-conclusion",
+        type: "paragraph",
+        content:
+          'What counts as "attachment" is different for every state. Some check MBBS origin, some check domicile, schooling, employment history, or property ownership. You have to check your specific state\'s rules.',
+      },
+      {
+        id: "central-institutes",
+        type: "heading",
+        title: "Central Institutes and Universities",
+        level: 3,
+      },
+      {
+        id: "central-para1",
+        type: "paragraph",
+        content:
+          "50 percent of seats go to All India Quota (everyone is eligible). The other 50 percent goes to Internal Quota or University Quota — only MBBS graduates from that university are eligible. For example, Delhi University has UCMS and other colleges. 50 percent of their seats are open to everyone through All India Counselling. The other 50 percent are only for MBBS graduates from Delhi University. But All India Counselling conducts both processes, so you apply for both under MCC.",
+      },
+      {
+        id: "deemed-universities",
+        type: "heading",
+        title: "Deemed Universities",
+        level: 3,
+      },
+      {
+        id: "deemed-para1",
+        type: "paragraph",
+        content:
+          "100 percent of deemed university seats come under All India Counselling. 85 percent are available to all candidates (Management Quota). 15 percent go to NRI candidates. No state quota for deemed universities. That's the difference.",
+      },
+      {
+        id: "private-colleges",
+        type: "heading",
+        title: "Private Medical Colleges (State Colleges)",
+        level: 3,
+      },
+      {
+        id: "private-para1",
+        type: "paragraph",
+        content:
+          "Here's where state differences matter the most. Some states like Tamil Nadu, Andhra Pradesh, Telangana have split their private college seats: 50 percent for government quota and 50 percent for management quota (open to everyone). Other states like Uttar Pradesh make all seats open. Some states like Maharashtra are closed — private college seats are only for Maharashtra candidates.",
+      },
+      {
+        id: "private-hospitals",
+        type: "heading",
+        title: "Private Hospitals (DNB Seats)",
+        level: 3,
+      },
+      {
+        id: "private-hospitals-para1",
+        type: "paragraph",
+        content:
+          "All DNB seats in private hospitals come under All India Counselling. Everyone is eligible. No domicile restriction.",
+      },
+      {
+        id: "govt-hospitals",
+        type: "heading",
+        title: "Government Hospitals (DNB Seats)",
+        level: 3,
+      },
+      {
+        id: "govt-hospitals-para1",
+        type: "paragraph",
+        content:
+          "50 percent of seats come under All India Counselling (everyone is eligible). The other 50 percent go to in-service candidates of that state — if you're working in a government hospital, government service, or PSU in that state, you can apply for these reserved seats.",
+      },
+      {
+        id: "which-counselling",
+        type: "heading",
+        title: "Now, Which Counselling Do You Actually Apply To?",
+        level: 2,
+      },
+      {
+        id: "aiq-mcc",
+        type: "heading",
+        title: "All India Counselling (MCC)",
+        level: 3,
+      },
+      {
+        id: "aiq-mcc-para1",
+        type: "paragraph",
+        content: "Run by Medical Counselling Committee. Covers:",
+      },
+      {
+        id: "aiq-mcc-list",
+        type: "list",
+        items: [
+          "50 percent of state government college seats",
+          "50 percent of central institute seats",
+          "100 percent of deemed university seats",
+          "100 percent of private hospital DNB seats",
+          "AFMC seats",
+          "Some government hospital DNB seats",
+        ],
+      },
+      {
+        id: "aiq-mcc-conclusion",
+        type: "paragraph",
+        content: "You apply through mcc.nic.in.",
+      },
+      {
+        id: "state-counsellings",
+        type: "heading",
+        title: "State Counsellings",
+        level: 3,
+      },
+      {
+        id: "state-counsellings-para1",
+        type: "paragraph",
+        content: "Every state has a state counselling authority. They handle:",
+      },
+      {
+        id: "state-counsellings-list",
+        type: "list",
+        items: [
+          "The other 50 percent of state government college seats",
+          "State quota seats from central institutes",
+          "Private college seats (varying by state rules)",
+          "In-service seats from government hospitals",
+        ],
+      },
+      {
+        id: "dnb-sponsored",
+        type: "heading",
+        title: "DNB Sponsored Seats Counselling",
+        level: 3,
+      },
+      {
+        id: "dnb-sponsored-para1",
+        type: "paragraph",
+        content:
+          "This is separate. Only for candidates working in government service or PSUs. Requires a sponsorship certificate from your employer.",
+      },
+      {
+        id: "thousands-seats",
+        type: "heading",
+        title: "The Reality of Thousands of Seats",
+        level: 2,
+      },
+      {
+        id: "thousands-para1",
+        type: "paragraph",
+        content:
+          "You're looking at around 10,000+ seats across India. Sounds overwhelming, right? But here's what actually happens: once you get your rank, the number of realistic options drops dramatically. Maybe to 500-1000 seats.",
+      },
+      {
+        id: "thousands-conclusion",
+        type: "paragraph",
+        content:
+          "Your rank, your category, your eligibility criteria, your preferred specialties — all of this narrows down your options significantly. So don't panic about having to evaluate 10,000 seats. You won't.",
+      },
+      {
+        id: "what-to-do",
+        type: "heading",
+        title: "What You Actually Need to Do Now",
+        level: 2,
+      },
+      {
+        id: "what-to-do-para1",
+        type: "paragraph",
+        content: "Before your result even comes out:",
+      },
+      {
+        id: "what-to-do-list",
+        type: "list",
+        items: [
+          "Gather your documents — certificates, identity proof, caste certificate if applicable, medical fitness documents. Keep both physical and digital copies.",
+          'Understand your state\'s rules — which counsellings are you eligible for? What counts as "attachment" to your state? This varies wildly.',
+          "Research colleges — don't just pick based on reputation. Think about location, fees, patient exposure, academic environment, bonds.",
+          "Make three lists — dream colleges, realistic colleges, backup colleges. You'll adjust these once you know your rank.",
+          "Check previous year data — this gives you an idea of your possibilities, not a guarantee.",
+        ],
+      },
+      {
+        id: "what-to-do-conclusion",
+        type: "paragraph",
+        content:
+          "Once your rank comes out, the real work begins. But if you understand how all of this works now, you'll make much better decisions.",
+      },
+      {
+        id: "final-thoughts",
+        type: "heading",
+        title: "Final Thoughts",
+        level: 2,
+      },
+      {
+        id: "final-thoughts-para1",
+        type: "paragraph",
+        content:
+          "NEET PG counselling becomes easier when you understand your course options, seat distribution and counselling process. Research early, know your options, and make your choices based on your own priorities — not random predictions or someone else's preference list.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "Frequently Asked Questions",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "What courses are available through NEET PG counselling?",
+            answer:
+              "MD, MS, PG Diploma and DNB courses are among the available options.",
+          },
+          {
+            question: "Which counselling do I need to apply for after NEET PG?",
+            answer:
+              "It depends on your eligibility, preferred institute and the type of seat you are targeting.",
+          },
+          {
+            question: "What factors affect my NEET PG college options?",
+            answer:
+              "Your rank, category, eligibility and preferred specialty all influence your realistic options.",
+          },
+          {
+            question: "Should I research colleges before my NEET PG result?",
+            answer:
+              "Yes, researching colleges, fees, location, academics and other factors can help you prepare early.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "neet pg counselling",
+          "neet pg",
+          "md course",
+          "ms course",
+          "pg diploma course",
+          "mch courses",
+          "dnb courses",
+          "mcc neet pg",
+          "neet pg entrance exam",
+          "neet pg counselling schedule",
+          "pg counselling",
+          "mcc neet pg counselling",
+          "aiq neet pg",
+          "aiq neet pg counselling",
+          "apply for neet pg counselling",
+          "choice filling in neet pg",
+          "neet pg deemed university counselling",
+          "neet pg state counselling",
+        ],
+      },
+    ],
+  },
 ];
 
 // Helper function to get blog by slug
