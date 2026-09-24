@@ -1887,6 +1887,19 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "Jagran Josh",
     created_at: "2026-09-20",
   },
+  {
+    id: 143,
+    title: "NEET PG 2026",
+    content:
+      "NEET PG 2026 Result Declared: Check Cut-Off Scores, Rank & Result Details Source",
+    date: "2026-09-24",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://natboard.edu.in/",
+    is_active: true,
+    source: "National Board of Examinations",
+    created_at: "2026-09-24",
+  },
 ];
 
 /**

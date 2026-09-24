@@ -645,7 +645,13 @@ function Homepage() {
               </button>
 
               <button
-                onClick={() => navigate("/inicet-result")}
+                onClick={() =>
+                  window.open(
+                    "https://publuu.com/flip-book/1184941/2636009/page/12",
+                    "_blank",
+                    "noopener,noreferrer",
+                  )
+                }
                 className={`w-full sm:w-auto bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-10 py-4 rounded-full text-xl font-bold inline-flex items-center justify-center space-x-3 transition-all duration-300 hover:scale-105 shadow-2xl animate-pulse relative ${
                   isVisible
                     ? "opacity-100 translate-y-0"
@@ -653,7 +659,7 @@ function Homepage() {
                 } transition-all duration-700 delay-400`}
               >
                 <Award className="w-6 h-6" />
-                <span>INICET Check Now!</span>
+                <span>NEET PG Result Check Now!</span>
                 <span className="absolute -top-1 -right-1 flex h-4 w-4">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-yellow-400 opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-4 w-4 bg-yellow-500"></span>
