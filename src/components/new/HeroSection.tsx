@@ -54,6 +54,15 @@ const HeroSection = () => {
             duration: 0.8,
           },
           "-=0.35",
+        )
+        .from(
+          ".hero-result",
+          {
+            opacity: 0,
+            y: 30,
+            duration: 0.8,
+          },
+          "-=0.35",
         );
     }, heroRef);
 
@@ -87,12 +96,21 @@ const HeroSection = () => {
         </p>
 
         <div className="hero-actions">
-          <a href="#" className="primary-btn">
+          <a href="/predictor/pg" className="primary-btn">
             Predict My College
           </a>
 
-          <a href="#" className="secondary-btn">
+          <a href="tel:+919211724969" className="secondary-btn">
             Book 1:1 Counselling
+          </a>
+        </div>
+
+        <div className="hero-result">
+          <a
+            href="https://publuu.com/flip-book/1184941/2636009/page/12"
+            target="_blank"
+          >
+            Check Your NEET PG Result
           </a>
         </div>
       </div>

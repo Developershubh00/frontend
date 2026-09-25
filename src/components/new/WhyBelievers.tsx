@@ -71,7 +71,7 @@ export default function WhyBelievers() {
             <p>Data can show you the options.</p>
             <h2>Guidance helps you choose.</h2>
           </div>
-          <a className="wb-button" href="#contact">
+          <a className="wb-button" href="tel:+919211724969">
             Talk to a Counsellor
           </a>
         </div>

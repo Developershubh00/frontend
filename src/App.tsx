@@ -128,7 +128,7 @@ function AppContent() {
 ───────────────────────────────────────────────── */}
           {/* Homepage */}
           <Route path="/" element={<Homepage />} />
-          <Route path="/home" element={<NewHomePage />} />
+          {/* <Route path="/home" element={<NewHomePage />} /> */}
           {/* Auth */}
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<SignupPage />} />

@@ -41,7 +41,7 @@ const FinalCTA: React.FC = () => {
 
             {/* CTA */}
             <a
-              href="#counselling"
+              href="tel:+919211724969"
               className="fcta-button"
               aria-label="Book Your Free Counselling"
             >

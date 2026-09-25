@@ -7,6 +7,7 @@ import {
   Sparkles,
 } from "lucide-react";
 import "./FindCollegesSection.css";
+import { useNavigate } from "react-router-dom";
 
 const results = [
   {
@@ -30,6 +31,7 @@ const results = [
 ];
 
 export default function FindCollegesSection() {
+  const navigate = useNavigate();
   const finderRef = useRef<HTMLDivElement>(null);
   const airInputRef = useRef<HTMLInputElement>(null);
   const [showResults, setShowResults] = useState(false);
@@ -61,7 +63,7 @@ export default function FindCollegesSection() {
           <button
             className="college-finder-section__cta"
             type="button"
-            onClick={focusFinder}
+            onClick={() => navigate("/predictor/pg")}
           >
             Explore Colleges
           </button>

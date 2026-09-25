@@ -9,6 +9,7 @@ import {
   ShieldCheck,
 } from "lucide-react";
 import "./FreeResourcesSection.css";
+import { useNavigate } from "react-router-dom";
 
 const resources = [
   { title: "Choice Filling Guide", icon: BookOpen },
@@ -20,6 +21,8 @@ const resources = [
 ];
 
 export default function FreeResourcesSection() {
+  const navigate = useNavigate();
+
   return (
     <section className="fr-section" aria-labelledby="free-resources-title">
       <div className="fr-section__container">
@@ -37,7 +40,11 @@ export default function FreeResourcesSection() {
               <span />
               <i />
             </div>
-            <button className="fr-section__cta" type="button">
+            <button
+              className="fr-section__cta"
+              type="button"
+              onClick={() => navigate("/login")}
+            >
               Explore Free Resources <ArrowRight size={18} aria-hidden="true" />
             </button>
           </div>

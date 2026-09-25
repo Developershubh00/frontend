@@ -96,6 +96,16 @@
   transform: translateY(-3px);
 }
 
+.hero-result {
+  margin-top: 2.5rem;
+}
+
+.hero-result a {
+  color: #032c7b;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
 /* -------------------------- Responsive Style --------------------------- */
 
 @media (max-width: 1024px) {
