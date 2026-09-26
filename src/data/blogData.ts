@@ -85835,6 +85835,333 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    id: 211,
+    title:
+      "Want an NRI Quota Seat in NEET PG? Here's What You Actually Need to Know",
+    slug: "want-an-nri-quota-seat-in-neet-pg-heres-what-you-actually-need-to-know",
+    excerpt:
+      "Learn about NEET PG NRI Quota 2026, including eligibility, seat availability, fees, documents, and the admission process before applying for NRI seats.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/49138363/file/f18b2e55b2c7b8f49eab3d540aa49c70.jpg",
+    featured_image_alt: "neet pg nri quota eligibility documents fees",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+    },
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
+    },
+    tags: [
+      "NEET PG",
+      "NRI Quota",
+      "NEET PG Counselling",
+      "MCC NEET PG",
+      "PG Medical Admission",
+    ],
+    published_date: "2026-09-26",
+    read_time: 5,
+    meta_title: "NEET PG NRI Quota 2026: What You Need to Know Before Applying",
+    meta_description:
+      "Learn about NEET PG NRI Quota 2026, including eligibility, seat availability, fees, documents, and the admission process before applying for NRI seats.",
+    keywords: [
+      "neet pg counselling",
+      "neet pg",
+      "nri quota seat",
+      "mcc neet pg counselling",
+      "pg counselling",
+      "nri quota",
+      "mcc counselling neet pg",
+      "mcc nri quota",
+      "mcc seat matrix neet pg",
+      "medical nri quota",
+      "nri eligibility",
+      "neet pg nri quota",
+      "nri quota in neet pg",
+      "nri seats in neet pg",
+      "neet pg nri seats",
+      "neet pg nri quota fees",
+      "nri quota medical colleges",
+      "nri eligibility for neet pg",
+      "neet pg nri quota documents",
+      "mbbs for nri students in india",
+      "nri medical colleges in india",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content:
+          "Scoring a good NEET PG rank gets you in the door — but if you're eyeing an NRI quota seat, that's only half the battle. There's a whole separate set of eligibility rules and paperwork you need to sort out before counseling even begins.",
+      },
+      {
+        id: "intro-conclusion",
+        type: "paragraph",
+        content:
+          "Here's the thing most candidates get wrong: having an NRI relative doesn't automatically make you eligible. Your NRI status, your sponsor's relationship to you, and your documentation all have to check out against the rules for that particular counseling year.",
+      },
+      {
+        id: "what-is-nri-quota",
+        type: "heading",
+        title: "What Exactly Is NRI Quota?",
+        level: 2,
+      },
+      {
+        id: "what-is-para1",
+        type: "paragraph",
+        content:
+          "NRI quota seats are reserved for candidates who qualify as Non-Resident Indians, or who meet the sponsorship criteria laid out by the counseling authority. For NEET PG, that's MCC, which runs the online counseling for All India Quota seats and other categories based on the current seat matrix.",
+      },
+      {
+        id: "what-is-conclusion",
+        type: "paragraph",
+        content:
+          "How many NRI seats are actually available depends on the college, the course, and which round of counseling you're in — it shifts every year, so don't go by old numbers.",
+      },
+      {
+        id: "who-qualifies",
+        type: "heading",
+        title: "Who Actually Qualifies?",
+        level: 2,
+      },
+      {
+        id: "who-qualifies-para1",
+        type: "paragraph",
+        content:
+          "Before you get your hopes up about an NRI seat, figure out whether you meet that year's eligibility requirements. Depending on the rules in place, you might need to prove:",
+      },
+      {
+        id: "who-qualifies-list",
+        type: "list",
+        items: [
+          "Your own NRI status (if applicable)",
+          "Your parent's or sponsor's NRI status",
+          "The required relationship to that sponsor",
+          "Financial sponsorship, as prescribed",
+          "Documents backing up all of the above",
+        ],
+      },
+      {
+        id: "who-qualifies-conclusion",
+        type: "paragraph",
+        content:
+          "Again — an NRI relative alone doesn't cut it. The counseling authority decides eligibility based on its own criteria, not on family ties alone.",
+      },
+      {
+        id: "paperwork",
+        type: "heading",
+        title: "The Paperwork You'll Need",
+        level: 2,
+      },
+      {
+        id: "paperwork-para1",
+        type: "paragraph",
+        content:
+          "NRI counseling comes with more documentation than a standard application. Be ready to produce:",
+      },
+      {
+        id: "paperwork-list",
+        type: "list",
+        items: [
+          "Your passport (if applicable)",
+          "Your sponsor's passport and visa/residency documents",
+          "Proof of their NRI status",
+          "Proof of your relationship to them",
+          "An affidavit or sponsorship undertaking, if required",
+          "A sponsorship certificate, if prescribed",
+          "Proof of the sponsor's financial capacity, where applicable",
+        ],
+      },
+      {
+        id: "paperwork-conclusion",
+        type: "paragraph",
+        content:
+          "One catch: the exact list changes from year to year, so don't rely on what worked for someone last season. Always go by the latest MCC notice for your specific round. MCC has also put out separate notices on NRI eligibility and document verification in the past, which tells you this isn't a rubber-stamp process — expect a real verification step.",
+      },
+      {
+        id: "sponsorship-cert",
+        type: "heading",
+        title: "What's a Sponsorship Certificate, Exactly?",
+        level: 2,
+      },
+      {
+        id: "sponsorship-para1",
+        type: "paragraph",
+        content:
+          "It's the document that formally establishes who's sponsoring you, how you're related, their NRI status, and their financial responsibility for your seat. Don't reuse a format from a previous year — check the current counseling notification, since requirements can shift.",
+      },
+      {
+        id: "switch-category",
+        type: "heading",
+        title: "Can You Switch From Indian to NRI Category?",
+        level: 2,
+      },
+      {
+        id: "switch-para1",
+        type: "paragraph",
+        content:
+          "In some rounds, yes — MCC has allowed eligible Indian candidates to convert to NRI category before, but only within a specific window and under specific conditions announced for that round. Don't assume your category is locked in from day one. Watch for the round where conversion is permitted and check the official notice.",
+      },
+      {
+        id: "registration-process",
+        type: "heading",
+        title: "How the Registration Process Works",
+        level: 2,
+      },
+      {
+        id: "registration-para1",
+        type: "paragraph",
+        content: "Broadly, it goes:",
+      },
+      {
+        id: "registration-list",
+        type: "list",
+        items: [
+          "Check eligibility",
+          "Gather documents",
+          "Declare NRI status",
+          "Complete verification",
+          "Register for counseling",
+          "Fill your choices",
+        ],
+      },
+      {
+        id: "registration-conclusion",
+        type: "paragraph",
+        content:
+          "The specifics can vary by round, but one thing doesn't change: don't leave document verification until the last minute. Have everything ready before registration opens.",
+      },
+      {
+        id: "before-locking",
+        type: "heading",
+        title: "Before You Lock In an NRI Seat",
+        level: 2,
+      },
+      {
+        id: "before-locking-para1",
+        type: "paragraph",
+        content:
+          "Getting an NRI seat isn't just about landing a college name. Weigh:",
+      },
+      {
+        id: "before-locking-list",
+        type: "list",
+        items: [
+          "Course and branch",
+          "College reputation",
+          "NRI fee structure",
+          "Stipend",
+          "Bond conditions",
+          "Hospital and patient exposure",
+          "Academic environment",
+          "Location",
+          "Long-term career prospects",
+        ],
+      },
+      {
+        id: "before-locking-conclusion",
+        type: "paragraph",
+        content:
+          "NRI fees can be dramatically higher than general category fees, so know the full financial picture before you commit.",
+      },
+      {
+        id: "mistakes",
+        type: "heading",
+        title: "Mistakes to Avoid",
+        level: 2,
+      },
+      {
+        id: "mistakes-list",
+        type: "list",
+        items: [
+          "Assuming a relative is enough — your sponsor still has to meet the eligibility bar.",
+          "Using last year's documents — formats and requirements change, don't recycle.",
+          "Waiting until the last minute — NRI verification involves multiple documents; get them ready early.",
+          "Picking a college by name alone — branch, fees, and clinical exposure matter just as much.",
+          "Skipping the official notice — eligibility and conversion rules come from MCC directly, always check there first.",
+        ],
+      },
+      {
+        id: "bottom-line",
+        type: "heading",
+        title: "Bottom Line",
+        level: 2,
+      },
+      {
+        id: "bottom-line-para1",
+        type: "paragraph",
+        content:
+          "NRI quota can open real options in NEET PG counseling, but it's not a shortcut — it comes with its own rules and paperwork. Before you register, get clear on your status, your sponsor's eligibility, the documents you'll need, the verification process, and the fees involved.",
+      },
+      {
+        id: "bottom-line-conclusion",
+        type: "paragraph",
+        content:
+          "And don't rush your choices. Take the time to compare colleges and branches properly before you build your counseling strategy.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "Quick FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "Who can apply for NRI quota?",
+            answer: "Eligible NRI candidates and their sponsors.",
+          },
+          {
+            question: "Is an NRI relative enough on its own?",
+            answer: "No, specific eligibility rules apply.",
+          },
+          {
+            question: "Can Indian candidates switch to NRI category?",
+            answer: "Yes, if MCC opens conversion for that round.",
+          },
+          {
+            question: "What documents will I need?",
+            answer:
+              "Passport, relationship proof, and sponsorship documents, among others.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "neet pg counselling",
+          "neet pg",
+          "nri quota seat",
+          "mcc neet pg counselling",
+          "pg counselling",
+          "nri quota",
+          "mcc counselling neet pg",
+          "mcc nri quota",
+          "mcc seat matrix neet pg",
+          "medical nri quota",
+          "nri eligibility",
+          "neet pg nri quota",
+          "nri quota in neet pg",
+          "nri seats in neet pg",
+          "neet pg nri seats",
+          "neet pg nri quota fees",
+          "nri quota medical colleges",
+          "nri eligibility for neet pg",
+          "neet pg nri quota documents",
+          "mbbs for nri students in india",
+          "nri medical colleges in india",
+        ],
+      },
+    ],
+  },
 ];
 
 // Helper function to get blog by slug
