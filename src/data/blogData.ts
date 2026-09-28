@@ -86162,6 +86162,346 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    id: 212,
+    title: "NEET PG 2026 Result: What Your Rank Means and What to Do Next",
+    slug: "neet-pg-2026-result-what-your-rank-means-and-what-to-do-next",
+    excerpt:
+      "NEET PG 2026 result is out? Understand your rank, explore counselling options, assess colleges and specialties, and plan your next step with confidence.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/49157058/file/00f396f7b64b77c2281ffc34b4944d3f.png",
+    featured_image_alt: "neet pg 2026 result rank what to do next",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+    },
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
+    },
+    tags: [
+      "NEET PG",
+      "NEET PG 2026",
+      "NEET PG Result",
+      "NEET PG Counselling",
+      "NEET PG Rank",
+    ],
+    published_date: "2026-09-28",
+    read_time: 6,
+    meta_title: "NEET PG 2026 Result: What Your Rank Means & Next Steps.",
+    meta_description:
+      "NEET PG 2026 result is out? Understand your rank, explore counselling options, assess colleges and specialties, and plan your next step with confidence.",
+    keywords: [
+      "neet pg exam",
+      "neet pg 2026",
+      "neet pg result",
+      "neet pg 2026 result",
+      "neet pg rank",
+      "neet pg scorecard",
+      "neet pg 2026 rank",
+      "neet pg 2026 result date",
+      "neet pg counselling 2026",
+      "neet pg counselling",
+      "neet pg branch selection",
+      "neet pg choice filling",
+      "neet pg 2026 counselling",
+      "neet pg cut off 2026",
+      "neet pg admission process",
+      "neet pg counselling process",
+      "neet pg seat allotment",
+      "neet pg result date 2026",
+      "neet pg counselling eligibility",
+      "neet pg admit card",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content:
+          "The exam is done, and the result is the thing everyone's been waiting on. But the scorecard didn't end the process. It tells you where you stand, so you can plan counselling, branch selection, and college selection.",
+      },
+      {
+        id: "intro-conclusion",
+        type: "paragraph",
+        content:
+          "NEET PG 2026 was held on 30 August 2026, and NBEMS has said the result will be out by 30 September 2026. Use the official NBEMS website for your results and scorecard.",
+      },
+      {
+        id: "check-scorecard",
+        type: "heading",
+        title: "First, Check Your Scorecard",
+        level: 2,
+      },
+      {
+        id: "check-scorecard-para1",
+        type: "paragraph",
+        content:
+          "Download it and go through every detail. You'll want to see your score, All India Rank (AIR), percentile, qualifying status and category details (if they apply to you). Save a copy somewhere safe, because you'll need these details during counseling.",
+      },
+      {
+        id: "what-rank-tells",
+        type: "heading",
+        title: "What Your Rank Tells You",
+        level: 2,
+      },
+      {
+        id: "what-rank-para1",
+        type: "paragraph",
+        content:
+          "Your rank is a starting point, nothing more. It doesn't decide your college or branch by itself. What you actually get depends on your category, the type of counselling, the seats available, previous closing ranks, how you fill your choices, eligibility conditions and any state-specific rules. Comparing your rank with last year's trends will help you build a realistic list.",
+      },
+      {
+        id: "branch-first",
+        type: "heading",
+        title: "Think Branch First, College Second",
+        level: 2,
+      },
+      {
+        id: "branch-first-para1",
+        type: "paragraph",
+        content:
+          'Most people jump straight to "which college can I get?" A better question is "which branches are possible at my rank?" Then sort your options into three groups:',
+      },
+      {
+        id: "branch-first-list",
+        type: "list",
+        items: [
+          "Dream choices: the branches and colleges you'd love, though they may be a stretch at your rank.",
+          "Realistic choices: options that fit both your rank and your preferences.",
+          "Safe choices: options where you have a good chance of getting a seat.",
+        ],
+      },
+      {
+        id: "branch-first-conclusion",
+        type: "paragraph",
+        content:
+          "That way your whole list doesn't hang on one branch or one college.",
+      },
+      {
+        id: "cutoff-vs-closing",
+        type: "heading",
+        title: "The Cut-Off Is Not the Closing Rank",
+        level: 2,
+      },
+      {
+        id: "cutoff-para1",
+        type: "paragraph",
+        content:
+          "The qualifying cut-off only tells you that you've met the minimum requirement for counselling. It says nothing about which branch or college you'll get. Seat allotment depends on the counselling process, the seats, your category and your choices, so don't mix up the qualifying cut-off with a college's closing rank.",
+      },
+      {
+        id: "research-colleges",
+        type: "heading",
+        title: "Start Researching Colleges Now",
+        level: 2,
+      },
+      {
+        id: "research-para1",
+        type: "paragraph",
+        content: "You don't need to wait for registration to open. Look at:",
+      },
+      {
+        id: "research-list",
+        type: "list",
+        items: [
+          "Previous closing ranks",
+          "Course and seat type",
+          "Fees",
+          "Stipend",
+          "Bond conditions",
+          "Patient load and clinical exposure",
+          "Academics",
+          "Location and accommodation",
+          "Career prospects after the course",
+        ],
+      },
+      {
+        id: "research-conclusion",
+        type: "paragraph",
+        content:
+          "A familiar name isn't a good enough reason to put a college on your list.",
+      },
+      {
+        id: "documents",
+        type: "heading",
+        title: "Get Your Documents Together",
+        level: 2,
+      },
+      {
+        id: "documents-para1",
+        type: "paragraph",
+        content:
+          "Counselling moves fast once registration opens, so gather these early:",
+      },
+      {
+        id: "documents-list",
+        type: "list",
+        items: [
+          "NEET PG scorecard and admit card",
+          "MBBS degree or provisional certificate",
+          "Internship completion certificate",
+          "MBBS registration certificate",
+          "Identity proof",
+          "Category certificate, if applicable",
+          "Anything else the counselling authority asks for",
+        ],
+      },
+      {
+        id: "documents-conclusion",
+        type: "paragraph",
+        content:
+          "Requirements differ between authorities and categories, so check the latest official instructions before you register.",
+      },
+      {
+        id: "which-counselling",
+        type: "heading",
+        title: "Know Which Counselling Applies to You",
+        level: 2,
+      },
+      {
+        id: "which-counselling-para1",
+        type: "paragraph",
+        content:
+          "MCC runs online counselling for the 50% All India Quota PG medical seats and other categories under its mandate. State authorities run their own processes, and the rules aren't the same everywhere. In general, the flow looks like this:",
+      },
+      {
+        id: "which-counselling-list",
+        type: "list",
+        items: [
+          "Eligibility",
+          "Registration",
+          "Choice Filling",
+          "Choice Locking",
+          "Seat Allotment",
+          "Reporting",
+        ],
+      },
+      {
+        id: "mistakes",
+        type: "heading",
+        title: "Mistakes to Avoid After the Result",
+        level: 2,
+      },
+      {
+        id: "mistakes-list",
+        type: "list",
+        items: [
+          "Choosing a branch only because of your rank — rank shows what's possible, not what suits your career.",
+          "Fixating on one college — keep several options open.",
+          "Ignoring fees and bonds — a seat can look great until you read the full financial and bond terms.",
+          "Filling choices at random — plan your preferences before you start entering them.",
+          "Trusting unofficial sources — rules and schedules can change, so confirm anything important with the official counselling authority.",
+        ],
+      },
+      {
+        id: "while-waiting",
+        type: "heading",
+        title: "While You Wait for Counselling",
+        level: 2,
+      },
+      {
+        id: "while-waiting-para1",
+        type: "paragraph",
+        content:
+          "Refreshing the result page or scrolling through college predictions won't get you far. Use the time to go through this list:",
+      },
+      {
+        id: "while-waiting-list",
+        type: "list",
+        items: [
+          "Analyze your rank",
+          "Explore branches",
+          "Research colleges",
+          "Read the counselling rules",
+          "Prepare documents",
+          "Draft your preference list",
+        ],
+      },
+      {
+        id: "while-waiting-conclusion",
+        type: "paragraph",
+        content:
+          "MCC's PG counselling portal posts schedules, seat information and candidate updates, so keep an eye on it for the current cycle.",
+      },
+      {
+        id: "bottom-line",
+        type: "heading",
+        title: "Bottom Line",
+        level: 2,
+      },
+      {
+        id: "bottom-line-para1",
+        type: "paragraph",
+        content:
+          "The result is where your admission journey starts. Once your rank is in, take a moment to understand your options before making any decisions. Know which branches are realistic, research colleges, compare the factors above and plan your choices carefully.",
+      },
+      {
+        id: "bottom-line-conclusion",
+        type: "paragraph",
+        content:
+          "A good rank gives you options. A solid counselling plan helps you use them well.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "What should I check after the result?",
+            answer: "Your score, AIR, percentile and qualifying status.",
+          },
+          {
+            question: "Does my rank decide my college?",
+            answer:
+              "No. Counselling rules, seats, category and your choices all play a part.",
+          },
+          {
+            question: "When should I start preparing for counselling?",
+            answer: "As soon as the result is out.",
+          },
+          {
+            question: "Which documents should I keep ready?",
+            answer: "Your scorecard, ID and the required academic documents.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "neet pg exam",
+          "neet pg 2026",
+          "neet pg result",
+          "neet pg 2026 result",
+          "neet pg rank",
+          "neet pg scorecard",
+          "neet pg 2026 rank",
+          "neet pg 2026 result date",
+          "neet pg counselling 2026",
+          "neet pg counselling",
+          "neet pg branch selection",
+          "neet pg choice filling",
+          "neet pg 2026 counselling",
+          "neet pg cut off 2026",
+          "neet pg admission process",
+          "neet pg counselling process",
+          "neet pg seat allotment",
+          "neet pg result date 2026",
+          "neet pg counselling eligibility",
+          "neet pg admit card",
+        ],
+      },
+    ],
+  },
 ];
 
 // Helper function to get blog by slug
