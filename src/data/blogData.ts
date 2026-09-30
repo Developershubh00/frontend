@@ -86502,6 +86502,316 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    id: 213,
+    title: "NEET PG Counselling: How AIQ and State Counselling Work",
+    slug: "neet-pg-counselling-how-aiq-and-state-counselling-work",
+    excerpt:
+      "Understand the NEET PG counselling process, including AIQ and state counselling, eligibility, registration, seat allocation, and important steps for admission.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/49180891/file/93d91c2497ddc20a167f1f0bec722945.jpg",
+    featured_image_alt: "neet pg counselling aiq state counselling process",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+    },
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
+    },
+    tags: [
+      "NEET PG",
+      "NEET PG 2026",
+      "NEET PG Counselling",
+      "AIQ Counselling",
+      "State Counselling",
+    ],
+    published_date: "2026-09-30",
+    read_time: 5,
+    meta_title:
+      "NEET PG Counselling Explained: AIQ & State Counselling Process",
+    meta_description:
+      "Understand the NEET PG counselling process, including AIQ and state counselling, eligibility, registration, seat allocation, and important steps for admission.",
+    keywords: [
+      "aiq counselling",
+      "neet pg counselling",
+      "neet pg",
+      "neet pg 2026",
+      "pg counselling",
+      "neet pg counselling schedule",
+      "neet pg counselling registration",
+      "aiq neet pg counselling",
+      "choice filling neet pg",
+      "counselling for neet pg",
+      "counselling procedure for neet pg",
+      "mcc neet ug counseling",
+      "neet pg career counselling",
+      "neet pg choice filling",
+      "neet pg counselling state quota",
+      "seat allotment neet pg",
+      "state quota neet pg",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content:
+          "Once your NEET PG result is out, the real work starts. Should you go for AIQ or State counselling? Can you do both? How do you fill your choices without regretting it later? Understanding how the two routes work makes planning much easier, and it helps you avoid the mistakes a lot of candidates make.",
+      },
+      {
+        id: "what-is-counselling",
+        type: "heading",
+        title: "What Is NEET PG Counselling?",
+        level: 2,
+      },
+      {
+        id: "what-is-para1",
+        type: "paragraph",
+        content:
+          "It's how eligible candidates get allotted PG medical seats, based on their rank, category, eligibility, preferences and the seats available. There are two tracks: All India Quota (AIQ) counselling and State counselling. Each has its own authority, its own eligibility rules and its own pool of seats.",
+      },
+      {
+        id: "aiq-counselling",
+        type: "heading",
+        title: "AIQ Counselling",
+        level: 2,
+      },
+      {
+        id: "aiq-para1",
+        type: "paragraph",
+        content:
+          "The Medical Counselling Committee (MCC) runs AIQ counselling for the seats that come under its process. It's national, so eligible candidates can compete for these seats no matter which state they're from.",
+      },
+      {
+        id: "aiq-para2",
+        type: "paragraph",
+        content:
+          "The steps are usually: registration, fee payment, choice filling, choice locking, seat allotment, and reporting to the college. Which colleges and seat categories are open depends on the scheme and seat matrix released for that year, so check the current one instead of assuming last year's still applies.",
+      },
+      {
+        id: "state-counselling",
+        type: "heading",
+        title: "State Counselling",
+        level: 2,
+      },
+      {
+        id: "state-para1",
+        type: "paragraph",
+        content:
+          "Each state's own counselling authority runs this one. Depending on the state, it can cover government colleges, private colleges and other participating institutions.",
+      },
+      {
+        id: "state-conclusion",
+        type: "paragraph",
+        content:
+          "Rules vary a lot from state to state: domicile requirements, eligibility, reservations, fees and document lists are all different. Don't rely on what a friend went through in another state. Read the official notification for the state you're applying to.",
+      },
+      {
+        id: "aiq-vs-state",
+        type: "heading",
+        title: "AIQ vs State Counselling",
+        level: 2,
+      },
+      {
+        id: "aiq-vs-state-para1",
+        type: "paragraph",
+        content:
+          "The main difference is who runs it and which seats you're competing for.",
+      },
+      {
+        id: "aiq-vs-state-table",
+        type: "table",
+        headers: ["", "AIQ", "State"],
+        rows: [
+          ["Conducted by", "MCC", "The state's counselling authority"],
+          ["Level", "National", "State"],
+          [
+            "Seats",
+            "Under the AIQ/national scheme",
+            "Under that state's framework",
+          ],
+          ["Eligibility", "MCC rules", "State-specific rules"],
+          ["Domicile", "Usually not tied to a state", "May apply"],
+          ["Choice filling", "MCC portal", "State portal"],
+        ],
+        caption:
+          "Seat availability and rules change every counselling year, so go by the latest official information, not by what worked before.",
+      },
+      {
+        id: "can-do-both",
+        type: "heading",
+        title: "Can You Do Both?",
+        level: 2,
+      },
+      {
+        id: "can-do-both-para1",
+        type: "paragraph",
+        content:
+          "In most cases, yes. You can take part in AIQ and in any State counselling you're eligible for, as long as you meet each one's requirements.",
+      },
+      {
+        id: "can-do-both-conclusion",
+        type: "paragraph",
+        content:
+          "More options are good, but they also mean juggling different registration deadlines, choice-filling dates, fee and deposit requirements, result dates, reporting deadlines, and upgrade or resignation rules, all on separate timelines. A simple calendar with every date on it can save you from missing something important.",
+      },
+      {
+        id: "filling-choices",
+        type: "heading",
+        title: "Filling Your Choices",
+        level: 2,
+      },
+      {
+        id: "filling-para1",
+        type: "paragraph",
+        content:
+          "This is probably the most important step, and it's not one to copy from a popular list. Think about what matters to you:",
+      },
+      {
+        id: "filling-list",
+        type: "list",
+        items: [
+          "Preferred branch",
+          "The college and its academic environment",
+          "Clinical exposure and patient load",
+          "Fees and stipend",
+          "Bond conditions",
+          "Location and hostel availability",
+          "Your long-term career plans",
+          "Seat type and category",
+        ],
+      },
+      {
+        id: "filling-conclusion",
+        type: "paragraph",
+        content:
+          "Your list should reflect your own priorities, matched against what's realistic for your rank and eligibility.",
+      },
+      {
+        id: "mistakes",
+        type: "heading",
+        title: "Mistakes to Avoid",
+        level: 2,
+      },
+      {
+        id: "mistakes-list",
+        type: "list",
+        items: [
+          "Filling choices without research — don't add a college just because the name sounds familiar. Look at its fees, clinical exposure, academics, stipend and bond terms first.",
+          "Overlooking fees and bond conditions — these vary widely between colleges and states, so check the full financial and service commitment before you pick a seat.",
+          "Relying too much on rank predictors — they give a rough idea, but they can't promise your final seat.",
+          "Copying someone else's preference list — their rank, category, branch preference, budget and goals aren't yours, so their list may not suit you at all.",
+          "Missing deadlines — check the official portals regularly. Missing a registration, choice-filling or reporting deadline can knock you out of a round.",
+        ],
+      },
+      {
+        id: "documents",
+        type: "heading",
+        title: "Documents to Keep Ready",
+        level: 2,
+      },
+      {
+        id: "documents-para1",
+        type: "paragraph",
+        content:
+          "Get these together before counselling opens so you're not scrambling later:",
+      },
+      {
+        id: "documents-list",
+        type: "list",
+        items: [
+          "NEET PG scorecard and admit card",
+          "MBBS degree or provisional certificate",
+          "MBBS marksheets",
+          "Internship completion certificate",
+          "Medical registration certificate",
+          "Valid photo ID",
+          "Category certificate, if applicable",
+          "Domicile certificate, if applicable",
+          "Recent photographs",
+        ],
+      },
+      {
+        id: "documents-conclusion",
+        type: "paragraph",
+        content:
+          "Requirements differ by state and category, so check the latest official notification before submitting anything.",
+      },
+      {
+        id: "final-takeaway",
+        type: "heading",
+        title: "Final Takeaway",
+        level: 2,
+      },
+      {
+        id: "final-takeaway-para1",
+        type: "paragraph",
+        content:
+          "Counselling is more than picking a college once your rank comes out. You need to understand how AIQ and State counselling differ, confirm your eligibility, research the seats you can realistically get, and build your list carefully.",
+      },
+      {
+        id: "final-takeaway-conclusion",
+        type: "paragraph",
+        content:
+          "Your rank matters, but so do the branch, college, fees, bond, stipend, clinical exposure and location, and where you want your career to go. Follow the official notifications, keep your documents ready, and don't make decisions based only on predictions or someone else's list. The better you understand the process, the more prepared you'll be when the window opens.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "Can I apply for both AIQ and State counselling?",
+            answer: "Yes, if you're eligible for both.",
+          },
+          {
+            question: "Who conducts AIQ counselling?",
+            answer: "The MCC.",
+          },
+          {
+            question: "Is domicile needed for State counselling?",
+            answer: "It depends on the state.",
+          },
+          {
+            question: "Can I edit my choices?",
+            answer: "Yes, during the window the authority allows.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "aiq counselling",
+          "neet pg counselling",
+          "neet pg",
+          "neet pg 2026",
+          "pg counselling",
+          "neet pg counselling schedule",
+          "neet pg counselling registration",
+          "aiq neet pg counselling",
+          "choice filling neet pg",
+          "counselling for neet pg",
+          "counselling procedure for neet pg",
+          "mcc neet ug counseling",
+          "neet pg career counselling",
+          "neet pg choice filling",
+          "neet pg counselling state quota",
+          "seat allotment neet pg",
+          "state quota neet pg",
+        ],
+      },
+    ],
+  },
 ];
 
 // Helper function to get blog by slug
