@@ -86504,7 +86504,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     id: 213,
-    title: "NEET PG Counselling: How AIQ and State Counselling Work",
+    title: "NEET PG Counselling Explained: How AIQ and State Counselling Work",
     slug: "neet-pg-counselling-how-aiq-and-state-counselling-work",
     excerpt:
       "Understand the NEET PG counselling process, including AIQ and state counselling, eligibility, registration, seat allocation, and important steps for admission.",
