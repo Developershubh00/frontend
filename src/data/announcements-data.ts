@@ -1900,6 +1900,19 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "National Board of Examinations",
     created_at: "2026-09-24",
   },
+  {
+    id: 144,
+    title: "NEET PG 2026",
+    content:
+      "NEET PG 2026: NMC Releases State-Wise & College-Wise Seat Matrix for MD/MS Courses. Download official PDF from NMC portal.",
+    date: "2026-09-29",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://nmc.org.in/whats-new/download/1871",
+    is_active: true,
+    source: "National Medical Commission",
+    created_at: "2026-09-29",
+  },
 ];
 
 /**
