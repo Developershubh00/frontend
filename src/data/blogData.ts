@@ -86812,6 +86812,388 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    id: 214,
+    title:
+      "INI-CET November: How to Priorities Your Revision When Time Is Limited",
+    slug: "ini-cet-november-how-to-priorities-your-revision-when-time-is-limited",
+    excerpt:
+      "Prioritize your INI-CET November 2026 revision with smart study strategies, focused topics, effective time management, and practical exam preparation tips.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/49200212/file/77efc48590a641883661ba00bc516d1e.jpg",
+    featured_image_alt: "ini cet november revision strategy preparation",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+    },
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
+    },
+    tags: [
+      "INI CET",
+      "INI CET November",
+      "INI CET 2026",
+      "INI CET Preparation",
+      "Exam Preparation",
+    ],
+    published_date: "2026-10-02",
+    read_time: 6,
+    meta_title: "INI-CET November 2026: How to Prioritize Your Revision",
+    meta_description:
+      "Prioritize your INI-CET November 2026 revision with smart study strategies, focused topics, effective time management, and practical exam preparation tips.",
+    keywords: [
+      "ini cet November",
+      "ini cet november 2026",
+      "ini cet 2026",
+      "ini cet preparation",
+      "ini cet preparation strategy",
+      "ini cet preparation tips",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content:
+          "With INI-CET November close, preparation feels different. You've probably been through several rounds of study, solved plenty of questions, attended classes, and made notes. Still, there's always one more topic waiting to be revised.",
+      },
+      {
+        id: "intro-para2",
+        type: "paragraph",
+        content:
+          "At this stage, the problem usually isn't a shortage of material. It's deciding what deserves your time now.",
+      },
+      {
+        id: "intro-conclusion",
+        type: "paragraph",
+        content:
+          "Trying to revise everything from scratch in the time you have left will wear you out without helping recall. Focus instead on smart revision, your repeated mistakes, PYQs and high-yield areas. Here's how to prioritize.",
+      },
+      {
+        id: "already-studied",
+        type: "heading",
+        title: "1. Start With What You've Already Studied",
+        level: 2,
+      },
+      {
+        id: "already-studied-para1",
+        type: "paragraph",
+        content:
+          "The last few weeks are a bad time to switch resources or start new books and video series. Go back to the material you've already used:",
+      },
+      {
+        id: "already-studied-list",
+        type: "list",
+        items: [
+          "Short notes",
+          "Marked topics",
+          "Class notes",
+          "Important tables and flowcharts",
+          "Concepts you've highlighted",
+          "Your personal mistake lists",
+        ],
+      },
+      {
+        id: "already-studied-conclusion",
+        type: "paragraph",
+        content:
+          "Familiar material takes less time to revise and does more for your recall.",
+      },
+      {
+        id: "pyqs-guide",
+        type: "heading",
+        title: "2. Let PYQs Guide Your Revision",
+        level: 2,
+      },
+      {
+        id: "pyqs-para1",
+        type: "paragraph",
+        content:
+          "Make previous-year questions a regular part of your final revision. Don't just solve them and move on. Ask why you got a question wrong and what concept it was testing.",
+      },
+      {
+        id: "pyqs-para2",
+        type: "paragraph",
+        content: "While going through PYQs, look for:",
+      },
+      {
+        id: "pyqs-list",
+        type: "list",
+        items: [
+          "Topics that are tested again and again",
+          "Concepts you keep getting wrong",
+          "Similar-looking options",
+          "Clinical associations",
+          "Image-based questions",
+          "Questions that need more than simple recall",
+        ],
+      },
+      {
+        id: "pyqs-conclusion",
+        type: "paragraph",
+        content: "PYQs also show you the kind of thinking the exam expects.",
+      },
+      {
+        id: "high-yield",
+        type: "heading",
+        title: "3. Give Priority to High-Yield Areas",
+        level: 2,
+      },
+      {
+        id: "high-yield-para1",
+        type: "paragraph",
+        content:
+          "Not every chapter needs the same amount of time. Sort your topics into three groups:",
+      },
+      {
+        id: "high-yield-list",
+        type: "list",
+        items: [
+          "Strong: you can recall it comfortably.",
+          "Needs revision: you know the concept but make occasional mistakes.",
+          "Weak: you struggle to understand or recall it even after revising.",
+        ],
+      },
+      {
+        id: "high-yield-conclusion",
+        type: "paragraph",
+        content:
+          "Spend most of your time on the second and third groups, and keep quick revisions going for the strong ones. That way you won't burn hours on topics you already know well.",
+      },
+      {
+        id: "images",
+        type: "heading",
+        title: "4. Don't Leave Images for the Last Night",
+        level: 2,
+      },
+      {
+        id: "images-para1",
+        type: "paragraph",
+        content:
+          "INI-CET can test whether you recognize clinical and visual findings, so image revision needs to start early. Practice regularly with images from:",
+      },
+      {
+        id: "images-list",
+        type: "list",
+        items: [
+          "Pathology",
+          "Radiology",
+          "Dermatology",
+          "Microbiology",
+          "Anatomy",
+          "Orthopedics",
+          "Ophthalmology",
+        ],
+      },
+      {
+        id: "images-conclusion",
+        type: "paragraph",
+        content:
+          "Try to identify the image before you look at the answer. It turns passive revision into active recall.",
+      },
+      {
+        id: "volatile-topics",
+        type: "heading",
+        title: "5. Keep a Separate List of Volatile Topics",
+        level: 2,
+      },
+      {
+        id: "volatile-para1",
+        type: "paragraph",
+        content:
+          "Some facts slip away even after you've understood them. Instead of rereading whole chapters for these, keep a short list. It could include:",
+      },
+      {
+        id: "volatile-list",
+        type: "list",
+        items: [
+          "Important values",
+          "Drug adverse effects",
+          "Antidotes",
+          "Microbiology facts",
+          "Vaccination schedules",
+          "Genetic associations",
+          "Tumour markers",
+          "Staging systems",
+          "Important formulas",
+          "Named signs and syndromes",
+        ],
+      },
+      {
+        id: "volatile-conclusion",
+        type: "paragraph",
+        content:
+          "Go through this list regularly instead of trying to memorize everything from scratch again.",
+      },
+      {
+        id: "mock-tests",
+        type: "heading",
+        title: "6. Use Mock Tests to Find Gaps",
+        level: 2,
+      },
+      {
+        id: "mock-tests-para1",
+        type: "paragraph",
+        content:
+          "A mock test isn't only about the score. In the final phase, its real value is showing you where your preparation is still breaking down. After each test, review:",
+      },
+      {
+        id: "mock-tests-list",
+        type: "list",
+        items: [
+          "Questions you got wrong",
+          "Questions you guessed",
+          "Questions that took you too long",
+          "Concepts you'd forgotten",
+          "Mistakes you've made before",
+        ],
+      },
+      {
+        id: "mock-tests-conclusion",
+        type: "paragraph",
+        content:
+          "If the same topic keeps showing up in your mistakes, it needs another round of revision.",
+      },
+      {
+        id: "no-new-resources",
+        type: "heading",
+        title: "7. Stop Adding New Resources",
+        level: 2,
+      },
+      {
+        id: "no-new-para1",
+        type: "paragraph",
+        content:
+          "It's easy to lose focus before INI-CET by collecting more material. A new revision series, another set of notes or a different question bank can feel helpful, but it often just adds pressure. Before you add anything, ask yourself: will this actually improve my preparation, or will it just give me more to finish?",
+      },
+      {
+        id: "no-new-conclusion",
+        type: "paragraph",
+        content:
+          "Right now, consolidating is usually more useful than collecting.",
+      },
+      {
+        id: "build-around-weaknesses",
+        type: "heading",
+        title: "8. Build Your Plan Around Your Own Weaknesses",
+        level: 2,
+      },
+      {
+        id: "weaknesses-para1",
+        type: "paragraph",
+        content:
+          "No single timetable works for everyone. If Pharmacology is a strength and Pathology needs repeated revision, your time should reflect that. If you're comfortable with theory but struggle with images or clinical questions, do more active practice.",
+      },
+      {
+        id: "weaknesses-conclusion",
+        type: "paragraph",
+        content:
+          "Base your plan on your mistakes, your recall and the gaps that remain.",
+      },
+      {
+        id: "final-week",
+        type: "heading",
+        title: "What to Do in the Final Week",
+        level: 2,
+      },
+      {
+        id: "final-week-para1",
+        type: "paragraph",
+        content:
+          "The last week should be about consolidation, not fresh preparation. Stick to:",
+      },
+      {
+        id: "final-week-list",
+        type: "list",
+        items: [
+          "Short notes",
+          "PYQs",
+          "Mistake lists",
+          "Important images",
+          "Volatile facts",
+          "High-yield topics",
+          "Concepts you revise often",
+        ],
+      },
+      {
+        id: "final-week-conclusion",
+        type: "paragraph",
+        content:
+          "Don't start big new resources, and don't try to cover everything you skipped over the whole preparation. Protect your sleep and routine too. If you're mentally exhausted on exam day, even familiar questions can feel hard.",
+      },
+      {
+        id: "goal",
+        type: "heading",
+        title: "The Goal: Better Recall, Not More Content",
+        level: 2,
+      },
+      {
+        id: "goal-para1",
+        type: "paragraph",
+        content:
+          "Feeling like you haven't studied enough is normal as the exam nears. But piling on more information isn't the answer. What you need now is to make what you've already studied easier to recall under exam pressure.",
+      },
+      {
+        id: "goal-conclusion",
+        type: "paragraph",
+        content:
+          "Revise what you know. Find what you keep forgetting. Practise questions and review your mistakes. Keep your resources few and your revision focused. You don't need to know everything. You need to be able to use what you know when the question is in front of you.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "Should I start new topics before INI-CET?",
+            answer:
+              "Not really. Stick to revision. If a new topic is important and you can finish it in a day or two, fine. Otherwise leave it.",
+          },
+          {
+            question: "How important are PYQs during final revision?",
+            answer:
+              "Very. They show you which topics keep coming up and which ones you keep getting wrong.",
+          },
+          {
+            question: "Should I revise all subjects every day?",
+            answer:
+              "No need. Give more time to the subjects where you're weaker and just do quick passes on the ones you're already good at.",
+          },
+          {
+            question: "What should I revise in the final week?",
+            answer:
+              "Your short notes, PYQs, images, the facts you keep forgetting, your mistake list and the high-yield topics.",
+          },
+          {
+            question: "Should I use new study material in the final days?",
+            answer:
+              "Better not to. Spend the time going over what you've already studied.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "ini cet November",
+          "ini cet november 2026",
+          "ini cet 2026",
+          "ini cet preparation",
+          "ini cet preparation strategy",
+          "ini cet preparation tips",
+        ],
+      },
+    ],
+  },
 ];
 
 // Helper function to get blog by slug
