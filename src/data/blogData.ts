@@ -87194,6 +87194,270 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    id: 215,
+    title: "NEET PG State Counselling: How It Actually Works",
+    slug: "neet-pg-state-counselling-how-it-actually-works",
+    excerpt:
+      "Understand the NEET PG State Counselling 2026 process, including registration, choice filling, seat allotment, eligibility, and admission steps.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/49225900/file/15b9a86a4a2e9acf82091d89b5f1cee1.jpg",
+    featured_image_alt: "neet pg state counselling 2026 process",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+    },
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
+    },
+    tags: [
+      "NEET PG",
+      "NEET PG Counselling",
+      "State Counselling",
+      "NEET PG 2026",
+      "PG Medical Admission",
+    ],
+    published_date: "2026-10-05",
+    read_time: 5,
+    meta_title: "NEET PG State Counselling 2026: How Does It Work?",
+    meta_description:
+      "Understand the NEET PG State Counselling 2026 process, including registration, choice filling, seat allotment, eligibility, and admission steps.",
+    keywords: [
+      "neet pg state counselling",
+      "neet pg counselling process",
+      "neet pg counselling 2026",
+      "neet pg state quota",
+      "neet pg counselling registration",
+      "neet pg choice filling",
+      "neet pg seat allotment",
+      "neet pg merit list",
+      "neet pg seat matrix",
+      "neet pg counselling documents",
+      "neet pg counselling fees",
+      "neet pg counselling dates",
+      "neet pg admission process",
+      "neet pg state quota vs aiq",
+      "neet pg results",
+      "neet pg rank",
+      "neet pg",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content:
+          "The result is out, you know your rank, and now everyone is asking the same thing: what happens next?",
+      },
+      {
+        id: "intro-para2",
+        type: "paragraph",
+        content:
+          "Counselling happens next. Your rank only tells you where you stand. It's counselling that turns it into a branch and a college, depending on your eligibility and which seats are open. MCC takes care of the 50% All India Quota seats. Everything else, the state quota seats, goes through the State/UT counselling authority. This post is about that second route.",
+      },
+      {
+        id: "what-is-state",
+        type: "heading",
+        title: "So What Is State Counselling?",
+        level: 2,
+      },
+      {
+        id: "what-is-para1",
+        type: "paragraph",
+        content:
+          "Think of it as a seat-allotment process run by your state. You don't sit another exam. The state takes your NEET PG score and runs it through its own rules on eligibility, reservation and admission. Because those rules change from state to state, the official notification of the state you're applying to is the one document you shouldn't skip.",
+      },
+      {
+        id: "eligibility",
+        type: "heading",
+        title: "Start With Eligibility",
+        level: 2,
+      },
+      {
+        id: "eligibility-para1",
+        type: "paragraph",
+        content:
+          "Don't register first and read the rules later. Most states ask for a mix of the following: a NEET PG qualification, an MBBS degree, a completed internship, medical registration, and valid category certificates if you're applying under a reserved category. Some seats also need a domicile certificate. Clearing NEET PG doesn't mean every state quota seat is open to you, and plenty of candidates learn that the hard way.",
+      },
+      {
+        id: "registration",
+        type: "heading",
+        title: "Registration",
+        level: 2,
+      },
+      {
+        id: "registration-para1",
+        type: "paragraph",
+        content:
+          "You register on the official website of the State/UT authority. Expect to enter your NEET PG details, academic information and category details, and upload documents. A registration or counselling fee may apply. Read everything twice before you hit submit, and save your login details somewhere you won't lose them, since you'll be coming back to that portal often.",
+      },
+      {
+        id: "merit-list",
+        type: "heading",
+        title: "The Merit List",
+        level: 2,
+      },
+      {
+        id: "merit-list-para1",
+        type: "paragraph",
+        content:
+          "Once registration and verification wrap up, the state publishes its merit list. It's built on your NEET PG performance plus the state's own category and reservation rules, so your position here can look different from your all-India rank. Check your name, details and category as soon as it goes live. If the authority allows objections or corrections, follow the process it gives, not a shortcut someone mentioned in a group chat.",
+      },
+      {
+        id: "seat-matrix",
+        type: "heading",
+        title: "Look at the Seat Matrix Before You Choose",
+        level: 2,
+      },
+      {
+        id: "seat-matrix-para1",
+        type: "paragraph",
+        content:
+          "A college name only tells you so much. Before filling anything in, compare the seats on branch, college type, fees, bond conditions, stipend, patient load, clinical exposure, location and the general academic environment. A seat with a heavy bond or high fees might not suit you even if the college sounds great. Ten minutes on this saves a lot of regret later.",
+      },
+      {
+        id: "choice-filling",
+        type: "heading",
+        title: "Choice Filling",
+        level: 2,
+      },
+      {
+        id: "choice-filling-para1",
+        type: "paragraph",
+        content:
+          "This is the stage that shapes your next three years, so give it the most time. Pick your branch and college combinations and rank them by what you want most. Be realistic about it. A list made up only of dream options can leave you with no seat at all. Think about your rank, the specialty you want, what you can afford, and what's actually on offer. Also find out how choice modification and locking work in your state, because it isn't the same everywhere.",
+      },
+      {
+        id: "allotment",
+        type: "heading",
+        title: "Allotment",
+        level: 2,
+      },
+      {
+        id: "allotment-para1",
+        type: "paragraph",
+        content:
+          "After choice filling closes, the authority allots seats based on merit, category, eligibility and availability. If you get one, read the instructions fully before doing anything. You may have to accept the seat, pay a fee, get documents verified, report to the college, or move on to later rounds if the state permits. The deadlines in the notification are firm, and missing one can cost you the seat.",
+      },
+      {
+        id: "finishing-admission",
+        type: "heading",
+        title: "Finishing Admission",
+        level: 2,
+      },
+      {
+        id: "finishing-para1",
+        type: "paragraph",
+        content:
+          "Getting an allotment isn't the same as getting admitted. You still have to complete document verification, pay the fee and report to the college within the stated time. Schedules do change, so keep the counselling portal open in a tab and check it regularly.",
+      },
+      {
+        id: "vs-aiq",
+        type: "heading",
+        title: "How This Differs From AIQ Counselling",
+        level: 2,
+      },
+      {
+        id: "vs-aiq-para1",
+        type: "paragraph",
+        content:
+          "The difference comes down to who runs it and which seats it covers. MCC conducts AIQ counselling and handles any other seats assigned to it. State authorities run their own seats separately. If you're planning to take part in both, treat them as two different processes with two different schedules, and track each one on its own.",
+      },
+      {
+        id: "where-people-slip",
+        type: "heading",
+        title: "Where People Slip Up",
+        level: 2,
+      },
+      {
+        id: "where-people-slip-list",
+        type: "list",
+        items: [
+          "Missing registration deadlines",
+          "Skipping the state's eligibility rules",
+          "Filling choices without looking at fees and bonds",
+          "Leaning entirely on last year's cut-offs, which can shift",
+          "Forgetting document verification or reporting dates",
+          "Assuming every state works the same way",
+          "Stopping to check official updates after registering",
+        ],
+      },
+      {
+        id: "conclusion",
+        type: "heading",
+        title: "Conclusion",
+        level: 2,
+      },
+      {
+        id: "conclusion-para1",
+        type: "paragraph",
+        content:
+          "Check eligibility, register, check the merit list, review the seats, fill choices, check allotment, complete admission. The details vary by state, so go by the latest notification from your State/UT authority. Your rank gets you through the door, and the choices you make after that decide where you land.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "Is there a separate exam for state counseling?",
+            answer: "No. Your NEET PG result is what's used.",
+          },
+          {
+            question: "Does MCC run state counselling?",
+            answer: "No, the State/UT counselling authority does.",
+          },
+          {
+            question: "Can I take part in both AIQ and state counselling?",
+            answer:
+              "That depends on the counselling rules and your eligibility.",
+          },
+          {
+            question: "Are the rules the same everywhere?",
+            answer:
+              "No. Eligibility, fees, documents and procedures all vary by state.",
+          },
+          {
+            question: "Where do I find updates?",
+            answer:
+              "On the official MCC portal and your State/UT authority's website.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "neet pg state counselling",
+          "neet pg counselling process",
+          "neet pg counselling 2026",
+          "neet pg state quota",
+          "neet pg counselling registration",
+          "neet pg choice filling",
+          "neet pg seat allotment",
+          "neet pg merit list",
+          "neet pg seat matrix",
+          "neet pg counselling documents",
+          "neet pg counselling fees",
+          "neet pg counselling dates",
+          "neet pg admission process",
+          "neet pg state quota vs aiq",
+          "neet pg results",
+          "neet pg rank",
+          "neet pg",
+        ],
+      },
+    ],
+  },
 ];
 
 // Helper function to get blog by slug
