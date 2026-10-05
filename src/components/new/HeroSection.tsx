@@ -100,8 +100,8 @@ const HeroSection = () => {
             Predict My College
           </a>
 
-          <a href="tel:+919211724969" className="secondary-btn">
-            Book 1:1 Counselling
+          <a href="https://wa.me/919211724969" className="secondary-btn">
+            Share Your Query With Us
           </a>
         </div>
 

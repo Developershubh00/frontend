@@ -224,7 +224,13 @@ const DataAdvantage: React.FC = () => {
           <div className="statement-mark">+</div>
         </div>
 
-        <button className="data-cta" type="button">
+        <button
+          className="data-cta"
+          type="button"
+          onClick={() => {
+            window.location.href = "https://believersconsultancy.com/login";
+          }}
+        >
           <span>Explore Counselling Insights</span>
 
           <span className="data-cta-arrow">
