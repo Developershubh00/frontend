@@ -1913,6 +1913,19 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "National Medical Commission",
     created_at: "2026-09-29",
   },
+  {
+    id: 145,
+    title: "NEET PG 2026",
+    content:
+      "KEA Karnataka State NEET PG 2026 Counselling: Round 1 Registration Started",
+    date: "2026-10-05",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://cetonline.karnataka.gov.in/pgneet2026/forms/login.aspx",
+    is_active: true,
+    source: "KEA Official Website",
+    created_at: "2026-10-05",
+  },
 ];
 
 /**
