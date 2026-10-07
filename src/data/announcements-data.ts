@@ -1938,6 +1938,19 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "ACPMEC",
     created_at: "2026-10-06",
   },
+  {
+    id: 147,
+    title: "NEET PG 2026",
+    content:
+      "NEET PG Counselling 2026: MCC Releases Tentative Schedule for AIQ, Deemed & Central University Seats",
+    date: "2026-10-07",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610071411981089.pdf",
+    is_active: true,
+    source: "MCC",
+    created_at: "2026-10-07",
+  },
 ];
 
 /**

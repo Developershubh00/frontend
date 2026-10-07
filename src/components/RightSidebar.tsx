@@ -235,26 +235,32 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
     },
     {
       id: 6,
-      date: "September 30, 2026",
+      date: "September 24, 2026",
       event: "Result Declaration",
-      status: "upcoming",
+      isHighlight: true,
     },
     {
       id: 7,
-      date: "September-October 2026 (Tentative)",
+      date: "10 - 12 October, 2026 (Tentative)",
       event: "Round 1 Counselling",
       status: "upcoming",
     },
     {
       id: 8,
-      date: "October-November 2026 (Tentative)",
+      date: "6 - 7 November, 2026 (Tentative)",
       event: "Round 2 Counselling",
       status: "upcoming",
     },
     {
       id: 9,
-      date: "November-December 2026 (Tentative)",
-      event: "Round 3 & Stray Vacancy Round",
+      date: "25 - 26 November, 2026 (Tentative)",
+      event: "Round 3 Counselling",
+      status: "upcoming",
+    },
+    {
+      id: 10,
+      date: "15 December, 2026 (Tentative)",
+      event: "Online Stray Vacancy Round",
       status: "upcoming",
     },
   ];

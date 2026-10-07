@@ -98,17 +98,6 @@ function Homepage() {
             {/* Desktop Menu */}
             <div className="hidden md:flex items-center space-x-8 ml-auto">
               <div className="flex items-center space-x-8">
-                <a
-                  onClick={() => navigate("/inicet-result")}
-                  className="text-white bg-gradient-to-r from-blue-300 to-blue-600 hover:from-blue-600 hover:to-blue-700 px-4 py-2 rounded-full transition-all duration-300 font-bold relative group cursor-pointer "
-                >
-                  INICET
-                  <span className="absolute -top-1 -right-1 flex h-3 w-3">
-                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
-                    <span className="relative inline-flex rounded-full h-3 w-3 bg-blue-500"></span>
-                  </span>
-                </a>
-
                 {/* Counsellings Dropdown */}
                 <div className="relative" ref={counsellingDropdownRef}>
                   <button
@@ -195,15 +184,6 @@ function Homepage() {
           {isMenuOpen && (
             <div className="md:hidden border-t border-gray-100 bg-white/95 backdrop-blur-sm">
               <div className="px-2 pt-2 pb-3 space-y-1">
-                <a
-                  onClick={() => {
-                    navigate("/inicet-result");
-                    setIsMenuOpen(false);
-                  }}
-                  className="block px-3 py-3 text-white bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 rounded-xl transition-all duration-300 font-bold text-center cursor-pointer shadow-lg mb-2 animate-pulse"
-                >
-                  🎉 INICET Results Out! Check Now
-                </a>
                 {/* Counsellings section in mobile */}
                 <div className="px-3 py-2">
                   <p className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">

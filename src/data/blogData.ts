@@ -87458,6 +87458,305 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    id: 216,
+    title: "NEET PG AIQ Counselling: Registration, Choices and Seat Allotment",
+    slug: "neet-pg-aiq-counselling-registration-choices-and-seat-allotment",
+    excerpt:
+      "Learn about NEET PG AIQ Counselling 2026, including registration, choice filling, seat allotment, eligibility, important steps, and counselling process.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/49248431/file/ee74ec01e64f5dc3ac30a35e9d65969e.jpg",
+    featured_image_alt:
+      "neet pg aiq counselling registration choices seat allotment",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+    },
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
+    },
+    tags: [
+      "NEET PG",
+      "NEET PG AIQ Counselling",
+      "NEET PG Counselling 2026",
+      "MCC NEET PG",
+      "All India Quota Counselling",
+    ],
+    published_date: "2026-10-07",
+    read_time: 4,
+    meta_title:
+      "NEET PG AIQ Counselling 2026: Registration, Choices & Allotment",
+    meta_description:
+      "Learn about NEET PG AIQ Counselling 2026, including registration, choice filling, seat allotment, eligibility, important steps, and counselling process.",
+    keywords: [
+      "neet pg aiq counselling",
+      "neet pg all india quota counselling",
+      "neet pg aiq counselling process",
+      "neet pg counselling 2026",
+      "mcc neet pg counselling 2026",
+      "neet pg counselling",
+      "neet pg 2026 counselling",
+      "neet pg counselling registration",
+      "neet pg choice locking",
+      "neet pg seat allotment",
+      "neet pg seat matrix",
+      "mcc neet pg counselling",
+      "mcc counselling process",
+      "neet pg allotment letter",
+      "neet pg counselling rounds",
+      "neet pg counselling eligibility",
+      "mcc neet pg registration",
+      "mcc neet pg counselling 2026",
+      "mcc neet pg counselling process",
+      "mcc neet pg seat matrix",
+      "all india quota counselling",
+      "neet pg rank",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content:
+          "Once the NEET PG result is out, counselling is the next thing on your mind. For most aspirants, All India Quota (AIQ) counselling is the route to PG seats across participating institutions.",
+      },
+      {
+        id: "intro-conclusion",
+        type: "paragraph",
+        content:
+          "It's more than registering and picking a college, though. You need to know how choice filling works, how seats are allotted, and what you're expected to do once you get one. Here's how the whole thing runs.",
+      },
+      {
+        id: "what-is-aiq",
+        type: "heading",
+        title: "What Is AIQ Counselling?",
+        level: 2,
+      },
+      {
+        id: "what-is-para1",
+        type: "paragraph",
+        content:
+          "The Medical Counselling Committee (MCC) conducts it for the PG seats covered under its scheme. Depending on the year, the seats can include MD, MS, PG Diploma and other courses, and which institutions and seat categories are included can change from year to year. Your allotment depends on your NEET PG rank, your category, the choices you fill and how many seats are available, under that year's counselling rules.",
+      },
+      {
+        id: "who-can-participate",
+        type: "heading",
+        title: "Who Can Take Part?",
+        level: 2,
+      },
+      {
+        id: "who-can-para1",
+        type: "paragraph",
+        content:
+          "Anyone who has qualified NEET PG and meets the eligibility criteria set by the counselling authority. Those criteria can differ by seat category and institution, so read the official MCC counselling scheme and information bulletin before you register. If you're also eligible for state counselling, that's a separate process run by your state authority, and you'll have to register for it separately.",
+      },
+      {
+        id: "step1-register",
+        type: "heading",
+        title: "Step 1: Register on the MCC Portal",
+        level: 2,
+      },
+      {
+        id: "step1-para1",
+        type: "paragraph",
+        content:
+          "Register on the official MCC portal as soon as registration opens. You'll be asked for your NEET PG details, personal and academic information, category details if they apply, and your contact information. You'll also have to pay the counselling fee or security deposit for that round.",
+      },
+      {
+        id: "step1-conclusion",
+        type: "paragraph",
+        content:
+          "Don't leave this for the last day. Payment failures, portal glitches and incomplete forms are common near deadlines, and they're a stressful way to lose a chance.",
+      },
+      {
+        id: "step2-seat-matrix",
+        type: "heading",
+        title: "Step 2: Check the Seat Matrix",
+        level: 2,
+      },
+      {
+        id: "step2-para1",
+        type: "paragraph",
+        content:
+          "Before you fill any choices, look at the seat matrix MCC releases for that round. It shows which colleges, courses, categories and seats are on offer. Seat availability for a given branch or college can shift from one round to the next, so don't treat the matrix from an earlier round as final.",
+      },
+      {
+        id: "step3-choices",
+        type: "heading",
+        title: "Step 3: Fill Your Choices",
+        level: 2,
+      },
+      {
+        id: "step3-para1",
+        type: "paragraph",
+        content:
+          "This is where your strategy comes in, and filling the list at random is a bad idea. Choose the college and course combinations you want and arrange them in order of preference. Things worth weighing:",
+      },
+      {
+        id: "step3-list",
+        type: "list",
+        items: [
+          "Branch you want",
+          "College and academic environment",
+          "Clinical exposure and patient load",
+          "Fees, stipend and bond conditions",
+          "Location and hostel facilities",
+          "Where you want your career to go",
+        ],
+      },
+      {
+        id: "step3-conclusion",
+        type: "paragraph",
+        content:
+          "A good list has a mix: the seats you actually want, plus options that are realistic for your rank.",
+      },
+      {
+        id: "step4-lock",
+        type: "heading",
+        title: "Step 4: Lock Your Choices",
+        level: 2,
+      },
+      {
+        id: "step4-para1",
+        type: "paragraph",
+        content:
+          "Lock your list before the deadline. Go through it once more before you do, and check that the order really reflects what you'd want to get. After locking, changes usually aren't allowed for that round.",
+      },
+      {
+        id: "step5-allotment",
+        type: "heading",
+        title: "Step 5: Seat Allotment",
+        level: 2,
+      },
+      {
+        id: "step5-para1",
+        type: "paragraph",
+        content:
+          "When choice filling ends, MCC processes the choices using the counselling rules. The outcome depends on your rank, category, the choices you filled, seat availability, and the reservation and counselling rules in force. The result is published on the official portal.",
+      },
+      {
+        id: "step5-conclusion",
+        type: "paragraph",
+        content:
+          "A seat in one round doesn't necessarily end things. Depending on the rules, you may be able to accept it, move on to a later round, or go for an upgrade.",
+      },
+      {
+        id: "after-seat",
+        type: "heading",
+        title: "After You Get a Seat",
+        level: 2,
+      },
+      {
+        id: "after-seat-para1",
+        type: "paragraph",
+        content:
+          "Read the instructions for that round properly. You'll probably need to download the allotment letter, get your documents verified and report to the college within the given time. Keep your originals and copies ready. If you're thinking about trying for a better seat in a later round, understand the rules for that first, before you take any action on the portal.",
+      },
+      {
+        id: "rounds",
+        type: "heading",
+        title: "The Rounds",
+        level: 2,
+      },
+      {
+        id: "rounds-para1",
+        type: "paragraph",
+        content:
+          "MCC counselling can have several rounds, depending on the year's scheme, and what you get in each one depends on seat availability and your choices. Don't assume a round will be your only chance. At the same time, don't plan around a seat you hope will free up later, because there's no guarantee it will. Go by the rules announced for that year and round.",
+      },
+      {
+        id: "mistakes",
+        type: "heading",
+        title: "Mistakes to Avoid",
+        level: 2,
+      },
+      {
+        id: "mistakes-list",
+        type: "list",
+        items: [
+          "Not following official notifications — dates, rules and seat matrices can change. Follow MCC's updates rather than social media posts or unofficial sources.",
+          "Filling too few choices — a short list limits what you can get. Fill it thoughtfully, based on what you actually want and are eligible for.",
+          "Ignoring fees and bonds — check the fee structure, stipend and bond before you put a college near the top of your list.",
+          "Trusting rank predictors too much — they give you a rough idea of what's possible, but they can't promise an allotment.",
+        ],
+      },
+      {
+        id: "short-version",
+        type: "heading",
+        title: "The Short Version",
+        level: 2,
+      },
+      {
+        id: "short-version-para1",
+        type: "paragraph",
+        content:
+          "The steps are registration, seat matrix, choice filling, choice locking, allotment and reporting. Your rank matters, but so do the branch, the college, the fees, the clinical exposure, the stipend, the bond and where you want to be in a few years. Keep checking the official MCC updates and finish every step before its deadline. A well-thought-out choice list makes the whole process a lot less stressful.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "Who conducts NEET PG AIQ counselling?",
+            answer: "MCC conducts it for the eligible AIQ seats.",
+          },
+          {
+            question: "What affects AIQ seat allotment?",
+            answer:
+              "Your rank, category, the choices you fill, seat availability and the counselling rules.",
+          },
+          {
+            question: "Can I take part in state counselling too?",
+            answer:
+              "Yes, if you're eligible. You'll register separately with your state authority.",
+          },
+          {
+            question: "Can I change my choices after locking them?",
+            answer:
+              "Usually not. Locked choices generally can't be changed for that round.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "neet pg aiq counselling",
+          "neet pg all india quota counselling",
+          "neet pg aiq counselling process",
+          "neet pg counselling 2026",
+          "mcc neet pg counselling 2026",
+          "neet pg counselling",
+          "neet pg 2026 counselling",
+          "neet pg counselling registration",
+          "neet pg choice locking",
+          "neet pg seat allotment",
+          "neet pg seat matrix",
+          "mcc neet pg counselling",
+          "mcc counselling process",
+          "neet pg allotment letter",
+          "neet pg counselling rounds",
+          "neet pg counselling eligibility",
+          "mcc neet pg registration",
+          "mcc neet pg counselling 2026",
+          "mcc neet pg counselling process",
+          "mcc neet pg seat matrix",
+          "all india quota counselling",
+          "neet pg rank",
+        ],
+      },
+    ],
+  },
 ];
 
 // Helper function to get blog by slug
