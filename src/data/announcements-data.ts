@@ -1926,6 +1926,18 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "KEA Official Website",
     created_at: "2026-10-05",
   },
+  {
+    id: 146,
+    title: "NEET PG 2026",
+    content: "Gujarat NEET PG 2026: Mandatory Document Verification Update",
+    date: "2026-10-06",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://medadmgujarat.org/",
+    is_active: true,
+    source: "ACPMEC",
+    created_at: "2026-10-06",
+  },
 ];
 
 /**
