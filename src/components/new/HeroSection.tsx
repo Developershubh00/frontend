@@ -63,6 +63,15 @@ const HeroSection = () => {
             duration: 0.8,
           },
           "-=0.35",
+        )
+        .from(
+          ".hero-college",
+          {
+            opacity: 0,
+            y: 30,
+            duration: 0.8,
+          },
+          "-=0.35",
         );
     }, heroRef);
 
@@ -111,6 +120,12 @@ const HeroSection = () => {
             target="_blank"
           >
             Check Your NEET PG Result
+          </a>
+        </div>
+
+        <div className="hero-college">
+          <a href="https://pdfbros.com/s/npysy8z" target="_blank">
+            DNB/MS Orthopedic Colleges List
           </a>
         </div>
       </div>

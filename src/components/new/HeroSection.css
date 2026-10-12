@@ -106,6 +106,16 @@
   font-weight: 600;
 }
 
+.hero-college {
+  margin-top: 1rem;
+}
+
+.hero-college a {
+  color: #ff732d;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
 /* -------------------------- Responsive Style --------------------------- */
 
 @media (max-width: 1024px) {
