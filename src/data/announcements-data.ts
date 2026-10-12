@@ -1951,6 +1951,19 @@ export const ANNOUNCEMENTS: Announcement[] = [
     source: "MCC",
     created_at: "2026-10-07",
   },
+  {
+    id: 148,
+    title: "NEET PG 2026",
+    content:
+      "NEET PG Counselling 2026 Round 1 Registration Begins Today: Check Complete Schedule, Fees, and Steps to Apply",
+    date: "2026-10-12",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://timesofindia.indiatimes.com/education/news/neet-pg-counselling-2026-round-1-registration-begins-october-12-check-schedule-and-steps-to-apply/articleshow/134881043.cms",
+    is_active: true,
+    source: "The Times of India",
+    created_at: "2026-10-12",
+  },
 ];
 
 /**
