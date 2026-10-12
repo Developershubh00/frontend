@@ -88095,6 +88095,354 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    id: 218,
+    title:
+      "NEET PG Counselling: AIQ vs State Quota, What Should You Consider Before Choosing?",
+    slug: "neet-pg-counselling-aiq-vs-state-quota-what-should-you-consider-before-choosing",
+    excerpt:
+      "Compare NEET PG AIQ vs State Quota counselling, including eligibility, seat availability, domicile rules, fees, and choice filling before registration.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/49293717/file/f864c32112038fc46bfba2f86c5c8054.jpg",
+    featured_image_alt: "neet pg aiq vs state quota counselling comparison",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+    },
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
+    },
+    tags: [
+      "NEET PG",
+      "NEET PG Counselling",
+      "AIQ Counselling",
+      "State Quota",
+      "NEET PG 2026",
+    ],
+    published_date: "2026-10-12",
+    read_time: 5,
+    meta_title: "NEET PG AIQ vs State Quota: What Should You Consider?",
+    meta_description:
+      "Compare NEET PG AIQ vs State Quota counselling, including eligibility, seat availability, domicile rules, fees, and choice filling before registration.",
+    keywords: [
+      "neet pg aiq counselling",
+      "neet pg counselling process",
+      "neet pg counselling 2026",
+      "neet pg counselling",
+      "neet pg 2026 counselling",
+      "neet pg state quota eligibility",
+      "neet pg domicile rules",
+      "neet pg choice filling",
+      "neet pg preference list",
+      "neet pg seat allotment",
+      "neet pg counselling registration",
+      "mcc neet pg counselling",
+      "neet pg counselling fees",
+      "neet pg counselling dates",
+      "neet pg rank",
+      "aiq counselling",
+      "neet pg results",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content:
+          "Your NEET PG rank is only half the story. The other half is counselling, where that rank has to turn into an actual college and branch.",
+      },
+      {
+        id: "intro-para2",
+        type: "paragraph",
+        content:
+          "This is where a lot of people get stuck. Do I go for All India Quota (AIQ)? Should I apply through State Quota? Can I do both?",
+      },
+      {
+        id: "intro-conclusion",
+        type: "paragraph",
+        content:
+          "It depends on your eligibility, your rank, the branch you want, the colleges you'd be happy in, your budget and where you're willing to live. Picking one route without looking at the other is a gamble. Understand both first, then compare.",
+      },
+      {
+        id: "what-is-aiq",
+        type: "heading",
+        title: "What Is AIQ Counselling?",
+        level: 2,
+      },
+      {
+        id: "what-is-aiq-para1",
+        type: "paragraph",
+        content:
+          "The Medical Counselling Committee (MCC) runs All India Quota counselling for the PG seats under its scheme. It's one national process that every eligible candidate competes in. You register, fill choices, lock them, get an allotment and then report to the college.",
+      },
+      {
+        id: "what-is-aiq-conclusion",
+        type: "paragraph",
+        content:
+          "Which colleges and seat categories you can get depends on the seat matrix MCC publishes for each round, so that's the document to read, not last year's chatter.",
+      },
+      {
+        id: "what-is-state",
+        type: "heading",
+        title: "What Is State Quota Counselling?",
+        level: 2,
+      },
+      {
+        id: "what-is-state-para1",
+        type: "paragraph",
+        content:
+          "Each state's counselling authority runs its own. It covers the seats under that state's framework, and depending on the state, that can include both government and private colleges.",
+      },
+      {
+        id: "what-is-state-conclusion",
+        type: "paragraph",
+        content:
+          "States set their own eligibility and domicile rules, and they also have their own registration process, fees and schedule. They don't all work the same way, so check the latest notification from the state you care about.",
+      },
+      {
+        id: "what-to-compare",
+        type: "heading",
+        title: "AIQ vs State Quota: What Should You Compare?",
+        level: 2,
+      },
+      {
+        id: "what-to-compare-para1",
+        type: "paragraph",
+        content:
+          "No single route works the same for everyone. Before you build your list, compare the options you're actually eligible for.",
+      },
+      {
+        id: "eligibility",
+        type: "heading",
+        title: "1. Start With Your Eligibility",
+        level: 3,
+      },
+      {
+        id: "eligibility-para1",
+        type: "paragraph",
+        content:
+          "First find out where you can apply at all. Read the current MCC rules for AIQ and your state authority's eligibility conditions. For State Quota, domicile and other state-specific requirements may come into it. There's no point building a list around seats you can't get.",
+      },
+      {
+        id: "preferred-branch",
+        type: "heading",
+        title: "2. Look at Your Preferred Branch",
+        level: 3,
+      },
+      {
+        id: "preferred-branch-para1",
+        type: "paragraph",
+        content:
+          "Your specialty should be one of your first questions. Write down the branches you're really interested in, then see where each is offered under AIQ and under the State Quota you qualify for. Say you have your heart set on one clinical branch. Compare the colleges that offer it. Don't pick a quota just because it has more seats overall.",
+      },
+      {
+        id: "compare-colleges",
+        type: "heading",
+        title: "3. Compare the Colleges",
+        level: 3,
+      },
+      {
+        id: "compare-colleges-para1",
+        type: "paragraph",
+        content:
+          "A college's name and reputation only tell you so much. Look at:",
+      },
+      {
+        id: "compare-colleges-list",
+        type: "list",
+        items: [
+          "Clinical exposure",
+          "Patient load",
+          "Faculty and academics",
+          "Infrastructure",
+          "Case variety",
+          "Hostel facilities",
+          "Location",
+          "Learning environment",
+        ],
+      },
+      {
+        id: "compare-colleges-conclusion",
+        type: "paragraph",
+        content: "What's right depends on what you want out of your residency.",
+      },
+      {
+        id: "fees-stipend",
+        type: "heading",
+        title: "4. Check Fees and Stipend",
+        level: 3,
+      },
+      {
+        id: "fees-para1",
+        type: "paragraph",
+        content:
+          "Money is part of this decision. Before a college goes on your list, find its tuition fees, hostel charges, stipend and any other costs. Government and private colleges can differ a lot on fees, and stipends vary between institutions. Don't assume two colleges in the same state charge or pay the same.",
+      },
+      {
+        id: "bond-conditions",
+        type: "heading",
+        title: "5. Don't Ignore Bond Conditions",
+        level: 3,
+      },
+      {
+        id: "bond-para1",
+        type: "paragraph",
+        content:
+          "A bond can shape what you do after residency. Before choosing a seat, find out whether the institution or state has a service bond, a penalty or similar conditions. These details change and differ from one institution to another, so confirm them from official sources before you finalise your choices.",
+      },
+      {
+        id: "location",
+        type: "heading",
+        title: "6. Think About Location",
+        level: 3,
+      },
+      {
+        id: "location-para1",
+        type: "paragraph",
+        content:
+          "Location matters more than most people expect when they start. Some want to stay close to family, while others are fine moving to another state for the right branch or college. If location matters to you, put the State Quota colleges side by side with the AIQ ones.",
+      },
+      {
+        id: "both-routes",
+        type: "heading",
+        title: "Can You Apply Through Both?",
+        level: 2,
+      },
+      {
+        id: "both-routes-para1",
+        type: "paragraph",
+        content:
+          "If you're eligible, you may be able to take part in both AIQ and State counselling, depending on the rules. More options is good, but you'll have different registration windows, choice-filling deadlines, fees, results and reporting dates to keep track of.",
+      },
+      {
+        id: "both-routes-conclusion",
+        type: "paragraph",
+        content:
+          "Keep a simple counselling calendar and check the official notifications often. Before you act, also read the rules on seat acceptance, upgradation, resignation and later rounds.",
+      },
+      {
+        id: "choice-list",
+        type: "heading",
+        title: "How Should You Prepare Your Choice List?",
+        level: 2,
+      },
+      {
+        id: "choice-list-para1",
+        type: "paragraph",
+        content:
+          "Once you've compared your options, build the list around what you want. Roughly, it breaks down like this:",
+      },
+      {
+        id: "choice-list-list",
+        type: "list",
+        items: ["Preferred choices", "Realistic choices", "Backup choices"],
+      },
+      {
+        id: "choice-list-conclusion",
+        type: "paragraph",
+        content:
+          "Order the colleges and branches inside each group by what you genuinely prefer. Don't copy a friend's list or one that's going around on social media. Their rank, category, budget, location and career goals can be nothing like yours.",
+      },
+      {
+        id: "mistakes",
+        type: "heading",
+        title: "Mistakes to Avoid During Counselling",
+        level: 2,
+      },
+      {
+        id: "mistakes-list",
+        type: "list",
+        items: [
+          "Choosing only by rank — your rank counts, but the branch, the college and practical factors count too.",
+          "Ignoring fees — check the full fee structure before a college goes on your list.",
+          "Overlooking bonds — find out about bond or service conditions beforehand.",
+          "Depending entirely on predictions — rank predictors give you a rough idea, but your actual allotment depends on the rules, your choices, your category and the seats available.",
+          "Missing deadlines — note every registration, choice-filling, locking and reporting date.",
+        ],
+      },
+      {
+        id: "final-takeaway",
+        type: "heading",
+        title: "Final Takeaway",
+        level: 2,
+      },
+      {
+        id: "final-para1",
+        type: "paragraph",
+        content:
+          "Choosing between AIQ and State Quota isn't a coin toss. Base your decision on your eligibility, the branch you want, the college, fees, stipend, bond conditions, location and where you want your career to go.",
+      },
+      {
+        id: "final-para2",
+        type: "paragraph",
+        content:
+          "If you qualify for both, learn how each one works and compare the seats before you fill your choices.",
+      },
+      {
+        id: "final-conclusion",
+        type: "paragraph",
+        content:
+          "A well-thought-out list helps you go into counselling with a clearer head, and saves you from making rushed calls once the window opens.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "AIQ vs State Quota: What's the difference?",
+            answer:
+              "AIQ is run by MCC, while State Quota is run by state authorities.",
+          },
+          {
+            question: "Can I apply for both quotas?",
+            answer: "Yes, subject to eligibility and counselling rules.",
+          },
+          {
+            question: "What should I check before choosing a college?",
+            answer: "Branch, fees, stipend, bond and clinical exposure.",
+          },
+          {
+            question: "How should I prepare my choice list?",
+            answer:
+              "Prioritise colleges based on your rank, preferences and budget.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "neet pg aiq counselling",
+          "neet pg counselling process",
+          "neet pg counselling 2026",
+          "neet pg counselling",
+          "neet pg 2026 counselling",
+          "neet pg state quota eligibility",
+          "neet pg domicile rules",
+          "neet pg choice filling",
+          "neet pg preference list",
+          "neet pg seat allotment",
+          "neet pg counselling registration",
+          "mcc neet pg counselling",
+          "neet pg counselling fees",
+          "neet pg counselling dates",
+          "neet pg rank",
+          "aiq counselling",
+          "neet pg results",
+        ],
+      },
+    ],
+  },
 ];
 
 // Helper function to get blog by slug
