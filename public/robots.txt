@@ -1,24 +1,59 @@
 User-agent: *
-
-Allow: /
-
+Allow:/
+ 
+Disallow: /wp-admin/
+Disallow: /blog/category/
+Disallow: /blog/category/*/page/
+Disallow: /tag/*
+Disallow: /tag/*/feed/
+Disallow: /*/feed
+ 
 # Private / Auth Pages
 Disallow: /dashboard
 Disallow: /profile
 Disallow: /login
 Disallow: /signup
-
+ 
 # API & Internal
 Disallow: /api/
+ 
+User-agent: GPTBot
+Allow: /
 
-# Prevent duplicate searches
-Disallow: /*?*
+User-agent: OAI-SearchBot
+Allow: /
 
-# Crawl delay
-Crawl-delay: 5
+User-agent: Googlebot
+Allow: /
 
-# Main Sitemap
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Googlebot-Extended
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
 Sitemap: https://believersconsultancy.com/sitemap.xml
-
-# Preferred Host
-Host: https://believersconsultancy.com
