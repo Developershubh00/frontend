@@ -1,5 +1,3 @@
-
-
 import React, { useState, useEffect } from "react";
 import { useAuth } from "../contexts/AuthContext";
 import Header from "../components/Header";
@@ -13,14 +11,13 @@ import AIAssistant from "../components/AIAssistant";
 import { neetAPI, counsellingAPI } from "../services/api";
 import WhatsAppSupport from "../components/WhatsAppSupport";
 import AiSensyWidget from "../components/AiSensyWidget";
-import { 
-  notificationsData, 
-  getUnreadCount, 
-  markAsRead, 
-  markAllAsRead 
+import {
+  notificationsData,
+  getUnreadCount,
+  markAsRead,
+  markAllAsRead,
 } from "../data/notifications";
 import type { Notification } from "../data/notifications";
-import NotificationPopup from "../components/NotificationPopup";
 import NotificationsPage from "./NotificationsPage";
 
 /**
@@ -37,12 +34,10 @@ const DashboardPage: React.FC = () => {
   const [isRightSidebarOpen, setIsRightSidebarOpen] = useState(true);
   const [activeStateTab, setActiveStateTab] = useState("all-india");
 
- // Notification states
-  const [notifications, setNotifications] = useState<Notification[]>(notificationsData);
-  const [isNotificationPopupOpen, setIsNotificationPopupOpen] = useState(false);
+  // Notification states
+  const [notifications, setNotifications] =
+    useState<Notification[]>(notificationsData);
   const [showNotificationsPage, setShowNotificationsPage] = useState(false);
-  const [showWelcomeNotification, setShowWelcomeNotification] = useState(true);
-
 
   const [dashboardData, setDashboardData] = useState({
     neetStats: [],
@@ -76,24 +71,9 @@ const DashboardPage: React.FC = () => {
     fetchDashboardData();
   }, []);
 
-  // Show notification popup on EVERY page load/reload
-  useEffect(() => {
-    // Check if there are unread notifications
-    const hasUnread = notifications.some(n => !n.read);
-    
-    if (hasUnread && notifications.length > 0) {
-      // Auto-open notification popup after 1.5 seconds on every load
-      const timer = setTimeout(() => {
-        setIsNotificationPopupOpen(true);
-      }, 1500);
-
-      return () => clearTimeout(timer);
-    }
-  }, []); // Empty dependency array ensures this runs on every mount/reload
-
   // Notification handlers
   const handleNotificationClick = () => {
-    setIsNotificationPopupOpen(!isNotificationPopupOpen);
+    setShowNotificationsPage(true);
   };
 
   const handleMarkAsRead = (id: string) => {
@@ -104,29 +84,26 @@ const DashboardPage: React.FC = () => {
     setNotifications(markAllAsRead(notifications));
   };
 
-  const handleViewAllNotifications = () => {
-    setIsNotificationPopupOpen(false);
-    setShowNotificationsPage(true);
-  };
-
   const handleBackToDashboard = () => {
     setShowNotificationsPage(false);
   };
 
-
   const handleSearchChange = (value: string) => setSearchValue(value);
+
   const handleSectionChange = (section: string) => {
     setActiveSection(section);
     setIsMobileMenuOpen(false);
   };
+
   const toggleSidebar = () => setIsSidebarCollapsed(!isSidebarCollapsed);
   const toggleRightSidebar = () => setIsRightSidebarOpen(!isRightSidebarOpen);
+
   const handleStateSelect = (state: string) => {
     // Handle state selection for data filtering
     console.log("Selected state:", state);
   };
 
-   // If showing notifications page, render it instead
+  // If showing notifications page, render it instead
   if (showNotificationsPage) {
     return (
       <NotificationsPage
@@ -153,16 +130,6 @@ const DashboardPage: React.FC = () => {
         />
       </div>
 
-      {/* Notification Popup */}
-      <NotificationPopup
-        notifications={notifications}
-        isOpen={isNotificationPopupOpen}
-        onClose={() => setIsNotificationPopupOpen(false)}
-        onMarkAsRead={handleMarkAsRead}
-        onMarkAllAsRead={handleMarkAllAsRead}
-        onViewAll={handleViewAllNotifications}
-      />
-
       {/* Main Layout Container */}
       <div className="flex h-full w-full pt-16">
         {/* Left Sidebar - Fixed width */}
@@ -176,25 +143,26 @@ const DashboardPage: React.FC = () => {
         </div>
 
         {/* Main Content Area - Dynamic width */}
-        <div 
+        <div
           className="flex-1 h-full overflow-y-auto"
           style={{
-            width: 'calc(100vw - 256px - 320px)',
-            minWidth: '320px'
+            width: "calc(100vw - 256px - 320px)",
+            minWidth: "320px",
           }}
         >
           {/* State Tabs
           <div className="sticky top-0 z-20 bg-white/80 backdrop-blur-xl border-b border-slate-200/50">
-            <StateTabs 
-              activeTab={activeStateTab} 
+            <StateTabs
+              activeTab={activeStateTab}
               onTabChange={setActiveStateTab}
             />
           </div>
-           */}
+          */}
+
           {/* Main Content */}
           <div className="p-4 lg:p-6">
-            <MainContent 
-              activeTab={activeStateTab} 
+            <MainContent
+              activeTab={activeStateTab}
               dashboardData={dashboardData}
             />
           </div>
