@@ -88443,6 +88443,428 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    id: 219,
+    title:
+      "NEET PG 2026 MCC Counselling Schedule: Round-Wise Dates for AIQ, Deemed Universities and Central Universities",
+    slug: "neet-pg-2026-mcc-counselling-schedule-round-wise-dates-for-aiq-deemed-universities-and-central-universities",
+    excerpt:
+      "Get the NEET PG 2026 MCC counselling schedule with round-wise dates, AIQ counselling details, and updates for deemed and central universities.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/49324593/file/b6f832bfed39567133153e09c4125863.jpeg",
+    featured_image_alt: "neet pg 2026 mcc counselling schedule dates",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+    },
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
+    },
+    tags: [
+      "NEET PG",
+      "NEET PG 2026",
+      "MCC Counselling",
+      "NEET PG Counselling Schedule",
+      "AIQ Counselling",
+    ],
+    published_date: "2026-10-14",
+    read_time: 5,
+    meta_title:
+      "MCC NEET PG 2026 Counselling Schedule for AIQ, Deemed & Central Universities",
+    meta_description:
+      "Get the NEET PG 2026 MCC counselling schedule with round-wise dates, AIQ counselling details, and updates for deemed and central universities.",
+    keywords: [
+      "neet pg counselling",
+      "neet pg 2026",
+      "neet pg 2026 counselling",
+      "neet pg mcc counselling",
+      "neet pg counselling dates",
+      "mcc neet pg schedule",
+      "neet pg counselling schedule pdf",
+      "neet pg round 2 schedule",
+      "neet pg 2026 stray vacancy round",
+      "neet pg stray vacancy round",
+      "neet pg aiq counselling",
+      "neet pg deemed university counselling",
+      "neet pg counselling last date",
+      "aiq neet pg counselling",
+      "choice filling in neet pg",
+      "mcc neet pg counselling schedule",
+      "mcc pg counselling",
+      "neet pg 2nd round counselling",
+      "neet pg 3rd round counselling",
+      "neet pg choice filling",
+      "neet pg stray round",
+      "neet pg vacant seats",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content:
+          "MCC has released the tentative schedule for NEET PG 2026 online counselling. It covers the 50% All India Quota (AIQ) seats, 100% of the seats in Deemed and Central Universities, and the AFMS counselling schedule. As per the notice, Round 1 registration opens on 12 October 2026 and the result is due on 24 October 2026.",
+      },
+      {
+        id: "introduction",
+        type: "heading",
+        title: "Introduction",
+        level: 2,
+      },
+      {
+        id: "introduction-para1",
+        type: "paragraph",
+        content:
+          "Counselling is the step that takes a medical graduate from a NEET PG score to an actual PG seat. There are a lot of dates to track, including registration, choice filling, allotment results and reporting, and missing even one of them can cost you.",
+      },
+      {
+        id: "introduction-conclusion",
+        type: "paragraph",
+        content:
+          "The tentative schedule comes from the Directorate General of Health Services (DGHS) under the Ministry of Health and Family Welfare. It lists three regular rounds for MCC counselling in 2026, followed by an online Stray Vacancy Round.",
+      },
+      {
+        id: "complete-schedule",
+        type: "heading",
+        title: "NEET PG 2026 MCC Counselling: Complete Schedule",
+        level: 2,
+      },
+      {
+        id: "complete-schedule-para1",
+        type: "paragraph",
+        content: "The tentative dates for the four rounds are:",
+      },
+      {
+        id: "complete-schedule-table",
+        type: "table",
+        headers: [
+          "Counselling Round",
+          "Registration / Payment",
+          "Choice Filling / Locking",
+          "Result",
+          "Reporting / Joining",
+        ],
+        rows: [
+          [
+            "Round 1",
+            "12–21 October 2026",
+            "13–22 October 2026",
+            "24 October 2026",
+            "26 October–2 November 2026",
+          ],
+          [
+            "Round 2",
+            "6–11 November 2026",
+            "7–12 November 2026",
+            "14 November 2026",
+            "16–23 November 2026",
+          ],
+          [
+            "Round 3",
+            "26 November–1 December 2026",
+            "27 November–2 December 2026",
+            "4 December 2026",
+            "5–12 December 2026",
+          ],
+          [
+            "Online Stray Vacancy Round",
+            "16–21 December 2026",
+            "16–21 December 2026",
+            "24 December 2026",
+            "24–31 December 2026",
+          ],
+        ],
+        caption:
+          "Note: These dates are tentative and may change. For the full schedule, including seat matrix verification, allotment processing and verification of joined candidates, check the MCC notice.",
+      },
+      {
+        id: "round1",
+        type: "heading",
+        title: "Round 1 Counselling Schedule: October 2026",
+        level: 2,
+      },
+      {
+        id: "round1-para1",
+        type: "paragraph",
+        content:
+          "Round 1 is where the NEET PG 2026 MCC counselling process begins. Finish your registration, payment and choice filling within the deadlines.",
+      },
+      {
+        id: "round1-table",
+        type: "table",
+        headers: ["Event", "Date"],
+        rows: [
+          ["Seat Matrix Verification", "10–12 October 2026"],
+          ["Registration and Payment", "12–21 October 2026"],
+          ["Choice Filling and Locking", "13–22 October 2026"],
+          ["Seat Allotment Processing", "22–23 October 2026"],
+          ["Result Declaration", "24 October 2026"],
+          ["Reporting and Joining", "26 October–2 November 2026"],
+          ["Verification of Joined Candidates", "3 November 2026"],
+        ],
+      },
+      {
+        id: "round1-deadlines",
+        type: "heading",
+        title: "Important Round 1 Deadlines",
+        level: 3,
+      },
+      {
+        id: "round1-deadlines-para1",
+        type: "paragraph",
+        content:
+          "Registration closes at 12 noon on 21 October. The payment facility stays open until 3 PM that day, as per server time. Choice filling stays open until 10 AM on 22 October. Choice locking starts at 4 PM on 21 October and runs until 10 AM on 22 October. Don't leave any of this for the last hour. Last-minute problems are common.",
+      },
+      {
+        id: "round2",
+        type: "heading",
+        title: "Round 2 Counselling Schedule: November 2026",
+        level: 2,
+      },
+      {
+        id: "round2-para1",
+        type: "paragraph",
+        content:
+          "Round 2 gives eligible candidates another chance to take part, according to the applicable rules.",
+      },
+      {
+        id: "round2-table",
+        type: "table",
+        headers: ["Event", "Date"],
+        rows: [
+          ["Seat Matrix Verification", "6–7 November 2026"],
+          ["Registration and Payment", "6–11 November 2026"],
+          ["Choice Filling and Locking", "7–12 November 2026"],
+          ["Seat Allotment Processing", "12–13 November 2026"],
+          ["Result Declaration", "14 November 2026"],
+          ["Reporting and Joining", "16–23 November 2026"],
+          ["Verification of Joined Candidates", "24 November 2026"],
+        ],
+      },
+      {
+        id: "round2-deadlines",
+        type: "heading",
+        title: "Important Round 2 Deadlines",
+        level: 3,
+      },
+      {
+        id: "round2-deadlines-para1",
+        type: "paragraph",
+        content:
+          "Registration closes at 12 noon on 11 November, and payment is open until 3 PM. Choice filling closes at 10 AM on 12 November. Choice locking runs from 4 PM on 11 November to 10 AM on 12 November. Read the eligibility and participation rules for this round before you decide anything.",
+      },
+      {
+        id: "round3",
+        type: "heading",
+        title: "Round 3 Counselling Schedule: November–December 2026",
+        level: 2,
+      },
+      {
+        id: "round3-para1",
+        type: "paragraph",
+        content:
+          "Round 3 runs from late November to mid-December. Keep an eye on the official portal for the seats available and the instructions for this round.",
+      },
+      {
+        id: "round3-table",
+        type: "table",
+        headers: ["Event", "Date"],
+        rows: [
+          ["Seat Matrix Verification", "25–26 November 2026"],
+          ["Registration and Payment", "26 November–1 December 2026"],
+          ["Choice Filling and Locking", "27 November–2 December 2026"],
+          ["Seat Allotment Processing", "2–3 December 2026"],
+          ["Result Declaration", "4 December 2026"],
+          ["Reporting and Joining", "5–12 December 2026"],
+          ["Verification of Joined Candidates", "14 December 2026"],
+        ],
+      },
+      {
+        id: "round3-deadlines",
+        type: "heading",
+        title: "Important Round 3 Deadlines",
+        level: 3,
+      },
+      {
+        id: "round3-deadlines-para1",
+        type: "paragraph",
+        content:
+          "Registration closes at 12 noon on 1 December, and payment stays open until 3 PM. Choice filling closes at 10 AM on 2 December. Choice locking begins at 4 PM on 1 December and ends at 10 AM on 2 December. All the timings above follow the server time given in the official notice.",
+      },
+      {
+        id: "stray-vacancy",
+        type: "heading",
+        title: "Online Stray Vacancy Round: December 2026",
+        level: 2,
+      },
+      {
+        id: "stray-vacancy-para1",
+        type: "paragraph",
+        content:
+          "The online Stray Vacancy Round is the last round on the tentative schedule. Before you take part, check the eligibility conditions and the official instructions.",
+      },
+      {
+        id: "stray-vacancy-table",
+        type: "table",
+        headers: ["Event", "Date"],
+        rows: [
+          ["Seat Matrix Verification", "15 December 2026"],
+          ["Registration and Payment", "16–21 December 2026"],
+          ["Choice Filling and Locking", "16–21 December 2026"],
+          ["Seat Allotment Processing", "22–23 December 2026"],
+          ["Result Declaration", "24 December 2026"],
+          ["Reporting and Joining", "24–31 December 2026"],
+        ],
+      },
+      {
+        id: "stray-vacancy-deadlines",
+        type: "heading",
+        title: "Important Stray Vacancy Round Deadlines",
+        level: 3,
+      },
+      {
+        id: "stray-vacancy-deadlines-para1",
+        type: "paragraph",
+        content:
+          "Registration closes at 12 noon on 21 December, and payment is open until 3 PM. Choice filling stays open until 11:55 PM on 21 December. Choice locking starts at 4 PM that day and runs until 11:55 PM, as per server time. Read the official instructions on eligibility and participation in this round carefully.",
+      },
+      {
+        id: "academic-session",
+        type: "heading",
+        title: "When Will the NEET PG 2026 Academic Session Begin?",
+        level: 2,
+      },
+      {
+        id: "academic-session-para1",
+        type: "paragraph",
+        content:
+          "The tentative schedule gives 20 November 2026 as the start date for the PG academic session. Watch for later official notices, since the date or the admission timeline could change.",
+      },
+      {
+        id: "academic-session-conclusion",
+        type: "paragraph",
+        content:
+          "The schedule also tells institutes and colleges to treat Saturdays, Sundays and gazetted holidays as working days so the counselling timeline can be met.",
+      },
+      {
+        id: "how-to-prepare",
+        type: "heading",
+        title: "How Should Candidates Prepare for MCC Counselling 2026?",
+        level: 2,
+      },
+      {
+        id: "how-to-prepare-para1",
+        type: "paragraph",
+        content:
+          "Dates are just one piece. Before you start filling choices, you should also have your college preferences sorted and know the counselling rules. Here's what to do:",
+      },
+      {
+        id: "how-to-prepare-list",
+        type: "list",
+        items: [
+          "Check eligibility: Read the eligibility criteria and the counselling instructions properly.",
+          "Research colleges: Look at courses, fees, stipends and bond conditions for each college you're considering.",
+          "Prepare your choices: Put colleges and specialities in the order you really want them.",
+          "Track deadlines: Set reminders for registration, payment, choice locking, results and reporting.",
+          "Keep documents ready: Get your certificates and other documents together before reporting day, not on it.",
+          "Follow official updates: Open the MCC portal every few days. Dates and round-specific instructions can change.",
+        ],
+      },
+      {
+        id: "how-to-prepare-conclusion",
+        type: "paragraph",
+        content:
+          "Take your time with choice filling. A rushed list is usually one you regret.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "Frequently Asked Questions (FAQs)",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "When does NEET PG 2026 MCC Round 1 registration begin?",
+            answer:
+              "Round 1 registration starts on 12 October 2026, according to the tentative schedule. It closes at 12 noon on 21 October 2026, and you can pay until 3 PM that day.",
+          },
+          {
+            question: "When will the NEET PG 2026 Round 1 result be declared?",
+            answer:
+              "The Round 1 seat allotment result is due on 24 October 2026.",
+          },
+          {
+            question:
+              "How many counselling rounds are included in the tentative schedule?",
+            answer:
+              "Three regular rounds, plus one online Stray Vacancy Round.",
+          },
+          {
+            question: "When is the NEET PG 2026 Round 3 result expected?",
+            answer: "The Round 3 result is scheduled for 4 December 2026.",
+          },
+          {
+            question: "When will the online Stray Vacancy Round take place?",
+            answer:
+              "It's scheduled for December 2026. Registration runs from 16–21 December, the result is on 24 December and reporting runs from 24–31 December.",
+          },
+        ],
+      },
+      {
+        id: "conclusion",
+        type: "heading",
+        title: "Conclusion",
+        level: 2,
+      },
+      {
+        id: "conclusion-para1",
+        type: "paragraph",
+        content:
+          "The tentative NEET PG 2026 MCC counselling schedule sets out the key dates for registration, choice filling, seat allotment and reporting across all four rounds. Keep track of every deadline, get your college preferences ready early and check the official portal for any changes.",
+      },
+      {
+        id: "conclusion-conclusion",
+        type: "paragraph",
+        content:
+          "Treat the official notice as your main reference for dates and instructions, because the schedule is tentative and may be revised.",
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "neet pg counselling",
+          "neet pg 2026",
+          "neet pg 2026 counselling",
+          "neet pg mcc counselling",
+          "neet pg counselling dates",
+          "mcc neet pg schedule",
+          "neet pg counselling schedule pdf",
+          "neet pg round 2 schedule",
+          "neet pg 2026 stray vacancy round",
+          "neet pg stray vacancy round",
+          "neet pg aiq counselling",
+          "neet pg deemed university counselling",
+          "neet pg counselling last date",
+          "aiq neet pg counselling",
+          "choice filling in neet pg",
+          "mcc neet pg counselling schedule",
+          "mcc pg counselling",
+          "neet pg 2nd round counselling",
+          "neet pg 3rd round counselling",
+          "neet pg choice filling",
+          "neet pg stray round",
+          "neet pg vacant seats",
+        ],
+      },
+    ],
+  },
 ];
 
 // Helper function to get blog by slug
