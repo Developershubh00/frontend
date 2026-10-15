@@ -1904,6 +1904,19 @@ export const ANNOUNCEMENTS: Announcement[] = [
     id: 144,
     title: "NEET PG 2026",
     content:
+      "NEET PG Counselling 2026: MCC Extends PwD Medical Assessment Schedule for Round 1",
+    date: "2026-09-28",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/09/202609291035233397.pdf",
+    is_active: true,
+    source: "MCC",
+    created_at: "2026-09-28",
+  },
+  {
+    id: 145,
+    title: "NEET PG 2026",
+    content:
       "NEET PG 2026: NMC Releases State-Wise & College-Wise Seat Matrix for MD/MS Courses. Download official PDF from NMC portal.",
     date: "2026-09-29",
     priority: "high",
@@ -1914,7 +1927,7 @@ export const ANNOUNCEMENTS: Announcement[] = [
     created_at: "2026-09-29",
   },
   {
-    id: 145,
+    id: 146,
     title: "NEET PG 2026",
     content:
       "KEA Karnataka State NEET PG 2026 Counselling: Round 1 Registration Started",
@@ -1927,7 +1940,7 @@ export const ANNOUNCEMENTS: Announcement[] = [
     created_at: "2026-10-05",
   },
   {
-    id: 146,
+    id: 147,
     title: "NEET PG 2026",
     content: "Gujarat NEET PG 2026: Mandatory Document Verification Update",
     date: "2026-10-06",
@@ -1939,7 +1952,7 @@ export const ANNOUNCEMENTS: Announcement[] = [
     created_at: "2026-10-06",
   },
   {
-    id: 147,
+    id: 148,
     title: "NEET PG 2026",
     content:
       "NEET PG Counselling 2026: MCC Releases Tentative Schedule for AIQ, Deemed & Central University Seats",
@@ -1952,7 +1965,7 @@ export const ANNOUNCEMENTS: Announcement[] = [
     created_at: "2026-10-07",
   },
   {
-    id: 148,
+    id: 149,
     title: "NEET PG 2026",
     content:
       "NEET PG Counselling 2026 Round 1 Registration Begins Today: Check Complete Schedule, Fees, and Steps to Apply",
