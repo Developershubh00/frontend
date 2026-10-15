@@ -1961,7 +1961,7 @@ export const ANNOUNCEMENTS: Announcement[] = [
     category: "NEET PG",
     link: "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610071411981089.pdf",
     is_active: true,
-    source: "MCC",
+    source: "Medical Counselling Committee (MCC)",
     created_at: "2026-10-07",
   },
   {
@@ -1976,6 +1976,58 @@ export const ANNOUNCEMENTS: Announcement[] = [
     is_active: true,
     source: "The Times of India",
     created_at: "2026-10-12",
+  },
+  {
+    id: 150,
+    title: "NEET PG 2026",
+    content:
+      "NEET PG Counselling 2026: MCC Releases Central Internal Quota Seat Matrix for MD/MS Courses",
+    date: "2026-10-13",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610152067325573.pdf",
+    is_active: true,
+    source: "Medical Counselling Committee (MCC)",
+    created_at: "2026-10-13",
+  },
+  {
+    id: 151,
+    title: "NEET PG 2026",
+    content:
+      "NEET PG Counselling 2026: MCC Releases Deemed University Seat Matrix for MD/MS Courses",
+    date: "2026-10-14",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610151532024312.pdf",
+    is_active: true,
+    source: "Medical Counselling Committee (MCC)",
+    created_at: "2026-10-14",
+  },
+  {
+    id: 152,
+    title: "NEET PG 2026",
+    content:
+      "MCC Releases NEET PG 2026 All India Quota Seat Matrix for MD/MS Courses",
+    date: "2026-10-15",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610159250378.pdf",
+    is_active: true,
+    source: "Medical Counselling Committee (MCC)",
+    created_at: "2026-10-15",
+  },
+  {
+    id: 153,
+    title: "INI CET January 2027",
+    content:
+      "Registration for the January 2027 INI-CET session was reported to close on 13 October 2026. This is an older update, not fresh news for today. ",
+    date: "2026-10-15",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://www.aiimsexams.ac.in/advertisement/INI-CET_Jan_2027.html",
+    is_active: true,
+    source: "The Times of India",
+    created_at: "2026-10-15",
   },
 ];
 
