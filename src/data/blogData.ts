@@ -88865,6 +88865,377 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    id: 220,
+    title:
+      "MD PMR: Career Scope, Salary, Work-Life Balance and Fellowship Options",
+    slug: "md-pmr-career-scope-salary-work-life-balance-and-fellowship-options",
+    excerpt:
+      "Discover MD PMR career opportunities, salary prospects, work-life balance, and fellowship options to build a rewarding future in rehabilitation medicine.",
+    featured_image:
+      "https://cdn.dribbble.com/userupload/49340672/file/a1c36d1aad9e6c86b6ca0716f259f3d8.jpg",
+    featured_image_alt: "md pmr career scope salary fellowship options",
+    author: {
+      name: "Believers Team",
+      avatar:
+        "https://cdn.dribbble.com/userupload/45553315/file/7f757d2c0ca31bc348006d84b4ab5752.jpeg?w=100&h=100&fit=crop&crop=face%22",
+      bio: "Expert medical education consultants with over 10 years of experience in NEET counseling and admissions.",
+    },
+    category: {
+      name: "NEET PG",
+      slug: "neet-pg",
+      color: "bg-blue-100 text-blue-800",
+    },
+    tags: [
+      "MD PMR",
+      "NEET PG Counselling",
+      "PG Branch Selection",
+      "Medical Career",
+      "Rehabilitation Medicine",
+    ],
+    published_date: "2026-10-16",
+    read_time: 4,
+    meta_title: "MD PMR: Career Scope, Salary & Fellowship Options",
+    meta_description:
+      "Discover MD PMR career opportunities, salary prospects, work-life balance, and fellowship options to build a rewarding future in rehabilitation medicine.",
+    keywords: [
+      "md pmr salary in india",
+      "pmr branch in neet pg",
+      "neurorehabilitation fellowship",
+      "pmr residency",
+      "md residency",
+      "pmr specialist",
+      "pmr",
+      "md pmr",
+      "pmr opd",
+      "neet pg counselling",
+      "pg counselling",
+      "choice filling in neet pg",
+    ],
+    sections: [
+      {
+        id: "intro-para1",
+        type: "paragraph",
+        content:
+          "MD Physical Medicine and Rehabilitation (PMR) gets overlooked a lot. It's about helping patients function better, staying independent, and living a better life. Stroke rehab, spinal cord injuries, chronic pain, spasticity: the work goes well beyond what people think of as physiotherapy.",
+      },
+      {
+        id: "intro-conclusion",
+        type: "paragraph",
+        content:
+          "If you're weighing PG options, PMR gives you a mix of clinical practice, procedures, rehab expertise and, often, a more balanced lifestyle. But hours, income and growth depend on the institute, the city, your experience and the kind of practice you build.",
+      },
+      {
+        id: "residency",
+        type: "heading",
+        title: "How Hectic Is MD PMR Residency?",
+        level: 2,
+      },
+      {
+        id: "residency-para1",
+        type: "paragraph",
+        content:
+          "Some aspirants look at PMR because the schedule tends to be more predictable than in many other clinical branches.",
+      },
+      {
+        id: "residency-list",
+        type: "list",
+        items: [
+          "Working hours: Some institutes run roughly 9 AM to 5 PM.",
+          "Fewer emergencies: PMR sees fewer emergencies than most acute-care specialties.",
+          "Institute-dependent workload: A hospital with a spinal cord injury unit, surgical rehab services or an intensive rehab program may ask for night duties and longer hours.",
+        ],
+      },
+      {
+        id: "residency-conclusion",
+        type: "paragraph",
+        content:
+          "What your residency feels like comes down to the institute's patient load, how the department is set up and what training it expects from you. So find out the real duty schedule and the clinical exposure before you pick a college.",
+      },
+      {
+        id: "more-than-physio",
+        type: "heading",
+        title: "PMR Is More Than Physiotherapy",
+        level: 2,
+      },
+      {
+        id: "more-than-para1",
+        type: "paragraph",
+        content:
+          "Plenty of people assume PMR doctors just supervise physiotherapy. They don't. They assess disability, diagnose functional limitations and design full rehabilitation plans.",
+      },
+      {
+        id: "more-than-para2",
+        type: "paragraph",
+        content:
+          "Depending on training and setting, a PMR specialist may do procedures like:",
+      },
+      {
+        id: "more-than-list",
+        type: "list",
+        items: [
+          "Botulinum toxin injections: To manage spasticity in selected patients.",
+          "Nerve blocks and pain interventions: For suitable pain conditions.",
+          "EMG and nerve conduction studies: To evaluate nerve and muscle disorders.",
+          "Joint injections and casting: As part of certain musculoskeletal and rehab treatments.",
+        ],
+      },
+      {
+        id: "more-than-conclusion",
+        type: "paragraph",
+        content:
+          "They also handle rehab for patients recovering from stroke, spinal cord injuries, cerebral palsy and other conditions that affect movement, function and independence. So the specialty brings together medical assessment, functional recovery, procedures and teamwork with other professionals.",
+      },
+      {
+        id: "salary",
+        type: "heading",
+        title: "How Much Can You Earn After MD PMR?",
+        level: 2,
+      },
+      {
+        id: "salary-para1",
+        type: "paragraph",
+        content:
+          "The pay can be good, but it swings a lot depending on your experience, the city, how many patients you see, the hospital you're in and any extra qualifications you have.",
+      },
+      {
+        id: "salary-para2",
+        type: "paragraph",
+        content: "Numbers doctors in the field often quote:",
+      },
+      {
+        id: "salary-list",
+        type: "list",
+        items: [
+          "Fresh graduates or doctors with 1–2 years of experience: Roughly ₹2–2.5 lakh a month in some private hospitals.",
+          "Established PMR physicians: Roughly ₹3–5 lakh a month for some, mostly in smaller cities where they have a steady patient base.",
+        ],
+      },
+      {
+        id: "salary-conclusion",
+        type: "paragraph",
+        content:
+          "Don't read these as fixed salaries. What you actually get can be lower or higher, depending on the job, the city, the employer and the way you practice. If you're deciding your career on this, don't go by quoted figures alone. Compare real job offers, see what hospitals are hiring, and find out how much demand there is for rehab services in the place you want to settle.",
+      },
+      {
+        id: "fellowship",
+        type: "heading",
+        title: "Can a Fellowship Improve Your Career Prospects?",
+        level: 2,
+      },
+      {
+        id: "fellowship-para1",
+        type: "paragraph",
+        content:
+          "A fellowship lets you go deep in one area, improves your clinical skills and can lead to more specialised roles.",
+      },
+      {
+        id: "fellowship-para2",
+        type: "paragraph",
+        content: "A few options:",
+      },
+      {
+        id: "pain-management",
+        type: "heading",
+        title: "1. Pain Management",
+        level: 3,
+      },
+      {
+        id: "pain-para1",
+        type: "paragraph",
+        content:
+          "A fit for doctors who like chronic pain work and interventional procedures, and who want to build a practice around pain.",
+      },
+      {
+        id: "neurorehab",
+        type: "heading",
+        title: "2. Neurorehabilitation",
+        level: 3,
+      },
+      {
+        id: "neurorehab-para1",
+        type: "paragraph",
+        content:
+          "About helping people recover function after stroke, traumatic brain injury or spinal cord injury.",
+      },
+      {
+        id: "sports-medicine",
+        type: "heading",
+        title: "3. Sports Medicine",
+        level: 3,
+      },
+      {
+        id: "sports-para1",
+        type: "paragraph",
+        content:
+          "Good if you're drawn to musculoskeletal problems and sports injuries, and to getting athletes back on their feet.",
+      },
+      {
+        id: "cancer-rehab",
+        type: "heading",
+        title: "4. Cancer Rehabilitation",
+        level: 3,
+      },
+      {
+        id: "cancer-para1",
+        type: "paragraph",
+        content:
+          "Helps patients who've lost function because of cancer or its treatment.",
+      },
+      {
+        id: "pediatric-rehab",
+        type: "heading",
+        title: "5. Pediatric Rehabilitation",
+        level: 3,
+      },
+      {
+        id: "pediatric-para1",
+        type: "paragraph",
+        content:
+          "Centred on children with developmental, neurological and physical disabilities.",
+      },
+      {
+        id: "fellowship-conclusion",
+        type: "paragraph",
+        content:
+          "The right one for you depends on your career goals, what training you can get access to, and the qualifications you'll need for the kind of practice you want.",
+      },
+      {
+        id: "private-practice",
+        type: "heading",
+        title: "Want to Start Your Own Rehabilitation Centre?",
+        level: 2,
+      },
+      {
+        id: "private-para1",
+        type: "paragraph",
+        content:
+          "Private practice is another route after MD PMR. Depending on the services you offer, you could begin with a consultation-based PMR OPD and expand over time. A basic OPD needs far less infrastructure than a full rehab center. A larger, moderately equipped center in a metro city may need roughly ₹75 lakh to ₹1 crore, depending on the property, equipment, staff and services.",
+      },
+      {
+        id: "private-para2",
+        type: "paragraph",
+        content: "Before you invest, think about:",
+      },
+      {
+        id: "private-list",
+        type: "list",
+        items: [
+          "Location and how easily patients can reach you.",
+          "Demand for rehab and pain management services.",
+          "Equipment and staffing needs.",
+          "Space for consultations and rehab activities.",
+          "Running costs, patient referrals and expected revenue.",
+          "Registrations, licenses and regulatory requirements.",
+        ],
+      },
+      {
+        id: "private-conclusion",
+        type: "paragraph",
+        content:
+          "Starting small and growing with the practice works for some doctors. Still, check the investment and the financial viability properly for each location.",
+      },
+      {
+        id: "why-not-popular",
+        type: "heading",
+        title: "Why Isn't PMR More Popular Among NEET PG Aspirants?",
+        level: 2,
+      },
+      {
+        id: "why-not-para1",
+        type: "paragraph",
+        content:
+          "For all that it offers, PMR gets less attention than the better-known PG branches. A few reasons:",
+      },
+      {
+        id: "why-not-list",
+        type: "list",
+        items: [
+          "Limited awareness: Many medical graduates don't know what a PMR physician actually does or how many conditions they manage.",
+          "Overlap with physiotherapy in public perception: Patients, and even some doctors, tend to link rehab only with physiotherapy and miss the medical assessment, diagnosis and procedures PMR specialists handle.",
+          "Variation in hospital infrastructure: Not every hospital has a well-developed rehab department or a multidisciplinary rehab team.",
+          "Challenges in defining professional roles: PMR physicians, physiotherapists, occupational therapists and others have to work together, and when people see each other's roles differently it can cause friction.",
+        ],
+      },
+      {
+        id: "why-not-conclusion",
+        type: "paragraph",
+        content:
+          "As awareness grows and rehab services develop, more openings may appear in hospitals, specialized rehab centers, pain clinics and independent practice.",
+      },
+      {
+        id: "right-branch",
+        type: "heading",
+        title: "Is MD PMR the Right Branch for You?",
+        level: 2,
+      },
+      {
+        id: "right-branch-para1",
+        type: "paragraph",
+        content:
+          "It's worth a look if you enjoy clinical problem-solving, musculoskeletal and neurological conditions, procedural work and helping patients become independent again.",
+      },
+      {
+        id: "right-branch-para2",
+        type: "paragraph",
+        content:
+          "You can go into hospital practice, take up a fellowship, work in a rehab center or run a private clinic. But judge salary, hours and future prospects realistically. Don't rely on broad claims about lifestyle or income.",
+      },
+      {
+        id: "right-branch-conclusion",
+        type: "paragraph",
+        content:
+          "Before you fill your NEET PG counselling choices, look into the institute's training quality, patient exposure, facilities, duty schedule and long-term career prospects. The best PG branch isn't the one with the highest salary or the easiest hours. It's the one that fits your interests, your strengths and where you want your career to go.",
+      },
+      {
+        id: "faqs",
+        type: "heading",
+        title: "FAQs",
+        level: 2,
+      },
+      {
+        id: "faqs-list",
+        type: "faq",
+        faqs: [
+          {
+            question: "What is the scope of MD PMR?",
+            answer: "Hospital and private practice.",
+          },
+          {
+            question: "What is the salary after MD PMR?",
+            answer: "It varies by experience and location.",
+          },
+          {
+            question: "Is MD PMR lifestyle-friendly?",
+            answer: "Often, depending on the institute.",
+          },
+          {
+            question: "Which fellowships are available after MD PMR?",
+            answer: "Pain, neurorehabilitation, sports, and pediatric rehab.",
+          },
+        ],
+      },
+      {
+        id: "keywords",
+        type: "keywords",
+        title: "Related Keywords",
+        keywords: [
+          "md pmr salary in india",
+          "pmr branch in neet pg",
+          "neurorehabilitation fellowship",
+          "pmr residency",
+          "md residency",
+          "pmr specialist",
+          "pmr",
+          "md pmr",
+          "pmr opd",
+          "neet pg counselling",
+          "pg counselling",
+          "choice filling in neet pg",
+        ],
+      },
+    ],
+  },
 ];
 
 // Helper function to get blog by slug
