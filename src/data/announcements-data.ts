@@ -2033,15 +2033,28 @@ export const ANNOUNCEMENTS: Announcement[] = [
     id: 154,
     title: "NEET PG 2026",
     content:
-      "NEET PG Counselling 2026: MCC Releases Updated Seat Matrix for MD/MS Courses",
-    date: "2026-10-16",
+      "NEET PG 2026 Counselling: MCC Issues Urgent Notice to Institutes for Seat Matrix Verification Ahead of Round 1 Choice Filling",
+    date: "2026-10-15",
     priority: "high",
     category: "NEET PG",
-    link: "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610151906520168.pdf",
+    link: "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610151265361532.pdf",
     is_active: true,
     source: "Medical Counselling Committee (MCC)",
-    created_at: "2026-10-16",
+    created_at: "2026-10-15",
   },
+  // {
+  //     id: 154,
+  //     title: "NEET PG 2026",
+  //     content:
+  //       "NEET PG Counselling 2026: MCC Releases Updated Seat Matrix for MD/MS Courses",
+  //     date: "2026-10-16",
+  //     priority: "high",
+  //     category: "NEET PG",
+  //     link: "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610151906520168.pdf",
+  //     is_active: true,
+  //     source: "Medical Counselling Committee (MCC)",
+  //     created_at: "2026-10-16",
+  //   },
 ];
 
 /**
