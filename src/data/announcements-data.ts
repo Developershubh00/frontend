@@ -2020,7 +2020,7 @@ export const ANNOUNCEMENTS: Announcement[] = [
     id: 153,
     title: "INI CET January 2027",
     content:
-      "Registration for the January 2027 INI-CET session was reported to close on 13 October 2026. This is an older update, not fresh news for today. ",
+      "Registration for the January 2027 INI-CET session was reported to close on 13 October 2026. This is an older update, not fresh news for today.",
     date: "2026-10-15",
     priority: "high",
     category: "NEET PG",
@@ -2028,6 +2028,19 @@ export const ANNOUNCEMENTS: Announcement[] = [
     is_active: true,
     source: "The Times of India",
     created_at: "2026-10-15",
+  },
+  {
+    id: 154,
+    title: "NEET PG 2026",
+    content:
+      "NEET PG Counselling 2026: MCC Releases Updated Seat Matrix for MD/MS Courses",
+    date: "2026-10-16",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610151906520168.pdf",
+    is_active: true,
+    source: "Medical Counselling Committee (MCC)",
+    created_at: "2026-10-16",
   },
 ];
 
