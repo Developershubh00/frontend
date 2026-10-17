@@ -66,6 +66,17 @@ const SeatCards: React.FC = () => {
         </a>
       </h2>
 
+      <h2 className="text-4xl font-semibold text-center mb-6 text-orange-500">
+        <a
+          href="https://drive.google.com/file/d/1WI16ykdpwXt-AtsV-mYUwNNkZ8J-ofzs/view"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-blue-600 transition-colors duration-300 cursor-pointer"
+        >
+          FINAL DEEMED SEATS MATRIX PG COUNSELLING 2026
+        </a>
+      </h2>
+
       {/* <div className="grid gap-6 grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
 
         {cards.map((card, index) => (
