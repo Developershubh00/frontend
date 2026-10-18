@@ -1,6 +1,49 @@
 export const announcements = [
   {
     title: "NEET PG 2026",
+    content: "Assam NEET PG 2026: Addendum to Provisional Merit List",
+    date: "2026-10-18",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/notice_inclusion_in_assam_state_neet-pg-2026_merit_list.pdf",
+    source: "Government of Assam",
+    isActive: true,
+  },
+  {
+    title: "NEET PG 2026",
+    content:
+      "Arunachal Pradesh NEET PG 2026: Round 1 Application Submission & Seat Matrix for In-Service Candidates",
+    date: "2026-10-17",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://dmetrap.in/wp-content/uploads/2026/10/Advertisement-PG-2026-1.pdf",
+    source: "Government Arunachal Pradesh",
+    isActive: true,
+  },
+  {
+    title: "NEET PG 2026",
+    content:
+      "Uttar Pradesh NEET PG 2026: Eligible Candidates List for PMHS Category - MD/MS & DNB Courses",
+    date: "2026-10-17",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://dgme.up.gov.in/assets/admin/news/4b18327d91c5a7fbefbcbdd5758097d1.pdf",
+    source: "DGME",
+    isActive: true,
+  },
+  {
+    title: "NEET PG 2026",
+    content:
+      "Assam NEET PG 2026: Round 1 Schedule & Provisional Merit List Released After Inclusion of Incentive Marks",
+    date: "2026-10-17",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/notice_1st_pg_counselling_provisional_merit_list_of_neet-pg-2026.pdf",
+    source: "Government of Assam",
+    isActive: true,
+  },
+  {
+    title: "NEET PG 2026",
     content:
       "NEET PG Counselling 2026: MCC Releases Updated Seat Matrix for MD/MS Courses",
     date: "2026-10-16",
