@@ -1,0 +1,189 @@
+.register-section {
+  width: 100%;
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #f8fbff 0%, #eef4ff 100%);
+}
+
+.register-image {
+  width: 60%;
+  height: 100dvh;
+  overflow: hidden;
+  position: relative;
+}
+
+.register-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.register-form {
+  width: 40%;
+  height: 100dvh;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  box-shadow: -15px 0 45px rgba(15, 23, 42, 0.08);
+}
+
+.register-form > img {
+  width: 220px;
+  margin-bottom: 40px;
+}
+
+.register-form form {
+  width: 100%;
+  max-width: 420px;
+}
+
+.register-form h1 {
+  font-size: 38px;
+  font-weight: 700;
+  color: #032c7b;
+  margin-bottom: 10px;
+}
+
+.register-form input {
+  width: 100%;
+  height: 56px;
+  border: 1.5px solid #dbe4f0;
+  border-radius: 12px;
+  padding: 0 18px;
+  font-size: 16px;
+  color: #3f3f3f;
+  outline: none;
+  transition: all 0.3s ease;
+  background: #ffffff;
+}
+
+.register-form input::placeholder {
+  color: #94a3b8;
+}
+
+.register-form input:focus {
+  border-color: #0464de;
+  box-shadow: 0 0 0 4px rgba(21, 93, 252, 0.12);
+}
+
+.register-form button {
+  width: 100%;
+  height: 56px;
+  border: none;
+  border-radius: 12px;
+  background: #0464de;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.register-form button:hover:not(:disabled) {
+  background: #0d4fe8;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(21, 93, 252, 0.28);
+}
+
+.register-form button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.login-text {
+  text-align: center;
+  margin-top: 18px;
+  font-size: 15px;
+  color: #64748b;
+}
+
+.login-text span {
+  color: #0464de;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login-text span:hover {
+  text-decoration: underline;
+}
+
+/* ---------------- Responsive ---------------- */
+
+@media (max-width: 868px) {
+  .register-section {
+    position: relative;
+    min-height: 100dvh;
+    padding: 20px;
+    background:
+      linear-gradient(rgba(15, 23, 42, 0.65), rgba(15, 23, 42, 0.65)),
+      url("../../assets/images/login_image.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .register-image {
+    display: none;
+  }
+
+  .register-form {
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+    min-height: auto;
+    padding: 36px 24px;
+    border-radius: 20px;
+
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(24px) saturate(180%);
+    -webkit-backdrop-filter: blur(24px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    box-shadow:
+      0 8px 32px rgba(0, 0, 0, 0.18),
+      inset 0 1px 1px rgba(255, 255, 255, 0.25);
+
+    overflow: hidden;
+  }
+
+  .register-form img {
+    width: 170px;
+    margin-bottom: 24px;
+    background: #ffffff;
+    padding: 8px;
+    border-radius: 10px;
+  }
+
+  .register-form h1 {
+    font-size: 32px;
+    color: #ffffff;
+  }
+
+  .register-form input,
+  .register-form button {
+    height: 52px;
+  }
+
+  .register-form input {
+    background: rgba(255, 255, 255, 0.9);
+  }
+}
+
+@media (max-width: 568px) {
+  .register-form {
+    padding: 28px 18px;
+  }
+
+  .register-form img {
+    width: 150px;
+  }
+
+  .register-form h1 {
+    font-size: 28px;
+  }
+}

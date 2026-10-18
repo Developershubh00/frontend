@@ -1,0 +1,5 @@
+# If you're using Google AdSense, add your publisher ID:
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+
+# If you don't have ads yet, you can leave this file empty or add:
+# placeholder

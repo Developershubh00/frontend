@@ -1,0 +1,59 @@
+User-agent: *
+Allow:/
+ 
+Disallow: /wp-admin/
+Disallow: /blog/category/
+Disallow: /blog/category/*/page/
+Disallow: /tag/*
+Disallow: /tag/*/feed/
+Disallow: /*/feed
+ 
+# Private / Auth Pages
+Disallow: /dashboard
+Disallow: /profile
+Disallow: /login
+Disallow: /signup
+ 
+# API & Internal
+Disallow: /api/
+ 
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Googlebot-Extended
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://believersconsultancy.com/sitemap.xml

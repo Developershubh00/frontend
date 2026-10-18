@@ -1,0 +1,137 @@
+.inicet-hero {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+  padding: 100px 20px;
+}
+
+.inicet-container {
+  max-width: 1400px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  align-items: center;
+  gap: 70px;
+  position: relative;
+  z-index: 2;
+}
+
+.inicet-hero-content h1 {
+  font-size: 42px;
+  color: #032c7b;
+  line-height: 1.4;
+  margin: 18px 0 25px;
+  font-weight: 800;
+}
+
+.inicet-hero-content h1 span {
+  color: #0464de;
+}
+
+.inicet-hero-tag {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background: rgba(21, 93, 252, 0.08);
+  color: #0464de;
+  font-weight: 600;
+}
+
+.inicet-hero-content p {
+  font-size: 18px;
+  line-height: 1.9;
+  color: #3f3f3f;
+  max-width: 700px;
+}
+
+.inicet-hero-actions {
+  margin: 40px 0 25px;
+}
+
+.inicet-hero-btn {
+  padding: 16px 36px;
+  border-radius: 14px;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.35s ease;
+  background: #ff732d;
+  color: #ffffff;
+  border: 1px solid #ff732d;
+}
+
+.inicet-hero-btn:hover {
+  background: transparent;
+  color: #ff732d;
+  transform: translateY(-2px);
+}
+
+.inicet-hero-note {
+  font-size: 18px;
+  color: #032c7b;
+  font-weight: 600;
+}
+
+.inicet-hero-image img {
+  width: 100%;
+  border-radius: 28px;
+  display: block;
+  box-shadow: 0 30px 80px rgba(15, 23, 42, 0.12);
+}
+
+.inicet-hero-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(90px);
+}
+
+.inicet-hero-blob-1 {
+  width: 350px;
+  height: 350px;
+  background: rgba(21, 93, 252, 0.15);
+  left: -120px;
+  top: -100px;
+}
+
+.inicet-hero-blob-2 {
+  width: 320px;
+  height: 320px;
+  background: rgba(124, 58, 237, 0.15);
+  right: -100px;
+  bottom: -120px;
+}
+
+/* -------------------- Responsive ------------------- */
+
+@media (max-width: 868px) {
+  .inicet-hero {
+    padding: 80px 20px;
+  }
+
+  .inicet-container {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .inicet-hero-content {
+    order: 2;
+    text-align: center;
+  }
+
+  .inicet-hero-image {
+    order: 1;
+  }
+
+  .inicet-hero-content h1 {
+    font-size: 32px;
+  }
+
+  .inicet-hero-content p {
+    font-size: 16px;
+    margin: auto;
+  }
+
+  .inicet-hero-note {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,458 @@
+.npgd-info-root {
+  width: 100%;
+}
+
+.npgd-info-section {
+  padding: 72px 20px;
+}
+
+.npgd-info-section-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.npgd-info-bg-light {
+  background: #eef3fc;
+}
+
+.npgd-info-bg-white {
+  background: #ffffff;
+}
+
+.npgd-info-header-center {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.npgd-info-header-center .npgd-info-para {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.npgd-info-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+  padding: 6px 14px 6px 10px;
+  border-radius: 999px;
+  background: #ffffff;
+  border: 1px solid #dbe6fb;
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #0464de;
+}
+
+.npgd-info-bg-white .npgd-info-eyebrow {
+  background: #eef3fc;
+  border-color: #dbe6fb;
+}
+
+.npgd-info-eyebrow-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #ff732d;
+  box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.25);
+}
+
+.npgd-info-heading {
+  margin: 0 0 12px;
+  font-size: 38px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #032c7b;
+  letter-spacing: -0.01em;
+}
+
+.npgd-info-heading-accent {
+  background: linear-gradient(90deg, #0464de, #032c7b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.npgd-info-para {
+  margin: 0 0 40px;
+  max-width: 640px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #3f3f3f;
+}
+
+.npgd-info-header-row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.npgd-info-header-row .npgd-info-para {
+  margin-bottom: 32px;
+}
+
+.npgd-info-ticket {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #dbe6fb;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px -18px rgba(21, 93, 252, 0.35);
+  overflow: hidden;
+}
+
+.npgd-info-ticket::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(90deg, #0464de, #032c7b);
+}
+
+.npgd-info-steps {
+  list-style: none;
+  margin: 0;
+  padding: 8px 0;
+}
+
+.npgd-info-step {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  padding: 16px 26px;
+  border-bottom: 1px dashed #dbe6fb;
+}
+
+.npgd-info-step:last-child {
+  border-bottom: none;
+}
+
+.npgd-info-step-num {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  margin-top: 2px;
+  border-radius: 8px;
+  background: #eef3fc;
+  color: #0464de;
+  font-size: 13.5px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.npgd-info-step-text {
+  font-size: 15.5px;
+  line-height: 1.6;
+  color: #3f3f3f;
+  padding-top: 4px;
+}
+
+.npgd-info-inline-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: #0464de;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid #cfe0ff;
+}
+
+.npgd-info-inline-link:hover {
+  border-bottom-color: #0464de;
+}
+
+.npgd-info-inline-link svg {
+  width: 13px;
+  height: 13px;
+}
+
+.npgd-info-ticket-foot {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 26px;
+  background: #fffaf0;
+  border-top: 1px solid #f5dfae;
+  font-size: 14px;
+  color: #92660b;
+}
+
+.npgd-info-ticket-foot strong {
+  color: #92660b;
+}
+
+.npgd-info-ticket-foot svg {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  color: #ff732d;
+}
+
+.npgd-info-table-wrap {
+  overflow-x: auto;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px -20px rgba(15, 23, 42, 0.25);
+}
+
+.npgd-info-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 480px;
+}
+
+.npgd-info-table thead th {
+  text-align: left;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #64748b;
+  background: #f8fafc;
+  padding: 16px 24px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.npgd-info-table tbody td {
+  padding: 16px 24px;
+  font-size: 15px;
+  color: #3f3f3f;
+  border-bottom: 1px solid #eef2f6;
+}
+
+.npgd-info-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.npgd-info-table tbody tr:hover {
+  background: #f8fafc;
+}
+
+.npgd-info-table tbody td:first-child {
+  font-weight: 600;
+  color: #032c7b;
+}
+
+.npgd-info-seat-count {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  color: #3f3f3f;
+}
+
+.npgd-info-demand-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 999px;
+}
+
+.npgd-info-demand-veryhigh {
+  color: #b45309;
+  background: #fef3e2;
+}
+
+.npgd-info-demand-high {
+  color: #0464de;
+  background: #eaf1ff;
+}
+
+.npgd-info-demand-rising {
+  color: #032c7b;
+  background: #f3ecfe;
+}
+
+.npgd-info-demand-moderate {
+  color: #64748b;
+  background: #f1f5f9;
+}
+
+.npgd-info-timeline {
+  position: relative;
+  margin-top: 8px;
+}
+
+.npgd-info-timeline-phase-label {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 22px;
+  padding-left: 60px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #032c7b;
+}
+
+.npgd-info-timeline-phase-label:first-child {
+  margin-top: 0;
+}
+
+.npgd-info-phase-block
+  + .npgd-info-phase-block
+  .npgd-info-timeline-phase-label {
+  margin-top: 12px;
+}
+
+.npgd-info-timeline-track {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.npgd-info-timeline-node {
+  position: relative;
+  display: flex;
+  gap: 24px;
+  padding-bottom: 30px;
+}
+
+.npgd-info-timeline-node::before {
+  content: "";
+  position: absolute;
+  left: 24px;
+  top: 52px;
+  bottom: -4px;
+  width: 2px;
+  background: linear-gradient(180deg, #cfe0ff, #e6d9fb);
+}
+
+.npgd-info-timeline-node:last-child::before {
+  display: none;
+}
+
+.npgd-info-timeline-marker {
+  position: relative;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 14px;
+  color: #ffffff;
+  box-shadow: 0 8px 18px -8px rgba(21, 93, 252, 0.55);
+}
+
+.npgd-info-timeline-marker svg {
+  width: 22px;
+  height: 22px;
+}
+
+.npgd-info-timeline-marker-primary {
+  background: linear-gradient(135deg, #0464de, #3b7bff);
+}
+
+.npgd-info-timeline-marker-secondary {
+  background: linear-gradient(135deg, #032c7b, #9a5cf5);
+}
+
+.npgd-info-timeline-marker-cta {
+  background: linear-gradient(135deg, #ff732d, #fbbf24);
+  box-shadow: 0 8px 18px -8px rgba(245, 158, 11, 0.55);
+}
+
+.npgd-info-timeline-card {
+  flex: 1;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 16px 20px;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+}
+
+.npgd-info-bg-light .npgd-info-timeline-card {
+  border-color: #dbe6fb;
+}
+
+.npgd-info-timeline-step-title {
+  margin: 0 0 6px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #032c7b;
+}
+
+.npgd-info-timeline-step-desc {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.55;
+  color: #64748b;
+}
+
+.npgd-info-timeline-step-desc + .npgd-info-timeline-step-desc {
+  margin-top: 4px;
+}
+
+/* -------------------------- Responsive --------------------- */
+
+@media (max-width: 868px) {
+  .npgd-info-section {
+    padding: 60px 16px;
+  }
+
+  .npgd-info-heading {
+    font-size: 32px;
+  }
+
+  .npgd-info-para {
+    font-size: 16px;
+  }
+
+  .npgd-info-timeline-phase-label {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 560px) {
+  .npgd-info-step {
+    padding: 14px 18px;
+  }
+
+  .npgd-info-ticket-foot {
+    padding: 14px 18px;
+  }
+
+  .npgd-info-table {
+    min-width: 420px;
+  }
+
+  .npgd-info-timeline-marker {
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+  }
+
+  .npgd-info-timeline-marker svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .npgd-info-timeline-node {
+    gap: 16px;
+  }
+
+  .npgd-info-timeline-node::before {
+    left: 20px;
+    top: 44px;
+  }
+
+  .npgd-info-timeline-phase-label {
+    padding-left: 46px;
+  }
+
+  .npgd-info-timeline-card {
+    padding: 14px 16px;
+  }
+}

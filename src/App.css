@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lora", serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+img {
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+/* heading → font-size:38px; / color: #032c7b
+sub-heading → font-size:28px; / color: #0464de
+para/desc → font-size: 18px / color: #3f3f3f
+cta color: #ff732d
+for background:#effff4
+
+@media (max-width: 868px) {
+  heading → font-size:32px;
+sub-heading → font-size:24px;
+para/desc → font-size: 16px
+  } */

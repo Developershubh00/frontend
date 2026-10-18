@@ -1,0 +1,230 @@
+.neetpg-seat-cards-section {
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+.neetpg-seat-cards-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.neetpg-seat-cards-badge {
+  display: inline-block;
+  padding: 8px 16px;
+  margin-bottom: 12px;
+  border-radius: 50px;
+  background-color: #fff7ed;
+  color: #ea580c;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.neetpg-seat-cards-heading {
+  margin: 0;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.neetpg-seat-cards-heading span {
+  color: #f97316;
+}
+
+.neetpg-seat-cards-description {
+  margin: 12px 0 0;
+  color: #6b7280;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* Card Grid */
+
+.neetpg-seat-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+  align-items: stretch;
+}
+
+/* Individual Card */
+
+.neetpg-seat-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 24px;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.neetpg-seat-card:hover {
+  transform: translateY(-5px);
+  border-color: #fdba74;
+  box-shadow: 0 12px 28px rgba(249, 115, 22, 0.12);
+}
+
+/* Card Top */
+
+.neetpg-seat-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.neetpg-seat-card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  color: #f97316;
+  background-color: #fff7ed;
+  border-radius: 12px;
+  transition:
+    color 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.neetpg-seat-card:hover .neetpg-seat-card-icon {
+  color: #ffffff;
+  background-color: #f97316;
+}
+
+.neetpg-seat-card-number {
+  color: #9ca3af;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* Card Content */
+
+.neetpg-seat-card-title {
+  margin: 0 0 10px;
+  color: #1f2937;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5;
+  transition: color 0.3s ease;
+}
+
+.neetpg-seat-card:hover .neetpg-seat-card-title {
+  color: #ea580c;
+}
+
+.neetpg-seat-card-subtitle {
+  margin: 0 0 24px;
+  color: #6b7280;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Button */
+
+.neetpg-seat-card-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  margin-top: auto;
+  padding: 12px 16px;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: #f97316;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  transition:
+    background-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.neetpg-seat-card-button:hover {
+  background-color: #ea580c;
+  box-shadow: 0 4px 12px rgba(249, 115, 22, 0.2);
+}
+
+.neetpg-seat-card-button:focus-visible {
+  outline: 2px solid #f97316;
+  outline-offset: 3px;
+}
+
+/* Tablet */
+
+@media (max-width: 1024px) {
+  .neetpg-seat-cards-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .neetpg-seat-cards-heading {
+    font-size: 32px;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .neetpg-seat-cards-section {
+    width: 92%;
+    margin-bottom: 32px;
+    padding: 20px 0;
+  }
+
+  .neetpg-seat-cards-header {
+    margin-bottom: 24px;
+  }
+
+  .neetpg-seat-cards-heading {
+    font-size: 27px;
+  }
+
+  .neetpg-seat-cards-description {
+    font-size: 14px;
+  }
+
+  .neetpg-seat-cards-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .neetpg-seat-card {
+    padding: 20px;
+  }
+
+  .neetpg-seat-card-top {
+    margin-bottom: 18px;
+  }
+
+  .neetpg-seat-card-title {
+    font-size: 17px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .neetpg-seat-card,
+  .neetpg-seat-card-icon,
+  .neetpg-seat-card-title,
+  .neetpg-seat-card-button {
+    transition: none;
+  }
+
+  .neetpg-seat-card:hover {
+    transform: none;
+  }
+}

@@ -1,0 +1,126 @@
+.seo-section-container {
+  width: 100%;
+  margin: 32px 0;
+  background: linear-gradient(135deg, #1d204b 0%, #1767be 50%, #ff732d 100%);
+  border-radius: 12px;
+  padding: 20px 24px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 24px 64px rgba(27, 18, 100, 0.18);
+  z-index: 1;
+}
+
+.seo-section-container::before {
+  content: "";
+  position: absolute;
+  top: -60px;
+  right: -60px;
+  width: 220px;
+  height: 220px;
+  border: 1.5px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.seo-section-container::after {
+  content: "";
+  position: absolute;
+  bottom: -80px;
+  left: -50px;
+  width: 260px;
+  height: 260px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.seo-section-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  position: relative;
+  z-index: 2;
+}
+
+.seo-section-image {
+  flex: 0 0 150px;
+}
+
+.seo-section-image img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
+
+.seo-section-content {
+  flex: 1;
+  color: #fff;
+}
+
+.seo-section-content h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+.seo-section-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.85);
+  margin: 0;
+}
+
+.seo-section-cta {
+  flex: 0 0 auto;
+}
+
+.seo-explore-btn {
+  display: inline-block;
+  background: #ffffff;
+  color: #1d204b;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 12px 28px;
+  border-radius: 50px;
+  text-decoration: none !important;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+
+.seo-explore-btn:hover {
+  background: #ff732d;
+  color: #1d204b;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 1024px) {
+  .seo-section-wrapper {
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 868px) {
+  .seo-section-container {
+    padding: 24px 16px;
+  }
+
+  .seo-section-wrapper {
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+  }
+
+  .seo-section-image {
+    width: 130px;
+  }
+
+  .seo-section-image img {
+    height: 130px;
+  }
+}

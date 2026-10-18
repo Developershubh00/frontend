@@ -1,0 +1,26 @@
+#aisensy-magnetic-standalone,
+.aisensy-wa-chat-container,
+.wa-chat-box-content-container {
+  z-index: 9999 !important;
+}
+
+@media (min-width: 768px) {
+  #aisensy-magnetic-standalone {
+    bottom: 20px !important;
+    right: 20px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  #aisensy-magnetic-standalone {
+    bottom: 80px !important;
+    right: 15px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  #aisensy-magnetic-standalone {
+    bottom: 75px !important;
+    right: 10px !important;
+  }
+}

@@ -1,0 +1,272 @@
+.ug-feature {
+  padding: 64px 20px;
+  background: #ffffff;
+  overflow: visible;
+}
+
+.ug-feature-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  overflow: visible;
+}
+
+.ug-feature-grid {
+  display: grid;
+  grid-template-columns: 360px minmax(0, 1fr);
+  gap: 32px;
+}
+
+.ug-feature-sticky-col {
+  position: relative;
+}
+
+.ug-feature-dark-card {
+  position: sticky;
+  top: 110px;
+  background: #111827;
+  border-radius: 24px;
+  padding: 36px;
+  color: #fff;
+}
+
+.ug-feature-dark-card-title {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1.15;
+  margin-bottom: 18px;
+}
+
+.ug-feature-dark-card-para {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #cbd5e1;
+}
+
+.ug-feature-dark-card-btn {
+  width: 100%;
+  margin-top: 28px;
+  padding: 16px;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #111827;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.35s;
+}
+
+.ug-feature-dark-card-btn:hover {
+  transform: translateY(-3px);
+  background: #f8fafc;
+}
+
+.ug-feature-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.ug-feature-card {
+  padding: 22px;
+  border-radius: 18px;
+  border: 1px solid;
+  opacity: 0;
+  transform: translateY(25px);
+  transition:
+    opacity 0.45s,
+    transform 0.45s,
+    box-shadow 0.35s,
+    transform 0.35s;
+}
+
+.ug-feature-card.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.ug-feature-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.08);
+}
+
+.ug-feature-card-icon {
+  margin-bottom: 14px;
+}
+
+.ug-feature-card-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 10px;
+}
+
+.ug-feature-card-desc {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #475569;
+}
+
+.ug-feature-card.is-blue {
+  background: #eff6ff;
+  border-color: #bfdbfe;
+}
+
+.ug-feature-card-icon.is-blue {
+  color: #2563eb;
+}
+
+.ug-feature-card.is-indigo {
+  background: #eef2ff;
+  border-color: #c7d2fe;
+}
+
+.ug-feature-card-icon.is-indigo {
+  color: #4f46e5;
+}
+
+.ug-feature-card.is-purple {
+  background: #faf5ff;
+  border-color: #e9d5ff;
+}
+
+.ug-feature-card-icon.is-purple {
+  color: #9333ea;
+}
+
+.ug-feature-card.is-orange {
+  background: #fff7ed;
+  border-color: #fed7aa;
+}
+
+.ug-feature-card-icon.is-orange {
+  color: #ea580c;
+}
+
+.ug-feature-card.is-cyan {
+  background: #ecfeff;
+  border-color: #a5f3fc;
+}
+
+.ug-feature-card-icon.is-cyan {
+  color: #0891b2;
+}
+
+.ug-feature-card.is-pink {
+  background: #fdf2f8;
+  border-color: #fbcfe8;
+}
+
+.ug-feature-card-icon.is-pink {
+  color: #db2777;
+}
+
+.ug-feature-card.is-teal {
+  background: #f0fdfa;
+  border-color: #99f6e4;
+}
+
+.ug-feature-card-icon.is-teal {
+  color: #0d9488;
+}
+
+.ug-feature-card.is-yellow {
+  background: #fefce8;
+  border-color: #fde68a;
+}
+
+.ug-feature-card-icon.is-yellow {
+  color: #ca8a04;
+}
+
+.ug-feature-card.is-red {
+  background: #fef2f2;
+  border-color: #fecaca;
+}
+
+.ug-feature-card-icon.is-red {
+  color: #dc2626;
+}
+
+.ug-feature-card.is-violet {
+  background: #f5f3ff;
+  border-color: #ddd6fe;
+}
+
+.ug-feature-card-icon.is-violet {
+  color: #032c7b;
+}
+
+.ug-feature-card.is-slate {
+  background: #f8fafc;
+  border-color: #e2e8f0;
+}
+
+.ug-feature-card-icon.is-slate {
+  color: #475569;
+}
+
+/* -------------------- Responsive ------------------- */
+
+@media (max-width: 868px) {
+  .ug-feature-container {
+    padding: 0 20px;
+  }
+
+  .ug-feature-dark-card {
+    padding: 28px;
+  }
+
+  .ug-feature-dark-card-title {
+    font-size: 32px;
+  }
+
+  .ug-feature-dark-card-para {
+    font-size: 15px;
+  }
+
+  .ug-feature-list {
+    grid-template-columns: 1fr;
+  }
+
+  .ug-feature-card {
+    padding: 20px;
+  }
+
+  .ug-feature-card-title {
+    font-size: 17px;
+  }
+
+  .ug-feature-card-desc {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 568px) {
+  .ug-feature {
+    padding: 40px 0;
+  }
+
+  .ug-feature-container {
+    padding: 0 16px;
+  }
+
+  .ug-feature-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .ug-feature-dark-card {
+    padding: 24px;
+    border-radius: 20px;
+  }
+
+  .ug-feature-dark-card-title {
+    font-size: 28px;
+  }
+
+  .ug-feature-dark-card-btn {
+    font-size: 16px;
+    padding: 15px;
+  }
+}
