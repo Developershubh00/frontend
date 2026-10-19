@@ -1,6 +1,17 @@
 export const announcements = [
   {
     title: "NEET PG 2026",
+    content:
+      "Bihar NEET PG Counselling 2026: Round 1 and Round 2 Registration Schedule Released",
+    date: "2026-10-19",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://bceceboard.bihar.gov.in/",
+    source: "Bihar Combined Entrance Competitive Examination Board",
+    isActive: true,
+  },
+  {
+    title: "NEET PG 2026",
     content: "Assam NEET PG 2026: Addendum to Provisional Merit List",
     date: "2026-10-18",
     priority: "high",
@@ -40,6 +51,17 @@ export const announcements = [
     category: "NEET PG",
     link: "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/notice_1st_pg_counselling_provisional_merit_list_of_neet-pg-2026.pdf",
     source: "Government of Assam",
+    isActive: true,
+  },
+  {
+    title: "NEET PG 2026",
+    content:
+      "Rajasthan NEET PG Counselling 2026: Round 1 Provisional Seat Matrix Released",
+    date: "2026-10-16",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://pg.neetrajasthan.com/home",
+    source: "Rajasthan NEET PG Counselling Website",
     isActive: true,
   },
   {
