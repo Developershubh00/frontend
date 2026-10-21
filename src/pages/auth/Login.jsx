@@ -20,36 +20,57 @@ function Login() {
   });
 
   const handleChange = (e) => {
+    const { name, value } = e.target;
+
     setFormData((prev) => ({
       ...prev,
-      [e.target.name]: e.target.value,
+      [name]: value,
     }));
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    if (!formData.email || !formData.password) {
-      return toast.error("Please fill all fields");
+    if (loading) return;
+
+    const email = formData.email.trim().toLowerCase();
+    const password = formData.password;
+
+    if (!email || !password) {
+      toast.error("Please fill all fields");
+      return;
     }
 
     try {
       setLoading(true);
 
-      const res = await loginUser(formData);
+      const res = await loginUser({
+        email,
+        password,
+      });
 
-      // Save user & token in AuthContext + localStorage
-      const from = location.state?.from;
+      if (!res?.success || !res?.user || !res?.token) {
+        throw new Error(res?.message || "Invalid login response");
+      }
 
+      // Save user and token using your existing AuthContext.
       login(res.user, res.token);
 
-      toast.success(res.message);
+      toast.success(res.message || "Login successful");
 
-      navigate(from?.pathname ? from.pathname + from.search + from.hash : "/", {
-        replace: true,
-      });
+      const from = location.state?.from;
+
+      const redirectTo = from?.pathname
+        ? `${from.pathname}${from.search || ""}${from.hash || ""}`
+        : "/";
+
+      navigate(redirectTo, { replace: true });
     } catch (error) {
-      toast.error(error.response?.data?.message || "Login failed");
+      toast.error(
+        error.response?.data?.message ||
+          error.message ||
+          "Login failed. Please try again.",
+      );
     } finally {
       setLoading(false);
     }
@@ -58,13 +79,13 @@ function Login() {
   return (
     <div className="login-section">
       <div className="login-image">
-        <img src={Image} alt="" />
+        <img src={Image} alt="Login illustration" />
       </div>
 
       <div className="login-form">
         <img
           src="https://cdn.dribbble.com/userupload/48551110/file/f730ea2ceb0ebb81692e526e355c1c90.png"
-          alt=""
+          alt="Welcome"
         />
 
         <form onSubmit={handleSubmit}>
@@ -78,6 +99,9 @@ function Login() {
             placeholder="Email"
             value={formData.email}
             onChange={handleChange}
+            autoComplete="email"
+            required
+            disabled={loading}
           />
 
           <br />
@@ -89,10 +113,23 @@ function Login() {
             placeholder="Password"
             value={formData.password}
             onChange={handleChange}
+            autoComplete="current-password"
+            required
+            disabled={loading}
           />
 
           <p className="forgot-password">
-            <span onClick={() => navigate("/forgot-password")}>
+            <span
+              role="button"
+              tabIndex={0}
+              onClick={() => navigate("/forgot-password")}
+              onKeyDown={(e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                  e.preventDefault();
+                  navigate("/forgot-password");
+                }
+              }}
+            >
               Forgot Password?
             </span>
           </p>
@@ -103,7 +140,19 @@ function Login() {
 
           <p className="signup-text">
             Don't have an account?{" "}
-            <span onClick={() => navigate("/register")}>Sign up</span>
+            <span
+              role="button"
+              tabIndex={0}
+              onClick={() => navigate("/register")}
+              onKeyDown={(e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                  e.preventDefault();
+                  navigate("/register");
+                }
+              }}
+            >
+              Sign up
+            </span>
           </p>
         </form>
       </div>

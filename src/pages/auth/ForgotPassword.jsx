@@ -27,31 +27,35 @@ function ForgotPassword() {
     }));
   };
 
-  // Step 1: Verify registered email and phone
   const handleVerifyDetails = async (e) => {
     e.preventDefault();
 
-    if (!formData.email.trim() || !formData.phone.trim()) {
-      return toast.error("Enter your email and phone number");
+    if (loading) return;
+
+    const email = formData.email.trim().toLowerCase();
+    const phone = formData.phone.trim();
+
+    if (!email || !phone) {
+      toast.error("Enter your email and phone number");
+      return;
     }
 
     try {
       setLoading(true);
 
-      const response = await verifyRecovery({
-        email: formData.email.trim(),
-        phone: formData.phone.trim(),
-      });
+      const response = await verifyRecovery({ email, phone });
 
-      const token = response.data?.resetToken;
+      // Assumes verifyRecovery returns the Axios response object.
+      const token = response?.data?.resetToken;
 
       if (!token) {
-        throw new Error("Reset token was not returned by the server");
+        throw new Error(
+          response?.data?.message || "The server did not return a reset token",
+        );
       }
 
       setResetToken(token);
       setStep(2);
-
       toast.success("Details verified successfully");
     } catch (error) {
       toast.error(
@@ -64,20 +68,31 @@ function ForgotPassword() {
     }
   };
 
-  // Step 2: Save the new password
   const handleResetPassword = async (e) => {
     e.preventDefault();
 
-    if (!formData.newPassword || !formData.confirmPassword) {
-      return toast.error("Please fill in both password fields");
+    if (loading) return;
+
+    const { newPassword, confirmPassword } = formData;
+
+    if (!newPassword || !confirmPassword) {
+      toast.error("Please fill in both password fields");
+      return;
     }
 
-    if (formData.newPassword.length < 8) {
-      return toast.error("Password must contain at least 8 characters");
+    if (newPassword.length < 8) {
+      toast.error("Password must contain at least 8 characters");
+      return;
     }
 
-    if (formData.newPassword !== formData.confirmPassword) {
-      return toast.error("Passwords do not match");
+    if (new TextEncoder().encode(newPassword).length > 72) {
+      toast.error("Password is too long");
+      return;
+    }
+
+    if (newPassword !== confirmPassword) {
+      toast.error("Passwords do not match");
+      return;
     }
 
     try {
@@ -85,15 +100,25 @@ function ForgotPassword() {
 
       const response = await resetPassword({
         resetToken,
-        newPassword: formData.newPassword,
-        confirmPassword: formData.confirmPassword,
+        newPassword,
+        confirmPassword,
       });
 
-      toast.success(response.message || "Password reset successfully");
+      // Supports either an Axios response or response.data.
+      const result = response?.data ?? response;
 
+      if (result?.success === false) {
+        throw new Error(result.message || "Unable to reset password");
+      }
+
+      toast.success(result?.message || "Password reset successfully");
       navigate("/login", { replace: true });
     } catch (error) {
-      toast.error(error.response?.data?.message || "Unable to reset password");
+      toast.error(
+        error.response?.data?.message ||
+          error.message ||
+          "Unable to reset password",
+      );
     } finally {
       setLoading(false);
     }
@@ -177,7 +202,7 @@ function ForgotPassword() {
               <br />
               <br />
 
-              <button type="submit" disabled={loading}>
+              <button type="submit" disabled={loading || !resetToken}>
                 {loading ? "Updating..." : "Reset Password"}
               </button>
             </>
@@ -185,7 +210,18 @@ function ForgotPassword() {
 
           <p className="signup-text">
             Remember your password?{" "}
-            <span onClick={() => navigate("/login")}>Login</span>
+            <span
+              role="button"
+              tabIndex={0}
+              onClick={() => navigate("/login")}
+              onKeyDown={(e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                  navigate("/login");
+                }
+              }}
+            >
+              Login
+            </span>
           </p>
         </form>
       </div>

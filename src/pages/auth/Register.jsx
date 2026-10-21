@@ -31,39 +31,60 @@ function Register() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const { name, email, phone, password, confirmPassword } = formData;
+    if (loading) return;
+
+    const name = formData.name.trim();
+    const email = formData.email.trim().toLowerCase();
+    const phone = formData.phone.trim();
+    const { password, confirmPassword } = formData;
 
     if (!name || !email || !phone || !password || !confirmPassword) {
-      return toast.error("Please fill all fields");
+      toast.error("Please fill all fields");
+      return;
     }
 
     if (password.length < 6) {
-      return toast.error("Password must be at least 6 characters");
+      toast.error("Password must be at least 6 characters");
+      return;
+    }
+
+    // bcrypt only processes up to 72 bytes of a password.
+    if (new TextEncoder().encode(password).length > 72) {
+      toast.error("Password is too long");
+      return;
     }
 
     if (password !== confirmPassword) {
-      return toast.error("Passwords do not match");
+      toast.error("Passwords do not match");
+      return;
     }
 
     try {
       setLoading(true);
 
-      const payload = {
+      const res = await registerUser({
         name,
         email,
         phone,
         password,
-      };
+      });
 
-      const res = await registerUser(payload);
+      // This assumes registerUser returns response.data.
+      if (!res?.success || !res?.user || !res?.token) {
+        throw new Error(res?.message || "Registration response was incomplete");
+      }
 
       login(res.user, res.token);
 
-      toast.success(res.message);
-
+      toast.success(res.message || "Registration successful");
       navigate("/", { replace: true });
     } catch (error) {
-      toast.error(error.response?.data?.message || "Registration failed");
+      const message =
+        error.response?.data?.message ||
+        error.message ||
+        "Registration failed. Please try again.";
+
+      toast.error(message);
     } finally {
       setLoading(false);
     }
@@ -84,18 +105,15 @@ function Register() {
         <form onSubmit={handleSubmit}>
           <h1>Create Account</h1>
 
-          <br />
-
           <input
             type="text"
             name="name"
             placeholder="Full Name"
             value={formData.name}
             onChange={handleChange}
+            autoComplete="name"
+            required
           />
-
-          <br />
-          <br />
 
           <input
             type="email"
@@ -103,10 +121,9 @@ function Register() {
             placeholder="Email"
             value={formData.email}
             onChange={handleChange}
+            autoComplete="email"
+            required
           />
-
-          <br />
-          <br />
 
           <input
             type="tel"
@@ -114,10 +131,9 @@ function Register() {
             placeholder="Phone Number"
             value={formData.phone}
             onChange={handleChange}
+            autoComplete="tel"
+            required
           />
-
-          <br />
-          <br />
 
           <input
             type="password"
@@ -125,10 +141,10 @@ function Register() {
             placeholder="Password"
             value={formData.password}
             onChange={handleChange}
+            autoComplete="new-password"
+            minLength={6}
+            required
           />
-
-          <br />
-          <br />
 
           <input
             type="password"
@@ -136,10 +152,10 @@ function Register() {
             placeholder="Confirm Password"
             value={formData.confirmPassword}
             onChange={handleChange}
+            autoComplete="new-password"
+            minLength={6}
+            required
           />
-
-          <br />
-          <br />
 
           <button type="submit" disabled={loading}>
             {loading ? "Creating Account..." : "Register"}
@@ -147,7 +163,18 @@ function Register() {
 
           <p className="login-text">
             Already have an account?{" "}
-            <span onClick={() => navigate("/login")}>Log In</span>
+            <span
+              role="button"
+              tabIndex={0}
+              onClick={() => navigate("/login")}
+              onKeyDown={(e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                  navigate("/login");
+                }
+              }}
+            >
+              Log In
+            </span>
           </p>
         </form>
       </div>
