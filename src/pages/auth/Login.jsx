@@ -3,6 +3,7 @@ import "./Login.css";
 import { useLocation, useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 import Image from "../../assets/images/login_image.webp";
+import { Eye, EyeOff } from "lucide-react";
 
 import { loginUser } from "../../services/authService";
 import { useAuth } from "../../context/AuthContext";
@@ -12,6 +13,7 @@ function Login() {
   const location = useLocation();
   const { login } = useAuth();
 
+  const [showPassword, setShowPassword] = useState(false);
   const [loading, setLoading] = useState(false);
 
   const [formData, setFormData] = useState({
@@ -107,16 +109,29 @@ function Login() {
           <br />
           <br />
 
-          <input
-            type="password"
-            name="password"
-            placeholder="Password"
-            value={formData.password}
-            onChange={handleChange}
-            autoComplete="current-password"
-            required
-            disabled={loading}
-          />
+          <div className="password-field">
+            <input
+              type={showPassword ? "text" : "password"}
+              name="password"
+              placeholder="Password"
+              value={formData.password}
+              onChange={handleChange}
+              autoComplete="current-password"
+              required
+              disabled={loading}
+            />
+
+            <button
+              type="button"
+              className="password-toggle"
+              onClick={() => setShowPassword((prev) => !prev)}
+              aria-label={showPassword ? "Hide password" : "Show password"}
+              aria-pressed={showPassword}
+              disabled={loading}
+            >
+              {showPassword ? <EyeOff size={20} /> : <Eye size={20} />}
+            </button>
+          </div>
 
           <p className="forgot-password">
             <span

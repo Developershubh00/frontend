@@ -149,6 +149,54 @@
   cursor: pointer;
 }
 
+.login-form .password-field {
+  position: relative;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.login-form .password-field input {
+  width: 100%;
+  padding-right: 55px;
+}
+
+.login-form .password-field .password-toggle {
+  position: absolute;
+  top: 0;
+  right: 12px;
+  width: 36px;
+  height: 56px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  color: #64748b;
+  border: none;
+  border-radius: 6px;
+  box-shadow: none;
+  transform: none;
+  cursor: pointer;
+}
+
+.login-form .password-field .password-toggle:hover:not(:disabled) {
+  background: transparent;
+  color: #0464de;
+  box-shadow: none;
+  transform: none;
+}
+
+.login-form .password-field .password-toggle:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.login-form .password-field .password-toggle:focus-visible {
+  outline: 2px solid #0464de;
+  outline-offset: -2px;
+}
+
 /* -------------------------------- Responsive ---------------------------- */
 
 @media (max-width: 868px) {
@@ -212,6 +260,10 @@
 
   .login-form input,
   .login-form button {
+    height: 52px;
+  }
+
+  .login-form .password-field .password-toggle {
     height: 52px;
   }
 }
