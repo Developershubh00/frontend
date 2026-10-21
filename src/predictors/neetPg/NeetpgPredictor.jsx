@@ -2,11 +2,9 @@ import { useState } from "react";
 import axios from "axios";
 import {
   Search,
-  SlidersHorizontal,
   RotateCcw,
   ChevronDown,
   ChevronUp,
-  Building2,
   GraduationCap,
   MapPin,
   IndianRupee,
@@ -25,9 +23,6 @@ const initialForm = {
   rank: "",
   category: "GEN",
   quota: "AIQ",
-  state: "",
-  course: "",
-  institute: "",
 };
 
 const categoryOptions = [
@@ -121,18 +116,6 @@ function NeetpgPredictor() {
         category: form.category,
         quota: form.quota,
       };
-
-      if (form.state) {
-        params.state = form.state;
-      }
-
-      if (form.course) {
-        params.course = form.course;
-      }
-
-      if (form.institute) {
-        params.institute = form.institute;
-      }
 
       const response = await axios.get(`${API_URL}/predictor/neet-pg`, {
         params,
@@ -267,62 +250,6 @@ function NeetpgPredictor() {
                   </div>
                 </div>
 
-                <div className="npg-filter-divider">
-                  <SlidersHorizontal size={16} />
-                  <span>Optional filters</span>
-                </div>
-
-                <div className="npg-form-group">
-                  <label htmlFor="state">State</label>
-
-                  <div className="npg-input-wrapper">
-                    <MapPin size={18} />
-
-                    <input
-                      id="state"
-                      name="state"
-                      type="text"
-                      placeholder="e.g. Delhi"
-                      value={form.state}
-                      onChange={handleChange}
-                    />
-                  </div>
-                </div>
-
-                <div className="npg-form-group">
-                  <label htmlFor="course">Course</label>
-
-                  <div className="npg-input-wrapper">
-                    <Stethoscope size={18} />
-
-                    <input
-                      id="course"
-                      name="course"
-                      type="text"
-                      placeholder="e.g. MD Medicine"
-                      value={form.course}
-                      onChange={handleChange}
-                    />
-                  </div>
-                </div>
-
-                <div className="npg-form-group">
-                  <label htmlFor="institute">Institute</label>
-
-                  <div className="npg-input-wrapper">
-                    <Building2 size={18} />
-
-                    <input
-                      id="institute"
-                      name="institute"
-                      type="text"
-                      placeholder="Search institute"
-                      value={form.institute}
-                      onChange={handleChange}
-                    />
-                  </div>
-                </div>
-
                 {error && (
                   <div className="npg-error">
                     <AlertCircle size={18} />
@@ -354,7 +281,7 @@ function NeetpgPredictor() {
                   onClick={handleReset}
                 >
                   <RotateCcw size={16} />
-                  Reset Filters
+                  Reset
                 </button>
               </form>
             </aside>
@@ -421,13 +348,6 @@ function NeetpgPredictor() {
                       <span>Quota</span>
                       <strong>{candidate?.quota}</strong>
                     </div>
-
-                    {candidate?.state && (
-                      <div>
-                        <span>State</span>
-                        <strong>{candidate.state}</strong>
-                      </div>
-                    )}
                   </div>
 
                   <div className="npg-summary-grid">
@@ -504,9 +424,7 @@ function NeetpgPredictor() {
                     <div className="npg-no-results">
                       <AlertCircle size={32} />
                       <h3>No colleges found</h3>
-                      <p>
-                        Try changing your category, quota or optional filters.
-                      </p>
+                      <p>Try changing your category or quota.</p>
                     </div>
                   ) : (
                     <div className="npg-results-list">

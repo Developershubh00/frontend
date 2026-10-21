@@ -63,11 +63,13 @@ import UgAllotments2025Page from "../pages/neetugDataPages/neetug2025/UgAllotmen
 import NeetpgPredictor from "../predictors/neetPg/NeetpgPredictor";
 
 import NewHomePage from "../pages/NewHomePage";
+import ScrollToTop from "../hooks/ScrollToTop";
 import AiSensyWidget from "../components/common/AiSensyWidget";
 
 function AppRoutes() {
   return (
     <>
+      <ScrollToTop />
       <AiSensyWidget />
       <Routes>
         {/* ================= PUBLIC WEBSITE ================= */}

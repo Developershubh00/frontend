@@ -43,10 +43,10 @@ function Navbar() {
             </div>
 
             <div className="nav-dropdown-menu">
-              <Link to="/neet-pg">NEET PG</Link>
-              <Link to="/neet-ug">NEET UG</Link>
-              <Link to="/inicet">INICET</Link>
-              {/* <Link to="/neet-ss">NEET SS</Link> */}
+              <Link to="/dashboard/neet-pg">NEET PG</Link>
+              <Link to="/dashboard/neet-ug">NEET UG</Link>
+              <Link to="/dashboard/inicet">INICET</Link>
+              {/* <Link to="/dashboard/neet-ss">NEET SS</Link> */}
             </div>
           </div>
 
@@ -92,16 +92,16 @@ function Navbar() {
 
           {dropdownOpen && (
             <div className="mobile-dropdown-content">
-              <Link to="/neet-pg" onClick={closeMenu}>
+              <Link to="/dashboard/neet-pg" onClick={closeMenu}>
                 NEET PG
               </Link>
-              <Link to="/neet-ug" onClick={closeMenu}>
+              <Link to="/dashboard/neet-ug" onClick={closeMenu}>
                 NEET UG
               </Link>
-              <Link to="/inicet" onClick={closeMenu}>
+              <Link to="/dashboard/inicet" onClick={closeMenu}>
                 INICET
               </Link>
-              {/* <Link to="/neet-ss" onClick={closeMenu}>
+              {/* <Link to="/dashboard/neet-ss" onClick={closeMenu}>
                 NEET SS
               </Link> */}
             </div>

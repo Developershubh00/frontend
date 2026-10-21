@@ -55,10 +55,10 @@ const Footer = () => {
         <div className="footer-links">
           <h3>Counsellings</h3>
 
-          <Link to="/neet-pg">NEET PG</Link>
-          <Link to="/neet-ug">NEET UG</Link>
-          <Link to="/inicet">INICET</Link>
-          {/* <Link to="/neet-ss">NEET SS</Link> */}
+          <Link to="/dashboard/neet-pg">NEET PG</Link>
+          <Link to="/dashboard/neet-ug">NEET UG</Link>
+          <Link to="/dashboard/inicet">INICET</Link>
+          {/* <Link to="/dashboard/neet-ss">NEET SS</Link> */}
         </div>
 
         {/* Contact */}

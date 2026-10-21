@@ -166,23 +166,6 @@
   gap: 10px;
 }
 
-.npg-filter-divider {
-  display: flex;
-  align-items: center;
-  gap: 7px;
-  color: #6e7485;
-  font-size: 12px;
-  font-weight: 700;
-  padding: 3px 0 15px;
-  margin: 2px 0 17px;
-  border-top: 1px solid #edf0f5;
-  padding-top: 18px;
-}
-
-.npg-filter-divider svg {
-  color: #1767be;
-}
-
 .npg-error {
   display: flex;
   align-items: flex-start;
