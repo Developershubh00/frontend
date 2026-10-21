@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
 import {
   ArrowLeft,
@@ -13,17 +13,73 @@ import {
 } from "lucide-react";
 import "./PgFeesStipendBond2025Page.css";
 
+/* ───────────────────────── API ───────────────────────── */
+
+const API_BASE = (
+  import.meta.env.VITE_API_URL || "http://localhost:5000"
+).replace(/\/$/, "");
+
+const FEE_STIPEND_BOND_URL = `${API_BASE}/fee-stipend-bond/pg/2025`;
+const FILTERS_URL = `${API_BASE}/fee-stipend-bond/pg/2025/filters`;
+
+const ITEMS_PER_PAGE = 50;
+
+const EMPTY_FILTER_OPTIONS = {
+  states: [],
+  quotas: [],
+  courses: [],
+  bondYears: [],
+  hasUnknownBond: false,
+};
+
+/* ───────────────────────── Helpers ───────────────────────── */
+
+const useDebounce = (value, delay = 400) => {
+  const [debounced, setDebounced] = useState(value);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setDebounced(value), delay);
+    return () => clearTimeout(timer);
+  }, [value, delay]);
+
+  return debounced;
+};
+
+// Values from the API can be numbers, numeric strings (NUMERIC columns) or null.
+const toNumber = (val) => {
+  if (val === null || val === undefined || val === "") return null;
+  const num = Number(val);
+  return Number.isNaN(num) ? null : num;
+};
+
+const formatCurrency = (val) => {
+  const num = toNumber(val);
+  if (num === null) return "N/A";
+  if (num >= 10000000) return "₹" + (num / 10000000).toFixed(2) + " Cr";
+  if (num >= 100000) return "₹" + (num / 100000).toFixed(2) + " L";
+  if (num >= 1000) return "₹" + (num / 1000).toFixed(2) + " K";
+  return "₹" + num.toLocaleString();
+};
+
+const formatNumber = (val) => {
+  const num = toNumber(val);
+  return num === null ? "N/A" : num.toLocaleString();
+};
+
+/* ───────────────────────── Small components ───────────────────────── */
+
 const CustomSelect = ({ value, onChange, options, placeholder, allLabel }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
 
   const filteredOptions = options.filter((option) =>
-    option.toLowerCase().includes(searchTerm.toLowerCase()),
+    String(option).toLowerCase().includes(searchTerm.toLowerCase()),
   );
 
   return (
     <div className="pg25-fsb-select-wrapper">
       <button
+        type="button"
         onClick={() => setIsOpen(!isOpen)}
         className="pg25-fsb-select-trigger"
       >
@@ -76,23 +132,37 @@ const CustomSelect = ({ value, onChange, options, placeholder, allLabel }) => {
   );
 };
 
+/* ───────────────────────── Page ───────────────────────── */
+
 const PgFeesStipendBond2025Page = () => {
   const navigate = useNavigate();
-  const [feesData, setFeesData] = useState([]);
-  const [loading, setLoading] = useState(true);
+
+  // server data
+  const [rows, setRows] = useState([]);
+  const [total, setTotal] = useState(0);
+  const [totalPages, setTotalPages] = useState(1);
+  const [filterOptions, setFilterOptions] = useState(EMPTY_FILTER_OPTIONS);
+
+  // request state
+  const [loading, setLoading] = useState(true); // first load only
+  const [fetching, setFetching] = useState(false); // every refetch
+  const [dataError, setDataError] = useState(false);
+
+  // filters
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedState, setSelectedState] = useState("all");
   const [selectedQuota, setSelectedQuota] = useState("all");
   const [selectedCourse, setSelectedCourse] = useState("all");
+  // "all" | "na" | a bond length as a string, e.g. "0", "1", "2"
   const [selectedBondYears, setSelectedBondYears] = useState("all");
-  const [currentPage, setCurrentPage] = useState(1);
-  const [showAdvancedFilters, setShowAdvancedFilters] = useState(false);
-  const [showColumnVisibility, setShowColumnVisibility] = useState(false);
-
   const [minFee, setMinFee] = useState("");
   const [maxFee, setMaxFee] = useState("");
   const [minBeds, setMinBeds] = useState("");
   const [maxBeds, setMaxBeds] = useState("");
+
+  const [currentPage, setCurrentPage] = useState(1);
+  const [showAdvancedFilters, setShowAdvancedFilters] = useState(false);
+  const [showColumnVisibility, setShowColumnVisibility] = useState(false);
 
   const [columnVisibility, setColumnVisibility] = useState({
     State: true,
@@ -105,6 +175,19 @@ const PgFeesStipendBond2025Page = () => {
     "Bond Penalty": true,
     "Stipend Year 1": true,
   });
+
+  // typing inputs wait 400ms before hitting the API
+  const debouncedSearch = useDebounce(searchTerm);
+  const debouncedMinFee = useDebounce(minFee);
+  const debouncedMaxFee = useDebounce(maxFee);
+  const debouncedMinBeds = useDebounce(minBeds);
+  const debouncedMaxBeds = useDebounce(maxBeds);
+
+  // any filter change sends the user back to page 1
+  const withReset = (setter) => (value) => {
+    setter(value);
+    setCurrentPage(1);
+  };
 
   const columnDefinitions = [
     { key: "State", label: "State" },
@@ -141,181 +224,104 @@ const PgFeesStipendBond2025Page = () => {
     setColumnVisibility(allHidden);
   };
 
-  const parseCSV = (csvText) => {
-    if (csvText.includes("<html") || csvText.includes("<!DOCTYPE")) {
-      throw new Error("Invalid CSV data - received HTML");
-    }
-
-    const lines = csvText.trim().split(/\r?\n/);
-    const dataLines = lines.filter((line) => line.trim().length > 0);
-
-    if (dataLines.length < 2) {
-      throw new Error("Invalid CSV data - insufficient rows");
-    }
-
-    // Expected header order:
-    // STATE, INSTITUTE, COURSE, QUOTA, FEE, BEDS, BOND YEARS, BOND PENALTY, STIPEND YEAR 1
-    return dataLines.slice(1).map((line) => {
-      const values = [];
-      let current = "";
-      let inQuotes = false;
-
-      for (let i = 0; i < line.length; i++) {
-        const char = line[i];
-        if (char === '"') {
-          inQuotes = !inQuotes;
-        } else if (char === "," && !inQuotes) {
-          values.push(current.trim());
-          current = "";
-        } else {
-          current += char;
-        }
-      }
-      values.push(current.trim());
-
-      const cleanedValues = values.map((val) =>
-        val.replace(/^"(.*)"$/, "$1").trim(),
-      );
-
-      const parseNumber = (val) => {
-        const num = parseFloat(val.replace(/[^0-9.-]/g, "")) || 0;
-        return isNaN(num) ? 0 : num;
-      };
-
-      return {
-        State: cleanedValues[0] || "",
-        Institute: cleanedValues[1] || "",
-        Course: cleanedValues[2] || "",
-        Quota: cleanedValues[3] || "",
-        Fee: parseNumber(cleanedValues[4]),
-        Beds: parseNumber(cleanedValues[5]),
-        "Bond Years": cleanedValues[6] || "NA",
-        "Bond Penalty": parseNumber(cleanedValues[7]),
-        "Stipend Year 1": parseNumber(cleanedValues[8]),
-      };
-    });
-  };
-
+  /* ── load filter dropdown values (once) ── */
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch(
-          "/data/neetpg/pg_fee_stipend_bond_2025.csv",
-        );
-
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-        }
-
-        const csvText = await response.text();
-
-        if (!csvText || csvText.trim().length === 0) {
-          throw new Error("Empty CSV file");
-        }
-
-        const parsedData = parseCSV(csvText);
-
-        if (parsedData.length === 0) {
-          throw new Error("No valid data parsed from CSV");
-        }
-
-        setFeesData(parsedData);
-      } catch (error) {
-        console.error("Error fetching fees data:", error);
-
-        const fallbackData = [
-          {
-            State: "Gujarat",
-            Institute: "BJMC, Ahmedabad",
-            Course: "ANAESTHESIOLOGY",
-            Quota: "AIQ",
-            Fee: 30000,
-            Beds: 1557,
-            "Bond Years": "1",
-            "Bond Penalty": 4000000,
-            "Stipend Year 1": 100800,
-          },
-          {
-            State: "Tamil Nadu",
-            Institute: "Arunai Medical College",
-            Course: "GENERAL MEDICINE",
-            Quota: "MNG",
-            Fee: 2500000,
-            Beds: 513,
-            "Bond Years": "0",
-            "Bond Penalty": 0,
-            "Stipend Year 1": 50000,
-          },
-        ];
-
-        setFeesData(fallbackData);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchData();
+    fetch(FILTERS_URL)
+      .then((res) => {
+        if (!res.ok) throw new Error("Filters fetch failed");
+        return res.json();
+      })
+      .then((json) =>
+        setFilterOptions({ ...EMPTY_FILTER_OPTIONS, ...(json.filters || {}) }),
+      )
+      .catch((error) => console.error("Failed to load filters:", error));
   }, []);
 
-  const filteredData = feesData.filter((item) => {
-    const matchesSearch =
-      item.Institute.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      item.State.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      item.Course.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      item.Quota.toLowerCase().includes(searchTerm.toLowerCase());
+  /* ── build the API query ── */
+  const queryString = useMemo(() => {
+    const params = new URLSearchParams();
+    params.set("page", String(currentPage));
+    params.set("limit", String(ITEMS_PER_PAGE));
 
-    const matchesState =
-      selectedState === "all" || item.State === selectedState;
-    const matchesQuota =
-      selectedQuota === "all" || item.Quota === selectedQuota;
-    const matchesCourse =
-      selectedCourse === "all" || item.Course === selectedCourse;
-    const matchesBondYears =
-      selectedBondYears === "all" || item["Bond Years"] === selectedBondYears;
+    if (selectedState !== "all") params.set("state", selectedState);
+    if (selectedQuota !== "all") params.set("quota", selectedQuota);
+    if (selectedCourse !== "all") params.set("course", selectedCourse);
+    if (selectedBondYears !== "all") params.set("bondYears", selectedBondYears);
+    if (debouncedSearch.trim()) params.set("search", debouncedSearch.trim());
+    if (debouncedMinFee) params.set("minFee", debouncedMinFee);
+    if (debouncedMaxFee) params.set("maxFee", debouncedMaxFee);
+    if (debouncedMinBeds) params.set("minBeds", debouncedMinBeds);
+    if (debouncedMaxBeds) params.set("maxBeds", debouncedMaxBeds);
 
-    const matchesFeeRange =
-      (!minFee || item.Fee >= parseFloat(minFee)) &&
-      (!maxFee || item.Fee <= parseFloat(maxFee));
+    return params.toString();
+  }, [
+    currentPage,
+    selectedState,
+    selectedQuota,
+    selectedCourse,
+    selectedBondYears,
+    debouncedSearch,
+    debouncedMinFee,
+    debouncedMaxFee,
+    debouncedMinBeds,
+    debouncedMaxBeds,
+  ]);
 
-    const matchesBedsRange =
-      (!minBeds || item.Beds >= parseFloat(minBeds)) &&
-      (!maxBeds || item.Beds <= parseFloat(maxBeds));
+  /* ── fetch rows ── */
+  useEffect(() => {
+    const controller = new AbortController();
+    setFetching(true);
 
-    return (
-      matchesSearch &&
-      matchesState &&
-      matchesQuota &&
-      matchesCourse &&
-      matchesBondYears &&
-      matchesFeeRange &&
-      matchesBedsRange
-    );
-  });
+    fetch(`${FEE_STIPEND_BOND_URL}?${queryString}`, {
+      signal: controller.signal,
+    })
+      .then((res) => {
+        if (!res.ok) throw new Error("Fetch failed");
+        return res.json();
+      })
+      .then((json) => {
+        setRows(json.data || []);
+        setTotal(json.pagination?.total ?? 0);
+        setTotalPages(Math.max(1, json.pagination?.totalPages ?? 1));
+        setDataError(false);
+      })
+      .catch((error) => {
+        if (error.name === "AbortError") return;
+        console.error("Error fetching fees data:", error);
+        setDataError(true);
+        setRows([]);
+        setTotal(0);
+        setTotalPages(1);
+      })
+      .finally(() => {
+        if (controller.signal.aborted) return;
+        setFetching(false);
+        setLoading(false);
+      });
 
-  const itemsPerPage = 50;
-  const totalPages = Math.ceil(filteredData.length / itemsPerPage);
-  const startIndex = (currentPage - 1) * itemsPerPage;
-  const paginatedData = filteredData.slice(
-    startIndex,
-    startIndex + itemsPerPage,
+    // cancels the previous request if filters change before it finishes
+    return () => controller.abort();
+  }, [queryString]);
+
+  const states = useMemo(
+    () => ["all", ...filterOptions.states],
+    [filterOptions.states],
+  );
+  const quotas = useMemo(
+    () => ["all", ...filterOptions.quotas],
+    [filterOptions.quotas],
+  );
+  const courses = useMemo(
+    () => ["all", ...filterOptions.courses],
+    [filterOptions.courses],
   );
 
-  const states = [
-    "all",
-    ...Array.from(new Set(feesData.map((item) => item.State))).sort(),
-  ];
-  const quotas = [
-    "all",
-    ...Array.from(new Set(feesData.map((item) => item.Quota))).sort(),
-  ];
-  const courses = [
-    "all",
-    ...Array.from(new Set(feesData.map((item) => item.Course))).sort(),
-  ];
-  const bondYearsOptions = [
-    "all",
-    ...Array.from(new Set(feesData.map((item) => item["Bond Years"]))).sort(),
-  ];
+  // pills: every bond length found in the data (+ N/A when some rows have none)
+  const bondYearsOptions = useMemo(() => {
+    const options = filterOptions.bondYears.map((year) => String(year));
+    if (filterOptions.hasUnknownBond) options.push("na");
+    return options;
+  }, [filterOptions.bondYears, filterOptions.hasUnknownBond]);
 
   const clearAllFilters = () => {
     setSearchTerm("");
@@ -330,19 +336,13 @@ const PgFeesStipendBond2025Page = () => {
     setCurrentPage(1);
   };
 
-  const formatCurrency = (num) => {
-    if (num >= 10000000) return "₹" + (num / 10000000).toFixed(2) + " Cr";
-    if (num >= 100000) return "₹" + (num / 100000).toFixed(2) + " L";
-    if (num >= 1000) return "₹" + (num / 1000).toFixed(2) + " K";
-    return "₹" + num.toLocaleString();
-  };
-
-  const formatNumber = (num) => {
-    return num.toLocaleString();
-  };
+  const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
 
   const isBondFree = (bondYears) =>
-    bondYears === "0" || bondYears.toUpperCase() === "NA";
+    bondYears === null || bondYears === undefined || Number(bondYears) === 0;
+
+  const bondYearsLabel = (bondYears) =>
+    bondYears === null || bondYears === undefined ? "N/A" : `${bondYears} Yr`;
 
   if (loading) {
     return (
@@ -365,6 +365,7 @@ const PgFeesStipendBond2025Page = () => {
             <div className="pg25-fsb-modal-header">
               <h3 className="pg25-fsb-modal-title">Show/Hide Columns</h3>
               <button
+                type="button"
                 onClick={() => setShowColumnVisibility(false)}
                 className="pg25-fsb-modal-close"
               >
@@ -375,12 +376,14 @@ const PgFeesStipendBond2025Page = () => {
             <div className="pg25-fsb-modal-body">
               <div className="pg25-fsb-modal-actions">
                 <button
+                  type="button"
                   onClick={showAllColumns}
                   className="pg25-fsb-btn-show-all"
                 >
                   Show All
                 </button>
                 <button
+                  type="button"
                   onClick={hideAllColumns}
                   className="pg25-fsb-btn-hide-all"
                 >
@@ -416,6 +419,7 @@ const PgFeesStipendBond2025Page = () => {
 
             <div className="pg25-fsb-modal-footer">
               <button
+                type="button"
                 onClick={() => setShowColumnVisibility(false)}
                 className="pg25-fsb-btn-primary"
               >
@@ -431,6 +435,7 @@ const PgFeesStipendBond2025Page = () => {
           <div className="pg25-fsb-header-row">
             <div className="pg25-fsb-header-left">
               <button
+                type="button"
                 onClick={() => navigate("/dashboard/neet-pg")}
                 className="pg25-fsb-back-btn"
               >
@@ -444,7 +449,7 @@ const PgFeesStipendBond2025Page = () => {
 
             <div className="pg25-fsb-records-wrap">
               <span className="pg25-fsb-records-text">
-                {filteredData.length} Records
+                {total.toLocaleString()} Records
               </span>
             </div>
           </div>
@@ -452,30 +457,24 @@ const PgFeesStipendBond2025Page = () => {
 
         <div className="pg25-fsb-quota-bar">
           <div className="pg25-fsb-quota-row">
-            {bondYearsOptions
-              .filter((y) => y !== "all")
-              .map((year) => (
-                <button
-                  key={year}
-                  onClick={() => {
-                    setSelectedBondYears(year);
-                    setCurrentPage(1);
-                  }}
-                  className={`pg25-fsb-quota-btn ${
-                    selectedBondYears === year
-                      ? "pg25-fsb-quota-btn-active"
-                      : "pg25-fsb-quota-btn-inactive"
-                  }`}
-                >
-                  {year}
-                </button>
-              ))}
+            {bondYearsOptions.map((year) => (
+              <button
+                type="button"
+                key={year}
+                onClick={() => withReset(setSelectedBondYears)(year)}
+                className={`pg25-fsb-quota-btn ${
+                  selectedBondYears === year
+                    ? "pg25-fsb-quota-btn-active"
+                    : "pg25-fsb-quota-btn-inactive"
+                }`}
+              >
+                {year === "na" ? "N/A" : year}
+              </button>
+            ))}
 
             <button
-              onClick={() => {
-                setSelectedBondYears("all");
-                setCurrentPage(1);
-              }}
+              type="button"
+              onClick={() => withReset(setSelectedBondYears)("all")}
               className={`pg25-fsb-quota-btn ${
                 selectedBondYears === "all"
                   ? "pg25-fsb-quota-btn-all-active"
@@ -486,6 +485,7 @@ const PgFeesStipendBond2025Page = () => {
             </button>
 
             <button
+              type="button"
               onClick={() => setShowColumnVisibility(true)}
               className="pg25-fsb-showhide-btn"
             >
@@ -504,7 +504,7 @@ const PgFeesStipendBond2025Page = () => {
                   type="text"
                   placeholder="Search institutes, states, courses, quota..."
                   value={searchTerm}
-                  onChange={(e) => setSearchTerm(e.target.value)}
+                  onChange={(e) => withReset(setSearchTerm)(e.target.value)}
                   className="pg25-fsb-search-input"
                 />
               </div>
@@ -512,10 +512,7 @@ const PgFeesStipendBond2025Page = () => {
               <div className="pg25-fsb-select-group">
                 <CustomSelect
                   value={selectedState}
-                  onChange={(value) => {
-                    setSelectedState(value);
-                    setCurrentPage(1);
-                  }}
+                  onChange={withReset(setSelectedState)}
                   options={states}
                   placeholder="Select State"
                   allLabel="All States"
@@ -523,10 +520,7 @@ const PgFeesStipendBond2025Page = () => {
 
                 <CustomSelect
                   value={selectedQuota}
-                  onChange={(value) => {
-                    setSelectedQuota(value);
-                    setCurrentPage(1);
-                  }}
+                  onChange={withReset(setSelectedQuota)}
                   options={quotas}
                   placeholder="Select Quota"
                   allLabel="All Quotas"
@@ -534,16 +528,14 @@ const PgFeesStipendBond2025Page = () => {
 
                 <CustomSelect
                   value={selectedCourse}
-                  onChange={(value) => {
-                    setSelectedCourse(value);
-                    setCurrentPage(1);
-                  }}
+                  onChange={withReset(setSelectedCourse)}
                   options={courses}
                   placeholder="Select Course"
                   allLabel="All Courses"
                 />
 
                 <button
+                  type="button"
                   onClick={() => setShowAdvancedFilters(!showAdvancedFilters)}
                   className="pg25-fsb-filter-toggle-btn"
                 >
@@ -562,22 +554,18 @@ const PgFeesStipendBond2025Page = () => {
                   <div className="pg25-fsb-range-group">
                     <input
                       type="number"
+                      min="0"
                       placeholder="Min Fee"
                       value={minFee}
-                      onChange={(e) => {
-                        setMinFee(e.target.value);
-                        setCurrentPage(1);
-                      }}
+                      onChange={(e) => withReset(setMinFee)(e.target.value)}
                       className="pg25-fsb-number-input"
                     />
                     <input
                       type="number"
+                      min="0"
                       placeholder="Max Fee"
                       value={maxFee}
-                      onChange={(e) => {
-                        setMaxFee(e.target.value);
-                        setCurrentPage(1);
-                      }}
+                      onChange={(e) => withReset(setMaxFee)(e.target.value)}
                       className="pg25-fsb-number-input"
                     />
                   </div>
@@ -585,27 +573,24 @@ const PgFeesStipendBond2025Page = () => {
                   <div className="pg25-fsb-range-group">
                     <input
                       type="number"
+                      min="0"
                       placeholder="Min Beds"
                       value={minBeds}
-                      onChange={(e) => {
-                        setMinBeds(e.target.value);
-                        setCurrentPage(1);
-                      }}
+                      onChange={(e) => withReset(setMinBeds)(e.target.value)}
                       className="pg25-fsb-number-input"
                     />
                     <input
                       type="number"
+                      min="0"
                       placeholder="Max Beds"
                       value={maxBeds}
-                      onChange={(e) => {
-                        setMaxBeds(e.target.value);
-                        setCurrentPage(1);
-                      }}
+                      onChange={(e) => withReset(setMaxBeds)(e.target.value)}
                       className="pg25-fsb-number-input"
                     />
                   </div>
 
                   <button
+                    type="button"
                     onClick={clearAllFilters}
                     className="pg25-fsb-clear-btn"
                   >
@@ -615,7 +600,7 @@ const PgFeesStipendBond2025Page = () => {
 
                 <div className="pg25-fsb-results-count">
                   <span className="pg25-fsb-results-count-num">
-                    {filteredData.length}
+                    {total.toLocaleString()}
                   </span>
                   <span className="pg25-fsb-results-count-label">
                     filtered results
@@ -626,7 +611,13 @@ const PgFeesStipendBond2025Page = () => {
           </div>
         </div>
 
-        <div className="pg25-fsb-table-wrap">
+        <div
+          className="pg25-fsb-table-wrap"
+          style={{
+            opacity: fetching ? 0.55 : 1,
+            transition: "opacity 150ms ease",
+          }}
+        >
           <table className="pg25-fsb-table">
             <thead className="pg25-fsb-thead">
               <tr>
@@ -656,72 +647,73 @@ const PgFeesStipendBond2025Page = () => {
               </tr>
             </thead>
             <tbody className="pg25-fsb-tbody">
-              {paginatedData.length === 0 ? (
+              {rows.length === 0 ? (
                 <tr>
                   <td
-                    colSpan={
-                      Object.values(columnVisibility).filter(Boolean).length
-                    }
+                    colSpan={Math.max(
+                      1,
+                      Object.values(columnVisibility).filter(Boolean).length,
+                    )}
                     className="pg25-fsb-empty-td"
                   >
-                    No data found. Try adjusting your filters.
+                    {dataError
+                      ? "Unable to load the data. Please refresh the page and try again."
+                      : "No data found. Try adjusting your filters."}
                   </td>
                 </tr>
               ) : (
-                paginatedData.map((item, index) => (
-                  <tr key={index} className="pg25-fsb-tr">
+                rows.map((item) => (
+                  <tr key={item.id} className="pg25-fsb-tr">
                     {columnVisibility.State && (
-                      <td className="pg25-fsb-td">{item.State}</td>
+                      <td className="pg25-fsb-td">{item.state || "—"}</td>
                     )}
                     {columnVisibility.Institute && (
                       <td className="pg25-fsb-td-institute">
-                        {item.Institute}
+                        {item.institute || "—"}
                       </td>
                     )}
                     {columnVisibility.Course && (
-                      <td className="pg25-fsb-td">{item.Course}</td>
+                      <td className="pg25-fsb-td">{item.course || "—"}</td>
                     )}
                     {columnVisibility.Quota && (
                       <td className="pg25-fsb-td-center">
                         <span className="pg25-fsb-badge-quota">
-                          {item.Quota}
+                          {item.quota || "—"}
                         </span>
                       </td>
                     )}
                     {columnVisibility.Beds && (
                       <td className="pg25-fsb-td-beds">
-                        {formatNumber(item.Beds)}
+                        {formatNumber(item.beds)}
                       </td>
                     )}
                     {columnVisibility.Fee && (
                       <td className="pg25-fsb-td-fee">
-                        {formatCurrency(item.Fee)}
+                        {formatCurrency(item.fee)}
                       </td>
                     )}
                     {columnVisibility["Stipend Year 1"] && (
                       <td className="pg25-fsb-td-stipend">
-                        {formatCurrency(item["Stipend Year 1"])}
+                        {formatCurrency(item.stipend_year_1)}
                       </td>
                     )}
                     {columnVisibility["Bond Years"] && (
                       <td className="pg25-fsb-td-center">
                         <span
                           className={`pg25-fsb-badge-bond ${
-                            isBondFree(item["Bond Years"])
+                            isBondFree(item.bond_years)
                               ? "pg25-fsb-badge-bond-free"
                               : "pg25-fsb-badge-bond-active"
                           }`}
                         >
-                          {item["Bond Years"] === "NA"
-                            ? "N/A"
-                            : `${item["Bond Years"]} Yr`}
+                          {bondYearsLabel(item.bond_years)}
                         </span>
                       </td>
                     )}
                     {columnVisibility["Bond Penalty"] && (
                       <td className="pg25-fsb-td-penalty">
-                        {item["Bond Penalty"] > 0
-                          ? formatCurrency(item["Bond Penalty"])
+                        {toNumber(item.bond_penalty) > 0
+                          ? formatCurrency(item.bond_penalty)
                           : "N/A"}
                       </td>
                     )}
@@ -735,13 +727,14 @@ const PgFeesStipendBond2025Page = () => {
         <div className="pg25-fsb-footer">
           <div className="pg25-fsb-footer-row">
             <div className="pg25-fsb-footer-info">
-              Showing {filteredData.length > 0 ? startIndex + 1 : 0} to{" "}
-              {Math.min(startIndex + itemsPerPage, filteredData.length)} of{" "}
-              {filteredData.length} results
+              Showing {total > 0 ? startIndex + 1 : 0} to{" "}
+              {Math.min(startIndex + ITEMS_PER_PAGE, total)} of{" "}
+              {total.toLocaleString()} results
             </div>
 
             <div className="pg25-fsb-pagination">
               <button
+                type="button"
                 onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
                 disabled={currentPage === 1}
                 className="pg25-fsb-page-nav-btn"
@@ -751,17 +744,16 @@ const PgFeesStipendBond2025Page = () => {
 
               <div className="pg25-fsb-page-list">
                 {Array.from({ length: Math.min(5, totalPages) }, (_, i) => {
-                  let pageNum;
-                  if (totalPages <= 5) {
-                    pageNum = i + 1;
-                  } else {
-                    const start = Math.max(1, currentPage - 2);
-                    pageNum = start + i;
-                    if (pageNum > totalPages) return null;
-                  }
+                  const start = Math.max(
+                    1,
+                    Math.min(currentPage - 2, totalPages - 4),
+                  );
+                  const pageNum = start + i;
+                  if (pageNum > totalPages) return null;
 
                   return (
                     <button
+                      type="button"
                       key={pageNum}
                       onClick={() => setCurrentPage(pageNum)}
                       className={`pg25-fsb-page-btn ${
@@ -777,10 +769,11 @@ const PgFeesStipendBond2025Page = () => {
               </div>
 
               <button
+                type="button"
                 onClick={() =>
                   setCurrentPage(Math.min(totalPages, currentPage + 1))
                 }
-                disabled={currentPage === totalPages || totalPages === 0}
+                disabled={currentPage === totalPages || total === 0}
                 className="pg25-fsb-page-nav-btn"
               >
                 <NextIcon className="pg25-fsb-icon-xs" />
