@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 import Image from "../../assets/images/login_image.webp";
 import "./Register.css";
-import { Eye, EyeOff } from "lucide-react";
+import { Eye, EyeOff, CheckCircle2 } from "lucide-react";
 
 import { registerUser } from "../../services/authService";
 import { useAuth } from "../../context/AuthContext";
@@ -80,7 +80,9 @@ function Register() {
 
       login(res.user, res.token);
 
-      toast.success(res.message || "Registration successful");
+      toast.success(res.message || "Registration successful", {
+        icon: <CheckCircle2 size={20} color="#16a34a" />,
+      });
       navigate("/", { replace: true });
     } catch (error) {
       const message =
