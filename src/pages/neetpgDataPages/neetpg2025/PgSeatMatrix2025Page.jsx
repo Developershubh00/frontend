@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
-import "./PgSeatMatrix2025Page.css";
 import {
   ArrowLeft,
   Search,
@@ -9,506 +8,589 @@ import {
   X,
   Filter,
   ChevronDown,
-  ChevronLeft,
-  ChevronRight,
-  BarChart2,
+  ChevronLeft as PrevIcon,
+  ChevronRight as NextIcon,
 } from "lucide-react";
+import "./PgSeatMatrix2025Page.css";
 
-// ─────────────────────────────────────────────
-// HELPER: Parse Seats
-// Handles: "5", "0+3(VV)", "12+8(VV)", "Info not available", "-", ""
-// ─────────────────────────────────────────────
-function parseSeats(raw) {
-  const trimmed = raw?.trim() ?? "";
-  if (
-    !trimmed ||
-    trimmed === "-" ||
-    trimmed.toLowerCase().includes("info not available") ||
-    trimmed.toLowerCase() === "n/a"
-  ) {
-    return { num: -1, display: "N/A" };
+/* ───────────────────────── API ───────────────────────── */
+
+const API_BASE = (
+  import.meta.env.VITE_API_URL || "http://localhost:5000"
+).replace(/\/$/, "");
+
+const SEAT_MATRIX_URL = `${API_BASE}/seat-matrix/pg/2025`;
+const FILTERS_URL = `${API_BASE}/seat-matrix/pg/2025/filters`;
+
+const PER_PAGE = 50;
+
+/* ───────────────────────── Column configuration ───────────────────────── */
+
+const RANK_2025 = ["cr_2025_1", "cr_2025_2", "cr_2025_3", "cr_2025_4"];
+const RANK_2024 = [
+  "cr_2024_1",
+  "cr_2024_2",
+  "cr_2024_3",
+  "cr_2024_4",
+  "cr_2024_5",
+];
+const ALL_RANK_COLS = [...RANK_2025, ...RANK_2024];
+
+const COL_DEFS = [
+  { key: "round", label: "Round", group: "Basic Info" },
+  { key: "quota", label: "Quota", group: "Basic Info" },
+  { key: "category", label: "Category", group: "Basic Info" },
+  { key: "state", label: "State", group: "Basic Info" },
+  { key: "institute", label: "Institute", group: "Basic Info" },
+  { key: "course", label: "Course", group: "Basic Info" },
+  { key: "branch", label: "Branch", group: "Basic Info" },
+  { key: "seats", label: "Seats", group: "Seat Details" },
+  { key: "beds", label: "Beds", group: "Seat Details" },
+  { key: "stipend_year_1", label: "Stipend (Yr 1)", group: "Stipend & Bond" },
+  { key: "bond_years", label: "Bond", group: "Stipend & Bond" },
+  { key: "bond_penalty", label: "Bond Penalty", group: "Stipend & Bond" },
+  { key: "cr_2025_1", label: "2025 R1", group: "Closing Rank 2025" },
+  { key: "cr_2025_2", label: "2025 R2", group: "Closing Rank 2025" },
+  { key: "cr_2025_3", label: "2025 R3", group: "Closing Rank 2025" },
+  { key: "cr_2025_4", label: "2025 R4", group: "Closing Rank 2025" },
+  { key: "cr_2024_1", label: "2024 R1", group: "Closing Rank 2024" },
+  { key: "cr_2024_2", label: "2024 R2", group: "Closing Rank 2024" },
+  { key: "cr_2024_3", label: "2024 R3", group: "Closing Rank 2024" },
+  { key: "cr_2024_4", label: "2024 R4", group: "Closing Rank 2024" },
+  { key: "cr_2024_5", label: "2024 R5", group: "Closing Rank 2024" },
+];
+
+const COL_GROUPS = [
+  "Basic Info",
+  "Seat Details",
+  "Stipend & Bond",
+  "Closing Rank 2025",
+  "Closing Rank 2024",
+].map((label) => ({
+  label,
+  keys: COL_DEFS.filter((c) => c.group === label).map((c) => c.key),
+}));
+
+const DEFAULT_VISIBLE_KEYS = [
+  "round",
+  "quota",
+  "category",
+  "state",
+  "institute",
+  "course",
+  "seats",
+  "stipend_year_1",
+  ...RANK_2025,
+];
+
+const DEFAULT_VIS = COL_DEFS.reduce(
+  (acc, { key }) => ({ ...acc, [key]: DEFAULT_VISIBLE_KEYS.includes(key) }),
+  {},
+);
+
+const RANK_VIEWS = [
+  { value: "2025", label: "CR 2025" },
+  { value: "2024", label: "CR 2024" },
+  { value: "both", label: "Both" },
+];
+
+const rankKeysForView = (view) =>
+  view === "2025" ? RANK_2025 : view === "2024" ? RANK_2024 : ALL_RANK_COLS;
+
+const isRankKey = (key) => key.startsWith("cr_");
+
+/* ───────────────────────── Helpers ───────────────────────── */
+
+const toRank = (val) => {
+  const match = String(val ?? "").match(/\d+/);
+  const num = match ? parseInt(match[0], 10) : NaN;
+  return Number.isNaN(num) || num <= 0 ? null : num;
+};
+
+const formatStipend = (val) => {
+  const num = Number(String(val ?? "").replace(/[^0-9.]/g, ""));
+  if (!num) return "—";
+  return `₹${(num / 1000).toFixed(2)} K`;
+};
+
+const formatPenalty = (val) => {
+  const num = Number(String(val ?? "").replace(/[^0-9.]/g, ""));
+  if (!num) return "—";
+  if (num >= 10000000) return `₹${(num / 10000000).toFixed(2)} Cr`;
+  if (num >= 100000) return `₹${(num / 100000).toFixed(2)} L`;
+  return `₹${num.toLocaleString("en-IN")}`;
+};
+
+const categoryBadgeClass = (category) => {
+  const cat = String(category || "").toUpperCase();
+  if (cat === "UR" || cat === "GEN" || cat === "OPEN")
+    return "pg25-sm-badge-cat-gray";
+  if (cat === "OBC") return "pg25-sm-badge-cat-yellow";
+  if (cat === "SC") return "pg25-sm-badge-cat-red";
+  if (cat === "ST") return "pg25-sm-badge-cat-blue";
+  if (cat === "EWS") return "pg25-sm-badge-cat-green";
+  return "pg25-sm-badge-cat-purple";
+};
+
+const useDebounce = (value, delay = 400) => {
+  const [debounced, setDebounced] = useState(value);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setDebounced(value), delay);
+    return () => clearTimeout(timer);
+  }, [value, delay]);
+
+  return debounced;
+};
+
+const EMPTY_FILTER_OPTIONS = {
+  rounds: [],
+  states: [],
+  quotas: [],
+  categories: [],
+  courses: [],
+  branches: [],
+};
+
+/* ───────────────────────── Small components ───────────────────────── */
+
+const CustomSelect = ({ value, onChange, options, allLabel }) => {
+  const [open, setOpen] = useState(false);
+  const [search, setSearch] = useState("");
+  const filtered = options.filter((opt) =>
+    String(opt).toLowerCase().includes(search.toLowerCase()),
+  );
+
+  return (
+    <div className="pg25-sm-cs-wrapper">
+      <button
+        type="button"
+        onClick={() => setOpen((prev) => !prev)}
+        className="pg25-sm-cs-button"
+      >
+        <span className="pg25-sm-cs-button-label">
+          {value === "all" ? allLabel : value}
+        </span>
+        <ChevronDown
+          className={`pg25-sm-cs-chevron ${open ? "pg25-sm-cs-chevron-open" : ""}`}
+        />
+      </button>
+      {open && (
+        <>
+          <div className="pg25-sm-cs-overlay" onClick={() => setOpen(false)} />
+          <div className="pg25-sm-cs-dropdown">
+            <input
+              type="text"
+              placeholder="Search..."
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              onClick={(e) => e.stopPropagation()}
+              className="pg25-sm-cs-search-input"
+            />
+            <div className="pg25-sm-cs-options-list">
+              {filtered.map((opt) => (
+                <button
+                  type="button"
+                  key={opt}
+                  onClick={() => {
+                    onChange(opt);
+                    setSearch("");
+                    setOpen(false);
+                  }}
+                  className={`pg25-sm-cs-option ${value === opt ? "pg25-sm-cs-option-selected" : ""}`}
+                >
+                  {opt === "all" ? allLabel : opt}
+                </button>
+              ))}
+            </div>
+          </div>
+        </>
+      )}
+    </div>
+  );
+};
+
+const RankCell = ({ val }) => {
+  const rank = toRank(val);
+  if (rank === null) return <span className="pg25-sm-rank-empty">—</span>;
+
+  const tier =
+    rank <= 100
+      ? "pg25-sm-rank-tier-1"
+      : rank <= 500
+        ? "pg25-sm-rank-tier-2"
+        : rank <= 2000
+          ? "pg25-sm-rank-tier-3"
+          : rank <= 5000
+            ? "pg25-sm-rank-tier-4"
+            : "pg25-sm-rank-tier-5";
+
+  return (
+    <span className={`pg25-sm-rank-value ${tier}`}>
+      {rank.toLocaleString()}
+    </span>
+  );
+};
+
+const renderCell = (item, key) => {
+  switch (key) {
+    case "round":
+      return (
+        <td key={key}>
+          <span className="pg25-sm-badge-round">R{item.round ?? "—"}</span>
+        </td>
+      );
+    case "quota":
+      return (
+        <td key={key}>
+          <span className="pg25-sm-badge-quota">{item.quota || "—"}</span>
+        </td>
+      );
+    case "category":
+      return (
+        <td key={key}>
+          <span
+            className={`pg25-sm-badge-category-base ${categoryBadgeClass(item.category)}`}
+          >
+            {item.category || "—"}
+          </span>
+        </td>
+      );
+    case "institute":
+      return (
+        <td key={key} className="pg25-sm-td-institute">
+          {item.institute || "—"}
+        </td>
+      );
+    case "course":
+    case "branch":
+    case "state":
+      return <td key={key}>{item[key] || "—"}</td>;
+    case "seats":
+      return (
+        <td key={key} className="pg25-sm-td-seats">
+          {item.seats || "—"}
+        </td>
+      );
+    case "beds":
+      return (
+        <td key={key} className="pg25-sm-td-muted">
+          {item.beds ? Number(item.beds).toLocaleString() : "—"}
+        </td>
+      );
+    case "stipend_year_1":
+      return (
+        <td key={key} className="pg25-sm-td-fee">
+          {formatStipend(item.stipend_year_1)}
+        </td>
+      );
+    case "bond_years": {
+      // null (missing / "-" / "Info Not Available" in the CSV) shows as "—"
+      const hasValue =
+        item.bond_years !== null && item.bond_years !== undefined;
+      const yrs = Number(item.bond_years);
+      return (
+        <td key={key}>
+          {!hasValue ? (
+            "—"
+          ) : yrs > 0 ? (
+            <span className="pg25-sm-badge-bond">{yrs} Yr</span>
+          ) : (
+            <span className="pg25-sm-badge-nobond">No Bond</span>
+          )}
+        </td>
+      );
+    }
+    case "bond_penalty":
+      return (
+        <td key={key} className="pg25-sm-td-muted">
+          {formatPenalty(item.bond_penalty)}
+        </td>
+      );
+    default:
+      // closing-rank columns
+      return (
+        <td
+          key={key}
+          className={`pg25-sm-td-rank ${key.startsWith("cr_2024") ? "pg25-sm-td-rank-24" : ""}`}
+        >
+          <RankCell val={item[key]} />
+        </td>
+      );
   }
+};
 
-  // Handle "0+3(VV)" or "12+8(VV)" format
-  const vvMatch = trimmed.match(/^(\d+)\s*\+\s*(\d+)\s*\(VV\)$/i);
-  if (vvMatch) {
-    const total = parseInt(vvMatch[1]) + parseInt(vvMatch[2]);
-    return { num: total, display: trimmed };
-  }
+/* ───────────────────────── Page ───────────────────────── */
 
-  const num = parseInt(trimmed);
-  if (isNaN(num)) return { num: -1, display: trimmed };
-  return { num, display: trimmed };
-}
-
-// ─────────────────────────────────────────────
-// HELPER: Normalise a raw course name (strip stray
-// newlines that come from multi-line CSV cells)
-// ─────────────────────────────────────────────
-function cleanCourseName(course) {
-  return (course || "")
-    .replace(/\s*\n\s*/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
-// ─────────────────────────────────────────────
-// HELPER: Degree Type
-// Derived from the course name since PG course
-// naming is inconsistent ("MD - X", "M.D. X", "M.D.X")
-// ─────────────────────────────────────────────
-function getDegreeType(course) {
-  const cleaned = cleanCourseName(course).replace(/\./g, "").toUpperCase();
-  if (cleaned.startsWith("DNB")) return "DNB";
-  if (cleaned.startsWith("DM")) return "DM";
-  if (cleaned.startsWith("MCH") || cleaned.startsWith("M CH")) return "MCh";
-  if (cleaned.startsWith("MD")) return "MD";
-  if (cleaned.startsWith("MS")) return "MS";
-  if (cleaned.startsWith("PG DIPLOMA") || cleaned.startsWith("DIPLOMA"))
-    return "Diploma";
-  return "Other";
-}
-
-// Preferred display order for degree-type quick filters
-const DEGREE_ORDER = ["MD", "MS", "DM", "MCh", "Diploma", "DNB", "Other"];
-
-// ─────────────────────────────────────────────
-// HELPER: Management Group
-// CSV already supplies the management type directly,
-// this just normalises it into a small badge group.
-// ─────────────────────────────────────────────
-function classifyManagement(raw) {
-  const trimmed = (raw || "").trim();
-  if (!trimmed) return "Other";
-  const low = trimmed.toLowerCase();
-  if (
-    low.includes("govt") ||
-    low.includes("government") ||
-    low.includes("central")
-  )
-    return "Government";
-  if (low.includes("trust")) return "Trust";
-  if (low.includes("deemed")) return "Deemed";
-  if (low.includes("private")) return "Private";
-  return trimmed;
-}
-
-// ─────────────────────────────────────────────
-// MAIN COMPONENT
-// ─────────────────────────────────────────────
 const PgSeatMatrix2025Page = () => {
   const navigate = useNavigate();
-  const [seatData, setSeatData] = useState([]);
-  const [loading, setLoading] = useState(true);
+
+  // server data
+  const [data, setData] = useState([]);
+  const [total, setTotal] = useState(0);
+  const [totalPages, setTotalPages] = useState(1);
+  const [totalSeats, setTotalSeats] = useState(0);
+  const [filterOptions, setFilterOptions] = useState(EMPTY_FILTER_OPTIONS);
+
+  // request state
+  const [loading, setLoading] = useState(true); // first load only
+  const [fetching, setFetching] = useState(false); // every refetch
   const [dataError, setDataError] = useState(false);
 
-  // Filters
+  // filters
   const [searchTerm, setSearchTerm] = useState("");
+  const [selRound, setSelRound] = useState("all");
   const [selState, setSelState] = useState("all");
-  const [selDegree, setSelDegree] = useState("all"); // MD / MS / DM / MCh / Diploma / DNB
-  const [selManagement, setSelManagement] = useState("all");
-  const [selInstitute, setSelInstitute] = useState("all");
+  const [selQuota, setSelQuota] = useState("all");
+  const [selCategory, setSelCategory] = useState("all");
+  const [selCourse, setSelCourse] = useState("all");
+  const [selBranch, setSelBranch] = useState("all");
   const [minSeats, setMinSeats] = useState("");
-  const [maxSeats, setMaxSeats] = useState("");
+  const [minRank, setMinRank] = useState("");
+  const [maxRank, setMaxRank] = useState("");
+  const [rankView, setRankView] = useState("2025");
+
   const [showAdv, setShowAdv] = useState(false);
   const [showColModal, setShowColModal] = useState(false);
+  const [colVis, setColVis] = useState(DEFAULT_VIS);
   const [page, setPage] = useState(1);
 
-  const [colVis, setColVis] = useState({
-    sNo: false,
-    State: true,
-    Management: true,
-    Institute: true,
-    Course: true,
-    Seats: true,
-  });
+  // typing inputs wait 400ms before hitting the API
+  const debouncedSearch = useDebounce(searchTerm);
+  const debouncedMinSeats = useDebounce(minSeats);
+  const debouncedMinRank = useDebounce(minRank);
+  const debouncedMaxRank = useDebounce(maxRank);
 
-  const colDefs = [
-    { key: "sNo", label: "S.No" },
-    { key: "State", label: "State" },
-    { key: "Management", label: "Type" },
-    { key: "Institute", label: "College Name" },
-    { key: "Course", label: "Course Name" },
-    { key: "Seats", label: "Seats" },
-  ];
+  // any filter change sends the user back to page 1
+  const withReset = (setter) => (value) => {
+    setter(value);
+    setPage(1);
+  };
 
-  const toggleCol = (k) => setColVis((p) => ({ ...p, [k]: !p[k] }));
+  /* ── column visibility ── */
+  const toggleCol = (key) =>
+    setColVis((prev) => ({ ...prev, [key]: !prev[key] }));
   const showAll = () =>
-    setColVis(Object.keys(colVis).reduce((a, k) => ({ ...a, [k]: true }), {}));
+    setColVis(COL_DEFS.reduce((acc, { key }) => ({ ...acc, [key]: true }), {}));
   const hideAll = () =>
     setColVis(
-      Object.keys(colVis).reduce(
-        (a, k) => ({ ...a, [k]: k === "Institute" }),
+      COL_DEFS.reduce(
+        (acc, { key }) => ({
+          ...acc,
+          [key]: key === "institute" || key === "course",
+        }),
         {},
       ),
     );
 
-  // ─────────────────────────────────────────
-  // CSV PARSER (RFC 4180 compliant)
-  // Header: S. No.,State,Management of college,College Name,Course Name,Seats
-  // ─────────────────────────────────────────
-  const parseCSV = (text) => {
-    if (text.includes("<html") || text.includes("<!DOCTYPE"))
-      throw new Error("HTML");
-
-    const parseRow = (src, pos) => {
-      const fields = [];
-      let i = pos;
-      while (i <= src.length) {
-        if (src[i] === '"') {
-          let field = "";
-          i++;
-          while (i < src.length) {
-            if (src[i] === '"') {
-              if (src[i + 1] === '"') {
-                field += '"';
-                i += 2;
-              } else {
-                i++;
-                break;
-              }
-            } else {
-              field += src[i++];
-            }
-          }
-          fields.push(field.trim());
-          if (src[i] === ",") i++;
-        } else {
-          let field = "";
-          while (
-            i < src.length &&
-            src[i] !== "," &&
-            src[i] !== "\r" &&
-            src[i] !== "\n"
-          ) {
-            field += src[i++];
-          }
-          fields.push(field.trim());
-          if (src[i] === ",") i++;
-        }
-        if (src[i] === "\r" && src[i + 1] === "\n") {
-          i += 2;
-          break;
-        }
-        if (src[i] === "\n") {
-          i++;
-          break;
-        }
-        if (i >= src.length) break;
-      }
-      return { fields, next: i };
-    };
-
-    const rows = [];
-    let pos = 0;
-    let sNoCounter = 1;
-
-    // Skip header row
-    const header = parseRow(text, pos);
-    pos = header.next;
-
-    while (pos < text.length) {
-      const { fields: v, next } = parseRow(text, pos);
-      pos = next;
-
-      if (v.length < 5) continue;
-
-      const state = (v[1] || "").trim();
-      const managementRaw = (v[2] || "").trim();
-      const institute = (v[3] || "").trim();
-      const courseRaw = (v[4] || "").trim();
-      const seatsRaw = (v[5] || "").trim();
-
-      // Skip repeated header rows, empty rows, and TOTAL rows
-      if (
-        state.toLowerCase() === "state" &&
-        institute.toLowerCase() === "college name"
-      )
-        continue;
-      if (!institute || institute.toUpperCase() === "TOTAL") continue;
-      if (!courseRaw) continue;
-
-      const course = cleanCourseName(courseRaw);
-      const seats = parseSeats(seatsRaw);
-      const degreeType = getDegreeType(course);
-      const mgmt = classifyManagement(managementRaw);
-
-      rows.push({
-        sNo: sNoCounter++,
-        State: state,
-        Institute: institute,
-        Course: course,
-        Seats: seats.num,
-        SeatsRaw: seats.display,
-        ManagementRaw: managementRaw,
-        ManagementGroup: mgmt,
-        DegreeType: degreeType,
+  const applyRankView = (view) => {
+    setRankView(view);
+    setPage(1);
+    const visibleRanks = rankKeysForView(view);
+    setColVis((prev) => {
+      const next = { ...prev };
+      ALL_RANK_COLS.forEach((key) => {
+        next[key] = visibleRanks.includes(key);
       });
-    }
-    return rows;
+      return next;
+    });
   };
 
-  // ─────────────────────────────────────────
-  // FETCH CSV
-  // ─────────────────────────────────────────
+  /* ── load filter dropdown values (once) ── */
   useEffect(() => {
-    fetch("/data/neetpg/pg_seat_matrix_2025.csv")
-      .then((r) => {
-        if (!r.ok) throw new Error();
-        return r.text();
+    fetch(FILTERS_URL)
+      .then((res) => {
+        if (!res.ok) throw new Error("Filters fetch failed");
+        return res.json();
       })
-      .then((t) => {
-        setSeatData(parseCSV(t));
-        setDataError(false);
-      })
-      .catch(() => {
-        setDataError(true);
-        setSeatData([]);
-      })
-      .finally(() => setLoading(false));
+      .then((json) =>
+        setFilterOptions({ ...EMPTY_FILTER_OPTIONS, ...(json.filters || {}) }),
+      )
+      .catch((error) => console.error("Failed to load filters:", error));
   }, []);
 
-  // ─────────────────────────────────────────
-  // DERIVED FILTER OPTIONS
-  // ─────────────────────────────────────────
-  const states = [
-    ...new Set(seatData.map((d) => d.State).filter(Boolean)),
-  ].sort();
-  const degreeTypes = DEGREE_ORDER.filter((d) =>
-    seatData.some((row) => row.DegreeType === d),
+  /* ── build the API query ── */
+  const queryString = useMemo(() => {
+    const params = new URLSearchParams();
+    params.set("page", String(page));
+    params.set("limit", String(PER_PAGE));
+
+    if (selRound !== "all") params.set("round", selRound);
+    if (selState !== "all") params.set("state", selState);
+    if (selQuota !== "all") params.set("quota", selQuota);
+    if (selCategory !== "all") params.set("category", selCategory);
+    if (selCourse !== "all") params.set("course", selCourse);
+    if (selBranch !== "all") params.set("branch", selBranch);
+    if (debouncedSearch.trim()) params.set("search", debouncedSearch.trim());
+    if (debouncedMinSeats) params.set("minSeats", debouncedMinSeats);
+    if (debouncedMinRank) params.set("rankFrom", debouncedMinRank);
+    if (debouncedMaxRank) params.set("rankTo", debouncedMaxRank);
+    if (debouncedMinRank || debouncedMaxRank) params.set("rankView", rankView);
+
+    return params.toString();
+  }, [
+    page,
+    selRound,
+    selState,
+    selQuota,
+    selCategory,
+    selCourse,
+    selBranch,
+    debouncedSearch,
+    debouncedMinSeats,
+    debouncedMinRank,
+    debouncedMaxRank,
+    rankView,
+  ]);
+
+  /* ── fetch rows ── */
+  useEffect(() => {
+    const controller = new AbortController();
+    setFetching(true);
+
+    fetch(`${SEAT_MATRIX_URL}?${queryString}`, { signal: controller.signal })
+      .then((res) => {
+        if (!res.ok) throw new Error("Fetch failed");
+        return res.json();
+      })
+      .then((json) => {
+        setData(json.data || []);
+        setTotal(json.pagination?.total ?? 0);
+        setTotalPages(Math.max(1, json.pagination?.totalPages ?? 1));
+        setTotalSeats(json.totalSeats ?? 0);
+        setDataError(false);
+      })
+      .catch((error) => {
+        if (error.name === "AbortError") return;
+        setDataError(true);
+        setData([]);
+        setTotal(0);
+        setTotalPages(1);
+        setTotalSeats(0);
+      })
+      .finally(() => {
+        if (controller.signal.aborted) return;
+        setFetching(false);
+        setLoading(false);
+      });
+
+    // cancels the previous request if filters change before it finishes
+    return () => controller.abort();
+  }, [queryString]);
+
+  const rounds = filterOptions.rounds;
+  const states = useMemo(
+    () => ["all", ...filterOptions.states],
+    [filterOptions.states],
   );
-  const managements = [
-    ...new Set(seatData.map((d) => d.ManagementGroup).filter(Boolean)),
-  ].sort();
-  const institutes = [
-    ...new Set(seatData.map((d) => d.Institute).filter(Boolean)),
-  ].sort();
-
-  // ─────────────────────────────────────────
-  // FILTER LOGIC
-  // ─────────────────────────────────────────
-  const filtered = seatData.filter((item) => {
-    const s = searchTerm.toLowerCase();
-    const matchesSearch =
-      !s ||
-      item.Institute.toLowerCase().includes(s) ||
-      item.Course.toLowerCase().includes(s) ||
-      item.State.toLowerCase().includes(s);
-    if (!matchesSearch) return false;
-
-    if (selState !== "all" && item.State !== selState) return false;
-    if (selDegree !== "all" && item.DegreeType !== selDegree) return false;
-    if (selManagement !== "all" && item.ManagementGroup !== selManagement)
-      return false;
-    if (selInstitute !== "all" && item.Institute !== selInstitute) return false;
-
-    // Seats range
-    if (minSeats && (item.Seats < 0 || item.Seats < parseInt(minSeats)))
-      return false;
-    if (maxSeats && item.Seats >= 0 && item.Seats > parseInt(maxSeats))
-      return false;
-
-    return true;
-  });
-
-  const PER_PAGE = 70;
-  const totalPages = Math.ceil(filtered.length / PER_PAGE);
-  const paged = filtered.slice((page - 1) * PER_PAGE, page * PER_PAGE);
+  const quotas = useMemo(
+    () => ["all", ...filterOptions.quotas],
+    [filterOptions.quotas],
+  );
+  const categories = useMemo(
+    () => ["all", ...filterOptions.categories],
+    [filterOptions.categories],
+  );
+  const courses = useMemo(
+    () => ["all", ...filterOptions.courses],
+    [filterOptions.courses],
+  );
+  const branches = useMemo(
+    () => ["all", ...filterOptions.branches],
+    [filterOptions.branches],
+  );
 
   const clearAll = () => {
     setSearchTerm("");
+    setSelRound("all");
     setSelState("all");
-    setSelDegree("all");
-    setSelManagement("all");
-    setSelInstitute("all");
+    setSelQuota("all");
+    setSelCategory("all");
+    setSelCourse("all");
+    setSelBranch("all");
     setMinSeats("");
-    setMaxSeats("");
+    setMinRank("");
+    setMaxRank("");
+    setRankView("2025");
+    setColVis(DEFAULT_VIS);
     setPage(1);
   };
 
-  // ─────────────────────────────────────────
-  // STATS
-  // ─────────────────────────────────────────
-  const totalSeats = filtered.reduce(
-    (s, r) => s + (r.Seats > 0 ? r.Seats : 0),
-    0,
-  );
-  const collegeCount = new Set(filtered.map((r) => r.Institute)).size;
-  const mdCount = filtered.filter((r) => r.DegreeType === "MD").length;
-  const msCount = filtered.filter((r) => r.DegreeType === "MS").length;
-  const govtCount = filtered.filter(
-    (r) => r.ManagementGroup === "Government",
-  ).length;
+  const visibleCols = COL_DEFS.filter(({ key }) => colVis[key]);
 
-  // ─────────────────────────────────────────
-  // BADGE COLORS
-  // ─────────────────────────────────────────
-  const mgmtColor = (m) => {
-    if (m === "Government") return "pg25-sm-badge-mgmt-govt";
-    if (m === "Trust") return "pg25-sm-badge-mgmt-trust";
-    if (m === "Deemed") return "pg25-sm-badge-mgmt-deemed";
-    return "pg25-sm-badge-mgmt-private";
-  };
-
-  const degreeColor = (d) => {
-    if (d === "MD") return "pg25-sm-badge-degree-md";
-    if (d === "MS") return "pg25-sm-badge-degree-ms";
-    if (d === "DM") return "pg25-sm-badge-degree-dm";
-    if (d === "MCh") return "pg25-sm-badge-degree-mch";
-    if (d === "Diploma") return "pg25-sm-badge-degree-diploma";
-    if (d === "DNB") return "pg25-sm-badge-degree-dnb";
-    return "pg25-sm-badge-degree-other";
-  };
-
-  // ─────────────────────────────────────────
-  // CUSTOM SELECT COMPONENT
-  // ─────────────────────────────────────────
-  const CustomSelect = ({ value, onChange, options, allLabel, icon }) => {
-    const [isOpen, setIsOpen] = useState(false);
-    const [searchTerm, setSearchTerm] = useState("");
-
-    const filteredOptions = options.filter((o) =>
-      o.toLowerCase().includes(searchTerm.toLowerCase()),
-    );
-
-    return (
-      <div className="pg25-sm-cs-wrapper">
-        <button
-          onClick={() => setIsOpen(!isOpen)}
-          className="pg25-sm-cs-trigger"
-        >
-          {icon && <span className="pg25-sm-cs-icon-inline">{icon}</span>}
-          <span className="pg25-sm-cs-value">
-            {value === "all" ? allLabel : value}
-          </span>
-          <ChevronDown
-            className={`pg25-sm-cs-chevron-static ${isOpen ? "pg25-sm-rotate-open" : ""}`}
-          />
-        </button>
-
-        {isOpen && (
-          <>
-            <div
-              className="pg25-sm-select-overlay"
-              onClick={() => {
-                setIsOpen(false);
-                setSearchTerm("");
-              }}
-            />
-            <div className="pg25-sm-select-dropdown">
-              <div className="pg25-sm-select-search-wrap">
-                <input
-                  type="text"
-                  placeholder="Search..."
-                  value={searchTerm}
-                  onChange={(e) => setSearchTerm(e.target.value)}
-                  className="pg25-sm-select-search-input"
-                  onClick={(e) => e.stopPropagation()}
-                />
-              </div>
-              <div className="pg25-sm-select-options">
-                <div
-                  onClick={() => {
-                    onChange("all");
-                    setPage(1);
-                    setIsOpen(false);
-                    setSearchTerm("");
-                  }}
-                  className={`pg25-sm-select-option ${
-                    value === "all" ? "pg25-sm-select-option-selected" : ""
-                  }`}
-                >
-                  {allLabel}
-                </div>
-                {filteredOptions.map((o) => (
-                  <div
-                    key={o}
-                    onClick={() => {
-                      onChange(o);
-                      setPage(1);
-                      setIsOpen(false);
-                      setSearchTerm("");
-                    }}
-                    className={`pg25-sm-select-option ${
-                      value === o ? "pg25-sm-select-option-selected" : ""
-                    }`}
-                  >
-                    {o}
-                  </div>
-                ))}
-              </div>
-            </div>
-          </>
-        )}
-      </div>
-    );
-  };
-
-  // ─────────────────────────────────────────
-  // LOADING STATE
-  // ─────────────────────────────────────────
   if (loading)
     return (
       <div className="pg25-sm-loading-screen">
-        <div className="pg25-sm-loading-content">
+        <div className="pg25-sm-loading-box">
           <div className="pg25-sm-loading-spinner" />
-          <p className="pg25-sm-loading-text">Loading NEET PG Seat Matrix...</p>
+          <p>Loading NEET PG seat matrix...</p>
         </div>
       </div>
     );
 
-  // ─────────────────────────────────────────
-  // RENDER
-  // ─────────────────────────────────────────
   return (
     <div className="pg25-sm-page-root">
-      {/* Column Visibility Modal */}
+      {/* ── Column modal ── */}
       {showColModal && (
-        <div className="pg25-sm-modal-overlay">
-          <div className="pg25-sm-modal-box">
+        <div
+          className="pg25-sm-modal-overlay"
+          onClick={() => setShowColModal(false)}
+        >
+          <div
+            className="pg25-sm-modal-box"
+            onClick={(e) => e.stopPropagation()}
+          >
             <div className="pg25-sm-modal-header">
-              <h3 className="pg25-sm-modal-title">Show / Hide Columns</h3>
+              <h3>Show / Hide Columns</h3>
               <button
+                type="button"
                 onClick={() => setShowColModal(false)}
                 className="pg25-sm-modal-close-btn"
               >
-                <X className="pg25-sm-modal-close-icon" />
+                <X />
               </button>
             </div>
             <div className="pg25-sm-modal-body">
               <div className="pg25-sm-modal-actions">
-                <button onClick={showAll} className="pg25-sm-btn-show-all">
+                <button
+                  type="button"
+                  onClick={showAll}
+                  className="pg25-sm-btn-secondary"
+                >
                   Show All
                 </button>
-                <button onClick={hideAll} className="pg25-sm-btn-hide-all">
+                <button
+                  type="button"
+                  onClick={hideAll}
+                  className="pg25-sm-btn-secondary"
+                >
                   Hide All
                 </button>
               </div>
-              <div className="pg25-sm-col-grid">
-                {colDefs.map(({ key, label }) => (
-                  <div key={key} className="pg25-sm-col-row">
-                    <label className="pg25-sm-col-row-label">
+              {COL_GROUPS.map((group) => (
+                <div key={group.label} className="pg25-sm-col-group">
+                  <p className="pg25-sm-col-group-label">{group.label}</p>
+                  {group.keys.map((key) => (
+                    <label key={key} className="pg25-sm-col-row">
                       <input
                         type="checkbox"
                         checked={colVis[key]}
                         onChange={() => toggleCol(key)}
-                        className="pg25-sm-col-checkbox"
                       />
-                      <span className="pg25-sm-col-row-text">{label}</span>
+                      <span>
+                        {COL_DEFS.find((def) => def.key === key)?.label || key}
+                      </span>
+                      {colVis[key] ? <Eye /> : <EyeOff />}
                     </label>
-                    {colVis[key] ? (
-                      <Eye className="pg25-sm-col-eye-icon" />
-                    ) : (
-                      <EyeOff className="pg25-sm-col-eyeoff-icon" />
-                    )}
-                  </div>
-                ))}
-              </div>
+                  ))}
+                </div>
+              ))}
             </div>
             <div className="pg25-sm-modal-footer">
               <button
+                type="button"
                 onClick={() => setShowColModal(false)}
-                className="pg25-sm-btn-apply"
+                className="pg25-sm-btn-primary"
               >
                 Apply
               </button>
@@ -518,322 +600,273 @@ const PgSeatMatrix2025Page = () => {
       )}
 
       <div className="pg25-sm-content-wrapper">
-        {/* Header */}
-        <div className="pg25-sm-header">
+        {/* ── Header ── */}
+        <div className="pg25-sm-app-header">
           <div className="pg25-sm-header-row">
             <div className="pg25-sm-header-left">
               <button
+                type="button"
                 onClick={() => navigate("/dashboard/neet-pg")}
                 className="pg25-sm-back-btn"
               >
                 <ArrowLeft className="pg25-sm-icon-sm" />
               </button>
-              <div>
-                <h1 className="pg25-sm-header-title">Seat Matrix</h1>
-                <p className="pg25-sm-header-subtitle">NEET PG 2025</p>
+              <div className="pg25-sm-header-text">
+                <h1>Seat Matrix</h1>
+                <p>NEET PG 2025</p>
               </div>
             </div>
-
             <span className="pg25-sm-records-count">
-              {filtered.length.toLocaleString()} Records
+              {total.toLocaleString()} Records
             </span>
           </div>
         </div>
 
         {dataError && (
           <div className="pg25-sm-error-banner">
-            ⚠️ Data not found. Check the data Place.{" "}
+            ⚠️ Unable to load seat matrix data from the server. Please check
+            your connection and try again.
           </div>
         )}
 
-        {/* Degree-type quick filters */}
-        <div className="pg25-sm-quickfilters-section">
-          <div className="pg25-sm-quickfilters-row">
-            {degreeTypes.map((d) => (
+        {/* ── Round pills + rank view + columns ── */}
+        <div className="pg25-sm-pills-row">
+          <div className="pg25-sm-pill-group">
+            <button
+              type="button"
+              onClick={() => withReset(setSelRound)("all")}
+              className={`pg25-sm-pill ${selRound === "all" ? "pg25-sm-pill-active" : "pg25-sm-pill-inactive"}`}
+            >
+              All Rounds
+            </button>
+            {rounds.map((round) => (
               <button
-                key={d}
-                onClick={() => {
-                  setSelDegree(d);
-                  setPage(1);
-                }}
-                className={`pg25-sm-pill-btn ${selDegree === d ? "pg25-sm-pill-blue-active" : "pg25-sm-pill-gray-inactive"}`}
+                type="button"
+                key={round}
+                onClick={() => withReset(setSelRound)(round)}
+                className={`pg25-sm-pill ${selRound === round ? "pg25-sm-pill-active" : "pg25-sm-pill-inactive"}`}
               >
-                {d}
+                R{round}
               </button>
             ))}
+          </div>
+
+          <span className="pg25-sm-pill-divider" aria-hidden="true" />
+
+          <div className="pg25-sm-pill-group">
+            {RANK_VIEWS.map(({ value, label }) => (
+              <button
+                type="button"
+                key={value}
+                onClick={() => applyRankView(value)}
+                className={`pg25-sm-pill ${rankView === value ? "pg25-sm-pill-active-alt" : "pg25-sm-pill-inactive-alt"}`}
+              >
+                {label}
+              </button>
+            ))}
+          </div>
+
+          <button
+            type="button"
+            onClick={() => setShowColModal(true)}
+            className="pg25-sm-pill-icon-btn"
+          >
+            <Eye className="pg25-sm-icon-sm" /> Columns
+          </button>
+        </div>
+
+        {/* ── Search + Filters ── */}
+        <div className="pg25-sm-filters-row">
+          <div className="pg25-sm-search-box">
+            <Search />
+            <input
+              type="text"
+              placeholder="Search institute, course, branch, state..."
+              value={searchTerm}
+              onChange={(e) => withReset(setSearchTerm)(e.target.value)}
+            />
+          </div>
+
+          <div className="pg25-sm-filter-selects">
+            <CustomSelect
+              value={selState}
+              onChange={withReset(setSelState)}
+              options={states}
+              allLabel="All States"
+            />
+            <CustomSelect
+              value={selQuota}
+              onChange={withReset(setSelQuota)}
+              options={quotas}
+              allLabel="All Quotas"
+            />
+            <CustomSelect
+              value={selCategory}
+              onChange={withReset(setSelCategory)}
+              options={categories}
+              allLabel="All Categories"
+            />
             <button
-              onClick={() => {
-                setSelDegree("all");
-                setPage(1);
-              }}
-              className={`pg25-sm-pill-btn ${selDegree === "all" ? "pg25-sm-pill-blue-active" : "pg25-sm-pill-gray-inactive"}`}
+              type="button"
+              className="pg25-sm-toggle-filter"
+              onClick={() => setShowAdv((prev) => !prev)}
             >
-              All Courses
+              <Filter className="pg25-sm-icon-fl" /> {showAdv ? "Hide" : "More"}{" "}
+              Filters
+              <ChevronDown
+                className={showAdv ? "pg25-sm-cs-chevron-open" : ""}
+              />
             </button>
-            <div className="pg25-sm-quickfilters-actions">
-              <button
-                onClick={() => setShowColModal(true)}
-                className="pg25-sm-columns-btn"
-              >
-                <Eye className="pg25-sm-icon-sm" /> Columns
-              </button>
-            </div>
           </div>
         </div>
 
-        {/* Search & Filters */}
-        <div className="pg25-sm-filters-section">
-          <div className="pg25-sm-filters-row">
-            <div className="pg25-sm-search-wrapper">
-              <Search className="pg25-sm-search-icon" />
+        {showAdv && (
+          <div className="pg25-sm-advanced-filters">
+            <CustomSelect
+              value={selCourse}
+              onChange={withReset(setSelCourse)}
+              options={courses}
+              allLabel="All Courses"
+            />
+            <CustomSelect
+              value={selBranch}
+              onChange={withReset(setSelBranch)}
+              options={branches}
+              allLabel="All Branches"
+            />
+            <div className="pg25-sm-rank-inputs">
               <input
-                type="text"
-                placeholder="Search college, course or state…"
-                value={searchTerm}
-                onChange={(e) => {
-                  setSearchTerm(e.target.value);
-                  setPage(1);
-                }}
-                className="pg25-sm-search-input"
+                type="number"
+                min="0"
+                placeholder="Min Seats"
+                value={minSeats}
+                onChange={(e) => withReset(setMinSeats)(e.target.value)}
               />
-              {searchTerm && (
-                <button
-                  onClick={() => {
-                    setSearchTerm("");
-                    setPage(1);
-                  }}
-                  className="pg25-sm-search-clear-btn"
-                >
-                  <X className="pg25-sm-search-clear-icon" />
-                </button>
-              )}
+              <input
+                type="number"
+                min="0"
+                placeholder="Min Rank"
+                value={minRank}
+                onChange={(e) => withReset(setMinRank)(e.target.value)}
+              />
+              <input
+                type="number"
+                min="0"
+                placeholder="Max Rank"
+                value={maxRank}
+                onChange={(e) => withReset(setMaxRank)(e.target.value)}
+              />
             </div>
-            <div className="pg25-sm-selects-wrapper">
-              <CustomSelect
-                value={selState}
-                onChange={setSelState}
-                options={states}
-                allLabel="All States"
-              />
-              <CustomSelect
-                value={selManagement}
-                onChange={setSelManagement}
-                options={managements}
-                allLabel="All Types"
-              />
-              <CustomSelect
-                value={selInstitute}
-                onChange={setSelInstitute}
-                options={institutes.slice(0, 100)}
-                allLabel="All Colleges"
-              />
-              <button
-                onClick={() => setShowAdv(!showAdv)}
-                className={`pg25-sm-morefilters-btn ${showAdv ? "pg25-sm-morefilters-active" : "pg25-sm-morefilters-inactive"}`}
-              >
-                <Filter className="pg25-sm-icon-sm" /> More Filters
-                <ChevronDown
-                  className={`pg25-sm-morefilters-chevron ${showAdv ? "pg25-sm-rotate-open" : ""}`}
-                />
-              </button>
+            <button
+              type="button"
+              className="pg25-sm-clear-btn"
+              onClick={clearAll}
+            >
+              Clear Filters
+            </button>
+            <div className="pg25-sm-filtered-count-row">
+              <span className="pg25-sm-filtered-count-num">
+                {total.toLocaleString()}
+              </span>
+              <span>&nbsp;results&nbsp;·&nbsp;</span>
+              <span className="pg25-sm-filtered-count-num">
+                {totalSeats.toLocaleString()}
+              </span>
+              <span>&nbsp;seats</span>
             </div>
           </div>
+        )}
 
-          {/* Advanced Filters */}
-          {showAdv && (
-            <div className="pg25-sm-advfilters">
-              <p className="pg25-sm-advfilters-heading">Advanced Filters</p>
-              <div className="pg25-sm-advfilters-grid">
-                {/* Min Seats */}
-                <div>
-                  <label className="pg25-sm-field-label">Min Seats</label>
-                  <input
-                    type="number"
-                    placeholder="e.g. 2"
-                    value={minSeats}
-                    onChange={(e) => {
-                      setMinSeats(e.target.value);
-                      setPage(1);
-                    }}
-                    className="pg25-sm-field-input"
-                  />
-                </div>
-                {/* Max Seats */}
-                <div>
-                  <label className="pg25-sm-field-label">Max Seats</label>
-                  <input
-                    type="number"
-                    placeholder="e.g. 20"
-                    value={maxSeats}
-                    onChange={(e) => {
-                      setMaxSeats(e.target.value);
-                      setPage(1);
-                    }}
-                    className="pg25-sm-field-input"
-                  />
-                </div>
-              </div>
-              <div className="pg25-sm-advfilters-footer">
-                <div className="pg25-sm-advfilters-stats">
-                  <span className="pg25-sm-stats-num-blue">
-                    {filtered.length.toLocaleString()}
-                  </span>
-                  <span className="pg25-sm-stats-label">results</span>
-                </div>
-                <button onClick={clearAll} className="pg25-sm-clearall-btn">
-                  <X className="pg25-sm-icon-xs" /> Clear All
-                </button>
-              </div>
-            </div>
-          )}
-        </div>
-
-        {/* Table */}
-        <div className="pg25-sm-table-wrapper">
+        {/* ── Table ── */}
+        <div
+          className="pg25-sm-table-wrapper"
+          style={{
+            opacity: fetching ? 0.55 : 1,
+            transition: "opacity 150ms ease",
+          }}
+        >
           <table className="pg25-sm-table">
-            <thead className="pg25-sm-table-head">
+            <thead>
               <tr>
-                {colVis.sNo && <th className="pg25-sm-th">#</th>}
-                {colVis.State && <th className="pg25-sm-th">State</th>}
-                {colVis.Management && <th className="pg25-sm-th">Type</th>}
-                {colVis.Institute && (
-                  <th className="pg25-sm-th">College Name</th>
-                )}
-                {colVis.Course && <th className="pg25-sm-th">Course Name</th>}
-                {colVis.Seats && <th className="pg25-sm-th-seats">Seats</th>}
+                {visibleCols.map(({ key, label }) => (
+                  <th
+                    key={key}
+                    className={
+                      isRankKey(key)
+                        ? key.startsWith("cr_2024")
+                          ? "pg25-sm-th-rank pg25-sm-th-rank-24"
+                          : "pg25-sm-th-rank"
+                        : ""
+                    }
+                  >
+                    {label}
+                  </th>
+                ))}
               </tr>
             </thead>
-            <tbody className="pg25-sm-table-body">
-              {paged.length === 0 ? (
+            <tbody>
+              {data.length === 0 ? (
                 <tr>
                   <td
-                    colSpan={Object.values(colVis).filter(Boolean).length}
+                    colSpan={Math.max(1, visibleCols.length)}
                     className="pg25-sm-table-empty"
                   >
-                    <div className="pg25-sm-table-empty-content">
-                      <BarChart2 className="pg25-sm-table-empty-icon" />
-                      <p className="pg25-sm-table-empty-title">
-                        No results found
-                      </p>
-                      <p className="pg25-sm-table-empty-subtitle">
-                        Try adjusting your filters
-                      </p>
-                    </div>
+                    {dataError
+                      ? "Unable to load the data. Please refresh the page and try again."
+                      : "No records found for the selected filters."}
                   </td>
                 </tr>
               ) : (
-                paged.map((item, i) => {
-                  return (
-                    <tr key={i} className="pg25-sm-table-row">
-                      {colVis.sNo && (
-                        <td className="pg25-sm-td-sno">
-                          {(page - 1) * PER_PAGE + i + 1}
-                        </td>
-                      )}
-                      {colVis.State && (
-                        <td className="pg25-sm-td-state">
-                          {item.State || "N/A"}
-                        </td>
-                      )}
-                      {colVis.Management && (
-                        <td className="pg25-sm-td-mgmt">
-                          <span
-                            className={`pg25-sm-badge-mgmt-base ${mgmtColor(item.ManagementGroup)}`}
-                          >
-                            {item.ManagementGroup}
-                          </span>
-                        </td>
-                      )}
-                      {colVis.Institute && (
-                        <td className="pg25-sm-td-institute">
-                          <span className="pg25-sm-institute-clamp">
-                            {item.Institute}
-                          </span>
-                        </td>
-                      )}
-                      {colVis.Course && (
-                        <td className="pg25-sm-td-course">
-                          <span
-                            className={`pg25-sm-badge-degree-base ${degreeColor(item.DegreeType)}`}
-                          >
-                            {item.DegreeType}
-                          </span>
-                          <span className="pg25-sm-course-clamp">
-                            {item.Course}
-                          </span>
-                        </td>
-                      )}
-                      {colVis.Seats && (
-                        <td className="pg25-sm-td-seats">
-                          {item.Seats < 0 ? (
-                            <span className="pg25-sm-value-na">N/A</span>
-                          ) : item.Seats === 0 ? (
-                            <span className="pg25-sm-seats-zero">0</span>
-                          ) : (
-                            <span
-                              className={`pg25-sm-seats-value ${item.Seats >= 10 ? "pg25-sm-seats-blue" : "pg25-sm-seats-orange"}`}
-                            >
-                              {item.SeatsRaw}
-                            </span>
-                          )}
-                        </td>
-                      )}
-                    </tr>
-                  );
-                })
+                data.map((item) => (
+                  <tr key={item.id}>
+                    {visibleCols.map(({ key }) => renderCell(item, key))}
+                  </tr>
+                ))
               )}
             </tbody>
           </table>
         </div>
 
-        {/* Pagination */}
-        <div className="pg25-sm-pagination">
-          <div className="pg25-sm-pagination-row">
-            <div className="pg25-sm-pagination-info">
-              Showing{" "}
-              <span className="pg25-sm-pagination-info-bold">
-                {filtered.length > 0 ? (page - 1) * PER_PAGE + 1 : 0}–
-                {Math.min(page * PER_PAGE, filtered.length)}
-              </span>{" "}
-              of{" "}
-              <span className="pg25-sm-pagination-info-bold">
-                {filtered.length.toLocaleString()}
-              </span>
-            </div>
-            <div className="pg25-sm-pagination-controls">
-              <button
-                onClick={() => setPage(Math.max(1, page - 1))}
-                disabled={page === 1}
-                className="pg25-sm-pagination-nav-btn"
-              >
-                <ChevronLeft className="pg25-sm-icon-xs" />
-              </button>
-              <div className="pg25-sm-pagination-numbers">
-                {Array.from({ length: Math.min(5, totalPages) }, (_, i) => {
-                  const n =
-                    totalPages <= 5
-                      ? i + 1
-                      : Math.max(1, Math.min(page - 2, totalPages - 4)) + i;
-                  if (n > totalPages) return null;
-                  return (
-                    <button
-                      key={n}
-                      onClick={() => setPage(n)}
-                      className={`pg25-sm-pagenum-btn ${page === n ? "pg25-sm-pagenum-active" : "pg25-sm-pagenum-inactive"}`}
-                    >
-                      {n}
-                    </button>
-                  );
-                })}
-              </div>
-              <button
-                onClick={() => setPage(Math.min(totalPages, page + 1))}
-                disabled={page === totalPages || totalPages === 0}
-                className="pg25-sm-pagination-nav-btn"
-              >
-                <ChevronRight className="pg25-sm-icon-xs" />
-              </button>
-            </div>
+        {/* ── Pagination ── */}
+        <div className="pg25-sm-pagination-row">
+          <div className="pg25-sm-pagination-info">
+            Showing {total > 0 ? (page - 1) * PER_PAGE + 1 : 0}–
+            {Math.min(page * PER_PAGE, total)} of {total.toLocaleString()}
+          </div>
+          <div className="pg25-sm-pagination-controls">
+            <button
+              type="button"
+              onClick={() => setPage((prev) => Math.max(1, prev - 1))}
+              disabled={page === 1}
+            >
+              <PrevIcon />
+            </button>
+            {Array.from({ length: Math.min(5, totalPages) }, (_, idx) => {
+              const start = Math.max(1, Math.min(page - 2, totalPages - 4));
+              const pageNum = start + idx;
+              if (pageNum > totalPages) return null;
+              return (
+                <button
+                  key={pageNum}
+                  type="button"
+                  onClick={() => setPage(pageNum)}
+                  className={
+                    pageNum === page
+                      ? "pg25-sm-page-active"
+                      : "pg25-sm-page-btn"
+                  }
+                >
+                  {pageNum}
+                </button>
+              );
+            })}
+            <button
+              type="button"
+              onClick={() => setPage((prev) => Math.min(totalPages, prev + 1))}
+              disabled={page === totalPages}
+            >
+              <NextIcon />
+            </button>
           </div>
         </div>
       </div>
