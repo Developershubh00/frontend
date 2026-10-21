@@ -13,39 +13,100 @@ import {
 } from "lucide-react";
 import "./PgClosingRanks2025Page.css";
 
+/* ───────────────────────── API ───────────────────────── */
+
+const API_BASE = (
+  import.meta.env.VITE_API_URL || "http://localhost:5000"
+).replace(/\/$/, "");
+
+const CLOSING_RANKS_URL = `${API_BASE}/closing-ranks/pg/2025`;
+const FILTERS_URL = `${API_BASE}/closing-ranks/pg/2025/filters`;
+
+const PER_PAGE = 50;
+
+/* ───────────────────────── Column configuration ───────────────────────── */
+
 const COL_DEFS = [
-  { key: "Quota", label: "Quota" },
-  { key: "Category", label: "Category" },
-  { key: "State", label: "State" },
-  { key: "Institute", label: "Institute" },
-  { key: "Course", label: "Course" },
-  { key: "Fee", label: "Fee" },
-  { key: "CR 2025 1", label: "Round 1" },
-  { key: "CR 2025 2", label: "Round 2" },
-  { key: "CR 2025 3", label: "Round 3" },
-  { key: "CR 2025 4", label: "Round 4" },
+  { key: "quota", label: "Quota" },
+  { key: "category", label: "Category" },
+  { key: "state", label: "State" },
+  { key: "institute", label: "Institute" },
+  { key: "course", label: "Course" },
+  { key: "fee", label: "Fee" },
+  { key: "cr_2025_1", label: "Round 1" },
+  { key: "cr_2025_2", label: "Round 2" },
+  { key: "cr_2025_3", label: "Round 3" },
+  { key: "cr_2025_4", label: "Round 4" },
 ];
 
-const DEFAULT_VIS = {
-  Quota: true,
-  Category: true,
-  State: true,
-  Institute: true,
-  Course: true,
-  Fee: true,
-  "CR 2025 1": true,
-  "CR 2025 2": true,
-  "CR 2025 3": true,
-  "CR 2025 4": true,
+const DEFAULT_VIS = COL_DEFS.reduce(
+  (acc, { key }) => ({ ...acc, [key]: true }),
+  {},
+);
+
+const ALL_RANK_COLS = ["cr_2025_1", "cr_2025_2", "cr_2025_3", "cr_2025_4"];
+
+const COL_GROUPS = [
+  {
+    label: "Basic Info",
+    keys: ["quota", "category", "state", "institute", "course"],
+  },
+  { label: "Rank Columns", keys: ALL_RANK_COLS },
+  { label: "Other", keys: ["fee"] },
+];
+
+/* ───────────────────────── Helpers ───────────────────────── */
+
+const toRank = (val) => {
+  const match = String(val ?? "").match(/\d+/);
+  const num = match ? parseInt(match[0], 10) : NaN;
+  return Number.isNaN(num) || num <= 0 ? null : num;
 };
 
-const ALL_RANK_COLS = ["CR 2025 1", "CR 2025 2", "CR 2025 3", "CR 2025 4"];
+const formatFee = (fee) => {
+  const numeric = Number(String(fee ?? "").replace(/[^0-9.]/g, ""));
+  if (!numeric || Number.isNaN(numeric)) return "—";
+  const inThousands = numeric / 1000;
+  const formatted =
+    inThousands >= 100 ? inThousands.toFixed(0) : inThousands.toFixed(2);
+  return `₹${formatted} K`;
+};
+
+const categoryBadgeClass = (category) => {
+  if (category === "UR" || category === "GEN" || category === "Open")
+    return "pg25-cr-badge-cat-gray";
+  if (category === "OBC") return "pg25-cr-badge-cat-yellow";
+  if (category === "SC") return "pg25-cr-badge-cat-red";
+  if (category === "ST") return "pg25-cr-badge-cat-blue";
+  if (category === "EWS") return "pg25-cr-badge-cat-green";
+  return "pg25-cr-badge-cat-purple";
+};
+
+const useDebounce = (value, delay = 400) => {
+  const [debounced, setDebounced] = useState(value);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setDebounced(value), delay);
+    return () => clearTimeout(timer);
+  }, [value, delay]);
+
+  return debounced;
+};
+
+const EMPTY_FILTER_OPTIONS = {
+  states: [],
+  quotas: [],
+  categories: [],
+  courses: [],
+};
+
+/* ───────────────────────── Small components ───────────────────────── */
 
 const CustomSelect = ({ value, onChange, options, allLabel }) => {
   const [open, setOpen] = useState(false);
   const [search, setSearch] = useState("");
   const filtered = options.filter((opt) =>
-    opt.toLowerCase().includes(search.toLowerCase()),
+    String(opt).toLowerCase().includes(search.toLowerCase()),
   );
 
   return (
@@ -98,12 +159,8 @@ const CustomSelect = ({ value, onChange, options, allLabel }) => {
 };
 
 const RankCell = ({ val }) => {
-  if (!val || val === "-" || val === "")
-    return <span className="pg25-cr-rank-empty">—</span>;
-
-  const digits = val.match(/\d+/);
-  const rank = digits ? parseInt(digits[0], 10) : NaN;
-  if (isNaN(rank)) return <span className="pg25-cr-rank-empty">—</span>;
+  const rank = toRank(val);
+  if (rank === null) return <span className="pg25-cr-rank-empty">—</span>;
 
   const tier =
     rank <= 100
@@ -116,34 +173,30 @@ const RankCell = ({ val }) => {
             ? "pg25-cr-rank-tier-4"
             : "pg25-cr-rank-tier-5";
 
-  return <span className={`pg25-cr-rank-value ${tier}`}>{val}</span>;
+  return (
+    <span className={`pg25-cr-rank-value ${tier}`}>
+      {rank.toLocaleString()}
+    </span>
+  );
 };
 
-const formatFee = (fee) => {
-  if (!fee || fee === "-" || fee === "") return "—";
-  const numeric = Number(String(fee).replace(/[^0-9.]/g, ""));
-  if (!numeric || Number.isNaN(numeric)) return fee; // e.g. "Info not available"
-  const inThousands = numeric / 1000;
-  const formatted =
-    inThousands >= 100 ? inThousands.toFixed(0) : inThousands.toFixed(2);
-  return `₹${formatted} K`;
-};
-
-const categoryBadgeClass = (category) => {
-  if (category === "UR" || category === "GEN" || category === "Open")
-    return "pg25-cr-badge-cat-gray";
-  if (category === "OBC") return "pg25-cr-badge-cat-yellow";
-  if (category === "SC") return "pg25-cr-badge-cat-red";
-  if (category === "ST") return "pg25-cr-badge-cat-blue";
-  if (category === "EWS") return "pg25-cr-badge-cat-green";
-  return "pg25-cr-badge-cat-purple";
-};
+/* ───────────────────────── Page ───────────────────────── */
 
 const PgClosingRanks2025Page = () => {
   const navigate = useNavigate();
+
+  // server data
   const [data, setData] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const [total, setTotal] = useState(0);
+  const [totalPages, setTotalPages] = useState(1);
+  const [filterOptions, setFilterOptions] = useState(EMPTY_FILTER_OPTIONS);
+
+  // request state
+  const [loading, setLoading] = useState(true); // first load only
+  const [fetching, setFetching] = useState(false); // every refetch
   const [dataError, setDataError] = useState(false);
+
+  // filters
   const [searchTerm, setSearchTerm] = useState("");
   const [selState, setSelState] = useState("all");
   const [selQuota, setSelQuota] = useState("all");
@@ -152,13 +205,24 @@ const PgClosingRanks2025Page = () => {
   const [selRound, setSelRound] = useState("all");
   const [minRank, setMinRank] = useState("");
   const [maxRank, setMaxRank] = useState("");
+
   const [showAdv, setShowAdv] = useState(false);
   const [showColModal, setShowColModal] = useState(false);
   const [colVis, setColVis] = useState(DEFAULT_VIS);
   const [page, setPage] = useState(1);
 
-  const PER_PAGE = 50;
+  // typing inputs wait 400ms before hitting the API
+  const debouncedSearch = useDebounce(searchTerm);
+  const debouncedMinRank = useDebounce(minRank);
+  const debouncedMaxRank = useDebounce(maxRank);
 
+  // any filter change sends the user back to page 1
+  const withReset = (setter) => (value) => {
+    setter(value);
+    setPage(1);
+  };
+
+  /* ── column visibility ── */
   const toggleCol = (key) =>
     setColVis((prev) => ({ ...prev, [key]: !prev[key] }));
   const showAll = () =>
@@ -168,7 +232,7 @@ const PgClosingRanks2025Page = () => {
       COL_DEFS.reduce(
         (acc, { key }) => ({
           ...acc,
-          [key]: key === "Institute" || key === "Course",
+          [key]: key === "institute" || key === "course",
         }),
         {},
       ),
@@ -176,185 +240,111 @@ const PgClosingRanks2025Page = () => {
 
   const applyRound = (round) => {
     setSelRound(round);
-    const newVis = { ...colVis };
-    ALL_RANK_COLS.forEach((key) => {
-      newVis[key] = round === "all" ? true : key === `CR 2025 ${round}`;
-    });
-    setColVis(newVis);
-  };
-
-  const parseCSV = (text) => {
-    const clean = text.replace(/^\uFEFF/, "");
-    if (clean.includes("<html") || clean.includes("<!DOCTYPE"))
-      throw new Error("Invalid CSV");
-    const lines = clean.trim().split(/\r?\n/).filter(Boolean);
-    if (lines.length < 2) throw new Error("No data");
-
-    const header = lines[0]
-      .split(",")
-      .map((h) => h.trim().replace(/^"|"$/g, ""));
-    return lines.slice(1).map((line) => {
-      const values = [];
-      let current = "";
-      let inQuotes = false;
-
-      for (let i = 0; i < line.length; i++) {
-        const ch = line[i];
-        if (ch === '"') {
-          if (inQuotes && line[i + 1] === '"') {
-            current += '"';
-            i += 1;
-          } else {
-            inQuotes = !inQuotes;
-          }
-        } else if (ch === "," && !inQuotes) {
-          values.push(current.trim());
-          current = "";
-        } else {
-          current += ch;
-        }
-      }
-      values.push(current.trim());
-
-      const row = header.reduce((acc, key, index) => {
-        acc[key] = values[index]
-          ? values[index].replace(/^"|"$/g, "").trim()
-          : "";
-        return acc;
-      }, {});
-
-      return {
-        Quota: row.Quota || "",
-        Category: row.Category || "",
-        State: row.State || "",
-        Institute: row.Institute || "",
-        Course: row.Course || "",
-        Fee: row.Fee || "",
-        "CR 2025 1": row["CR 2025 1"] || "",
-        "CR 2025 2": row["CR 2025 2"] || "",
-        "CR 2025 3": row["CR 2025 3"] || "",
-        "CR 2025 4": row["CR 2025 4"] || "",
-      };
+    setPage(1);
+    setColVis((prev) => {
+      const next = { ...prev };
+      ALL_RANK_COLS.forEach((key) => {
+        next[key] = round === "all" ? true : key === `cr_2025_${round}`;
+      });
+      return next;
     });
   };
 
+  /* ── load filter dropdown values (once) ── */
   useEffect(() => {
-    fetch("/data/neetpg/pg_closing_ranks_2025.csv")
+    fetch(FILTERS_URL)
       .then((res) => {
-        if (!res.ok) throw new Error("Fetch failed");
-        return res.text();
+        if (!res.ok) throw new Error("Filters fetch failed");
+        return res.json();
       })
-      .then((text) => {
-        setData(parseCSV(text));
-        setDataError(false);
-      })
-      .catch(() => {
-        setDataError(true);
-        setData([]);
-      })
-      .finally(() => setLoading(false));
+      .then((json) =>
+        setFilterOptions({ ...EMPTY_FILTER_OPTIONS, ...(json.filters || {}) }),
+      )
+      .catch((error) => console.error("Failed to load filters:", error));
   }, []);
 
+  /* ── build the API query ── */
+  const queryString = useMemo(() => {
+    const params = new URLSearchParams();
+    params.set("page", String(page));
+    params.set("limit", String(PER_PAGE));
+
+    if (selState !== "all") params.set("state", selState);
+    if (selQuota !== "all") params.set("quota", selQuota);
+    if (selCategory !== "all") params.set("category", selCategory);
+    if (selCourse !== "all") params.set("course", selCourse);
+    if (debouncedSearch.trim()) params.set("search", debouncedSearch.trim());
+    if (debouncedMinRank) params.set("rankFrom", debouncedMinRank);
+    if (debouncedMaxRank) params.set("rankTo", debouncedMaxRank);
+
+    // the selected round only narrows which rank column the min/max rank
+    // filter looks at; it doesn't hide rows on its own
+    if ((debouncedMinRank || debouncedMaxRank) && selRound !== "all") {
+      params.set("round", selRound);
+    }
+
+    return params.toString();
+  }, [
+    page,
+    selState,
+    selQuota,
+    selCategory,
+    selCourse,
+    selRound,
+    debouncedSearch,
+    debouncedMinRank,
+    debouncedMaxRank,
+  ]);
+
+  /* ── fetch rows ── */
+  useEffect(() => {
+    const controller = new AbortController();
+    setFetching(true);
+
+    fetch(`${CLOSING_RANKS_URL}?${queryString}`, { signal: controller.signal })
+      .then((res) => {
+        if (!res.ok) throw new Error("Fetch failed");
+        return res.json();
+      })
+      .then((json) => {
+        setData(json.data || []);
+        setTotal(json.pagination?.total ?? 0);
+        setTotalPages(Math.max(1, json.pagination?.totalPages ?? 1));
+        setDataError(false);
+      })
+      .catch((error) => {
+        if (error.name === "AbortError") return;
+        setDataError(true);
+        setData([]);
+        setTotal(0);
+        setTotalPages(1);
+      })
+      .finally(() => {
+        if (controller.signal.aborted) return;
+        setFetching(false);
+        setLoading(false);
+      });
+
+    // cancels the previous request if filters change before it finishes
+    return () => controller.abort();
+  }, [queryString]);
+
   const states = useMemo(
-    () => [
-      "all",
-      ...Array.from(
-        new Set(data.map((item) => item.State).filter(Boolean)),
-      ).sort(),
-    ],
-    [data],
+    () => ["all", ...filterOptions.states],
+    [filterOptions.states],
   );
   const quotas = useMemo(
-    () => [
-      "all",
-      ...Array.from(
-        new Set(data.map((item) => item.Quota).filter(Boolean)),
-      ).sort(),
-    ],
-    [data],
+    () => ["all", ...filterOptions.quotas],
+    [filterOptions.quotas],
   );
   const categories = useMemo(
-    () => [
-      "all",
-      ...Array.from(
-        new Set(data.map((item) => item.Category).filter(Boolean)),
-      ).sort(),
-    ],
-    [data],
+    () => ["all", ...filterOptions.categories],
+    [filterOptions.categories],
   );
   const courses = useMemo(
-    () => [
-      "all",
-      ...Array.from(
-        new Set(data.map((item) => item.Course).filter(Boolean)),
-      ).sort(),
-    ],
-    [data],
+    () => ["all", ...filterOptions.courses],
+    [filterOptions.courses],
   );
-
-  const getRelevantRanks = (item) => {
-    const rankKeys =
-      selRound === "all" ? ALL_RANK_COLS : [`CR 2025 ${selRound}`];
-    return rankKeys
-      .map((key) => {
-        const match = item[key]?.match(/\d+/);
-        return match ? parseInt(match[0], 10) : null;
-      })
-      .filter((value) => value !== null && value > 0);
-  };
-
-  const filtered = useMemo(() => {
-    const search = searchTerm.trim().toLowerCase();
-    return data.filter((item) => {
-      if (selState !== "all" && item.State !== selState) return false;
-      if (selQuota !== "all" && item.Quota !== selQuota) return false;
-      if (selCategory !== "all" && item.Category !== selCategory) return false;
-      if (selCourse !== "all" && item.Course !== selCourse) return false;
-
-      if (minRank || maxRank) {
-        const ranks = getRelevantRanks(item);
-        if (ranks.length === 0) return false;
-        const minValue = Math.min(...ranks);
-        const maxValue = Math.max(...ranks);
-        if (minRank && maxValue < parseFloat(minRank)) return false;
-        if (maxRank && minValue > parseFloat(maxRank)) return false;
-      }
-
-      if (search) {
-        const haystack =
-          `${item.Institute} ${item.Course} ${item.State} ${item.Quota} ${item.Category}`.toLowerCase();
-        if (!haystack.includes(search)) return false;
-      }
-
-      return true;
-    });
-  }, [
-    data,
-    selState,
-    selQuota,
-    selCategory,
-    selCourse,
-    minRank,
-    maxRank,
-    searchTerm,
-    selRound,
-  ]);
-
-  useEffect(() => {
-    setPage(1);
-  }, [
-    searchTerm,
-    selState,
-    selQuota,
-    selCategory,
-    selCourse,
-    minRank,
-    maxRank,
-    selRound,
-  ]);
-
-  const totalPages = Math.max(1, Math.ceil(filtered.length / PER_PAGE));
-  const paged = filtered.slice((page - 1) * PER_PAGE, page * PER_PAGE);
 
   const clearAll = () => {
     setSearchTerm("");
@@ -413,17 +403,7 @@ const PgClosingRanks2025Page = () => {
                   Hide All
                 </button>
               </div>
-              {[
-                {
-                  label: "Basic Info",
-                  keys: ["Quota", "Category", "State", "Institute", "Course"],
-                },
-                {
-                  label: "Rank Columns",
-                  keys: ["CR 2025 1", "CR 2025 2", "CR 2025 3", "CR 2025 4"],
-                },
-                { label: "Other", keys: ["Fee"] },
-              ].map((group) => (
+              {COL_GROUPS.map((group) => (
                 <div key={group.label} className="pg25-cr-col-group">
                   <p className="pg25-cr-col-group-label">{group.label}</p>
                   {group.keys.map((key) => (
@@ -473,14 +453,15 @@ const PgClosingRanks2025Page = () => {
               </div>
             </div>
             <span className="pg25-cr-records-count">
-              {filtered.length.toLocaleString()} Records
+              {total.toLocaleString()} Records
             </span>
           </div>
         </div>
 
         {dataError && (
           <div className="pg25-cr-error-banner">
-            ⚠️ Data not found. Check the data Place.{" "}
+            ⚠️ Unable to load closing ranks from the server. Please check your
+            connection and try again.
           </div>
         )}
 
@@ -513,35 +494,26 @@ const PgClosingRanks2025Page = () => {
               type="text"
               placeholder="Search institute, course, state..."
               value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
+              onChange={(e) => withReset(setSearchTerm)(e.target.value)}
             />
           </div>
 
           <div className="pg25-cr-filter-selects">
             <CustomSelect
               value={selState}
-              onChange={(value) => {
-                setSelState(value);
-                setPage(1);
-              }}
+              onChange={withReset(setSelState)}
               options={states}
               allLabel="All States"
             />
             <CustomSelect
               value={selQuota}
-              onChange={(value) => {
-                setSelQuota(value);
-                setPage(1);
-              }}
+              onChange={withReset(setSelQuota)}
               options={quotas}
               allLabel="All Quotas"
             />
             <CustomSelect
               value={selCategory}
-              onChange={(value) => {
-                setSelCategory(value);
-                setPage(1);
-              }}
+              onChange={withReset(setSelCategory)}
               options={categories}
               allLabel="All Categories"
             />
@@ -563,31 +535,24 @@ const PgClosingRanks2025Page = () => {
           <div className="pg25-cr-advanced-filters">
             <CustomSelect
               value={selCourse}
-              onChange={(value) => {
-                setSelCourse(value);
-                setPage(1);
-              }}
+              onChange={withReset(setSelCourse)}
               options={courses}
               allLabel="All Courses"
             />
             <div className="pg25-cr-rank-inputs">
               <input
                 type="number"
+                min="0"
                 placeholder="Min Rank"
                 value={minRank}
-                onChange={(e) => {
-                  setMinRank(e.target.value);
-                  setPage(1);
-                }}
+                onChange={(e) => withReset(setMinRank)(e.target.value)}
               />
               <input
                 type="number"
+                min="0"
                 placeholder="Max Rank"
                 value={maxRank}
-                onChange={(e) => {
-                  setMaxRank(e.target.value);
-                  setPage(1);
-                }}
+                onChange={(e) => withReset(setMaxRank)(e.target.value)}
               />
             </div>
             <button
@@ -599,7 +564,7 @@ const PgClosingRanks2025Page = () => {
             </button>
             <div className="pg25-cr-filtered-count-row">
               <span className="pg25-cr-filtered-count-num">
-                {filtered.length.toLocaleString()}
+                {total.toLocaleString()}
               </span>
               <span>&nbsp;filtered results</span>
             </div>
@@ -607,7 +572,13 @@ const PgClosingRanks2025Page = () => {
         )}
 
         {/* ── Table ── */}
-        <div className="pg25-cr-table-wrapper">
+        <div
+          className="pg25-cr-table-wrapper"
+          style={{
+            opacity: fetching ? 0.55 : 1,
+            transition: "opacity 150ms ease",
+          }}
+        >
           <table className="pg25-cr-table">
             <thead>
               <tr>
@@ -615,7 +586,7 @@ const PgClosingRanks2025Page = () => {
                   <th
                     key={key}
                     className={
-                      key.startsWith("CR 2025") ? "pg25-cr-th-rank" : ""
+                      key.startsWith("cr_2025") ? "pg25-cr-th-rank" : ""
                     }
                   >
                     {label}
@@ -624,10 +595,10 @@ const PgClosingRanks2025Page = () => {
               </tr>
             </thead>
             <tbody>
-              {paged.length === 0 ? (
+              {data.length === 0 ? (
                 <tr>
                   <td
-                    colSpan={visibleCols.length}
+                    colSpan={Math.max(1, visibleCols.length)}
                     className="pg25-cr-table-empty"
                   >
                     {dataError
@@ -636,53 +607,41 @@ const PgClosingRanks2025Page = () => {
                   </td>
                 </tr>
               ) : (
-                paged.map((item, index) => (
-                  <tr key={`${item.Institute}-${index}`}>
-                    {colVis.Quota && (
+                data.map((item) => (
+                  <tr key={item.id}>
+                    {colVis.quota && (
                       <td>
                         <span className="pg25-cr-badge-quota">
-                          {item.Quota || "—"}
+                          {item.quota || "—"}
                         </span>
                       </td>
                     )}
-                    {colVis.Category && (
+                    {colVis.category && (
                       <td>
                         <span
-                          className={`pg25-cr-badge-category-base ${categoryBadgeClass(item.Category)}`}
+                          className={`pg25-cr-badge-category-base ${categoryBadgeClass(item.category)}`}
                         >
-                          {item.Category || "—"}
+                          {item.category || "—"}
                         </span>
                       </td>
                     )}
-                    {colVis.State && <td>{item.State || "—"}</td>}
-                    {colVis.Institute && (
+                    {colVis.state && <td>{item.state || "—"}</td>}
+                    {colVis.institute && (
                       <td className="pg25-cr-td-institute">
-                        {item.Institute || "—"}
+                        {item.institute || "—"}
                       </td>
                     )}
-                    {colVis.Course && <td>{item.Course || "—"}</td>}
-                    {colVis.Fee && (
-                      <td className="pg25-cr-td-fee">{formatFee(item.Fee)}</td>
+                    {colVis.course && <td>{item.course || "—"}</td>}
+                    {colVis.fee && (
+                      <td className="pg25-cr-td-fee">{formatFee(item.fee)}</td>
                     )}
-                    {colVis["CR 2025 1"] && (
-                      <td className="pg25-cr-td-rank">
-                        <RankCell val={item["CR 2025 1"]} />
-                      </td>
-                    )}
-                    {colVis["CR 2025 2"] && (
-                      <td className="pg25-cr-td-rank">
-                        <RankCell val={item["CR 2025 2"]} />
-                      </td>
-                    )}
-                    {colVis["CR 2025 3"] && (
-                      <td className="pg25-cr-td-rank">
-                        <RankCell val={item["CR 2025 3"]} />
-                      </td>
-                    )}
-                    {colVis["CR 2025 4"] && (
-                      <td className="pg25-cr-td-rank">
-                        <RankCell val={item["CR 2025 4"]} />
-                      </td>
+                    {ALL_RANK_COLS.map(
+                      (key) =>
+                        colVis[key] && (
+                          <td key={key} className="pg25-cr-td-rank">
+                            <RankCell val={item[key]} />
+                          </td>
+                        ),
                     )}
                   </tr>
                 ))
@@ -694,9 +653,8 @@ const PgClosingRanks2025Page = () => {
         {/* ── Pagination ── */}
         <div className="pg25-cr-pagination-row">
           <div className="pg25-cr-pagination-info">
-            Showing {filtered.length > 0 ? (page - 1) * PER_PAGE + 1 : 0}–
-            {Math.min(page * PER_PAGE, filtered.length)} of{" "}
-            {filtered.length.toLocaleString()}
+            Showing {total > 0 ? (page - 1) * PER_PAGE + 1 : 0}–
+            {Math.min(page * PER_PAGE, total)} of {total.toLocaleString()}
           </div>
           <div className="pg25-cr-pagination-controls">
             <button

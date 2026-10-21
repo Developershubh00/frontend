@@ -1,4 +1,48 @@
 export const announcements = [
+  // {
+  //   title: "NEET PG 2026",
+  //   content:
+  //     "",
+  //   date: "2026-10-21",
+  //   priority: "high",
+  //   category: "NEET PG",
+  //   link: "",
+  //   source: "",
+  //   isActive: true,
+  // },
+  {
+    title: "NEET PG 2026",
+    content:
+      "The Round 1 fee payment deadline was scheduled for 21st October 2026 at 3:00 PM.",
+    date: "2026-10-21",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://mcc.nic.in/pg-medical-counselling/",
+    source: "Medical Counselling Committee (MCC)",
+    isActive: true,
+  },
+  {
+    title: "NEET PG 2026",
+    content:
+      "UP NEET PG Counselling 2026: DGME Issues Important Instructions for Round 1 Candidates",
+    date: "2026-10-21",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://upneet.gov.in/default.aspx/Images/Admin/NewandNotification.aspx?utm",
+    source: "UP NEET Counselling",
+    isActive: true,
+  },
+  {
+    title: "NEET PG 2026",
+    content:
+      "SEO Headline: Assam NEET PG Counselling 2026: Round 1 Registration Link Activated for MD, MS and Diploma Courses",
+    date: "2026-10-21",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://formsrec.in/Dmea_Assam_PG_MdMs_Diploma_ASQ_2026/",
+    source: "Government of Assam",
+    isActive: true,
+  },
   {
     title: "NEET PG 2026",
     content:
