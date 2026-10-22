@@ -38,19 +38,29 @@ const categoryOptions = [
   "ST-PwD",
 ];
 
-const quotaOptions = ["AIQ", "State", "Deemed", "DNB"];
-
+const quotaOptions = [
+  "AIQ",
+  "DNB Post MBBS",
+  "MNG",
+  "NBE Diploma",
+  "NRI",
+  "DU",
+  "IP",
+  "AFMS",
+  "AMU",
+  "BHU",
+  "JM",
+  "MM",
+  "AFMS-DNB",
+];
 const getPredictionClass = (prediction) => {
   switch (prediction) {
     case "SAFE":
       return "npg-predictor-safe";
-
     case "GOOD_CHANCE":
       return "npg-predictor-good";
-
     case "REACH":
       return "npg-predictor-reach";
-
     default:
       return "npg-predictor-unlikely";
   }
@@ -60,16 +70,33 @@ const getPredictionLabel = (prediction) => {
   switch (prediction) {
     case "SAFE":
       return "Safe";
-
     case "GOOD_CHANCE":
       return "Good Chance";
-
     case "REACH":
       return "Reach";
-
     default:
       return "Unlikely";
   }
+};
+
+const formatRank = (value) => {
+  if (value === null || value === undefined || value === "") {
+    return "N/A";
+  }
+
+  const number = Number(value);
+
+  return Number.isFinite(number) ? number.toLocaleString("en-IN") : "N/A";
+};
+
+const formatCurrency = (value) => {
+  if (value === null || value === undefined || value === "") {
+    return "N/A";
+  }
+
+  const number = Number(value);
+
+  return Number.isFinite(number) ? `₹${number.toLocaleString("en-IN")}` : "N/A";
 };
 
 function NeetpgPredictor() {
@@ -88,6 +115,10 @@ function NeetpgPredictor() {
       ...previous,
       [name]: value,
     }));
+
+    if (error) {
+      setError("");
+    }
   };
 
   const handleReset = () => {
@@ -102,17 +133,27 @@ function NeetpgPredictor() {
   const handlePredict = async (event) => {
     event.preventDefault();
 
-    if (!form.rank) {
-      setError("Please enter your NEET PG rank.");
+    const rank = Number(form.rank);
+
+    if (!form.rank || !Number.isSafeInteger(rank) || rank <= 0) {
+      setError("Please enter a valid NEET PG rank.");
+      return;
+    }
+
+    if (!form.category || !form.quota) {
+      setError("Please select your category and quota.");
       return;
     }
 
     setLoading(true);
     setError("");
+    setSummary(null);
+    setResults([]);
+    setCandidate(null);
 
     try {
       const params = {
-        rank: form.rank,
+        rank,
         category: form.category,
         quota: form.quota,
       };
@@ -132,10 +173,6 @@ function NeetpgPredictor() {
     } catch (requestError) {
       console.error("NEET PG Predictor Error:", requestError);
 
-      setResults([]);
-      setSummary(null);
-      setCandidate(null);
-
       setError(
         requestError.response?.data?.message ||
           requestError.message ||
@@ -152,23 +189,29 @@ function NeetpgPredictor() {
 
   return (
     <main className="npg-predictor-page">
+      {/* Hero */}
       <section className="npg-predictor-hero">
         <div className="npg-predictor-container">
           <div className="npg-predictor-hero-content">
+            <span className="npg-hero-eyebrow">
+              NEET PG COUNSELLING · 2025 DATA
+            </span>
+
             <h1>NEET PG College Predictor</h1>
 
             <p>
-              Enter your NEET PG rank and preferences to discover colleges where
-              you have a Safe, Good Chance, or Reach possibility based on
-              previous allotment data.
+              Discover college options based on your NEET PG rank, category, and
+              quota using historical 2025 allotment data.
             </p>
           </div>
         </div>
       </section>
 
+      {/* Main content */}
       <section className="npg-predictor-main">
         <div className="npg-predictor-container">
           <div className="npg-predictor-layout">
+            {/* Left filter panel */}
             <aside className="npg-predictor-sidebar">
               <form className="npg-predictor-form" onSubmit={handlePredict}>
                 <div className="npg-form-heading">
@@ -177,8 +220,8 @@ function NeetpgPredictor() {
                   </div>
 
                   <div>
-                    <h2>Enter your details</h2>
-                    <p>Get your college predictions</p>
+                    <h2>Predict Your College</h2>
+                    <p>Enter your counselling preferences</p>
                   </div>
                 </div>
 
@@ -195,63 +238,66 @@ function NeetpgPredictor() {
                       name="rank"
                       type="number"
                       min="1"
-                      placeholder="e.g. 12500"
+                      step="1"
+                      inputMode="numeric"
+                      placeholder="Enter your rank"
                       value={form.rank}
                       onChange={handleChange}
+                      required
                     />
                   </div>
                 </div>
 
-                <div className="npg-form-row">
-                  <div className="npg-form-group">
-                    <label htmlFor="category">
-                      Category <span>*</span>
-                    </label>
+                <div className="npg-form-group">
+                  <label htmlFor="category">
+                    Category <span>*</span>
+                  </label>
 
-                    <div className="npg-select-wrapper">
-                      <select
-                        id="category"
-                        name="category"
-                        value={form.category}
-                        onChange={handleChange}
-                      >
-                        {categoryOptions.map((item) => (
-                          <option key={item} value={item}>
-                            {item}
-                          </option>
-                        ))}
-                      </select>
+                  <div className="npg-select-wrapper">
+                    <select
+                      id="category"
+                      name="category"
+                      value={form.category}
+                      onChange={handleChange}
+                      required
+                    >
+                      {categoryOptions.map((item) => (
+                        <option key={item} value={item}>
+                          {item}
+                        </option>
+                      ))}
+                    </select>
 
-                      <ChevronDown size={17} />
-                    </div>
+                    <ChevronDown size={17} />
                   </div>
+                </div>
 
-                  <div className="npg-form-group">
-                    <label htmlFor="quota">
-                      Quota <span>*</span>
-                    </label>
+                <div className="npg-form-group">
+                  <label htmlFor="quota">
+                    Quota <span>*</span>
+                  </label>
 
-                    <div className="npg-select-wrapper">
-                      <select
-                        id="quota"
-                        name="quota"
-                        value={form.quota}
-                        onChange={handleChange}
-                      >
-                        {quotaOptions.map((item) => (
-                          <option key={item} value={item}>
-                            {item}
-                          </option>
-                        ))}
-                      </select>
+                  <div className="npg-select-wrapper">
+                    <select
+                      id="quota"
+                      name="quota"
+                      value={form.quota}
+                      onChange={handleChange}
+                      required
+                    >
+                      {quotaOptions.map((item) => (
+                        <option key={item} value={item}>
+                          {item}
+                        </option>
+                      ))}
+                    </select>
 
-                      <ChevronDown size={17} />
-                    </div>
+                    <ChevronDown size={17} />
                   </div>
                 </div>
 
                 {error && (
-                  <div className="npg-error">
+                  <div className="npg-error" role="alert">
                     <AlertCircle size={18} />
                     <span>{error}</span>
                   </div>
@@ -279,13 +325,24 @@ function NeetpgPredictor() {
                   className="npg-reset-button"
                   type="button"
                   onClick={handleReset}
+                  disabled={loading}
                 >
                   <RotateCcw size={16} />
-                  Reset
+                  Reset Filters
                 </button>
+
+                <div className="npg-form-note">
+                  <ShieldCheck size={16} />
+
+                  <span>
+                    Predictions are based on historical allotment data and are
+                    not a guarantee of admission.
+                  </span>
+                </div>
               </form>
             </aside>
 
+            {/* Right results panel */}
             <div className="npg-predictor-results">
               {!summary && !loading && (
                 <div className="npg-empty-state">
@@ -293,22 +350,22 @@ function NeetpgPredictor() {
                     <GraduationCap size={42} />
                   </div>
 
-                  <h2>Find your best college options</h2>
+                  <h2>Find Your Best College Options</h2>
 
                   <p>
-                    Enter your NEET PG rank, category and quota to see colleges
-                    you may be eligible for.
+                    Enter your NEET PG rank, category, and quota to explore
+                    matching colleges based on 2025 data.
                   </p>
 
                   <div className="npg-empty-points">
                     <div>
                       <ShieldCheck size={18} />
-                      <span>Safe colleges</span>
+                      <span>Safe options</span>
                     </div>
 
                     <div>
                       <Target size={18} />
-                      <span>Good chance colleges</span>
+                      <span>Good chance options</span>
                     </div>
 
                     <div>
@@ -323,7 +380,7 @@ function NeetpgPredictor() {
                 <div className="npg-loading-state">
                   <LoaderCircle size={42} className="npg-loading-icon" />
 
-                  <h2>Analyzing allotment data</h2>
+                  <h2>Analyzing Allotment Data</h2>
 
                   <p>Finding colleges based on your rank and preferences...</p>
                 </div>
@@ -331,25 +388,25 @@ function NeetpgPredictor() {
 
               {summary && !loading && (
                 <>
+                  {/* Candidate details */}
                   <div className="npg-candidate-bar">
                     <div>
                       <span>Your NEET PG Rank</span>
-                      <strong>
-                        {candidate?.rank?.toLocaleString("en-IN")}
-                      </strong>
+                      <strong>{formatRank(candidate?.rank)}</strong>
                     </div>
 
                     <div>
                       <span>Category</span>
-                      <strong>{candidate?.category}</strong>
+                      <strong>{candidate?.category || "N/A"}</strong>
                     </div>
 
                     <div>
                       <span>Quota</span>
-                      <strong>{candidate?.quota}</strong>
+                      <strong>{candidate?.quota || "N/A"}</strong>
                     </div>
                   </div>
 
+                  {/* Summary cards */}
                   <div className="npg-summary-grid">
                     <div className="npg-summary-card npg-summary-total">
                       <div className="npg-summary-icon">
@@ -358,7 +415,7 @@ function NeetpgPredictor() {
 
                       <div>
                         <span>Total Matches</span>
-                        <strong>{summary.total}</strong>
+                        <strong>{summary.total ?? 0}</strong>
                       </div>
                     </div>
 
@@ -369,7 +426,7 @@ function NeetpgPredictor() {
 
                       <div>
                         <span>Safe</span>
-                        <strong>{summary.safe}</strong>
+                        <strong>{summary.safe ?? 0}</strong>
                       </div>
                     </div>
 
@@ -380,7 +437,7 @@ function NeetpgPredictor() {
 
                       <div>
                         <span>Good Chance</span>
-                        <strong>{summary.good_chance}</strong>
+                        <strong>{summary.good_chance ?? 0}</strong>
                       </div>
                     </div>
 
@@ -391,11 +448,12 @@ function NeetpgPredictor() {
 
                       <div>
                         <span>Reach</span>
-                        <strong>{summary.reach}</strong>
+                        <strong>{summary.reach ?? 0}</strong>
                       </div>
                     </div>
                   </div>
 
+                  {/* Results heading */}
                   <div className="npg-results-heading">
                     <div>
                       <h2>College Predictions</h2>
@@ -423,8 +481,12 @@ function NeetpgPredictor() {
                   {results.length === 0 ? (
                     <div className="npg-no-results">
                       <AlertCircle size={32} />
-                      <h3>No colleges found</h3>
-                      <p>Try changing your category or quota.</p>
+                      <h3>No Colleges Found</h3>
+
+                      <p>
+                        No matching colleges were found for these preferences.
+                        Try another category or quota.
+                      </p>
                     </div>
                   ) : (
                     <div className="npg-results-list">
@@ -434,7 +496,14 @@ function NeetpgPredictor() {
                         return (
                           <article
                             className="npg-college-card"
-                            key={`${college.institute}-${college.course}-${index}`}
+                            key={[
+                              college.institute,
+                              college.course,
+                              college.state,
+                              college.quota,
+                              college.category,
+                              index,
+                            ].join("-")}
                           >
                             <div className="npg-college-main">
                               <div className="npg-college-number">
@@ -479,63 +548,61 @@ function NeetpgPredictor() {
                                     </div>
                                   </div>
 
-                                  <div className="npg-score">
-                                    <strong>{college.score}</strong>
+                                  <div
+                                    className="npg-score"
+                                    title="Prediction score, not an admission probability"
+                                  >
+                                    <strong>{college.score ?? "N/A"}</strong>
                                     <span>Score</span>
                                   </div>
                                 </div>
 
+                                {/* Rank details */}
                                 <div className="npg-rank-grid">
                                   <div>
                                     <span>Opening Rank</span>
                                     <strong>
-                                      {Number(
-                                        college.rounds?.[0]?.opening_rank || 0,
-                                      ).toLocaleString("en-IN")}
+                                      {formatRank(
+                                        college.rounds?.[0]?.opening_rank,
+                                      )}
                                     </strong>
                                   </div>
 
                                   <div>
                                     <span>Best Closing Rank</span>
                                     <strong>
-                                      {Number(
-                                        college.best_closing_rank || 0,
-                                      ).toLocaleString("en-IN")}
+                                      {formatRank(college.best_closing_rank)}
                                     </strong>
                                   </div>
 
                                   <div>
                                     <span>Latest Closing</span>
                                     <strong>
-                                      {Number(
-                                        college.latest_closing_rank || 0,
-                                      ).toLocaleString("en-IN")}
+                                      {formatRank(college.latest_closing_rank)}
                                     </strong>
                                   </div>
 
                                   <div>
                                     <span>Latest Round</span>
                                     <strong>
-                                      Round {college.latest_round}
+                                      {college.latest_round != null
+                                        ? `Round ${college.latest_round}`
+                                        : "N/A"}
                                     </strong>
                                   </div>
                                 </div>
 
+                                {/* Fees and cutoff history */}
                                 <div className="npg-college-footer">
                                   <div className="npg-info-items">
                                     <span>
                                       <IndianRupee size={15} />
-                                      Fee:{" "}
-                                      {college.fee
-                                        ? `₹${Number(
-                                            college.fee,
-                                          ).toLocaleString("en-IN")}`
-                                        : "N/A"}
+                                      Fee: {formatCurrency(college.fee)}
                                     </span>
 
                                     <span>
                                       <BedDouble size={15} />
-                                      Beds: {college.beds || "N/A"}
+                                      Beds: {college.beds ?? "N/A"}
                                     </span>
 
                                     <span>
@@ -546,6 +613,7 @@ function NeetpgPredictor() {
                                   <button
                                     type="button"
                                     className="npg-details-button"
+                                    aria-expanded={isExpanded}
                                     onClick={() => toggleCollege(index)}
                                   >
                                     {isExpanded
@@ -562,12 +630,15 @@ function NeetpgPredictor() {
                               </div>
                             </div>
 
+                            {/* Expandable details */}
                             {isExpanded && (
                               <div className="npg-round-history">
                                 <div className="npg-round-heading">
                                   <div>
                                     <h4>Round-wise Cutoff</h4>
-                                    <p>Historical allotment data</p>
+                                    <p>
+                                      Historical NEET PG 2025 allotment data
+                                    </p>
                                   </div>
 
                                   <span>
@@ -575,57 +646,53 @@ function NeetpgPredictor() {
                                   </span>
                                 </div>
 
-                                <div className="npg-round-table-wrapper">
-                                  <table>
-                                    <thead>
-                                      <tr>
-                                        <th>Round</th>
-                                        <th>Opening Rank</th>
-                                        <th>Closing Rank</th>
-                                      </tr>
-                                    </thead>
-
-                                    <tbody>
-                                      {college.rounds?.map((round) => (
-                                        <tr key={round.round}>
-                                          <td>Round {round.round}</td>
-
-                                          <td>
-                                            {Number(
-                                              round.opening_rank,
-                                            ).toLocaleString("en-IN")}
-                                          </td>
-
-                                          <td>
-                                            {Number(
-                                              round.closing_rank,
-                                            ).toLocaleString("en-IN")}
-                                          </td>
+                                {college.rounds?.length ? (
+                                  <div className="npg-round-table-wrapper">
+                                    <table>
+                                      <thead>
+                                        <tr>
+                                          <th>Round</th>
+                                          <th>Opening Rank</th>
+                                          <th>Closing Rank</th>
                                         </tr>
-                                      ))}
-                                    </tbody>
-                                  </table>
-                                </div>
+                                      </thead>
+
+                                      <tbody>
+                                        {college.rounds.map((round) => (
+                                          <tr key={round.round}>
+                                            <td>Round {round.round}</td>
+                                            <td>
+                                              {formatRank(round.opening_rank)}
+                                            </td>
+                                            <td>
+                                              {formatRank(round.closing_rank)}
+                                            </td>
+                                          </tr>
+                                        ))}
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                ) : (
+                                  <p className="npg-history-empty">
+                                    No round-wise cutoff history is available.
+                                  </p>
+                                )}
 
                                 <div className="npg-extra-details">
                                   <div>
                                     <span>Category</span>
-                                    <strong>{college.category}</strong>
+                                    <strong>{college.category || "N/A"}</strong>
                                   </div>
 
                                   <div>
                                     <span>Quota</span>
-                                    <strong>{college.quota}</strong>
+                                    <strong>{college.quota || "N/A"}</strong>
                                   </div>
 
                                   <div>
                                     <span>Stipend</span>
                                     <strong>
-                                      {college.stipend
-                                        ? `₹${Number(
-                                            college.stipend,
-                                          ).toLocaleString("en-IN")}`
-                                        : "N/A"}
+                                      {formatCurrency(college.stipend)}
                                     </strong>
                                   </div>
 
@@ -643,6 +710,12 @@ function NeetpgPredictor() {
                       })}
                     </div>
                   )}
+
+                  <p className="npg-disclaimer">
+                    Predictions are estimates based on available NEET PG 2025
+                    allotment data. Actual cutoffs and admission outcomes may
+                    differ by counselling round and seat availability.
+                  </p>
                 </>
               )}
             </div>
