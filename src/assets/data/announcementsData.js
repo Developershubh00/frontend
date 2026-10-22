@@ -1,15 +1,15 @@
 export const announcements = [
-  // {
-  //   title: "NEET PG 2026",
-  //   content:
-  //     "",
-  //   date: "2026-10-21",
-  //   priority: "high",
-  //   category: "NEET PG",
-  //   link: "",
-  //   source: "",
-  //   isActive: true,
-  // },
+  {
+    title: "FMGE October 2026",
+    content:
+      "FMGE October 2026: Extension of the last date to submit Deficient Documents & Images in Application",
+    date: "2026-10-22",
+    priority: "high",
+    category: "FMGE",
+    link: "https://natboard.edu.in/viewNotice.php?NBE=T253Y0J6RGVIZ1NvMm9OeFJ4bFNEQT09",
+    source: "National Board Of Examinations In Medical Sciences",
+    isActive: true,
+  },
   {
     title: "NEET PG 2026",
     content:
