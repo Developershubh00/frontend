@@ -4,12 +4,10 @@ import {
   GraduationCap,
   BookOpen,
   Stethoscope,
-  ShieldCheck,
-  Menu,
-  X,
   ChevronLeft,
   ChevronRight,
 } from "lucide-react";
+
 import "./DashboardLayout.css";
 import Navbar from "../components/common/Navbar";
 import Footer from "../components/common/Footer";
@@ -33,16 +31,14 @@ function DashboardLayout() {
           }`}
           onClick={() => setSidebarOpen((prev) => !prev)}
           aria-label="Toggle sidebar"
+          aria-expanded={sidebarOpen}
         >
           {sidebarOpen ? <ChevronLeft size={24} /> : <ChevronRight size={24} />}
         </button>
 
         {/* Overlay */}
         {sidebarOpen && (
-          <div
-            className="dashboard-sidebar-overlay"
-            onClick={closeSidebar}
-          ></div>
+          <div className="dashboard-sidebar-overlay" onClick={closeSidebar} />
         )}
 
         {/* Sidebar */}
@@ -51,25 +47,71 @@ function DashboardLayout() {
         >
           <h2>Dashboard</h2>
 
-          <NavLink to="/dashboard/neet-pg" onClick={closeSidebar}>
-            <Stethoscope size={18} />
-            NEET PG
-          </NavLink>
+          {/* NEET PG */}
+          <div className="sidebar-menu-group">
+            <NavLink
+              to="/dashboard/neet-pg"
+              onClick={closeSidebar}
+              className="sidebar-exam-link"
+            >
+              <Stethoscope size={20} />
+              <span>NEET PG</span>
+            </NavLink>
 
-          <NavLink to="/dashboard/neet-ug" onClick={closeSidebar}>
-            <GraduationCap size={18} />
-            NEET UG
-          </NavLink>
+            <div className="sidebar-submenu">
+              <NavLink
+                to="/dashboard/neetpg-allotments-2025"
+                onClick={closeSidebar}
+                className="sidebar-submenu-link"
+              >
+                All India Allotments 2025
+              </NavLink>
+            </div>
+          </div>
 
-          <NavLink to="/dashboard/inicet" onClick={closeSidebar}>
-            <BookOpen size={18} />
-            INI-CET
-          </NavLink>
+          {/* NEET UG */}
+          <div className="sidebar-menu-group">
+            <NavLink
+              to="/dashboard/neet-ug"
+              onClick={closeSidebar}
+              className="sidebar-exam-link"
+            >
+              <GraduationCap size={20} />
+              <span>NEET UG</span>
+            </NavLink>
 
-          {/* <NavLink to="/dashboard/neet-ss" onClick={closeSidebar}>
-            <ShieldCheck size={18} />
-            NEET SS
-          </NavLink> */}
+            <div className="sidebar-submenu">
+              <NavLink
+                to="/dashboard/neetug-allotments-2025"
+                onClick={closeSidebar}
+                className="sidebar-submenu-link"
+              >
+                All India Allotments 2025
+              </NavLink>
+            </div>
+          </div>
+
+          {/* INI-CET */}
+          <div className="sidebar-menu-group">
+            <NavLink
+              to="/dashboard/inicet"
+              onClick={closeSidebar}
+              className="sidebar-exam-link"
+            >
+              <BookOpen size={20} />
+              <span>INI-CET</span>
+            </NavLink>
+
+            <div className="sidebar-submenu">
+              <NavLink
+                to="/dashboard/inicet-allotments-july-2026"
+                onClick={closeSidebar}
+                className="sidebar-submenu-link"
+              >
+                All India Allotments July 2026
+              </NavLink>
+            </div>
+          </div>
         </aside>
 
         {/* Main Content */}
