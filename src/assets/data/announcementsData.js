@@ -1,5 +1,15 @@
 export const announcements = [
   {
+    title: "NRI List Of Eligible Candidates",
+    content: "NRI LIST OF ELIGIBLE CANDIDATES FOR PG ROUND - 1 (2026-27)",
+    date: "2026-10-23",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/20261021538234864.pdf",
+    source: "National Board Of Examinations In Medical Sciences",
+    isActive: true,
+  },
+  {
     title: "FMGE October 2026",
     content:
       "FMGE October 2026: Extension of the last date to submit Deficient Documents & Images in Application",
