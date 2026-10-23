@@ -1,5 +1,294 @@
 const blogData = [
   {
+    id: "dnb-family-medicine-closing-air-state-wise-previous-year-data-for-rounds-1-2-and-3",
+    blogDate: "October 23, 2026",
+    image:
+      "https://cdn.dribbble.com/userupload/49409293/file/83c9d96745f6c4b0a17ef6a61aa360eb.jpg",
+    alt: "dnb family medicine closing rank",
+    metaTitle: "DNB Family Medicine Closing AIR: State-Wise Cutoff",
+    metaDesc:
+      "Explore DNB Family Medicine closing AIR by state, with previous-year Round 1, 2 and 3 cutoff data to help shortlist hospitals for NEET PG counselling.",
+    blogTitle:
+      "DNB Family Medicine Closing AIR: State-Wise Previous-Year Data for Rounds 1, 2 and 3",
+    author: "Believers Team",
+    category: "Others",
+    keywords: [
+      "dnb family medicine closing rank",
+      "dnb family medicine cutoff",
+      "dnb family medicine",
+      "family medicine",
+      "dnb family medicine course",
+      "dnb family medicine seats",
+      "neet pg counselling",
+      "state wise seat distribution",
+    ],
+
+    para: `<p>It’s much easier to plan for <b>DNB Family Medicine</b> counselling once you’ve seen how seats went in earlier years. State-wise closing AIR data lets you compare hospitals, see the rank ranges and pick out options worth a closer look.</p>
+
+<p>This guide has previous-year counselling data for 58 hospitals across 18 states, with trends from Rounds 1, 2 and 3. Treat it as a reference while you plan your choices. It doesn’t guarantee you a seat.</p>
+
+<h4>How to Use DNB Family Medicine Closing AIR Data</h4>
+
+<p>Once you have your NEET PG All India Rank (AIR), do this:</p>
+
+<li>Find your AIR: Have your rank ready before you start reading the data.</li>
+
+<li>Check your state’s range: Look at the closing AIRs for the states you prefer.</li>
+
+<li>Compare Rounds 1, 2 and 3: See how the allotment ranks moved from round to round.</li>
+
+<li>Shortlist hospitals: Pick out the institutions that fit your rank and preferences.</li>
+
+<p>Keep in mind that last year’s closing AIRs are only a guide. Cut-offs and seat availability change every year.</p>
+
+<h4>What Does Closing AIR Mean in DNB Family Medicine?</h4>
+
+<p>Closing AIR is the highest Open/Unreserved (UR) All India Rank at which a <b>DNB Family Medicine</b> seat was allotted, in the previous-year counselling data covered here.</p>
+
+<h4>Data Sources and Coverage</h4>
+
+<li>MCC AIQ counselling: Round 1 and Round 2</li>
+
+<li>DNB counselling: Round 3</li>
+
+<li>Category covered: Open/UR only</li>
+
+<li>Coverage: 58 hospitals across 18 states</li>
+
+<p>Reserved-category data hasn’t been mixed in with the Open/UR figures. This is historical data, and it doesn’t predict future allotments.</p>
+
+<h4>State-Wise DNB Family Medicine Closing AIR</h4>
+
+<h4>1. Kerala — 12 Hospitals</h4>
+
+<p>Kerala has the most <b>DNB Family Medicine</b> options in this dataset, with 12 hospitals.</p>
+
+<p>Some of the hospitals listed:</p>
+
+<li>Malabar</li>
+
+<li>IQRAA</li>
+
+<li>Lourdes</li>
+
+<li>Lakeshore</li>
+
+<li>KIMS</li>
+
+<li>MGM Muthoot</li>
+
+<p>Highest observed AIR: 35,596 at MGM Muthoot.</p>
+
+<p>With this many hospitals, Kerala is a good state to look at when you’re building your shortlist.</p>
+
+<h4>2. Maharashtra — 8 Hospitals</h4>
+
+<p>The hospitals in the Maharashtra data:</p>
+
+<li>Jehangir</li>
+
+<li>Kokila Ben</li>
+
+<li>Holy Spirit</li>
+
+<li>Aditya Birla</li>
+
+<li>Sahyadri</li>
+
+<li>Kamalnayan Bajaj</li>
+
+<li>Masina</li>
+
+<p>Highest observed AIR: 36,293 at Masina.</p>
+
+<p>Compare the figures for each hospital and the trends across rounds before you decide which ones go on your list.</p>
+
+<h4>3. Tamil Nadu — 9 Hospitals</h4>
+
+<p>The hospitals listed in Tamil Nadu:</p>
+
+<li>Christian Fellowship</li>
+
+<li>Apollo</li>
+
+<li>SKS</li>
+
+<li>Meenakshi Mission</li>
+
+<li>K.G.</li>
+
+<li>Kamakshi</li>
+
+<li>CSI Kalyani</li>
+
+<p>Highest observed AIR: 40,956 at CSI Kalyani.</p>
+
+<p>Tamil Nadu’s data suggests that later rounds can open up options at ranks beyond what you saw in Round 1.</p>
+
+<h4>4. Delhi — 6 Hospitals</h4>
+
+<p>The Delhi data includes:</p>
+
+<li>Sir Ganga Ram</li>
+
+<li>Ambedkar</li>
+
+<li>St. Stephen’s</li>
+
+<li>Max</li>
+
+<li>Maharaja Agrasen</li>
+
+<li>Jaipur Golden</li>
+
+<p>Highest observed AIR: 37,214 at Jaipur Golden.</p>
+
+<p>Look at each hospital’s own numbers. The overall range for the state doesn’t tell you enough.</p>
+
+<h4>5. Karnataka — 6 Hospitals</h4>
+
+<p>The hospitals listed in Karnataka:</p>
+
+<li>Bangalore Baptist</li>
+
+<li>St. Philomena’s</li>
+
+<li>Narayana</li>
+
+<li>KLE</li>
+
+<li>Sparsh</li>
+
+<li>Vasavi</li>
+
+<p>Highest observed AIR: 38,240 at Vasavi.</p>
+
+<p>The hospital-wise figures let you compare options across the state against your own rank and preferences.</p>
+
+<h4>6. Andhra Pradesh</h4>
+
+<p>The data lists:</p>
+
+<li>Sri Sathya Sai — 34,828</li>
+
+<li>RDT — 38,622</li>
+
+<p>That gives you a starting point for the options in this dataset.</p>
+
+<h4>7. Other States</h4>
+
+<p>For several other states, the dataset has little information, mostly one hospital per state.</p>
+
+<table style="width:100%;border-collapse:collapse;margin:16px 0;">
+<thead>
+<tr>
+<th style="border:1px solid #D1D5DB;background-color:#F3F4F6;padding:10px 12px;text-align:left;">State</th>
+<th style="border:1px solid #D1D5DB;background-color:#F3F4F6;padding:10px 12px;text-align:left;">Highest AIR observed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">Telangana</td>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">27,499</td>
+</tr>
+<tr>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">Bihar</td>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">29,303</td>
+</tr>
+<tr>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">Puducherry</td>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">32,815</td>
+</tr>
+<tr>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">Jammu &amp; Kashmir</td>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">33,117</td>
+</tr>
+<tr>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">Uttar Pradesh</td>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">36,836</td>
+</tr>
+<tr>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">Madhya Pradesh</td>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">37,071</td>
+</tr>
+<tr>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">Odisha</td>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">41,486</td>
+</tr>
+<tr>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">Jharkhand</td>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">42,960</td>
+</tr>
+<tr>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">Punjab</td>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">43,701</td>
+</tr>
+<tr>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">Assam</td>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">43,738</td>
+</tr>
+<tr>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">Nagaland</td>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">45,182</td>
+</tr>
+</tbody>
+</table>
+
+<p>These are the highest AIRs in the historical data we have. Don’t read them as ranks that will get you admission in the next cycle.</p>
+
+<h4>Why You Should Compare Rounds 1, 2 and 3</h4>
+
+<p>Round 1 doesn’t show you everything that can open up during counselling. As seats get allotted and candidates make their decisions, the closing AIR can shift in the later rounds.</p>
+
+<p>The data shows these changes between Round 1 and Round 3:</p>
+
+<li>Nagaland: 34,413 to 45,182</li>
+
+<li>Punjab: 32,810 to 43,701</li>
+
+<li>Assam: 33,027 to 43,738</li>
+
+<li>Tamil Nadu: 31,814 to 40,956</li>
+
+<p>Moves like these are why you shouldn’t judge your options by Round 1 alone, and why the later-round data is worth a look.</p>
+
+<p>They only reflect last year’s counselling, though. They don’t tell you how ranks will move this year.</p>
+
+<h4>How to Build Your DNB Family Medicine Hospital Shortlist</h4>
+
+<p>Treat the closing AIR data as one input among several.</p>
+
+<li>Start with your AIR and find the states worth exploring.</li>
+
+<li>Compare each hospital’s closing ranks across all the rounds you have.</li>
+
+<li>Check this year’s seat matrix and eligibility requirements.</li>
+
+<li>Think about the hospital itself, the location, the fees and anything else that matters to you.</li>
+
+<li>Keep a balanced list. Don’t rely on a single hospital or on last year’s cut-off.</li>
+
+<p>A longer shortlist can show you more possibilities, but check every option against this year’s counselling rules and the seats that are actually available.</p>
+
+<h4>Frequently Asked Questions</h4>
+
+<p><b>Q: What is the closing AIR for <b>DNB Family Medicine</b>?</b><br/>It’s the highest Open/UR AIR at which a seat was allotted in the previous-year counselling data given here.</p>
+
+<p><b>Q: How many hospitals are covered in this dataset?</b><br/>58 hospitals across 18 states.</p>
+
+<p><b>Q: Which state has the most <b>DNB Family Medicine</b> hospital options in this dataset?</b><br/>Kerala, with 12 hospitals.</p>
+
+<p><b>Q: Can I use previous-year closing AIR to guarantee admission?</b><br/>No. Closing AIRs are historical references, and this year’s allotments may be different.</p>
+
+<p><b>Q: Should I consider Round 3 data while shortlisting hospitals?</b><br/>Yes. Later-round data shows how ranks moved and surfaces options that weren’t visible earlier.</p>
+
+<h4>Conclusion</h4>
+
+<p>Closing AIR data helps you see how allotments went in earlier years, compare states and shortlist hospitals in a more organised way. Read the Round 1, 2 and 3 figures together, and remember that past trends don’t guarantee what happens next.</p>
+
+<p>Your AIR is where you start. The more you know about your options, the better your counselling strategy will be.</p>`,
+  },
+  {
     id: "the-future-of-medicine-why-doctors-need-to-understand-wearable-health-data",
     blogDate: "October 21, 2026",
     image:
