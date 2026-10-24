@@ -305,19 +305,11 @@ function InicetDashboardHero() {
       </div>
 
       <div className="inid-hero-content">
-        <p className="inid-hero-eyebrow">INI-CET COUNSELING</p>
-
-        <h1 className="inid-hero-title">
-          <span className="inid-hero-title-line">Your admission vitals,</span>
-
-          <span className="inid-hero-title-line inid-hero-title-accent">
-            tracked live.
-          </span>
-        </h1>
+        <h1 className="inid-hero-title">INI-CET COUNSELING</h1>
 
         <p className="inid-hero-subtitle">
-          Allotments, closing ranks, seat matrix and cost of study — pick a
-          card, choose a round, see the numbers.
+          Allotments and closing ranks — pick a card, choose a year, see the
+          numbers.
         </p>
 
         <div className="inid-hero-cards">

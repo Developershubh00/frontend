@@ -1,5 +1,82 @@
 export const announcements = [
   {
+    title: "Punjab - PG Medical",
+    content: "Round 1 Choice Filling Link is Active",
+    date: "2026-10-24",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://bfuhs.smartpad.in/Registration/Default.aspx",
+    source: "Baba Farid University Of Health Sciences, Faridkot",
+    isActive: true,
+  },
+  {
+    title: "Andhra Pradesh Management Quota - PG Medical",
+    content:
+      "Online Application With Late Fee Ends Today 24.10.2026 (10.00 PM)",
+    date: "2026-10-24",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://apuhs-pgadmissions.aptonline.in/PGMedMQ/Home/Home",
+    source: "Dr. N.T.R. University Of Health Sciences",
+    isActive: true,
+  },
+  {
+    title: "Madhya Pradesh - PG Medical",
+    content:
+      "Round 1 Choice Filling & Locking Starts Today 24.10.2026 & Ends on 27.10.2026, 12 Midnight",
+    date: "2026-10-24",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://dme.mponline.gov.in/portal/services/dmemp/DMEPG/Profile/ProfileLoginHome.aspx?Counstype=rfZR9zLVYzySY17sU9L9gA%3D%3D",
+    source: "Government of Madhya Pradesh",
+    isActive: true,
+  },
+  {
+    title: "Maharashtra - PG Medical",
+    content:
+      "Round 1 Payment of Registration Fees and Security Deposit Ends Today 24.10.2026, 5.00 PM Round 1 Uploading of scanned copy of all Original Requisite Documents Ends Today 24.10.2026, 11.59 PM",
+    date: "2026-10-24",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://neetmdmsadmission.com/maharashtra-neet-pg-counselling/",
+    source: "Maharashtra NEET PG Counselling",
+    isActive: true,
+  },
+  {
+    title: "All India Counselling - PG Medical ",
+    content:
+      "Result Pdf Corrected For A Printing Error. No Change In The Result.",
+    date: "2026-10-24",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://drive.google.com/file/d/1EwWEcIZYcIBjVmHBAcyDVLO4tFsKA9qS/view",
+    source: "Medical Counselling Committee (MCC)",
+    isActive: true,
+  },
+  {
+    title: "Kerala - PG Medical",
+    content:
+      "Online Application (Extended) Ends Today 24.10.2026 (11.00 AM) Provision For Verification of Profile Details (Extended) Ends Today 24.10.2026 (11.00 AM)",
+    date: "2026-10-24",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://cee.kerala.gov.in/cee/index.php",
+    source: "Office of the Commissioner for Entrance Examinations",
+    isActive: true,
+  },
+  {
+    title: "Gujarat - PG Medical",
+    content:
+      "Round 1 Merit List Objections, Visit your Document Verification Help Centre with Filled Correction Form & Supporting Documents Ends 24.10.2026 (12 pm)",
+    date: "2026-10-24",
+    priority: "high",
+    category: "NEET PG",
+    link: "https://medadmgujarat.ncode.in/PG/index.aspx",
+    source:
+      "Admission Committee for Professional Post Graduate Medical Educational Courses (ACPPGMEC)",
+    isActive: true,
+  },
+  {
     title: "Uttar Pradesh - PG Medical",
     content:
       "UP PG Medical: Candidates Debarred from NEET PG 2026-27 Counselling, List Released",

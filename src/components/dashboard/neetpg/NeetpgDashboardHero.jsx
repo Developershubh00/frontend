@@ -321,16 +321,11 @@ function NeetpgDashboardHero() {
       </div>
 
       <div className="npgd-hero-content">
-        <p className="npgd-hero-eyebrow">NEET&nbsp;PG COUNSELING</p>
-        <h1 className="npgd-hero-title">
-          <span className="npgd-hero-title-line">Your admission vitals,</span>
-          <span className="npgd-hero-title-line npgd-hero-title-accent">
-            tracked live.
-          </span>
-        </h1>
+        <h1 className="npgd-hero-title">NEET&nbsp;PG COUNSELING</h1>
+
         <p className="npgd-hero-subtitle">
-          Allotments, closing ranks, seat matrix and cost of study — pick a
-          card, choose a year, see the numbers.
+          Allotments, closing ranks, seat matrix and Fee, Stipend & Bond — pick
+          a card, choose a year, see the numbers.
         </p>
 
         <NavLink

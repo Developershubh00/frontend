@@ -311,16 +311,11 @@ function NeetugDashboardHero() {
       </div>
 
       <div className="nugd-hero-content">
-        <p className="nugd-hero-eyebrow">NEET&nbsp;UG COUNSELING</p>
-        <h1 className="nugd-hero-title">
-          <span className="nugd-hero-title-line">Your admission vitals,</span>
-          <span className="nugd-hero-title-line nugd-hero-title-accent">
-            tracked live.
-          </span>
-        </h1>
+        <h1 className="nugd-hero-title">NEET&nbsp;UG COUNSELING</h1>
+
         <p className="nugd-hero-subtitle">
-          Allotments, closing ranks, seat matrix and cost of study — pick a
-          card, choose a year, see the numbers.
+          Allotments, closing ranks, seat matrix and Fee, Stipend & Bond — pick
+          a card, choose a year, see the numbers.
         </p>
 
         <div className="nugd-hero-cards">

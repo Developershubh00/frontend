@@ -70,37 +70,17 @@
   text-align: center;
 }
 
-.npgd-hero-eyebrow {
+.npgd-hero-title {
   display: inline-block;
   margin: 0 0 18px;
   padding: 6px 14px;
-  font-size: 12px;
+  font-size: 24px;
   font-weight: 600;
   letter-spacing: 0.14em;
   color: #032c7b;
   background: #f3ecfe;
   border: 1px solid #e4d4fd;
   border-radius: 999px;
-}
-
-.npgd-hero-title {
-  font-size: 38px;
-  line-height: 1.15;
-  font-weight: 700;
-  color: #032c7b;
-  letter-spacing: -0.01em;
-  margin-bottom: 18px;
-}
-
-.npgd-hero-title-line {
-  display: block;
-}
-
-.npgd-hero-title-accent {
-  background: linear-gradient(90deg, #0464de, #032c7b);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
 }
 
 .npgd-hero-subtitle {
@@ -433,10 +413,6 @@
     padding: 60px 16px;
   }
 
-  .npgd-hero-title {
-    font-size: 32px;
-  }
-
   .npgd-hero-modal-title {
     font-size: 24px;
   }
@@ -451,6 +427,10 @@
 }
 
 @media (max-width: 568px) {
+  .npgd-hero-title {
+    font-size: 22px;
+  }
+
   .npgd-hero-cards {
     grid-template-columns: 1fr;
   }
