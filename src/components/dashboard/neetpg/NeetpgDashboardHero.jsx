@@ -335,7 +335,7 @@ function NeetpgDashboardHero() {
 
         <NavLink
           className="npgd-hero-data"
-          to="https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610231277301968.pdf"
+          to="https://drive.google.com/file/d/1Rt-VnrIn_zU14fl10IwZp5KHH1QF-R9X/view"
           target="_blank"
           rel="noopener noreferrer"
         >
