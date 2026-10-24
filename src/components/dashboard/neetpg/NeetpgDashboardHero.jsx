@@ -9,6 +9,7 @@ import {
   FiArrowRight,
   FiX,
 } from "react-icons/fi";
+import { NavLink } from "react-router-dom";
 
 const NEW_BADGE_DAYS = 20;
 
@@ -169,6 +170,7 @@ function NeetpgDashboardHero() {
           { opacity: 0, y: 16, duration: 0.6 },
           "-=0.4",
         )
+        .from(".npgd-hero-data", { opacity: 0, y: 16, duration: 0.6 }, "-=0.4")
         .from(
           cardsRef.current,
           {
@@ -330,6 +332,16 @@ function NeetpgDashboardHero() {
           Allotments, closing ranks, seat matrix and cost of study — pick a
           card, choose a year, see the numbers.
         </p>
+
+        <NavLink
+          className="npgd-hero-data"
+          to="https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610231277301968.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Provisional NEET-PG Counselling Seats Allotment -2026 Round- 1
+          <span className="npgd-new-badge">NEW</span>
+        </NavLink>
 
         <div className="npgd-hero-cards">
           {CARDS.map((card, i) => (
