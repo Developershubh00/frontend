@@ -330,11 +330,11 @@ function NeetpgDashboardHero() {
 
         <NavLink
           className="npgd-hero-data"
-          to="https://drive.google.com/file/d/1Rt-VnrIn_zU14fl10IwZp5KHH1QF-R9X/view"
+          to="https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610241746468472.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Provisional NEET-PG Counselling Seats Allotment -2026 Round- 1
+          NEET-PG Counselling Seats Allotment -2026 Round- 1
           <span className="npgd-new-badge">NEW</span>
         </NavLink>
 

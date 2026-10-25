@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import "./HeroSection.css";
+import { NavLink } from "react-router-dom";
 
 const HeroSection = () => {
   const heroRef = useRef(null);
@@ -115,12 +116,15 @@ const HeroSection = () => {
         </div>
 
         <div className="hero-result">
-          <a
-            href="https://publuu.com/flip-book/1184941/2636009/page/12"
+          <NavLink
+            className="hero-result-text"
+            to="https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610241746468472.pdf"
             target="_blank"
+            rel="noopener noreferrer"
           >
-            Check Your NEET PG Result
-          </a>
+            NEET-PG Counselling Seats Allotment -2026 Round- 1
+            <span className="hero-new-badge">NEW</span>
+          </NavLink>
         </div>
 
         <div className="hero-college">
