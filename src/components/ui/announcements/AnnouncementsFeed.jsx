@@ -5,16 +5,12 @@ import React, {
   useRef,
   useState,
 } from "react";
-import {
-  Search,
-  ExternalLink,
-  X,
-  ChevronDown,
-  ArrowUpRight,
-} from "lucide-react";
+import { Search, ChevronDown, ArrowUpRight } from "lucide-react";
 import { gsap } from "gsap";
 import { announcements } from "../../../assets/data/announcementsData";
 import "./AnnouncementsFeed.css";
+
+const ALL_INDIA = "All India";
 
 const formatDate = (dateString) =>
   new Date(dateString).toLocaleDateString("en-IN", {
@@ -33,6 +29,15 @@ const buildCategoryOptions = (items) => {
   return Array.from(map.entries()).map(([key, label]) => ({ key, label }));
 };
 
+/* "All India" first, then states A-Z (only those present in data) */
+const buildStateOptions = (items) => {
+  const set = new Set(items.map((i) => i.state || ALL_INDIA));
+  const states = Array.from(set)
+    .filter((s) => s !== ALL_INDIA)
+    .sort((a, b) => a.localeCompare(b));
+  return set.has(ALL_INDIA) ? [ALL_INDIA, ...states] : states;
+};
+
 const groupByYearMonth = (items) => {
   const years = new Map();
   items.forEach((item) => {
@@ -48,23 +53,97 @@ const groupByYearMonth = (items) => {
   return years;
 };
 
+const FilterSelect = ({ value, onChange, options, placeholder, ariaLabel }) => {
+  const [open, setOpen] = useState(false);
+  const wrapRef = useRef(null);
+  const menuRef = useRef(null);
+
+  const all = [{ value: "", label: placeholder }, ...options];
+  const current = all.find((o) => o.value === value) || all[0];
+
+  /* close on outside click / Escape */
+  useEffect(() => {
+    if (!open) return;
+    const onDown = (e) => {
+      if (wrapRef.current && !wrapRef.current.contains(e.target))
+        setOpen(false);
+    };
+    const onKey = (e) => {
+      if (e.key === "Escape") setOpen(false);
+    };
+    document.addEventListener("pointerdown", onDown);
+    document.addEventListener("keydown", onKey);
+    return () => {
+      document.removeEventListener("pointerdown", onDown);
+      document.removeEventListener("keydown", onKey);
+    };
+  }, [open]);
+
+  /* scroll the selected option into view inside the menu only */
+  useEffect(() => {
+    if (!open || !menuRef.current) return;
+    const active = menuRef.current.querySelector(".is-selected");
+    if (active) menuRef.current.scrollTop = active.offsetTop - 8;
+  }, [open]);
+
+  return (
+    <div className="eca-select" ref={wrapRef}>
+      <button
+        type="button"
+        className={`eca-select-btn ${open ? "is-open" : ""}`}
+        onClick={() => setOpen((o) => !o)}
+        aria-haspopup="listbox"
+        aria-expanded={open}
+        aria-label={ariaLabel}
+      >
+        <span className="eca-select-value">{current.label}</span>
+        <ChevronDown
+          size={16}
+          strokeWidth={2}
+          className={`eca-chevron-sm ${open ? "is-open" : ""}`}
+        />
+      </button>
+
+      {open && (
+        <ul className="eca-select-menu" role="listbox" ref={menuRef}>
+          {all.map((opt) => (
+            <li
+              key={opt.value || "__all"}
+              role="option"
+              aria-selected={opt.value === value}
+              className={`eca-select-option ${
+                opt.value === value ? "is-selected" : ""
+              }`}
+              onClick={() => {
+                onChange(opt.value);
+                setOpen(false);
+              }}
+            >
+              {opt.label}
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  );
+};
+
 const AnnouncementsFeed = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [category, setCategory] = useState("");
+  const [stateFilter, setStateFilter] = useState("");
   const [expandedYears, setExpandedYears] = useState(new Set());
   const [expandedMonths, setExpandedMonths] = useState(new Set());
-  const [selected, setSelected] = useState(null);
 
   const heroRef = useRef(null);
   const beaconRef = useRef(null);
-  const modalCardRef = useRef(null);
-  const modalBackdropRef = useRef(null);
   const monthRefs = useRef(new Map());
 
   const categoryOptions = useMemo(
     () => buildCategoryOptions(announcements),
     [],
   );
+  const stateOptions = useMemo(() => buildStateOptions(announcements), []);
   const latestItem = announcements[0];
 
   const filtered = useMemo(() => {
@@ -76,13 +155,16 @@ const AnnouncementsFeed = () => {
       const matchesCategory = category
         ? (item.category || "").trim().toUpperCase() === category
         : true;
-      return matchesSearch && matchesCategory;
+      const matchesState = stateFilter
+        ? (item.state || ALL_INDIA) === stateFilter
+        : true;
+      return matchesSearch && matchesCategory && matchesState;
     });
-  }, [searchTerm, category]);
+  }, [searchTerm, category, stateFilter]);
 
   const grouped = useMemo(() => groupByYearMonth(filtered), [filtered]);
   const years = Array.from(grouped.keys());
-  const isFiltering = Boolean(searchTerm || category);
+  const isFiltering = Boolean(searchTerm || category || stateFilter);
 
   const yearsCovered = useMemo(
     () =>
@@ -93,7 +175,6 @@ const AnnouncementsFeed = () => {
   /* default open state: first year + its first month only */
   useEffect(() => {
     if (isFiltering) {
-      // while filtering, open everything that has a result
       const allYears = new Set();
       const allMonths = new Set();
       grouped.forEach((months, year) => {
@@ -112,7 +193,7 @@ const AnnouncementsFeed = () => {
       firstMonth ? new Set([`${firstYear}-${firstMonth}`]) : new Set(),
     );
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [isFiltering]);
+  }, [searchTerm, category, stateFilter]);
 
   const toggleYear = (year) => {
     setExpandedYears((prev) => {
@@ -183,49 +264,29 @@ const AnnouncementsFeed = () => {
     });
   }, [expandedMonths]);
 
-  /* modal open / close animation */
-  useEffect(() => {
-    if (!selected || !modalBackdropRef.current || !modalCardRef.current) return;
-    gsap.fromTo(
-      modalBackdropRef.current,
-      { opacity: 0 },
-      { opacity: 1, duration: 0.25, ease: "power2.out" },
-    );
-    gsap.fromTo(
-      modalCardRef.current,
-      { opacity: 0, y: 24, scale: 0.96 },
-      { opacity: 1, y: 0, scale: 1, duration: 0.35, ease: "power3.out" },
-    );
-  }, [selected]);
+  const renderCardBody = (item, isLatest) => (
+    <>
+      <div className="eca-card-head">
+        {isLatest && <span className="eca-tag-new">Latest</span>}
+        <span className="eca-tag-category">{item.category}</span>
+        <span className="eca-tag-state">{item.state || ALL_INDIA}</span>
+        <span className="eca-card-date">{formatDate(item.date)}</span>
+      </div>
 
-  const closeModal = () => {
-    if (!modalBackdropRef.current || !modalCardRef.current) {
-      setSelected(null);
-      return;
-    }
-    gsap.to(modalCardRef.current, {
-      opacity: 0,
-      y: 16,
-      scale: 0.97,
-      duration: 0.22,
-      ease: "power2.in",
-    });
-    gsap.to(modalBackdropRef.current, {
-      opacity: 0,
-      duration: 0.22,
-      ease: "power2.in",
-      onComplete: () => setSelected(null),
-    });
-  };
+      <h3 className="eca-card-title">{item.title}</h3>
+      <p className="eca-card-content">{item.content}</p>
 
-  useEffect(() => {
-    const onKey = (e) => {
-      if (e.key === "Escape" && selected) closeModal();
-    };
-    window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selected]);
+      <div className="eca-card-foot">
+        {item.source && <span className="eca-source">{item.source}</span>}
+        {item.link && (
+          <span className="eca-read-more">
+            Details
+            <ArrowUpRight size={14} strokeWidth={2.25} />
+          </span>
+        )}
+      </div>
+    </>
+  );
 
   return (
     <div className="eca-announcements">
@@ -255,7 +316,7 @@ const AnnouncementsFeed = () => {
         </div>
       </header>
 
-      {/* ---------- controls (always visible, no toggle) ---------- */}
+      {/* ---------- controls ---------- */}
       <div className="eca-controls">
         <div className="eca-search">
           <Search size={18} strokeWidth={2} />
@@ -267,18 +328,24 @@ const AnnouncementsFeed = () => {
           />
         </div>
 
-        <select
-          className="eca-category-select"
+        <FilterSelect
+          value={stateFilter}
+          onChange={setStateFilter}
+          placeholder="Select Location"
+          ariaLabel="Filter by state"
+          options={stateOptions.map((s) => ({ value: s, label: s }))}
+        />
+
+        <FilterSelect
           value={category}
-          onChange={(e) => setCategory(e.target.value)}
-        >
-          <option value="">All categories</option>
-          {categoryOptions.map((opt) => (
-            <option key={opt.key} value={opt.key}>
-              {opt.label}
-            </option>
-          ))}
-        </select>
+          onChange={setCategory}
+          placeholder="All Categories"
+          ariaLabel="Filter by category"
+          options={categoryOptions.map((o) => ({
+            value: o.key,
+            label: o.label,
+          }))}
+        />
       </div>
 
       {/* ---------- year / month groups ---------- */}
@@ -342,16 +409,12 @@ const AnnouncementsFeed = () => {
                           <ChevronDown
                             size={16}
                             strokeWidth={2}
-                            className={`eca-chevron-sm ${
-                              isMonthOpen ? "is-open" : ""
-                            }`}
+                            className={`eca-chevron-sm ${isMonthOpen ? "is-open" : ""}`}
                           />
                         </button>
 
                         <div
-                          className={`eca-accordion-body ${
-                            isMonthOpen ? "is-open" : ""
-                          }`}
+                          className={`eca-accordion-body ${isMonthOpen ? "is-open" : ""}`}
                         >
                           <div
                             className="eca-accordion-inner eca-month-cards"
@@ -363,47 +426,21 @@ const AnnouncementsFeed = () => {
                             {items.map((item, index) => {
                               const isLatest =
                                 item === latestItem && index === 0;
-                              return (
-                                <article
-                                  key={`${item.date}-${item.title}-${index}`}
-                                  className="eca-card"
-                                  onClick={() => setSelected(item)}
+                              const cardKey = `${item.date}-${item.title}-${index}`;
+
+                              return item.link ? (
+                                <a
+                                  key={cardKey}
+                                  className="eca-card eca-card-link"
+                                  href={item.link}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
                                 >
-                                  <div className="eca-card-head">
-                                    {isLatest && (
-                                      <span className="eca-tag-new">
-                                        Latest
-                                      </span>
-                                    )}
-                                    <span className="eca-tag-category">
-                                      {item.category}
-                                    </span>
-                                    <span className="eca-card-date">
-                                      {formatDate(item.date)}
-                                    </span>
-                                  </div>
-
-                                  <h3 className="eca-card-title">
-                                    {item.title}
-                                  </h3>
-                                  <p className="eca-card-content">
-                                    {item.content}
-                                  </p>
-
-                                  <div className="eca-card-foot">
-                                    {item.source && (
-                                      <span className="eca-source">
-                                        {item.source}
-                                      </span>
-                                    )}
-                                    <span className="eca-read-more">
-                                      Details
-                                      <ArrowUpRight
-                                        size={14}
-                                        strokeWidth={2.25}
-                                      />
-                                    </span>
-                                  </div>
+                                  {renderCardBody(item, isLatest)}
+                                </a>
+                              ) : (
+                                <article key={cardKey} className="eca-card">
+                                  {renderCardBody(item, isLatest)}
                                 </article>
                               );
                             })}
@@ -418,54 +455,6 @@ const AnnouncementsFeed = () => {
           );
         })}
       </div>
-
-      {/* ---------- modal ---------- */}
-      {selected && (
-        <div
-          className="eca-modal-backdrop"
-          ref={modalBackdropRef}
-          onClick={closeModal}
-        >
-          <div
-            className="eca-modal-card"
-            ref={modalCardRef}
-            onClick={(e) => e.stopPropagation()}
-          >
-            <div className="eca-modal-head">
-              <span className="eca-tag-category">{selected.category}</span>
-              <button
-                type="button"
-                className="eca-modal-close"
-                onClick={closeModal}
-                aria-label="Close"
-              >
-                <X size={18} strokeWidth={2} />
-              </button>
-            </div>
-
-            <h2 className="eca-modal-title">{selected.title}</h2>
-            <p className="eca-modal-date">{formatDate(selected.date)}</p>
-            <p className="eca-modal-content">{selected.content}</p>
-
-            <div className="eca-modal-foot">
-              {selected.source && (
-                <span className="eca-source">Source: {selected.source}</span>
-              )}
-              {selected.link && (
-                <a
-                  href={selected.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="eca-modal-link"
-                >
-                  Read full article
-                  <ExternalLink size={15} strokeWidth={2} />
-                </a>
-              )}
-            </div>
-          </div>
-        </div>
-      )}
     </div>
   );
 };

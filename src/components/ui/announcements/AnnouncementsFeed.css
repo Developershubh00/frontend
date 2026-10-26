@@ -122,7 +122,22 @@
   color: #9aa0ae;
 }
 
-.eca-category-select {
+.eca-controls {
+  position: relative;
+  z-index: 10;
+}
+
+.eca-select {
+  position: relative;
+  min-width: 180px;
+}
+
+.eca-select-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
   padding: 12px 16px;
   border-radius: 14px;
   border: 1px solid #e4e7ee;
@@ -131,8 +146,57 @@
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
+  text-align: left;
   box-shadow: 0 16px 36px -22px rgba(0, 0, 0, 0.22);
-  min-width: 180px;
+  transition: border-color 0.2s ease;
+}
+
+.eca-select-btn:hover,
+.eca-select-btn.is-open {
+  border-color: #0464de;
+}
+
+.eca-select-value {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* always opens downward, fixed height, scrolls inside itself */
+.eca-select-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  z-index: 30;
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+  max-height: 280px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  background: #ffffff;
+  border: 1px solid #e4e7ee;
+  border-radius: 14px;
+  box-shadow: 0 24px 48px -20px rgba(0, 0, 0, 0.3);
+}
+
+.eca-select-option {
+  padding: 10px 12px;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #3f3f3f;
+  cursor: pointer;
+}
+
+.eca-select-option:hover {
+  background: #f6f8fc;
+}
+
+.eca-select-option.is-selected {
+  background: #eaf0fe;
+  color: #032c7b;
+  font-weight: 700;
 }
 
 .eca-groups {
@@ -277,14 +341,40 @@
 }
 
 .eca-card {
+  display: block;
   background: #ffffff;
   border: 1px solid #e4e7ee;
   border-radius: 14px;
   padding: 16px 18px;
-  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
   transition:
     transform 0.18s ease,
     border-color 0.18s ease;
+}
+
+.eca-card-link {
+  cursor: pointer;
+}
+
+.eca-card-link:hover {
+  transform: translateY(-2px);
+  border-color: #0464de;
+}
+
+.eca-card-link:focus-visible {
+  outline: 2px solid #0464de;
+  outline-offset: 2px;
+}
+
+.eca-tag-state {
+  padding: 3px 9px;
+  border-radius: 999px;
+  background: #e3f4ea;
+  color: #0b5d2e;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
 }
 
 .eca-card:hover {
@@ -376,18 +466,6 @@
   font-size: 16px;
 }
 
-.eca-modal-backdrop {
-  position: fixed;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(3px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  z-index: 50;
-}
-
 .eca-modal-card {
   width: 100%;
   max-width: 560px;
@@ -439,14 +517,6 @@
   color: #3f3f3f;
 }
 
-.eca-modal-content {
-  margin: 0 0 22px;
-  font-size: 18px;
-  line-height: 1.7;
-  color: #3f3f3f;
-  white-space: pre-wrap;
-}
-
 .eca-modal-foot {
   display: flex;
   align-items: center;
@@ -471,10 +541,6 @@
   transition: background 0.2s ease;
 }
 
-.eca-modal-link:hover {
-  background: #032c7b;
-}
-
 /* -------------------- Responsive ------------------- */
 
 @media (max-width: 868px) {
@@ -491,8 +557,7 @@
   }
 
   .eca-hero-para,
-  .eca-card-content,
-  .eca-modal-content {
+  .eca-card-content {
     font-size: 16px;
   }
 
