@@ -59,6 +59,13 @@ const CARDS = [
 // Per-card period data, mirroring the INI-CET dashboard pattern
 const ALLOTMENTS_PERIODS = [
   {
+    id: "2026",
+    label: "Year",
+    value: "2026",
+    link: "/dashboard/neetpg-allotments-2026",
+    addedOn: "2026-10-26",
+  },
+  {
     id: "2025",
     label: "Year",
     value: "2025",

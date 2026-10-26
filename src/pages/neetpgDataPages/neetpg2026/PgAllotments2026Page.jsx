@@ -1,0 +1,1110 @@
+import React, { useState, useEffect, useMemo } from "react";
+import { useNavigate } from "react-router-dom";
+import {
+  ArrowLeft,
+  Search,
+  Eye,
+  EyeOff,
+  X,
+  Filter,
+  ChevronDown,
+  ChevronLeft as PrevIcon,
+  ChevronRight as NextIcon,
+} from "lucide-react";
+import "./PgAllotments2026Page.css";
+import api from "../../../api/axios";
+
+const COL_DEFS = [
+  { key: "Round", label: "Round" },
+  { key: "AI Rank", label: "AI Rank" },
+  { key: "State", label: "State" },
+  { key: "Institute", label: "Institute" },
+  { key: "Course", label: "Course" },
+  { key: "Branch", label: "Branch" },
+  { key: "Quota", label: "Quota" },
+  { key: "Category", label: "Category" },
+  { key: "Fee", label: "Fee" },
+  { key: "Stipend Yr 1", label: "Stipend (Yr 1)" },
+  { key: "Bond Yrs", label: "Bond Yrs" },
+  { key: "Beds", label: "Beds" },
+];
+
+const DEFAULT_VIS = {
+  Round: true,
+  "AI Rank": true,
+  State: true,
+  Institute: true,
+  Course: true,
+  Branch: true,
+  Quota: true,
+  Category: true,
+  Fee: true,
+  "Stipend Yr 1": true,
+  "Bond Yrs": true,
+  Beds: true,
+};
+
+const CustomSelect = ({ value, onChange, options, allLabel }) => {
+  const [open, setOpen] = useState(false);
+  const [search, setSearch] = useState("");
+
+  const filtered = options.filter((opt) =>
+    String(opt).toLowerCase().includes(search.toLowerCase()),
+  );
+
+  return (
+    <div className="pg26-al-cs-wrapper">
+      <button
+        type="button"
+        onClick={() => setOpen((prev) => !prev)}
+        className="pg26-al-cs-button"
+      >
+        <span className="pg26-al-cs-button-label">
+          {value === "all" ? allLabel : value}
+        </span>
+
+        <ChevronDown
+          className={`pg26-al-cs-chevron ${
+            open ? "pg26-al-cs-chevron-open" : ""
+          }`}
+        />
+      </button>
+
+      {open && (
+        <>
+          <div className="pg26-al-cs-overlay" onClick={() => setOpen(false)} />
+
+          <div className="pg26-al-cs-dropdown">
+            <input
+              type="text"
+              placeholder="Search..."
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              onClick={(e) => e.stopPropagation()}
+              className="pg26-al-cs-search-input"
+            />
+
+            <div className="pg26-al-cs-options-list">
+              {filtered.map((opt) => (
+                <button
+                  type="button"
+                  key={String(opt)}
+                  onClick={() => {
+                    onChange(opt);
+                    setSearch("");
+                    setOpen(false);
+                  }}
+                  className={`pg26-al-cs-option ${
+                    value === opt ? "pg26-al-cs-option-selected" : ""
+                  }`}
+                >
+                  {opt === "all" ? allLabel : opt}
+                </button>
+              ))}
+
+              {filtered.length === 0 && (
+                <div className="pg26-al-cs-option">No options found</div>
+              )}
+            </div>
+          </div>
+        </>
+      )}
+    </div>
+  );
+};
+
+const RankCell = ({ val }) => {
+  if (val === null || val === undefined || val === "-" || val === "") {
+    return <span className="pg26-al-rank-empty">—</span>;
+  }
+
+  const rank = Number(val);
+
+  if (Number.isNaN(rank)) {
+    return <span className="pg26-al-rank-empty">—</span>;
+  }
+
+  const tier =
+    rank <= 100
+      ? "pg26-al-rank-tier-1"
+      : rank <= 500
+        ? "pg26-al-rank-tier-2"
+        : rank <= 2000
+          ? "pg26-al-rank-tier-3"
+          : rank <= 5000
+            ? "pg26-al-rank-tier-4"
+            : "pg26-al-rank-tier-5";
+
+  return (
+    <span className={`pg26-al-rank-value ${tier}`}>
+      {rank.toLocaleString("en-IN")}
+    </span>
+  );
+};
+
+const formatCurrency = (val) => {
+  if (val === null || val === undefined || val === "" || val === "-") {
+    return "—";
+  }
+
+  const numeric = Number(val);
+
+  if (Number.isNaN(numeric)) {
+    return val;
+  }
+
+  return `₹${numeric.toLocaleString("en-IN")}`;
+};
+
+const formatBondYrs = (val) => {
+  if (val === null || val === undefined || val === "" || val === "-") {
+    return "—";
+  }
+
+  const numeric = Number(val);
+
+  if (Number.isNaN(numeric)) {
+    return val;
+  }
+
+  return `${numeric} yrs`;
+};
+
+const categoryBadgeClass = (category) => {
+  if (category === "UR" || category === "GEN" || category === "Open") {
+    return "pg26-al-badge-cat-gray";
+  }
+
+  if (category === "OBC") {
+    return "pg26-al-badge-cat-yellow";
+  }
+
+  if (category === "SC") {
+    return "pg26-al-badge-cat-red";
+  }
+
+  if (category === "ST") {
+    return "pg26-al-badge-cat-blue";
+  }
+
+  if (category === "EWS") {
+    return "pg26-al-badge-cat-green";
+  }
+
+  return "pg26-al-badge-cat-purple";
+};
+
+const PgAllotments2026Page = () => {
+  const navigate = useNavigate();
+
+  const [data, setData] = useState([]);
+
+  const [loading, setLoading] = useState(true);
+  const [dataError, setDataError] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
+
+  const [searchTerm, setSearchTerm] = useState("");
+
+  const [selState, setSelState] = useState("all");
+  const [selQuota, setSelQuota] = useState("all");
+  const [selCategory, setSelCategory] = useState("all");
+  const [selCourse, setSelCourse] = useState("all");
+  const [selBranch, setSelBranch] = useState("all");
+  const [selRound, setSelRound] = useState("all");
+
+  const [minRank, setMinRank] = useState("");
+  const [maxRank, setMaxRank] = useState("");
+
+  const [showAdv, setShowAdv] = useState(false);
+  const [showColModal, setShowColModal] = useState(false);
+
+  const [colVis, setColVis] = useState(DEFAULT_VIS);
+
+  const [page, setPage] = useState(1);
+
+  const [pagination, setPagination] = useState({
+    page: 1,
+    limit: 50,
+    total: 0,
+    totalPages: 1,
+    hasNextPage: false,
+    hasPreviousPage: false,
+  });
+
+  /*
+   * ==========================================
+   * FILTER OPTIONS (from the dedicated /filters API,
+   * covers the full dataset — not just the current page)
+   * ==========================================
+   */
+
+  const [filterOptions, setFilterOptions] = useState({
+    rounds: [],
+    states: [],
+    quotas: [],
+    categories: [],
+    courses: [],
+    branches: [],
+  });
+
+  const PER_PAGE = 50;
+
+  const toggleCol = (key) =>
+    setColVis((prev) => ({
+      ...prev,
+      [key]: !prev[key],
+    }));
+
+  const showAll = () =>
+    setColVis(
+      COL_DEFS.reduce(
+        (acc, { key }) => ({
+          ...acc,
+          [key]: true,
+        }),
+        {},
+      ),
+    );
+
+  const hideAll = () =>
+    setColVis(
+      COL_DEFS.reduce(
+        (acc, { key }) => ({
+          ...acc,
+          [key]: key === "Institute" || key === "Course",
+        }),
+        {},
+      ),
+    );
+
+  /* =========================== FETCH FILTER OPTIONS (ONCE, ON MOUNT) ============================= */
+
+  useEffect(() => {
+    const controller = new AbortController();
+
+    const fetchFilters = async () => {
+      try {
+        const response = await api.get("/allotments/pg/2026/filters", {
+          signal: controller.signal,
+        });
+
+        const result = response.data;
+
+        if (!result.success) {
+          throw new Error(result.message || "Failed to fetch filters");
+        }
+
+        setFilterOptions({
+          rounds: result.filters?.rounds || [],
+          states: result.filters?.states || [],
+          quotas: result.filters?.quotas || [],
+          categories: result.filters?.categories || [],
+          courses: result.filters?.courses || [],
+          branches: result.filters?.branches || [],
+        });
+      } catch (error) {
+        if (error.name === "AbortError" || error.code === "ERR_CANCELED") {
+          return;
+        }
+
+        console.error("PG 2026 Filters API Error:", error);
+      }
+    };
+
+    fetchFilters();
+
+    return () => controller.abort();
+  }, []);
+
+  /* ==================== FETCH DATA FROM POSTGRESQL API =============================== */
+
+  useEffect(() => {
+    const controller = new AbortController();
+
+    const fetchAllotments = async () => {
+      try {
+        setLoading(true);
+        setDataError(false);
+        setErrorMessage("");
+
+        const params = new URLSearchParams();
+
+        params.set("page", page);
+        params.set("limit", PER_PAGE);
+
+        if (selRound !== "all") {
+          params.set("round", selRound);
+        }
+
+        if (selState !== "all") {
+          params.set("state", selState);
+        }
+
+        if (selQuota !== "all") {
+          params.set("quota", selQuota);
+        }
+
+        if (selCategory !== "all") {
+          params.set("category", selCategory);
+        }
+
+        if (selCourse !== "all") {
+          params.set("course", selCourse);
+        }
+
+        if (selBranch !== "all") {
+          params.set("branch", selBranch);
+        }
+
+        if (minRank !== "") {
+          params.set("rankFrom", minRank);
+        }
+
+        if (maxRank !== "") {
+          params.set("rankTo", maxRank);
+        }
+
+        if (searchTerm.trim()) {
+          params.set("search", searchTerm.trim());
+        }
+
+        const response = await api.get(
+          `/allotments/pg/2026?${params.toString()}`,
+          {
+            signal: controller.signal,
+          },
+        );
+
+        const result = response.data;
+
+        if (!result.success) {
+          throw new Error(result.message || "Failed to fetch allotments");
+        }
+
+        /*
+         * Convert PostgreSQL API fields
+         * into the fields used by the UI.
+         */
+
+        const formattedData = (result.data || []).map((item) => ({
+          id: item.id,
+
+          Round: item.round ?? "",
+          "AI Rank": item.ai_rank ?? "",
+
+          State: item.state ?? "",
+          Institute: item.institute ?? "",
+          Course: item.course ?? "",
+          Branch: item.branch ?? "",
+          Quota: item.quota ?? "",
+          Category: item.category ?? "",
+
+          Fee: item.fee ?? "",
+          "Stipend Yr 1": item.stipend_year_1 ?? "",
+
+          "Bond Yrs": item.bond_years ?? "",
+          Beds: item.beds ?? "",
+        }));
+
+        setData(formattedData);
+
+        setPagination(
+          result.pagination || {
+            page,
+            limit: PER_PAGE,
+            total: formattedData.length,
+            totalPages: 1,
+            hasNextPage: false,
+            hasPreviousPage: false,
+          },
+        );
+
+        setDataError(false);
+      } catch (error) {
+        if (error.name === "AbortError" || error.code === "ERR_CANCELED") {
+          return;
+        }
+
+        console.error("PG 2026 API Error:", error);
+
+        setData([]);
+        setDataError(true);
+        setErrorMessage(error.message || "Unable to load data");
+      } finally {
+        if (!controller.signal.aborted) {
+          setLoading(false);
+        }
+      }
+    };
+
+    fetchAllotments();
+
+    return () => controller.abort();
+  }, [
+    page,
+    searchTerm,
+    selRound,
+    selState,
+    selQuota,
+    selCategory,
+    selCourse,
+    selBranch,
+    minRank,
+    maxRank,
+  ]);
+
+  /*
+   * ==========================================
+   * FILTER OPTIONS
+   * ==========================================
+   *
+   * Primary source: the dedicated /filters API (filterOptions),
+   * which covers the full dataset. As a safety net — in case that
+   * endpoint returns empty/partial data — we merge in whatever
+   * values are present on the currently loaded page of `data`, so
+   * the dropdowns and round pills never end up empty.
+   */
+
+  const dataRounds = useMemo(
+    () =>
+      data
+        .map((item) => item.Round)
+        .filter((v) => v !== null && v !== undefined && v !== ""),
+    [data],
+  );
+
+  const dataStates = useMemo(
+    () => data.map((item) => item.State).filter(Boolean),
+    [data],
+  );
+
+  const dataQuotas = useMemo(
+    () => data.map((item) => item.Quota).filter(Boolean),
+    [data],
+  );
+
+  const dataCategories = useMemo(
+    () => data.map((item) => item.Category).filter(Boolean),
+    [data],
+  );
+
+  const dataCourses = useMemo(
+    () => data.map((item) => item.Course).filter(Boolean),
+    [data],
+  );
+
+  const dataBranches = useMemo(
+    () => data.map((item) => item.Branch).filter(Boolean),
+    [data],
+  );
+
+  const rounds = useMemo(() => {
+    return Array.from(new Set([...filterOptions.rounds, ...dataRounds])).sort(
+      (a, b) => Number(a) - Number(b),
+    );
+  }, [filterOptions.rounds, dataRounds]);
+
+  const states = useMemo(
+    () => [
+      "all",
+      ...Array.from(new Set([...filterOptions.states, ...dataStates])).sort(),
+    ],
+    [filterOptions.states, dataStates],
+  );
+
+  const quotas = useMemo(
+    () => [
+      "all",
+      ...Array.from(new Set([...filterOptions.quotas, ...dataQuotas])).sort(),
+    ],
+    [filterOptions.quotas, dataQuotas],
+  );
+
+  const categories = useMemo(
+    () => [
+      "all",
+      ...Array.from(
+        new Set([...filterOptions.categories, ...dataCategories]),
+      ).sort(),
+    ],
+    [filterOptions.categories, dataCategories],
+  );
+
+  const courses = useMemo(
+    () => [
+      "all",
+      ...Array.from(new Set([...filterOptions.courses, ...dataCourses])).sort(),
+    ],
+    [filterOptions.courses, dataCourses],
+  );
+
+  const branches = useMemo(
+    () => [
+      "all",
+      ...Array.from(
+        new Set([...filterOptions.branches, ...dataBranches]),
+      ).sort(),
+    ],
+    [filterOptions.branches, dataBranches],
+  );
+
+  /*
+   * ==========================================
+   * PAGE RESET WHEN FILTER CHANGES
+   * ==========================================
+   */
+
+  useEffect(() => {
+    setPage(1);
+  }, [
+    searchTerm,
+    selRound,
+    selState,
+    selQuota,
+    selCategory,
+    selCourse,
+    selBranch,
+    minRank,
+    maxRank,
+  ]);
+
+  /*
+   * ==========================================
+   * SERVER PAGINATION
+   * ==========================================
+   */
+
+  const totalRecords = pagination.total || 0;
+
+  const totalPages = Math.max(1, pagination.totalPages || 1);
+
+  const paged = data;
+
+  /*
+   * ==========================================
+   * CLEAR FILTERS
+   * ==========================================
+   */
+
+  const clearAll = () => {
+    setSearchTerm("");
+
+    setSelRound("all");
+    setSelState("all");
+    setSelQuota("all");
+    setSelCategory("all");
+    setSelCourse("all");
+    setSelBranch("all");
+
+    setMinRank("");
+    setMaxRank("");
+
+    setColVis(DEFAULT_VIS);
+
+    setPage(1);
+  };
+
+  const visibleCols = COL_DEFS.filter(({ key }) => colVis[key]);
+
+  /*
+   * ==========================================
+   * LOADING
+   * ==========================================
+   */
+
+  if (loading && data.length === 0 && !dataError) {
+    return (
+      <div className="pg26-al-loading-screen">
+        <div className="pg26-al-loading-box">
+          <div className="pg26-al-loading-spinner" />
+          <p>Loading NEET PG allotments...</p>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="pg26-al-page-root">
+      {showColModal && (
+        <div className="pg26-al-modal-overlay">
+          <div className="pg26-al-modal-box">
+            <div className="pg26-al-modal-header">
+              <h3>Show / Hide Columns</h3>
+
+              <button
+                type="button"
+                onClick={() => setShowColModal(false)}
+                className="pg26-al-modal-close-btn"
+              >
+                <X />
+              </button>
+            </div>
+
+            <div className="pg26-al-modal-body">
+              <div className="pg26-al-modal-actions">
+                <button
+                  type="button"
+                  onClick={showAll}
+                  className="pg26-al-btn-secondary"
+                >
+                  Show All
+                </button>
+
+                <button
+                  type="button"
+                  onClick={hideAll}
+                  className="pg26-al-btn-secondary"
+                >
+                  Hide All
+                </button>
+              </div>
+
+              {[
+                {
+                  label: "Basic Info",
+                  keys: ["Round", "State", "Institute", "Course", "Branch"],
+                },
+                {
+                  label: "Rank & Category",
+                  keys: ["AI Rank", "Quota", "Category"],
+                },
+                {
+                  label: "Fee & Stipend",
+                  keys: ["Fee", "Stipend Yr 1"],
+                },
+                {
+                  label: "Other",
+                  keys: ["Bond Yrs", "Beds"],
+                },
+              ].map((group) => (
+                <div key={group.label} className="pg26-al-col-group">
+                  <p className="pg26-al-col-group-label">{group.label}</p>
+
+                  {group.keys.map((key) => (
+                    <label key={key} className="pg26-al-col-row">
+                      <input
+                        type="checkbox"
+                        checked={colVis[key]}
+                        onChange={() => toggleCol(key)}
+                      />
+
+                      <span>
+                        {COL_DEFS.find((def) => def.key === key)?.label || key}
+                      </span>
+
+                      {colVis[key] ? <Eye /> : <EyeOff />}
+                    </label>
+                  ))}
+                </div>
+              ))}
+            </div>
+
+            <div className="pg26-al-modal-footer">
+              <button
+                type="button"
+                onClick={() => setShowColModal(false)}
+                className="pg26-al-btn-primary"
+              >
+                Apply
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      <div className="pg26-al-content-wrapper">
+        {/* ==========================================
+            HEADER
+        ========================================== */}
+
+        <div className="pg26-al-app-header">
+          <div className="pg26-al-header-row">
+            <div className="pg26-al-header-left">
+              <button
+                type="button"
+                onClick={() => navigate("/dashboard/neet-pg")}
+                className="pg26-al-back-btn"
+              >
+                <ArrowLeft className="pg26-al-icon-sm" />
+              </button>
+
+              <div className="pg26-al-header-text">
+                <h1>Allotments</h1>
+                <p>NEET PG 2026</p>
+              </div>
+            </div>
+
+            <span className="pg26-al-records-count">
+              {totalRecords.toLocaleString("en-IN")} Records
+            </span>
+          </div>
+        </div>
+
+        {/* ==========================================
+            ERROR
+        ========================================== */}
+
+        {dataError && (
+          <div className="pg26-al-error-banner">
+            ⚠️ Unable to load allotment data.
+            {errorMessage && (
+              <span style={{ marginLeft: "8px" }}>{errorMessage}</span>
+            )}
+          </div>
+        )}
+
+        {/* ==========================================
+            ROUND PILLS + COLUMNS
+        ========================================== */}
+
+        <div className="pg26-al-pills-row">
+          {rounds.map((round) => (
+            <button
+              type="button"
+              key={round}
+              onClick={() => {
+                setSelRound(round);
+                setPage(1);
+              }}
+              className={`pg26-al-pill ${
+                selRound === round
+                  ? "pg26-al-pill-active"
+                  : "pg26-al-pill-inactive"
+              }`}
+            >
+              {`R${round}`}
+            </button>
+          ))}
+
+          <button
+            type="button"
+            onClick={() => {
+              setSelRound("all");
+              setPage(1);
+            }}
+            className={`pg26-al-pill ${
+              selRound === "all"
+                ? "pg26-al-pill-active"
+                : "pg26-al-pill-inactive"
+            }`}
+          >
+            All Rounds
+          </button>
+
+          <button
+            type="button"
+            onClick={() => setShowColModal(true)}
+            className="pg26-al-pill-icon-btn"
+          >
+            <Eye className="pg26-al-icon-sm" />
+            Columns
+          </button>
+        </div>
+
+        {/* ==========================================
+            MAIN FILTERS
+        ========================================== */}
+
+        <div className="pg26-al-filters-row">
+          <div className="pg26-al-search-box">
+            <Search />
+
+            <input
+              type="text"
+              placeholder="Search institute, course, branch, state..."
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+            />
+          </div>
+
+          <div className="pg26-al-filter-selects">
+            <CustomSelect
+              value={selState}
+              onChange={(value) => {
+                setSelState(value);
+                setPage(1);
+              }}
+              options={states}
+              allLabel="All States"
+            />
+
+            <CustomSelect
+              value={selQuota}
+              onChange={(value) => {
+                setSelQuota(value);
+                setPage(1);
+              }}
+              options={quotas}
+              allLabel="All Quotas"
+            />
+
+            <CustomSelect
+              value={selCategory}
+              onChange={(value) => {
+                setSelCategory(value);
+                setPage(1);
+              }}
+              options={categories}
+              allLabel="All Categories"
+            />
+
+            <button
+              type="button"
+              className="pg26-al-toggle-filter"
+              onClick={() => setShowAdv((prev) => !prev)}
+            >
+              <Filter className="pg26-al-icon-fl" />
+              {showAdv ? "Hide" : "More"} Filters
+              <ChevronDown
+                className={showAdv ? "pg26-al-cs-chevron-open" : ""}
+              />
+            </button>
+          </div>
+        </div>
+
+        {/* ==========================================
+            ADVANCED FILTERS
+        ========================================== */}
+
+        {showAdv && (
+          <div className="pg26-al-advanced-filters">
+            <CustomSelect
+              value={selCourse}
+              onChange={(value) => {
+                setSelCourse(value);
+                setPage(1);
+              }}
+              options={courses}
+              allLabel="All Courses"
+            />
+
+            <CustomSelect
+              value={selBranch}
+              onChange={(value) => {
+                setSelBranch(value);
+                setPage(1);
+              }}
+              options={branches}
+              allLabel="All Branches"
+            />
+
+            <div className="pg26-al-rank-inputs">
+              <input
+                type="number"
+                placeholder="Min AI Rank"
+                value={minRank}
+                onChange={(e) => {
+                  setMinRank(e.target.value);
+                  setPage(1);
+                }}
+              />
+
+              <input
+                type="number"
+                placeholder="Max AI Rank"
+                value={maxRank}
+                onChange={(e) => {
+                  setMaxRank(e.target.value);
+                  setPage(1);
+                }}
+              />
+            </div>
+
+            <button
+              type="button"
+              className="pg26-al-clear-btn"
+              onClick={clearAll}
+            >
+              Clear Filters
+            </button>
+
+            <div className="pg26-al-filtered-count-row">
+              <span className="pg26-al-filtered-count-num">
+                {totalRecords.toLocaleString("en-IN")}
+              </span>
+
+              <span>&nbsp;filtered results</span>
+            </div>
+          </div>
+        )}
+
+        {/* ==========================================
+            TABLE
+        ========================================== */}
+
+        <div className="pg26-al-table-wrapper">
+          <table className="pg26-al-table">
+            <thead>
+              <tr>
+                {visibleCols.map(({ key, label }) => (
+                  <th
+                    key={key}
+                    className={key === "AI Rank" ? "pg26-al-th-rank" : ""}
+                  >
+                    {label}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+
+            <tbody>
+              {paged.length === 0 ? (
+                <tr>
+                  <td
+                    colSpan={visibleCols.length}
+                    className="pg26-al-table-empty"
+                  >
+                    {dataError
+                      ? "Unable to load the data. Please refresh the page and try again."
+                      : loading
+                        ? "Loading..."
+                        : "No records found for the selected filters."}
+                  </td>
+                </tr>
+              ) : (
+                paged.map((item, index) => (
+                  <tr
+                    key={
+                      item.id || `${item.Institute}-${item["AI Rank"]}-${index}`
+                    }
+                  >
+                    {colVis.Round && <td>{item.Round || "—"}</td>}
+
+                    {colVis["AI Rank"] && (
+                      <td className="pg26-al-td-rank">
+                        <RankCell val={item["AI Rank"]} />
+                      </td>
+                    )}
+
+                    {colVis.State && <td>{item.State || "—"}</td>}
+
+                    {colVis.Institute && (
+                      <td className="pg26-al-td-institute">
+                        {item.Institute || "—"}
+                      </td>
+                    )}
+
+                    {colVis.Course && <td>{item.Course || "—"}</td>}
+
+                    {colVis.Branch && (
+                      <td className="pg26-al-td-branch">
+                        {item.Branch || "—"}
+                      </td>
+                    )}
+
+                    {colVis.Quota && (
+                      <td>
+                        <span className="pg26-al-badge-quota">
+                          {item.Quota || "—"}
+                        </span>
+                      </td>
+                    )}
+
+                    {colVis.Category && (
+                      <td>
+                        <span
+                          className={`pg26-al-badge-category-base ${categoryBadgeClass(
+                            item.Category,
+                          )}`}
+                        >
+                          {item.Category || "—"}
+                        </span>
+                      </td>
+                    )}
+
+                    {colVis.Fee && (
+                      <td className="pg26-al-td-fee">
+                        {formatCurrency(item.Fee)}
+                      </td>
+                    )}
+
+                    {colVis["Stipend Yr 1"] && (
+                      <td className="pg26-al-td-stipend">
+                        {formatCurrency(item["Stipend Yr 1"])}
+                      </td>
+                    )}
+
+                    {colVis["Bond Yrs"] && (
+                      <td className="pg26-al-td-muted">
+                        {formatBondYrs(item["Bond Yrs"])}
+                      </td>
+                    )}
+
+                    {colVis.Beds && (
+                      <td className="pg26-al-td-muted">{item.Beds || "—"}</td>
+                    )}
+                  </tr>
+                ))
+              )}
+            </tbody>
+          </table>
+        </div>
+
+        {/* ==========================================
+            PAGINATION
+        ========================================== */}
+
+        <div className="pg26-al-pagination-row">
+          <div className="pg26-al-pagination-info">
+            Showing {totalRecords > 0 ? (page - 1) * PER_PAGE + 1 : 0}–
+            {Math.min(page * PER_PAGE, totalRecords)} of{" "}
+            {totalRecords.toLocaleString("en-IN")}
+          </div>
+
+          <div className="pg26-al-pagination-controls">
+            <button
+              type="button"
+              onClick={() => setPage((prev) => Math.max(1, prev - 1))}
+              disabled={page === 1 || loading || !pagination.hasPreviousPage}
+            >
+              <PrevIcon />
+            </button>
+
+            {Array.from(
+              {
+                length: Math.min(5, totalPages),
+              },
+              (_, idx) => {
+                const start = Math.max(1, Math.min(page - 2, totalPages - 4));
+
+                const pageNum = start + idx;
+
+                if (pageNum > totalPages) {
+                  return null;
+                }
+
+                return (
+                  <button
+                    key={pageNum}
+                    type="button"
+                    onClick={() => setPage(pageNum)}
+                    disabled={loading}
+                    className={
+                      pageNum === page
+                        ? "pg26-al-page-active"
+                        : "pg26-al-page-btn"
+                    }
+                  >
+                    {pageNum}
+                  </button>
+                );
+              },
+            )}
+
+            <button
+              type="button"
+              onClick={() => setPage((prev) => Math.min(totalPages, prev + 1))}
+              disabled={
+                page === totalPages || loading || !pagination.hasNextPage
+              }
+            >
+              <NextIcon />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default PgAllotments2026Page;
