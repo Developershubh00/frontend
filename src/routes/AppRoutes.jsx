@@ -63,7 +63,6 @@ import UgAllotments2025Page from "../pages/neetugDataPages/neetug2025/UgAllotmen
 // Predictors
 import NeetpgPredictor from "../predictors/neetPg/NeetpgPredictor";
 
-import NewHomePage from "../pages/NewHomePage";
 import ScrollToTop from "../hooks/ScrollToTop";
 import AiSensyWidget from "../components/common/AiSensyWidget";
 
@@ -76,7 +75,6 @@ function AppRoutes() {
         {/* ================= PUBLIC WEBSITE ================= */}
         <Route element={<MainLayout />}>
           <Route path="/" element={<HomePage />} />
-          <Route path="/home" element={<NewHomePage />} />
           <Route path="/neet-ug" element={<NeetugPage />} />
           <Route path="/neet-pg" element={<NeetpgPage />} />
           <Route path="/inicet" element={<InicetPage />} />

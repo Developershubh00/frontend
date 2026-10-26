@@ -60,6 +60,13 @@ function DashboardLayout() {
 
             <div className="sidebar-submenu">
               <NavLink
+                to="/dashboard/neetpg-allotments-2026"
+                onClick={closeSidebar}
+                className="sidebar-submenu-link"
+              >
+                All India Allotments 2026
+              </NavLink>
+              <NavLink
                 to="/dashboard/neetpg-allotments-2025"
                 onClick={closeSidebar}
                 className="sidebar-submenu-link"

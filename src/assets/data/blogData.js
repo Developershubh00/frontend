@@ -1,5 +1,226 @@
 const blogData = [
   {
+    id: "best-colleges-for-ms-vs-dnb-orthopedics-through-neet-pg-2026-a-rank-wise-guide",
+    blogDate: "October 26, 2026",
+    image:
+      "https://cdn.dribbble.com/userupload/49432231/file/1464f31c4c719d5701185460e962a653.jpeg",
+    alt: "neet pg 2026",
+    metaTitle: "Best MS vs DNB Orthopedics Colleges Through NEET PG 2026",
+    metaDesc:
+      "Explore the best MS vs DNB Orthopedics colleges through NEET PG 2026 with rank-wise options, admission insights and guidance to choose the right program.",
+    blogTitle:
+      "Best Colleges for MS vs DNB Orthopedics Through NEET PG 2026: A Rank-Wise Guide",
+    author: "Believers Team",
+    category: "NEET PG",
+    keywords: [
+      "neet pg counselling",
+      "neet pg 2026",
+      "orthopedics residency",
+      "neet pg rank",
+      "pg counselling",
+      "career counselling neet pg",
+      "category rank in neet pg",
+      "choice filling in neet pg",
+      "choice filling pg",
+      "neet pg best colleges",
+      "neet pg state counselling",
+      "neet pg state rank",
+      "orthopedic residents",
+    ],
+
+    para: `<p>Picking between MS and DNB Orthopedics after <b>NEET PG 2026</b> takes more than comparing the two degrees. Think about surgical exposure, patient load, faculty support, fees and the quality of academic training. This guide lists colleges worth a look and gives you tips for building a counselling list that fits your rank.</p>
+
+<p>Orthopedics is a hands-on specialty, and what you learn in residency depends heavily on clinical experience and surgical exposure. Many aspirants go straight for the well-known government colleges. But several private medical colleges and DNB hospitals are worth considering too.</p>
+
+<p>These are the institutions mentioned in the video, along with the key things to check before you finalise your <b>NEET PG 2026</b> choices.</p>
+
+<h4>MS vs DNB Orthopedics: Which Should You Choose?</h4>
+
+<table style="width:100%;border-collapse:collapse;margin:16px 0;">
+<thead>
+<tr>
+<th style="border:1px solid #D1D5DB;background-color:#F3F4F6;padding:10px 12px;text-align:left;">Factor</th>
+<th style="border:1px solid #D1D5DB;background-color:#F3F4F6;padding:10px 12px;text-align:left;">MS Orthopedics</th>
+<th style="border:1px solid #D1D5DB;background-color:#F3F4F6;padding:10px 12px;text-align:left;">DNB Orthopedics</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">Training setting</td>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">Medical colleges and eligible institutions</td>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">Accredited hospitals and eligible institutions</td>
+</tr>
+<tr>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">Clinical exposure</td>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">Depends on patient load and case variety</td>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">Depends on hospital workload and case variety</td>
+</tr>
+<tr>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">Academic learning</td>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">Departmental teaching and seminars</td>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">Structured academics and clinical training</td>
+</tr>
+<tr>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">Surgical experience</td>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">Depends on hands-on opportunities</td>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">Depends on hands-on opportunities</td>
+</tr>
+</tbody>
+</table>
+
+<p>Which is better? Neither degree guarantees better training. Compare the institution’s surgical exposure, supervision, academic support and career opportunities before you decide.</p>
+
+<h4>Best DNB Orthopedics Colleges to Explore in South India</h4>
+
+<p>The video mentioned these institutions as options worth looking into:</p>
+
+<li>Ganga Hospital, Coimbatore</li>
+
+<li>Tejaswini Hospital, Mangaluru</li>
+
+<li>IORAS, Madurai</li>
+
+<li>Preethi Hospital, Madurai</li>
+
+<li>Railway Hospital, Chennai</li>
+
+<li>Rajagiri Hospital, Kochi</li>
+
+<li>MIOT International, Chennai</li>
+
+<li>BIRRD Hospital, Tirupati</li>
+
+<li>Yashoda Hospitals, Hyderabad</li>
+
+<li>KER Hospital, Hyderabad</li>
+
+<p>Before you shortlist a centre, confirm its current accreditation, seat availability and training details from official sources.</p>
+
+<h4>Best MS Orthopedics Colleges to Explore</h4>
+
+<h4>Karnataka</h4>
+
+<li>Kasturba Medical College, Manipal</li>
+
+<li>Ramaiah Medical College, Bengaluru</li>
+
+<li>St. John’s Medical College, Bengaluru</li>
+
+<li>KLE Academy of Higher Education and Research, Belagavi</li>
+
+<li>Bangalore Medical College and Research Institute, Bengaluru</li>
+
+<li>K.S. Hegde Medical Academy, Mangaluru</li>
+
+<li>JSS Medical College, Mysuru</li>
+
+<li>SDM College of Medical Sciences and Hospital, Dharwad</li>
+
+<li>J.J.M. Medical College, Davangere</li>
+
+<li>Kasturba Medical College, Mangaluru</li>
+
+<h4>Kerala</h4>
+
+<li>St. James Hospital, Chalakudy</li>
+
+<li>Baby Memorial Hospital, Kozhikode</li>
+
+<h4>Tamil Nadu</h4>
+
+<li>PSG Institute of Medical Sciences and Research, Coimbatore</li>
+
+<h4>Government Medical Colleges in Kerala for MS Orthopedics</h4>
+
+<p>Keep these in mind while you build your preference list:</p>
+
+<li>Government Medical College, Thiruvananthapuram</li>
+
+<li>Government Medical College, Kozhikode</li>
+
+<li>Government Medical College, Kottayam</li>
+
+<li>Government Medical College, Thrissur</li>
+
+<li>Government Medical College, Alappuzha</li>
+
+<li>Government Medical College, Kannur</li>
+
+<li>Jubilee Mission Medical College and Research Institute, Thrissur</li>
+
+<li>Pushpa Giri Institute of Medical Sciences and Research Centre, Thiruvalla</li>
+
+<p>Compare their Orthopedics departments on patient load, operative exposure, faculty availability and academic training.</p>
+
+<h4>MS Orthopedics Colleges in Gujarat and Western India</h4>
+
+<p>The video also points to these institutions:</p>
+
+<li>B.J. Medical College, Ahmedabad</li>
+
+<li>M.P. Shah Government Medical College, Jamnagar</li>
+
+<li>Narendra Modi Medical College, Ahmedabad</li>
+
+<li>Medical College Baroda</li>
+
+<li>Government Medical College, Surat</li>
+
+<li>SMIMER, Surat</li>
+
+<li>GMERS Medical College, Ahmedabad</li>
+
+<p>For each one, check which counselling authority applies, the current seat matrix and the eligibility requirements.</p>
+
+<h4>Other Medical Colleges to Consider</h4>
+
+<li>Madras Medical College, Chennai</li>
+
+<li>Government Stanley Medical College, Chennai</li>
+
+<li>Government Medical College, Tirunelveli</li>
+
+<li>Thanjavur Medical College, Thanjavur</li>
+
+<p>Confirm the current program details and seat availability before you add these to your final choices.</p>
+
+<h4>How to Choose the Right College Based on Your NEET PG Rank</h4>
+
+<p>A practical way to build your counselling list:</p>
+
+<li>Check your rank and eligibility: Your category, your domicile and the quota you’re applying under all change what’s open to you.</li>
+
+<li>Compare MS and DNB options: Weigh the training, the fees, the location and where you want your career to go.</li>
+
+<li>Assess surgical exposure: Find out how many different cases come in, how often residents get to operate and how much they’re allowed to do.</li>
+
+<li>Compare costs: Look up tuition fees, stipend, hostel expenses and any service bond.</li>
+
+<li>Verify official details: Check MCC and your state counselling authority for the latest seat matrices and eligibility rules. Don’t rely on someone else’s summary.</li>
+
+<li>Arrange preferences strategically: Start with a few reach choices, add the ones you can realistically get and finish with backups you’d be fine with, all within what you’re eligible for.</li>
+
+<p>A college’s name isn’t enough to go on, and neither is last year’s cut-off. Fill your list using details you’ve confirmed yourself, and what matters to you.</p>
+
+<h4>Frequently Asked Questions</h4>
+
+<p><b>Q: Is DNB Orthopedics a good option?</b><br/>Yes, if the centre offers good training and surgical exposure.</p>
+
+<p><b>Q: Is MS better than DNB Orthopedics?</b><br/>Neither is better across the board. The quality of training matters most.</p>
+
+<p><b>Q: What should I check before choosing a college?</b><br/>Surgical exposure, faculty, fees, stipend and bonds.</p>
+
+<p><b>Q: Can I pursue DNB Orthopedics through NEET PG?</b><br/>Yes, subject to eligibility and seat availability.</p>
+
+<p><b>Q: Should I consider colleges outside my state?</b><br/>Yes, if you meet the eligibility criteria.</p>
+
+<h4>Conclusion</h4>
+
+<p>Choosing the right Orthopedics program means comparing MS and DNB options carefully. Look into the institutions listed above, check the current counselling details and put surgical exposure, academic support, affordability and eligibility first.</p>
+
+<p>Build your preference list around your rank, the opportunities you can realistically get and your long-term career goals. The degree name and the college’s reputation shouldn’t be the only things you go by.</p>`,
+  },
+  {
     id: "dnb-family-medicine-closing-air-state-wise-previous-year-data-for-rounds-1-2-and-3",
     blogDate: "October 23, 2026",
     image:
