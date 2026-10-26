@@ -20,10 +20,11 @@ const COL_DEFS = [
   { key: "State", label: "State" },
   { key: "Institute", label: "Institute" },
   { key: "Course", label: "Course" },
+  { key: "Branch", label: "Branch" },
   { key: "Quota", label: "Quota" },
   { key: "Category", label: "Category" },
   { key: "Fee", label: "Fee" },
-  { key: "Stipend", label: "Stipend" },
+  { key: "Stipend Yr 1", label: "Stipend (Yr 1)" },
   { key: "Bond Yrs", label: "Bond Yrs" },
   { key: "Beds", label: "Beds" },
 ];
@@ -34,10 +35,11 @@ const DEFAULT_VIS = {
   State: true,
   Institute: true,
   Course: true,
+  Branch: true,
   Quota: true,
   Category: true,
   Fee: true,
-  Stipend: true,
+  "Stipend Yr 1": true,
   "Bond Yrs": true,
   Beds: true,
 };
@@ -207,6 +209,7 @@ const PgAllotments2025Page = () => {
   const [selQuota, setSelQuota] = useState("all");
   const [selCategory, setSelCategory] = useState("all");
   const [selCourse, setSelCourse] = useState("all");
+  const [selBranch, setSelBranch] = useState("all");
   const [selRound, setSelRound] = useState("all");
 
   const [minRank, setMinRank] = useState("");
@@ -241,6 +244,7 @@ const PgAllotments2025Page = () => {
     quotas: [],
     categories: [],
     courses: [],
+    branches: [],
   });
 
   const PER_PAGE = 50;
@@ -296,6 +300,7 @@ const PgAllotments2025Page = () => {
           quotas: result.filters?.quotas || [],
           categories: result.filters?.categories || [],
           courses: result.filters?.courses || [],
+          branches: result.filters?.branches || [],
         });
       } catch (error) {
         if (error.name === "AbortError" || error.code === "ERR_CANCELED") {
@@ -347,6 +352,10 @@ const PgAllotments2025Page = () => {
           params.set("course", selCourse);
         }
 
+        if (selBranch !== "all") {
+          params.set("branch", selBranch);
+        }
+
         if (minRank !== "") {
           params.set("rankFrom", minRank);
         }
@@ -374,7 +383,7 @@ const PgAllotments2025Page = () => {
 
         /*
          * Convert PostgreSQL API fields
-         * into the fields used by your existing UI.
+         * into the fields used by the UI.
          */
 
         const formattedData = (result.data || []).map((item) => ({
@@ -386,11 +395,12 @@ const PgAllotments2025Page = () => {
           State: item.state ?? "",
           Institute: item.institute ?? "",
           Course: item.course ?? "",
+          Branch: item.branch ?? "",
           Quota: item.quota ?? "",
           Category: item.category ?? "",
 
           Fee: item.fee ?? "",
-          Stipend: item.stipend ?? "",
+          "Stipend Yr 1": item.stipend_year_1 ?? "",
 
           "Bond Yrs": item.bond_years ?? "",
           Beds: item.beds ?? "",
@@ -411,7 +421,7 @@ const PgAllotments2025Page = () => {
 
         setDataError(false);
       } catch (error) {
-        if (error.name === "AbortError") {
+        if (error.name === "AbortError" || error.code === "ERR_CANCELED") {
           return;
         }
 
@@ -438,6 +448,7 @@ const PgAllotments2025Page = () => {
     selQuota,
     selCategory,
     selCourse,
+    selBranch,
     minRank,
     maxRank,
   ]);
@@ -482,6 +493,11 @@ const PgAllotments2025Page = () => {
     [data],
   );
 
+  const dataBranches = useMemo(
+    () => data.map((item) => item.Branch).filter(Boolean),
+    [data],
+  );
+
   const rounds = useMemo(() => {
     return Array.from(new Set([...filterOptions.rounds, ...dataRounds])).sort(
       (a, b) => Number(a) - Number(b),
@@ -522,6 +538,16 @@ const PgAllotments2025Page = () => {
     [filterOptions.courses, dataCourses],
   );
 
+  const branches = useMemo(
+    () => [
+      "all",
+      ...Array.from(
+        new Set([...filterOptions.branches, ...dataBranches]),
+      ).sort(),
+    ],
+    [filterOptions.branches, dataBranches],
+  );
+
   /*
    * ==========================================
    * PAGE RESET WHEN FILTER CHANGES
@@ -537,6 +563,7 @@ const PgAllotments2025Page = () => {
     selQuota,
     selCategory,
     selCourse,
+    selBranch,
     minRank,
     maxRank,
   ]);
@@ -567,6 +594,7 @@ const PgAllotments2025Page = () => {
     setSelQuota("all");
     setSelCategory("all");
     setSelCourse("all");
+    setSelBranch("all");
 
     setMinRank("");
     setMaxRank("");
@@ -584,7 +612,7 @@ const PgAllotments2025Page = () => {
    * ==========================================
    */
 
-  if (loading && data.length === 0) {
+  if (loading && data.length === 0 && !dataError) {
     return (
       <div className="pg25-al-loading-screen">
         <div className="pg25-al-loading-box">
@@ -634,7 +662,7 @@ const PgAllotments2025Page = () => {
               {[
                 {
                   label: "Basic Info",
-                  keys: ["Round", "State", "Institute", "Course"],
+                  keys: ["Round", "State", "Institute", "Course", "Branch"],
                 },
                 {
                   label: "Rank & Category",
@@ -642,7 +670,7 @@ const PgAllotments2025Page = () => {
                 },
                 {
                   label: "Fee & Stipend",
-                  keys: ["Fee", "Stipend"],
+                  keys: ["Fee", "Stipend Yr 1"],
                 },
                 {
                   label: "Other",
@@ -783,7 +811,7 @@ const PgAllotments2025Page = () => {
 
             <input
               type="text"
-              placeholder="Search institute, course, state..."
+              placeholder="Search institute, course, branch, state..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
             />
@@ -848,6 +876,16 @@ const PgAllotments2025Page = () => {
               }}
               options={courses}
               allLabel="All Courses"
+            />
+
+            <CustomSelect
+              value={selBranch}
+              onChange={(value) => {
+                setSelBranch(value);
+                setPage(1);
+              }}
+              options={branches}
+              allLabel="All Branches"
             />
 
             <div className="pg25-al-rank-inputs">
@@ -918,7 +956,9 @@ const PgAllotments2025Page = () => {
                   >
                     {dataError
                       ? "Unable to load the data. Please refresh the page and try again."
-                      : "No records found for the selected filters."}
+                      : loading
+                        ? "Loading..."
+                        : "No records found for the selected filters."}
                   </td>
                 </tr>
               ) : (
@@ -946,6 +986,12 @@ const PgAllotments2025Page = () => {
 
                     {colVis.Course && <td>{item.Course || "—"}</td>}
 
+                    {colVis.Branch && (
+                      <td className="pg25-al-td-branch">
+                        {item.Branch || "—"}
+                      </td>
+                    )}
+
                     {colVis.Quota && (
                       <td>
                         <span className="pg25-al-badge-quota">
@@ -972,9 +1018,9 @@ const PgAllotments2025Page = () => {
                       </td>
                     )}
 
-                    {colVis.Stipend && (
+                    {colVis["Stipend Yr 1"] && (
                       <td className="pg25-al-td-stipend">
-                        {formatCurrency(item.Stipend)}
+                        {formatCurrency(item["Stipend Yr 1"])}
                       </td>
                     )}
 
