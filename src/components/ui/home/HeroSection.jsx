@@ -128,7 +128,10 @@ const HeroSection = () => {
         </div>
 
         <div className="hero-college">
-          <a href="https://pdfbros.com/s/npysy8z" target="_blank">
+          <a
+            href="https://drive.google.com/file/d/14DO7qTmqdRy7FSiuTVNsHswbc9WahxYq/view"
+            target="_blank"
+          >
             DNB/MS Orthopedic Colleges List
           </a>
         </div>

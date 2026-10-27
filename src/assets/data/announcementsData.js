@@ -1,5 +1,43 @@
 export const announcements = [
   {
+    title: "NEET PG Counselling",
+    content:
+      "MCC PG Medical: PwD Portal Open Till 2 Nov for Primary Board, Appellate Board Portal From 29 Oct to 5 Nov",
+    date: "2026-10-27",
+    priority: "high",
+    category: "NEET PG",
+    state: "All India",
+    link: "https://mcc.nic.in/pg-medical-counselling/",
+    source: "NEET PG Counselling / MCC (All India)",
+    isActive: true,
+  },
+  {
+    title: "Uttarakhand - PG Medical",
+    content:
+      "Uttarakhand PG Medical: Round 1 Registration and Security Fee Submission Ends Today, 26 Oct (5 PM)",
+    date: "2026-10-26",
+    priority: "high",
+    category: "NEET PG",
+    state: "Uttarakhand",
+    link: "https://www.hnbumu.ac.in/",
+    source:
+      "Hemwati Nandan Bahuguna Uttarakhand Medical Education University (HNBUMU), Dehradun",
+    isActive: true,
+  },
+  {
+    title: "Uttar Pradesh - PG Medical",
+    content:
+      "UP PG Medical: Round 1 Registration Ends Today, 26 Oct (11 AM); Fee and Security Deposit Till 2 PM",
+    date: "2026-10-26",
+    priority: "high",
+    category: "NEET PG",
+    state: "Uttar Pradesh",
+    link: "https://dgme.up.gov.in/",
+    source:
+      "Directorate General of Medical Education and Training (DGME), Uttar Pradesh",
+    isActive: true,
+  },
+  {
     title: "Uttarakhand - PG Medical",
     content: "Round 1 Revised Seat Matrix for All India Open Quota",
     date: "2026-10-26",

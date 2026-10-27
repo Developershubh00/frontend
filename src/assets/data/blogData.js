@@ -1,5 +1,184 @@
 const blogData = [
   {
+    id: "neet-pg-2026-nmc-seat-matrix-explained-what-it-means-for-mcc-counselling-and-your-seat-choices",
+    blogDate: "October 27, 2026",
+    image:
+      "https://cdn.dribbble.com/userupload/49443729/file/9cf52dff8b28adf3c40e09401113d6e6.jpg",
+    alt: "neet pg 2026 seat matrix",
+    metaTitle:
+      "NEET PG 2026 NMC Seat Matrix Explained | MCC Counselling & Seat Choices",
+    metaDesc:
+      "Understand the NEET PG 2026 NMC seat matrix, MCC counselling process, seat availability, and how to make informed choices during admissions.",
+    blogTitle:
+      "NEET PG 2026 NMC Seat Matrix Explained: What It Means for MCC Counselling & Your Seat Choices",
+    author: "Believers Team",
+    category: "Others",
+    keywords: [
+      "neet pg 2026 seat matrix",
+      "nmc seat matrix 2026",
+      "neet pg seat matrix 2026",
+      "neet pg 2026 counselling",
+      "mcc counselling 2026",
+      "nmc neet pg seat matrix",
+      "neet pg 2026 seat allotment",
+      "neet pg 2026",
+      "neet pg",
+      "neet pg exam",
+      "mcc neet pg counselling 2026",
+      "mcc counselling seat matrix 2026",
+      "nmc seat matrix",
+      "neet pg counselling",
+      "neet pg choice filling",
+      "mcc neet pg",
+      "pg counselling",
+      "mcc neet pg counselling",
+      "choice filling in neet pg",
+      "counselling procedure for neet pg",
+      "mcc seat matrix neet pg",
+      "neet pg counselling schedule",
+      "neet pg counselling state quota",
+      "state counselling for neet pg",
+    ],
+
+    para: `<p>NMC put out the <b>NEET PG 2026 seat matrix</b> on September 29, 2026. It’s a sign that counselling is getting closer. The matrix tells institutes and counselling authorities how many PG seats exist, and it’s the base they use to build the final counselling seat matrices.</p>
+
+<p>One thing to be clear on: this is not the final MCC or state counselling seat matrix. It’s where MCC and the state authorities start from when they prepare their own seat lists.</p>
+
+<p>If you haven’t built your choice list yet, or looked at seats, fees, stipend, bonds and which counselling you’ll be part of, this is a good time to begin.</p>
+
+<h4>What Is the NMC Seat Matrix for NEET PG 2026?</h4>
+
+<p>It’s the overall list of PG medical seats approved across institutions for the counselling process.</p>
+
+<p>The September 29 matrix mostly covers MD, MS and PG Diploma seats under NMC. DNB and NB diploma seats are handled separately, through the NBE accreditation process.</p>
+
+<p>Institutes use it to check their own seats, and MCC and the state authorities use it as the raw material for their counselling-specific matrices.</p>
+
+<h4>Is This the Final NEET PG 2026 Seat Matrix?</h4>
+
+<p>No.</p>
+
+<p>Don’t treat the NMC matrix as the final one for MCC or state counselling. Institutes contribute their seats first, and then MCC and each state split them up by quota and category.</p>
+
+<p>The final MCC and state matrices come out later, closer to choice filling. So don’t lock in your final choices based on the current NMC PDF alone.</p>
+
+<h4>How Are Seats Divided for MCC and State Counselling?</h4>
+
+<p>The seats NMC lists get divided between the different counselling processes.</p>
+
+<p>For All India Counselling, eligible seats from states, central institutions, universities and deemed universities go to MCC under the applicable rules. States prepare their own matrices from the seats available to them.</p>
+
+<p>MCC and the state authorities then split the seats further into quotas and categories such as General, EWS, OBC, SC, ST and PwD, wherever they apply.</p>
+
+<p>What comes out of that is the actual seat matrix for that counselling.</p>
+
+<h4>How Many Seats Are Listed in the NEET PG 2026 NMC Matrix?</h4>
+
+<p>The September 2026 matrix lists 63,177 seats. That includes 4,709 DM/MCh seats, which are super-specialty seats and don’t belong to the regular <b>NEET PG counselling</b> we’re talking about here.</p>
+
+<p>Take those out and you get 58,468 seats as the relevant number at this stage. More are expected to be added.</p>
+
+<h4>Are New Seats Being Added in the 2026 NMC Matrix?</h4>
+
+<p>Compared with the previous matrix, the September 29 one doesn’t add any new seats. That doesn’t mean no new seats will come during counselling.</p>
+
+<p>NMC has said more seats can be included later, and that it will publish a revised matrix if they are.</p>
+
+<p>So keep watching the official updates, and don’t assume the September number is final.</p>
+
+<h4>Why Should Candidates Start Preparing Now?</h4>
+
+<p>The matrix being out tells you counselling is moving ahead. Registrations have already started in some states, so it’s time to get your strategy ready.</p>
+
+<p>Before counselling opens, start working on:</p>
+
+<li>College and branch preferences</li>
+
+<li>AIQ and state counselling eligibility</li>
+
+<li>Fees and stipend</li>
+
+<li>Bond conditions</li>
+
+<li>Hostel and location preferences</li>
+
+<li>Clinical exposure</li>
+
+<li>Possible college and branch combinations</li>
+
+<li>Documents you’ll need for registration</li>
+
+<p>If you wait until choice filling opens, you’ll be doing all of this in a rush.</p>
+
+<h4>Can There Be Errors or Missing Seats in the NMC Matrix?</h4>
+
+<p>Yes. Several problems have been pointed out: duplicate records, wrong college names, wrong seat numbers, entries with zero seats and seats that look to be missing.</p>
+
+<p>In some cases, colleges had seats available or allotted in the last counselling cycle but they don’t clearly show up in the current matrix.</p>
+
+<p>That’s why institutes and other stakeholders are expected to check the published data and report any errors, omissions or inconsistencies to NMC.</p>
+
+<h4>Why Do Missing or Duplicate Seats Matter?</h4>
+
+<p>Even a small mistake in the matrix can affect candidates directly.</p>
+
+<p>If a seat is missing, you may not see it when you fill choices. If seats are duplicated or reported wrongly, nobody can be sure how many seats there really are at the time of allotment or admission.</p>
+
+<p>There are specific cases where earlier allotments don’t match the current seat numbers, and NMC or the institute may need to clarify.</p>
+
+<p>So if you’re interested in a particular college or branch, check the final counselling seat matrix carefully once it’s released.</p>
+
+<h4>What Should NEET PG Aspirants Do Now?</h4>
+
+<h4>Step 1: Understand the NMC Matrix</h4>
+
+<p>Use it as a starting point. It isn’t the final MCC or state choice list.</p>
+
+<h4>Step 2: Shortlist Colleges and Branches</h4>
+
+<p>Make a realistic list based on your rank, category, preferred branch and career goals.</p>
+
+<h4>Step 3: Check Practical Factors</h4>
+
+<p>Look at fees, stipend, bonds, clinical exposure, location, hostel facilities and anything else before you rank a college.</p>
+
+<h4>Step 4: Track Final Seat Matrices</h4>
+
+<p>Wait for MCC and your state counselling authorities to publish their own matrices before you do your final choice filling.</p>
+
+<h4>Step 5: Recheck Your Choices</h4>
+
+<p>When the final matrix is out, update your list to match the seats actually available in each round.</p>
+
+<h4>What About Seats Added Later?</h4>
+
+<p>If some seats you expected aren’t in the first matrix, don’t panic.</p>
+
+<p>More seats are expected, and candidates can take part in the later counselling rounds under the applicable rules.</p>
+
+<p>Keep checking the official updates, and go back over your choices when a revised matrix comes out.</p>
+
+<h4>Final Takeaway</h4>
+
+<p>The <b>NEET PG 2026</b> <b>NMC seat matrix</b> is an important first step toward counselling. It isn’t the final MCC or state seat matrix.</p>
+
+<p>The September 29 matrix is the base that institutes, MCC and the state authorities will check, divide and turn into the seat lists for real counselling.</p>
+
+<p>So don’t just sit and wait for counselling dates. Start researching colleges, comparing branches, checking fees and bonds, and building your preference list.</p>
+
+<p>And please don’t base your final choices on the current NMC matrix alone. Wait for the counselling-specific matrix, and keep following the updates through the whole process.</p>
+
+<h4>FAQs</h4>
+
+<p><b>Q: Is the <b>NMC seat matrix</b> the final MCC seat matrix?</b><br/>No. MCC will publish a separate seat matrix for its counselling.</p>
+
+<p><b>Q: Will more <b>NEET PG</b> seats be added later?</b><br/>Yes, more seats may be added in later updates.</p>
+
+<p><b>Q: How many seats are listed in the September 2026 NMC matrix?</b><br/>63,177 seats, including some that fall outside regular NEET PG counselling.</p>
+
+<p><b>Q: Should I prepare my choice list now?</b><br/>Yes. Start working on your preferences before the final seat matrix comes out.</p>`,
+  },
+  {
     id: "best-colleges-for-ms-vs-dnb-orthopedics-through-neet-pg-2026-a-rank-wise-guide",
     blogDate: "October 26, 2026",
     image:
