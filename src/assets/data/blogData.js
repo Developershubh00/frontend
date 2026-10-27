@@ -12,7 +12,7 @@ const blogData = [
     blogTitle:
       "NEET PG 2026 NMC Seat Matrix Explained: What It Means for MCC Counselling & Your Seat Choices",
     author: "Believers Team",
-    category: "Others",
+    category: "NEET PG",
     keywords: [
       "neet pg 2026 seat matrix",
       "nmc seat matrix 2026",

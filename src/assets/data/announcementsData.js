@@ -1,4 +1,89 @@
 export const announcements = [
+  //  {
+  //   title: "",
+  //   content:
+  //     "",
+  //   date: "2026-10-27",
+  //   priority: "high",
+  //   category: "NEET PG",
+  //   state: "",
+  //   link: "",
+  //   source: "",
+  //   isActive: true,
+  // },
+  {
+    title: "Gujarat - PG Medical",
+    content:
+      "Gujarat PG Medical: Round 1 Choice Filling Schedule Released, Open Till 31 Oct (10 AM)",
+    date: "2026-10-27",
+    priority: "high",
+    category: "NEET PG",
+    state: "Gujarat",
+    link: "https://medadmgujarat.ncode.in/web/PG2026/MDMS/R1/Adv%20-%201st%20Round%20of%20Online%20Choice%20filling2026-27.pdf",
+    source: "Gujarat PG Medical / NEET PG 2026",
+    isActive: true,
+  },
+  {
+    title: "Jharkhand - PG Medical",
+    content:
+      "Jharkhand PG Medical: Round 1 Provisional State Merit List Released",
+    date: "2026-10-27",
+    priority: "high",
+    category: "NEET PG",
+    state: "Jharkhand",
+    link: "https://jceceb.jharkhand.gov.in/con_notice/815.pdf",
+    source:
+      "Jharkhand Combined Entrance Competitive Examination Board (JCECEB), Ranchi",
+    isActive: true,
+  },
+  {
+    title: "Puducherry - PG Medical",
+    content:
+      "Puducherry PG Medical: Online Application Extended Till 29 October (5 PM)",
+    date: "2026-10-27",
+    priority: "high",
+    category: "NEET PG",
+    state: "Puducherry",
+    link: "https://drive.google.com/file/d/1foxacoa27MYCELIyL_TFKL0uoKRmyMa0/view",
+    source: "Official government source (state counselling authority)",
+    isActive: true,
+  },
+  {
+    title: "Jammu and Kashmir - PG Medical",
+    content:
+      "Jammu and Kashmir PG Medical: Round 1 Online Choice Filling Schedule Released, Starts 28 Oct",
+    date: "2026-10-27",
+    priority: "high",
+    category: "NEET PG",
+    state: "Jammu and Kashmir",
+    link: "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=19330&type=n",
+    source: "J&K Board of Professional Entrance Examinations (JKBOPEE)",
+    isActive: true,
+  },
+  {
+    title: "Madhya Pradesh - PG Medical",
+    content:
+      "MP PG Medical: Round 1 Choice Filling & Locking Suspended Today from 3 PM to 4 PM",
+    date: "2026-10-27",
+    priority: "high",
+    category: "NEET PG",
+    state: "Madhya Pradesh",
+    link: "https://dme.mponline.gov.in/ql_dme/DMECounselling_Public/DMEPG/2026/PG%20Notice%20u_52.pdf",
+    source: "Madhya Pradesh PG Medical / NEET PG 2026",
+    isActive: true,
+  },
+  {
+    title: "Kerala - PG Medical",
+    content:
+      "Kerala PG Medical: Seat Matrix for Minority, NRI and In-Service Quota Seats Published",
+    date: "2026-10-27",
+    priority: "high",
+    category: "NEET PG",
+    state: "Kerala",
+    link: "https://cee.kerala.gov.in/pgm2026/",
+    source: "Kerala PG Medical / NEET PG 2026",
+    isActive: true,
+  },
   {
     title: "NEET PG Counselling",
     content:
