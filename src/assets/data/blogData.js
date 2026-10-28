@@ -1,5 +1,175 @@
 const blogData = [
   {
+    id: "unsure-about-your-allotted-seat-should-you-freeze-or-float-in-mcc-counselling",
+    blogDate: "October 28, 2026",
+    image:
+      "https://cdn.dribbble.com/userupload/49455055/file/e1865583e935ffc9ca7b0f96ae0e5808.jpg",
+    alt: "mcc counselling freeze or float",
+    metaTitle:
+      "Unsure About Your Allotted Seat? Should You Freeze or Float in MCC Counselling?",
+    metaDesc:
+      "Unsure about your allotted seat? Learn the difference between freeze and float options in MCC counselling to make an informed decision for your medical career.",
+    blogTitle:
+      "Unsure About Your Allotted Seat? Should You Freeze or Float in MCC Counselling?",
+    author: "Believers Team",
+    category: "Others",
+    keywords: [
+      "mcc counselling 2026",
+      "neet pg counselling 2026",
+      "mcc counselling seat allotment",
+      "neet pg counselling",
+      "mcc counselling choice filling",
+      "medical pg admission",
+      "mcc counselling rounds",
+      "neet pg choice locking",
+      "mcc counselling",
+      "mcc counselling process",
+    ],
+
+    para: `<p>You’ve got a seat in <b>NEET PG counselling</b>. That’s a milestone. But what if the college or branch isn’t your first choice?</p>
+
+<p>Do you take the seat and move on, or keep the door open for an upgrade?</p>
+
+<p>That’s what the Freeze and Float options in <b>MCC counselling</b> are for. Knowing how they differ lets you decide without putting your allotted seat at risk for no reason.</p>
+
+<h4>What Do Freeze and Float Mean in MCC Counselling?</h4>
+
+<p>Once a seat is allotted, you have to decide: keep it, or stay eligible for an upgrade in the next round.</p>
+
+<h4>Freeze: Accept Your Allotted Seat</h4>
+
+<p>Go for Freeze if you’re happy with the college and branch you’ve been given and don’t want to take part in any upgrade.</p>
+
+<li>You accept the allotted seat.</li>
+
+<li>You go ahead with physical reporting and the admission formalities.</li>
+
+<li>You can’t be upgraded in the next round.</li>
+
+<h4>Float: Keep Your Seat and Explore Better Options</h4>
+
+<p>Go for Float if you’d take your current seat but still want to try for something you prefer more in the next round.</p>
+
+<li>You keep your current seat while you wait for an upgrade.</li>
+
+<li>You give your willingness for upgradation online.</li>
+
+<li>Your documents are uploaded for the allotted institute to verify online.</li>
+
+<li>If you’re upgraded, you have to join the new seat under MCC rules.</li>
+
+<p>The 2026 <b>MCC counselling process</b> has separate procedures for Freeze and Float candidates. Check the current official counselling scheme and instructions before you pick.</p>
+
+<h4>Freeze vs Float: Which Option Should You Choose?</h4>
+
+<p>It comes down to how happy you are with the seat and whether you want to look for something better.</p>
+
+<table style="width:100%;border-collapse:collapse;margin:16px 0;">
+<thead>
+<tr>
+<th style="border:1px solid #D1D5DB;background-color:#F3F4F6;padding:10px 12px;text-align:left;">Situation</th>
+<th style="border:1px solid #D1D5DB;background-color:#F3F4F6;padding:10px 12px;text-align:left;">What to Consider</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">You are satisfied with your college and branch</td>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">Freeze</td>
+</tr>
+<tr>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">You want a higher-preference college or branch</td>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">Float</td>
+</tr>
+<tr>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">You are unsure about your allotted seat</td>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">Review your preferences before deciding</td>
+</tr>
+<tr>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">You want to retain your seat while seeking an upgrade</td>
+<td style="border:1px solid #D1D5DB;padding:10px 12px;">Float</td>
+</tr>
+</tbody>
+</table>
+
+<h4>What Should You Check Before Choosing Freeze or Float?</h4>
+
+<p>Think about these before you decide:</p>
+
+<h4>1. Your Branch Preference</h4>
+
+<p>Is the branch you’ve been allotted really the one you want to spend your career in?</p>
+
+<p>Think about what interests you, where you want to be in the long run and what kind of clinical work you’d like to do.</p>
+
+<h4>2. Your College Preference</h4>
+
+<p>Don’t go by the college’s name. Look at:</p>
+
+<li>Clinical exposure and patient load</li>
+
+<li>Infrastructure and facilities</li>
+
+<li>Hands-on training</li>
+
+<li>Faculty and academic support</li>
+
+<li>Fees, bond and stipend</li>
+
+<h4>3. Your Higher Preferences</h4>
+
+<p>If you choose Float, make sure the choices you’ve placed higher are ones you actually want.</p>
+
+<p>Go through your list carefully. Rank colleges and branches by your preferences, your eligibility and what happened in previous-year counselling.</p>
+
+<h4>4. Your Counselling Round</h4>
+
+<p>What happens if you don’t join, resign or surrender a seat is different in different rounds.</p>
+
+<p>Round 1 and the later rounds, for example, can have different rules on exit and the security deposit. Don’t assume you can walk away from a seat with no consequences.</p>
+
+<h4>Common Mistakes to Avoid During MCC Counselling</h4>
+
+<li>Picking Freeze or Float without knowing the rules.</li>
+
+<li>Choosing a branch only because of its closing rank.</li>
+
+<li>Ignoring the college’s clinical exposure and quality of training.</li>
+
+<li>Assuming an upgrade is guaranteed.</li>
+
+<li>Missing the document upload or reporting deadlines.</li>
+
+<li>Making decisions on counselling information you haven’t verified.</li>
+
+<p>Remember, Float doesn’t guarantee an upgrade. It only keeps you eligible for one, under the counselling rules that apply.</p>
+
+<h4>Plan Your Counselling with Believers Consultancy</h4>
+
+<p>Not sure whether to hold on to your seat or aim higher?</p>
+
+<p>Believers Consultancy, CoreBTR’s trusted counselling partner, offers exclusive counselling support for CoreBTRians.</p>
+
+<p>With previous-year data and transparent guidance, you can compare your college and branch options and go into counselling with a clearer head.</p>
+
+<h4>Conclusion</h4>
+
+<p>Freeze or Float isn’t just about taking a seat or turning it down. It’s about picking what fits your branch preference, your college priorities and your career goals.</p>
+
+<p>Know your options, read the official MCC rules and decide carefully.</p>
+
+<p>Every Career Decision Deserves Confidence.</p>
+
+<h4>FAQs</h4>
+
+<p><b>Q: What does Freeze mean in MCC counselling?</b><br/>Accepting your allotted seat without seeking an upgrade.</p>
+
+<p><b>Q: What does Float mean in MCC counselling?</b><br/>Retaining your seat while seeking an upgrade.</p>
+
+<p><b>Q: Can I get an upgrade after choosing Float?</b><br/>Yes, subject to seat availability and MCC rules.</p>
+
+<p><b>Q: Can I change Freeze to Float later?</b><br/>It depends on the counselling round and applicable MCC rules.</p>`,
+  },
+  {
     id: "neet-pg-2026-nmc-seat-matrix-explained-what-it-means-for-mcc-counselling-and-your-seat-choices",
     blogDate: "October 27, 2026",
     image:
